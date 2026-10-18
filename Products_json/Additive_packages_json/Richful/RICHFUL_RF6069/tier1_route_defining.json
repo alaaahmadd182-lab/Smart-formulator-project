@@ -1,0 +1,330 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "RICHFUL_RF6069",
+  "product": {
+    "product_name": "RF6069 CI-4 Diesel Engine Oil Package",
+    "supplier": "Xinxiang Richful Lube Additive Co., Ltd.",
+    "document_type": [
+      "TDS",
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-15618.pdf",
+      "DL2-15619.pdf"
+    ],
+    "revision_date": [
+      null,
+      "2022-01-04"
+    ]
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "CI-4 Diesel Engine Oil Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15618.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "RF6069 Diesel Engine Oil Package is formulated with a number of high-quality detergent, soot dispersant, anti-oxidant and anti-corrosive, high-temp anti-oxidant and other additive components.",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15618.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "recommended",
+        "scope": "'Recommended Treat Rate' table: 15W-40, 20W-50, 8.5%. Intro: 'The CI-4, CH-4, and CF-4 diesel engine oils formulated with this package with appropriate API Group I, II and III base oils provide excellent soot dispersancy, high-temp detergency, anti-oxidation and anti-wear performance'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15618.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CH-4",
+        "claim_type": "recommended",
+        "scope": "'Recommended Treat Rate' table: 15W-40, 20W-50, 40, 50, 7.8%. Intro: 'The CI-4, CH-4, and CF-4 diesel engine oils formulated with this package with appropriate API Group I, II and III base oils provide excellent soot dispersancy, high-temp detergency, anti-oxidation and anti-wear performance'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15618.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4",
+        "claim_type": "recommended",
+        "scope": "'Recommended Treat Rate' table: 15W-40, 20W-50, 40, 50, 4.1%+1.9%RF0206. Intro: 'The CI-4, CH-4, and CF-4 diesel engine oils formulated with this package with appropriate API Group I, II and III base oils provide excellent soot dispersancy, high-temp detergency, anti-oxidation and anti-wear performance'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15618.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15618.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "20W-50",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15618.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15618.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "50",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15618.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "API Group I",
+        "API Group II",
+        "API Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "with appropriate API Group I, II and III base oils"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-15618.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CI-4",
+        "sae_grade": "15W-40, 20W-50",
+        "treat_rate_wt_pct": {
+          "value": 8.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CI-4 15W-40, 20W-50 8.5%",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-15618.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CH-4",
+        "sae_grade": "15W-40, 20W-50, 40, 50",
+        "treat_rate_wt_pct": {
+          "value": 7.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CH-4 15W-40, 20W-50, 40, 50 7.8%",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-15618.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF-4",
+        "sae_grade": "15W-40, 20W-50, 40, 50",
+        "treat_rate_wt_pct": {
+          "value": 4.1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CF-4 15W-40, 20W-50, 40, 50 4.1%+1.9%RF0206",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Plus 1.9% RF0206. Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-15618.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "Co-additive for API CF-4 route",
+        "name": "RF0206",
+        "dose_wt_pct": {
+          "value": 1.9,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "4.1%+1.9%RF0206",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "CF-4 row; RF0206 function not stated.",
+          "source": {
+            "file": "DL2-15618.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "TDS DL2-15618.pdf has no date; SDS DL2-15619.pdf: Issue/Revision date 1/4/2022, version 2.0 (body image/vector graphics, read visually).",
+    "KV100 differs: TDS 118 mm2/s vs SDS 142 mm²/s; TDS undated, so the field is left null (see conflicts).",
+    "RF0206 (1.9% in the CF-4 route) is not described on the sheet."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

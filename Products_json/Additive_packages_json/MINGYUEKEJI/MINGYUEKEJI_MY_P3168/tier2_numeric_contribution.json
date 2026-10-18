@@ -1,0 +1,313 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "MINGYUEKEJI_MY_P3168",
+  "product": {
+    "product_name": "Additive Package MY-P3168",
+    "supplier": "MINGYUEKEJI",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "TDS%20of%20P3168.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "tbn": {
+      "value": 130.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": "TBN, mgKOH/g(ASTM D2896) 130.00",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "ASTM D2896",
+      "status": "reported",
+      "calculation_note": "Under 'Chemical/Physical Characteristics'; not labelled typical or specification.",
+      "source": {
+        "file": "TDS%20of%20P3168.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 17.04,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "calculated",
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "Calculated (ASTM D874 factors)",
+      "status": "calculated",
+      "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×4.5 (Ca) + 1.24×1.4 (Zn) = 17.0360 → 17.04 wt.%. Mg not reported, taken as 0.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+    },
+    "elements": {
+      "Ca": {
+        "value": 4.5,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": "Ca, mass%(ASTM D4951) 4.50",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "Under 'Chemical/Physical Characteristics'; not labelled typical or specification.",
+        "source": {
+          "file": "TDS%20of%20P3168.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.4,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": "Zn, mass%(ASTM D4951) 1.40",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "Under 'Chemical/Physical Characteristics'; not labelled typical or specification.",
+        "source": {
+          "file": "TDS%20of%20P3168.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 1.3,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": "P, mass%(ASTM D4951) 1.30",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "Under 'Chemical/Physical Characteristics'; not labelled typical or specification.",
+        "source": {
+          "file": "TDS%20of%20P3168.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.5,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": "N, mass%(ASTM D4951) 0.50",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "Under 'Chemical/Physical Characteristics'; not labelled typical or specification. Method printed as ASTM D4951 for nitrogen.",
+        "source": {
+          "file": "TDS%20of%20P3168.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 130,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": "Viscosity, cSt, 100℃(ASTM D445) 130",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "reported",
+      "calculation_note": "Under 'Chemical/Physical Characteristics'; not labelled typical or specification.",
+      "source": {
+        "file": "TDS%20of%20P3168.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 1.07,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": "Density, kg/L, 15℃(ASTM D4052) 1.070",
+      "unit": "kg/L",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "reported",
+      "calculation_note": "Template unit kg/m3; printed kg/L kept. Under 'Chemical/Physical Characteristics'; not labelled typical or specification.",
+      "source": {
+        "file": "TDS%20of%20P3168.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 210,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": "Flash point (COC), ℃(ASTM D92) 210",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "reported",
+      "calculation_note": "Under 'Chemical/Physical Characteristics'; not labelled typical or specification.",
+      "source": {
+        "file": "TDS%20of%20P3168.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "KV40, sulfated ash, Mg, B, Mo, S and pour point not printed. Nitrogen method printed as ASTM D4951."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

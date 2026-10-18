@@ -1,0 +1,775 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "ENI_MX_5212",
+  "product": {
+    "product_name": "Eni MX 5212",
+    "supplier": "Eni spa",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-14981.pdf"
+    ],
+    "revision_date": "02/2017"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "HDDO Additive Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "additive package for Heavy Duty Diesel Oils designed for traditional engine technologies. It could be used also in Passenger Car Motor Oils.",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4/SM",
+        "claim_type": "recommended",
+        "scope": "Table 'Treat Rate / API Specifications' under 'APPLICATIONS & PROPERTIES'; text: 'Eni MX 5212 is recommended for blending high performance heavy duty engine oils when formulated with the appropriate base stocks and Viscosity Modifier.' Treat rate: 6.95% + 1.20% Eni MX 5612A.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4/SL",
+        "claim_type": "recommended",
+        "scope": "Table 'Treat Rate / API Specifications' under 'APPLICATIONS & PROPERTIES'; text: 'Eni MX 5212 is recommended for blending high performance heavy duty engine oils when formulated with the appropriate base stocks and Viscosity Modifier.' Treat rate: 6.95% + 0.50% Eni MX 5612A.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4/SJ",
+        "claim_type": "recommended",
+        "scope": "Table 'Treat Rate / API Specifications' under 'APPLICATIONS & PROPERTIES'; text: 'Eni MX 5212 is recommended for blending high performance heavy duty engine oils when formulated with the appropriate base stocks and Viscosity Modifier.' Treat rate: 6.95%.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF/SJ",
+        "claim_type": "recommended",
+        "scope": "Table 'Treat Rate / API Specifications' under 'APPLICATIONS & PROPERTIES'; text: 'Eni MX 5212 is recommended for blending high performance heavy duty engine oils when formulated with the appropriate base stocks and Viscosity Modifier.' Treat rate: 5.35%.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF/SG",
+        "claim_type": "recommended",
+        "scope": "Table 'Treat Rate / API Specifications' under 'APPLICATIONS & PROPERTIES'; text: 'Eni MX 5212 is recommended for blending high performance heavy duty engine oils when formulated with the appropriate base stocks and Viscosity Modifier.' Treat rate: 5.10%.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF/SF",
+        "claim_type": "recommended",
+        "scope": "Table 'Treat Rate / API Specifications' under 'APPLICATIONS & PROPERTIES'; text: 'Eni MX 5212 is recommended for blending high performance heavy duty engine oils when formulated with the appropriate base stocks and Viscosity Modifier.' Treat rate: 4.90%.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SG/CD",
+        "claim_type": "recommended",
+        "scope": "Table 'Treat Rate / API Specifications' under 'APPLICATIONS & PROPERTIES'; text: 'Eni MX 5212 is recommended for blending high performance heavy duty engine oils when formulated with the appropriate base stocks and Viscosity Modifier.' Treat rate: 4.50%.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SF/CD",
+        "claim_type": "recommended",
+        "scope": "Table 'Treat Rate / API Specifications' under 'APPLICATIONS & PROPERTIES'; text: 'Eni MX 5212 is recommended for blending high performance heavy duty engine oils when formulated with the appropriate base stocks and Viscosity Modifier.' Treat rate: 3.80%.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SF/CC",
+        "claim_type": "recommended",
+        "scope": "Table 'Treat Rate / API Specifications' under 'APPLICATIONS & PROPERTIES'; text: 'Eni MX 5212 is recommended for blending high performance heavy duty engine oils when formulated with the appropriate base stocks and Viscosity Modifier.' Treat rate: 3.60%.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SE/CC",
+        "claim_type": "recommended",
+        "scope": "Table 'Treat Rate / API Specifications' under 'APPLICATIONS & PROPERTIES'; text: 'Eni MX 5212 is recommended for blending high performance heavy duty engine oils when formulated with the appropriate base stocks and Viscosity Modifier.' Treat rate: 3.30%.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SD/CC",
+        "claim_type": "recommended",
+        "scope": "Table 'Treat Rate / API Specifications' under 'APPLICATIONS & PROPERTIES'; text: 'Eni MX 5212 is recommended for blending high performance heavy duty engine oils when formulated with the appropriate base stocks and Viscosity Modifier.' Treat rate: 3.10%.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SC/CC",
+        "claim_type": "recommended",
+        "scope": "Table 'Treat Rate / API Specifications' under 'APPLICATIONS & PROPERTIES'; text: 'Eni MX 5212 is recommended for blending high performance heavy duty engine oils when formulated with the appropriate base stocks and Viscosity Modifier.' Treat rate: 2.70%.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SB/CB",
+        "claim_type": "recommended",
+        "scope": "Table 'Treat Rate / API Specifications' under 'APPLICATIONS & PROPERTIES'; text: 'Eni MX 5212 is recommended for blending high performance heavy duty engine oils when formulated with the appropriate base stocks and Viscosity Modifier.' Treat rate: 1.80%.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "all monogrades",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 15W-50",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 20W-50",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 1,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I (grades from 15W-40)"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "Grades from 15W-40 are fully obtained with Group I base stocks.",
+        "when formulated with the appropriate base stocks and Viscosity Modifier"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-14981.pdf",
+        "page": 1,
+        "revision_date": "02/2017"
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "Eni MX 5212 can be used alone or with a specific booster (Eni MX 5612 A) to have a cascade system."
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-14981.pdf",
+        "page": 1,
+        "revision_date": "02/2017"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CF-4/SM",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 6.95,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "6.95% + 1.20% Eni MX 5612A | CF-4/SM",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Plus 1.2% Eni MX 5612A booster. Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14981.pdf",
+            "page": 1,
+            "revision_date": "02/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF-4/SL",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 6.95,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "6.95% + 0.50% Eni MX 5612A | CF-4/SL",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Plus 0.5% Eni MX 5612A booster. Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14981.pdf",
+            "page": 1,
+            "revision_date": "02/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF-4/SJ",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 6.95,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "6.95% | CF-4/SJ",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14981.pdf",
+            "page": 1,
+            "revision_date": "02/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF/SJ",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 5.35,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "5.35% | CF/SJ",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14981.pdf",
+            "page": 1,
+            "revision_date": "02/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF/SG",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 5.1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "5.10% | CF/SG",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14981.pdf",
+            "page": 1,
+            "revision_date": "02/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF/SF",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 4.9,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "4.90% | CF/SF",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14981.pdf",
+            "page": 1,
+            "revision_date": "02/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SG/CD",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 4.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "4.50% | SG/CD",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14981.pdf",
+            "page": 1,
+            "revision_date": "02/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SF/CD",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 3.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "3.80% | SF/CD",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14981.pdf",
+            "page": 1,
+            "revision_date": "02/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SF/CC",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 3.6,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "3.60% | SF/CC",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14981.pdf",
+            "page": 1,
+            "revision_date": "02/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SE/CC",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 3.3,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "3.30% | SE/CC",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14981.pdf",
+            "page": 1,
+            "revision_date": "02/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SD/CC",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 3.1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "3.10% | SD/CC",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14981.pdf",
+            "page": 1,
+            "revision_date": "02/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SC/CC",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 2.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "2.70% | SC/CC",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14981.pdf",
+            "page": 1,
+            "revision_date": "02/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SB/CB",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 1.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "1.80% | SB/CB",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14981.pdf",
+            "page": 1,
+            "revision_date": "02/2017"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "Booster (cascade)",
+        "name": "Eni MX 5612A",
+        "dose_wt_pct": {
+          "value": 1.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "6.95% + 1.20% Eni MX 5612A",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "For API CF-4/SM.",
+          "source": {
+            "file": "DL2-14981.pdf",
+            "page": 1,
+            "revision_date": "02/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "Booster (cascade)",
+        "name": "Eni MX 5612A",
+        "dose_wt_pct": {
+          "value": 0.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "6.95% + 0.50% Eni MX 5612A",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "For API CF-4/SL.",
+          "source": {
+            "file": "DL2-14981.pdf",
+            "page": 1,
+            "revision_date": "02/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "Viscosity Modifier",
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Text: 'when formulated with the appropriate base stocks and Viscosity Modifier'; product and dose not printed.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Claim type 'recommended' from the text 'is recommended for blending ...' and the 'TREAT RATE & PERFORMANCE CLAIMS' table (DL2-14981.pdf p.1).",
+    "Treat rates are printed as '%' with no mass/volume basis. No SDS in the archive."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

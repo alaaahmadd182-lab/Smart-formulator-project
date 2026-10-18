@@ -1,0 +1,133 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "EXXONMOBIL_SN_800__T1",
+  "product": {
+    "product_name": "SN 800",
+    "supplier": "ExxonMobil",
+    "document_type": "Product Datasheet",
+    "source_file": "DL2-12124.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group I",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12124.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      "chemistry": {
+        "value": "Mineral base oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12124.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": [
+        13,
+        16.5
+      ],
+      "qualifier": "Sales specification",
+      "min": null,
+      "max": null,
+      "value_kind": "range",
+      "printed_text": "[13, 16.5]",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12124.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 85,
+      "qualifier": "Sales specification",
+      "min": null,
+      "max": null,
+      "value_kind": "minimum",
+      "printed_text": "85",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12124.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [],
+  "conflicts": []
+}

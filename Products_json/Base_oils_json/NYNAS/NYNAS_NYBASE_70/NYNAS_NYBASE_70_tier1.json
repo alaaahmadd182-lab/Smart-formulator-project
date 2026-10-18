@@ -1,0 +1,147 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "NYNAS_NYBASE_70",
+  "product": {
+    "product_name": "NYBASE 70",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-13344.pdf",
+    "revision_date": "2020-04-15"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      },
+      "chemistry": {
+        "value": "Severely hydrotreated specialty base oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-13344.pdf",
+          "page": 1,
+          "revision_date": "2020-04-15"
+        },
+        "printed_text": "Severely hydrotreated base oil; specialty base oil for Group I replacement",
+        "value_kind": "supplier description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 14,
+      "qualifier": null,
+      "min": 12.5,
+      "max": 15.5,
+      "value_kind": "typical",
+      "printed_text": "Typical 14 cSt; limits 12.5–15.5 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13344.pdf",
+        "page": 2,
+        "revision_date": "2020-04-15"
+      }
+    },
+    "kv100": {
+      "value": 3.2,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 3.2 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13344.pdf",
+        "page": 2,
+        "revision_date": "2020-04-15"
+      }
+    },
+    "viscosity_index": {
+      "value": 85,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 85",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13344.pdf",
+        "page": 2,
+        "revision_date": "2020-04-15"
+      }
+    },
+    "density": {
+      "value": 0.862,
+      "qualifier": null,
+      "min": 0.853,
+      "max": 0.873,
+      "value_kind": "typical",
+      "printed_text": "Typical 0.862 kg/dm3 at 15°C; limits 0.853–0.873",
+      "unit": "kg/dm3",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13344.pdf",
+        "page": 2,
+        "revision_date": "2020-04-15"
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "API group not explicitly stated: marketed for Group I replacement, not classified as Group I.",
+    "SDS reconciliation pending."
+  ],
+  "conflicts": []
+}

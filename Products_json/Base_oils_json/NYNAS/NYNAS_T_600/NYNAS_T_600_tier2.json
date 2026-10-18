@@ -1,0 +1,116 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "NYNAS_T_600",
+  "product": {
+    "product_name": "Nynas T 600",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-13009.pdf",
+    "revision_date": "2018-03-19"
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -12,
+      "qualifier": null,
+      "min": null,
+      "max": 0,
+      "value_kind": "typical",
+      "printed_text": "Typical -12°C; specification maximum 0°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13009.pdf",
+        "page": 2,
+        "revision_date": "2018-03-19"
+      }
+    },
+    "flash_point": {
+      "value": 250,
+      "qualifier": null,
+      "min": 240,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Pensky-Martens typical 250°C; specification minimum 240°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D93A",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13009.pdf",
+        "page": 2,
+        "revision_date": "2018-03-19"
+      },
+      "flash_method": "PM"
+    }
+  },
+  "open_questions": [
+    "Grade-specific SDS not reconciled."
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,570 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_component",
+  "tier": 2,
+  "tier_label": "Viscosity modifier - adds to the general block",
+  "record_id": "RF6602",
+  "product": {
+    "product_name": "RF6602 Polymethacrylate (PMA) Viscosity Index Improver",
+    "supplier": "Xinxiang Richful Lube Additive Co., Ltd",
+    "document_type": [
+      "TDS",
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-14874.pdf",
+      "RF6602.pdf"
+    ],
+    "revision_date": [
+      null,
+      "2022-02-18"
+    ]
+  },
+  "component_subtype": "VM",
+  "fields": {
+    "polymer_chemistry": {
+      "value": null,
+      "unit": null,
+      "type": "Polymethacrylate (PMA)",
+      "form": null,
+      "status": "reported",
+      "source": {
+        "file": "DL2-14874.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "active_polymer": {
+      "wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": 65,
+        "max": 85,
+        "value_kind": "range",
+        "printed_text": "Acrylic copolymer CAS-No: No 65 - 85",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "reported",
+        "calculation_note": "SDS Section 3 component share of the polymer ('Acrylic copolymer').",
+        "source": {
+          "file": "RF6602.pdf",
+          "page": 2,
+          "revision_date": "2022-02-18"
+        },
+        "notes": null
+      },
+      "carrier_identity": "Distillates (petroleum), hydrotreated heavy paraffinic (contains less than 3% DMSO extract), CAS-No.: 64742-54-7",
+      "carrier_share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": 15,
+        "max": 35,
+        "value_kind": "range",
+        "printed_text": "Distillates (petroleum), hydrotreated heavy paraffinic ... 64742-54-7 15 – 35",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "reported",
+        "calculation_note": "SDS Section 3.",
+        "source": {
+          "file": "RF6602.pdf",
+          "page": 2,
+          "revision_date": "2022-02-18"
+        },
+        "notes": null
+      }
+    },
+    "treat_range_by_sae_grade": [
+      {
+        "sae_grade": null,
+        "treat_range_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "thickening_response": [
+      {
+        "reference_oil": "150N",
+        "dose_wt_pct": 1,
+        "method": null,
+        "delta_kv100_cst": {
+          "value": 0.54,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "1% KV40/100℃(mm/s2) 32.077/5.77; 0% 29.22/5.23",
+          "unit": "cSt",
+          "test_temperature_c": 100,
+          "method": null,
+          "status": "calculated",
+          "calculation_note": "ΔKV100 = KV100 at 1% (5.77) - KV100 at 0% (5.23) in 150N = 0.54. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
+          "source": {
+            "file": "DL2-14874.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": false
+      },
+      {
+        "reference_oil": "150N",
+        "dose_wt_pct": 3,
+        "method": null,
+        "delta_kv100_cst": {
+          "value": 1.43,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "3% KV40/100℃(mm/s2) 36.83/6.66; 0% 29.22/5.23",
+          "unit": "cSt",
+          "test_temperature_c": 100,
+          "method": null,
+          "status": "calculated",
+          "calculation_note": "ΔKV100 = KV100 at 3% (6.66) - KV100 at 0% (5.23) in 150N = 1.43. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
+          "source": {
+            "file": "DL2-14874.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": false
+      },
+      {
+        "reference_oil": "150N",
+        "dose_wt_pct": 5,
+        "method": null,
+        "delta_kv100_cst": {
+          "value": 2.81,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "5% KV40/100℃(mm/s2) 44.10/8.04; 0% 29.22/5.23",
+          "unit": "cSt",
+          "test_temperature_c": 100,
+          "method": null,
+          "status": "calculated",
+          "calculation_note": "ΔKV100 = KV100 at 5% (8.04) - KV100 at 0% (5.23) in 150N = 2.81. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
+          "source": {
+            "file": "DL2-14874.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": false
+      },
+      {
+        "reference_oil": "500N",
+        "dose_wt_pct": 1,
+        "method": null,
+        "delta_kv100_cst": {
+          "value": 0.87,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "1% KV40/100℃(mm/s2) 92.18/11.07; 0% 85.50/10.20",
+          "unit": "cSt",
+          "test_temperature_c": 100,
+          "method": null,
+          "status": "calculated",
+          "calculation_note": "ΔKV100 = KV100 at 1% (11.07) - KV100 at 0% (10.2) in 500N = 0.87. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
+          "source": {
+            "file": "DL2-14874.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": false
+      },
+      {
+        "reference_oil": "500N",
+        "dose_wt_pct": 3,
+        "method": null,
+        "delta_kv100_cst": {
+          "value": 2.38,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "3% KV40/100℃(mm/s2) 103.93/12.58; 0% 85.50/10.20",
+          "unit": "cSt",
+          "test_temperature_c": 100,
+          "method": null,
+          "status": "calculated",
+          "calculation_note": "ΔKV100 = KV100 at 3% (12.58) - KV100 at 0% (10.2) in 500N = 2.38. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
+          "source": {
+            "file": "DL2-14874.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": false
+      },
+      {
+        "reference_oil": "500N",
+        "dose_wt_pct": 5,
+        "method": null,
+        "delta_kv100_cst": {
+          "value": 4.43,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "5% KV40/100℃(mm/s2) 118.16/14.63; 0% 85.50/10.20",
+          "unit": "cSt",
+          "test_temperature_c": 100,
+          "method": null,
+          "status": "calculated",
+          "calculation_note": "ΔKV100 = KV100 at 5% (14.63) - KV100 at 0% (10.2) in 500N = 4.43. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
+          "source": {
+            "file": "DL2-14874.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": false
+      },
+      {
+        "reference_oil": "Group Ⅲ 6#",
+        "dose_wt_pct": 1,
+        "method": null,
+        "delta_kv100_cst": {
+          "value": 0.48,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "1% KV40/100℃(mm/s2) 34.87/6.62; 0% 32.61/6.14",
+          "unit": "cSt",
+          "test_temperature_c": 100,
+          "method": null,
+          "status": "calculated",
+          "calculation_note": "ΔKV100 = KV100 at 1% (6.62) - KV100 at 0% (6.14) in Group Ⅲ 6# = 0.48. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
+          "source": {
+            "file": "DL2-14874.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": false
+      },
+      {
+        "reference_oil": "Group Ⅲ 6#",
+        "dose_wt_pct": 3,
+        "method": null,
+        "delta_kv100_cst": {
+          "value": 1.54,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "3% KV40/100℃(mm/s2) 40.30/7.68; 0% 32.61/6.14",
+          "unit": "cSt",
+          "test_temperature_c": 100,
+          "method": null,
+          "status": "calculated",
+          "calculation_note": "ΔKV100 = KV100 at 3% (7.68) - KV100 at 0% (6.14) in Group Ⅲ 6# = 1.54. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
+          "source": {
+            "file": "DL2-14874.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": false
+      },
+      {
+        "reference_oil": "Group Ⅲ 6#",
+        "dose_wt_pct": 5,
+        "method": null,
+        "delta_kv100_cst": {
+          "value": 2.77,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "5% KV40/100℃(mm/s2) 46.37/8.91; 0% 32.61/6.14",
+          "unit": "cSt",
+          "test_temperature_c": 100,
+          "method": null,
+          "status": "calculated",
+          "calculation_note": "ΔKV100 = KV100 at 5% (8.91) - KV100 at 0% (6.14) in Group Ⅲ 6# = 2.77. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
+          "source": {
+            "file": "DL2-14874.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": false
+      }
+    ],
+    "shear_stability": [
+      {
+        "index_type": "KV100 viscosity loss, % (calculated; no SSI printed)",
+        "value": {
+          "value": 0.13,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "In 150N（6% of RF6602) Before Shear KV100 7.69; (30 cycles) After Shear KV100 7.68",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": "The Shear of Diesel Injector Nozzle",
+          "status": "calculated",
+          "calculation_note": "(7.69 - 7.68) / 7.69 x 100 = 0.13 % (dose 6 % in 150N, 30 cycles).",
+          "source": {
+            "file": "DL2-14874.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "method": "The Shear of Diesel Injector Nozzle",
+        "cycle_count": 30,
+        "usable": true
+      },
+      {
+        "index_type": "KV100 viscosity loss, % (calculated; no SSI printed)",
+        "value": {
+          "value": 2.34,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "In 150N（10% of RF6602) Before Shear KV100 10.24; (30 cycles) After Shear KV100 10.0",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": "The Shear of Diesel Injector Nozzle",
+          "status": "calculated",
+          "calculation_note": "(10.24 - 10.0) / 10.24 x 100 = 2.34 % (dose 10 % in 150N, 30 cycles).",
+          "source": {
+            "file": "DL2-14874.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "method": "The Shear of Diesel Injector Nozzle",
+        "cycle_count": 30,
+        "usable": true
+      },
+      {
+        "index_type": "KV100 viscosity loss, % (calculated; no SSI printed)",
+        "value": {
+          "value": 3.61,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "In 150N（10% of RF6602) Before Shear KV100 10.24; (250 cycles) After Shear KV100 9.87",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": "The Shear of Diesel Injector Nozzle",
+          "status": "calculated",
+          "calculation_note": "(10.24 - 9.87) / 10.24 x 100 = 3.61 % (dose 10 % in 150N, 250 cycles).",
+          "source": {
+            "file": "DL2-14874.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "method": "The Shear of Diesel Injector Nozzle",
+        "cycle_count": 250,
+        "usable": true
+      }
+    ],
+    "post_shear_blend_behaviour": {
+      "post_shear_kv100": {
+        "reference_oil": "150N",
+        "dose_wt_pct": 10,
+        "method": "The Shear of Diesel Injector Nozzle (250 cycles)",
+        "kv100": {
+          "value": 9.87,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "In 150N（10% of RF6602) (250 cycles) After Shear KV100 9.87",
+          "unit": "cSt",
+          "test_temperature_c": 100,
+          "method": "The Shear of Diesel Injector Nozzle",
+          "status": "reported",
+          "calculation_note": "Also printed: 30 cycles 10.00 (10 %), 7.68 (6 %). Unit not printed in the table; KV100 assumed cSt per the 'KV100' label - please confirm.",
+          "source": {
+            "file": "DL2-14874.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": true
+      },
+      "hths_150c": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "hths": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": null
+      },
+      "ccs_impact": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "ccs": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": null
+      },
+      "mrv_impact": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "mrv": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": null
+      },
+      "low_temp_gelation": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "gelation": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": null
+      }
+    },
+    "dissolution_blend_temperature": {
+      "temperature_c": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "C",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "procedure": null
+    }
+  },
+  "open_questions": [
+    "TDS DL2-14874.pdf ('TDS OF RF6602') undated; SDS RF6602.pdf issue/revision 18/2/2022.",
+    "Physical properties (no field in the component templates): TDS DL2-14874.pdf p.1 (Index / Typical, method): Kinematic Viscosity (100℃) 1100-1850 / 1360 mm2/s ASTM D445; Flash Point (COC) ≮180 / 210 ℃ ASTM D92; Density (20℃) 850-950 / 919 kg/m3 ASTM D4052; Color ＜0.5 ASTM D1500. SDS RF6602.pdf Section 9: Flash point 160 °C; Viscosity, kinematic 53691mm²/s (40℃); Density 0.9 g/cm³ (no temperature).",
+    "Flash point differs: TDS index '≮180' / typical 210 ℃ (COC) vs SDS 'Flash point : 160 °C' (no method). No template field; recorded here, not resolved.",
+    "Density: TDS 919 kg/m3 (20℃) vs SDS 0.9 g/cm³ - same value rounded to one decimal, not a conflict.",
+    "Thickening table (TDS p.1): reference oils 150N, 500N, Group Ⅲ 6# at 0/1/3/5 % treat; ΔKV100 values are Calculated (difference from the 0 % row). No test method printed -> 'usable' false.",
+    "Shear test 'The Shear of Diesel Injector Nozzle' (30 and 250 cycles) in 150N at 6 % and 10 %: no standard (e.g. ASTM D6278/D7109) and no SSI printed; percentage KV100 loss calculated. Units for KV100 not printed in that table.",
+    "Polymer form (solid/concentrate) not stated; appearance 'Clear、bright、no sediment viscous liquid'. Treat range by SAE grade, HTHS, CCS/MRV impact, gelation and dissolution temperature not printed.",
+    "Storage (TDS p.1): short-term storage/transport ≤ 75℃, long-term ≤ 45℃ (not a dissolution/blend temperature).",
+    "Old Product_JSON uses record id 'RF6602' (no RICHFUL_ prefix); kept per decision (d)."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

@@ -1,0 +1,146 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "PETRONAS_ETRO_6_PLUS",
+  "product": {
+    "product_name": "ETRO 6+",
+    "supplier": "PETRONAS Lubricants International",
+    "document_type": "Product Data Sheet + Safety Data Sheet",
+    "source_file": "DL2-10234.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "sulfur": {
+      "value": 2,
+      "qualifier": null,
+      "min": null,
+      "max": 10,
+      "value_kind": "typical",
+      "printed_text": "2 mg/kg; specification ≤10 mg/kg",
+      "unit": "mg/kg",
+      "test_temperature_c": null,
+      "method": "ASTM D2622 / ASTM D4294",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10234.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "saturates": {
+      "value": 99,
+      "qualifier": ">",
+      "min": 95,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": ">99 mass%; specification >95 mass%",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "IP 368 / ASTM D7419",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10234.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    "TDS lacks calendar revision date.",
+    "KV40 and Noack differences between TDS and SDS require source-level review.",
+    "Flash values are method-specific (D92 vs D93); not interchangeable.",
+    "TDS density 0.8429 kg/L has no stated test temperature; SDS density at 15°C used instead."
+  ],
+  "conflicts": [
+    {
+      "property": "kv40",
+      "primary_source": "DL2-10234.pdf",
+      "primary_value": "32.55 cSt at 40°C (ASTM D445)",
+      "comparison_source": "DL2-14610.pdf",
+      "comparison_value": "34.79 mm²/s at 40°C (ASTM D445), page 4",
+      "assessment": "Different reported values; retain TDS typical value, flag for review."
+    },
+    {
+      "property": "flash_point",
+      "primary_source": "DL2-10234.pdf",
+      "primary_value": "240°C ASTM D92 (COC)",
+      "comparison_source": "DL2-14610.pdf",
+      "comparison_value": "228°C ASTM D93 (PMCC), page 3",
+      "assessment": "Different methods, not directly comparable; both values retained."
+    },
+    {
+      "property": "noack_volatility",
+      "primary_source": "DL2-10234.pdf",
+      "primary_value": "5.7 mass% ASTM D5800-B",
+      "comparison_source": "DL2-14610.pdf",
+      "comparison_value": "5.3 mass% ASTM D5800 B, page 4",
+      "assessment": "Different reported values; retain TDS typical value, flag for review."
+    },
+    {
+      "property": "density",
+      "primary_source": "DL2-10234.pdf",
+      "primary_value": "0.8429 kg/L (temperature not stated)",
+      "comparison_source": "DL2-14610.pdf",
+      "comparison_value": "0.8486 g/cm³ at 15°C ASTM D4052, page 4",
+      "assessment": "TDS lacks measurement temperature; SDS has a stated temperature and is used in the density field, with its own source."
+    }
+  ]
+}

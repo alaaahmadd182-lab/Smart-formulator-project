@@ -1,0 +1,500 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "AFTON_HITEC_12360",
+  "product": {
+    "product_name": "HiTEC® 12360",
+    "supplier": "Afton Chemical Corporation",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-13692.pdf"
+    ],
+    "revision_date": "07/20"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "HDEO Additive Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 1,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "Made For Asia Pacific Top Tier Heavy Duty Engine Oil Additive",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 1,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CK-4",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows (16.1%): SAE 15W-40 GP II; SAE 10W-40 GP II/III; SAE 5W-30 GP III.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CJ-4",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows (16.1%): SAE 15W-40 GP II; SAE 10W-40 GP II/III; SAE 5W-30 GP III.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E6-16",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows (16.1%): SAE 15W-40 GP II; SAE 10W-40 GP II/III; SAE 5W-30 GP III.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E9-16",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows (16.1%): SAE 15W-40 GP II; SAE 10W-40 GP II/III; SAE 5W-30 GP III.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "JASO DH-2",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows (16.1%): SAE 15W-40 GP II; SAE 10W-40 GP II/III; SAE 5W-30 GP III.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Volvo VDS 4.5",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows (16.1%): SAE 15W-40 GP II; SAE 10W-40 GP II/III; SAE 5W-30 GP III.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 3477",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows (16.1%): SAE 15W-40 GP II; SAE 10W-40 GP II/III.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 3677",
+        "claim_type": "other",
+        "scope": "Table header 'Approvals'; rows (16.1%): SAE 5W-30 GP III. Footnote: '*Approvals pending – note MAN and Scania approvals require field trials (2 year duration)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "CES 20086",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows (16.1%): SAE 15W-40 GP II; SAE 10W-40 GP II/III; SAE 5W-30 GP III.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Detroit Diesel DDC93K222",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows (16.1%): SAE 15W-40 GP II; SAE 10W-40 GP II/III; SAE 5W-30 GP III.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MACK EOS-4.5",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows (16.1%): SAE 15W-40 GP II; SAE 10W-40 GP II/III; SAE 5W-30 GP III.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Renault RLD-4",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows (16.1%): SAE 15W-40 GP II; SAE 10W-40 GP II/III; SAE 5W-30 GP III.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Scania LDF-4",
+        "claim_type": "other",
+        "scope": "Table header 'Approvals'; rows (16.1%): SAE 5W-30 GP III. Footnote: '*Approvals pending – note MAN and Scania approvals require field trials (2 year duration)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 228.51",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows (16.1%): SAE 10W-40 GP II/III; SAE 5W-30 GP III.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 228.31",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows (16.1%): SAE 15W-40 GP II.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 5W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13692.pdf",
+          "page": 2,
+          "revision_date": "07/20"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "GP II",
+        "GP II/III",
+        "GP III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "16.1% SAE 15W-40 GP II",
+        "16.1% SAE 10W-40 GP II/III",
+        "16.1% SAE 5W-30 GP III"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-13692.pdf",
+        "page": 2,
+        "revision_date": "07/20"
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "*Approvals pending – note MAN and Scania approvals require field trials (2 year duration)"
+      ],
+      "exclusions": [],
+      "allowed_combinations": [
+        "HiTEC® 12360 ... use of HiTEC® 5748 25SSI OCP and excellent base oil system"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-13692.pdf",
+        "page": 2,
+        "revision_date": "07/20"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CK-4; API CJ-4; ACEA E6-16; ACEA E9-16; JASO DH-2; Volvo VDS 4.5; MAN 3477; CES 20086; Detroit Diesel DDC93K222; MACK EOS-4.5; Renault RLD-4; MB 228.31",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 16.1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "16.1% | SAE 15W-40 | GP II",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II. Text: 'low treat rate @ 16.1% w.t'. Single recommended rate.",
+          "source": {
+            "file": "DL2-13692.pdf",
+            "page": 2,
+            "revision_date": "07/20"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CK-4; API CJ-4; ACEA E6-16; ACEA E9-16; JASO DH-2; Volvo VDS 4.5; MAN 3477; CES 20086; Detroit Diesel DDC93K222; MACK EOS-4.5; Renault RLD-4; MB 228.51",
+        "sae_grade": "SAE 10W-40",
+        "treat_rate_wt_pct": {
+          "value": 16.1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "16.1% | SAE 10W-40 | GP II/III",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II/III. Text: 'low treat rate @ 16.1% w.t'. Single recommended rate.",
+          "source": {
+            "file": "DL2-13692.pdf",
+            "page": 2,
+            "revision_date": "07/20"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CK-4; API CJ-4; ACEA E6-16; ACEA E9-16; JASO DH-2; Volvo VDS 4.5; MAN 3677*; CES 20086; Detroit Diesel DDC93K222; MACK EOS-4.5; Renault RLD-4; Scania LDF-4*; MB 228.51",
+        "sae_grade": "SAE 5W-30",
+        "treat_rate_wt_pct": {
+          "value": 16.1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "16.1% | SAE 5W-30 | GP III",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP III. Text: 'low treat rate @ 16.1% w.t'. Single recommended rate.",
+          "source": {
+            "file": "DL2-13692.pdf",
+            "page": 2,
+            "revision_date": "07/20"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "Viscosity modifier (OCP, 25SSI)",
+        "name": "HiTEC® 5748",
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Text p.2: 'uses HiTEC® 5748 25SSI viscosity modifier'; dose not printed.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Only a product bulletin is available for HiTEC 12360 (no SDS in the archive).",
+    "MAN 3677 and Scania LDF-4 are marked '*' = 'Approvals pending ...' (DL2-13692.pdf p.2); recorded as claim_type 'other', not 'approval'.",
+    "Required VM HiTEC® 5748 (25SSI OCP) named but dose not printed.",
+    "Bar charts p.2 (ISB cam lobe wear, Mack T13 IR peak height, CAT C13 oil consumption vs CK-4 limit, reserves 78%/45%/36%/37%/35%) are candidate-oil results without formulations; not recorded."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

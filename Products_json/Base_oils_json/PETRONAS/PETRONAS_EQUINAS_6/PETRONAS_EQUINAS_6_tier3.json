@@ -1,0 +1,111 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "PETRONAS_EQUINAS_6",
+  "product": {
+    "product_name": "EQUINAS 6",
+    "supplier": "PETRONAS Lubricants International",
+    "document_type": "Safety Data Sheet",
+    "source_file": "DL2-15185.pdf",
+    "revision_date": "2021-10-21"
+  },
+  "fields": {
+    "sulfur": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "ppm",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "saturates": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    "No separate grade-specific TDS found in supplied inventory.",
+    "API group, sulfur, viscosity index and CCS not explicitly reported."
+  ],
+  "conflicts": []
+}

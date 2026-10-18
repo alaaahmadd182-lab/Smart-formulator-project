@@ -1,0 +1,128 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "NYNAS_NYFROST_32",
+  "product": {
+    "product_name": "NYFROST 32",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-11510.pdf",
+    "revision_date": "2016-11-01"
+  },
+  "fields": {
+    "sulfur": {
+      "value": 0.06,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 0.06%",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D2622",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11510.pdf",
+        "page": 2,
+        "revision_date": "2016-11-01"
+      }
+    },
+    "saturates": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    "Resolve SDS KV40 31 cSt versus PDS 32 cSt and SDS PM flash >180°C versus PDS PM typical 176°C.",
+    "Check whether differing document dates or test conditions explain discrepancy."
+  ],
+  "conflicts": [
+    {
+      "property": "kv40",
+      "source_a": "DL2-11510.pdf p.2 (2016-11-01)",
+      "value_a": "32 cSt (typical)",
+      "source_b": "DL2-13444.pdf p.6 (2020-05-23)",
+      "value_b": "31 cSt (SDS)",
+      "resolution": "Retained supplier PDS typical value; SDS discrepancy flagged."
+    },
+    {
+      "property": "flash_point",
+      "source_a": "DL2-11510.pdf p.2 (2016-11-01)",
+      "value_a": "176°C typical, Pensky-Martens (ASTM D93)",
+      "source_b": "DL2-13444.pdf p.6 (2020-05-23)",
+      "value_b": ">180°C closed cup Pensky-Martens",
+      "resolution": "Not numerically compatible; PDS typical retained and SDS limit flagged for review."
+    }
+  ]
+}

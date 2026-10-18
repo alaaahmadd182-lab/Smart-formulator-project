@@ -1,0 +1,140 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "GS_CALTEX_150BS",
+  "product": {
+    "product_name": "150BS",
+    "supplier": "GS Caltex",
+    "document_type": "Product specification",
+    "source_file": "DL2-13094.pdf; DL2-13626.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group II",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-13094.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "printed_text": "Supplier table heading: Gr.II",
+        "value_kind": "supplier designation",
+        "method": null,
+        "min": null,
+        "max": null
+      },
+      "chemistry": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null
+      }
+    },
+    "kv40": {
+      "value": 445.5,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 445.50 mm²/s",
+      "unit": "cSt",
+      "test_temperature_c": null,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13094.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 33.8,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 33.80 mm²/s",
+      "unit": "cSt",
+      "test_temperature_c": null,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13094.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 111,
+      "qualifier": null,
+      "min": 105,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 111; specification minimum 105",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13094.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "relative density",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "SDS not provided among the two supplier files; reconciliation pending.",
+    "No density, sulfur, saturates, CCS or MRV values stated in product specification."
+  ],
+  "conflicts": []
+}

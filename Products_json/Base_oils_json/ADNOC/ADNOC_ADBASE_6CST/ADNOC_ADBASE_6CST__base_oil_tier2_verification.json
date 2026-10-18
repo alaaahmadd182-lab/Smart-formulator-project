@@ -1,0 +1,318 @@
+{
+  "template_version": "1.1",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "BO-ADNOC-ADBASE-6-CST__T2",
+  "source_documents": [
+    {
+      "file": "DL2-12221.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier product-specification table (brochure pp.6-7, grades 2/3/4/6/8 cSt)",
+      "revision_date": null,
+      "notes": "No revision/issue date printed; sheet says values are 'accurate on the date of publishing'."
+    },
+    {
+      "file": "DL2-13457.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Byte-identical duplicate of DL2-12221.pdf (same MD5)",
+      "revision_date": null,
+      "notes": "Checked identical; not used as an independent confirmation."
+    },
+    {
+      "file": "DL2-12421.jpg",
+      "pages": [
+        1
+      ],
+      "doc_type": "Scanned ADNOC product specification (image)",
+      "revision_date": "2016-09",
+      "notes": "Reissued 'Septemebr, 2016' (typo as printed), replaces February 2016."
+    },
+    {
+      "file": "DL2-13721.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "doc_type": "Vertex/Penthol distributor product specification (AD Base 6cst)",
+      "revision_date": "2016-02",
+      "notes": "p1 brochure text, p2 specification table. 'Replaces January, 2015; Reissued February, 2016'. Same limits as DL2-12421.jpg."
+    }
+  ],
+  "product": {
+    "product_id": "ADNOC_ADBASE_6CST",
+    "material_id": "BO-ADNOC-ADBASE-6-CST",
+    "product_name": "ADbase 6 cSt",
+    "supplier": "ADNOC",
+    "document_type": [
+      "Byte-identical duplicate of DL2-12221.pdf (same MD5)",
+      "Scanned ADNOC product specification (image)",
+      "Supplier product-specification table (brochure pp.6-7, grades 2/3/4/6/8 cSt)",
+      "Vertex/Penthol distributor product specification (AD Base 6cst)"
+    ],
+    "source_file": "DL2-12221.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "notes": "Not on any document for this product.",
+          "alternate_entries": [],
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "notes": "Not on any document for this product.",
+          "alternate_entries": [],
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": 6.8,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "6.8",
+      "unit": "%M/M",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "Printed as 'Evaporation Loss noack method, %M/M'. Test condition (250 C / 1 h) and method are not printed on the brochure, so they are left empty.",
+      "alternate_entries": [
+        {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": 8.0,
+          "value_kind": "limit",
+          "printed_text": null,
+          "unit": "%M/M",
+          "test_temperature_c": null,
+          "method": "ASTM 5800 Method B",
+          "status": "Reported",
+          "calculation_note": null,
+          "notes": "Specification maximum. Sheet prints method as shown; Noack temperature/time not printed.",
+          "source": {
+            "file": "DL2-12421.jpg",
+            "page": 1,
+            "revision_date": "2016-09"
+          }
+        },
+        {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": 8.0,
+          "value_kind": "limit",
+          "printed_text": null,
+          "unit": "%M/M",
+          "test_temperature_c": null,
+          "method": "ASTM D5800 Method B",
+          "status": "Reported",
+          "calculation_note": null,
+          "notes": "Specification maximum. Sheet prints method as shown; Noack temperature/time not printed.",
+          "source": {
+            "file": "DL2-13721.pdf",
+            "page": 2,
+            "revision_date": "2016-02"
+          }
+        }
+      ],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -15,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "-15",
+      "unit": "deg C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "No method printed on the brochure.",
+      "alternate_entries": [
+        {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": -15,
+          "value_kind": "limit",
+          "printed_text": null,
+          "unit": "deg C",
+          "test_temperature_c": null,
+          "method": "ASTM D97, ASTM D5949 or ASTM D5950",
+          "status": "Reported",
+          "calculation_note": null,
+          "notes": "Specification maximum.",
+          "source": {
+            "file": "DL2-12421.jpg",
+            "page": 1,
+            "revision_date": "2016-09"
+          }
+        },
+        {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": -15,
+          "value_kind": "limit",
+          "printed_text": null,
+          "unit": "deg C",
+          "test_temperature_c": null,
+          "method": "ASTM D97, ASTM D5949 or ASTM D5950",
+          "status": "Reported",
+          "calculation_note": null,
+          "notes": "Specification maximum.",
+          "source": {
+            "file": "DL2-13721.pdf",
+            "page": 2,
+            "revision_date": "2016-02"
+          }
+        }
+      ],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 235,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "235",
+      "unit": "deg C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "Brochure does not print the flash-point method (COC/PMCC).",
+      "alternate_entries": [
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 220,
+          "max": null,
+          "value_kind": "limit",
+          "printed_text": null,
+          "unit": "deg C",
+          "test_temperature_c": null,
+          "method": "COC (ASTM D92)",
+          "status": "Reported",
+          "calculation_note": null,
+          "notes": "Specification minimum; sheet labels it 'Flash Point, (COC)'.",
+          "source": {
+            "file": "DL2-12421.jpg",
+            "page": 1,
+            "revision_date": "2016-09"
+          }
+        },
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 220,
+          "max": null,
+          "value_kind": "limit",
+          "printed_text": null,
+          "unit": "deg C",
+          "test_temperature_c": null,
+          "method": "COC (ASTM D92)",
+          "status": "Reported",
+          "calculation_note": null,
+          "notes": "Specification minimum; sheet labels it 'Flash Point, (COC)'.",
+          "source": {
+            "file": "DL2-13721.pdf",
+            "page": 2,
+            "revision_date": "2016-02"
+          }
+        }
+      ],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    }
+  },
+  "open_questions": [
+    {
+      "question": "MRV viscosity and yield stress are not reported anywhere.",
+      "fields": [
+        "mrv"
+      ],
+      "source_files": [
+        "DL2-12221.pdf",
+        "DL2-12421.jpg"
+      ]
+    },
+    {
+      "question": "Flash point 235 deg C (brochure typical) has no method printed; the spec sheet's limit is COC. Confirm the typical value is also COC (COC and PMCC differ).",
+      "fields": [
+        "flash_point"
+      ],
+      "source_files": [
+        "DL2-12221.pdf",
+        "DL2-12421.jpg"
+      ]
+    },
+    {
+      "question": "Noack typical value has no test temperature/duration printed (spec sheet cites ASTM 5800 Method B).",
+      "fields": [
+        "noack_volatility"
+      ],
+      "source_files": [
+        "DL2-12221.pdf",
+        "DL2-12421.jpg"
+      ]
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,672 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "AFTON_HITEC_12400",
+  "product": {
+    "product_name": "HiTEC® 12400",
+    "supplier": "Afton Chemical Corporation",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-15365.pdf"
+    ],
+    "revision_date": "06/21"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "HDEO Additive Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 1,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "Truly Global Product for Reduced SAPS Heavy Duty Applications",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 1,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CK-4",
+        "claim_type": null,
+        "scope": "Note: filled dot = claim type not specified (legend does not define it). Route table DL2-15365.pdf p.2; ACEA E6 SAE 5W-30: filled dot (meaning not defined in the legend); ACEA E6 SAE 10W-40: filled dot (meaning not defined in the legend); ACEA E9 SAE 10W-30: filled dot (meaning not defined in the legend).",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E6-16",
+        "claim_type": null,
+        "scope": "Note: filled dot = claim type not specified (legend does not define it). Route table DL2-15365.pdf p.2; ACEA E6 SAE 5W-30: filled dot (meaning not defined in the legend); ACEA E6 SAE 10W-40: filled dot (meaning not defined in the legend).",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E9-16",
+        "claim_type": null,
+        "scope": "Note: filled dot = claim type not specified (legend does not define it). Route table DL2-15365.pdf p.2; ACEA E6 SAE 5W-30: filled dot (meaning not defined in the legend); ACEA E6 SAE 10W-40: filled dot (meaning not defined in the legend); ACEA E9 SAE 10W-30: filled dot (meaning not defined in the legend).",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E4-16",
+        "claim_type": null,
+        "scope": "Note: filled dot = claim type not specified (legend does not define it). Route table DL2-15365.pdf p.2; ACEA E4 SAE 5W-30 + HiTEC® 611: filled dot (meaning not defined in the legend); ACEA E4 SAE 10W-40 + HiTEC® 611: filled dot (meaning not defined in the legend).",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E7-16",
+        "claim_type": null,
+        "scope": "Note: filled dot = claim type not specified (legend does not define it). Route table DL2-15365.pdf p.2; ACEA E4 SAE 5W-30 + HiTEC® 611: filled dot (meaning not defined in the legend); ACEA E4 SAE 10W-40 + HiTEC® 611: filled dot (meaning not defined in the legend).",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "JASO DH-2",
+        "claim_type": null,
+        "scope": "Note: filled dot = claim type not specified (legend does not define it). Route table DL2-15365.pdf p.2; ACEA E6 SAE 5W-30: filled dot (meaning not defined in the legend); ACEA E6 SAE 10W-40: filled dot (meaning not defined in the legend).",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20086",
+        "claim_type": null,
+        "scope": "Note: filled dot = claim type not specified (legend does not define it). Route table DL2-15365.pdf p.2; ACEA E6 SAE 5W-30: filled dot (meaning not defined in the legend); ACEA E6 SAE 10W-40: filled dot (meaning not defined in the legend); ACEA E9 SAE 10W-30: filled dot (meaning not defined in the legend).",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Detroit Diesel DDC93K222",
+        "claim_type": null,
+        "scope": "Note: filled dot = claim type not specified (legend does not define it). Route table DL2-15365.pdf p.2; ACEA E6 SAE 5W-30: filled dot (meaning not defined in the legend); ACEA E6 SAE 10W-40: filled dot (meaning not defined in the legend); ACEA E9 SAE 10W-30: filled dot (meaning not defined in the legend).",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "VDS4.5 / RLD-3 / Mack EOS-4.5",
+        "claim_type": null,
+        "scope": "Note: filled dot = claim type not specified (legend does not define it). Route table DL2-15365.pdf p.2; ACEA E6 SAE 5W-30: filled dot (meaning not defined in the legend); ACEA E6 SAE 10W-40: filled dot (meaning not defined in the legend); ACEA E9 SAE 10W-30: ◉ 'Approval pending'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "VDS-3 / RLD-2 / Mack EO-N",
+        "claim_type": "other",
+        "scope": "Route table DL2-15365.pdf p.2; ACEA E4 SAE 5W-30 + HiTEC® 611: ◉ 'Approval pending'; ACEA E4 SAE 10W-40 + HiTEC® 611: ◉ 'Approval pending'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Scania LDF-4",
+        "claim_type": "other",
+        "scope": "Route table DL2-15365.pdf p.2; ACEA E6 SAE 5W-30: ○ 'Pending completion of Field Trial'. Footnote '*': 'Scania LDF-4 and MAN M3677 OEM approvals require Field Trial'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN M3677",
+        "claim_type": "other",
+        "scope": "Route table DL2-15365.pdf p.2; ACEA E6 SAE 5W-30: ○ 'Pending completion of Field Trial'. Footnote '*': 'Scania LDF-4 and MAN M3677 OEM approvals require Field Trial'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN M3775",
+        "claim_type": null,
+        "scope": "Note: filled dot = claim type not specified (legend does not define it). Route table DL2-15365.pdf p.2; ACEA E6 SAE 10W-40: filled dot (meaning not defined in the legend); ACEA E9 SAE 10W-30: ◉ 'Approval pending'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN M3277 / M3377",
+        "claim_type": "other",
+        "scope": "Route table DL2-15365.pdf p.2; ACEA E4 SAE 5W-30 + HiTEC® 611: ◉ 'Approval pending'; ACEA E4 SAE 10W-40 + HiTEC® 611: ◉ 'Approval pending'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Caterpillar ECF-3",
+        "claim_type": null,
+        "scope": "Note: filled dot = claim type not specified (legend does not define it). Route table DL2-15365.pdf p.2; ACEA E6 SAE 5W-30: filled dot (meaning not defined in the legend); ACEA E6 SAE 10W-40: filled dot (meaning not defined in the legend); ACEA E9 SAE 10W-30: filled dot (meaning not defined in the legend).",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Deutz DQC IV-18LA",
+        "claim_type": null,
+        "scope": "Note: filled dot = claim type not specified (legend does not define it). Route table DL2-15365.pdf p.2; ACEA E6 SAE 5W-30: filled dot (meaning not defined in the legend); ACEA E6 SAE 10W-40: filled dot (meaning not defined in the legend).",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Deutz DQC IV-18",
+        "claim_type": "other",
+        "scope": "Route table DL2-15365.pdf p.2; ACEA E4 SAE 5W-30 + HiTEC® 611: ◉ 'Approval pending'; ACEA E4 SAE 10W-40 + HiTEC® 611: ◉ 'Approval pending'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Deutz DQC III-18LA",
+        "claim_type": "other",
+        "scope": "Route table DL2-15365.pdf p.2; ACEA E9 SAE 10W-30: ◉ 'Approval pending'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 228.51",
+        "claim_type": null,
+        "scope": "Note: filled dot = claim type not specified (legend does not define it). Route table DL2-15365.pdf p.2; ACEA E6 SAE 5W-30: filled dot (meaning not defined in the legend); ACEA E6 SAE 10W-40: filled dot (meaning not defined in the legend).",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 228.5",
+        "claim_type": "other",
+        "scope": "Route table DL2-15365.pdf p.2; ACEA E4 SAE 5W-30 + HiTEC® 611: ◉ 'Approval pending'; ACEA E4 SAE 10W-40 + HiTEC® 611: ◉ 'Approval pending'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 228.31",
+        "claim_type": "other",
+        "scope": "Route table DL2-15365.pdf p.2; ACEA E6 SAE 10W-40: ◉ 'Approval pending'; ACEA E9 SAE 10W-30: ◉ 'Approval pending'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "(column 22, no header printed)",
+        "claim_type": "other",
+        "scope": "Route table DL2-15365.pdf p.2; ACEA E4 SAE 10W-40 + HiTEC® 611: ◉ 'Approval pending'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 5W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15365.pdf",
+          "page": 2,
+          "revision_date": "06/21"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group lll (printed: 'Choice of Group lll coverage allowing for base oil flexibility')"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": "DL2-15365.pdf",
+        "page": 2,
+        "revision_date": "06/21"
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "* Scania LDF-4 and MAN M3677 OEM approvals require Field Trial"
+      ],
+      "exclusions": [],
+      "allowed_combinations": [
+        "ACEA E4 routes (SAE 5W-30, SAE 10W-40): HiTEC® 12400 @ 16.1 %wt + HiTEC® 611",
+        "Booster approach to cover full SAPS extended drain products",
+        "OCP viscosity modifier allowing efficiency across Engine Oils portfolio"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-15365.pdf",
+        "page": 2,
+        "revision_date": "06/21"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "ACEA E6: API CK-4; ACEA E6-16; ACEA E9-16; JASO DH-2; Cummins CES 20086; Detroit Diesel DDC93K222; VDS4.5 / RLD-3 / Mack EOS-4.5; Scania LDF-4 * (pending field trial); MAN M3677 * (pending field trial); Caterpillar ECF-3; Deutz DQC IV-18LA; MB 228.51",
+        "sae_grade": "SAE 5W-30",
+        "treat_rate_wt_pct": {
+          "value": 16.1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "ACEA E6 | SAE 5W-30 | HiTEC® 12400 @ 16.1 %wt",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '16.1 %wt'.",
+          "source": {
+            "file": "DL2-15365.pdf",
+            "page": 2,
+            "revision_date": "06/21"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "ACEA E4: ACEA E4-16; ACEA E7-16; VDS-3 / RLD-2 / Mack EO-N (approval pending); MAN M3277 / M3377 (approval pending); Deutz DQC IV-18 (approval pending); MB 228.5 (approval pending)",
+        "sae_grade": "SAE 5W-30",
+        "treat_rate_wt_pct": {
+          "value": 16.1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "ACEA E4 | SAE 5W-30 | HiTEC® 12400 @ 16.1 %wt + HiTEC® 611",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Plus HiTEC® 611 (dose not printed). Printed '16.1 %wt'.",
+          "source": {
+            "file": "DL2-15365.pdf",
+            "page": 2,
+            "revision_date": "06/21"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "ACEA E6: API CK-4; ACEA E6-16; ACEA E9-16; JASO DH-2; Cummins CES 20086; Detroit Diesel DDC93K222; VDS4.5 / RLD-3 / Mack EOS-4.5; MAN M3775; Caterpillar ECF-3; Deutz DQC IV-18LA; MB 228.51; MB 228.31 (approval pending)",
+        "sae_grade": "SAE 10W-40",
+        "treat_rate_wt_pct": {
+          "value": 16.1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "ACEA E6 | SAE 10W-40 | HiTEC® 12400 @ 16.1 %wt",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '16.1 %wt'.",
+          "source": {
+            "file": "DL2-15365.pdf",
+            "page": 2,
+            "revision_date": "06/21"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "ACEA E4: ACEA E4-16; ACEA E7-16; VDS-3 / RLD-2 / Mack EO-N (approval pending); MAN M3277 / M3377 (approval pending); Deutz DQC IV-18 (approval pending); MB 228.5 (approval pending); (column 22, no header printed) (approval pending)",
+        "sae_grade": "SAE 10W-40",
+        "treat_rate_wt_pct": {
+          "value": 16.1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "ACEA E4 | SAE 10W-40 | HiTEC® 12400 @ 16.1 %wt + HiTEC® 611",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Plus HiTEC® 611 (dose not printed). Printed '16.1 %wt'.",
+          "source": {
+            "file": "DL2-15365.pdf",
+            "page": 2,
+            "revision_date": "06/21"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "ACEA E9: API CK-4; ACEA E9-16; Cummins CES 20086; Detroit Diesel DDC93K222; VDS4.5 / RLD-3 / Mack EOS-4.5 (approval pending); MAN M3775 (approval pending); Caterpillar ECF-3; Deutz DQC III-18LA (approval pending); MB 228.31 (approval pending)",
+        "sae_grade": "SAE 10W-30",
+        "treat_rate_wt_pct": {
+          "value": 16.1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "ACEA E9 | SAE 10W-30 | HiTEC® 12400 @ 16.1 %wt",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '16.1 %wt'.",
+          "source": {
+            "file": "DL2-15365.pdf",
+            "page": 2,
+            "revision_date": "06/21"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "Booster (for ACEA E4 routes)",
+        "name": "HiTEC® 611",
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Named in route rows 'HiTEC® 12400 @ 16.1 %wt + HiTEC® 611'; dose not printed.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "OCP viscosity modifier",
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Text p.2: 'OCP viscosity modifier allowing efficiency across Engine Oils portfolio'; product and dose not printed.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "User decision 2026-10-17: 13 claims marked with a filled dot (DL2-15365.pdf p.2) are recorded as Reported with claim_type left unspecified (null), because the legend does not define the filled dot; flagged for review. Claims with only '○ Pending completion of Field Trial' or '◉ Approval pending' marks keep claim_type 'other'.",
+    "Only a product bulletin is available for HiTEC 12400 (no SDS in the archive).",
+    "DL2-15365.pdf p.2: the table has 22 symbol columns but only 21 header labels; row 'ACEA E4 SAE 10W-40 + HiTEC® 611' has an '◉ Approval pending' mark in column 22, which has no header. Recorded as '(column 22, no header printed)'.",
+    "Table headers are vector graphics (not text); column assignment was read from a 400 dpi image and the symbol positions from the text layer (Wingdings glyphs).",
+    "HiTEC® 611 booster dose and the OCP VM identity/dose are not printed.",
+    "Bar charts p.2 (Caterpillar C13, Cummins ISM, Volvo T-13, OM501LA, OM646LA, Mack T-12 vs industry limit; OM501LA fuel economy '19 % better') have no formulation; not recorded."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

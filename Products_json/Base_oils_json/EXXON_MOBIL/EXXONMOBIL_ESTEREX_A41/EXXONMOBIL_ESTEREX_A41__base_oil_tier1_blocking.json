@@ -1,0 +1,130 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "EXXONMOBIL_ESTEREX_A41__T1",
+  "product": {
+    "product_name": "Esterex A41",
+    "supplier": "ExxonMobil",
+    "document_type": "Product Datasheet",
+    "source_file": "DL2-12115.pdf",
+    "revision_date": "02/09/2011"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group V",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12115.pdf",
+          "page": 1,
+          "revision_date": "02/09/2011"
+        }
+      },
+      "chemistry": {
+        "value": "Adipate ester",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12115.pdf",
+          "page": 1,
+          "revision_date": "02/09/2011"
+        }
+      }
+    },
+    "kv40": {
+      "value": 14.0,
+      "qualifier": "Typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "14.0",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12115.pdf",
+        "page": 1,
+        "revision_date": "02/09/2011"
+      }
+    },
+    "kv100": {
+      "value": 3.6,
+      "qualifier": "Typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "3.6",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12115.pdf",
+        "page": 1,
+        "revision_date": "02/09/2011"
+      }
+    },
+    "viscosity_index": {
+      "value": 144.0,
+      "qualifier": "Typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "144.0",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12115.pdf",
+        "page": 1,
+        "revision_date": "02/09/2011"
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [],
+  "conflicts": []
+}

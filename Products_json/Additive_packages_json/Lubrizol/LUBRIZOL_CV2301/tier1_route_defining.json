@@ -1,0 +1,1133 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "LUBRIZOL_CV2301",
+  "product": {
+    "product_name": "LUBRIZOL® CV2301",
+    "supplier": "The Lubrizol Corporation",
+    "document_type": [
+      "TDS",
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-13065.pdf",
+      "DL2-13713.pdf"
+    ],
+    "revision_date": [
+      "2017-10-24",
+      "2019-09-16"
+    ]
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "Heavy Duty Diesel Engine Oil Additive",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "An engine oil additive for the formulation of Super High Performance Diesel (SHPD) lubricants meeting the requirements of ACEA E7 and API CI-4 or CH-4.",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E7-16 (2016)",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E7-12 (2012)",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CH-4",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CG-4",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SL",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB-Approval 228.3",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Volvo VDS-3",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Renault Truck RLD-2",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-N",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-M Plus",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN M 3275",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20076",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20077",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20078",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "CAT ECF-2",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "CAT ECF-1-a",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU Type 2",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Deutz DQC III-10",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Detroit Diesel DDC 93K215",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Global DHD-1",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 11.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E7-16 (2016)",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E7-12 (2012)",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CH-4",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CG-4",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SJ",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB-Approval 228.3",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Volvo VDS-3",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Renault Truck RLD-2",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-N",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-M Plus",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN M 3275",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20076",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20077",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "CAT ECF-1-a",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU Type 2",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Detroit Diesel DDC 93K215",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 10.7 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E2-96 Issue 5 (2007)",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 9.1 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CG-4",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 9.1 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 9.1 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 9.1 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB-Approval 228.1",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 9.1 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 271",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 9.1 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU Type 1",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 9.1 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Volvo VDS",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 9.1 % by weight'; intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E2-96 Issue 5 (2007)",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 8.2 % by weight'; intro: 'When blended with appropriate base oils, booster and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 & 20W-50 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CG-4",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 8.2 % by weight'; intro: 'When blended with appropriate base oils, booster and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 & 20W-50 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 8.2 % by weight'; intro: 'When blended with appropriate base oils, booster and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 & 20W-50 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 8.2 % by weight'; intro: 'When blended with appropriate base oils, booster and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 & 20W-50 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB-Approval 228.1",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 8.2 % by weight'; intro: 'When blended with appropriate base oils, booster and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 & 20W-50 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 271",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 8.2 % by weight'; intro: 'When blended with appropriate base oils, booster and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 & 20W-50 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU Type 1",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 8.2 % by weight'; intro: 'When blended with appropriate base oils, booster and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 & 20W-50 viscosity grades:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13065.pdf",
+          "page": 1,
+          "revision_date": "2017-10-24"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I",
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CI-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use). Datasheet says claims apply only 'with appropriate base oils', so confirm with Lubrizol."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "ACEA E7-16 (2016); ACEA E7-12 (2012); API CI-4; API CH-4; API CG-4; API CF-4; API CF; API SL; MB-Approval 228.3; Volvo VDS-3; Renault Truck RLD-2; Mack EO-N; Mack EO-M Plus; MAN M 3275; Cummins CES 20076; Cummins CES 20077; Cummins CES 20078; CAT ECF-2; CAT ECF-1-a; MTU Type 2; Deutz DQC III-10; Detroit Diesel DDC 93K215; Global DHD-1",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 11.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Recommended for use at: 11.7 % by weight",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40, 10W-40 and 10W-30 viscosity grades:'",
+          "source": {
+            "file": "DL2-13065.pdf",
+            "page": 1,
+            "revision_date": "2017-10-24"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "ACEA E7-16 (2016); ACEA E7-12 (2012); API CH-4; API CF-4; API CG-4; API CF; API SJ; MB-Approval 228.3; Volvo VDS-3; Renault Truck RLD-2; Mack EO-N; Mack EO-M Plus; MAN M 3275; Cummins CES 20076; Cummins CES 20077; CAT ECF-1-a; MTU Type 2; Detroit Diesel DDC 93K215",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 10.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Recommended for use at: 10.7 % by weight",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+          "source": {
+            "file": "DL2-13065.pdf",
+            "page": 1,
+            "revision_date": "2017-10-24"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "ACEA E2-96 Issue 5 (2007); API CG-4; API CF-4; API CF; MB-Approval 228.1; MAN 271; MTU Type 1; Volvo VDS",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 9.1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Recommended for use at: 9.1 % by weight",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Intro: 'When blended with appropriate base oils and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 viscosity grades:'",
+          "source": {
+            "file": "DL2-13065.pdf",
+            "page": 1,
+            "revision_date": "2017-10-24"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "ACEA E2-96 Issue 5 (2007); API CG-4; API CF-4; API CF; MB-Approval 228.1; MAN 271; MTU Type 1",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 8.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Recommended for use at: 8.2 % by weight",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Intro: 'When blended with appropriate base oils, booster and viscosity modifier, the formulated lubricant meets the following performance specifications as SAE 15W-40 & 20W-50 viscosity grades:'",
+          "source": {
+            "file": "DL2-13065.pdf",
+            "page": 1,
+            "revision_date": "2017-10-24"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "Booster (8.2 % block)",
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Intro of the 8.2 % by weight block: 'When blended with appropriate base oils, booster and viscosity modifier'; booster not named, no dose.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "Viscosity modifier",
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Block intros mention 'viscosity modifier'; not named, no dose.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Claim type from the intro line of each 'Recommended for use at' block (e.g. 'the lubricant meets the following performance specifications').",
+    "Treat rate is printed per 'Recommended for use at' block (11.7, 10.7, 9.1, 8.2 % by weight); the 8.2 % block intro mentions a 'booster' that is not named.",
+    "SDS DL2-13713.pdf p.1 'Recommended use: Heavy Duty Diesel'."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

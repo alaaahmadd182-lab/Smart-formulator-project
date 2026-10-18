@@ -1,0 +1,314 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "JINZHOU_DONGGONG_T3160",
+  "product": {
+    "product_name": "Multifunction Engine Oil Additive Package T3160",
+    "supplier": "JINZHOU DONGGONG PETROCHEMICAL PRODUCTS CO., LTD.",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-11882.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "tbn": {
+      "value": 90,
+      "qualifier": "≥",
+      "min": 90,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "TBN, mg KOH/g ≥90 SH/T0251",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "SH/T0251",
+      "status": "reported",
+      "calculation_note": "Printed as a minimum.",
+      "source": {
+        "file": "DL2-11882.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 12.58,
+      "qualifier": "≥",
+      "min": null,
+      "max": null,
+      "value_kind": "calculated lower bound",
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "Calculated (ASTM D874 factors)",
+      "status": "calculated",
+      "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×3.3 (Ca) + 1.24×1.1 (Zn) = 12.5840 → 12.58 wt.%. Mg not reported, taken as 0. Inputs are printed minimums (≥), so the result is a lower bound.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+    },
+    "elements": {
+      "Ca": {
+        "value": 3.3,
+        "qualifier": "≥",
+        "min": 3.3,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Ca, % (m/m) ≥3.3 GB/T0297",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "GB/T0297",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum.",
+        "source": {
+          "file": "DL2-11882.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.1,
+        "qualifier": "≥",
+        "min": 1.1,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Zn, % (m/m) ≥1.1 SH/T0226",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T0226",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum.",
+        "source": {
+          "file": "DL2-11882.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.5,
+        "qualifier": "≥",
+        "min": 0.5,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "N , % (m/m) ≥0.50 SH/T0224",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T0224",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum.",
+        "source": {
+          "file": "DL2-11882.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3 (or as printed)",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 170,
+      "qualifier": "≥",
+      "min": 170,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Flash Point (Open),°C ≥170 GB/T3536",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "GB/T3536",
+      "status": "reported",
+      "calculation_note": "Printed as a minimum. '(Open)' cup; column 'Quality Index'.",
+      "source": {
+        "file": "DL2-11882.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Density (20°C) and KV100 are printed as 'Report' with no value (DL2-11882.pdf p.1); left Missing.",
+    "Quality Index values are minimum limits ('≥'), not typical values. KV40, sulfated ash, Mg, P, B, Mo, S and pour point not printed."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

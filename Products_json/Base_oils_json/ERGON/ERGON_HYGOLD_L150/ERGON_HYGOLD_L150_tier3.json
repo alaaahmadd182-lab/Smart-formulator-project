@@ -1,0 +1,111 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "ERGON_HYGOLD_L150",
+  "product": {
+    "product_name": "HyGold L150",
+    "supplier": "Ergon Refining, Inc.",
+    "document_type": "Marketing specification",
+    "source_file": "DL2-10410.pdf",
+    "revision_date": "2016-08-10"
+  },
+  "fields": {
+    "sulfur": {
+      "value": 291,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 291 ppm",
+      "unit": "ppm",
+      "test_temperature_c": null,
+      "method": "ASTM D4294",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10410.pdf",
+        "page": 1,
+        "revision_date": "2016-08-10"
+      }
+    },
+    "saturates": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    "API group not explicitly stated; leave missing.",
+    "SDS reconciliation pending."
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,143 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "ERGON_HYGOLD_70E",
+  "product": {
+    "product_name": "HyGold 70E",
+    "supplier": "Ergon Refining, Inc.",
+    "document_type": "Marketing specification",
+    "source_file": "DL2-10406.pdf",
+    "revision_date": "2016-12-02"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null
+      },
+      "chemistry": {
+        "value": "Severely hydrotreated naphthenic base oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10406.pdf",
+          "page": 1,
+          "revision_date": "2016-12-02"
+        },
+        "value_kind": "supplier description",
+        "printed_text": "Supplier description",
+        "method": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "kv40": {
+      "value": 12.4,
+      "qualifier": null,
+      "min": 11,
+      "max": 15,
+      "value_kind": "typical",
+      "printed_text": "Typical 12.4 cSt; specification 11.0\u201315.0 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10406.pdf",
+        "page": 1,
+        "revision_date": "2016-12-02"
+      }
+    },
+    "kv100": {
+      "value": 2.7,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 2.7 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10406.pdf",
+        "page": 1,
+        "revision_date": "2016-12-02"
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.89,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 0.890 g/cm3 at 15.6\u00b0C",
+      "unit": "g/cm3",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D1250",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10406.pdf",
+        "page": 1,
+        "revision_date": "2016-12-02"
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "API group not explicitly stated; do not infer from naphthenic description.",
+    "SDS not yet reconciled."
+  ],
+  "conflicts": []
+}

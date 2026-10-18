@@ -1,0 +1,111 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "NYNAS_BNS_5",
+  "product": {
+    "product_name": "BNS 5",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-13442.pdf",
+    "revision_date": "2017-10-04"
+  },
+  "fields": {
+    "sulfur": {
+      "value": 0.01,
+      "qualifier": "<",
+      "min": null,
+      "max": null,
+      "value_kind": "upper bound",
+      "printed_text": "Typical <0.01% sulphur",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D2622",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13442.pdf",
+        "page": 1,
+        "revision_date": "2017-10-04"
+      }
+    },
+    "saturates": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    "API group and base-oil chemistry not explicitly stated in this PDS.",
+    "SDS reconciliation pending."
+  ],
+  "conflicts": []
+}

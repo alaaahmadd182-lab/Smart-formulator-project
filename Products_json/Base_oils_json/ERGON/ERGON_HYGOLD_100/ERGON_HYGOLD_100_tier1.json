@@ -1,0 +1,136 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "ERGON_HYGOLD_100",
+  "product": {
+    "product_name": "HyGold 100",
+    "supplier": "Ergon Refining, Inc.",
+    "document_type": "Marketing specification",
+    "source_file": "DL2-10407.pdf",
+    "revision_date": "2016-03-15"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "chemistry": {
+        "value": "Severely hydrotreated naphthenic base oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10407.pdf",
+          "page": 1,
+          "revision_date": "2016-03-15"
+        },
+        "value_kind": "supplier description",
+        "printed_text": "Severely hydrotreated naphthenic base oil",
+        "method": null
+      }
+    },
+    "kv40": {
+      "value": 20.7,
+      "qualifier": null,
+      "min": 18.9,
+      "max": 22.8,
+      "value_kind": "typical",
+      "printed_text": "Typical 20.7 cSt; specification 18.9\u201322.8 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10407.pdf",
+        "page": 1,
+        "revision_date": "2016-03-15"
+      }
+    },
+    "kv100": {
+      "value": 3.6,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "3.6",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10407.pdf",
+        "page": 1,
+        "revision_date": "2016-03-15"
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.907,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "0.907 g/cm3 at 15.6\u00b0C",
+      "unit": "g/cm3",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D1250",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10407.pdf",
+        "page": 1,
+        "revision_date": "2016-03-15"
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "API group not stated in supplier specification; independent classification not yet verified.",
+    "SDS DL2-10029.pdf requires field-by-field reconciliation before final audit."
+  ],
+  "conflicts": []
+}

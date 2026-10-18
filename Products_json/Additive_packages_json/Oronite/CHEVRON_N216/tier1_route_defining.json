@@ -1,0 +1,210 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "CHEVRON_N216",
+  "product": {
+    "product_name": "N216",
+    "supplier": "Indian Additives Ltd.",
+    "document_type": [
+      "MSDS"
+    ],
+    "source_file": [
+      "DL2-12493.pdf"
+    ],
+    "revision_date": "2018-10-03"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "Automotive lubricant additive",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12493.pdf",
+          "page": 1,
+          "revision_date": "2018-10-03"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": null,
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "API group compatibility not published — confirm with supplier. MSDS only; no performance claims to apply a rule to."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": null,
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.95,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "prescribed treatment rate of: 11.95 wt. %",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Section 11 'Skin Sensitization': 'not expected to cause allergic skin reactions when formulated in a finished oil at the prescribed treatment rate of ...'. No claim or SAE grade attached.",
+          "source": {
+            "file": "DL2-12493.pdf",
+            "page": 4,
+            "revision_date": "2018-10-03"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Image-only PDF (no text layer); all values read visually from 200 dpi page renders.",
+    "NEW product (no old Product_JSON file). Decision (a) said 'all properties missing and image-only noted', the later instruction says to read image-only PDFs like text PDFs; values were read and entered as Reported.",
+    "DL2-12493.pdf p.1: 'Company Identification: Indian Additives Ltd.' with Chevron Oronite logo and Oronite emergency contacts; supplier recorded as Indian Additives Ltd. (Revision Number: 3, MSDS : 44378).",
+    "DL2-12493.pdf p.1 Section 2 component shares (not element contents): Highly refined mineral oil (C15 - C50) 40 - 45 %weight; Zinc alkyl dithiophosphate (68649-42-3) 5 - 10 %weight; Calcium long chain alkaryl sulfonate (722503-69-7) 5 - 10 %weight; Calcium long chain alkaryl sulfonate (722503-68-6) 1 - 5 %weight.",
+    "Package vs component: MSDS only says 'Product Use: Automotive lubricant additive' (p.1); filed as a package per decision (a).",
+    "Only an MSDS is available; package type, claims, SAE grades, base oils and co-components are not printed."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

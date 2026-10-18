@@ -1,0 +1,146 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "PETRONAS_EQUINAS_8",
+  "product": {
+    "product_name": "EQUINAS 8",
+    "supplier": "PETRONAS Lubricants International",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-15279.pdf",
+    "revision_date": "2023-03"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "III",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15279.pdf",
+          "page": 1,
+          "revision_date": "2023-03"
+        },
+        "printed_text": "High Quality Group III Base Oil",
+        "value_kind": "manufacturer classification",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      },
+      "chemistry": {
+        "value": "Hydrotreated and wax-isomerized, hydrofinished isoparaffinic base oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15279.pdf",
+          "page": 1,
+          "revision_date": "2023-03"
+        },
+        "printed_text": "proprietary hydrotreatment and wax isomerization process and hydrofinished; highly isoparaffinic",
+        "value_kind": "manufacturer description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 51.79,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "51.79 mm2/s; specification Report",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15279.pdf",
+        "page": 1,
+        "revision_date": "2023-03"
+      }
+    },
+    "kv100": {
+      "value": 8.081,
+      "qualifier": null,
+      "min": 7.0,
+      "max": 8.5,
+      "value_kind": "typical",
+      "printed_text": "8.081 mm2/s; specification 7.0–8.5 mm2/s",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15279.pdf",
+        "page": 1,
+        "revision_date": "2023-03"
+      }
+    },
+    "viscosity_index": {
+      "value": 126,
+      "qualifier": null,
+      "min": 120,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "126; specification ≥120",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15279.pdf",
+        "page": 1,
+        "revision_date": "2023-03"
+      }
+    },
+    "density": {
+      "value": 0.844,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "0.8440 kg/L at 15°C; specification Report",
+      "unit": "kg/L",
+      "test_temperature_c": 15,
+      "method": "ASTM D1298 / ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15279.pdf",
+        "page": 1,
+        "revision_date": "2023-03"
+      }
+    },
+    "ccs": [
+      {
+        "value": 9753,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "9753 mPa.s at -30°C; specification Report",
+        "unit": "mPa.s",
+        "test_temperature_c": -30,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-15279.pdf",
+          "page": 1,
+          "revision_date": "2023-03"
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "No separately verified grade-specific SDS for EQUINAS 8; reconciliation pending."
+  ],
+  "conflicts": []
+}

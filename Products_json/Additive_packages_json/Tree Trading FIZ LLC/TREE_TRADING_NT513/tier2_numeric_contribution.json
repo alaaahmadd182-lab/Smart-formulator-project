@@ -1,0 +1,314 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "TREE_TRADING_NT513",
+  "product": {
+    "product_name": "NT513",
+    "supplier": "Tree Trading FIZ LLC",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-14797.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "tbn": {
+      "value": 90,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Base Number, mg KOH/g ASTM D2896 90",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "ASTM D2896",
+      "status": "reported",
+      "calculation_note": "Column 'Typical Value'.",
+      "source": {
+        "file": "DL2-14797.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 12.7,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Sulfated Ash, wt% ASTM D874 12.7",
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "ASTM D874",
+      "status": "reported",
+      "calculation_note": "Column 'Typical Value'.",
+      "source": {
+        "file": "DL2-14797.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "elements": {
+      "Ca": {
+        "value": 3.28,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Calcium, wt% ASTM D4951/D4927 3.28",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951/D4927",
+        "status": "reported",
+        "calculation_note": "Column 'Typical Value'.",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.09,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Zinc, wt% ASTM D4951 1.09",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "Column 'Typical Value'.",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 1.0,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Phosphorus, wt% ASTM D4951 1.00",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "Column 'Typical Value'.",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": 400,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Molybdenum, ppm ASTM D5185 400",
+        "unit": "ppm",
+        "test_temperature_c": null,
+        "method": "ASTM D5185",
+        "status": "reported",
+        "calculation_note": "Column 'Typical Value'. Printed in ppm; template unit wt.% not used.",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.56,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Nitrogen, wt% ASTM D5291 0.56",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D5291",
+        "status": "reported",
+        "calculation_note": "Column 'Typical Value'.",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": 2486,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity @ 40°C, mm²/s ASTM D445 2486",
+      "unit": "mm²/s",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "reported",
+      "calculation_note": "Column 'Typical Value'.",
+      "source": {
+        "file": "DL2-14797.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 135,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity @ 100°C, mm²/s ASTM D445 135",
+      "unit": "mm²/s",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "reported",
+      "calculation_note": "Column 'Typical Value'.",
+      "source": {
+        "file": "DL2-14797.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 0.99,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity, at 15°C ASTM D4052 0.99",
+      "unit": "specific gravity (dimensionless)",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "reported",
+      "calculation_note": "Column 'Typical Value'. Printed as specific gravity. reported as specific gravity.",
+      "source": {
+        "file": "DL2-14797.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null,
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Flash point, Mg, B, S and pour point not printed. Mo printed in ppm.",
+    "User decision 2026-10-17: density field stores the number 0.99 (specific gravity (dimensionless)), which is reported as specific gravity ('Specific Gravity, at 15°C ASTM D4052 0.99', DL2-14797.pdf p.1), not a density in kg/m3; flagged for review."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

@@ -1,0 +1,174 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "NYNAS_NS_3",
+  "product": {
+    "product_name": "NS 3",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-15474.pdf",
+    "revision_date": "2024-05-30"
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% loss",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -70,
+      "qualifier": "<",
+      "min": null,
+      "max": -60,
+      "value_kind": "upper bound",
+      "printed_text": "Typical < -70°C; specification maximum -60°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D97 / ASTM D5950",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15474.pdf",
+        "page": 2,
+        "revision_date": "2024-05-30"
+      }
+    },
+    "flash_point": {
+      "value": 95,
+      "qualifier": null,
+      "min": 90,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 95°C; specification minimum 90°C; PM",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D93",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15474.pdf",
+        "page": 2,
+        "revision_date": "2024-05-30"
+      },
+      "flash_method": "PM"
+    }
+  },
+  "open_questions": [
+    "SDS reconciliation pending.",
+    "Older PDS DL2-12382.pdf (2016-11-01) has different typical values; confirm appropriate commercial revision."
+  ],
+  "conflicts": [
+    {
+      "property": "kv40",
+      "primary": {
+        "value": 2.92,
+        "source_file": "DL2-15474.pdf",
+        "page": 2
+      },
+      "alternate": {
+        "value": 2.84,
+        "source_file": "DL2-12382.pdf",
+        "page": 2
+      },
+      "note": "Different typical values in 2024 and 2016 editions; newer edition selected."
+    },
+    {
+      "property": "density",
+      "primary": {
+        "value": 0.863,
+        "source_file": "DL2-15474.pdf",
+        "page": 2
+      },
+      "alternate": {
+        "value": 0.86,
+        "source_file": "DL2-12382.pdf",
+        "page": 2
+      },
+      "note": "Different typical values in 2024 and 2016 editions."
+    },
+    {
+      "property": "flash_point",
+      "primary": {
+        "value": 95,
+        "source_file": "DL2-15474.pdf",
+        "page": 2
+      },
+      "alternate": {
+        "value": 94,
+        "source_file": "DL2-12382.pdf",
+        "page": 2
+      },
+      "note": "Different typical PM flash points in two editions."
+    },
+    {
+      "property": "sulfur",
+      "primary": {
+        "value": "<10 ppm",
+        "source_file": "DL2-15474.pdf",
+        "page": 2
+      },
+      "alternate": {
+        "value": "30 ppm",
+        "source_file": "DL2-12382.pdf",
+        "page": 2
+      },
+      "note": "Older typical 30 ppm versus newer upper-bound <10 ppm; not interchangeable."
+    }
+  ]
+}

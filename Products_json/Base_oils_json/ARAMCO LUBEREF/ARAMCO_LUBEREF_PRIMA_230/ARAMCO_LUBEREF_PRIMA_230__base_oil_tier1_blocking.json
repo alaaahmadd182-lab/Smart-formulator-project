@@ -1,0 +1,151 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "ARAMCO_LUBEREF_PRIMA_230__T1",
+  "product": {
+    "product_name": "aramcoPRIMA 230",
+    "supplier": "Saudi Aramco Luberef",
+    "document_type": [
+      "Supplier specification"
+    ],
+    "source_file": "DL2-12172.pdf",
+    "revision_date": null,
+    "product_id": "ARAMCO_LUBEREF_PRIMA_230"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group II",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12172.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "value_kind": "single",
+        "printed_text": "LUBEREF GII product/specification heading",
+        "method": null,
+        "basis": "Supplier document heading"
+      },
+      "chemistry": {
+      "value": "Distillates, petroleum, hydrotreated heavy paraffinic",
+      "status": "Reported",
+      "basis": "External official supplier safety data sheet, Section 3",
+      "notes": "Not stated in supplied DL2-12172.pdf. Obtained from the official Luberef SDS for aramcoPRIMA 230, page 2, Section 3. CAS 64742-54-7, concentration 100%, DMSO <3%.",
+      "source": {
+        "file": "https://luberefapp.s3-accelerate.amazonaws.com/documents/prima230-1664376579.pdf",
+        "page": 2,
+        "revision_date": "2020-08-12"
+      }
+    }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": "range",
+      "min": 42.5,
+      "max": 46,
+      "value_kind": "range",
+      "printed_text": "42.5 - 46",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12172.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 6.65,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "6.65",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "Obtained from an external official Aramco product datasheet for aramcoPRIMA 230, not from DL2-12172.pdf.",
+      "source": {
+        "file": "https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramcoprima/aramcoprima_2021_december/aramcoprima-230_yanbu_ar.pdf?hash=35009BCB03F8661F4C2220E5BC82ED39EAFE713F&la=ar",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 105,
+      "qualifier": "minimum",
+      "min": 105,
+      "max": null,
+      "value_kind": "minimum",
+      "printed_text": "105",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12172.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.863,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "0.863",
+      "unit": "kg/L",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12172.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": 5900,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "single",
+        "printed_text": "5,900",
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": null,
+        "notes": "Obtained from an external official Aramco product datasheet for aramcoPRIMA 230, not from DL2-12172.pdf.",
+        "source": {
+          "file": "https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramcoprima/aramcoprima_2021_december/aramcoprima-230_yanbu_ar.pdf?hash=35009BCB03F8661F4C2220E5BC82ED39EAFE713F&la=ar",
+          "page": 1,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-12172.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier technical specification",
+      "revision_date": null
+    }
+  ]
+}

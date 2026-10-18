@@ -1,0 +1,111 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "NYNAS_S_3B",
+  "product": {
+    "product_name": "Nynas S 3B",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-12819.pdf",
+    "revision_date": "2019-05-29"
+  },
+  "fields": {
+    "sulfur": {
+      "value": 5,
+      "qualifier": "<",
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical <5 ppm",
+      "unit": "ppm",
+      "test_temperature_c": null,
+      "method": "ASTM D2622",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12819.pdf",
+        "page": 2,
+        "revision_date": "2019-05-29"
+      }
+    },
+    "saturates": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    "SDS DL2-13379.pdf has rounded KV40 3 cSt vs PDS 3.20 cSt; no definitive contradiction (SDS rounded).",
+    "SDS flash >100°C consistent with PDS 107°C; SDS density 0.86 g/cm3 rounded vs PDS 0.859 g/cm3."
+  ],
+  "conflicts": []
+}

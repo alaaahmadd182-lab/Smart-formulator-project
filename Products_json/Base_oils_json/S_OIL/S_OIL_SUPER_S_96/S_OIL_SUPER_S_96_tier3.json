@@ -1,0 +1,118 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "S_OIL_SUPER_S_96",
+  "product": {
+    "product_name": "S-96 (Super 500N)",
+    "supplier": "S-OIL",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-12392.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "sulfur": {
+      "value": null,
+      "qualifier": "<",
+      "min": null,
+      "max": 10,
+      "value_kind": "limit",
+      "printed_text": "<10 wt ppm",
+      "unit": "wt ppm",
+      "test_temperature_c": null,
+      "method": "ASTM D5453",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12392.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "saturates": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    }
+  },
+  "open_questions": [
+    "API group is not explicitly specified in the reviewed Super Series brochure.",
+    "Specific gravity at 15/4 °C is dimensionless and is not an absolute density measurement.",
+    "Noack volatility, CCS, saturates, and aromatics are not numerically reported in the reviewed sheet.",
+    "Final source-level audit and grade-specific SDS reconciliation pending."
+  ],
+  "conflicts": []
+}

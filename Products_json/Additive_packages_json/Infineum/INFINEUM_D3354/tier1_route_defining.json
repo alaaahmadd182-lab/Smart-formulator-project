@@ -1,0 +1,823 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "INFINEUM_D3354",
+  "product": {
+    "product_name": "Infineum D3354",
+    "supplier": "Infineum",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-10203.pdf"
+    ],
+    "revision_date": "2005-12-12"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "performance package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "Infineum D3354 is a performance package designed to meet API CG-4/CF-4/CF/SJ, MB p228.1/3 (package approved) performance level with Infineum SV261. Infineum D3354 can also be rationalised up to API CI-4/SL, ACEA E7, MB p228.3 using appropriate boosters.",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4/CF/SL",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 11.8 + 3.0 Booster(3) mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA A3/B4/E7",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 11.8 + 3.0 Booster(3) mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB p228.3 (PA)",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 11.8 + 3.0 Booster(3) mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Volvo VDS-3",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 11.8 + 3.0 Booster(3) mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "As below plus Volvo VDS-2",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 11.8 + 0.8 Booster(4) mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CG-4/CF/SJ",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 11.75 mass %; 15W-40 at 11.2 mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA A3/B4/E3",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 11.75 mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB p228.2/3 (PA)",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 11.75 mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN M3275",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 11.75 mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Volvo VDS",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 11.75 mass %; 15W-40 at 11.2 mass %; 15W-40 at 10.7 mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-L",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 11.75 mass %; 15W-40 at 11.2 mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA A3/B4/E2",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 11.2 mass %; 15W-40 at 10.7 mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB p228.0/1 (PA)",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 11.2 mass %; 15W-40 at 10.7 mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 270/1",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 11.2 mass %; 15W-40 at 10.7 mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4/CF/SJ",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 10.7 mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB p229.1",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 10.7 mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "VW 505 Quality",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40 at 10.7 mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4/SG",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 10W-30, 15W-40, 20W-50 at 10.4 mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 15W-40, 20W-40, 20W50, mono-grades at 9.6 mass %. Footnote (1): 'Summary of major claims. For full claims, and claims with OCP, see the technical brochure.' Footnote (2): 'Plus more limited claims in other viscosity grades.' '(PA)' printed after MB entries; description says '(package approved)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "10W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "20W-50",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "20W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "20W50",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "mono-grades",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10203.pdf",
+          "page": 1,
+          "revision_date": "2005-12-12"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I",
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CI-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use). Datasheet itself says 'Claims are base stock and viscosity grade specific', so confirm with Infineum."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "Max storage temperature is 60°C with maximum transfer temperature being 65°C.",
+        "Do not heat above 60°C for prolonged periods"
+      ],
+      "exclusions": [],
+      "allowed_combinations": [
+        "can also be rationalised up to API CI-4/SL, ACEA E7, MB p228.3 using appropriate boosters",
+        "'11.8 + 3.0 Booster' row: Equivalent to Infineum D3420 technology family"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-10203.pdf",
+        "page": 1,
+        "revision_date": "2005-12-12"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CI-4/CF/SL; ACEA A3/B4/E7; MB p228.3 (PA); Volvo VDS-3",
+        "sae_grade": "15W-40",
+        "treat_rate_wt_pct": {
+          "value": 11.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CI-4/CF/SL / ACEA A3/B4/E7 / MB p228.3 (PA) / Volvo VDS-3 | 15W-40 | 11.8 + 3.0 Booster(3)",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Mass %'. Printed '11.8 + 3.0 Booster(3) Equivalent to Infineum D3420 technology family'. Footnote 3 boosters: Infineum D2332 at 2.8 mass%, D2333 at 4.5 mass%, D2334 at 3.0 to 3.3 mass%.",
+          "source": {
+            "file": "DL2-10203.pdf",
+            "page": 1,
+            "revision_date": "2005-12-12"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "As below plus Volvo VDS-2",
+        "sae_grade": "15W-40",
+        "treat_rate_wt_pct": {
+          "value": 11.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "As below plus Volvo VDS-2 | 15W-40 | 11.8 + 0.8 Booster(4)",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Mass %'. Level printed as 'As below plus Volvo VDS-2'. Footnote 4: Use Infineum D2332 at 0.75 mass%, D2333 at 0.75 mass% and D2334 at 0.80 mass%.",
+          "source": {
+            "file": "DL2-10203.pdf",
+            "page": 1,
+            "revision_date": "2005-12-12"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CG-4/CF/SJ; ACEA A3/B4/E3; MB p228.2/3 (PA); MAN M3275; Volvo VDS; Mack EO-L",
+        "sae_grade": "15W-40",
+        "treat_rate_wt_pct": {
+          "value": 11.75,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CG-4/CF/SJ / ACEA A3/B4/E3 / MB p228.2/3 (PA) / MAN M3275 / Volvo VDS / Mack EO-L | 15W-40 | 11.75",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Mass %'.",
+          "source": {
+            "file": "DL2-10203.pdf",
+            "page": 1,
+            "revision_date": "2005-12-12"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CG-4/CF/SJ; ACEA A3/B4/E2; MB p228.0/1 (PA); MAN 270/1; Volvo VDS; Mack EO-L",
+        "sae_grade": "15W-40",
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CG-4/CF/SJ / ACEA A3/B4/E2 / MB p228.0/1 (PA) / MAN 270/1 / Volvo VDS / Mack EO-L | 15W-40 | 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Mass %'.",
+          "source": {
+            "file": "DL2-10203.pdf",
+            "page": 1,
+            "revision_date": "2005-12-12"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF-4/CF/SJ; ACEA A3/B4/E2; MB p228.0/1 (PA); MAN 270/1; MB p229.1; VW 505 Quality; Volvo VDS",
+        "sae_grade": "15W-40",
+        "treat_rate_wt_pct": {
+          "value": 10.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CF-4/CF/SJ / ACEA A3/B4/E2 / MB p228.0/1 (PA) / MAN 270/1 / MB p229.1 / VW 505 Quality / Volvo VDS | 15W-40 | 10.7",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Mass %'.",
+          "source": {
+            "file": "DL2-10203.pdf",
+            "page": 1,
+            "revision_date": "2005-12-12"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF-4/SG",
+        "sae_grade": "10W-30, 15W-40, 20W-50",
+        "treat_rate_wt_pct": {
+          "value": 10.4,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CF-4/SG | 10W-30, 15W-40, 20W-50 | 10.4",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Mass %'.",
+          "source": {
+            "file": "DL2-10203.pdf",
+            "page": 1,
+            "revision_date": "2005-12-12"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF",
+        "sae_grade": "15W-40, 20W-40, 20W50, mono-grades",
+        "treat_rate_wt_pct": {
+          "value": 9.6,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CF | 15W-40, 20W-40, 20W50, mono-grades | 9.6",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Mass %'.",
+          "source": {
+            "file": "DL2-10203.pdf",
+            "page": 1,
+            "revision_date": "2005-12-12"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "Booster",
+        "name": "Infineum D2332",
+        "dose_wt_pct": {
+          "value": 2.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Infineum D2332 at 2.8 mass%",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Footnote 3, for the '11.8 + 3.0 Booster' row (one of three alternative boosters tuned for different base stock qualities).",
+          "source": {
+            "file": "DL2-10203.pdf",
+            "page": 1,
+            "revision_date": "2005-12-12"
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "Booster",
+        "name": "Infineum D2333",
+        "dose_wt_pct": {
+          "value": 4.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Infineum D2333 at 4.5 mass%",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Footnote 3 alternative.",
+          "source": {
+            "file": "DL2-10203.pdf",
+            "page": 1,
+            "revision_date": "2005-12-12"
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "Booster",
+        "name": "Infineum D2334",
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": 3.0,
+          "max": 3.3,
+          "value_kind": "range",
+          "printed_text": "Infineum D2334 at 3.0 to 3.3 mass%",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Footnote 3 alternative.",
+          "source": {
+            "file": "DL2-10203.pdf",
+            "page": 1,
+            "revision_date": "2005-12-12"
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "Booster",
+        "name": "Infineum D2332",
+        "dose_wt_pct": {
+          "value": 0.75,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Infineum D2332 at 0.75 mass%",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Footnote 4, for the '11.8 + 0.8 Booster' row.",
+          "source": {
+            "file": "DL2-10203.pdf",
+            "page": 1,
+            "revision_date": "2005-12-12"
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "Booster",
+        "name": "Infineum D2333",
+        "dose_wt_pct": {
+          "value": 0.75,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Infineum D2333 at 0.75 mass%",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Footnote 4 alternative.",
+          "source": {
+            "file": "DL2-10203.pdf",
+            "page": 1,
+            "revision_date": "2005-12-12"
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "Booster",
+        "name": "Infineum D2334",
+        "dose_wt_pct": {
+          "value": 0.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Infineum D2334 at 0.80 mass%",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Footnote 4 alternative.",
+          "source": {
+            "file": "DL2-10203.pdf",
+            "page": 1,
+            "revision_date": "2005-12-12"
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "Viscosity modifier",
+        "name": "Infineum SV261",
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Description: 'performance level with Infineum SV261'; dose not printed.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Claim type 'other': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.",
+    "Row 2 level is printed as 'As below plus Volvo VDS-2' (DL2-10203.pdf p.1); the reference ('below' vs the row above) is unclear.",
+    "Booster rows: footnotes 3 and 4 give three alternative boosters 'tuned for different base stock qualities'; all recorded as co-components. SV261 VM dose not printed."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

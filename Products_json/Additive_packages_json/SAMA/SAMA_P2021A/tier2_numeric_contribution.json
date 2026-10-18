@@ -1,0 +1,314 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "SAMA_P2021A",
+  "product": {
+    "product_name": "P2021A",
+    "supplier": null,
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-12295.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "tbn": {
+      "value": 71,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "TBN, mg KOH/g: 71",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Under 'Typical Characteristics'.",
+      "source": {
+        "file": "DL2-12295.pdf",
+        "page": 2,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 7.6,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Sulphated ash, wt%: 7.6",
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Under 'Typical Characteristics'.",
+      "source": {
+        "file": "DL2-12295.pdf",
+        "page": 2,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "elements": {
+      "Ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 145,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "KV 100, mm2/s: 145",
+      "unit": "mm2/s",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Under 'Typical Characteristics'.",
+      "source": {
+        "file": "DL2-12295.pdf",
+        "page": 2,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 0.958,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density at 15°C, g/ml: 0.958",
+      "unit": "g/ml",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Under 'Typical Characteristics'. Template unit kg/m3; printed g/ml kept.",
+      "source": {
+        "file": "DL2-12295.pdf",
+        "page": 2,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 135,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Flash point, PMC, °C: 135",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "PMCC (ASTM D93)",
+      "status": "reported",
+      "calculation_note": "Under 'Typical Characteristics'. Printed 'PMC'.",
+      "source": {
+        "file": "DL2-12295.pdf",
+        "page": 2,
+        "revision_date": null
+      },
+      "flash_method": "PMCC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "DL2-12295.pdf prints no company name and no date; supplier left null (archive folder 'SAMA'). Only a product brochure, no SDS.",
+    "No test methods printed. KV40, elements and pour point not printed."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

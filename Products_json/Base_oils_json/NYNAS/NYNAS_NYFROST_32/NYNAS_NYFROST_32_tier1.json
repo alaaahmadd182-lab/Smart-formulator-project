@@ -1,0 +1,164 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "NYNAS_NYFROST_32",
+  "product": {
+    "product_name": "NYFROST 32",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-11510.pdf",
+    "revision_date": "2016-11-01"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group V",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-11510.pdf",
+          "page": 1,
+          "revision_date": "2016-11-01"
+        },
+        "printed_text": "classified as an API Group V base oil",
+        "value_kind": "supplier classification",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      },
+      "chemistry": {
+        "value": "Hydrotreated naphthenic base oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-11510.pdf",
+          "page": 1,
+          "revision_date": "2016-11-01"
+        },
+        "printed_text": "wax-free, hydrotreated naphthenic base oil",
+        "value_kind": "supplier description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 32,
+      "qualifier": null,
+      "min": 28.8,
+      "max": 35.2,
+      "value_kind": "typical",
+      "printed_text": "Typical 32 cSt; specification 28.8–35.2 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11510.pdf",
+        "page": 2,
+        "revision_date": "2016-11-01"
+      }
+    },
+    "kv100": {
+      "value": 4.5,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 4.5 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11510.pdf",
+        "page": 2,
+        "revision_date": "2016-11-01"
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.905,
+      "qualifier": null,
+      "min": 0.896,
+      "max": 0.916,
+      "value_kind": "typical",
+      "printed_text": "Typical 0.905 g/cm3 at 15°C; specification 0.896–0.916",
+      "unit": "g/cm3",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11510.pdf",
+        "page": 2,
+        "revision_date": "2016-11-01"
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "Resolve SDS KV40 31 cSt versus PDS 32 cSt and SDS PM flash >180°C versus PDS PM typical 176°C.",
+    "Check whether differing document dates or test conditions explain discrepancy."
+  ],
+  "conflicts": [
+    {
+      "property": "kv40",
+      "source_a": "DL2-11510.pdf p.2 (2016-11-01)",
+      "value_a": "32 cSt (typical)",
+      "source_b": "DL2-13444.pdf p.6 (2020-05-23)",
+      "value_b": "31 cSt (SDS)",
+      "resolution": "Retained supplier PDS typical value; SDS discrepancy flagged."
+    },
+    {
+      "property": "flash_point",
+      "source_a": "DL2-11510.pdf p.2 (2016-11-01)",
+      "value_a": "176°C typical, Pensky-Martens (ASTM D93)",
+      "source_b": "DL2-13444.pdf p.6 (2020-05-23)",
+      "value_b": ">180°C closed cup Pensky-Martens",
+      "resolution": "Not numerically compatible; PDS typical retained and SDS limit flagged for review."
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "template_version": "1.1",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "BO-ADNOC-ADBASE-4-CST__T3",
+  "source_documents": [
+    {
+      "file": "DL2-12221.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier product-specification table (brochure pp.6-7, grades 2/3/4/6/8 cSt)",
+      "revision_date": null,
+      "notes": "No revision/issue date printed; sheet says values are 'accurate on the date of publishing'."
+    },
+    {
+      "file": "DL2-13457.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Byte-identical duplicate of DL2-12221.pdf (same MD5)",
+      "revision_date": null,
+      "notes": "Checked identical; not used as an independent confirmation."
+    },
+    {
+      "file": "DL2-12420.jpg",
+      "pages": [
+        1
+      ],
+      "doc_type": "Scanned ADNOC product specification (image)",
+      "revision_date": "2016-09",
+      "notes": "Issued/reissued September 2016 (replaces February 2016), signed 27-9-2016. Report-only items (KV40, density, saturates, aromatics etc.) not entered as values."
+    }
+  ],
+  "product": {
+    "product_id": "ADNOC_ADBASE_4CST",
+    "material_id": "BO-ADNOC-ADBASE-4-CST",
+    "product_name": "ADbase 4 cSt",
+    "supplier": "ADNOC",
+    "document_type": [
+      "Byte-identical duplicate of DL2-12221.pdf (same MD5)",
+      "Scanned ADNOC product specification (image)",
+      "Supplier product-specification table (brochure pp.6-7, grades 2/3/4/6/8 cSt)"
+    ],
+    "source_file": "DL2-12221.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "sulfur": {
+      "value": 3,
+      "qualifier": "<",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "<3",
+      "unit": "mg/kg",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "Printed as '<3' mg/kg. No method printed on the brochure.",
+      "alternate_entries": [
+        {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": 10,
+          "value_kind": "limit",
+          "printed_text": null,
+          "unit": "mg/kg",
+          "test_temperature_c": null,
+          "method": "ASTM D2622",
+          "status": "Reported",
+          "calculation_note": null,
+          "notes": "Specification maximum.",
+          "source": {
+            "file": "DL2-12420.jpg",
+            "page": 1,
+            "revision_date": "2016-09"
+          }
+        }
+      ],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "saturates": {
+      "value": 99.8,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "99.8",
+      "unit": "mass%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "No method printed on the brochure.",
+      "alternate_entries": [],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": 0.2,
+      "qualifier": "<",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "<0.2",
+      "unit": "mass%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "Printed as '<0.2' mass%. No method printed on the brochure.",
+      "alternate_entries": [],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "notes": "Not on any document for this product.",
+      "alternate_entries": [],
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "notes": "Not on any document for this product.",
+      "alternate_entries": [],
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    {
+      "question": "Cloud point and wax content are not reported.",
+      "fields": [
+        "cloud_point",
+        "wax_content"
+      ],
+      "source_files": [
+        "DL2-12221.pdf",
+        "DL2-12420.jpg"
+      ]
+    },
+    {
+      "question": "Spec sheet gives sulfur only as a maximum limit (10 mg/kg); brochure typical is '<3' mg/kg. Saturates/aromatics 'Report' only on spec sheet: no method on the typical values.",
+      "fields": [
+        "sulfur",
+        "saturates",
+        "aromatics"
+      ],
+      "source_files": [
+        "DL2-12221.pdf",
+        "DL2-12420.jpg"
+      ]
+    }
+  ],
+  "conflicts": []
+}

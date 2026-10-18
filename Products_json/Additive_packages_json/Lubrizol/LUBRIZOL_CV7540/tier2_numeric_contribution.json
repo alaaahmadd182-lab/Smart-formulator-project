@@ -1,0 +1,318 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "LUBRIZOL_CV7540",
+  "product": {
+    "product_name": "LUBRIZOL® CV7540",
+    "supplier": "The Lubrizol Corporation",
+    "document_type": [
+      "PDS",
+      "PDS"
+    ],
+    "source_file": [
+      "DL2-14638.pdf",
+      "DL2-15581.pdf"
+    ],
+    "revision_date": [
+      "2020-01-20",
+      "2022-05-13"
+    ]
+  },
+  "fields": {
+    "tbn": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 15.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "SULFATED ASH 15 % ASTM D 874",
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "ASTM D 874",
+      "status": "reported",
+      "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated). Same value in DL2-14638.pdf p.2 (2020) except Nitrogen method (2020: 'LZ Test Method').",
+      "source": {
+        "file": "DL2-15581.pdf",
+        "page": 2,
+        "revision_date": "2022-05-13"
+      },
+      "notes": null
+    },
+    "elements": {
+      "Ca": {
+        "value": 3.55,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "CALCIUM 3.55 % LZ Test Method",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "LZ Test Method",
+        "status": "reported",
+        "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated). Same value in DL2-14638.pdf p.2 (2020) except Nitrogen method (2020: 'LZ Test Method').",
+        "source": {
+          "file": "DL2-15581.pdf",
+          "page": 2,
+          "revision_date": "2022-05-13"
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": 0.298,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "MAGNESIUM 0.298 % LZ Test Method",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "LZ Test Method",
+        "status": "reported",
+        "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated). Same value in DL2-14638.pdf p.2 (2020) except Nitrogen method (2020: 'LZ Test Method').",
+        "source": {
+          "file": "DL2-15581.pdf",
+          "page": 2,
+          "revision_date": "2022-05-13"
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 0.911,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "ZINC 0.911 % LZ Test Method",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "LZ Test Method",
+        "status": "reported",
+        "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated). Same value in DL2-14638.pdf p.2 (2020) except Nitrogen method (2020: 'LZ Test Method').",
+        "source": {
+          "file": "DL2-15581.pdf",
+          "page": 2,
+          "revision_date": "2022-05-13"
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 0.828,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "PHOSPHORUS 0.828 % LZ Test Method",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "LZ Test Method",
+        "status": "reported",
+        "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated). Same value in DL2-14638.pdf p.2 (2020) except Nitrogen method (2020: 'LZ Test Method').",
+        "source": {
+          "file": "DL2-15581.pdf",
+          "page": 2,
+          "revision_date": "2022-05-13"
+        },
+        "notes": null
+      },
+      "B": {
+        "value": 0.158,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "BORON 0.158 % LZ Test Method",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "LZ Test Method",
+        "status": "reported",
+        "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated). Same value in DL2-14638.pdf p.2 (2020) except Nitrogen method (2020: 'LZ Test Method').",
+        "source": {
+          "file": "DL2-15581.pdf",
+          "page": 2,
+          "revision_date": "2022-05-13"
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.78,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "NITROGEN 0.78 % ASTM D 5291",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D 5291",
+        "status": "reported",
+        "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated). Same value in DL2-14638.pdf p.2 (2020) except Nitrogen method (2020: 'LZ Test Method').",
+        "source": {
+          "file": "DL2-15581.pdf",
+          "page": 2,
+          "revision_date": "2022-05-13"
+        },
+        "notes": null
+      },
+      "S": {
+        "value": 2.86,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "SULFUR 2.86 % LZ Test Method",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "LZ Test Method",
+        "status": "reported",
+        "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated). Same value in DL2-14638.pdf p.2 (2020) except Nitrogen method (2020: 'LZ Test Method').",
+        "source": {
+          "file": "DL2-15581.pdf",
+          "page": 2,
+          "revision_date": "2022-05-13"
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": 830.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "VISCOSITY @ 40 C, CST 830 CST ASTM D 445",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D 445",
+      "status": "reported",
+      "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Same value in DL2-14638.pdf p.2 (2020) except Nitrogen method (2020: 'LZ Test Method').",
+      "source": {
+        "file": "DL2-15581.pdf",
+        "page": 2,
+        "revision_date": "2022-05-13"
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 63.5,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "VISCOSITY @ 100 C, CST 63.5 CST ASTM D 445",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D 445",
+      "status": "reported",
+      "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Same value in DL2-14638.pdf p.2 (2020) except Nitrogen method (2020: 'LZ Test Method').",
+      "source": {
+        "file": "DL2-15581.pdf",
+        "page": 2,
+        "revision_date": "2022-05-13"
+      },
+      "notes": null
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3 (or as printed)",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 148.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "FLASH POINT, C, PMCC 148 °C ASTM D 93",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D 93",
+      "status": "reported",
+      "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Same value in DL2-14638.pdf p.2 (2020) except Nitrogen method (2020: 'LZ Test Method').",
+      "source": {
+        "file": "DL2-15581.pdf",
+        "page": 2,
+        "revision_date": "2022-05-13"
+      },
+      "flash_method": "PMCC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": -27.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "POUR POINT, C -27 °C ASTM D 5950",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D 5950",
+      "status": "reported",
+      "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Same value in DL2-14638.pdf p.2 (2020) except Nitrogen method (2020: 'LZ Test Method').",
+      "source": {
+        "file": "DL2-15581.pdf",
+        "page": 2,
+        "revision_date": "2022-05-13"
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Typical characteristics identical in both sheets (DL2-14638.pdf p.2 and DL2-15581.pdf p.2). Density/specific gravity, TBN and Mo not printed."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

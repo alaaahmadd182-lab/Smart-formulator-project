@@ -1,0 +1,130 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "EXXONMOBIL_SPECTRASYN_2__T1",
+  "product": {
+    "product_name": "SpectraSyn 2",
+    "supplier": "ExxonMobil",
+    "document_type": "Product Datasheet",
+    "source_file": "DL2-11328.pdf",
+    "revision_date": "07/30/2015"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "chemistry": {
+        "value": "Polyalphaolefin (PAO)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-11328.pdf",
+          "page": 1,
+          "revision_date": "07/30/2015"
+        }
+      }
+    },
+    "kv40": {
+      "value": 5.0,
+      "qualifier": "Typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "5.0",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11328.pdf",
+        "page": 1,
+        "revision_date": "07/30/2015"
+      }
+    },
+    "kv100": {
+      "value": 1.7,
+      "qualifier": "Typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "1.7",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11328.pdf",
+        "page": 1,
+        "revision_date": "07/30/2015"
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [],
+  "conflicts": []
+}

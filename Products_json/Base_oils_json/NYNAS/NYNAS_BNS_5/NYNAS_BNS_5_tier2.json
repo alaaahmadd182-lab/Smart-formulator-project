@@ -1,0 +1,117 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "NYNAS_BNS_5",
+  "product": {
+    "product_name": "BNS 5",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-13442.pdf",
+    "revision_date": "2017-10-04"
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% loss",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -66,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical −66°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13442.pdf",
+        "page": 1,
+        "revision_date": "2017-10-04"
+      }
+    },
+    "flash_point": {
+      "value": 114,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 114°C, PM",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D93A",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13442.pdf",
+        "page": 1,
+        "revision_date": "2017-10-04"
+      },
+      "flash_method": "PM"
+    }
+  },
+  "open_questions": [
+    "API group and base-oil chemistry not explicitly stated in this PDS.",
+    "SDS reconciliation pending."
+  ],
+  "conflicts": []
+}

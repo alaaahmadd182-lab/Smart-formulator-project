@@ -1,0 +1,199 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "CHEVRON_SYNFLUID_PAO_8__T1",
+  "product": {
+    "product_name": "Synfluid PAO 8 cSt",
+    "supplier": "Chevron Phillips Chemical",
+    "document_type": "TDS/SDS",
+    "source_file": "DL2-11916.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "chemistry": {
+        "value": "Highly Branched Isoparaffinic Polyalphaolefin",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-11916.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "basis": "Grade-specific supplier technical datasheet product description",
+        "notes": "Grade-specific supplier datasheet explicitly describes this chemistry; no CAS number inferred."
+      }
+    },
+    "kv40": {
+      "value": 46.4,
+      "qualifier": "typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "46.4",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11916.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 7.8,
+      "qualifier": "typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "7.8",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11916.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 138.0,
+      "qualifier": "typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "138.0",
+      "unit": "dimensionless",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11916.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    {
+      "field": "api_group_chemistry.api_group",
+      "note": "PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing."
+    }
+  ],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-11916.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "TDS/SDS (see document)",
+      "revision_date": null
+    },
+    {
+      "file": "DL2-11905.PDF",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "doc_type": "TDS/SDS (see document)",
+      "revision_date": null
+    },
+    {
+      "file": "DL2-13200.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "TDS/SDS (see document)",
+      "revision_date": null
+    }
+  ]
+}

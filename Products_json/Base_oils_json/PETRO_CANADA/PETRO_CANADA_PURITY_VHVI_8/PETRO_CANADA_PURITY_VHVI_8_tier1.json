@@ -1,0 +1,171 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "PETRO_CANADA_PURITY_VHVI_8",
+  "product": {
+    "product_name": "PURITY VHVI 8",
+    "supplier": "Petro-Canada Lubricants Inc.",
+    "document_type": "Supplier PURITY VHVI brochure / typical properties",
+    "source_file": "DL2-11261.pdf",
+    "revision_date": "2015-07"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group III",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-11261.pdf",
+          "page": 1,
+          "revision_date": "2015-07"
+        },
+        "printed_text": "Group III refinery; Group III – Cold Crank Simulator",
+        "value_kind": "supplier family classification",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      },
+      "chemistry": {
+        "value": "Highly isoparaffinic saturated hydrocarbons; severe hydrotreating, hydrocracking, catalytic wax hydroisomerization",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-11261.pdf",
+          "page": 1,
+          "revision_date": "2015-07"
+        },
+        "printed_text": "Highly isoparaffinic, saturated base oils produced by severe Hydrotreating, Hydrocracking and catalytic wax Hydroisomerization",
+        "value_kind": "supplier family description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 51,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "51 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11261.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "kv100": {
+      "value": 8.3,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "8.3 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11261.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "viscosity_index": {
+      "value": 128,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "128",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11261.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "density": {
+      "value": 0.85,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "0.85 kg/L",
+      "unit": "kg/L",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11261.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "ccs": [
+      {
+        "test_temperature_c": -20,
+        "ccs_viscosity": {
+          "value": 3291,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "3291 cP @ -20°C",
+          "unit": "cP",
+          "test_temperature_c": -20,
+          "method": "ASTM D5293",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11261.pdf",
+            "page": 2,
+            "revision_date": "2015-07"
+          }
+        }
+      },
+      {
+        "test_temperature_c": -25,
+        "ccs_viscosity": {
+          "value": 5894,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "5894 cP @ -25°C",
+          "unit": "cP",
+          "test_temperature_c": -25,
+          "method": "ASTM D5293",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11261.pdf",
+            "page": 2,
+            "revision_date": "2015-07"
+          }
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "Group III classification and chemistry are supplier family-level descriptions, not individual grade assay.",
+    "Confirm against grade-specific SDS and other brochure editions during final audit."
+  ],
+  "conflicts": []
+}

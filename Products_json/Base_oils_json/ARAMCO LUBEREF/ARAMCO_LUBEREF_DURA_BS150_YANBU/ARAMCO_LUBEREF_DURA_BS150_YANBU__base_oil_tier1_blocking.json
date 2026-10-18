@@ -1,0 +1,186 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "ARAMCO_LUBEREF_DURA_BS150_YANBU__T1",
+  "product": {
+    "product_name": "aramcoDURA BS150 Yanbu",
+    "supplier": "Saudi Aramco Luberef",
+    "document_type": [
+      "Supplier specification",
+      "Safety data sheet"
+    ],
+    "source_file": "DL2-13944.pdf",
+    "revision_date": null,
+    "product_id": "ARAMCO_LUBEREF_DURA_BS150_YANBU"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group I",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-13944.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "value_kind": "single",
+        "printed_text": "LUBEREF GI product/specification heading",
+        "method": null,
+        "basis": "Supplier document heading"
+      },
+      "chemistry": {
+      "value": "Paraffin oils (petroleum), catalytic dewaxed heavy",
+      "status": "Reported",
+      "basis": "Supplier safety data sheet, Section 3",
+      "notes": "Composition explicitly reported in DL2-12648.pdf, page 2, Section 3. CAS 64742-70-7, concentration 100%, DMSO <3%.",
+      "source": {
+        "file": "DL2-12648.pdf",
+        "page": 2,
+        "revision_date": "2019-08-05"
+      }
+    }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 31.32,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "31.32",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13944.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 95,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "95",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13944.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.894,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "0.894",
+      "unit": "kg/L",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13944.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+  {
+      "question": "KV40 and CCS are not reported in the reviewed source specifications.",
+      "fields": [
+        "kv40",
+        "ccs[]"
+      ],
+      "source_files": [
+        "DL2-13944.pdf",
+        "DL2-12648.pdf",
+        "DL2-12173.pdf"
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "density",
+      "note": "The 0.894 kg/L typical density is at 15.6°C (DL2-13944), not 15°C; do not treat it as a 15°C measurement."
+    }
+  ],
+  "source_documents": [
+    {
+      "file": "DL2-13944.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier technical specification",
+      "revision_date": null
+    },
+    {
+      "file": "DL2-12648.pdf",
+      "pages": [
+        1,
+        4,
+        5
+      ],
+      "doc_type": "Safety data sheet",
+      "revision_date": "2019-08-05"
+    },
+    {
+      "file": "DL2-12173.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier technical specification",
+      "revision_date": null
+    }
+  ]
+}

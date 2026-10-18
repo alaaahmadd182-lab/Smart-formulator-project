@@ -1,0 +1,112 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "S_OIL_PREMIUM_P_31",
+  "product": {
+    "product_name": "P-31 (Premium 150N)",
+    "supplier": "S-OIL",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-11173.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "mrv": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "yield_stress": {
+          "value": null,
+          "unit": "Pa",
+          "status": "Missing",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "pour_point": {
+      "value": -12.5,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "-12.5 °C",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D5950",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11173.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "flash_point": {
+      "value": 212,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "212 °C (COC)",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11173.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC"
+    }
+  },
+  
+  "open_questions": [
+    "API Group remains unverified for the historical S-OIL P-31 (Premium 150N) grade.",
+    "Specific gravity at 15/4°C is dimensionless and has not been transcribed as absolute density.",
+    "MRV apparent viscosity and MRV yield stress have not been verified for P-31; no ASTM D4684 measurement or test temperature was found in the reviewed documentation.",
+    "Noack volatility, CCS viscosity, saturates and aromatics remain unverified.",
+    "Final source-level audit and grade-specific SDS reconciliation pending."
+  ],
+  "conflicts": []
+}

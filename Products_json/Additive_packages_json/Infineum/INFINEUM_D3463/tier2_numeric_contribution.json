@@ -1,0 +1,314 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "INFINEUM_D3463",
+  "product": {
+    "product_name": "Infineum D3463",
+    "supplier": "Infineum",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-13517.pdf"
+    ],
+    "revision_date": "2016-10-25"
+  },
+  "fields": {
+    "tbn": {
+      "value": 87,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Base Number 87 mg KOH/g ASTM D2896",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "ASTM D2896",
+      "status": "reported",
+      "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
+      "source": {
+        "file": "DL2-13517.pdf",
+        "page": 1,
+        "revision_date": "2016-10-25"
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 8.98,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Sulfated Ash 8.98 %(m) ASTM D874",
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "ASTM D874",
+      "status": "reported",
+      "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
+      "source": {
+        "file": "DL2-13517.pdf",
+        "page": 1,
+        "revision_date": "2016-10-25"
+      },
+      "notes": null
+    },
+    "elements": {
+      "Ca": {
+        "value": 0.99,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Calcium 0.99 %(m) ASTM D5185",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D5185",
+        "status": "reported",
+        "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
+        "source": {
+          "file": "DL2-13517.pdf",
+          "page": 1,
+          "revision_date": "2016-10-25"
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": 0.93,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Magnesium 0.93 %(m) ASTM D5185",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D5185",
+        "status": "reported",
+        "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
+        "source": {
+          "file": "DL2-13517.pdf",
+          "page": 1,
+          "revision_date": "2016-10-25"
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.03,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Zinc 1.03 %(m) ASTM D5185",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D5185",
+        "status": "reported",
+        "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
+        "source": {
+          "file": "DL2-13517.pdf",
+          "page": 1,
+          "revision_date": "2016-10-25"
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 0.93,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Phosphorus 0.93 %(m) ASTM D5185",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D5185",
+        "status": "reported",
+        "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
+        "source": {
+          "file": "DL2-13517.pdf",
+          "page": 1,
+          "revision_date": "2016-10-25"
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.73,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Nitrogen 0.73 %(m) ASTM D5291",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D5291",
+        "status": "reported",
+        "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
+        "source": {
+          "file": "DL2-13517.pdf",
+          "page": 1,
+          "revision_date": "2016-10-25"
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": 3444,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Kinematic Viscosity @ 40 C 3444 cSt ASTM D445",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "reported",
+      "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
+      "source": {
+        "file": "DL2-13517.pdf",
+        "page": 1,
+        "revision_date": "2016-10-25"
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 153,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Kinematic Viscosity @ 100 C 153 cSt ASTM D445",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "reported",
+      "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
+      "source": {
+        "file": "DL2-13517.pdf",
+        "page": 1,
+        "revision_date": "2016-10-25"
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 964,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density @ 15 C, kg/m3 964 kg/m3 ASTM D4052",
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "reported",
+      "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
+      "source": {
+        "file": "DL2-13517.pdf",
+        "page": 1,
+        "revision_date": "2016-10-25"
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 184,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "184 °C ASTM D93",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D93",
+      "status": "reported",
+      "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'. Row label 'Flash Point Deg C' is visible on the page image but missing from the text layer.",
+      "source": {
+        "file": "DL2-13517.pdf",
+        "page": 1,
+        "revision_date": "2016-10-25"
+      },
+      "flash_method": "PMCC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Also printed: 'Density @ 60 F, lb/gal 8.02 lb/USG'. B, Mo, S and pour point not printed.",
+    "Row label 'Flash Point Deg C' is visible on the page image but missing from the text layer."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

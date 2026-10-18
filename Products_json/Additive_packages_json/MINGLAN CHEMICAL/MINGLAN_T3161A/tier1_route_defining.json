@@ -1,0 +1,325 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "MINGLAN_T3161A",
+  "product": {
+    "product_name": "T3161A",
+    "supplier": "MINGLAN CHEMICAL",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "MULTIFUNCTIONAL ENGINE OIL ADDITIVE FOR CI-4/SL",
+        "status": "reported",
+        "source": {
+          "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "T3161A has been developed to formulate high quality automotive engine oils and multigrade oils. The following performance levels can be achieved with oils formulated with T3161A.",
+        "status": "reported",
+        "source": {
+          "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4/CH-4/SL",
+        "claim_type": "other",
+        "scope": "'Reference dosage' table (API Performance Level / Dosage): CI-4/CH-4/SL 12.0. Intro: 'T3161A has been developed to formulate high quality automotive engine oils and multigrade oils. The following performance levels can be achieved with oils formulated with T3161A.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4/SL",
+        "claim_type": "other",
+        "scope": "'Reference dosage' table (API Performance Level / Dosage): CF-4/SL 7.5. Intro: 'T3161A has been developed to formulate high quality automotive engine oils and multigrade oils. The following performance levels can be achieved with oils formulated with T3161A.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4/SJ",
+        "claim_type": "other",
+        "scope": "'Reference dosage' table (API Performance Level / Dosage): CF-4/SJ 6.0/6.2. Intro: 'T3161A has been developed to formulate high quality automotive engine oils and multigrade oils. The following performance levels can be achieved with oils formulated with T3161A.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CD/SF",
+        "claim_type": "other",
+        "scope": "'Reference dosage' table (API Performance Level / Dosage): CD/SF 4.6/4.8. Intro: 'T3161A has been developed to formulate high quality automotive engine oils and multigrade oils. The following performance levels can be achieved with oils formulated with T3161A.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I",
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CI-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use)."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CI-4/CH-4/SL",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 12.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CI-4/CH-4/SL 12.0",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "'Reference dosage' table.",
+          "source": {
+            "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF-4/SL",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 7.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CF-4/SL 7.5",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "'Reference dosage' table.",
+          "source": {
+            "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF-4/SJ",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CF-4/SJ 6.0/6.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed as two values '6.0/6.2'; the meaning of the slash (alternatives or a range) is not stated.",
+          "source": {
+            "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CD/SF",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CD/SF 4.6/4.8",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed as two values '4.6/4.8'; the meaning of the slash (alternatives or a range) is not stated.",
+          "source": {
+            "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "No revision date and no supplier legal name printed on T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf; supplier recorded from the archive folder name 'MINGLAN CHEMICAL'.",
+    "Claim type 'other': 'The following performance levels can be achieved with oils formulated with T3161A'. No SAE grades, base oils, co-components or SDS.",
+    "CF-4/SJ dose '6.0/6.2' and CD/SF dose '4.6/4.8' (dosage column 'Dosage (m%)'): two values separated by '/', meaning not stated; value left null with printed text kept."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

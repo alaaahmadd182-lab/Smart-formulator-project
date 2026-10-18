@@ -1,0 +1,130 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "EXXONMOBIL_SPECTRASYN_PLUS_3_6__T1",
+  "product": {
+    "product_name": "SpectraSyn Plus 3.6",
+    "supplier": "ExxonMobil",
+    "document_type": "Product Datasheet",
+    "source_file": "DL2-11380.pdf",
+    "revision_date": "06/13/2006"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "chemistry": {
+        "value": "Polyalphaolefin (PAO)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-11380.pdf",
+          "page": 1,
+          "revision_date": "06/13/2006"
+        }
+      }
+    },
+    "kv40": {
+      "value": 15.4,
+      "qualifier": "Typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "15.4",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11380.pdf",
+        "page": 1,
+        "revision_date": "06/13/2006"
+      }
+    },
+    "kv100": {
+      "value": 3.6,
+      "qualifier": "Typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "3.6",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11380.pdf",
+        "page": 1,
+        "revision_date": "06/13/2006"
+      }
+    },
+    "viscosity_index": {
+      "value": 120.0,
+      "qualifier": "Typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "120.0",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11380.pdf",
+        "page": 1,
+        "revision_date": "06/13/2006"
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [],
+  "conflicts": []
+}

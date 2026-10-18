@@ -1,0 +1,208 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "AFTON_HITEC_8712",
+  "product": {
+    "product_name": "HiTEC® 8712 Performance Additive",
+    "supplier": "Afton Chemical Asia Pte. Ltd.",
+    "document_type": [
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-15020.pdf"
+    ],
+    "revision_date": "2018-02-02"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "Petrochemical industry: Lubricant additives",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15020.pdf",
+          "page": 1,
+          "revision_date": "2018-02-02"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": null,
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "API group compatibility not published — confirm with supplier. SDS only; no performance claims to apply a rule to."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": null,
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Supplier: DL2-15020.pdf p.1 lists several Afton entities under 'Manufacturer / Supplier'; first listed (Afton Chemical Asia Pte. Ltd.) recorded.",
+    "Only an SDS is in the archive for HiTEC 8712. Package type, claims, grades, treat rates, base oils, co-components and formulations are not printed; could be looked up later in an Afton bulletin.",
+    "Product name printed as 'HiTEC® 8712 Performance Additive' (p.1); old Product_JSON uses 'HiTEC 8712'.",
+    "The SDS does not say this is a package; composition (p.2) shows mineral oil 30 - 60 %, calcium long-chain alkylphenate sulfide 10 - 19.9 % and ZDDP 10 - 19.9 %. Old Product_JSON classifies it as 'performance additive package'; please confirm package vs component."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

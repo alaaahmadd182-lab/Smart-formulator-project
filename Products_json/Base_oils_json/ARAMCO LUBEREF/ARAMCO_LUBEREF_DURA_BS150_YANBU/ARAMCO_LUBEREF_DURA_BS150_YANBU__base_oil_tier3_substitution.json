@@ -1,0 +1,172 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "ARAMCO_LUBEREF_DURA_BS150_YANBU__T3",
+  "product": {
+    "product_name": "aramcoDURA BS150 Yanbu",
+    "supplier": "Saudi Aramco Luberef",
+    "document_type": [
+      "Supplier specification",
+      "Safety data sheet"
+    ],
+    "source_file": "DL2-13944.pdf",
+    "revision_date": null,
+    "product_id": "ARAMCO_LUBEREF_DURA_BS150_YANBU"
+  },
+  "fields": {
+    "sulfur": {
+      "value": 1.3,
+      "qualifier": "maximum",
+      "min": null,
+      "max": 1.3,
+      "value_kind": "maximum",
+      "printed_text": "1.3",
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "ASTM D4294",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12173.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "saturates": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    {
+      "question": "Not reported in reviewed source specifications; preserve as missing.",
+      "fields": [
+        "saturates",
+        "aromatics",
+        "cloud_point",
+        "wax_content"
+      ],
+      "source_files": [
+        "DL2-13944.pdf",
+        "DL2-12648.pdf",
+        "DL2-12173.pdf"
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "sulfur",
+      "sources": [
+        {
+          "file": "DL2-13944.pdf",
+          "page": 1,
+          "printed_text": "Sulfur Content ppm 1.3‡ (‡ D2622)"
+        },
+        {
+          "file": "DL2-12173.pdf",
+          "page": 1,
+          "printed_text": "Sulfur Content Max WT% 1.3"
+        }
+      ],
+      "note": "Conflicting units (ppm vs wt.%). 1.3 wt.% retained from guaranteed specification; verify before use."
+    }
+  ],
+  "source_documents": [
+    {
+      "file": "DL2-13944.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier technical specification",
+      "revision_date": null
+    },
+    {
+      "file": "DL2-12648.pdf",
+      "pages": [
+        1,
+        4,
+        5
+      ],
+      "doc_type": "Safety data sheet",
+      "revision_date": null
+    },
+    {
+      "file": "DL2-12173.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier technical specification",
+      "revision_date": null
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "S_OIL_PREMIUM_P_31",
+  "product": {
+    "product_name": "P-31 (Premium 150N)",
+    "supplier": "S-OIL",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-11173.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null,
+        "flash_method": null,
+        "test_temperature_c": null
+      },     
+      "chemistry": {
+        "value": "Petroleum-derived base oil produced by hydrotreating and MEK dewaxing",
+        "status": "Reported",
+        "source": {
+          "file": "https://www.s-oil.com/common/page/FileDownload.aspx?FileName=20120725114816952.pdf&PIndex=16&PathType=BOARD&TFileName=Product+Catalog+.pdf",
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": "Premium series base oil utilizes Gulf's hydrotreating and Texaco's MEK dewaxing processes",
+        "value_kind": "supplier family process description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "Family-level process description; no grade-specific chemical composition or CAS number established.",
+        "flash_method": null,
+        "test_temperature_c": null
+      }
+    },
+    "kv40": {
+      "value": 30.14,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "30.14 cSt @40°C",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11173.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "kv100": {
+      "value": 5.189,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "5.189 cSt @100°C",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11173.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "viscosity_index": {
+      "value": 101,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "101",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11173.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+
+  },
+  "open_questions": [
+    "No explicit API Group classification has been verified for historical S-OIL P-31 (Premium 150N).",
+    "Chemistry is described using S-OIL's Premium Series hydrotreating and MEK-dewaxing process; grade-specific chemical composition and CAS number remain unverified.",
+    "No grade-specific CCS viscosity or CCS test temperature has been verified for P-31.",
+    "The catalog reports specific gravity at 15/4°C, which must not be silently treated as absolute density.",
+    "Grade-specific SDS and additional manufacturer documentation require reconciliation."
+  ],
+  "conflicts": []
+}

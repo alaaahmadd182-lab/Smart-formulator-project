@@ -1,0 +1,356 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "CHEVRON_OLOA_61003",
+  "product": {
+    "product_name": "OLOA 61003",
+    "supplier": "Chevron Oronite Company LLC",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-11032.pdf"
+    ],
+    "revision_date": "2009-01-08"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "Additive Package for X-tra High Performance Diesel Oils",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11032.pdf",
+          "page": 1,
+          "revision_date": "2009-01-08"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "especially designed for the most demanding heavy duty engines meeting EuroIV and previous emission standards",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11032.pdf",
+          "page": 1,
+          "revision_date": "2009-01-08"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E4/E7-08",
+        "claim_type": "other",
+        "scope": "Heading: 'The following OEM & Industry performance claims can be made:' Text: 'OLOA® 61003 meets the latest industry and OEM Heavy Duty specifications developed for Extended Drain Intervals.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11032.pdf",
+          "page": 1,
+          "revision_date": "2009-01-08"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "other",
+        "scope": "Heading: 'The following OEM & Industry performance claims can be made:' Text: 'OLOA® 61003 meets the latest industry and OEM Heavy Duty specifications developed for Extended Drain Intervals.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11032.pdf",
+          "page": 1,
+          "revision_date": "2009-01-08"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Daimler MB 228.5",
+        "claim_type": "other",
+        "scope": "Heading: 'The following OEM & Industry performance claims can be made:' Text: 'OLOA® 61003 meets the latest industry and OEM Heavy Duty specifications developed for Extended Drain Intervals.' Marked '*': 'Approvals on going. Contact your Oronite Sales representative for more details.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11032.pdf",
+          "page": 1,
+          "revision_date": "2009-01-08"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN M3277",
+        "claim_type": "other",
+        "scope": "Heading: 'The following OEM & Industry performance claims can be made:' Text: 'OLOA® 61003 meets the latest industry and OEM Heavy Duty specifications developed for Extended Drain Intervals.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11032.pdf",
+          "page": 1,
+          "revision_date": "2009-01-08"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Scania LDF-2",
+        "claim_type": "other",
+        "scope": "Heading: 'The following OEM & Industry performance claims can be made:' Text: 'OLOA® 61003 meets the latest industry and OEM Heavy Duty specifications developed for Extended Drain Intervals.' Marked '*': 'Approvals on going. Contact your Oronite Sales representative for more details.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11032.pdf",
+          "page": 1,
+          "revision_date": "2009-01-08"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Volvo VDS-3",
+        "claim_type": "other",
+        "scope": "Heading: 'The following OEM & Industry performance claims can be made:' Text: 'OLOA® 61003 meets the latest industry and OEM Heavy Duty specifications developed for Extended Drain Intervals.' Marked '*': 'Approvals on going. Contact your Oronite Sales representative for more details.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11032.pdf",
+          "page": 1,
+          "revision_date": "2009-01-08"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU DDC Type 3",
+        "claim_type": "other",
+        "scope": "Heading: 'The following OEM & Industry performance claims can be made:' Text: 'OLOA® 61003 meets the latest industry and OEM Heavy Duty specifications developed for Extended Drain Intervals.' Marked '*': 'Approvals on going. Contact your Oronite Sales representative for more details.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11032.pdf",
+          "page": 1,
+          "revision_date": "2009-01-08"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-M PLUS",
+        "claim_type": "other",
+        "scope": "Heading: 'The following OEM & Industry performance claims can be made:' Text: 'OLOA® 61003 meets the latest industry and OEM Heavy Duty specifications developed for Extended Drain Intervals.' Marked '*': 'Approvals on going. Contact your Oronite Sales representative for more details.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11032.pdf",
+          "page": 1,
+          "revision_date": "2009-01-08"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Renault Truck RXD/RLD-2",
+        "claim_type": "other",
+        "scope": "Heading: 'The following OEM & Industry performance claims can be made:' Text: 'OLOA® 61003 meets the latest industry and OEM Heavy Duty specifications developed for Extended Drain Intervals.' Marked '*': 'Approvals on going. Contact your Oronite Sales representative for more details.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11032.pdf",
+          "page": 1,
+          "revision_date": "2009-01-08"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "DAF Extended Drains",
+        "claim_type": "other",
+        "scope": "Heading: 'The following OEM & Industry performance claims can be made:' Text: 'OLOA® 61003 meets the latest industry and OEM Heavy Duty specifications developed for Extended Drain Intervals.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11032.pdf",
+          "page": 1,
+          "revision_date": "2009-01-08"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20077/78",
+        "claim_type": "other",
+        "scope": "Heading: 'The following OEM & Industry performance claims can be made:' Text: 'OLOA® 61003 meets the latest industry and OEM Heavy Duty specifications developed for Extended Drain Intervals.' Marked '*': 'Approvals on going. Contact your Oronite Sales representative for more details.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11032.pdf",
+          "page": 1,
+          "revision_date": "2009-01-08"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "API group compatibility not published — confirm with supplier. Claims ACEA E4/E7 / MB 228.5, a long-drain tier usually blended in Group III/IV, so the older-claim Group I/II/III rule may not hold; not filled."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "All claims listed on p.1",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 18.4,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Dosage 18.4 mass %",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Single dosage printed with 'VI Improver (VII) PARATONE® 8006'; no grade.",
+          "source": {
+            "file": "DL2-11032.pdf",
+            "page": 1,
+            "revision_date": "2009-01-08"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "VI Improver (VII)",
+        "name": "PARATONE® 8006",
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Printed under 'Dosage' as 'VI Improver (VII) PARATONE® 8006'; dose not printed.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Claims are listed under 'performance claims can be made' (DL2-11032.pdf p.1); recorded as claim_type 'other'. Items with '*' are 'Approvals on going'.",
+    "VII PARATONE® 8006 named, dose not printed. No SAE grades or base oils printed. No SDS in the archive."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

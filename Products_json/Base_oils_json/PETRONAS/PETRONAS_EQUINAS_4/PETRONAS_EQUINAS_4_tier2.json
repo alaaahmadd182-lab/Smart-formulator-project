@@ -1,0 +1,118 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "PETRONAS_EQUINAS_4",
+  "product": {
+    "product_name": "EQUINAS 4",
+    "supplier": "PETRONAS Lubricants International",
+    "document_type": "Safety Data Sheet",
+    "source_file": "DL2-15184.pdf",
+    "revision_date": "2021-10-21"
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": 13.9,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "SDS reported",
+      "printed_text": "NOACK 13.9% mass ASTM D5800 B",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D5800 B",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15184.pdf",
+        "page": 4,
+        "revision_date": "2021-10-21"
+      }
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 216,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "SDS reported",
+      "printed_text": "216°C ASTM D92",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15184.pdf",
+        "page": 4,
+        "revision_date": "2021-10-21"
+      },
+      "flash_method": "COC"
+    }
+  },
+  "open_questions": [
+    "No grade-specific TDS in supplied product source; only SDS available.",
+    "API base oil group not explicitly stated in SDS.",
+    "Pour point, sulfur, viscosity index and CCS not reported."
+  ],
+  "conflicts": []
+}

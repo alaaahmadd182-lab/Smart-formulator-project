@@ -1,0 +1,184 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "PETRO_CANADA_PURITY_1003",
+  "product": {
+    "product_name": "PURITY 1003 Base Oil",
+    "supplier": "Petro-Canada Lubricants Inc.",
+    "document_type": "Supplier PURITY base-oils brochure / typical properties",
+    "source_file": "DL2-10020.pdf",
+    "revision_date": "2015-07"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      },
+      "chemistry": {
+        "value": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10020.pdf",
+          "page": 1,
+          "revision_date": "2015-07"
+        },
+        "printed_text": "HT Purity Process: severe hydrotreating/hydrocracking, dewaxing, hydrofinishing; paraffinic and cycloparaffinic hydrocarbons",
+        "value_kind": "supplier family description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 21.5,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "21.5 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "kv100": {
+      "value": 4.4,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "4.4 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "viscosity_index": {
+      "value": 115,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "115",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "density": {
+      "value": 0.84,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density @ 15°C, kg/L: 0.84",
+      "unit": "kg/L",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "ccs": [
+      {
+        "value": 1300,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "@ -25°C: 1300 cP",
+        "unit": "cP",
+        "test_temperature_c": -25,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-10020.pdf",
+          "page": 2,
+          "revision_date": "2015-07"
+        }
+      },
+      {
+        "value": 1876,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "@ -30°C: 1876 cP",
+        "unit": "cP",
+        "test_temperature_c": -30,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-10020.pdf",
+          "page": 2,
+          "revision_date": "2015-07"
+        }
+      },
+      {
+        "value": 2390,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "@ -35°C: 2390 cP",
+        "unit": "cP",
+        "test_temperature_c": -35,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-10020.pdf",
+          "page": 2,
+          "revision_date": "2015-07"
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "Individual API group not explicitly assigned in the supplier family brochure (Group II and Group II+ are described collectively).",
+    "Grade-specific SDS reconciliation pending.",
+    "Additional Petro-Canada documents not yet reconciled against this brochure."
+  ],
+  "conflicts": []
+}

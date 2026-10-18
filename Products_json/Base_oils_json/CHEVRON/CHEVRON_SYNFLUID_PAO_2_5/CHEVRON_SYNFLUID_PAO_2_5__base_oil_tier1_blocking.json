@@ -1,0 +1,145 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "CHEVRON_SYNFLUID_PAO_2_5__T1",
+  "product": {
+    "product_name": "Synfluid PAO 2.5 cSt",
+    "supplier": "Chevron Phillips Chemical",
+    "document_type": "TDS/SDS",
+    "source_file": "DL2-13200.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "chemistry": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "kv40": {
+      "value": 8.2,
+      "qualifier": "typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "8.2",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D7042",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13200.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 2.4,
+      "qualifier": "typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "2.4",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D7042",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13200.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    {
+      "field": "api_group_chemistry.api_group",
+      "note": "PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing."
+    }
+  ],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-13200.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "TDS/SDS (see document)",
+      "revision_date": null
+    }
+  ]
+}

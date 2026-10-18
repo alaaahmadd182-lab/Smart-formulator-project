@@ -1,0 +1,320 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "INFINEUM_D3417",
+  "product": {
+    "product_name": "Infineum D3417",
+    "supplier": "Infineum",
+    "document_type": [
+      "TDS",
+      "PDS"
+    ],
+    "source_file": [
+      "DL2-15335.pdf",
+      "DL2-15334.pdf"
+    ],
+    "revision_date": [
+      "2022-03-10",
+      "12-Feb-2024"
+    ]
+  },
+  "fields": {
+    "tbn": {
+      "value": 106,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Base Number 106 mg KOH/g ASTM D2896",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "ASTM D2896",
+      "status": "reported",
+      "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
+      "source": {
+        "file": "DL2-15335.pdf",
+        "page": 1,
+        "revision_date": "2022-03-10"
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 12.05,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "calculated",
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "Calculated (ASTM D874 factors)",
+      "status": "calculated",
+      "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×1.26 (Ca) + 4.95×1.19 (Mg) + 1.24×1.51 (Zn) = 12.0469 → 12.05 wt.%.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+    },
+    "elements": {
+      "Ca": {
+        "value": 1.26,
+        "qualifier": null,
+        "min": 1.15,
+        "max": 1.37,
+        "value_kind": "specification",
+        "printed_text": "Calcium %(m) 1.15 1.26 1.37 See Alt. Test Methods",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "See Alt. Test Methods",
+        "status": "reported",
+        "calculation_note": "Customer specification (PDS) DL2-15334.pdf: value = 'Target', min/max = 'Min'/'Max'. TDS DL2-15335.pdf p.1 typical is the same value. Alternate methods listed on the PDS.",
+        "source": {
+          "file": "DL2-15334.pdf",
+          "page": 1,
+          "revision_date": "12-Feb-2024"
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": 1.19,
+        "qualifier": null,
+        "min": 1.1,
+        "max": 1.28,
+        "value_kind": "specification",
+        "printed_text": "Magnesium %(m) 1.10 1.19 1.28 See Alt. Test Methods",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "See Alt. Test Methods",
+        "status": "reported",
+        "calculation_note": "Customer specification (PDS) DL2-15334.pdf: value = 'Target', min/max = 'Min'/'Max'. TDS DL2-15335.pdf p.1 typical is the same value. Alternate methods listed on the PDS.",
+        "source": {
+          "file": "DL2-15334.pdf",
+          "page": 1,
+          "revision_date": "12-Feb-2024"
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.51,
+        "qualifier": null,
+        "min": 1.39,
+        "max": 1.63,
+        "value_kind": "specification",
+        "printed_text": "Zinc %(m) 1.39 1.51 1.63 See Alt. Test Methods",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "See Alt. Test Methods",
+        "status": "reported",
+        "calculation_note": "Customer specification (PDS) DL2-15334.pdf: value = 'Target', min/max = 'Min'/'Max'. TDS DL2-15335.pdf p.1 typical is the same value. Alternate methods listed on the PDS.",
+        "source": {
+          "file": "DL2-15334.pdf",
+          "page": 1,
+          "revision_date": "12-Feb-2024"
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 1.37,
+        "qualifier": null,
+        "min": 1.26,
+        "max": 1.48,
+        "value_kind": "specification",
+        "printed_text": "Phosphorus %(m) 1.26 1.37 1.48 See Alt. Test Methods",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "See Alt. Test Methods",
+        "status": "reported",
+        "calculation_note": "Customer specification (PDS) DL2-15334.pdf: value = 'Target', min/max = 'Min'/'Max'. TDS DL2-15335.pdf p.1 typical is the same value. Alternate methods listed on the PDS.",
+        "source": {
+          "file": "DL2-15334.pdf",
+          "page": 1,
+          "revision_date": "12-Feb-2024"
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.79,
+        "qualifier": null,
+        "min": 0.71,
+        "max": 0.87,
+        "value_kind": "specification",
+        "printed_text": "Nitrogen %(m) 0.71 0.79 0.87 ASTM D5291",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D5291",
+        "status": "reported",
+        "calculation_note": "Customer specification (PDS) DL2-15334.pdf: value = 'Target', min/max = 'Min'/'Max'. TDS DL2-15335.pdf p.1 typical is the same value.",
+        "source": {
+          "file": "DL2-15334.pdf",
+          "page": 1,
+          "revision_date": "12-Feb-2024"
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": 3815,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Kinematic Viscosity @ 40 C 3815 cSt ASTM D445",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "reported",
+      "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
+      "source": {
+        "file": "DL2-15335.pdf",
+        "page": 1,
+        "revision_date": "2022-03-10"
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 168,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Kinematic Viscosity @ 100 C 168 cSt ASTM D445",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "reported",
+      "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
+      "source": {
+        "file": "DL2-15335.pdf",
+        "page": 1,
+        "revision_date": "2022-03-10"
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 985,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density @ 15 C, kg/m3 985 kg/m3 ASTM D4052",
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "reported",
+      "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
+      "source": {
+        "file": "DL2-15335.pdf",
+        "page": 1,
+        "revision_date": "2022-03-10"
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 185,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "185 °C ASTM D93",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D93",
+      "status": "reported",
+      "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'. Row label 'Flash Point Deg C' is visible on the page image but missing from the text layer.",
+      "source": {
+        "file": "DL2-15335.pdf",
+        "page": 1,
+        "revision_date": "2022-03-10"
+      },
+      "flash_method": "PMCC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Element fields use the newer customer specification DL2-15334.pdf (Min/Target/Max); targets equal the TDS typical values (Ca 1.26, Mg 1.19, N 0.79, P 1.37, Zn 1.51), so no conflict.",
+    "PDS lists Base Number and KV100 as 'Test and report results' (no limits). Sulfated ash, B, Mo, S and pour point not printed.",
+    "Row label 'Flash Point Deg C' is visible on the page image but missing from the text layer. (DL2-15335.pdf p.1)."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

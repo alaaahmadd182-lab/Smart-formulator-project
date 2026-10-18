@@ -1,0 +1,116 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "PETRONAS_EQUINAS_8",
+  "product": {
+    "product_name": "EQUINAS 8",
+    "supplier": "PETRONAS Lubricants International",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-15279.pdf",
+    "revision_date": "2023-03"
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": 4,
+      "qualifier": null,
+      "min": null,
+      "max": 8,
+      "value_kind": "typical",
+      "printed_text": "4 mass %; specification <8 mass %",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D5800-B",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15279.pdf",
+        "page": 1,
+        "revision_date": "2023-03"
+      }
+    },
+    "pour_point": {
+      "value": -15,
+      "qualifier": null,
+      "min": null,
+      "max": -9,
+      "value_kind": "typical",
+      "printed_text": "-15°C; specification ≤ -9°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15279.pdf",
+        "page": 1,
+        "revision_date": "2023-03"
+      }
+    },
+    "flash_point": {
+      "value": 260,
+      "qualifier": null,
+      "min": 220,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "260°C; specification ≥220°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15279.pdf",
+        "page": 1,
+        "revision_date": "2023-03"
+      },
+      "flash_method": "COC"
+    }
+  },
+  "open_questions": [
+    "No separately verified grade-specific SDS for EQUINAS 8; reconciliation pending."
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,150 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "ARAMCO_LUBEREF_PRIMA_70__T2",
+  "product": {
+    "product_name": "aramcoPRIMA 70",
+    "supplier": "Saudi Aramco Luberef",
+    "document_type": [
+      "Supplier specification",
+      "Safety data sheet"
+    ],
+    "source_file": "DL2-12172.pdf",
+    "revision_date": null,
+    "product_id": "ARAMCO_LUBEREF_PRIMA_70"
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% loss",
+      "test_temperature_c": 250,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -30,
+      "qualifier": "maximum",
+      "min": null,
+      "max": -30,
+      "value_kind": "maximum",
+      "printed_text": "-30",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12172.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 175,
+      "qualifier": "minimum",
+      "min": 175,
+      "max": null,
+      "value_kind": "minimum",
+      "printed_text": "175",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D92 (COC)",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12172.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    }
+  },
+  "open_questions": [
+    {
+      "question": "Not reported in reviewed source specifications; preserve as missing.",
+      "fields": [
+        "mrv[].mrv_viscosity",
+        "mrv[].yield_stress",
+        "noack_volatility"
+      ],
+      "source_files": [
+        "DL2-12172.pdf",
+        "DL2-15448.pdf"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-12172.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier technical specification",
+      "revision_date": null
+    },
+    {
+      "file": "DL2-15448.pdf",
+      "pages": [
+        1,
+        5
+      ],
+      "doc_type": "Safety data sheet",
+      "revision_date": null
+    }
+  ]
+}

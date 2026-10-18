@@ -1,0 +1,119 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "ERGON_HY_40",
+  "product": {
+    "product_name": "HY 40",
+    "supplier": "Ergon Refining, Inc.",
+    "document_type": "Naphthenic Ink Oil Marketing Specification",
+    "source_file": "DL2-13168.pdf",
+    "revision_date": "2018-05-10"
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% loss",
+      "test_temperature_c": 250,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -88,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical -126\u00b0F (-88\u00b0C)",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D5950",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13168.pdf",
+        "page": 1,
+        "revision_date": "2018-05-10"
+      }
+    },
+    "flash_point": {
+      "value": 109,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "COC typical 228\u00b0F (109\u00b0C)",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13168.pdf",
+        "page": 1,
+        "revision_date": "2018-05-10"
+      },
+      "flash_method": "COC"
+    }
+  },
+  "open_questions": [
+    "API group not explicitly stated.",
+    "SDS cross-check pending.",
+    "Specific gravity reported at 15.6\u00b0C; density not directly reported.",
+    "PMCC flash point and water content specification retained in ingestion log because template does not offer dedicated fields."
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,347 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "WUXI_WX3118",
+  "product": {
+    "product_name": "WX3118(CF-4 CH-4 CI-4)",
+    "supplier": null,
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-13534.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "diesel engine oil additive package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13534.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "WX3118(CF-4 CH-4 CI-4) diesel engine oil additive package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13534.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4",
+        "claim_type": "recommended",
+        "scope": "Table 'Performance Level / SAE Viscosity / Treat rate m%': 30,40,50,10W/30,15W/40,20W/40,, 8.0.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13534.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CH-4",
+        "claim_type": "recommended",
+        "scope": "Table 'Performance Level / SAE Viscosity / Treat rate m%': 30,40,50,10W/30,15W/40,20W/40,, 10.0.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13534.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "recommended",
+        "scope": "Table 'Performance Level / SAE Viscosity / Treat rate m%': 30,40,50,10W/30,15W/40,20W/40,, 11.0.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13534.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13534.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13534.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "50",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13534.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "10W/30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13534.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "15W/40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13534.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "20W/40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13534.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I",
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CI-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use)."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CF-4",
+        "sae_grade": "30,40,50,10W/30,15W/40,20W/40,",
+        "treat_rate_wt_pct": {
+          "value": 8.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CF-4 30,40,50,10W/30,15W/40,20W/40, 8.0",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Treat rate m%'.",
+          "source": {
+            "file": "DL2-13534.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CH-4",
+        "sae_grade": "30,40,50,10W/30,15W/40,20W/40,",
+        "treat_rate_wt_pct": {
+          "value": 10.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CH-4 30,40,50,10W/30,15W/40,20W/40, 10.0",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Treat rate m%'.",
+          "source": {
+            "file": "DL2-13534.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CI-4",
+        "sae_grade": "30,40,50,10W/30,15W/40,20W/40,",
+        "treat_rate_wt_pct": {
+          "value": 11.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CI-4 30,40,50,10W/30,15W/40,20W/40, 11.0",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Treat rate m%'.",
+          "source": {
+            "file": "DL2-13534.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "No company name or date printed on DL2-13534.pdf (website WWW.WXNFCN.CN/EN); supplier left null (archive folder 'Wuxi South Petroleum'). No SDS in the archive.",
+    "Claim type 'recommended' from the treat-rate table (no approval/meets wording).",
+    "Grades printed as '30,40,50,10W/30,15W/40,20W/40,' (trailing comma)."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

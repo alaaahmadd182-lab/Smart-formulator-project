@@ -1,0 +1,147 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "NYNAS_NYFROST_68",
+  "product": {
+    "product_name": "Nyfrost 68",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-11747.pdf",
+    "revision_date": "2014-09-30"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      },
+      "chemistry": {
+        "value": "Severely hydrotreated naphthenic base oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-11747.pdf",
+          "page": 1,
+          "revision_date": "2014-09-30"
+        },
+        "printed_text": "Naphthenic based refrigerating oil; Severely Hydrotreated Base Oil",
+        "value_kind": "supplier description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 69,
+      "qualifier": null,
+      "min": 61.2,
+      "max": 74.8,
+      "value_kind": "typical",
+      "printed_text": "Typical 69 cSt; specification 61.2–74.8 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11747.pdf",
+        "page": 1,
+        "revision_date": "2014-09-30"
+      }
+    },
+    "kv100": {
+      "value": 6.6,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 6.6 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11747.pdf",
+        "page": 1,
+        "revision_date": "2014-09-30"
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.912,
+      "qualifier": null,
+      "min": 0.904,
+      "max": 0.924,
+      "value_kind": "typical",
+      "printed_text": "Typical 0.912 kg/dm3 at 15°C; specification 0.904–0.924 kg/dm3",
+      "unit": "g/cm3",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11747.pdf",
+        "page": 1,
+        "revision_date": "2014-09-30"
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "API group not explicitly stated in supplied PDS.",
+    "Grade-specific SDS reconciliation pending."
+  ],
+  "conflicts": []
+}

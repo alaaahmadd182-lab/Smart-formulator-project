@@ -1,0 +1,314 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "RICHFUL_RF6071L",
+  "product": {
+    "product_name": "RF6071L CI-4 Extended EDI Diesel Engine Oil Package",
+    "supplier": null,
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "RF6071L.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "tbn": {
+      "value": 94.0,
+      "qualifier": null,
+      "min": 85.0,
+      "max": 103.0,
+      "value_kind": "typical",
+      "printed_text": "Total Base Number, mgKOH/g 85-103 94 SH/T0251, ASTM D2896",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "SH/T0251, ASTM D2896",
+      "status": "reported",
+      "calculation_note": "TDS 'Typical Value' column with index/limit '85-103'.",
+      "source": {
+        "file": "RF6071L.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 8.99,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "calculated",
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "Calculated (ASTM D874 factors)",
+      "status": "calculated",
+      "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×2.35 (Ca) + 1.24×0.81 (Zn) = 8.9944 → 8.99 wt.%. Mg not reported, taken as 0.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+    },
+    "elements": {
+      "Ca": {
+        "value": 2.35,
+        "qualifier": null,
+        "min": 2.12,
+        "max": 2.59,
+        "value_kind": "typical",
+        "printed_text": "Ca Content, m% 2.12-2.59 2.35 GB/T17476, ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "GB/T17476, ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '2.12-2.59'.",
+        "source": {
+          "file": "RF6071L.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 0.81,
+        "qualifier": null,
+        "min": 0.73,
+        "max": 0.89,
+        "value_kind": "typical",
+        "printed_text": "Zn Content, m% 0.73-0.89 0.81 GB/T17476, ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "GB/T17476, ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '0.73-0.89'.",
+        "source": {
+          "file": "RF6071L.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 0.73,
+        "qualifier": null,
+        "min": 0.66,
+        "max": 0.8,
+        "value_kind": "typical",
+        "printed_text": "P Content, m% 0.66-0.80 0.73 GB/T17476, ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "GB/T17476, ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '0.66-0.80'.",
+        "source": {
+          "file": "RF6071L.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": 0.048,
+        "qualifier": null,
+        "min": 0.038,
+        "max": 0.058,
+        "value_kind": "typical",
+        "printed_text": "Mo Content, m% 0.038-0.058 0.048 GB/T 17476, ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "GB/T 17476, ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '0.038-0.058'.",
+        "source": {
+          "file": "RF6071L.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 1.1,
+        "qualifier": null,
+        "min": 0.94,
+        "max": 1.27,
+        "value_kind": "typical",
+        "printed_text": "N Content, m% 0.94-1.27 1.10 SH/T 0704, ASTM D5762",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T 0704, ASTM D5762",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '0.94-1.27'.",
+        "source": {
+          "file": "RF6071L.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 165.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Kinematic Viscosity (100℃), mm2/s Report 165 GB/T265, ASTM D445",
+      "unit": "mm2/s",
+      "test_temperature_c": 100,
+      "method": "GB/T265, ASTM D445",
+      "status": "reported",
+      "calculation_note": "TDS 'Typical Value' column.",
+      "source": {
+        "file": "RF6071L.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 969.0,
+      "qualifier": null,
+      "min": 949.0,
+      "max": 989.0,
+      "value_kind": "typical",
+      "printed_text": "Density (20℃), kg/m3 949-989 969 SH/T 0604, ASTM D4052",
+      "unit": "kg/m3",
+      "test_temperature_c": 20,
+      "method": "SH/T 0604, ASTM D4052",
+      "status": "reported",
+      "calculation_note": "TDS 'Typical Value' column with index/limit '949-989'.",
+      "source": {
+        "file": "RF6071L.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 221.0,
+      "qualifier": null,
+      "min": 180.0,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Flash Point (COC), ℃ ≥180 221 GB/T3536, ASTM D92",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "GB/T3536, ASTM D92",
+      "status": "reported",
+      "calculation_note": "TDS 'Typical Value' column with index/limit '≥180'. Compared with other documents on the printed minimum.",
+      "source": {
+        "file": "RF6071L.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Only an undated TDS is in the archive for RF6071L (no SDS). The sheet prints no company name; supplier left null (archive folder: Richful Lube Additive).",
+    "Column headers 'Requirement Limit' / 'Typical Value'. Sulfated ash, KV40, Mg, B, S and pour point not printed."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

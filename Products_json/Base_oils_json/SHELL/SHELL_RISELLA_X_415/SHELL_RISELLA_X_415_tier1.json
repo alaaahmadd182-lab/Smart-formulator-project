@@ -1,0 +1,182 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "SHELL_RISELLA_X_415",
+  "product": {
+    "product_name": "Shell Risella X 415",
+    "supplier": "Shell",
+    "document_type": "Technical Data Sheet",
+    "source_file": "DL2-13728.pdf",
+    "revision_date": "2013-02-08"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Not Required",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "Shell Risella X 415 is marketed as a GTL-derived process/technical white oil; API lubricant base-oil Group classification is not required for this product's documented application.",
+        "flash_method": null,
+        "test_temperature_c": null
+      },
+      "chemistry": {
+        "value": "GTL-derived hydrocarbon fluid; highly saturated, iso-paraffinic",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-13728.pdf",
+          "page": 1,
+          "revision_date": "2013-02-08"
+        },
+        "printed_text": "GTL-derived hydrocarbon fluid; highly saturated with a high degree of iso paraffinic structures",
+        "value_kind": "supplier description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null,
+        "flash_method": null,
+        "test_temperature_c": null
+      }
+    },
+    "kv40": {
+      "value": 9.3,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "9.3 mm²/s",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ISO 3104",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13728.pdf",
+        "page": 1,
+        "revision_date": "2013-02-08"
+      },
+      "flash_method": null
+    },
+    "kv100": {
+      "value": 2.6,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "2.6 mm²/s",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ISO 3104",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13728.pdf",
+        "page": 1,
+        "revision_date": "2013-02-08"
+      },
+      "flash_method": null
+    },
+    "viscosity_index": {
+      "value": 118,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "118",
+      "unit": "dimensionless",
+      "test_temperature_c": null,
+      "method": "ISO 2909",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13728.pdf",
+        "page": 1,
+        "revision_date": "2013-02-08"
+      },
+      "flash_method": null
+    },
+    "density": {
+      "value": 806,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "806 kg/m³ @ 15°C",
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": "ISO 12185",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13728.pdf",
+        "page": 1,
+        "revision_date": "2013-02-08"
+      },
+      "flash_method": null
+    },
+   
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "flash_method": null
+      }
+    ]
+
+  },
+  
+  "open_questions": [
+    "Shell identifies Risella X 415 as a GTL-derived technical white/process oil, but no explicit grade-specific API base-oil Group classification has been verified. API Group remains Missing.",
+    "Chemistry is supported by the historical TDS DL2-13728.pdf: GTL-derived hydrocarbon fluid, highly saturated with a high degree of iso-paraffinic structures. Shell's newer official TDS also describes the product as a highly refined paraffinic process oil made using GTL technology.",
+    "No grade-specific CCS apparent viscosity, ASTM D5293 measurement, or CCS test temperature has been verified for Shell Risella X 415.",
+    "TDS DL2-13728.pdf reports density of 806 kg/m3 at 15°C, whereas SDS DL2-13729.pdf reports 803.5 kg/m3 at 15°C. The document variation requires reconciliation.",
+    "The historical TDS is dated 2013-02-08 and the cited SDS is revised 2018-10-26. Shell has issued newer technical information; document-version reconciliation remains necessary."
+  ],
+  "conflicts": [
+    {
+      "field": "density",
+      "tds": {
+        "value": 806,
+        "unit": "kg/m3",
+        "temperature_c": 15,
+        "source_file": "DL2-13728.pdf",
+        "page": 1
+      },
+      "sds": {
+        "value": 803.5,
+        "unit": "kg/m3",
+        "temperature_c": 15,
+        "source_file": "DL2-13729.pdf",
+        "page": 8,
+        "revision_date": "2018-10-26"
+      },
+      "note": "Different reported values at same temperature; TDS selected as primary, SDS retained for reconciliation."
+    }
+  ]
+}

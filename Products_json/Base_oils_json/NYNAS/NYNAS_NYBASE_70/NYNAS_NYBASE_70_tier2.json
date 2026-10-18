@@ -1,0 +1,117 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "NYNAS_NYBASE_70",
+  "product": {
+    "product_name": "NYBASE 70",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-13344.pdf",
+    "revision_date": "2020-04-15"
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": 60,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 60 wt%",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "DIN 51581",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13344.pdf",
+        "page": 2,
+        "revision_date": "2020-04-15"
+      }
+    },
+    "pour_point": {
+      "value": -27,
+      "qualifier": null,
+      "min": null,
+      "max": -18,
+      "value_kind": "typical",
+      "printed_text": "Typical -27°C; maximum -18°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13344.pdf",
+        "page": 2,
+        "revision_date": "2020-04-15"
+      }
+    },
+    "flash_point": {
+      "value": 184,
+      "qualifier": null,
+      "min": 145,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "COC typical 184°C; minimum 145°C; separate PM typical 170°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13344.pdf",
+        "page": 2,
+        "revision_date": "2020-04-15"
+      },
+      "flash_method": "COC"
+    }
+  },
+  "open_questions": [
+    "API group not explicitly stated: marketed for Group I replacement, not classified as Group I.",
+    "SDS reconciliation pending."
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,161 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "YUBASE_3",
+  "product": {
+    "product_name": "YUBASE 3",
+    "supplier": "YUBASE-SK (archive folder); document issued by NARMAK TRADE S.R.O.",
+    "document_type": "Product property sheet",
+    "source_file": "DL2-11303.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note":"API Group is not declared in archived property sheet DL2-11303.pdf. Current SK Enmove product information presents YUBASE 3 within its Group III product range, whereas a January 2021 SK corporate offering circular explicitly lists YUBASE 3 as Group II (page 52). Historical grade identity and classification require confirmation before assigning an API Group.",
+        "flash_method": null,
+        "test_temperature_c": null
+      },
+      "chemistry": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null,
+        "flash_method": null,
+        "test_temperature_c": null,
+        "unit": null
+      }
+    },
+    "kv40": {
+      "value": 12.43,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "reported",
+      "printed_text": "12,43 mm2/s at 40 °C",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11303.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "kv100": {
+      "value": 3.12,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "reported",
+      "printed_text": "3,12 mm2/s at 100 °C",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11303.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "viscosity_index": {
+      "value": 112,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "reported",
+      "printed_text": "112",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11303.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+      
+  "ccs": [
+    {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "mPa.s",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "No CCS cold-cranking viscosity measurement, test temperature, or test method is reported in the archived YUBASE 3 property sheet.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    }
+  ]
+
+  },
+  "open_questions": [
+    "Resolve the YUBASE 3 API Group discrepancy between the current SK Enmove manufacturer webpage (Group III product range) and the January 2021 SK corporate offering circular, page 52 (YUBASE 3 explicitly listed as Group II).",
+    "Document is headed NARMAK TRADE S.R.O.; confirm manufacturer/supplier relationship with YUBASE-SK.",
+    "API group and chemistry are not explicitly stated in this document.",
+    "Specific gravity row is printed with unit g/m3, which is inconsistent with the stated value 0,8299; do not interpret as verified density or specific gravity without clarification."
+  ],
+  "conflicts": []
+}

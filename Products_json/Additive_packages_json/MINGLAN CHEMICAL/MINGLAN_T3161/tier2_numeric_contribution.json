@@ -1,0 +1,314 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "MINGLAN_T3161",
+  "product": {
+    "product_name": "T3161",
+    "supplier": "MINGLAN CHEMICAL",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "T3161%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "tbn": {
+      "value": 110,
+      "qualifier": "≥",
+      "min": 110,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "TBN, mg KOH/g, ≥110 SH/T0251",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "SH/T0251",
+      "status": "reported",
+      "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
+      "source": {
+        "file": "T3161%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 11.56,
+      "qualifier": "≥",
+      "min": null,
+      "max": null,
+      "value_kind": "calculated lower bound",
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "Calculated (ASTM D874 factors)",
+      "status": "calculated",
+      "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×3.0 (Ca) + 1.24×1.1 (Zn) = 11.5640 → 11.56 wt.%. Mg not reported, taken as 0. Inputs are printed minimums (≥), so the result is a lower bound.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+    },
+    "elements": {
+      "Ca": {
+        "value": 3.0,
+        "qualifier": "≥",
+        "min": 3.0,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Calcium, wt%, ≥3.0 SH/T 0270",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T 0270",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
+        "source": {
+          "file": "T3161%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.1,
+        "qualifier": "≥",
+        "min": 1.1,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Zinc, wt%, ≥1.1 SH/T 0226",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T 0226",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
+        "source": {
+          "file": "T3161%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 0.95,
+        "qualifier": "≥",
+        "min": 0.95,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Phosphorus, wt%, min 0.95 SH/T 0296",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T 0296",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum. Column header 'Typical Value'. 'min' printed in the item label.",
+        "source": {
+          "file": "T3161%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": 0.025,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Molybdenum,wt% 0.025 Spectrophoto metry",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "Spectrophotometry",
+        "status": "reported",
+        "calculation_note": "Column header 'Typical Value'. No '≥' printed for this row.",
+        "source": {
+          "file": "T3161%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.6,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Nitrogen, wt%, 0.6 SH/T0224",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T0224",
+        "status": "reported",
+        "calculation_note": "Column header 'Typical Value'. No '≥' printed for this row.",
+        "source": {
+          "file": "T3161%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3 (or as printed)",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 180,
+      "qualifier": "≥",
+      "min": 180,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Flash point (COC) °C, 180min GB/T 3536",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "GB/T 3536",
+      "status": "reported",
+      "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
+      "source": {
+        "file": "T3161%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Kinematic Viscosity (100 °C) printed as 'report' (no value). Density, KV40, sulfated ash, S and pour point not printed.",
+    "Supplier-name note: 'MINGLAN CHEMICAL' is the archive folder name; the sheet prints no company name."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

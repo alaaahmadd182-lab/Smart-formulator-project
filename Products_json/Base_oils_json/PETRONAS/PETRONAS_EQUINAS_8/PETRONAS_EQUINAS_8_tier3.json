@@ -1,0 +1,110 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "PETRONAS_EQUINAS_8",
+  "product": {
+    "product_name": "EQUINAS 8",
+    "supplier": "PETRONAS Lubricants International",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-15279.pdf",
+    "revision_date": "2023-03"
+  },
+  "fields": {
+    "sulfur": {
+      "value": 6,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "6 mg/kg; specification Report",
+      "unit": "mg/kg",
+      "test_temperature_c": null,
+      "method": "ASTM D2622 / ASTM D5453",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15279.pdf",
+        "page": 1,
+        "revision_date": "2023-03"
+      }
+    },
+    "saturates": {
+      "value": 99,
+      "qualifier": ">",
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": ">99 mass %; specification Report",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "IP 368 / ASTM D7419",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15279.pdf",
+        "page": 1,
+        "revision_date": "2023-03"
+      }
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    "No separately verified grade-specific SDS for EQUINAS 8; reconciliation pending."
+  ],
+  "conflicts": []
+}

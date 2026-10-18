@@ -1,0 +1,147 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "PETRONAS_ETRO_3",
+  "product": {
+    "product_name": "ETRO 3",
+    "supplier": "PETRONAS Lubricants International",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-10229.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "II",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10229.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "printed_text": "Group II base fluid",
+        "value_kind": "manufacturer classification",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      },
+      "chemistry": {
+        "value": "Hydrotreated, wax-isomerized and hydrofinished iso-paraffinic base fluid",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10229.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "printed_text": "proprietary hydrotreatment and wax isomerization process and hydrofinished; highly iso-paraffinic",
+        "value_kind": "manufacturer description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 10.72,
+      "qualifier": null,
+      "min": 9.0,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "10.72 mm2/s; specification ≥9.00 mm2/s",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10229.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 2.85,
+      "qualifier": null,
+      "min": 2.7,
+      "max": 3.2,
+      "value_kind": "typical",
+      "printed_text": "2.85 mm2/s; specification 2.70–3.20 mm2/s",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10229.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 114,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "114",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10229.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.8338,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "0.8338 kg/L at 15°C",
+      "unit": "kg/L",
+      "test_temperature_c": 15,
+      "method": "ASTM D1298 / ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10229.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "No grade-specific SDS independently verified for ETRO 3.",
+    "No calendar revision date stated on product data sheet."
+  ],
+  "conflicts": []
+}

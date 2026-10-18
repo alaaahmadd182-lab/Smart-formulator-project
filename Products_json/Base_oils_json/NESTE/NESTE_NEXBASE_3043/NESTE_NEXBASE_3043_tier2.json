@@ -1,0 +1,117 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "NESTE_NEXBASE_3043",
+  "product": {
+    "product_name": "NEXBASE 3043",
+    "supplier": "Neste N.V.",
+    "document_type": "Technical Data Sheet; Safety Data Sheet",
+    "source_file": "DL2-10037.pdf; DL2-15010.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": 14.2,
+      "qualifier": null,
+      "min": null,
+      "max": 14.8,
+      "value_kind": "typical",
+      "printed_text": "Typical 14.2 w-%; specification maximum 14.8 w-%",
+      "unit": "wt.% loss",
+      "test_temperature_c": null,
+      "method": "CEC L-40-93b",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10037.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -18,
+      "qualifier": null,
+      "min": null,
+      "max": -12,
+      "value_kind": "typical",
+      "printed_text": "Typical −18°C; specification maximum −12°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10037.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 228,
+      "qualifier": null,
+      "min": 220,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 228°C; specification minimum 220°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10037.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC"
+    }
+  },
+  "open_questions": [
+    "TDS edition 5.2 has no calendar revision date; no date inferred.",
+    "SDS DL2-15010.pdf reports KV40 typical 20 mm²/s, flash point >220°C, pour point ≤−12°C and relative density 0.82–0.84 at 15°C; these are consistent with TDS values/limits, but SDS density is relative density, not directly substituted for TDS mass density."
+  ],
+  "conflicts": []
+}

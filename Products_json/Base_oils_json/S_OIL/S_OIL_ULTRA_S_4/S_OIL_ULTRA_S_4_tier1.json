@@ -1,0 +1,162 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "S_OIL_ULTRA_S_4",
+  "product": {
+    "product_name": "Ultra-S 4 (100 Neutral)",
+    "supplier": "S-OIL",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-11177.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group III",
+        "status": "Reported",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": "aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties",
+        "value_kind": "reported_classification",
+        "method": "S-OIL official base-oil product information",
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.",
+        "flash_method": null,
+        "test_temperature_c": null
+      },
+      "chemistry": {
+        "value": "Distillates (petroleum), hydrotreated light paraffinic",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15139.pdf",
+          "page": 1,
+          "revision_date": "2015-06-10"
+        },
+        "printed_text": "Distillates (petroleum), hydrotreated light paraffinic; CAS 64742-54-7",
+        "value_kind": "reported_description",
+        "method": "SDS section 3",
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null,
+        "flash_method": null,
+        "test_temperature_c": null,
+        "unit": null
+      }
+    },
+    "kv40": {
+      "value": 19.62,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "19.62 cSt @40°C",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11177.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "kv100": {
+      "value": 4.247,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "4.247 cSt @100°C",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11177.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "viscosity_index": {
+      "value": 123,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "123",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11177.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+        
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "flash_method": null
+      }
+    ]
+
+  },
+  
+  "open_questions": [
+    "S-OIL Ultra-S 4 SDS revised 2015-06-10 reports Distillates (petroleum), hydrotreated light paraffinic; CAS 64742-54-7; purity 100%. The printed description and CAS number appear inconsistent and require supplier clarification.",
+    "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",
+    "No grade-specific CCS viscosity or CCS test temperature has been verified for Ultra-S 4.",
+    "Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15139.pdf remains pending."
+  ],
+  "conflicts": []
+}

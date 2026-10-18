@@ -1,0 +1,214 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "AFTON_HITEC_8788B",
+  "product": {
+    "product_name": "HiTEC® 8788B",
+    "supplier": "Afton Chemical Asia Pte. Ltd.",
+    "document_type": [
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-15016.pdf"
+    ],
+    "revision_date": "2019-11-04"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "Heavy Duty Diesel Lubricant Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15016.pdf",
+          "page": 1,
+          "revision_date": "2019-11-04"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "Petrochemical industry: Heavy Duty Diesel Lubricant Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15016.pdf",
+          "page": 1,
+          "revision_date": "2019-11-04"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": null,
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "conventional OCP VM with a mix of Group I and Group III base stocks"
+      ],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null,
+        "url": "https://www.aftonchemical.com/getmedia/76e36bd1-3c58-4283-bc57-8bbcc4bb799c/HiTEC-8788B_PDS.pdf?ext=.pdf",
+        "retrieved": "2026-10-18",
+        "origin": "public web (supplier product data sheet), not the archived datasheet"
+      },
+      "notes": "Sourced from Afton's public HiTEC 8788B product data sheet (search-engine excerpt only; the archive has the SDS only), not from the archived product datasheet. Afton's public HiTEC 8788B PDS: 'It uses a simple formulation style, using conventional OCP Viscosity Modifier (VM) and a mix of Group I and Group III base stocks.' Text taken from the search-engine excerpt of that PDF; the PDF itself returned HTTP 403 and was not opened."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": null,
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Supplier: DL2-15016.pdf p.1 lists several Afton entities under 'Manufacturer / Supplier'; first listed (Afton Chemical Asia Pte. Ltd.) recorded.",
+    "Only an SDS is in the archive for HiTEC 8788B; claims, SAE grades, treat rates, base oils, co-components and formulations are not printed (could be looked up later in an Afton product bulletin)."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

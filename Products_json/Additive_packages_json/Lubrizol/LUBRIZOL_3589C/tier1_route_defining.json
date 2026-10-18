@@ -1,0 +1,336 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "LUBRIZOL_3589C",
+  "product": {
+    "product_name": "LUBRIZOL® 3589C",
+    "supplier": "The Lubrizol Corporation",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-10629.pdf"
+    ],
+    "revision_date": "2014-02-20"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "Heavy Duty Diesel Engine Oil Additive",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10629.pdf",
+          "page": 1,
+          "revision_date": "2014-02-20"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "An engine oil additive for the formulation of Heavy Duty monograde lubricants meeting the requirements of ACEA E2, API CF/CF-2 and MB- Approval 228.0",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10629.pdf",
+          "page": 1,
+          "revision_date": "2014-02-20"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E2-96 Issue 5 (2007)",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 6.15 % by weight'; intro: 'When formulated with appropriate base oils, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10629.pdf",
+          "page": 1,
+          "revision_date": "2014-02-20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 6.15 % by weight'; intro: 'When formulated with appropriate base oils, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10629.pdf",
+          "page": 1,
+          "revision_date": "2014-02-20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-2",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 6.15 % by weight'; intro: 'When formulated with appropriate base oils, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10629.pdf",
+          "page": 1,
+          "revision_date": "2014-02-20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SF",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 6.15 % by weight'; intro: 'When formulated with appropriate base oils, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10629.pdf",
+          "page": 1,
+          "revision_date": "2014-02-20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB-Approval 228.0",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 6.15 % by weight'; intro: 'When formulated with appropriate base oils, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10629.pdf",
+          "page": 1,
+          "revision_date": "2014-02-20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 270",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 6.15 % by weight'; intro: 'When formulated with appropriate base oils, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10629.pdf",
+          "page": 1,
+          "revision_date": "2014-02-20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU Type 1",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 6.15 % by weight'; intro: 'When formulated with appropriate base oils, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10629.pdf",
+          "page": 1,
+          "revision_date": "2014-02-20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ZF TE-ML 04B",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 6.15 % by weight'; intro: 'When formulated with appropriate base oils, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10629.pdf",
+          "page": 1,
+          "revision_date": "2014-02-20"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Kolomna M-14D2",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 6.15 % by weight'; intro: 'When formulated with appropriate base oils, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10629.pdf",
+          "page": 1,
+          "revision_date": "2014-02-20"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I",
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CF-2. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use). Datasheet says claims apply only 'with appropriate base oils', so confirm with Lubrizol."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "1) Product at 6.15 % by weight provides 11 TBN (ASTM D2896).",
+        "2) Product approved by Kolomna railroad at 6.2 % by weight plus a 0.8 % by weight booster."
+      ],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": "DL2-10629.pdf",
+        "page": 1,
+        "revision_date": "2014-02-20"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "ACEA E2-96 Issue 5 (2007); API CF; API CF-2; API SF; MB-Approval 228.0; MAN 270; MTU Type 1; ZF TE-ML 04B; Kolomna M-14D2",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 6.15,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Recommended for use at: 6.15 % by weight",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Intro: 'When formulated with appropriate base oils, the lubricant meets the following performance specifications:'",
+          "source": {
+            "file": "DL2-10629.pdf",
+            "page": 1,
+            "revision_date": "2014-02-20"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "Booster (Kolomna M-14D2 approval)",
+        "name": null,
+        "dose_wt_pct": {
+          "value": 0.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "plus a 0.8 % by weight booster",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Footnote 2: 'Product approved by Kolomna railroad at 6.2 % by weight plus a 0.8 % by weight booster.' Booster not named.",
+          "source": {
+            "file": "DL2-10629.pdf",
+            "page": 1,
+            "revision_date": "2014-02-20"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Claim type from the intro line of each 'Recommended for use at' block (e.g. 'the lubricant meets the following performance specifications').",
+    "Only a TDS is in the archive for this product (no SDS).",
+    "Treat rate is printed per 'Recommended for use at' block; SAE grade taken from the block intro where printed.",
+    "Footnote 1 ('Product at 6.15 % by weight provides 11 TBN (ASTM D2896)') is finished-oil TBN, not package TBN; kept in route limits only.",
+    "Footnote 2: Kolomna approval at 6.2 % by weight plus a 0.8 % by weight booster (booster not named)."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

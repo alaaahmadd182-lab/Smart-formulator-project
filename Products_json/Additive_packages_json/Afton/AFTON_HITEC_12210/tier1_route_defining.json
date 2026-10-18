@@ -1,0 +1,357 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "AFTON_HITEC_12210",
+  "product": {
+    "product_name": "HiTEC® 12210",
+    "supplier": "Afton Chemical Corporation",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-11418.pdf"
+    ],
+    "revision_date": "05/16"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "Heavy Duty Additive Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11418.pdf",
+          "page": 1,
+          "revision_date": "05/16"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "dispersant inhibitor package for use in mainline heavy duty diesel engine oils",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11418.pdf",
+          "page": 2,
+          "revision_date": "05/16"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CK-4",
+        "claim_type": "meets",
+        "scope": "when used with our OCP Viscosity Modifier, HiTEC® 5748A, fully meets the following API licensing requirements: API CK-4 in SAE 15W-40 and 10W-30; at 18.0% wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11418.pdf",
+          "page": 2,
+          "revision_date": "05/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API FA-4",
+        "claim_type": "meets",
+        "scope": "when used with our OCP Viscosity Modifier, HiTEC® 5748A, fully meets the following API licensing requirements: API FA-4 in SAE 10W-30; at 18.0% wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11418.pdf",
+          "page": 2,
+          "revision_date": "05/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E9",
+        "claim_type": "meets",
+        "scope": "HiTEC® 12210 also meets the self-certifying requirements of ACEA E9.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11418.pdf",
+          "page": 2,
+          "revision_date": "05/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CJ-4, CI-4+, CI-4, CH-4",
+        "claim_type": "other",
+        "scope": "HiTEC® 12210 CK-4 blended oils are backwards compatible at the same 18.0% wt. treat rate to API CJ-4, CI-4+, CI-4 and CH-4 performance claims under current licensing guidelines.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11418.pdf",
+          "page": 2,
+          "revision_date": "05/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "OEM specifications (Caterpillar, Cummins, Detroit Diesel, Mack, Renault, Volvo, Mercedes-Benz, MAN, Ford)",
+        "claim_type": "other",
+        "scope": "designed to meet the latest original equipment manufacturers (OEMs) performance specifications in appropriate grades and base stocks - including Caterpillar, Cummins, Detroit Diesel, Mack, Renault, Volvo, Mercedes-Benz, MAN, and Ford.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11418.pdf",
+          "page": 2,
+          "revision_date": "05/16"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11418.pdf",
+          "page": 2,
+          "revision_date": "05/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11418.pdf",
+          "page": 2,
+          "revision_date": "05/16"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for API CK-4/FA-4 packages), not from the product datasheet. Packages claiming API CK-4/FA-4 performance are typically designed for Group II/III base oils. Rule of thumb only, not a supplier statement or an API 1509 restriction. Afton bulletin says 'in a range of market basestocks' without naming groups."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "HiTEC® 12210 already contains a pour point depressant (PPD) so no supplemental PPD should be needed to meet low temperature properties."
+      ],
+      "exclusions": [],
+      "allowed_combinations": [
+        "API CK-4 / FA-4 claims stated for use with OCP Viscosity Modifier HiTEC® 5748A"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-11418.pdf",
+        "page": 2,
+        "revision_date": "05/16"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CK-4",
+        "sae_grade": "SAE 10W-30",
+        "treat_rate_wt_pct": {
+          "value": 18.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "At the recommended treat rate of 18.0% wt.",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11418.pdf",
+            "page": 2,
+            "revision_date": "05/16"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CK-4",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 18.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "At the recommended treat rate of 18.0% wt.",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11418.pdf",
+            "page": 2,
+            "revision_date": "05/16"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API FA-4",
+        "sae_grade": "SAE 10W-30",
+        "treat_rate_wt_pct": {
+          "value": 18.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "At the recommended treat rate of 18.0% wt.",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11418.pdf",
+            "page": 2,
+            "revision_date": "05/16"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CJ-4, CI-4+, CI-4, CH-4 (backwards compatible)",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 18.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "at the same 18.0% wt. treat rate",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11418.pdf",
+            "page": 2,
+            "revision_date": "05/16"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "OCP Viscosity Modifier",
+        "name": "HiTEC® 5748A",
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Named on p.2 as required for the API CK-4/FA-4 claims; dose not printed.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Only a product bulletin is available for HiTEC 12210 (no SDS in the archive).",
+    "Required VM HiTEC® 5748A (OCP) is named (DL2-11418.pdf p.2) but its dose is not printed; dose left Missing.",
+    "Permitted base oils: the sheet only says 'in a range of market basestocks' and 'in appropriate grades and base stocks' (p.2); no API group named, field left Missing.",
+    "OEM claim is generic ('designed to meet ... including Caterpillar, Cummins, ...'), no specific OEM specification numbers; recorded as claim_type 'other'.",
+    "Radar chart 'Afton PC-11 vs. CJ-4 Performance Comparison' (p.2) has no numeric values; not recorded."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

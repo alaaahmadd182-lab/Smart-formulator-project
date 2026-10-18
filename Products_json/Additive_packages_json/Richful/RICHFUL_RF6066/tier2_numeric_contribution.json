@@ -1,0 +1,522 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "RICHFUL_RF6066",
+  "product": {
+    "product_name": "RF6066 CH-4/CI-4 Diesel Engine Oil Package",
+    "supplier": "Xinxiang Richful Lube Additive Co., Ltd.",
+    "document_type": [
+      "TDS",
+      "TDS",
+      "SDS",
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-13819.pdf",
+      "DL2-15451.pdf",
+      "DL2-13820.pdf",
+      "DL2-15831.pdf"
+    ],
+    "revision_date": [
+      null,
+      null,
+      "2020-07-06",
+      "2021-09-02"
+    ]
+  },
+  "fields": {
+    "tbn": {
+      "value": 108,
+      "qualifier": null,
+      "min": 97,
+      "max": 119,
+      "value_kind": "typical",
+      "printed_text": "Total Base Number, mgKOH/g | 97-119 | 108 | SH/T0251, ASTM D2896",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "SH/T0251, ASTM D2896",
+      "status": "reported",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null,
+        "url": "https://www.richful.com/catalogueDetail.html?id=112",
+        "retrieved": "2026-10-17",
+        "origin": "public web (supplier website), not the archived datasheet"
+      },
+      "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=112), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=112 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=112), retrieved 2026-10-17. Archive conflict (see conflicts) between undated DL2-13819.pdf and DL2-15451.pdf left this null; the supplier's current page prints the DL2-15451.pdf value, so that version is taken as current. Conflict record kept unchanged."
+    },
+    "sulfated_ash": {
+      "value": 12.25,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "calculated",
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "Calculated (ASTM D874 factors)",
+      "status": "calculated",
+      "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×3.15 (Ca) + 1.24×1.24 (Zn) = 12.2476 → 12.25 wt.%. Mg not reported, taken as 0.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+    },
+    "elements": {
+      "Ca": {
+        "value": 3.15,
+        "qualifier": null,
+        "min": 2.82,
+        "max": 3.44,
+        "value_kind": "typical",
+        "printed_text": "Ca Content, m% | 2.82-3.44 | 3.15 | GB/T17476, ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "GB/T17476, ASTM D4951",
+        "status": "reported",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null,
+          "url": "https://www.richful.com/catalogueDetail.html?id=112",
+          "retrieved": "2026-10-17",
+          "origin": "public web (supplier website), not the archived datasheet"
+        },
+        "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=112), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=112 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=112), retrieved 2026-10-17. Archive conflict (see conflicts) between undated DL2-13819.pdf and DL2-15451.pdf left this null; the supplier's current page prints the DL2-15451.pdf value, so that version is taken as current. Conflict record kept unchanged."
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.24,
+        "qualifier": null,
+        "min": 1.13,
+        "max": 1.38,
+        "value_kind": "typical",
+        "printed_text": "Zn Content, m% | 1.13-1.38 | 1.24 | GB/T17476, ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "GB/T17476, ASTM D4951",
+        "status": "reported",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null,
+          "url": "https://www.richful.com/catalogueDetail.html?id=112",
+          "retrieved": "2026-10-17",
+          "origin": "public web (supplier website), not the archived datasheet"
+        },
+        "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=112), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=112 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=112), retrieved 2026-10-17. Archive conflict (see conflicts) between undated DL2-13819.pdf and DL2-15451.pdf left this null; the supplier's current page prints the DL2-15451.pdf value, so that version is taken as current. Conflict record kept unchanged."
+      },
+      "P": {
+        "value": 1.1,
+        "qualifier": null,
+        "min": 0.97,
+        "max": 1.19,
+        "value_kind": "typical",
+        "printed_text": "P Content, m% 0.97-1.19 1.10 GB/T 17476, ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS DL2-15451.pdf: 'Typical Value' with 'Index' range 0.97-1.19. Same value in: DL2-13819.pdf p.1 (undated): 'P Content,%（m/m） 1.1 GB/T17476，ASTM D4951'.",
+        "source": {
+          "file": "DL2-15451.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": 0.048,
+        "qualifier": null,
+        "min": 0.037,
+        "max": 0.056,
+        "value_kind": "typical",
+        "printed_text": "Mo Content, m% 0.037-0.056 0.048 GB/T 17476, ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS DL2-15451.pdf: 'Typical Value' with 'Index' range 0.037-0.056.",
+        "source": {
+          "file": "DL2-15451.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 1.05,
+        "qualifier": null,
+        "min": 0.89,
+        "max": 1.21,
+        "value_kind": "typical",
+        "printed_text": "N Content, m% 0.89-1.21 1.05 SH/T 0704, ASTM D5762",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D5762",
+        "status": "reported",
+        "calculation_note": "TDS DL2-15451.pdf: 'Typical Value' with 'Index' range 0.89-1.21.",
+        "source": {
+          "file": "DL2-15451.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 185,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Kinematic Viscosity (100℃), mm2/s | Report | 185 | GB/T265, ASTM D445",
+      "unit": "mm²/s",
+      "test_temperature_c": 100,
+      "method": "GB/T265, ASTM D445",
+      "status": "reported",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null,
+        "url": "https://www.richful.com/catalogueDetail.html?id=112",
+        "retrieved": "2026-10-17",
+        "origin": "public web (supplier website), not the archived datasheet"
+      },
+      "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=112), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=112 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=112), retrieved 2026-10-17. Archive conflict (see conflicts) between undated DL2-13819.pdf and DL2-15451.pdf left this null; the supplier's current page prints the DL2-15451.pdf value, so that version is taken as current. Conflict record kept unchanged."
+    },
+    "density": {
+      "value": 988,
+      "qualifier": null,
+      "min": 968,
+      "max": 1008,
+      "value_kind": "typical",
+      "printed_text": "Density (20℃), kg/m3 | 968-1008 | 988 | SH/T 0604, ASTM D4052",
+      "unit": "kg/m3",
+      "test_temperature_c": 20,
+      "method": "SH/T 0604, ASTM D4052",
+      "status": "reported",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null,
+        "url": "https://www.richful.com/catalogueDetail.html?id=112",
+        "retrieved": "2026-10-17",
+        "origin": "public web (supplier website), not the archived datasheet"
+      },
+      "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=112), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=112 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=112), retrieved 2026-10-17. Archive conflict (see conflicts) between undated DL2-13819.pdf and DL2-15451.pdf left this null; the supplier's current page prints the DL2-15451.pdf value, so that version is taken as current. Conflict record kept unchanged."
+    },
+    "flash_point": {
+      "value": 180,
+      "qualifier": "≥",
+      "min": 180,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Flash point : ≥ 180 °C (open cup)",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "COC (ASTM D92)",
+      "status": "reported",
+      "calculation_note": "SDS body is image/vector graphics (text layer has only the page header); read visually. Same value in: DL2-13819.pdf p.1 (undated): 'Flash Point(COC), ℃ ≮180 GB/T3536，ASTMD92'; DL2-15451.pdf p.1 (undated): 'Flash Point (COC), ℃ ≥180 220 GB/T 3536, ASTM D92'; DL2-13820.pdf p.4 (2020-07-06): 'Flash point ≮180 °C'.",
+      "source": {
+        "file": "DL2-15831.pdf",
+        "page": 5,
+        "revision_date": "2021-09-02"
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "The two TDS (DL2-13819.pdf 'TDS OF RF6066' and DL2-15451.pdf) carry no date, so the order of revisions cannot be determined. Density, KV100, TBN, Zn and Ca differ between documents (see conflicts) and are left null. DL2-13819.pdf matches the 2020 SDS (density 990, TBN 106); DL2-15451.pdf matches the 2021 SDS (density 0.988, 185 mm²/s), which suggests DL2-15451.pdf is the later TDS, but no date is printed.",
+    "Supplier spelled 'Xinxiang Richuful Lube Additive Co. Ltd.' in SDS DL2-13820.pdf p.1 and 'Xinxiang Richful Lube Additive Co., Ltd.' in SDS DL2-15831.pdf p.1.",
+    "DL2-15831.pdf (SDS 2021): body text is image/vector graphics; read visually from page renders.",
+    "Old Product_JSON mixed values from DL2-15451.pdf and DL2-13819.pdf without flagging the differences.",
+    "Component shares (not element contents): SDS DL2-15831.pdf p.2: base-oil distillates 10 - 39.9 %; ZDDP (68649-42-3) 3 - 17.9 %; overbased calcium sulfurized phenate 1 - 14.9 %; alkylated diphenylamine 0.5 - 9.9 %; molybdenum dithiocarbamate 0.1 – 1.99 %. SDS DL2-13820.pdf p.2 lists ingredients without percentages.",
+    "Sulfated ash, KV40, Mg, B, S and pour point not printed.",
+    "2026-10-17: TBN, KV100, density, Ca, Zn filled from the Richful official product page https://www.richful.com/catalogueDetail.html?id=112 (NOT from the datasheet); the page agrees with DL2-15451.pdf and with the file's existing P, Mo, N."
+  ],
+  "conflicts": [
+    {
+      "field": "tier2.density",
+      "values": [
+        {
+          "value": 990,
+          "printed_text": "Density( 20℃), kg/m3 990 GB/T13377，ASTMD4052",
+          "file": "DL2-13819.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 988,
+          "printed_text": "Density (20℃), kg/m3 968-1008 988 SH/T 0604, ASTM D4052",
+          "file": "DL2-15451.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 990,
+          "printed_text": "Density 990 kg/m3",
+          "file": "DL2-13820.pdf",
+          "page": 5,
+          "revision_date": "2020-07-06"
+        },
+        {
+          "value": 0.988,
+          "printed_text": "Density : 0.988 g/cm³ (20 °C)",
+          "file": "DL2-15831.pdf",
+          "page": 5,
+          "revision_date": "2021-09-02"
+        }
+      ],
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
+    },
+    {
+      "field": "tier2.kv100",
+      "values": [
+        {
+          "value": 227,
+          "printed_text": "Kinematic Viscosity, ( 100℃), mm2/s 227 GB/T265，ASTMD445",
+          "file": "DL2-13819.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 185,
+          "printed_text": "Kinematic Viscosity (100℃), mm2/s Report 185 GB/T 265, ASTM D445",
+          "file": "DL2-15451.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 200,
+          "printed_text": "Kinematic viscosity 200 mm2/s (100 °C)",
+          "file": "DL2-13820.pdf",
+          "page": 5,
+          "revision_date": "2020-07-06"
+        },
+        {
+          "value": 185,
+          "printed_text": "Viscosity, dynamic : 185 mm²/s (100 °C)",
+          "file": "DL2-15831.pdf",
+          "page": 5,
+          "revision_date": "2021-09-02"
+        }
+      ],
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
+    },
+    {
+      "field": "tier2.tbn",
+      "values": [
+        {
+          "value": 106,
+          "printed_text": "Total Base Number, mgKOH/g 106 SH/T0251，ASTMD2896",
+          "file": "DL2-13819.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 108,
+          "printed_text": "Total Base Number, mgKOH/g 97-119 108 SH/T 0251, ASTM D2896",
+          "file": "DL2-15451.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 106,
+          "printed_text": "Total base number 106 mgKOH/g",
+          "file": "DL2-13820.pdf",
+          "page": 5,
+          "revision_date": "2020-07-06"
+        }
+      ],
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
+    },
+    {
+      "field": "tier2.elements.Zn",
+      "values": [
+        {
+          "value": 1.3,
+          "printed_text": "Zn Content, %（m/m） 1.3 GB/T17476，ASTM D4951",
+          "file": "DL2-13819.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 1.24,
+          "printed_text": "Zn Content, m% 1.13-1.38 1.24 GB/T 17476, ASTM D4951",
+          "file": "DL2-15451.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      ],
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
+    },
+    {
+      "field": "tier2.elements.Ca",
+      "values": [
+        {
+          "value": 3.0,
+          "printed_text": "Ca Content,%（m/m） 3.0 GB/T17476，ASTM D4951",
+          "file": "DL2-13819.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 3.15,
+          "printed_text": "Ca Content, m% 2.82-3.44 3.15 GB/T 17476, ASTM D4951",
+          "file": "DL2-15451.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      ],
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
+    }
+  ],
+  "external_fill_notes": [
+    {
+      "value": null,
+      "unit": null,
+      "property": "tbn",
+      "status": "reported",
+      "source": "Richful official product page, https://www.richful.com/catalogueDetail.html?id=112 (retrieved 2026-10-17)",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "elements.Ca",
+      "status": "reported",
+      "source": "Richful official product page, https://www.richful.com/catalogueDetail.html?id=112 (retrieved 2026-10-17)",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "elements.Zn",
+      "status": "reported",
+      "source": "Richful official product page, https://www.richful.com/catalogueDetail.html?id=112 (retrieved 2026-10-17)",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "kv100",
+      "status": "reported",
+      "source": "Richful official product page, https://www.richful.com/catalogueDetail.html?id=112 (retrieved 2026-10-17)",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "density",
+      "status": "reported",
+      "source": "Richful official product page, https://www.richful.com/catalogueDetail.html?id=112 (retrieved 2026-10-17)",
+      "notes": null
+    }
+  ]
+}

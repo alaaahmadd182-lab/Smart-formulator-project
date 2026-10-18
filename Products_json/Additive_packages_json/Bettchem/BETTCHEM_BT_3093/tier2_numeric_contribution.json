@@ -1,0 +1,315 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "BETTCHEM_BT_3093",
+  "product": {
+    "product_name": "BT 3093",
+    "supplier": "Bettchem",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-15550.pdf"
+    ],
+    "revision_date": "2023-12-06"
+  },
+  "fields": {
+    "tbn": {
+      "value": 115,
+      "qualifier": null,
+      "min": 100,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "BASE NUMBER mg KOH/g 100 115 ASTM D2896",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "ASTM D2896",
+      "status": "reported",
+      "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
+      "source": {
+        "file": "DL2-15550.pdf",
+        "page": 1,
+        "revision_date": "2023-12-06"
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 12.7,
+      "qualifier": null,
+      "min": 11.0,
+      "max": 15.0,
+      "value_kind": "typical",
+      "printed_text": "SULPHATED ASH, mass/wt-% 11.0 15.0 12.7 ASTM D874",
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "ASTM D874",
+      "status": "reported",
+      "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
+      "source": {
+        "file": "DL2-15550.pdf",
+        "page": 1,
+        "revision_date": "2023-12-06"
+      },
+      "notes": null
+    },
+    "elements": {
+      "Ca": {
+        "value": 1.34,
+        "qualifier": null,
+        "min": 1.24,
+        "max": 1.5,
+        "value_kind": "typical",
+        "printed_text": "CALCIUM, mass/wt-% 1.24 1.5 1.34 ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
+        "source": {
+          "file": "DL2-15550.pdf",
+          "page": 1,
+          "revision_date": "2023-12-06"
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": 1.36,
+        "qualifier": null,
+        "min": 1.3,
+        "max": 1.6,
+        "value_kind": "typical",
+        "printed_text": "MAGNESIUM, mass/wt-% 1.30 1.60 1.36 ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
+        "source": {
+          "file": "DL2-15550.pdf",
+          "page": 1,
+          "revision_date": "2023-12-06"
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.57,
+        "qualifier": null,
+        "min": 1.46,
+        "max": 1.75,
+        "value_kind": "typical",
+        "printed_text": "ZINC, mass/wt-% 1.46 1.75 1.57 ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
+        "source": {
+          "file": "DL2-15550.pdf",
+          "page": 1,
+          "revision_date": "2023-12-06"
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 1.34,
+        "qualifier": null,
+        "min": 1.26,
+        "max": 1.5,
+        "value_kind": "typical",
+        "printed_text": "PHOSPHORUS, mass/wt-% 1.26 1.50 1.34 ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
+        "source": {
+          "file": "DL2-15550.pdf",
+          "page": 1,
+          "revision_date": "2023-12-06"
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": 0.065,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "MOLYBDENUM, mass wt- % Report 0.065 ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TYPICAL column; min/max printed as 'Report'.",
+        "source": {
+          "file": "DL2-15550.pdf",
+          "page": 1,
+          "revision_date": "2023-12-06"
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.91,
+        "qualifier": null,
+        "min": 0.75,
+        "max": 1.1,
+        "value_kind": "typical",
+        "printed_text": "NITROGEN, mass/wt-% 0.75 1.10 0.91 ASTM D5762",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D5762",
+        "status": "reported",
+        "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
+        "source": {
+          "file": "DL2-15550.pdf",
+          "page": 1,
+          "revision_date": "2023-12-06"
+        },
+        "notes": null
+      },
+      "S": {
+        "value": 3.04,
+        "qualifier": null,
+        "min": 2.6,
+        "max": 3.49,
+        "value_kind": "typical",
+        "printed_text": "SULPHUR, mass/wt-% 2.60 3.49 3.04 ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
+        "source": {
+          "file": "DL2-15550.pdf",
+          "page": 1,
+          "revision_date": "2023-12-06"
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": 3372,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "KINEMATIC VISCOSITY AT 40℃,cSt Report 3372 ASTM D445",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "reported",
+      "calculation_note": "TYPICAL column; min/max printed as 'Report'.",
+      "source": {
+        "file": "DL2-15550.pdf",
+        "page": 1,
+        "revision_date": "2023-12-06"
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 148.9,
+      "qualifier": null,
+      "min": 95,
+      "max": 155,
+      "value_kind": "typical",
+      "printed_text": "KINEMATIC VISCOSITY AT 100℃,cSt 95 155 148.9 ASTM D445",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "reported",
+      "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
+      "source": {
+        "file": "DL2-15550.pdf",
+        "page": 1,
+        "revision_date": "2023-12-06"
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 0.99,
+      "qualifier": null,
+      "min": 0.9,
+      "max": 1.1,
+      "value_kind": "typical",
+      "printed_text": "SPECIFIC GRAVITY at 15.6℃ 0.9 1.1 0.99 ASTM D1298",
+      "unit": "specific gravity (dimensionless)",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D1298",
+      "status": "reported",
+      "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image). Printed as specific gravity, not density. reported as specific gravity.",
+      "source": {
+        "file": "DL2-15550.pdf",
+        "page": 1,
+        "revision_date": "2023-12-06"
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 198,
+      "qualifier": null,
+      "min": 160,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "FLASH POINT ( COC ℃) 160 198 ASTM D92",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "reported",
+      "calculation_note": "TYPICAL 198; 'Minimum' column 160 (checked on page image).",
+      "source": {
+        "file": "DL2-15550.pdf",
+        "page": 1,
+        "revision_date": "2023-12-06"
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Density field holds the printed SPECIFIC GRAVITY at 15.6℃ (ASTM D1298); no density in kg/m3 printed (DL2-15550.pdf p.1).",
+    "B and pour point are not printed in DL2-15550.pdf. Base number has 'Minimum' 100 and 'TYPICAL' 115, no 'Maximum'.",
+    "User decision 2026-10-17: density field stores the number 0.99 (specific gravity (dimensionless)), which is reported as specific gravity ('SPECIFIC GRAVITY at 15.6℃ 0.9 1.1 0.99 ASTM D1298', DL2-15550.pdf p.1), not a density in kg/m3; flagged for review."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

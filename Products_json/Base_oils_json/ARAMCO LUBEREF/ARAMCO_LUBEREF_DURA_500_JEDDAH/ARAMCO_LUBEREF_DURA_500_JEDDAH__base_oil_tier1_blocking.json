@@ -1,0 +1,167 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "ARAMCO_LUBEREF_DURA_500_JEDDAH__T1",
+  "product": {
+    "product_name": "aramcoDURA 500 Jeddah",
+    "supplier": "Saudi Aramco Luberef",
+    "document_type": [
+      "Supplier specification"
+    ],
+    "source_file": "DL2-12173.pdf",
+    "revision_date": null,
+    "product_id": "ARAMCO_LUBEREF_DURA_500_JEDDAH"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group I",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12173.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "value_kind": "single",
+        "printed_text": "LUBEREF GI product/specification heading",
+        "method": null,
+        "basis": "Supplier document heading"
+      },
+      "chemistry": {
+      "value": "Distillates, petroleum, solvent-dewaxed heavy paraffinic",
+      "status": "Reported",
+      "basis": "External supplier safety data sheet, Section 3",
+      "notes": "Chemistry is not stated in the supplied specification DL2-12173.pdf. Obtained from the official Saudi Aramco Luberef SDS for aramcoDURA 500 Jeddah, page 2, Section 3. CAS 64742-65-0, concentration 100%, DMSO <3%.",
+      "source": {
+        "file": "https://luberefapp.s3-accelerate.amazonaws.com/documents/dura500.pdf",
+        "page": 2,
+        "revision_date": "2020-08-30"
+      }
+    }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": "range",
+      "min": 91,
+      "max": 101,
+      "value_kind": "range",
+      "printed_text": "91/101",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12173.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 97,
+      "qualifier": "minimum",
+      "min": 97,
+      "max": null,
+      "value_kind": "minimum",
+      "printed_text": "97",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12173.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+ "open_questions": [
+    {
+      "question": "KV100, density and CCS are not reported in the reviewed source specifications.",
+      "fields": [
+        "kv100",
+        "density",
+        "ccs[]"
+      ],
+      "source_files": [
+        "DL2-12173.pdf"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-12173.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier technical specification",
+      "revision_date": null
+    },
+    {
+      "file": "https://luberefapp.s3-accelerate.amazonaws.com/documents/dura500.pdf",
+      "pages": [1, 2],
+      "doc_type": "External official supplier safety data sheet",
+      "revision_date": "2020-08-30"
+    }
+  ]
+}

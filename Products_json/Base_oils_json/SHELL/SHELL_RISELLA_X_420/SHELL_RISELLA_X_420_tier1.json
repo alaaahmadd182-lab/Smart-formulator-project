@@ -1,0 +1,181 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "SHELL_RISELLA_X_420",
+  "product": {
+    "product_name": "Shell Risella X 420",
+    "supplier": "Shell",
+    "document_type": "Technical Data Sheet",
+    "source_file": "DL2-13726.pdf",
+    "revision_date": "2014-06-02"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Not Required",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "Shell Risella X 420 is described as a GTL-derived process oil. API lubricant base-oil Group classification is treated as not required for its documented application under the proposed project applicability rule.",
+        "flash_method": null,
+        "test_temperature_c": null
+      },
+      "chemistry": {
+        "value": "GTL-derived hydrocarbon fluid; highly saturated, iso-paraffinic",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-13726.pdf",
+          "page": 1,
+          "revision_date": "2014-06-02"
+        },
+        "printed_text": "hydocarbon fluid based on Shell Gas-to-Liquid Technology; highly saturated with a high degree of iso paraffinic structures",
+        "value_kind": "supplier description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null,
+        "flash_method": null,
+        "test_temperature_c": null
+      }
+    },
+    "kv40": {
+      "value": 18.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "18.0 mm²/s",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ISO 3104",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13726.pdf",
+        "page": 1,
+        "revision_date": "2014-06-02"
+      },
+      "flash_method": null
+    },
+    "kv100": {
+      "value": 4.1,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "4.1 mm²/s",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ISO 3104",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13726.pdf",
+        "page": 1,
+        "revision_date": "2014-06-02"
+      },
+      "flash_method": null
+    },
+    "viscosity_index": {
+      "value": 130,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "130",
+      "unit": "dimensionless",
+      "test_temperature_c": null,
+      "method": "ISO 2909",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13726.pdf",
+        "page": 1,
+        "revision_date": "2014-06-02"
+      },
+      "flash_method": null
+    },
+    "density": {
+      "value": 816,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "816 kg/m³ @ 15°C",
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": "ISO 12185",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13726.pdf",
+        "page": 1,
+        "revision_date": "2014-06-02"
+      },
+      "flash_method": null
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Not Required",
+        "calculation_note": "CCS cold-cranking testing is treated as not required for the documented process-oil application of Shell Risella X 420 under the proposed project applicability rule. No grade-specific CCS measurement is reported in the supplied TDS.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "flash_method": null
+      }
+    ]
+  },
+  
+  "open_questions": [
+    "Shell Risella X 420 is described as a GTL-derived process oil. API lubricant base-oil Group classification is treated as Not Required under the proposed project applicability rule; confirm this interpretation is accepted by the professor's template.",
+    "Chemistry is recorded from TDS DL2-13726.pdf, page 1, dated 2014-06-02: GTL-derived hydrocarbon fluid, highly saturated with a high degree of iso-paraffinic structures.",
+    "CCS viscosity is treated as Not Required for the documented process-oil application. No grade-specific CCS viscosity or test temperature is reported in the supplied TDS.",
+    "TDS DL2-13726.pdf reports density of 816 kg/m3 at 15°C, whereas SDS DL2-13730.pdf reports 813.8 kg/m3 at 15°C. The discrepancy requires reconciliation.",
+    "The historical TDS is dated 2014-06-02 and the cited SDS was revised 2018-10-26. Confirm applicable document revisions before final approval."
+  ],
+  "conflicts": [
+    {
+      "field": "density",
+      "tds": {
+        "value": 816,
+        "unit": "kg/m3",
+        "temperature_c": 15,
+        "source_file": "DL2-13726.pdf",
+        "page": 1,
+        "revision_date": "2014-06-02"
+      },
+      "sds": {
+        "value": 813.8,
+        "unit": "kg/m3",
+        "temperature_c": 15,
+        "source_file": "DL2-13730.pdf",
+        "page": 8,
+        "revision_date": "2018-10-26"
+      },
+      "note": "Different supplier-reported values at same temperature; TDS retained as primary, SDS separately documented."
+    }
+  ]
+}

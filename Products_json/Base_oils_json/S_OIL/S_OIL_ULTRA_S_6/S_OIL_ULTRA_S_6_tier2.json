@@ -1,0 +1,104 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "S_OIL_ULTRA_S_6",
+  "product": {
+    "product_name": "Ultra-S 6 (150 Neutral)",
+    "supplier": "S-OIL",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-11177.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    
+    "mrv": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "flash_method": null
+      }
+    ],
+    "noack_volatility": {
+      "value": 8.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "8.0 wt%",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D5800",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11177.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "pour_point": {
+      "value": -20,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "-20.0 °C",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D5950",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11177.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "flash_point": {
+      "value": 235,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "235 °C (COC)",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11177.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC"
+    }
+  },
+  
+  "open_questions": [
+    "Chemistry is recorded from SDS DL2-15237.pdf, Section 3: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7. Final source-level verification remains pending.",
+    "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",
+    "No grade-specific CCS viscosity or CCS test temperature has been verified for Ultra-S 6.",
+    "MRV apparent viscosity, MRV yield stress, and MRV test temperature have not been verified for Ultra-S 6.",
+    "Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15237.pdf remains pending."
+  ],
+  "conflicts": []
+}

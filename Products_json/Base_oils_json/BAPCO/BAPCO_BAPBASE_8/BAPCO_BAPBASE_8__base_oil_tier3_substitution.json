@@ -1,0 +1,118 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "BAPCO_BAPBASE_8__T3",
+  "product": {
+    "product_name": "BAPbase 8",
+    "supplier": "Bapco",
+    "document_type": "Bahrain Refinery Product Specification",
+    "source_file": "DL2-13093.jpg",
+    "revision_date": "2017-08-17"
+  },
+  "fields": {
+    "sulfur": {
+      "value": null,
+      "qualifier": "maximum",
+      "min": null,
+      "max": 10,
+      "value_kind": "maximum",
+      "printed_text": "10 max",
+      "unit": "mg/kg",
+      "test_temperature_c": null,
+      "method": "ASTM D2622 / ASTM D5453",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13093.jpg",
+        "page": 1,
+        "revision_date": "2017-08-17"
+      }
+    },
+    "saturates": {
+      "value": null,
+      "qualifier": "minimum",
+      "min": 98,
+      "max": null,
+      "value_kind": "minimum",
+      "printed_text": "98 min",
+      "unit": "mass %",
+      "test_temperature_c": null,
+      "method": "ASTM D7419",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13093.jpg",
+        "page": 1,
+        "revision_date": "2017-08-17"
+      }
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-13093.jpg",
+      "pages": [
+        1
+      ],
+      "doc_type": "Product specification",
+      "revision_date": "2017-08-17"
+    }
+  ]
+}

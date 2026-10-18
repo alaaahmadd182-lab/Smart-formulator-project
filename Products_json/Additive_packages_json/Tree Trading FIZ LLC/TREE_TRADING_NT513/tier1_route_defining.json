@@ -1,0 +1,575 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "TREE_TRADING_NT513",
+  "product": {
+    "product_name": "NT513",
+    "supplier": "Tree Trading FIZ LLC",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-14797.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "Additive package for heavy-duty diesel engine oil",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "NT513 is a Heavy-Duty Diesel Engine Oil additive package for use with a non-dispersant VI Improver in selected Group II or Group I base stocks.",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CH-4",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SJ",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SL",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E7-16",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA A3/B4-16",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "JASO DH-1",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "VOLVO VDS-3",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-N/EO-M Plus",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Renault Trucks RLD-2",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Caterpillar ECF-1a (Level)",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 228.3 (Blanket Approval)",
+        "claim_type": "approval",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' Printed '(Blanket Approval)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN M3275-1 (Level)",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU Type 2",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Detroit Diesel DDC 93K215",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20076/77/71/72",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20078",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "DEUTZ DQC III-10",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "GLOBAL DHD-1",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ALLISON C4 (Level)",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "PCMO coverage: A3/B4-16 + MB 229.1 + API SL",
+        "claim_type": "other",
+        "scope": "Claims table p.1; description: 'NT513 at 11.2 mass % in SAE 15W-40 and 10W-40 has the key claims of API CI-4 / ACEA E7-16 / MB 228.3 & VDS-3 (see table below for all details). Coverage of 10W-30 and 20W-50 grades.' '(Level)' printed where shown.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "10W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "10W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "20W-50",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14797.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group II",
+        "Group I"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "in selected Group II or Group I base stocks",
+        "9.33 mass %: CI-4 (in selected group II base oils)"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-14797.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "Note: NT513 @ 11.2wt% is part of the Heavy-Duty Engine Oil cascade, linked with booster to our two other products, provide additional performance levels, viscosity grades and base oils coverage.",
+        "Down treat performances are available under request."
+      ],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": "DL2-14797.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CI-4 / HDEO claims + PCMO Claims",
+        "sae_grade": "SAE 15W-40 and 10W-40",
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "11.2 mass % - API CI-4 / HDEO claims + PCMO Claims",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "'Recommended Dosage'.",
+          "source": {
+            "file": "DL2-14797.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CH-4 level / CI-4 (in selected group II base oils) / PCMO claims",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 9.33,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "9.33 mass % - API CH-4 level / CI-4 (in selected group II base oils) / PCMO claims",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "'Recommended Dosage'.",
+          "source": {
+            "file": "DL2-14797.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "VI Improver (VII)",
+        "name": "VII 1 or VII 2 (Non-Dispersant OCP)",
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "'VI Improver (VII): VII 1 or VII 2 (Non-Dispersant OCP)'; dose not printed.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "No date printed on DL2-14797.pdf; supplier from the footer 'Tree Trading FIZ LLC'. No SDS in the archive.",
+    "Claims listed in a table without approval wording, except 'MB 228.3 (Blanket Approval)'; others recorded as 'other' ('(Level)' kept where printed).",
+    "'The typical finished oil BN is 10.1 mg KOH/g at the standard treat of 11.2 wt%' is finished-oil TBN, not package TBN (not entered)."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

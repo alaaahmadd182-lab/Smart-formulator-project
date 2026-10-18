@@ -1,0 +1,561 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "RICHFUL_RF6400",
+  "product": {
+    "product_name": "RF6400 CF-4/SG Universal Type Engine Oil Package",
+    "supplier": "Xinxiang Richful Lube Additive Co., Ltd.",
+    "document_type": [
+      "TDS",
+      "TDS",
+      "SDS",
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-15849.pdf",
+      "RF6400%20TDS.pdf",
+      "RF6400%20MSDS.pdf",
+      "DL2-15850.pdf"
+    ],
+    "revision_date": [
+      null,
+      null,
+      "2022-07-25",
+      "2023-06-07"
+    ]
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "CF-4/SG Universal Type Engine Oil Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "able to formulate gasoline or diesel engine oil with various different viscosity grades",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4/SG",
+        "claim_type": "recommended",
+        "scope": "'Recommended Treat Rate' table: 5.5%. Text: 'this package is able to meet various performance categories with different treat rates. This product used in API group I, II base oils is able to formulate gasoline or diesel engine oil with various different viscosity grades covering 5W-30, 10W-30, 10W-40, 15W-40, 20W-50, 40, 50 and etc.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF/SF",
+        "claim_type": "recommended",
+        "scope": "'Recommended Treat Rate' table: 4.2%. Text: 'this package is able to meet various performance categories with different treat rates. This product used in API group I, II base oils is able to formulate gasoline or diesel engine oil with various different viscosity grades covering 5W-30, 10W-30, 10W-40, 15W-40, 20W-50, 40, 50 and etc.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SF/CD",
+        "claim_type": "recommended",
+        "scope": "'Recommended Treat Rate' table: 3.5%. Text: 'this package is able to meet various performance categories with different treat rates. This product used in API group I, II base oils is able to formulate gasoline or diesel engine oil with various different viscosity grades covering 5W-30, 10W-30, 10W-40, 15W-40, 20W-50, 40, 50 and etc.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CD",
+        "claim_type": "recommended",
+        "scope": "'Recommended Treat Rate' table: 2.6% (mono-grade). Text: 'this package is able to meet various performance categories with different treat rates. This product used in API group I, II base oils is able to formulate gasoline or diesel engine oil with various different viscosity grades covering 5W-30, 10W-30, 10W-40, 15W-40, 20W-50, 40, 50 and etc.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CD/SD",
+        "claim_type": "recommended",
+        "scope": "'Recommended Treat Rate' table: 2.8%. Text: 'this package is able to meet various performance categories with different treat rates. This product used in API group I, II base oils is able to formulate gasoline or diesel engine oil with various different viscosity grades covering 5W-30, 10W-30, 10W-40, 15W-40, 20W-50, 40, 50 and etc.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SD/CC",
+        "claim_type": "recommended",
+        "scope": "'Recommended Treat Rate' table: 2.7%. Text: 'this package is able to meet various performance categories with different treat rates. This product used in API group I, II base oils is able to formulate gasoline or diesel engine oil with various different viscosity grades covering 5W-30, 10W-30, 10W-40, 15W-40, 20W-50, 40, 50 and etc.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SC/CC",
+        "claim_type": "recommended",
+        "scope": "'Recommended Treat Rate' table: 2.5%. Text: 'this package is able to meet various performance categories with different treat rates. This product used in API group I, II base oils is able to formulate gasoline or diesel engine oil with various different viscosity grades covering 5W-30, 10W-30, 10W-40, 15W-40, 20W-50, 40, 50 and etc.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SB/CB",
+        "claim_type": "recommended",
+        "scope": "'Recommended Treat Rate' table: 1.6%. Text: 'this package is able to meet various performance categories with different treat rates. This product used in API group I, II base oils is able to formulate gasoline or diesel engine oil with various different viscosity grades covering 5W-30, 10W-30, 10W-40, 15W-40, 20W-50, 40, 50 and etc.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "5W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "10W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "10W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "20W-50",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "50",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "API group I",
+        "API group II"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "This product used in API group I, II base oils"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-15849.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CF-4/SG",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 5.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CF-4/SG 5.5%",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Same in 'RF6400 TDS.pdf'. Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-15849.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF/SF",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 4.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CF/SF 4.2%",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Same in 'RF6400 TDS.pdf'. Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-15849.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SF/CD",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 3.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "SF/CD 3.5%",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Same in 'RF6400 TDS.pdf'. Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-15849.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CD",
+        "sae_grade": "mono-grade",
+        "treat_rate_wt_pct": {
+          "value": 2.6,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CD 2.6% (mono-grade)",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Same in 'RF6400 TDS.pdf'. Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-15849.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CD/SD",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 2.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CD/SD 2.8%",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Same in 'RF6400 TDS.pdf'. Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-15849.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SD/CC",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 2.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "SD/CC 2.7%",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Same in 'RF6400 TDS.pdf'. Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-15849.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SC/CC",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 2.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "SC/CC 2.5%",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Same in 'RF6400 TDS.pdf'. Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-15849.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SB/CB",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 1.6,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "SB/CB 1.6%",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Same in 'RF6400 TDS.pdf'. Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-15849.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Two undated TDS (DL2-15849.pdf, 'RF6400 TDS.pdf') with identical content; SDS 'RF6400 MSDS.pdf' (HCS-2012 format, 7/25/2022) and DL2-15850.pdf (REACH, rev. 6/7/2023). All shared values agree.",
+    "Document type: 'RF6400 MSDS.pdf' prints 'Safety Data Sheet' in the title; recorded as SDS.",
+    "Grades listed as '... 20W-50, 40, 50 and etc.' (open list)."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

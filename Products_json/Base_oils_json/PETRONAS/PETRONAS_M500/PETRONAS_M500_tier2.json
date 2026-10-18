@@ -1,0 +1,117 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "PETRONAS_M500",
+  "product": {
+    "product_name": "M500",
+    "supplier": "PETRONAS Lubricants International",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-10949.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": 2.5,
+      "qualifier": null,
+      "min": null,
+      "max": 5.5,
+      "value_kind": "typical",
+      "printed_text": "2.5 mass%; specification ≤5.5 mass%",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D5800-B",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10949.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -15,
+      "qualifier": null,
+      "min": null,
+      "max": -9,
+      "value_kind": "typical",
+      "printed_text": "-15°C; specification ≤-9°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D97 / ASTM D5950",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10949.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 260,
+      "qualifier": null,
+      "min": 230,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "260°C; specification ≥230°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10949.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC"
+    }
+  },
+  "open_questions": [
+    "No independently verified grade-specific SDS for M500.",
+    "TDS has no stated calendar revision date."
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,404 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "MINGYUEKEJI_MY_P3168",
+  "product": {
+    "product_name": "Additive Package MY-P3168",
+    "supplier": "MINGYUEKEJI",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "TDS%20of%20P3168.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "Additive Package For Multi-fonction engine oil",
+        "status": "reported",
+        "source": {
+          "file": "TDS%20of%20P3168.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "Additive package MY-P3168 is an economical additive for preparing a series of medium - grade lubricants. The product has been tested in internationally renowned laboratories (using standard base oils) to demonstrate excellent performance in engine cleaning, wear resistance and soot deposition control, exceeding API CF4 and API CF grade engine testing requirements. This product is suitable for diesel engine oils.",
+        "status": "reported",
+        "source": {
+          "file": "TDS%20of%20P3168.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF4/SG",
+        "claim_type": "other",
+        "scope": "'Dosage' table: 'CF4/SG, Multi-grade, mass% 6.8'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "TDS%20of%20P3168.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF/SF",
+        "claim_type": "other",
+        "scope": "'Dosage' table: 'CF/SF, Multi-grade, mass% 4.0'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "TDS%20of%20P3168.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF",
+        "claim_type": "other",
+        "scope": "'Dosage' table: 'CF, Mono-grade, mass% 3.75'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "TDS%20of%20P3168.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CC/SC",
+        "claim_type": "other",
+        "scope": "'Dosage' table: 'CC/SC, Multi-grade, mass% 2.7'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "TDS%20of%20P3168.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CB/SB",
+        "claim_type": "other",
+        "scope": "'Dosage' table: 'CB/SB, Mono-grade, mass% 2.0'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "TDS%20of%20P3168.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF4",
+        "claim_type": "meets",
+        "scope": "Applications text: '... exceeding API CF4 and API CF grade engine testing requirements' (tested using standard base oils).",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "TDS%20of%20P3168.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF",
+        "claim_type": "meets",
+        "scope": "Applications text: '... exceeding API CF4 and API CF grade engine testing requirements'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "TDS%20of%20P3168.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "Multi-grade",
+        "status": "reported",
+        "source": {
+          "file": "TDS%20of%20P3168.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "Mono-grade",
+        "status": "reported",
+        "source": {
+          "file": "TDS%20of%20P3168.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I",
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CF4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use)."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CF4/SG",
+        "sae_grade": "Multi-grade",
+        "treat_rate_wt_pct": {
+          "value": 6.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CF4/SG, Multi-grade, mass% 6.8",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "'Dosage' table.",
+          "source": {
+            "file": "TDS%20of%20P3168.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF/SF",
+        "sae_grade": "Multi-grade",
+        "treat_rate_wt_pct": {
+          "value": 4.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CF/SF, Multi-grade, mass% 4.0",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "'Dosage' table.",
+          "source": {
+            "file": "TDS%20of%20P3168.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF",
+        "sae_grade": "Mono-grade",
+        "treat_rate_wt_pct": {
+          "value": 3.75,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CF, Mono-grade, mass% 3.75",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "'Dosage' table.",
+          "source": {
+            "file": "TDS%20of%20P3168.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CC/SC",
+        "sae_grade": "Multi-grade",
+        "treat_rate_wt_pct": {
+          "value": 2.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CC/SC, Multi-grade, mass% 2.7",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "'Dosage' table.",
+          "source": {
+            "file": "TDS%20of%20P3168.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CB/SB",
+        "sae_grade": "Mono-grade",
+        "treat_rate_wt_pct": {
+          "value": 2.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CB/SB, Mono-grade, mass% 2.0",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "'Dosage' table.",
+          "source": {
+            "file": "TDS%20of%20P3168.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "No revision date printed on 'TDS of P3168.pdf'. Supplier from the archive folder 'MINGYUEKEJI' (sheet header prints only Chinese text '高品质润滑油添加剂生产商').",
+    "Grades printed only as 'Multi-grade' / 'Mono-grade'. Claims from the 'Dosage' table recorded as 'other'; API CF4 and CF also as 'meets' from the text 'exceeding ... engine testing requirements'."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

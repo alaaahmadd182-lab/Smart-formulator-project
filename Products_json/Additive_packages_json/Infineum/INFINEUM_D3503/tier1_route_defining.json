@@ -1,0 +1,261 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "INFINEUM_D3503",
+  "product": {
+    "product_name": "Infineum D3503",
+    "supplier": "Infineum",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-11404.pdf"
+    ],
+    "revision_date": "2016-05-25"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "performance additive package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11404.pdf",
+          "page": 1,
+          "revision_date": "2016-05-25"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "Infineum D3503 is a performance additive package for formulating premium quality diesel engine oils.",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11404.pdf",
+          "page": 1,
+          "revision_date": "2016-05-25"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CK-4",
+        "claim_type": "meets",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 10W-30, 15W-40 at 14.5 mass %. Description: 'Used at the recommended treat rate in combination with approved base stocks and viscosity modifiers, Infineum D3503 provides engine oils meeting API CK-4, FA-4, and applicable OEM performance specifications. Some claims are base stock and viscosity grade dependent.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11404.pdf",
+          "page": 1,
+          "revision_date": "2016-05-25"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API FA-4",
+        "claim_type": "meets",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 10W-30 at 14.5 mass %. Description: 'Used at the recommended treat rate in combination with approved base stocks and viscosity modifiers, Infineum D3503 provides engine oils meeting API CK-4, FA-4, and applicable OEM performance specifications. Some claims are base stock and viscosity grade dependent.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11404.pdf",
+          "page": 1,
+          "revision_date": "2016-05-25"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "10W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11404.pdf",
+          "page": 1,
+          "revision_date": "2016-05-25"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11404.pdf",
+          "page": 1,
+          "revision_date": "2016-05-25"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for API CK-4/FA-4 packages), not from the product datasheet. Packages claiming API CK-4/FA-4 performance are typically designed for Group II/III base oils. Rule of thumb only, not a supplier statement or an API 1509 restriction. Datasheet itself says 'Claims are base stock and viscosity grade specific', so confirm with Infineum."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "Some claims are base stock and viscosity grade dependent."
+      ],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": "DL2-11404.pdf",
+        "page": 1,
+        "revision_date": "2016-05-25"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CK-4",
+        "sae_grade": "10W-30, 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 14.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CK-4 | 10W-30, 15W-40 | 14.5",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Mass %'. Note under table: '~13.3 Volume %'.",
+          "source": {
+            "file": "DL2-11404.pdf",
+            "page": 1,
+            "revision_date": "2016-05-25"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API FA-4",
+        "sae_grade": "10W-30",
+        "treat_rate_wt_pct": {
+          "value": 14.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API FA-4 | 10W-30 | 14.5",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Mass %'. Note under table: '~13.3 Volume %'.",
+          "source": {
+            "file": "DL2-11404.pdf",
+            "page": 1,
+            "revision_date": "2016-05-25"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "Viscosity modifier",
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Description mentions a viscosity modifier; not named, no dose.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Claim type 'meets': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.",
+    "'applicable OEM performance specifications' are mentioned without names (DL2-11404.pdf p.1). No SDS in the archive."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

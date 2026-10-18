@@ -1,0 +1,117 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "PETRONAS_ETRO_3",
+  "product": {
+    "product_name": "ETRO 3",
+    "supplier": "PETRONAS Lubricants International",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-10229.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": 42.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "42.0 mass %",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D5800-B",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10229.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -33,
+      "qualifier": null,
+      "min": null,
+      "max": -27,
+      "value_kind": "typical",
+      "printed_text": "-33°C; specification ≤ -27°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D97 / ASTM D5950",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10229.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 186,
+      "qualifier": null,
+      "min": 170,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "186°C; specification ≥170°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10229.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC"
+    }
+  },
+  "open_questions": [
+    "No grade-specific SDS independently verified for ETRO 3.",
+    "No calendar revision date stated on product data sheet."
+  ],
+  "conflicts": []
+}

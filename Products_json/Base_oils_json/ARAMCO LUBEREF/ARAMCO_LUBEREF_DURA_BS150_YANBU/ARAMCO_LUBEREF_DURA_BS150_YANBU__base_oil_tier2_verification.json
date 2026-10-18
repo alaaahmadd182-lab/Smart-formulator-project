@@ -1,0 +1,175 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "ARAMCO_LUBEREF_DURA_BS150_YANBU__T2",
+  "product": {
+    "product_name": "aramcoDURA BS150 Yanbu",
+    "supplier": "Saudi Aramco Luberef",
+    "document_type": [
+      "Supplier specification",
+      "Safety data sheet"
+    ],
+    "source_file": "DL2-13944.pdf",
+    "revision_date": null,
+    "product_id": "ARAMCO_LUBEREF_DURA_BS150_YANBU"
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% loss",
+      "test_temperature_c": 250,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -6,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "-6",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D5950",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13944.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 282,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "282",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D92 (COC)",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13944.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null,
+      "alternate_entries": [
+        {
+          "value": 232,
+          "value_kind": "single",
+          "unit": "°C",
+          "method": "ASTM D93 (PMCC)",
+          "status": "Reported",
+          "printed_text": "232",
+          "source": {
+            "file": "DL2-13944.pdf",
+            "page": 1,
+            "revision_date": null
+          }
+        }
+      ]
+    }
+  },
+  "open_questions": [
+    {
+      "question": "Not reported in reviewed source specifications; preserve as missing.",
+      "fields": [
+        "mrv[].mrv_viscosity",
+        "mrv[].yield_stress",
+        "noack_volatility"
+      ],
+      "source_files": [
+        "DL2-13944.pdf",
+        "DL2-12648.pdf",
+        "DL2-12173.pdf"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-13944.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier technical specification",
+      "revision_date": null
+    },
+    {
+      "file": "DL2-12648.pdf",
+      "pages": [
+        1,
+        4,
+        5
+      ],
+      "doc_type": "Safety data sheet",
+      "revision_date": null
+    },
+    {
+      "file": "DL2-12173.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier technical specification",
+      "revision_date": null
+    }
+  ]
+}

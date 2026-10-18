@@ -1,0 +1,205 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "PETRO_CANADA_PURITY_L45",
+  "product": {
+    "product_name": "PURITY L45 Base Oil",
+    "supplier": "Petro-Canada Lubricants Inc.",
+    "document_type": "Supplier PURITY base-oils brochure / typical properties",
+    "source_file": "DL2-10020.pdf",
+    "revision_date": "2015-07"
+  },
+  "fields": {
+    "api_group_chemistry": { 
+      "api_group": {
+        "value": "Group II",
+        "status": "Reported",
+        "source": {
+          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/base-oils/ilma-engage-sponsorship-base-oils-brochure.ashx",
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": "PURITY L45 listed in GROUP II TYPICAL PROPERTIES table",
+        "value_kind": "supplier classification",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "Group II classification confirmed from an additional official manufacturer brochure, not inferred from chemistry."
+      },
+      "chemistry": {
+        "value": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10020.pdf",
+          "page": 1,
+          "revision_date": "2015-07"
+        },
+        "printed_text": "HT Purity Process: severe hydrotreating/hydrocracking, dewaxing and hydrofinishing",
+        "value_kind": "supplier family description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 6.3,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "6.3 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "kv100": {
+      "value": 1.9,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "1.9 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.85,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "0.85 kg/L",
+      "unit": "kg/L",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    
+    "ccs": [
+      {
+        "value": 935,
+        "qualifier": "Typical",
+        "min": null,
+        "max": null,
+        "value_kind": "single",
+        "printed_text": "935",
+        "unit": "mPa.s",
+        "test_temperature_c": -20,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
+          "page": null,
+          "revision_date": "2023-03"
+        }
+      },
+      {
+        "value": 1716,
+        "qualifier": "Typical",
+        "min": null,
+        "max": null,
+        "value_kind": "single",
+        "printed_text": "1716",
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
+          "page": null,
+          "revision_date": "2023-03"
+        }
+      },
+      {
+        "value": 3438,
+        "qualifier": "Typical",
+        "min": null,
+        "max": null,
+        "value_kind": "single",
+        "printed_text": "3438",
+        "unit": "mPa.s",
+        "test_temperature_c": -30,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
+          "page": null,
+          "revision_date": "2023-03"
+        }
+      },
+      {
+        "value": 7415,
+        "qualifier": "Typical",
+        "min": null,
+        "max": null,
+        "value_kind": "single",
+        "printed_text": "7415",
+        "unit": "mPa.s",
+        "test_temperature_c": -35,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
+          "page": null,
+          "revision_date": "2023-03"
+        }
+      }
+    ]
+
+  },
+  
+  "open_questions": [
+    "API Group II confirmed from an additional official Petro-Canada manufacturer brochure; the original DL2-10020.pdf did not explicitly assign a grade-specific group.",
+    "Viscosity index remains unreported for PURITY L45. CCS values at -20°C, -25°C, -30°C and -35°C were obtained from the manufacturer's March 2023 brochure.",
+    "Grade-specific SDS and differences between brochure editions require reconciliation."
+  ],
+  "conflicts": []
+}

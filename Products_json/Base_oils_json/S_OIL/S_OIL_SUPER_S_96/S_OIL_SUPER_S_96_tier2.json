@@ -1,0 +1,104 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "S_OIL_SUPER_S_96",
+  "product": {
+    "product_name": "S-96 (Super 500N)",
+    "supplier": "S-OIL",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-12392.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "mrv": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "flash_method": null
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "pour_point": {
+      "value": -15.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "-15.0 °C",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D5950",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12392.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "flash_point": {
+      "value": 242,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "242 °C (COC)",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12392.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC"
+    }
+  },
+ 
+  "open_questions": [
+    "API Group for historical S-OIL S-96 (Super 500N) has not been explicitly verified.",
+    "Chemistry identified in S-OIL Super-96 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7.",
+    "Historical S-OIL catalog reports specific gravity 0.8762 at 15/4°C (ASTM D1298), which must not be transcribed directly as absolute density.",
+    "MRV apparent viscosity and MRV yield stress have not been verified for historical S-96; no grade-specific test temperature is available.",
+    "Noack volatility, CCS viscosity, saturates and aromatics remain unverified.",
+    "Final source-level reconciliation between DL2-12392.pdf and the grade-specific SDS pending."
+  ],
+  "conflicts": []
+}

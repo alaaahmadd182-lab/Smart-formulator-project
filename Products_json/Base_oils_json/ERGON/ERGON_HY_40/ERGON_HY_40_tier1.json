@@ -1,0 +1,145 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "ERGON_HY_40",
+  "product": {
+    "product_name": "HY 40",
+    "supplier": "Ergon Refining, Inc.",
+    "document_type": "Naphthenic Ink Oil Marketing Specification",
+    "source_file": "DL2-13168.pdf",
+    "revision_date": "2018-05-10"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null
+      },
+      "chemistry": {
+        "value": "Severely hydrotreated mineral oil (naphthenic ink oil)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-13168.pdf",
+          "page": 1,
+          "revision_date": "2018-05-10"
+        },
+        "value_kind": "supplier description",
+        "printed_text": "Naphthenic Ink Oil Marketing Specification; severely hydrotreated mineral oil",
+        "method": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "kv40": {
+      "value": 3.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 3.0 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13168.pdf",
+        "page": 1,
+        "revision_date": "2018-05-10"
+      }
+    },
+    "kv100": {
+      "value": 1.2,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 1.2 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13168.pdf",
+        "page": 1,
+        "revision_date": "2018-05-10"
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3",
+      "test_temperature_c": 15.6,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "API group not explicitly stated.",
+    "SDS cross-check pending.",
+    "Specific gravity reported at 15.6\u00b0C; density not directly reported.",
+    "PMCC flash point and water content specification retained in ingestion log because template does not offer dedicated fields."
+  ],
+  "conflicts": []
+}

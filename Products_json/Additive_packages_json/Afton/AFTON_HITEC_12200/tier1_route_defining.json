@@ -1,0 +1,1236 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "AFTON_HITEC_12200",
+  "product": {
+    "product_name": "HiTEC® 12200",
+    "supplier": "Afton Chemical Corporation",
+    "document_type": [
+      "TDS",
+      "TDS",
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-11412.PDF",
+      "DL2-14639.pdf",
+      "DL2-12074.pdf"
+    ],
+    "revision_date": [
+      "05/18",
+      "08/18",
+      "2019-07-16"
+    ]
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "HDEO Additive Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 1,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "Petrochemical industry: Lubricating Oil Additive.",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12074.pdf",
+          "page": 1,
+          "revision_date": "2019-07-16"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4 PLUS",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.8% HiTEC® 12200, SAE 20W-50, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CH-4",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.8% HiTEC® 12200, SAE 20W-50, GP II; 9.7% HiTEC® 12200, SAE 15W-40, GP II; 9.7% HiTEC® 12200, SAE 20W-50, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 20W-50, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CG-4",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 8.2% HiTEC® 12200, SAE 15W-40, GP II.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 6.1% HiTEC® 12200, SAE 15W-40, GP II.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SN",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.8% HiTEC® 12200 + 0.6% HiTEC® 9552, SAE 10W-40, GP II/III².",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SL",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200 + 0.6% HiTEC® 9552, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.8% HiTEC® 12200, SAE 20W-50, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I; 10.8% HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 20W-50, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SJ",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200 + 0.6% HiTEC® 9552, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.8% HiTEC® 12200, SAE 20W-50, GP II; 9.7% HiTEC® 12200, SAE 15W-40, GP II; 9.7% HiTEC® 12200, SAE 20W-50, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I; 10.8% HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 20W-50, GP I; 10.8% HiTEC® 12200, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 20W-50, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E7-16",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.8% HiTEC® 12200, SAE 20W-50, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 20W-50, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA A3/B4-16",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200 + 0.6% HiTEC® 9552, SAE 10W-40, GP II/III².",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 228.3",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 10W-40, GP II/III²; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I. Marked P ('MB Package Approval') in rows: 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.8% HiTEC® 12200, SAE 20W-50, GP II; 9.7% HiTEC® 12200, SAE 15W-40, GP II; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I; 10.8% HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 20W-50, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 228.1",
+        "claim_type": "meets",
+        "scope": "Column header 'Approvals'. Header footnote 5: 'Meets requirements of (MRO)'. Rows: 9.7% HiTEC® 12200, SAE 20W-50, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I; 10.8% HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 20W-50, GP I; 10.8% HiTEC® 12200, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 20W-50, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 229.1",
+        "claim_type": "meets",
+        "scope": "Column header 'Approvals'. Header footnote 5: 'Meets requirements of (MRO)'. Rows: 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 10W-40, GP II/III².",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 229.3",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.8% HiTEC® 12200 + 0.6% HiTEC® 9552, SAE 10W-40, GP II/III².",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "RN 0700",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.8% HiTEC® 12200 + 0.6% HiTEC® 9552, SAE 10W-40, GP II/III².",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 3275",
+        "claim_type": "meets",
+        "scope": "Column header 'Approvals'. Header footnote 5: 'Meets requirements of (MRO)'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.8% HiTEC® 12200, SAE 20W-50, GP II; 9.7% HiTEC® 12200, SAE 15W-40, GP II; 9.7% HiTEC® 12200, SAE 20W-50, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I; 10.8% HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 20W-50, GP I; 10.8% HiTEC® 12200, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 20W-50, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Volvo VDS-3",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 15W-40, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Deutz DQC- III",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 15W-40, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Deutz DQC- II",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 9.7% HiTEC® 12200, SAE 15W-40, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 15W-40, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU 2.0",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 9.7% HiTEC® 12200, SAE 15W-40, GP II; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 15W-40, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-N",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 15W-40, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-M+",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-M",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 9.7% HiTEC® 12200, SAE 15W-40, GP II.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20078",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20077",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 9.7% HiTEC® 12200, SAE 15W-40, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 15W-40, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Caterpillar ECF-2",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Caterpillar ECF-1a",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.8% HiTEC® 12200, SAE 20W-50, GP II; 9.7% HiTEC® 12200, SAE 15W-40, GP II; 9.7% HiTEC® 12200, SAE 20W-50, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 20W-50, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Renault RLD-2",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I; 10.8% HiTEC® 12200, SAE 15W-40, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "JASO DH-1",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Global DHD-1",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "DDC 93K215",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 11.7% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-30, GP II; 10.8% HiTEC® 12200 + 0.9% HiTEC® 12260, SAE 10W-40, GP II/III²; 10.8% HiTEC® 12200, SAE 15W-40, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I; 10.8%⁶ HiTEC® 12200 + 0.35% HiTEC® 9552³, SAE 15W-40, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "DDC 93K214",
+        "claim_type": "approval",
+        "scope": "Column header 'Approvals'. Rows: 10.3%¹ HiTEC® 12200 + 4.2% HiTEC® 12250, SAE 15W-40, GP II; 10.3%⁴ HiTEC® 12200 + 5.0% HiTEC® 12255, SAE 15W-40, GP I.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 20W-50",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "GP I",
+        "GP II",
+        "GP II/III²"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "GP II/III²: footnote 2 '30% Group III'",
+        "Each treat rate is tied to a base-oil group in the approvals table (see treat_rate_matrix)."
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-14639.pdf",
+        "page": 2,
+        "revision_date": "08/18"
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "Footnote 3: 'Up to 0.6% wt maybe required for some group I’s to cover MB 228.3 approvals'"
+      ],
+      "exclusions": [],
+      "allowed_combinations": [
+        "Footnote 1: '14.2% HiTEC® 12204L = 10.3% HiTEC® 12200 + 4.2% HiTEC® 12250'",
+        "Footnote 4: '15.3% HiTEC® 12204Y = 10.3% HiTEC® 12200 + 5.0% HiTEC® 12255'",
+        "Footnote 6: '11.15% HiTEC® 12252 = 10.8% HiTEC® 12200 + 0.35% HiTEC® 9552'"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-14639.pdf",
+        "page": 2,
+        "revision_date": "08/18"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CI-4 PLUS; API CI-4; API CH-4; API SL; API SJ; ACEA E7-16; MB 228.3; MAN 3275; Volvo VDS-3; Deutz DQC- III; Deutz DQC- II; MTU 2.0; Mack EO-N; Mack EO-M+; Cummins CES 20078; Cummins CES 20077; Caterpillar ECF-2; Caterpillar ECF-1a; Renault RLD-2; JASO DH-1; Global DHD-1; DDC 93K215; DDC 93K214",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 10.3,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "10.3%¹ | 4.2% HiTEC® 12250 | SAE 15W-40 | GP II",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II. Booster on top: 4.2% HiTEC® 12250. Footnote 1: '14.2% HiTEC® 12204L = 10.3% HiTEC® 12200 + 4.2% HiTEC® 12250'. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CI-4; API CH-4; API SL; API SJ; ACEA E7-16; MB 228.3; MAN 3275; Volvo VDS-3; Deutz DQC- III; Deutz DQC- II; MTU 2.0; Mack EO-N; Mack EO-M+; Cummins CES 20078; Cummins CES 20077; Caterpillar ECF-2; Caterpillar ECF-1a; Renault RLD-2; JASO DH-1; Global DHD-1; DDC 93K215",
+        "sae_grade": "SAE 10W-30",
+        "treat_rate_wt_pct": {
+          "value": 11.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "11.7% | 0.9% HiTEC® 12260 | SAE 10W-30 | GP II",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II. Booster on top: 0.9% HiTEC® 12260. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CI-4; API SL",
+        "sae_grade": "SAE 10W-30",
+        "treat_rate_wt_pct": {
+          "value": 10.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "10.8% | 0.9% HiTEC® 12260 | SAE 10W-30 | GP II",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II. Booster on top: 0.9% HiTEC® 12260. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CI-4; API CH-4; API SL; API SJ; ACEA E7-16; ACEA A3/B4-16; MB 228.3; MB 229.1; MAN 3275; Volvo VDS-3; Deutz DQC- III; Deutz DQC- II; MTU 2.0; Mack EO-N; Mack EO-M+; Cummins CES 20078; Cummins CES 20077; Caterpillar ECF-2; Caterpillar ECF-1a; Renault RLD-2; JASO DH-1; Global DHD-1; DDC 93K215",
+        "sae_grade": "SAE 10W-40",
+        "treat_rate_wt_pct": {
+          "value": 10.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "10.8% | 0.9% HiTEC® 12260 | SAE 10W-40 | GP II/III²",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II/III². Booster on top: 0.9% HiTEC® 12260. Footnote 2: '30% Group III'. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SL; API SJ; ACEA A3/B4-16; MB 228.3; MB 229.1; MAN 3275; MTU 2.0; JASO DH-1; Global DHD-1",
+        "sae_grade": "SAE 10W-40",
+        "treat_rate_wt_pct": {
+          "value": 10.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "10.8% | SAE 10W-40 | GP II/III²",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II/III². Footnote 2: '30% Group III'. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SN; API SL; API SJ; ACEA A3/B4-16; MB 229.3; RN 0700",
+        "sae_grade": "SAE 10W-40",
+        "treat_rate_wt_pct": {
+          "value": 10.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "10.8% | 0.6% HiTEC® 9552 | SAE 10W-40 | GP II/III²",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II/III². Booster on top: 0.6% HiTEC® 9552. Footnote 2: '30% Group III'. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CI-4; API CH-4; API SL; API SJ; ACEA E7-16; MB 228.3 (P); MAN 3275; Volvo VDS-3; Deutz DQC- III; Deutz DQC- II; MTU 2.0; Mack EO-N; Mack EO-M+; Cummins CES 20078; Cummins CES 20077; Caterpillar ECF-2; Caterpillar ECF-1a; Renault RLD-2; JASO DH-1; Global DHD-1; DDC 93K215",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 10.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "10.8% | SAE 15W-40 | GP II",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CI-4; API CH-4; API SL; API SJ; ACEA E7-16; MB 228.3 (P); MAN 3275; Caterpillar ECF-1a",
+        "sae_grade": "SAE 20W-50",
+        "treat_rate_wt_pct": {
+          "value": 10.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "10.8% | SAE 20W-50 | GP II",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CH-4; API SJ; MB 228.3 (P); MAN 3275; Deutz DQC- II; MTU 2.0; Mack EO-M; Cummins CES 20077; Caterpillar ECF-1a",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 9.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "9.7% | SAE 15W-40 | GP II",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CH-4; API SJ; MB 228.1; MAN 3275; Caterpillar ECF-1a",
+        "sae_grade": "SAE 20W-50",
+        "treat_rate_wt_pct": {
+          "value": 9.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "9.7% | SAE 20W-50 | GP II",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CG-4",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 8.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "8.2% | SAE 15W-40 | GP II",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF-4",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 6.1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "6.1% | SAE 15W-40 | GP II",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CI-4 PLUS; API CI-4; API CH-4; API SL; API SJ; ACEA E7-16; MB 228.3; MB 228.1; MAN 3275; Volvo VDS-3; Deutz DQC- III; Deutz DQC- II; Mack EO-N; Cummins CES 20078; Cummins CES 20077; Caterpillar ECF-1a; Renault RLD-2; JASO DH-1; Global DHD-1; DDC 93K215; DDC 93K214",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 10.3,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "10.3%⁴ | 5.0% HiTEC® 12255 | SAE 15W-40 | GP I",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP I. Booster on top: 5.0% HiTEC® 12255. Footnote 4: '15.3% HiTEC® 12204Y = 10.3% HiTEC® 12200 + 5.0% HiTEC® 12255'. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CI-4; API CH-4; API SL; API SJ; ACEA E7-16; MB 228.3 (P); MB 228.1; MAN 3275; Volvo VDS-3; Deutz DQC- III; Deutz DQC- II; MTU 2.0; Mack EO-N; Cummins CES 20078; Cummins CES 20077; Caterpillar ECF-1a; Renault RLD-2; JASO DH-1; Global DHD-1; DDC 93K215",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 10.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "10.8%⁶ | 0.35% HiTEC® 9552³ | SAE 15W-40 | GP I",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP I. Booster on top: 0.35% HiTEC® 9552³. Footnote 3: 'Up to 0.6% wt maybe required for some group I’s to cover MB 228.3 approvals'. Footnote 6: '11.15% HiTEC® 12252 = 10.8% HiTEC® 12200 + 0.35% HiTEC® 9552'. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SL; API SJ; MB 228.3 (P); MB 228.1; MAN 3275",
+        "sae_grade": "SAE 20W-50",
+        "treat_rate_wt_pct": {
+          "value": 10.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "10.8% | 0.35% HiTEC® 9552³ | SAE 20W-50 | GP I",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP I. Booster on top: 0.35% HiTEC® 9552³. Footnote 3: 'Up to 0.6% wt maybe required for some group I’s to cover MB 228.3 approvals'. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CH-4; API SJ; ACEA E7-16; MB 228.1; MAN 3275; Volvo VDS-3; Deutz DQC- III; Deutz DQC- II; MTU 2.0; Mack EO-N; Cummins CES 20077; Caterpillar ECF-1a; Renault RLD-2",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 10.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "10.8% | SAE 15W-40 | GP I",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP I. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CH-4; API SJ; ACEA E7-16; MB 228.1; MAN 3275; Caterpillar ECF-1a",
+        "sae_grade": "SAE 20W-50",
+        "treat_rate_wt_pct": {
+          "value": 10.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "10.8% | SAE 20W-50 | GP I",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP I. Printed unit '%' (mass/volume basis not stated); template unit is wt.%. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "Booster (table column 'Boosters')",
+        "name": "HiTEC® 12250",
+        "dose_wt_pct": {
+          "value": 4.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "4.2% HiTEC® 12250",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Row 10.3% HiTEC® 12200, SAE 15W-40, GP II. Footnote 1: '14.2% HiTEC® 12204L = 10.3% HiTEC® 12200 + 4.2% HiTEC® 12250'. Printed unit '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "Booster (table column 'Boosters')",
+        "name": "HiTEC® 12260",
+        "dose_wt_pct": {
+          "value": 0.9,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "0.9% HiTEC® 12260",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Rows 11.7% SAE 10W-30 GP II; 10.8% SAE 10W-30 GP II; 10.8% SAE 10W-40 GP II/III. Printed unit '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "Booster (table column 'Boosters')",
+        "name": "HiTEC® 12255",
+        "dose_wt_pct": {
+          "value": 5.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "5.0% HiTEC® 12255",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Row 10.3% HiTEC® 12200, SAE 15W-40, GP I. Footnote 4: '15.3% HiTEC® 12204Y = 10.3% HiTEC® 12200 + 5.0% HiTEC® 12255'. Printed unit '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "Booster (table column 'Boosters')",
+        "name": "HiTEC® 9552",
+        "dose_wt_pct": {
+          "value": 0.35,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "0.35% HiTEC® 9552³",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Rows 10.8% SAE 15W-40 GP I and 10.8% SAE 20W-50 GP I. Footnote 3: 'Up to 0.6% wt maybe required for some group I’s to cover MB 228.3 approvals'. Footnote 6: '11.15% HiTEC® 12252 = 10.8% HiTEC® 12200 + 0.35% HiTEC® 9552'. Printed unit '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "Booster (table column 'Boosters')",
+        "name": "HiTEC® 9552",
+        "dose_wt_pct": {
+          "value": 0.6,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "0.6% HiTEC® 9552",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Row 10.8% HiTEC® 12200, SAE 10W-40, GP II/III (API SN / ACEA A3/B4-16 / MB 229.3 / RN 0700 route). Printed unit '%' (basis not stated).",
+          "source": {
+            "file": "DL2-14639.pdf",
+            "page": 2,
+            "revision_date": "08/18"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Product name differs between documents: bulletins DL2-11412.PDF p.1-2 and DL2-14639.pdf p.1-2 print 'HiTEC® 12200' / 'HiTEC® 12200 HDEO Additive Package'; SDS DL2-12074.pdf p.1 prints 'HiTEC® 12200 Performance Additive' (SDS no. H12200).",
+    "Supplier: bulletins (DL2-14639.pdf p.2) name Afton Chemical Corporation; SDS DL2-12074.pdf p.1 lists Afton Chemical Asia Pte. Ltd. and other Afton entities under 'Manufacturer / Supplier'.",
+    "revision_date: bulletins print only '05/18' (DL2-11412.PDF p.2) and '08/18' (DL2-14639.pdf p.2) in the copyright line; SDS DL2-12074.pdf p.1 'Date of issue/Date of revision: 7/16/2019'. product.revision_date is a list in source_file order.",
+    "Claim type: every matrix column sits under the printed header 'Approvals' (DL2-14639.pdf p.2), including API categories, so claim_type = 'approval'. Columns MB 228.1, MB 229.1 and MAN 3275 carry footnote 5 'Meets requirements of (MRO)' and are set to 'meets'. Please confirm this reading.",
+    "Treat rates and booster doses are printed as '%' with no mass/volume basis (DL2-14639.pdf p.2); only footnote 3 says '% wt'. Unit kept as '%'.",
+    "Rows and columns only in the 08/18 bulletin (DL2-14639.pdf p.2), absent from 05/18 (DL2-11412.PDF p.2): row '10.8% + 0.9% HiTEC® 12260, SAE 10W-30, GP II' (API CI-4, API SL); row '10.8% + 0.6% HiTEC® 9552, SAE 10W-40, GP II/III' (API SN, API SL, API SJ, ACEA A3/B4-16, MB 229.3, RN 0700); columns API SN, MB 229.3, RN 0700. Not treated as conflicts (additions, not disagreements).",
+    "Footnote 6 differs: 05/18 (DL2-11412.PDF p.2) '6 Formulations, available in Q2 2018' on the two SAE 10W-40 rows; 08/18 (DL2-14639.pdf p.2) '6 11.15% HiTEC® 12252 = 10.8% HiTEC® 12200 + 0.35% HiTEC® 9552' on the 10.8% SAE 15W-40 GP I row.",
+    "No complete published formulation (all ingredients summing to 100 wt.%) is printed; published_formulations left Missing. The bar charts on DL2-14639.pdf p.2 (Mack T-12, Cat 1K, Seq IIIF, T8E vs 'API CI-4 Limit'/'Reserve') have no numeric values and were not recorded.",
+    "Old Product_JSON has no claims, route matrix or co-components for this product although both bulletins print them; the new file fills them from DL2-14639.pdf p.2."
+  ],
+  "conflicts": [
+    {
+      "field": "tier1.performance_claims / tier1.treat_rate_matrix (MTU 2.0, row 10.3% + 5.0% HiTEC® 12255, SAE 15W-40, GP I)",
+      "values": [
+        {
+          "value": "MTU 2.0 claimed",
+          "printed_text": "dot in MTU 2.0 column",
+          "file": "DL2-11412.PDF",
+          "page": 2,
+          "revision_date": "05/18"
+        },
+        {
+          "value": "MTU 2.0 not claimed",
+          "printed_text": "no dot in MTU 2.0 column",
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        }
+      ],
+      "note": "05/18 vs 08/18 bulletin. Newer (08/18) used in the fields; not resolved."
+    },
+    {
+      "field": "tier1.performance_claims / tier1.treat_rate_matrix (DDC 93K215, row 11.7% + 0.9% HiTEC® 12260, SAE 10W-30, GP II)",
+      "values": [
+        {
+          "value": "DDC 93K215 not claimed",
+          "printed_text": "no dot in DDC 93K215 column",
+          "file": "DL2-11412.PDF",
+          "page": 2,
+          "revision_date": "05/18"
+        },
+        {
+          "value": "DDC 93K215 claimed",
+          "printed_text": "dot in DDC 93K215 column",
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        }
+      ],
+      "note": "05/18 vs 08/18 bulletin. Newer (08/18) used in the fields; not resolved."
+    }
+  ],
+  "external_fill_notes": []
+}

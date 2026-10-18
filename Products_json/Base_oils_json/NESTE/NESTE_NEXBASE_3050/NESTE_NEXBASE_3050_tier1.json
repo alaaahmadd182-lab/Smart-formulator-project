@@ -1,0 +1,143 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "NESTE_NEXBASE_3050",
+  "product": {
+    "product_name": "NEXBASE 3050",
+    "supplier": "Neste N.V.",
+    "document_type": "Technical Data Sheet",
+    "source_file": "DL2-10038.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group III",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10038.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "printed_text": "Conforms with API/ATIEL Base Stock Group III",
+        "value_kind": "supplier designation",
+        "method": null,
+        "min": null,
+        "max": null
+      },
+      "chemistry": {
+        "value": "Catalytically hydroisomerized and dewaxed; hydrogenated, highly isoparaffinic hydrocarbons",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10038.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "printed_text": "Supplier description",
+        "value_kind": "supplier description",
+        "method": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "kv40": {
+      "value": 26,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 26 mm²/s at 40°C",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10038.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 5.1,
+      "qualifier": null,
+      "min": 4.8,
+      "max": 5.2,
+      "value_kind": "typical",
+      "printed_text": "Typical 5.1 mm²/s at 100°C; specification 4.8–5.2",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10038.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 126,
+      "qualifier": null,
+      "min": 120,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 126; specification minimum 120",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10038.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 839,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 839 kg/m³ at 15°C",
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10038.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "TDS edition 4.2 does not provide a calendar revision date.",
+    "No independently identified NEXBASE 3050 SDS among the text-searchable supplier PDFs; SDS reconciliation pending."
+  ],
+  "conflicts": []
+}

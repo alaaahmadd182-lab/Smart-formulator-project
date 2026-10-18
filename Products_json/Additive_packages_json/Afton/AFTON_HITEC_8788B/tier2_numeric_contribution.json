@@ -1,0 +1,317 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "AFTON_HITEC_8788B",
+  "product": {
+    "product_name": "HiTEC® 8788B",
+    "supplier": "Afton Chemical Asia Pte. Ltd.",
+    "document_type": [
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-15016.pdf"
+    ],
+    "revision_date": "2019-11-04"
+  },
+  "fields": {
+    "tbn": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "elements": {
+      "Ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": 2850,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": "2850 cSt at 40°C",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "SDS Section 9 value; not labelled typical or specification.",
+      "source": {
+        "file": "DL2-15016.pdf",
+        "page": 7,
+        "revision_date": "2019-11-04"
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 145,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": "145 cSt @ 100°C",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "SDS Section 9 value; not labelled typical or specification.",
+      "source": {
+        "file": "DL2-15016.pdf",
+        "page": 7,
+        "revision_date": "2019-11-04"
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 0.958,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": "Density : 0.958 g/cm³ [59°F (15°C)]",
+      "unit": "g/cm³",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Template unit kg/m3; printed g/cm³ kept, not converted. SDS Section 9 value; not labelled typical or specification.",
+      "source": {
+        "file": "DL2-15016.pdf",
+        "page": 7,
+        "revision_date": "2019-11-04"
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 135,
+      "qualifier": "≥",
+      "min": 135,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Closed cup: 135°C (275°F) [Pensky-Martens. Minimum]",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "Pensky-Martens closed cup",
+      "status": "reported",
+      "calculation_note": "Printed as a minimum.",
+      "source": {
+        "file": "DL2-15016.pdf",
+        "page": 7,
+        "revision_date": "2019-11-04"
+      },
+      "flash_method": "PMCC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Supplier: DL2-15016.pdf p.1 lists several Afton entities under 'Manufacturer / Supplier'; first listed (Afton Chemical Asia Pte. Ltd.) recorded.",
+    "Only an SDS is in the archive for HiTEC 8788B; claims, SAE grades, treat rates, base oils, co-components and formulations are not printed (could be looked up later in an Afton product bulletin).",
+    "TBN, sulfated ash, all elements and pour point are not printed in DL2-15016.pdf.",
+    "DL2-15016.pdf p.2-3 Section 3 component shares (not element contents): overbased calcium sulfurized phenate 5 - 10 %, alkyl esters of alkyl phenate alkanoic acid 3 - 5 %, two ZDDPs 1 - 3 % each, base-oil distillates 15 - 25 % (x2) and 1 - 3 % (x2). p.21 (Japan PRTR) 'Boron compounds 5 - 10' % (component share, B left Missing).",
+    "Density: old Product_JSON gives 958 kg/m3 (converted); sheet prints 0.958 g/cm³ at 15°C (p.7)."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

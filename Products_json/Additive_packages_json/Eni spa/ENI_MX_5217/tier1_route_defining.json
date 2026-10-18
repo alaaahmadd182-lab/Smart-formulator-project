@@ -1,0 +1,623 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "ENI_MX_5217",
+  "product": {
+    "product_name": "Eni MX 5217",
+    "supplier": "Eni spa",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-12630.pdf"
+    ],
+    "revision_date": "03/2017"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "Premium HDDO Additives Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "premium additives package for Heavy Duty Diesel Oils designed for traditional engine technologies",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CH-4",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 13.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4 level",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 13.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E4/E7-12",
+        "claim_type": "meets",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 13.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mercedes Benz MB 228.5",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 13.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.' Footnote (*): 'Official approval pending in group II/III formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN M 3277",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 13.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU Type 3 level",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 13.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "VOLVO VDS-2",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 13.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Renault RVI RD",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 13.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20078 level",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 13.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CH-4 level",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 11.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E5-02",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 11.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E7 level",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 11.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mercedes Benz 228.3",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 11.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN M 3275",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 11.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU Type 2 level",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 11.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20072 level",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 11.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CG-4/SJ",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 9.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E3-96",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 9.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mercedes Benz MB 228.1",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 9.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN M 3275",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 9.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU Type 2 level",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 9.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Renault RVI RD",
+        "claim_type": "other",
+        "scope": "'TREAT RATE & PERFORMANCE CLAIMS' table, column 9.6%. Text p.1: 'provides an API Quality CH-4 and CI-4 level and meets ACEA E4/E7 levels when formulated in Group I + Group III base stocks. It also meets the main OEMs specifications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 15W-50",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 20W-50",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12630.pdf",
+          "page": 1,
+          "revision_date": "03/2017"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I + Group III",
+        "Group I (grades from 15W-40)"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "ACEA E4/E7 levels when formulated in Group I + Group III base stocks",
+        "Grades from 15W-40 are fully obtained with Group I base stocks."
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-12630.pdf",
+        "page": 1,
+        "revision_date": "03/2017"
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "(*) Official approval pending in group II/III formulation."
+      ],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": "DL2-12630.pdf",
+        "page": 1,
+        "revision_date": "03/2017"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CH-4; API CI-4 level; ACEA E4/E7-12; Mercedes Benz MB 228.5*; MAN M 3277; MTU Type 3 level; VOLVO VDS-2; Renault RVI RD; Cummins CES 20078 level",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 13.6,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "13.6%",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column header of the claims table. Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-12630.pdf",
+            "page": 1,
+            "revision_date": "03/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CH-4 level; ACEA E5-02; ACEA E7 level; Mercedes Benz 228.3; MAN M 3275; MTU Type 2 level; Cummins CES 20072 level",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.6,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "11.6%",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column header of the claims table. Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-12630.pdf",
+            "page": 1,
+            "revision_date": "03/2017"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CG-4/SJ; ACEA E3-96; Mercedes Benz MB 228.1; MAN M 3275; MTU Type 2 level; Renault RVI RD",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 9.6,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "9.6%",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column header of the claims table. Printed '%' (basis not stated).",
+          "source": {
+            "file": "DL2-12630.pdf",
+            "page": 1,
+            "revision_date": "03/2017"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "Viscosity Modifier",
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Text: 'when formulated with the appropriate base stocks and Viscosity Modifier'; not named, no dose.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Claim types: 'ACEA E4/E7-12' set to 'meets' (text 'meets ACEA E4/E7 levels'); other cells, many printed as '... level', set to 'other'. MB 228.5 is '(*) Official approval pending in group II/III formulation'.",
+    "No SDS in the archive."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

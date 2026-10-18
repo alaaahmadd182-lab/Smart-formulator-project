@@ -1,0 +1,258 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "INFINEUM_D3320",
+  "product": {
+    "product_name": "Infineum D3320",
+    "supplier": "Infineum",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-12025.pdf"
+    ],
+    "revision_date": "2015-02-06"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "ACEA E6-12 premium package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12025.pdf",
+          "page": 1,
+          "revision_date": "2015-02-06"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "Infineum D3320 is an ACEA E6-12 premium package for Group II/III base stocks (SAE 10W-30, 10W-40).",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12025.pdf",
+          "page": 1,
+          "revision_date": "2015-02-06"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E6-12",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 10W-30 at 13.7 mass %; 10W-40 at 13.7 mass %. Description: 'an ACEA E6-12 premium package for Group II/III base stocks (SAE 10W-30, 10W-40)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12025.pdf",
+          "page": 1,
+          "revision_date": "2015-02-06"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "other",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 10W-30 at 13.7 mass %; 10W-40 at 13.7 mass %. Description: 'an ACEA E6-12 premium package for Group II/III base stocks (SAE 10W-30, 10W-40)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12025.pdf",
+          "page": 1,
+          "revision_date": "2015-02-06"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "10W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12025.pdf",
+          "page": 1,
+          "revision_date": "2015-02-06"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "10W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12025.pdf",
+          "page": 1,
+          "revision_date": "2015-02-06"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group II/III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": "DL2-12025.pdf",
+        "page": 1,
+        "revision_date": "2015-02-06"
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "ACEA E6-12; API CI-4",
+        "sae_grade": "10W-30",
+        "treat_rate_wt_pct": {
+          "value": 13.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "ACEA E6-12 / API CI-4 | 10W-30 | 13.7",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Mass %'.",
+          "source": {
+            "file": "DL2-12025.pdf",
+            "page": 1,
+            "revision_date": "2015-02-06"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "ACEA E6-12; API CI-4",
+        "sae_grade": "10W-40",
+        "treat_rate_wt_pct": {
+          "value": 13.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "ACEA E6-12 / API CI-4 | 10W-40 | 13.7",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Mass %'.",
+          "source": {
+            "file": "DL2-12025.pdf",
+            "page": 1,
+            "revision_date": "2015-02-06"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Claim type 'other': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.",
+    "No VM/co-components or SDS in the archive for D3320."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

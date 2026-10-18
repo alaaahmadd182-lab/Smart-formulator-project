@@ -1,0 +1,268 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "INFINEUM_D3417",
+  "product": {
+    "product_name": "Infineum D3417",
+    "supplier": "Infineum",
+    "document_type": [
+      "TDS",
+      "PDS"
+    ],
+    "source_file": [
+      "DL2-15335.pdf",
+      "DL2-15334.pdf"
+    ],
+    "revision_date": [
+      "2022-03-10",
+      "12-Feb-2024"
+    ]
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "HDD Detergent Inhibitor Package for API CI-4/SL Quality",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15334.pdf",
+          "page": 1,
+          "revision_date": "12-Feb-2024"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "Infineum D3417 is a performance additive package for formulating premium quality diesel engine oils.",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15335.pdf",
+          "page": 1,
+          "revision_date": "2022-03-10"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "meets",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 10W-30, 15W-40 at 8.6 mass %. Description: 'Used at the recommended treat rate in combination with approved base stocks and viscosity modifiers, Infineum D3417 provides engine oils meeting the API performance category CI-4. Lubricants formulated with Infineum D3417 can also be used in gasoline engines requiring API SL category products. Claims are base stock and viscosity grade specific.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15335.pdf",
+          "page": 1,
+          "revision_date": "2022-03-10"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SL",
+        "claim_type": "meets",
+        "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 10W-30, 15W-40 at 8.6 mass %. Description: 'Used at the recommended treat rate in combination with approved base stocks and viscosity modifiers, Infineum D3417 provides engine oils meeting the API performance category CI-4. Lubricants formulated with Infineum D3417 can also be used in gasoline engines requiring API SL category products. Claims are base stock and viscosity grade specific.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15335.pdf",
+          "page": 1,
+          "revision_date": "2022-03-10"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "10W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15335.pdf",
+          "page": 1,
+          "revision_date": "2022-03-10"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15335.pdf",
+          "page": 1,
+          "revision_date": "2022-03-10"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I",
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CI-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use). Datasheet itself says 'Claims are base stock and viscosity grade specific', so confirm with Infineum."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "Claims are base stock and viscosity grade specific."
+      ],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": "DL2-15335.pdf",
+        "page": 1,
+        "revision_date": "2022-03-10"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CI-4",
+        "sae_grade": "10W-30, 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 8.6,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CI-4 | 10W-30, 15W-40 | 8.6",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Mass %'.",
+          "source": {
+            "file": "DL2-15335.pdf",
+            "page": 1,
+            "revision_date": "2022-03-10"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SL",
+        "sae_grade": "10W-30, 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 8.6,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API SL | 10W-30, 15W-40 | 8.6",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Mass %'.",
+          "source": {
+            "file": "DL2-15335.pdf",
+            "page": 1,
+            "revision_date": "2022-03-10"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "Viscosity modifier",
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Description: 'in combination with approved base stocks and viscosity modifiers'; not named, no dose.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Claim type 'meets': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.",
+    "DL2-15334.pdf is a customer specification ('CUSTOMER SPECIFICATION', customer 'Global - BRENNTAG GROUP', 'Printed On : 12-Feb-2024'), document_type PDS per decision (c).",
+    "No SDS in the archive."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

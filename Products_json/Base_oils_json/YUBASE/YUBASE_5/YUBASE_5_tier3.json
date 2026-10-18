@@ -1,0 +1,117 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "YUBASE_5",
+  "product": {
+    "product_name": "YUBASE 5",
+    "supplier": "YUBASE-SK (archive folder); document issued by NARMAK TRADE S.R.O.",
+    "document_type": "Product property sheet",
+    "source_file": "DL2-11305.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "sulfur": {
+      "value": null,
+      "qualifier": "<",
+      "min": null,
+      "max": 10,
+      "value_kind": "upper_bound_exclusive",
+      "printed_text": "< 10 ppm",
+      "unit": "ppm",
+      "test_temperature_c": null,
+      "method": "ASTM D2622",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11305.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "saturates": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    }
+  },
+  "open_questions": [
+    "Document issued by NARMAK TRADE S.R.O.; confirm manufacturer/supplier relationship with YUBASE-SK.",
+    "API group and chemistry are not explicitly stated.",
+    "Specific gravity at 15 °C printed as 0,8363 with inconsistent unit g/m3; do not infer density or specific gravity without clarification."
+  ],
+  "conflicts": []
+}

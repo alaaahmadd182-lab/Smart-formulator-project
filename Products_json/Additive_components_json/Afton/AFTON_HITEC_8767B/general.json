@@ -1,0 +1,400 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "AFTON_HITEC_8767B",
+  "product": {
+    "product_name": "HiTEC® 8767B",
+    "supplier": "Afton Chemical Corporation",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-10367.pdf"
+    ],
+    "revision_date": "12/16"
+  },
+  "component_subtype": null,
+  "fields": {
+    "function": {
+      "primary": {
+        "unit": null,
+        "value": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "secondary": {
+        "unit": null,
+        "value": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "chemical_family": {
+      "unit": null,
+      "value": null,
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "basis": null,
+      "notes": null
+    },
+    "carrier": {
+      "identity": {
+        "unit": null,
+        "value": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "treat_rate": {
+      "value": 3.3,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": "HiTEC® 8767B 3.3%",
+      "unit": "%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Dosage table column 'HiTEC® 8767B': 3.3% together with 12.7% HiTEC® 8766B in SAE 10W-40 (Group I/III base oil mix). Only this one dose is printed. Printed '%' (basis not stated).",
+      "source": {
+        "file": "DL2-10367.pdf",
+        "page": 2,
+        "revision_date": "12/16"
+      },
+      "notes": null
+    },
+    "compatibility_restrictions": {
+      "value": null,
+      "unit": null,
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": 38,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Total Base Number, mg KOH/g 38",
+        "unit": "mg KOH/g",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "reported",
+        "calculation_note": "'Typical Characteristics' table, HiTEC® 8767B column.",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "active_polymer": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "not_applicable",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "This product is not a viscosity modifier — field does not apply"
+    },
+    "dissolution_blend_temperature": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "not_applicable",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "This product is not a viscosity modifier — field does not apply"
+    },
+    "polymer_chemistry": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "not_applicable",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "This product is not a viscosity modifier — field does not apply"
+    },
+    "post_shear_blend_behaviour": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "not_applicable",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "This product is not a viscosity modifier — field does not apply"
+    },
+    "shear_stability": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "not_applicable",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "This product is not a viscosity modifier — field does not apply"
+    },
+    "thickening_response": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "not_applicable",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "This product is not a viscosity modifier — field does not apply"
+    },
+    "treat_range_by_sae_grade": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "not_applicable",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "This product is not a viscosity modifier — field does not apply"
+    }
+  },
+  "open_questions": [
+    "DL2-10367.pdf is the HiTEC® 8766B bulletin; HiTEC® 8767B appears only as a second column of 'Typical Characteristics' and as a dose column in the 'Recommended Dosage' table (p.2). Per decision (b) only the 8767B column is used here.",
+    "Function / chemical family of HiTEC® 8767B are not stated anywhere in the archive; function, chemical_family, active content and carrier left Missing; component_subtype left null (no VM/PPD statement). Could be looked up later in an Afton bulletin for 8767B.",
+    "Physical properties printed for HiTEC® 8767B (no field in the component template; DL2-10367.pdf p.2, 'Typical Characteristics'): Density at 15°C, g/ml 0.918; Flash Point, °C (PMCC) 135 min.; Kinematic Viscosity at 100°c, mm2/s 187.",
+    "Treat rate: only one dose (3.3% in the 8766B SAE 10W-40 route) is printed; no min/max/typical range for 8767B on its own.",
+    "No old Product_JSON file exists for HiTEC 8767B; folder name AFTON_HITEC_8767B created per the naming rule."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

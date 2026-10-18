@@ -1,0 +1,211 @@
+{
+  "template_version": "1.1",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "BO-ADNOC-ADBASE-3-CST__T1",
+  "source_documents": [
+    {
+      "file": "DL2-12221.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier product-specification table (brochure pp.6-7, grades 2/3/4/6/8 cSt)",
+      "revision_date": null,
+      "notes": "No revision/issue date printed; sheet says values are 'accurate on the date of publishing'."
+    },
+    {
+      "file": "DL2-13457.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Byte-identical duplicate of DL2-12221.pdf (same MD5)",
+      "revision_date": null,
+      "notes": "Checked identical; not used as an independent confirmation."
+    }
+  ],
+  "product": {
+    "product_id": "ADNOC_ADBASE_3CST",
+    "material_id": "BO-ADNOC-ADBASE-3-CST",
+    "product_name": "ADbase 3 cSt",
+    "supplier": "ADNOC",
+    "document_type": [
+      "Byte-identical duplicate of DL2-12221.pdf (same MD5)",
+      "Supplier product-specification table (brochure pp.6-7, grades 2/3/4/6/8 cSt)"
+    ],
+    "source_file": "DL2-12221.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group II",
+        "status": "Reported",
+        "basis": "External supplier specification",
+        "notes": "Not stated in supplied DL2-12221.pdf. Confirmed from official ADNOC BASE OIL SPECIFICATIONS, p. 2, grade ADBASE 3CST (GROUP II), spec no. 8230, last updated August 2020. External source URL: https://www.adnoc.ae/-/media/adnoc-v2/files/our-products/adnoc-base-oil-spec-group-ii--group-iii.ashx?hash=E8C7E60F6ED980EDDDB910B5EB2375E21F42336C&la=en",
+        "source": {
+          "file": "https://www.adnoc.ae/-/media/adnoc-v2/files/our-products/adnoc-base-oil-spec-group-ii--group-iii.ashx?hash=E8C7E60F6ED980EDDDB910B5EB2375E21F42336C&la=en",
+          "page": 2,
+          "revision_date": "2020-08"
+        }
+      },
+      "chemistry": {
+      "value": "Paraffinic petroleum-derived base oil",
+      "status": "Reported",
+      "basis": "External supplier brochure (ADbase product family)",
+      "notes": "Not stated in DL2-12221.pdf. ADNOC's official ADbase brochure confirms that ADbase uses high-paraffinic crude oil as feedstock. This supports the oil-family description, but not an exact molecular composition or grade-specific processing route.",
+      "source": {
+        "file": "https://www.adnoc.ae/-/media/adnoc-v2/files/publications/adbase-brochure_2020.ashx",
+        "page": 2,
+        "revision_date": null
+      }
+    }
+    },
+    "kv40": {
+      "value": 12,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "12",
+      "unit": "mm2/s",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "Spec-table value; unit printed as mm2/s (= cSt).",
+      "alternate_entries": [],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 3.05,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "3.05",
+      "unit": "mm2/s",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "Spec-table value; the sheet does not label it typical or limit. Unit printed as mm2/s (= cSt).",
+      "alternate_entries": [],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 120,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "120",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "Unitless; value printed in the table, not derived by us.",
+      "alternate_entries": [],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.825,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "0.825",
+      "unit": "g/ml",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "Printed as 'Density @15 deg C, g/ml'. No test method printed on the brochure.",
+      "alternate_entries": [
+        {
+          "value": 825,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "single",
+          "printed_text": null,
+          "unit": "kg/m3",
+          "test_temperature_c": 15,
+          "method": null,
+          "status": "Calculated",
+          "calculation_note": "0.825 g/ml x 1000 = 825 kg/m3 (1 g/ml = 1000 kg/m3); sheet value kept unconverted in the main entry.",
+          "notes": null,
+          "source": {
+            "file": "DL2-12221.pdf",
+            "page": 1,
+            "revision_date": null
+          }
+        }
+      ],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "notes": "Brochure prints '-' for CCS (DL2-12221.pdf p1): not reported for this grade.",
+        "alternate_entries": [],
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    {
+      "question": "CCS is printed as '-' for 3 cSt.",
+      "fields": [
+        "ccs"
+      ],
+      "source_files": [
+        "DL2-12221.pdf"
+      ]
+    },
+    {
+      "question": "No test method printed on the brochure for KV40, KV100, VI and density.",
+      "fields": [
+        "kv40",
+        "kv100",
+        "viscosity_index",
+        "density"
+      ],
+      "source_files": [
+        "DL2-12221.pdf"
+      ]
+    }
+  ],
+  "conflicts": []
+}

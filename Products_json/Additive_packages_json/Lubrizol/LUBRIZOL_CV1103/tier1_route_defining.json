@@ -1,0 +1,622 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "LUBRIZOL_CV1103",
+  "product": {
+    "product_name": "LUBRIZOL® CV1103",
+    "supplier": "The Lubrizol Corporation",
+    "document_type": [
+      "PDS"
+    ],
+    "source_file": [
+      "DL2-14978.pdf"
+    ],
+    "revision_date": "2021-01-11"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "HEAVY DUTY DIESEL ENGINE OIL ADDITIVE",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "An advanced API CK-4 and FA-4 Heavy Duty Diesel Additive Package for diesel",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CK-4",
+        "claim_type": "other",
+        "scope": "Note: Lubrizol code 'L' (Licensable - licensable against an active API category); claim_type kept as recorded ('other'). Column 'column 1' (14.30% by weight); code 'L' = 'L - Licensable-Licensable against an active API category'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E7-16 (2016)",
+        "claim_type": "approval",
+        "scope": "Column 'column 1' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E9-16 (2016)",
+        "claim_type": "approval",
+        "scope": "Column 'column 1' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CK-4/SN",
+        "claim_type": "other",
+        "scope": "Note: Lubrizol code 'L' (Licensable - licensable against an active API category); claim_type kept as recorded ('other'). Column 'column 1' (14.30% by weight); code 'L' = 'L - Licensable-Licensable against an active API category'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API FA-4",
+        "claim_type": "other",
+        "scope": "Note: Lubrizol code 'L' (Licensable - licensable against an active API category); claim_type kept as recorded ('other'). Column 'column 1' (14.30% by weight); code 'L' = 'L - Licensable-Licensable against an active API category'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API FA-4",
+        "claim_type": "other",
+        "scope": "Note: Lubrizol code 'L' (Licensable - licensable against an active API category); claim_type kept as recorded ('other'). Column 'column 2' (14.30% by weight); code 'L' = 'L - Licensable-Licensable against an active API category'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CJ-4",
+        "claim_type": "other",
+        "scope": "Note: Lubrizol code 'L' (Licensable - licensable against an active API category); claim_type kept as recorded ('other'). Column 'column 1' (14.30% by weight); code 'L' = 'L - Licensable-Licensable against an active API category'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SN",
+        "claim_type": "other",
+        "scope": "Note: Lubrizol code 'L' (Licensable - licensable against an active API category); claim_type kept as recorded ('other'). Column 'column 1' (14.30% by weight); code 'L' = 'L - Licensable-Licensable against an active API category'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4 PLUS",
+        "claim_type": "other",
+        "scope": "Note: Lubrizol code 'L' (Licensable - licensable against an active API category); claim_type kept as recorded ('other'). Column 'column 1' (14.30% by weight); code 'L' = 'L - Licensable-Licensable against an active API category'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ALLISON TES-439",
+        "claim_type": "meets",
+        "scope": "Column 'column 1' (14.30% by weight); code 'M' = 'M - Meets-All required testing meets defined specification requirements; however, no formal approval provided, claim is self-certified'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20086",
+        "claim_type": "approval",
+        "scope": "Column 'column 1' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20087",
+        "claim_type": "approval",
+        "scope": "Column 'column 1' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20087",
+        "claim_type": "approval",
+        "scope": "Column 'column 2' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "CAT ECF-3",
+        "claim_type": "approval",
+        "scope": "Column 'column 1' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Deutz DQC III-10 LA",
+        "claim_type": "approval",
+        "scope": "Column 'column 1' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Detroit Diesel DDC 93K222",
+        "claim_type": "approval",
+        "scope": "Column 'column 1' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Detroit Diesel DDC 93K223",
+        "claim_type": "approval",
+        "scope": "Column 'column 1' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Detroit Diesel DDC 93K223",
+        "claim_type": "approval",
+        "scope": "Column 'column 2' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "FORD WSS-M2C171-F1",
+        "claim_type": "approval",
+        "scope": "Column 'column 1' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-S-4.5",
+        "claim_type": "approval",
+        "scope": "Column 'column 1' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB-Approval 228.31",
+        "claim_type": "approval",
+        "scope": "Column 'column 1' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU Type 2.1",
+        "claim_type": "approval",
+        "scope": "Column 'column 1' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN M 3775",
+        "claim_type": "approval",
+        "scope": "Column 'column 1' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 2,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Renault Truck RLD-3",
+        "claim_type": "approval",
+        "scope": "Column 'column 1' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 2,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Volvo VDS-4.5",
+        "claim_type": "approval",
+        "scope": "Column 'column 1' (14.30% by weight); code 'A' = 'A - Approved-Formal written approval provided from a governing body such as an OEM, regulatory agency or an industry organization'. * All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 2,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 1,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for API CK-4/FA-4 packages), not from the product datasheet. Packages claiming API CK-4/FA-4 performance are typically designed for Group II/III base oils. Rule of thumb only, not a supplier statement or an API 1509 restriction. Datasheet says claims apply only 'with appropriate base oils', so confirm with Lubrizol."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "* All Lubrizol product performance claims are only applicable when the additive package is used with defined base oil(s), viscosity modifier(s) and other required components to produce the applicable viscosity grade in a properly blended finished fluid."
+      ],
+      "exclusions": [],
+      "allowed_combinations": [
+        "When 2.0wt% CV6320 is top treated in addition to 14.3wt% CV1103 and blended with appropriate base oils and performance polymer, Lubrizol 7077 series, the formulated lubricant meets API FA-4 specification as an SAE 10W-30 viscosity grade",
+        "Formulated and approved in combination with Lubrizol® 7077 performance polymer"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-14978.pdf",
+        "page": 1,
+        "revision_date": "2021-01-11"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CK-4 (L); ACEA E7-16 (2016) (A); ACEA E9-16 (2016) (A); API CK-4/SN (L); API FA-4 (L); API CJ-4 (L); API SN (L); API CI-4 PLUS (L); ALLISON TES-439 (M); Cummins CES 20086 (A); Cummins CES 20087 (A); CAT ECF-3 (A); Deutz DQC III-10 LA (A); Detroit Diesel DDC 93K222 (A); Detroit Diesel DDC 93K223 (A); FORD WSS-M2C171-F1 (A); Mack EO-S-4.5 (A); MB-Approval 228.31 (A); MTU Type 2.1 (A); MAN M 3775 (A); Renault Truck RLD-3 (A); Volvo VDS-4.5 (A)",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 14.3,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "14.30% by weight",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'column 1' of 'Recommended Treat Rate'.",
+          "source": {
+            "file": "DL2-14978.pdf",
+            "page": 1,
+            "revision_date": "2021-01-11"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API FA-4 (L); Cummins CES 20087 (A); Detroit Diesel DDC 93K223 (A)",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 14.3,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "14.30% by weight",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'column 2' of 'Recommended Treat Rate'.",
+          "source": {
+            "file": "DL2-14978.pdf",
+            "page": 1,
+            "revision_date": "2021-01-11"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "Top-treat booster (API FA-4 route)",
+        "name": "LUBRIZOL® CV6320",
+        "dose_wt_pct": {
+          "value": 2.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "When 2.0wt% CV6320 is top treated in addition to 14.3wt% CV1103",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "For API FA-4, SAE 10W-30.",
+          "source": {
+            "file": "DL2-14978.pdf",
+            "page": 1,
+            "revision_date": "2021-01-11"
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "Performance polymer (VM)",
+        "name": "Lubrizol 7077 series",
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Named for the FA-4 route and 'Formulated and approved in combination with Lubrizol® 7077 performance polymer'; dose not printed.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "DL2-14978.pdf is a Lubrizol 'Product Data Sheet' (PDS). The credentials table has two '14.30% by weight' columns with no other header; the second column (only API FA-4, Cummins CES 20087, DDC 93K223) appears to be the CV6320 top-treat FA-4 route described in the text, but the table does not say so.",
+    "Claim codes: A -> 'approval', M -> 'meets', L ('Licensable against an active API category') -> kept as 'other', with the code recorded in the scope note (user decision 2026-10-17). Column 1 also marks API FA-4 'L' without mentioning CV6320; recorded as printed.",
+    "Treat rate printed '14.30% by weight' in the table vs '14.3wt%' in the text (same value). No SDS in the archive.",
+    "User decision 2026-10-17: 7 claims with Lubrizol code 'L' keep their claim_type; the code and its legend text are recorded in the scope note."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

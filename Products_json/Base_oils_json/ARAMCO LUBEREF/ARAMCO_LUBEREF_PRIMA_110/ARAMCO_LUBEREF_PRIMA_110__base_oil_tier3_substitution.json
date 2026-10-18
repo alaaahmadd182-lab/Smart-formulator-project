@@ -1,0 +1,133 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "ARAMCO_LUBEREF_PRIMA_110__T3",
+  "product": {
+    "product_name": "aramcoPRIMA 110",
+    "supplier": "Saudi Aramco Luberef",
+    "document_type": [
+      "Supplier specification"
+    ],
+    "source_file": "DL2-12172.pdf",
+    "revision_date": null,
+    "product_id": "ARAMCO_LUBEREF_PRIMA_110"
+  },
+  "fields": {
+    "sulfur": {
+      "value": 10,
+      "qualifier": "maximum",
+      "min": null,
+      "max": 10,
+      "value_kind": "maximum",
+      "printed_text": "10",
+      "unit": "ppm",
+      "test_temperature_c": null,
+      "method": "ASTM D2622",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12172.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "saturates": {
+      "value": 99,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "99 (Typical)",
+      "unit": "%",
+      "test_temperature_c": null,
+      "method": "ASTM D2007",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12172.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    {
+      "question": "Not reported in reviewed source specifications; preserve as missing.",
+      "fields": [
+        "aromatics",
+        "cloud_point",
+        "wax_content"
+      ],
+      "source_files": [
+        "DL2-12172.pdf"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-12172.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier technical specification",
+      "revision_date": null
+    }
+  ]
+}

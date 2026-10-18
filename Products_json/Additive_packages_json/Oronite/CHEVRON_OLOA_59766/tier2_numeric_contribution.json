@@ -1,0 +1,315 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "CHEVRON_OLOA_59766",
+  "product": {
+    "product_name": "OLOA 59766",
+    "supplier": "Chevron Oronite S.A.S.",
+    "document_type": [
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-11731.pdf"
+    ],
+    "revision_date": "2017-01-24"
+  },
+  "fields": {
+    "tbn": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "elements": {
+      "Ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": 2486,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity: 2486 mm2/s @ 40°C (104°F)",
+      "unit": "mm2/s",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Section 9: 'Attention: the data below are typical values and do not constitute a specification.'",
+      "source": {
+        "file": "DL2-11731.pdf",
+        "page": 7,
+        "revision_date": "2017-01-24"
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 0.9929,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density: 0.9929 kg/l @ 15°C (59°F)",
+      "unit": "kg/l",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Template unit kg/m3; printed kg/l kept. Relative Density 0.9918 @ 15.6°C also printed. Section 9: 'Attention: the data below are typical values and do not constitute a specification.'",
+      "source": {
+        "file": "DL2-11731.pdf",
+        "page": 7,
+        "revision_date": "2017-01-24"
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 180,
+      "qualifier": "≥",
+      "min": 180,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Flashpoint: (Cleveland Open Cup) 180 °C (356 °F) Minimum",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "Cleveland Open Cup",
+      "status": "reported",
+      "calculation_note": "Printed as a minimum, inside a section labelled typical.",
+      "source": {
+        "file": "DL2-11731.pdf",
+        "page": 7,
+        "revision_date": "2017-01-24"
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Only an SDS is in the archive for OLOA 59766 (Revision Number 14, SDS 23738); package type, claims, grades, base oils and co-components not printed. Supplier per Section 1.3: Chevron Oronite S.A.S.",
+    "TBN, sulfated ash, KV100, pour point and all elements not printed.",
+    "DL2-11731.pdf p.2-3 Section 3 component shares (not element contents): mineral oil 40 - 45 %weight; PIB succinimide-type amine reaction product (147880-09-9) 25 - 30 %weight; ZDDP (68784-31-6) 5 - 10 %weight; calcium alkylbenzene sulfonates 5 - 10, 5 - 10 and 1 - 5 %weight (722503-69-7 is listed twice)."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

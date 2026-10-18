@@ -1,0 +1,118 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "PETRONAS_ETRO_4_PLUS",
+  "product": {
+    "product_name": "ETRO 4+",
+    "supplier": "PETRONAS Lubricants International",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-10231.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": 13.2,
+      "qualifier": null,
+      "min": null,
+      "max": 15,
+      "value_kind": "typical",
+      "printed_text": "13.2 mass%; specification ≤15.0 mass%",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D5800-B",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10231.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -18,
+      "qualifier": null,
+      "min": null,
+      "max": -15,
+      "value_kind": "typical",
+      "printed_text": "-18°C; specification ≤-15°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D97 / ASTM D5950",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10231.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 220,
+      "qualifier": null,
+      "min": 200,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "220°C; specification ≥200°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10231.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC"
+    }
+  },
+  "open_questions": [
+    "No grade-specific SDS independently verified for ETRO 4+.",
+    "No calendar revision date stated on PDS.",
+    "Density temperature is not specified; density remains Missing in temperature-dependent template field."
+  ],
+  "conflicts": []
+}

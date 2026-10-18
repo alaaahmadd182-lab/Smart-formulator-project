@@ -1,0 +1,361 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "BETTCHEM_BT_3088",
+  "product": {
+    "product_name": "BT3088",
+    "supplier": "Bettchem",
+    "document_type": [
+      "TDS",
+      "other"
+    ],
+    "source_file": [
+      "DL2-15551.pdf",
+      "DL2-15620.pdf"
+    ],
+    "revision_date": [
+      "2024-12-12",
+      "2025-12-03"
+    ]
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "HEAVY DUTY DIESEL ENGINE OIL ADDITIVE PACKAGE",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15551.pdf",
+          "page": 1,
+          "revision_date": "2024-12-12"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "BT3088 is a diesel engine oil additive package having excellent antioxidant and dispersing properties.",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15551.pdf",
+          "page": 1,
+          "revision_date": "2024-12-12"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "recommended",
+        "scope": "RECOMMENDED DOSAGE table: 'API CI-4' 8.0 % WT; text: 'It covers API CI-4 /CH-4 performance levels at cost effective treat rates.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15551.pdf",
+          "page": 1,
+          "revision_date": "2024-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CH-4/SJ",
+        "claim_type": "recommended",
+        "scope": "RECOMMENDED DOSAGE table: 'API CH-4/SJ' 7.0 % WT; text: 'covers API CI-4 /CH-4 performance levels'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15551.pdf",
+          "page": 1,
+          "revision_date": "2024-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4/SG",
+        "claim_type": "recommended",
+        "scope": "RECOMMENDED DOSAGE table: 'API CF-4/SG' 6.0 % WT.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15551.pdf",
+          "page": 1,
+          "revision_date": "2024-12-12"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "other",
+        "scope": "Note: this is a prediction (Technical Judgement, DL2-15620.pdf), not a measurement. 'Technical Judgement for BT 3088' (DL2-15620.pdf): passing results predicted for the listed engine tests; no measured results. Heading '1. )API CI-4 at 8%'.",
+        "evidence_class": "Predicted",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15620.pdf",
+          "page": 1,
+          "revision_date": "2025-12-03"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CH-4",
+        "claim_type": "other",
+        "scope": "Note: this is a prediction (Technical Judgement, DL2-15620.pdf), not a measurement. 'Technical Judgement for BT 3088' (DL2-15620.pdf): passing results predicted for the listed engine tests; no measured results. Heading '2. )API CH-4 at 7%'.",
+        "evidence_class": "Predicted",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15620.pdf",
+          "page": 2,
+          "revision_date": "2025-12-03"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SL",
+        "claim_type": "other",
+        "scope": "Note: this is a prediction (Technical Judgement, DL2-15620.pdf), not a measurement. 'Technical Judgement for BT 3088' (DL2-15620.pdf): passing results predicted for the listed engine tests; no measured results. Heading '3.)API SL at 8%'.",
+        "evidence_class": "Predicted",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15620.pdf",
+          "page": 4,
+          "revision_date": "2025-12-03"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I",
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CI-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use)."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CI-4",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 8.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CI-4 8.0",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "RECOMMENDED DOSAGE, column 'TREAT RATE % WT'.",
+          "source": {
+            "file": "DL2-15551.pdf",
+            "page": 1,
+            "revision_date": "2024-12-12"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CH-4/SJ",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 7.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CH-4/SJ 7.0",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "RECOMMENDED DOSAGE, column 'TREAT RATE % WT'.",
+          "source": {
+            "file": "DL2-15551.pdf",
+            "page": 1,
+            "revision_date": "2024-12-12"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF-4/SG",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 6.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CF-4/SG 6.0",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "RECOMMENDED DOSAGE, column 'TREAT RATE % WT'.",
+          "source": {
+            "file": "DL2-15551.pdf",
+            "page": 1,
+            "revision_date": "2024-12-12"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API SL (Technical Judgement, predicted)",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "3.)API SL at 8%",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "From the Technical Judgement, not the TDS dosage table. Note: this is a prediction (Technical Judgement, DL2-15620.pdf), not a measurement.",
+          "source": {
+            "file": "DL2-15620.pdf",
+            "page": 4,
+            "revision_date": "2025-12-03"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "User decision 2026-10-17: the 4 entries from the 'Technical Judgement for BT 3088' (DL2-15620.pdf, document_type 'other') are recorded as Reported with evidence_class 'Predicted' and the note that the value is a prediction, not a measurement.",
+    "Claim type: the TDS (DL2-15551.pdf p.1) gives a 'RECOMMENDED DOSAGE' per specification and says the package 'covers API CI-4 /CH-4 performance levels'; recorded as 'recommended'.",
+    "No SAE grades, base oils, co-components or published formulation are printed in either document.",
+    "API SL at 8% appears only in the Technical Judgement (p.4); the TDS lists API CH-4/SJ at 7.0 and CF-4/SG at 6.0."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

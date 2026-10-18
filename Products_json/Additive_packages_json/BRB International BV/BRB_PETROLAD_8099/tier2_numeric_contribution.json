@@ -1,0 +1,314 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "BRB_PETROLAD_8099",
+  "product": {
+    "product_name": "Petrolad 8099",
+    "supplier": "BRB International BV",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-11053.pdf"
+    ],
+    "revision_date": "2016-05-31"
+  },
+  "fields": {
+    "tbn": {
+      "value": 87,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Total base number ASTM D2896 mg KOH / g 87",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "ASTM D2896",
+      "status": "reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11053.pdf",
+        "page": 3,
+        "revision_date": "2016-05-31"
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 12.31,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "calculated",
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "Calculated (ASTM D874 factors)",
+      "status": "calculated",
+      "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×3.22 (Ca) + 1.24×1.1 (Zn) = 12.3120 → 12.31 wt.%. Mg not reported, taken as 0.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+    },
+    "elements": {
+      "Ca": {
+        "value": 3.22,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Calcium % wt. 3.22",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "reported",
+        "calculation_note": "No method printed.",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 3,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.1,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Zinc % wt. 1.10",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "reported",
+        "calculation_note": "No method printed.",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 3,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 0.99,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Phosphorus % wt. 0.99",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "reported",
+        "calculation_note": "No method printed.",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 3,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.58,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Nitrogen % wt. 0.58",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "reported",
+        "calculation_note": "No method printed.",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 3,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 110,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity @ 100 °C ASTM D445 cSt 110",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11053.pdf",
+        "page": 3,
+        "revision_date": "2016-05-31"
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 0.99,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density @ 15.6 °C ASTM D4052 kg / L 0.99",
+      "unit": "kg/L",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052",
+      "status": "reported",
+      "calculation_note": "Template unit kg/m3; printed kg / L kept.",
+      "source": {
+        "file": "DL2-11053.pdf",
+        "page": 3,
+        "revision_date": "2016-05-31"
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 170,
+      "qualifier": ">",
+      "min": 170,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Flashpoint ASTM D92 °C >170",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "reported",
+      "calculation_note": "Printed '>170' under 'Typical value'.",
+      "source": {
+        "file": "DL2-11053.pdf",
+        "page": 3,
+        "revision_date": "2016-05-31"
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Ca, P, N, Zn printed without a test method (DL2-11053.pdf p.3). KV40, sulfated ash, Mg, B, Mo, S and pour point are not printed.",
+    "Density: old Product_JSON gives 990 kg/m3 (converted); sheet prints 0.99 kg / L at 15.6 °C."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

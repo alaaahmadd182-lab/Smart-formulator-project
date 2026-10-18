@@ -1,0 +1,408 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "SAMA_P2021A",
+  "product": {
+    "product_name": "P2021A",
+    "supplier": null,
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-12295.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "HDDO Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "heavy- duty technology ... performance that goes beyond key industry specifications",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "other",
+        "scope": "'Profile' list p.2. Text p.2: 'P2021A additive is designed to deliver performance reserve in demanding industry and OEM specifications covering long drain applications' and 'is formulated to exceed the performance of the ACEA E4-12 specification'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E4/E7-12",
+        "claim_type": "other",
+        "scope": "'Profile' list p.2. Text p.2: 'P2021A additive is designed to deliver performance reserve in demanding industry and OEM specifications covering long drain applications' and 'is formulated to exceed the performance of the ACEA E4-12 specification'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 228.5",
+        "claim_type": "other",
+        "scope": "'Profile' list p.2. Text p.2: 'P2021A additive is designed to deliver performance reserve in demanding industry and OEM specifications covering long drain applications' and 'is formulated to exceed the performance of the ACEA E4-12 specification'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 3277",
+        "claim_type": "other",
+        "scope": "'Profile' list p.2. Text p.2: 'P2021A additive is designed to deliver performance reserve in demanding industry and OEM specifications covering long drain applications' and 'is formulated to exceed the performance of the ACEA E4-12 specification'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 3377",
+        "claim_type": "other",
+        "scope": "'Profile' list p.2. Text p.2: 'P2021A additive is designed to deliver performance reserve in demanding industry and OEM specifications covering long drain applications' and 'is formulated to exceed the performance of the ACEA E4-12 specification'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Volvo VDS-3",
+        "claim_type": "other",
+        "scope": "'Profile' list p.2. Text p.2: 'P2021A additive is designed to deliver performance reserve in demanding industry and OEM specifications covering long drain applications' and 'is formulated to exceed the performance of the ACEA E4-12 specification'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Renault RXD/RLD-2",
+        "claim_type": "other",
+        "scope": "'Profile' list p.2. Text p.2: 'P2021A additive is designed to deliver performance reserve in demanding industry and OEM specifications covering long drain applications' and 'is formulated to exceed the performance of the ACEA E4-12 specification'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU III",
+        "claim_type": "other",
+        "scope": "'Profile' list p.2. Text p.2: 'P2021A additive is designed to deliver performance reserve in demanding industry and OEM specifications covering long drain applications' and 'is formulated to exceed the performance of the ACEA E4-12 specification'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Deutz IV-10",
+        "claim_type": "other",
+        "scope": "'Profile' list p.2. Text p.2: 'P2021A additive is designed to deliver performance reserve in demanding industry and OEM specifications covering long drain applications' and 'is formulated to exceed the performance of the ACEA E4-12 specification'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-M+",
+        "claim_type": "other",
+        "scope": "'Profile' list p.2. Text p.2: 'P2021A additive is designed to deliver performance reserve in demanding industry and OEM specifications covering long drain applications' and 'is formulated to exceed the performance of the ACEA E4-12 specification'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins 20078",
+        "claim_type": "other",
+        "scope": "'Profile' list p.2. Text p.2: 'P2021A additive is designed to deliver performance reserve in demanding industry and OEM specifications covering long drain applications' and 'is formulated to exceed the performance of the ACEA E4-12 specification'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Global DHD-1",
+        "claim_type": "other",
+        "scope": "'Profile' list p.2. Text p.2: 'P2021A additive is designed to deliver performance reserve in demanding industry and OEM specifications covering long drain applications' and 'is formulated to exceed the performance of the ACEA E4-12 specification'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Detroit Diesel 93K215",
+        "claim_type": "other",
+        "scope": "'Profile' list p.2. Text p.2: 'P2021A additive is designed to deliver performance reserve in demanding industry and OEM specifications covering long drain applications' and 'is formulated to exceed the performance of the ACEA E4-12 specification'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-N",
+        "claim_type": "other",
+        "scope": "'Profile' list p.2. Text p.2: 'P2021A additive is designed to deliver performance reserve in demanding industry and OEM specifications covering long drain applications' and 'is formulated to exceed the performance of the ACEA E4-12 specification'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12295.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "using conventional VII (OCP) and a mix of Group I and Group III base stocks"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-12295.pdf",
+        "page": 2,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": null,
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "VII (OCP)",
+        "name": "conventional VII (OCP)",
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Text p.2 names conventional VII (OCP); dose not printed.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "DL2-12295.pdf prints no company name and no date; supplier left null (archive folder 'SAMA'). Only a product brochure, no SDS.",
+    "Claims are a bulleted 'Profile' list without approval/meets wording; recorded as claim_type 'other'.",
+    "No treat rate is printed (only 'has the lowest VII and DI treat-rates in the market'); treat_rate_matrix left Missing.",
+    "Bar chart p.2 ('% Performance Reserve - P2021A additive': Mack T12, OM 501LA, Mack T11 vs limits) has no formulation; not recorded."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

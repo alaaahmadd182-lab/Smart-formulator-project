@@ -1,0 +1,117 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "ERGON_HYGOLD_70E",
+  "product": {
+    "product_name": "HyGold 70E",
+    "supplier": "Ergon Refining, Inc.",
+    "document_type": "Marketing specification",
+    "source_file": "DL2-10406.pdf",
+    "revision_date": "2016-12-02"
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% loss",
+      "test_temperature_c": 250,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -60,
+      "qualifier": null,
+      "min": null,
+      "max": -47,
+      "value_kind": "typical",
+      "printed_text": "Typical -60\u00b0C; maximum -47\u00b0C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D5950",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10406.pdf",
+        "page": 1,
+        "revision_date": "2016-12-02"
+      }
+    },
+    "flash_point": {
+      "value": 159,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "COC typical 159\u00b0C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10406.pdf",
+        "page": 1,
+        "revision_date": "2016-12-02"
+      },
+      "flash_method": "COC"
+    }
+  },
+  "open_questions": [
+    "API group not explicitly stated; do not infer from naphthenic description.",
+    "SDS not yet reconciled."
+  ],
+  "conflicts": []
+}

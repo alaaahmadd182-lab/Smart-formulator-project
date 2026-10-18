@@ -1,0 +1,640 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "HiTEC_8766B",
+  "product": {
+    "product_name": "HiTEC® 8766B",
+    "supplier": "Afton Chemical Corporation",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-10367.pdf"
+    ],
+    "revision_date": "12/16"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "HDDO Additive Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 1,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "Bespoke stand-alone additive designed for ACEA E7",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 1,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 12.7% (+ 3.3% HiTEC® 8767B) SAE 10W-40, Group I/III base oil mix; 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only; 12.7% SAE 15W-40, Group II base oil only.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CH-4",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 12.7% (+ 3.3% HiTEC® 8767B) SAE 10W-40, Group I/III base oil mix; 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only; 12.7% SAE 15W-40, Group I or Group II base oil.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SL",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 12.7% (+ 3.3% HiTEC® 8767B) SAE 10W-40, Group I/III base oil mix; 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only; 12.7% SAE 15W-40, Group I or Group II base oil.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E7-12",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 12.7% (+ 3.3% HiTEC® 8767B) SAE 10W-40, Group I/III base oil mix; 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only; 12.7% SAE 15W-40, Group II base oil only.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 228.3",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 12.7% (+ 3.3% HiTEC® 8767B) SAE 10W-40, Group I/III base oil mix; 14.0% SAE 15W-40, Group I or Group II base oil, P 'MB package approval'; 13.4% SAE 15W-40, Group II base oil only, P 'MB package approval'; 12.7% SAE 15W-40, Group I or Group II base oil, P 'MB package approval'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 3275",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 12.7% (+ 3.3% HiTEC® 8767B) SAE 10W-40, Group I/III base oil mix; 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only; 12.7% SAE 15W-40, Group I or Group II base oil.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Volvo VDS-3",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 12.7% (+ 3.3% HiTEC® 8767B) SAE 10W-40, Group I/III base oil mix; 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Renault RLD-2",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 12.7% (+ 3.3% HiTEC® 8767B) SAE 10W-40, Group I/III base oil mix; 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-M+",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 12.7% (+ 3.3% HiTEC® 8767B) SAE 10W-40, Group I/III base oil mix; 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only; 12.7% SAE 15W-40, Group I or Group II base oil.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20077",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 12.7% (+ 3.3% HiTEC® 8767B) SAE 10W-40, Group I/III base oil mix; 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only; 12.7% SAE 15W-40, Group I or Group II base oil.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Caterpillar ECF-1a",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 12.7% (+ 3.3% HiTEC® 8767B) SAE 10W-40, Group I/III base oil mix; 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only; 12.7% SAE 15W-40, Group I or Group II base oil.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Deutz DCQ-III",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 12.7% (+ 3.3% HiTEC® 8767B) SAE 10W-40, Group I/III base oil mix; 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU 2.0",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 12.7% (+ 3.3% HiTEC® 8767B) SAE 10W-40, Group I/III base oil mix; 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only; 12.7% SAE 15W-40, Group I or Group II base oil.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-N",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 12.7% (+ 3.3% HiTEC® 8767B) SAE 10W-40, Group I/III base oil mix; 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E7-04",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only; 12.7% SAE 15W-40, Group I or Group II base oil.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA A3/B4-12",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only; 12.7% SAE 15W-40, Group I or Group II base oil.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Volvo VDS-2",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only; 12.7% SAE 15W-40, Group I or Group II base oil.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Renault RD-2",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only; 12.7% SAE 15W-40, Group I or Group II base oil.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20078",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 14.0% SAE 15W-40, Group I or Group II base oil, 1 'Requires TBN Boost'; 13.4% SAE 15W-40, Group II base oil only, 1 'Requires TBN Boost'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Deutz DCQ-II",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 14.0% SAE 15W-40, Group I or Group II base oil; 13.4% SAE 15W-40, Group II base oil only; 12.7% SAE 15W-40, Group I or Group II base oil.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Global DHD-1",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 14.0% SAE 15W-40, Group I or Group II base oil, 1 'Requires TBN Boost'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Caterpillar ECF-2",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; rows: 13.4% SAE 15W-40, Group II base oil only.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10367.pdf",
+          "page": 2,
+          "revision_date": "12/16"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I/III base oil mix",
+        "Group I or Group II base oil",
+        "Group II base oil only"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "Base oil flexibility with Group I and Group II coverage",
+        "Per-claim base oil shown by dot colour in the dosage table (see treat_rate_matrix / performance_claims)"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-10367.pdf",
+        "page": 2,
+        "revision_date": "12/16"
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "1 = 'Requires TBN Boost' (Cummins CES 20078 in the 14.0% and 13.4% SAE 15W-40 rows; Global DHD-1 in the 14.0% row)"
+      ],
+      "exclusions": [],
+      "allowed_combinations": [
+        "Ultimate logistics rationalisation with NO booster for API CI-4 or API CH-4",
+        "Lowest DI+VII treat-rate for ACEA E7-12",
+        "SAE 10W-40 route: 12.7% HiTEC® 8766B + 3.3% HiTEC® 8767B"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-10367.pdf",
+        "page": 2,
+        "revision_date": "12/16"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CI-4; API CH-4; API SL; ACEA E7-12; MB 228.3; MAN 3275; Volvo VDS-3; Renault RLD-2; Mack EO-M+; Cummins CES 20077; Caterpillar ECF-1a; Deutz DCQ-III; MTU 2.0; Mack EO-N",
+        "sae_grade": "SAE 10W-40",
+        "treat_rate_wt_pct": {
+          "value": 12.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "HiTEC® 8766B 12.7% | HiTEC® 8767B 3.3% | SAE 10W-40",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil (dot colour): Group I/III base oil mix. Legend: P = 'MB package approval', 1 = 'Requires TBN Boost'; dot colour = base oil. Printed unit '%' (basis not stated).",
+          "source": {
+            "file": "DL2-10367.pdf",
+            "page": 2,
+            "revision_date": "12/16"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CI-4; API CH-4; API SL; ACEA E7-12; ACEA E7-04; ACEA A3/B4-12; MB 228.3 (P); MAN 3275; Volvo VDS-3; Volvo VDS-2; Renault RLD-2; Renault RD-2; Mack EO-M+; Cummins CES 20078 (1); Cummins CES 20077; Caterpillar ECF-1a; Deutz DCQ-III; Deutz DCQ-II; MTU 2.0; Mack EO-N; Global DHD-1 (1)",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 14.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "HiTEC® 8766B 14.0% | HiTEC® 8767B - | SAE 15W-40",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil (dot colour): Group I or Group II base oil. Legend: P = 'MB package approval', 1 = 'Requires TBN Boost'; dot colour = base oil. Printed unit '%' (basis not stated).",
+          "source": {
+            "file": "DL2-10367.pdf",
+            "page": 2,
+            "revision_date": "12/16"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CI-4; API CH-4; API SL; ACEA E7-12; ACEA E7-04; ACEA A3/B4-12; MB 228.3 (P); MAN 3275; Volvo VDS-3; Volvo VDS-2; Renault RLD-2; Renault RD-2; Mack EO-M+; Cummins CES 20078 (1); Cummins CES 20077; Caterpillar ECF-2; Caterpillar ECF-1a; Deutz DCQ-III; Deutz DCQ-II; MTU 2.0; Mack EO-N",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 13.4,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "HiTEC® 8766B 13.4% | HiTEC® 8767B - | SAE 15W-40",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil (dot colour): Group II base oil only. Legend: P = 'MB package approval', 1 = 'Requires TBN Boost'; dot colour = base oil. Printed unit '%' (basis not stated).",
+          "source": {
+            "file": "DL2-10367.pdf",
+            "page": 2,
+            "revision_date": "12/16"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CI-4; API CH-4; API SL; ACEA E7-12; ACEA E7-04; ACEA A3/B4-12; MB 228.3 (P); MAN 3275; Volvo VDS-2; Renault RD-2; Mack EO-M+; Cummins CES 20077; Caterpillar ECF-1a; Deutz DCQ-II; MTU 2.0",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 12.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "HiTEC® 8766B 12.7% | HiTEC® 8767B - | SAE 15W-40",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil (dot colour): Group I or Group II base oil / Group II base oil only. Legend: P = 'MB package approval', 1 = 'Requires TBN Boost'; dot colour = base oil. Printed unit '%' (basis not stated).",
+          "source": {
+            "file": "DL2-10367.pdf",
+            "page": 2,
+            "revision_date": "12/16"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "Co-additive in SAE 10W-40 route (table column 'HiTEC® 8767B')",
+        "name": "HiTEC® 8767B",
+        "dose_wt_pct": {
+          "value": 3.3,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "3.3%",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Row 12.7% HiTEC® 8766B + 3.3% HiTEC® 8767B, SAE 10W-40, Group I/III base oil mix. Printed unit '%'.",
+          "source": {
+            "file": "DL2-10367.pdf",
+            "page": 2,
+            "revision_date": "12/16"
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "TBN booster",
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Legend '1 Requires TBN Boost' (Cummins CES 20078, Global DHD-1); booster product and dose not printed.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "DL2-10367.pdf is shared with HiTEC 8767B (component #78). Per decision, only the HiTEC 8766B column of 'Typical Characteristics' is used here; the 8767B dose in the dosage table is recorded as a co-component of the 8766B SAE 10W-40 route.",
+    "Claims recorded as claim_type 'approval' from the table header 'Approvals' (DL2-10367.pdf p.2).",
+    "TBN booster required for some claims ('1 Requires TBN Boost') but product and dose are not printed.",
+    "Fleet bubble chart (p.2, 'Euro III and Euro IV Engines Dominate the Market') is market data; not recorded."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

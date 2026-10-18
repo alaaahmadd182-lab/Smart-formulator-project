@@ -1,0 +1,117 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "NYNAS_S_3B",
+  "product": {
+    "product_name": "Nynas S 3B",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-12819.pdf",
+    "revision_date": "2019-05-29"
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -87,
+      "qualifier": null,
+      "min": null,
+      "max": -60,
+      "value_kind": "typical",
+      "printed_text": "Typical -87°C; specification maximum -60°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12819.pdf",
+        "page": 2,
+        "revision_date": "2019-05-29"
+      }
+    },
+    "flash_point": {
+      "value": 107,
+      "qualifier": null,
+      "min": 102,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Pensky-Martens typical 107°C; specification minimum 102°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D93A",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12819.pdf",
+        "page": 2,
+        "revision_date": "2019-05-29"
+      },
+      "flash_method": "PM"
+    }
+  },
+  "open_questions": [
+    "SDS DL2-13379.pdf has rounded KV40 3 cSt vs PDS 3.20 cSt; no definitive contradiction (SDS rounded).",
+    "SDS flash >100°C consistent with PDS 107°C; SDS density 0.86 g/cm3 rounded vs PDS 0.859 g/cm3."
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,327 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "RICHFUL_RF6400",
+  "product": {
+    "product_name": "RF6400 CF-4/SG Universal Type Engine Oil Package",
+    "supplier": "Xinxiang Richful Lube Additive Co., Ltd.",
+    "document_type": [
+      "TDS",
+      "TDS",
+      "SDS",
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-15849.pdf",
+      "RF6400%20TDS.pdf",
+      "RF6400%20MSDS.pdf",
+      "DL2-15850.pdf"
+    ],
+    "revision_date": [
+      null,
+      null,
+      "2022-07-25",
+      "2023-06-07"
+    ]
+  },
+  "fields": {
+    "tbn": {
+      "value": 168.0,
+      "qualifier": null,
+      "min": 155.0,
+      "max": 181.0,
+      "value_kind": "typical",
+      "printed_text": "Total Base Number, mgKOH/g 155-181 168 SH/T0251, ASTM D2896",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "SH/T0251, ASTM D2896",
+      "status": "reported",
+      "calculation_note": "TDS 'Typical Value' column with index/limit '155-181'. Same value in: RF6400%20TDS.pdf p.1 (undated): 'Total Base Number, mgKOH/g 155-181 168 SH/T0251, ASTM D2896'.",
+      "source": {
+        "file": "DL2-15849.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 22.55,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "calculated",
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "Calculated (ASTM D874 factors)",
+      "status": "calculated",
+      "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×5.94 (Ca) + 1.24×1.9 (Zn) = 22.5520 → 22.55 wt.%. Mg not reported, taken as 0.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+    },
+    "elements": {
+      "Ca": {
+        "value": 5.94,
+        "qualifier": null,
+        "min": 5.35,
+        "max": 6.53,
+        "value_kind": "typical",
+        "printed_text": "Ca Content, m% 5.35-6.53 5.94 GB/T17476, ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "GB/T17476, ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '5.35-6.53'. Same value in: RF6400%20TDS.pdf p.1 (undated): 'Ca Content, m% 5.35-6.53 5.94 GB/T17476, ASTM D4951'.",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.9,
+        "qualifier": null,
+        "min": 1.71,
+        "max": 2.09,
+        "value_kind": "typical",
+        "printed_text": "Zn Content, m% 1.71-2.09 1.90 GB/T17476, ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "GB/T17476, ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '1.71-2.09'. Same value in: RF6400%20TDS.pdf p.1 (undated): 'Zn Content, m% 1.71-2.09 1.90 GB/T17476, ASTM D4951'.",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 1.64,
+        "qualifier": null,
+        "min": 1.48,
+        "max": 1.8,
+        "value_kind": "typical",
+        "printed_text": "P Content, m% 1.48-1.80 1.64 ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '1.48-1.80'. Same value in: RF6400%20TDS.pdf p.1 (undated): 'P Content, m% 1.48-1.80 1.64 ASTM D4951'.",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.54,
+        "qualifier": null,
+        "min": 0.46,
+        "max": 0.62,
+        "value_kind": "typical",
+        "printed_text": "N Content, m% 0.46-0.62 0.54 ASTM D5762",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D5762",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '0.46-0.62'. Same value in: RF6400%20TDS.pdf p.1 (undated): 'N Content, m% 0.46-0.62 0.54 ASTM D5762'.",
+        "source": {
+          "file": "DL2-15849.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 109,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": "Viscosity, kinematic : 109 mm2/s (100 °C, ASTM D445)",
+      "unit": "mm2/s",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "reported",
+      "calculation_note": "Same value in: DL2-15849.pdf p.1 (undated): 'Kinematic Viscosity (100℃), mm2/s Report 109 GB/T265, ASTM D445'; RF6400%20TDS.pdf p.1 (undated): 'Kinematic Viscosity (100℃), mm2/s Report 109 GB/T265, ASTM D445'; RF6400%20MSDS.pdf p.5 (2022-07-25): 'Viscosity, kinematic : 109 mm2/s (100 °C, ASTM D445)'.",
+      "source": {
+        "file": "DL2-15850.pdf",
+        "page": 6,
+        "revision_date": "2023-06-07"
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 1039,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": "Density : 1039 kg/m³ (20 °C, ASTM D4052)",
+      "unit": "kg/m3",
+      "test_temperature_c": 20,
+      "method": "ASTM D4052",
+      "status": "reported",
+      "calculation_note": "Same value in: DL2-15849.pdf p.1 (undated): 'Density (20℃), kg/m3 1019-1059 1039 SH/T 0604, ASTM D4052'; RF6400%20TDS.pdf p.1 (undated): 'Density (20℃), kg/m3 1019-1059 1039 SH/T 0604, ASTM D4052'; RF6400%20MSDS.pdf p.5 (2022-07-25): 'Density : 1039 kg/m3 (20 °C, ASTM D4052)'.",
+      "source": {
+        "file": "DL2-15850.pdf",
+        "page": 6,
+        "revision_date": "2023-06-07"
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 180,
+      "qualifier": "≥",
+      "min": 180,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Flash point : >= 180 °C (ASTM D92, Open cup)",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "reported",
+      "calculation_note": "Same value in: DL2-15849.pdf p.1 (undated): 'Flash Point (COC), ℃ ≥180 226 GB/T3536, ASTM D92'; RF6400%20TDS.pdf p.1 (undated): 'Flash Point (COC), ℃ ≥180 226 GB/T3536, ASTM D92'; RF6400%20MSDS.pdf p.4 (2022-07-25): 'Flash point : >= 180 °C (ASTM D92)'.",
+      "source": {
+        "file": "DL2-15850.pdf",
+        "page": 5,
+        "revision_date": "2023-06-07"
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Two undated TDS (DL2-15849.pdf, 'RF6400 TDS.pdf') with identical content; SDS 'RF6400 MSDS.pdf' (HCS-2012 format, 7/25/2022) and DL2-15850.pdf (REACH, rev. 6/7/2023). All shared values agree.",
+    "Document type: 'RF6400 MSDS.pdf' prints 'Safety Data Sheet' in the title; recorded as SDS.",
+    "SDS DL2-15850.pdf p.2 component shares (not element contents): distillate 10 - 59.9 %; PIB succinimide (84605-20-9) 8 - 44.9 %; unnamed component (CAS '-') 1 – 14.9 %; calcium sulfonate (70024-69-0) 1 - 24.9 %; ZDDP (4259-15-8) 3 - 17.9 %; alkylated diphenylamine 0.5 - 2.9 %.",
+    "Sulfated ash, KV40, Mg, B, Mo, S, pour point not printed."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

@@ -1,0 +1,371 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "LUBRIZOL_3700",
+  "product": {
+    "product_name": "LUBRIZOL® 3700",
+    "supplier": "The Lubrizol Corporation",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-10632.pdf"
+    ],
+    "revision_date": "2008-02-06"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "Heavy Duty Diesel Engine Oil Additive",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "A engine oil additive for the formulation of Heavy Duty lubricants meeting the requirements of API CF- 4 and MB-Approval 228.1",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 8.5 % by weight'; intro: 'When formulated with appropriate base oils and viscosity modifier, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SG",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 8.5 % by weight'; intro: 'When formulated with appropriate base oils and viscosity modifier, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB-Approval 228.1",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 8.5 % by weight'; intro: 'When formulated with appropriate base oils and viscosity modifier, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 271",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 8.5 % by weight'; intro: 'When formulated with appropriate base oils and viscosity modifier, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU Type 1",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 8.5 % by weight'; intro: 'When formulated with appropriate base oils and viscosity modifier, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Volvo VDS",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 8.5 % by weight'; intro: 'When formulated with appropriate base oils and viscosity modifier, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-K/2",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 8.5 % by weight'; intro: 'When formulated with appropriate base oils and viscosity modifier, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB-Approval 228.0",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 7.7 % by weight'; intro: 'When formulated with appropriate base oils, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 270",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 7.7 % by weight'; intro: 'When formulated with appropriate base oils, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU Type 1",
+        "claim_type": "meets",
+        "scope": "Block 'Recommended for use at: 7.7 % by weight'; intro: 'When formulated with appropriate base oils, the lubricant meets the following performance specifications:'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I",
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CF-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use). Datasheet says claims apply only 'with appropriate base oils', so confirm with Lubrizol."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "1) Addition of a 0.25 % by weight TBN booster required to claim MTU Type 1"
+      ],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": "DL2-10632.pdf",
+        "page": 1,
+        "revision_date": "2008-02-06"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CF-4; API SG; MB-Approval 228.1; MAN 271; MTU Type 1; Volvo VDS; Mack EO-K/2",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 8.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Recommended for use at: 8.5 % by weight",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Intro: 'When formulated with appropriate base oils and viscosity modifier, the lubricant meets the following performance specifications:'",
+          "source": {
+            "file": "DL2-10632.pdf",
+            "page": 1,
+            "revision_date": "2008-02-06"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "MB-Approval 228.0; MAN 270; MTU Type 1",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 7.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Recommended for use at: 7.7 % by weight",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Intro: 'When formulated with appropriate base oils, the lubricant meets the following performance specifications:'",
+          "source": {
+            "file": "DL2-10632.pdf",
+            "page": 1,
+            "revision_date": "2008-02-06"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "TBN booster (MTU Type 1 claim)",
+        "name": null,
+        "dose_wt_pct": {
+          "value": 0.25,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Addition of a 0.25 % by weight TBN booster required to claim MTU Type 1",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Footnote 1; booster not named.",
+          "source": {
+            "file": "DL2-10632.pdf",
+            "page": 1,
+            "revision_date": "2008-02-06"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Claim type from the intro line of each 'Recommended for use at' block (e.g. 'the lubricant meets the following performance specifications').",
+    "Only a TDS is in the archive for this product (no SDS).",
+    "Treat rate is printed per 'Recommended for use at' block; SAE grade taken from the block intro where printed."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

@@ -1,0 +1,144 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "ERGON_HYGOLD_5000BS",
+  "product": {
+    "product_name": "HyGold 5000BS",
+    "supplier": "Ergon Refining, Inc.",
+    "document_type": "Marketing specification",
+    "source_file": "DL2-10409.pdf",
+    "revision_date": "2017-01-17"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null
+      },
+      "chemistry": {
+        "value": "Severely hydrotreated base oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10409.pdf",
+          "page": 1,
+          "revision_date": "2017-01-17"
+        },
+        "value_kind": "supplier description",
+        "printed_text": "Supplier description",
+        "method": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "kv40": {
+      "value": 1010,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 1010 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D7042",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10409.pdf",
+        "page": 1,
+        "revision_date": "2017-01-17"
+      }
+    },
+    "kv100": {
+      "value": 44.0,
+      "qualifier": null,
+      "min": 37,
+      "max": 47,
+      "value_kind": "typical",
+      "printed_text": "Typical 44.0 cSt; specification 37.0–47.0 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D7042",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10409.pdf",
+        "page": 1,
+        "revision_date": "2017-01-17"
+      }
+    },
+    "viscosity_index": {
+      "value": 81,
+      "qualifier": "minimum",
+      "min": 80,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "80 (minimum specification); 81 (typical value)",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10409.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "Supplier specification lists a minimum VI of 80 and a separate typical VI of 81. The value field is the reported typical value; min is the supplier minimum specification."
+    },
+    "density": {
+      "value": 0.9148,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 0.9148 g/cm3 at 15.6°C",
+      "unit": "g/cm3",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D1250",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10409.pdf",
+        "page": 1,
+        "revision_date": "2017-01-17"
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "API group not explicitly stated.",
+    "SDS not yet reconciled."
+  ],
+  "conflicts": []
+}

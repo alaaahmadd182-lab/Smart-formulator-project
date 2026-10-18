@@ -1,0 +1,747 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "BRB_PETROLAD_8099",
+  "product": {
+    "product_name": "Petrolad 8099",
+    "supplier": "BRB International BV",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-11053.pdf"
+    ],
+    "revision_date": "2016-05-31"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "Heavy duty diesel engine oil additive",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 1,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "Petrolad 8099 can be used for a broad range of HDDO applications.",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 1,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "CI-4 (in a GRII formulation)",
+        "claim_type": "meets",
+        "scope": "Table 'Performances Petrolad 8099' (column '% wt.') at 11.2 % wt. Text p.1: 'Lubricants formulated with this package meet market standard API requirements, such as CI-4/CH-4 and SJ performance.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 2,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "CH-4, CF-4/SJ",
+        "claim_type": "meets",
+        "scope": "Table 'Performances Petrolad 8099' (column '% wt.') at 11.2 % wt. Text p.1: 'Lubricants formulated with this package meet market standard API requirements, such as CI-4/CH-4 and SJ performance.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 2,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E7-12",
+        "claim_type": "other",
+        "scope": "Table 'Performances Petrolad 8099' (column '% wt.') at 11.2 % wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 2,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "JASO DH-1",
+        "claim_type": "other",
+        "scope": "Table 'Performances Petrolad 8099' (column '% wt.') at 11.2 % wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 2,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Global DHD-1",
+        "claim_type": "other",
+        "scope": "Table 'Performances Petrolad 8099' (column '% wt.') at 11.2 % wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 2,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Volvo VDS-3",
+        "claim_type": "other",
+        "scope": "Table 'Performances Petrolad 8099' (column '% wt.') at 11.2 % wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 2,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-N/EO-M +",
+        "claim_type": "other",
+        "scope": "Table 'Performances Petrolad 8099' (column '% wt.') at 11.2 % wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 2,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 228.3 blanket approval",
+        "claim_type": "approval",
+        "scope": "Table 'Performances Petrolad 8099' (column '% wt.') at 11.2 % wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 2,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 3275-1",
+        "claim_type": "other",
+        "scope": "Table 'Performances Petrolad 8099' (column '% wt.') at 11.2 % wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 2,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU Type 2",
+        "claim_type": "other",
+        "scope": "Table 'Performances Petrolad 8099' (column '% wt.') at 11.2 % wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 2,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20076/71/72",
+        "claim_type": "other",
+        "scope": "Table 'Performances Petrolad 8099' (column '% wt.') at 11.2 % wt. Cummins rows share one 11.2 cell.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 2,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20078 (in a GRII formulation)",
+        "claim_type": "other",
+        "scope": "Table 'Performances Petrolad 8099' (column '% wt.') at 11.2 % wt. Cummins rows share one 11.2 cell.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 2,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Renault Truck RLD-2",
+        "claim_type": "other",
+        "scope": "Table 'Performances Petrolad 8099' (column '% wt.') at 11.2 % wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 2,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Detroit Diesel SSC 93K215",
+        "claim_type": "other",
+        "scope": "Table 'Performances Petrolad 8099' (column '% wt.') at 11.2 % wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 2,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Allison C4",
+        "claim_type": "other",
+        "scope": "Table 'Performances Petrolad 8099' (column '% wt.') at 11.2 % wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11053.pdf",
+          "page": 2,
+          "revision_date": "2016-05-31"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "GRII (stated for CI-4 and Cummins CES 20078)"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "CI-4 (in a GRII formulation)",
+        "Cummins CES 20078 (in a GRII formulation)",
+        "in a wide variety of base stocks"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-11053.pdf",
+        "page": 2,
+        "revision_date": "2016-05-31"
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "It can be used in formulations combined with our Viscotech 6540 VI improver."
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-11053.pdf",
+        "page": 1,
+        "revision_date": "2016-05-31"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "CI-4 (in a GRII formulation)",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CI-4 (in a GRII formulation) 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'Performances Petrolad 8099' (column '% wt.').",
+          "source": {
+            "file": "DL2-11053.pdf",
+            "page": 2,
+            "revision_date": "2016-05-31"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "CH-4, CF-4/SJ",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CH-4, CF-4/SJ 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'Performances Petrolad 8099' (column '% wt.').",
+          "source": {
+            "file": "DL2-11053.pdf",
+            "page": 2,
+            "revision_date": "2016-05-31"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "ACEA E7-12",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "ACEA E7-12 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'Performances Petrolad 8099' (column '% wt.').",
+          "source": {
+            "file": "DL2-11053.pdf",
+            "page": 2,
+            "revision_date": "2016-05-31"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "JASO DH-1",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "JASO DH-1 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'Performances Petrolad 8099' (column '% wt.').",
+          "source": {
+            "file": "DL2-11053.pdf",
+            "page": 2,
+            "revision_date": "2016-05-31"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "Global DHD-1",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Global DHD-1 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'Performances Petrolad 8099' (column '% wt.').",
+          "source": {
+            "file": "DL2-11053.pdf",
+            "page": 2,
+            "revision_date": "2016-05-31"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "Volvo VDS-3",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Volvo VDS-3 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'Performances Petrolad 8099' (column '% wt.').",
+          "source": {
+            "file": "DL2-11053.pdf",
+            "page": 2,
+            "revision_date": "2016-05-31"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "Mack EO-N/EO-M +",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Mack EO-N/EO-M + 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'Performances Petrolad 8099' (column '% wt.').",
+          "source": {
+            "file": "DL2-11053.pdf",
+            "page": 2,
+            "revision_date": "2016-05-31"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "MB 228.3 blanket approval",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "MB 228.3 blanket approval 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'Performances Petrolad 8099' (column '% wt.').",
+          "source": {
+            "file": "DL2-11053.pdf",
+            "page": 2,
+            "revision_date": "2016-05-31"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "MAN 3275-1",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "MAN 3275-1 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'Performances Petrolad 8099' (column '% wt.').",
+          "source": {
+            "file": "DL2-11053.pdf",
+            "page": 2,
+            "revision_date": "2016-05-31"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "MTU Type 2",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "MTU Type 2 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'Performances Petrolad 8099' (column '% wt.').",
+          "source": {
+            "file": "DL2-11053.pdf",
+            "page": 2,
+            "revision_date": "2016-05-31"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "Cummins CES 20076/71/72",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Cummins CES 20076/71/72 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'Performances Petrolad 8099' (column '% wt.').",
+          "source": {
+            "file": "DL2-11053.pdf",
+            "page": 2,
+            "revision_date": "2016-05-31"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "Cummins CES 20078 (in a GRII formulation)",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Cummins CES 20078 (in a GRII formulation) 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'Performances Petrolad 8099' (column '% wt.').",
+          "source": {
+            "file": "DL2-11053.pdf",
+            "page": 2,
+            "revision_date": "2016-05-31"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "Renault Truck RLD-2",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Renault Truck RLD-2 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'Performances Petrolad 8099' (column '% wt.').",
+          "source": {
+            "file": "DL2-11053.pdf",
+            "page": 2,
+            "revision_date": "2016-05-31"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "Detroit Diesel SSC 93K215",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Detroit Diesel SSC 93K215 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'Performances Petrolad 8099' (column '% wt.').",
+          "source": {
+            "file": "DL2-11053.pdf",
+            "page": 2,
+            "revision_date": "2016-05-31"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "Allison C4",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Allison C4 11.2",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'Performances Petrolad 8099' (column '% wt.').",
+          "source": {
+            "file": "DL2-11053.pdf",
+            "page": 2,
+            "revision_date": "2016-05-31"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Claim types: API rows set to 'meets' (text p.1 'meet market standard API requirements'), 'MB 228.3 blanket approval' to 'approval', all other rows of the 'Performances' table to 'other' because the table has no wording beyond 'Performances'. Please confirm.",
+    "Viscotech 6540 VI improver is optional ('can be used in formulations combined with'); not entered as a required co-component. No SAE grades printed.",
+    "Only a TDS is in the archive; text says 'An MSDS is available upon request' (p.3)."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

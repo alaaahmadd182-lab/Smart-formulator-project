@@ -1,0 +1,105 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "S_OIL_PREMIUM_P_8",
+  "product": {
+    "product_name": "P-8 (Premium 60N)",
+    "supplier": "S-OIL",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-11173.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    
+    "mrv": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "flash_method": null
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "pour_point": {
+      "value": -20.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "-20.0 °C",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D5950",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11173.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "flash_point": {
+      "value": 156,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "156 °C (COC)",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11173.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC"
+    }
+  },
+  
+  "open_questions": [
+    "API Group for historical S-OIL P-8 (Premium 60N) remains unverified.",
+    "Chemistry identified in S-OIL Premium-8 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated light paraffinic; CAS 64742-55-8.",
+    "Specific gravity at 15/4°C is dimensionless and must not be transcribed as absolute density.",
+    "MRV viscosity and MRV yield stress have not been verified for P-8; no grade-specific test temperature is available.",
+    "Noack volatility, CCS viscosity, saturates and aromatics remain unverified.",
+    "Final source-level reconciliation between the original product datasheet and grade-specific SDS pending."
+  ],
+  "conflicts": []
+}

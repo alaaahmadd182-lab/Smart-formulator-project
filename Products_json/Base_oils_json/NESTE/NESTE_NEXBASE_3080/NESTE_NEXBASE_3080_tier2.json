@@ -1,0 +1,117 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "NESTE_NEXBASE_3080",
+  "product": {
+    "product_name": "NEXBASE 3080",
+    "supplier": "Neste N.V.",
+    "document_type": "Technical Data Sheet",
+    "source_file": "DL2-10040.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": 3.5,
+      "qualifier": null,
+      "min": null,
+      "max": 5,
+      "value_kind": "typical",
+      "printed_text": "Typical 3.5 w-%; specification maximum 5 w-%",
+      "unit": "wt.% loss",
+      "test_temperature_c": null,
+      "method": "CEC L-40-93b",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10040.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -12,
+      "qualifier": null,
+      "min": null,
+      "max": -12,
+      "value_kind": "typical",
+      "printed_text": "Typical −12°C; specification maximum −12°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10040.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 261,
+      "qualifier": null,
+      "min": 220,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 261°C; specification minimum 220°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10040.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC"
+    }
+  },
+  "open_questions": [
+    "TDS edition 2.2 does not specify a calendar revision date.",
+    "SDS specific to NEXBASE 3080 not independently verified."
+  ],
+  "conflicts": []
+}

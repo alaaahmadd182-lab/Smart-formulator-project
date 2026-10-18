@@ -1,0 +1,149 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "PETRO_CANADA_PURITY_L60",
+  "product": {
+    "product_name": "PURITY L60 Base Oil",
+    "supplier": "Petro-Canada Lubricants Inc.",
+    "document_type": "Supplier PURITY base-oils brochure / typical properties",
+    "source_file": "DL2-10020.pdf",
+    "revision_date": "2015-07"
+  },
+  "fields": {
+    "api_group_chemistry": {     
+      "api_group": {
+        "value": "Group II",
+        "status": "Reported",
+        "source": {
+          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/base-oils/ilma-engage-sponsorship-base-oils-brochure.ashx",
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": "PURITY L60 listed in GROUP II TYPICAL PROPERTIES table",
+        "value_kind": "supplier classification",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "Grade-specific Group II classification verified in Petro-Canada's official brochure. Group II+ is a broader family designation and is not specifically assigned to L60."
+      },
+      "chemistry": {
+        "value": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10020.pdf",
+          "page": 1,
+          "revision_date": "2015-07"
+        },
+        "printed_text": "HT Purity Process: severe hydrotreating/hydrocracking, dewaxing and hydrofinishing",
+        "value_kind": "supplier family description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 10.2,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "10.2 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "kv100": {
+      "value": 2.4,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "2.4 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "viscosity_index": {
+      "value": 87,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "87",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "density": {
+      "value": 0.85,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "0.85 kg/L",
+      "unit": "kg/L",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "API Group II verified from Petro-Canada's official World-Class Base Oils brochure; the original 2015 brochure did not explicitly classify L60.",
+    "Sulfur, Noack, saturates, aromatics and CCS are not reported for L60 in the cited brochure.",
+    "Grade-specific SDS and other brochure editions require reconciliation."
+  ],
+  "conflicts": []
+}

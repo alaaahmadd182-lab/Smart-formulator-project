@@ -1,0 +1,219 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "CHEVRON_OLOA_59766",
+  "product": {
+    "product_name": "OLOA 59766",
+    "supplier": "Chevron Oronite S.A.S.",
+    "document_type": [
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-11731.pdf"
+    ],
+    "revision_date": "2017-01-24"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "Heavy-duty engine oil (HDEO) additive package",
+        "status": "reported",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null,
+          "url": "https://www.oronite.com/products-technology/heavy-duty-motor-oils.html",
+          "retrieved": "2026-10-17",
+          "origin": "public web (supplier website), not the archived datasheet"
+        },
+        "printed_text": "OLOA 59766 is an optimized and cost-effective package for general applications suitable for Euro III and IV engines and particularly adapted for buses and trucks.",
+        "notes": "Sourced from Chevron Oronite's public 'Heavy Duty Motor Oils' web page (https://www.oronite.com/products-technology/heavy-duty-motor-oils.html), not from the product datasheet. Chevron Oronite official 'Heavy Duty Motor Oils' page https://www.oronite.com/products-technology/heavy-duty-motor-oils.html (retrieved 2026-10-17) lists OLOA 59766 under 'OLOA 59880/59770/59766 additive packages' with the quoted description. Euro III/IV suitability is an emissions-era statement, not a formal API/ACEA claim, so performance_claims is left Missing."
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "Automotive lubricant additive",
+        "status": "reported",
+        "source": {
+          "file": "DL2-11731.pdf",
+          "page": 1,
+          "revision_date": "2017-01-24"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": null,
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "API group compatibility not published — confirm with supplier. SDS only; no performance claims to apply a rule to."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": null,
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 11.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "prescribed treatment rate of: 11.2 wt. %",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Section 11 skin sensitization text ('when formulated in a finished oil at the prescribed treatment rate of'); not tied to a claim or grade.",
+          "source": {
+            "file": "DL2-11731.pdf",
+            "page": 8,
+            "revision_date": "2017-01-24"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Only an SDS is in the archive for OLOA 59766 (Revision Number 14, SDS 23738); package type, claims, grades, base oils and co-components not printed. Supplier per Section 1.3: Chevron Oronite S.A.S.",
+    "2026-10-17: package_type filled from the Chevron Oronite official web page https://www.oronite.com/products-technology/heavy-duty-motor-oils.html (NOT from the datasheet)."
+  ],
+  "conflicts": [],
+  "external_fill_notes": [
+    {
+      "value": null,
+      "unit": null,
+      "property": "package_type_application.package_type",
+      "status": "reported",
+      "source": "Chevron Oronite official web page, https://www.oronite.com/products-technology/heavy-duty-motor-oils.html (retrieved 2026-10-17)",
+      "notes": null
+    }
+  ]
+}

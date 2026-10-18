@@ -1,0 +1,105 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "YUBASE_5",
+  "product": {
+    "product_name": "YUBASE 5",
+    "supplier": "YUBASE-SK (archive folder); document issued by NARMAK TRADE S.R.O.",
+    "document_type": "Product property sheet",
+    "source_file": "DL2-11305.pdf",
+    "revision_date": null
+  },
+  "fields": {
+   
+    "mrv": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in archived YUBASE 5 property sheet DL2-11305.pdf.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "flash_method": null
+      }
+    ],
+    "noack_volatility": {
+      "value": 12,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "reported",
+      "printed_text": "12 wt %",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "DIN 51581",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11305.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "pour_point": {
+      "value": -15,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "reported",
+      "printed_text": "-15 °C",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11305.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "flash_point": {
+      "value": 235,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "reported",
+      "printed_text": "235 °C",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11305.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC"
+    }
+  },
+  "open_questions": [
+    "Confirm the manufacturer and distributor relationship between SK Lubricants/SK Enmove and NARMAK TRADE S.R.O. for archived YUBASE 5.",
+    "SK Lubricants describes the YUBASE brand as API Group III, but the available manufacturer publication does not explicitly identify YUBASE 5. Confirm the grade-specific API Group classification for archived product DL2-11305.pdf.",
+    "The archived property sheet does not explicitly report chemical composition. Obtain grade-specific manufacturer SDS documentation before assigning chemistry or a CAS number.",
+    "The specific-gravity entry at 15°C is printed as 0.8363 with the inconsistent unit g/m3. Verify the original units and measurement conditions before assigning a density value.",
+    "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in archived property sheet DL2-11305.pdf.",
+    "Noack volatility is reported as 12 wt% using DIN 51581. The supplied transcription does not specify a test temperature; do not assume one.",
+    "Confirm the archived property sheet's issue date and applicable product revision."
+  ],
+  "conflicts": []
+}

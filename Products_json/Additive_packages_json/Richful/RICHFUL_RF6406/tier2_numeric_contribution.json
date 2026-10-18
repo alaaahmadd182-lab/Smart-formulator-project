@@ -1,0 +1,359 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "RICHFUL_RF6406",
+  "product": {
+    "product_name": "RF6406 Universal Type Engine Oil Package",
+    "supplier": null,
+    "document_type": [
+      "TDS",
+      "TDS",
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-14746.pdf",
+      "DL2-15456.pdf",
+      "RF6406.pdf"
+    ],
+    "revision_date": [
+      null,
+      null,
+      "2025-04-21"
+    ]
+  },
+  "fields": {
+    "tbn": {
+      "value": 185,
+      "qualifier": null,
+      "min": 168,
+      "max": 198,
+      "value_kind": "typical",
+      "printed_text": "Total Base Number, mgKOH/g | 168-198 | 185 | SH/T0251, ASTM D2896",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "SH/T0251, ASTM D2896",
+      "status": "reported",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null,
+        "url": "https://www.richful.com/catalogueDetail.html?id=130",
+        "retrieved": "2026-10-17",
+        "origin": "public web (supplier website), not the archived datasheet"
+      },
+      "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=130), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=130 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=130), retrieved 2026-10-17. Archive conflict DL2-15456.pdf (168-198, 185) vs DL2-14746.pdf (>=180), both undated, left this null; the supplier's current page prints the DL2-15456.pdf value. Conflict record kept unchanged."
+    },
+    "sulfated_ash": {
+      "value": 25.89,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "calculated",
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "Calculated (ASTM D874 factors)",
+      "status": "calculated",
+      "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×6.8 (Ca) + 1.24×2.23 (Zn) = 25.8852 → 25.89 wt.%. Mg not reported, taken as 0.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+    },
+    "elements": {
+      "Ca": {
+        "value": 6.8,
+        "qualifier": null,
+        "min": 5.98,
+        "max": 7.3,
+        "value_kind": "typical",
+        "printed_text": "Ca Content, m% 5.98--7.30 6.80 GB/T17476, ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "GB/T17476, ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '5.98-7.30'. Compared with DL2-14746.pdf (which prints only a minimum) on the index minimum. Same value in: DL2-14746.pdf p.1 (undated): 'Ca Content，%（m/m） ≥5.98 GB/T17476，ASTM D4951'.",
+        "source": {
+          "file": "DL2-15456.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 2.23,
+        "qualifier": null,
+        "min": 1.97,
+        "max": 2.53,
+        "value_kind": "typical",
+        "printed_text": "Zn Content, m% 1.97-2.53 2.23 GB/T17476, ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "GB/T17476, ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '1.97-2.53'. Compared with DL2-14746.pdf (which prints only a minimum) on the index minimum. Same value in: DL2-14746.pdf p.1 (undated): 'Zn Content，%（m/m） ≥1.97 GB/T17476，ASTM D4951'.",
+        "source": {
+          "file": "DL2-15456.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 1.96,
+        "qualifier": null,
+        "min": 1.72,
+        "max": 2.1,
+        "value_kind": "typical",
+        "printed_text": "P Content, m% 1.72-2.10 1.96 GB/T 17476, ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "GB/T 17476, ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '1.72-2.10'.",
+        "source": {
+          "file": "DL2-15456.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.41,
+        "qualifier": null,
+        "min": 0.34,
+        "max": 0.46,
+        "value_kind": "typical",
+        "printed_text": "N Content, m% 0.34-0.46 0.41 SH/T 0704, ASTM D5762",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T 0704, ASTM D5762",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '0.34-0.46'.",
+        "source": {
+          "file": "DL2-15456.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 72,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": "Viscosity, kinematic : 72 mm2/s (100 ℃)",
+      "unit": "mm2/s",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Same value in: DL2-15456.pdf p.1 (undated): 'Kinematic Viscosity (100℃), mm2/s Report 72 GB/T265, ASTM D445'.",
+      "source": {
+        "file": "RF6406.pdf",
+        "page": 5,
+        "revision_date": "2025-04-21"
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 1.06,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": "Density : 1.06 g/cm³ (20 °℃)",
+      "unit": "g/cm³",
+      "test_temperature_c": 20,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "SDS Section 9; 1.06 g/cm³ = 1060 kg/m3 (same value). Same value in: DL2-15456.pdf p.1 (undated): 'Density (20℃), kg/m3 1037-1077 1060 SH/T 0604, ASTM D4052'.",
+      "source": {
+        "file": "RF6406.pdf",
+        "page": 5,
+        "revision_date": "2025-04-21"
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 180,
+      "qualifier": "≥",
+      "min": 180,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Flash point : ≥180 °C (COC)",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "COC (ASTM D92)",
+      "status": "reported",
+      "calculation_note": "Same value in: DL2-15456.pdf p.1 (undated): 'Flash Point (COC), ℃ ≮180 223 GB/T3536, ASTM D92'; DL2-14746.pdf p.1 (undated): 'Flash Point (COC),℃ ≮180 GB/T3536，ASTMD92'.",
+      "source": {
+        "file": "RF6406.pdf",
+        "page": 5,
+        "revision_date": "2025-04-21"
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Two undated TDS: DL2-14746.pdf ('TDS OF RF6406', prints minimum values only) and DL2-15456.pdf (index ranges + typicals); SDS RF6406.pdf issue 11/26/2021, revision 04/21/2025.",
+    "Supplier: neither TDS prints a company name and SDS Section 1.3 is blank (RF6406.pdf p.1); supplier left null.",
+    "TBN minimum differs (DL2-14746.pdf ≥180 vs DL2-15456.pdf index 168-198); CF/SF treat rate differs (3.7 vs 4.1 %); both TDS undated, see conflicts.",
+    "SDS p.2 component shares (not element contents): base-oil distillates 10 - 59.9 %; overbased calcium sulfurized phenate 1 - 14.9 %; ZDDP 3 - 29.9 %.",
+    "Sulfated ash, KV40, Mg, B, Mo, S, pour point not printed. DL2-14746.pdf prints density and KV100 as 'Report' (no value).",
+    "2026-10-17: TBN filled from the Richful official product page https://www.richful.com/catalogueDetail.html?id=130 (NOT from the datasheet)."
+  ],
+  "conflicts": [
+    {
+      "field": "tier2.tbn",
+      "values": [
+        {
+          "value": 185.0,
+          "printed_text": "Total Base Number, mgKOH/g 168-198 185 SH/T0251, ASTM D2896",
+          "file": "DL2-15456.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 180,
+          "printed_text": "Total Base Number，mgKOH/g ≥180 SH/T0251，ASTMD2896",
+          "file": "DL2-14746.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      ],
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
+    }
+  ],
+  "external_fill_notes": [
+    {
+      "value": null,
+      "unit": null,
+      "property": "tbn",
+      "status": "reported",
+      "source": "Richful official product page, https://www.richful.com/catalogueDetail.html?id=130 (retrieved 2026-10-17)",
+      "notes": null
+    }
+  ]
+}

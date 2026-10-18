@@ -1,0 +1,316 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "LUBRIZOL_3700",
+  "product": {
+    "product_name": "LUBRIZOL® 3700",
+    "supplier": "The Lubrizol Corporation",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-10632.pdf"
+    ],
+    "revision_date": "2008-02-06"
+  },
+  "fields": {
+    "tbn": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 12.6,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "SULFATED ASH 12.6",
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Column 'Typical'. Chemical Characteristics header '% Weight'.",
+      "source": {
+        "file": "DL2-10632.pdf",
+        "page": 1,
+        "revision_date": "2008-02-06"
+      },
+      "notes": null
+    },
+    "elements": {
+      "Ca": {
+        "value": 3.2,
+        "qualifier": null,
+        "min": 2.88,
+        "max": 3.52,
+        "value_kind": "typical",
+        "printed_text": "CALCIUM 2.88 3.20 3.52",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "reported",
+        "calculation_note": "Column 'Typical' with Minimum/Maximum limits. Chemical Characteristics header '% Weight'.",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.15,
+        "qualifier": null,
+        "min": 1.04,
+        "max": 1.27,
+        "value_kind": "typical",
+        "printed_text": "ZINC 1.04 1.15 1.27",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "reported",
+        "calculation_note": "Column 'Typical' with Minimum/Maximum limits. Chemical Characteristics header '% Weight'.",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 1.05,
+        "qualifier": null,
+        "min": 0.94,
+        "max": 1.15,
+        "value_kind": "typical",
+        "printed_text": "PHOSPHORUS 0.94 1.05 1.15",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "reported",
+        "calculation_note": "Column 'Typical' with Minimum/Maximum limits. Chemical Characteristics header '% Weight'.",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.53,
+        "qualifier": null,
+        "min": 0.48,
+        "max": 0.59,
+        "value_kind": "typical",
+        "printed_text": "NITROGEN 0.48 0.53 0.59",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "reported",
+        "calculation_note": "Column 'Typical' with Minimum/Maximum limits. Chemical Characteristics header '% Weight'.",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      },
+      "S": {
+        "value": 3.07,
+        "qualifier": null,
+        "min": 2.76,
+        "max": 3.37,
+        "value_kind": "typical",
+        "printed_text": "SULFUR 2.76 3.07 3.37",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "reported",
+        "calculation_note": "Column 'Typical' with Minimum/Maximum limits. Chemical Characteristics header '% Weight'.",
+        "source": {
+          "file": "DL2-10632.pdf",
+          "page": 1,
+          "revision_date": "2008-02-06"
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": 1950.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "VISCOSITY @ 40 C, CST 1950",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Column 'Target'. Value from 'Target' column (a target, not a measured typical).",
+      "source": {
+        "file": "DL2-10632.pdf",
+        "page": 1,
+        "revision_date": "2008-02-06"
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 116.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "VISCOSITY @ 100 C, CST 116",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Column 'Target'. Value from 'Target' column (a target, not a measured typical).",
+      "source": {
+        "file": "DL2-10632.pdf",
+        "page": 1,
+        "revision_date": "2008-02-06"
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 0.981,
+      "qualifier": null,
+      "min": 0.961,
+      "max": 1.001,
+      "value_kind": "typical",
+      "printed_text": "SPECIFIC GRAVITY @ 15.6 C 0.961 0.981 1.001",
+      "unit": "specific gravity (dimensionless)",
+      "test_temperature_c": 15.6,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Column 'Target' with Minimum/Maximum limits. Printed as SPECIFIC GRAVITY @ 15.6 C (no density in kg/m3); LBS PER GAL lines also printed. Value from 'Target' column (a target, not a measured typical). reported as specific gravity.",
+      "source": {
+        "file": "DL2-10632.pdf",
+        "page": 1,
+        "revision_date": "2008-02-06"
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 161.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "FLASH POINT, C, PMCC 161",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "PMCC",
+      "status": "reported",
+      "calculation_note": "Column 'Target'. Value from 'Target' column (a target, not a measured typical).",
+      "source": {
+        "file": "DL2-10632.pdf",
+        "page": 1,
+        "revision_date": "2008-02-06"
+      },
+      "flash_method": "PMCC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": -21.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "POUR POINT, C -21",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Column 'Target'. Value from 'Target' column (a target, not a measured typical).",
+      "source": {
+        "file": "DL2-10632.pdf",
+        "page": 1,
+        "revision_date": "2008-02-06"
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Density field holds 'SPECIFIC GRAVITY @ 15.6 C' (dimensionless); LBS PER U.S./IMP GAL @ 15.6 C also printed.",
+    "Physical values are in the 'Target' column (target, not typical); chemical values in the 'Typical' column. KV40/flash/pour usually have no min/max.",
+    "Package TBN is printed only where the table has a 'BASE NUMBER (MGKOH/G)' row; otherwise left Missing.",
+    "User decision 2026-10-17: density field stores the number 0.981 (specific gravity (dimensionless)), which is reported as specific gravity ('SPECIFIC GRAVITY @ 15.6 C 0.961 0.981 1.001', DL2-10632.pdf p.1), not a density in kg/m3; flagged for review."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

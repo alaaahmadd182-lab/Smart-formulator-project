@@ -1,0 +1,170 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "PETRO_CANADA_PURITY_L50",
+  "product": {
+    "product_name": "PURITY L50 Base Oil",
+    "supplier": "Petro-Canada Lubricants Inc.",
+    "document_type": "Supplier PURITY base-oils brochure / typical properties",
+    "source_file": "DL2-10020.pdf",
+    "revision_date": "2015-07"
+  },
+  "fields": {
+    "api_group_chemistry": {      
+      "api_group": {
+        "value": "Group II",
+        "status": "Reported",
+        "source": {
+          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/base-oils/ilma-engage-sponsorship-base-oils-brochure.ashx",
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": "PURITY L50 listed under GROUP II TYPICAL PROPERTIES",
+        "value_kind": "supplier classification",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "API Group II explicitly supported by Petro-Canada manufacturer documentation; not inferred from chemistry."
+      },
+      "chemistry": {
+        "value": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10020.pdf",
+          "page": 1,
+          "revision_date": "2015-07"
+        },
+        "printed_text": "HT Purity Process: severe hydrotreating/hydrocracking, dewaxing and hydrofinishing",
+        "value_kind": "supplier family description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 5.2,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "5.2 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "kv100": {
+      "value": 1.7,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "1.7 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.85,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "0.85 kg/L",
+      "unit": "kg/L",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    
+    "ccs": [
+      {
+        "value": 2708,
+        "qualifier": "Typical",
+        "min": null,
+        "max": null,
+        "value_kind": "single",
+        "printed_text": "2708 cP",
+        "unit": "mPa.s",
+        "test_temperature_c": -20,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "1 cP = 1 mPa.s.",
+        "source": {
+          "file": "https://petrocanadalubricants.com/en-us/brand/purity-base-oils/compare",
+          "page": null,
+          "revision_date": null
+        }
+      },
+      {
+        "value": 5361,
+        "qualifier": "Typical",
+        "min": null,
+        "max": null,
+        "value_kind": "single",
+        "printed_text": "5361 cP",
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "1 cP = 1 mPa.s.",
+        "source": {
+          "file": "https://petrocanadalubricants.com/en-us/brand/purity-base-oils/compare",
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+
+  },
+  
+  "open_questions": [
+    "API Group II confirmed from Petro-Canada's official Group II typical-properties table; the original DL2-10020.pdf did not explicitly assign a grade-specific group.",
+    "Viscosity index remains unreported for PURITY L50.",
+    "CCS at -20°C and -25°C confirmed from Petro-Canada's official product comparison using ASTM D5293. No values are reported there for -30°C or -35°C.",
+    "Grade-specific SDS and differences between the original 2015 brochure and newer manufacturer documentation require reconciliation."
+  ],
+  "conflicts": []
+}

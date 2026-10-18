@@ -1,0 +1,315 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "TIANHE_P_TEC_3232",
+  "product": {
+    "product_name": "P-TEC 3232",
+    "supplier": "TIANHE CHEMICALS",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-12939.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "tbn": {
+      "value": 131,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Total base number, mg KOH/g 131 ASTM D2896",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "ASTM D2896",
+      "status": "reported",
+      "calculation_note": "Column header 'Specification' (single value, no min/max printed).",
+      "source": {
+        "file": "DL2-12939.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 16.78,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "calculated",
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "Calculated (ASTM D874 factors)",
+      "status": "calculated",
+      "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×4.42 (Ca) + 1.24×1.41 (Zn) = 16.7764 → 16.78 wt.%. Mg not reported, taken as 0.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+    },
+    "elements": {
+      "Ca": {
+        "value": 4.42,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Calcium, mass% 4.420 ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "Column header 'Specification' (single value, no min/max printed).",
+        "source": {
+          "file": "DL2-12939.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.41,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Zinc, mass% 1.410 ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "Column header 'Specification' (single value, no min/max printed).",
+        "source": {
+          "file": "DL2-12939.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 1.29,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Phosphorous, mass% 1.290 ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "Column header 'Specification' (single value, no min/max printed).",
+        "source": {
+          "file": "DL2-12939.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 185.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Kinematic viscosity, mm2/s, at 100℃ 185.0 ASTM D445",
+      "unit": "mm2/s",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "reported",
+      "calculation_note": "Column header 'Specification' (single value, no min/max printed).",
+      "source": {
+        "file": "DL2-12939.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 1.013,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Density, kg/m3, at 15℃ 1.0130 ASTM D4052",
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "reported",
+      "calculation_note": "Column header 'Specification' (single value, no min/max printed). Stored exactly as printed. suspected unit error — verify (value 1.0130 with unit 'kg/m3' looks like g/cm3).",
+      "source": {
+        "file": "DL2-12939.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 200,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Flash point (COC), ℃ 200 ASTM D92",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "reported",
+      "calculation_note": "Column header 'Specification' (single value, no min/max printed).",
+      "source": {
+        "file": "DL2-12939.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "User decision 2026-10-17: density stored exactly as printed (1.0130, unit 'kg/m3', DL2-12939.pdf p.1) with the note 'suspected unit error — verify'. Flagged for review.",
+    "No date printed on DL2-12939.pdf; supplier from the logo 'TIANHE CHEMICALS' (website ENGLISH.TIANHECHEM.COM). No SDS in the archive.",
+    "Values are under the column 'Specification' without min/max; value_kind set to 'specification'. KV40, sulfated ash, Mg, B, Mo, N, S, pour point not printed."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

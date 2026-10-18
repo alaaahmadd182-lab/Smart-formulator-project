@@ -1,0 +1,117 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "SHELL_RISELLA_X_415",
+  "product": {
+    "product_name": "Shell Risella X 415",
+    "supplier": "Shell",
+    "document_type": "Technical Data Sheet",
+    "source_file": "DL2-13728.pdf",
+    "revision_date": "2013-02-08"
+  },
+  "fields": {
+    "sulfur": {
+      "value": 5,
+      "qualifier": "<",
+      "min": null,
+      "max": 5,
+      "value_kind": "upper bound",
+      "printed_text": "<5 mg/kg",
+      "unit": "mg/kg",
+      "test_temperature_c": null,
+      "method": "ISO 14596",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13728.pdf",
+        "page": 1,
+        "revision_date": "2013-02-08"
+      },
+      "flash_method": null
+    },
+    "saturates": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    }
+  },
+  "open_questions": [
+    "API group is not explicitly assigned by the supplier; GTL chemistry is not an API group declaration.",
+    "TDS density at 15 C is 806 kg/m3, while SDS DL2-13729.pdf p.8 reports 803.5 kg/m3 at 15 C; document variation requires reconciliation.",
+    "TDS dated 2013 and SDS revised 2018; confirm current revisions before final approval."
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,146 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "PETRO_CANADA_PURITY_L35",
+  "product": {
+    "product_name": "PURITY L35 Base Oil",
+    "supplier": "Petro-Canada Lubricants Inc.",
+    "document_type": "Supplier PURITY base-oils brochure / typical properties",
+    "source_file": "DL2-10020.pdf",
+    "revision_date": "2015-07"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group II",
+        "status": "Reported",
+        "basis": "External manufacturer brochure - grade-specific Group II table",
+        "notes": "The original DL2-10020.pdf does not explicitly assign an API Group to PURITY L35. Petro-Canada Lubricants' official Base Oils brochure lists PURITY L35 under its Group II typical-properties table. The classification is directly supported by manufacturer documentation, not inferred from viscosity or chemistry.",
+        "source": {
+          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/base-oils/ilma-engage-sponsorship-base-oils-brochure.ashx",
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": "GROUP II - PURITY L35",
+        "value_kind": "supplier classification",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      },
+      "chemistry": {
+        "value": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10020.pdf",
+          "page": 1,
+          "revision_date": "2015-07"
+        },
+        "printed_text": "HT Purity Process: severe hydrotreating/hydrocracking, dewaxing and hydrofinishing",
+        "value_kind": "supplier family description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 3.7,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "3.7 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "kv100": {
+      "value": 1.4,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "1.4 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.82,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "0.82 kg/L",
+      "unit": "kg/L",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10020.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    
+    "ccs": [
+      {
+        "value": null,
+        "status": "Missing",
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "notes": "No grade-specific CCS value or test temperature verified in the reviewed supplier literature.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+
+  },
+  "open_questions": [
+    "Viscosity index, sulfur and CCS are not reported for L35 in the cited brochure.",
+    "Grade-specific SDS and other brochure editions require reconciliation."
+  ],
+  "conflicts": []
+}

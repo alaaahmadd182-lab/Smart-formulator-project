@@ -1,0 +1,147 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "NYNAS_S_3B",
+  "product": {
+    "product_name": "Nynas S 3B",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-12819.pdf",
+    "revision_date": "2019-05-29"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "V",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12819.pdf",
+          "page": 1,
+          "revision_date": "2019-05-29"
+        },
+        "printed_text": "Classified as an API Group V base oil",
+        "value_kind": "supplier classification",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      },
+      "chemistry": {
+        "value": "Hydrotreated naphthenic base oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12819.pdf",
+          "page": 1,
+          "revision_date": "2019-05-29"
+        },
+        "printed_text": "Low viscosity hydrotreated naphthenic oil",
+        "value_kind": "supplier description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 3.2,
+      "qualifier": null,
+      "min": 2.95,
+      "max": 3.35,
+      "value_kind": "typical",
+      "printed_text": "Typical 3.20 cSt; specification 2.95–3.35 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12819.pdf",
+        "page": 2,
+        "revision_date": "2019-05-29"
+      }
+    },
+    "kv100": {
+      "value": 1.23,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 1.23 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12819.pdf",
+        "page": 2,
+        "revision_date": "2019-05-29"
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.859,
+      "qualifier": null,
+      "min": 0.847,
+      "max": 0.872,
+      "value_kind": "typical",
+      "printed_text": "Typical 0.859 kg/dm3 at 15°C; specification 0.847–0.872 kg/dm3",
+      "unit": "g/cm3",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12819.pdf",
+        "page": 2,
+        "revision_date": "2019-05-29"
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "SDS DL2-13379.pdf has rounded KV40 3 cSt vs PDS 3.20 cSt; no definitive contradiction (SDS rounded).",
+    "SDS flash >100°C consistent with PDS 107°C; SDS density 0.86 g/cm3 rounded vs PDS 0.859 g/cm3."
+  ],
+  "conflicts": []
+}

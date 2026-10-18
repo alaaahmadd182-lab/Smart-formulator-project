@@ -1,0 +1,166 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "YUBASE_4",
+  "product": {
+    "product_name": "YUBASE 4",
+    "supplier": "YUBASE-SK (archive folder); document issued by NARMAK TRADE S.R.O.",
+    "document_type": "Product property sheet",
+    "source_file": "DL2-11304.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "III",
+        "status": "Reported",
+        "source": {
+          "file": "https://www.skenmove.com/business/base_oil",
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": "YUBASE: API Group III (SK Enmove official base oil classification)",
+        "value_kind": "reported",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "API Group III classification is attributed to SK Enmove's official YUBASE product information, not to the archived NARMAK TRADE property sheet DL2-11304.pdf. Preserve the external manufacturer reference for traceability.",
+        "flash_method": null,
+        "test_temperature_c": null
+      },
+      
+      "chemistry": {
+        "value": "Distillates (petroleum), hydrotreated heavy paraffinic",
+        "status": "Reported",
+        "source": {
+          "file": "https://www.slideshare.net/slideshow/yubase4-eng/33826605",
+          "page": 1,
+          "revision_date": "1999-02-12"
+        },
+        "printed_text": "Distillate, Hydrotreated Heavy Paraffines",
+        "value_kind": "supplier SDS composition",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "Historical SK Corporation YUBASE 4 MSDS No. 739-YU4-02, Section 2, reports 100% hydrotreated heavy paraffinic distillate, CAS 64742-54-7. This is an external historical SDS, not the archived NARMAK TRADE property sheet DL2-11304.pdf.",
+        "flash_method": null,
+        "test_temperature_c": null,
+        "unit": null
+      }
+
+    },
+    "kv40": {
+      "value": 19.57,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "reported",
+      "printed_text": "19,57 mm2/s at 40 °C",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11304.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "kv100": {
+      "value": 4.23,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "reported",
+      "printed_text": "4,23 mm2/s at 100 °C",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11304.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "viscosity_index": {
+      "value": 122,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "reported",
+      "printed_text": "122",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11304.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    
+  "ccs": [
+    {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "mPa.s",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "No grade-specific CCS cold-cranking viscosity measurement, test temperature, or test method is reported in archived YUBASE 4 property sheet DL2-11304.pdf.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    }
+  ]
+
+  },
+ 
+  "open_questions": [
+    "Confirm the manufacturer and distributor relationship between SK Corporation/SK Enmove and NARMAK TRADE S.R.O. for archived YUBASE 4.",
+    "API Group III classification is supported by SK Enmove manufacturer information but is not explicitly stated in archived property sheet DL2-11304.pdf. Confirm that the classification applies to the archived grade.",
+    "Historical SK Corporation YUBASE 4 MSDS No. 739-YU4-02, dated 1999-02-12, identifies the chemistry as hydrotreated heavy paraffinic petroleum distillate (CAS 64742-54-7). Confirm that this historical composition applies to the archived NARMAK TRADE product grade.",
+    "The specific-gravity entry at 15°C is printed as 0.8338 with the inconsistent unit g/m3. Verify the original unit and measurement conditions before assigning a density value.",
+    "No grade-specific CCS cold-cranking viscosity, test temperature, or test method is reported in archived property sheet DL2-11304.pdf.",
+    "Confirm the issue date of the archived NARMAK TRADE property sheet and whether newer applicable TDS/SDS revisions are available."
+  ],
+  "conflicts": []
+}

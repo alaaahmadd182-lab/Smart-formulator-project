@@ -1,0 +1,620 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "AFTON_HITEC_12210M",
+  "product": {
+    "product_name": "HiTEC® 12210M",
+    "supplier": "Afton Chemical Corporation",
+    "document_type": [
+      "TDS",
+      "TDS",
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-11796.pdf",
+      "DL2-15568.pdf",
+      "DL2-15569.pdf"
+    ],
+    "revision_date": [
+      "05/18",
+      "04/22",
+      "2022-10-11"
+    ]
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "Heavy Duty Additive Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 1,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "dispersant inhibitor package for use in mainline heavy duty diesel engine oils",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CK-4",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40; API CK-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API SN",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "CAT ECF-3",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40; API CK-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Ford WSS-M2C171-F1",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40; API CK-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20086",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40; API CK-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Detroit Diesel DDC93K222",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40; API CK-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EOS-4.5",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40; API CK-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Volvo VDS 4.5",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40; API CK-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Renault VI RLD-4",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40; API CK-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E7-22",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40; API CK-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E11-22",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40; API CK-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 228.31",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40; API CK-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 3275",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40; API CK-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 3575",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 3775",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40; API CK-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Deutz DQC III-18LA",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40; API CK-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Allison TES 439",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API CK-4 15W-40; API CK-4 10W-40. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API FA-4",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API FA-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20087",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API FA-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Detroit Diesel DDC93K223",
+        "claim_type": "meets",
+        "scope": "Claims table, legend 'Meets requirements'; rows: API FA-4 10W-30. At 18.0% wt. Table note: 'Approvals/Claims are specific for each formulation.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CJ-4, CI-4+, CI-4, CH-4",
+        "claim_type": "other",
+        "scope": "HiTEC® 12210M CK-4 blended oils are backwards compatible at the same 18.0% wt. treat rate to API CJ-4, CI-4+, CI-4 and CH-4 performance claims under current licensing guidelines.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15568.pdf",
+          "page": 2,
+          "revision_date": "04/22"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for API CK-4/FA-4 packages), not from the product datasheet. Packages claiming API CK-4/FA-4 performance are typically designed for Group II/III base oils. Rule of thumb only, not a supplier statement or an API 1509 restriction. Afton bulletin says 'in a range of market basestocks' without naming groups."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "HiTEC® 12210M already contains a pour point depressant (PPD) so no supplemental PPD should be needed to meet low temperature properties.",
+        "Approvals/Claims are specific for each formulation. Any change in the base oil/additive percentage could affect the accuracy of these approvals/claims."
+      ],
+      "exclusions": [],
+      "allowed_combinations": [
+        "API CK-4 / FA-4 claims stated for use with OCP Viscosity Modifiers HiTEC® 5748A or HiTEC® 5748"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-15568.pdf",
+        "page": 2,
+        "revision_date": "04/22"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CK-4; API SN; CAT ECF-3; Ford WSS-M2C171-F1; Cummins CES 20086; Detroit Diesel DDC93K222; Mack EOS-4.5; Volvo VDS 4.5; Renault VI RLD-4; ACEA E7-22; ACEA E11-22; MB 228.31; MAN 3275; MAN 3575; MAN 3775; Deutz DQC III-18LA; Allison TES 439",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 18.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "At the recommended treat rate of 18.0% wt.",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Row 'API CK-4 15W-40' of the claims table; text gives one treat rate for all CK-4/FA-4 grades.",
+          "source": {
+            "file": "DL2-15568.pdf",
+            "page": 2,
+            "revision_date": "04/22"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CK-4; API SN; CAT ECF-3; Ford WSS-M2C171-F1; Cummins CES 20086; Detroit Diesel DDC93K222; Mack EOS-4.5; Volvo VDS 4.5; Renault VI RLD-4; ACEA E7-22; ACEA E11-22; MB 228.31; MAN 3275; MAN 3775; Deutz DQC III-18LA; Allison TES 439",
+        "sae_grade": "SAE 10W-40",
+        "treat_rate_wt_pct": {
+          "value": 18.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "At the recommended treat rate of 18.0% wt.",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Row 'API CK-4 10W-40' of the claims table; text gives one treat rate for all CK-4/FA-4 grades.",
+          "source": {
+            "file": "DL2-15568.pdf",
+            "page": 2,
+            "revision_date": "04/22"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CK-4; CAT ECF-3; Ford WSS-M2C171-F1; Cummins CES 20086; Detroit Diesel DDC93K222; Mack EOS-4.5; Volvo VDS 4.5; Renault VI RLD-4; ACEA E7-22; ACEA E11-22; MB 228.31; MAN 3275; MAN 3575; MAN 3775; Deutz DQC III-18LA",
+        "sae_grade": "SAE 10W-30",
+        "treat_rate_wt_pct": {
+          "value": 18.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "At the recommended treat rate of 18.0% wt.",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Row 'API CK-4 10W-30' of the claims table; text gives one treat rate for all CK-4/FA-4 grades.",
+          "source": {
+            "file": "DL2-15568.pdf",
+            "page": 2,
+            "revision_date": "04/22"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API FA-4; Cummins CES 20087; Detroit Diesel DDC93K223",
+        "sae_grade": "SAE 10W-30",
+        "treat_rate_wt_pct": {
+          "value": 18.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "At the recommended treat rate of 18.0% wt.",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Row 'API FA-4 10W-30' of the claims table; text gives one treat rate for all CK-4/FA-4 grades.",
+          "source": {
+            "file": "DL2-15568.pdf",
+            "page": 2,
+            "revision_date": "04/22"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "OCP Viscosity Modifier",
+        "name": "HiTEC® 5748A or HiTEC® 5748",
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Named on DL2-15568.pdf p.2 for the API CK-4/FA-4 claims; dose not printed.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Product name differs: bulletins print 'HiTEC® 12210M' (DL2-11796.pdf, DL2-15568.pdf p.1-2); SDS prints 'HiTEC® 12210M Performance Additive' (DL2-15569.pdf p.1).",
+    "Supplier: bulletins name Afton Chemical Corporation; SDS DL2-15569.pdf p.1 lists Afton entities under 'Manufacturer / Supplier'.",
+    "Claims table changed between bulletins. 05/18 (DL2-11796.pdf p.2) columns not in 04/22: API CJ-4 (CK-4 15W-40 and 10W-30), Ford WSS-M2C214-B1 (FA-4 10W-30), ACEA E7-16, ACEA E9-16, MTU 2.1, Deutz DQC III-10LA. 04/22 (DL2-15568.pdf p.2) adds row API CK-4 10W-40 and columns ACEA E7-22, ACEA E11-22, MAN 3775, Deutz DQC III-18LA, Allison TES 439. For the columns present in both, the dots agree, so no conflict entries. Fields use the 04/22 table.",
+    "05/18 text names only HiTEC® 5748A as the VM and only SAE 15W-40/10W-30 for CK-4; 04/22 adds HiTEC® 5748 and SAE 10W-40.",
+    "Required VM dose is not printed in either bulletin; left Missing.",
+    "Permitted base oils: only 'in a range of market basestocks' / 'in appropriate grades and base stocks' (DL2-15568.pdf p.2); left Missing.",
+    "Radar chart 'Afton CK-4 vs. CJ-4 Performance Comparison' (p.2) has no numeric values; not recorded."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

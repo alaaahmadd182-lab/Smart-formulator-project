@@ -1,0 +1,315 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "JINZHOU_KANGTAI_KT31140",
+  "product": {
+    "product_name": "KT31140",
+    "supplier": "KangTai . Lubricant Addtives",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-12961.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "tbn": {
+      "value": 135,
+      "qualifier": "≥",
+      "min": 135,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "TBN, mg KOH/g 135 min SH/T 0251",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "SH/T 0251",
+      "status": "reported",
+      "calculation_note": "Printed as a minimum. Column header 'Typical Value' but each value printed with 'min'.",
+      "source": {
+        "file": "DL2-12961.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 18.98,
+      "qualifier": "≥",
+      "min": null,
+      "max": null,
+      "value_kind": "calculated lower bound",
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "Calculated (ASTM D874 factors)",
+      "status": "calculated",
+      "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×5.0 (Ca) + 1.24×1.6 (Zn) = 18.9840 → 18.98 wt.%. Mg not reported, taken as 0. Inputs are printed minimums (≥), so the result is a lower bound.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+    },
+    "elements": {
+      "Ca": {
+        "value": 5.0,
+        "qualifier": "≥",
+        "min": 5.0,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Calcium, wt% 5.0 min SH/T 0270",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T 0270",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum. Column header 'Typical Value' but each value printed with 'min'.",
+        "source": {
+          "file": "DL2-12961.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.6,
+        "qualifier": "≥",
+        "min": 1.6,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Zinc, wt% 1.6 min SH/T 0226",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T 0226",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum. Column header 'Typical Value' but each value printed with 'min'.",
+        "source": {
+          "file": "DL2-12961.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 1.4,
+        "qualifier": "≥",
+        "min": 1.4,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Phosphorus, wt% 1.4 min SH/T 0296",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T 0296",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum. Column header 'Typical Value' but each value printed with 'min'.",
+        "source": {
+          "file": "DL2-12961.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.45,
+        "qualifier": "≥",
+        "min": 0.45,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Nitrogen, wt% 0.45 min SH/T0224",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T0224",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum. Column header 'Typical Value' but each value printed with 'min'.",
+        "source": {
+          "file": "DL2-12961.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3 (or as printed)",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 180,
+      "qualifier": "≥",
+      "min": 180,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Flash Point (COC) °C 180 min GB/T 3536",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "GB/T 3536",
+      "status": "reported",
+      "calculation_note": "Printed as a minimum. Column header 'Typical Value' but each value printed with 'min'.",
+      "source": {
+        "file": "DL2-12961.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "KV100 printed as 'Report' with no value (DL2-12961.pdf p.1).",
+    "Column header 'Typical Value' but each value printed with 'min'. Recorded as minimum specifications.",
+    "Density, KV40, sulfated ash, Mg, B, Mo, S and pour point not printed."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

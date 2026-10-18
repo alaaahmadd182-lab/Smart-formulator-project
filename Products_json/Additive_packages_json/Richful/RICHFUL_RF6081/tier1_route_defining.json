@@ -1,0 +1,280 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "RICHFUL_RF6081",
+  "product": {
+    "product_name": "RF6081",
+    "supplier": "Xinxiang Richful Lube Additive Co., Ltd.",
+    "document_type": [
+      "TDS",
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-15836.pdf",
+      "DL2-15837.pdf"
+    ],
+    "revision_date": [
+      "2025-05-13",
+      "2025-04-09"
+    ]
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "diesel engine oil additive package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15836.pdf",
+          "page": 1,
+          "revision_date": "2025-05-13"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "RF6081 diesel engine oil additive package meets all API CI-4, ACEA E7 and JASO DH-1 certification requirements, delivering exceptional performance.",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15836.pdf",
+          "page": 1,
+          "revision_date": "2025-05-13"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "meets",
+        "scope": "Text: 'RF6081 diesel engine oil additive package meets all API CI-4, ACEA E7 and JASO DH-1 certification requirements, delivering exceptional performance.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15836.pdf",
+          "page": 1,
+          "revision_date": "2025-05-13"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E7",
+        "claim_type": "meets",
+        "scope": "Text: 'RF6081 diesel engine oil additive package meets all API CI-4, ACEA E7 and JASO DH-1 certification requirements, delivering exceptional performance.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15836.pdf",
+          "page": 1,
+          "revision_date": "2025-05-13"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "JASO DH-1",
+        "claim_type": "meets",
+        "scope": "Text: 'RF6081 diesel engine oil additive package meets all API CI-4, ACEA E7 and JASO DH-1 certification requirements, delivering exceptional performance.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15836.pdf",
+          "page": 1,
+          "revision_date": "2025-05-13"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15836.pdf",
+          "page": 1,
+          "revision_date": "2025-05-13"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "20W-50",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15836.pdf",
+          "page": 1,
+          "revision_date": "2025-05-13"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group II"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "When blended with appropriate Group II base oils using viscosity index improvers and pour point depressants"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-15836.pdf",
+        "page": 1,
+        "revision_date": "2025-05-13"
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CI-4; ACEA E7; JASO DH-1",
+        "sae_grade": "15W-40, 20W-50",
+        "treat_rate_wt_pct": {
+          "value": 9.6,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Recommended treat rate is 9.60wt% (including anti-foam agent).",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Single rate for both grades; includes anti-foam agent.",
+          "source": {
+            "file": "DL2-15836.pdf",
+            "page": 1,
+            "revision_date": "2025-05-13"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "Viscosity index improver",
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Text: 'using viscosity index improvers and pour point depressants'; not named, no dose.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "Pour point depressant",
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Text: 'using viscosity index improvers and pour point depressants'; not named, no dose.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "TDS issue date 2025-05-13 (p.1-2); SDS issue date 2025-04-09.",
+    "Claim wording: 'meets all ... certification requirements' recorded as 'meets'. VII and PPD required but not named."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

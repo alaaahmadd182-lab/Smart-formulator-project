@@ -1,0 +1,145 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "ERGON_HYGOLD_P70N",
+  "product": {
+    "product_name": "HyGold P70N",
+    "supplier": "Ergon - West Virginia, Inc.",
+    "document_type": "Marketing specification",
+    "source_file": "DL2-13346.pdf",
+    "revision_date": "2017-05-09"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null
+      },
+      "chemistry": {
+        "value": "Severely hydrotreated paraffinic base oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-13346.pdf",
+          "page": 1,
+          "revision_date": "2017-05-09"
+        },
+        "value_kind": "supplier description",
+        "printed_text": "Severely hydrotreated paraffinic base oil",
+        "method": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "kv40": {
+      "value": 11.8,
+      "qualifier": null,
+      "min": 9.6,
+      "max": 13.3,
+      "value_kind": "typical",
+      "printed_text": "Typical 11.8 cSt; specification 9.6–13.3 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13346.pdf",
+        "page": 1,
+        "revision_date": "2017-05-09"
+      }
+    },
+    "kv100": {
+      "value": 2.9,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 2.9 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13346.pdf",
+        "page": 1,
+        "revision_date": "2017-05-09"
+      }
+    },
+    "viscosity_index": {
+      "value": 81,
+      "qualifier": "minimum",
+      "min": 60,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "60 (minimum specification); 81 (typical value)",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13346.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "Supplier specification lists a minimum VI of 60 and a separate typical VI of 81. The value field is the reported typical value; min is the supplier minimum specification."
+    },
+    "density": {
+      "value": 855.2,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density at 15.6°C: 0.8552 g/cm³; converted to 855.2 kg/m³",
+      "unit": "kg/m3",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D1250",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13346.pdf",
+        "page": 1,
+        "revision_date": "2017-05-09"
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "API group not explicitly stated.",
+    "SDS cross-check pending.",
+    "Supplier specific gravity 0.8559 and density 0.8552 g/cm3 at 15.6°C differ slightly; retained separately without equating."
+  ],
+  "conflicts": []
+}

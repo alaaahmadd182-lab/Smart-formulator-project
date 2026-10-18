@@ -1,0 +1,112 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "S_OIL_ARAMCO_ULTRA_8",
+  "product": {
+    "product_name": "aramcoULTRA 8 (250 Neutral)",
+    "supplier": "S-OIL",
+    "document_type": "Safety Data Sheet",
+    "source_file": "DL2-14611.pdf",
+    "revision_date": "2018-09-07"
+  },
+  "fields": {
+    "mrv": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "yield_stress": {
+          "value": null,
+          "unit": "Pa",
+          "status": "Missing",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "flash_point": {
+      "value": null,
+      "qualifier": null,
+      "min": 240,
+      "max": 260,
+      "value_kind": "range",
+      "printed_text": "240 ~ 260°C (ASTM D 92)",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14611.pdf",
+        "page": 2,
+        "revision_date": "2018-09-07"
+      },
+      "flash_method": "COC"
+    }
+  },
+  
+  "open_questions": [
+    "API group not explicitly specified in the original SDS.",
+    "The original SDS reports viscosity ranges; additional typical properties are available in Aramco's grade-specific technical datasheet.",
+    "Verify whether the SDS relative density 0.847 at 15°C is dimensionless relative density rather than absolute mass density; do not silently convert.",
+    "MRV viscosity and its test temperature are not reported in the reviewed manufacturer technical specifications.",
+    "Final source-level audit and alternate document reconciliation pending."
+  ],
+  "conflicts": []
+}

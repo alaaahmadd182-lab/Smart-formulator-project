@@ -1,0 +1,142 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "NESTE_NEXBASE_3020",
+  "product": {
+    "product_name": "NEXBASE 3020",
+    "supplier": "Neste (Suisse) S.A.",
+    "document_type": "Safety Data Sheet",
+    "source_file": "DL2-14513.pdf; DL2-14514.pdf",
+    "revision_date": "2020-06-16"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null
+      },
+      "chemistry": {
+        "value": "Lubricating oils (petroleum), C15-C30, hydrotreated neutral oil-based",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-14513.pdf",
+          "page": 1,
+          "revision_date": "2020-06-16"
+        },
+        "printed_text": "Chemical name as printed",
+        "value_kind": "supplier description",
+        "method": null
+      }
+    },
+    "kv40": {
+      "value": 7.5,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Kinematic viscosity typical value 7,5 mm2/s @ 40°C (ASTM D-445)",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14513.pdf",
+        "page": 5,
+        "revision_date": "2020-06-16"
+      }
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "relative density",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "No product TDS supplied for NEXBASE 3020; only two matching SDS files.",
+    "API group, KV100, VI, mass density, sulfur and other absent properties remain missing.",
+    "Relative density 0.82 at 15°C must not be treated as mass density."
+  ],
+  "conflicts": []
+}

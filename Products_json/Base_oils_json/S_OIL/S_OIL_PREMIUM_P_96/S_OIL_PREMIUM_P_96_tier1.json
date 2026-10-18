@@ -1,0 +1,165 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "S_OIL_PREMIUM_P_96",
+  "product": {
+    "product_name": "P-96 (Premium 500N)",
+    "supplier": "S-OIL",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-11173.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null,
+        "flash_method": null,
+        "test_temperature_c": null
+      },
+      
+    "chemistry": {
+      "value": "Distillates (petroleum), hydrotreated heavy paraffinic",
+      "status": "Reported",
+      "source": {
+        "file": "https://www.s-oil.com/common/page/FileDownload.aspx?FileName=20150714152837315.pdf&PIndex=21&PathType=BOARD&TFileName=P96_20150610.pdf",
+        "page": 1,
+        "revision_date": "2015-06-10"
+      },
+      "printed_text": "Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; purity 100%",
+      "value_kind": "supplier composition",
+      "method": null,
+      "min": null,
+      "max": null,
+      "qualifier": null,
+      "calculation_note": "Grade-specific chemical composition reported in Section 3 of S-OIL Premium-96 SDS.",
+      "flash_method": null,
+      "test_temperature_c": null
+    }
+
+    },
+    "kv40": {
+      "value": 95.79,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "95.79 cSt @40°C",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11173.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "kv100": {
+      "value": 10.97,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "10.97 cSt @100°C",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11173.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "viscosity_index": {
+      "value": 99,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "99",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11173.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "flash_method": null
+      }
+    ]
+
+  },
+  
+  "open_questions": [
+    "API Group for historical S-OIL P-96 (Premium 500N) has not been explicitly verified.",
+    "Chemistry confirmed in S-OIL Premium-96 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; purity 100%.",
+    "Historical product catalog reports specific gravity 0.8811 at 15/4°C (ASTM D1298), not an absolute density measurement.",
+    "No grade-specific CCS viscosity or CCS test temperature has been verified for P-96.",
+    "Noack volatility, saturates and aromatics remain unverified for the historical P-96 grade.",
+    "Final source-level reconciliation between original product datasheet and grade-specific SDS pending."
+  ],
+  "conflicts": []
+}

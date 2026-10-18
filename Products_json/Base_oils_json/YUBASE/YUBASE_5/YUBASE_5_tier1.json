@@ -1,0 +1,164 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "YUBASE_5",
+  "product": {
+    "product_name": "YUBASE 5",
+    "supplier": "YUBASE-SK (archive folder); document issued by NARMAK TRADE S.R.O.",
+    "document_type": "Product property sheet",
+    "source_file": "DL2-11305.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "III",
+        "status": "Reported",
+        "source": {
+          "file": "https://www.zic-europe.com/Business_with_ZIC.pdf",
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": "manufacturer family classification",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "SK Lubricants identifies the YUBASE brand as API Group III in its official Business with ZIC publication. The source does not explicitly identify YUBASE 5. Classification is provisionally attributed from the manufacturer family description and requires grade-specific confirmation for archived product DL2-11305.pdf.",
+        "flash_method": null,
+        "test_temperature_c": null
+      },
+      "chemistry": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null,
+        "flash_method": null,
+        "test_temperature_c": null,
+        "unit": null
+      }
+    },
+    "kv40": {
+      "value": 25.24,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "reported",
+      "printed_text": "25,24 mm2/s at 40 °C",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11305.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "kv100": {
+      "value": 4.99,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "reported",
+      "printed_text": "4,99 mm2/s at 100 °C",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11305.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "viscosity_index": {
+      "value": 126,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "reported",
+      "printed_text": "126",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11305.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+   
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "No grade-specific CCS cold-cranking viscosity, test temperature, or test method is reported in archived YUBASE 5 property sheet DL2-11305.pdf.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "flash_method": null
+      }
+    ]
+
+  },
+  "open_questions": [
+    "SK Lubricants officially describes the YUBASE brand as API Group III, but the located manufacturer publication does not explicitly classify YUBASE 5. Obtain grade-specific confirmation before final approval.",
+    "API Group III classification is supported by SK Enmove manufacturer information, but is not explicitly stated in archived property sheet DL2-11304.pdf. Confirm that the classification applies to the archived grade.",
+    "Historical SK Corporation YUBASE 4 MSDS No. 739-YU4-02, dated 1999-02-12, identifies hydrotreated heavy paraffinic petroleum distillate (CAS 64742-54-7). Confirm that this composition applies to the archived grade.",
+    "The specific-gravity entry at 15°C is printed as 0.8338 with the inconsistent unit g/m3. Verify the original unit and measurement conditions before assigning density.",
+    "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in archived property sheet DL2-11304.pdf.",
+    "Noack volatility is reported as 15 wt% using DIN 51581. The source transcription does not specify a test temperature; do not assume one.",
+    "Confirm the archived property sheet's issue date and applicable product revision."
+  ],
+  "conflicts": []
+}

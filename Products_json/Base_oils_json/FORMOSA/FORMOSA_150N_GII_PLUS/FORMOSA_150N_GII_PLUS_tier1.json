@@ -1,0 +1,138 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "FORMOSA_150N_GII_PLUS",
+  "product": {
+    "product_name": "Base Oil 150N GII+",
+    "supplier": "Formosa Petrochemical Corporation",
+    "document_type": "Product specification + MSDS",
+    "source_file": "DL2-10001.pdf; DL2-10011.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group II+",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10001.pdf",
+          "page": 1,
+          "revision_date": "2009-10-21"
+        },
+        "printed_text": "Product Name: Base Oil 150N GII+",
+        "value_kind": "supplier description"
+      },
+      "chemistry": {
+        "value": "Catalytic dewaxed paraffinic oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10011.pdf",
+          "page": 1,
+          "revision_date": "2011-05-05"
+        },
+        "printed_text": "CATALYTIC DEWAXED PARAFFINIC OIL",
+        "value_kind": "supplier description"
+      }
+    },
+    "kv40": {
+      "value": 29.3,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "29.3 cSt at 40 C",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10011.pdf",
+        "page": 3,
+        "revision_date": "2011-05-05"
+      }
+    },
+    "kv100": {
+      "value": 5.2,
+      "qualifier": null,
+      "min": 5,
+      "max": 5.4,
+      "value_kind": "typical",
+      "printed_text": "SDS 5.2 cSt; specification range 5.0–5.4 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10011.pdf",
+        "page": 3,
+        "revision_date": "2011-05-05"
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": 110,
+      "max": null,
+      "value_kind": "minimum",
+      "printed_text": "Min 110",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10001.pdf",
+        "page": 1,
+        "revision_date": "2009-10-21"
+      }
+    },
+    "density": {
+      "value": 0.85,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Relative density at 15 C: 0.85",
+      "unit": "relative density",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10011.pdf",
+        "page": 3,
+        "revision_date": "2011-05-05"
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "Supplier group II+ is a commercial subclass, not a separate API group.",
+    "Density reported as relative density, not mass density; preserve original units.",
+    "KV40 reported only in SDS, not specification."
+  ],
+  "conflicts": []
+}

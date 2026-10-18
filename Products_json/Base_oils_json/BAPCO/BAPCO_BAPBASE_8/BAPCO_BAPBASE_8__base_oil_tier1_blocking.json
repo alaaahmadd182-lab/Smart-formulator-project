@@ -1,0 +1,163 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "BAPCO_BAPBASE_8__T1",
+  "product": {
+    "product_name": "BAPbase 8",
+    "supplier": "Bapco",
+    "document_type": "Bahrain Refinery Product Specification",
+    "source_file": "DL2-13093.jpg",
+    "revision_date": "2017-08-17"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+      "value": "Group III",
+      "status": "Reported",
+      "basis": "External official manufacturer product-family classification",
+      "notes": "The supplied DL2-13093.jpg does not explicitly state the API Group. Bapco's official website identifies BAPbase products as Group III lubricant base oils.",
+      "source": {
+        "file": "https://www.bapco.net/en/page/crude-and-petroleum-products",
+        "page": null,
+        "revision_date": null
+      }
+    },
+      "chemistry": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": "range",
+      "min": 45,
+      "max": 55,
+      "value_kind": "range",
+      "printed_text": "45 - 55",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13093.jpg",
+        "page": 1,
+        "revision_date": "2017-08-17"
+      }
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": "range",
+      "min": 7.8,
+      "max": 8.2,
+      "value_kind": "range",
+      "printed_text": "7.8 - 8.2",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13093.jpg",
+        "page": 1,
+        "revision_date": "2017-08-17"
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": "minimum",
+      "min": 125,
+      "max": null,
+      "value_kind": "minimum",
+      "printed_text": "125 min",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13093.jpg",
+        "page": 1,
+        "revision_date": "2017-08-17"
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": "maximum",
+        "min": null,
+        "max": 10000,
+        "value_kind": "maximum",
+        "printed_text": "10000 max",
+        "unit": "mPa.s",
+        "test_temperature_c": -30,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-13093.jpg",
+          "page": 1,
+          "revision_date": "2017-08-17"
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    {
+      "field": "api_group_chemistry.chemistry",
+      "note": "Exact grade-specific chemistry and CAS number have not been verified from a BAPbase 8 SDS."
+    },
+    {
+      "field": "density",
+      "note": "Original Bapco specification says 'To be reported'. External Ergon/MOGO catalog reports specific gravity 0.847 at 15/4°C, but no directly reported density in kg/m3 has been entered."
+    }
+  ],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-13093.jpg",
+      "pages": [
+        1
+      ],
+      "doc_type": "Product specification",
+      "revision_date": "2017-08-17"
+    },
+    {
+      "file": "https://www.bapco.net/en/page/crude-and-petroleum-products",
+      "pages": [],
+      "doc_type": "External official manufacturer product classification",
+      "revision_date": null
+    },
+    {
+      "file": "https://specs.ergonspecialtyoils.com/mogoil/MOGO-2025_Base%20Oils_Flyer_a4_Digital.pdf",
+      "pages": [],
+      "doc_type": "External distributor typical-property catalog",
+      "revision_date": null
+    }
+  ]
+}

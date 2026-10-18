@@ -1,0 +1,113 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "PETRONAS_ETRO_6",
+  "product": {
+    "product_name": "ETRO 6",
+    "supplier": "PETRONAS",
+    "document_type": "Technical Data Sheet",
+    "source_file": "DL2-12475.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "sulfur": {
+      "value": 5,
+      "qualifier": null,
+      "min": null,
+      "max": 30,
+      "value_kind": "typical",
+      "printed_text": "Typical 5 ppm; specification <30 ppm",
+      "unit": "ppm",
+      "test_temperature_c": null,
+      "method": "ASTM D2622",
+      "status": "Reported",
+      "calculation_note": "Specification strictly <30 ppm; see printed_text.",
+      "source": {
+        "file": "DL2-12475.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "saturates": {
+      "value": 99,
+      "qualifier": null,
+      "min": 95,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 99%; specification >95%",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "IP368",
+      "status": "Reported",
+      "calculation_note": "Specification strictly >95%; see printed_text.",
+      "source": {
+        "file": "DL2-12475.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    "No separate grade-specific SDS verified for ETRO 6.",
+    "KV40 and density not reported in supplied TDS.",
+    "No dated revision on TDS.",
+    "Flash specification is printed as >220°C; no conversion to >=220°C."
+  ],
+  "conflicts": []
+}

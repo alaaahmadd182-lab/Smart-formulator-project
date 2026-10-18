@@ -1,0 +1,147 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "PETRONAS_M500",
+  "product": {
+    "product_name": "M500",
+    "supplier": "PETRONAS Lubricants International",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-10949.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "II",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10949.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "printed_text": "High Quality Group II+ Base Oil",
+        "value_kind": "manufacturer classification",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      },
+      "chemistry": {
+        "value": "Hydrotreated and wax-isomerized highly isoparaffinic base oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10949.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "printed_text": "proprietary hydro-treatment and wax isomerization process; hydrofinished",
+        "value_kind": "manufacturer description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 80.3,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "80.30 mm2/s",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10949.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 10.5,
+      "qualifier": null,
+      "min": 9.8,
+      "max": 12.3,
+      "value_kind": "typical",
+      "printed_text": "10.50 mm2/s; specification 9.80–12.30",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10949.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 115,
+      "qualifier": null,
+      "min": 105,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "115; specification ≥105",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10949.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.8642,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "0.8642 kg/L at 15°C",
+      "unit": "kg/L",
+      "test_temperature_c": 15,
+      "method": "ASTM D1298 / ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10949.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "No independently verified grade-specific SDS for M500.",
+    "TDS has no stated calendar revision date."
+  ],
+  "conflicts": []
+}

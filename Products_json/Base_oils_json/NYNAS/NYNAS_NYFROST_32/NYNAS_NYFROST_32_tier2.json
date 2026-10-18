@@ -1,0 +1,134 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "NYNAS_NYFROST_32",
+  "product": {
+    "product_name": "NYFROST 32",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-11510.pdf",
+    "revision_date": "2016-11-01"
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -45,
+      "qualifier": null,
+      "min": null,
+      "max": -30,
+      "value_kind": "typical",
+      "printed_text": "Typical -45°C; specification maximum -30°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11510.pdf",
+        "page": 2,
+        "revision_date": "2016-11-01"
+      }
+    },
+    "flash_point": {
+      "value": 176,
+      "qualifier": null,
+      "min": 174,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Pensky-Martens typical 176°C; specification minimum 174°C; COC typical 190°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D93",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11510.pdf",
+        "page": 2,
+        "revision_date": "2016-11-01"
+      },
+      "flash_method": "PM"
+    }
+  },
+  "open_questions": [
+    "Resolve SDS KV40 31 cSt versus PDS 32 cSt and SDS PM flash >180°C versus PDS PM typical 176°C.",
+    "Check whether differing document dates or test conditions explain discrepancy."
+  ],
+  "conflicts": [
+    {
+      "property": "kv40",
+      "source_a": "DL2-11510.pdf p.2 (2016-11-01)",
+      "value_a": "32 cSt (typical)",
+      "source_b": "DL2-13444.pdf p.6 (2020-05-23)",
+      "value_b": "31 cSt (SDS)",
+      "resolution": "Retained supplier PDS typical value; SDS discrepancy flagged."
+    },
+    {
+      "property": "flash_point",
+      "source_a": "DL2-11510.pdf p.2 (2016-11-01)",
+      "value_a": "176°C typical, Pensky-Martens (ASTM D93)",
+      "source_b": "DL2-13444.pdf p.6 (2020-05-23)",
+      "value_b": ">180°C closed cup Pensky-Martens",
+      "resolution": "Not numerically compatible; PDS typical retained and SDS limit flagged for review."
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "CHEVRON_OLOA_59230",
+  "product": {
+    "product_name": "OLOA 59230",
+    "supplier": "Chevron Oronite Company LLC",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-13876.pdf"
+    ],
+    "revision_date": "2020-06-25"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "Diesel Engine Oil Additive Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13876.pdf",
+          "page": 1,
+          "revision_date": "2020-06-25"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "It provides excellent deposit and sludge control, oil oxidation resistance, wear and rust control in diesel engines.",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13876.pdf",
+          "page": 1,
+          "revision_date": "2020-06-25"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF-4",
+        "claim_type": "other",
+        "scope": "'OLOA® 59230 is developed to meet API CF-4 performance.' (design intent wording, not 'meets').",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13876.pdf",
+          "page": 1,
+          "revision_date": "2020-06-25"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I",
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CF-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use)."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CF-4",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 5.94,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Dosage 5.94 wt%",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Single 'Dosage' printed; no grade given.",
+          "source": {
+            "file": "DL2-13876.pdf",
+            "page": 1,
+            "revision_date": "2020-06-25"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Claim wording 'is developed to meet API CF-4 performance' (DL2-13876.pdf p.1) recorded as claim_type 'other'; please confirm whether this should count as 'meets'.",
+    "Composition text p.1: 'contains ashless dispersant, zinc dithiophosphate, metallic detergents and anti-oxidant' (no shares).",
+    "No SAE grades, base oils, co-components or formulation printed; no SDS in the archive."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

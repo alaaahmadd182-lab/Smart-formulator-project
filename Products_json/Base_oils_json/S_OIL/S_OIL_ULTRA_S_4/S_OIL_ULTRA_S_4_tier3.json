@@ -1,0 +1,117 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "S_OIL_ULTRA_S_4",
+  "product": {
+    "product_name": "Ultra-S 4 (100 Neutral)",
+    "supplier": "S-OIL",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-11177.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "sulfur": {
+      "value": null,
+      "qualifier": "<",
+      "min": null,
+      "max": 1.0,
+      "value_kind": "limit",
+      "printed_text": "<1.0 wt ppm",
+      "unit": "wt ppm",
+      "test_temperature_c": null,
+      "method": "ASTM D5453",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11177.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "saturates": {
+      "value": null,
+      "qualifier": ">",
+      "min": 99,
+      "max": null,
+      "value_kind": "limit",
+      "printed_text": ">99 wt%",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D2007",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11177.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    }
+  },
+  "open_questions": [
+    "API group not explicitly specified in reviewed supplier documents.",
+    "Specific gravity 15/4 °C is dimensionless and is not absolute density.",
+    "SDS DL2-15139.pdf revised June 10, 2015; final source-level audit pending."
+  ],
+  "conflicts": []
+}

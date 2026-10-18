@@ -1,0 +1,168 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "NYNAS_NS_3",
+  "product": {
+    "product_name": "NS 3",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-15474.pdf",
+    "revision_date": "2024-05-30"
+  },
+  "fields": {
+    "sulfur": {
+      "value": 10,
+      "qualifier": "<",
+      "min": null,
+      "max": null,
+      "value_kind": "upper bound",
+      "printed_text": "Typical < 10 ppm",
+      "unit": "ppm",
+      "test_temperature_c": null,
+      "method": "ASTM D2622",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15474.pdf",
+        "page": 2,
+        "revision_date": "2024-05-30"
+      }
+    },
+    "saturates": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    "SDS reconciliation pending.",
+    "Older PDS DL2-12382.pdf (2016-11-01) has different typical values; confirm appropriate commercial revision."
+  ],
+  "conflicts": [
+    {
+      "property": "kv40",
+      "primary": {
+        "value": 2.92,
+        "source_file": "DL2-15474.pdf",
+        "page": 2
+      },
+      "alternate": {
+        "value": 2.84,
+        "source_file": "DL2-12382.pdf",
+        "page": 2
+      },
+      "note": "Different typical values in 2024 and 2016 editions; newer edition selected."
+    },
+    {
+      "property": "density",
+      "primary": {
+        "value": 0.863,
+        "source_file": "DL2-15474.pdf",
+        "page": 2
+      },
+      "alternate": {
+        "value": 0.86,
+        "source_file": "DL2-12382.pdf",
+        "page": 2
+      },
+      "note": "Different typical values in 2024 and 2016 editions."
+    },
+    {
+      "property": "flash_point",
+      "primary": {
+        "value": 95,
+        "source_file": "DL2-15474.pdf",
+        "page": 2
+      },
+      "alternate": {
+        "value": 94,
+        "source_file": "DL2-12382.pdf",
+        "page": 2
+      },
+      "note": "Different typical PM flash points in two editions."
+    },
+    {
+      "property": "sulfur",
+      "primary": {
+        "value": "<10 ppm",
+        "source_file": "DL2-15474.pdf",
+        "page": 2
+      },
+      "alternate": {
+        "value": "30 ppm",
+        "source_file": "DL2-12382.pdf",
+        "page": 2
+      },
+      "note": "Older typical 30 ppm versus newer upper-bound <10 ppm; not interchangeable."
+    }
+  ]
+}

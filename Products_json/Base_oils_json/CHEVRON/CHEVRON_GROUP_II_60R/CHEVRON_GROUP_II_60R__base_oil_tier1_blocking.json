@@ -1,0 +1,153 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "CHEVRON_GROUP_II_60R__T1",
+  "product": {
+    "product_name": "Chevron Base Oil 60R",
+    "supplier": "Chevron",
+    "document_type": "Group II/II+ Specifications",
+    "source_file": "DL2-10004.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "chemistry": {
+        "value": "mineral base oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10004.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "value_kind": "single",
+        "qualifier": null,
+        "printed_text": "mineral base oil",
+        "method": "Supplier product description"
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": "range",
+      "min": 9,
+      "max": 11.5,
+      "value_kind": "range",
+      "printed_text": "9 – 11.5",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10004.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    {
+      "field": "api_group_chemistry.api_group",
+      "note": "60R API group cell is blank in supplied table; heading alone is not an explicit classification."
+    },
+    {
+      "field": "density",
+      "note": "Not reported in supplier specification."
+    }
+  ],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-10004.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier specification",
+      "revision_date": null
+    }
+  ]
+}

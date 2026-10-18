@@ -1,0 +1,341 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "RICHFUL_RF6081",
+  "product": {
+    "product_name": "RF6081",
+    "supplier": "Xinxiang Richful Lube Additive Co., Ltd.",
+    "document_type": [
+      "TDS",
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-15836.pdf",
+      "DL2-15837.pdf"
+    ],
+    "revision_date": [
+      "2025-05-13",
+      "2025-04-09"
+    ]
+  },
+  "fields": {
+    "tbn": {
+      "value": 118.0,
+      "qualifier": null,
+      "min": 106.0,
+      "max": 130.0,
+      "value_kind": "typical",
+      "printed_text": "TBN, mg KOH/g 106-130 118 ASTM D2896",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "ASTM D2896",
+      "status": "reported",
+      "calculation_note": "TDS 'Typical Value' column with index/limit '106-130'.",
+      "source": {
+        "file": "DL2-15836.pdf",
+        "page": 2,
+        "revision_date": "2025-05-13"
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 14.67,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "calculated",
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "Calculated (ASTM D874 factors)",
+      "status": "calculated",
+      "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×3.8 (Ca) + 1.24×1.41 (Zn) = 14.6684 → 14.67 wt.%. Mg not reported, taken as 0.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+    },
+    "elements": {
+      "Ca": {
+        "value": 3.8,
+        "qualifier": null,
+        "min": 3.42,
+        "max": 4.18,
+        "value_kind": "typical",
+        "printed_text": "Ca Content, m% 3.42-4.18 3.80 ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '3.42-4.18'.",
+        "source": {
+          "file": "DL2-15836.pdf",
+          "page": 2,
+          "revision_date": "2025-05-13"
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.41,
+        "qualifier": null,
+        "min": 1.26,
+        "max": 1.56,
+        "value_kind": "typical",
+        "printed_text": "Zn Content, m% 1.26-1.56 1.41 ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '1.26-1.56'.",
+        "source": {
+          "file": "DL2-15836.pdf",
+          "page": 2,
+          "revision_date": "2025-05-13"
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 1.24,
+        "qualifier": null,
+        "min": 1.11,
+        "max": 1.37,
+        "value_kind": "typical",
+        "printed_text": "P Content, m% 1.11-1.37 1.24 ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '1.11-1.37'.",
+        "source": {
+          "file": "DL2-15836.pdf",
+          "page": 2,
+          "revision_date": "2025-05-13"
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.73,
+        "qualifier": null,
+        "min": 0.62,
+        "max": 0.84,
+        "value_kind": "typical",
+        "printed_text": "N Content, m% 0.62-0.84 0.73 ASTM D5762",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D5762",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '0.62-0.84'.",
+        "source": {
+          "file": "DL2-15836.pdf",
+          "page": 2,
+          "revision_date": "2025-05-13"
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 132.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Kinematic Viscosity (100℃), mm2/s Report 132 ASTM D445",
+      "unit": "mm2/s",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "reported",
+      "calculation_note": "Most recent of conflicting documents; see conflicts. TDS 'Typical Value' column.",
+      "source": {
+        "file": "DL2-15836.pdf",
+        "page": 2,
+        "revision_date": "2025-05-13"
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 1000.0,
+      "qualifier": null,
+      "min": 980.0,
+      "max": 1020.0,
+      "value_kind": "typical",
+      "printed_text": "Density（20℃）, kg/m3 980-1020 1000 ASTM D4052",
+      "unit": "kg/m3",
+      "test_temperature_c": 20,
+      "method": "ASTM D4052",
+      "status": "reported",
+      "calculation_note": "TDS 'Typical Value' column with index/limit '980-1020'. Same value in: DL2-15837.pdf p.5 (2025-04-09): 'Density : 1.000 g/cm3 (20 °C)'.",
+      "source": {
+        "file": "DL2-15836.pdf",
+        "page": 2,
+        "revision_date": "2025-05-13"
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 209.0,
+      "qualifier": null,
+      "min": 180.0,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Flash Point（COC）, ℃ ≥180 209 ASTM D92",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "reported",
+      "calculation_note": "TDS 'Typical Value' column with index/limit '≥180'. Compared with other documents on the printed minimum. Same value in: DL2-15837.pdf p.5 (2025-04-09): 'Flash point : ≥180 °C (COC)'.",
+      "source": {
+        "file": "DL2-15836.pdf",
+        "page": 2,
+        "revision_date": "2025-05-13"
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "TDS issue date 2025-05-13 (p.1-2); SDS issue date 2025-04-09.",
+    "SDS p.2 component shares (not element contents): hydrotreated heavy paraffinic distillate 10 - 59.9 %; ZDDP 5 - 19.9 %; overbased calcium sulfurized phenate 1 - 14.9 %; bis(nonylphenyl)amine 0.5 - 9.9 %; hindered phenolic ester 0.5 - 9.9 %.",
+    "Sulfated ash, KV40, Mg, B, Mo, S, pour point not printed."
+  ],
+  "conflicts": [
+    {
+      "field": "tier2.kv100",
+      "values": [
+        {
+          "value": 132.0,
+          "printed_text": "Kinematic Viscosity (100℃), mm2/s Report 132 ASTM D445",
+          "file": "DL2-15836.pdf",
+          "page": 2,
+          "revision_date": "2025-05-13"
+        },
+        {
+          "value": 130,
+          "printed_text": "Viscosity, kinematic : 130 mm2/s (100 °C)",
+          "file": "DL2-15837.pdf",
+          "page": 5,
+          "revision_date": "2025-04-09"
+        }
+      ],
+      "note": "All documents dated; field holds the most recent (DL2-15836.pdf). Not resolved."
+    }
+  ],
+  "external_fill_notes": []
+}

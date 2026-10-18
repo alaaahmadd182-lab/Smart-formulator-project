@@ -1,0 +1,315 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "LUBRIZOL_CV1103",
+  "product": {
+    "product_name": "LUBRIZOL® CV1103",
+    "supplier": "The Lubrizol Corporation",
+    "document_type": [
+      "PDS"
+    ],
+    "source_file": [
+      "DL2-14978.pdf"
+    ],
+    "revision_date": "2021-01-11"
+  },
+  "fields": {
+    "tbn": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 6.9,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "SULFATED ASH 6.9 % ASTM D 874",
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "ASTM D 874",
+      "status": "reported",
+      "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated).",
+      "source": {
+        "file": "DL2-14978.pdf",
+        "page": 2,
+        "revision_date": "2021-01-11"
+      },
+      "notes": null
+    },
+    "elements": {
+      "Ca": {
+        "value": 1.693,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "CALCIUM 1.693 % LZ Test Method",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "LZ Test Method",
+        "status": "reported",
+        "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated).",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 2,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 0.766,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "ZINC 0.766 % LZ Test Method",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "LZ Test Method",
+        "status": "reported",
+        "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated).",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 2,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 0.706,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "PHOSPHORUS 0.706 % LZ Test Method",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "LZ Test Method",
+        "status": "reported",
+        "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated).",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 2,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.905,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "NITROGEN 0.905 % ASTM D 5291",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D 5291",
+        "status": "reported",
+        "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated).",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 2,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      },
+      "S": {
+        "value": 2.32,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "SULFUR 2.32 % LZ Test Method",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "LZ Test Method",
+        "status": "reported",
+        "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated).",
+        "source": {
+          "file": "DL2-14978.pdf",
+          "page": 2,
+          "revision_date": "2021-01-11"
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": 1231.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "VISCOSITY @ 40 C, CST 1231 CST ASTM D 445",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D 445",
+      "status": "reported",
+      "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'.",
+      "source": {
+        "file": "DL2-14978.pdf",
+        "page": 2,
+        "revision_date": "2021-01-11"
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 77.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "VISCOSITY @ 100 C, CST 77 CST ASTM D 445",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D 445",
+      "status": "reported",
+      "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'.",
+      "source": {
+        "file": "DL2-14978.pdf",
+        "page": 2,
+        "revision_date": "2021-01-11"
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 0.953,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "SPECIFIC GRAVITY @ 15.6 C 0.953 SPGRAV ASTM D 4052",
+      "unit": "specific gravity (dimensionless)",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D 4052",
+      "status": "reported",
+      "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. reported as specific gravity.",
+      "source": {
+        "file": "DL2-14978.pdf",
+        "page": 2,
+        "revision_date": "2021-01-11"
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 150.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "FLASH POINT, C, PMCC 150 °C ASTM D 93",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D 93",
+      "status": "reported",
+      "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'.",
+      "source": {
+        "file": "DL2-14978.pdf",
+        "page": 2,
+        "revision_date": "2021-01-11"
+      },
+      "flash_method": "PMCC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": -21.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "POUR POINT, C -21 °C ASTM D 5950",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D 5950",
+      "status": "reported",
+      "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'.",
+      "source": {
+        "file": "DL2-14978.pdf",
+        "page": 2,
+        "revision_date": "2021-01-11"
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Density field holds SPECIFIC GRAVITY @ 15.6 C (0.953, ASTM D 4052); 'LBS PER GAL @ 15.6 C 7.94 lbs CALCULATED' also printed.",
+    "TBN, Mg, B and Mo not printed.",
+    "User decision 2026-10-17: density field stores the number 0.953 (specific gravity (dimensionless)), which is reported as specific gravity ('SPECIFIC GRAVITY @ 15.6 C 0.953 SPGRAV ASTM D 4052', DL2-14978.pdf p.2), not a density in kg/m3; flagged for review."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

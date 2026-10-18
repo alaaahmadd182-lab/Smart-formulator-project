@@ -1,0 +1,185 @@
+{
+  "template_version": "1.1",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "BO-ADNOC-ADBASE-2-CST__T2",
+  "source_documents": [
+    {
+      "file": "DL2-12221.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier product-specification table (brochure pp.6-7, grades 2/3/4/6/8 cSt)",
+      "revision_date": null,
+      "notes": "No revision/issue date printed; sheet says values are 'accurate on the date of publishing'."
+    },
+    {
+      "file": "DL2-13457.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Byte-identical duplicate of DL2-12221.pdf (same MD5)",
+      "revision_date": null,
+      "notes": "Checked identical; not used as an independent confirmation."
+    }
+  ],
+  "product": {
+    "product_id": "ADNOC_ADBASE_2CST",
+    "material_id": "BO-ADNOC-ADBASE-2-CST",
+    "product_name": "ADbase 2 cSt",
+    "supplier": "ADNOC",
+    "document_type": [
+      "Supplier product-specification table"
+    ],
+    "source_file": "DL2-12221.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "notes": "Not on any document for this product.",
+          "alternate_entries": [],
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "notes": "Not on any document for this product.",
+          "alternate_entries": [],
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% loss",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "notes": "Brochure prints '-' for Noack (DL2-12221.pdf p1): not reported for this grade.",
+      "alternate_entries": [],
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -27,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "-27",
+      "unit": "deg C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "No method printed on the brochure.",
+      "alternate_entries": [],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 170,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "170",
+      "unit": "deg C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "Brochure does not print the flash-point method (COC/PMCC).",
+      "alternate_entries": [],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    }
+  },
+  "open_questions": [
+    {
+      "question": "MRV viscosity and yield stress are not reported anywhere for this product.",
+      "fields": [
+        "mrv"
+      ],
+      "source_files": [
+        "DL2-12221.pdf"
+      ]
+    },
+    {
+      "question": "Noack is printed as '-' (not reported) for 2 cSt.",
+      "fields": [
+        "noack_volatility"
+      ],
+      "source_files": [
+        "DL2-12221.pdf"
+      ]
+    },
+    {
+      "question": "Flash point 170 deg C has no method (COC or PMCC): unusable until the method is confirmed.",
+      "fields": [
+        "flash_point"
+      ],
+      "source_files": [
+        "DL2-12221.pdf"
+      ]
+    },
+    {
+      "question": "Pour point has no test method printed.",
+      "fields": [
+        "pour_point"
+      ],
+      "source_files": [
+        "DL2-12221.pdf"
+      ]
+    }
+  ],
+  "conflicts": []
+}

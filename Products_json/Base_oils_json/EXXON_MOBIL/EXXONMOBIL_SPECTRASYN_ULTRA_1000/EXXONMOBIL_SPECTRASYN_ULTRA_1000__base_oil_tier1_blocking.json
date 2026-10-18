@@ -1,0 +1,132 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "EXXONMOBIL_SPECTRASYN_ULTRA_1000__T1",
+  "product": {
+    "product_name": "SpectraSyn Ultra 1000",
+    "supplier": "ExxonMobil",
+    "document_type": "Product Datasheet",
+    "source_file": "DL2-11190.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group IV",
+        "status": "Reported",
+        "basis": "External manufacturer portfolio classification",
+        "notes": "The original product datasheet DL2-11190.pdf identifies SpectraSyn Ultra 1000 as polyalphaolefin (PAO), but does not explicitly state its API Group. ExxonMobil's official base-stocks brochure classifies the SpectraSyn PAO product family under Group IV. Classification is supported by manufacturer family-level documentation rather than a grade-specific API Group statement.",
+        "source": {
+          "file": "https://www.exxonmobil.com/basestocks/-/media/project/wep/exxonmobil/exxonmobil-basestocks/pdfs/735723-1-exxon-intermed-cross-bu-broch-update-v12.pdf",
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "chemistry": {
+        "value": "Polyalphaolefin (PAO)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-11190.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      }
+    },
+    "kv40": {
+      "value": 10000,
+      "qualifier": "Typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "10000",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11190.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 1000,
+      "qualifier": "Typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "1000",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11190.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 307,
+      "qualifier": "Typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "307",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11190.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [],
+  "conflicts": []
+}

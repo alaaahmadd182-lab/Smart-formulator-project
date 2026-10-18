@@ -1,0 +1,362 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "RICHFUL_RF6088F",
+  "product": {
+    "product_name": "RF6088F CK-4 Diesel Engine Oil Package",
+    "supplier": "Xinxiang Richful Lube Additive Co., Ltd.",
+    "document_type": [
+      "TDS",
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-15839.pdf",
+      "DL2-15840.pdf"
+    ],
+    "revision_date": [
+      null,
+      "2024-10-17"
+    ]
+  },
+  "fields": {
+    "tbn": {
+      "value": 74.0,
+      "qualifier": null,
+      "min": 66.0,
+      "max": 82.0,
+      "value_kind": "typical",
+      "printed_text": "Total Base Number, mgKOH/g 66-82 74 SH/T 0251，ASTM D2896",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "SH/T 0251，ASTM D2896",
+      "status": "reported",
+      "calculation_note": "TDS 'Typical Value' column with index/limit '66-82'.",
+      "source": {
+        "file": "DL2-15839.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 8.04,
+      "qualifier": null,
+      "min": null,
+      "max": 8.33,
+      "value_kind": "typical",
+      "printed_text": "Sulfated ash, m% ≯8.33 8.04 GB/T 2433，ASTM D874",
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "ASTM D874",
+      "status": "reported",
+      "calculation_note": "'≯8.33' = not more than 8.33 (index); typical 8.04.",
+      "source": {
+        "file": "DL2-15839.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "elements": {
+      "Ca": {
+        "value": 1.95,
+        "qualifier": null,
+        "min": 1.75,
+        "max": 2.15,
+        "value_kind": "typical",
+        "printed_text": "Ca Content, m% 1.75-2.15 1.95 GB/T 17476，ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "GB/T 17476，ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '1.75-2.15'.",
+        "source": {
+          "file": "DL2-15839.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.05,
+        "qualifier": null,
+        "min": 0.94,
+        "max": 1.16,
+        "value_kind": "typical",
+        "printed_text": "Zn Content, m% 0.94-1.16 1.05 GB/T 17476，ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "GB/T 17476，ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '0.94-1.16'.",
+        "source": {
+          "file": "DL2-15839.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 0.92,
+        "qualifier": null,
+        "min": 0.83,
+        "max": 1.01,
+        "value_kind": "typical",
+        "printed_text": "P Content, m% 0.83-1.01 0.92 GB/T 17476，ASTM D4951",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "GB/T 17476，ASTM D4951",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '0.83-1.01'.",
+        "source": {
+          "file": "DL2-15839.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.91,
+        "qualifier": null,
+        "min": 0.77,
+        "max": 1.05,
+        "value_kind": "typical",
+        "printed_text": "N Content, m% 0.77-1.05 0.91 SH/T 0704，ASTM D5762",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T 0704，ASTM D5762",
+        "status": "reported",
+        "calculation_note": "TDS 'Typical Value' column with index/limit '0.77-1.05'.",
+        "source": {
+          "file": "DL2-15839.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 178.2,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "reported",
+      "printed_text": "Viscosity, kinematic : 178.2 mm2/s @100℃",
+      "unit": "mm²/s",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Chosen by user decision from the conflicting values (see conflicts).",
+      "source": {
+        "file": "DL2-15840.pdf",
+        "page": 5,
+        "revision_date": "2024-10-17"
+      },
+      "notes": "From SDS"
+    },
+    "density": {
+      "value": 963.0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density (20℃), kg/m3 943-983 963 SH/T 0604，ASTM D4052",
+      "unit": "kg/m³",
+      "test_temperature_c": 20,
+      "method": "SH/T 0604, ASTM D4052",
+      "status": "reported",
+      "calculation_note": "Chosen by user decision from the conflicting values (see conflicts).",
+      "source": {
+        "file": "DL2-15839.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "From TDS"
+    },
+    "flash_point": {
+      "value": 180,
+      "qualifier": "≥",
+      "min": 180,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Flash point : ≥180 ℃",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Same value in: DL2-15839.pdf p.1 (undated): 'Flash Point (COC), ℃ ≮180 218 GB/T 3536，ASTM D92'.",
+      "source": {
+        "file": "DL2-15840.pdf",
+        "page": 5,
+        "revision_date": "2024-10-17"
+      },
+      "flash_method": null,
+      "notes": "test method not printed on datasheet"
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "TDS DL2-15839.pdf undated; SDS DL2-15840.pdf issue date 17/10/2024.",
+    "KV100 (TDS 177 vs SDS 178.2 mm2/s) and density (TDS 963 kg/m3 vs SDS 0.958 g/cm3, both 20 ℃) differ; TDS undated, fields originally left null; filled 2026-10-18 by user decision (see conflicts).",
+    "SDS p.2 component shares (not element contents): distillate 10 – 59.9 %; ZDDP 3 – 17.9 %; overbased calcium sulfurized phenate 1 – 14.9 %; hindered phenolic ester 1 – 14.9 %; bis(nonylphenyl)amine 1 – 9.9 %.",
+    "KV40, Mg, B, Mo, S, pour point not printed."
+  ],
+  "conflicts": [
+    {
+      "field": "tier2.density",
+      "values": [
+        {
+          "value": 963.0,
+          "printed_text": "Density (20℃), kg/m3 943-983 963 SH/T 0604，ASTM D4052",
+          "file": "DL2-15839.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 0.958,
+          "printed_text": "Relative density : 0.958 g/cm3@20℃",
+          "file": "DL2-15840.pdf",
+          "page": 5,
+          "revision_date": "2024-10-17"
+        }
+      ],
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved. Resolved 2026-10-18 by user decision: 963.0 kg/m³ from DL2-15839.pdf used."
+    },
+    {
+      "field": "tier2.kv100",
+      "values": [
+        {
+          "value": 177.0,
+          "printed_text": "Kinematic Viscosity (100℃), mm2/s Report 177 GB/T 265，ASTM D445",
+          "file": "DL2-15839.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 178.2,
+          "printed_text": "Viscosity, kinematic : 178.2 mm2/s @100℃",
+          "file": "DL2-15840.pdf",
+          "page": 5,
+          "revision_date": "2024-10-17"
+        }
+      ],
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved. Resolved 2026-10-18 by user decision: 178.2 mm²/s from DL2-15840.pdf used."
+    }
+  ],
+  "external_fill_notes": []
+}

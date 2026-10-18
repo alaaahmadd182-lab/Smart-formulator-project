@@ -1,0 +1,149 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "PETRONAS_ETRO_6",
+  "product": {
+    "product_name": "ETRO 6",
+    "supplier": "PETRONAS",
+    "document_type": "Technical Data Sheet",
+    "source_file": "DL2-12475.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "III",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12475.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "printed_text": "GROUP III BASE OIL",
+        "value_kind": "supplier classification",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      },
+      "chemistry": {
+        "value": "Wax-isomerised and hydrofinished, highly isoparaffinic base oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12475.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "printed_text": "manufactured from a proprietary wax isomerisation process and hydrofinished; highly isoparaffinic",
+        "value_kind": "supplier description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 6.1,
+      "qualifier": null,
+      "min": 6.0,
+      "max": 6.5,
+      "value_kind": "typical",
+      "printed_text": "Typical 6.10 mm²/s; specification 6.00–6.50 mm²/s",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12475.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 133,
+      "qualifier": null,
+      "min": 125,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 133; specification ≥125",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12475.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/L",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "No separate grade-specific SDS verified for ETRO 6.",
+    "KV40 and density not reported in supplied TDS.",
+    "No dated revision on TDS.",
+    "Flash specification is printed as >220°C; no conversion to >=220°C."
+  ],
+  "conflicts": []
+}

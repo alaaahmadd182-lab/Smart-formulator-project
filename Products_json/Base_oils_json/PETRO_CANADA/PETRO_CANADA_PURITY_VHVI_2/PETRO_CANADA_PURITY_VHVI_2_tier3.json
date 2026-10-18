@@ -1,0 +1,111 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "PETRO_CANADA_PURITY_VHVI_2",
+  "product": {
+    "product_name": "PURITY VHVI 2",
+    "supplier": "Petro-Canada Lubricants Inc.",
+    "document_type": "Supplier PURITY VHVI brochure / typical properties",
+    "source_file": "DL2-11261.pdf",
+    "revision_date": "2015-07"
+  },
+  "fields": {
+    "sulfur": {
+      "value": null,
+      "qualifier": "<",
+      "min": null,
+      "max": 1,
+      "value_kind": "upper bound",
+      "printed_text": "<1 ppm",
+      "unit": "ppm",
+      "test_temperature_c": null,
+      "method": "ASTM D5453",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11261.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "saturates": {
+      "value": 99.9,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "99.9%",
+      "unit": "%",
+      "test_temperature_c": null,
+      "method": "PCM435",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11261.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "aromatics": {
+      "value": 0.1,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "0.1%",
+      "unit": "%",
+      "test_temperature_c": null,
+      "method": "PCM435",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11261.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    "Group III classification and chemistry are supplier family-level descriptions, not individual grade assay.",
+    "Cross-check duplicate supplier brochure files DL2-11262.pdf through DL2-11265.pdf and any grade-specific SDS during final audit."
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,315 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "ENI_MX_5212",
+  "product": {
+    "product_name": "Eni MX 5212",
+    "supplier": "Eni spa",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-14981.pdf"
+    ],
+    "revision_date": "02/2017"
+  },
+  "fields": {
+    "tbn": {
+      "value": null,
+      "qualifier": null,
+      "min": 96.0,
+      "max": 137.0,
+      "value_kind": "specification",
+      "printed_text": "TBN ASTM D 2896 mg KOH/g 96 137",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "ASTM D 2896",
+      "status": "reported",
+      "calculation_note": "TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
+      "source": {
+        "file": "DL2-14981.pdf",
+        "page": 2,
+        "revision_date": "02/2017"
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "elements": {
+      "Ca": {
+        "value": null,
+        "qualifier": null,
+        "min": 2.75,
+        "max": 3.9,
+        "value_kind": "specification",
+        "printed_text": "Calcium ASTM D 4951 % m 2.75 3.90",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D 4951",
+        "status": "reported",
+        "calculation_note": "TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 2,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": 0.16,
+        "max": 0.24,
+        "value_kind": "specification",
+        "printed_text": "Magnesium ASTM D 4951 % m 0.16 0.24",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D 4951",
+        "status": "reported",
+        "calculation_note": "TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 2,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": null,
+        "qualifier": null,
+        "min": 1.25,
+        "max": 1.8,
+        "value_kind": "specification",
+        "printed_text": "Zinc ASTM D 4951 % m 1.25 1.80",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D 4951",
+        "status": "reported",
+        "calculation_note": "TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 2,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      "P": {
+        "value": null,
+        "qualifier": null,
+        "min": 1.13,
+        "max": 1.6,
+        "value_kind": "specification",
+        "printed_text": "Phosphorus ASTM D 4951 % m 1.13 1.60",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D 4951",
+        "status": "reported",
+        "calculation_note": "TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 2,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": null,
+        "qualifier": null,
+        "min": 0.7,
+        "max": 1.01,
+        "value_kind": "specification",
+        "printed_text": "Nitrogen ASTM D 5291 % m 0.70 1.01",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D 5291",
+        "status": "reported",
+        "calculation_note": "TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
+        "source": {
+          "file": "DL2-14981.pdf",
+          "page": 2,
+          "revision_date": "02/2017"
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": null,
+      "min": 190.0,
+      "max": 265.0,
+      "value_kind": "specification",
+      "printed_text": "Viscosity @ 100°C ASTM D 445 mm2/sec 190 265",
+      "unit": "mm2/sec",
+      "test_temperature_c": 100,
+      "method": "ASTM D 445",
+      "status": "reported",
+      "calculation_note": "TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
+      "source": {
+        "file": "DL2-14981.pdf",
+        "page": 2,
+        "revision_date": "02/2017"
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 970,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": "Density @ 15°C ASTM D 4052 kg/m3 970",
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": "ASTM D 4052",
+      "status": "reported",
+      "calculation_note": "Single value printed across the merged min/max cell; not labelled typical or limit.",
+      "source": {
+        "file": "DL2-14981.pdf",
+        "page": 2,
+        "revision_date": "02/2017"
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 100,
+      "qualifier": "≥",
+      "min": 100,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Flash Point ASTM D 93 °C 100",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D 93",
+      "status": "reported",
+      "calculation_note": "Printed in the 'min' column only. TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
+      "source": {
+        "file": "DL2-14981.pdf",
+        "page": 2,
+        "revision_date": "02/2017"
+      },
+      "flash_method": "PMCC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "DL2-14981.pdf p.2 gives only min/max specification limits (value left null, min/max filled); density is a single value in a merged cell.",
+    "KV40, sulfated ash, B, Mo, S and pour point are not printed. Flash point method ASTM D 93 (PMCC).",
+    "Old Product_JSON left KV100/TBN/elements as observations without values; the sheet prints them as min/max limits."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

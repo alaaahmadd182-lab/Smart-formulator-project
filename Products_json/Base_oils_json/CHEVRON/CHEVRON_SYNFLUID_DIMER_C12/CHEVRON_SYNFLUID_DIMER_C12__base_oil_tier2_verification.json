@@ -1,0 +1,132 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "CHEVRON_SYNFLUID_DIMER_C12__T2",
+  "product": {
+    "product_name": "Synfluid Dimer C12",
+    "supplier": "Chevron Phillips Chemical",
+    "document_type": "TDS/SDS",
+    "source_file": "DL2-13202.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% loss",
+      "test_temperature_c": 250,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -63,
+      "qualifier": "typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "-63",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13202.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 183,
+      "qualifier": "typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "183",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "COC",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13202.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    }
+  },
+  "open_questions": [],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-13202.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "TDS/SDS (see document)",
+      "revision_date": null
+    },
+    {
+      "file": "DL2-13200.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "TDS/SDS (see document)",
+      "revision_date": null
+    }
+  ]
+}

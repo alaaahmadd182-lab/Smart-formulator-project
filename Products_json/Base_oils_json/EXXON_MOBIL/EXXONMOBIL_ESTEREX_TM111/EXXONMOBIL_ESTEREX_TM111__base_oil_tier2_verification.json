@@ -1,0 +1,114 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "EXXONMOBIL_ESTEREX_TM111__T2",
+  "product": {
+    "product_name": "Esterex TM111",
+    "supplier": "ExxonMobil",
+    "document_type": "Product Datasheet",
+    "source_file": "DL2-12121.pdf",
+    "revision_date": "05/27/2008"
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": 1.4,
+      "qualifier": "Typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "1.4",
+      "unit": "wt%",
+      "test_temperature_c": 250,
+      "method": "ASTM D5800/DIN 51581",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12121.pdf",
+        "page": 1,
+        "revision_date": "05/27/2008"
+      }
+    },
+    "pour_point": {
+      "value": -33.0,
+      "qualifier": "Typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "-33.0",
+      "unit": "\u00b0C",
+      "test_temperature_c": null,
+      "method": "ASTM D5950/D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12121.pdf",
+        "page": 1,
+        "revision_date": "05/27/2008"
+      }
+    },
+    "flash_point": {
+      "value": 274.0,
+      "qualifier": "Typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "274.0",
+      "unit": "\u00b0C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12121.pdf",
+        "page": 1,
+        "revision_date": "05/27/2008"
+      },
+      "flash_method": null
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}

@@ -1,0 +1,131 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "FORMOSA_150N_GII_PLUS",
+  "product": {
+    "product_name": "Base Oil 150N GII+",
+    "supplier": "Formosa Petrochemical Corporation",
+    "document_type": "Product specification + MSDS",
+    "source_file": "DL2-10001.pdf; DL2-10011.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": 15,
+      "value_kind": "maximum",
+      "printed_text": "Max 15 wt.%",
+      "unit": "wt.% loss",
+      "test_temperature_c": 250,
+      "method": "ASTM D5800",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10001.pdf",
+        "page": 1,
+        "revision_date": "2009-10-21"
+      }
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": -15,
+      "value_kind": "maximum",
+      "printed_text": "Max -15 C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D97 / D5950",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10001.pdf",
+        "page": 1,
+        "revision_date": "2009-10-21"
+      }
+    },
+    "flash_point": {
+      "value": null,
+      "qualifier": null,
+      "min": 210,
+      "max": null,
+      "value_kind": "minimum",
+      "printed_text": "Min 210 C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10001.pdf",
+        "page": 1,
+        "revision_date": "2009-10-21"
+      },
+      "flash_method": "COC"
+    }
+  },
+  "open_questions": [
+    "SDS flash point >230 C and specification minimum 210 C differ in stated thresholds; not necessarily contradictory."
+  ],
+  "conflicts": [
+    {
+      "field": "flash_point",
+      "source_a": {
+        "file": "DL2-10001.pdf",
+        "page": 1,
+        "value": "minimum 210 C"
+      },
+      "source_b": {
+        "file": "DL2-10011.pdf",
+        "page": 3,
+        "value": ">230 C"
+      },
+      "note": "SDS and specification use different threshold statements; preserve both without assuming equivalence."
+    }
+  ]
+}

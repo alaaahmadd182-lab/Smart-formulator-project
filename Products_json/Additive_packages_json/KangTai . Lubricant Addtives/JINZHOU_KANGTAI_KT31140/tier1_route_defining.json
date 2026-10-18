@@ -1,0 +1,287 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "JINZHOU_KANGTAI_KT31140",
+  "product": {
+    "product_name": "KT31140",
+    "supplier": "KangTai . Lubricant Addtives",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-12961.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12961.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "It’s a cost effective engine oil additive package designed for deep hydrogenation oils market.",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12961.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "CF-4/SG",
+        "claim_type": "recommended",
+        "scope": "Table 'DOSAGE RECOMMENDED (WT%)': CF-4/SG at 5.8.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12961.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "CD/SF",
+        "claim_type": "recommended",
+        "scope": "Table 'DOSAGE RECOMMENDED (WT%)': CD/SF at 4.0.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12961.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "CC/SE",
+        "claim_type": "recommended",
+        "scope": "Table 'DOSAGE RECOMMENDED (WT%)': CC/SE at 2.8.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12961.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [
+        "deep hydrogenation oils"
+      ],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": "DL2-12961.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "Groups interpreted from the datasheet's printed base oil 'deep hydrogenation oils' (permitted_grades), i.e. hydroprocessed base oils, which are API Group II/III. Group mapping is our interpretation; the datasheet names no API group."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "CF-4/SG",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 5.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CF-4/SG 5.8",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'DOSAGE RECOMMENDED (WT%)'.",
+          "source": {
+            "file": "DL2-12961.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "CD/SF",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 4.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CD/SF 4.0",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'DOSAGE RECOMMENDED (WT%)'.",
+          "source": {
+            "file": "DL2-12961.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "CC/SE",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 2.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CC/SE 2.8",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Table 'DOSAGE RECOMMENDED (WT%)'.",
+          "source": {
+            "file": "DL2-12961.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "No revision date printed on DL2-12961.pdf. Supplier printed as 'KangTai . Lubricant Addtives' (WWW.JZKANGTAI.COM).",
+    "Claim type 'recommended' from 'DOSAGE RECOMMENDED'. No SAE grades, VM or SDS."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

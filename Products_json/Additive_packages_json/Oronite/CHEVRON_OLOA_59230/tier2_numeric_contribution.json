@@ -1,0 +1,313 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "CHEVRON_OLOA_59230",
+  "product": {
+    "product_name": "OLOA 59230",
+    "supplier": "Chevron Oronite Company LLC",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-13876.pdf"
+    ],
+    "revision_date": "2020-06-25"
+  },
+  "fields": {
+    "tbn": {
+      "value": 110,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Base Number, mg KOH/g (ASTM D 2896) 110",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "ASTM D 2896",
+      "status": "reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13876.pdf",
+        "page": 1,
+        "revision_date": "2020-06-25"
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 14.14,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Sulfated Ash, mass/wt-% (ASTM D 874) 14.14",
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "ASTM D 874",
+      "status": "reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13876.pdf",
+        "page": 1,
+        "revision_date": "2020-06-25"
+      },
+      "notes": null
+    },
+    "elements": {
+      "Ca": {
+        "value": 3.78,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Calcium, mass/wt-% (ASTM D 4951) 3.78",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D 4951",
+        "status": "reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-13876.pdf",
+          "page": 1,
+          "revision_date": "2020-06-25"
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 0.92,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Zinc, mass/wt-% (ASTM D 4951) 0.92",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D 4951",
+        "status": "reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-13876.pdf",
+          "page": 1,
+          "revision_date": "2020-06-25"
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 0.85,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Phosphorus, mass/wt-% (ASTM D 4951) 0.85",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D 4951",
+        "status": "reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-13876.pdf",
+          "page": 1,
+          "revision_date": "2020-06-25"
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.48,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Nitrogen, mass/wt% (ASTM D 4629) 0.48",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D 4629",
+        "status": "reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-13876.pdf",
+          "page": 1,
+          "revision_date": "2020-06-25"
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": 8329,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity, mm²/s(cSt) at 40°C (ASTM D 445) 8,329",
+      "unit": "mm²/s",
+      "test_temperature_c": 40,
+      "method": "ASTM D 445",
+      "status": "reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13876.pdf",
+        "page": 1,
+        "revision_date": "2020-06-25"
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 242,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity, mm²/s(cSt) at 100°C (ASTM D 445) 242",
+      "unit": "mm²/s",
+      "test_temperature_c": 100,
+      "method": "ASTM D 445",
+      "status": "reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13876.pdf",
+        "page": 1,
+        "revision_date": "2020-06-25"
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 0.9927,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density, g/cm³ (kg/l) at 15°C 0.9927",
+      "unit": "g/cm³",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "No method printed. Template unit kg/m3; printed g/cm³ (kg/l) kept.",
+      "source": {
+        "file": "DL2-13876.pdf",
+        "page": 1,
+        "revision_date": "2020-06-25"
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null,
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Mg, B, Mo, S, flash point and pour point are not printed in DL2-13876.pdf."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

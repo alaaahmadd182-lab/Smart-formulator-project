@@ -1,0 +1,350 @@
+{
+  "template_version": "1.1",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "BO-ADNOC-ADBASE-6-CST__T1",
+  "source_documents": [
+    {
+      "file": "DL2-12221.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier product-specification table (brochure pp.6-7, grades 2/3/4/6/8 cSt)",
+      "revision_date": null,
+      "notes": "No revision/issue date printed; sheet says values are 'accurate on the date of publishing'."
+    },
+    {
+      "file": "DL2-13457.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Byte-identical duplicate of DL2-12221.pdf (same MD5)",
+      "revision_date": null,
+      "notes": "Checked identical; not used as an independent confirmation."
+    },
+    {
+      "file": "DL2-12421.jpg",
+      "pages": [
+        1
+      ],
+      "doc_type": "Scanned ADNOC product specification (image)",
+      "revision_date": "2016-09",
+      "notes": "Reissued 'Septemebr, 2016' (typo as printed), replaces February 2016."
+    },
+    {
+      "file": "DL2-13721.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "doc_type": "Vertex/Penthol distributor product specification (AD Base 6cst)",
+      "revision_date": "2016-02",
+      "notes": "p1 brochure text, p2 specification table. 'Replaces January, 2015; Reissued February, 2016'. Same limits as DL2-12421.jpg."
+    }
+  ],
+  "product": {
+    "product_id": "ADNOC_ADBASE_6CST",
+    "material_id": "BO-ADNOC-ADBASE-6-CST",
+    "product_name": "ADbase 6 cSt",
+    "supplier": "ADNOC",
+    "document_type": [
+      "Byte-identical duplicate of DL2-12221.pdf (same MD5)",
+      "Scanned ADNOC product specification (image)",
+      "Supplier product-specification table (brochure pp.6-7, grades 2/3/4/6/8 cSt)",
+      "Vertex/Penthol distributor product specification (AD Base 6cst)"
+    ],
+    "source_file": "DL2-12221.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group III",
+        "status": "Reported",
+        "basis": null,
+        "notes": "Printed in the grade line of the spec sheet: 'Group III'. Also 'GROUP III' on DL2-13721.pdf p1-2.",
+        "source": {
+          "file": "DL2-12421.jpg",
+          "page": 1,
+          "revision_date": "2016-09"
+        }
+      },
+      "chemistry": {
+        "value": "Group III base oil (hydrocracked / hydroisomerised mineral oil)",
+        "status": "Reported",
+        "basis": "general_knowledge",
+        "notes": "NOT printed on the sheets. Added from general knowledge: Group III oils are produced by severe hydrocracking/hydroisomerisation. Sheet only says 'Group III' / 'high-purity base oil'. Confirm with ADNOC.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "kv40": {
+      "value": 34,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "34",
+      "unit": "mm2/s",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "Spec-table value; unit printed as mm2/s (= cSt).",
+      "alternate_entries": [],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 6.18,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "6.18",
+      "unit": "mm2/s",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "Spec-table value; the sheet does not label it typical or limit. Unit printed as mm2/s (= cSt).",
+      "alternate_entries": [
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 5.8,
+          "max": 6.2,
+          "value_kind": "limit",
+          "printed_text": null,
+          "unit": "mm2/s",
+          "test_temperature_c": 100,
+          "method": "ASTM D445",
+          "status": "Reported",
+          "calculation_note": null,
+          "notes": "Specification limits (min/max), not a typical value.",
+          "source": {
+            "file": "DL2-12421.jpg",
+            "page": 1,
+            "revision_date": "2016-09"
+          }
+        },
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 5.8,
+          "max": 6.2,
+          "value_kind": "limit",
+          "printed_text": null,
+          "unit": "mm2/s",
+          "test_temperature_c": 100,
+          "method": "ASTM D445",
+          "status": "Reported",
+          "calculation_note": null,
+          "notes": "Specification limits (min/max), not a typical value.",
+          "source": {
+            "file": "DL2-13721.pdf",
+            "page": 2,
+            "revision_date": "2016-02"
+          }
+        }
+      ],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 137,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "137",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "Unitless; value printed in the table, not derived by us.",
+      "alternate_entries": [
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 125,
+          "max": null,
+          "value_kind": "limit",
+          "printed_text": null,
+          "unit": "unitless",
+          "test_temperature_c": null,
+          "method": "ASTM D2270",
+          "status": "Reported",
+          "calculation_note": null,
+          "notes": "Specification minimum.",
+          "source": {
+            "file": "DL2-12421.jpg",
+            "page": 1,
+            "revision_date": "2016-09"
+          }
+        },
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 125,
+          "max": null,
+          "value_kind": "limit",
+          "printed_text": null,
+          "unit": "unitless",
+          "test_temperature_c": null,
+          "method": "ASTM D2270",
+          "status": "Reported",
+          "calculation_note": null,
+          "notes": "Specification minimum.",
+          "source": {
+            "file": "DL2-13721.pdf",
+            "page": 2,
+            "revision_date": "2016-02"
+          }
+        }
+      ],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.844,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "0.844",
+      "unit": "g/ml",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "notes": "Printed as 'Density @15 deg C, g/ml'. No test method printed on the brochure.",
+      "alternate_entries": [
+        {
+          "value": 844,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "single",
+          "printed_text": null,
+          "unit": "kg/m3",
+          "test_temperature_c": 15,
+          "method": null,
+          "status": "Calculated",
+          "calculation_note": "0.844 g/ml x 1000 = 844 kg/m3 (1 g/ml = 1000 kg/m3); sheet value kept unconverted in the main entry.",
+          "notes": null,
+          "source": {
+            "file": "DL2-12221.pdf",
+            "page": 1,
+            "revision_date": null
+          }
+        }
+      ],
+      "source": {
+        "file": "DL2-12221.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": 3700,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "single",
+        "printed_text": "3700",
+        "unit": "mPas",
+        "test_temperature_c": -30,
+        "method": null,
+        "status": "Reported",
+        "calculation_note": null,
+        "notes": "Printed as 'Apparent Viscosity by CCS @-30 deg C, mPas'. No method printed on the brochure.",
+        "alternate_entries": [
+          {
+            "value": null,
+            "qualifier": null,
+            "min": null,
+            "max": 4500,
+            "value_kind": "limit",
+            "printed_text": null,
+            "unit": "mPas",
+            "test_temperature_c": -30,
+            "method": "ASTM D5293",
+            "status": "Reported",
+            "calculation_note": null,
+            "notes": "Specification maximum, 'Apparent Viscosity by CCS at -30 C'.",
+            "source": {
+              "file": "DL2-12421.jpg",
+              "page": 1,
+              "revision_date": "2016-09"
+            }
+          },
+          {
+            "value": null,
+            "qualifier": null,
+            "min": null,
+            "max": 4500,
+            "value_kind": "limit",
+            "printed_text": null,
+            "unit": "mPas",
+            "test_temperature_c": -30,
+            "method": "ASTM D5293",
+            "status": "Reported",
+            "calculation_note": null,
+            "notes": "Specification maximum, 'Apparent Viscosity by CCS at -30 C'.",
+            "source": {
+              "file": "DL2-13721.pdf",
+              "page": 2,
+              "revision_date": "2016-02"
+            }
+          }
+        ],
+        "source": {
+          "file": "DL2-12221.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    {
+      "question": "No test method printed on the brochure for typical KV40, KV100, VI and density (spec sheet gives ASTM D445 / D2270 / D4052 for limits).",
+      "fields": [
+        "kv40",
+        "kv100",
+        "viscosity_index",
+        "density"
+      ],
+      "source_files": [
+        "DL2-12221.pdf",
+        "DL2-12421.jpg"
+      ]
+    },
+    {
+      "question": "Chemistry is general knowledge only (sheet says Group III / high-purity base oil, not hydrocracked/mineral).",
+      "fields": [
+        "api_group_chemistry.chemistry"
+      ],
+      "source_files": [
+        "DL2-12421.jpg"
+      ]
+    }
+  ],
+  "conflicts": []
+}

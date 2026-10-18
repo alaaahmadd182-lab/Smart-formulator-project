@@ -1,0 +1,164 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "S_OIL_PREMIUM_P_480",
+  "product": {
+    "product_name": "P-480 (150BS)",
+    "supplier": "S-OIL",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-11173.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null,
+        "flash_method": null,
+        "test_temperature_c": null
+      },
+      
+      "chemistry": {
+        "value": "Distillates (petroleum), hydrotreated heavy paraffinic",
+        "status": "Reported",
+        "source": {
+          "file": "https://www.s-oil.com/common/page/FileDownload.aspx?FileName=20150714152925994.pdf&PIndex=21&PathType=BOARD&TFileName=P480_20150610.pdf",
+          "page": 1,
+          "revision_date": "2015-06-10"
+        },
+        "printed_text": "Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-57-0; purity 100%",
+        "value_kind": "supplier composition",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "Grade-specific composition reported in Section 3 of S-OIL's Premium-480 SDS.",
+        "flash_method": null,
+        "test_temperature_c": null
+      }
+    },
+    "kv40": {
+      "value": 480.6,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "480.6 cSt @40°C",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11173.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "kv100": {
+      "value": 31.32,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "31.32 cSt @100°C",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11173.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "viscosity_index": {
+      "value": 98,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "98",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11173.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "flash_method": null
+    },
+    
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "flash_method": null
+      }
+    ]
+
+  },
+ 
+  "open_questions": [
+    "Historical P-480 (150BS) API Group has not been explicitly verified in the reviewed manufacturer documents.",
+    "Chemistry confirmed using S-OIL Premium-480 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated heavy paraffinic, CAS 64742-57-0, purity 100%.",
+    "Specific gravity at 15/4°C is dimensionless and must not be transcribed as absolute density.",
+    "No grade-specific CCS viscosity or CCS test temperature was verified.",
+    "Noack volatility, saturates and aromatics remain unverified.",
+    "Final source-level reconciliation between the original product datasheet and grade-specific SDS pending."
+  ],
+  "conflicts": []
+}

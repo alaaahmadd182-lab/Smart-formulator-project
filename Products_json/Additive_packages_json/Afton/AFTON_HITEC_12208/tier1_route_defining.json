@@ -1,0 +1,333 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "AFTON_HITEC_12208",
+  "product": {
+    "product_name": "HiTEC® 12208",
+    "supplier": "Afton Chemical Corporation",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-15364.pdf"
+    ],
+    "revision_date": "04/23"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "HDEO Additive Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15364.pdf",
+          "page": 1,
+          "revision_date": "04/23"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "Heavy duty and light duty commercial vehicles with engines meeting China On-road Stage VI and Bharat Stage VI standards; Offroad equipment covering construction, mining machines and agriculture tractors with engines meeting China Offroad Stage IV standards",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15364.pdf",
+          "page": 2,
+          "revision_date": "04/23"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CK-4",
+        "claim_type": "approval",
+        "scope": "Table 'HiTEC® 12208 @ 13.7% wt' under header 'Approvals'; rows: SAE 10W-30, GP II; SAE 10W-40, GP II/III; SAE 15W-40, GP II; at 13.7% wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15364.pdf",
+          "page": 2,
+          "revision_date": "04/23"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API FA-4",
+        "claim_type": "approval",
+        "scope": "Table 'HiTEC® 12208 @ 13.7% wt' under header 'Approvals'; rows: SAE 10W-30, GP II; at 13.7% wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15364.pdf",
+          "page": 2,
+          "revision_date": "04/23"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20081",
+        "claim_type": "approval",
+        "scope": "Table 'HiTEC® 12208 @ 13.7% wt' under header 'Approvals'; rows: SAE 10W-30, GP II; SAE 10W-40, GP II/III; SAE 15W-40, GP II; at 13.7% wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15364.pdf",
+          "page": 2,
+          "revision_date": "04/23"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20086",
+        "claim_type": "approval",
+        "scope": "Table 'HiTEC® 12208 @ 13.7% wt' under header 'Approvals'; rows: SAE 10W-30, GP II; SAE 10W-40, GP II/III; SAE 15W-40, GP II; at 13.7% wt.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15364.pdf",
+          "page": 2,
+          "revision_date": "04/23"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-30",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15364.pdf",
+          "page": 2,
+          "revision_date": "04/23"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 10W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15364.pdf",
+          "page": 2,
+          "revision_date": "04/23"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-15364.pdf",
+          "page": 2,
+          "revision_date": "04/23"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "GP II",
+        "GP II/III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "SAE 10W-30 GP II",
+        "SAE 10W-40 GP II/III",
+        "SAE 15W-40 GP II"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-15364.pdf",
+        "page": 2,
+        "revision_date": "04/23"
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "API FA-4 lubricant with a high temperature high shear (HTHS) range of 2.9 - 3.2 cP",
+        "API FA-4 marked only for SAE 10W-30 GP II in the approvals table"
+      ],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": "DL2-15364.pdf",
+        "page": 2,
+        "revision_date": "04/23"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CK-4; API FA-4; Cummins CES 20081; Cummins CES 20086",
+        "sae_grade": "SAE 10W-30",
+        "treat_rate_wt_pct": {
+          "value": 13.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "HiTEC® 12208 @ 13.7% wt | SAE 10W-30 | GP II",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II. Text: 'At the recommended treat rate of 13.7% wt'. Single recommended rate.",
+          "source": {
+            "file": "DL2-15364.pdf",
+            "page": 2,
+            "revision_date": "04/23"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CK-4; Cummins CES 20081; Cummins CES 20086",
+        "sae_grade": "SAE 10W-40",
+        "treat_rate_wt_pct": {
+          "value": 13.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "HiTEC® 12208 @ 13.7% wt | SAE 10W-40 | GP II/III",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II/III. Text: 'At the recommended treat rate of 13.7% wt'. Single recommended rate.",
+          "source": {
+            "file": "DL2-15364.pdf",
+            "page": 2,
+            "revision_date": "04/23"
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CK-4; Cummins CES 20081; Cummins CES 20086",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 13.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "HiTEC® 12208 @ 13.7% wt | SAE 15W-40 | GP II",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Base oil: GP II. Text: 'At the recommended treat rate of 13.7% wt'. Single recommended rate.",
+          "source": {
+            "file": "DL2-15364.pdf",
+            "page": 2,
+            "revision_date": "04/23"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Only a product bulletin is available for HiTEC 12208 (no SDS in the archive).",
+    "Claim wording: the table header says 'Approvals', the text (p.2) says 'can be formulated into premium lubricant meeting API CK-4', 'can also be formulated into API FA-4 lubricant' and 'It can also meet Cummins approvals'. claim_type set to 'approval' from the table header; please confirm.",
+    "Bar charts on DL2-15364.pdf p.2 (Mack T-12 wear, Volvo T-13 oxidation) give performance reserves (43%, 22%, 48%, 70%) vs API CK-4/FA-4 limits; candidate-oil test results, no formulation given, not recorded.",
+    "No co-components (VM/PPD/booster) and no published formulation are printed."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

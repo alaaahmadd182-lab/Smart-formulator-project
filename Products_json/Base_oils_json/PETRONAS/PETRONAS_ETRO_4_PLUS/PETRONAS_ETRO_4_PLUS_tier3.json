@@ -1,0 +1,112 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "PETRONAS_ETRO_4_PLUS",
+  "product": {
+    "product_name": "ETRO 4+",
+    "supplier": "PETRONAS Lubricants International",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-10231.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "sulfur": {
+      "value": 2,
+      "qualifier": null,
+      "min": null,
+      "max": 10,
+      "value_kind": "typical",
+      "printed_text": "2 mg/kg; specification ≤10 mg/kg",
+      "unit": "mg/kg",
+      "test_temperature_c": null,
+      "method": "ASTM D2622 / ASTM D4294",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10231.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "saturates": {
+      "value": 99,
+      "qualifier": ">",
+      "min": 95,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": ">99 mass%; specification >95 mass%",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "IP 368 / ASTM D7419",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10231.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    "No grade-specific SDS independently verified for ETRO 4+.",
+    "No calendar revision date stated on PDS.",
+    "Density temperature is not specified; density remains Missing in temperature-dependent template field."
+  ],
+  "conflicts": []
+}

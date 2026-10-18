@@ -1,0 +1,324 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "MINGLAN_T3161A",
+  "product": {
+    "product_name": "T3161A",
+    "supplier": "MINGLAN CHEMICAL",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "tbn": {
+      "value": 110,
+      "qualifier": "≥",
+      "min": 110,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "TBN, mg KOH/g, ≥110 SH/T0251",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "SH/T0251",
+      "status": "reported",
+      "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
+      "source": {
+        "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 13.3,
+      "qualifier": "≥",
+      "min": null,
+      "max": null,
+      "value_kind": "calculated lower bound",
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "Calculated (ASTM D874 factors)",
+      "status": "calculated",
+      "calculation_note": "Sulfated ash = 3.4×3.0 (Ca) + 4.95×0.2 (Mg) + 1.5×1.1 (Zn) + 1.5×0.025 (Mo) + 3.22×0.14 (B) = 13.33 wt.%.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn/Mo/B contents in this file), not from the product datasheet. Calculated by us from the element contents already in this file (TDS minimums for Ca, Mg, Zn, Mo, B) using the ASTM D874 sulfate/oxide conversion factors (Ca 3.40, Mg 4.95, Zn 1.50, Mo 1.50, B 3.22). All five ash-forming elements in the schema are printed, so the sum is complete for them; because every input is a minimum the result is a nominal lower bound. Measured D874 ash can differ from calculated: across the 31 packages in this data set that print sulfated ash together with their Ca/Mg/Zn contents, calculated/measured ranged 0.97-1.10 (Lubrizol 0.99-1.01)."
+    },
+    "elements": {
+      "Ca": {
+        "value": 3.0,
+        "qualifier": "≥",
+        "min": 3.0,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Calcium, wt%, ≥3.00 SH/T 0270",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T 0270",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
+        "source": {
+          "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": 0.2,
+        "qualifier": "≥",
+        "min": 0.2,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Magnesium content，% ≥ 0.20 NB/SH/T 0824",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "NB/SH/T 0824",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum. Column header 'Typical Value'. Unit printed '%'.",
+        "source": {
+          "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.1,
+        "qualifier": "≥",
+        "min": 1.1,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Zinc, wt%, ≥1.10 SH/T 0226",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T 0226",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
+        "source": {
+          "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 0.95,
+        "qualifier": "≥",
+        "min": 0.95,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Phosphorus, wt%, min ≥0.95 SH/T 0296",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T 0296",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
+        "source": {
+          "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": 0.14,
+        "qualifier": "≥",
+        "min": 0.14,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Boron Content，% ≥ 0.140 NB/SH/T 0824",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "NB/SH/T 0824",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum. Column header 'Typical Value'. Unit printed '%'.",
+        "source": {
+          "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": 0.025,
+        "qualifier": "≥",
+        "min": 0.025,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Molybdenum,wt% ≥0.025 NB/SH/T 0824",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "NB/SH/T 0824",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
+        "source": {
+          "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.6,
+        "qualifier": "≥",
+        "min": 0.6,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Nitrogen, wt%, ≥0.60 SH/T0224",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "SH/T0224",
+        "status": "reported",
+        "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
+        "source": {
+          "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3 (or as printed)",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 180,
+      "qualifier": "≥",
+      "min": 180,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Flash point (COC) °C, 180min GB/T 3536",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "GB/T 3536",
+      "status": "reported",
+      "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
+      "source": {
+        "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Kinematic Viscosity (100 °C) printed as 'report' (no value). Density, KV40, sulfated ash, S and pour point not printed.",
+    "Supplier-name note: 'MINGLAN CHEMICAL' is the archive folder name; the sheet prints no company name.",
+    "2026-10-17: sulfated ash calculated (≥13.3 wt.%) from the TDS element minimums with ASTM D874 factors (NOT from the datasheet)."
+  ],
+  "conflicts": [],
+  "external_fill_notes": [
+    {
+      "value": null,
+      "unit": null,
+      "property": "sulfated_ash",
+      "status": "calculated",
+      "source": "Calculated from Ca/Mg/Zn/Mo/B in this file using ASTM D874 factors: Sulfated ash = 3.4×3.0 (Ca) + 4.95×0.2 (Mg) + 1.5×1.1 (Zn) + 1.5×0.025 (Mo) + 3.22×0.14 (B) = 13.33 wt.%.",
+      "notes": null
+    }
+  ]
+}

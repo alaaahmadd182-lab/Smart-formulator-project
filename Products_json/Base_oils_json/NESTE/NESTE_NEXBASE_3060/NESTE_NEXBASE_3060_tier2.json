@@ -1,0 +1,117 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "NESTE_NEXBASE_3060",
+  "product": {
+    "product_name": "NEXBASE 3060",
+    "supplier": "Neste N.V.",
+    "document_type": "Technical Data Sheet",
+    "source_file": "DL2-10039.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": 7.2,
+      "qualifier": null,
+      "min": null,
+      "max": 8,
+      "value_kind": "typical",
+      "printed_text": "Typical 7.2 w-%; specification maximum 8 w-%",
+      "unit": "wt.% loss",
+      "test_temperature_c": null,
+      "method": "CEC L-40-93b",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10039.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -15,
+      "qualifier": null,
+      "min": null,
+      "max": -12,
+      "value_kind": "typical",
+      "printed_text": "Typical −15°C; specification maximum −12°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10039.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 240,
+      "qualifier": null,
+      "min": 220,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Typical 240°C; specification minimum 220°C",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10039.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC"
+    }
+  },
+  "open_questions": [
+    "TDS edition 6.2 has no calendar revision date.",
+    "SDS DL2-12735.pdf checked; its pour-point and flash-point limits are compatible with TDS specifications."
+  ],
+  "conflicts": []
+}

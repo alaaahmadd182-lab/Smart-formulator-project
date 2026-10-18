@@ -1,0 +1,104 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "SHELL_RISELLA_X_415",
+  "product": {
+    "product_name": "Shell Risella X 415",
+    "supplier": "Shell",
+    "document_type": "Technical Data Sheet",
+    "source_file": "DL2-13728.pdf",
+    "revision_date": "2013-02-08"
+  },
+  "fields": {
+    
+"mrv": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Not Required",
+        "calculation_note": "Shell Risella X 415 is marketed as a GTL-derived process/technical white oil. MRV engine-oil low-temperature pumpability testing is not required for its documented process-oil application.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "flash_method": null
+      }
+    ],
+    "noack_volatility": {
+      "value": 40,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "40 %m, 1h/250°C",
+      "unit": "mass%",
+      "test_temperature_c": 250,
+      "method": "ASTM D5800",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13728.pdf",
+        "page": 1,
+        "revision_date": "2013-02-08"
+      },
+      "flash_method": null
+    },
+    "pour_point": {
+      "value": -39,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "-39 °C",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ISO 3016",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13728.pdf",
+        "page": 1,
+        "revision_date": "2013-02-08"
+      },
+      "flash_method": null
+    },
+    "flash_point": {
+      "value": 200,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "200 °C, COC",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ISO 2592",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13728.pdf",
+        "page": 1,
+        "revision_date": "2013-02-08"
+      },
+      "flash_method": "COC"
+    }
+  },
+  
+  "open_questions": [
+    "Shell Risella X 415 is marketed as a GTL-derived process/technical white oil. API lubricant base-oil Group classification is treated as Not Required for its documented application, subject to project applicability rules.",
+    "MRV low-temperature pumpability testing is treated as Not Required for the documented process-oil application. No MRV viscosity, yield stress, or test temperature is reported in the supplied TDS.",
+    "The TDS reports Noack volatility of 40 mass% at 250°C for 1 hour, ASTM D5800. Preserve this measured value despite the product's process-oil classification.",
+    "TDS DL2-13728.pdf reports density of 806 kg/m3 at 15°C, while SDS DL2-13729.pdf reports 803.5 kg/m3 at 15°C. This discrepancy requires reconciliation.",
+    "The TDS is dated 2013-02-08 and the cited SDS was revised 2018-10-26. Confirm applicable document revisions before final approval."
+  ],
+  "conflicts": []
+}

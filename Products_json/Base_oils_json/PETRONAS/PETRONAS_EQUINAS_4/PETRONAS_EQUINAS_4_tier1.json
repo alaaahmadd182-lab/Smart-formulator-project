@@ -1,0 +1,148 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "PETRONAS_EQUINAS_4",
+  "product": {
+    "product_name": "EQUINAS 4",
+    "supplier": "PETRONAS Lubricants International",
+    "document_type": "Safety Data Sheet",
+    "source_file": "DL2-15184.pdf",
+    "revision_date": "2021-10-21"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      },
+      "chemistry": {
+        "value": "Paraffinic Distillate, Heavy, Hydrotreated",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15184.pdf",
+          "page": 2,
+          "revision_date": "2021-10-21"
+        },
+        "printed_text": "Paraffinic Distillate, Heavy, Hydrotreated; CAS 64742-54-7; concentration >=99 - <=100%",
+        "value_kind": "SDS composition",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 18.14,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "SDS reported",
+      "printed_text": "18.14 mm2/s at 40°C",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15184.pdf",
+        "page": 4,
+        "revision_date": "2021-10-21"
+      }
+    },
+    "kv100": {
+      "value": 4.21,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "SDS reported",
+      "printed_text": "4.21 mm2/s at 100°C",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15184.pdf",
+        "page": 4,
+        "revision_date": "2021-10-21"
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.8291,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "SDS reported",
+      "printed_text": "0.8291 g/cm3 at 15°C",
+      "unit": "g/cm3",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15184.pdf",
+        "page": 4,
+        "revision_date": "2021-10-21"
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "No grade-specific TDS in supplied product source; only SDS available.",
+    "API base oil group not explicitly stated in SDS.",
+    "Pour point, sulfur, viscosity index and CCS not reported."
+  ],
+  "conflicts": []
+}

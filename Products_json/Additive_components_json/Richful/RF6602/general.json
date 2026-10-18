@@ -1,0 +1,323 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "RF6602",
+  "product": {
+    "product_name": "RF6602 Polymethacrylate (PMA) Viscosity Index Improver",
+    "supplier": "Xinxiang Richful Lube Additive Co., Ltd",
+    "document_type": [
+      "TDS",
+      "SDS"
+    ],
+    "source_file": [
+      "DL2-14874.pdf",
+      "RF6602.pdf"
+    ],
+    "revision_date": [
+      null,
+      "2022-02-18"
+    ]
+  },
+  "component_subtype": "VM",
+  "fields": {
+    "function": {
+      "primary": {
+        "unit": null,
+        "value": "viscosity index improver",
+        "status": "reported",
+        "source": {
+          "file": "DL2-14874.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "secondary": {
+        "unit": null,
+        "value": null,
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "chemical_family": {
+      "unit": null,
+      "value": "Polymethacrylate (PMA)",
+      "status": "reported",
+      "source": {
+        "file": "DL2-14874.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": 65,
+      "max": 85,
+      "value_kind": "range",
+      "printed_text": "Acrylic copolymer CAS-No: No 65 - 85",
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "SDS Section 3 component share of the polymer ('Acrylic copolymer').",
+      "source": {
+        "file": "RF6602.pdf",
+        "page": 2,
+        "revision_date": "2022-02-18"
+      },
+      "basis": "SDS Section 3 'Acrylic copolymer' share (polymer)",
+      "notes": null
+    },
+    "carrier": {
+      "identity": {
+        "unit": null,
+        "value": "Distillates (petroleum), hydrotreated heavy paraffinic (contains less than 3% DMSO extract), CAS-No.: 64742-54-7",
+        "status": "reported",
+        "source": {
+          "file": "RF6602.pdf",
+          "page": 2,
+          "revision_date": "2022-02-18"
+        },
+        "notes": null
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": 15,
+        "max": 35,
+        "value_kind": "range",
+        "printed_text": "Distillates (petroleum), hydrotreated heavy paraffinic ... 64742-54-7 15 – 35",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "reported",
+        "calculation_note": "SDS Section 3.",
+        "source": {
+          "file": "RF6602.pdf",
+          "page": 2,
+          "revision_date": "2022-02-18"
+        },
+        "notes": null
+      }
+    },
+    "treat_rate": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "compatibility_restrictions": {
+      "value": null,
+      "unit": null,
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mg KOH/g",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "not_applicable",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead."
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "not_applicable",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead."
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "not_applicable",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead."
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "not_applicable",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead."
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "not_applicable",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead."
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "not_applicable",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead."
+      }
+    }
+  },
+  "open_questions": [
+    "TDS DL2-14874.pdf ('TDS OF RF6602') undated; SDS RF6602.pdf issue/revision 18/2/2022.",
+    "Physical properties (no field in the component templates): TDS DL2-14874.pdf p.1 (Index / Typical, method): Kinematic Viscosity (100℃) 1100-1850 / 1360 mm2/s ASTM D445; Flash Point (COC) ≮180 / 210 ℃ ASTM D92; Density (20℃) 850-950 / 919 kg/m3 ASTM D4052; Color ＜0.5 ASTM D1500. SDS RF6602.pdf Section 9: Flash point 160 °C; Viscosity, kinematic 53691mm²/s (40℃); Density 0.9 g/cm³ (no temperature).",
+    "Flash point differs: TDS index '≮180' / typical 210 ℃ (COC) vs SDS 'Flash point : 160 °C' (no method). No template field; recorded here, not resolved.",
+    "Density: TDS 919 kg/m3 (20℃) vs SDS 0.9 g/cm³ - same value rounded to one decimal, not a conflict.",
+    "Applications (TDS p.1): 'suitable for the blending of hydraulic oil (especially low temperature hydraulic oil), gear oil, shock absorber oil, transmission oil and other kinds of oil' - no compatibility restrictions printed (compatibility_restrictions left Missing; 150N / 500N / Group Ⅲ 6# are only the thickening-test oils).",
+    "No recommended treat rate is printed (only test doses 1/3/5 % and 6/10 %); treat_rate left Missing. Secondary function not stated (text: 'can effectively increase the viscosity index and improve the low temperature performance of the oil').",
+    "2026-10-17: function-specific markers (TBN, Ca, Mg, P, Zn, Mo) set to N/A - not applicable to a PMA VII."
+  ],
+  "conflicts": [],
+  "external_fill_notes": [
+    {
+      "value": null,
+      "unit": null,
+      "property": "function_specific_markers.tbn",
+      "status": "not_applicable",
+      "source": "Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "function_specific_markers.ca",
+      "status": "not_applicable",
+      "source": "Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "function_specific_markers.mg",
+      "status": "not_applicable",
+      "source": "Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "function_specific_markers.p",
+      "status": "not_applicable",
+      "source": "Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "function_specific_markers.zn",
+      "status": "not_applicable",
+      "source": "Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "function_specific_markers.mo",
+      "status": "not_applicable",
+      "source": "Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.",
+      "notes": null
+    }
+  ]
+}

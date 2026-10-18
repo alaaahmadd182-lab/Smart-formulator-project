@@ -1,0 +1,150 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "PETRO_CANADA_PURITY_VHVI_4",
+  "product": {
+    "product_name": "PURITY VHVI 4",
+    "supplier": "Petro-Canada Lubricants Inc.",
+    "document_type": "Supplier PURITY VHVI brochure / typical properties",
+    "source_file": "DL2-11261.pdf",
+    "revision_date": "2015-07"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group III",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-11261.pdf",
+          "page": 1,
+          "revision_date": "2015-07"
+        },
+        "printed_text": "Group III refinery; Group III – Cold Crank Simulator",
+        "value_kind": "supplier family classification",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      },
+      "chemistry": {
+        "value": "Highly isoparaffinic saturated hydrocarbons; severe hydrotreating, hydrocracking, catalytic wax hydroisomerization",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-11261.pdf",
+          "page": 1,
+          "revision_date": "2015-07"
+        },
+        "printed_text": "Highly isoparaffinic, saturated base oils produced by severe Hydrotreating, Hydrocracking and catalytic wax Hydroisomerization",
+        "value_kind": "supplier family description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 20.8,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "20.8 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11261.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "kv100": {
+      "value": 4.5,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "4.5 cSt",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11261.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "viscosity_index": {
+      "value": 127,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "127",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11261.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "density": {
+      "value": 0.84,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "0.84 kg/L",
+      "unit": "kg/L",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11261.pdf",
+        "page": 2,
+        "revision_date": "2015-07"
+      }
+    },
+    "ccs": [
+      {
+        "test_temperature_c": -35,
+        "ccs_viscosity": {
+          "value": 3250,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "3250 cP @ -35°C",
+          "unit": "cP",
+          "test_temperature_c": -35,
+          "method": "ASTM D5293",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11261.pdf",
+            "page": 2,
+            "revision_date": "2015-07"
+          }
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "Group III classification and chemistry are supplier family-level descriptions, not individual grade assay.",
+    "Confirm against grade-specific SDS and other brochure editions during final audit."
+  ],
+  "conflicts": []
+}

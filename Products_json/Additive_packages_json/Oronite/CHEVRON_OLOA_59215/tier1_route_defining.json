@@ -1,0 +1,324 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "CHEVRON_OLOA_59215",
+  "product": {
+    "product_name": "OLOA 59215",
+    "supplier": "Chevron Oronite Company LLC",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-13875.pdf"
+    ],
+    "revision_date": "2019-05-29"
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "Heavy Duty Engine Oil Package",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13875.pdf",
+          "page": 1,
+          "revision_date": "2019-05-29"
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "high performance engine oil additive designed for modern diesel engines operating under severe conditions and heavy loads",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13875.pdf",
+          "page": 1,
+          "revision_date": "2019-05-29"
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "meets",
+        "scope": "OLOA® 59215 meets the performance requirements of API CI-4 in SAE 15W-40 and 20W-50 viscosity grades in select Grp II base stocks with PARATONE 24 SSI and 35 SSI VII.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13875.pdf",
+          "page": 1,
+          "revision_date": "2019-05-29"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 228.3",
+        "claim_type": "other",
+        "scope": "OLOA® 59215 meets the following OEM claims in SAE 15W-40 viscosity grade with PARATONE 24 SSI VII: 'MB 228.3 (Approval in progress)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13875.pdf",
+          "page": 1,
+          "revision_date": "2019-05-29"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "CES 20076/77",
+        "claim_type": "other",
+        "scope": "OLOA® 59215 meets the following OEM claims in SAE 15W-40 viscosity grade with PARATONE 24 SSI VII: 'CES 20076/77 (Approval in progress)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13875.pdf",
+          "page": 1,
+          "revision_date": "2019-05-29"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU Type 2",
+        "claim_type": "meets",
+        "scope": "OLOA® 59215 meets the following OEM claims in SAE 15W-40 viscosity grade with PARATONE 24 SSI VII: 'MTU Type 2 (meets performance)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13875.pdf",
+          "page": 1,
+          "revision_date": "2019-05-29"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN M3275-1",
+        "claim_type": "meets",
+        "scope": "OLOA® 59215 meets the following OEM claims in SAE 15W-40 viscosity grade with PARATONE 24 SSI VII: 'MAN M3275-1 (meets performance)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13875.pdf",
+          "page": 1,
+          "revision_date": "2019-05-29"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "VDS",
+        "claim_type": "meets",
+        "scope": "OLOA® 59215 meets the following OEM claims in SAE 15W-40 viscosity grade with PARATONE 24 SSI VII: 'VDS (meets performance)'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13875.pdf",
+          "page": 1,
+          "revision_date": "2019-05-29"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 15W-40",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13875.pdf",
+          "page": 1,
+          "revision_date": "2019-05-29"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 20W-50",
+        "status": "reported",
+        "source": {
+          "file": "DL2-13875.pdf",
+          "page": 1,
+          "revision_date": "2019-05-29"
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Grp II"
+      ],
+      "permitted_grades": [
+        "select Grp II base stocks"
+      ],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": "DL2-13875.pdf",
+        "page": 1,
+        "revision_date": "2019-05-29"
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "API CI-4: SAE 15W-40 and 20W-50 with PARATONE 24 SSI and 35 SSI VII",
+        "OEM claims: SAE 15W-40 with PARATONE 24 SSI VII"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-13875.pdf",
+        "page": 1,
+        "revision_date": "2019-05-29"
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "All claims listed on p.1",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 9.27,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Dosage 9.27 wt%",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Single 'Dosage' printed for the product; not tied to a specific grade or claim.",
+          "source": {
+            "file": "DL2-13875.pdf",
+            "page": 1,
+            "revision_date": "2019-05-29"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": "VII (viscosity index improver)",
+        "name": "PARATONE 24 SSI",
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Required for API CI-4 and OEM claims (p.1); dose not printed.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "role": "VII (viscosity index improver)",
+        "name": "PARATONE 35 SSI",
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": "Named for API CI-4 (p.1); dose not printed.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "MB 228.3 and CES 20076/77 are printed as '(Approval in progress)' (DL2-13875.pdf p.1); recorded as claim_type 'other'.",
+    "PARATONE 24 SSI / 35 SSI VII doses are not printed.",
+    "No SDS in the archive for OLOA 59215."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

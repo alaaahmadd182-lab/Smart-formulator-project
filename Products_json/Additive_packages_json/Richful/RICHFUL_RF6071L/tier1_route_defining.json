@@ -1,0 +1,211 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "RICHFUL_RF6071L",
+  "product": {
+    "product_name": "RF6071L CI-4 Extended EDI Diesel Engine Oil Package",
+    "supplier": null,
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "RF6071L.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "CI-4 Extended EDI Diesel Engine Oil Package",
+        "status": "reported",
+        "source": {
+          "file": "RF6071L.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "The diesel engine oils blended with this product at a treat rate of 15.8%, using Group III and above base oil, are able to provide engine with long-lasting cleaning and protection performance. It is applicable to vehicles with China V and above emission standards with oil drain interval up to 80,000-100,000km",
+        "status": "reported",
+        "source": {
+          "file": "RF6071L.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "recommended",
+        "scope": "Recommended treat rate table: 10W-40, 15.8%. Text: 'The diesel engine oils blended with this product at a treat rate of 15.8%, using Group III and above base oil, are able to provide engine with long-lasting cleaning and protection performance. It is applicable to vehicles with China V and above emission standards with oil drain interval up to 80,000-100,000km'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "RF6071L.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "10W-40",
+        "status": "reported",
+        "source": {
+          "file": "RF6071L.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group III and above"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "using Group III and above base oil"
+      ],
+      "status": "reported",
+      "source": {
+        "file": "RF6071L.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [
+        "applicable to vehicles with China V and above emission standards with oil drain interval up to 80,000-100,000km"
+      ],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": "RF6071L.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CI-4",
+        "sae_grade": "10W-40",
+        "treat_rate_wt_pct": {
+          "value": 15.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "CI-4 10W-40 15.8%",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Printed '%' (basis not stated).",
+          "source": {
+            "file": "RF6071L.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Only an undated TDS is in the archive for RF6071L (no SDS). The sheet prints no company name; supplier left null (archive folder: Richful Lube Additive)."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

@@ -1,0 +1,314 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "WUXI_WX3326",
+  "product": {
+    "product_name": "WX3326(CF-4 SL SM)",
+    "supplier": null,
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-13538.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "tbn": {
+      "value": 80,
+      "qualifier": "≥",
+      "min": 80,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "TBN. , mg KOH/g 80 min. ASTM D - 2896",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": "ASTM D-2896",
+      "status": "reported",
+      "calculation_note": "Column 'Limit', printed as a minimum.",
+      "source": {
+        "file": "DL2-13538.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": 10.36,
+      "qualifier": "≥",
+      "min": null,
+      "max": null,
+      "value_kind": "calculated lower bound",
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": "Calculated (ASTM D874 factors)",
+      "status": "calculated",
+      "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×2.5 (Ca) + 1.24×1.5 (Zn) = 10.3600 → 10.36 wt.%. Mg not reported, taken as 0. Inputs are printed minimums (≥), so the result is a lower bound.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+    },
+    "elements": {
+      "Ca": {
+        "value": 2.5,
+        "qualifier": "≥",
+        "min": 2.5,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Ca m% 2.5 min. ASTM D - 4628",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D-4628",
+        "status": "reported",
+        "calculation_note": "Column 'Limit', printed as a minimum.",
+        "source": {
+          "file": "DL2-13538.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": 1.5,
+        "qualifier": "≥",
+        "min": 1.5,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "Zn m% 1.5min. ASTM D - 4628",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D-4628",
+        "status": "reported",
+        "calculation_note": "Column 'Limit', printed as a minimum.",
+        "source": {
+          "file": "DL2-13538.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": 1.35,
+        "qualifier": "≥",
+        "min": 1.35,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "P m% 1.35min. ASTM D - 4628",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D-4628",
+        "status": "reported",
+        "calculation_note": "Column 'Limit', printed as a minimum.",
+        "source": {
+          "file": "DL2-13538.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": 0.7,
+        "qualifier": "≥",
+        "min": 0.7,
+        "max": null,
+        "value_kind": "specification",
+        "printed_text": "N m% 0.7 min ASTM D - 3228",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": "ASTM D-3228",
+        "status": "reported",
+        "calculation_note": "Column 'Limit', printed as a minimum.",
+        "source": {
+          "file": "DL2-13538.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3 (or as printed)",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 170,
+      "qualifier": "≥",
+      "min": 170,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Flash Point (COC),℃ 170 min. ASTM D - 92",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "ASTM D-92",
+      "status": "reported",
+      "calculation_note": "Column 'Limit', printed as a minimum.",
+      "source": {
+        "file": "DL2-13538.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "KV100 and Density at 20℃ printed as 'Report' (no value). Values are minimum limits (column 'Limit'), not typicals.",
+    "Element methods printed as 'ASTM D - 4628' / 'ASTM D - 3228' as on the sheet."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

@@ -1,0 +1,319 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "CHEVRON_N204",
+  "product": {
+    "product_name": "N 204",
+    "supplier": "Indian Additives Ltd.",
+    "document_type": [
+      "MSDS"
+    ],
+    "source_file": [
+      "DL2-12494.pdf"
+    ],
+    "revision_date": "2017-11-01"
+  },
+  "fields": {
+    "tbn": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "elements": {
+      "Ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": 3890,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity: 3890 cSt @ 40°C (104°F)",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Section 9 header: 'Attention: the data below are typical values and do not constitute a specification.'",
+      "source": {
+        "file": "DL2-12494.pdf",
+        "page": 5,
+        "revision_date": "2017-11-01"
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 0.985,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density: 0.9850 kg/l @ 15°C (59°F)",
+      "unit": "kg/l",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "reported",
+      "calculation_note": "Template unit kg/m3; printed kg/l kept. Section 9 header: 'Attention: the data below are typical values and do not constitute a specification.'",
+      "source": {
+        "file": "DL2-12494.pdf",
+        "page": 5,
+        "revision_date": "2017-11-01"
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 180,
+      "qualifier": "≥",
+      "min": 180,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Flashpoint: (Cleveland Open Cup) 180 °C (356 °F) Minimum",
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": "Cleveland Open Cup",
+      "status": "reported",
+      "calculation_note": "Printed as a minimum (Section 5).",
+      "source": {
+        "file": "DL2-12494.pdf",
+        "page": 3,
+        "revision_date": "2017-11-01"
+      },
+      "flash_method": "COC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Image-only PDF (no text layer); all values read visually from 200 dpi page renders.",
+    "NEW product (no old Product_JSON file). Decision (a) said 'all properties missing and image-only noted', the later instruction says to read image-only PDFs like text PDFs; values were read and entered as Reported.",
+    "DL2-12494.pdf p.1: 'Company Identification: Indian Additives Ltd.' with Chevron Oronite logo and Oronite emergency contacts; supplier recorded as Indian Additives Ltd. (Revision Number: 0, MSDS : 46286).",
+    "DL2-12494.pdf p.1 Section 2 component shares (not element contents): Highly refined mineral oil (C15 - C50) 40 - 45 %weight; Zinc alkyl dithiophosphate (68649-42-3) 5 - 10 %weight; Calcium long chain alkaryl sulfonate (722503-69-7) 5 - 10 %weight; Calcium long chain alkaryl sulfonate (722503-68-6) 1 - 5 %weight.",
+    "Package vs component: MSDS only says 'Product Use: Automotive lubricant additive' (p.1); filed as a package per decision (a).",
+    "TBN, sulfated ash, KV100, pour point and all elements are not printed. Section 5 lists combustion oxides of Calcium, Zinc, Molybdenum, Boron, Phosphorus, Nitrogen, Sulfur (qualitative only).",
+    "DL2-12494.pdf p.5 also prints 'Specific Gravity: 0.9850 @ 15.6°C (60°F)'; same value as density."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}

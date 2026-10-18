@@ -1,0 +1,144 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "CHEVRON_WOP_70__T1",
+  "product": {
+    "product_name": "White Oil Pharmaceutical WOP 70",
+    "supplier": "Chevron",
+    "document_type": "TDS/SDS",
+    "source_file": "DL2-13008.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "chemistry": {
+        "value": "Highly refined mineral oil formulated with saturated aliphatic and alicyclic, non-polar hydrocarbons",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-13008.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "basis": "Supplier product-family technical datasheet product description",
+        "notes": "Supplier wording describes the product chemistry; it is not a grade-specific CAS/composition analysis."
+      }
+    },
+    "kv40": {
+      "value": 24,
+      "qualifier": "typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "24",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13008.pdf",
+        "page": 3,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 4.5,
+      "qualifier": "typical",
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "4.5",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-13008.pdf",
+        "page": 3,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-13008.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "doc_type": "TDS/SDS (see document)",
+      "revision_date": null
+    }
+  ]
+}

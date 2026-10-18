@@ -1,0 +1,185 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "PETRONAS_ETRO_4",
+  "product": {
+    "product_name": "ETRO 4",
+    "supplier": "PETRONAS Lubricants International",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-10230.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "III",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10230.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "printed_text": "High Quality Group III Base Oil",
+        "value_kind": "manufacturer classification",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      },
+      "chemistry": {
+        "value": "Hydrotreated, wax-isomerized and hydrofinished isoparaffinic base oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10230.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "printed_text": "proprietary hydrotreatment - and wax isomerization process and hydrofinished; highly isoparaffinic",
+        "value_kind": "manufacturer description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 4.22,
+      "qualifier": null,
+      "min": 4.15,
+      "max": 4.35,
+      "value_kind": "typical",
+      "printed_text": "4.22 mm²/s; specification 4.15–4.35 mm²/s",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10230.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 129,
+      "qualifier": null,
+      "min": 127,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "129; specification ≥127",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-10230.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/L",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": 810,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "810 mPa.s at -25°C (Typical Value)",
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-10230.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "value": 1390,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "1,390 mPa.s at -30°C (Typical Value)",
+        "unit": "mPa.s",
+        "test_temperature_c": -30,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-10230.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "value": 2500,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "2,500 mPa.s at -35°C (Typical Value)",
+        "unit": "mPa.s",
+        "test_temperature_c": -35,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-10230.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "Supplementary DL2-12475.pdf is image-only and has not been independently reconciled.",
+    "No grade-specific SDS independently verified for ETRO 4.",
+    "No calendar revision date stated on PDS.",
+    "Density measurement temperature is not stated in the PDS; do not infer it."
+  ],
+  "conflicts": []
+}

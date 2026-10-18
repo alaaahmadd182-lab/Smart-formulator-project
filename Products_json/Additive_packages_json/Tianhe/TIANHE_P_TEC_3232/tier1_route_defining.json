@@ -1,0 +1,334 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "TIANHE_P_TEC_3232",
+  "product": {
+    "product_name": "P-TEC 3232",
+    "supplier": "TIANHE CHEMICALS",
+    "document_type": [
+      "TDS"
+    ],
+    "source_file": [
+      "DL2-12939.pdf"
+    ],
+    "revision_date": null
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "GENERAL PURPOSE ENGINE OIL PACKAGE",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12939.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "intended_service": {
+        "unit": null,
+        "value": "P-TEC 3232 has been developed to formulate a range of mid-tier lubricants. P-TEC 3232 surpasses the standard engine tests of API CF4/CF and the OEM requirements of MB 228.1. The product is recommended for diesel & gasoline applications.",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12939.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF4",
+        "claim_type": "meets",
+        "scope": "Text: 'P-TEC 3232 has been developed to formulate a range of mid-tier lubricants. P-TEC 3232 surpasses the standard engine tests of API CF4/CF and the OEM requirements of MB 228.1. The product is recommended for diesel & gasoline applications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12939.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF",
+        "claim_type": "meets",
+        "scope": "Text: 'P-TEC 3232 has been developed to formulate a range of mid-tier lubricants. P-TEC 3232 surpasses the standard engine tests of API CF4/CF and the OEM requirements of MB 228.1. The product is recommended for diesel & gasoline applications.'",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12939.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 228.1",
+        "claim_type": "meets",
+        "scope": "Text: '... and the OEM requirements of MB 228.1'.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12939.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF4/228.1",
+        "claim_type": "recommended",
+        "scope": "TREAT RATE table: Multi-grade, 7.10 mass%.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12939.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF4 /SG",
+        "claim_type": "recommended",
+        "scope": "TREAT RATE table: Multi-grade, 6.80 mass%.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12939.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CF /SF",
+        "claim_type": "recommended",
+        "scope": "TREAT RATE table: Multi-grade, 4.00 mass%.",
+        "evidence_class": "Supplier claim",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12939.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "Multi-grade",
+        "status": "reported",
+        "source": {
+          "file": "DL2-12939.pdf",
+          "page": 2,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [
+        "Group I",
+        "Group II",
+        "Group III"
+      ],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "reported",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CF4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use)."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [
+        "For markets which require higher TBN, a compatible booster can be recommended."
+      ],
+      "status": "reported",
+      "source": {
+        "file": "DL2-12939.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CF4/228.1",
+        "sae_grade": "Multi-grade",
+        "treat_rate_wt_pct": {
+          "value": 7.1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CF4/228.1 Multi-grade 7.10",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Treat rate, mass%'.",
+          "source": {
+            "file": "DL2-12939.pdf",
+            "page": 2,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF4 /SG",
+        "sae_grade": "Multi-grade",
+        "treat_rate_wt_pct": {
+          "value": 6.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CF4 /SG Multi-grade 6.80",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Treat rate, mass%'.",
+          "source": {
+            "file": "DL2-12939.pdf",
+            "page": 2,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      },
+      {
+        "claim": "API CF /SF",
+        "sae_grade": "Multi-grade",
+        "treat_rate_wt_pct": {
+          "value": 4.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "API CF /SF Multi-grade 4.00",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "reported",
+          "calculation_note": "Column 'Treat rate, mass%'.",
+          "source": {
+            "file": "DL2-12939.pdf",
+            "page": 2,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "No date printed on DL2-12939.pdf; supplier from the logo 'TIANHE CHEMICALS' (website ENGLISH.TIANHECHEM.COM). No SDS in the archive.",
+    "TREAT RATE table (p.2) has a 'Total base number, mg KOH/g' row with no values (checked on the page image).",
+    "Claim type 'meets' from 'surpasses the standard engine tests of API CF4/CF and the OEM requirements of MB 228.1'; table rows 'recommended'."
+  ],
+  "conflicts": [],
+  "external_fill_notes": []
+}
