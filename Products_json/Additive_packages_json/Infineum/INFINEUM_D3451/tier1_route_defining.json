@@ -163,21 +163,17 @@
     "permitted_base_oils_restrictions": {
       "value": null,
       "unit": null,
-      "permitted_api_groups": [
-        "Group I",
-        "Group II",
-        "Group III"
-      ],
+      "permitted_api_groups": [],
       "permitted_grades": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "reported",
+      "status": "missing",
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CI-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use). Datasheet itself says 'Claims are base stock and viscosity grade specific', so confirm with Infineum."
+      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). Printed base-oil wording: 'in combination with approved base stocks and viscosity modifier' and 'Claims are base stock and viscosity grade specific' (DL2-10219.pdf p.1; DL2-12029.pdf p.1); this generic wording does not identify specific API Groups."
     },
     "route_selector_restrictions": {
       "value": null,
@@ -366,7 +362,8 @@
   "open_questions": [
     "Claim type 'meets': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.",
     "Fields use the newer TDS DL2-12029.pdf (2017). The 2012 TDS DL2-10219.pdf p.1 lists 'API SL/CI-4/CH-4' and 'ACEA E7-08' for SAE 15W-40 at 11.9 mass % ('~ 11.0 Volume %'); the 2017 sheet updates ACEA E7-08 to E7-12 and adds rows. Revision, not recorded as conflict.",
-    "'can be downtreated to meet API CG-4 and CF-4' has no treat rate printed."
+    "'can be downtreated to meet API CG-4 and CF-4' has no treat rate printed.",
+    "Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Infineum."
   ],
   "conflicts": [],
   "external_fill_notes": []

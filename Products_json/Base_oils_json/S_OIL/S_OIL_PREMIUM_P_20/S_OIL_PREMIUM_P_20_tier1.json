@@ -14,33 +14,33 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": "Group III",
-        "status": "Reported",
+        "value": null,
+        "status": "Missing",
         "source": {
-          "file": "https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf",
-          "page": 25,
-          "revision_date": "2024"
+          "file": null,
+          "page": null,
+          "revision_date": null
         },
-        "printed_text": "API Base Oil Category: Group III (aramcoULTRA 8)",
-        "value_kind": "supplier classification",
+        "printed_text": null,
+        "value_kind": null,
         "method": null,
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": "Group III explicitly confirmed for aramcoULTRA 8 in Aramco's official 2024 base-oil catalog. The original 2018 SDS did not state the API Group.",
+        "calculation_note": null,
         "flash_method": null,
         "test_temperature_c": null
       },
       "chemistry": {
-        "value": "Distillates (petroleum), hydrotreated heavy paraffinic",
-        "status": "Reported",
+        "value": null,
+        "status": "Missing",
         "source": {
-          "file": "DL2-14611.pdf",
-          "page": 1,
-          "revision_date": "2018-09-07"
+          "file": null,
+          "page": null,
+          "revision_date": null
         },
-        "printed_text": "Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; purity 100%",
-        "value_kind": "supplier description",
+        "printed_text": null,
+        "value_kind": null,
         "method": null,
         "min": null,
         "max": null,
@@ -149,7 +149,7 @@
     ]
   },  
   "open_questions": [
-    "API Group III confirmed for aramcoULTRA 8 using Aramco's official 2024 base-oil catalog; classification was not explicitly stated in the original 2018 SDS.",
+    "API Group and chemistry (2026-10 audit): both Tier 1 values were attributed to sources for a different product, aramcoULTRA 8, and are now Missing. Former API Group: 'Group III' (Reported), cited to the Aramco base-oil catalog 2024 p.25, which is the aramcoULTRA slate table for grades 4/6/8 and does not list P-20 or any Premium-series grade; former note: 'Group III explicitly confirmed for aramcoULTRA 8 in Aramco's official 2024 base-oil catalog. The original 2018 SDS did not state the API Group.' Former chemistry: 'Distillates (petroleum), hydrotreated heavy paraffinic' (Reported; printed text 'Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; purity 100%'), cited to DL2-14611.pdf p.1, the SDS for 'Base Oil aramcoULTRA 8 (250 Neutral)' revised 2018-09-07. Former open question: 'API Group III confirmed for aramcoULTRA 8 using Aramco's official 2024 base-oil catalog; classification was not explicitly stated in the original 2018 SDS.' No reviewed document states the API Group or chemistry of P-20; the Premium Series sheet DL2-11173.pdf names neither. Confirm both with S-OIL.",
     "S-OIL's official Premium Series catalog reports specific gravity 0.8520 at 15/4°C (ASTM D1298), but absolute density remains unverified.",
     "No grade-specific CCS viscosity or test temperature was verified for P-20.",
     "Grade-specific SDS and additional technical documentation require reconciliation."

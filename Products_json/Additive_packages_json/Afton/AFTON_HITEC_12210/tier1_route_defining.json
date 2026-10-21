@@ -146,20 +146,17 @@
     "permitted_base_oils_restrictions": {
       "value": null,
       "unit": null,
-      "permitted_api_groups": [
-        "Group II",
-        "Group III"
-      ],
+      "permitted_api_groups": [],
       "permitted_grades": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "reported",
+      "status": "missing",
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for API CK-4/FA-4 packages), not from the product datasheet. Packages claiming API CK-4/FA-4 performance are typically designed for Group II/III base oils. Rule of thumb only, not a supplier statement or an API 1509 restriction. Afton bulletin says 'in a range of market basestocks' without naming groups."
+      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). Printed base-oil wording: 'in appropriate grades and base stocks' and 'in a range of market basestocks' (DL2-11418.pdf p.2); this generic wording does not identify specific API Groups."
     },
     "route_selector_restrictions": {
       "value": null,
@@ -350,7 +347,8 @@
     "Required VM HiTEC® 5748A (OCP) is named (DL2-11418.pdf p.2) but its dose is not printed; dose left Missing.",
     "Permitted base oils: the sheet only says 'in a range of market basestocks' and 'in appropriate grades and base stocks' (p.2); no API group named, field left Missing.",
     "OEM claim is generic ('designed to meet ... including Caterpillar, Cummins, ...'), no specific OEM specification numbers; recorded as claim_type 'other'.",
-    "Radar chart 'Afton PC-11 vs. CJ-4 Performance Comparison' (p.2) has no numeric values; not recorded."
+    "Radar chart 'Afton PC-11 vs. CJ-4 Performance Comparison' (p.2) has no numeric values; not recorded.",
+    "Permitted base oils (2026-10 audit): previously recorded as reported [Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CK-4/FA-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Afton Chemical Corporation."
   ],
   "conflicts": [],
   "external_fill_notes": []

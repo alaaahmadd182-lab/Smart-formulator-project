@@ -14,20 +14,20 @@
   "fields": {
     "api_group_chemistry": {   
       "api_group": {
-        "value": "Group III",
-        "status": "Reported",
+        "value": null,
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
           "revision_date": null
         },
-        "printed_text": "aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties",
-        "value_kind": "reported_classification",
-        "method": "S-OIL official base-oil product information",
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": "Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.",
+        "calculation_note": null,
         "flash_method": null,
         "test_temperature_c": null
       },
@@ -156,7 +156,8 @@
     "Chemistry is recorded from SDS DL2-15237.pdf, Section 3: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7. Final source-level verification remains pending.",
     "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",
     "No grade-specific CCS viscosity or CCS test temperature has been verified for Ultra-S 6.",
-    "Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15237.pdf remains pending."
+    "Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15237.pdf remains pending.",
+    "API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties'; note 'Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 6 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 6 and aramcoULTRA 6 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.25 lists aramcoULTRA 6 as API Base Oil Category Group III (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Confirm the API Group of Ultra-S 6 with S-OIL."
   ],
   "conflicts": []
 }

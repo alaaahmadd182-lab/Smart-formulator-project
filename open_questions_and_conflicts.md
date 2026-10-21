@@ -42,6 +42,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Permitted base oils: the sheet only says 'in a range of market basestocks' and 'in appropriate grades and base stocks' (p.2); no API group named, field left Missing.
 - (tier1) OEM claim is generic ('designed to meet ... including Caterpillar, Cummins, ...'), no specific OEM specification numbers; recorded as claim_type 'other'.
 - (tier1) Radar chart 'Afton PC-11 vs. CJ-4 Performance Comparison' (p.2) has no numeric values; not recorded.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CK-4/FA-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Afton Chemical Corporation.
 - (tier2) Density printed as 7.90 lbs/gal without a temperature (DL2-11418.pdf p.2); specific gravity 0.948 @ 15.6/15.6°C printed on the same page. Kept in printed unit; temperature for density left null.
 - (tier2) KV40, sulfated ash, all elements and pour point are not printed in DL2-11418.pdf.
 
@@ -53,6 +54,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Required VM dose is not printed in either bulletin; left Missing.
 - (tier1) Permitted base oils: only 'in a range of market basestocks' / 'in appropriate grades and base stocks' (DL2-15568.pdf p.2); left Missing.
 - (tier1) Radar chart 'Afton CK-4 vs. CJ-4 Performance Comparison' (p.2) has no numeric values; not recorded.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CK-4/FA-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Afton Chemical Corporation.
 - (tier2) Sulfated ash, all elements and pour point are not printed in any of the three documents.
 - (tier2) SDS DL2-15569.pdf p.2-3 Section 3 component shares (not element contents): ZDDP (85940-28-9) ≥5 - ≤10 %, overbased calcium sulfurized phenate ≥3 - ≤5 %, base-oil distillates ≥15-≤25, ≥10-≤15, ≥5-≤10 %; p.22 (Korea) 'Mineral oil ≥35 - ≤45' and 'Molybdenum and its compounds ≥0.30 - ≤0.50' %. Mo/Zn/Ca left Missing.
 - (tier2) KV40 is printed as 'Minimum' in the SDS (p.8); the old Product_JSON also records it as a minimum. Only source of KV40.
@@ -109,6 +111,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type: the TDS (DL2-15551.pdf p.1) gives a 'RECOMMENDED DOSAGE' per specification and says the package 'covers API CI-4 /CH-4 performance levels'; recorded as 'recommended'.
 - (tier1) No SAE grades, base oils, co-components or published formulation are printed in either document.
 - (tier1) API SL at 8% appears only in the Technical Judgement (p.4); the TDS lists API CH-4/SJ at 7.0 and CF-4/SG at 6.0.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Bettchem.
 - (tier2) User decision 2026-10-17: element rows Ca, Zn, P, B, N, S and Sulphated Ash (DL2-15551.pdf p.1) print no unit; numbers stored as Reported with unit 'not printed'. Flagged: unit to be confirmed (likely mass %).
 - (tier2) Density field holds the printed SPECIFIC GRAVITY at 15.6℃ (0.9881, ASTM D1298); no density in kg/m3 is printed.
 - (tier2) Mg and Mo not printed.
@@ -118,6 +121,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type 'recommended' from the 'RECOMMENDED DOSAGE' table (DL2-15552.pdf p.1); product is 'CUSTOMER SPECIFIC'.
 - (tier1) No SAE grades, base oils, co-components or published formulation printed in DL2-15552.pdf; no SDS in the archive.
 - (tier1) Mg, B and Mo are not printed in DL2-15552.pdf. Base number has a 'Minimum' (198) and a 'TYPICAL' (233) but no 'Maximum'.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CF-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Bettchem.
 - (tier2) Density field holds the printed SPECIFIC GRAVITY at 15.6℃ (ASTM D1298); no density in kg/m3 printed (DL2-15552.pdf p.1).
 - (tier2) User decision 2026-10-17: density field stores the number 1.09 (specific gravity (dimensionless)), which is reported as specific gravity ('SPECIFIC GRAVITY at 15.6℃ Report 1.09 ASTM D1298', DL2-15552.pdf p.1), not a density in kg/m3; flagged for review.
 
@@ -125,6 +129,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type 'recommended' from the 'RECOMMENDED DOSAGE' table (DL2-15550.pdf p.1); product is 'CUSTOMER SPECIFIC'.
 - (tier1) No SAE grades, base oils, co-components or published formulation printed in DL2-15550.pdf; no SDS in the archive.
 - (tier1) B and pour point are not printed in DL2-15550.pdf. Base number has 'Minimum' 100 and 'TYPICAL' 115, no 'Maximum'.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Bettchem.
 - (tier2) Density field holds the printed SPECIFIC GRAVITY at 15.6℃ (ASTM D1298); no density in kg/m3 printed (DL2-15550.pdf p.1).
 - (tier2) User decision 2026-10-17: density field stores the number 0.99 (specific gravity (dimensionless)), which is reported as specific gravity ('SPECIFIC GRAVITY at 15.6℃ 0.9 1.1 0.99 ASTM D1298', DL2-15550.pdf p.1), not a density in kg/m3; flagged for review.
 
@@ -167,6 +172,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim wording 'is developed to meet API CF-4 performance' (DL2-13876.pdf p.1) recorded as claim_type 'other'; please confirm whether this should count as 'meets'.
 - (tier1) Composition text p.1: 'contains ashless dispersant, zinc dithiophosphate, metallic detergents and anti-oxidant' (no shares).
 - (tier1) No SAE grades, base oils, co-components or formulation printed; no SDS in the archive.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CF-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Chevron Oronite Company LLC.
 - (tier2) Mg, B, Mo, S, flash point and pour point are not printed in DL2-13876.pdf.
 
 ## 20. CHEVRON_OLOA_59766
@@ -204,6 +210,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type 'other': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.
 - (tier1) Row 2 level is printed as 'As below plus Volvo VDS-2' (DL2-10203.pdf p.1); the reference ('below' vs the row above) is unclear.
 - (tier1) Booster rows: footnotes 3 and 4 give three alternative boosters 'tuned for different base stock qualities'; all recorded as co-components. SV261 VM dose not printed.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Infineum.
 - (tier2) Typical Inspections p.1 also print 'Mineral Oil Content 49 mass % Calculated' (carrier share; no package field).
 - (tier2) B, Mo, S and pour point are not printed.
 
@@ -220,6 +227,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) DL2-10218.pdf (TDS, Version 10 May 2015 (5.0)) is image-only; read visually. Not listed in the old Product_JSON; added per decision (b).
 - (tier1) TDS p.2 prints 'Min Load/Unload Temp: 80 °C' above 'Max Load/Unload Temp: 65 °C' (min > max); copied as printed. SDS p.7 gives loading/unloading 55 °C - 65 °C.
 - (tier1) Product use (SDS DL2-15274.pdf p.1): 'Additive for heavy duty diesel engine lubricating oil'. VM not named.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Infineum.
 - (tier2) SDS DL2-15274.pdf p.3 component share (not element content): zinc dialkyldithiophosphate (298-577-9) >=10 - <12,5 %; four base-oil distillates >=1 - <10 % each.
 - (tier2) Sulfated ash, B, Mo, S and pour point not printed in the TDS; SDS p.13 'Pour point : not determined'.
 - (tier2) SDS also prints relative density 0,974 at 15,6 °C.
@@ -228,11 +236,13 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type 'meets': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.
 - (tier1) API SL is described as 'can also be used in gasoline engines requiring API SL category products'; recorded with the table claim type 'meets'.
 - (tier1) No SDS in the archive.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Infineum.
 - (tier2) Also printed: 'Density @ 60 F, lb/gal 8.08 lb/USG'. B, Mo, S and pour point not printed (DL2-13383.pdf).
 
 ## 29. INFINEUM_D3398
 - (tier1) Claim type 'meets': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.
 - (tier1) No SDS in the archive.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Infineum.
 - (tier2) Also printed: 'Density @ 60 F, lb/gal 8.15 lb/USG'. B, Mo, S and pour point not printed (DL2-13348.pdf).
 
 ## 30. INFINEUM_D3416
@@ -240,6 +250,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Grades printed as 'MULTI' / 'MONO' (multigrade / monograde) for the lower API levels (DL2-15333.pdf p.1); recorded as printed.
 - (tier1) Claim type 'meets' applied to all rows from the CI-4 description; the lower API levels have no separate wording.
 - (tier1) No SDS in the archive.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Infineum.
 - (tier2) Sulfated Ash method printed as 'Calculated' (supplier). B, Mo, S and pour point not printed.
 - (tier2) Row label 'Flash Point Deg C' is visible on the page image but missing from the text layer. (DL2-15333.pdf p.1).
 
@@ -247,6 +258,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type 'meets': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.
 - (tier1) DL2-15334.pdf is a customer specification ('CUSTOMER SPECIFICATION', customer 'Global - BRENNTAG GROUP', 'Printed On : 12-Feb-2024'), document_type PDS per decision (c).
 - (tier1) No SDS in the archive.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Infineum.
 - (tier2) Element fields use the newer customer specification DL2-15334.pdf (Min/Target/Max); targets equal the TDS typical values (Ca 1.26, Mg 1.19, N 0.79, P 1.37, Zn 1.51), so no conflict.
 - (tier2) PDS lists Base Number and KV100 as 'Test and report results' (no limits). Sulfated ash, B, Mo, S and pour point not printed.
 - (tier2) Row label 'Flash Point Deg C' is visible on the page image but missing from the text layer. (DL2-15335.pdf p.1).
@@ -255,6 +267,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type 'other': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.
 - (tier1) DL2-10204.pdf holds two documents: p.1 Infineum TDS (Version 9th November 2004 (3.1)) and p.2-8 a Safety Data Sheet issued by Multisol Limited (Revision Date 02Dec2008, Revision 4). Both listed in document_type/source_file.
 - (tier1) Claim type 'other' ('developed to meet ...'); several rows say 'Quality' (e.g. 'MTU Type II Quality', 'VW501/5 Quality'). No VM or co-components printed.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Infineum.
 - **Conflict (tier2)** `tier2.flash_point`: DL2-10204.pdf p.1 (2004-11-09): Flash Point (PM) 190 °C ASTM D 93; DL2-10204.pdf p.6 (2008-12-02): Flash Point [Method]: >110C (230F) [ ASTM D-93] — TDS typical (2004, p.1) vs SDS lower bound (2008, p.6; also p.3 Section 5). Values are compatible (190 > 110) but printed differently; per rule the field holds the more recent SDS value. Not resolved.
 - (tier2) Flash point: TDS 190 °C (PM) vs SDS '>110C'; recorded as a conflict, field holds the more recent SDS value.
 - (tier2) TDS also prints 'Mineral Oil Content 49 mass % Calculated'. SDS p.2 Section 3 component shares: calcium long chain alkyl phenate sulphide 1.0 - 4.9%, tetrapropenylphenol 1.0 - 4.9%, zinc alkyl dithiophosphate 5.0 - 9.9% (not element contents).
@@ -264,6 +277,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type 'meets': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.
 - (tier1) Fields use the newer TDS DL2-12029.pdf (2017). The 2012 TDS DL2-10219.pdf p.1 lists 'API SL/CI-4/CH-4' and 'ACEA E7-08' for SAE 15W-40 at 11.9 mass % ('~ 11.0 Volume %'); the 2017 sheet updates ACEA E7-08 to E7-12 and adds rows. Revision, not recorded as conflict.
 - (tier1) 'can be downtreated to meet API CG-4 and CF-4' has no treat rate printed.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Infineum.
 - (tier2) SDS DL2-13720.pdf p.3 component shares: ZDDP >=10 - <12,5 %; molybdenum polysulphide long chain alkyl dithiocarbamate complex >=0,25 - <1 % (not element contents). SDS p.12 'Pour point : not determined'.
 - (tier2) Sulfated ash only in the 2012 TDS (8.6 %(m)); B and pour point not printed.
 
@@ -271,24 +285,28 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type 'meets': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.
 - (tier1) NEW product (no old Product_JSON file); image-only TDS (Version: 9 December 2014 (3.0)) read visually.
 - (tier1) No SDS in the archive.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Infineum.
 - (tier2) NEW product, image-only TDS read visually. Also printed: 'Density @ 60 F, lb/gal 8.06 lb/USG', 'Vis @ Min Load/Unload Temp: 1,270 cSt', 'Vis @ Max Load/Unload Temp: 725 cSt'.
 - (tier2) B and pour point not printed.
 
 ## 35. INFINEUM_D3463
 - (tier1) Claim type 'meets': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.
 - (tier1) No SDS in the archive.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4 Plus), not from any supplier document; the field is now missing. Confirm permitted API groups with Infineum.
 - (tier2) Also printed: 'Density @ 60 F, lb/gal 8.02 lb/USG'. B, Mo, S and pour point not printed.
 - (tier2) Row label 'Flash Point Deg C' is visible on the page image but missing from the text layer.
 
 ## 36. INFINEUM_D3503
 - (tier1) Claim type 'meets': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.
 - (tier1) 'applicable OEM performance specifications' are mentioned without names (DL2-11404.pdf p.1). No SDS in the archive.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CK-4/FA-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Infineum.
 - (tier2) Calcium is not printed in DL2-11404.pdf (checked on the page image); B and pour point not printed. Also printed: 'Density @ 60 F, lb/gal 8.00 lb/USG'.
 - (tier2) Row label 'Flash Point Deg C' is visible on the page image but missing from the text layer.
 
 ## 37. INFINEUM_D3511
 - (tier1) Claim type 'meets': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.
 - (tier1) API FA-4 appears in the Performance table (13.2, 10W-30) but the description names only API CK-4; recorded with claim type 'meets' from the table context. No VM named. No SDS in the archive.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CK-4/FA-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Infineum.
 - (tier2) Flash point, KV40, KV100, Mo, B, S and pour point are not printed in DL2-15389.pdf (checked on the page image). Sulfated Ash method 'Calculated'. Also printed: 'Density @ 60 F, lb/gal 7.99 lb/USG'.
 
 ## 38. JINZHOU_DONGGONG_T3160
@@ -310,6 +328,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Only a TDS is in the archive for this product (no SDS).
 - (tier1) Treat rate is printed per 'Recommended for use at' block; SAE grade taken from the block intro where printed.
 - (tier1) The 4.4 % by weight block lists 'API CF' and 'API SF' without an intro sentence; claim_type 'other'. Text: 'For full details of the specification cascade offered by LUBRIZOL® 16008 please refer to the Product Data Summary.' (not in archive).
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CF), not from any supplier document; the field is now missing. Confirm permitted API groups with The Lubrizol Corporation.
 - (tier2) Density field holds 'SPECIFIC GRAVITY @ 15.6 C' (dimensionless); LBS PER U.S./IMP GAL @ 15.6 C also printed.
 - (tier2) Physical values are in the 'Target' column (target, not typical); chemical values in the 'Typical' column. KV40/flash/pour usually have no min/max.
 - (tier2) TBN from text p.1: 'LUBRIZOL® 16008 has a TBN greater than 182.'
@@ -321,6 +340,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Treat rate is printed per 'Recommended for use at' block; SAE grade taken from the block intro where printed.
 - (tier1) Footnote 1 ('Product at 6.15 % by weight provides 11 TBN (ASTM D2896)') is finished-oil TBN, not package TBN; kept in route limits only.
 - (tier1) Footnote 2: Kolomna approval at 6.2 % by weight plus a 0.8 % by weight booster (booster not named).
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CF-2), not from any supplier document; the field is now missing. Confirm permitted API groups with The Lubrizol Corporation.
 - (tier2) Density field holds 'SPECIFIC GRAVITY @ 15.6 C' (dimensionless); LBS PER U.S./IMP GAL @ 15.6 C also printed.
 - (tier2) Physical values are in the 'Target' column (target, not typical); chemical values in the 'Typical' column. KV40/flash/pour usually have no min/max.
 - (tier2) Package TBN is printed only where the table has a 'BASE NUMBER (MGKOH/G)' row; otherwise left Missing.
@@ -330,6 +350,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type from the intro line of each 'Recommended for use at' block (e.g. 'the lubricant meets the following performance specifications').
 - (tier1) Only a TDS is in the archive for this product (no SDS).
 - (tier1) Treat rate is printed per 'Recommended for use at' block; SAE grade taken from the block intro where printed.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CF-4), not from any supplier document; the field is now missing. Confirm permitted API groups with The Lubrizol Corporation.
 - (tier2) Density field holds 'SPECIFIC GRAVITY @ 15.6 C' (dimensionless); LBS PER U.S./IMP GAL @ 15.6 C also printed.
 - (tier2) Physical values are in the 'Target' column (target, not typical); chemical values in the 'Typical' column. KV40/flash/pour usually have no min/max.
 - (tier2) Package TBN is printed only where the table has a 'BASE NUMBER (MGKOH/G)' row; otherwise left Missing.
@@ -339,6 +360,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type from the intro line of each 'Recommended for use at' block (e.g. 'the lubricant meets the following performance specifications').
 - (tier1) Only a TDS is in the archive for this product (no SDS).
 - (tier1) Treat rate is printed per 'Recommended for use at' block; SAE grade taken from the block intro where printed.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CF-4), not from any supplier document; the field is now missing. Confirm permitted API groups with The Lubrizol Corporation.
 - (tier2) Density field holds 'SPECIFIC GRAVITY @ 15.6 C' (dimensionless); LBS PER U.S./IMP GAL @ 15.6 C also printed.
 - (tier2) Physical values are in the 'Target' column (target, not typical); chemical values in the 'Typical' column. KV40/flash/pour usually have no min/max.
 - (tier2) Package TBN is printed only where the table has a 'BASE NUMBER (MGKOH/G)' row; otherwise left Missing.
@@ -349,6 +371,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type from the intro line of each 'Recommended for use at' block (e.g. 'the lubricant meets the following performance specifications').
 - (tier1) Only a TDS is in the archive for this product (no SDS).
 - (tier1) Treat rate is printed per 'Recommended for use at' block; SAE grade taken from the block intro where printed.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with The Lubrizol Corporation.
 - (tier2) Density field holds 'SPECIFIC GRAVITY @ 15.6 C' (dimensionless); LBS PER U.S./IMP GAL @ 15.6 C also printed.
 - (tier2) Physical values are in the 'Target' column (target, not typical); chemical values in the 'Typical' column. KV40/flash/pour usually have no min/max.
 - (tier2) Package TBN is printed only where the table has a 'BASE NUMBER (MGKOH/G)' row; otherwise left Missing.
@@ -358,6 +381,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type from the intro line of each 'Recommended for use at' block (e.g. 'the lubricant meets the following performance specifications').
 - (tier1) Only a TDS is in the archive for this product (no SDS).
 - (tier1) Treat rate is printed per 'Recommended for use at' block; SAE grade taken from the block intro where printed.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with The Lubrizol Corporation.
 - (tier2) Density field holds 'SPECIFIC GRAVITY @ 15.6 C' (dimensionless); LBS PER U.S./IMP GAL @ 15.6 C also printed.
 - (tier2) Physical values are in the 'Target' column (target, not typical); chemical values in the 'Typical' column. KV40/flash/pour usually have no min/max.
 - (tier2) Package TBN is printed only where the table has a 'BASE NUMBER (MGKOH/G)' row; otherwise left Missing.
@@ -367,6 +391,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type from the intro line of each 'Recommended for use at' block (e.g. 'the lubricant meets the following performance specifications').
 - (tier1) Only a TDS is in the archive for this product (no SDS).
 - (tier1) Treat rate is printed per 'Recommended for use at' block; SAE grade taken from the block intro where printed.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with The Lubrizol Corporation.
 - (tier2) Density field holds 'SPECIFIC GRAVITY @ 15.6 C' (dimensionless); LBS PER U.S./IMP GAL @ 15.6 C also printed.
 - (tier2) Physical values are in the 'Target' column (target, not typical); chemical values in the 'Typical' column. KV40/flash/pour usually have no min/max.
 - (tier2) Package TBN is printed only where the table has a 'BASE NUMBER (MGKOH/G)' row; otherwise left Missing.
@@ -376,6 +401,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type from the intro line of each 'Recommended for use at' block (e.g. 'the lubricant meets the following performance specifications').
 - (tier1) Only a TDS is in the archive for this product (no SDS).
 - (tier1) Treat rate is printed per 'Recommended for use at' block; SAE grade taken from the block intro where printed.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with The Lubrizol Corporation.
 - (tier2) Density field holds 'SPECIFIC GRAVITY @ 15.6 C' (dimensionless); LBS PER U.S./IMP GAL @ 15.6 C also printed.
 - (tier2) Physical values are in the 'Target' column (target, not typical); chemical values in the 'Typical' column. KV40/flash/pour usually have no min/max.
 - (tier2) Package TBN is printed only where the table has a 'BASE NUMBER (MGKOH/G)' row; otherwise left Missing.
@@ -385,6 +411,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type from the intro line of each 'Recommended for use at' block (e.g. 'the lubricant meets the following performance specifications').
 - (tier1) Only a TDS is in the archive for this product (no SDS).
 - (tier1) Treat rate is printed per 'Recommended for use at' block; SAE grade taken from the block intro where printed.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with The Lubrizol Corporation.
 - (tier2) Density field holds 'SPECIFIC GRAVITY @ 15.6 C' (dimensionless); LBS PER U.S./IMP GAL @ 15.6 C also printed.
 - (tier2) Physical values are in the 'Target' column (target, not typical); chemical values in the 'Typical' column. KV40/flash/pour usually have no min/max.
 - (tier2) Package TBN is printed only where the table has a 'BASE NUMBER (MGKOH/G)' row; otherwise left Missing.
@@ -395,6 +422,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Only a TDS is in the archive for this product (no SDS).
 - (tier1) Treat rate is printed per 'Recommended for use at' block; SAE grade taken from the block intro where printed.
 - (tier1) DL2-10658.pdf and DL2-10659.pdf are byte-identical (same MD5); values cited from DL2-10658.pdf.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with The Lubrizol Corporation.
 - (tier2) Density field holds 'SPECIFIC GRAVITY @ 15.6 C' (dimensionless); LBS PER U.S./IMP GAL @ 15.6 C also printed.
 - (tier2) Physical values are in the 'Target' column (target, not typical); chemical values in the 'Typical' column. KV40/flash/pour usually have no min/max.
 - (tier2) Package TBN is printed only where the table has a 'BASE NUMBER (MGKOH/G)' row; otherwise left Missing.
@@ -416,6 +444,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim codes: A -> 'approval', M -> 'meets', L ('Licensable against an active API category') -> kept as 'other', with the code recorded in the scope note (user decision 2026-10-17). Column 1 also marks API FA-4 'L' without mentioning CV6320; recorded as printed.
 - (tier1) Treat rate printed '14.30% by weight' in the table vs '14.3wt%' in the text (same value). No SDS in the archive.
 - (tier1) User decision 2026-10-17: 7 claims with Lubrizol code 'L' keep their claim_type; the code and its legend text are recorded in the scope note.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CK-4/FA-4), not from any supplier document; the field is now missing. Confirm permitted API groups with The Lubrizol Corporation.
 - (tier2) Density field holds SPECIFIC GRAVITY @ 15.6 C (0.953, ASTM D 4052); 'LBS PER GAL @ 15.6 C 7.94 lbs CALCULATED' also printed.
 - (tier2) TBN, Mg, B and Mo not printed.
 - (tier2) User decision 2026-10-17: density field stores the number 0.953 (specific gravity (dimensionless)), which is reported as specific gravity ('SPECIFIC GRAVITY @ 15.6 C 0.953 SPGRAV ASTM D 4052', DL2-14978.pdf p.2), not a density in kg/m3; flagged for review.
@@ -424,6 +453,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claim type from the intro line of each 'Recommended for use at' block (e.g. 'the lubricant meets the following performance specifications').
 - (tier1) Treat rate is printed per 'Recommended for use at' block (11.7, 10.7, 9.1, 8.2 % by weight); the 8.2 % block intro mentions a 'booster' that is not named.
 - (tier1) SDS DL2-13713.pdf p.1 'Recommended use: Heavy Duty Diesel'.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with The Lubrizol Corporation.
 - (tier2) Tables are on TDS page 2 (DL2-13065.pdf p.2). Density field holds SPECIFIC GRAVITY @ 15.6 C. Package TBN, Mg, B, Mo, S not printed.
 - (tier2) SDS DL2-13713.pdf p.2 component shares (not element contents): Mineral oil 40 – 50%; Zinc alkyl dithiophosphate 5 – 10%; Calcium sulfonate 1 – 5%; Alkylated phenol 0.1 – 0.5%.
 - (tier2) SDS p.5 Section 9 values agree with the TDS (no conflicts); SDS also prints viscosities at 25 °C (5753 mm2/s), 20 °C (8574 mm2/s) and 50 mPa.s at 122.4 °C.
@@ -461,6 +491,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) No revision date and no supplier legal name printed on T3161%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf; supplier recorded from the archive folder name 'MINGLAN CHEMICAL'.
 - (tier1) Claim type 'other': 'The following performance levels can be achieved with oils formulated with T3161'. No SAE grades, base oils, co-components or SDS.
 - (tier1) 'Reference dosage' column 'Dosage' has no unit printed (T3161A prints 'm%'); unit left null.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with MINGLAN CHEMICAL.
 - (tier2) Kinematic Viscosity (100 °C) printed as 'report' (no value). Density, KV40, sulfated ash, S and pour point not printed.
 - (tier2) Supplier-name note: 'MINGLAN CHEMICAL' is the archive folder name; the sheet prints no company name.
 
@@ -468,12 +499,14 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) No revision date and no supplier legal name printed on T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf; supplier recorded from the archive folder name 'MINGLAN CHEMICAL'.
 - (tier1) Claim type 'other': 'The following performance levels can be achieved with oils formulated with T3161A'. No SAE grades, base oils, co-components or SDS.
 - (tier1) CF-4/SJ dose '6.0/6.2' and CD/SF dose '4.6/4.8' (dosage column 'Dosage (m%)'): two values separated by '/', meaning not stated; value left null with printed text kept.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with MINGLAN CHEMICAL.
 - (tier2) Kinematic Viscosity (100 °C) printed as 'report' (no value). Density, KV40, sulfated ash, S and pour point not printed.
 - (tier2) Supplier-name note: 'MINGLAN CHEMICAL' is the archive folder name; the sheet prints no company name.
 
 ## 58. MINGYUEKEJI_MY_P3168
 - (tier1) No revision date printed on 'TDS of P3168.pdf'. Supplier from the archive folder 'MINGYUEKEJI' (sheet header prints only Chinese text '高品质润滑油添加剂生产商').
 - (tier1) Grades printed only as 'Multi-grade' / 'Mono-grade'. Claims from the 'Dosage' table recorded as 'other'; API CF4 and CF also as 'meets' from the text 'exceeding ... engine testing requirements'.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CF4), not from any supplier document; the field is now missing. Confirm permitted API groups with MINGYUEKEJI.
 - (tier2) KV40, sulfated ash, Mg, B, Mo, S and pour point not printed. Nitrogen method printed as ASTM D4951.
 
 ## 59. RICHFUL_RF6066
@@ -575,6 +608,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Supplier: neither TDS prints a company name and SDS Section 1.3 is blank (RF6406.pdf p.1); supplier left null.
 - (tier1) TBN minimum differs (DL2-14746.pdf ≥180 vs DL2-15456.pdf index 168-198); CF/SF treat rate differs (3.7 vs 4.1 %); both TDS undated, see conflicts.
 - (tier1) Grades printed only as 'Multi' / 'Mono'.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CF-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Richful.
 - **Conflict (tier2)** `tier2.tbn`: DL2-15456.pdf p.1 (undated): Total Base Number, mgKOH/g 168-198 185 SH/T0251, ASTM D2896; DL2-14746.pdf p.1 (undated): Total Base Number，mgKOH/g ≥180 SH/T0251，ASTMD2896 — At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.
 - (tier2) SDS p.2 component shares (not element contents): base-oil distillates 10 - 59.9 %; overbased calcium sulfurized phenate 1 - 14.9 %; ZDDP 3 - 29.9 %.
 - (tier2) Sulfated ash, KV40, Mg, B, Mo, S, pour point not printed. DL2-14746.pdf prints density and KV100 as 'Report' (no value).
@@ -595,6 +629,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) No date printed on DL2-12939.pdf; supplier from the logo 'TIANHE CHEMICALS' (website ENGLISH.TIANHECHEM.COM). No SDS in the archive.
 - (tier1) TREAT RATE table (p.2) has a 'Total base number, mg KOH/g' row with no values (checked on the page image).
 - (tier1) Claim type 'meets' from 'surpasses the standard engine tests of API CF4/CF and the OEM requirements of MB 228.1'; table rows 'recommended'.
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CF4), not from any supplier document; the field is now missing. Confirm permitted API groups with TIANHE CHEMICALS.
 - (tier2) User decision 2026-10-17: density stored exactly as printed (1.0130, unit 'kg/m3', DL2-12939.pdf p.1) with the note 'suspected unit error — verify'. Flagged for review.
 - (tier2) Values are under the column 'Specification' without min/max; value_kind set to 'specification'. KV40, sulfated ash, Mg, B, Mo, N, S, pour point not printed.
 
@@ -609,6 +644,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) No company name or date printed on DL2-13534.pdf (website WWW.WXNFCN.CN/EN); supplier left null (archive folder 'Wuxi South Petroleum'). No SDS in the archive.
 - (tier1) Claim type 'recommended' from the treat-rate table (no approval/meets wording).
 - (tier1) Grades printed as '30,40,50,10W/30,15W/40,20W/40,' (trailing comma).
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Wuxi South Petroleum.
 - (tier2) KV100 and Density at 20℃ printed as 'Report' (no value). Values are minimum limits (column 'Limit'), not typicals.
 - (tier2) Element methods printed as 'ASTM D - 4628' / 'ASTM D - 3228' as on the sheet.
 
@@ -616,6 +652,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) No company name or date printed on DL2-13538.pdf (website WWW.WXNFCN.CN/EN); supplier left null (archive folder 'Wuxi South Petroleum'). No SDS in the archive.
 - (tier1) Claim type 'recommended' from the treat-rate table (no approval/meets wording).
 - (tier1) Description: 'Its API CF-4/SL/SM engine oil has excellent high temperature detergency, antioxidation, antiwear and anticorrosion properties.'
+- (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CF-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Wuxi South Petroleum.
 - (tier2) KV100 and Density at 20℃ printed as 'Report' (no value). Values are minimum limits (column 'Limit'), not typicals.
 - (tier2) Element methods printed as 'ASTM D - 4628' / 'ASTM D - 3228' as on the sheet.
 
@@ -645,4 +682,23 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (vm) Polymer form (solid/concentrate) not stated; appearance 'Clear、bright、no sediment viscous liquid'. Treat range by SAE grade, HTHS, CCS/MRV impact, gelation and dissolution temperature not printed.
 - (vm) Storage (TDS p.1): short-term storage/transport ≤ 75℃, long-term ≤ 45℃ (not a dissolution/blend temperature).
 - (vm) Old Product_JSON uses record id 'RF6602' (no RICHFUL_ prefix); kept per decision (d).
+
+## Task 3 data-quality audit (2026-10): base-oil corrections
+
+Base oils have no sections above. This section lists the base-oil open questions added or changed on branch `fix/task3-data-quality`. The additive-package corrections from the same audit appear in each package section above as '(tier1) Permitted base oils (2026-10 audit)'.
+
+### Factual conflicts
+- None added. The Ultra-S 2/3 Group II vs Group III difference is a documentation discrepancy between a brand-level label and a grade-level classification of aramcoULTRA, not a conflict between two Ultra-S specifications; it is recorded below as a documentation uncertainty.
+
+### Documentation uncertainties and corrections
+- ADNOC_ADBASE_4CST (tier1) OPEN - supplier confirmation needed. History: chemistry was first entered from general knowledge as 'Group III base oil (hydrocracked / hydroisomerised mineral oil)' (status Reported, no source; original question: 'Chemistry is general knowledge only (sheet says Group III / high-purity base oil, not hydrocracked/mineral).'). That claim is not printed on the 2016 sheets. It is now sourced from the official ADNOC ADbase brochure (2020, pp. 2, 4-5), which describes the product-family production process only and post-dates the 2016 spec sheet. Ask ADNOC to confirm that this process applies to ADbase 4 cSt.
+- ADNOC_ADBASE_6CST (tier1) OPEN - supplier confirmation needed. History: chemistry was first entered from general knowledge as 'Group III base oil (hydrocracked / hydroisomerised mineral oil)' (status Reported, no source; original question: 'Chemistry is general knowledge only (sheet says Group III / high-purity base oil, not hydrocracked/mineral).'). That claim is not printed on the 2016 sheets. It is now sourced from the official ADNOC ADbase brochure (2020, pp. 2, 4-5), which describes the product-family production process only and post-dates the 2016 spec sheet. Ask ADNOC to confirm that this process applies to ADbase 6 cSt.
+- ADNOC_ADBASE_8CST (tier1) OPEN - supplier confirmation needed. History: chemistry was first entered from general knowledge as 'Group III base oil (hydrocracked / hydroisomerised mineral oil)' (status Reported, no source; original question: 'Chemistry is general knowledge only (sheet says Group III / high-purity base oil, not hydrocracked/mineral).'). That claim is not printed on the 2016 sheets. It is now sourced from the official ADNOC ADbase brochure (2020, pp. 2, 4-5), which describes the product-family production process only and post-dates the 2016 spec sheet. Ask ADNOC to confirm that this process applies to ADbase 8 cSt.
+- S_OIL_ULTRA_S_2 (tier1) API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties'; note 'Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 2 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 2 and aramcoULTRA 2 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.24 lists aramcoULTRA 2 as API Base Oil Category Group II, and p.23 states 'These grades of aramcoULTRA are not classified as API Group III' for aramcoULTRA 2 and 3 (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Documentation discrepancy, not a conflict between Ultra-S specifications: the S-OIL page labels the aramcoULTRA brand as a whole 'aramcoULTRA (Group Ⅲ)', whereas the Aramco catalog classifies the aramcoULTRA 2 grade as Group II. Neither document classifies Ultra-S 2. Confirm the API Group of Ultra-S 2 with S-OIL.
+- S_OIL_ULTRA_S_3 (tier1) API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties'; note 'Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 3 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 3 and aramcoULTRA 3 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.24 lists aramcoULTRA 3 as API Base Oil Category Group II, and p.23 states 'These grades of aramcoULTRA are not classified as API Group III' for aramcoULTRA 2 and 3 (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Documentation discrepancy, not a conflict between Ultra-S specifications: the S-OIL page labels the aramcoULTRA brand as a whole 'aramcoULTRA (Group Ⅲ)', whereas the Aramco catalog classifies the aramcoULTRA 3 grade as Group II. Neither document classifies Ultra-S 3. Confirm the API Group of Ultra-S 3 with S-OIL.
+- S_OIL_ULTRA_S_4 (tier1) API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties'; note 'Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 4 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 4 and aramcoULTRA 4 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.25 lists aramcoULTRA 4 as API Base Oil Category Group III (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Confirm the API Group of Ultra-S 4 with S-OIL.
+- S_OIL_ULTRA_S_6 (tier1) API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties'; note 'Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 6 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 6 and aramcoULTRA 6 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.25 lists aramcoULTRA 6 as API Base Oil Category Group III (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Confirm the API Group of Ultra-S 6 with S-OIL.
+- S_OIL_ULTRA_S_8 (tier1) API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); Ultra-S and aramcoULTRA are stated by S-OIL to have the same quality'; note 'API Group III supported by official manufacturer product-family classification and equivalence; not directly printed in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 8 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 8 and aramcoULTRA 8 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.25 lists aramcoULTRA 8 as API Base Oil Category Group III (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Confirm the API Group of Ultra-S 8 with S-OIL.
+- S_OIL_ULTRA_S_8 (tier2) API Group is not printed in any reviewed S-OIL document for Ultra-S 8; the Tier 1 API Group is Missing (2026-10 audit). S-OIL's published Ultra-S/aramcoULTRA equivalence and the Aramco catalog classification of aramcoULTRA 8 are indirect evidence only; see the Tier 1 open questions.
+- S_OIL_PREMIUM_P_20 (tier1) API Group and chemistry (2026-10 audit): both Tier 1 values were attributed to sources for a different product, aramcoULTRA 8, and are now Missing. Former API Group: 'Group III' (Reported), cited to the Aramco base-oil catalog 2024 p.25, which is the aramcoULTRA slate table for grades 4/6/8 and does not list P-20 or any Premium-series grade; former note: 'Group III explicitly confirmed for aramcoULTRA 8 in Aramco's official 2024 base-oil catalog. The original 2018 SDS did not state the API Group.' Former chemistry: 'Distillates (petroleum), hydrotreated heavy paraffinic' (Reported; printed text 'Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; purity 100%'), cited to DL2-14611.pdf p.1, the SDS for 'Base Oil aramcoULTRA 8 (250 Neutral)' revised 2018-09-07. Former open question: 'API Group III confirmed for aramcoULTRA 8 using Aramco's official 2024 base-oil catalog; classification was not explicitly stated in the original 2018 SDS.' No reviewed document states the API Group or chemistry of P-20; the Premium Series sheet DL2-11173.pdf names neither. Confirm both with S-OIL.
 

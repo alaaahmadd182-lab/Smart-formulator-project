@@ -113,20 +113,17 @@
     "permitted_base_oils_restrictions": {
       "value": null,
       "unit": null,
-      "permitted_api_groups": [
-        "Group II",
-        "Group III"
-      ],
+      "permitted_api_groups": [],
       "permitted_grades": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "reported",
+      "status": "missing",
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for API CK-4/FA-4 packages), not from the product datasheet. Packages claiming API CK-4/FA-4 performance are typically designed for Group II/III base oils. Rule of thumb only, not a supplier statement or an API 1509 restriction. Datasheet itself says 'Claims are base stock and viscosity grade specific', so confirm with Infineum."
+      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). Printed base-oil wording: 'Some claims are base stock and viscosity grade dependent' (DL2-15389.pdf p.1); this generic wording does not identify specific API Groups."
     },
     "route_selector_restrictions": {
       "value": null,
@@ -266,7 +263,8 @@
   },
   "open_questions": [
     "Claim type 'meets': Infineum performance tables list 'Performance Level' per grade and mass % without approval/meets wording beyond the description.",
-    "API FA-4 appears in the Performance table (13.2, 10W-30) but the description names only API CK-4; recorded with claim type 'meets' from the table context. No VM named. No SDS in the archive."
+    "API FA-4 appears in the Performance table (13.2, 10W-30) but the description names only API CK-4; recorded with claim type 'meets' from the table context. No VM named. No SDS in the archive.",
+    "Permitted base oils (2026-10 audit): previously recorded as reported [Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CK-4/FA-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Infineum."
   ],
   "conflicts": [],
   "external_fill_notes": []
