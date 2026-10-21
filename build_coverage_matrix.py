@@ -1,128 +1,315 @@
 #!/usr/bin/env python3
-"""Task 4 coverage matrix from source JSON ZIP; no property values are inferred."""
-import json, zipfile, collections, sys, os
-from artifact_tool import Workbook, SpreadsheetFile
-INPUT=sys.argv[1] if len(sys.argv)>1 else '/mnt/data/Products_json.zip'
-OUTPUT=sys.argv[2] if len(sys.argv)>2 else '/mnt/data/Task_4_Coverage_Matrix_Corrected.xlsx'
-CLASSES={'base_oil':'Base Oils','additive_package':'Additive Packages','additive_component':'Additive Components'}
-STATUS={'reported':'reported','calculated':'calculated','missing':'missing','not required':'not_applicable','not_applicable':'not_applicable','not applicable':'not_applicable','n/a':'not_applicable'}
-records={};issues=[]; statuses=collections.Counter(); json_count=0
+"""Task 4 coverage matrix built from the Products_json folder; no property values are inferred.
 
-def leaf_status(x,path):
-    """Return leaf status list; mark unclassified evidence for audit, never assume reported."""
-    if isinstance(x,dict):
+Reads every product JSON file (read-only) and writes one Excel workbook:
+Overview, one sheet per material class, Validation Issues, Status Detail and
+Traceability Audit. Cell classification follows the original Task 4 rules.
+
+Exit codes: 0 = passed, output written; 1 = usage / file error;
+2 = validation failed, diagnostic workbook written instead of the output.
+"""
+import argparse, collections, json, os, sys, tempfile
+from pathlib import Path
+from openpyxl import Workbook
+from openpyxl.styles import Alignment, Font, PatternFill
+from openpyxl.utils import get_column_letter
+
+CLASSES = {'base_oil': 'Base Oils', 'additive_package': 'Additive Packages', 'additive_component': 'Additive Components'}
+STATUS = {'reported': 'reported', 'calculated': 'calculated', 'missing': 'missing', 'not required': 'not_applicable',
+          'not_applicable': 'not_applicable', 'not applicable': 'not_applicable', 'n/a': 'not_applicable'}
+PRIORITY = ('reported', 'calculated', 'missing', 'not_applicable')
+SKIP_KEYS = ('source', 'notes', 'calculation_note', 'method', 'printed_text', 'external_fill_notes')
+VALUE_KEYS = ('value', 'min', 'max', 'wt_pct', 'type', 'form')
+EXPECTED_TIERS = {'base_oil': {1, 2, 3}, 'additive_package': {1, 2}, 'additive_component': {1}}
+UNRECOGNIZED = 'unrecognized: '
+# Issue types that make the run fail: the official workbook is never written when any occur.
+BLOCKING = ('Unknown status', 'Invalid JSON', 'Unreadable file', 'Unreadable folder', 'Invalid identity', 'Duplicate tier', 'Duplicate property',
+            'Expected tier missing', 'Unclassified status-free field')
+MIXED = 'Mixed nested statuses (review)'
+
+HEADER_FILL, SUBHEADER_FILL = PatternFill('solid', fgColor='17324D'), PatternFill('solid', fgColor='245B73')
+MIXED_FILL, ERROR_FILL = PatternFill('solid', fgColor='FFE9A8'), PatternFill('solid', fgColor='F4B6B6')
+WHITE_BOLD = Font(bold=True, color='FFFFFF')
+
+records = {}; issues = []; statuses = collections.Counter(); details = []; trace = []; json_count = 0
+
+
+def detail(ctx, path, raw, norm, counted, node=None, note=''):
+    """Record one nested property for the Status Detail sheet."""
+    src = node.get('source') if isinstance(node, dict) else None
+    src = src if isinstance(src, dict) else {}
+    value = node.get('value') if isinstance(node, dict) else None
+    details.append([ctx['class'], ctx['record_id'], ctx['tier'], ctx['file'], ctx['field'], path or '(property)',
+                    raw, norm, 'yes' if counted else 'no', None, cell_text(value),
+                    cell_text(src.get('file') or src.get('url')), cell_text(src.get('page')), note])
+
+
+def audit_trace(ctx, path, node):
+    """Traceability findings for a Reported value; informational only, nothing is changed."""
+    src = node.get('source') if isinstance(node.get('source'), dict) else {}
+    file, url, page = src.get('file'), src.get('url'), src.get('page')
+    location = file or url
+    base = [ctx['class'], ctx['record_id'], ctx['file'], ctx['field'], path or '(property)', node.get('status'),
+            cell_text(node.get('value')), cell_text(node.get('basis')), cell_text(location), cell_text(page)]
+    if node.get('basis') == 'general_knowledge':
+        trace.append(['Unsupported reported value (basis: general_knowledge)'] + base
+                     + ['Value is not printed in any source document; status left unchanged pending supplier confirmation.'])
+    elif not location:
+        trace.append(['Reported value without source file'] + base + ['No source file or URL recorded.'])
+    elif str(location).lower().startswith(('http://', 'https://')):
+        trace.append(['Reported value from external URL (not in archive)'] + base
+                     + ['Valid external reference; the document is not part of the shared archive.'])
+    if location and page in (None, ''):
+        trace.append(['Reported value without page reference'] + base + ['Source recorded but no page number.'])
+
+
+def scan_nested(x, path, ctx, top=True):
+    """List status nodes nested inside a status-bearing node; they do not count toward the cell."""
+    if isinstance(x, dict):
+        if not top and 'status' in x:
+            raw = str(x['status']).strip(); norm = STATUS.get(raw.lower(), UNRECOGNIZED + raw)
+            detail(ctx, path, raw, norm, False, x, 'Nested inside a status-bearing property (legacy rule: not counted in cell)')
+            if norm.startswith(UNRECOGNIZED): issues.append((ctx['issue_path'] + path, 'Unknown status', raw))
+            if norm == 'reported': audit_trace(ctx, path, x)
+        for k, v in x.items():
+            if k not in SKIP_KEYS and isinstance(v, (dict, list)): scan_nested(v, f'{path}/{k}', ctx, False)
+    elif isinstance(x, list):
+        for i, v in enumerate(x): scan_nested(v, f'{path}/{i}', ctx, False)
+
+
+def leaf_status(x, path, ctx):
+    """Return leaf status list; flag unclassified evidence for audit, never assume reported."""
+    issue_path = ctx['issue_path'] + path
+    if isinstance(x, dict):
         if 'status' in x:
-            raw=str(x['status']).strip(); key=raw.lower(); statuses[raw]+=1
-            if key in STATUS: return [STATUS[key]]
-            issues.append((path,'Unknown status',raw));return ['missing']
-        vals=[]
-        for k,v in x.items():
-            if k in ('source','notes','calculation_note','method','printed_text','external_fill_notes'):continue
-            if isinstance(v,(dict,list)):vals+=leaf_status(v,path+'/'+k)
-        if vals:return vals
+            raw = str(x['status']).strip(); key = raw.lower(); statuses[raw] += 1
+            norm = STATUS.get(key)
+            if norm is None:
+                issues.append((issue_path, 'Unknown status', raw)); norm = UNRECOGNIZED + raw
+            detail(ctx, path, raw, norm, True, x)
+            if norm == 'reported': audit_trace(ctx, path, x)
+            scan_nested(x, path, ctx)
+            return [norm]
+        vals = []
+        for k, v in x.items():
+            if k in SKIP_KEYS: continue
+            if isinstance(v, (dict, list)): vals += leaf_status(v, f'{path}/{k}', ctx)
+        if vals: return vals
         # status-free data cannot be certified as reported
-        if any(k in x for k in ('value','min','max','wt_pct','type','form')):
-            issues.append((path,'Unclassified status-free field','Needs manual status review'))
+        if any(k in x for k in VALUE_KEYS):
+            issues.append((issue_path, 'Unclassified status-free field', 'Needs manual status review'))
+            detail(ctx, path, '(no status key)', 'missing', True, x, 'Status-free data; needs manual status review')
+        else:
+            detail(ctx, path, '(no status key)', 'missing', True, x, 'Object with no status and no values')
         return ['missing']
-    if isinstance(x,list):
-        if not x:return ['missing']
-        vals=[]
-        for i,v in enumerate(x):vals+=leaf_status(v,path+'/'+str(i))
+    if isinstance(x, list):
+        if not x:
+            detail(ctx, path, '(empty list)', 'missing', True, None, 'Empty list'); return ['missing']
+        vals = []
+        for i, v in enumerate(x): vals += leaf_status(v, f'{path}/{i}', ctx)
+        if not vals: detail(ctx, path, '(no status key)', 'missing', True, None, 'List without status entries')
         return vals or ['missing']
+    detail(ctx, path, '(non-object value)', 'missing', True, None, f'Plain value {cell_text(x)}')
     return ['missing']
 
-def summarize(x,path):
-    vals=leaf_status(x,path)
-    u=set(vals)
-    if len(u)>1:
-        issues.append((path,'Mixed nested statuses (review)',', '.join(sorted(u))))
-        # Reported if any explicit reported or calculated, with mixed-status audit flag.
-    for s in ('reported','calculated','missing','not_applicable'):
-        if s in u:return s
-    return 'missing'
 
-with zipfile.ZipFile(INPUT) as z:
-    for path in sorted(z.namelist()):
-        if not path.lower().endswith('.json'):continue
-        json_count+=1
-        try:doc=json.loads(z.read(path))
-        except Exception as e:issues.append((path,'Invalid JSON',str(e)));continue
-        cl=doc.get('material_class'); rid=doc.get('record_id'); tier=doc.get('tier')
+def summarize(x, ctx):
+    """Cell status for one property: unrecognized first, then the legacy priority order."""
+    start = len(details)
+    vals = leaf_status(x, '', ctx)
+    u = set(vals)
+    if len(u) > 1: issues.append((ctx['issue_path'], MIXED, ', '.join(sorted(u))))
+    unknown = sorted(v for v in u if v.startswith(UNRECOGNIZED))
+    cell = '; '.join(unknown) if unknown else next((s for s in PRIORITY if s in u), 'missing')
+    for row in details[start:]: row[9] = cell
+    return cell, len(u) > 1
+
+
+def cell_text(v):
+    """Excel-safe text for lists / objects; lists are joined with ',' as in the original matrix."""
+    if v is None or isinstance(v, (int, float, bool)): return v
+    if isinstance(v, list): v = ','.join(str(i) for i in v)
+    elif isinstance(v, dict): v = json.dumps(v, ensure_ascii=False)
+    v = str(v)
+    return v[:32000] + ' [truncated]' if len(v) > 32000 else v
+
+
+def long_path(p):
+    """Windows extended-length path so files beyond the 260-character limit are never skipped."""
+    s = str(p)
+    return '\\\\?\\' + s if os.name == 'nt' and not s.startswith('\\\\?\\') else s
+
+
+def discover(input_dir):
+    """Every .json file under input_dir, as sorted posix paths starting with the folder name."""
+    root = long_path(input_dir); found = []
+    def unreadable(err): issues.append((str(err.filename), 'Unreadable folder', str(err)))
+    for dirpath, dirnames, filenames in os.walk(root, onerror=unreadable):
+        rel = os.path.relpath(dirpath, root)
+        for f in filenames:
+            if f.lower().endswith('.json'):
+                parts = [input_dir.name] + ([] if rel == '.' else rel.split(os.sep)) + [f]
+                found.append('/'.join(parts))
+    return sorted(found)
+
+
+def load(input_dir):
+    global json_count
+    for path in discover(input_dir):
+        json_count += 1
+        try:
+            with open(long_path(input_dir.parent.joinpath(*path.split('/'))), encoding='utf-8') as fh: doc = json.load(fh)
+        except OSError as e:
+            issues.append((path, 'Unreadable file', str(e))); continue
+        except Exception as e:
+            issues.append((path, 'Invalid JSON', str(e))); continue
+        cl = doc.get('material_class'); rid = doc.get('record_id'); tier = doc.get('tier')
         if cl not in CLASSES or not rid:
-            issues.append((path,'Invalid identity',str((cl,rid))));continue
-        key=(cl,path.rsplit('/',1)[0]); item=records.setdefault(key,{'files':[],'tiers':{},'product':{},'fields':{},'record_id':path.rsplit('/',2)[-2]})
-        item['files'].append(path);item['product'].update({k:v for k,v in doc.get('product',{}).items() if v is not None})
-        if tier in item['tiers']:issues.append((path,'Duplicate tier',str(tier)))
-        item['tiers'][tier]=path
-        for name,value in doc.get('fields',{}).items():
+            issues.append((path, 'Invalid identity', str((cl, rid)))); continue
+        folder = path.rsplit('/', 1)[0]
+        item = records.setdefault((cl, folder), {'files': [], 'tiers': {}, 'product': {}, 'fields': {}, 'mixed': set(),
+                                                 'record_id': path.rsplit('/', 2)[-2]})
+        item['files'].append(path); item['product'].update({k: v for k, v in doc.get('product', {}).items() if v is not None})
+        if tier in item['tiers']: issues.append((path, 'Duplicate tier', str(tier)))
+        item['tiers'][tier] = path
+        for name, value in doc.get('fields', {}).items():
             # Expose meaningful nested properties as columns while retaining parent aggregation.
-            candidates={name:value}
-            if name=='api_group_chemistry' and isinstance(value,dict):
-                candidates={f'api_group_chemistry.{k}':v for k,v in value.items()}
-            if name=='elements' and isinstance(value,dict):
-                candidates={f'elements.{k}':v for k,v in value.items()}
-            for field,val in candidates.items():
-                if field in item['fields']:issues.append((path,'Duplicate property',field))
-                item['fields'][field]=summarize(val,path+'/'+field)
+            candidates = {name: value}
+            if name == 'api_group_chemistry' and isinstance(value, dict):
+                candidates = {f'api_group_chemistry.{k}': v for k, v in value.items()}
+            if name == 'elements' and isinstance(value, dict):
+                candidates = {f'elements.{k}': v for k, v in value.items()}
+            for field, val in candidates.items():
+                if field in item['fields']: issues.append((path, 'Duplicate property', field))
+                ctx = {'class': cl, 'record_id': item['record_id'], 'tier': tier, 'file': path, 'field': field,
+                       'issue_path': f'{path}/{field}'}
+                item['fields'][field], mixed = summarize(val, ctx)
+                if mixed: item['mixed'].add(field)
 
-wb=Workbook.create()
-summary=wb.worksheets.add('Overview')
-summary.get_range('A1:D1').values=[['TASK 4 | COVERAGE MATRIX','Products','JSON files','Source archive']]
-summary.get_range('A2:D2').values=[['Corrected Task 3 JSON audit',len(records),json_count,os.path.basename(INPUT)]]
-summary.get_range('A4:E4').values=[['Material class','Products','Reported cells','Calculated cells','Missing / N.A. cells']]
 
-for idx,(cl,label) in enumerate(CLASSES.items()):
-    subset=sorted([(rid,item) for (c,rid),item in records.items() if c==cl])
-    fields=sorted(set().union(*(set(item['fields']) for _,item in subset))) if subset else []
-    headers=['Record ID','Product name','Supplier','Source document','Tiers present']+fields
-    matrix=[headers]; counts=collections.Counter()
-    for folder,item in subset:
-        rid=item['record_id']; p=item['product']; row=[rid,p.get('product_name',rid),p.get('supplier',''),p.get('source_file',''),', '.join(map(str,sorted(item['tiers'])))];
-        for f in fields:
-            if f in item['fields']:v=item['fields'][f]
-            else:
-                v='missing';issues.append((rid,'Property absent from JSON',f))
-            counts[v]+=1;row.append(v)
-        matrix.append(row)
-        expected={'base_oil':{1,2,3},'additive_package':{1,2},'additive_component':{1}}[cl]
-        if not expected.issubset(item['tiers']):issues.append((rid,'Expected tier missing',str(sorted(expected-set(item['tiers'])))))
-    sh=wb.worksheets.add(label)
-    # Write blocks to keep memory bounded.
-    for start in range(0,len(matrix),75):
-        block=matrix[start:start+75]
-        sh.get_range_by_indexes(start,0,len(block),len(headers)).values=block
-    sh.get_range_by_indexes(0,0,1,len(headers)).format={'fill':'#17324D','font':{'bold':True,'color':'#FFFFFF'},'row_height':30}
-    sh.get_range_by_indexes(0,0,len(matrix),1).format.column_width=26
-    sh.get_range_by_indexes(0,1,len(matrix),1).format.column_width=28
-    sh.get_range_by_indexes(0,2,len(matrix),1).format.column_width=32
-    sh.get_range_by_indexes(0,3,len(matrix),1).format.column_width=23
-    sh.get_range_by_indexes(0,4,len(matrix),1).format.column_width=16
-    if fields:
-        sh.get_range_by_indexes(0,5,len(matrix),len(fields)).format.column_width=20
-    sh.freeze_panes.freeze_rows(1)
-    summary.get_range_by_indexes(4+idx,0,1,5).values=[[label,len(subset),counts['reported'],counts['calculated'],counts['missing']+counts['not_applicable']]]
+def header(ws, ref_row, ncols, fill=HEADER_FILL, height=None):
+    for c in range(1, ncols + 1):
+        cell = ws.cell(ref_row, c); cell.fill = fill; cell.font = WHITE_BOLD
+        cell.alignment = Alignment(vertical='center', wrap_text=True)
+    if height: ws.row_dimensions[ref_row].height = height
 
-# Record all normalization warnings and anomalies without editing input JSON.
-issues=sorted(set(tuple(str(t) for t in i) for i in issues))
-audit=wb.worksheets.add('Validation Issues')
-audit.get_range('A1:C1').values=[['JSON path / product','Issue','Detail']]
-for start in range(0,len(issues),200):
-    block=[list(x) for x in issues[start:start+200]]
-    audit.get_range_by_indexes(start+1,0,len(block),3).values=block
-audit.get_range('A1:C1').format={'fill':'#17324D','font':{'bold':True,'color':'#FFFFFF'}}
-audit.get_range('A:A').format.column_width=62
-audit.get_range('B:B').format.column_width=27
-audit.get_range('C:C').format.column_width=65
-audit.freeze_panes.freeze_rows(1)
-summary.get_range('A10:B15').values=[['STATUS KEY','Interpretation'],['reported','Explicit source-reported'],['calculated','Calculated in JSON'],['missing','Missing, empty, or unclassified'],['not_applicable','Not Required / N/A'],['Mixed nested statuses','Priority status displayed; see Validation Issues']]
-summary.get_range('A1:D1').format={'fill':'#17324D','font':{'bold':True,'color':'#FFFFFF'},'row_height':28}
-summary.get_range('A4:E4').format={'fill':'#245B73','font':{'bold':True,'color':'#FFFFFF'}}
-summary.get_range('A10:B10').format={'fill':'#245B73','font':{'bold':True,'color':'#FFFFFF'}}
-summary.get_range('A:A').format.column_width=34
-summary.get_range('B:B').format.column_width=26
-summary.get_range('C:C').format.column_width=22
-summary.get_range('D:D').format.column_width=27
-summary.get_range('E:E').format.column_width=27
-summary.get_range('A8:B9').values=[['Validation findings',len(issues)],['Unrecognized statuses / structural errors',sum(1 for i in issues if i[1] != 'Mixed nested statuses (review)')]]
-SpreadsheetFile.export_xlsx(wb).save(OUTPUT)
-print('OUTPUT',OUTPUT,'products',len(records),'json',json_count,'issues',len(issues),'classes',collections.Counter(k[0] for k in records),'status',statuses)
+
+def widths(ws, values):
+    for i, w in enumerate(values, 1): ws.column_dimensions[get_column_letter(i)].width = w
+
+
+def write_rows(ws, rows, start=1):
+    for r, row in enumerate(rows, start):
+        for c, v in enumerate(row, 1): ws.cell(r, c, v)
+
+
+def build(input_dir):
+    wb = Workbook(); summary = wb.active; summary.title = 'Overview'
+    write_rows(summary, [['TASK 4 | COVERAGE MATRIX', 'Products', 'JSON files', 'Source folder'],
+                         ['Corrected Task 3 JSON audit', len(records), json_count, input_dir.name], [],
+                         ['Material class', 'Products', 'Reported cells', 'Calculated cells', 'Missing / N.A. cells']])
+    unknown_cells = 0
+    for idx, (cl, label) in enumerate(CLASSES.items()):
+        subset = sorted(((folder, item) for (c, folder), item in records.items() if c == cl), key=lambda t: t[0])
+        fields = sorted(set().union(*(set(item['fields']) for _, item in subset))) if subset else []
+        headers = ['Record ID', 'Product name', 'Supplier', 'Source document', 'Tiers present'] + fields
+        sh = wb.create_sheet(label); write_rows(sh, [headers]); counts = collections.Counter()
+        for r, (folder, item) in enumerate(subset, 2):
+            rid = item['record_id']; p = item['product']
+            row = [rid, cell_text(p.get('product_name', rid)), cell_text(p.get('supplier', '')),
+                   cell_text(p.get('source_file', '')), ', '.join(map(str, sorted(item['tiers'], key=str)))]
+            for c, f in enumerate(fields, 6):
+                if f in item['fields']: v = item['fields'][f]
+                else:
+                    v = 'missing'; issues.append((rid, 'Property absent from JSON', f))
+                counts[v] += 1; row.append(v)
+                if v.startswith(UNRECOGNIZED): sh.cell(r, c).fill = ERROR_FILL; unknown_cells += 1
+                elif f in item['mixed']: sh.cell(r, c).fill = MIXED_FILL
+            for c, v in enumerate(row, 1): sh.cell(r, c, v)
+            if not EXPECTED_TIERS[cl].issubset(item['tiers']):
+                issues.append((rid, 'Expected tier missing', str(sorted(EXPECTED_TIERS[cl] - set(item['tiers'])))))
+        header(sh, 1, len(headers), height=30)
+        widths(sh, [26, 28, 32, 23, 16] + [20] * len(fields)); sh.freeze_panes = 'A2'
+        write_rows(summary, [[label, len(subset), counts['reported'], counts['calculated'],
+                              counts['missing'] + counts['not_applicable']]], start=5 + idx)
+
+    # Record all normalization warnings and anomalies without editing input JSON.
+    all_issues = sorted(set(tuple(str(t) for t in i) for i in issues))
+    audit = wb.create_sheet('Validation Issues')
+    write_rows(audit, [['JSON path / product', 'Issue', 'Detail']] + [list(i) for i in all_issues])
+    header(audit, 1, 3); widths(audit, [62, 27, 65]); audit.freeze_panes = 'A2'
+
+    sd = wb.create_sheet('Status Detail')
+    write_rows(sd, [['Material class', 'Record ID', 'Tier', 'JSON file', 'Property (matrix column)', 'Sub-path',
+                     'Original status', 'Normalized status', 'Counted in matrix cell', 'Matrix cell status', 'Value',
+                     'Source file / URL', 'Source page', 'Note']] + details)
+    header(sd, 1, 14); widths(sd, [18, 26, 6, 60, 28, 34, 16, 18, 12, 18, 30, 30, 10, 50]); sd.freeze_panes = 'A2'
+    sd.auto_filter.ref = sd.dimensions
+
+    ta = wb.create_sheet('Traceability Audit')
+    write_rows(ta, [['Finding', 'Material class', 'Record ID', 'JSON file', 'Property (matrix column)', 'Sub-path',
+                     'Status', 'Value', 'Basis', 'Source file / URL', 'Source page', 'Note']] + trace)
+    header(ta, 1, 12); widths(ta, [44, 18, 26, 60, 28, 30, 10, 30, 30, 40, 10, 60]); ta.freeze_panes = 'A2'
+    ta.auto_filter.ref = ta.dimensions
+
+    blocking = [i for i in all_issues if i[1] in BLOCKING]
+    trace_counts = collections.Counter(t[0] for t in trace)
+    write_rows(summary, [['Validation findings', len(all_issues)],
+                         ['Unrecognized statuses / structural errors', sum(1 for i in all_issues if i[1] != MIXED)],
+                         ['STATUS KEY', 'Interpretation'], ['reported', 'Explicit source-reported'],
+                         ['calculated', 'Calculated in JSON'], ['missing', 'Missing, empty, or unclassified'],
+                         ['not_applicable', 'Not Required / N/A'],
+                         ['Mixed nested statuses', 'Priority status displayed; see Validation Issues'],
+                         ['Note on parent cells', 'A cell marked reported may still contain missing subfields '
+                          '(e.g. one CCS temperature reported, another missing). Every subfield and its original '
+                          'status is listed in Status Detail; mixed cells are shaded amber.'],
+                         [], ['RUN STATUS', 'FAILED - diagnostic workbook, not the official matrix' if blocking else 'PASSED'],
+                         ['Blocking findings', len(blocking)], ['Unrecognized status cells', unknown_cells],
+                         ['Status Detail rows', len(details)], [],
+                         ['TRACEABILITY AUDIT (informational)', 'Findings']]
+               + [[k, v] for k, v in sorted(trace_counts.items())], start=8)
+    for ref in ('A1:D1', 'A4:E4', 'A10:B10', 'A18:B18', 'A23:B23'):
+        first, last = ref.split(':'); r = int(first[1:])
+        header(summary, r, ord(last[0]) - 64, HEADER_FILL if r == 1 else SUBHEADER_FILL, 28 if r == 1 else None)
+    summary['B16'].alignment = Alignment(wrap_text=True, vertical='top'); summary.row_dimensions[16].height = 60
+    if blocking: summary['B18'].fill = ERROR_FILL
+    widths(summary, [34, 26, 22, 27, 27])
+    return wb, all_issues, blocking
+
+
+def save(wb, target):
+    """Write to a temp file first so a failed save never leaves a half-written workbook."""
+    fd, tmp = tempfile.mkstemp(suffix='.xlsx', dir=target.parent); os.close(fd)
+    try:
+        wb.save(tmp); os.replace(tmp, target)
+    finally:
+        if os.path.exists(tmp): os.remove(tmp)
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
+    ap.add_argument('--input', default='Products_json', help='product JSON folder (default: Products_json)')
+    ap.add_argument('--output', default='Coverage_Matrix.xlsx', help='workbook to write (default: Coverage_Matrix.xlsx)')
+    ap.add_argument('--overwrite', action='store_true', help='allow replacing an existing output workbook')
+    args = ap.parse_args()
+    input_dir, output = Path(args.input).resolve(), Path(args.output).resolve()
+    if not input_dir.is_dir(): sys.exit(f'ERROR: input folder not found: {input_dir}')
+    if output.exists() and not args.overwrite:
+        sys.exit(f'ERROR: {output} already exists; pass --overwrite to replace it')
+    output.parent.mkdir(parents=True, exist_ok=True)
+    load(input_dir)
+    wb, all_issues, blocking = build(input_dir)
+    if blocking:
+        diag = output.with_name(output.stem + '_DIAGNOSTIC.xlsx'); save(wb, diag)
+        print(f'VALIDATION FAILED: {len(blocking)} blocking finding(s); {output.name} was NOT written.')
+        for path, kind, det in blocking[:20]: print(f'  {kind}: {path} ({det})')
+        print(f'Diagnostic workbook: {diag}')
+        sys.exit(2)
+    save(wb, output)
+    print('OUTPUT', output, 'products', len(records), 'json', json_count, 'issues', len(all_issues),
+          'classes', dict(collections.Counter(k[0] for k in records)), 'status', dict(statuses))
+    print('traceability findings', dict(collections.Counter(t[0] for t in trace)))
+
+
+if __name__ == '__main__':
+    main()
