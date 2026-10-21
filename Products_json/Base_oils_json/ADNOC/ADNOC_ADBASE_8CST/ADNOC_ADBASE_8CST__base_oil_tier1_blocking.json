@@ -60,13 +60,13 @@
         }
       },
       "chemistry": {
-        "value": "Group III base oil (hydrocracked / hydroisomerised mineral oil)",
+        "value": "ADbase base oil produced from high-paraffinic crude oil feedstock through a process including hydrocracking and hydroisomerization.",
         "status": "Reported",
-        "basis": "general_knowledge",
-        "notes": "NOT printed on the sheets. Added from general knowledge: Group III oils are produced by severe hydrocracking/hydroisomerisation. Sheet only says 'Group III' / 'high-purity base oil'. Confirm with ADNOC.",
+        "basis": "Official external ADNOC ADbase brochure (2020); product-family-level supplier evidence",
+        "notes": "Not stated in the archived 2016 sheets (DL2-12221.pdf, DL2-12468.jpg). Official ADNOC ADbase brochure (2020): p. 2 states 'ADbase uses high paraffinic crude oil as feedstock'; the process diagram on pp. 4-5 shows heavy vacuum gas oil -> hydrocracker -> unconverted oil -> hydro-isomerization unit -> product distillation -> 2/3/4/6/8 cst ('AD BASE GROUP II & GROUP III'). Page 5 is the primary source page. The brochure describes the ADbase product-family production process; it does not independently confirm a separate process for ADbase 8 cSt. Replaces the earlier unsupported general-knowledge value (see open questions).",
         "source": {
-          "file": null,
-          "page": null,
+          "file": "https://www.adnoc.ae/-/media/adnoc-v2/files/publications/adbase-brochure_2020.ashx",
+          "page": 5,
           "revision_date": null
         }
       }
@@ -249,12 +249,13 @@
       ]
     },
     {
-      "question": "Chemistry is general knowledge only (sheet says Group III / high-purity base oil, not hydrocracked/mineral).",
+      "question": "OPEN - supplier confirmation needed. History: chemistry was first entered from general knowledge as 'Group III base oil (hydrocracked / hydroisomerised mineral oil)' (status Reported, no source; original question: 'Chemistry is general knowledge only (sheet says Group III / high-purity base oil, not hydrocracked/mineral).'). That claim is not printed on the 2016 sheets. It is now sourced from the official ADNOC ADbase brochure (2020, pp. 2, 4-5), which describes the product-family production process only and post-dates the 2016 spec sheet. Ask ADNOC to confirm that this process applies to ADbase 8 cSt.",
       "fields": [
         "api_group_chemistry.chemistry"
       ],
       "source_files": [
-        "DL2-12468.jpg"
+        "DL2-12468.jpg",
+        "https://www.adnoc.ae/-/media/adnoc-v2/files/publications/adbase-brochure_2020.ashx"
       ]
     }
   ],
