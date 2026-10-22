@@ -3,7 +3,7 @@
     "purpose": "Template-only documentation. Do not copy this _template_notes block into product records.",
     "status_vocabulary": {
       "Reported": "Value printed in the cited source document (archive file or registered external source).",
-      "Calculated": "Value derived in the record from reported values; the derivation is stated in calculation_note.",
+      "Calculated": "Numeric value calculated in the record from reported values (e.g. unit conversion, difference, element-based estimate); the calculation is stated in calculation_note. Derived non-numeric classifications stay Reported, with value_kind/basis stating that they are derived.",
       "Missing": "No value found in any reviewed source; value stays null.",
       "Not Applicable": "The property does not apply to this product type.",
       "Not Required": "The property is not required for the documented application (reason stated in notes)."
@@ -18,7 +18,7 @@
       "calculation_note": "Inside a property: derivation of a Calculated value, or a note on a Reported or Missing one.",
       "alternate_entries": "Inside a property: other printed values (e.g. specification limits) kept beside the main value."
     },
-    "conflicts": "Top-level 'conflicts' entries record documents or editions that print different values: field, values[{value, printed_text, file, page, revision_date}], note."
+    "conflicts": "Top-level 'conflicts' entries record documents or editions that print different values: conflict_type ('edition difference', 'conflicting values between different documents', 'inconsistency within one document' or 'unit or test-condition discrepancy'), field, values[{value, printed_text, file, page, revision_date}], note."
   },
   "template_version": "1.0",
   "material_class": "additive_component",
