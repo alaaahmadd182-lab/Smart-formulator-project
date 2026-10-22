@@ -36,17 +36,17 @@
       "value": "Distillates (petroleum), hydrotreated heavy paraffinic",
       "status": "Reported",
       "source": {
-        "file": "https://ru.scribd.com/document/799055322/Global-English-YUBASE-6",
+        "file": "https://go.lupinsys.com/oilchem/harms/public/materials/3c60f4aea41698b195da1a927cf519a2-published/attachments_api/3585e3648f25dbd61a86ee3610d71d66/search_api/Yubase_6-SDS.pdf",
         "page": 1,
-        "revision_date": "2020-01-01"
+        "revision_date": "2021-09-28"
       },
-      "printed_text": "Distillates (petroleum), hydrotreated heavy paraffinic",
-      "value_kind": "supplier SDS chemical identity",
+      "printed_text": "Distillates, petroleum, hydrotreated heavy paraffinic 64742-54-7 100 % (w/w)",
+      "value_kind": "supplier SDS composition (distributor-issued)",
       "method": null,
       "min": null,
       "max": null,
       "qualifier": null,
-      "calculation_note": "SK Lubricants YUBASE 6 SDS, dated 2020-01-01, identifies the product as 100% distillates (petroleum), hydrotreated heavy paraffinic, CAS 64742-54-7. The SDS is a grade-specific external source and is not the archived NARMAK TRADE property sheet DL2-11306.pdf. Confirm historical grade equivalence.",
+      "calculation_note": "Safety Data Sheet 'Product Name: Yubase 6', reference HIL0045, issued 2021-09-28, version 5.0, issued by Hilditch Pty Ltd (SK's Australian supplier), Section 3 p.1: 'Distillates, petroleum, hydrotreated heavy paraffinic, CAS 64742-54-7, 100 % (w/w)'. This is the supplier of record's regulatory SDS for this grade, not an SDS issued by SK Lubricants / SK Enmove; SK's own 2019 YUBASE 6 SDS is linked from yubase.com but no copy could be retrieved. Not stated in the archived NARMAK TRADE sheet DL2-11306.pdf. The earlier Scribd-hosted source is recorded in open questions (2026-10 audit).",
       "flash_method": null,
       "test_temperature_c": null,
       "unit": null
@@ -156,7 +156,7 @@
   "open_questions": [
     "Confirm the manufacturer and distributor relationship between SK Lubricants/SK Enmove and NARMAK TRADE S.R.O. for archived YUBASE 6.",
     "API Group III for YUBASE 6 is now sourced to SK's official YUBASE site (archived 'Performance' page: all YUBASE except YUBASE-3/L3 are Group III); SK's 2000 paper agrees. Not stated in the archived NARMAK TRADE sheet. Confirm that the current YUBASE 6 is unchanged (2026-10 audit).",
-    "SK Lubricants YUBASE 6 SDS dated 2020-01-01 identifies the chemistry as distillates (petroleum), hydrotreated heavy paraffinic, CAS 64742-54-7, at 100%. Confirm that this SDS applies to the undated archived NARMAK TRADE grade.",
+    "Chemistry provenance (2026-10 audit): earlier cited to a Scribd upload (https://ru.scribd.com/document/799055322/Global-English-YUBASE-6, uploaded by an unrelated user) described as an SK Lubricants YUBASE 6 SDS dated 2020-01-01 giving 100% distillates (petroleum), hydrotreated heavy paraffinic, CAS 64742-54-7. The Scribd page shows no document content, so that claim could not be verified and is not used. Chemistry is now sourced to the Hilditch Pty Ltd SDS HIL0045 (2021-09-28), which gives the same composition. Obtain SK Enmove's own YUBASE 6 SDS to confirm. Previous note: 'SK Lubricants YUBASE 6 SDS dated 2020-01-01 identifies the chemistry as distillates (petroleum), hydrotreated heavy paraffinic, CAS 64742-54-7, at 100%. Confirm that this SDS applies to the undated archived NARMAK TRADE grade.'",
     "The specific-gravity entry at 15°C is printed as 0.8423 with the inconsistent unit g/m3. Verify the original units and measurement conditions before assigning density.",
     "No grade-specific CCS viscosity, test temperature, or test method is reported in archived property sheet DL2-11306.pdf.",
     "Confirm the archived property sheet's issue date and applicable product revision."

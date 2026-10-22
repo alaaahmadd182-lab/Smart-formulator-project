@@ -110,6 +110,18 @@
       "note": "Read via fetch tool (direct download blocked): 'Americas CORE base stocks and AP/E CORE base stocks constitute two Group I base stock slates'; AP/E CORE table columns CORE 100/150/600/2500."
     },
     {
+      "url": "https://go.lupinsys.com/oilchem/harms/public/materials/3c60f4aea41698b195da1a927cf519a2-published/attachments_api/3585e3648f25dbd61a86ee3610d71d66/search_api/Yubase_6-SDS.pdf",
+      "publisher": "Hilditch Pty Ltd (Australian supplier of SK YUBASE)",
+      "host": "distributor",
+      "format": "pdf",
+      "title": "Safety Data Sheet - Yubase 6 (reference HIL0045)",
+      "edition": "Issued 2021-09-28, version 5.0",
+      "status": "verified",
+      "checked": "2026-10-23",
+      "sha256": "55e993c575e5423da5cd2a2cb419ffdcd9f99d8b1d563dc1af45aab810389b57",
+      "note": "Section 3 p.1: 'Distillates, petroleum, hydrotreated heavy paraffinic 64742-54-7 100 % (w/w)'. Distributor-issued, not SK-issued."
+    },
+    {
       "url": "https://luberefapp.s3-accelerate.amazonaws.com/documents/dura500.pdf",
       "publisher": "Luberef (Saudi Aramco Base Oil Company)",
       "host": "manufacturer",
@@ -360,18 +372,6 @@
       "checked": "2026-10-22",
       "sha256": null,
       "note": "Values read from the page data feed https://www.richful.com/rfapi/api/product/getproductbyid?productId=32."
-    },
-    {
-      "url": "https://ru.scribd.com/document/799055322/Global-English-YUBASE-6",
-      "publisher": "unknown uploader",
-      "host": "third-party",
-      "format": "html",
-      "title": "Global English YUBASE 6 (Scribd upload)",
-      "edition": null,
-      "status": "unverified",
-      "checked": "2026-10-22",
-      "sha256": null,
-      "note": "User-uploaded copy on a document-sharing site; not a manufacturer channel."
     }
   ]
 }
