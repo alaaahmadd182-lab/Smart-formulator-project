@@ -14,20 +14,20 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": "III",
+        "value": "Group III",
         "status": "Reported",
         "source": {
-          "file": "https://www.skenmove.com/business/base_oil",
-          "page": null,
-          "revision_date": null
+          "file": "https://www.slideshare.net/slideshow/yubase-apps/33826604",
+          "page": 10,
+          "revision_date": "2000-01-28"
         },
-        "printed_text": "YUBASE: API Group III (SK Enmove official base oil classification)",
-        "value_kind": "reported",
+        "printed_text": "YUBASE-4 (API Gr-III)",
+        "value_kind": "manufacturer classification (technical publication)",
         "method": null,
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": "API Group III classification is attributed to SK Enmove's official YUBASE product information, not to the archived NARMAK TRADE property sheet DL2-11304.pdf. Preserve the external manufacturer reference for traceability.",
+        "calculation_note": "Grade-level classification from SK Corporation's paper 'Application of high quality (Group II, III) base oils' (W.-S. Moon, Y.-R. Cho, J.-S. Chun; 6th Annual Fuels & Lubes Asia Conference, Singapore, 28 January 2000), slide 10 'Typical Properties of YUBASE': 'YUBASE-3 (API Gr-II), YUBASE-4 (API Gr-III), YUBASE-6 (API Gr-III)'. The copy is hosted on SlideShare by a third party, and the paper is from 2000. SK Enmove's current page (https://www.skenmove.com/business/base_oil) describes YUBASE as Group III only at brand level; because SK's own paper classes YUBASE-3 as Group II, the brand statement is not used on its own. Not stated in the archived NARMAK TRADE sheet DL2-11304.pdf (2026-10 audit).",
         "flash_method": null,
         "test_temperature_c": null
       },
@@ -156,7 +156,7 @@
  
   "open_questions": [
     "Confirm the manufacturer and distributor relationship between SK Corporation/SK Enmove and NARMAK TRADE S.R.O. for archived YUBASE 4.",
-    "API Group III classification is supported by SK Enmove manufacturer information but is not explicitly stated in archived property sheet DL2-11304.pdf. Confirm that the classification applies to the archived grade.",
+    "API Group III for YUBASE 4 rests on SK Corporation's 2000 conference paper (slide 10, grade-level, hosted on SlideShare by a third party); it is not stated in archived sheet DL2-11304.pdf. Confirm with SK Enmove that the current YUBASE 4 is still API Group III (2026-10 audit).",
     "Historical SK Corporation YUBASE 4 MSDS No. 739-YU4-02, dated 1999-02-12, identifies the chemistry as hydrotreated heavy paraffinic petroleum distillate (CAS 64742-54-7). Confirm that this historical composition applies to the archived NARMAK TRADE product grade.",
     "The specific-gravity entry at 15°C is printed as 0.8338 with the inconsistent unit g/m3. Verify the original unit and measurement conditions before assigning a density value.",
     "No grade-specific CCS cold-cranking viscosity, test temperature, or test method is reported in archived property sheet DL2-11304.pdf.",

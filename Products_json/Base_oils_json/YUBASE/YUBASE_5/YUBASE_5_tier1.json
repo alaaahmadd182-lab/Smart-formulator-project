@@ -14,20 +14,20 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": "III",
-        "status": "Reported",
+        "value": null,
+        "status": "Missing",
         "source": {
-          "file": "https://www.zic-europe.com/Business_with_ZIC.pdf",
+          "file": null,
           "page": null,
           "revision_date": null
         },
         "printed_text": null,
-        "value_kind": "manufacturer family classification",
+        "value_kind": null,
         "method": null,
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": "SK Lubricants identifies the YUBASE brand as API Group III in its official Business with ZIC publication. The source does not explicitly identify YUBASE 5. Classification is provisionally attributed from the manufacturer family description and requires grade-specific confirmation for archived product DL2-11305.pdf.",
+        "calculation_note": null,
         "flash_method": null,
         "test_temperature_c": null
       },
@@ -152,8 +152,8 @@
 
   },
   "open_questions": [
-    "SK Lubricants officially describes the YUBASE brand as API Group III, but the located manufacturer publication does not explicitly classify YUBASE 5. Obtain grade-specific confirmation before final approval.",
-    "API Group III classification is supported by SK Enmove manufacturer information, but is not explicitly stated in archived property sheet DL2-11304.pdf. Confirm that the classification applies to the archived grade.",
+    "API Group (2026-10 audit): previously recorded as 'III' (Reported) from SK Lubricants' brand-level statement in 'Business with ZIC' (https://www.zic-europe.com/Business_with_ZIC.pdf, p.3: YUBASE is 'a synthetic new generation base oil classified as group III by API'), which does not name YUBASE 5. The brand statement is not used on its own because SK's own 2000 conference paper classes YUBASE-3 as API Group II, so not every YUBASE grade is Group III. No grade-level classification of YUBASE 5 was found, and YUBASE 5 is not in SK Enmove's current YUBASE line-up; the field is now Missing. Confirm the API Group of YUBASE 5 with SK Enmove.",
+    "The API Group is not stated in the archived NARMAK TRADE property sheet DL2-11305.pdf (the earlier note named DL2-11304.pdf, which is the YUBASE 4 sheet) (2026-10 audit).",
     "Historical SK Corporation YUBASE 4 MSDS No. 739-YU4-02, dated 1999-02-12, identifies hydrotreated heavy paraffinic petroleum distillate (CAS 64742-54-7). Confirm that this composition applies to the archived grade.",
     "The specific-gravity entry at 15°C is printed as 0.8338 with the inconsistent unit g/m3. Verify the original unit and measurement conditions before assigning density.",
     "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in archived property sheet DL2-11304.pdf.",
