@@ -14,13 +14,14 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": null,
-        "status": "Missing",
+        "value": "Group IV",
+        "status": "Reported",
         "source": {
-          "file": null,
-          "page": null,
+          "file": "https://www.exxonmobil.com/basestocks/-/media/project/wep/exxonmobil/exxonmobil-basestocks/pdfs/735723-1-exxon-intermed-cross-bu-broch-update-v12.pdf",
+          "page": 5,
           "revision_date": null
-        }
+        },
+        "notes": "Not stated in the archived product datasheet DL2-11328.pdf. ExxonMobil's base stocks brochure (v12) p.5 lists 'SpectraSyn™ PAO – Available in a full range of viscosities' under the heading 'Group IV', and the typical-properties table on the same page names SpectraSyn 2 as a PAO. Manufacturer classification of the product line with this grade named (2026-10 audit)."
       },
       "chemistry": {
         "value": "Polyalphaolefin (PAO)",

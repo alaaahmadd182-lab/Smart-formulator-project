@@ -14,20 +14,20 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": null,
-        "status": "Missing",
+        "value": "Group III",
+        "status": "Reported",
         "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+          "file": "https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf",
+          "page": 25,
+          "revision_date": "2024"
         },
-        "printed_text": null,
-        "value_kind": null,
+        "printed_text": "aramcoULTRA slate 8: API Base Oil Category Group III",
+        "value_kind": "supplier classification",
         "method": null,
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null,
+        "calculation_note": "Grade-level: Aramco base-oil catalog 2024 p.25 lists aramcoULTRA 8 with 'API Base Oil Category: Group III' (manufacturing site Ulsan). Not stated in the archived SDS DL2-14611.pdf (2018). Also listed as a.ULTRA 8 in the 'Group III' table of the MOGO 2025 distributor flyer p.4 (2026-10 audit).",
         "flash_method": null,
         "test_temperature_c": null
       },

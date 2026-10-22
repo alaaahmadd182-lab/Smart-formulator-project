@@ -14,13 +14,14 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": null,
-        "status": "Missing",
+        "value": "Group V",
+        "status": "Reported",
         "source": {
-          "file": null,
-          "page": null,
+          "file": "DL2-12123.pdf",
+          "page": 1,
           "revision_date": null
-        }
+        },
+        "notes": "Printed in the archived product datasheet DL2-12123.pdf p.1: 'Synesstic™ Alkylated Naphthalene (AN) represent a unique class of API Group V category fluids.' ExxonMobil's base stocks brochure (v12) p.6 also lists Synesstic™ AN under 'Group V', and its p.5 table names Synesstic 5 and 12 as alkylated naphthalenes (2026-10 audit)."
       },
       "chemistry": {
         "value": "Alkylated naphthalene",

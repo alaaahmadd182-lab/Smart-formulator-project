@@ -14,20 +14,20 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": null,
-        "status": "Missing",
+        "value": "Group II",
+        "status": "Reported",
         "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+          "file": "https://www.slideshare.net/slideshow/yubase-apps/33826604",
+          "page": 10,
+          "revision_date": "2000-01-28"
         },
-        "printed_text": null,
-        "value_kind": null,
+        "printed_text": "YUBASE-3 (API Gr-II)",
+        "value_kind": "manufacturer classification (technical publication)",
         "method": null,
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note":"API Group is not declared in archived property sheet DL2-11303.pdf. Current SK Enmove product information presents YUBASE 3 within its Group III product range, whereas a January 2021 SK corporate offering circular explicitly lists YUBASE 3 as Group II (page 52). Historical grade identity and classification require confirmation before assigning an API Group.",
+        "calculation_note": "Grade-level: SK Corporation's paper 'Application of high quality (Group II, III) base oils' (6th Annual Fuels & Lubes Asia Conference, 28 January 2000), slide 10: 'YUBASE-3 (API Gr-II)'; copy hosted on SlideShare by a third party. The earlier note records that a January 2021 SK corporate offering circular also lists YUBASE 3 as Group II (page 52; URL not recorded). SK Enmove's current web page presents YUBASE 3 within its Group III/III+ product range at brand level only, which is not a grade-level classification. Not stated in archived property sheet DL2-11303.pdf. Previous note: 'API Group is not declared in archived property sheet DL2-11303.pdf. Current SK Enmove product information presents YUBASE 3 within its Group III product range, whereas a January 2021 SK corporate offering circular explicitly lists YUBASE 3 as Group II (page 52). Historical grade identity and classification require confirmation before assigning an API Group.' (2026-10 audit)",
         "flash_method": null,
         "test_temperature_c": null
       },
@@ -155,7 +155,8 @@
     "Resolve the YUBASE 3 API Group discrepancy between the current SK Enmove manufacturer webpage (Group III product range) and the January 2021 SK corporate offering circular, page 52 (YUBASE 3 explicitly listed as Group II).",
     "Document is headed NARMAK TRADE S.R.O.; confirm manufacturer/supplier relationship with YUBASE-SK.",
     "API group and chemistry are not explicitly stated in this document.",
-    "Specific gravity row is printed with unit g/m3, which is inconsistent with the stated value 0,8299; do not interpret as verified density or specific gravity without clarification."
+    "Specific gravity row is printed with unit g/m3, which is inconsistent with the stated value 0,8299; do not interpret as verified density or specific gravity without clarification.",
+    "API Group (2026-10 audit): recorded as Group II from SK's grade-level statements (2000 conference paper, slide 10; 2021 offering circular, p.52). SK Enmove's current web page groups YUBASE under 'Group III/III+' at brand level. Confirm with SK Enmove that the current YUBASE 3 is still API Group II."
   ],
   "conflicts": []
 }
