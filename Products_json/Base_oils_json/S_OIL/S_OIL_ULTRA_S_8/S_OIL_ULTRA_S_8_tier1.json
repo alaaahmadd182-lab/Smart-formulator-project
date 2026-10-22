@@ -110,19 +110,19 @@
       "flash_method": null
     },
     "density": {
-      "value": null,
+      "value": 0.8425,
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": null,
-      "test_temperature_c": null,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "value_kind": "typical",
+      "printed_text": "Density @ 15.6℃, kg/L: 0.8425",
+      "unit": "kg/L",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052 (D1298)",
+      "status": "Reported",
+      "calculation_note": "From the current S-OIL Lube Base Oil web page, 'Ultra-S Base Oil Typical Properties' table (undated, retrieved 2026-10-21). The archived 2009 sheet DL2-11177.pdf prints specific gravity 15/4 °C, which is not density. Other values in this record come from archived documents; edition differences are listed in conflicts (2026-10 audit).",
       "source": {
-        "file": null,
+        "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
         "page": null,
         "revision_date": null
       },
@@ -131,19 +131,19 @@
     
     "ccs": [
       {
-        "value": null,
+        "value": 6300,
         "qualifier": null,
         "min": null,
         "max": null,
-        "value_kind": null,
-        "printed_text": null,
+        "value_kind": "typical",
+        "printed_text": "CCS Viscosity @ -30℃, mPa-s: 6,300",
         "unit": "mPa.s",
-        "test_temperature_c": null,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": null,
+        "test_temperature_c": -30,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "From the current S-OIL Lube Base Oil web page, 'Ultra-S Base Oil Typical Properties' table (undated, retrieved 2026-10-21); the archived 2009 sheet DL2-11177.pdf prints no CCS (2026-10 audit).",
         "source": {
-          "file": null,
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
           "page": null,
           "revision_date": null
         },
@@ -156,9 +156,70 @@
     "open_questions": [
       "Chemistry is recorded from SDS DL2-15238.pdf, Section 3: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7. The SDS revision date is recorded as 2015-06-10.",
       "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",
-      "No grade-specific CCS viscosity or CCS test temperature has been verified for Ultra-S 8.",
+      "CCS for Ultra-S 8 is recorded in Tier 1 as 6,300 mPa.s at -30 °C (ASTM D5293) from the current S-OIL Lube Base Oil web page; the archived 2009 sheet DL2-11177.pdf prints no CCS (2026-10 audit).",
       "Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15238.pdf remains pending.",
     "API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); Ultra-S and aramcoULTRA are stated by S-OIL to have the same quality'; note 'API Group III supported by official manufacturer product-family classification and equivalence; not directly printed in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 8 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 8 and aramcoULTRA 8 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.25 lists aramcoULTRA 8 as API Base Oil Category Group III (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Confirm the API Group of Ultra-S 8 with S-OIL."
     ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "tier1.kv40",
+      "values": [
+        {
+          "value": 43.89,
+          "printed_text": "43.89 cSt @40°C",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 41.1,
+          "printed_text": "Kinematic Viscosity @ 40℃, cSt (D445): 41.1",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 8: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 41.1. The recorded value is kept; not resolved (2026-10 audit)."
+    },
+    {
+      "field": "tier1.kv100",
+      "values": [
+        {
+          "value": 7.234,
+          "printed_text": "7.234 cSt @100°C",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 7.1,
+          "printed_text": "Kinematic Viscosity @ 100℃, cSt (D445): 7.1",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 8: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 7.1. The recorded value is kept; not resolved (2026-10 audit)."
+    },
+    {
+      "field": "tier1.viscosity_index",
+      "values": [
+        {
+          "value": 127,
+          "printed_text": "127",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 134,
+          "printed_text": "Viscosity Index (D2270): 134",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 8: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 134. The recorded value is kept; not resolved (2026-10 audit)."
+    }
+  ]
 }

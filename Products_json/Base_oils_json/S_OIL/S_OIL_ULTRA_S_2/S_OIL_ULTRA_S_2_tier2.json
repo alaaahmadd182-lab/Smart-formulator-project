@@ -101,5 +101,26 @@
     "Noack volatility is marked with a dash in the Ultra-S 2 column and must remain Missing.",
     "Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15235.pdf remains pending."
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "tier2.pour_point",
+      "values": [
+        {
+          "value": -37.5,
+          "printed_text": "-37.5 °C",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": -36,
+          "printed_text": "Pour Point, ℃ (D5950/6749): -36",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 2: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints -36. The recorded value is kept; not resolved (2026-10 audit)."
+    }
+  ]
 }

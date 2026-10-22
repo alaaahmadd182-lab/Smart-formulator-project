@@ -109,19 +109,19 @@
       "flash_method": null
     },
     "density": {
-      "value": null,
+      "value": 0.83,
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": null,
-      "test_temperature_c": null,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "value_kind": "typical",
+      "printed_text": "Density @ 15.6℃, kg/L: 0.8300",
+      "unit": "kg/L",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052 (D1298)",
+      "status": "Reported",
+      "calculation_note": "From the current S-OIL Lube Base Oil web page, 'Ultra-S Base Oil Typical Properties' table (undated, retrieved 2026-10-21). The archived 2009 sheet DL2-11177.pdf prints specific gravity 15/4 °C, which is not density. Other values in this record come from archived documents; edition differences are listed in conflicts (2026-10 audit).",
       "source": {
-        "file": null,
+        "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
         "page": null,
         "revision_date": null
       },
@@ -158,5 +158,66 @@
     "Final source-level reconciliation between DL2-11177.pdf and DL2-15235.pdf remains pending.",
     "API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties'; note 'Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 2 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 2 and aramcoULTRA 2 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.24 lists aramcoULTRA 2 as API Base Oil Category Group II, and p.23 states 'These grades of aramcoULTRA are not classified as API Group III' for aramcoULTRA 2 and 3 (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Documentation discrepancy, not a conflict between Ultra-S specifications: the S-OIL page labels the aramcoULTRA brand as a whole 'aramcoULTRA (Group Ⅲ)', whereas the Aramco catalog classifies the aramcoULTRA 2 grade as Group II. Neither document classifies Ultra-S 2. Confirm the API Group of Ultra-S 2 with S-OIL."
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "tier1.kv40",
+      "values": [
+        {
+          "value": 7.117,
+          "printed_text": "7.117 cSt @40°C",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 7.62,
+          "printed_text": "Kinematic Viscosity @ 40℃, cSt (D445): 7.62",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 2: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 7.62. The recorded value is kept; not resolved (2026-10 audit)."
+    },
+    {
+      "field": "tier1.kv100",
+      "values": [
+        {
+          "value": 2.174,
+          "printed_text": "2.174 cSt @100°C",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 2.25,
+          "printed_text": "Kinematic Viscosity @ 100℃, cSt (D445): 2.25",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 2: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 2.25. The recorded value is kept; not resolved (2026-10 audit)."
+    },
+    {
+      "field": "tier1.viscosity_index",
+      "values": [
+        {
+          "value": 109,
+          "printed_text": "109",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 103,
+          "printed_text": "Viscosity Index (D2270): 103",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 2: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 103. The recorded value is kept; not resolved (2026-10 audit)."
+    }
+  ]
 }

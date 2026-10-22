@@ -101,5 +101,46 @@
     "Noack volatility is marked with a dash in the Ultra-S 3 column and must remain Missing.",
     "Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15236.pdf remains pending."
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "field": "tier2.flash_point",
+      "values": [
+        {
+          "value": 204,
+          "printed_text": "204 °C (COC)",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 202,
+          "printed_text": "Flash Point, COC, ℃ (D92): 202",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 3: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 202. The recorded value is kept; not resolved (2026-10 audit)."
+    },
+    {
+      "field": "tier2.pour_point",
+      "values": [
+        {
+          "value": -25.0,
+          "printed_text": "-25.0 °C",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": -27,
+          "printed_text": "Pour Point, ℃ (D5950/6749): -27",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 3: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints -27. The recorded value is kept; not resolved (2026-10 audit)."
+    }
+  ]
 }
