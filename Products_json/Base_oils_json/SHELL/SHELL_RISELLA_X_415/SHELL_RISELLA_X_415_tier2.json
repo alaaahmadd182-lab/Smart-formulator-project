@@ -14,26 +14,46 @@
   "fields": {
     
 "mrv": [
-      {
-        "value": null,
-        "qualifier": null,
-        "min": null,
-        "max": null,
-        "value_kind": null,
-        "printed_text": null,
-        "unit": "mPa.s",
-        "test_temperature_c": null,
-        "method": null,
-        "status": "Not Required",
-        "calculation_note": "Shell Risella X 415 is marketed as a GTL-derived process/technical white oil. MRV engine-oil low-temperature pumpability testing is not required for its documented process-oil application.",
-        "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
-        },
-        "flash_method": null
+  {
+    "test_temperature_c": null,
+    "mrv_viscosity": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "mPa.s",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Not Required",
+      "calculation_note": "Shell Risella X 415 is marketed as a GTL-derived process/technical white oil. MRV engine-oil low-temperature pumpability testing is not required for its documented process-oil application.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
       }
-    ],
+    },
+    "yield_stress": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "Pa",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Not Required",
+      "calculation_note": "Shell Risella X 415 is marketed as a GTL-derived process/technical white oil. MRV engine-oil low-temperature pumpability testing is not required for its documented process-oil application.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  }
+],
     "noack_volatility": {
       "value": 40,
       "qualifier": null,

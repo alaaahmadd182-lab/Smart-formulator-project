@@ -124,16 +124,22 @@
     "ccs": [
       {
         "value": null,
-        "status": "Missing",
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
         "unit": "mPa.s",
         "test_temperature_c": null,
         "method": null,
-        "notes": "No grade-specific CCS value or test temperature verified in the reviewed supplier literature.",
+        "status": "Missing",
+        "calculation_note": null,
         "source": {
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "notes": "No grade-specific CCS value or test temperature verified in the reviewed supplier literature."
       }
     ]
 

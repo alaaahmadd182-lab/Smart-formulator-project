@@ -14,23 +14,43 @@
   "fields": {
     "mrv": [
       {
-        "value": null,
-        "qualifier": null,
-        "min": null,
-        "max": null,
-        "value_kind": null,
-        "printed_text": null,
-        "unit": "mPa.s",
         "test_temperature_c": null,
-        "method": null,
-        "status": "Not Required",
-        "calculation_note": "Shell Risella X 420 is marketed as a GTL-derived process oil. MRV low-temperature engine-oil pumpability testing is treated as not required for its documented process-oil application under the proposed project applicability rule.",
-        "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Not Required",
+          "calculation_note": "Shell Risella X 420 is marketed as a GTL-derived process oil. MRV low-temperature engine-oil pumpability testing is treated as not required for its documented process-oil application under the proposed project applicability rule.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
         },
-        "flash_method": null
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Not Required",
+          "calculation_note": "Shell Risella X 420 is marketed as a GTL-derived process oil. MRV low-temperature engine-oil pumpability testing is treated as not required for its documented process-oil application under the proposed project applicability rule.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
       }
     ],
     "noack_volatility": {
