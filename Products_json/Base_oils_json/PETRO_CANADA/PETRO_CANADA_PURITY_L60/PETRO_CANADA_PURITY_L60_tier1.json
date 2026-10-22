@@ -14,20 +14,20 @@
   "fields": {
     "api_group_chemistry": {     
       "api_group": {
-        "value": "Group II",
-        "status": "Reported",
+        "value": null,
+        "status": "Missing",
         "source": {
-          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/base-oils/ilma-engage-sponsorship-base-oils-brochure.ashx",
+          "file": null,
           "page": null,
           "revision_date": null
         },
-        "printed_text": "PURITY L60 listed in GROUP II TYPICAL PROPERTIES table",
-        "value_kind": "supplier classification",
+        "printed_text": null,
+        "value_kind": null,
         "method": null,
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": "Grade-specific Group II classification verified in Petro-Canada's official brochure. Group II+ is a broader family designation and is not specifically assigned to L60."
+        "calculation_note": null
       },
       "chemistry": {
         "value": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons",
@@ -141,9 +141,10 @@
     ]
   },
   "open_questions": [
-    "API Group II verified from Petro-Canada's official World-Class Base Oils brochure; the original 2015 brochure did not explicitly classify L60.",
+    "Not verified (2026-10 audit): the grade-level brochure cited for API Group II could not be retrieved; the field is Missing (see the API Group question). Previous note: 'API Group II verified from Petro-Canada's official World-Class Base Oils brochure; the original 2015 brochure did not explicitly classify L60.'",
     "Sulfur, Noack, saturates, aromatics and CCS are not reported for L60 in the cited brochure.",
-    "Grade-specific SDS and other brochure editions require reconciliation."
+    "Grade-specific SDS and other brochure editions require reconciliation.",
+    "API Group (2026-10 audit): previously recorded as 'Group II' (Reported) citing Petro-Canada's ILMA Engage base-oils brochure (https://petrocanadalubricants.com/-/media/pdfs/brochures/base-oils/ilma-engage-sponsorship-base-oils-brochure.ashx, no page), printed_text 'PURITY L60 listed in GROUP II TYPICAL PROPERTIES table'. That brochure could not be retrieved (Petro-Canada blocks automated access; no Wayback Machine copy; the distributor-hosted 'World-Class Base Oils' copy is also blocked), so no grade-level classification of PURITY L60 could be inspected. Petro-Canada's LUB3213E editions (2015.07 = DL2-10020.pdf p.1; 2023.03 p.1) describe PURITY only as 'Group II and Group II+ base oils' at brand level, which does not classify an individual grade; the field is now Missing. Obtain the brochure or a grade-specific Petro-Canada document to confirm."
   ],
   "conflicts": [
     {

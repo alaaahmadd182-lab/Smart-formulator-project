@@ -14,20 +14,20 @@
   "fields": {
     "api_group_chemistry": {      
       "api_group": {
-        "value": "Group II",
-        "status": "Reported",
+        "value": null,
+        "status": "Missing",
         "source": {
-          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/base-oils/ilma-engage-sponsorship-base-oils-brochure.ashx",
+          "file": null,
           "page": null,
           "revision_date": null
         },
-        "printed_text": "PURITY L50 listed under GROUP II TYPICAL PROPERTIES",
-        "value_kind": "supplier classification",
+        "printed_text": null,
+        "value_kind": null,
         "method": null,
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": "API Group II explicitly supported by Petro-Canada manufacturer documentation; not inferred from chemistry."
+        "calculation_note": null
       },
       "chemistry": {
         "value": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons",
@@ -143,11 +143,12 @@
   },
   
   "open_questions": [
-    "API Group II confirmed from Petro-Canada's official Group II typical-properties table; the original DL2-10020.pdf did not explicitly assign a grade-specific group.",
+    "Not verified (2026-10 audit): the grade-level brochure cited for API Group II could not be retrieved; the field is Missing (see the API Group question). Previous note: 'API Group II confirmed from Petro-Canada's official Group II typical-properties table; the original DL2-10020.pdf did not explicitly assign a grade-specific group.'",
     "Viscosity index remains unreported for PURITY L50.",
     "Grade-specific CCS remains Missing: the CCS values previously recorded here at -20°C and -25°C belong to PURITY 2204, not L50; no CCS value for PURITY L50 has been found in Petro-Canada documentation (see the 'CCS (2026-10 audit)' note).",
     "Grade-specific SDS and differences between the original 2015 brochure and newer manufacturer documentation require reconciliation.",
-    "CCS (2026-10 audit): the 2 CCS values previously recorded here - 2708 mPa.s at -20 °C, 5361 mPa.s at -25 °C (Reported, Typical, ASTM D5293; cited to https://petrocanadalubricants.com/en-us/brand/purity-base-oils/compare, no page) - are the PURITY 2204 column of Petro-Canada's 'Typical Properties of PURITY Base Oils' table in LUB3213E / IM-1809E (2023.03) p.2, not PURITY L50. The 2015.07 edition (DL2-10020.pdf p.2) prints 3400 cP at -20 °C and 7000 cP at -25 °C for PURITY 2204 and no CCS for L50; the PURITY L50 product data sheet DL2-13351.pdf (last reviewed May 2020) prints no CCS; the cited compare page could not be retrieved (bot protection). The L35-L65 table in both editions has no Cold Crank Simulator row, so no CCS value is published for PURITY L50; ccs is now Missing. The values were not copied to any other record. Confirm with Petro-Canada whether a CCS value exists for PURITY L50."
+    "CCS (2026-10 audit): the 2 CCS values previously recorded here - 2708 mPa.s at -20 °C, 5361 mPa.s at -25 °C (Reported, Typical, ASTM D5293; cited to https://petrocanadalubricants.com/en-us/brand/purity-base-oils/compare, no page) - are the PURITY 2204 column of Petro-Canada's 'Typical Properties of PURITY Base Oils' table in LUB3213E / IM-1809E (2023.03) p.2, not PURITY L50. The 2015.07 edition (DL2-10020.pdf p.2) prints 3400 cP at -20 °C and 7000 cP at -25 °C for PURITY 2204 and no CCS for L50; the PURITY L50 product data sheet DL2-13351.pdf (last reviewed May 2020) prints no CCS; the cited compare page could not be retrieved (bot protection). The L35-L65 table in both editions has no Cold Crank Simulator row, so no CCS value is published for PURITY L50; ccs is now Missing. The values were not copied to any other record. Confirm with Petro-Canada whether a CCS value exists for PURITY L50.",
+    "API Group (2026-10 audit): previously recorded as 'Group II' (Reported) citing Petro-Canada's ILMA Engage base-oils brochure (https://petrocanadalubricants.com/-/media/pdfs/brochures/base-oils/ilma-engage-sponsorship-base-oils-brochure.ashx, no page), printed_text 'PURITY L50 listed under GROUP II TYPICAL PROPERTIES'. That brochure could not be retrieved (Petro-Canada blocks automated access; no Wayback Machine copy; the distributor-hosted 'World-Class Base Oils' copy is also blocked), so no grade-level classification of PURITY L50 could be inspected. Petro-Canada's LUB3213E editions (2015.07 = DL2-10020.pdf p.1; 2023.03 p.1) describe PURITY only as 'Group II and Group II+ base oils' at brand level, which does not classify an individual grade; the field is now Missing. Obtain the brochure or a grade-specific Petro-Canada document to confirm."
   ],
   "conflicts": [
     {
