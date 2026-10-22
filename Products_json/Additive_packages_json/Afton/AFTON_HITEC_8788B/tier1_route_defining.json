@@ -81,18 +81,17 @@
       "permitted_grades": [],
       "exclusions": [],
       "allowed_combinations": [
-        "conventional OCP VM with a mix of Group I and Group III base stocks"
+        "Mix of Group I and Group III base stocks with conventional OCP VM (approvals table: 17.7% SAE 10W-40, Base Oil Grp I/III*)",
+        "Group III base stock (approvals table: 17.7% SAE 10W-40, Base Oil Grp III*)",
+        "*'OEM claim availability dependent on VM choice'"
       ],
       "status": "Reported",
       "source": {
-        "file": null,
-        "page": null,
-        "revision_date": null,
-        "url": "https://www.aftonchemical.com/getmedia/76e36bd1-3c58-4283-bc57-8bbcc4bb799c/HiTEC-8788B_PDS.pdf?ext=.pdf",
-        "retrieved": "2026-10-18",
-        "origin": "public web (supplier product data sheet), not the archived datasheet"
+        "file": "https://web.archive.org/web/20221204124252/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-8788B/HiTEC-8788B_PDS.pdf?ext=.pdf",
+        "page": 2,
+        "revision_date": null
       },
-      "notes": "Sourced from Afton's public HiTEC 8788B product data sheet (search-engine excerpt only; the archive has the SDS only), not from the archived product datasheet. Afton's public HiTEC 8788B PDS: 'It uses a simple formulation style, using conventional OCP Viscosity Modifier (VM) and a mix of Group I and Group III base stocks.' Text taken from the search-engine excerpt of that PDF; the PDF itself returned HTTP 403 and was not opened."
+      "notes": "Afton's HiTEC 8788B product data sheet ('Simplicity and Performance', PDF created 2019-02-07), read from the Wayback Machine snapshot of 4 December 2022 of Afton's own URL (Afton's servers block automated retrieval), p.2: 'HiTEC 8788B additive package uses a simple formulation style, using conventional OCP Viscosity Modifier (VM) and a mix of Group I and Group III base stocks.' The approvals table lists 17.7% SAE 10W-40 with Base Oil Grp 'I/III*' and 'III*'. Group I appears only as part of a Group I/III mix. Not in the archived SDS DL2-15016.pdf. Earlier this value rested on a search-engine excerpt of a different Afton URL (https://www.aftonchemical.com/getmedia/76e36bd1-3c58-4283-bc57-8bbcc4bb799c/HiTEC-8788B_PDS.pdf?ext=.pdf) that was never opened (2026-10 audit)."
     },
     "route_selector_restrictions": {
       "value": null,

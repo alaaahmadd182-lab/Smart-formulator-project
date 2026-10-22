@@ -45,12 +45,14 @@ The script only reads the JSON files; it never changes them. The workbook contai
 | External source unreachable / unverified; source on a non-authoritative host | warning |
 | Verified external PDF without page reference | warning |
 | Verified external PDF with page | info |
+| Verified archived copy of a manufacturer document (e.g. a Wayback Machine snapshot), with page | info |
 | Verified external web page (no page numbers) | info |
 
 ### Source registry
 
 `source_registry.json` lists every external URL cited in `Products_json`: publisher, host
-(`manufacturer`, `distributor` or `third-party`), format (`pdf` or `html`), title, edition, status
+(`manufacturer`, `distributor`, `archive` for a dated web-archive copy of a manufacturer document
+that is no longer retrievable directly, or `third-party`), format (`pdf` or `html`), title, edition, status
 (`verified`, `unreachable` or `unverified`), the date it was checked and, for PDFs, the SHA-256 of the
 retrieved copy. Web pages have no page numbers, so a verified web page is not a warning. A URL must
 be added to the registry, after its content has been checked, before it stops being reported as a

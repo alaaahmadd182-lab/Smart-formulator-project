@@ -77,6 +77,8 @@ def audit_trace(ctx, path, node):
             add('External source on a non-authoritative host', WARN, reg.get('note') or '')
         elif reg['status'] != 'verified':
             add(f'External source {reg["status"]}', WARN, reg.get('note') or '')
+        elif reg['host'] == 'archive':
+            add('Verified archived copy of a manufacturer document', INFO if not no_page else WARN, reg.get('title') or '')
         elif reg['format'] == 'html':
             add('Verified external web page (no page numbers)', INFO, reg.get('title') or '')
         elif no_page:
