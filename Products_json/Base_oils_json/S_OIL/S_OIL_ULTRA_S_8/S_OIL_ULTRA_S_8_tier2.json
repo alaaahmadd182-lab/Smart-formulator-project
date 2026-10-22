@@ -126,6 +126,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "edition difference",
       "field": "tier2.flash_point",
       "values": [
         {
@@ -146,6 +147,7 @@
       "note": "Document editions differ for Ultra-S 8: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 250. The recorded value is kept; not resolved (2026-10 audit)."
     },
     {
+      "conflict_type": "edition difference",
       "field": "tier2.pour_point",
       "values": [
         {

@@ -164,6 +164,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "edition difference",
       "field": "tier1.kv40",
       "values": [
         {
@@ -184,6 +185,7 @@
       "note": "Document editions differ for Ultra-S 4: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 19.7. The recorded value is kept; not resolved (2026-10 audit)."
     },
     {
+      "conflict_type": "edition difference",
       "field": "tier1.kv100",
       "values": [
         {
@@ -204,6 +206,7 @@
       "note": "Document editions differ for Ultra-S 4: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 4.27. The recorded value is kept; not resolved (2026-10 audit)."
     },
     {
+      "conflict_type": "edition difference",
       "field": "tier1.viscosity_index",
       "values": [
         {

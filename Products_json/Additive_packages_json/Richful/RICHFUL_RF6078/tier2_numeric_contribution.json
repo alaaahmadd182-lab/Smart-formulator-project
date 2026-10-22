@@ -325,6 +325,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier2.density",
       "values": [
         {

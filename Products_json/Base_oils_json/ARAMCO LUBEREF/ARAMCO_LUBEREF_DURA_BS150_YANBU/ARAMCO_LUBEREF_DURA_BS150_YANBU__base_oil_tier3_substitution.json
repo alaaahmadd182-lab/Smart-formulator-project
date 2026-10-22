@@ -125,6 +125,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "unit or test-condition discrepancy",
       "field": "sulfur",
       "sources": [
         {

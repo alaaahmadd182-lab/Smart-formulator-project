@@ -331,6 +331,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier1.treat_rate_matrix (ACEA E7/API CI-4)",
       "values": [
         {

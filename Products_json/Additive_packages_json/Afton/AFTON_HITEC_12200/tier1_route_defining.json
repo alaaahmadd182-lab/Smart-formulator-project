@@ -1192,6 +1192,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "edition difference",
       "field": "tier1.performance_claims / tier1.treat_rate_matrix (MTU 2.0, row 10.3% + 5.0% HiTEC® 12255, SAE 15W-40, GP I)",
       "values": [
         {
@@ -1212,6 +1213,7 @@
       "note": "05/18 vs 08/18 bulletin. Newer (08/18) used in the fields; not resolved."
     },
     {
+      "conflict_type": "edition difference",
       "field": "tier1.performance_claims / tier1.treat_rate_matrix (DDC 93K215, row 11.7% + 0.9% HiTEC® 12260, SAE 10W-30, GP II)",
       "values": [
         {

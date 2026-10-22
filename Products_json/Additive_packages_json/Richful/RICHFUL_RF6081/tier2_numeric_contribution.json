@@ -317,6 +317,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier2.kv100",
       "values": [
         {

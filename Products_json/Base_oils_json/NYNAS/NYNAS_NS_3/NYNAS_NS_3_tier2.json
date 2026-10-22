@@ -115,6 +115,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "edition difference",
       "property": "kv40",
       "primary": {
         "value": 2.92,
@@ -129,6 +130,7 @@
       "note": "Different typical values in 2024 and 2016 editions; newer edition selected."
     },
     {
+      "conflict_type": "edition difference",
       "property": "density",
       "primary": {
         "value": 0.863,
@@ -143,6 +145,7 @@
       "note": "Different typical values in 2024 and 2016 editions."
     },
     {
+      "conflict_type": "edition difference",
       "property": "flash_point",
       "primary": {
         "value": 95,
@@ -157,6 +160,7 @@
       "note": "Different typical PM flash points in two editions."
     },
     {
+      "conflict_type": "edition difference",
       "property": "sulfur",
       "primary": {
         "value": "<10 ppm",

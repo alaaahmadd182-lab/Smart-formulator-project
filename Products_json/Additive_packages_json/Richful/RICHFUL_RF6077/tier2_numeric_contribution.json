@@ -318,6 +318,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier2.density",
       "values": [
         {
@@ -338,6 +339,7 @@
       "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved. Resolved 2026-10-18 by user decision: 0.991 g/cm³ from DL2-15542.pdf used."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier2.kv100",
       "values": [
         {

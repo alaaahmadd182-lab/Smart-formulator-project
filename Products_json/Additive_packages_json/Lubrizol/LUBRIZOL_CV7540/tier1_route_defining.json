@@ -480,6 +480,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "edition difference",
       "field": "tier1.performance_claims (Cummins CES 20076 claim code)",
       "values": [
         {
@@ -500,6 +501,7 @@
       "note": "2020 sheet: 'L - Licensable'; 2022 sheet: 'A - Approved'. Fields use the newer 2022 sheet. Not resolved."
     },
     {
+      "conflict_type": "edition difference",
       "field": "tier1.performance_claims (Cummins CES 20077 claim code)",
       "values": [
         {
@@ -520,6 +522,7 @@
       "note": "2020 sheet: 'L - Licensable'; 2022 sheet: 'A - Approved'. Fields use the newer 2022 sheet. Not resolved."
     },
     {
+      "conflict_type": "edition difference",
       "field": "tier1.performance_claims (Cummins CES 20078 claim code)",
       "values": [
         {

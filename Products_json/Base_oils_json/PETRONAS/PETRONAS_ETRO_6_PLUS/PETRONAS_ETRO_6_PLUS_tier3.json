@@ -114,6 +114,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "kv40",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "32.55 cSt at 40°C (ASTM D445)",
@@ -122,6 +123,7 @@
       "assessment": "Different reported values; retain TDS typical value, flag for review."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "flash_point",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "240°C ASTM D92 (COC)",
@@ -130,6 +132,7 @@
       "assessment": "Different methods, not directly comparable; both values retained."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "noack_volatility",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "5.7 mass% ASTM D5800-B",
@@ -138,6 +141,7 @@
       "assessment": "Different reported values; retain TDS typical value, flag for review."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "density",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "0.8429 kg/L (temperature not stated)",

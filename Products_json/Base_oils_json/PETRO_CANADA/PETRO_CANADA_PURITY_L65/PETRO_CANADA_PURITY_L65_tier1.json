@@ -149,6 +149,7 @@
     "conflicts": [
       "Viscosity index differs between manufacturer documents: DL2-10020.pdf (2015-07), page 2, reports 92; Petro-Canada's World-Class Base Oils brochure reports 104. The original value of 92 is retained pending reconciliation.",
       {
+        "conflict_type": "edition difference",
         "field": "tier1.kv40",
         "values": [
           {
@@ -169,6 +170,7 @@
         "note": "Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 9.33 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit)."
       },
       {
+        "conflict_type": "edition difference",
         "field": "tier1.kv100",
         "values": [
           {
@@ -189,6 +191,7 @@
         "note": "Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 2.57 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit)."
       },
       {
+        "conflict_type": "edition difference",
         "field": "tier1.viscosity_index",
         "values": [
           {

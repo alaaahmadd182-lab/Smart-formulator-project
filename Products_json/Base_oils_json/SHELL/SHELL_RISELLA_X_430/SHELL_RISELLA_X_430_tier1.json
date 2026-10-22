@@ -158,6 +158,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "density",
       "tds": {
         "value": 828,

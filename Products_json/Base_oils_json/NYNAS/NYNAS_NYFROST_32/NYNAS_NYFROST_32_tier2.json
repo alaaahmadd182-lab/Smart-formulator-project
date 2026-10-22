@@ -115,6 +115,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "kv40",
       "source_a": "DL2-11510.pdf p.2 (2016-11-01)",
       "value_a": "32 cSt (typical)",
@@ -123,6 +124,7 @@
       "resolution": "Retained supplier PDS typical value; SDS discrepancy flagged."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "flash_point",
       "source_a": "DL2-11510.pdf p.2 (2016-11-01)",
       "value_a": "176°C typical, Pensky-Martens (ASTM D93)",
