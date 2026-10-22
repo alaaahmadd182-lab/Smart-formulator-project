@@ -14,13 +14,14 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": null,
-        "status": "Missing",
+        "value": "Group I",
+        "status": "Reported",
         "source": {
-          "file": null,
+          "file": "https://www.exxonmobil.com/en/basestocks/products/group-i-base-stocks",
           "page": null,
           "revision_date": null
-        }
+        },
+        "notes": "Not stated in the archived specification sheet DL2-13265.pdf. ExxonMobil's Group I base stocks page: 'Americas CORE™ base stocks and AP/E CORE™ base stocks constitute two Group I base stock slates ... as defined within API/ATIEL guidelines'; its AP/E CORE specifications table has a CORE™ 2500 column. Manufacturer classification of the AP/E CORE slate with this grade listed. Web page, no page number; read via fetch tool on 2026-10-22 (2026-10 audit)."
       },
       "chemistry": {
         "value": null,

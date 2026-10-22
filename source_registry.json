@@ -98,6 +98,18 @@
       "note": "p.5 lists SpectraSyn, SpectraSyn Plus, SpectraSyn MaX and SpectraSyn Elite under 'Group IV'; SpectraSyn Ultra is not named anywhere."
     },
     {
+      "url": "https://www.exxonmobil.com/en/basestocks/products/group-i-base-stocks",
+      "publisher": "ExxonMobil",
+      "host": "manufacturer",
+      "format": "html",
+      "title": "ExxonMobil - Group I base stocks",
+      "edition": "undated",
+      "status": "verified",
+      "checked": "2026-10-22",
+      "sha256": null,
+      "note": "Read via fetch tool (direct download blocked): 'Americas CORE base stocks and AP/E CORE base stocks constitute two Group I base stock slates'; AP/E CORE table columns CORE 100/150/600/2500."
+    },
+    {
       "url": "https://luberefapp.s3-accelerate.amazonaws.com/documents/dura500.pdf",
       "publisher": "Luberef (Saudi Aramco Base Oil Company)",
       "host": "manufacturer",
@@ -144,6 +156,18 @@
       "checked": "2026-10-22",
       "sha256": "796a2b54adbe65d1dc04d97403a3b7ce4e4c2489714720f1f598a91562b91754",
       "note": "Hosted in Luberef's document storage (luberefapp); trade name and CAS confirmed on p.1, composition in Section 3 (p.2)."
+    },
+    {
+      "url": "https://www.nynas.com/en/products/base-oils/products/nyfrost-68/",
+      "publisher": "Nynas",
+      "host": "manufacturer",
+      "format": "html",
+      "title": "NYFROST 68 - naphthenic base oil (product page)",
+      "edition": "undated",
+      "status": "verified",
+      "checked": "2026-10-22",
+      "sha256": null,
+      "note": "'NYFROST 68 is a hydrotreated naphthenic base oil, classified as an API Group V base oil.'"
     },
     {
       "url": "https://petrocanadalubricants.com/-/media/pdfs/brochures/base-oils/ilma-engage-sponsorship-base-oils-brochure.ashx",
