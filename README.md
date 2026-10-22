@@ -10,6 +10,7 @@ additive components) following `Smart_Formulator_Minimum_Property_Set.pdf`, whic
 | `json_templates/` | Task 2 – one JSON template per material class and tier |
 | `Products_json/` | Task 3 – one folder per product, one JSON file per tier |
 | `build_coverage_matrix.py`, `Coverage_Matrix.xlsx` | Task 4 – coverage script and its output |
+| `source_registry.json` | External (non-archive) sources cited in `Products_json`, with verification status |
 | `open_questions_and_conflicts.md` | Task 5 – conflicts and open questions |
 
 ## Building the coverage matrix (Task 4)
@@ -21,18 +22,40 @@ python -m pip install -r requirements.txt
 python build_coverage_matrix.py --output Coverage_Matrix_new.xlsx
 ```
 
-Options: `--input` (default `Products_json`), `--output` (default `Coverage_Matrix.xlsx`) and
-`--overwrite`. Without `--overwrite`, the script refuses to replace an existing workbook.
+Options: `--input` (default `Products_json`), `--output` (default `Coverage_Matrix.xlsx`),
+`--sources` (default `source_registry.json`) and `--overwrite`. Without `--overwrite`, the script
+refuses to replace an existing workbook.
 
 The script only reads the JSON files; it never changes them. The workbook contains:
 
 - **Overview** – product, file and status counts, plus the run status.
 - **Base Oils / Additive Packages / Additive Components** – one row per product, one column per
   property. Each cell is `reported`, `calculated`, `missing` or `not_applicable`.
-- **Validation Issues** – structural problems and mixed nested statuses.
+- **Validation Issues** – structural problems, plus non-blocking review items: mixed nested
+  statuses, a status that contradicts its value, a value outside its own min/max, and a KV40/KV100
+  test temperature that differs from the property.
 - **Status Detail** – every nested status in the JSON, with its original spelling, the source file and the page.
-- **Traceability Audit** (informational) – reported values with no source file, with an
-  external URL instead of an archive file, with no page number, or based on general knowledge.
+- **Traceability Audit** – the source of every reported value, with a severity:
+
+| Finding | Severity |
+|---|---|
+| Reported value without source; basis `general_knowledge` | warning |
+| Archive source without page reference | warning |
+| External source not in source registry | warning |
+| External source unreachable / unverified; source on a non-authoritative host | warning |
+| Verified external PDF without page reference | warning |
+| Verified external PDF with page | info |
+| Verified external web page (no page numbers) | info |
+
+### Source registry
+
+`source_registry.json` lists every external URL cited in `Products_json`: publisher, host
+(`manufacturer`, `distributor` or `third-party`), format (`pdf` or `html`), title, edition, status
+(`verified`, `unreachable` or `unverified`), the date it was checked and, for PDFs, the SHA-256 of the
+retrieved copy. Web pages have no page numbers, so a verified web page is not a warning. A URL must
+be added to the registry, after its content has been checked, before it stops being reported as a
+warning. The registry records that a source was checked; whether it supports each individual value
+is recorded in that value's notes.
 
 When a property has subfields with different statuses, the cell shows the highest-priority
 status (reported > calculated > missing > not_applicable) and is shaded amber. **A cell marked

@@ -26,12 +26,20 @@ UNRECOGNIZED = 'unrecognized: '
 BLOCKING = ('Unknown status', 'Invalid JSON', 'Unreadable file', 'Unreadable folder', 'Invalid identity', 'Duplicate tier', 'Duplicate property',
             'Expected tier missing', 'Unclassified status-free field')
 MIXED = 'Mixed nested statuses (review)'
+CONTRADICTION, OUT_OF_RANGE, TEMP_MISMATCH = ('Status contradicts value (review)', 'Value outside its own min/max (review)',
+                                              'Test temperature differs from property (review)')
+# Non-blocking findings that ask for a human check rather than signalling a structural error.
+REVIEW = (MIXED, CONTRADICTION, OUT_OF_RANGE, TEMP_MISMATCH)
+PROPERTY_TEMPERATURE = {'kv40': 40, 'kv100': 100}
+WARN, INFO = 'warning', 'info'
+REGISTRY_STATUSES = ('verified', 'unreachable', 'unverified')
 
 HEADER_FILL, SUBHEADER_FILL = PatternFill('solid', fgColor='17324D'), PatternFill('solid', fgColor='245B73')
 MIXED_FILL, ERROR_FILL = PatternFill('solid', fgColor='FFE9A8'), PatternFill('solid', fgColor='F4B6B6')
 WHITE_BOLD = Font(bold=True, color='FFFFFF')
 
 records = {}; issues = []; statuses = collections.Counter(); details = []; trace = []; json_count = 0
+sources = {}  # external URL -> source_registry.json entry
 
 
 def detail(ctx, path, raw, norm, counted, node=None, note=''):
@@ -45,22 +53,50 @@ def detail(ctx, path, raw, norm, counted, node=None, note=''):
 
 
 def audit_trace(ctx, path, node):
-    """Traceability findings for a Reported value; informational only, nothing is changed."""
+    """Classify the source of a Reported value. Warnings need attention; info rows document valid sources."""
     src = node.get('source') if isinstance(node.get('source'), dict) else {}
     file, url, page = src.get('file'), src.get('url'), src.get('page')
     location = file or url
     base = [ctx['class'], ctx['record_id'], ctx['file'], ctx['field'], path or '(property)', node.get('status'),
             cell_text(node.get('value')), cell_text(node.get('basis')), cell_text(location), cell_text(page)]
+    add = lambda finding, severity, note: trace.append([finding, severity] + base + [note])
+    no_page = page in (None, '')
     if node.get('basis') == 'general_knowledge':
-        trace.append(['Unsupported reported value (basis: general_knowledge)'] + base
-                     + ['Value is not printed in any source document; status left unchanged pending supplier confirmation.'])
-    elif not location:
-        trace.append(['Reported value without source file'] + base + ['No source file or URL recorded.'])
-    elif str(location).lower().startswith(('http://', 'https://')):
-        trace.append(['Reported value from external URL (not in archive)'] + base
-                     + ['Valid external reference; the document is not part of the shared archive.'])
-    if location and page in (None, ''):
-        trace.append(['Reported value without page reference'] + base + ['Source recorded but no page number.'])
+        add('Unsupported reported value (basis: general_knowledge)', WARN,
+            'Value is not printed in any source document; status left unchanged pending supplier confirmation.')
+    if not location:
+        add('Reported value without source', WARN, 'No source file or URL recorded.')
+    elif not str(location).lower().startswith(('http://', 'https://')):
+        if no_page:
+            add('Archive source without page reference', WARN, 'Archive file recorded but no page number.')
+    else:
+        reg = sources.get(location)
+        if reg is None:
+            add('External source not in source registry', WARN, 'Add this URL to source_registry.json after checking it.')
+        elif reg['host'] == 'third-party':
+            add('External source on a non-authoritative host', WARN, reg.get('note') or '')
+        elif reg['status'] != 'verified':
+            add(f'External source {reg["status"]}', WARN, reg.get('note') or '')
+        elif reg['format'] == 'html':
+            add('Verified external web page (no page numbers)', INFO, reg.get('title') or '')
+        elif no_page:
+            add('Verified external PDF without page reference', WARN, reg.get('title') or '')
+        else:
+            add('Verified external PDF with page', INFO, reg.get('title') or '')
+
+
+def review_checks(ctx, path, node, norm):
+    """Non-blocking consistency checks on one status-bearing node."""
+    where = ctx['issue_path'] + path
+    value = node.get('value')
+    if norm in ('missing', 'not_applicable') and value not in (None, '', []):
+        issues.append((where, CONTRADICTION, f'status {node.get("status")} but value {cell_text(value)}'))
+    lo, hi = node.get('min'), node.get('max')
+    if all(isinstance(v, (int, float)) and not isinstance(v, bool) for v in (value, lo, hi)) and not lo <= value <= hi:
+        issues.append((where, OUT_OF_RANGE, f'{value} not in [{lo}, {hi}]'))
+    expected = PROPERTY_TEMPERATURE.get(ctx['field']) if not path else None
+    if expected is not None and norm == 'reported' and node.get('test_temperature_c') not in (None, expected):
+        issues.append((where, TEMP_MISMATCH, f'{node.get("test_temperature_c")} C recorded for {ctx["field"]}'))
 
 
 def scan_nested(x, path, ctx, top=True):
@@ -71,6 +107,7 @@ def scan_nested(x, path, ctx, top=True):
             detail(ctx, path, raw, norm, False, x, 'Nested inside a status-bearing property (legacy rule: not counted in cell)')
             if norm.startswith(UNRECOGNIZED): issues.append((ctx['issue_path'] + path, 'Unknown status', raw))
             if norm == 'reported': audit_trace(ctx, path, x)
+            review_checks(ctx, path, x, norm)
         for k, v in x.items():
             if k not in SKIP_KEYS and isinstance(v, (dict, list)): scan_nested(v, f'{path}/{k}', ctx, False)
     elif isinstance(x, list):
@@ -88,6 +125,7 @@ def leaf_status(x, path, ctx):
                 issues.append((issue_path, 'Unknown status', raw)); norm = UNRECOGNIZED + raw
             detail(ctx, path, raw, norm, True, x)
             if norm == 'reported': audit_trace(ctx, path, x)
+            review_checks(ctx, path, x, norm)
             scan_nested(x, path, ctx)
             return [norm]
         vals = []
@@ -247,15 +285,15 @@ def build(input_dir):
     sd.auto_filter.ref = sd.dimensions
 
     ta = wb.create_sheet('Traceability Audit')
-    write_rows(ta, [['Finding', 'Material class', 'Record ID', 'JSON file', 'Property (matrix column)', 'Sub-path',
+    write_rows(ta, [['Finding', 'Severity', 'Material class', 'Record ID', 'JSON file', 'Property (matrix column)', 'Sub-path',
                      'Status', 'Value', 'Basis', 'Source file / URL', 'Source page', 'Note']] + trace)
-    header(ta, 1, 12); widths(ta, [44, 18, 26, 60, 28, 30, 10, 30, 30, 40, 10, 60]); ta.freeze_panes = 'A2'
+    header(ta, 1, 13); widths(ta, [44, 10, 18, 26, 60, 28, 30, 10, 30, 30, 40, 10, 60]); ta.freeze_panes = 'A2'
     ta.auto_filter.ref = ta.dimensions
 
     blocking = [i for i in all_issues if i[1] in BLOCKING]
-    trace_counts = collections.Counter(t[0] for t in trace)
+    trace_counts = collections.Counter((t[0], t[1]) for t in trace)
     write_rows(summary, [['Validation findings', len(all_issues)],
-                         ['Unrecognized statuses / structural errors', sum(1 for i in all_issues if i[1] != MIXED)],
+                         ['Unrecognized statuses / structural errors', sum(1 for i in all_issues if i[1] not in REVIEW)],
                          ['STATUS KEY', 'Interpretation'], ['reported', 'Explicit source-reported'],
                          ['calculated', 'Calculated in JSON'], ['missing', 'Missing, empty, or unclassified'],
                          ['not_applicable', 'Not Required / N/A'],
@@ -266,9 +304,10 @@ def build(input_dir):
                          [], ['RUN STATUS', 'FAILED - diagnostic workbook, not the official matrix' if blocking else 'PASSED'],
                          ['Blocking findings', len(blocking)], ['Unrecognized status cells', unknown_cells],
                          ['Status Detail rows', len(details)], [],
-                         ['TRACEABILITY AUDIT (informational)', 'Findings']]
-               + [[k, v] for k, v in sorted(trace_counts.items())], start=8)
-    for ref in ('A1:D1', 'A4:E4', 'A10:B10', 'A18:B18', 'A23:B23'):
+                         ['TRACEABILITY AUDIT', 'Findings', 'Severity']]
+               + [[k, v, sev] for (k, sev), v in sorted(trace_counts.items(), key=lambda kv: (kv[0][1] != WARN, kv[0][0]))],
+               start=8)
+    for ref in ('A1:D1', 'A4:E4', 'A10:B10', 'A18:B18', 'A23:C23'):
         first, last = ref.split(':'); r = int(first[1:])
         header(summary, r, ord(last[0]) - 64, HEADER_FILL if r == 1 else SUBHEADER_FILL, 28 if r == 1 else None)
     summary['B16'].alignment = Alignment(wrap_text=True, vertical='top'); summary.row_dimensions[16].height = 60
@@ -291,9 +330,21 @@ def main():
     ap.add_argument('--input', default='Products_json', help='product JSON folder (default: Products_json)')
     ap.add_argument('--output', default='Coverage_Matrix.xlsx', help='workbook to write (default: Coverage_Matrix.xlsx)')
     ap.add_argument('--overwrite', action='store_true', help='allow replacing an existing output workbook')
+    ap.add_argument('--sources', default='source_registry.json',
+                    help='registry of external sources (default: source_registry.json; if absent, every URL is reported as unregistered)')
     args = ap.parse_args()
     input_dir, output = Path(args.input).resolve(), Path(args.output).resolve()
     if not input_dir.is_dir(): sys.exit(f'ERROR: input folder not found: {input_dir}')
+    registry = Path(args.sources)
+    if registry.is_file():
+        try:
+            entries = json.loads(registry.read_text(encoding='utf-8'))['sources']
+        except (OSError, ValueError, KeyError) as e:
+            sys.exit(f'ERROR: cannot read source registry {registry}: {e}')
+        for e in entries:
+            if e.get('status') not in REGISTRY_STATUSES or e.get('format') not in ('pdf', 'html') or not e.get('url'):
+                sys.exit(f'ERROR: invalid source registry entry: {e.get("url")}')
+            sources[e['url']] = e
     if output.exists() and not args.overwrite:
         sys.exit(f'ERROR: {output} already exists; pass --overwrite to replace it')
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -308,7 +359,8 @@ def main():
     save(wb, output)
     print('OUTPUT', output, 'products', len(records), 'json', json_count, 'issues', len(all_issues),
           'classes', dict(collections.Counter(k[0] for k in records)), 'status', dict(statuses))
-    print('traceability findings', dict(collections.Counter(t[0] for t in trace)))
+    for sev in (WARN, INFO):
+        print(f'traceability {sev}s', dict(collections.Counter(t[0] for t in trace if t[1] == sev)))
 
 
 if __name__ == '__main__':
