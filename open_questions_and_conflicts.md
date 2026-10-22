@@ -179,6 +179,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Only an SDS is in the archive for OLOA 59766 (Revision Number 14, SDS 23738); package type, claims, grades, base oils and co-components not printed. Supplier per Section 1.3: Chevron Oronite S.A.S.
 - (tier2) TBN, sulfated ash, KV100, pour point and all elements not printed.
 - (tier2) DL2-11731.pdf p.2-3 Section 3 component shares (not element contents): mineral oil 40 - 45 %weight; PIB succinimide-type amine reaction product (147880-09-9) 25 - 30 %weight; ZDDP (68784-31-6) 5 - 10 %weight; calcium alkylbenzene sulfonates 5 - 10, 5 - 10 and 1 - 5 %weight (722503-69-7 is listed twice).
+- (tier1) 2026-10-17: package_type filled from the Chevron Oronite official web page https://www.oronite.com/products-technology/heavy-duty-motor-oils.html (NOT from the datasheet).
 
 ## 21. CHEVRON_OLOA_61003
 - (tier1) Claims are listed under 'performance claims can be made' (DL2-11032.pdf p.1); recorded as claim_type 'other'. Items with '*' are 'Approvals on going'.
@@ -502,6 +503,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with MINGLAN CHEMICAL.
 - (tier2) Kinematic Viscosity (100 °C) printed as 'report' (no value). Density, KV40, sulfated ash, S and pour point not printed.
 - (tier2) Supplier-name note: 'MINGLAN CHEMICAL' is the archive folder name; the sheet prints no company name.
+- (tier2) 2026-10-17: sulfated ash calculated (≥13.3 wt.%) from the TDS element minimums with ASTM D874 factors (NOT from the datasheet).
 
 ## 58. MINGYUEKEJI_MY_P3168
 - (tier1) No revision date printed on 'TDS of P3168.pdf'. Supplier from the archive folder 'MINGYUEKEJI' (sheet header prints only Chinese text '高品质润滑油添加剂生产商').
@@ -522,6 +524,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - **Conflict (tier2)** `tier2.elements.Ca`: DL2-13819.pdf p.1 (undated): Ca Content,%（m/m） 3.0 GB/T17476，ASTM D4951; DL2-15451.pdf p.1 (undated): Ca Content, m% 2.82-3.44 3.15 GB/T 17476, ASTM D4951 — At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.
 - (tier2) Component shares (not element contents): SDS DL2-15831.pdf p.2: base-oil distillates 10 - 39.9 %; ZDDP (68649-42-3) 3 - 17.9 %; overbased calcium sulfurized phenate 1 - 14.9 %; alkylated diphenylamine 0.5 - 9.9 %; molybdenum dithiocarbamate 0.1 – 1.99 %. SDS DL2-13820.pdf p.2 lists ingredients without percentages.
 - (tier2) Sulfated ash, KV40, Mg, B, S and pour point not printed.
+- (tier2) 2026-10-17: TBN, KV100, density, Ca, Zn filled from the Richful official product page https://www.richful.com/catalogueDetail.html?id=112 (NOT from the datasheet); the page agrees with DL2-15451.pdf and with the file's existing P, Mo, N.
 
 ## 60. RICHFUL_RF6069
 - (tier1) TDS DL2-15618.pdf has no date; SDS DL2-15619.pdf: Issue/Revision date 1/4/2022, version 2.0 (body image/vector graphics, read visually).
@@ -530,6 +533,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - **Conflict (tier2)** `tier2.kv100`: DL2-15618.pdf p.1 (undated): Kinematic Viscosity (100℃), mm2/s Report 118 GB/T 265, ASTM D445; DL2-15619.pdf p.5 (2022-01-04): Viscosity, kinematic : 142 mm²/s (100 °C, ASTM D445) — At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.
 - (tier2) SDS DL2-15619.pdf p.2 component shares (not element contents): base-oil distillates 10 - 59.9 %; ZDDP (68649-42-3) 3 - 17.9 %; overbased calcium sulfurized phenate 1 - 14.9 %; alkylated diphenylamine 0.5 - 4.9 %.
 - (tier2) Sulfated ash, KV40, Mg, B, Mo, S and pour point not printed.
+- (tier2) 2026-10-17: KV100 filled from the Richful official product page https://www.richful.com/catalogueDetail.html?id=32 (NOT from the datasheet).
 
 ## 61. RICHFUL_RF6071L
 - (tier1) Only an undated TDS is in the archive for RF6071L (no SDS). The sheet prints no company name; supplier left null (archive folder: Richful Lube Additive).
@@ -543,6 +547,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - **Conflict (tier2)** `tier2.kv100`: DL2-15536.pdf p.1 (undated): Kinematic Viscosity (100℃), mm2/s Report 160 GB/T 265, ASTM D445; DL2-15542.pdf p.5 (2023-11-16): Viscosity, kinematic : 150mm2/s (100 °C) — At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.
 - (tier2) SDS p.2 component shares (not element contents): base-oil distillates 10 - 59.9 %; ZDDP 3 - 17.9 %; overbased calcium sulfurized phenate 1 - 14.9 %; alkylated diphenylamine 0.5 - 2.9 %; molybdenum dithiocarbamate 0.1 – 0.99 %.
 - (tier2) SDS also prints vapour pressure 28.7 mmHg at 65 °C and 15.9 mmHg at 45 °C (no template field). Sulfated ash, KV40, Mg, B, S, pour point not printed.
+- (tier2) KV100 (TDS 160 vs SDS 150 mm2/s) and density (TDS 998 kg/m3 at 20 ℃ vs SDS 0.991 g/cm3 at 15 °C) differ; TDS undated, fields originally left null; filled 2026-10-18 by user decision (see conflicts). The density temperatures also differ.
 
 ## 63. RICHFUL_RF6078
 - **Conflict (tier1)** `tier1.treat_rate_matrix (ACEA E7/API CI-4)`: DL2-15832.pdf p.1 (undated): ACEA E7/API CI-4 10W-30, 10W-40, 15W-40, 20W-50 11.85%; RF6078%20-%20TDS.pdf p.1 (undated): ACEA E7/API CI-4 10W-30, 10W-40, 15W-40, 20W-50 10.85% — Both TDS undated; DL2-15832.pdf lists API CI-4 alone at 10.85%, 'RF6078 - TDS.pdf' lists API CI-4 Plus at 11.85%. Not resolved.
@@ -552,6 +557,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - **Conflict (tier2)** `tier2.density`: DL2-15832.pdf p.1 (undated): Density (20℃), kg/m3 952-992 972 GB/T 13377, ASTM D4052; RF6078%20-%20TDS.pdf p.1 (undated): Density (20℃), kg/m3 952-992 972 SH/T 0604, ASTM D4052; DL2-15833.pdf p.5 (2021-09-02): Density : 975 kg/m³ (20 °C, ASTM D4052) — At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.
 - (tier2) SDS p.2 component shares (not element contents): base-oil distillates 10 - 39.9 %; ZDDP 3 - 17.9 %; overbased calcium sulfurized phenate 1 - 14.9 %; alkylated diphenylamine 0.5 - 9.9 %; molybdenum dithiocarbamate 0.1 – 1.99 %.
 - (tier2) Sulfated ash, KV40, Mg, B, N, S, pour point not printed.
+- (tier2) 2026-10-17: density filled from the Richful official product page https://www.richful.com/catalogueDetail.html?id=109 (NOT from the datasheet).
 
 ## 64. RICHFUL_RF6079
 - (tier1) TDS DL2-15535.pdf undated; bulletin 'RF6079 Diesel Engine Oil Additive Package.pdf' prints only 'Version 1'; SDS DL2-15541.pdf Issue/Revision 3/18/2022 (body image/vector graphics, read visually). All three agree on the shared values.
@@ -588,6 +594,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - **Conflict (tier2)** `tier2.kv100`: DL2-15839.pdf p.1 (undated): Kinematic Viscosity (100℃), mm2/s Report 177 GB/T 265，ASTM D445; DL2-15840.pdf p.5 (2024-10-17): Viscosity, kinematic : 178.2 mm2/s @100℃ — At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.
 - (tier2) SDS p.2 component shares (not element contents): distillate 10 – 59.9 %; ZDDP 3 – 17.9 %; overbased calcium sulfurized phenate 1 – 14.9 %; hindered phenolic ester 1 – 14.9 %; bis(nonylphenyl)amine 1 – 9.9 %.
 - (tier2) KV40, Mg, B, Mo, S, pour point not printed.
+- (tier2) KV100 (TDS 177 vs SDS 178.2 mm2/s) and density (TDS 963 kg/m3 vs SDS 0.958 g/cm3, both 20 ℃) differ; TDS undated, fields originally left null; filled 2026-10-18 by user decision (see conflicts).
 
 ## 69. RICHFUL_RF6089
 - (tier1) Only an SDS (DL2-15841 (1).pdf, issue/revision 07/25/2025) is in the archive for RF6089; no TDS. Supplier from Section 1.3 'Manufacturer' (rendered as graphics, read from the page image).
@@ -612,6 +619,8 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - **Conflict (tier2)** `tier2.tbn`: DL2-15456.pdf p.1 (undated): Total Base Number, mgKOH/g 168-198 185 SH/T0251, ASTM D2896; DL2-14746.pdf p.1 (undated): Total Base Number，mgKOH/g ≥180 SH/T0251，ASTMD2896 — At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.
 - (tier2) SDS p.2 component shares (not element contents): base-oil distillates 10 - 59.9 %; overbased calcium sulfurized phenate 1 - 14.9 %; ZDDP 3 - 29.9 %.
 - (tier2) Sulfated ash, KV40, Mg, B, Mo, S, pour point not printed. DL2-14746.pdf prints density and KV100 as 'Report' (no value).
+- (tier1) 2026-10-17: API CF/SF (Multi) treat rate filled from the Richful official product page https://www.richful.com/catalogueDetail.html?id=130 (NOT from the datasheet).
+- (tier2) 2026-10-17: TBN filled from the Richful official product page https://www.richful.com/catalogueDetail.html?id=130 (NOT from the datasheet).
 
 ## 72. RICHFUL_RF6408
 - (tier1) Only an undated TDS (DL2-15534.pdf); no company name printed (supplier left null; archive folder 'Richful Lube Additive'). No SDS in the archive.
@@ -669,6 +678,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (general) Function-specific marker not in template: SULFUR 0.60 (% weight, Typical; DL2-12015.pdf p.1).
 - (general) Physical properties (no field in the component template), DL2-12015.pdf p.1 (Target column): FLASH POINT, C, PMCC 181; POUR POINT, C -21; SPECIFIC GRAVITY @ 15.6 C 0.849 / 0.869 / 0.889 (min/target/max); VISCOSITY @ 100 C, CST 69; VISCOSITY @ 40 C, CST 787; LBS PER U.S. GAL @ 15.6 C 7.24. SDS DL2-12016.pdf p.4-5 prints the same: flash 181 °C (Pensky-Martens Closed Cup), relative density 0,849 - 0,889 (15,6 °C), 787 mm2/s (40 °C), 69 mm2/s (100 °C), pour point -21 °C.
 - (general) SDS supplier block names LUBRIZOL FRANCE (Rouen); TDS is The Lubrizol Corporation. SDS Issue Date 21.12.2017, Version 1.1.
+- (general) 2026-10-17: Ca, Mg, Zn, Mo markers set to N/A (ashless booster); P marker remains Missing.
 
 ## 80. RF6602
 - (general) TDS DL2-14874.pdf ('TDS OF RF6602') undated; SDS RF6602.pdf issue/revision 18/2/2022.
@@ -682,23 +692,903 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (vm) Polymer form (solid/concentrate) not stated; appearance 'Clear、bright、no sediment viscous liquid'. Treat range by SAE grade, HTHS, CCS/MRV impact, gelation and dissolution temperature not printed.
 - (vm) Storage (TDS p.1): short-term storage/transport ≤ 75℃, long-term ≤ 45℃ (not a dissolution/blend temperature).
 - (vm) Old Product_JSON uses record id 'RF6602' (no RICHFUL_ prefix); kept per decision (d).
+- (general) 2026-10-17: function-specific markers (TBN, Ca, Mg, P, Zn, Mo) set to N/A - not applicable to a PMA VII.
 
-## Task 3 data-quality audit (2026-10): base-oil corrections
+## 81. ADNOC_ADBASE_2CST
+- (tier1) CCS is printed as '-' for 2 cSt: ask whether a value exists and at which temperature. [fields: ccs]
+- (tier1) No test method is printed for KV40, KV100, VI and density on the brochure. [fields: kv40, kv100, viscosity_index, density]
+- (tier2) MRV viscosity and yield stress are not reported anywhere for this product. [fields: mrv]
+- (tier2) Noack is printed as '-' (not reported) for 2 cSt. [fields: noack_volatility]
+- (tier2) Flash point 170 deg C has no method (COC or PMCC): unusable until the method is confirmed. [fields: flash_point]
+- (tier2) Pour point has no test method printed. [fields: pour_point]
+- (tier3) Cloud point and wax content are not reported. [fields: cloud_point, wax_content]
+- (tier3) Sulfur, saturates and aromatics have no test method printed. [fields: sulfur, saturates, aromatics]
 
-Base oils have no sections above. This section lists the base-oil open questions added or changed on branch `fix/task3-data-quality`. The additive-package corrections from the same audit appear in each package section above as '(tier1) Permitted base oils (2026-10 audit)'.
+## 82. ADNOC_ADBASE_3CST
+- (tier1) CCS is printed as '-' for 3 cSt. [fields: ccs]
+- (tier1) No test method printed on the brochure for KV40, KV100, VI and density. [fields: kv40, kv100, viscosity_index, density]
+- (tier2) MRV viscosity and yield stress not reported anywhere. [fields: mrv]
+- (tier2) Noack is printed as '-' for 3 cSt. [fields: noack_volatility]
+- (tier2) Flash point 190 deg C has no method (COC/PMCC). [fields: flash_point]
+- (tier2) Pour point has no test method printed. [fields: pour_point]
+- (tier3) Cloud point and wax content not reported. [fields: cloud_point, wax_content]
+- (tier3) Sulfur, saturates and aromatics have no test method printed. [fields: sulfur, saturates, aromatics]
 
-### Factual conflicts
-- None added. The Ultra-S 2/3 Group II vs Group III difference is a documentation discrepancy between a brand-level label and a grade-level classification of aramcoULTRA, not a conflict between two Ultra-S specifications; it is recorded below as a documentation uncertainty.
+## 83. ADNOC_ADBASE_4CST
+- (tier1) No test method printed on the brochure for typical KV40, KV100, VI and density (spec sheet gives ASTM D445 / D2270 / D4052 for limits). [fields: kv40, kv100, viscosity_index, density]
+- (tier1) OPEN - supplier confirmation needed. History: chemistry was first entered from general knowledge as 'Group III base oil (hydrocracked / hydroisomerised mineral oil)' (status Reported, no source; original question: 'Chemistry is general knowledge only (sheet says Group III / high-purity base oil, not hydrocracked/mineral).'). That claim is not printed on the 2016 sheets. It is now sourced from the official ADNOC ADbase brochure (2020, pp. 2, 4-5), which describes the product-family production process only and post-dates the 2016 spec sheet. Ask ADNOC to confirm that this process applies to ADbase 4 cSt. [fields: api_group_chemistry.chemistry]
+- (tier2) MRV viscosity and yield stress are not reported anywhere. [fields: mrv]
+- (tier2) Flash point 220 deg C (brochure typical) has no method printed; the spec sheet's limit is COC. Confirm the typical value is also COC (COC and PMCC differ). [fields: flash_point]
+- (tier2) Noack typical value has no test temperature/duration printed (spec sheet cites ASTM 5800 Method B). [fields: noack_volatility]
+- (tier3) Cloud point and wax content are not reported. [fields: cloud_point, wax_content]
+- (tier3) Spec sheet gives sulfur only as a maximum limit (10 mg/kg); brochure typical is '<3' mg/kg. Saturates/aromatics 'Report' only on spec sheet: no method on the typical values. [fields: sulfur, saturates, aromatics]
+
+## 84. ADNOC_ADBASE_6CST
+- (tier1) No test method printed on the brochure for typical KV40, KV100, VI and density (spec sheet gives ASTM D445 / D2270 / D4052 for limits). [fields: kv40, kv100, viscosity_index, density]
+- (tier1) OPEN - supplier confirmation needed. History: chemistry was first entered from general knowledge as 'Group III base oil (hydrocracked / hydroisomerised mineral oil)' (status Reported, no source; original question: 'Chemistry is general knowledge only (sheet says Group III / high-purity base oil, not hydrocracked/mineral).'). That claim is not printed on the 2016 sheets. It is now sourced from the official ADNOC ADbase brochure (2020, pp. 2, 4-5), which describes the product-family production process only and post-dates the 2016 spec sheet. Ask ADNOC to confirm that this process applies to ADbase 6 cSt. [fields: api_group_chemistry.chemistry]
+- (tier2) MRV viscosity and yield stress are not reported anywhere. [fields: mrv]
+- (tier2) Flash point 235 deg C (brochure typical) has no method printed; the spec sheet's limit is COC. Confirm the typical value is also COC (COC and PMCC differ). [fields: flash_point]
+- (tier2) Noack typical value has no test temperature/duration printed (spec sheet cites ASTM 5800 Method B). [fields: noack_volatility]
+- (tier3) Cloud point and wax content are not reported. [fields: cloud_point, wax_content]
+- (tier3) Spec sheet gives sulfur only as a maximum limit (10 mg/kg); brochure typical is '<3' mg/kg. Saturates/aromatics 'Report' only on spec sheet: no method on the typical values. [fields: sulfur, saturates, aromatics]
+
+## 85. ADNOC_ADBASE_8CST
+- (tier1) No test method printed on the brochure for typical KV40, KV100, VI and density (spec sheet gives ASTM D445 / D2270 / D4052 for limits). [fields: kv40, kv100, viscosity_index, density]
+- (tier1) OPEN - supplier confirmation needed. History: chemistry was first entered from general knowledge as 'Group III base oil (hydrocracked / hydroisomerised mineral oil)' (status Reported, no source; original question: 'Chemistry is general knowledge only (sheet says Group III / high-purity base oil, not hydrocracked/mineral).'). That claim is not printed on the 2016 sheets. It is now sourced from the official ADNOC ADbase brochure (2020, pp. 2, 4-5), which describes the product-family production process only and post-dates the 2016 spec sheet. Ask ADNOC to confirm that this process applies to ADbase 8 cSt. [fields: api_group_chemistry.chemistry]
+- (tier2) MRV viscosity and yield stress are not reported anywhere. [fields: mrv]
+- (tier2) Flash point 255 deg C (brochure typical) has no method printed; the spec sheet's limit is COC. Confirm the typical value is also COC (COC and PMCC differ). [fields: flash_point]
+- (tier2) Noack typical value has no test temperature/duration printed (spec sheet cites ASTM 5800 Method B). [fields: noack_volatility]
+- (tier3) Cloud point and wax content are not reported. [fields: cloud_point, wax_content]
+- (tier3) Spec sheet gives sulfur only as a maximum limit (10 mg/kg); brochure typical is '<3' mg/kg. Saturates/aromatics 'Report' only on spec sheet: no method on the typical values. [fields: sulfur, saturates, aromatics]
+
+## 86. ARAMCO_LUBEREF_DURA_150_JEDDAH
+- (tier1) KV100, density and CCS are not reported in the reviewed source specifications. [fields: kv100, density, ccs[]]
+- (tier2) Not reported in reviewed source specifications; preserve as missing. [fields: mrv[].mrv_viscosity, mrv[].yield_stress, noack_volatility]
+- (tier3) Not reported in reviewed source specifications; preserve as missing. [fields: saturates, aromatics, cloud_point, wax_content]
+
+## 87. ARAMCO_LUBEREF_DURA_500_JEDDAH
+- (tier1) KV100, density and CCS are not reported in the reviewed source specifications. [fields: kv100, density, ccs[]]
+- (tier2) Not reported in reviewed source specifications; preserve as missing. [fields: mrv[].mrv_viscosity, mrv[].yield_stress, noack_volatility]
+- (tier3) Not reported in reviewed source specifications; preserve as missing. [fields: saturates, aromatics, cloud_point, wax_content]
+
+## 88. ARAMCO_LUBEREF_DURA_BS150_YANBU
+- **Conflict (tier1)** `density`: {"note": "The 0.894 kg/L typical density is at 15.6°C (DL2-13944), not 15°C; do not treat it as a 15°C measurement."}
+- (tier1) KV40 and CCS are not reported in the reviewed source specifications. [fields: kv40, ccs[]]
+- (tier2) Not reported in reviewed source specifications; preserve as missing. [fields: mrv[].mrv_viscosity, mrv[].yield_stress, noack_volatility]
+- **Conflict (tier3)** `sulfur`: {"sources": [{"file": "DL2-13944.pdf", "page": 1, "printed_text": "Sulfur Content ppm 1.3‡ (‡ D2622)"}, {"file": "DL2-12173.pdf", "page": 1, "printed_text": "Sulfur Content Max WT% 1.3"}], "note": "Conflicting units (ppm vs wt.%). 1.3 wt.% retained from guaranteed specification; verify before use."}
+- (tier3) Not reported in reviewed source specifications; preserve as missing. [fields: saturates, aromatics, cloud_point, wax_content]
+
+## 89. ARAMCO_LUBEREF_PRIMA_110
+- (tier1) KV100 and CCS are not reported in the reviewed specifications. [fields: kv100, ccs[]]
+- (tier2) Not reported in reviewed source specifications; preserve as missing. [fields: mrv[].mrv_viscosity, mrv[].yield_stress]
+- (tier3) Not reported in reviewed source specifications; preserve as missing. [fields: aromatics, cloud_point, wax_content]
+
+## 90. ARAMCO_LUBEREF_PRIMA_230
+- (tier2) Not reported in reviewed source specifications; preserve as missing. [fields: mrv[].mrv_viscosity, mrv[].yield_stress]
+- (tier3) Not reported in reviewed source specifications; preserve as missing. [fields: aromatics, cloud_point, wax_content]
+
+## 91. ARAMCO_LUBEREF_PRIMA_500
+- (tier1) KV40 and CCS are not confirmed for the specific Luberef PRIMA 500 product represented by DL2-12172.pdf. [fields: kv40, ccs[]]
+- (tier2) Not reported in reviewed source specifications; preserve as missing. [fields: mrv[].mrv_viscosity, mrv[].yield_stress]
+- (tier3) Not reported in reviewed source specifications; preserve as missing. [fields: aromatics, cloud_point, wax_content]
+
+## 92. ARAMCO_LUBEREF_PRIMA_70
+- (tier1) KV40, density and CCS are not reported in the reviewed source specifications. [fields: kv40, density, ccs[]]
+- (tier2) Not reported in reviewed source specifications; preserve as missing. [fields: mrv[].mrv_viscosity, mrv[].yield_stress, noack_volatility]
+- (tier3) Not reported in reviewed source specifications; preserve as missing. [fields: aromatics, cloud_point, wax_content]
+
+## 93. BAPCO_BAPBASE_4
+- (tier1) Exact grade-specific chemistry and CAS number have not been verified from a BAPbase 4 SDS. [fields: api_group_chemistry.chemistry]
+- (tier1) Original Bapco specification says 'To be reported'. An external Ergon catalog gives specific gravity 0.834 at 15/4°C, but no directly reported density in kg/m3 has been entered. [fields: density]
+- (tier3) Document says To be reported; no value. [fields: cloud_point]
+
+## 94. BAPCO_BAPBASE_6
+- (tier1) Exact grade-specific chemistry and CAS number have not been verified from a BAPbase 6 SDS. [fields: api_group_chemistry.chemistry]
+- (tier1) Original Bapco specification provides no numerical density. External Ergon/MOGO 2025 catalog reports specific gravity 0.839 at 15/4°C, but no directly reported density in kg/m3 has been entered. [fields: density]
+
+## 95. BAPCO_BAPBASE_8
+- (tier1) Exact grade-specific chemistry and CAS number have not been verified from a BAPbase 8 SDS. [fields: api_group_chemistry.chemistry]
+- (tier1) Original Bapco specification says 'To be reported'. External Ergon/MOGO catalog reports specific gravity 0.847 at 15/4°C, but no directly reported density in kg/m3 has been entered. [fields: density]
+
+## 96. GS_CALTEX_150BS
+- (tier1) SDS not provided among the two supplier files; reconciliation pending.
+- (tier1) No density, sulfur, saturates, CCS or MRV values stated in product specification.
+
+## 97. GS_CALTEX_150N
+- (tier1) SDS not supplied in the GS Caltex source folder; reconciliation pending.
+- (tier1) Density, sulfur, saturates, CCS, MRV and cloud point not stated in supplied specification.
+
+## 98. GS_CALTEX_220N
+- (tier1) SDS not supplied in GS Caltex source folder; reconciliation pending.
+- (tier1) Density, sulfur, saturates, CCS, MRV and cloud point not stated in supplied specification.
+
+## 99. GS_CALTEX_2CST_H
+- (tier1) SDS not supplied in GS Caltex source folder; reconciliation pending.
+- (tier1) Density, sulfur, saturates, CCS, MRV, Noack and cloud point not stated in supplied specification.
+
+## 100. GS_CALTEX_2CST_L
+- (tier1) SDS not supplied in GS Caltex source folder; reconciliation pending.
+- (tier1) Density, sulfur, saturates, CCS, MRV, Noack and cloud point not stated in supplied specification.
+
+## 101. GS_CALTEX_600N
+- (tier1) SDS not supplied in GS Caltex source folder; reconciliation pending.
+- (tier1) Density, sulfur, saturates, CCS, MRV, Noack and cloud point not stated in supplied specification.
+
+## 102. GS_CALTEX_60N
+- (tier1) SDS not supplied in GS Caltex source folder; reconciliation pending.
+- (tier1) Density, sulfur, saturates, CCS, MRV, Noack and cloud point not stated in supplied specification.
+
+## 103. CHEVRON_GROUP_II_100R
+- (tier1) Not reported in supplier specification. [fields: density]
+- (tier3) Supplier says Report, without a numerical sulfur value. [fields: sulfur]
+
+## 104. CHEVRON_GROUP_II_110RLV
+- (tier1) Not reported in supplier specification. [fields: density]
+- (tier3) Supplier says Report, without a numerical sulfur value. [fields: sulfur]
+
+## 105. CHEVRON_GROUP_II_150R
+- (tier1) Not reported in supplier specification. [fields: density]
+- (tier3) Supplier says Report, without a numerical sulfur value. [fields: sulfur]
+
+## 106. CHEVRON_GROUP_II_220R
+- (tier1) Not reported in supplier specification. [fields: density]
+- (tier3) Supplier says Report, without a numerical sulfur value. [fields: sulfur]
+
+## 107. CHEVRON_GROUP_II_600R
+- (tier1) Not reported in supplier specification. [fields: density]
+- (tier3) Supplier says Report, without a numerical sulfur value. [fields: sulfur]
+
+## 108. CHEVRON_GROUP_II_60R
+- (tier1) 60R API group cell is blank in supplied table; heading alone is not an explicit classification. [fields: api_group_chemistry.api_group]
+- (tier1) Not reported in supplier specification. [fields: density]
+- (tier3) Supplier says Report, without a numerical sulfur value. [fields: sulfur]
+
+## 109. CHEVRON_SYNFLUID_DIMER_C10
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 110. CHEVRON_SYNFLUID_DIMER_C12
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 111. CHEVRON_SYNFLUID_MPAO_100
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 112. CHEVRON_SYNFLUID_MPAO_150
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 113. CHEVRON_SYNFLUID_MPAO_40
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 114. CHEVRON_SYNFLUID_MPAO_50
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 115. CHEVRON_SYNFLUID_MPAO_65
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 116. CHEVRON_SYNFLUID_PAO_2
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 117. CHEVRON_SYNFLUID_PAO_2_5
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 118. CHEVRON_SYNFLUID_PAO_4
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 119. CHEVRON_SYNFLUID_PAO_40
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 120. CHEVRON_SYNFLUID_PAO_5
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 121. CHEVRON_SYNFLUID_PAO_6
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 122. CHEVRON_SYNFLUID_PAO_6_HVI
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 123. CHEVRON_SYNFLUID_PAO_7
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 124. CHEVRON_SYNFLUID_PAO_8
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 125. CHEVRON_SYNFLUID_PAO_8_BLEND
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 126. CHEVRON_SYNFLUID_PAO_9
+- (tier1) PAO suggests API Group IV by standard classification, but no explicit supplier API group statement verified; kept Missing. [fields: api_group_chemistry.api_group]
+
+## 127. ERGON_HYGOLD_100
+- (tier1) API group not stated in supplier specification; independent classification not yet verified.
+- (tier1) SDS DL2-10029.pdf requires field-by-field reconciliation before final audit.
+
+## 128. ERGON_HYGOLD_100E
+- (tier1) API group is not explicitly stated in supplier specification; independent classification not yet verified.
+- (tier1) Corresponding SDS needs product-matched review before final audit.
+
+## 129. ERGON_HYGOLD_5000BS
+- (tier1) API group not explicitly stated.
+- (tier1) SDS not yet reconciled.
+
+## 130. ERGON_HYGOLD_60
+- (tier1) API group not explicitly stated; do not infer from naphthenic description.
+- (tier1) SDS DL2-10027.pdf requires full cross-check.
+
+## 131. ERGON_HYGOLD_70E
+- (tier1) API group not explicitly stated; do not infer from naphthenic description.
+- (tier1) SDS not yet reconciled.
+
+## 132. ERGON_HYGOLD_L1200
+- (tier1) API group not explicitly stated; leave missing.
+- (tier1) SDS DL2-10032.pdf requires cross-check.
+
+## 133. ERGON_HYGOLD_L150
+- (tier1) API group not explicitly stated; leave missing.
+- (tier1) SDS reconciliation pending.
+
+## 134. ERGON_HYGOLD_L200
+- (tier1) API group not explicitly stated.
+- (tier1) SDS reconciliation pending.
+
+## 135. ERGON_HYGOLD_L2000
+- (tier1) API group not explicitly stated; leave missing.
+- (tier1) SDS reconciliation pending.
+
+## 136. ERGON_HYGOLD_L250E
+- (tier1) API group not explicitly stated; leave missing.
+- (tier1) SDS reconciliation pending.
+
+## 137. ERGON_HYGOLD_L350E
+- (tier1) API group not explicitly stated; leave missing.
+- (tier1) SDS reconciliation pending.
+
+## 138. ERGON_HYGOLD_L500
+- (tier1) API group not explicitly stated; leave missing.
+- (tier1) SDS reconciliation pending.
+
+## 139. ERGON_HYGOLD_L750
+- **Conflict (tier1)** `None`: {"property": "density_at_15_6_c", "description": "TDS reports density at 15.6°C = 0.854 g/cm3 but specific gravity at 15.6°C = 0.9183; these appear inconsistent. Neither has been silently corrected.", "sources": [{"file": "DL2-10414.pdf", "page": 1}]}
+- (tier1) API group not explicitly stated.
+- (tier1) SDS reconciliation pending.
+- (tier1) Density and specific gravity conflict in supplier TDS; verify with supplier.
+
+## 140. ERGON_HYGOLD_OLYMPUS_L500
+- (tier1) API group not explicitly stated.
+- (tier1) SDS DL2-10026.pdf reconciliation pending.
+
+## 141. ERGON_HYGOLD_P150BS
+- (tier1) API group not explicitly stated.
+- (tier1) SDS cross-check pending.
+- (tier1) Specific gravity 0.8931 at 15.6°C and density 7.437 lb/gal at 15.6°C are supplier-reported; no conversion into canonical density field.
+
+## 142. ERGON_HYGOLD_P40
+- (tier1) API group not explicitly stated.
+- (tier1) SDS cross-check pending.
+
+## 143. ERGON_HYGOLD_P70N
+- (tier1) API group not explicitly stated.
+- (tier1) SDS cross-check pending.
+- (tier1) Supplier specific gravity 0.8559 and density 0.8552 g/cm3 at 15.6°C differ slightly; retained separately without equating.
+
+## 144. ERGON_HY_40
+- (tier1) API group not explicitly stated.
+- (tier1) SDS cross-check pending.
+- (tier1) Specific gravity reported at 15.6°C; density not directly reported.
+- (tier1) PMCC flash point and water content specification retained in ingestion log because template does not offer dedicated fields.
+
+## 145. FORMOSA_150N_GII_PLUS
+- (tier1) Supplier group II+ is a commercial subclass, not a separate API group.
+- (tier1) Density reported as relative density, not mass density; preserve original units.
+- (tier1) KV40 reported only in SDS, not specification.
+- **Conflict (tier2)** `flash_point`: {"source_a": {"file": "DL2-10001.pdf", "page": 1, "value": "minimum 210 C"}, "source_b": {"file": "DL2-10011.pdf", "page": 3, "value": ">230 C"}, "note": "SDS and specification use different threshold statements; preserve both without assuming equivalence."}
+- (tier2) SDS flash point >230 C and specification minimum 210 C differ in stated thresholds; not necessarily contradictory.
+
+## 146. FORMOSA_500N_GII
+- (tier1) Density reported as relative density, not mass density; preserve original units.
+- (tier1) KV40 reported only in SDS, not specification.
+
+## 147. NESTE_NEXBASE_3020
+- (tier1) No product TDS supplied for NEXBASE 3020; only two matching SDS files.
+- (tier1) API group, KV100, VI, mass density, sulfur and other absent properties remain missing.
+- (tier1) Relative density 0.82 at 15°C must not be treated as mass density.
+
+## 148. NESTE_NEXBASE_3043
+- (tier1) TDS edition 5.2 has no calendar revision date; no date inferred.
+- (tier1) SDS DL2-15010.pdf reports KV40 typical 20 mm²/s, flash point >220°C, pour point ≤−12°C and relative density 0.82–0.84 at 15°C; these are consistent with TDS values/limits, but SDS density is relative density, not directly substituted for TDS mass density.
+
+## 149. NESTE_NEXBASE_3050
+- (tier1) TDS edition 4.2 does not provide a calendar revision date.
+- (tier1) No independently identified NEXBASE 3050 SDS among the text-searchable supplier PDFs; SDS reconciliation pending.
+
+## 150. NESTE_NEXBASE_3060
+- (tier1) TDS edition 6.2 has no calendar revision date.
+- (tier1) SDS DL2-12735.pdf checked; its pour-point and flash-point limits are compatible with TDS specifications.
+
+## 151. NESTE_NEXBASE_3080
+- (tier1) TDS edition 2.2 does not specify a calendar revision date.
+- (tier1) SDS specific to NEXBASE 3080 not independently verified.
+
+## 152. NYNAS_BASE_STOCK_20
+- (tier1) API group not explicitly stated in supplier PDS.
+- (tier1) SDS reconciliation pending.
+
+## 153. NYNAS_BNS_5
+- (tier1) API group and base-oil chemistry not explicitly stated in this PDS.
+- (tier1) SDS reconciliation pending.
+
+## 154. NYNAS_NS_3
+- **Conflict (tier1)** `None`: {"property": "kv40", "primary": {"value": 2.92, "source_file": "DL2-15474.pdf", "page": 2}, "alternate": {"value": 2.84, "source_file": "DL2-12382.pdf", "page": 2}, "note": "Different typical values in 2024 and 2016 editions; newer edition selected."}
+- (tier1) SDS reconciliation pending.
+- (tier1) Older PDS DL2-12382.pdf (2016-11-01) has different typical values; confirm appropriate commercial revision.
+
+## 155. NYNAS_NYBASE_70
+- (tier1) API group not explicitly stated: marketed for Group I replacement, not classified as Group I.
+- (tier1) SDS reconciliation pending.
+
+## 156. NYNAS_NYFROST_100
+- (tier1) Grade-specific SDS reconciliation pending.
+
+## 157. NYNAS_NYFROST_32
+- **Conflict (tier1)** `None`: {"property": "kv40", "source_a": "DL2-11510.pdf p.2 (2016-11-01)", "value_a": "32 cSt (typical)", "source_b": "DL2-13444.pdf p.6 (2020-05-23)", "value_b": "31 cSt (SDS)", "resolution": "Retained supplier PDS typical value; SDS discrepancy flagged."}
+- (tier1) Resolve SDS KV40 31 cSt versus PDS 32 cSt and SDS PM flash >180°C versus PDS PM typical 176°C.
+- (tier1) Check whether differing document dates or test conditions explain discrepancy.
+
+## 158. NYNAS_NYFROST_68
+- (tier1) API group not explicitly stated in supplied PDS.
+- (tier1) Grade-specific SDS reconciliation pending.
+
+## 159. NYNAS_S_3B
+- (tier1) SDS DL2-13379.pdf has rounded KV40 3 cSt vs PDS 3.20 cSt; no definitive contradiction (SDS rounded).
+- (tier1) SDS flash >100°C consistent with PDS 107°C; SDS density 0.86 g/cm3 rounded vs PDS 0.859 g/cm3.
+
+## 160. NYNAS_T_3
+- (tier1) Grade-specific SDS not reconciled.
+
+## 161. NYNAS_T_4
+- (tier1) Grade-specific SDS not reconciled.
+
+## 162. NYNAS_T_600
+- (tier1) Grade-specific SDS not reconciled.
+
+## 163. NYNAS_T_9
+- (tier1) Grade-specific SDS not reconciled.
+
+## 164. PETRONAS_EQUINAS_4
+- (tier1) No grade-specific TDS in supplied product source; only SDS available.
+- (tier1) API base oil group not explicitly stated in SDS.
+- (tier1) Pour point, sulfur, viscosity index and CCS not reported.
+
+## 165. PETRONAS_EQUINAS_6
+- (tier1) No separate grade-specific TDS found in supplied inventory.
+- (tier1) API group, sulfur, viscosity index and CCS not explicitly reported.
+
+## 166. PETRONAS_EQUINAS_8
+- (tier1) No separately verified grade-specific SDS for EQUINAS 8; reconciliation pending.
+
+## 167. PETRONAS_ETRO_3
+- (tier1) No grade-specific SDS independently verified for ETRO 3.
+- (tier1) No calendar revision date stated on product data sheet.
+
+## 168. PETRONAS_ETRO_4
+- (tier1) Supplementary DL2-12475.pdf is image-only and has not been independently reconciled.
+- (tier1) No grade-specific SDS independently verified for ETRO 4.
+- (tier1) No calendar revision date stated on PDS.
+- (tier1) Density measurement temperature is not stated in the PDS; do not infer it.
+
+## 169. PETRONAS_ETRO_4_PLUS
+- (tier1) No grade-specific SDS independently verified for ETRO 4+.
+- (tier1) No calendar revision date stated on PDS.
+- (tier1) Density temperature is not specified; density remains Missing in temperature-dependent template field.
+
+## 170. PETRONAS_ETRO_6
+- (tier1) No separate grade-specific SDS verified for ETRO 6.
+- (tier1) KV40 and density not reported in supplied TDS.
+- (tier1) No dated revision on TDS.
+- (tier1) Flash specification is printed as >220°C; no conversion to >=220°C.
+
+## 171. PETRONAS_ETRO_6_PLUS
+- **Conflict (tier1)** `None`: {"property": "kv40", "primary_source": "DL2-10234.pdf", "primary_value": "32.55 cSt at 40°C (ASTM D445)", "comparison_source": "DL2-14610.pdf", "comparison_value": "34.79 mm²/s at 40°C (ASTM D445), page 4", "assessment": "Different reported values; retain TDS typical value, flag for review."}
+- (tier1) TDS lacks calendar revision date.
+- (tier1) KV40 and Noack differences between TDS and SDS require source-level review.
+- (tier1) Flash values are method-specific (D92 vs D93); not interchangeable.
+- (tier1) TDS density 0.8429 kg/L has no stated test temperature; SDS density at 15°C used instead.
+
+## 172. PETRONAS_M500
+- (tier1) No independently verified grade-specific SDS for M500.
+- (tier1) TDS has no stated calendar revision date.
+
+## 173. PETRO_CANADA_PURITY_1003
+- **Conflict (tier1)** `tier1.kv40`: DL2-10020.pdf p.2 (2015-07): 21.5 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 40°C, cSt: 21.7 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 21.7 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.kv100`: DL2-10020.pdf p.2 (2015-07): 4.4 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 100°C, cSt: 4.45 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 4.45 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.viscosity_index`: DL2-10020.pdf p.2 (2015-07): 115; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity Index: 117 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 117 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) Individual API group not explicitly assigned in the supplier family brochure (Group II and Group II+ are described collectively).
+- (tier1) Grade-specific SDS reconciliation pending.
+- (tier1) Additional Petro-Canada documents not yet reconciled against this brochure.
+- **Conflict (tier2)** `tier2.noack_volatility`: DL2-10020.pdf p.2 (2015-07): 15.5 wt%; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): NOACK Volatility, % wt: 16 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 16 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier2)** `tier2.pour_point`: DL2-10020.pdf p.2 (2015-07): −18°C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Pour Point, °C: -24 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints -24 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier2)** `tier2.flash_point`: DL2-10020.pdf p.2 (2015-07): COC 210°C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Flash Point, COC, °C: 226 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 226 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+
+## 174. PETRO_CANADA_PURITY_1017
+- **Conflict (tier1)** `tier1.kv100`: DL2-10020.pdf p.2 (2015-07): 4.3 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 100°C, cSt: 4.33 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 4.33 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.viscosity_index`: DL2-10020.pdf p.2 (2015-07): 107; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity Index: 109 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 109 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.ccs[-20 C]`: DL2-10020.pdf p.2 (2015-07): @ -20°C: 741 cP; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Cold Crank Simulator, cP @ -20°C: 861 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 861 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.ccs[-25 C]`: DL2-10020.pdf p.2 (2015-07): @ -25°C: 1321 cP; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Cold Crank Simulator, cP @ -25°C: 1330 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 1330 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) Individual API group not explicitly assigned in supplier family brochure.
+- (tier1) Grade-specific SDS and other brochure editions require reconciliation.
+- **Conflict (tier2)** `tier2.noack_volatility`: DL2-10020.pdf p.2 (2015-07): 22.4 wt%; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): NOACK Volatility, % wt: 22 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 22 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier2)** `tier2.pour_point`: DL2-10020.pdf p.2 (2015-07): −24°C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Pour Point, °C: -21 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints -21 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier2)** `tier2.flash_point`: DL2-10020.pdf p.2 (2015-07): COC 225°C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Flash Point, COC, °C: 217 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 217 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+
+## 175. PETRO_CANADA_PURITY_1020
+- **Conflict (tier1)** `tier1.kv40`: DL2-10020.pdf p.2 (2015-07): 22.3 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 40°C, cSt: 21.3 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 21.3 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.kv100`: DL2-10020.pdf p.2 (2015-07): 4.4 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 100°C, cSt: 4.16 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 4.16 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.viscosity_index`: DL2-10020.pdf p.2 (2015-07): 94; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity Index: 93 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 93 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) Individual API group not explicitly assigned in supplier family brochure.
+- (tier1) Grade-specific SDS and other brochure editions require reconciliation.
+- **Conflict (tier2)** `tier2.noack_volatility`: DL2-10020.pdf p.2 (2015-07): 33.6 wt%; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): NOACK Volatility, % wt: 27 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 27 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier2)** `tier2.pour_point`: DL2-10020.pdf p.2 (2015-07): -18 °C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Pour Point, °C: -21 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints -21 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier2)** `tier2.flash_point`: DL2-10020.pdf p.2 (2015-07): 210 °C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Flash Point, COC, °C: 207 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 207 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+
+## 176. PETRO_CANADA_PURITY_2204
+- **Conflict (tier1)** `tier1.kv40`: DL2-10020.pdf p.2 (2015-07): 41.5 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 40°C, cSt: 40.2 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 40.2 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.kv100`: DL2-10020.pdf p.2 (2015-07): 6.3 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 100°C, cSt: 6.27 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 6.27 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.viscosity_index`: DL2-10020.pdf p.2 (2015-07): 102; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity Index: 103 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 103 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.density`: DL2-10020.pdf p.2 (2015-07): 0.87 kg/L; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Density @ 15°C, kg/L: 0.86 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 0.86 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.ccs[-20 C]`: DL2-10020.pdf p.2 (2015-07): @ -20°C: 3400 cP; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Cold Crank Simulator, cP @ -20°C: 2708 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 2708 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.ccs[-25 C]`: DL2-10020.pdf p.2 (2015-07): @ -25°C: 7000 cP; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Cold Crank Simulator, cP @ -25°C: 5361 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 5361 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) Individual API group not explicitly assigned in supplier family brochure.
+- (tier1) Grade-specific SDS and other brochure editions require reconciliation.
+- **Conflict (tier2)** `tier2.flash_point`: DL2-10020.pdf p.2 (2015-07): 240 °C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Flash Point, COC, °C: 233 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 233 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+
+## 177. PETRO_CANADA_PURITY_2305
+- **Conflict (tier1)** `tier1.kv40`: DL2-10020.pdf p.2 (2015-07): 45.4 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 40°C, cSt: 44.8 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 44.8 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.kv100`: DL2-10020.pdf p.2 (2015-07): 7.0 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 100°C, cSt: 6.97 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 6.97 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.viscosity_index`: DL2-10020.pdf p.2 (2015-07): 110; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity Index: 113 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 113 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.ccs[-25 C]`: DL2-10020.pdf p.2 (2015-07): @ -25°C: 6200 cP; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Cold Crank Simulator, cP @ -25°C: 5660 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 5660 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) Individual API group not explicitly assigned in supplier family brochure.
+- (tier1) Grade-specific SDS and other brochure editions require reconciliation.
+- **Conflict (tier2)** `tier2.pour_point`: DL2-10020.pdf p.2 (2015-07): -15 °C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Pour Point, °C: -18 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints -18 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier2)** `tier2.flash_point`: DL2-10020.pdf p.2 (2015-07): 230 °C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Flash Point, COC, °C: 242 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 242 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+
+## 178. PETRO_CANADA_PURITY_L35
+- **Conflict (tier1)** `tier1.kv40`: DL2-10020.pdf p.2 (2015-07): 3.7 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 40°C, cSt: 3.83 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 3.83 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.density`: DL2-10020.pdf p.2 (2015-07): 0.82 kg/L; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Density @ 15°C, kg/L: 0.83 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 0.83 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) Viscosity index, sulfur and CCS are not reported for L35 in the cited brochure.
+- (tier1) Grade-specific SDS and other brochure editions require reconciliation.
+- **Conflict (tier2)** `tier2.flash_point`: DL2-10020.pdf p.2 (2015-07): 135 °C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Flash Point, COC, °C: 134 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 134 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier2) Individual API group not explicitly assigned in supplier family brochure.
+
+## 179. PETRO_CANADA_PURITY_L40
+- **Conflict (tier1)** `tier1.kv40`: DL2-10020.pdf p.2 (2015-07): 3.4 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 40°C, cSt: 3.62 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 3.62 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.kv100`: DL2-10020.pdf p.2 (2015-07): 1.3 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 100°C, cSt: 1.37 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 1.37 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.density`: DL2-10020.pdf p.2 (2015-07): 0.85 kg/L; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Density @ 15°C, kg/L: 0.84 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 0.84 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) API Group II confirmed from an additional official Petro-Canada manufacturer brochure; the original DL2-10020.pdf did not explicitly assign a grade-specific group.
+- (tier1) Viscosity index, sulfur and CCS are not reported for L40 in the cited brochure.
+- (tier1) Grade-specific SDS and other brochure editions require reconciliation.
+- (tier1) CCS (2026-10 audit): the 3 CCS values previously recorded here - 1300 mPa.s at -25 °C, 1876 mPa.s at -30 °C, 2390 mPa.s at -35 °C (Reported, Typical, ASTM D5293; cited to https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx, revision 2023-03, no page) - are the PURITY 1003 column of Petro-Canada's 'Typical Properties of PURITY Base Oils' table in LUB3213E / IM-1809E (2023.03) p.2, not PURITY L40. The same values appear under PURITY 1003 in LUB3213E (2015.07) = DL2-10020.pdf p.2. The L35-L65 table in both editions has no Cold Crank Simulator row, so no CCS value is published for PURITY L40; ccs is now Missing. The values were not copied to any other record. Confirm with Petro-Canada whether a CCS value exists for PURITY L40.
+- **Conflict (tier2)** `tier2.pour_point`: DL2-10020.pdf p.2 (2015-07): -33 °C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Pour Point, °C: -27 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints -27 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier2)** `tier2.flash_point`: DL2-10020.pdf p.2 (2015-07): 126 °C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Flash Point, COC, °C: 127 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 127 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier2) Individual API group not explicitly assigned in supplier family brochure.
+- **Conflict (tier3)** `tier3.saturates`: DL2-10020.pdf p.2 (2015-07): 97.8%; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): % Saturates: 96.4 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 96.4 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier3)** `tier3.aromatics`: DL2-10020.pdf p.2 (2015-07): 2.2%; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): % Aromatics: 3.6 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 3.6 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+
+## 180. PETRO_CANADA_PURITY_L45
+- **Conflict (tier1)** `tier1.kv40`: DL2-10020.pdf p.2 (2015-07): 6.3 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 40°C, cSt: 6.31 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 6.31 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.kv100`: DL2-10020.pdf p.2 (2015-07): 1.9 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 100°C, cSt: 1.94 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 1.94 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) API Group II confirmed from an additional official Petro-Canada manufacturer brochure; the original DL2-10020.pdf did not explicitly assign a grade-specific group.
+- (tier1) Viscosity index remains unreported for PURITY L45. Grade-specific CCS remains Missing: the CCS values previously recorded here at -20°C, -25°C, -30°C and -35°C belong to PURITY 1020, not L45; the manufacturer's March 2023 brochure prints no CCS for L45 (see the 'CCS (2026-10 audit)' note).
+- (tier1) Grade-specific SDS and differences between brochure editions require reconciliation.
+- (tier1) CCS (2026-10 audit): the 4 CCS values previously recorded here - 935 mPa.s at -20 °C, 1716 mPa.s at -25 °C, 3438 mPa.s at -30 °C, 7415 mPa.s at -35 °C (Reported, Typical, ASTM D5293; cited to https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx, revision 2023-03, no page) - are the PURITY 1020 column of Petro-Canada's 'Typical Properties of PURITY Base Oils' table in LUB3213E / IM-1809E (2023.03) p.2, not PURITY L45. The same values appear under PURITY 1020 in LUB3213E (2015.07) = DL2-10020.pdf p.2. The L35-L65 table in both editions has no Cold Crank Simulator row, so no CCS value is published for PURITY L45; ccs is now Missing. The values were not copied to any other record. Confirm with Petro-Canada whether a CCS value exists for PURITY L45.
+- (tier2) Individual API group not explicitly assigned in supplier family brochure.
+- (tier2) Viscosity index, sulfur, Noack, saturates, aromatics and CCS are not reported for L45 in the cited brochure.
+- (tier2) Grade-specific SDS and other brochure editions require reconciliation.
+
+## 181. PETRO_CANADA_PURITY_L50
+- **Conflict (tier1)** `tier1.kv40`: DL2-10020.pdf p.2 (2015-07): 5.2 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 40°C, cSt: 5.51 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 5.51 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.kv100`: DL2-10020.pdf p.2 (2015-07): 1.7 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 100°C, cSt: 1.78 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 1.78 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) API Group II confirmed from Petro-Canada's official Group II typical-properties table; the original DL2-10020.pdf did not explicitly assign a grade-specific group.
+- (tier1) Viscosity index remains unreported for PURITY L50.
+- (tier1) Grade-specific CCS remains Missing: the CCS values previously recorded here at -20°C and -25°C belong to PURITY 2204, not L50; no CCS value for PURITY L50 has been found in Petro-Canada documentation (see the 'CCS (2026-10 audit)' note).
+- (tier1) Grade-specific SDS and differences between the original 2015 brochure and newer manufacturer documentation require reconciliation.
+- (tier1) CCS (2026-10 audit): the 2 CCS values previously recorded here - 2708 mPa.s at -20 °C, 5361 mPa.s at -25 °C (Reported, Typical, ASTM D5293; cited to https://petrocanadalubricants.com/en-us/brand/purity-base-oils/compare, no page) - are the PURITY 2204 column of Petro-Canada's 'Typical Properties of PURITY Base Oils' table in LUB3213E / IM-1809E (2023.03) p.2, not PURITY L50. The 2015.07 edition (DL2-10020.pdf p.2) prints 3400 cP at -20 °C and 7000 cP at -25 °C for PURITY 2204 and no CCS for L50; the PURITY L50 product data sheet DL2-13351.pdf (last reviewed May 2020) prints no CCS; the cited compare page could not be retrieved (bot protection). The L35-L65 table in both editions has no Cold Crank Simulator row, so no CCS value is published for PURITY L50; ccs is now Missing. The values were not copied to any other record. Confirm with Petro-Canada whether a CCS value exists for PURITY L50.
+- **Conflict (tier2)** `tier2.pour_point`: DL2-10020.pdf p.2 (2015-07): -6 °C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Pour Point, °C: -12 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints -12 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier2)** `tier2.flash_point`: DL2-10020.pdf p.2 (2015-07): 151 °C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Flash Point, COC, °C: 152 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 152 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier2) Individual API group not explicitly assigned in supplier family brochure.
+- (tier2) Viscosity index, sulfur, Noack and CCS are not reported for L50 in the cited brochure.
+- (tier2) Grade-specific SDS and other brochure editions require reconciliation.
+- **Conflict (tier3)** `tier3.saturates`: DL2-10020.pdf p.2 (2015-07): 98.5%; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): % Saturates: 97.7 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 97.7 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier3)** `tier3.aromatics`: DL2-10020.pdf p.2 (2015-07): 1.5%; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): % Aromatics: 2.3 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 2.3 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+
+## 182. PETRO_CANADA_PURITY_L60
+- **Conflict (tier1)** `tier1.kv40`: DL2-10020.pdf p.2 (2015-07): 10.2 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 40°C, cSt: 9.61 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 9.61 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.kv100`: DL2-10020.pdf p.2 (2015-07): 2.4 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 100°C, cSt: 2.51 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 2.51 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.viscosity_index`: DL2-10020.pdf p.2 (2015-07): 87; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity Index: 80 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 80 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.density`: DL2-10020.pdf p.2 (2015-07): 0.85 kg/L; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Density @ 15°C, kg/L: 0.86 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 0.86 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) API Group II verified from Petro-Canada's official World-Class Base Oils brochure; the original 2015 brochure did not explicitly classify L60.
+- (tier1) Sulfur, Noack, saturates, aromatics and CCS are not reported for L60 in the cited brochure.
+- (tier1) Grade-specific SDS and other brochure editions require reconciliation.
+- **Conflict (tier2)** `tier2.pour_point`: DL2-10020.pdf p.2 (2015-07): -27 °C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Pour Point, °C: -21 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints -21 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier2)** `tier2.flash_point`: DL2-10020.pdf p.2 (2015-07): 171 °C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Flash Point, COC, °C: 178 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 178 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier2) Individual API group not explicitly assigned in supplier family brochure.
+
+## 183. PETRO_CANADA_PURITY_L65
+- **Conflict (tier1)** Viscosity index differs between manufacturer documents: DL2-10020.pdf (2015-07), page 2, reports 92; Petro-Canada's World-Class Base Oils brochure reports 104. The original value of 92 is retained pending reconciliation.
+- **Conflict (tier1)** `tier1.kv40`: DL2-10020.pdf p.2 (2015-07): 9.5 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 40°C, cSt: 9.33 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 9.33 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.kv100`: DL2-10020.pdf p.2 (2015-07): 2.6 cSt; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity @ 100°C, cSt: 2.57 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 2.57 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.viscosity_index`: DL2-10020.pdf p.2 (2015-07): 92; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Viscosity Index: 104 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 104 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) API Group II confirmed for PURITY L65 using Petro-Canada's official World-Class Base Oils brochure.
+- (tier1) No grade-specific CCS measurement has been verified for PURITY L65.
+- (tier1) Noack volatility and grade-specific SDS require further verification.
+- **Conflict (tier2)** `tier2.pour_point`: DL2-10020.pdf p.2 (2015-07): -30 °C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Pour Point, °C: -42 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints -42 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier2)** `tier2.flash_point`: DL2-10020.pdf p.2 (2015-07): 177 °C; https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx p.2 (2023-03): Flash Point, COC, °C: 185 — Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 185 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit).
+- (tier2) Individual API group not explicitly assigned in supplier family brochure.
+- (tier2) Noack and CCS are not reported for L65 in the cited brochure.
+- (tier2) Grade-specific SDS and other brochure editions require reconciliation.
+
+## 184. PETRO_CANADA_PURITY_VHVI_2
+- (tier1) Group III classification and chemistry are supplier family-level descriptions, not individual grade assay.
+- (tier1) Cross-check duplicate supplier brochure files DL2-11262.pdf through DL2-11265.pdf and any grade-specific SDS during final audit.
+
+## 185. PETRO_CANADA_PURITY_VHVI_3
+- (tier1) Group III classification and chemistry are supplier family-level descriptions, not individual grade assay.
+- (tier1) Confirm against grade-specific SDS and other brochure editions during final audit.
+
+## 186. PETRO_CANADA_PURITY_VHVI_4
+- (tier1) Group III classification and chemistry are supplier family-level descriptions, not individual grade assay.
+- (tier1) Confirm against grade-specific SDS and other brochure editions during final audit.
+
+## 187. PETRO_CANADA_PURITY_VHVI_6
+- (tier1) Group III classification and chemistry are supplier family-level descriptions, not individual grade assay.
+- (tier1) Confirm against grade-specific SDS and other brochure editions during final audit.
+
+## 188. PETRO_CANADA_PURITY_VHVI_8
+- (tier1) Group III classification and chemistry are supplier family-level descriptions, not individual grade assay.
+- (tier1) Confirm against grade-specific SDS and other brochure editions during final audit.
+
+## 189. SHELL_RISELLA_X_415
+- **Conflict (tier1)** `density`: {"tds": {"value": 806, "unit": "kg/m3", "temperature_c": 15, "source_file": "DL2-13728.pdf", "page": 1}, "sds": {"value": 803.5, "unit": "kg/m3", "temperature_c": 15, "source_file": "DL2-13729.pdf", "page": 8, "revision_date": "2018-10-26"}, "note": "Different reported values at same temperature; TDS selected as primary, SDS retained for reconciliation."}
+- (tier1) Shell identifies Risella X 415 as a GTL-derived technical white/process oil, but no explicit grade-specific API base-oil Group classification has been verified. API Group remains Missing.
+- (tier1) Chemistry is supported by the historical TDS DL2-13728.pdf: GTL-derived hydrocarbon fluid, highly saturated with a high degree of iso-paraffinic structures. Shell's newer official TDS also describes the product as a highly refined paraffinic process oil made using GTL technology.
+- (tier1) No grade-specific CCS apparent viscosity, ASTM D5293 measurement, or CCS test temperature has been verified for Shell Risella X 415.
+- (tier1) TDS DL2-13728.pdf reports density of 806 kg/m3 at 15°C, whereas SDS DL2-13729.pdf reports 803.5 kg/m3 at 15°C. The document variation requires reconciliation.
+- (tier1) The historical TDS is dated 2013-02-08 and the cited SDS is revised 2018-10-26. Shell has issued newer technical information; document-version reconciliation remains necessary.
+- (tier2) Shell Risella X 415 is marketed as a GTL-derived process/technical white oil. API lubricant base-oil Group classification is treated as Not Required for its documented application, subject to project applicability rules.
+- (tier2) MRV low-temperature pumpability testing is treated as Not Required for the documented process-oil application. No MRV viscosity, yield stress, or test temperature is reported in the supplied TDS.
+- (tier2) The TDS reports Noack volatility of 40 mass% at 250°C for 1 hour, ASTM D5800. Preserve this measured value despite the product's process-oil classification.
+- (tier2) TDS DL2-13728.pdf reports density of 806 kg/m3 at 15°C, while SDS DL2-13729.pdf reports 803.5 kg/m3 at 15°C. This discrepancy requires reconciliation.
+- (tier2) The TDS is dated 2013-02-08 and the cited SDS was revised 2018-10-26. Confirm applicable document revisions before final approval.
+- (tier3) API group is not explicitly assigned by the supplier; GTL chemistry is not an API group declaration.
+- (tier3) TDS density at 15 C is 806 kg/m3, while SDS DL2-13729.pdf p.8 reports 803.5 kg/m3 at 15 C; document variation requires reconciliation.
+- (tier3) TDS dated 2013 and SDS revised 2018; confirm current revisions before final approval.
+
+## 190. SHELL_RISELLA_X_420
+- **Conflict (tier1)** `density`: {"tds": {"value": 816, "unit": "kg/m3", "temperature_c": 15, "source_file": "DL2-13726.pdf", "page": 1, "revision_date": "2014-06-02"}, "sds": {"value": 813.8, "unit": "kg/m3", "temperature_c": 15, "source_file": "DL2-13730.pdf", "page": 8, "revision_date": "2018-10-26"}, "note": "Different supplier-reported values at same temperature; TDS retained as primary, SDS separately documented."}
+- (tier1) Shell Risella X 420 is described as a GTL-derived process oil. API lubricant base-oil Group classification is treated as Not Required under the proposed project applicability rule; confirm this interpretation is accepted by the professor's template.
+- (tier1) Chemistry is recorded from TDS DL2-13726.pdf, page 1, dated 2014-06-02: GTL-derived hydrocarbon fluid, highly saturated with a high degree of iso-paraffinic structures.
+- (tier1) CCS viscosity is treated as Not Required for the documented process-oil application. No grade-specific CCS viscosity or test temperature is reported in the supplied TDS.
+- (tier1) TDS DL2-13726.pdf reports density of 816 kg/m3 at 15°C, whereas SDS DL2-13730.pdf reports 813.8 kg/m3 at 15°C. The discrepancy requires reconciliation.
+- (tier1) The historical TDS is dated 2014-06-02 and the cited SDS was revised 2018-10-26. Confirm applicable document revisions before final approval.
+- (tier2) Shell Risella X 420 is marketed as a GTL-derived process oil. API lubricant base-oil Group classification is treated as Not Required under the proposed project applicability rule; confirm this interpretation is accepted by the professor's template.
+- (tier2) MRV low-temperature pumpability testing is treated as Not Required for the documented process-oil application. No grade-specific MRV apparent viscosity, yield stress, or test temperature is reported in the supplied TDS.
+- (tier2) Noack volatility is reported as 12 mass% at 250°C for 1 hour, ASTM D5800, in TDS DL2-13726.pdf.
+- (tier3) API group not explicitly stated; GTL origin is not a supplier API group declaration.
+- (tier3) TDS density 816 kg/m3 at 15 C versus SDS DL2-13730.pdf p.8 813.8 kg/m3 at 15 C; verify revisions and reconcile.
+- (tier3) Confirm latest TDS/SDS editions before final approval.
+
+## 191. SHELL_RISELLA_X_430
+- **Conflict (tier1)** `density`: {"tds": {"value": 828, "unit": "kg/m3", "temperature_c": 15, "source_file": "DL2-13727.pdf", "page": 1, "revision_date": "2014-06-02"}, "sds": {"value": 824.8, "unit": "kg/m3", "temperature_c": 15, "source_file": "DL2-13731.pdf", "page": 7, "revision_date": "2020-01-13"}, "note": "Different supplier-reported values at same temperature; TDS retained as primary, SDS separately documented."}
+- (tier1) Shell Risella X 430 is described as a GTL-derived process oil. API lubricant base-oil Group classification is treated as Not Required under the proposed project applicability rule; confirm acceptance of this classification with the professor.
+- (tier1) Chemistry is recorded from TDS DL2-13727.pdf, page 1, dated 2014-06-02: GTL-derived hydrocarbon fluid, highly saturated with a high degree of iso-paraffinic structures.
+- (tier1) CCS cold-cranking viscosity is treated as Not Required for the documented process-oil application. No grade-specific CCS viscosity, test method, or test temperature is provided in the supplied TDS.
+- (tier1) TDS DL2-13727.pdf reports density of 828 kg/m3 at 15°C, whereas SDS DL2-13731.pdf reports 824.8 kg/m3 at 15°C. The discrepancy requires reconciliation.
+- (tier1) The historical TDS is dated 2014-06-02 and the cited SDS was revised 2020-01-13. Confirm applicable document revisions before final approval.
+- (tier2) Shell Risella X 430 is described as a GTL-derived process oil. API lubricant base-oil Group classification is treated as Not Required under the proposed project applicability rule; confirm acceptance of this interpretation with the professor.
+- (tier2) MRV low-temperature pumpability testing is treated as Not Required for the documented process-oil application. No grade-specific MRV apparent viscosity, yield stress, or test temperature is reported in the supplied TDS.
+- (tier2) Noack volatility is reported as 2.0 mass% at 250°C for 1 hour, ASTM D5800, in TDS DL2-13727.pdf.
+- (tier3) API group not explicitly stated; GTL origin is not a supplier API group declaration.
+- (tier3) TDS density 828 kg/m3 at 15 C versus SDS DL2-13731.pdf p.7 824.8 kg/m3 at 15 C; verify revisions and reconcile.
+- (tier3) Confirm latest TDS/SDS editions before final approval.
+
+## 192. S_OIL_ARAMCO_ULTRA_8
+- **Conflict (tier1)** `tier1.kv40`: DL2-14611.pdf p.2 (2018-09-07): 42.0 - 55.0 cSt @ 40°C (ASTM D 445); https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Kinematic Viscosity @ 40℃, cSt (D445): 41.1 — Document editions differ for aramcoULTRA 8: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 41.1. The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) API group not explicitly specified in the original 2018 SDS.
+- (tier1) The original SDS reports viscosity ranges; S-OIL's official technical specifications provide additional typical properties.
+- (tier1) Verify whether the SDS relative density 0.847 at 15°C is dimensionless relative density rather than absolute mass density; do not silently convert.
+- (tier1) CCS viscosity of 6,300 mPa.s at -30°C (ASTM D5293) was obtained from S-OIL's official technical specifications, not the original SDS.
+- (tier1) Final source-level audit and alternate document reconciliation pending.
+- (tier2) API group not explicitly specified in the original SDS.
+- (tier2) The original SDS reports viscosity ranges; additional typical properties are available in Aramco's grade-specific technical datasheet.
+- (tier2) MRV viscosity and its test temperature are not reported in the reviewed manufacturer technical specifications.
+- (tier3) API group not explicitly specified in the source SDS.
+- (tier3) A grade-specific TDS with typical values should be located; the SDS reports ranges only.
+
+## 193. S_OIL_PREMIUM_P_20
+- (tier1) API Group and chemistry (2026-10 audit): both Tier 1 values were attributed to sources for a different product, aramcoULTRA 8, and are now Missing. Former API Group: 'Group III' (Reported), cited to the Aramco base-oil catalog 2024 p.25, which is the aramcoULTRA slate table for grades 4/6/8 and does not list P-20 or any Premium-series grade; former note: 'Group III explicitly confirmed for aramcoULTRA 8 in Aramco's official 2024 base-oil catalog. The original 2018 SDS did not state the API Group.' Former chemistry: 'Distillates (petroleum), hydrotreated heavy paraffinic' (Reported; printed text 'Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; purity 100%'), cited to DL2-14611.pdf p.1, the SDS for 'Base Oil aramcoULTRA 8 (250 Neutral)' revised 2018-09-07. Former open question: 'API Group III confirmed for aramcoULTRA 8 using Aramco's official 2024 base-oil catalog; classification was not explicitly stated in the original 2018 SDS.' No reviewed document states the API Group or chemistry of P-20; the Premium Series sheet DL2-11173.pdf names neither. Confirm both with S-OIL.
+- (tier1) S-OIL's official Premium Series catalog reports specific gravity 0.8520 at 15/4°C (ASTM D1298), but absolute density remains unverified.
+- (tier1) No grade-specific CCS viscosity or test temperature was verified for P-20.
+- (tier1) Grade-specific SDS and additional technical documentation require reconciliation.
+- (tier2) API group not explicitly specified in reviewed Premium Series datasheets.
+- (tier2) Specific gravity (15/4°C) is dimensionless and must not be transcribed as absolute density.
+- (tier2) Noack volatility, CCS viscosity, saturates and aromatics not reported in the reviewed product sheets.
+- (tier2) Final source-level audit and grade-specific SDS reconciliation pending.
+- (tier2) MRV apparent viscosity and MRV yield stress have not been verified for S-OIL P-20 (Premium 100N); no test temperature or ASTM D4684 measurement is available in the reviewed documentation.
+
+## 194. S_OIL_PREMIUM_P_31
+- (tier1) No explicit API Group classification has been verified for historical S-OIL P-31 (Premium 150N).
+- (tier1) Chemistry is described using S-OIL's Premium Series hydrotreating and MEK-dewaxing process; grade-specific chemical composition and CAS number remain unverified.
+- (tier1) No grade-specific CCS viscosity or CCS test temperature has been verified for P-31.
+- (tier1) The catalog reports specific gravity at 15/4°C, which must not be silently treated as absolute density.
+- (tier1) Grade-specific SDS and additional manufacturer documentation require reconciliation.
+- (tier2) API Group remains unverified for the historical S-OIL P-31 (Premium 150N) grade.
+- (tier2) Specific gravity at 15/4°C is dimensionless and has not been transcribed as absolute density.
+- (tier2) MRV apparent viscosity and MRV yield stress have not been verified for P-31; no ASTM D4684 measurement or test temperature was found in the reviewed documentation.
+- (tier2) Noack volatility, CCS viscosity, saturates and aromatics remain unverified.
+- (tier2) Final source-level audit and grade-specific SDS reconciliation pending.
+- (tier3) API group not explicitly specified in reviewed Premium Series datasheets.
+- (tier3) Specific gravity (15/4°C) is dimensionless and must not be transcribed as absolute density.
+- (tier3) Noack volatility, CCS viscosity, saturates and aromatics not reported in the reviewed product sheets.
+
+## 195. S_OIL_PREMIUM_P_480
+- (tier1) Historical P-480 (150BS) API Group has not been explicitly verified in the reviewed manufacturer documents.
+- (tier1) Chemistry confirmed using S-OIL Premium-480 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated heavy paraffinic, CAS 64742-57-0, purity 100%.
+- (tier1) Specific gravity at 15/4°C is dimensionless and must not be transcribed as absolute density.
+- (tier1) No grade-specific CCS viscosity or CCS test temperature was verified.
+- (tier1) Noack volatility, saturates and aromatics remain unverified.
+- (tier1) Final source-level reconciliation between the original product datasheet and grade-specific SDS pending.
+- (tier2) Historical P-480 (150BS) API Group remains unverified.
+- (tier2) Chemistry identified in S-OIL's Premium-480 SDS revised 2015-06-10; grade-specific composition should be reconciled with the original product datasheet.
+- (tier2) MRV viscosity and MRV yield stress have not been verified for P-480; no grade-specific test temperature is available.
+- (tier2) Noack volatility, CCS viscosity, saturates and aromatics remain unverified.
+- (tier2) Final source-level audit and SDS reconciliation pending.
+- (tier3) API group not explicitly specified in reviewed Premium Series datasheet.
+- (tier3) Specific gravity (15/4°C) is dimensionless and must not be transcribed as absolute density.
+- (tier3) Noack volatility, CCS viscosity, saturates and aromatics not reported in the reviewed product sheet.
+- (tier3) Final source-level audit and grade-specific SDS reconciliation pending.
+
+## 196. S_OIL_PREMIUM_P_8
+- (tier1) API Group classification for historical S-OIL P-8 (Premium 60N) has not been explicitly verified.
+- (tier1) Chemistry confirmed in S-OIL Premium-8 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated light paraffinic; CAS 64742-55-8; purity 100%.
+- (tier1) Specific gravity at 15/4°C is dimensionless and must not be transcribed as absolute density.
+- (tier1) No grade-specific CCS viscosity or test temperature has been verified for P-8.
+- (tier1) Noack volatility, saturates and aromatics remain unverified.
+- (tier1) Final source-level reconciliation between the original product datasheet and grade-specific SDS pending.
+- (tier2) API Group for historical S-OIL P-8 (Premium 60N) remains unverified.
+- (tier2) Chemistry identified in S-OIL Premium-8 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated light paraffinic; CAS 64742-55-8.
+- (tier2) MRV viscosity and MRV yield stress have not been verified for P-8; no grade-specific test temperature is available.
+- (tier2) Noack volatility, CCS viscosity, saturates and aromatics remain unverified.
+- (tier3) API group and chemistry not explicitly specified in reviewed Premium Series datasheet.
+- (tier3) Specific gravity (15/4°C) is dimensionless and must not be transcribed as absolute density.
+- (tier3) Noack volatility, CCS viscosity, saturates and aromatics not reported in reviewed product sheet.
+- (tier3) Final source-level audit and grade-specific SDS reconciliation pending.
+
+## 197. S_OIL_PREMIUM_P_96
+- (tier1) API Group for historical S-OIL P-96 (Premium 500N) has not been explicitly verified.
+- (tier1) Chemistry confirmed in S-OIL Premium-96 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; purity 100%.
+- (tier1) Historical product catalog reports specific gravity 0.8811 at 15/4°C (ASTM D1298), not an absolute density measurement.
+- (tier1) No grade-specific CCS viscosity or CCS test temperature has been verified for P-96.
+- (tier1) Noack volatility, saturates and aromatics remain unverified for the historical P-96 grade.
+- (tier1) Final source-level reconciliation between original product datasheet and grade-specific SDS pending.
+- (tier2) API Group for historical S-OIL P-96 (Premium 500N) remains unverified.
+- (tier2) Chemistry identified in S-OIL Premium-96 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7.
+- (tier2) Historical S-OIL catalog reports specific gravity 0.8811 at 15/4°C (ASTM D1298), which is dimensionless and must not be transcribed as absolute density.
+- (tier2) MRV apparent viscosity and MRV yield stress have not been verified for P-96; no grade-specific MRV test temperature is available.
+- (tier2) Noack volatility, CCS viscosity, saturates and aromatics remain unverified.
+- (tier3) API group and chemistry not explicitly specified in reviewed Premium Series datasheet.
+- (tier3) Specific gravity (15/4°C) is dimensionless and must not be transcribed as absolute density.
+- (tier3) Noack volatility, CCS viscosity, saturates and aromatics not reported in reviewed product sheet.
+- (tier3) Final source-level audit and grade-specific SDS reconciliation pending.
+
+## 198. S_OIL_SUPER_S_31
+- (tier1) API Group for historical S-OIL S-31 (Super 150N) is not explicitly established by the reviewed historical datasheet or SDS; manufacturer mapping to aramcoPRIMA 150 requires classification reconciliation.
+- (tier1) Chemistry confirmed in S-OIL Super-31 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; purity 100%.
+- (tier1) S-OIL SDS reports relative density 0.8634 at 15°C; this is not an explicitly reported absolute density.
+- (tier1) No grade-specific CCS viscosity or CCS test temperature has been verified for S-31.
+- (tier1) Noack volatility, saturates and aromatics remain unverified for the historical S-31 grade.
+- (tier1) Final reconciliation between original DL2-12392.pdf and manufacturer SDS pending.
+- (tier2) API Group for historical S-OIL S-31 (Super 150N) has not been explicitly verified.
+- (tier2) Chemistry identified in S-OIL Super-31 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7.
+- (tier2) S-OIL's SDS reports relative density 0.8634 at 15°C; this must not be transcribed directly as absolute density.
+- (tier2) MRV apparent viscosity and MRV yield stress have not been verified for S-31; no grade-specific MRV test temperature is available.
+- (tier2) Noack volatility, CCS viscosity, saturates and aromatics remain unverified.
+- (tier3) API group is not explicitly specified in the reviewed Super Series brochure.
+- (tier3) Specific gravity at 15/4 °C is dimensionless and is not an absolute density measurement.
+- (tier3) Noack volatility, CCS, saturates, and aromatics are not numerically reported in the reviewed sheet.
+- (tier3) Final source-level audit and grade-specific SDS reconciliation pending.
+
+## 199. S_OIL_SUPER_S_8
+- (tier1) API Group for historical S-OIL S-8 (Super 60N) has not been explicitly verified.
+- (tier1) S-OIL lists a grade-specific Super 8 SDS, but its Section 3 chemical composition and CAS number require direct verification.
+- (tier1) Specific gravity 0.8719 at 15/4°C (ASTM D1298) is dimensionless and must not be transcribed as absolute density.
+- (tier1) The original datasheet prints L-40.0 for pour point; the notation requires source-level verification before assigning a numeric value.
+- (tier1) No grade-specific CCS viscosity or CCS test temperature has been verified.
+- (tier1) Noack volatility, saturates and aromatics remain unverified.
+- (tier1) Final reconciliation between DL2-12392.pdf and the grade-specific Super 8 SDS pending.
+- (tier2) API Group for historical S-OIL S-8 (Super 60N) remains unverified.
+- (tier2) Grade-specific Super 8 SDS composition and CAS number require direct verification.
+- (tier2) Pour point is printed as L-40.0 °C (ASTM D5950); qualifier or encoding remains ambiguous. Numeric value deliberately left null. No S-OIL legend defining the 'L' prefix was found in the archived sheets, the S-OIL catalog or the S-OIL web page (2026-10 audit); confirm with S-OIL whether 'L-40.0' means 'below -40.0 °C'.
+- (tier2) MRV apparent viscosity and MRV yield stress have not been verified for S-8; no MRV test temperature is available.
+- (tier2) Noack volatility, CCS viscosity, saturates and aromatics remain unverified.
+- (tier2) Final reconciliation between DL2-12392.pdf and grade-specific Super 8 SDS pending.
+- (tier3) API group not explicitly specified in Super Series brochure.
+- (tier3) Specific gravity 15/4°C 0.8719 (ASTM D1298) is dimensionless, not density.
+- (tier3) Pour point cell prints L-40.0 (ASTM D5950); unclear if this is a qualifier or character encoding. Numeric pour point deliberately not assigned pending supplier verification.
+- (tier3) Noack volatility, CCS, saturates and aromatics not numerically reported.
+- (tier3) Final source-level audit and grade-specific SDS reconciliation pending.
+
+## 200. S_OIL_SUPER_S_96
+- (tier1) API Group for historical S-OIL S-96 (Super 500N) has not been explicitly verified.
+- (tier1) Chemistry confirmed in S-OIL Super-96 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; purity 100%.
+- (tier1) Historical S-OIL catalog reports specific gravity 0.8762 at 15/4°C (ASTM D1298), not an absolute density measurement.
+- (tier1) No grade-specific CCS viscosity or CCS test temperature has been verified for historical S-96; modern aramcoPRIMA 500 measurements must not be substituted.
+- (tier1) Noack volatility, saturates and aromatics remain unverified.
+- (tier1) Final source-level reconciliation between DL2-12392.pdf and the grade-specific SDS pending.
+- (tier2) Chemistry identified in S-OIL Super-96 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7.
+- (tier2) Historical S-OIL catalog reports specific gravity 0.8762 at 15/4°C (ASTM D1298), which must not be transcribed directly as absolute density.
+- (tier2) MRV apparent viscosity and MRV yield stress have not been verified for historical S-96; no grade-specific test temperature is available.
+- (tier2) Noack volatility, CCS viscosity, saturates and aromatics remain unverified.
+- (tier3) API group is not explicitly specified in the reviewed Super Series brochure.
+- (tier3) Specific gravity at 15/4 °C is dimensionless and is not an absolute density measurement.
+- (tier3) Noack volatility, CCS, saturates, and aromatics are not numerically reported in the reviewed sheet.
+- (tier3) Final source-level audit and grade-specific SDS reconciliation pending.
+
+## 201. S_OIL_ULTRA_S_2
+- **Conflict (tier1)** `tier1.kv40`: DL2-11177.pdf p.1: 7.117 cSt @40°C; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Kinematic Viscosity @ 40℃, cSt (D445): 7.62 — Document editions differ for Ultra-S 2: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 7.62. The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.kv100`: DL2-11177.pdf p.1: 2.174 cSt @100°C; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Kinematic Viscosity @ 100℃, cSt (D445): 2.25 — Document editions differ for Ultra-S 2: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 2.25. The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.viscosity_index`: DL2-11177.pdf p.1: 109; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Viscosity Index (D2270): 103 — Document editions differ for Ultra-S 2: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 103. The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) Chemistry is recorded from SDS DL2-15235.pdf, Section 3: Distillates (petroleum), hydrotreated light paraffinic; CAS 64742-55-8.
+- (tier1) Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.
+- (tier1) No grade-specific CCS viscosity or CCS test temperature has been verified for Ultra-S 2.
+- (tier1) Noack volatility is marked with a dash in the Ultra-S 2 column and must remain Missing.
+- (tier1) Final source-level reconciliation between DL2-11177.pdf and DL2-15235.pdf remains pending.
+- (tier1) API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties'; note 'Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 2 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 2 and aramcoULTRA 2 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.24 lists aramcoULTRA 2 as API Base Oil Category Group II, and p.23 states 'These grades of aramcoULTRA are not classified as API Group III' for aramcoULTRA 2 and 3 (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Documentation discrepancy, not a conflict between Ultra-S specifications: the S-OIL page labels the aramcoULTRA brand as a whole 'aramcoULTRA (Group Ⅲ)', whereas the Aramco catalog classifies the aramcoULTRA 2 grade as Group II. Neither document classifies Ultra-S 2. Confirm the API Group of Ultra-S 2 with S-OIL.
+- **Conflict (tier2)** `tier2.pour_point`: DL2-11177.pdf p.1: -37.5 °C; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Pour Point, ℃ (D5950/6749): -36 — Document editions differ for Ultra-S 2: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints -36. The recorded value is kept; not resolved (2026-10 audit).
+- (tier2) MRV apparent viscosity and MRV yield stress have not been verified for Ultra-S 2; no grade-specific MRV test temperature is available.
+- (tier2) Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15235.pdf remains pending.
+- (tier3) API group not explicitly specified in the reviewed Ultra-S series brochure.
+- (tier3) Specific gravity 15/4 °C is dimensionless and is not absolute density.
+- (tier3) Noack volatility is marked with a dash in the Ultra-S 2 column, and must remain Missing.
+- (tier3) SDS DL2-15235.pdf revised June 10, 2015; final source-level audit pending.
+
+## 202. S_OIL_ULTRA_S_3
+- **Conflict (tier1)** `tier1.kv40`: DL2-11177.pdf p.1: 13.47 cSt @40°C; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Kinematic Viscosity @ 40℃, cSt (D445): 14.0 — Document editions differ for Ultra-S 3: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 14.0. The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.kv100`: DL2-11177.pdf p.1: 3.315 cSt @100°C; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Kinematic Viscosity @ 100℃, cSt (D445): 3.38 — Document editions differ for Ultra-S 3: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 3.38. The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.viscosity_index`: DL2-11177.pdf p.1: 117; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Viscosity Index (D2270): 115 — Document editions differ for Ultra-S 3: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 115. The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) Chemistry is recorded from SDS DL2-15236.pdf, Section 3: Distillates (petroleum), hydrotreated light paraffinic; CAS 64742-55-8. Final source-level verification remains pending.
+- (tier1) Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.
+- (tier1) No grade-specific CCS viscosity or CCS test temperature has been verified for Ultra-S 3.
+- (tier1) Noack volatility is marked with a dash in the Ultra-S 3 column and must remain Missing.
+- (tier1) Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15236.pdf remains pending.
+- (tier1) API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties'; note 'Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 3 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 3 and aramcoULTRA 3 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.24 lists aramcoULTRA 3 as API Base Oil Category Group II, and p.23 states 'These grades of aramcoULTRA are not classified as API Group III' for aramcoULTRA 2 and 3 (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Documentation discrepancy, not a conflict between Ultra-S specifications: the S-OIL page labels the aramcoULTRA brand as a whole 'aramcoULTRA (Group Ⅲ)', whereas the Aramco catalog classifies the aramcoULTRA 3 grade as Group II. Neither document classifies Ultra-S 3. Confirm the API Group of Ultra-S 3 with S-OIL.
+- **Conflict (tier2)** `tier2.flash_point`: DL2-11177.pdf p.1: 204 °C (COC); https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Flash Point, COC, ℃ (D92): 202 — Document editions differ for Ultra-S 3: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 202. The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier2)** `tier2.pour_point`: DL2-11177.pdf p.1: -25.0 °C; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Pour Point, ℃ (D5950/6749): -27 — Document editions differ for Ultra-S 3: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints -27. The recorded value is kept; not resolved (2026-10 audit).
+- (tier2) MRV apparent viscosity and MRV yield stress have not been verified for Ultra-S 3; no grade-specific MRV test temperature is available.
+- (tier3) API group not explicitly specified in the reviewed Ultra-S series brochure.
+- (tier3) Specific gravity 15/4 °C is dimensionless and is not absolute density.
+- (tier3) Noack volatility is marked with a dash in the Ultra-S 3 column and remains Missing.
+- (tier3) SDS DL2-15236.pdf revised June 10, 2015; final source-level audit pending.
+
+## 203. S_OIL_ULTRA_S_4
+- **Conflict (tier1)** `tier1.kv40`: DL2-11177.pdf p.1: 19.62 cSt @40°C; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Kinematic Viscosity @ 40℃, cSt (D445): 19.7 — Document editions differ for Ultra-S 4: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 19.7. The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.kv100`: DL2-11177.pdf p.1: 4.247 cSt @100°C; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Kinematic Viscosity @ 100℃, cSt (D445): 4.27 — Document editions differ for Ultra-S 4: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 4.27. The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.viscosity_index`: DL2-11177.pdf p.1: 123; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Viscosity Index (D2270): 124 — Document editions differ for Ultra-S 4: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 124. The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) S-OIL Ultra-S 4 SDS revised 2015-06-10 reports Distillates (petroleum), hydrotreated light paraffinic; CAS 64742-54-7; purity 100%. The printed description and CAS number appear inconsistent and require supplier clarification.
+- (tier1) Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.
+- (tier1) CCS for Ultra-S 4 is recorded in Tier 1 as 1,500 mPa.s at -30 °C (ASTM D5293) from the current S-OIL Lube Base Oil web page; the archived 2009 sheet DL2-11177.pdf prints no CCS (2026-10 audit).
+- (tier1) Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15139.pdf remains pending.
+- (tier1) API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties'; note 'Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 4 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 4 and aramcoULTRA 4 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.25 lists aramcoULTRA 4 as API Base Oil Category Group III (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Confirm the API Group of Ultra-S 4 with S-OIL.
+- **Conflict (tier2)** `tier2.flash_point`: DL2-11177.pdf p.1: 228 °C (COC); https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Flash Point, COC, ℃ (D92): 220 — Document editions differ for Ultra-S 4: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 220. The recorded value is kept; not resolved (2026-10 audit).
+- (tier2) SDS DL2-15139.pdf, revised 2015-06-10, reports 'Distillates (petroleum), hydrotreated light paraffinic' with CAS 64742-54-7. The printed description and CAS number appear inconsistent and require supplier clarification.
+- (tier2) MRV apparent viscosity, MRV yield stress, and MRV test temperature have not been verified for Ultra-S 4.
+- (tier3) API group not explicitly specified in reviewed supplier documents.
+- (tier3) Specific gravity 15/4 °C is dimensionless and is not absolute density.
+- (tier3) SDS DL2-15139.pdf revised June 10, 2015; final source-level audit pending.
+
+## 204. S_OIL_ULTRA_S_6
+- **Conflict (tier1)** `tier1.kv40`: DL2-11177.pdf p.1: 33.32 cSt @40°C; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Kinematic Viscosity @ 40℃, cSt (D445): 32.54 — Document editions differ for Ultra-S 6: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 32.54. The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.kv100`: DL2-11177.pdf p.1: 6.0 cSt @100°C; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Kinematic Viscosity @ 100℃, cSt (D445): 6.04 — Document editions differ for Ultra-S 6: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 6.04. The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.viscosity_index`: DL2-11177.pdf p.1: 127; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Viscosity Index (D2270): 134 — Document editions differ for Ultra-S 6: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 134. The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) Chemistry is recorded from SDS DL2-15237.pdf, Section 3: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7. Final source-level verification remains pending.
+- (tier1) Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.
+- (tier1) CCS for Ultra-S 6 is recorded in Tier 1 as 3,850 mPa.s at -30 °C (ASTM D5293) from the current S-OIL Lube Base Oil web page; the archived 2009 sheet DL2-11177.pdf prints no CCS (2026-10 audit).
+- (tier1) Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15237.pdf remains pending.
+- (tier1) API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties'; note 'Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 6 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 6 and aramcoULTRA 6 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.25 lists aramcoULTRA 6 as API Base Oil Category Group III (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Confirm the API Group of Ultra-S 6 with S-OIL.
+- **Conflict (tier2)** `tier2.flash_point`: DL2-11177.pdf p.1: 235 °C (COC); https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Flash Point, COC, ℃ (D92): 240 — Document editions differ for Ultra-S 6: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 240. The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier2)** `tier2.pour_point`: DL2-11177.pdf p.1: -20.0 °C; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Pour Point, ℃ (D5950/6749): -16 — Document editions differ for Ultra-S 6: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints -16. The recorded value is kept; not resolved (2026-10 audit).
+- (tier2) MRV apparent viscosity, MRV yield stress, and MRV test temperature have not been verified for Ultra-S 6.
+- (tier3) API group not explicitly specified in reviewed supplier documents.
+- (tier3) Specific gravity 15/4 °C is dimensionless and is not absolute density.
+- (tier3) SDS DL2-15237.pdf revised June 10, 2015; final source-level audit pending.
+
+## 205. S_OIL_ULTRA_S_8
+- **Conflict (tier1)** `tier1.kv40`: DL2-11177.pdf p.1: 43.89 cSt @40°C; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Kinematic Viscosity @ 40℃, cSt (D445): 41.1 — Document editions differ for Ultra-S 8: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 41.1. The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.kv100`: DL2-11177.pdf p.1: 7.234 cSt @100°C; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Kinematic Viscosity @ 100℃, cSt (D445): 7.1 — Document editions differ for Ultra-S 8: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 7.1. The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier1)** `tier1.viscosity_index`: DL2-11177.pdf p.1: 127; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Viscosity Index (D2270): 134 — Document editions differ for Ultra-S 8: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 134. The recorded value is kept; not resolved (2026-10 audit).
+- (tier1) Chemistry is recorded from SDS DL2-15238.pdf, Section 3: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7. The SDS revision date is recorded as 2015-06-10.
+- (tier1) Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.
+- (tier1) CCS for Ultra-S 8 is recorded in Tier 1 as 6,300 mPa.s at -30 °C (ASTM D5293) from the current S-OIL Lube Base Oil web page; the archived 2009 sheet DL2-11177.pdf prints no CCS (2026-10 audit).
+- (tier1) Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15238.pdf remains pending.
+- (tier1) API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); Ultra-S and aramcoULTRA are stated by S-OIL to have the same quality'; note 'API Group III supported by official manufacturer product-family classification and equivalence; not directly printed in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 8 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 8 and aramcoULTRA 8 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.25 lists aramcoULTRA 8 as API Base Oil Category Group III (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Confirm the API Group of Ultra-S 8 with S-OIL.
+- **Conflict (tier2)** `tier2.flash_point`: DL2-11177.pdf p.1: 256 °C (COC); https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Flash Point, COC, ℃ (D92): 250 — Document editions differ for Ultra-S 8: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 250. The recorded value is kept; not resolved (2026-10 audit).
+- **Conflict (tier2)** `tier2.pour_point`: DL2-11177.pdf p.1: -15.0 °C; https://www.s-oil.com/en/energy/LubeBaseOil.aspx: Pour Point, ℃ (D5950/6749): -14 — Document editions differ for Ultra-S 8: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints -14. The recorded value is kept; not resolved (2026-10 audit).
+- (tier2) API Group is not printed in any reviewed S-OIL document for Ultra-S 8; the Tier 1 API Group is Missing (2026-10 audit). S-OIL's published Ultra-S/aramcoULTRA equivalence and the Aramco catalog classification of aramcoULTRA 8 are indirect evidence only; see the Tier 1 open questions.
+- (tier2) Chemistry is recorded from SDS DL2-15238.pdf, Section 3: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; revision date 2015-06-10.
+- (tier2) No grade-specific MRV apparent viscosity, MRV yield stress, or MRV test temperature has been verified for Ultra-S 8.
+- (tier2) CCS (6,300 mPa.s at -30 °C) and density (0.8425 kg/L at 15.6 °C) for Ultra-S 8 are recorded in Tier 1 from the current S-OIL Lube Base Oil web page, with that source stated; differences between that table and the archived sheets are listed as conflicts (2026-10 audit).
+- (tier2) Final reconciliation between historical product data sheet DL2-11177.pdf, SDS DL2-15238.pdf, and current manufacturer product information remains pending.
+- (tier3) API group not explicitly specified in reviewed supplier documents.
+- (tier3) Specific gravity (15/4 °C) is dimensionless and not absolute density.
+- (tier3) Grade-specific SDS DL2-15238.pdf revised June 10, 2015; final source-level audit pending.
+
+## 206. YUBASE_3
+- (tier1) Resolved (2026-10 audit): SK's official YUBASE site states that YUBASE-3 and YUBASE-L3 are Group II because their VI is below 120 (archived 'Performance' page, 2010 and 2019 snapshots), consistent with SK's 2000 paper and the January 2021 offering circular (p.52). SK Enmove's current page groups YUBASE under 'Group III/III+' only at brand level. Previous note: 'Resolve the YUBASE 3 API Group discrepancy between the current SK Enmove manufacturer webpage (Group III product range) and the January 2021 SK corporate offering circular, page 52 (YUBASE 3 explicitly listed as Group II).'
+- (tier1) Document is headed NARMAK TRADE S.R.O.; confirm manufacturer/supplier relationship with YUBASE-SK.
+- (tier1) API group and chemistry are not explicitly stated in this document.
+- (tier1) Specific gravity row is printed with unit g/m3, which is inconsistent with the stated value 0,8299; do not interpret as verified density or specific gravity without clarification.
+- (tier1) Resolved (2026-10 audit): SK's official YUBASE site states that YUBASE-3 and YUBASE-L3 are Group II because their VI is below 120 (archived 'Performance' page, 2010 and 2019 snapshots), consistent with SK's 2000 paper and the January 2021 offering circular (p.52). SK Enmove's current page groups YUBASE under 'Group III/III+' only at brand level. Previous note: 'API Group (2026-10 audit): recorded as Group II from SK's grade-level statements (2000 conference paper, slide 10; 2021 offering circular, p.52). SK Enmove's current web page groups YUBASE under 'Group III/III+' at brand level. Confirm with SK Enmove that the current YUBASE 3 is still API Group II.'
+- (tier2) Confirm the manufacturer and distributor relationship between SK and NARMAK TRADE S.R.O. for archived YUBASE 3.
+- (tier2) Resolved (2026-10 audit): Tier 1 records Group II from SK's official YUBASE site, which names YUBASE-3 as Group II (VI below 120). Previous note: 'Resolve the API Group classification of archived YUBASE 3. Current SK Enmove product information presents YUBASE 3 within its Group III range, while a January 2021 SK corporate offering circular explicitly lists YUBASE 3 as Group II.'
+- (tier2) The archived property sheet does not explicitly state the product chemistry. Obtain grade-specific manufacturer documentation before assigning a chemistry description.
+- (tier2) The specific-gravity entry reports 0.8299 with the questionable unit g/m3. Verify the original units and measurement conditions before recording a density value.
+- (tier2) No MRV apparent viscosity, yield stress, test temperature, or test method is reported in DL2-11303.pdf.
+- (tier2) Noack volatility is reported as 40 wt% using DIN 51581. The source transcription does not specify a test temperature; do not assume one.
+- (tier2) Confirm the archived property sheet's issue date and applicable product revision.
+
+## 207. YUBASE_4
+- (tier1) Confirm the manufacturer and distributor relationship between SK Corporation/SK Enmove and NARMAK TRADE S.R.O. for archived YUBASE 4.
+- (tier1) API Group III for YUBASE 4 is now sourced to SK's official YUBASE site (archived 'Performance' page: all YUBASE except YUBASE-3/L3 are Group III); SK's 2000 paper agrees. Not stated in the archived NARMAK TRADE sheet. Confirm that the current YUBASE 4 is unchanged (2026-10 audit).
+- (tier1) Chemistry is now sourced to SK Lubricants' 2009 YUBASE 4 MSDS (YUB400, archived from yubase.com), which agrees with the 1999 SK Corporation MSDS (2026-10 audit). Previous note: 'Historical SK Corporation YUBASE 4 MSDS No. 739-YU4-02, dated 1999-02-12, identifies the chemistry as hydrotreated heavy paraffinic petroleum distillate (CAS 64742-54-7). Confirm that this historical composition applies to the archived NARMAK TRADE product grade.'
+- (tier1) The specific-gravity entry at 15°C is printed as 0.8338 with the inconsistent unit g/m3. Verify the original unit and measurement conditions before assigning a density value.
+- (tier1) No grade-specific CCS cold-cranking viscosity, test temperature, or test method is reported in archived property sheet DL2-11304.pdf.
+- (tier1) Confirm the issue date of the archived NARMAK TRADE property sheet and whether newer applicable TDS/SDS revisions are available.
+- (tier2) Historical SK Corporation YUBASE 4 MSDS No. 739-YU4-02, dated 1999-02-12, identifies hydrotreated heavy paraffinic petroleum distillate (CAS 64742-54-7). Confirm that this composition applies to the archived grade.
+- (tier2) The specific-gravity entry at 15°C is printed as 0.8338 with the inconsistent unit g/m3. Verify the original unit and measurement conditions before assigning density.
+- (tier2) No MRV apparent viscosity, yield stress, test temperature, or test method is reported in archived property sheet DL2-11304.pdf.
+- (tier2) Noack volatility is reported as 15 wt% using DIN 51581. The source transcription does not specify a test temperature; do not assume one.
+- (tier2) Confirm the archived property sheet's issue date and applicable product revision.
+- (tier3) Document is headed NARMAK TRADE S.R.O.; confirm manufacturer/supplier relationship with YUBASE-SK.
+- (tier3) API group and chemistry are not explicitly stated in this document.
+- (tier3) Specific gravity at 15 °C is printed as 0,8338 with unit g/m3, an inconsistent unit; do not infer density or specific gravity without clarification.
+
+## 208. YUBASE_5
+- (tier1) API Group (2026-10 audit): first recorded as 'III' from a brand-level ZIC statement, then set to Missing because no grade-level evidence was found; now Reported as Group III from SK's official YUBASE site (archived 'Performance' page: all YUBASE except YUBASE-3/L3 are Group III), which also lists YUBASE 5 as an SK grade. Confirm that the archived DL2-11305.pdf grade is the current SK YUBASE 5. Previous note: 'API Group (2026-10 audit): previously recorded as 'III' (Reported) from SK Lubricants' brand-level statement in 'Business with ZIC' (https://www.zic-europe.com/Business_with_ZIC.pdf, p.3: YUBASE is 'a synthetic new generation base oil classified as group III by API'), which does not name YUBASE 5. The brand statement is not used on its own because SK's own 2000 conference paper classes YUBASE-3 as API Group II, so not every YUBASE grade is Group III. No grade-level classification of YUBASE 5 was found, and YUBASE 5 is not in SK Enmove's current YUBASE line-up; the field is now Missing. Confirm the API Group of YUBASE 5 with SK Enmove.'
+- (tier1) The API Group is not stated in the archived NARMAK TRADE property sheet DL2-11305.pdf (the earlier note named DL2-11304.pdf, which is the YUBASE 4 sheet) (2026-10 audit).
+- (tier1) Historical SK Corporation YUBASE 4 MSDS No. 739-YU4-02, dated 1999-02-12, identifies hydrotreated heavy paraffinic petroleum distillate (CAS 64742-54-7). Confirm that this composition applies to the archived grade.
+- (tier1) The specific-gravity entry at 15°C is printed as 0.8338 with the inconsistent unit g/m3. Verify the original unit and measurement conditions before assigning density.
+- (tier1) No MRV apparent viscosity, yield stress, test temperature, or test method is reported in archived property sheet DL2-11304.pdf.
+- (tier1) Noack volatility is reported as 15 wt% using DIN 51581. The source transcription does not specify a test temperature; do not assume one.
+- (tier1) Confirm the archived property sheet's issue date and applicable product revision.
+- (tier2) Confirm the manufacturer and distributor relationship between SK Lubricants/SK Enmove and NARMAK TRADE S.R.O. for archived YUBASE 5.
+- (tier2) API Group for YUBASE 5 is now Group III in Tier 1 from SK's official YUBASE site (all YUBASE except YUBASE-3/L3 are Group III; YUBASE 5 listed as an SK grade) (2026-10 audit). Previous note: 'API Group for YUBASE 5 is Missing in Tier 1 (2026-10 audit): only brand-level YUBASE statements were found, and SK's own 2000 paper classes YUBASE-3 as Group II, so the brand statement does not establish the grade. Confirm the API Group of archived product DL2-11305.pdf with SK Enmove.'
+- (tier2) The archived property sheet does not explicitly report chemical composition. Obtain grade-specific manufacturer SDS documentation before assigning chemistry or a CAS number.
+- (tier2) The specific-gravity entry at 15°C is printed as 0.8363 with the inconsistent unit g/m3. Verify the original units and measurement conditions before assigning a density value.
+- (tier2) No MRV apparent viscosity, yield stress, test temperature, or test method is reported in archived property sheet DL2-11305.pdf.
+- (tier2) Noack volatility is reported as 12 wt% using DIN 51581. The supplied transcription does not specify a test temperature; do not assume one.
+- (tier3) Document issued by NARMAK TRADE S.R.O.; confirm manufacturer/supplier relationship with YUBASE-SK.
+- (tier3) API group and chemistry are not explicitly stated.
+- (tier3) Specific gravity at 15 °C printed as 0,8363 with inconsistent unit g/m3; do not infer density or specific gravity without clarification.
+
+## 209. YUBASE_6
+- (tier1) Confirm the manufacturer and distributor relationship between SK Lubricants/SK Enmove and NARMAK TRADE S.R.O. for archived YUBASE 6.
+- (tier1) API Group III for YUBASE 6 is now sourced to SK's official YUBASE site (archived 'Performance' page: all YUBASE except YUBASE-3/L3 are Group III); SK's 2000 paper agrees. Not stated in the archived NARMAK TRADE sheet. Confirm that the current YUBASE 6 is unchanged (2026-10 audit).
+- (tier1) SK Lubricants YUBASE 6 SDS dated 2020-01-01 identifies the chemistry as distillates (petroleum), hydrotreated heavy paraffinic, CAS 64742-54-7, at 100%. Confirm that this SDS applies to the undated archived NARMAK TRADE grade.
+- (tier1) The specific-gravity entry at 15°C is printed as 0.8423 with the inconsistent unit g/m3. Verify the original units and measurement conditions before assigning density.
+- (tier1) No grade-specific CCS viscosity, test temperature, or test method is reported in archived property sheet DL2-11306.pdf.
+- (tier1) Confirm the archived property sheet's issue date and applicable product revision.
+- (tier2) A historical SK Lubricants YUBASE 6 SDS dated 2020-01-01 identifies the chemistry as distillates (petroleum), hydrotreated heavy paraffinic, CAS 64742-54-7. Confirm that this SDS applies to the undated archived grade.
+- (tier2) No MRV apparent viscosity, yield stress, test temperature, or test method is reported in archived property sheet DL2-11306.pdf.
+- (tier2) Noack volatility is reported as 7 wt% using DIN 51581. The supplied transcription does not specify a test temperature; do not assume one.
+- (tier3) Document issued by NARMAK TRADE S.R.O.; confirm manufacturer/supplier relationship with YUBASE-SK.
+- (tier3) API group and chemistry are not explicitly stated.
+- (tier3) Specific gravity at 15 °C printed as 0,8423 with inconsistent unit g/m3; do not infer density or specific gravity without clarification.
+
+## Task 3 data-quality audit (2026-10): summary
+
+Base-oil sections were added from the JSON open_questions and conflicts arrays (entries that appear identically in several tiers are listed once, under the first tier). Every entry referred to below appears in its product section; it is not repeated here.
+
+### Factual conflicts (documents or editions that print different values)
+- 85 edition differences were recorded on branch fix/task3-data-quality: 24 for S-OIL Ultra-S and aramcoULTRA 8 (2009 catalogue / 2018 SDS vs the current S-OIL web tables) and 61 for Petro-Canada PURITY (LUB3213E 2015.07 vs 2023.03). The recorded value is kept in each case.
+- In total the JSON holds 146 conflict entries, including the pre-existing supplier-document conflicts.
+- The Ultra-S 2/3 Group II vs Group III difference noted earlier is a brand-level vs grade-level documentation difference, not a conflict between Ultra-S specifications; SK's and Aramco's grade-level statements were used.
 
 ### Documentation uncertainties and corrections
-- ADNOC_ADBASE_4CST (tier1) OPEN - supplier confirmation needed. History: chemistry was first entered from general knowledge as 'Group III base oil (hydrocracked / hydroisomerised mineral oil)' (status Reported, no source; original question: 'Chemistry is general knowledge only (sheet says Group III / high-purity base oil, not hydrocracked/mineral).'). That claim is not printed on the 2016 sheets. It is now sourced from the official ADNOC ADbase brochure (2020, pp. 2, 4-5), which describes the product-family production process only and post-dates the 2016 spec sheet. Ask ADNOC to confirm that this process applies to ADbase 4 cSt.
-- ADNOC_ADBASE_6CST (tier1) OPEN - supplier confirmation needed. History: chemistry was first entered from general knowledge as 'Group III base oil (hydrocracked / hydroisomerised mineral oil)' (status Reported, no source; original question: 'Chemistry is general knowledge only (sheet says Group III / high-purity base oil, not hydrocracked/mineral).'). That claim is not printed on the 2016 sheets. It is now sourced from the official ADNOC ADbase brochure (2020, pp. 2, 4-5), which describes the product-family production process only and post-dates the 2016 spec sheet. Ask ADNOC to confirm that this process applies to ADbase 6 cSt.
-- ADNOC_ADBASE_8CST (tier1) OPEN - supplier confirmation needed. History: chemistry was first entered from general knowledge as 'Group III base oil (hydrocracked / hydroisomerised mineral oil)' (status Reported, no source; original question: 'Chemistry is general knowledge only (sheet says Group III / high-purity base oil, not hydrocracked/mineral).'). That claim is not printed on the 2016 sheets. It is now sourced from the official ADNOC ADbase brochure (2020, pp. 2, 4-5), which describes the product-family production process only and post-dates the 2016 spec sheet. Ask ADNOC to confirm that this process applies to ADbase 8 cSt.
-- S_OIL_ULTRA_S_2 (tier1) API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties'; note 'Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 2 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 2 and aramcoULTRA 2 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.24 lists aramcoULTRA 2 as API Base Oil Category Group II, and p.23 states 'These grades of aramcoULTRA are not classified as API Group III' for aramcoULTRA 2 and 3 (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Documentation discrepancy, not a conflict between Ultra-S specifications: the S-OIL page labels the aramcoULTRA brand as a whole 'aramcoULTRA (Group Ⅲ)', whereas the Aramco catalog classifies the aramcoULTRA 2 grade as Group II. Neither document classifies Ultra-S 2. Confirm the API Group of Ultra-S 2 with S-OIL.
-- S_OIL_ULTRA_S_3 (tier1) API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties'; note 'Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 3 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 3 and aramcoULTRA 3 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.24 lists aramcoULTRA 3 as API Base Oil Category Group II, and p.23 states 'These grades of aramcoULTRA are not classified as API Group III' for aramcoULTRA 2 and 3 (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Documentation discrepancy, not a conflict between Ultra-S specifications: the S-OIL page labels the aramcoULTRA brand as a whole 'aramcoULTRA (Group Ⅲ)', whereas the Aramco catalog classifies the aramcoULTRA 3 grade as Group II. Neither document classifies Ultra-S 3. Confirm the API Group of Ultra-S 3 with S-OIL.
-- S_OIL_ULTRA_S_4 (tier1) API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties'; note 'Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 4 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 4 and aramcoULTRA 4 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.25 lists aramcoULTRA 4 as API Base Oil Category Group III (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Confirm the API Group of Ultra-S 4 with S-OIL.
-- S_OIL_ULTRA_S_6 (tier1) API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties'; note 'Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 6 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 6 and aramcoULTRA 6 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.25 lists aramcoULTRA 6 as API Base Oil Category Group III (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Confirm the API Group of Ultra-S 6 with S-OIL.
-- S_OIL_ULTRA_S_8 (tier1) API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); Ultra-S and aramcoULTRA are stated by S-OIL to have the same quality'; note 'API Group III supported by official manufacturer product-family classification and equivalence; not directly printed in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 8 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 8 and aramcoULTRA 8 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.25 lists aramcoULTRA 8 as API Base Oil Category Group III (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Confirm the API Group of Ultra-S 8 with S-OIL.
-- S_OIL_ULTRA_S_8 (tier2) API Group is not printed in any reviewed S-OIL document for Ultra-S 8; the Tier 1 API Group is Missing (2026-10 audit). S-OIL's published Ultra-S/aramcoULTRA equivalence and the Aramco catalog classification of aramcoULTRA 8 are indirect evidence only; see the Tier 1 open questions.
-- S_OIL_PREMIUM_P_20 (tier1) API Group and chemistry (2026-10 audit): both Tier 1 values were attributed to sources for a different product, aramcoULTRA 8, and are now Missing. Former API Group: 'Group III' (Reported), cited to the Aramco base-oil catalog 2024 p.25, which is the aramcoULTRA slate table for grades 4/6/8 and does not list P-20 or any Premium-series grade; former note: 'Group III explicitly confirmed for aramcoULTRA 8 in Aramco's official 2024 base-oil catalog. The original 2018 SDS did not state the API Group.' Former chemistry: 'Distillates (petroleum), hydrotreated heavy paraffinic' (Reported; printed text 'Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; purity 100%'), cited to DL2-14611.pdf p.1, the SDS for 'Base Oil aramcoULTRA 8 (250 Neutral)' revised 2018-09-07. Former open question: 'API Group III confirmed for aramcoULTRA 8 using Aramco's official 2024 base-oil catalog; classification was not explicitly stated in the original 2018 SDS.' No reviewed document states the API Group or chemistry of P-20; the Premium Series sheet DL2-11173.pdf names neither. Confirm both with S-OIL.
-
+- Open questions tagged '(2026-10 audit)' record corrected or re-sourced values with their previous text: ADNOC ADbase 4/6/8 chemistry; S-OIL Ultra-S 2-8 API Group and P-20 API Group/chemistry; YUBASE 3/4/5/6 API Group and YUBASE 4 chemistry; Petro-Canada PURITY L40/L45/L50 CCS; the 37 additive-package permitted-base-oil fields; S-OIL Super S-8 pour point.
+- Sources outside the archive are listed, with their verification status, in source_registry.json.
