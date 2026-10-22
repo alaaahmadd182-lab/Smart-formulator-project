@@ -123,57 +123,21 @@
     
     "ccs": [
       {
-        "value": 1300,
-        "qualifier": "Typical",
+        "value": null,
+        "qualifier": null,
         "min": null,
         "max": null,
-        "value_kind": "single",
-        "printed_text": "1300",
+        "value_kind": null,
+        "printed_text": null,
         "unit": "mPa.s",
-        "test_temperature_c": -25,
-        "method": "ASTM D5293",
-        "status": "Reported",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
         "calculation_note": null,
         "source": {
-          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
+          "file": null,
           "page": null,
-          "revision_date": "2023-03"
-        }
-      },
-      {
-        "value": 1876,
-        "qualifier": "Typical",
-        "min": null,
-        "max": null,
-        "value_kind": "single",
-        "printed_text": "1876",
-        "unit": "mPa.s",
-        "test_temperature_c": -30,
-        "method": "ASTM D5293",
-        "status": "Reported",
-        "calculation_note": null,
-        "source": {
-          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
-          "page": null,
-          "revision_date": "2023-03"
-        }
-      },
-      {
-        "value": 2390,
-        "qualifier": "Typical",
-        "min": null,
-        "max": null,
-        "value_kind": "single",
-        "printed_text": "2390",
-        "unit": "mPa.s",
-        "test_temperature_c": -35,
-        "method": "ASTM D5293",
-        "status": "Reported",
-        "calculation_note": null,
-        "source": {
-          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
-          "page": null,
-          "revision_date": "2023-03"
+          "revision_date": null
         }
       }
     ]
@@ -182,7 +146,8 @@
   "open_questions": [
     "API Group II confirmed from an additional official Petro-Canada manufacturer brochure; the original DL2-10020.pdf did not explicitly assign a grade-specific group.",
     "Viscosity index, sulfur and CCS are not reported for L40 in the cited brochure.",
-    "Grade-specific SDS and other brochure editions require reconciliation."
+    "Grade-specific SDS and other brochure editions require reconciliation.",
+    "CCS (2026-10 audit): the 3 CCS values previously recorded here - 1300 mPa.s at -25 °C, 1876 mPa.s at -30 °C, 2390 mPa.s at -35 °C (Reported, Typical, ASTM D5293; cited to https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx, revision 2023-03, no page) - are the PURITY 1003 column of Petro-Canada's 'Typical Properties of PURITY Base Oils' table in LUB3213E / IM-1809E (2023.03) p.2, not PURITY L40. The same values appear under PURITY 1003 in LUB3213E (2015.07) = DL2-10020.pdf p.2. The L35-L65 table in both editions has no Cold Crank Simulator row, so no CCS value is published for PURITY L40; ccs is now Missing. The values were not copied to any other record. Confirm with Petro-Canada whether a CCS value exists for PURITY L40."
   ],
   "conflicts": []
 }

@@ -121,37 +121,19 @@
     
     "ccs": [
       {
-        "value": 2708,
-        "qualifier": "Typical",
+        "value": null,
+        "qualifier": null,
         "min": null,
         "max": null,
-        "value_kind": "single",
-        "printed_text": "2708 cP",
+        "value_kind": null,
+        "printed_text": null,
         "unit": "mPa.s",
-        "test_temperature_c": -20,
-        "method": "ASTM D5293",
-        "status": "Reported",
-        "calculation_note": "1 cP = 1 mPa.s.",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
         "source": {
-          "file": "https://petrocanadalubricants.com/en-us/brand/purity-base-oils/compare",
-          "page": null,
-          "revision_date": null
-        }
-      },
-      {
-        "value": 5361,
-        "qualifier": "Typical",
-        "min": null,
-        "max": null,
-        "value_kind": "single",
-        "printed_text": "5361 cP",
-        "unit": "mPa.s",
-        "test_temperature_c": -25,
-        "method": "ASTM D5293",
-        "status": "Reported",
-        "calculation_note": "1 cP = 1 mPa.s.",
-        "source": {
-          "file": "https://petrocanadalubricants.com/en-us/brand/purity-base-oils/compare",
+          "file": null,
           "page": null,
           "revision_date": null
         }
@@ -163,8 +145,9 @@
   "open_questions": [
     "API Group II confirmed from Petro-Canada's official Group II typical-properties table; the original DL2-10020.pdf did not explicitly assign a grade-specific group.",
     "Viscosity index remains unreported for PURITY L50.",
-    "CCS at -20°C and -25°C confirmed from Petro-Canada's official product comparison using ASTM D5293. No values are reported there for -30°C or -35°C.",
-    "Grade-specific SDS and differences between the original 2015 brochure and newer manufacturer documentation require reconciliation."
+    "Grade-specific CCS remains Missing: the CCS values previously recorded here at -20°C and -25°C belong to PURITY 2204, not L50; no CCS value for PURITY L50 has been found in Petro-Canada documentation (see the 'CCS (2026-10 audit)' note).",
+    "Grade-specific SDS and differences between the original 2015 brochure and newer manufacturer documentation require reconciliation.",
+    "CCS (2026-10 audit): the 2 CCS values previously recorded here - 2708 mPa.s at -20 °C, 5361 mPa.s at -25 °C (Reported, Typical, ASTM D5293; cited to https://petrocanadalubricants.com/en-us/brand/purity-base-oils/compare, no page) - are the PURITY 2204 column of Petro-Canada's 'Typical Properties of PURITY Base Oils' table in LUB3213E / IM-1809E (2023.03) p.2, not PURITY L50. The 2015.07 edition (DL2-10020.pdf p.2) prints 3400 cP at -20 °C and 7000 cP at -25 °C for PURITY 2204 and no CCS for L50; the PURITY L50 product data sheet DL2-13351.pdf (last reviewed May 2020) prints no CCS; the cited compare page could not be retrieved (bot protection). The L35-L65 table in both editions has no Cold Crank Simulator row, so no CCS value is published for PURITY L50; ccs is now Missing. The values were not copied to any other record. Confirm with Petro-Canada whether a CCS value exists for PURITY L50."
   ],
   "conflicts": []
 }

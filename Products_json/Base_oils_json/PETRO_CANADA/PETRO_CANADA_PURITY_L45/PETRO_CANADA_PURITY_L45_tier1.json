@@ -121,75 +121,21 @@
     
     "ccs": [
       {
-        "value": 935,
-        "qualifier": "Typical",
+        "value": null,
+        "qualifier": null,
         "min": null,
         "max": null,
-        "value_kind": "single",
-        "printed_text": "935",
+        "value_kind": null,
+        "printed_text": null,
         "unit": "mPa.s",
-        "test_temperature_c": -20,
-        "method": "ASTM D5293",
-        "status": "Reported",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
         "calculation_note": null,
         "source": {
-          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
+          "file": null,
           "page": null,
-          "revision_date": "2023-03"
-        }
-      },
-      {
-        "value": 1716,
-        "qualifier": "Typical",
-        "min": null,
-        "max": null,
-        "value_kind": "single",
-        "printed_text": "1716",
-        "unit": "mPa.s",
-        "test_temperature_c": -25,
-        "method": "ASTM D5293",
-        "status": "Reported",
-        "calculation_note": null,
-        "source": {
-          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
-          "page": null,
-          "revision_date": "2023-03"
-        }
-      },
-      {
-        "value": 3438,
-        "qualifier": "Typical",
-        "min": null,
-        "max": null,
-        "value_kind": "single",
-        "printed_text": "3438",
-        "unit": "mPa.s",
-        "test_temperature_c": -30,
-        "method": "ASTM D5293",
-        "status": "Reported",
-        "calculation_note": null,
-        "source": {
-          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
-          "page": null,
-          "revision_date": "2023-03"
-        }
-      },
-      {
-        "value": 7415,
-        "qualifier": "Typical",
-        "min": null,
-        "max": null,
-        "value_kind": "single",
-        "printed_text": "7415",
-        "unit": "mPa.s",
-        "test_temperature_c": -35,
-        "method": "ASTM D5293",
-        "status": "Reported",
-        "calculation_note": null,
-        "source": {
-          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
-          "page": null,
-          "revision_date": "2023-03"
+          "revision_date": null
         }
       }
     ]
@@ -198,8 +144,9 @@
   
   "open_questions": [
     "API Group II confirmed from an additional official Petro-Canada manufacturer brochure; the original DL2-10020.pdf did not explicitly assign a grade-specific group.",
-    "Viscosity index remains unreported for PURITY L45. CCS values at -20°C, -25°C, -30°C and -35°C were obtained from the manufacturer's March 2023 brochure.",
-    "Grade-specific SDS and differences between brochure editions require reconciliation."
+    "Viscosity index remains unreported for PURITY L45. Grade-specific CCS remains Missing: the CCS values previously recorded here at -20°C, -25°C, -30°C and -35°C belong to PURITY 1020, not L45; the manufacturer's March 2023 brochure prints no CCS for L45 (see the 'CCS (2026-10 audit)' note).",
+    "Grade-specific SDS and differences between brochure editions require reconciliation.",
+    "CCS (2026-10 audit): the 4 CCS values previously recorded here - 935 mPa.s at -20 °C, 1716 mPa.s at -25 °C, 3438 mPa.s at -30 °C, 7415 mPa.s at -35 °C (Reported, Typical, ASTM D5293; cited to https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx, revision 2023-03, no page) - are the PURITY 1020 column of Petro-Canada's 'Typical Properties of PURITY Base Oils' table in LUB3213E / IM-1809E (2023.03) p.2, not PURITY L45. The same values appear under PURITY 1020 in LUB3213E (2015.07) = DL2-10020.pdf p.2. The L35-L65 table in both editions has no Cold Crank Simulator row, so no CCS value is published for PURITY L45; ccs is now Missing. The values were not copied to any other record. Confirm with Petro-Canada whether a CCS value exists for PURITY L45."
   ],
   "conflicts": []
 }
