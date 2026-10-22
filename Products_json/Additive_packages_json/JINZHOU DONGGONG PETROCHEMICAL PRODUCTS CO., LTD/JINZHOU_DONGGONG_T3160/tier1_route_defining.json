@@ -20,7 +20,7 @@
       "package_type": {
         "unit": null,
         "value": "Multifunction Engine Oil Additive Package",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11882.pdf",
           "page": 1,
@@ -31,7 +31,7 @@
       "intended_service": {
         "unit": null,
         "value": "This product is an additive package for formulating premium quality diesel engine oils.",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11882.pdf",
           "page": 1,
@@ -48,7 +48,7 @@
         "claim_type": "meets",
         "scope": "Text: 'Test data to meet the performance requirements of grade API CI-4/SL in class II/III base oil. The test was carried out in according to the rules of the API base oil exchange.' Dosage Reference table: base oil API II/III, grades 15W40/10W40/10W30, dose 13.0 m %.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11882.pdf",
           "page": 1,
@@ -63,7 +63,7 @@
         "claim_type": "other",
         "scope": "Dosage Reference table: base oil API I II, grades 15W40/10W40/10W30, dose 11.5 m %.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11882.pdf",
           "page": 1,
@@ -78,7 +78,7 @@
         "claim_type": "other",
         "scope": "Dosage Reference table: base oil API I II, grades 15W40/10W40/10W30, dose 11.5 m %.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11882.pdf",
           "page": 1,
@@ -93,7 +93,7 @@
         "claim_type": "other",
         "scope": "Dosage Reference table: base oil API I II, grades 15W40/10W40/10W30, dose 7.5 m %.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11882.pdf",
           "page": 1,
@@ -108,7 +108,7 @@
         "claim_type": "other",
         "scope": "Dosage Reference table: base oil API I II, grades 15W40/10W40/10W30, dose 6.0 m %.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11882.pdf",
           "page": 1,
@@ -122,7 +122,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "15W40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11882.pdf",
           "page": 1,
@@ -134,7 +134,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "10W40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11882.pdf",
           "page": 1,
@@ -146,7 +146,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "10W30",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11882.pdf",
           "page": 1,
@@ -167,7 +167,7 @@
       "allowed_combinations": [
         "Test data to meet the performance requirements of grade API CI-4/SL in class II/III base oil."
       ],
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-11882.pdf",
         "page": 1,
@@ -181,7 +181,7 @@
       "limits": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -203,7 +203,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Column 'Additive Dose (m %)'. Base oil: API II/III. Base Oil Type column read from the page image (Roman numerals are not in the text layer).",
           "source": {
             "file": "DL2-11882.pdf",
@@ -226,7 +226,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Column 'Additive Dose (m %)'. Base oil: API I II. Base Oil Type column read from the page image (Roman numerals are not in the text layer).",
           "source": {
             "file": "DL2-11882.pdf",
@@ -249,7 +249,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Column 'Additive Dose (m %)'. Base oil: API I II. Base Oil Type column read from the page image (Roman numerals are not in the text layer).",
           "source": {
             "file": "DL2-11882.pdf",
@@ -272,7 +272,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Column 'Additive Dose (m %)'. Base oil: API I II. Base Oil Type column read from the page image (Roman numerals are not in the text layer).",
           "source": {
             "file": "DL2-11882.pdf",
@@ -295,7 +295,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Column 'Additive Dose (m %)'. Base oil: API I II. Base Oil Type column read from the page image (Roman numerals are not in the text layer).",
           "source": {
             "file": "DL2-11882.pdf",
@@ -320,7 +320,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -357,7 +357,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -368,7 +368,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,

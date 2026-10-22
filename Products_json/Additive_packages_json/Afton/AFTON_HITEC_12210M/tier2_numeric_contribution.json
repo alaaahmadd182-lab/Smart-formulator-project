@@ -34,7 +34,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Same value in DL2-11796.pdf p.2 (05/18).",
       "source": {
         "file": "DL2-15568.pdf",
@@ -53,7 +53,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -73,7 +73,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -92,7 +92,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -111,7 +111,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -130,7 +130,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -149,7 +149,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -168,7 +168,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -187,7 +187,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -206,7 +206,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -226,7 +226,7 @@
       "unit": "mm2/s",
       "test_temperature_c": 40,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "SDS Section 9 prints 'Minimum' on the same line as the 40°C viscosity (checked on the page image). Same value printed in mm2/s and cSt.",
       "source": {
         "file": "DL2-15569.pdf",
@@ -245,7 +245,7 @@
       "unit": "cSt",
       "test_temperature_c": 100,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Same value in DL2-11796.pdf p.2 and SDS DL2-15569.pdf p.8 ('108 cSt @ 100°C').",
       "source": {
         "file": "DL2-15568.pdf",
@@ -264,7 +264,7 @@
       "unit": "g/cm³",
       "test_temperature_c": 15,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Template unit kg/m3; printed g/cm³ kept. SDS Section 9, not labelled typical/specification. Bulletins print 'Density, lbs/gal. 7.90' (no temperature) and 'Specific Gravity @ 15.6/15.6°C 0.948'; same value in other units, not a conflict.",
       "source": {
         "file": "DL2-15569.pdf",
@@ -283,7 +283,7 @@
       "unit": "°C",
       "test_temperature_c": null,
       "method": "PMCC",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Printed as a minimum; same in DL2-11796.pdf p.2 and SDS p.7 ('Closed cup: 135°C (275°F) [Pensky-Martens Minimum]').",
       "source": {
         "file": "DL2-15568.pdf",
@@ -303,7 +303,7 @@
       "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,

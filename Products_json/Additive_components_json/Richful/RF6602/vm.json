@@ -27,7 +27,7 @@
       "unit": null,
       "type": "Polymethacrylate (PMA)",
       "form": null,
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-14874.pdf",
         "page": 1,
@@ -46,7 +46,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "SDS Section 3 component share of the polymer ('Acrylic copolymer').",
         "source": {
           "file": "RF6602.pdf",
@@ -66,7 +66,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "SDS Section 3.",
         "source": {
           "file": "RF6602.pdf",
@@ -89,7 +89,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -115,7 +115,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 1% (5.77) - KV100 at 0% (5.23) in 150N = 0.54. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -140,7 +140,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 3% (6.66) - KV100 at 0% (5.23) in 150N = 1.43. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -165,7 +165,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 5% (8.04) - KV100 at 0% (5.23) in 150N = 2.81. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -190,7 +190,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 1% (11.07) - KV100 at 0% (10.2) in 500N = 0.87. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -215,7 +215,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 3% (12.58) - KV100 at 0% (10.2) in 500N = 2.38. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -240,7 +240,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 5% (14.63) - KV100 at 0% (10.2) in 500N = 4.43. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -265,7 +265,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 1% (6.62) - KV100 at 0% (6.14) in Group Ⅲ 6# = 0.48. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -290,7 +290,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 3% (7.68) - KV100 at 0% (6.14) in Group Ⅲ 6# = 1.54. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -315,7 +315,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 5% (8.91) - KV100 at 0% (6.14) in Group Ⅲ 6# = 2.77. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -340,7 +340,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": "The Shear of Diesel Injector Nozzle",
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "(7.69 - 7.68) / 7.69 x 100 = 0.13 % (dose 6 % in 150N, 30 cycles).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -365,7 +365,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": "The Shear of Diesel Injector Nozzle",
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "(10.24 - 10.0) / 10.24 x 100 = 2.34 % (dose 10 % in 150N, 30 cycles).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -390,7 +390,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": "The Shear of Diesel Injector Nozzle",
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "(10.24 - 9.87) / 10.24 x 100 = 3.61 % (dose 10 % in 150N, 250 cycles).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -419,7 +419,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": "The Shear of Diesel Injector Nozzle",
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Also printed: 30 cycles 10.00 (10 %), 7.68 (6 %). Unit not printed in the table; KV100 assumed cSt per the 'KV100' label - please confirm.",
           "source": {
             "file": "DL2-14874.pdf",
@@ -444,7 +444,7 @@
           "unit": null,
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -469,7 +469,7 @@
           "unit": null,
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -494,7 +494,7 @@
           "unit": null,
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -519,7 +519,7 @@
           "unit": null,
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -542,7 +542,7 @@
         "unit": "°C",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,

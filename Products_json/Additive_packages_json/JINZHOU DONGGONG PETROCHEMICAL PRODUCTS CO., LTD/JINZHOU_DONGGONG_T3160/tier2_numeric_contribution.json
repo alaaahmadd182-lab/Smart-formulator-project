@@ -26,7 +26,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "SH/T0251",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Printed as a minimum.",
       "source": {
         "file": "DL2-11882.pdf",
@@ -45,7 +45,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "Calculated (ASTM D874 factors)",
-      "status": "calculated",
+      "status": "Calculated",
       "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×3.3 (Ca) + 1.24×1.1 (Zn) = 12.5840 → 12.58 wt.%. Mg not reported, taken as 0. Inputs are printed minimums (≥), so the result is a lower bound.",
       "source": {
         "file": null,
@@ -65,7 +65,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T0297",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Printed as a minimum.",
         "source": {
           "file": "DL2-11882.pdf",
@@ -84,7 +84,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -103,7 +103,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "SH/T0226",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Printed as a minimum.",
         "source": {
           "file": "DL2-11882.pdf",
@@ -122,7 +122,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -141,7 +141,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -160,7 +160,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -179,7 +179,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "SH/T0224",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Printed as a minimum.",
         "source": {
           "file": "DL2-11882.pdf",
@@ -198,7 +198,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -218,7 +218,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -237,7 +237,7 @@
       "unit": "cSt",
       "test_temperature_c": 100,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -256,7 +256,7 @@
       "unit": "kg/m3 (or as printed)",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -275,7 +275,7 @@
       "unit": "°C",
       "test_temperature_c": null,
       "method": "GB/T3536",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Printed as a minimum. '(Open)' cup; column 'Quality Index'.",
       "source": {
         "file": "DL2-11882.pdf",
@@ -295,7 +295,7 @@
       "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,

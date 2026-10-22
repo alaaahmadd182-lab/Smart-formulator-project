@@ -34,7 +34,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "SH/T 0251, ASTM D2896",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TDS 'Typical Value' column with index/limit '98-120'. Same value in: RF6079%20Diesel%20Engine%20Oil%20Additive%20Package.pdf p.1 (undated): 'Total Base Number, mgKOH/g 109 ASTM D2896'.",
       "source": {
         "file": "DL2-15535.pdf",
@@ -53,7 +53,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "Calculated (ASTM D874 factors)",
-      "status": "calculated",
+      "status": "Calculated",
       "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×3.44 (Ca) + 1.24×1.5 (Zn) = 13.5560 → 13.56 wt.%. Mg not reported, taken as 0.",
       "source": {
         "file": null,
@@ -73,7 +73,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T 17476, ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '3.10-3.78'. Same value in: RF6079%20Diesel%20Engine%20Oil%20Additive%20Package.pdf p.1 (undated): 'Ca Content, m% 3.44 ASTM D4951'.",
         "source": {
           "file": "DL2-15535.pdf",
@@ -92,7 +92,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -111,7 +111,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T 17476, ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '1.35-1.65'. Same value in: RF6079%20Diesel%20Engine%20Oil%20Additive%20Package.pdf p.1 (undated): 'Zn Content, m% 1.50 ASTM D4951'.",
         "source": {
           "file": "DL2-15535.pdf",
@@ -130,7 +130,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T17476, ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '1.21-1.47'. Same value in: RF6079%20Diesel%20Engine%20Oil%20Additive%20Package.pdf p.1 (undated): 'P Content, m% 1.34 ASTM D4951'.",
         "source": {
           "file": "DL2-15535.pdf",
@@ -149,7 +149,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -168,7 +168,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -187,7 +187,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "SH/T 0656, ASTM D5291",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '0.64-0.88'. Same value in: RF6079%20Diesel%20Engine%20Oil%20Additive%20Package.pdf p.1 (undated): 'N Content, m% 0.76 ASTM D5291'.",
         "source": {
           "file": "DL2-15535.pdf",
@@ -206,7 +206,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -226,7 +226,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -245,7 +245,7 @@
       "unit": "mm²/s",
       "test_temperature_c": 100,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "SDS body is image/vector graphics; read visually. Same value in: DL2-15535.pdf p.1 (undated): 'Kinematic Viscosity (100℃), mm2/s Report 140 GB/T 265, ASTM D445'; RF6079%20Diesel%20Engine%20Oil%20Additive%20Package.pdf p.1 (undated): 'Kinematic Viscosity (100℃), mm2/s 140 ASTM D445'.",
       "source": {
         "file": "DL2-15541.pdf",
@@ -264,7 +264,7 @@
       "unit": "g/cm³",
       "test_temperature_c": 20,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Printed on the 'Relative density' line with unit g/cm³. SDS body is image/vector graphics; read visually. Same value in: DL2-15535.pdf p.1 (undated): 'Density (20℃), kg/m3 980-1020 1000 GB/T 13377, ASTM D4052'; RF6079%20Diesel%20Engine%20Oil%20Additive%20Package.pdf p.1 (undated): 'Density (20℃), kg/m3 1000 ASTM D4052'. reported as specific gravity (printed on the 'Relative density' line).",
       "source": {
         "file": "DL2-15541.pdf",
@@ -283,7 +283,7 @@
       "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "SDS body is image/vector graphics; read visually. Same value in: DL2-15535.pdf p.1 (undated): 'Flash Point (COC), ℃ ≥180 214 GB/T 3536, ASTM D92'; RF6079%20Diesel%20Engine%20Oil%20Additive%20Package.pdf p.1 (undated): 'Flash Point (COC), ℃ 214 ASTM D92'.",
       "source": {
         "file": "DL2-15541.pdf",
@@ -303,7 +303,7 @@
       "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,

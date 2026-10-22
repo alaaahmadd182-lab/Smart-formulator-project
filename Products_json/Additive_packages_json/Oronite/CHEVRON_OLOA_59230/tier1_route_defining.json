@@ -20,7 +20,7 @@
       "package_type": {
         "unit": null,
         "value": "Diesel Engine Oil Additive Package",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13876.pdf",
           "page": 1,
@@ -31,7 +31,7 @@
       "intended_service": {
         "unit": null,
         "value": "It provides excellent deposit and sludge control, oil oxidation resistance, wear and rust control in diesel engines.",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13876.pdf",
           "page": 1,
@@ -48,7 +48,7 @@
         "claim_type": "other",
         "scope": "'OLOA® 59230 is developed to meet API CF-4 performance.' (design intent wording, not 'meets').",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13876.pdf",
           "page": 1,
@@ -62,7 +62,7 @@
         "value": null,
         "unit": null,
         "sae_grade": null,
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
@@ -78,7 +78,7 @@
       "permitted_grades": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -92,7 +92,7 @@
       "limits": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -114,7 +114,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Single 'Dosage' printed; no grade given.",
           "source": {
             "file": "DL2-13876.pdf",
@@ -139,7 +139,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -176,7 +176,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -187,7 +187,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,

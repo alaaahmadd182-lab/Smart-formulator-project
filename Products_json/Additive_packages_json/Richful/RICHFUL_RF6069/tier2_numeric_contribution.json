@@ -31,7 +31,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "ASTM D2896",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TDS 'Typical Value' with 'Index' 93-113.",
       "source": {
         "file": "DL2-15618.pdf",
@@ -50,7 +50,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "Calculated (ASTM D874 factors)",
-      "status": "calculated",
+      "status": "Calculated",
       "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×3.54 (Ca) + 1.24×1.52 (Zn) = 13.9208 → 13.92 wt.%. Mg not reported, taken as 0.",
       "source": {
         "file": null,
@@ -70,7 +70,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' with 'Index' 3.19-3.89.",
         "source": {
           "file": "DL2-15618.pdf",
@@ -89,7 +89,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -108,7 +108,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' with 'Index' 1.37-1.67.",
         "source": {
           "file": "DL2-15618.pdf",
@@ -127,7 +127,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' with 'Index' 1.21-1.49.",
         "source": {
           "file": "DL2-15618.pdf",
@@ -146,7 +146,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -165,7 +165,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -184,7 +184,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D5762",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' with 'Index' 0.44-0.60.",
         "source": {
           "file": "DL2-15618.pdf",
@@ -203,7 +203,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -223,7 +223,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -242,7 +242,7 @@
       "unit": "mm²/s",
       "test_temperature_c": 100,
       "method": "GB/T 265, ASTM D445",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -264,7 +264,7 @@
       "unit": "kg/m3",
       "test_temperature_c": 20,
       "method": "ASTM D4052",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "SDS body is image/vector graphics; read visually. Same value in: DL2-15618.pdf p.1 (undated): 'Density (20℃), kg/m3 961-1001 981 SH/T 0604, ASTM D4052'.",
       "source": {
         "file": "DL2-15619.pdf",
@@ -283,7 +283,7 @@
       "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D92",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "SDS body is image/vector graphics; read visually. Same value in: DL2-15618.pdf p.1 (undated): 'Flash Point (COC), ℃ ≥180 216 GB/T 3536, ASTM D92'.",
       "source": {
         "file": "DL2-15619.pdf",
@@ -303,7 +303,7 @@
       "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -347,7 +347,7 @@
       "value": null,
       "unit": null,
       "property": "kv100",
-      "status": "reported",
+      "status": "Reported",
       "source": "Richful official product page, https://www.richful.com/catalogueDetail.html?id=32 (retrieved 2026-10-17)",
       "notes": null
     }

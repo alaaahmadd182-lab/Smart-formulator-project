@@ -26,7 +26,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "SH/T0251, ASTM D2896",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TDS 'Typical Value' column with index/limit '85-103'.",
       "source": {
         "file": "RF6071L.pdf",
@@ -45,7 +45,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "Calculated (ASTM D874 factors)",
-      "status": "calculated",
+      "status": "Calculated",
       "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×2.35 (Ca) + 1.24×0.81 (Zn) = 8.9944 → 8.99 wt.%. Mg not reported, taken as 0.",
       "source": {
         "file": null,
@@ -65,7 +65,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T17476, ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '2.12-2.59'.",
         "source": {
           "file": "RF6071L.pdf",
@@ -84,7 +84,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -103,7 +103,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T17476, ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '0.73-0.89'.",
         "source": {
           "file": "RF6071L.pdf",
@@ -122,7 +122,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T17476, ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '0.66-0.80'.",
         "source": {
           "file": "RF6071L.pdf",
@@ -141,7 +141,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -160,7 +160,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T 17476, ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '0.038-0.058'.",
         "source": {
           "file": "RF6071L.pdf",
@@ -179,7 +179,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "SH/T 0704, ASTM D5762",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '0.94-1.27'.",
         "source": {
           "file": "RF6071L.pdf",
@@ -198,7 +198,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -218,7 +218,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -237,7 +237,7 @@
       "unit": "mm2/s",
       "test_temperature_c": 100,
       "method": "GB/T265, ASTM D445",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TDS 'Typical Value' column.",
       "source": {
         "file": "RF6071L.pdf",
@@ -256,7 +256,7 @@
       "unit": "kg/m3",
       "test_temperature_c": 20,
       "method": "SH/T 0604, ASTM D4052",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TDS 'Typical Value' column with index/limit '949-989'.",
       "source": {
         "file": "RF6071L.pdf",
@@ -275,7 +275,7 @@
       "unit": "°C",
       "test_temperature_c": null,
       "method": "GB/T3536, ASTM D92",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TDS 'Typical Value' column with index/limit '≥180'. Compared with other documents on the printed minimum.",
       "source": {
         "file": "RF6071L.pdf",
@@ -295,7 +295,7 @@
       "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,

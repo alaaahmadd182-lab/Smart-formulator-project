@@ -20,7 +20,7 @@
       "package_type": {
         "unit": null,
         "value": "performance additive package",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11404.pdf",
           "page": 1,
@@ -31,7 +31,7 @@
       "intended_service": {
         "unit": null,
         "value": "Infineum D3503 is a performance additive package for formulating premium quality diesel engine oils.",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11404.pdf",
           "page": 1,
@@ -48,7 +48,7 @@
         "claim_type": "meets",
         "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 10W-30, 15W-40 at 14.5 mass %. Description: 'Used at the recommended treat rate in combination with approved base stocks and viscosity modifiers, Infineum D3503 provides engine oils meeting API CK-4, FA-4, and applicable OEM performance specifications. Some claims are base stock and viscosity grade dependent.'",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11404.pdf",
           "page": 1,
@@ -63,7 +63,7 @@
         "claim_type": "meets",
         "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 10W-30 at 14.5 mass %. Description: 'Used at the recommended treat rate in combination with approved base stocks and viscosity modifiers, Infineum D3503 provides engine oils meeting API CK-4, FA-4, and applicable OEM performance specifications. Some claims are base stock and viscosity grade dependent.'",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11404.pdf",
           "page": 1,
@@ -77,7 +77,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "10W-30",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11404.pdf",
           "page": 1,
@@ -89,7 +89,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "15W-40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11404.pdf",
           "page": 1,
@@ -105,7 +105,7 @@
       "permitted_grades": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -121,7 +121,7 @@
       ],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-11404.pdf",
         "page": 1,
@@ -143,7 +143,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Column 'Mass %'. Note under table: '~13.3 Volume %'.",
           "source": {
             "file": "DL2-11404.pdf",
@@ -166,7 +166,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Column 'Mass %'. Note under table: '~13.3 Volume %'.",
           "source": {
             "file": "DL2-11404.pdf",
@@ -191,7 +191,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": "Description mentions a viscosity modifier; not named, no dose.",
           "source": {
             "file": null,
@@ -228,7 +228,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -239,7 +239,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
