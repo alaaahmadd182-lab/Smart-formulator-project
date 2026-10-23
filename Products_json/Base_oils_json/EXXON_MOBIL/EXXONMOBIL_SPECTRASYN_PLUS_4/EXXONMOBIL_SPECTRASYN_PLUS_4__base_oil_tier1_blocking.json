@@ -109,21 +109,57 @@
     },
     "ccs": [
       {
-        "value": null,
+        "value": 733,
         "qualifier": null,
         "min": null,
         "max": null,
-        "value_kind": null,
-        "printed_text": null,
-        "unit": "mPa.s",
+        "value_kind": "typical",
+        "printed_text": "Cold Cranking Simulator 2 | -13°F (-25°C) | 733 cP",
+        "unit": "cP",
         "test_temperature_c": -25,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": null,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "'Flow' table, Typical Value (SI) column (p.1); footnote 2 on 'Cold Cranking Simulator': 'Single sample or two sample average determinations'. Sheet note: 'Typical properties: these are not to be construed as specifications.'",
         "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+          "file": "DL2-11381.pdf",
+          "page": 1,
+          "revision_date": "07/17/2007"
+        }
+      },
+      {
+        "value": 804,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Cold Cranking Simulator 2 | -22°F (-30°C) | 804 cP",
+        "unit": "cP",
+        "test_temperature_c": -30,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "'Flow' table, Typical Value (SI) column (p.1); footnote 2 on 'Cold Cranking Simulator': 'Single sample or two sample average determinations'. Sheet note: 'Typical properties: these are not to be construed as specifications.'",
+        "source": {
+          "file": "DL2-11381.pdf",
+          "page": 1,
+          "revision_date": "07/17/2007"
+        }
+      },
+      {
+        "value": 1290,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Cold Cranking Simulator 2 | -31°F (-35°C) | 1290 cP",
+        "unit": "cP",
+        "test_temperature_c": -35,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "'Flow' table, Typical Value (SI) column (p.1); footnote 2 on 'Cold Cranking Simulator': 'Single sample or two sample average determinations'. Sheet note: 'Typical properties: these are not to be construed as specifications.'",
+        "source": {
+          "file": "DL2-11381.pdf",
+          "page": 1,
+          "revision_date": "07/17/2007"
         }
       }
     ]

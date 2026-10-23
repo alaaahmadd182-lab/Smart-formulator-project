@@ -36,17 +36,17 @@
       }
     },
     "kv40": {
-      "value": 5.0,
+      "value": 25.0,
       "qualifier": "Typical",
       "min": null,
       "max": null,
       "value_kind": "single",
-      "printed_text": "5.0",
+      "printed_text": "25.0",
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": "ASTM D445",
       "status": "Reported",
-      "calculation_note": null,
+      "calculation_note": "Corrected 2026-10-23: previously recorded as 5.0 (transcription error). DL2-11333.pdf p.1 prints '104°F (40°C) 25.0 cSt 25.0 mm²/s'; the 2003 family sheet DL2-12401.pdf also gives 25 for SpectraSyn 5.",
       "source": {
         "file": "DL2-11333.pdf",
         "page": 1,
@@ -109,21 +109,21 @@
     },
     "ccs": [
       {
-        "value": null,
+        "value": 2420,
         "qualifier": null,
         "min": null,
         "max": null,
-        "value_kind": null,
-        "printed_text": null,
-        "unit": "mPa.s",
-        "test_temperature_c": -25,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": null,
+        "value_kind": "typical",
+        "printed_text": "Cold Cranking Simulator 2 (-31°F (-35°C)) | 2420 cP",
+        "unit": "cP",
+        "test_temperature_c": -35,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "'Flow' table, Typical Value (SI) column (p.1); footnote 2 on 'Cold Cranking Simulator': 'Single sample or two sample average determinations'. Sheet note: 'Typical properties: these are not to be construed as specifications.'",
         "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+          "file": "DL2-11333.pdf",
+          "page": 1,
+          "revision_date": "07/30/2015"
         }
       }
     ]

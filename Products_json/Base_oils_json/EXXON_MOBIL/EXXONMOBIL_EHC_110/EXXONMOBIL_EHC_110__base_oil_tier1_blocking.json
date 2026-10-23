@@ -122,7 +122,7 @@
         "test_temperature_c": -25,
         "method": null,
         "status": "Missing",
-        "calculation_note": null,
+        "calculation_note": "Not printed: DL2-11785.pdf p.2 gives CCS limits only for EHC 45 (-25 °C), EHC 50 and EHC 65 (-20 °C); the EHC 110 cells of both CCS rows are blank. No value is taken from a neighbouring grade.",
         "source": {
           "file": null,
           "page": null,
