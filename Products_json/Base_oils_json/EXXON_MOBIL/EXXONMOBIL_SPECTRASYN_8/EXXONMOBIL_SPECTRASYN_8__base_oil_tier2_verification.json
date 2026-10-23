@@ -14,23 +14,23 @@
   "fields": {
     "mrv": [
       {
-        "test_temperature_c": null,
+        "test_temperature_c": -40,
         "mrv_viscosity": {
-          "value": null,
+          "value": 16200,
           "qualifier": null,
           "min": null,
           "max": null,
-          "value_kind": null,
-          "printed_text": null,
-          "unit": "mPa.s",
-          "test_temperature_c": null,
-          "method": null,
-          "status": "Missing",
-          "calculation_note": null,
+          "value_kind": "typical",
+          "printed_text": "Apparent Viscosity by Mini-Rotary Viscometer 2 | -40\u00b0F (-40\u00b0C) | 16200 cP",
+          "unit": "cP",
+          "test_temperature_c": -40,
+          "method": "ASTM D4684",
+          "status": "Reported",
+          "calculation_note": "'Flow' table, Typical Value (SI) column (p.1); footnote 2 on 'Apparent Viscosity by Mini-Rotary Viscometer': 'Single sample or two sample average determinations'. Sheet note: 'Typical properties: these are not to be construed as specifications.'",
           "source": {
-            "file": null,
-            "page": null,
-            "revision_date": null
+            "file": "DL2-11335.pdf",
+            "page": 1,
+            "revision_date": "07/30/2015"
           }
         },
         "yield_stress": {
@@ -44,7 +44,7 @@
           "test_temperature_c": null,
           "method": null,
           "status": "Missing",
-          "calculation_note": null,
+          "calculation_note": "Not printed in DL2-11335.pdf; only the MRV apparent viscosity at -40 \u00b0C is given. Not derived from the viscosity.",
           "source": {
             "file": null,
             "page": null,
