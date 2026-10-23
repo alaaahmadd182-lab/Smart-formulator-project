@@ -36,17 +36,17 @@
       }
     },
     "kv40": {
-      "value": 3600,
+      "value": 3100,
       "qualifier": "Typical",
       "min": null,
       "max": null,
       "value_kind": "single",
-      "printed_text": "3600",
+      "printed_text": "3100",
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": "ASTM D445",
       "status": "Reported",
-      "calculation_note": null,
+      "calculation_note": "Corrected 2026-10-23: previously recorded as 3600 (transcription error). DL2-11197.pdf p.1 (scan) 'Kinematic Viscosity' rows print 140°C, Calculated 110 / 100°C 300 / 40°C 3100 mm²/s / 0°C, Calculated 36000 mm²/s.",
       "source": {
         "file": "DL2-11197.pdf",
         "page": 1,
