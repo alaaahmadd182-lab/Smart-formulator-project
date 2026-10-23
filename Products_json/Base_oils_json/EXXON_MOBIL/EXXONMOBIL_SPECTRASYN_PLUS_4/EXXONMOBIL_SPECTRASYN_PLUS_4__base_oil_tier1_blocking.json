@@ -100,11 +100,30 @@
       "test_temperature_c": 15,
       "method": null,
       "status": "Missing",
-      "calculation_note": null,
+      "calculation_note": "Not printed: the sheet prints only a specific gravity (recorded in specific_gravity), which is not converted to density.",
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
+      }
+    },
+    "specific_gravity": {
+      "value": 0.82,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity 2 (60.1°F (15.6°C)) 0.820",
+      "unit": "dimensionless",
+      "reference_condition": "60.1°F (15.6°C)",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": "'Basics' table, Typical Value (English and SI) columns (p.1). Water reference temperature not printed. Footnote 2 on the Specific Gravity row: 'Single sample or two sample average determinations' (p.2). Not converted to density.",
+      "source": {
+        "file": "DL2-11381.pdf",
+        "page": 1,
+        "revision_date": "07/17/2007"
       }
     },
     "ccs": [
