@@ -56,24 +56,30 @@ The script only reads the JSON files; it never changes them. The workbook contai
   statuses, a status that contradicts its value, a value outside its own min/max, and a KV40/KV100
   test temperature that differs from the property.
 - **Status Detail** – every nested status in the JSON, with its original spelling, the source file and the page.
-- **Traceability Audit** – the source of every reported value, with a severity:
+- **Traceability Audit** – the source of every reported value, its issuer type and issuer, with a severity:
 
 | Finding | Severity |
 |---|---|
 | Reported value without source; basis `general_knowledge` | warning |
 | Archive source without page reference | warning |
 | External source not in source registry | warning |
-| External source unreachable / unverified; source on a non-authoritative host | warning |
-| Verified external PDF without page reference | warning |
-| Verified external PDF with page | info |
-| Verified archived copy of a manufacturer document (e.g. a Wayback Machine snapshot), with page | info |
-| Verified external web page (no page numbers) | info |
+| External source unreachable / unverified | warning |
+| Verified independent third-party PDF or web page | warning |
+| Verified manufacturer- or distributor-issued PDF without page reference | warning |
+| Verified manufacturer-issued PDF with page; web page (no page numbers) | info |
+| Verified distributor-issued PDF with page; web page (no page numbers) | info |
+
+  A finding ending in `; archived copy` is a verified web-archive copy (e.g. a Wayback Machine
+  snapshot) of the issuer's document. A verified distributor document is valid evidence, not a
+  warning; the issuer is named so that it is not mistaken for the manufacturer.
 
 ### Source registry
 
 `source_registry.json` lists every external URL cited in `Products_json`: publisher, host
 (`manufacturer`, `distributor`, `archive` for a dated web-archive copy of a manufacturer document
-that is no longer retrievable directly, or `third-party`), format (`pdf` or `html`), title, edition, status
+that is no longer retrievable directly, or `third-party`), issuer (who issued the document:
+`manufacturer`, `distributor` or `third-party` for a party independent of both) and `issued_by`
+(the issuer's name), format (`pdf` or `html`), title, edition, status
 (`verified`, `unreachable` or `unverified`), the date it was checked and, for PDFs, the SHA-256 of the
 retrieved copy. Web pages have no page numbers, so a verified web page is not a warning. A URL must
 be added to the registry, after its content has been checked, before it stops being reported as a

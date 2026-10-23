@@ -33,6 +33,8 @@ REVIEW = (MIXED, CONTRADICTION, OUT_OF_RANGE, TEMP_MISMATCH)
 PROPERTY_TEMPERATURE = {'kv40': 40, 'kv100': 100}
 WARN, INFO = 'warning', 'info'
 REGISTRY_STATUSES = ('verified', 'unreachable', 'unverified')
+# Who issued a registered document; 'host' only says where the retrieved copy lives (e.g. a web archive).
+ISSUERS = {'manufacturer': 'manufacturer-issued', 'distributor': 'distributor-issued', 'third-party': 'independent third-party'}
 
 HEADER_FILL, SUBHEADER_FILL = PatternFill('solid', fgColor='17324D'), PatternFill('solid', fgColor='245B73')
 MIXED_FILL, ERROR_FILL = PatternFill('solid', fgColor='FFE9A8'), PatternFill('solid', fgColor='F4B6B6')
@@ -57,8 +59,10 @@ def audit_trace(ctx, path, node):
     src = node.get('source') if isinstance(node.get('source'), dict) else {}
     file, url, page = src.get('file'), src.get('url'), src.get('page')
     location = file or url
+    reg = sources.get(location) if location else None
     base = [ctx['class'], ctx['record_id'], ctx['file'], ctx['field'], path or '(property)', node.get('status'),
-            cell_text(node.get('value')), cell_text(node.get('basis')), cell_text(location), cell_text(page)]
+            cell_text(node.get('value')), cell_text(node.get('basis')), cell_text(location), cell_text(page),
+            (reg or {}).get('issuer'), (reg or {}).get('issued_by')]
     add = lambda finding, severity, note: trace.append([finding, severity] + base + [note])
     no_page = page in (None, '')
     if node.get('basis') == 'general_knowledge':
@@ -69,22 +73,17 @@ def audit_trace(ctx, path, node):
     elif not str(location).lower().startswith(('http://', 'https://')):
         if no_page:
             add('Archive source without page reference', WARN, 'Archive file recorded but no page number.')
+    elif reg is None:
+        add('External source not in source registry', WARN, 'Add this URL to source_registry.json after checking it.')
+    elif reg['status'] != 'verified':
+        add(f'External source {reg["status"]}', WARN, reg.get('note') or '')
     else:
-        reg = sources.get(location)
-        if reg is None:
-            add('External source not in source registry', WARN, 'Add this URL to source_registry.json after checking it.')
-        elif reg['host'] == 'third-party':
-            add('External source on a non-authoritative host', WARN, reg.get('note') or '')
-        elif reg['status'] != 'verified':
-            add(f'External source {reg["status"]}', WARN, reg.get('note') or '')
-        elif reg['host'] == 'archive':
-            add('Verified archived copy of a manufacturer document', WARN if no_page and reg['format'] == 'pdf' else INFO, reg.get('title') or '')
-        elif reg['format'] == 'html':
-            add('Verified external web page (no page numbers)', INFO, reg.get('title') or '')
-        elif no_page:
-            add('Verified external PDF without page reference', WARN, reg.get('title') or '')
-        else:
-            add('Verified external PDF with page', INFO, reg.get('title') or '')
+        # A verified distributor document is valid evidence; only an independent third party, or a PDF
+        # without a page, needs review.
+        third_party, html = reg['issuer'] == 'third-party', reg['format'] == 'html'
+        form = 'web page (no page numbers)' if html else 'PDF without page reference' if no_page else 'PDF with page'
+        finding = f'Verified {ISSUERS[reg["issuer"]]} {form}' + ('; archived copy' if reg['host'] == 'archive' else '')
+        add(finding, WARN if third_party or (no_page and not html) else INFO, reg.get('note' if third_party else 'title') or '')
 
 
 def review_checks(ctx, path, node, norm):
@@ -288,8 +287,8 @@ def build(input_dir):
 
     ta = wb.create_sheet('Traceability Audit')
     write_rows(ta, [['Finding', 'Severity', 'Material class', 'Record ID', 'JSON file', 'Property (matrix column)', 'Sub-path',
-                     'Status', 'Value', 'Basis', 'Source file / URL', 'Source page', 'Note']] + trace)
-    header(ta, 1, 13); widths(ta, [44, 10, 18, 26, 60, 28, 30, 10, 30, 30, 40, 10, 60]); ta.freeze_panes = 'A2'
+                     'Status', 'Value', 'Basis', 'Source file / URL', 'Source page', 'Issuer type', 'Issued by', 'Note']] + trace)
+    header(ta, 1, 15); widths(ta, [44, 10, 18, 26, 60, 28, 30, 10, 30, 30, 40, 10, 14, 26, 60]); ta.freeze_panes = 'A2'
     ta.auto_filter.ref = ta.dimensions
 
     blocking = [i for i in all_issues if i[1] in BLOCKING]
@@ -344,7 +343,8 @@ def main():
         except (OSError, ValueError, KeyError) as e:
             sys.exit(f'ERROR: cannot read source registry {registry}: {e}')
         for e in entries:
-            if e.get('status') not in REGISTRY_STATUSES or e.get('format') not in ('pdf', 'html') or not e.get('url'):
+            if (e.get('status') not in REGISTRY_STATUSES or e.get('format') not in ('pdf', 'html') or not e.get('url')
+                    or e.get('issuer') not in ISSUERS):
                 sys.exit(f'ERROR: invalid source registry entry: {e.get("url")}')
             sources[e['url']] = e
     if output.exists() and not args.overwrite:
