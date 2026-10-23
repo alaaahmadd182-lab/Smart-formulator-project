@@ -1595,6 +1595,16 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier3) API group and chemistry are not explicitly stated.
 - (tier3) Specific gravity at 15 °C printed as 0,8423 with inconsistent unit g/m3; do not infer density or specific gravity without clarification.
 
+## 210. NYNAS_T_22
+- (tier1) API Group is not printed on DL2-12371.pdf (Nynas PDS, issuing date 2012-08-10); left Missing and not inferred from the naphthenic chemistry. Confirm with Nynas.
+- (tier1) Viscosity index is not printed; left Missing (not calculated from KV40 22.3 / KV100 3.7 cSt).
+- (tier1) No CCS value is printed.
+- (tier1) Only one T 22 document is in the archive (DL2-12371.pdf, 2012-08-10); no grade-specific SDS to reconcile. Confirm that this is the current revision.
+- (tier1) Printed properties with no template field (DL2-12371.pdf p.1, Min / Max / Typical): Viscosity, 100°F, SUS, D 2161: typical 118; Copper Strip, 3 hrs, D 130: max 1, typical 1; Aniline Point, °C, D 611: 68 / 78 / 75; Refractive Index, 20 °C, D 1747: typical 1.494; Colour, D 1500: max 1.0, typical <0.5; Total Acid Number, mg KOH/g, D 974: max 0.03, typical <0.01; Appearance at 15°C, D 4176: Clear and bright / Clear and bright; DMSO extractible compounds, Wt %, IP 346: max 3.0, typical 2.0.
+- (tier2) No Noack volatility or MRV value is printed on DL2-12371.pdf.
+- (tier3) Aromatics left Missing: DL2-12371.pdf prints carbon-type data (IR-method C % typical 15; D 2140 C % 10, C_N % 43, C_P % 47), which are not aromatics in wt.%. The subscript of the two 'C' rows is not legible in the scan.
+- (tier3) Saturates, cloud point and wax content are not printed.
+
 ## Task 3 data-quality audit (2026-10): summary
 
 Every product with open questions or conflicts has a section above; entries repeated identically in several tiers are listed once. Conflict lines carry their type in square brackets. Open questions labelled [Resolved] or [History] record audit history, not unresolved questions.

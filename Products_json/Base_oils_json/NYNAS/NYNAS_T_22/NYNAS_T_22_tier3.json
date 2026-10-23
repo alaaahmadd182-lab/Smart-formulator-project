@@ -1,0 +1,111 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "NYNAS_T_22",
+  "product": {
+    "product_name": "Nynas T 22",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-12371.pdf",
+    "revision_date": "2012-08-10"
+  },
+  "fields": {
+    "sulfur": {
+      "value": 0.06,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Sulphur, %, D 2622: typical 0.06 (no specification limit)",
+      "unit": "%",
+      "test_temperature_c": null,
+      "method": "ASTM D2622",
+      "status": "Reported",
+      "calculation_note": "Read as 0.06 at the scan's native 300 dpi. A small speck sits below the baseline at the lower left of the '0'; it is not a '<' qualifier, which on this sheet is a full-height glyph at mid-line (Colour '<0.5', Total Acid Number '<0.01').",
+      "source": {
+        "file": "DL2-12371.pdf",
+        "page": 1,
+        "revision_date": "2012-08-10"
+      }
+    },
+    "saturates": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "No saturates content printed on DL2-12371.pdf.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "Not recorded: the sheet prints carbon-type data, not an aromatics content in wt.%. 'Hydrocarbon Type Analysis, IR-method: C %' typical 15 and 'Carbon-Type Composition, D 2140': C % 10, C_N % 43, C_P % 47 are shares of carbon atoms. The subscript of the two 'C' rows is not legible in the scan.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "No cloud point printed on DL2-12371.pdf.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "No wax content printed on DL2-12371.pdf.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    "Aromatics left Missing: DL2-12371.pdf prints carbon-type data (IR-method C % typical 15; D 2140 C % 10, C_N % 43, C_P % 47), which are not aromatics in wt.%. The subscript of the two 'C' rows is not legible in the scan.",
+    "Saturates, cloud point and wax content are not printed."
+  ],
+  "conflicts": []
+}

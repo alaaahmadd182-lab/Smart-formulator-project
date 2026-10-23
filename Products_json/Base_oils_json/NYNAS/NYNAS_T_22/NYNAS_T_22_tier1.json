@@ -1,0 +1,144 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "NYNAS_T_22",
+  "product": {
+    "product_name": "Nynas T 22",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-12371.pdf",
+    "revision_date": "2012-08-10"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "Not printed on DL2-12371.pdf. Not inferred from the naphthenic chemistry: other Nynas T-grade sheets print 'API Group V', this sheet does not."
+      },
+      "chemistry": {
+        "value": "Hydrotreated naphthenic base oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12371.pdf",
+          "page": 1,
+          "revision_date": "2012-08-10"
+        },
+        "printed_text": "Header: 'A naphthenic base oil'; description: 'T 22 is a mid viscosity hydrotreated naphthenic oil'; footer: 'Severely Hydrotreated Base Oil'",
+        "value_kind": "supplier description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": null
+      }
+    },
+    "kv40": {
+      "value": 22.3,
+      "qualifier": null,
+      "min": 20.5,
+      "max": 25,
+      "value_kind": "typical",
+      "printed_text": "Viscosity, 40°C, mm²/s (cSt), D 445: specification min 20.5, max 25; typical 22.3",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12371.pdf",
+        "page": 1,
+        "revision_date": "2012-08-10"
+      }
+    },
+    "kv100": {
+      "value": 3.7,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity, 100°C, mm²/s (cSt), D 445: typical 3.7 (no specification limits)",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12371.pdf",
+        "page": 1,
+        "revision_date": "2012-08-10"
+      }
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "Not printed on DL2-12371.pdf; not calculated from KV40/KV100.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.902,
+      "qualifier": null,
+      "min": 0.895,
+      "max": 0.91,
+      "value_kind": "typical",
+      "printed_text": "Density, 15°C, kg/dm³, D 4052: specification min 0.895, max 0.910; typical 0.902",
+      "unit": "kg/dm3",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12371.pdf",
+        "page": 1,
+        "revision_date": "2012-08-10"
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "No CCS value printed on DL2-12371.pdf. The test_temperature_c of -25 is the template default, not a test condition reported by the source.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "API Group is not printed on DL2-12371.pdf (Nynas PDS, issuing date 2012-08-10); left Missing and not inferred from the naphthenic chemistry. Confirm with Nynas.",
+    "Viscosity index is not printed; left Missing (not calculated from KV40 22.3 / KV100 3.7 cSt).",
+    "No CCS value is printed.",
+    "Only one T 22 document is in the archive (DL2-12371.pdf, 2012-08-10); no grade-specific SDS to reconcile. Confirm that this is the current revision.",
+    "Printed properties with no template field (DL2-12371.pdf p.1, Min / Max / Typical): Viscosity, 100°F, SUS, D 2161: typical 118; Copper Strip, 3 hrs, D 130: max 1, typical 1; Aniline Point, °C, D 611: 68 / 78 / 75; Refractive Index, 20 °C, D 1747: typical 1.494; Colour, D 1500: max 1.0, typical <0.5; Total Acid Number, mg KOH/g, D 974: max 0.03, typical <0.01; Appearance at 15°C, D 4176: Clear and bright / Clear and bright; DMSO extractible compounds, Wt %, IP 346: max 3.0, typical 2.0."
+  ],
+  "conflicts": []
+}
