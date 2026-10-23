@@ -13,7 +13,9 @@ Ingestion status:
 - **#6 aramcoPRIMA 600:** ingested 2026-10-23 as `ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_600` (brochure typicals only; Noack cell blank).
 - **#7 aramcoPRIMA 500L:** ingested 2026-10-23 as `ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_500L`. All values are provisional typicals under the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.'
 - **#8 NEXBASE 3030:** ingested 2026-10-23 as `NESTE/NESTE_NEXBASE_3030` (family TDS 'Edition 8', no date; no test methods printed; API Group not stated for this grade).
-- **#9:** not started.
+- **#9 FPCC 70N GII:** ingested 2026-10-23 as `FORMOSA/FORMOSA_FPCC_70N_GII` (no document date printed; '2017 AUG' dates the typical column only; DL2-12109/DL2-12111 confirmed pixel-identical copies of DL2-12108).
+
+All nine queue items are ingested.
 
 Each product gets one folder with three tier files, built from the base-oil templates:
 
