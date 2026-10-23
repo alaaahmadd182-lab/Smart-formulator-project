@@ -113,5 +113,11 @@ Before any of them is used as a source, four things must be verified and recorde
 Until then, the columns `authenticity`, `product_identity`, `document_content` and `accessibility`
 read "not verified" or "not reviewed", and `approved_as_source` is "no".
 
+**Verification batch (2026-10-23).** The 14 records for RF6188, RF2205, RF1107, RF1109C, RF5067, RF1153 and RF8248
+were reviewed. They are hosted by Richful but hidden (status 0) and have no PDF, page or revision date, so they are
+supplementary evidence only; `approved_as_source` stays "no" and none of the seven was ingested. RF1153 has a
+mono/bis-succinimide naming discrepancy, and the Chinese RF8248 record carries RF6602 data. The other 45 materials
+with leads have not been reviewed.
+
 Still open: whether Task 3 requires a JSON for every inventory material even without any source. The
 answer decides whether 0, 20 (category C) or up to 190 more JSON products are needed.
