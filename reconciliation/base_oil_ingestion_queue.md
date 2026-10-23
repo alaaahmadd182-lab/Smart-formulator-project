@@ -11,7 +11,8 @@ Ingestion status:
 - **#4 aramcoPRIMA 100:** ingested 2026-10-23 as `ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_100` (brochure typicals only; Noack and CCS at -20 °C cells blank).
 - **#5 aramcoPRIMA 220:** ingested 2026-10-23 as `ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_220` (brochure typicals only; saturates and CCS at -25 °C cells blank).
 - **#6 aramcoPRIMA 600:** ingested 2026-10-23 as `ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_600` (brochure typicals only; Noack cell blank).
-- **#7 to #9:** not started.
+- **#7 aramcoPRIMA 500L:** ingested 2026-10-23 as `ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_500L`. All values are provisional typicals under the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.'
+- **#8 to #9:** not started.
 
 Each product gets one folder with three tier files, built from the base-oil templates:
 
