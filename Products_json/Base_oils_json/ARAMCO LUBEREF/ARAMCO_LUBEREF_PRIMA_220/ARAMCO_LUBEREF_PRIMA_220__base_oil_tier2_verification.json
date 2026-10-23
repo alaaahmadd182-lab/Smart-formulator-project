@@ -64,10 +64,10 @@
       "value_kind": "typical",
       "printed_text": "Noack Volatility, wt%, D 5800 (B): 10.3 (column 'aramcoPRIMA 220 / Typical')",
       "unit": "wt%",
-      "test_temperature_c": 250,
+      "test_temperature_c": null,
       "method": "ASTM D5800 (B)",
       "status": "Reported",
-      "calculation_note": "The test temperature is not printed; test_temperature_c 250 is the template default (the standard condition of ASTM D5800), not a condition stated by the source.",
+      "calculation_note": "The test temperature is not printed; test_temperature_c is null because the source states no test condition.",
       "source": {
         "file": "DL2-11773.pdf",
         "page": 1,

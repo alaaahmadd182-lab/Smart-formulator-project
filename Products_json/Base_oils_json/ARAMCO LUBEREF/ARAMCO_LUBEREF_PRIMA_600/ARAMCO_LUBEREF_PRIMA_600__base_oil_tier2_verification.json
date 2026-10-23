@@ -64,10 +64,10 @@
       "value_kind": null,
       "printed_text": null,
       "unit": "wt.% loss",
-      "test_temperature_c": 250,
+      "test_temperature_c": null,
       "method": null,
       "status": "Missing",
-      "calculation_note": "The 'Noack Volatility, wt%, D 5800 (B)' cell of the aramcoPRIMA 600 column is blank. The test_temperature_c of 250 is the template default, not a condition reported by the source.",
+      "calculation_note": "The 'Noack Volatility, wt%, D 5800 (B)' cell of the aramcoPRIMA 600 column is blank. test_temperature_c is null because the source reports no test condition.",
       "source": {
         "file": null,
         "page": null,

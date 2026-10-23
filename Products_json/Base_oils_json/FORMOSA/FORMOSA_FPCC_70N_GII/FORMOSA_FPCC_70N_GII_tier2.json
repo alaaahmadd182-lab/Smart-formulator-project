@@ -61,10 +61,10 @@
       "value_kind": null,
       "printed_text": null,
       "unit": "wt.% loss",
-      "test_temperature_c": 250,
+      "test_temperature_c": null,
       "method": null,
       "status": "Missing",
-      "calculation_note": "The 'Evaporative Loss, Noack, wt%, max, ASTM D-5800' row is '-' for 70N in both the Specification and Typical columns. The test_temperature_c of 250 is the template default, not a condition reported by the source.",
+      "calculation_note": "The 'Evaporative Loss, Noack, wt%, max, ASTM D-5800' row is '-' for 70N in both the Specification and Typical columns. test_temperature_c is null because the source reports no test condition.",
       "source": {
         "file": null,
         "page": null,
