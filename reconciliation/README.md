@@ -15,34 +15,34 @@ changed.
 
 ## Counts
 
-Current state, after the ingestion of NYNAS T 22 (pilot), NYNAS T 110, aramcoPRIMA 150 and aramcoPRIMA 100:
+Current state, after the ingestion of NYNAS T 22 (pilot), NYNAS T 110, aramcoPRIMA 150, aramcoPRIMA 100 and aramcoPRIMA 220:
 
 | | Base oils | Additive packages | Additive components | Total |
 |---|---|---|---|---|
 | Inventory materials | 202 | 130 | 121 | **453** |
-| JSON product folders | 176 | 77 | 3 | **256** |
-| Inventory materials represented by JSON (category A) | 175 | 77 | 3 | **255** |
-| Inventory materials without JSON | 27 | 53 | 118 | **198** |
-| of which: archived supplier datasheet (category B) | 5 | 0 | 0 | **5** |
+| JSON product folders | 177 | 77 | 3 | **257** |
+| Inventory materials represented by JSON (category A) | 176 | 77 | 3 | **256** |
+| Inventory materials without JSON | 26 | 53 | 118 | **197** |
+| of which: archived supplier datasheet (category B) | 4 | 0 | 0 | **4** |
 | of which: mentioned only in other documents (category C) | 0 | 3 | 20 | **23** |
 | of which: no archived source located (category D) | 22 | 50 | 98 | **170** |
 
 At the reconciliation of 2026-10-23 (commit `da4f2b3`), the counts were 252 folders, 251 represented
 materials, 202 without JSON and 9 in category B. NYNAS T 22 (`BO-NYNAS-NYNAS-T-22`), NYNAS T 110
-(`BO-NYNAS-NYNAS-T-110`), aramcoPRIMA 150 (`BO-ARAMCO-ARAMCOPRIMA-150N`) and aramcoPRIMA 100
-(`BO-ARAMCO-ARAMCOPRIMA-100`) have since moved from category B to A; their CSV rows record this in `reconciliation_history`.
+(`BO-NYNAS-NYNAS-T-110`), aramcoPRIMA 150 (`BO-ARAMCO-ARAMCOPRIMA-150N`), aramcoPRIMA 100
+(`BO-ARAMCO-ARAMCOPRIMA-100`) and aramcoPRIMA 220 (`BO-ARAMCO-ARAMCOPRIMA-220`) have since moved from category B to A; their CSV rows record this in `reconciliation_history`.
 
 `Coverage_Matrix.xlsx` and the scope table in the main `README.md` still describe the 252 products
 before the pilot, until the coverage workbook is regenerated.
 
-The 256 JSON folders represent 255 inventory materials because two S-OIL folders, `S_OIL_ULTRA_S_8` and
+The 257 JSON folders represent 256 inventory materials because two S-OIL folders, `S_OIL_ULTRA_S_8` and
 `S_OIL_ARAMCO_ULTRA_8`, both correspond to `BO-S-OIL-ULTRA-S-8` (see `identity_review.md`, ID-01). Every
 JSON folder corresponds to an inventory material; no JSON product is missing from the inventory.
 
 ## Categories (column `category`, mutually exclusive)
 
-- **A JSON present** (255; 251 at the reconciliation): at least one `Products_json` folder represents the material.
-- **B no JSON - archived supplier datasheet** (5; 9 at the reconciliation): a supplier document in `Manual + Data to share.zip`
+- **A JSON present** (256; 251 at the reconciliation): at least one `Products_json` folder represents the material.
+- **B no JSON - archived supplier datasheet** (4; 9 at the reconciliation): a supplier document in `Manual + Data to share.zip`
   prints grade-level values for this material, in its own data sheet or in its own column of a
   multi-grade table.
 - **C no JSON - mentioned only in other documents** (23): the material is named only inside another
@@ -79,7 +79,7 @@ with JSON, but those siblings were built from other documents, not from the same
 
 1. **Category B, the 9 queued base oils** in `base_oil_ingestion_queue.md`:
    - Nynas T 22 (ingested 2026-10-23 as a pilot) and Nynas T 110 (ingested 2026-10-23), both from product-specific data sheets;
-   - aramcoPRIMA 150 (priority A) and aramcoPRIMA 100 (both ingested 2026-10-23), then aramcoPRIMA 220, 600 and 500L ("*" typicals);
+   - aramcoPRIMA 150 (priority A), aramcoPRIMA 100 and aramcoPRIMA 220 (all ingested 2026-10-23), then aramcoPRIMA 600 and 500L ("*" typicals);
    - NEXBASE 3030;
    - FPCC 70N GII.
 2. **Manual decisions in `identity_review.md`** that affect existing JSON (ID-01 duplicate, ID-12 and
@@ -110,4 +110,4 @@ Until then, the columns `authenticity`, `product_identity`, `document_content` a
 read "not verified" or "not reviewed", and `approved_as_source` is "no".
 
 Still open: whether Task 3 requires a JSON for every inventory material even without any source. The
-answer decides whether 5, 28 (B + C) or up to 198 more JSON products are needed.
+answer decides whether 4, 27 (B + C) or up to 197 more JSON products are needed.
