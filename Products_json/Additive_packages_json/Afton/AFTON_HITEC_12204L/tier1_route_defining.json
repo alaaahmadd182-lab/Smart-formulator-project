@@ -51,7 +51,7 @@
         "unit": null,
         "designation": "API CI-4 Plus",
         "claim_type": "approval",
-        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'. Recommended Dosage text (p.2): 'HiTEC ®12204L meets the requirements of API CI-4 Plus SAE 15W-40 in a range of base stocks' (spacing as printed).",
         "evidence_class": "Supplier claim",
         "status": "Reported",
         "source": {
@@ -405,7 +405,7 @@
           "test_temperature_c": null,
           "method": null,
           "status": "Reported",
-          "calculation_note": "Recommended Dosage text (p.2), with 'HiTEC® 12204L meets the requirements of API CI-4 Plus SAE 15W-40 in a range of base stocks'; the approvals row prints 'HiTEC® 12204L @ 14.2%'. Printed '% wt'. Base oil not specified. Single recommended rate, not labelled typical or specification.",
+          "calculation_note": "Recommended Dosage text (p.2), with 'HiTEC ®12204L meets the requirements of API CI-4 Plus SAE 15W-40 in a range of base stocks' (spacing as printed); the approvals row prints 'HiTEC® 12204L @ 14.2%'. Printed '% wt'. Base oil not specified. Single recommended rate, not labelled typical or specification.",
           "source": {
             "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
             "page": 2,
@@ -494,32 +494,11 @@
     "Claims printed for the equivalent route only: DL2-14639.pdf p.2 (08/18) marks API SL, API SJ and DDC 93K214 in the row '10.3%¹ | 4.2% HiTEC® 12250 | SAE 15W-40 | GP II'. These columns do not exist in the 06/17 PDS approvals band, so they are not added to HiTEC® 12204L's claims and not treated as conflicts (columns absent, not contradicted). Confirm with Afton whether they apply to HiTEC® 12204L.",
     "MAN 3275: the PDS footnote reads '*:Equivalent performance. MAN 3275 now obsolete' (claim_type 'other'); DL2-14639.pdf footnote 5 for the equivalent route reads 'Meets requirements of (MRO)'. The wordings differ but do not contradict each other; not recorded as a conflict.",
     "Deutz labels are recorded as printed in the PDS: 'Deutz DDQ-III' and 'Deutz DCQ-II'. DL2-14639.pdf prints 'Deutz DQC- III' and 'Deutz DQC- II'. Probably the same specifications; not confirmed, not normalized.",
-    "Claim type: all 20 columns sit under the printed header 'Approvals', including API CI-4 Plus, API CI-4, API CH-4 and ACEA E7-16, so claim_type = 'approval' (same reading as AFTON_HITEC_12200). Please confirm this reading.",
+    "Claim type: all 20 columns sit under the printed header 'Approvals', including API CI-4 Plus, API CI-4, API CH-4 and ACEA E7-16, so claim_type = 'approval' (same reading as AFTON_HITEC_12200); MAN 3275 is 'other' (equivalent performance). These are Afton-listed claims (evidence_class 'Supplier claim'): the PDS prints no approval, licence or certificate numbers and no third-party confirmation, so no independent certification is implied. The qualifiers 'p: MB package approval' (MB 228.3) and '*:Equivalent performance. MAN 3275 now obsolete' have no schema field and are kept in each claim's scope. For API CI-4 Plus the text says 'meets the requirements of'. Please confirm this reading.",
+    "MB 228.3 approval scope is route-specific (not recorded as a conflict): the PDS (06/17, p.2) marks MB 228.3 'p' ('p: MB package approval') in the row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%', i.e. for HiTEC® 12204L used alone. DL2-14639.pdf (08/18, p.2) shows a plain dot, without 'P' ('MB Package Approval', used in other rows), in the MB 228.3 column of the row '10.3%¹ | 4.2% HiTEC® 12250 | SAE 15W-40 | GP II', i.e. for the two-product combination HiTEC® 12200 + HiTEC® 12250. Footnote 1 ('14.2% HiTEC® 12204L = 10.3% HiTEC® 12200 + 4.2% HiTEC® 12250') and the PDS sentence ('The performance level of HiTEC® 12204L can also be achieved...') state equivalent composition or performance, not identical approval status; the two markings describe different formulation routes and are not shown to contradict each other. Confirm with Afton whether the MB package approval also covers the HiTEC 12200 + 12250 route.",
     "Intended service, permitted base oils, route restrictions, required co-components and published formulations are not printed; left Missing. The bar charts on p.2 (Mack T-12, Cat 1K, Seq IIIF, Mack T-11 '*Based on % Soot at 12 cSt' vs 'API CI-4 Plus Limit' / 'Reserve') have no numeric values, and the field-test text ('field tested in harsh conditions to 50,000km/31,000 miles') refers to the HiTEC 12200 family; neither is recorded."
   ],
-  "conflicts": [
-    {
-      "conflict_type": "conflicting values between different documents",
-      "field": "tier1.performance_claims (MB 228.3)",
-      "values": [
-        {
-          "value": "MB package approval",
-          "printed_text": "'p' in the MB 228.3 column, row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'; legend 'p: MB package approval'",
-          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
-          "page": 2,
-          "revision_date": "06/17"
-        },
-        {
-          "value": "approval (no P mark)",
-          "printed_text": "plain dot in the MB 228.3 column, row '10.3%¹ | 4.2% HiTEC® 12250 | SAE 15W-40 | GP II' (footnote 1 '14.2% HiTEC® 12204L = 10.3% HiTEC® 12200 + 4.2% HiTEC® 12250'); other rows carry 'P MB Package Approval'",
-          "file": "DL2-14639.pdf",
-          "page": 2,
-          "revision_date": "08/18"
-        }
-      ],
-      "note": "HiTEC 12204L PDS 06/17 vs HiTEC 12200 bulletin 08/18 (equivalent two-product route). The field records the PDS marking, which is the product's own document; the DL2-14639 marking refers to the 10.3% + 4.2% route. Not resolved; confirm with Afton."
-    }
-  ],
+  "conflicts": [],
   "external_fill_notes": [
     {
       "value": null,
