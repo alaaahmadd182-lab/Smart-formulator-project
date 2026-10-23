@@ -1634,6 +1634,16 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier2) The Noack volatility cell of the aramcoPRIMA 100 column is blank (neighbouring grades have values); left Missing. [fields: noack_volatility]
 - (tier3) Cloud point and wax content are not printed on DL2-11773.pdf. [fields: cloud_point, wax_content]
 
+## 214. ARAMCO_LUBEREF_PRIMA_220
+- (tier1) API Group 'Group II' is taken from the brochure table heading, printed at the top left of the pp. 8-9 table and covering all eight aramcoPRIMA columns including aramcoPRIMA 220 on page 9 (family-level evidence); no grade-specific statement is printed. Confirm with Saudi Aramco / Luberef. [fields: api_group_chemistry.api_group]
+- (tier1) Chemistry is not printed on DL2-11773.pdf, and no aramcoPRIMA 220 SDS is in the archive. [fields: api_group_chemistry.chemistry]
+- (tier1) All values are brochure typicals; no guaranteed specification for aramcoPRIMA 220 is in the archive (the specification sheet DL2-12172.pdf covers aramcoPRIMA 70, 110, 230 and 500 only). The aramcoPRIMA 220 column carries no '*', so the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' does not apply to it. No issuing date is printed; the PDF metadata title 'Base oils Dubai Catalog 27Sep2018 FINALout-LOW' is not a printed date. The issuing company is not named on the page. [fields: kv40, kv100, viscosity_index, density, ccs[]]
+- (tier1) The 'Cranking Viscosity @ -25°C' cell of the aramcoPRIMA 220 column is blank; only the -20 °C value (3,000 mPa-s) is printed. [fields: ccs[]]
+- (tier1) Printed properties with no template field (DL2-11773.pdf, column 'aramcoPRIMA 220 / Typical'): Appearance, Visual: C&B; Color ASTM, D 1500: L 0.5. Blank cells in this column: Brookfield @ -40°C (D 2983), Saybolt Color (D 156), Copper Corrosion 100°C 3hrs (D 130), Tan mgKOH/gm (D 974). [fields: (no template field)]
+- (tier2) No MRV value is printed on DL2-11773.pdf. [fields: mrv[].mrv_viscosity, mrv[].yield_stress]
+- (tier3) The saturates cell of the aramcoPRIMA 220 column is blank (neighbouring grades have values); left Missing and not derived from the printed aromatics. [fields: saturates]
+- (tier3) Cloud point and wax content are not printed on DL2-11773.pdf. [fields: cloud_point, wax_content]
+
 ## Task 3 data-quality audit (2026-10): summary
 
 Every product with open questions or conflicts has a section above; entries repeated identically in several tiers are listed once. Conflict lines carry their type in square brackets. Open questions labelled [Resolved] or [History] record audit history, not unresolved questions.
