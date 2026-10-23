@@ -1,0 +1,111 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "FORMOSA_FPCC_70N_GII",
+  "product": {
+    "product_name": "FPCC 70N GII",
+    "supplier": "Formosa Petrochemical Corporation",
+    "document_type": "Product specification",
+    "source_file": "DL2-12108.jpeg",
+    "revision_date": null
+  },
+  "fields": {
+    "sulfur": {
+      "value": 3,
+      "qualifier": "<",
+      "min": null,
+      "max": 10,
+      "value_kind": "typical",
+      "printed_text": "Sulfur, ppm, max, ASTM D-2622: Specification 10; Typical <3 (columns 'Specification 70N' and 'Typical (2017 AUG) 70N')",
+      "unit": "ppm",
+      "test_temperature_c": null,
+      "method": "ASTM D2622",
+      "status": "Reported",
+      "calculation_note": "Typical value from the column headed 'Typical (2017 AUG)'; '2017 AUG' dates the typical data, not the document. The typical is printed '<3' (below 3 ppm), not an exact value.",
+      "source": {
+        "file": "DL2-12108.jpeg",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "saturates": {
+      "value": 100,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Saturates, wt%, min, ASTM D-7419: Specification 'Report'; Typical 100 (columns 'Specification 70N' and 'Typical (2017 AUG) 70N')",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D7419",
+      "status": "Reported",
+      "calculation_note": "Typical value from the column headed 'Typical (2017 AUG)'; '2017 AUG' dates the typical data, not the document. Printed as '100' without a qualifier; the specification is 'Report' (no minimum given for 70N).",
+      "source": {
+        "file": "DL2-12108.jpeg",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": 0,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Aromatics, wt%, max, ASTM D-7419: Specification 'Report'; Typical 0 (columns 'Specification 70N' and 'Typical (2017 AUG) 70N')",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D7419",
+      "status": "Reported",
+      "calculation_note": "Typical value from the column headed 'Typical (2017 AUG)'; '2017 AUG' dates the typical data, not the document. Printed as '0' without a qualifier; the specification is 'Report' (no maximum given for 70N).",
+      "source": {
+        "file": "DL2-12108.jpeg",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "No cloud point printed on DL2-12108.jpeg.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "No wax content printed on DL2-12108.jpeg.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    "Saturates and aromatics typicals are printed as exactly '100' and '0' wt% (ASTM D-7419), without the '>'/'<' qualifiers used for 150N and 500N ('>99.80', '<0.20'); recorded as printed, not normalized. Confirm with the supplier.",
+    "Cloud point and wax content are not printed on DL2-12108.jpeg."
+  ],
+  "conflicts": []
+}

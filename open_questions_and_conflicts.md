@@ -1676,6 +1676,18 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier2) The flash-point method (open or closed cup) is not printed; flash_method left null.
 - (tier3) Sulfur, saturates, aromatics, cloud point and wax content are not printed on DL2-10962.pdf.
 
+## 218. FORMOSA_FPCC_70N_GII
+- (tier1) Source identity: DL2-12108.jpeg, DL2-12109.jpeg and DL2-12111.jpeg are pixel-identical copies of one image (bytes differ only in embedded EXIF titles 'FORMOSA 500N', '150N' and 'FORMOSA 70N', which are not printed); they count as one source, cited as DL2-12108.jpeg.
+- (tier1) The image prints 'FPCC' only (title 'Specification of FPCC API GII Base Oil'); the supplier is recorded as Formosa Petrochemical Corporation per the archive folder and inventory. Confirm with the supplier.
+- (tier1) No document revision or issue date is printed. '2017 AUG' appears only in the column heading 'Typical (2017 AUG)' and dates the typical data; revision_date left null.
+- (tier1) API Group II is taken from the title covering all three grades (family-level evidence). The typical viscosity index of 70N is 88 and its VI specification is 'Report'.
+- (tier1) Chemistry is not printed, and no FPCC 70N SDS is in the archive. No CCS value is printed.
+- (tier1) Printed properties with no template field (DL2-12108.jpeg, 70N): Color, max, ASTM D-1500: Specification +0.5, Typical <0.5; Water Content, ppmw, max, ASTM D-6304: Specification 50, Typical 32.60; Appearance, Visual: B & C / B & C ('* B&C - Bright and Clear @ ambient air temperature').
+- (tier2) Noack volatility is printed '-' for 70N (specification and typical); left Missing.
+- (tier2) No MRV value is printed on DL2-12108.jpeg.
+- (tier3) Saturates and aromatics typicals are printed as exactly '100' and '0' wt% (ASTM D-7419), without the '>'/'<' qualifiers used for 150N and 500N ('>99.80', '<0.20'); recorded as printed, not normalized. Confirm with the supplier.
+- (tier3) Cloud point and wax content are not printed on DL2-12108.jpeg.
+
 ## Task 3 data-quality audit (2026-10): summary
 
 Every product with open questions or conflicts has a section above; entries repeated identically in several tiers are listed once. Conflict lines carry their type in square brackets. Open questions labelled [Resolved] or [History] record audit history, not unresolved questions.
