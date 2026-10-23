@@ -10,7 +10,8 @@ Ingestion status:
 - **#3 aramcoPRIMA 150:** ingested 2026-10-23 as `ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_150` (brochure typicals only; no specification sheet in the archive).
 - **#4 aramcoPRIMA 100:** ingested 2026-10-23 as `ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_100` (brochure typicals only; Noack and CCS at -20 °C cells blank).
 - **#5 aramcoPRIMA 220:** ingested 2026-10-23 as `ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_220` (brochure typicals only; saturates and CCS at -25 °C cells blank).
-- **#6 to #9:** not started.
+- **#6 aramcoPRIMA 600:** ingested 2026-10-23 as `ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_600` (brochure typicals only; Noack cell blank).
+- **#7 to #9:** not started.
 
 Each product gets one folder with three tier files, built from the base-oil templates:
 
