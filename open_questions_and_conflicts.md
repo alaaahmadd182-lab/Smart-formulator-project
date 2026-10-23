@@ -1664,6 +1664,18 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier3) Sulfur, saturates and aromatics are provisional typicals under the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' [fields: sulfur, saturates, aromatics]
 - (tier3) Cloud point and wax content are not printed on DL2-11773.pdf. [fields: cloud_point, wax_content]
 
+## 217. NESTE_NEXBASE_3030
+- (tier1) DL2-10962.pdf is a Neste Oil NEXBASE family technical data sheet ('Edition 8') with no calendar revision date; no date inferred. Only the 'NESTE OIL' logo identifies the issuer; no legal entity is printed.
+- (tier1) API Group is not printed for NEXBASE 3030: the sheet attributes 'ACEA Group III' only to 'the other grades' (not 3020 and 3030). Left Missing; confirm with Neste.
+- (tier1) Chemistry is family-level evidence (the NEXBASE description), not a grade-specific statement.
+- (tier1) No test methods are printed in the DL2-10962.pdf table; method left null for every value. No NEXBASE 3030 SDS or grade-specific TDS is in the archive.
+- (tier1) Viscosity at 40 °C and density at 15 °C have typical values only (spec printed as '_'). No CCS value is printed; the 'Viscosity at -20 °C' row (kinematic) is '–' for NEXBASE 3030.
+- (tier1) Printed properties with no template field (DL2-10962.pdf, column 'Nexbase 3030', Spec / Typ): Appearance: pass / (1), footnote '1) Clear and bright liquid on visual observance'; Colour: ≤ 0.5 / < 0.5 (no scale or method printed); Viscosity at -20 °C, mm²/s: – / –.
+- (tier2) Noack volatility is printed as '–' for NEXBASE 3030 (values are given only for 3043-3080); left Missing.
+- (tier2) No MRV value is printed on DL2-10962.pdf.
+- (tier2) The flash-point method (open or closed cup) is not printed; flash_method left null.
+- (tier3) Sulfur, saturates, aromatics, cloud point and wax content are not printed on DL2-10962.pdf.
+
 ## Task 3 data-quality audit (2026-10): summary
 
 Every product with open questions or conflicts has a section above; entries repeated identically in several tiers are listed once. Conflict lines carry their type in square brackets. Open questions labelled [Resolved] or [History] record audit history, not unresolved questions.
