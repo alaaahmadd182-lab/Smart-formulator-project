@@ -671,6 +671,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (general) Physical properties printed for HiTEC® 8767B (no field in the component template; DL2-10367.pdf p.2, 'Typical Characteristics'): Density at 15°C, g/ml 0.918; Flash Point, °C (PMCC) 135 min.; Kinematic Viscosity at 100°c, mm2/s 187.
 - (general) Treat rate: only one dose (3.3% in the 8766B SAE 10W-40 route) is printed; no min/max/typical range for 8767B on its own.
 - (general) No old Product_JSON file exists for HiTEC 8767B; folder name AFTON_HITEC_8767B created per the naming rule.
+- (general) [History] VM fields (polymer_chemistry, active_polymer, treat_range_by_sae_grade, thickening_response, shear_stability, post_shear_blend_behaviour, dissolution_blend_temperature) were 'Not Applicable' ('This product is not a viscosity modifier — field does not apply'). Changed to Missing (2026-10 audit): the function of HiTEC® 8767B is not stated in any reviewed source (DL2-10367.pdf only gives its typical characteristics and a 3.3% dose in the 8766B SAE 10W-40 route; no Afton 8767B bulletin was found), so it is not established that the product is not a viscosity modifier. Confirm the function of HiTEC® 8767B with Afton.
 
 ## 79. LUBRIZOL_CV6320
 - (general) CV6320 is filed under 'Additive packages/LUBRIZOL' but is a component ('Ashless Antiwear Performance Booster', DL2-12015.pdf p.1). Not a VM or PPD, so only general.json is created.
@@ -1608,5 +1609,5 @@ Every product with open questions or conflicts has a section above; entries repe
 - Conflicting values between different documents (for example TDS vs SDS) are genuine disagreements; the PURITY L65 viscosity-index entry is stored as text and counted here as [untyped].
 
 ### Documentation uncertainties and corrections
-- Open questions tagged '(2026-10 audit)' record corrected or re-sourced values with their previous text, including: ADNOC ADbase 4/6/8 chemistry; S-OIL Ultra-S 2-8 and P-20; YUBASE 3/4/5/6 API Group and YUBASE 4/6 chemistry; PURITY L35-L65 API Group (now Missing: the grade-level brochure could not be inspected) and L40/L45/L50 CCS; the 37 additive-package permitted-base-oil fields; Lubrizol CV6320 element markers (now Missing); Richful RF6602 function-specific markers (now Missing); S-OIL Super S-8 pour point.
+- Open questions tagged '(2026-10 audit)' record corrected or re-sourced values with their previous text, including: ADNOC ADbase 4/6/8 chemistry; S-OIL Ultra-S 2-8 and P-20; YUBASE 3/4/5/6 API Group and YUBASE 4/6 chemistry; PURITY L35-L65 API Group (now Missing: the grade-level brochure could not be inspected) and L40/L45/L50 CCS; the 37 additive-package permitted-base-oil fields; Lubrizol CV6320 element markers (now Missing); Richful RF6602 function-specific markers (now Missing); Afton HiTEC 8767B VM fields (now Missing); S-OIL Super S-8 pour point.
 - Sources outside the archive are listed, with their verification status, in source_registry.json.

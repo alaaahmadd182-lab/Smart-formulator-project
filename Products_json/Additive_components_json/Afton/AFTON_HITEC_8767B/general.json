@@ -264,14 +264,14 @@
       "unit": null,
       "test_temperature_c": null,
       "method": null,
-      "status": "Not Applicable",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
-      "notes": "This product is not a viscosity modifier — field does not apply"
+      "notes": "Not printed for HiTEC® 8767B in DL2-10367.pdf. Previously 'Not Applicable' ('This product is not a viscosity modifier — field does not apply'). Superseded (2026-10 audit): the VM block applies only to viscosity modifiers, but no reviewed source states the function of HiTEC® 8767B (function and component_subtype are Missing/null), so 'not a viscosity modifier' was inferred, not printed; the field is Missing until the function is confirmed."
     },
     "dissolution_blend_temperature": {
       "value": null,
@@ -283,14 +283,14 @@
       "unit": null,
       "test_temperature_c": null,
       "method": null,
-      "status": "Not Applicable",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
-      "notes": "This product is not a viscosity modifier — field does not apply"
+      "notes": "Not printed for HiTEC® 8767B in DL2-10367.pdf. Previously 'Not Applicable' ('This product is not a viscosity modifier — field does not apply'). Superseded (2026-10 audit): the VM block applies only to viscosity modifiers, but no reviewed source states the function of HiTEC® 8767B (function and component_subtype are Missing/null), so 'not a viscosity modifier' was inferred, not printed; the field is Missing until the function is confirmed."
     },
     "polymer_chemistry": {
       "value": null,
@@ -302,14 +302,14 @@
       "unit": null,
       "test_temperature_c": null,
       "method": null,
-      "status": "Not Applicable",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
-      "notes": "This product is not a viscosity modifier — field does not apply"
+      "notes": "Not printed for HiTEC® 8767B in DL2-10367.pdf. Previously 'Not Applicable' ('This product is not a viscosity modifier — field does not apply'). Superseded (2026-10 audit): the VM block applies only to viscosity modifiers, but no reviewed source states the function of HiTEC® 8767B (function and component_subtype are Missing/null), so 'not a viscosity modifier' was inferred, not printed; the field is Missing until the function is confirmed."
     },
     "post_shear_blend_behaviour": {
       "value": null,
@@ -321,14 +321,14 @@
       "unit": null,
       "test_temperature_c": null,
       "method": null,
-      "status": "Not Applicable",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
-      "notes": "This product is not a viscosity modifier — field does not apply"
+      "notes": "Not printed for HiTEC® 8767B in DL2-10367.pdf. Previously 'Not Applicable' ('This product is not a viscosity modifier — field does not apply'). Superseded (2026-10 audit): the VM block applies only to viscosity modifiers, but no reviewed source states the function of HiTEC® 8767B (function and component_subtype are Missing/null), so 'not a viscosity modifier' was inferred, not printed; the field is Missing until the function is confirmed."
     },
     "shear_stability": {
       "value": null,
@@ -340,14 +340,14 @@
       "unit": null,
       "test_temperature_c": null,
       "method": null,
-      "status": "Not Applicable",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
-      "notes": "This product is not a viscosity modifier — field does not apply"
+      "notes": "Not printed for HiTEC® 8767B in DL2-10367.pdf. Previously 'Not Applicable' ('This product is not a viscosity modifier — field does not apply'). Superseded (2026-10 audit): the VM block applies only to viscosity modifiers, but no reviewed source states the function of HiTEC® 8767B (function and component_subtype are Missing/null), so 'not a viscosity modifier' was inferred, not printed; the field is Missing until the function is confirmed."
     },
     "thickening_response": {
       "value": null,
@@ -359,14 +359,14 @@
       "unit": null,
       "test_temperature_c": null,
       "method": null,
-      "status": "Not Applicable",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
-      "notes": "This product is not a viscosity modifier — field does not apply"
+      "notes": "Not printed for HiTEC® 8767B in DL2-10367.pdf. Previously 'Not Applicable' ('This product is not a viscosity modifier — field does not apply'). Superseded (2026-10 audit): the VM block applies only to viscosity modifiers, but no reviewed source states the function of HiTEC® 8767B (function and component_subtype are Missing/null), so 'not a viscosity modifier' was inferred, not printed; the field is Missing until the function is confirmed."
     },
     "treat_range_by_sae_grade": {
       "value": null,
@@ -378,14 +378,14 @@
       "unit": null,
       "test_temperature_c": null,
       "method": null,
-      "status": "Not Applicable",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
-      "notes": "This product is not a viscosity modifier — field does not apply"
+      "notes": "Not printed for HiTEC® 8767B in DL2-10367.pdf. Previously 'Not Applicable' ('This product is not a viscosity modifier — field does not apply'). Superseded (2026-10 audit): the VM block applies only to viscosity modifiers, but no reviewed source states the function of HiTEC® 8767B (function and component_subtype are Missing/null), so 'not a viscosity modifier' was inferred, not printed; the field is Missing until the function is confirmed."
     }
   },
   "open_questions": [
@@ -393,7 +393,8 @@
     "Function / chemical family of HiTEC® 8767B are not stated anywhere in the archive; function, chemical_family, active content and carrier left Missing; component_subtype left null (no VM/PPD statement). Could be looked up later in an Afton bulletin for 8767B.",
     "Physical properties printed for HiTEC® 8767B (no field in the component template; DL2-10367.pdf p.2, 'Typical Characteristics'): Density at 15°C, g/ml 0.918; Flash Point, °C (PMCC) 135 min.; Kinematic Viscosity at 100°c, mm2/s 187.",
     "Treat rate: only one dose (3.3% in the 8766B SAE 10W-40 route) is printed; no min/max/typical range for 8767B on its own.",
-    "No old Product_JSON file exists for HiTEC 8767B; folder name AFTON_HITEC_8767B created per the naming rule."
+    "No old Product_JSON file exists for HiTEC 8767B; folder name AFTON_HITEC_8767B created per the naming rule.",
+    "[History] VM fields (polymer_chemistry, active_polymer, treat_range_by_sae_grade, thickening_response, shear_stability, post_shear_blend_behaviour, dissolution_blend_temperature) were 'Not Applicable' ('This product is not a viscosity modifier — field does not apply'). Changed to Missing (2026-10 audit): the function of HiTEC® 8767B is not stated in any reviewed source (DL2-10367.pdf only gives its typical characteristics and a 3.3% dose in the 8766B SAE 10W-40 route; no Afton 8767B bulletin was found), so it is not established that the product is not a viscosity modifier. Confirm the function of HiTEC® 8767B with Afton."
   ],
   "conflicts": [],
   "external_fill_notes": []
