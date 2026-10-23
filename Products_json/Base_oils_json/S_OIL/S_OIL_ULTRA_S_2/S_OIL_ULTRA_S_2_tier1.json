@@ -122,13 +122,53 @@
       "test_temperature_c": 15.6,
       "method": "ASTM D4052 (D1298)",
       "status": "Reported",
-      "calculation_note": "From the current S-OIL Lube Base Oil web page, 'Ultra-S Base Oil Typical Properties' table (undated, retrieved 2026-10-21). The archived 2009 sheet DL2-11177.pdf prints specific gravity 15/4 °C, which is not density. Other values in this record come from archived documents; edition differences are listed in conflicts (2026-10 audit).",
+      "calculation_note": "From the current S-OIL Lube Base Oil web page, 'Ultra-S Base Oil Typical Properties' table (undated, retrieved 2026-10-21). The archived 2009 sheet DL2-11177.pdf prints specific gravity 15/4 °C, which is not density; it is recorded separately in specific_gravity and not converted. Other values in this record come from archived documents; edition differences are listed in conflicts (2026-10 audit).",
       "source": {
         "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
         "page": null,
         "revision_date": null
       },
       "flash_method": null
+    },
+    "specific_gravity": {
+      "value": 0.82,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Sp.Gravity, 15/4 °C | D 1298 | 0.820 (column 'Ultra-S 2')",
+      "unit": "dimensionless",
+      "reference_condition": "15/4 °C",
+      "test_temperature_c": null,
+      "method": "ASTM D1298",
+      "status": "Reported",
+      "calculation_note": "'Typical Properties' table, column 'Ultra-S 2' (p.1). Printed reference '15/4 °C' (no separate sample-temperature label); test_temperature_c left null. Not converted to density.",
+      "source": {
+        "file": "DL2-11177.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "alternate_entries": [
+        {
+          "value": 0.82,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "single",
+          "printed_text": "RELATIVE DENSITY 0.82 @ 15℃",
+          "unit": "dimensionless",
+          "reference_condition": "15℃",
+          "test_temperature_c": 15,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": "SDS (p.2) prints 'RELATIVE DENSITY 0.82 @ 15℃' with no method and no water reference temperature; relative density is dimensionless and recorded as specific gravity. Not converted to density.",
+          "source": {
+            "file": "DL2-15235.pdf",
+            "page": 2,
+            "revision_date": "2015-06-10"
+          }
+        }
+      ]
     },
     "ccs": [
       {

@@ -118,13 +118,32 @@
       "test_temperature_c": 15.6,
       "method": "ASTM D4052 (D1298)",
       "status": "Reported",
-      "calculation_note": "From the current S-OIL Lube Base Oil web page, 'Typical Properties of aramcoULTRA Base Oil' table, aramcoULTRA 8 column (undated, retrieved 2026-10-21); not printed in the archived SDS DL2-14611.pdf. The SDS relative density 0.847 at 15 °C is a different quantity. (2026-10 audit)",
+      "calculation_note": "From the current S-OIL Lube Base Oil web page, 'Typical Properties of aramcoULTRA Base Oil' table, aramcoULTRA 8 column (undated, retrieved 2026-10-21); not printed in the archived SDS DL2-14611.pdf. The SDS relative density 0.847 at 15 °C is a different quantity, recorded separately in specific_gravity and not converted. (2026-10 audit)",
       "source": {
         "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
         "page": null,
         "revision_date": null
       },
       "flash_method": null
+    },
+    "specific_gravity": {
+      "value": 0.847,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "RELATIVE DENSITY 0.847 @ 15℃",
+      "unit": "dimensionless",
+      "reference_condition": "15℃",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "SDS (p.2) prints 'RELATIVE DENSITY 0.847 @ 15℃' with no method and no water reference temperature; relative density is dimensionless and recorded as specific gravity. Not converted to density.",
+      "source": {
+        "file": "DL2-14611.pdf",
+        "page": 2,
+        "revision_date": "2018-09-07"
+      }
     },
     
     "ccs": [
