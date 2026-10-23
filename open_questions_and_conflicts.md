@@ -692,7 +692,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (vm) Polymer form (solid/concentrate) not stated; appearance 'Clear、bright、no sediment viscous liquid'. Treat range by SAE grade, HTHS, CCS/MRV impact, gelation and dissolution temperature not printed.
 - (vm) Storage (TDS p.1): short-term storage/transport ≤ 75℃, long-term ≤ 45℃ (not a dissolution/blend temperature).
 - (vm) Old Product_JSON uses record id 'RF6602' (no RICHFUL_ prefix); kept per decision (d).
-- (general) 2026-10-17: function-specific markers (TBN, Ca, Mg, P, Zn, Mo) set to N/A - not applicable to a PMA VII.
+- (general) [History] 2026-10-17: function-specific markers (TBN, Ca, Mg, P, Zn, Mo) set to N/A - not applicable to a PMA VII. Changed back to Missing (2026-10 audit): the N/A status was inferred from the product type and SDS composition; the template does not exclude these markers and absent elements are not inferred. Neither the TDS, the SDS nor Richful's product page states them. Confirm TBN, Ca, Mg, P, Zn and Mo contents with Richful.
 
 ## 81. ADNOC_ADBASE_2CST
 - (tier1) CCS is printed as '-' for 2 cSt: ask whether a value exists and at which temperature. [fields: ccs]
@@ -1607,5 +1607,5 @@ Every product with open questions or conflicts has a section above; entries repe
 - Conflicting values between different documents (for example TDS vs SDS) are genuine disagreements; the PURITY L65 viscosity-index entry is stored as text and counted here as [untyped].
 
 ### Documentation uncertainties and corrections
-- Open questions tagged '(2026-10 audit)' record corrected or re-sourced values with their previous text, including: ADNOC ADbase 4/6/8 chemistry; S-OIL Ultra-S 2-8 and P-20; YUBASE 3/4/5/6 API Group and YUBASE 4/6 chemistry; PURITY L35-L65 API Group (now Missing: the grade-level brochure could not be inspected) and L40/L45/L50 CCS; the 37 additive-package permitted-base-oil fields; Lubrizol CV6320 element markers (now Missing); S-OIL Super S-8 pour point.
+- Open questions tagged '(2026-10 audit)' record corrected or re-sourced values with their previous text, including: ADNOC ADbase 4/6/8 chemistry; S-OIL Ultra-S 2-8 and P-20; YUBASE 3/4/5/6 API Group and YUBASE 4/6 chemistry; PURITY L35-L65 API Group (now Missing: the grade-level brochure could not be inspected) and L40/L45/L50 CCS; the 37 additive-package permitted-base-oil fields; Lubrizol CV6320 element markers (now Missing); Richful RF6602 function-specific markers (now Missing); S-OIL Super S-8 pour point.
 - Sources outside the archive are listed, with their verification status, in source_registry.json.
