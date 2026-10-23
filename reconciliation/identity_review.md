@@ -41,8 +41,8 @@ until the supplier or the professor confirms otherwise.
 
 - **The inventory's note:** "Matched to legacy PRIMA150N ('Aramco Prima 150N' ...) by product name -
   confirm the grade naming with the supplier", and the same for PRIMA500N.
-- **Status:** aramcoPRIMA 150 is category B in the ingestion queue. Confirm the naming with Aramco
-  before or while creating it.
+- **Status:** aramcoPRIMA 150 was ingested on 2026-10-23 from DL2-11773.pdf without merging any legacy name.
+  The naming question remains open in its JSON open questions; confirm with Aramco.
 
 ## ID-05: S-OIL Super S-31 vs aramcoPRIMA 150
 

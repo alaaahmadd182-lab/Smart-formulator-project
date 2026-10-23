@@ -7,7 +7,8 @@ Ingestion status:
 
 - **#1 NYNAS T 22:** ingested 2026-10-23 (pilot) as `NYNAS/NYNAS_T_22`.
 - **#2 NYNAS T 110:** ingested 2026-10-23 as `NYNAS/NYNAS_T_110`. The sheet prints no issuing date.
-- **#3 to #9:** not started.
+- **#3 aramcoPRIMA 150:** ingested 2026-10-23 as `ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_150` (brochure typicals only; no specification sheet in the archive).
+- **#4 to #9:** not started.
 
 Each product gets one folder with three tier files, built from the base-oil templates:
 
