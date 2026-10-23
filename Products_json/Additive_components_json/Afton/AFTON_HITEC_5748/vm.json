@@ -75,151 +75,111 @@
       {
         "sae_grade": "5W-30",
         "treat_range_wt_pct": {
-          "value": 8.0,
+          "value": null,
           "qualifier": null,
           "min": null,
           "max": null,
-          "value_kind": "recommended dosage",
-          "printed_text": "SAE Grade 5W-30: HiTEC® 5748 (vol.) 8.0% (8.0%)",
-          "unit": "vol.%",
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "Reported",
-          "calculation_note": "Dosage 'generally necessary to make multigrade crankcase oils which meet the 10 hour L-38 stay-in-grade requirements'. Printed in vol.%, not wt.% (the template key name says wt_pct). 'Please contact your Afton Chemical representative for specific recommendations.'",
+          "status": "Missing",
+          "calculation_note": "Missing: Afton publishes no wt.% dosage for HiTEC 5748. The PDS (05/23, p.2) prints grade dosages in vol.% only; they are kept as evidence in external_fill_notes ('treat_range_by_sae_grade[<grade>].treat_range_wt_pct') and must not be used as wt.% formulation inputs. No vol.%-to-wt.% conversion is applied.",
           "source": {
-            "file": "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
-            "page": 2,
-            "revision_date": "05/23"
+            "file": null,
+            "page": null,
+            "revision_date": null
           },
-          "notes": null,
-          "alternate_entries": [
-            {
-              "value": 8.0,
-              "unit": "vol.%",
-              "basis": "CMCC (DIN 51382) stay-in-grade recommendation",
-              "printed_text": "(8.0%)"
-            }
-          ]
+          "notes": null
         }
       },
       {
         "sae_grade": "10W-30",
         "treat_range_wt_pct": {
-          "value": 5.7,
+          "value": null,
           "qualifier": null,
           "min": null,
           "max": null,
-          "value_kind": "recommended dosage",
-          "printed_text": "SAE Grade 10W-30: HiTEC® 5748 (vol.) 5.7% (5.8%)",
-          "unit": "vol.%",
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "Reported",
-          "calculation_note": "Dosage 'generally necessary to make multigrade crankcase oils which meet the 10 hour L-38 stay-in-grade requirements'. Printed in vol.%, not wt.% (the template key name says wt_pct). 'Please contact your Afton Chemical representative for specific recommendations.'",
+          "status": "Missing",
+          "calculation_note": "Missing: Afton publishes no wt.% dosage for HiTEC 5748. The PDS (05/23, p.2) prints grade dosages in vol.% only; they are kept as evidence in external_fill_notes ('treat_range_by_sae_grade[<grade>].treat_range_wt_pct') and must not be used as wt.% formulation inputs. No vol.%-to-wt.% conversion is applied.",
           "source": {
-            "file": "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
-            "page": 2,
-            "revision_date": "05/23"
+            "file": null,
+            "page": null,
+            "revision_date": null
           },
-          "notes": null,
-          "alternate_entries": [
-            {
-              "value": 5.8,
-              "unit": "vol.%",
-              "basis": "CMCC (DIN 51382) stay-in-grade recommendation",
-              "printed_text": "(5.8%)"
-            }
-          ]
+          "notes": null
         }
       },
       {
         "sae_grade": "10W-40",
         "treat_range_wt_pct": {
-          "value": 11.6,
+          "value": null,
           "qualifier": null,
           "min": null,
           "max": null,
-          "value_kind": "recommended dosage",
-          "printed_text": "SAE Grade 10W-40: HiTEC® 5748 (vol.) 11.6% (11.8%)",
-          "unit": "vol.%",
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "Reported",
-          "calculation_note": "Dosage 'generally necessary to make multigrade crankcase oils which meet the 10 hour L-38 stay-in-grade requirements'. Printed in vol.%, not wt.% (the template key name says wt_pct). 'Please contact your Afton Chemical representative for specific recommendations.'",
+          "status": "Missing",
+          "calculation_note": "Missing: Afton publishes no wt.% dosage for HiTEC 5748. The PDS (05/23, p.2) prints grade dosages in vol.% only; they are kept as evidence in external_fill_notes ('treat_range_by_sae_grade[<grade>].treat_range_wt_pct') and must not be used as wt.% formulation inputs. No vol.%-to-wt.% conversion is applied.",
           "source": {
-            "file": "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
-            "page": 2,
-            "revision_date": "05/23"
+            "file": null,
+            "page": null,
+            "revision_date": null
           },
-          "notes": null,
-          "alternate_entries": [
-            {
-              "value": 11.8,
-              "unit": "vol.%",
-              "basis": "CMCC (DIN 51382) stay-in-grade recommendation",
-              "printed_text": "(11.8%)"
-            }
-          ]
+          "notes": null
         }
       },
       {
         "sae_grade": "15W-40",
         "treat_range_wt_pct": {
-          "value": 5.4,
+          "value": null,
           "qualifier": null,
           "min": null,
           "max": null,
-          "value_kind": "recommended dosage",
-          "printed_text": "SAE Grade 15W-40: HiTEC® 5748 (vol.) 5.4% (5.5%)",
-          "unit": "vol.%",
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "Reported",
-          "calculation_note": "Dosage 'generally necessary to make multigrade crankcase oils which meet the 10 hour L-38 stay-in-grade requirements'. Printed in vol.%, not wt.% (the template key name says wt_pct). 'Please contact your Afton Chemical representative for specific recommendations.'",
+          "status": "Missing",
+          "calculation_note": "Missing: Afton publishes no wt.% dosage for HiTEC 5748. The PDS (05/23, p.2) prints grade dosages in vol.% only; they are kept as evidence in external_fill_notes ('treat_range_by_sae_grade[<grade>].treat_range_wt_pct') and must not be used as wt.% formulation inputs. No vol.%-to-wt.% conversion is applied.",
           "source": {
-            "file": "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
-            "page": 2,
-            "revision_date": "05/23"
+            "file": null,
+            "page": null,
+            "revision_date": null
           },
-          "notes": null,
-          "alternate_entries": [
-            {
-              "value": 5.5,
-              "unit": "vol.%",
-              "basis": "CMCC (DIN 51382) stay-in-grade recommendation",
-              "printed_text": "(5.5%)"
-            }
-          ]
+          "notes": null
         }
       },
       {
         "sae_grade": "20W-50",
         "treat_range_wt_pct": {
-          "value": 5.4,
+          "value": null,
           "qualifier": null,
           "min": null,
           "max": null,
-          "value_kind": "recommended dosage",
-          "printed_text": "SAE Grade 20W-50: HiTEC® 5748 (vol.) 5.4% (5.5%)",
-          "unit": "vol.%",
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "Reported",
-          "calculation_note": "Dosage 'generally necessary to make multigrade crankcase oils which meet the 10 hour L-38 stay-in-grade requirements'. Printed in vol.%, not wt.% (the template key name says wt_pct). 'Please contact your Afton Chemical representative for specific recommendations.'",
+          "status": "Missing",
+          "calculation_note": "Missing: Afton publishes no wt.% dosage for HiTEC 5748. The PDS (05/23, p.2) prints grade dosages in vol.% only; they are kept as evidence in external_fill_notes ('treat_range_by_sae_grade[<grade>].treat_range_wt_pct') and must not be used as wt.% formulation inputs. No vol.%-to-wt.% conversion is applied.",
           "source": {
-            "file": "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
-            "page": 2,
-            "revision_date": "05/23"
+            "file": null,
+            "page": null,
+            "revision_date": null
           },
-          "notes": null,
-          "alternate_entries": [
-            {
-              "value": 5.5,
-              "unit": "vol.%",
-              "basis": "CMCC (DIN 51382) stay-in-grade recommendation",
-              "printed_text": "(5.5%)"
-            }
-          ]
+          "notes": null
         }
       }
     ],
@@ -429,7 +389,7 @@
   },
   "open_questions": [
     "SSI discrepancy, not reconciled: Afton's HiTEC 5748 PDS prints 'Shear Stability Index %: 22' (05/23 and 04/21) and 'a typical Shear Stability Index (SSI) of 22' (03/18); the 07/11 edition says 'It is based on 23 SSI polymer' (base-polymer basis); Afton's HiTEC 12360 bulletin DL2-13692.pdf (07/20, p.2) describes 'HiTEC® 5748 25SSI OCP' / '25SSI viscosity modifier'. None of these documents prints the SSI test method, cycle count or base oil, so comparability is not established and no conflict entry is recorded. Confirm the SSI and its method with Afton.",
-    "Treat range: the PDS gives one dosage per SAE grade in vol.% for the 10 hour L-38 stay-in-grade requirement, with CMCC (DIN 51382) values in parentheses (kept as alternate_entries); no min/max range and no wt.% basis are printed.",
+    "Treat range: the PDS gives one dosage per SAE grade in vol.% only (10 hour L-38 stay-in-grade, with CMCC DIN 51382 values in parentheses: 5W-30 8.0 (8.0), 10W-30 5.7 (5.8), 10W-40 11.6 (11.8), 15W-40 5.4 (5.5), 20W-50 5.4 (5.5) vol.%). No wt.% dosage and no min/max range are published, so treat_range_wt_pct stays Missing; the vol.% recommendations are kept in external_fill_notes and must not be used as wt.% inputs. Ask Afton for wt.% dosages.",
     "Thickening response, post-shear KV100, HTHS, CCS/MRV impact, low-temperature gelation, active polymer content, carrier and dissolution/blend temperature are not printed; left Missing. The printed 'Dilute Viscosity @ 100°C, cSt: 11.55' has no stated reference oil or dose, so it is not entered as a thickening response."
   ],
   "conflicts": [],
@@ -445,7 +405,7 @@
     {
       "value": null,
       "unit": null,
-      "property": "treat_range_by_sae_grade",
+      "property": "shear_stability",
       "status": "Reported",
       "source": "Afton Chemical HiTEC 5748 PDS, edition 05/23, p.2 (Internet Archive original-bytes copy captured 2024-10-05): https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
       "notes": null
@@ -453,10 +413,42 @@
     {
       "value": null,
       "unit": null,
-      "property": "shear_stability",
-      "status": "Reported",
-      "source": "Afton Chemical HiTEC 5748 PDS, edition 05/23, p.2 (Internet Archive original-bytes copy captured 2024-10-05): https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
-      "notes": null
+      "property": "treat_range_by_sae_grade[5W-30].treat_range_wt_pct",
+      "status": "Missing",
+      "source": "Afton Chemical HiTEC 5748 PDS, edition 05/23, p.2, Recommended Dosage table (Internet Archive original-bytes copy captured 2024-10-05): https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+      "notes": "Printed manufacturer dosage recommendation in vol.%, NOT wt.%; do not use as a wt.% formulation input (no conversion applied). SAE 5W-30: 8.0 vol.% for the 10 hour L-38 stay-in-grade requirement; 8.0 vol.% CMCC (DIN 51382) stay-in-grade recommendation. Printed: 'SAE Grade 5W-30 | HiTEC® 5748 (vol.) 8.0% (8.0%)'. 'Please contact your Afton Chemical representative for specific recommendations.'"
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "treat_range_by_sae_grade[10W-30].treat_range_wt_pct",
+      "status": "Missing",
+      "source": "Afton Chemical HiTEC 5748 PDS, edition 05/23, p.2, Recommended Dosage table (Internet Archive original-bytes copy captured 2024-10-05): https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+      "notes": "Printed manufacturer dosage recommendation in vol.%, NOT wt.%; do not use as a wt.% formulation input (no conversion applied). SAE 10W-30: 5.7 vol.% for the 10 hour L-38 stay-in-grade requirement; 5.8 vol.% CMCC (DIN 51382) stay-in-grade recommendation. Printed: 'SAE Grade 10W-30 | HiTEC® 5748 (vol.) 5.7% (5.8%)'. 'Please contact your Afton Chemical representative for specific recommendations.'"
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "treat_range_by_sae_grade[10W-40].treat_range_wt_pct",
+      "status": "Missing",
+      "source": "Afton Chemical HiTEC 5748 PDS, edition 05/23, p.2, Recommended Dosage table (Internet Archive original-bytes copy captured 2024-10-05): https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+      "notes": "Printed manufacturer dosage recommendation in vol.%, NOT wt.%; do not use as a wt.% formulation input (no conversion applied). SAE 10W-40: 11.6 vol.% for the 10 hour L-38 stay-in-grade requirement; 11.8 vol.% CMCC (DIN 51382) stay-in-grade recommendation. Printed: 'SAE Grade 10W-40 | HiTEC® 5748 (vol.) 11.6% (11.8%)'. 'Please contact your Afton Chemical representative for specific recommendations.'"
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "treat_range_by_sae_grade[15W-40].treat_range_wt_pct",
+      "status": "Missing",
+      "source": "Afton Chemical HiTEC 5748 PDS, edition 05/23, p.2, Recommended Dosage table (Internet Archive original-bytes copy captured 2024-10-05): https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+      "notes": "Printed manufacturer dosage recommendation in vol.%, NOT wt.%; do not use as a wt.% formulation input (no conversion applied). SAE 15W-40: 5.4 vol.% for the 10 hour L-38 stay-in-grade requirement; 5.5 vol.% CMCC (DIN 51382) stay-in-grade recommendation. Printed: 'SAE Grade 15W-40 | HiTEC® 5748 (vol.) 5.4% (5.5%)'. 'Please contact your Afton Chemical representative for specific recommendations.'"
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "treat_range_by_sae_grade[20W-50].treat_range_wt_pct",
+      "status": "Missing",
+      "source": "Afton Chemical HiTEC 5748 PDS, edition 05/23, p.2, Recommended Dosage table (Internet Archive original-bytes copy captured 2024-10-05): https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+      "notes": "Printed manufacturer dosage recommendation in vol.%, NOT wt.%; do not use as a wt.% formulation input (no conversion applied). SAE 20W-50: 5.4 vol.% for the 10 hour L-38 stay-in-grade requirement; 5.5 vol.% CMCC (DIN 51382) stay-in-grade recommendation. Printed: 'SAE Grade 20W-50 | HiTEC® 5748 (vol.) 5.4% (5.5%)'. 'Please contact your Afton Chemical representative for specific recommendations.'"
     }
   ]
 }

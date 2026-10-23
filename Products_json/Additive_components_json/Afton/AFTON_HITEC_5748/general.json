@@ -115,7 +115,7 @@
       "test_temperature_c": null,
       "method": null,
       "status": "Missing",
-      "calculation_note": "No single min/max/typical treat rate is printed; the PDS gives grade-specific dosages in vol.% (recorded in vm.json treat_range_by_sae_grade).",
+      "calculation_note": "No single min/max/typical treat rate is printed; the PDS gives grade-specific dosages in vol.% only. They are kept as evidence in vm.json external_fill_notes, not as wt.% treat rates.",
       "source": {
         "file": null,
         "page": null,
