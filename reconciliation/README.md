@@ -8,31 +8,40 @@ changed.
 
 | File | Contents |
 |---|---|
-| `inventory_reconciliation.csv` | One row per inventory material (453 rows): sheet row, Material ID, name, supplier, register documents, category, matching JSON folder, match evidence and confidence, identity flag, external lead |
-| `base_oil_ingestion_queue.md` | The 9 base oils without JSON that have an archived supplier datasheet |
+| `inventory_reconciliation.csv` | One row per inventory material (453 rows): sheet row, Material ID, name, supplier, register documents, category, matching JSON folder, match evidence and confidence, identity flag, external lead, reconciliation history |
+| `base_oil_ingestion_queue.md` | The 9 base oils that had no JSON but an archived supplier datasheet, with their ingestion status |
 | `identity_review.md` | Uncertain identities, the possible duplicate S-OIL JSONs and supplier-name issues (nothing merged) |
 | `richful_feed_leads.csv` | 103 Richful product-feed records for 52 materials without JSON; unverified research leads, not approved sources |
 
 ## Counts
 
+Current state, after the NYNAS T 22 pilot ingestion:
+
 | | Base oils | Additive packages | Additive components | Total |
 |---|---|---|---|---|
 | Inventory materials | 202 | 130 | 121 | **453** |
-| JSON product folders | 172 | 77 | 3 | **252** |
-| Inventory materials represented by JSON | 171 | 77 | 3 | **251** |
-| Inventory materials without JSON | 31 | 53 | 118 | **202** |
-| of which: archived supplier datasheet (category B) | 9 | 0 | 0 | **9** |
+| JSON product folders | 173 | 77 | 3 | **253** |
+| Inventory materials represented by JSON (category A) | 172 | 77 | 3 | **252** |
+| Inventory materials without JSON | 30 | 53 | 118 | **201** |
+| of which: archived supplier datasheet (category B) | 8 | 0 | 0 | **8** |
 | of which: mentioned only in other documents (category C) | 0 | 3 | 20 | **23** |
 | of which: no archived source located (category D) | 22 | 50 | 98 | **170** |
 
-The 252 JSON folders represent 251 inventory materials because two S-OIL folders, `S_OIL_ULTRA_S_8` and
+At the reconciliation of 2026-10-23 (commit `da4f2b3`), the counts were 252 folders, 251 represented
+materials, 202 without JSON and 9 in category B. NYNAS T 22 (`BO-NYNAS-NYNAS-T-22`) has since moved
+from category B to A; its CSV row records this in `reconciliation_history`.
+
+`Coverage_Matrix.xlsx` and the scope table in the main `README.md` still describe the 252 products
+before the pilot, until the coverage workbook is regenerated.
+
+The 253 JSON folders represent 252 inventory materials because two S-OIL folders, `S_OIL_ULTRA_S_8` and
 `S_OIL_ARAMCO_ULTRA_8`, both correspond to `BO-S-OIL-ULTRA-S-8` (see `identity_review.md`, ID-01). Every
 JSON folder corresponds to an inventory material; no JSON product is missing from the inventory.
 
 ## Categories (column `category`, mutually exclusive)
 
-- **A JSON present** (251): at least one `Products_json` folder represents the material.
-- **B no JSON - archived supplier datasheet** (9): a supplier document in `Manual + Data to share.zip`
+- **A JSON present** (252; 251 at the reconciliation): at least one `Products_json` folder represents the material.
+- **B no JSON - archived supplier datasheet** (8; 9 at the reconciliation): a supplier document in `Manual + Data to share.zip`
   prints grade-level values for this material, in its own data sheet or in its own column of a
   multi-grade table.
 - **C no JSON - mentioned only in other documents** (23): the material is named only inside another
@@ -67,8 +76,8 @@ with JSON, but those siblings were built from other documents, not from the same
 
 ## Proposed ingestion order (awaiting approval)
 
-1. **Category B, the 9 base oils** in `base_oil_ingestion_queue.md`:
-   - Nynas T 22, then Nynas T 110 (product-specific data sheets);
+1. **Category B, the 9 queued base oils** in `base_oil_ingestion_queue.md`:
+   - Nynas T 22 (ingested 2026-10-23 as a pilot), then Nynas T 110 (product-specific data sheets);
    - aramcoPRIMA 150 (priority A), then aramcoPRIMA 100, 220, 600 and 500L ("*" typicals);
    - NEXBASE 3030;
    - FPCC 70N GII.
@@ -100,4 +109,4 @@ Until then, the columns `authenticity`, `product_identity`, `document_content` a
 read "not verified" or "not reviewed", and `approved_as_source` is "no".
 
 Still open: whether Task 3 requires a JSON for every inventory material even without any source. The
-answer decides whether 9, 32 (B + C) or up to 202 more JSON products are needed.
+answer decides whether 8, 31 (B + C) or up to 201 more JSON products are needed.

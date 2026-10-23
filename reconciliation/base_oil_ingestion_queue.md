@@ -1,8 +1,14 @@
 # Ingestion queue: 9 base oils with archived supplier datasheets
 
-These inventory materials have no JSON yet, but a supplier document in `Manual + Data to share.zip`
-prints values for each grade. Nothing has been created. Each needs one folder with three tier files,
-built from the base-oil templates:
+At the reconciliation, these inventory materials had no JSON, but a supplier document in
+`Manual + Data to share.zip` prints values for each grade.
+
+Ingestion status:
+
+- **#1 NYNAS T 22:** ingested 2026-10-23 (pilot) as `NYNAS/NYNAS_T_22`.
+- **#2 to #9:** not started.
+
+Each product gets one folder with three tier files, built from the base-oil templates:
 
 - `json_templates/base_oil_tier1_blocking.json`
 - `json_templates/base_oil_tier2_verification.json`
