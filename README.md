@@ -13,6 +13,7 @@ additive components) following `Smart_Formulator_Minimum_Property_Set.pdf`, whic
 | `source_registry.json` | External (non-archive) sources cited in `Products_json`, with verification status |
 | `Raw_Material_Missing_Properties_2026-10-13.xlsx` | Full raw-material inventory (453 materials) with missing-property status per material |
 | `open_questions_and_conflicts.md` | Task 5 – conflicts and open questions |
+| `reconciliation/` | Task 3 – reconciliation of the 453-material inventory with `Products_json`, ingestion queue, identity review and unverified research leads |
 
 ## Scope
 
