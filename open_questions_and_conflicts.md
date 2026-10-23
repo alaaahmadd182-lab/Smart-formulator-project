@@ -1605,6 +1605,16 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier3) Aromatics left Missing: DL2-12371.pdf prints carbon-type data (IR-method C % typical 15; D 2140 C % 10, C_N % 43, C_P % 47), which are not aromatics in wt.%. The subscript of the two 'C' rows is not legible in the scan.
 - (tier3) Saturates, cloud point and wax content are not printed.
 
+## 211. NYNAS_T_110
+- (tier1) API Group is not printed on DL2-12370.pdf (Nynas PDS for T 110); left Missing and not inferred from the naphthenic chemistry. Confirm with Nynas.
+- (tier1) Viscosity index is not printed; left Missing (not calculated from KV40 114 / KV100 8,5 cSt).
+- (tier1) No CCS value is printed.
+- (tier1) DL2-12370.pdf prints no issuing or revision date, footer or Nynas logo on its single page (the archive register also gives no revision); source revision_date left null. Confirm the document revision with Nynas. No grade-specific SDS is in the archive.
+- (tier1) Printed properties with no template field (DL2-12370.pdf p.1, guaranteed Min / Max / Typical, decimal commas as printed): Viscosity, 100°F, SUS, D 2161: typical 612; Copper Strip, 3 hrs, D 130: max 1, typical 1; Aniline Point, °C, D 611: 82 / 90 / 85; Refractive Index, 20 °C, D 1747: typical 1,504; Colour, D 1500: max 1,5, typical <1,0; Total Acid Number, mg KOH/g, D 974: max 0,03, typical <0,01; Appearance at 15°C, D 4176: Clear and bright / Clear and bright; DMSO extractible compounds, Wt %, IP 346: max 3,0, typical 2,0.
+- (tier2) No Noack volatility or MRV value is printed on DL2-12370.pdf.
+- (tier3) Aromatics left Missing: DL2-12370.pdf prints carbon-type data (IR-method C_A % typical 15; D 2140 C_A % 12, C_N % 40, C_P % 48), which are not aromatics in wt.%.
+- (tier3) Saturates, cloud point and wax content are not printed.
+
 ## Task 3 data-quality audit (2026-10): summary
 
 Every product with open questions or conflicts has a section above; entries repeated identically in several tiers are listed once. Conflict lines carry their type in square brackets. Open questions labelled [Resolved] or [History] record audit history, not unresolved questions.
