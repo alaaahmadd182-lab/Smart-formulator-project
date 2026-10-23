@@ -1,0 +1,557 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "AFTON_HITEC_12204L",
+  "product": {
+    "product_name": "HiTEC® 12204L",
+    "supplier": "Afton Chemical Corporation",
+    "document_type": [
+      "PDS",
+      "TDS"
+    ],
+    "source_file": [
+      "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+      "DL2-14639.pdf"
+    ],
+    "revision_date": [
+      "06/17",
+      "08/18"
+    ]
+  },
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "unit": null,
+        "value": "HDEO Additive Package",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": "Printed title 'HiTEC® 12204L HDEO Additive Package' (p.2; also on the p.1 cover)."
+      },
+      "intended_service": {
+        "unit": null,
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "Not printed as a statement of intended service. The sheet heading 'ENGINE OILS' and the 'HDEO' in the title are recorded under package_type; the claims and treat rate are recorded separately."
+      }
+    },
+    "performance_claims": [
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4 Plus",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CI-4",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "API CH-4",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "ACEA E7-16",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MB 228.3",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'. Marked 'p' ('p: MB package approval').",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MAN 3275",
+        "claim_type": "other",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'. Column printed 'MAN 3275*'; footnote '*:Equivalent performance. MAN 3275 now obsolete'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "VOLVO VDS-3",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Deutz DDQ-III",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Deutz DCQ-II",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "MTU 2.0",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-N",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Mack EO-M+",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20078",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Cummins CES 20077",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Caterpillar ECF-2",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Caterpillar ECF1a",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Renault RLD-2",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "JASO DH-1",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "Global DHD-1",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      {
+        "value": null,
+        "unit": null,
+        "designation": "DDC 93K215",
+        "claim_type": "approval",
+        "scope": "Table header 'Approvals'; row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'.",
+        "evidence_class": "Supplier claim",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "value": null,
+        "unit": null,
+        "sae_grade": "SAE 15W-40",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": "Printed 'API CI-4 Plus SAE 15W-40' (Recommended Dosage text) and 'SAE 15W40' (approvals row), p.2."
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "value": null,
+      "unit": null,
+      "permitted_api_groups": [],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Not stated: the PDS says only 'in a range of base stocks' (p.2). DL2-14639.pdf names GP II for the 10.3% HiTEC® 12200 + 4.2% HiTEC® 12250 route, a different product combination; not transferred."
+    },
+    "route_selector_restrictions": {
+      "value": null,
+      "unit": null,
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CI-4 Plus; API CI-4; API CH-4; ACEA E7-16; MB 228.3; MAN 3275; VOLVO VDS-3; Deutz DDQ-III; Deutz DCQ-II; MTU 2.0; Mack EO-N; Mack EO-M+; Cummins CES 20078; Cummins CES 20077; Caterpillar ECF-2; Caterpillar ECF1a; Renault RLD-2; JASO DH-1; Global DHD-1; DDC 93K215",
+        "sae_grade": "SAE 15W-40",
+        "treat_rate_wt_pct": {
+          "value": 14.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "The recommended treat rate for HiTEC® 12204L is 14.2% wt.",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": "Recommended Dosage text (p.2), with 'HiTEC® 12204L meets the requirements of API CI-4 Plus SAE 15W-40 in a range of base stocks'; the approvals row prints 'HiTEC® 12204L @ 14.2%'. Printed '% wt'. Base oil not specified. Single recommended rate, not labelled typical or specification.",
+          "source": {
+            "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+            "page": 2,
+            "revision_date": "06/17"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "value": null,
+        "unit": null,
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [
+          {
+            "property": null,
+            "result": {
+              "value": null,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": null,
+              "printed_text": null,
+              "unit": null,
+              "test_temperature_c": null,
+              "method": null,
+              "status": "Missing",
+              "calculation_note": null,
+              "source": {
+                "file": null,
+                "page": null,
+                "revision_date": null
+              },
+              "notes": null
+            }
+          }
+        ],
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    ]
+  },
+  "open_questions": [
+    "Source: Afton's own HiTEC 12204L PDS 'HiTEC® 12204L HDEO Additive Package', printed edition '06/17' (© 2017 Afton Chemical Corporation; PDF created 2017-06-16), retrieved as the Internet Archive original-bytes copy captured 2020-10-23 (SHA-256 7a1e57d81d66b52b83215da261732256867d89b651c75334068022362a74183e), p.2 (p.1 is the cover). Afton's live site blocks automated access. The same document is the source of AFTON_HITEC_12250. The archive's HiTEC 12200 bulletin DL2-14639.pdf (08/18) prints no HiTEC 12204L properties; it is used only for the premix formula and route context (see below).",
+    "Identity (ID-13): the inventory and identity review describe HiTEC 12204L as a premix defined in DL2-14639.pdf. Afton's own PDS presents it as 'HiTEC® 12204L HDEO Additive Package', 'part of the HiTEC 12200 family of products', with its own Typical Characteristics column and treat rate, so it is recorded as a product in its own right. HiTEC 12204Y and HiTEC 12252 are separate inventory materials; nothing from them is used.",
+    "Premix formula, not a treat rate: DL2-14639.pdf p.2 (08/18) footnote 1 '14.2% HiTEC® 12204L = 10.3% HiTEC® 12200 + 4.2% HiTEC® 12250', attached to the approvals row '10.3%¹ | 4.2% HiTEC® 12250 | SAE 15W-40 | GP II' (the 05/18 bulletin DL2-11412.PDF p.2 prints the same footnote). The PDS (06/17, p.2) says 'The performance level of HiTEC® 12204L can also be achieved through the use of HiTEC® 12250 booster package at 4.2% in combination with HiTEC® 12200 at 10.3%'. This is an alternative two-product route for SAE 15W-40 (GP II in DL2-14639), equivalent to 14.2% HiTEC® 12204L; it is not a general treat rate or a required co-component of HiTEC® 12204L, so it is recorded here only. 10.3% + 4.2% = 14.5%, not the printed 14.2% (also noted in AFTON_HITEC_12250); recorded as printed, not reconciled. Confirm with Afton.",
+    "Claims printed for the equivalent route only: DL2-14639.pdf p.2 (08/18) marks API SL, API SJ and DDC 93K214 in the row '10.3%¹ | 4.2% HiTEC® 12250 | SAE 15W-40 | GP II'. These columns do not exist in the 06/17 PDS approvals band, so they are not added to HiTEC® 12204L's claims and not treated as conflicts (columns absent, not contradicted). Confirm with Afton whether they apply to HiTEC® 12204L.",
+    "MAN 3275: the PDS footnote reads '*:Equivalent performance. MAN 3275 now obsolete' (claim_type 'other'); DL2-14639.pdf footnote 5 for the equivalent route reads 'Meets requirements of (MRO)'. The wordings differ but do not contradict each other; not recorded as a conflict.",
+    "Deutz labels are recorded as printed in the PDS: 'Deutz DDQ-III' and 'Deutz DCQ-II'. DL2-14639.pdf prints 'Deutz DQC- III' and 'Deutz DQC- II'. Probably the same specifications; not confirmed, not normalized.",
+    "Claim type: all 20 columns sit under the printed header 'Approvals', including API CI-4 Plus, API CI-4, API CH-4 and ACEA E7-16, so claim_type = 'approval' (same reading as AFTON_HITEC_12200). Please confirm this reading.",
+    "Intended service, permitted base oils, route restrictions, required co-components and published formulations are not printed; left Missing. The bar charts on p.2 (Mack T-12, Cat 1K, Seq IIIF, Mack T-11 '*Based on % Soot at 12 cSt' vs 'API CI-4 Plus Limit' / 'Reserve') have no numeric values, and the field-test text ('field tested in harsh conditions to 50,000km/31,000 miles') refers to the HiTEC 12200 family; neither is recorded."
+  ],
+  "conflicts": [
+    {
+      "conflict_type": "conflicting values between different documents",
+      "field": "tier1.performance_claims (MB 228.3)",
+      "values": [
+        {
+          "value": "MB package approval",
+          "printed_text": "'p' in the MB 228.3 column, row 'API CI-4 Plus | SAE 15W40 | HiTEC® 12204L @ 14.2%'; legend 'p: MB package approval'",
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        {
+          "value": "approval (no P mark)",
+          "printed_text": "plain dot in the MB 228.3 column, row '10.3%¹ | 4.2% HiTEC® 12250 | SAE 15W-40 | GP II' (footnote 1 '14.2% HiTEC® 12204L = 10.3% HiTEC® 12200 + 4.2% HiTEC® 12250'); other rows carry 'P MB Package Approval'",
+          "file": "DL2-14639.pdf",
+          "page": 2,
+          "revision_date": "08/18"
+        }
+      ],
+      "note": "HiTEC 12204L PDS 06/17 vs HiTEC 12200 bulletin 08/18 (equivalent two-product route). The field records the PDS marking, which is the product's own document; the DL2-14639 marking refers to the 10.3% + 4.2% route. Not resolved; confirm with Afton."
+    }
+  ],
+  "external_fill_notes": [
+    {
+      "value": null,
+      "unit": null,
+      "property": "package_type_application.package_type",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 12204L PDS, edition 06/17, p.2 (Internet Archive original-bytes copy captured 2020-10-23): https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "performance_claims",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 12204L PDS, edition 06/17, p.2 (Internet Archive original-bytes copy captured 2020-10-23): https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "sae_grades_documented",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 12204L PDS, edition 06/17, p.2 (Internet Archive original-bytes copy captured 2020-10-23): https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "treat_rate_matrix",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 12204L PDS, edition 06/17, p.2 (Internet Archive original-bytes copy captured 2020-10-23): https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+      "notes": null
+    }
+  ]
+}

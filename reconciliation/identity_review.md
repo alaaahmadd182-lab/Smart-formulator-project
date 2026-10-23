@@ -114,6 +114,10 @@ until the supplier or the professor confirms otherwise.
   bulletin DL2-11412), which defines them as premixes. For example, "11.15% HiTEC® 12252 = 10.8% HiTEC® 12200
   + 0.35% HiTEC® 9552".
 - **Decision needed:** are they products to record in their own right (category C)?
+- **Update (2026-10-23):** HiTEC 12204L has its own Afton PDS (06/17, archived; the HiTEC 12250 source), which
+  presents it as an HDEO additive package with its own typical characteristics and treat rate. It was ingested
+  as `AFTON_HITEC_12204L`; the premix formula is recorded as an open question, not as its composition or treat
+  rate. HiTEC 12204Y and 12252 are unchanged (category C); the decision for them remains open.
 
 ## ID-14: JSON products with no supplier recorded
 
