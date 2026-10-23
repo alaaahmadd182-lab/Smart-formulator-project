@@ -1624,6 +1624,16 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier2) No MRV value is printed on DL2-11773.pdf. [fields: mrv[].mrv_viscosity, mrv[].yield_stress]
 - (tier3) Cloud point and wax content are not printed on DL2-11773.pdf. [fields: cloud_point, wax_content]
 
+## 213. ARAMCO_LUBEREF_PRIMA_100
+- (tier1) API Group 'Group II' is taken from the brochure table heading over all eight aramcoPRIMA columns (family-level evidence); no grade-specific statement is printed. Confirm with Saudi Aramco / Luberef. [fields: api_group_chemistry.api_group]
+- (tier1) Chemistry is not printed on DL2-11773.pdf, and no aramcoPRIMA 100 SDS is in the archive. [fields: api_group_chemistry.chemistry]
+- (tier1) All values are brochure typicals; no guaranteed specification for aramcoPRIMA 100 is in the archive (the specification sheet DL2-12172.pdf covers aramcoPRIMA 70, 110, 230 and 500 only). The aramcoPRIMA 100 column carries no '*', so the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' does not apply to it. No issuing date is printed; the PDF metadata title 'Base oils Dubai Catalog 27Sep2018 FINALout-LOW' is not a printed date. The issuing company is not named on the page. [fields: kv40, kv100, viscosity_index, density, ccs[]]
+- (tier1) The 'Cranking Viscosity @ -20°C' cell of the aramcoPRIMA 100 column is blank; only the -25 °C value (1,300 mPa-s) is printed. [fields: ccs[]]
+- (tier1) Printed properties with no template field (DL2-11773.pdf, column 'aramcoPRIMA 100 / Typical'): Appearance, Visual: C&B; Brookfield @ -40°C, D 2983: 12,500 (no unit printed); Saybolt Color, D 156: blank; Color ASTM, D 1500: L 0.5; Copper Corrosion 100°C 3hrs, D 130: 1a; Tan mgKOH/gm, D 974: 0.01. [fields: (no template field)]
+- (tier2) No MRV value is printed on DL2-11773.pdf. [fields: mrv[].mrv_viscosity, mrv[].yield_stress]
+- (tier2) The Noack volatility cell of the aramcoPRIMA 100 column is blank (neighbouring grades have values); left Missing. [fields: noack_volatility]
+- (tier3) Cloud point and wax content are not printed on DL2-11773.pdf. [fields: cloud_point, wax_content]
+
 ## Task 3 data-quality audit (2026-10): summary
 
 Every product with open questions or conflicts has a section above; entries repeated identically in several tiers are listed once. Conflict lines carry their type in square brackets. Open questions labelled [Resolved] or [History] record audit history, not unresolved questions.
