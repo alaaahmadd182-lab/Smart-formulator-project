@@ -6,7 +6,8 @@ At the reconciliation, these inventory materials had no JSON, but a supplier doc
 Ingestion status:
 
 - **#1 NYNAS T 22:** ingested 2026-10-23 (pilot) as `NYNAS/NYNAS_T_22`.
-- **#2 to #9:** not started.
+- **#2 NYNAS T 110:** ingested 2026-10-23 as `NYNAS/NYNAS_T_110`. The sheet prints no issuing date.
+- **#3 to #9:** not started.
 
 Each product gets one folder with three tier files, built from the base-oil templates:
 
