@@ -1615,6 +1615,15 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier3) Aromatics left Missing: DL2-12370.pdf prints carbon-type data (IR-method C_A % typical 15; D 2140 C_A % 12, C_N % 40, C_P % 48), which are not aromatics in wt.%.
 - (tier3) Saturates, cloud point and wax content are not printed.
 
+## 212. ARAMCO_LUBEREF_PRIMA_150
+- (tier1) API Group 'Group II' is taken from the brochure table heading over all eight aramcoPRIMA columns; no grade-specific statement is printed. Confirm with Saudi Aramco / Luberef. [fields: api_group_chemistry.api_group]
+- (tier1) Chemistry is not printed on DL2-11773.pdf, and no aramcoPRIMA 150 SDS is in the archive. [fields: api_group_chemistry.chemistry]
+- (tier1) All values are brochure typicals; no guaranteed specification for aramcoPRIMA 150 is in the archive (the specification sheet DL2-12172.pdf covers aramcoPRIMA 70, 110, 230 and 500 only). No issuing date is printed; the PDF metadata title 'Base oils Dubai Catalog 27Sep2018 FINALout-LOW' is not a printed date. The issuing company is not named on the page. [fields: kv40, kv100, viscosity_index, density, ccs[]]
+- (tier1) Inventory identity notes kept unresolved: the inventory matched this grade to the legacy name 'Aramco Prima 150N' by product name (to confirm with the supplier), and the S-OIL Super S-31 record notes an unverified mapping to aramcoPRIMA 150. No grade is merged. [fields: product]
+- (tier1) Printed properties with no template field (DL2-11773.pdf, column 'aramcoPRIMA 150 / Typical'): Appearance, Visual: C&B; Brookfield @ -40°C, D 2983: blank; Saybolt Color, D 156: +30; Color ASTM, D 1500: L 0.5; Copper Corrosion 100°C 3hrs, D 130: 1b; Tan mgKOH/gm, D 974: < 0.01. [fields: (no template field)]
+- (tier2) No MRV value is printed on DL2-11773.pdf. [fields: mrv[].mrv_viscosity, mrv[].yield_stress]
+- (tier3) Cloud point and wax content are not printed on DL2-11773.pdf. [fields: cloud_point, wax_content]
+
 ## Task 3 data-quality audit (2026-10): summary
 
 Every product with open questions or conflicts has a section above; entries repeated identically in several tiers are listed once. Conflict lines carry their type in square brackets. Open questions labelled [Resolved] or [History] record audit history, not unresolved questions.

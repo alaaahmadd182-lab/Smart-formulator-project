@@ -1,0 +1,217 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "ARAMCO_LUBEREF_PRIMA_150__T1",
+  "product": {
+    "product_name": "aramcoPRIMA 150",
+    "supplier": "Saudi Aramco Luberef",
+    "document_type": [
+      "Supplier brochure"
+    ],
+    "source_file": "DL2-11773.pdf",
+    "revision_date": null,
+    "product_id": "ARAMCO_LUBEREF_PRIMA_150"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group II",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-11773.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "printed_text": "Table heading 'Group II' printed over the column headings 'aramcoPRIMA 100', 'aramcoPRIMA 110*', 'aramcoPRIMA 150', 'aramcoPRIMA 220', 'aramcoPRIMA 230*', 'aramcoPRIMA 500', 'aramcoPRIMA 500L*' and 'aramcoPRIMA 600'",
+        "value_kind": "supplier classification",
+        "basis": "Supplier document heading",
+        "calculation_note": "The heading belongs to the table that contains the aramcoPRIMA 150 column; no grade-specific API certification statement is printed."
+      },
+      "chemistry": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "Not printed on DL2-11773.pdf; no aramcoPRIMA 150 SDS is in the archive."
+      }
+    },
+    "kv40": {
+      "value": 29.7,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Kinematic Viscosity @ 40°C, cSt, D 445: 29.7 (column 'aramcoPRIMA 150 / Typical')",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 5.2,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Kinematic Viscosity @ 100°C, cSt, D 445: 5.2 (column 'aramcoPRIMA 150 / Typical')",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 105,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity Index, D 2270: 105 (column 'aramcoPRIMA 150 / Typical')",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.859,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density @ 15°C, Kg/L, D 4052: 0.8590 (column 'aramcoPRIMA 150 / Typical')",
+      "unit": "kg/L",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": 1620,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Cranking Viscosity @ -20°C, mPa-s, D 5293: 1,620 (column 'aramcoPRIMA 150 / Typical')",
+        "unit": "mPa.s",
+        "test_temperature_c": -20,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "Printed '1,620'; the comma is a thousands separator (the table uses decimal points).",
+        "source": {
+          "file": "DL2-11773.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "value": 2760,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Cranking Viscosity @ -25°C, mPa-s, D 5293: 2,760 (column 'aramcoPRIMA 150 / Typical')",
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "Printed '2,760'; the comma is a thousands separator (the table uses decimal points).",
+        "source": {
+          "file": "DL2-11773.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    {
+      "question": "API Group 'Group II' is taken from the brochure table heading over all eight aramcoPRIMA columns; no grade-specific statement is printed. Confirm with Saudi Aramco / Luberef.",
+      "fields": [
+        "api_group_chemistry.api_group"
+      ],
+      "source_files": [
+        "DL2-11773.pdf"
+      ]
+    },
+    {
+      "question": "Chemistry is not printed on DL2-11773.pdf, and no aramcoPRIMA 150 SDS is in the archive.",
+      "fields": [
+        "api_group_chemistry.chemistry"
+      ],
+      "source_files": [
+        "DL2-11773.pdf"
+      ]
+    },
+    {
+      "question": "All values are brochure typicals; no guaranteed specification for aramcoPRIMA 150 is in the archive (the specification sheet DL2-12172.pdf covers aramcoPRIMA 70, 110, 230 and 500 only). No issuing date is printed; the PDF metadata title 'Base oils Dubai Catalog 27Sep2018 FINALout-LOW' is not a printed date. The issuing company is not named on the page.",
+      "fields": [
+        "kv40",
+        "kv100",
+        "viscosity_index",
+        "density",
+        "ccs[]"
+      ],
+      "source_files": [
+        "DL2-11773.pdf"
+      ]
+    },
+    {
+      "question": "Inventory identity notes kept unresolved: the inventory matched this grade to the legacy name 'Aramco Prima 150N' by product name (to confirm with the supplier), and the S-OIL Super S-31 record notes an unverified mapping to aramcoPRIMA 150. No grade is merged.",
+      "fields": [
+        "product"
+      ],
+      "source_files": [
+        "DL2-11773.pdf"
+      ]
+    },
+    {
+      "question": "Printed properties with no template field (DL2-11773.pdf, column 'aramcoPRIMA 150 / Typical'): Appearance, Visual: C&B; Brookfield @ -40°C, D 2983: blank; Saybolt Color, D 156: +30; Color ASTM, D 1500: L 0.5; Copper Corrosion 100°C 3hrs, D 130: 1b; Tan mgKOH/gm, D 974: < 0.01.",
+      "fields": [
+        "(no template field)"
+      ],
+      "source_files": [
+        "DL2-11773.pdf"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-11773.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier product brochure (aramcoPRIMA Group II typical properties table, printed pp. 8-9)",
+      "revision_date": null,
+      "notes": "Vector PDF without a text layer; values read from the rendered page. Byte-identical copies in the archive: DL2-11774.pdf, DL2-11781.pdf, DL2-11782.pdf, DL2-11783.pdf, DL2-11784.pdf. No issuing date is printed; the PDF metadata title is 'Base oils Dubai Catalog 27Sep2018 FINALout-LOW' (not a printed date)."
+    }
+  ]
+}
