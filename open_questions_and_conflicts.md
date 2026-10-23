@@ -1688,6 +1688,13 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier3) Saturates and aromatics typicals are printed as exactly '100' and '0' wt% (ASTM D-7419), without the '>'/'<' qualifiers used for 150N and 500N ('>99.80', '<0.20'); recorded as printed, not normalized. Confirm with the supplier.
 - (tier3) Cloud point and wax content are not printed on DL2-12108.jpeg.
 
+## 219. AFTON_HITEC_12250
+- (general) Source: no HiTEC 12250 data sheet is in the archive or was found. All values come from Afton's HiTEC 12204L PDS (printed edition '06/17', © 2017 Afton Chemical Corporation), retrieved as the Internet Archive original-bytes copy captured 2020-10-23 (SHA-256 7a1e57d81d66b52b83215da261732256867d89b651c75334068022362a74183e), p.2 'Typical Characteristics' column 'HiTEC® 12250'. Afton's live site blocks automated access. The archived HiTEC 12200 leaflet DL2-14639.pdf gives only the dose.
+- (general) Printed properties with no field in the component template (HiTEC 12204L PDS 06/17, p.2, column 'HiTEC® 12250', typical characteristics): Density, lbs/gal. 7.67; Specific Gravity @ 15.6/15.6°C 0.920; Viscosity @ 100°C, cSt 175; Flash Point, °C (PMCC) 135 min.
+- (general) Handling information printed for 'HiTEC® 12204L and HiTEC® 12250' (p.2), no template field: Max Handling Temp: 70˚C; Shelf Life: 3 months @ 45°C, 36 months @ ambient (10-40°C).
+- (general) Treat rate: the only dose is 4.2% with 10.3% HiTEC® 12200 to reach HiTEC® 12204L performance (12204L itself: 14.2% wt). The basis of the 4.2% is not printed, and 10.3% + 4.2% = 14.5% differs from the 14.2% 12204L rate; recorded as printed, not reconciled. Confirm with Afton.
+- (general) Chemical family, active content, carrier identity/share, compatibility restrictions and Ca, Mg, P, Zn, Mo contents are not printed; left Missing and not inferred from HiTEC 12204L or HiTEC 12200. component_subtype left null (booster, not VM or PPD). Confirm with Afton.
+
 ## Task 3 data-quality audit (2026-10): summary
 
 Every product with open questions or conflicts has a section above; entries repeated identically in several tiers are listed once. Conflict lines carry their type in square brackets. Open questions labelled [Resolved] or [History] record audit history, not unresolved questions.
