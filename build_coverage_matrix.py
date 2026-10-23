@@ -31,6 +31,8 @@ CONTRADICTION, OUT_OF_RANGE, TEMP_MISMATCH = ('Status contradicts value (review)
 # Non-blocking findings that ask for a human check rather than signalling a structural error.
 REVIEW = (MIXED, CONTRADICTION, OUT_OF_RANGE, TEMP_MISMATCH)
 PROPERTY_TEMPERATURE = {'kv40': 40, 'kv100': 100}
+# Properties outside the professor's minimum set: added only where a source prints them, never counted as missing.
+OPTIONAL_FIELDS = {'specific_gravity'}
 WARN, INFO = 'warning', 'info'
 REGISTRY_STATUSES = ('verified', 'unreachable', 'unverified')
 # Who issued a registered document; 'host' only says where the retrieved copy lives (e.g. a web archive).
@@ -251,7 +253,8 @@ def build(input_dir):
     for idx, (cl, label) in enumerate(CLASSES.items()):
         subset = sorted(((folder, item) for (c, folder), item in records.items() if c == cl), key=lambda t: t[0])
         fields = sorted(set().union(*(set(item['fields']) for _, item in subset))) if subset else []
-        headers = ['Record ID', 'Product name', 'Supplier', 'Source document', 'Tiers present'] + fields
+        headers = ['Record ID', 'Product name', 'Supplier', 'Source document', 'Tiers present'] + [
+            f + ' (optional)' if f in OPTIONAL_FIELDS else f for f in fields]
         sh = wb.create_sheet(label); write_rows(sh, [headers]); counts = collections.Counter()
         for r, (folder, item) in enumerate(subset, 2):
             rid = item['record_id']; p = item['product']
@@ -259,9 +262,11 @@ def build(input_dir):
                    cell_text(p.get('source_file', '')), ', '.join(map(str, sorted(item['tiers'], key=str)))]
             for c, f in enumerate(fields, 6):
                 if f in item['fields']: v = item['fields'][f]
+                elif f in OPTIONAL_FIELDS: row.append(''); continue    # not printed by the source: blank, no finding
                 else:
                     v = 'missing'; issues.append((rid, 'Property absent from JSON', f))
-                counts[v] += 1; row.append(v)
+                if f not in OPTIONAL_FIELDS: counts[v] += 1    # Overview totals cover required properties only
+                row.append(v)
                 if v.startswith(UNRECOGNIZED): sh.cell(r, c).fill = ERROR_FILL; unknown_cells += 1
                 elif f in item['mixed']: sh.cell(r, c).fill = MIXED_FILL
             for c, v in enumerate(row, 1): sh.cell(r, c, v)

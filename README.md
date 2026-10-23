@@ -66,6 +66,10 @@ The script only reads the JSON files; it never changes them. The workbook contai
 - **Overview** – product, file and status counts, plus the run status.
 - **Base Oils / Additive Packages / Additive Components** – one row per product, one column per
   property. Each cell is `reported`, `calculated`, `missing` or `not_applicable`.
+  Optional properties outside the minimum set (currently `specific_gravity`, base-oil tier 1 and
+  package tier 2) have a column marked `(optional)`: the cell is blank when the source prints no
+  value, it is never reported as missing, and it is excluded from the Overview totals. Specific
+  gravity is dimensionless and kept separate from the required `density` (absolute mass per volume).
 - **Validation Issues** – structural problems, plus non-blocking review items: mixed nested
   statuses, a status that contradicts its value, a value outside its own min/max, and a KV40/KV100
   test temperature that differs from the property.

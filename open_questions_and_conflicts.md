@@ -373,10 +373,10 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Only a TDS is in the archive for this product (no SDS).
 - (tier1) Treat rate is printed per 'Recommended for use at' block; SAE grade taken from the block intro where printed.
 - (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with The Lubrizol Corporation.
-- (tier2) Density field holds 'SPECIFIC GRAVITY @ 15.6 C' (dimensionless); LBS PER U.S./IMP GAL @ 15.6 C also printed.
+- (tier2) Density holds 'LBS PER U.S. GAL @ 15.6 C 8.11' (Target), with 'LBS PER IMP GAL @ 15.6 C 9.74' as an alternate entry; 'SPECIFIC GRAVITY @ 15.6 C 0.953 0.973 0.993' is recorded in the optional specific_gravity property (2026-10-24 pilot).
 - (tier2) Physical values are in the 'Target' column (target, not typical); chemical values in the 'Typical' column. KV40/flash/pour usually have no min/max.
 - (tier2) Package TBN is printed only where the table has a 'BASE NUMBER (MGKOH/G)' row; otherwise left Missing.
-- (tier2) User decision 2026-10-17: density field stores the number 0.973 (specific gravity (dimensionless)), which is reported as specific gravity ('SPECIFIC GRAVITY @ 15.6 C 0.953 0.973 0.993', DL2-10653.pdf p.1), not a density in kg/m3; flagged for review.
+- (tier2) [History] User decision 2026-10-17: the density field stored 0.973 (specific gravity, dimensionless) from 'SPECIFIC GRAVITY @ 15.6 C 0.953 0.973 0.993' (DL2-10653.pdf p.1). Superseded 2026-10-24 by the approved optional specific_gravity property: the specific gravity moved there and density now holds the printed 8.11 lbs/US gal @ 15.6 C.
 
 ## 45. LUBRIZOL_4986D
 - (tier1) Claim type from the intro line of each 'Recommended for use at' block (e.g. 'the lubricant meets the following performance specifications').

@@ -18,6 +18,9 @@
       "calculation_note": "Inside a property: derivation of a Calculated value, or a note on a Reported or Missing one.",
       "alternate_entries": "Inside a property: other printed values (e.g. specification limits) kept beside the main value."
     },
+    "optional_properties": {
+      "specific_gravity": "OPTIONAL, NONBLOCKING. Not part of the minimum property set. Add this property only when a cited source prints a specific gravity or relative density; do not add a Missing placeholder to other products. It is dimensionless and never an absolute density: density keeps mass per unit volume. reference_condition holds the printed reference temperature(s) as printed (e.g. '60.1°F (15.6°C)', '15.6/15.6°C', '15/4°C'); test_temperature_c only when a sample temperature is printed. The coverage generator shows it as an optional column, blank when absent, excluded from the required-coverage totals."
+    },
     "conflicts": "Top-level 'conflicts' entries record documents or editions that print different values: conflict_type ('edition difference', 'conflicting values between different documents', 'inconsistency within one document' or 'unit or test-condition discrepancy'), field, values[{value, printed_text, file, page, revision_date}], note."
   },
   "template_version": "1.0",
@@ -116,6 +119,25 @@
       "printed_text": null,
       "unit": "kg/m3",
       "test_temperature_c": 15,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "specific_gravity": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "dimensionless",
+      "reference_condition": null,
+      "test_temperature_c": null,
       "method": null,
       "status": "Missing",
       "calculation_note": null,
