@@ -1,0 +1,462 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_component",
+  "tier": 2,
+  "tier_label": "Viscosity modifier - adds to the general block",
+  "record_id": "AFTON_HITEC_5748",
+  "product": {
+    "product_name": "HiTEC® 5748",
+    "supplier": "Afton Chemical Corporation",
+    "document_type": [
+      "PDS"
+    ],
+    "source_file": [
+      "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf"
+    ],
+    "revision_date": "05/23"
+  },
+  "component_subtype": "VM",
+  "fields": {
+    "polymer_chemistry": {
+      "value": null,
+      "unit": null,
+      "type": "Olefin copolymer (OCP), non-dispersant",
+      "form": "Viscous liquid (as supplied)",
+      "status": "Reported",
+      "source": {
+        "file": "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+        "page": 2,
+        "revision_date": "05/23"
+      },
+      "notes": "Type from the printed title 'Non-Dispersant Olefin Copolymer Viscosity Modifier'; form from 'Appearance: Clear to slightly hazy greenish tan viscous liquid' (PDS 05/23, p.2). The 03/18 edition says it is 'based on a solid polymer'; the solid polymer content is not printed."
+    },
+    "active_polymer": {
+      "wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "carrier_identity": null,
+      "carrier_share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "treat_range_by_sae_grade": [
+      {
+        "sae_grade": "5W-30",
+        "treat_range_wt_pct": {
+          "value": 8.0,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "recommended dosage",
+          "printed_text": "SAE Grade 5W-30: HiTEC® 5748 (vol.) 8.0% (8.0%)",
+          "unit": "vol.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": "Dosage 'generally necessary to make multigrade crankcase oils which meet the 10 hour L-38 stay-in-grade requirements'. Printed in vol.%, not wt.% (the template key name says wt_pct). 'Please contact your Afton Chemical representative for specific recommendations.'",
+          "source": {
+            "file": "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+            "page": 2,
+            "revision_date": "05/23"
+          },
+          "notes": null,
+          "alternate_entries": [
+            {
+              "value": 8.0,
+              "unit": "vol.%",
+              "basis": "CMCC (DIN 51382) stay-in-grade recommendation",
+              "printed_text": "(8.0%)"
+            }
+          ]
+        }
+      },
+      {
+        "sae_grade": "10W-30",
+        "treat_range_wt_pct": {
+          "value": 5.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "recommended dosage",
+          "printed_text": "SAE Grade 10W-30: HiTEC® 5748 (vol.) 5.7% (5.8%)",
+          "unit": "vol.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": "Dosage 'generally necessary to make multigrade crankcase oils which meet the 10 hour L-38 stay-in-grade requirements'. Printed in vol.%, not wt.% (the template key name says wt_pct). 'Please contact your Afton Chemical representative for specific recommendations.'",
+          "source": {
+            "file": "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+            "page": 2,
+            "revision_date": "05/23"
+          },
+          "notes": null,
+          "alternate_entries": [
+            {
+              "value": 5.8,
+              "unit": "vol.%",
+              "basis": "CMCC (DIN 51382) stay-in-grade recommendation",
+              "printed_text": "(5.8%)"
+            }
+          ]
+        }
+      },
+      {
+        "sae_grade": "10W-40",
+        "treat_range_wt_pct": {
+          "value": 11.6,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "recommended dosage",
+          "printed_text": "SAE Grade 10W-40: HiTEC® 5748 (vol.) 11.6% (11.8%)",
+          "unit": "vol.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": "Dosage 'generally necessary to make multigrade crankcase oils which meet the 10 hour L-38 stay-in-grade requirements'. Printed in vol.%, not wt.% (the template key name says wt_pct). 'Please contact your Afton Chemical representative for specific recommendations.'",
+          "source": {
+            "file": "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+            "page": 2,
+            "revision_date": "05/23"
+          },
+          "notes": null,
+          "alternate_entries": [
+            {
+              "value": 11.8,
+              "unit": "vol.%",
+              "basis": "CMCC (DIN 51382) stay-in-grade recommendation",
+              "printed_text": "(11.8%)"
+            }
+          ]
+        }
+      },
+      {
+        "sae_grade": "15W-40",
+        "treat_range_wt_pct": {
+          "value": 5.4,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "recommended dosage",
+          "printed_text": "SAE Grade 15W-40: HiTEC® 5748 (vol.) 5.4% (5.5%)",
+          "unit": "vol.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": "Dosage 'generally necessary to make multigrade crankcase oils which meet the 10 hour L-38 stay-in-grade requirements'. Printed in vol.%, not wt.% (the template key name says wt_pct). 'Please contact your Afton Chemical representative for specific recommendations.'",
+          "source": {
+            "file": "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+            "page": 2,
+            "revision_date": "05/23"
+          },
+          "notes": null,
+          "alternate_entries": [
+            {
+              "value": 5.5,
+              "unit": "vol.%",
+              "basis": "CMCC (DIN 51382) stay-in-grade recommendation",
+              "printed_text": "(5.5%)"
+            }
+          ]
+        }
+      },
+      {
+        "sae_grade": "20W-50",
+        "treat_range_wt_pct": {
+          "value": 5.4,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "recommended dosage",
+          "printed_text": "SAE Grade 20W-50: HiTEC® 5748 (vol.) 5.4% (5.5%)",
+          "unit": "vol.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": "Dosage 'generally necessary to make multigrade crankcase oils which meet the 10 hour L-38 stay-in-grade requirements'. Printed in vol.%, not wt.% (the template key name says wt_pct). 'Please contact your Afton Chemical representative for specific recommendations.'",
+          "source": {
+            "file": "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+            "page": 2,
+            "revision_date": "05/23"
+          },
+          "notes": null,
+          "alternate_entries": [
+            {
+              "value": 5.5,
+              "unit": "vol.%",
+              "basis": "CMCC (DIN 51382) stay-in-grade recommendation",
+              "printed_text": "(5.5%)"
+            }
+          ]
+        }
+      }
+    ],
+    "thickening_response": [
+      {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "delta_kv100_cst": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "cSt",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": null
+      }
+    ],
+    "shear_stability": [
+      {
+        "index_type": "Shear Stability Index (SSI), %",
+        "value": {
+          "value": 22,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "Shear Stability Index %: 22",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": "'Typical Characteristics' (PDS 05/23, p.2). No test method or cycle count is printed, so the value is not usable for calculation (usable: false). Afton's 03/18 and 04/21 editions also print SSI 22; the 07/11 edition says 'It is based on 23 SSI polymer' (base polymer, a different basis). The HiTEC 12360 bulletin DL2-13692.pdf (07/20) describes 'HiTEC® 5748 25SSI OCP'; no method is printed there either, so the values are not shown to be comparable and no conflict is recorded (see open questions).",
+          "source": {
+            "file": "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+            "page": 2,
+            "revision_date": "05/23"
+          },
+          "notes": null
+        },
+        "method": null,
+        "cycle_count": null,
+        "usable": false
+      }
+    ],
+    "post_shear_blend_behaviour": {
+      "post_shear_kv100": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "kv100": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "cSt",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": null
+      },
+      "hths_150c": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "hths": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": null
+      },
+      "ccs_impact": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "ccs": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": null
+      },
+      "mrv_impact": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "mrv": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": null
+      },
+      "low_temp_gelation": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "gelation": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": null
+        },
+        "usable": null
+      }
+    },
+    "dissolution_blend_temperature": {
+      "temperature_c": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "°C",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "Not printed. The PDS 'Max Handling Temp: 250°F (120°C)' is a handling limit, not a dissolution or blend temperature.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "procedure": null
+    }
+  },
+  "open_questions": [
+    "SSI discrepancy, not reconciled: Afton's HiTEC 5748 PDS prints 'Shear Stability Index %: 22' (05/23 and 04/21) and 'a typical Shear Stability Index (SSI) of 22' (03/18); the 07/11 edition says 'It is based on 23 SSI polymer' (base-polymer basis); Afton's HiTEC 12360 bulletin DL2-13692.pdf (07/20, p.2) describes 'HiTEC® 5748 25SSI OCP' / '25SSI viscosity modifier'. None of these documents prints the SSI test method, cycle count or base oil, so comparability is not established and no conflict entry is recorded. Confirm the SSI and its method with Afton.",
+    "Treat range: the PDS gives one dosage per SAE grade in vol.% for the 10 hour L-38 stay-in-grade requirement, with CMCC (DIN 51382) values in parentheses (kept as alternate_entries); no min/max range and no wt.% basis are printed.",
+    "Thickening response, post-shear KV100, HTHS, CCS/MRV impact, low-temperature gelation, active polymer content, carrier and dissolution/blend temperature are not printed; left Missing. The printed 'Dilute Viscosity @ 100°C, cSt: 11.55' has no stated reference oil or dose, so it is not entered as a thickening response."
+  ],
+  "conflicts": [],
+  "external_fill_notes": [
+    {
+      "value": null,
+      "unit": null,
+      "property": "polymer_chemistry",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 5748 PDS, edition 05/23, p.2 (Internet Archive original-bytes copy captured 2024-10-05): https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "treat_range_by_sae_grade",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 5748 PDS, edition 05/23, p.2 (Internet Archive original-bytes copy captured 2024-10-05): https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "shear_stability",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 5748 PDS, edition 05/23, p.2 (Internet Archive original-bytes copy captured 2024-10-05): https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+      "notes": null
+    }
+  ]
+}

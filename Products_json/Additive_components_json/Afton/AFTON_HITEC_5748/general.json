@@ -1,0 +1,285 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "AFTON_HITEC_5748",
+  "product": {
+    "product_name": "HiTEC® 5748",
+    "supplier": "Afton Chemical Corporation",
+    "document_type": [
+      "PDS"
+    ],
+    "source_file": [
+      "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf"
+    ],
+    "revision_date": "05/23"
+  },
+  "component_subtype": "VM",
+  "fields": {
+    "function": {
+      "primary": {
+        "unit": null,
+        "value": "Viscosity modifier",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "05/23"
+        },
+        "notes": "Printed title: 'HiTEC® 5748 Non-Dispersant Olefin Copolymer Viscosity Modifier' (PDS 05/23, p.2)."
+      },
+      "secondary": {
+        "unit": null,
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "chemical_family": {
+      "unit": null,
+      "value": "Non-dispersant olefin copolymer (OCP)",
+      "status": "Reported",
+      "source": {
+        "file": "https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+        "page": 2,
+        "revision_date": "05/23"
+      },
+      "notes": "Printed title: 'Non-Dispersant Olefin Copolymer Viscosity Modifier' (PDS 05/23, p.2)."
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "basis": null,
+      "notes": null
+    },
+    "carrier": {
+      "identity": {
+        "unit": null,
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "treat_rate": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "No single min/max/typical treat rate is printed; the PDS gives grade-specific dosages in vol.% (recorded in vm.json treat_range_by_sae_grade).",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "compatibility_restrictions": {
+      "value": null,
+      "unit": null,
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mg KOH/g",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "Not printed in the HiTEC 5748 PDS (05/23); not inferred.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "Not printed in the HiTEC 5748 PDS (05/23); not inferred.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "Not printed in the HiTEC 5748 PDS (05/23); not inferred.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "Not printed in the HiTEC 5748 PDS (05/23); not inferred.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "Not printed in the HiTEC 5748 PDS (05/23); not inferred.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "Not printed in the HiTEC 5748 PDS (05/23); not inferred.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    }
+  },
+  "open_questions": [
+    "Source: Afton HiTEC 5748 PDS 'HiTEC® 5748 Non-Dispersant Olefin Copolymer Viscosity Modifier', printed edition '05/23' (© 2023 Afton Chemical Corporation; PDF created 2023-07-28), retrieved as the Internet Archive original-bytes copy captured 2024-10-05 (SHA-256 18edefceb198a43701b7eb17544599a71c6137199f6e3967800cf3f6ff0cee3b), p.2. Afton's live site blocks automated access. The archive only names HiTEC 5748 inside other bulletins (DL2-13692.pdf HiTEC 12360, 07/20; DL2-15568.pdf HiTEC 12210M, 04/22).",
+    "Printed typical characteristics with no field in the component templates (PDS 05/23, p.2): Appearance: Clear to slightly hazy greenish tan viscous liquid; Specific Gravity @ 15.6/15.6°C: 0.855; Flash Point, °C (PMCC): 135 min.; Color, ASTM D1500: 3.0 max.; Kinematic Viscosity @ 100˚C, cSt: 1100; Dilute Viscosity @ 100°C, cSt: 11.55 (dilution, reference oil and dose not stated). Handling Information: Max Handling Temp: 250°F (120°C); Shelf Life: 36 months @ 10 – 40 °C.",
+    "Application (PDS 05/23, p.2): 'recommended for use in various Engine Oils, selected Off Road, and Grease applications'; listed uses: licensable PCMO applications from API SL to OEM applications such as MB 229.5, licensable HDEO applications from API CH-4 to OEM applications such as MB 228.51, JASO compliant for MCO applications from API SG to API SN quality, selected off-road applications, and grease applications 'to provide structural stability and reduce soap content'. Recorded here, not as compatibility restrictions; secondary function left Missing.",
+    "Active content, carrier identity/share, compatibility restrictions and TBN/Ca/Mg/P/Zn/Mo are not printed; left Missing and not inferred. The 03/18 edition says the product is based on a solid polymer, but gives no polymer content.",
+    "Older Afton editions retrieved from the Internet Archive (original bytes, not cited as sources): PDS 07/11 (http://www.aftonchemical.com/ProductDataSheets/Engine%20Oil/HiTEC-5748_PDS.pdf, snapshot 2012-05-03, SHA-256 ee8581a8...); PDS 03/18 (HiTEC-5748_PDS_1.pdf, snapshot 2023-02-02, identical to the 2019-07-13 capture, SHA-256 3bfb7f0d...); PDS 04/21 (HiTEC-5748_PDS_2.pdf, snapshot 2023-01-28, SHA-256 f291807c...). Typical characteristics differ between editions (edition differences on properties without a template field): 07/11 Specific Gravity 0.865, Flash Point (PMCC) 155 min., Viscosity @ 40°C 15000 cSt, Viscosity @ 100°C 1140 cSt, Color 5.0 max.; 03/18 0.855, 135 min., 1100 cSt @ 100°C, Color 5.0 max., Thickening Power @ 100°C 6.55; 04/21 and 05/23 0.855, 135 min., 1100 cSt @ 100°C, Color 3.0 max., Dilute Viscosity @ 100°C 11.55 cSt. The recommended dosage table is identical in all four editions. The record uses the 05/23 edition.",
+    "Identity: HiTEC 5748A is a separate Afton grade with its own PDS (HiTEC-5748A_PDS.pdf); it has no inventory row (identity review ID-08). No 5748A data is used here."
+  ],
+  "conflicts": [],
+  "external_fill_notes": [
+    {
+      "value": null,
+      "unit": null,
+      "property": "function.primary",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 5748 PDS, edition 05/23, p.2 (Internet Archive original-bytes copy captured 2024-10-05): https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "chemical_family",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 5748 PDS, edition 05/23, p.2 (Internet Archive original-bytes copy captured 2024-10-05): https://web.archive.org/web/20241005085229id_/https://www.aftonchemical.com/getmedia/c378c7f9-8667-452e-be0f-d6882b2bff45/HiTEC-5748_PDS_3.pdf?ext=.pdf",
+      "notes": null
+    }
+  ]
+}
