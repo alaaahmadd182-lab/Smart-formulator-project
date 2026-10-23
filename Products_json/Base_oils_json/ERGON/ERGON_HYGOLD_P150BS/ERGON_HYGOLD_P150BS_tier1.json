@@ -97,21 +97,21 @@
       }
     },
     "density": {
-      "value": null,
+      "value": 7.437,
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": "g/cm3",
+      "value_kind": "typical",
+      "printed_text": "Density, lbs/gal at 60\u00b0F (ASTM D1250): 7.437",
+      "unit": "lbs/gal",
       "test_temperature_c": 15.6,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "method": "ASTM D1250",
+      "status": "Reported",
+      "calculation_note": "Printed in lbs/gal at 60\u00b0F (15.6 \u00b0C); not converted. The specific gravity printed on the same sheet (0.8931 at 60\u00b0F) is not used for this field.",
       "source": {
-        "file": null,
-        "page": null,
-        "revision_date": null
+        "file": "DL2-10961.pdf",
+        "page": 1,
+        "revision_date": "2015-09-18"
       }
     },
     "ccs": [
