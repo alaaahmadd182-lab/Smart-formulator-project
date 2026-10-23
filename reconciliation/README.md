@@ -15,38 +15,38 @@ changed.
 
 ## Counts
 
-Current state, after the ingestion of NYNAS T 22 (pilot), NYNAS T 110, aramcoPRIMA 150, aramcoPRIMA 100, aramcoPRIMA 220, aramcoPRIMA 600, aramcoPRIMA 500L, NEXBASE 3030 and FPCC 70N GII (all nine category-B base oils), and of HiTEC 12250 (the first category-C material with a verified manufacturer source):
+Current state, after the ingestion of NYNAS T 22 (pilot), NYNAS T 110, aramcoPRIMA 150, aramcoPRIMA 100, aramcoPRIMA 220, aramcoPRIMA 600, aramcoPRIMA 500L, NEXBASE 3030 and FPCC 70N GII (all nine category-B base oils), and of HiTEC 12250 and HiTEC 5748 (category-C materials with verified manufacturer sources):
 
 | | Base oils | Additive packages | Additive components | Total |
 |---|---|---|---|---|
 | Inventory materials | 202 | 130 | 121 | **453** |
-| JSON product folders | 181 | 77 | 4 | **262** |
-| Inventory materials represented by JSON (category A) | 180 | 77 | 4 | **261** |
-| Inventory materials without JSON | 22 | 53 | 117 | **192** |
+| JSON product folders | 181 | 77 | 5 | **263** |
+| Inventory materials represented by JSON (category A) | 180 | 77 | 5 | **262** |
+| Inventory materials without JSON | 22 | 53 | 116 | **191** |
 | of which: archived supplier datasheet (category B) | 0 | 0 | 0 | **0** |
-| of which: mentioned only in other documents (category C) | 0 | 3 | 19 | **22** |
+| of which: mentioned only in other documents (category C) | 0 | 3 | 18 | **21** |
 | of which: no archived source located (category D) | 22 | 50 | 98 | **170** |
 
 At the reconciliation of 2026-10-23 (commit `da4f2b3`), the counts were 252 folders, 251 represented
 materials, 202 without JSON and 9 in category B. NYNAS T 22 (`BO-NYNAS-NYNAS-T-22`), NYNAS T 110
 (`BO-NYNAS-NYNAS-T-110`), aramcoPRIMA 150 (`BO-ARAMCO-ARAMCOPRIMA-150N`), aramcoPRIMA 100
-(`BO-ARAMCO-ARAMCOPRIMA-100`), aramcoPRIMA 220 (`BO-ARAMCO-ARAMCOPRIMA-220`), aramcoPRIMA 600 (`BO-ARAMCO-ARAMCOPRIMA-600`), aramcoPRIMA 500L (`BO-ARAMCO-ARAMCOPRIMA-500L`), NEXBASE 3030 (`BO-NESTE-NEXBASE-3030`) and FPCC 70N GII (`BO-FORMOSA-FPCC-70N-GII`) have since moved from category B to A, and HiTEC 12250 (`AC-AFTON-HITEC-12250`) from category C to A; their CSV rows record this in `reconciliation_history`.
+(`BO-ARAMCO-ARAMCOPRIMA-100`), aramcoPRIMA 220 (`BO-ARAMCO-ARAMCOPRIMA-220`), aramcoPRIMA 600 (`BO-ARAMCO-ARAMCOPRIMA-600`), aramcoPRIMA 500L (`BO-ARAMCO-ARAMCOPRIMA-500L`), NEXBASE 3030 (`BO-NESTE-NEXBASE-3030`) and FPCC 70N GII (`BO-FORMOSA-FPCC-70N-GII`) have since moved from category B to A, and HiTEC 12250 (`AC-AFTON-HITEC-12250`) and HiTEC 5748 (`AC-AFTON-HITEC-5748`) from category C to A; their CSV rows record this in `reconciliation_history`.
 
 `Coverage_Matrix.xlsx` and the scope table in the main `README.md` describe the state synchronized at commit
-`53fb90e` (261 folders, 260 materials, 193 without JSON) and do not yet include HiTEC 12250, until the coverage
+`53fb90e` (261 folders, 260 materials, 193 without JSON) and do not yet include HiTEC 12250 or HiTEC 5748, until the coverage
 workbook is regenerated.
 
-The 262 JSON folders represent 261 inventory materials because two S-OIL folders, `S_OIL_ULTRA_S_8` and
+The 263 JSON folders represent 262 inventory materials because two S-OIL folders, `S_OIL_ULTRA_S_8` and
 `S_OIL_ARAMCO_ULTRA_8`, both correspond to `BO-S-OIL-ULTRA-S-8` (see `identity_review.md`, ID-01). Every
 JSON folder corresponds to an inventory material; no JSON product is missing from the inventory.
 
 ## Categories (column `category`, mutually exclusive)
 
-- **A JSON present** (261; 251 at the reconciliation): at least one `Products_json` folder represents the material.
+- **A JSON present** (262; 251 at the reconciliation): at least one `Products_json` folder represents the material.
 - **B no JSON - archived supplier datasheet** (0; 9 at the reconciliation; all nine ingested): a supplier document in `Manual + Data to share.zip`
   prints grade-level values for this material, in its own data sheet or in its own column of a
   multi-grade table.
-- **C no JSON - mentioned only in other documents** (22; 23 at the reconciliation): the material is named only inside another
+- **C no JSON - mentioned only in other documents** (21; 23 at the reconciliation): the material is named only inside another
   product's data sheet, for example as a booster, premix, viscosity modifier or co-component dose;
   there is no data sheet of its own. Lubrizol 7077 and RF0206 are named in package data sheets
   but are not linked to them in the inventory's Document register.
@@ -85,10 +85,11 @@ with JSON, but those siblings were built from other documents, not from the same
    - FPCC 70N GII (ingested 2026-10-23).
 2. **Manual decisions in `identity_review.md`** that affect existing JSON (ID-01 duplicate, ID-12 and
    ID-14 supplier fields), before any further JSON work.
-3. **Category C (22 remaining)**, only where a verified manufacturer source gives the product its own data, or if JSON
+3. **Category C (21 remaining)**, only where a verified manufacturer source gives the product its own data, or if JSON
    records that are mostly Missing are approved for products known only from other documents (precedent:
-   `AFTON_HITEC_8767B`). HiTEC 12250 was ingested 2026-10-23 from the archived Afton HiTEC 12204L PDS (06/17).
-   Remaining priority A: HiTEC 5748, SV261, Lubrizol 7077, RF0206 (and the premix HiTEC 12204L).
+   `AFTON_HITEC_8767B`). HiTEC 12250 was ingested 2026-10-23 from the archived Afton HiTEC 12204L PDS (06/17), and HiTEC 5748
+   from Afton's own archived HiTEC 5748 PDS (05/23). Remaining priority A: SV261, Lubrizol 7077, RF0206 (and the
+   premix HiTEC 12204L).
 4. **Category D (170)**, only after manufacturer sources are found and verified. The Richful leads in
    `richful_feed_leads.csv` are candidates for that research; none is an approved source.
 
@@ -112,4 +113,4 @@ Until then, the columns `authenticity`, `product_identity`, `document_content` a
 read "not verified" or "not reviewed", and `approved_as_source` is "no".
 
 Still open: whether Task 3 requires a JSON for every inventory material even without any source. The
-answer decides whether 0, 22 (category C) or up to 192 more JSON products are needed.
+answer decides whether 0, 21 (category C) or up to 191 more JSON products are needed.

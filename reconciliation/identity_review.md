@@ -73,6 +73,10 @@ until the supplier or the professor confirms otherwise.
   - 12210M 04/22 (DL2-15568) names "HiTEC® 5748A or HiTEC® 5748".
   - HiTEC 12360 (DL2-13692) names HiTEC 5748.
 - **Status:** the inventory has only `AC-AFTON-HITEC-5748`. 5748A has no inventory row.
+- **Update (2026-10-23):** HiTEC 5748 was ingested from Afton's own HiTEC 5748 PDS (05/23) as
+  `AFTON_HITEC_5748`; no 5748A data was used. The Internet Archive index also lists a separate Afton
+  `HiTEC-5748A_PDS.pdf` (snapshot 2023-03-23, not retrieved), consistent with 5748A being a distinct grade.
+  Nothing merged; whether 5748A needs an inventory row remains open.
 
 ## ID-09: Possible variant pairs (kept as separate inventory rows)
 
