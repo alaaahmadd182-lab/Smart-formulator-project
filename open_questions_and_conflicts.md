@@ -762,15 +762,18 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 
 ## 89. ARAMCO_LUBEREF_PRIMA_110
 - (tier1) KV100 and CCS are not reported in the reviewed specifications. [fields: kv100, ccs[]]
+- (tier1) Document discrepancy requiring review (not a confirmed numerical contradiction): density @ 15 °C, aramcoPRIMA 110. DL2-12172.pdf p.1 ('LUBEREF GII Product Specifications*', no printed date; column 'aramcoPRIMA 110 Spec.', Typical, ASTM D-4052) prints 0.8500 with no unit. DL2-11773.pdf p.1 (brochure, printed pp. 8-9 'Group II' table, no printed date; column 'aramcoPRIMA 110*', the '*' footnote reads '*Typicals are subject to confirmation upon startup of the new Group II plant.' (provisional typical), Typical, D 4052) prints 0.8510 in the row 'Density @ 15°C, Kg/L'. The density field keeps the DL2-12172.pdf value with unit null; the brochure value is not entered and its unit is not applied to the specification-sheet value. [fields: density]
 - (tier2) Not reported in reviewed source specifications; preserve as missing. [fields: mrv[].mrv_viscosity, mrv[].yield_stress]
 - (tier3) Not reported in reviewed source specifications; preserve as missing. [fields: aromatics, cloud_point, wax_content]
 
 ## 90. ARAMCO_LUBEREF_PRIMA_230
+- (tier1) Document discrepancy requiring review (not a confirmed numerical contradiction): density @ 15 °C, aramcoPRIMA 230. DL2-12172.pdf p.1 ('LUBEREF GII Product Specifications*', no printed date; column 'aramcoPRIMA 230 Spec.', Typical, ASTM D-4052) prints 0.8630 with no unit. DL2-11773.pdf p.1 (brochure, printed pp. 8-9 'Group II' table, no printed date; column 'aramcoPRIMA 230*', the '*' footnote reads '*Typicals are subject to confirmation upon startup of the new Group II plant.' (provisional typical), Typical, D 4052) prints 0.8625 in the row 'Density @ 15°C, Kg/L'. The density field keeps the DL2-12172.pdf value with unit null; the brochure value is not entered and its unit is not applied to the specification-sheet value. [fields: density]
 - (tier2) Not reported in reviewed source specifications; preserve as missing. [fields: mrv[].mrv_viscosity, mrv[].yield_stress]
 - (tier3) Not reported in reviewed source specifications; preserve as missing. [fields: aromatics, cloud_point, wax_content]
 
 ## 91. ARAMCO_LUBEREF_PRIMA_500
 - (tier1) KV40 and CCS are not confirmed for the specific Luberef PRIMA 500 product represented by DL2-12172.pdf. [fields: kv40, ccs[]]
+- (tier1) Document discrepancy requiring review (not a confirmed numerical contradiction): density @ 15 °C, aramcoPRIMA 500. DL2-12172.pdf p.1 ('LUBEREF GII Product Specifications*', no printed date; column 'aramcoPRIMA 500 Spec.', Typical, ASTM D-4052) prints 0.867 with no unit. DL2-11773.pdf p.1 (brochure, printed pp. 8-9 'Group II' table, no printed date; column 'aramcoPRIMA 500', which carries no '*' (the footnote does not apply), Typical, D 4052) prints 0.8720 in the row 'Density @ 15°C, Kg/L'. The density field keeps the DL2-12172.pdf value with unit null; the brochure value is not entered and its unit is not applied to the specification-sheet value. [fields: density]
 - (tier2) Not reported in reviewed source specifications; preserve as missing. [fields: mrv[].mrv_viscosity, mrv[].yield_stress]
 - (tier3) Not reported in reviewed source specifications; preserve as missing. [fields: aromatics, cloud_point, wax_content]
 
