@@ -26,7 +26,8 @@
           "page": 1,
           "revision_date": "2019-11-04"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "Heavy Duty Diesel Lubricant Package"
       },
       "intended_service": {
         "unit": null,
@@ -37,7 +38,8 @@
           "page": 1,
           "revision_date": "2019-11-04"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "Petrochemical industry: Heavy Duty Diesel Lubricant Package"
       }
     },
     "performance_claims": [
@@ -54,7 +56,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -68,7 +71,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -91,7 +95,8 @@
         "page": 2,
         "revision_date": null
       },
-      "notes": "Afton's HiTEC 8788B product data sheet ('Simplicity and Performance', PDF created 2019-02-07), read from the Wayback Machine snapshot of 4 December 2022 of Afton's own URL (Afton's servers block automated retrieval), p.2: 'HiTEC 8788B additive package uses a simple formulation style, using conventional OCP Viscosity Modifier (VM) and a mix of Group I and Group III base stocks.' The approvals table lists 17.7% SAE 10W-40 with Base Oil Grp 'I/III*' and 'III*'. Group I appears only as part of a Group I/III mix. Not in the archived SDS DL2-15016.pdf. Earlier this value rested on a search-engine excerpt of a different Afton URL (https://www.aftonchemical.com/getmedia/76e36bd1-3c58-4283-bc57-8bbcc4bb799c/HiTEC-8788B_PDS.pdf?ext=.pdf) that was never opened (2026-10 audit)."
+      "notes": "Afton's HiTEC 8788B product data sheet ('Simplicity and Performance', PDF created 2019-02-07), read from the Wayback Machine snapshot of 4 December 2022 of Afton's own URL (Afton's servers block automated retrieval), p.2: 'HiTEC 8788B additive package uses a simple formulation style, using conventional OCP Viscosity Modifier (VM) and a mix of Group I and Group III base stocks.' The approvals table lists 17.7% SAE 10W-40 with Base Oil Grp 'I/III*' and 'III*'. Group I appears only as part of a Group I/III mix. Not in the archived SDS DL2-15016.pdf. Earlier this value rested on a search-engine excerpt of a different Afton URL (https://www.aftonchemical.com/getmedia/76e36bd1-3c58-4283-bc57-8bbcc4bb799c/HiTEC-8788B_PDS.pdf?ext=.pdf) that was never opened (2026-10 audit).",
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -105,7 +110,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -128,7 +134,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -153,7 +161,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -190,7 +200,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -200,7 +211,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },

@@ -31,27 +31,27 @@
         "flash_method": null,
         "test_temperature_c": null
       },
-      
-    "chemistry": {
-      "value": "Distillates (petroleum), hydrotreated heavy paraffinic",
-      "status": "Reported",
-      "source": {
-        "file": "https://go.lupinsys.com/oilchem/harms/public/materials/3c60f4aea41698b195da1a927cf519a2-published/attachments_api/3585e3648f25dbd61a86ee3610d71d66/search_api/Yubase_6-SDS.pdf",
-        "page": 1,
-        "revision_date": "2021-09-28"
-      },
-      "printed_text": "Distillates, petroleum, hydrotreated heavy paraffinic 64742-54-7 100 % (w/w)",
-      "value_kind": "supplier SDS composition (distributor-issued)",
-      "basis": "Distributor-issued safety data sheet, Section 3. Issuer: Hilditch Pty Ltd (SDS HIL0045, version 5.0, issued 2021-09-28), Australian distributor of SK YUBASE; not issued by the manufacturer SK Enmove (formerly SK Lubricants).",
-      "method": null,
-      "min": null,
-      "max": null,
-      "qualifier": null,
-      "calculation_note": "Safety Data Sheet 'Product Name: Yubase 6', reference HIL0045, issued 2021-09-28, version 5.0, issued by Hilditch Pty Ltd (SK's Australian supplier), Section 3 p.1: 'Distillates, petroleum, hydrotreated heavy paraffinic, CAS 64742-54-7, 100 % (w/w)'. This is the supplier of record's regulatory SDS for this grade, not an SDS issued by SK Lubricants / SK Enmove; SK's own 2019 YUBASE 6 SDS is linked from yubase.com but no copy could be retrieved. Not stated in the archived NARMAK TRADE sheet DL2-11306.pdf. The earlier Scribd-hosted source is recorded in open questions (2026-10 audit).",
-      "flash_method": null,
-      "test_temperature_c": null,
-      "unit": null
-    }
+      "chemistry": {
+        "value": "Distillates (petroleum), hydrotreated heavy paraffinic",
+        "status": "Reported",
+        "source": {
+          "file": "https://go.lupinsys.com/oilchem/harms/public/materials/3c60f4aea41698b195da1a927cf519a2-published/attachments_api/3585e3648f25dbd61a86ee3610d71d66/search_api/Yubase_6-SDS.pdf",
+          "page": 1,
+          "revision_date": "2021-09-28"
+        },
+        "printed_text": "Distillates, petroleum, hydrotreated heavy paraffinic 64742-54-7 100 % (w/w)",
+        "value_kind": "supplier SDS composition (distributor-issued)",
+        "basis": "Distributor-issued safety data sheet, Section 3. Issuer: Hilditch Pty Ltd (SDS HIL0045, version 5.0, issued 2021-09-28), Australian distributor of SK YUBASE; not issued by the manufacturer SK Enmove (formerly SK Lubricants).",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "Safety Data Sheet 'Product Name: Yubase 6', reference HIL0045, issued 2021-09-28, version 5.0, issued by Hilditch Pty Ltd (SK's Australian supplier), Section 3 p.1: 'Distillates, petroleum, hydrotreated heavy paraffinic, CAS 64742-54-7, 100 % (w/w)'. This is the supplier of record's regulatory SDS for this grade, not an SDS issued by SK Lubricants / SK Enmove; SK's own 2019 YUBASE 6 SDS is linked from yubase.com but no copy could be retrieved. Not stated in the archived NARMAK TRADE sheet DL2-11306.pdf. The earlier Scribd-hosted source is recorded in open questions (2026-10 audit).",
+        "flash_method": null,
+        "test_temperature_c": null,
+        "unit": null,
+        "value_final": "Distillates (petroleum), hydrotreated heavy paraffinic"
+      }
     },
     "kv40": {
       "value": 36.82,
@@ -70,7 +70,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 36.82,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 6.52,
@@ -89,7 +91,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 6.52,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 131,
@@ -108,7 +112,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 131,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -127,9 +133,10 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
-    
     "ccs": [
       {
         "value": null,
@@ -148,12 +155,12 @@
           "page": null,
           "revision_date": null
         },
-        "flash_method": null
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
-
   },
-  
   "open_questions": [
     "Confirm the manufacturer and distributor relationship between SK Lubricants/SK Enmove and NARMAK TRADE S.R.O. for archived YUBASE 6.",
     "API Group III for YUBASE 6 is now sourced to SK's official YUBASE site (archived 'Performance' page: all YUBASE except YUBASE-3/L3 are Group III); SK's 2000 paper agrees. Not stated in the archived NARMAK TRADE sheet. Confirm that the current YUBASE 6 is unchanged (2026-10 audit).",

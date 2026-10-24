@@ -38,7 +38,9 @@
         "page": 1,
         "revision_date": "2004-11-09"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 69,
+      "unit_final": "mg KOH/g"
     },
     "sulfated_ash": {
       "value": 8.3,
@@ -57,7 +59,9 @@
         "page": 1,
         "revision_date": "2004-11-09"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 8.3,
+      "unit_final": "wt.%"
     },
     "elements": {
       "Ca": {
@@ -77,7 +81,9 @@
           "page": 1,
           "revision_date": "2004-11-09"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.66,
+        "unit_final": "wt.%"
       },
       "Mg": {
         "value": 0.19,
@@ -96,7 +102,9 @@
           "page": 1,
           "revision_date": "2004-11-09"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.19,
+        "unit_final": "wt.%"
       },
       "Zn": {
         "value": 0.98,
@@ -115,7 +123,9 @@
           "page": 1,
           "revision_date": "2004-11-09"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.98,
+        "unit_final": "wt.%"
       },
       "P": {
         "value": 0.89,
@@ -134,7 +144,9 @@
           "page": 1,
           "revision_date": "2004-11-09"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.89,
+        "unit_final": "wt.%"
       },
       "B": {
         "value": null,
@@ -153,7 +165,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Mo": {
         "value": null,
@@ -172,7 +186,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "N": {
         "value": 0.69,
@@ -191,7 +207,9 @@
           "page": 1,
           "revision_date": "2004-11-09"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.69,
+        "unit_final": "wt.%"
       },
       "S": {
         "value": null,
@@ -210,7 +228,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       }
     },
     "kv40": {
@@ -230,7 +250,9 @@
         "page": 1,
         "revision_date": "2004-11-09"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 4240,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 203,
@@ -249,7 +271,9 @@
         "page": 1,
         "revision_date": "2004-11-09"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 203,
+      "unit_final": "cSt"
     },
     "density": {
       "value": 960,
@@ -268,7 +292,10 @@
         "page": 1,
         "revision_date": "2004-11-09"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 0.96,
+      "unit_final": "g/cm³",
+      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)"
     },
     "flash_point": {
       "value": 110,
@@ -307,7 +334,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "°C"
     }
   },
   "open_questions": [
@@ -335,7 +364,9 @@
           "revision_date": "2008-12-02"
         }
       ],
-      "note": "TDS typical (2004, p.1) vs SDS lower bound (2008, p.6; also p.3 Section 5). Values are compatible (190 > 110) but printed differently; per rule the field holds the more recent SDS value. Not resolved."
+      "note": "TDS typical (2004, p.1) vs SDS lower bound (2008, p.6; also p.3 Section 5). Values are compatible (190 > 110) but printed differently; per rule the field holds the more recent SDS value. Not resolved.",
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see fields.flash_point.resolution. TDS preferred over SDS: TDS typical 190 °C (DL2-10204.pdf p.1, 2004) chosen over SDS lower bound '>110 °C' (p.6, 2008), which was in the field under the old newest-document rule."
     }
   ],
   "external_fill_notes": []

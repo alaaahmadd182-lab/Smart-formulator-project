@@ -33,7 +33,9 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": 90,
+      "unit_final": "mg KOH/g"
     },
     "sulfated_ash": {
       "value": 12.7,
@@ -52,7 +54,9 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": 12.7,
+      "unit_final": "wt.%"
     },
     "elements": {
       "Ca": {
@@ -72,7 +76,9 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 3.28,
+        "unit_final": "wt.%"
       },
       "Mg": {
         "value": null,
@@ -91,7 +97,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Zn": {
         "value": 1.09,
@@ -110,7 +118,9 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.09,
+        "unit_final": "wt.%"
       },
       "P": {
         "value": 1.0,
@@ -129,7 +139,9 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1,
+        "unit_final": "wt.%"
       },
       "B": {
         "value": null,
@@ -148,7 +160,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Mo": {
         "value": 400,
@@ -167,7 +181,10 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.04,
+        "unit_final": "wt.%",
+        "unit_conversion": "ppm -> wt.% (x0.0001)"
       },
       "N": {
         "value": 0.56,
@@ -186,7 +203,9 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.56,
+        "unit_final": "wt.%"
       },
       "S": {
         "value": null,
@@ -205,7 +224,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       }
     },
     "kv40": {
@@ -225,7 +246,9 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": 2486,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 135,
@@ -244,7 +267,9 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": 135,
+      "unit_final": "cSt"
     },
     "density": {
       "value": null,
@@ -302,7 +327,9 @@
         "revision_date": null
       },
       "flash_method": null,
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "°C"
     },
     "pour_point": {
       "value": null,
@@ -321,7 +348,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "°C"
     }
   },
   "open_questions": [

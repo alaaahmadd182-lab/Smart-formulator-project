@@ -34,7 +34,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": "ACEA E7/CI-4 Diesel Engine Oil Package"
       },
       "intended_service": {
         "unit": null,
@@ -45,7 +46,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": "This package is applicable to heavy duty diesel engine vehicles with China V and below emission standards."
       }
     },
     "performance_claims": [
@@ -62,7 +64,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -77,7 +80,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -92,7 +96,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -106,7 +111,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -118,7 +124,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -130,7 +137,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -142,7 +150,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -162,7 +171,8 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -179,7 +189,8 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -225,7 +236,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 10.85,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -248,7 +264,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 11.85,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       }
     ],
@@ -273,7 +294,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -310,7 +333,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -320,7 +344,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },
@@ -349,7 +374,9 @@
           "revision_date": null
         }
       ],
-      "note": "Both TDS undated; DL2-15832.pdf lists API CI-4 alone at 10.85%, 'RF6078 - TDS.pdf' lists API CI-4 Plus at 11.85%. Not resolved."
+      "note": "Both TDS undated; DL2-15832.pdf lists API CI-4 alone at 10.85%, 'RF6078 - TDS.pdf' lists API CI-4 Plus at 11.85%. Not resolved.",
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.treat_rate_matrix[0].treat_rate_wt_pct.resolution. The 'values' in this entry are correct; the note text has the two files swapped. Same document type, editions undated so the newest cannot be determined; average taken: row 'ACEA E7/API CI-4' is 11.85 % in DL2-15832.pdf and 10.85 % in 'RF6078 - TDS.pdf' -> 11.35 %. The two sheets label their second row differently ('API CI-4' vs 'API CI-4 Plus'), so the average is weak; check with Richful."
     }
   ],
   "external_fill_notes": []

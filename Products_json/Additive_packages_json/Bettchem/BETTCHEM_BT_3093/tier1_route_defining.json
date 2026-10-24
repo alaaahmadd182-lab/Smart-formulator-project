@@ -26,7 +26,8 @@
           "page": 1,
           "revision_date": "2023-12-06"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "HEAVY DUTY DIESEL ENGINE OIL ADDITIVE PACKAGE"
       },
       "intended_service": {
         "unit": null,
@@ -37,7 +38,8 @@
           "page": 1,
           "revision_date": "2023-12-06"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "BT3093 is customer specific based on field trials in severe driving conditions . The package is designed for heavy duty engines meeting API CI-4 /CH-4 performance levels when formulated in suitable base stocks."
       }
     },
     "performance_claims": [
@@ -54,7 +56,8 @@
           "page": 1,
           "revision_date": "2023-12-06"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -69,7 +72,8 @@
           "page": 1,
           "revision_date": "2023-12-06"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -84,7 +88,8 @@
           "page": 1,
           "revision_date": "2023-12-06"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -98,7 +103,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -114,7 +120,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). Printed base-oil wording: 'when formulated in suitable base stocks' (DL2-15550.pdf p.1); this generic wording does not identify specific API Groups."
+      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). Printed base-oil wording: 'when formulated in suitable base stocks' (DL2-15550.pdf p.1); this generic wording does not identify specific API Groups.",
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -128,7 +135,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -151,7 +159,9 @@
             "page": 1,
             "revision_date": "2023-12-06"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 8,
+          "unit_final": "wt.%"
         }
       },
       {
@@ -174,7 +184,9 @@
             "page": 1,
             "revision_date": "2023-12-06"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 7,
+          "unit_final": "wt.%"
         }
       },
       {
@@ -197,7 +209,9 @@
             "page": 1,
             "revision_date": "2023-12-06"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 6,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -222,7 +236,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -259,7 +275,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -269,7 +286,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },

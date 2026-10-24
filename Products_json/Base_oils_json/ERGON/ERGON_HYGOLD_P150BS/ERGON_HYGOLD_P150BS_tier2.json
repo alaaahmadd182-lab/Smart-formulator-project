@@ -31,7 +31,9 @@
             "file": null,
             "page": null,
             "revision_date": null
-          }
+          },
+          "value_final": null,
+          "unit_final": "mPa\u00b7s"
         },
         "yield_stress": {
           "value": null,
@@ -49,7 +51,9 @@
             "file": null,
             "page": null,
             "revision_date": null
-          }
+          },
+          "value_final": null,
+          "unit_final": "Pa"
         }
       }
     ],
@@ -69,7 +73,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     },
     "pour_point": {
       "value": -9,
@@ -87,7 +93,10 @@
         "file": "DL2-10961.pdf",
         "page": 1,
         "revision_date": "2015-09-18"
-      }
+      },
+      "value_final": -9,
+      "unit_final": "\u00b0C",
+      "max_final": -7
     },
     "flash_point": {
       "value": 304,
@@ -106,7 +115,10 @@
         "page": 1,
         "revision_date": "2015-09-18"
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": 304,
+      "unit_final": "\u00b0C",
+      "min_final": 293
     }
   },
   "open_questions": [

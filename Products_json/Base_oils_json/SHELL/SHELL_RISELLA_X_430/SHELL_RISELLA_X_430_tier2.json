@@ -70,7 +70,9 @@
         "page": 1,
         "revision_date": "2014-06-02"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 2,
+      "unit_final": "wt.%"
     },
     "pour_point": {
       "value": -24,
@@ -89,7 +91,9 @@
         "page": 1,
         "revision_date": "2014-06-02"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": -24,
+      "unit_final": "°C"
     },
     "flash_point": {
       "value": 265,
@@ -108,7 +112,9 @@
         "page": 1,
         "revision_date": "2014-06-02"
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": 265,
+      "unit_final": "°C"
     }
   },
   "open_questions": [

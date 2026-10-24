@@ -31,7 +31,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": "CI-4 Diesel Engine Oil Additive Package"
       },
       "intended_service": {
         "unit": null,
@@ -42,7 +43,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": "RF6077 is a Heavy-duty diesel engine oil additive package formulated with detergent, dispersant, anti-oxidant and other components."
       }
     },
     "performance_claims": [
@@ -59,7 +61,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -73,7 +76,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -85,7 +89,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -105,7 +110,8 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -119,7 +125,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -142,7 +149,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 8.76,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       }
     ],
@@ -167,7 +179,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -204,7 +218,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -214,7 +229,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },

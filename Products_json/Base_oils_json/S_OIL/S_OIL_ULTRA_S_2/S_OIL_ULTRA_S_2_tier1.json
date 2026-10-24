@@ -51,7 +51,8 @@
         "calculation_note": null,
         "flash_method": null,
         "test_temperature_c": null,
-        "unit": null
+        "unit": null,
+        "value_final": "Distillates (petroleum), hydrotreated light paraffinic"
       }
     },
     "kv40": {
@@ -71,7 +72,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 7.117,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 2.174,
@@ -90,7 +93,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 2.174,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 109,
@@ -109,7 +114,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 109,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.83,
@@ -188,11 +195,12 @@
           "page": null,
           "revision_date": null
         },
-        "flash_method": null
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },
-  
   "open_questions": [
     "Chemistry is recorded from SDS DL2-15235.pdf, Section 3: Distillates (petroleum), hydrotreated light paraffinic; CAS 64742-55-8.",
     "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",

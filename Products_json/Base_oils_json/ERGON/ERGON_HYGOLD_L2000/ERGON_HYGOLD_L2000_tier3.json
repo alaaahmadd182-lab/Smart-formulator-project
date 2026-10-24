@@ -28,7 +28,10 @@
         "file": "DL2-10416.pdf",
         "page": 1,
         "revision_date": "2016-03-31"
-      }
+      },
+      "value_final": 0.0833,
+      "unit_final": "wt.%",
+      "unit_conversion": "ppm -> wt.% (x0.0001)"
     },
     "saturates": {
       "value": null,
@@ -46,7 +49,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     },
     "aromatics": {
       "value": null,
@@ -64,7 +69,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     },
     "cloud_point": {
       "value": null,
@@ -82,7 +89,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "°C"
     },
     "wax_content": {
       "value": null,
@@ -100,7 +109,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     }
   },
   "open_questions": [

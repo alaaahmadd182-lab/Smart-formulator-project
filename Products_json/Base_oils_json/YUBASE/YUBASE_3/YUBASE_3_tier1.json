@@ -48,7 +48,8 @@
         "calculation_note": null,
         "flash_method": null,
         "test_temperature_c": null,
-        "unit": null
+        "unit": null,
+        "value_final": null
       }
     },
     "kv40": {
@@ -68,7 +69,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 12.43,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 3.12,
@@ -87,7 +90,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 3.12,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 112,
@@ -106,7 +111,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 112,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -125,31 +132,33 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
-      
-  "ccs": [
-    {
-      "value": null,
-      "qualifier": null,
-      "min": null,
-      "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": "mPa.s",
-      "test_temperature_c": null,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": "No CCS cold-cranking viscosity measurement, test temperature, or test method is reported in the archived YUBASE 3 property sheet.",
-      "source": {
-        "file": null,
-        "page": null,
-        "revision_date": null
-      },
-      "flash_method": null
-    }
-  ]
-
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "No CCS cold-cranking viscosity measurement, test temperature, or test method is reported in the archived YUBASE 3 property sheet.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
+      }
+    ]
   },
   "open_questions": [
     "[Resolved] Resolved (2026-10 audit): SK's official YUBASE site states that YUBASE-3 and YUBASE-L3 are Group II because their VI is below 120 (archived 'Performance' page, 2010 and 2019 snapshots), consistent with SK's 2000 paper and the January 2021 offering circular (p.52). SK Enmove's current page groups YUBASE under 'Group III/III+' only at brand level. Previous note: 'Resolve the YUBASE 3 API Group discrepancy between the current SK Enmove manufacturer webpage (Group III product range) and the January 2021 SK corporate offering circular, page 52 (YUBASE 3 explicitly listed as Group II).'",

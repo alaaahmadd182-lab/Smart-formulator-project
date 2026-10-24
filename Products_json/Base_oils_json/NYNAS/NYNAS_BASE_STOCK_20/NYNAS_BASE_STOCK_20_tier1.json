@@ -27,7 +27,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": null
       },
       "chemistry": {
         "value": "Severely hydrotreated base oil",
@@ -43,7 +44,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "Severely hydrotreated base oil"
       }
     },
     "kv40": {
@@ -62,7 +64,11 @@
         "file": "DL2-13010.pdf",
         "page": 1,
         "revision_date": "2017-05-10"
-      }
+      },
+      "value_final": 16,
+      "unit_final": "cSt",
+      "min_final": 12,
+      "max_final": 19
     },
     "kv100": {
       "value": 3.1,
@@ -80,7 +86,9 @@
         "file": "DL2-13010.pdf",
         "page": 1,
         "revision_date": "2017-05-10"
-      }
+      },
+      "value_final": 3.1,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": null,
@@ -98,7 +106,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.899,
@@ -116,7 +126,9 @@
         "file": "DL2-13010.pdf",
         "page": 1,
         "revision_date": "2017-05-10"
-      }
+      },
+      "value_final": 0.899,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -135,7 +147,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

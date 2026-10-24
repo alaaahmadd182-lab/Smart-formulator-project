@@ -49,7 +49,9 @@
             "file": null,
             "page": null,
             "revision_date": null
-          }
+          },
+          "value_final": null,
+          "unit_final": "Pa"
         }
       }
     ],
@@ -108,10 +110,13 @@
         "page": 2,
         "revision_date": "2018-09-07"
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": null,
+      "unit_final": "°C",
+      "min_final": 240,
+      "max_final": 260
     }
   },
-  
   "open_questions": [
     "API group not explicitly specified in the original SDS.",
     "The original SDS reports viscosity ranges; additional typical properties are available in Aramco's grade-specific technical datasheet.",

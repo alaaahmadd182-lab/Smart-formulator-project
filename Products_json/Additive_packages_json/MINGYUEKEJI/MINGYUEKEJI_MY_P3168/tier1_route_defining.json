@@ -26,7 +26,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": "Additive Package For Multi-fonction engine oil"
       },
       "intended_service": {
         "unit": null,
@@ -37,7 +38,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": "Additive package MY-P3168 is an economical additive for preparing a series of medium - grade lubricants. The product has been tested in internationally renowned laboratories (using standard base oils) to demonstrate excellent performance in engine cleaning, wear resistance and soot deposition control, exceeding API CF4 and API CF grade engine testing requirements. This product is suitable for diesel engine oils."
       }
     },
     "performance_claims": [
@@ -54,7 +56,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -69,7 +72,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -84,7 +88,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -99,7 +104,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -114,7 +120,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -129,7 +136,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -144,7 +152,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -158,7 +167,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -170,7 +180,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -186,7 +197,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). The datasheet's only base-oil wording, 'tested in internationally renowned laboratories (using standard base oils)' (TDS of P3168.pdf p.1), describes engine testing, not a permitted-base-oil restriction."
+      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). The datasheet's only base-oil wording, 'tested in internationally renowned laboratories (using standard base oils)' (TDS of P3168.pdf p.1), describes engine testing, not a permitted-base-oil restriction.",
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -200,7 +212,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -223,7 +236,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 6.8,
+          "unit_final": "wt.%"
         }
       },
       {
@@ -246,7 +261,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 4,
+          "unit_final": "wt.%"
         }
       },
       {
@@ -269,7 +286,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 3.75,
+          "unit_final": "wt.%"
         }
       },
       {
@@ -292,7 +311,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 2.7,
+          "unit_final": "wt.%"
         }
       },
       {
@@ -315,7 +336,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 2,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -340,7 +363,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -377,7 +402,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -387,7 +413,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },

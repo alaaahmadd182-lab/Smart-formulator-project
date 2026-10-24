@@ -47,7 +47,8 @@
         "qualifier": null,
         "calculation_note": null,
         "flash_method": null,
-        "test_temperature_c": null
+        "test_temperature_c": null,
+        "value_final": "Distillates (petroleum), hydrotreated heavy paraffinic"
       }
     },
     "kv40": {
@@ -67,7 +68,11 @@
         "page": 2,
         "revision_date": "2018-09-07"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": "cSt",
+      "min_final": 42,
+      "max_final": 55
     },
     "kv100": {
       "value": null,
@@ -86,7 +91,11 @@
         "page": 2,
         "revision_date": "2018-09-07"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": "cSt",
+      "min_final": 7,
+      "max_final": 7.5
     },
     "viscosity_index": {
       "value": 134,
@@ -145,7 +154,6 @@
         "revision_date": "2018-09-07"
       }
     },
-    
     "ccs": [
       {
         "value": 6300,
@@ -163,12 +171,12 @@
           "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": 6300,
+        "unit_final": "mPa·s"
       }
     ]
-
   },
-  
   "open_questions": [
     "API group not explicitly specified in the original 2018 SDS.",
     "The original SDS reports viscosity ranges; S-OIL's official technical specifications provide additional typical properties.",

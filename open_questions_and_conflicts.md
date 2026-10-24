@@ -1743,3 +1743,280 @@ Every product with open questions or conflicts has a section above; entries repe
 - Sources outside the archive are listed, with their verification status, in source_registry.json.
 - Mixed nested statuses (2026-10 audit): the 30 Coverage Matrix cells flagged 'Mixed nested statuses (review)' (19 at the first audit; recounted in the final audit of 2026-10-24, including seven ExxonMobil MRV entries with a printed MRV viscosity and no printed yield stress) were each checked. All are partially reported properties (e.g. a reported primary function with a missing secondary function, a reported TBN with missing element markers, one co-component dose not printed, a reported intended service with a missing package type); every Reported subfield has a value and a source file with page, and every Missing subfield is empty. They are not structural or aggregation errors, and the nested statuses are left as recorded.
 - Archive file names: seven archive PDFs are stored in the zip with U+FFFD in place of '%' (e.g. 'RF6078<U+FFFD>20-<U+FFFD>20TDS.pdf'); the JSON cites them with '%' restored (e.g. RF6078%20-%20TDS.pdf). All 250 cited archive files resolve to an archive entry.
+
+## Integration of origin/main (data-integration PR #2), 2026-10-24
+
+`origin/main` (commits 53ed010 and a38d5ca) added `integrate_products.py`, `build_conflicts_report.py` and the output of `integrate_products.py` to every product JSON file that existed at the time. That output is additive: normalised `value_final` / `unit_final` / `min_final` / `max_final`, `unit_conversion` and `integration_flags` keys, field-level resolutions, and `resolved` / `final_resolution` on conflict entries. It was computed from the data before the Task 3 corrections on this branch. It was reconciled against the validated Task 3 data under the data rules approved on 2026-10-24:
+
+1. Conflicting datasheet values are never averaged automatically; both values and sources are kept and the conflict stays unresolved unless authoritative evidence supports a resolution.
+2. TDS is never preferred over SDS automatically, nor the reverse; measurement conditions, test methods, revision dates, source reliability and comparability are evaluated.
+3. The coverage matrix reports the validated `status`; `status_final` is never substituted for it.
+
+No original key (value, printed text, unit, test temperature, method, status, source, notes, conflicts, open questions) was changed. The report generated on `origin/main` from the pre-correction data is kept in the history of that branch; `build_conflicts_report.py` is kept for review and has not replaced this log.
+
+### Conflict annotations from origin/main
+
+60 conflict entries matched a rule in `integrate_products.py` (39 rules; some entries are repeated in several tier files): 22 accepted as resolved, 4 accepted as unresolved, 34 not adopted (left unresolved, `resolved: false`, with the proposal kept in `final_resolution`). Accepted resolutions rest on a newer dated edition of the same supplier document, or on a user decision recorded on 2026-10-18; both need confirmation (see Human review). Conflict entries that match no rule carry no `resolved` key and remain as recorded above.
+
+| Product | Tier | Conflict | Decision | resolved | final_resolution |
+|---|---|---|---|---|---|
+| AFTON_HITEC_12200 | 1 | tier1.performance_claims / tier1.treat_rate_matrix (MTU 2.0… | accepted (resolved) | true | Same document type; newest edition used (08/18 bulletin: not claimed); text value, not averaged. Fields already hold it. |
+| AFTON_HITEC_12200 | 1 | tier1.performance_claims / tier1.treat_rate_matrix (DDC 93K… | accepted (resolved) | true | Same document type; newest edition used (08/18 bulletin: claimed); text value, not averaged. Fields already hold it. |
+| INFINEUM_D3424 | 2 | tier2.flash_point | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see fields.flash_point.resolution. TDS preferred over SDS: … |
+| LUBRIZOL_CV7540 | 1 | tier1.performance_claims (Cummins CES 20076 claim code) | accepted (resolved) | true | Same document type; newest edition used (2022 sheet: 'A - Approved'); text value, not averaged. |
+| LUBRIZOL_CV7540 | 1 | tier1.performance_claims (Cummins CES 20077 claim code) | accepted (resolved) | true | Same document type; newest edition used (2022 sheet: 'A - Approved'); text value, not averaged. |
+| LUBRIZOL_CV7540 | 1 | tier1.performance_claims (Cummins CES 20078 claim code) | accepted (resolved) | true | Same document type; newest edition used (2022 sheet: 'A - Approved'); text value, not averaged. |
+| RICHFUL_RF6066 | 2 | tier2.density | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.density.resolution. Same document type, editions undated so the newest c… |
+| RICHFUL_RF6066 | 2 | tier2.kv100 | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.kv100.resolution. Same document type, editions undated so the newest can… |
+| RICHFUL_RF6066 | 2 | tier2.tbn | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.tbn.resolution. Same document type, editions undated so the newest canno… |
+| RICHFUL_RF6066 | 2 | tier2.elements.Zn | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.elements.Zn.resolution. Same document type, editions undated so the newe… |
+| RICHFUL_RF6066 | 2 | tier2.elements.Ca | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.elements.Ca.resolution. Same document type, editions undated so the newe… |
+| RICHFUL_RF6069 | 2 | tier2.kv100 | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.kv100.resolution. TDS preferred over SDS: TDS DL2-15618.pdf 118 cSt chos… |
+| RICHFUL_RF6077 | 2 | tier2.density | accepted (resolved) | true | User decision of 2026-10-18 kept; see fields.density.resolution. |
+| RICHFUL_RF6077 | 2 | tier2.kv100 | accepted (resolved) | true | User decision of 2026-10-18 kept; see fields.kv100.resolution. |
+| RICHFUL_RF6078 | 1 | tier1.treat_rate_matrix (ACEA E7/API CI-4) | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.treat_rate_matrix[0].treat_rate_wt_pct.resolution. The 'values' in this … |
+| RICHFUL_RF6078 | 2 | tier2.density | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.density.resolution. TDS preferred over SDS: both TDS print 972 kg/m³ at … |
+| RICHFUL_RF6081 | 2 | tier2.kv100 | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.kv100.resolution. TDS preferred over SDS: TDS DL2-15836.pdf 132 cSt kept… |
+| RICHFUL_RF6088F | 2 | tier2.density | accepted (resolved) | true | User decision of 2026-10-18 kept; see fields.density.resolution. |
+| RICHFUL_RF6088F | 2 | tier2.kv100 | accepted (resolved) | true | User decision of 2026-10-18 kept; see fields.kv100.resolution. |
+| RICHFUL_RF6406 | 1 | tier1.treat_rate_matrix (API CF/SF, Multi) | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.treat_rate_matrix[10].treat_rate_wt_pct.resolution. Same document type, … |
+| RICHFUL_RF6406 | 2 | tier2.tbn | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.tbn.resolution. Measured value beats a bound: TDS DL2-15456.pdf typical … |
+| ARAMCO_LUBEREF_DURA_BS150_YANBU | 1 | density | accepted (resolved) | true | No value conflict: a note that the density is at 15.6 °C, not 15 °C. |
+| ARAMCO_LUBEREF_DURA_BS150_YANBU | 3 | sulfur | accepted (kept unresolved) | false | UNRESOLVED; see tier3 fields.sulfur.resolution. |
+| ERGON_HYGOLD_L750 | 1 | density_at_15_6_c | accepted (kept unresolved) | false | UNRESOLVED; see tier1 fields.density.resolution. |
+| ERGON_HYGOLD_L750 | 2 | density_at_15_6_c | accepted (kept unresolved) | false | UNRESOLVED; see tier1 fields.density.resolution. |
+| ERGON_HYGOLD_L750 | 3 | density_at_15_6_c | accepted (kept unresolved) | false | UNRESOLVED; see tier1 fields.density.resolution. |
+| FORMOSA_150N_GII_PLUS | 2 | flash_point | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.flash_point.resolution. TDS preferred over… |
+| NYNAS_NS_3 | 1 | kv40 | accepted (resolved) | true | Same document type; newest edition used; see tier1 fields.kv40.resolution. |
+| NYNAS_NS_3 | 1 | density | accepted (resolved) | true | Same document type; newest edition used; see tier1 fields.density.resolution. |
+| NYNAS_NS_3 | 1 | flash_point | accepted (resolved) | true | Same document type; newest edition used; see tier2 fields.flash_point.resolution. |
+| NYNAS_NS_3 | 1 | sulfur | accepted (resolved) | true | Same document type; newest edition used; see tier3 fields.sulfur.resolution. |
+| NYNAS_NS_3 | 2 | kv40 | accepted (resolved) | true | Same document type; newest edition used; see tier1 fields.kv40.resolution. |
+| NYNAS_NS_3 | 2 | density | accepted (resolved) | true | Same document type; newest edition used; see tier1 fields.density.resolution. |
+| NYNAS_NS_3 | 2 | flash_point | accepted (resolved) | true | Same document type; newest edition used; see tier2 fields.flash_point.resolution. |
+| NYNAS_NS_3 | 2 | sulfur | accepted (resolved) | true | Same document type; newest edition used; see tier3 fields.sulfur.resolution. |
+| NYNAS_NS_3 | 3 | kv40 | accepted (resolved) | true | Same document type; newest edition used; see tier1 fields.kv40.resolution. |
+| NYNAS_NS_3 | 3 | density | accepted (resolved) | true | Same document type; newest edition used; see tier1 fields.density.resolution. |
+| NYNAS_NS_3 | 3 | flash_point | accepted (resolved) | true | Same document type; newest edition used; see tier2 fields.flash_point.resolution. |
+| NYNAS_NS_3 | 3 | sulfur | accepted (resolved) | true | Same document type; newest edition used; see tier3 fields.sulfur.resolution. |
+| NYNAS_NYFROST_32 | 1 | kv40 | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.kv40.resolution. TDS preferred over SDS: P… |
+| NYNAS_NYFROST_32 | 1 | flash_point | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.flash_point.resolution. TDS preferred over… |
+| NYNAS_NYFROST_32 | 2 | kv40 | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.kv40.resolution. TDS preferred over SDS: P… |
+| NYNAS_NYFROST_32 | 2 | flash_point | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.flash_point.resolution. TDS preferred over… |
+| NYNAS_NYFROST_32 | 3 | kv40 | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.kv40.resolution. TDS preferred over SDS: P… |
+| NYNAS_NYFROST_32 | 3 | flash_point | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.flash_point.resolution. TDS preferred over… |
+| PETRONAS_ETRO_6_PLUS | 1 | kv40 | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.kv40.resolution. TDS preferred over SDS: T… |
+| PETRONAS_ETRO_6_PLUS | 1 | flash_point | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.flash_point.resolution. TDS preferred over… |
+| PETRONAS_ETRO_6_PLUS | 1 | noack_volatility | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.noack_volatility.resolution. TDS preferred… |
+| PETRONAS_ETRO_6_PLUS | 1 | density | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.density.resolution. TDS preferred over SDS… |
+| PETRONAS_ETRO_6_PLUS | 2 | kv40 | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.kv40.resolution. TDS preferred over SDS: T… |
+| PETRONAS_ETRO_6_PLUS | 2 | flash_point | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.flash_point.resolution. TDS preferred over… |
+| PETRONAS_ETRO_6_PLUS | 2 | noack_volatility | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.noack_volatility.resolution. TDS preferred… |
+| PETRONAS_ETRO_6_PLUS | 2 | density | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.density.resolution. TDS preferred over SDS… |
+| PETRONAS_ETRO_6_PLUS | 3 | kv40 | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.kv40.resolution. TDS preferred over SDS: T… |
+| PETRONAS_ETRO_6_PLUS | 3 | flash_point | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.flash_point.resolution. TDS preferred over… |
+| PETRONAS_ETRO_6_PLUS | 3 | noack_volatility | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.noack_volatility.resolution. TDS preferred… |
+| PETRONAS_ETRO_6_PLUS | 3 | density | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.density.resolution. TDS preferred over SDS… |
+| SHELL_RISELLA_X_415 | 1 | density | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.density.resolution. TDS preferred over SDS… |
+| SHELL_RISELLA_X_420 | 1 | density | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.density.resolution. TDS preferred over SDS… |
+| SHELL_RISELLA_X_430 | 1 | density | not adopted (left unresolved) | false | Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.density.resolution. TDS preferred over SDS… |
+
+### Field-level resolutions proposed on origin/main
+
+Each of the 33 overrides in `integrate_products.py` was checked against the current field. The validated field (value, unit, status, source) is unchanged in every case.
+
+- **Rejected, value-changing (12):** the proposal replaced the field value in `value_final` by an average (`Calculated`) or by choosing one document type or a typical value over a bound. No `*_final` keys are kept on these value objects.
+- **Resolution text not adopted (11):** the field value is unchanged, but the justification relies on preferring TDS over SDS or another document. The `resolution` text was dropped from the value object (it is kept in the conflict entry's `final_resolution` proposal); normalised keys were kept only where they match the current value.
+- **Accepted annotations (10):** value unchanged and the reasoning rests on a newer dated edition, a recorded 2026-10-18 user decision, or explicitly leaves the conflict unresolved.
+
+| Product | Tier | Property | Decision | Proposed value_final | Validated value (unit) | Proposal |
+|---|---|---|---|---|---|---|
+| INFINEUM_D3424 | 2 | `flash_point` | rejected (value-changing) | 190 (Reported) | 110 (°C) | TDS preferred over SDS: TDS typical 190 °C (DL2-10204.pdf p.1, 2004) chosen over SDS lower bound '>110 °C' (p.6, 2008), which was in the field under the old newest-document rule. |
+| RICHFUL_RF6066 | 2 | `tbn` | rejected (value-changing) | 107 (Calculated) | 108 (mg KOH/g) | Same document type, editions undated so the newest cannot be determined; average taken: TDS 106 and 108 mg KOH/g -> 107. SDS value (106) not used: TDS preferred over SDS. |
+| RICHFUL_RF6066 | 2 | `elements.Ca` | rejected (value-changing) | 3.075 (Calculated) | 3.15 (wt.%) | Same document type, editions undated so the newest cannot be determined; average taken: TDS 3.0 and 3.15 wt.% -> 3.075 wt.%. |
+| RICHFUL_RF6066 | 2 | `elements.Zn` | rejected (value-changing) | 1.27 (Calculated) | 1.24 (wt.%) | Same document type, editions undated so the newest cannot be determined; average taken: TDS 1.3 and 1.24 wt.% -> 1.27 wt.%. |
+| RICHFUL_RF6066 | 2 | `kv100` | rejected (value-changing) | 206 (Calculated) | 185 (mm²/s) | Same document type, editions undated so the newest cannot be determined; average taken: TDS 227 and 185 cSt -> 206 cSt. The two TDS differ by about 20 %, so this average is weak; check with Richful. SDS values (200, 185) not used: TDS preferred over SDS. |
+| RICHFUL_RF6066 | 2 | `density` | rejected (value-changing) | 0.989 (Calculated) | 988 (kg/m3) | Same document type, editions undated so the newest cannot be determined; average taken: TDS DL2-13819.pdf 990 kg/m³ and TDS DL2-15451.pdf 988 kg/m³ (both at 20 °C) -> 989 kg/m³ = 0.989 g/cm³. SDS values (990 kg/m³, 0.988 g/cm³) not used: TDS preferred over SDS. |
+| RICHFUL_RF6069 | 2 | `kv100` | rejected (value-changing) | 118 (Reported) | 142 (mm²/s) | TDS preferred over SDS: TDS DL2-15618.pdf 118 cSt chosen over SDS DL2-15619.pdf 142 cSt (2022-01-04). |
+| RICHFUL_RF6077 | 2 | `kv100` | accepted (annotation, value unchanged) | (field value) | 150 (mm²/s) | User decision of 2026-10-18 kept (SDS DL2-15542.pdf 150 cSt); it overrides the TDS-preferred rule, which would give TDS DL2-15536.pdf 160 cSt. |
+| RICHFUL_RF6077 | 2 | `density` | accepted (annotation, value unchanged) | (field value) | 0.991 (g/cm³) | User decision of 2026-10-18 kept (SDS DL2-15542.pdf 0.991 g/cm³ at 15 °C); it overrides the TDS-preferred rule, which would give TDS DL2-15536.pdf 998 kg/m³ at 20 °C. |
+| RICHFUL_RF6078 | 1 | `treat_rate_matrix[0].treat_rate_wt_pct` | rejected (value-changing) | 11.35 (Calculated) | – (wt.%) | Same document type, editions undated so the newest cannot be determined; average taken: row 'ACEA E7/API CI-4' is 11.85 % in DL2-15832.pdf and 10.85 % in 'RF6078 - TDS.pdf' -> 11.35 %. The two sheets label their second row differently ('API CI-4' vs 'API CI-4 Plus'), so the average is weak; check with Richful. |
+| RICHFUL_RF6078 | 2 | `density` | rejected (value-changing) | 0.972 (Reported) | 972 (kg/m3) | TDS preferred over SDS: both TDS print 972 kg/m³ at 20 °C (= 0.972 g/cm³); SDS DL2-15833.pdf 975 kg/m³ not used. |
+| RICHFUL_RF6081 | 2 | `kv100` | resolution text not adopted; normalised keys checked | (field value) | 132.0 (mm2/s) | TDS preferred over SDS: TDS DL2-15836.pdf 132 cSt kept over SDS DL2-15837.pdf 130 cSt (the TDS is also newer). |
+| RICHFUL_RF6088F | 2 | `kv100` | accepted (annotation, value unchanged) | (field value) | 178.2 (mm²/s) | User decision of 2026-10-18 kept (SDS DL2-15840.pdf 178.2 cSt); it overrides the TDS-preferred rule, which would give TDS DL2-15839.pdf 177 cSt. |
+| RICHFUL_RF6088F | 2 | `density` | accepted (annotation, value unchanged) | (field value) | 963.0 (kg/m³) | User decision of 2026-10-18 kept (TDS DL2-15839.pdf 963 kg/m³ at 20 °C); agrees with TDS preferred over SDS (SDS DL2-15840.pdf relative density 0.958 not used). |
+| RICHFUL_RF6406 | 1 | `treat_rate_matrix[10].treat_rate_wt_pct` | rejected (value-changing) | 3.9 (Calculated) | 4.1 (%) | Same document type, editions undated so the newest cannot be determined; average taken: row 'CF/SF Multi' is 4.1 % in DL2-15456.pdf and 3.7 % in DL2-14746.pdf -> 3.9 %. |
+| RICHFUL_RF6406 | 2 | `tbn` | rejected (value-changing) | 185 (Reported) | 185 (mg KOH/g) | Measured value beats a bound: TDS DL2-15456.pdf typical 185 mg KOH/g chosen over TDS DL2-14746.pdf '≥180' (a minimum, not a measurement). |
+| ARAMCO_LUBEREF_DURA_BS150_YANBU | 3 | `sulfur` | accepted (annotation, value unchanged) | (field value) | 1.3 (wt.%) | UNRESOLVED: DL2-13944.pdf prints '1.3 ppm' and DL2-12173.pdf prints 'Max WT% 1.3'. Same number, units 10,000x apart, so one sheet is almost certainly misprinted. The rules cannot pick between them; confirm with Aramco. value_final shows the field as it stands. |
+| ERGON_HYGOLD_L750 | 1 | `density` | accepted (annotation, value unchanged) | (field value) | 0.854 (g/cm3) | UNRESOLVED: a single TDS (DL2-10414.pdf) prints density 0.854 g/cm³ and specific gravity 0.9183 at 15.6 °C, which contradict each other. This is not a two-document conflict, so the rules do not apply; confirm with Ergon. value_final shows the density as printed. |
+| FORMOSA_150N_GII_PLUS | 2 | `flash_point` | resolution text not adopted; normalised keys checked | (field value) | – (°C) | TDS preferred over SDS: specification sheet DL2-10001.pdf 'Min 210 C' kept over SDS DL2-10011.pdf '>230 C'. Both are bounds, so there is no single measured value. |
+| NYNAS_NS_3 | 1 | `kv40` | accepted (annotation, value unchanged) | (field value) | 2.92 (cSt) | Same document type; newest edition used: 2024 edition DL2-15474.pdf 2.92 cSt over 2016 edition DL2-12382.pdf 2.84 cSt. |
+| NYNAS_NS_3 | 1 | `density` | accepted (annotation, value unchanged) | (field value) | 0.863 (kg/dm3) | Same document type; newest edition used: 2024 edition DL2-15474.pdf 0.863 over 2016 edition DL2-12382.pdf 0.860. |
+| NYNAS_NS_3 | 2 | `flash_point` | accepted (annotation, value unchanged) | (field value) | 95 (°C) | Same document type; newest edition used: 2024 edition DL2-15474.pdf 95 °C over 2016 edition DL2-12382.pdf 94 °C. |
+| NYNAS_NS_3 | 3 | `sulfur` | accepted (annotation, value unchanged) | (field value) | 10 (ppm) | Same document type; newest edition used: 2024 edition DL2-15474.pdf 'Typical < 10 ppm' over 2016 edition DL2-12382.pdf 30 ppm. '<10 ppm' is a typical result below the reporting limit, not a specification bound, so the measured-beats-bound rule does not apply. |
+| NYNAS_NYFROST_32 | 1 | `kv40` | resolution text not adopted; normalised keys checked | (field value) | 32 (cSt) | TDS preferred over SDS: PDS DL2-11510.pdf 32 cSt kept over SDS DL2-13444.pdf 31 cSt. |
+| NYNAS_NYFROST_32 | 2 | `flash_point` | resolution text not adopted; normalised keys checked | (field value) | 176 (°C) | TDS preferred over SDS: PDS DL2-11510.pdf typical 176 °C (Pensky-Martens) kept over SDS DL2-13444.pdf bound '>180 °C'. |
+| PETRONAS_ETRO_6_PLUS | 1 | `kv40` | resolution text not adopted; normalised keys checked | (field value) | 32.55 (cSt) | TDS preferred over SDS: TDS DL2-10234.pdf 32.55 cSt kept over SDS DL2-14610.pdf 34.79 cSt. |
+| PETRONAS_ETRO_6_PLUS | 1 | `density` | rejected (value-changing) | 0.8429 (Reported) | 0.8486 (g/cm3) | TDS preferred over SDS: TDS DL2-10234.pdf 0.8429 kg/L chosen over SDS DL2-14610.pdf 0.8486 g/cm³ at 15 °C, which was in the field. The TDS prints no measurement temperature. |
+| PETRONAS_ETRO_6_PLUS | 2 | `noack_volatility` | resolution text not adopted; normalised keys checked | (field value) | 5.7 (wt%) | TDS preferred over SDS: TDS DL2-10234.pdf 5.7 wt.% kept over SDS DL2-14610.pdf 5.3 wt.%. |
+| PETRONAS_ETRO_6_PLUS | 2 | `flash_point` | resolution text not adopted; normalised keys checked | (field value) | 240 (°C) | TDS preferred over SDS: TDS DL2-10234.pdf 240 °C (ASTM D92, COC) kept over SDS DL2-14610.pdf 228 °C (ASTM D93, PMCC). Different methods, so the two values are not directly comparable. |
+| PETRO_CANADA_PURITY_L65 | 1 | `viscosity_index` | resolution text not adopted; normalised keys checked | (field value) | 92 (–) | TDS DL2-10020.pdf 92 kept over the Petro-Canada marketing brochure (104), which is neither a TDS nor an SDS and is not in the archive. |
+| SHELL_RISELLA_X_415 | 1 | `density` | resolution text not adopted; normalised keys checked | (field value) | 806 (kg/m3) | TDS preferred over SDS: TDS DL2-13728.pdf 806 kg/m³ kept over SDS DL2-13729.pdf 803.5 kg/m³. |
+| SHELL_RISELLA_X_420 | 1 | `density` | resolution text not adopted; normalised keys checked | (field value) | 816 (kg/m3) | TDS preferred over SDS: TDS DL2-13726.pdf 816 kg/m³ kept over SDS DL2-13730.pdf 813.8 kg/m³. |
+| SHELL_RISELLA_X_430 | 1 | `density` | resolution text not adopted; normalised keys checked | (field value) | 828 (kg/m3) | TDS preferred over SDS: TDS DL2-13727.pdf 828 kg/m³ kept over SDS DL2-13731.pdf 824.8 kg/m³. |
+
+### Normalised keys
+
+- Kept where re-deriving them from the current value object with the same normalisation rules gives the identical result: 5693 value objects.
+- Removed as stale: 138 value objects in 106 files, where a Task 3 correction changed the value, unit, bounds or printed text (for example the specific-gravity separation, corrected inequality bounds, density provenance and units). They were not recomputed; they are absent until `integrate_products.py` has been reviewed and re-run.
+- Absent: 163 value objects added on this branch inside existing files (for example `specific_gravity`), and every value object of the 32 JSON files added on this branch.
+
+| Product | Tier | Property | Validated value (unit) | Stale value_final (unit_final) on origin/main |
+|---|---|---|---|---|
+| RF6602 | 2 | `post_shear_blend_behaviour.post_shear_kv100.kv100` | 9.87 (–) | 9.87 (cSt) |
+| BETTCHEM_BT_3088 | 2 | `density` | – (kg/m3 (or as printed)) | 0.9881 (specific gravity (dimensionless)) |
+| BETTCHEM_BT_3089 | 2 | `density` | – (kg/m3 (or as printed)) | 1.09 (specific gravity (dimensionless)) |
+| BETTCHEM_BT_3093 | 2 | `density` | – (kg/m3 (or as printed)) | 0.99 (specific gravity (dimensionless)) |
+| LUBRIZOL_16008 | 2 | `density` | 8.88 (lbs/US gal) | 1.065 (specific gravity (dimensionless)) |
+| LUBRIZOL_3589C | 2 | `density` | 8.9 (lbs/US gal) | 1.069 (specific gravity (dimensionless)) |
+| LUBRIZOL_3700 | 2 | `density` | 8.18 (lbs/US gal) | 0.981 (specific gravity (dimensionless)) |
+| LUBRIZOL_3700D | 2 | `density` | 8.33 (lbs/US gal) | 0.999 (specific gravity (dimensionless)) |
+| LUBRIZOL_4986 | 2 | `density` | 8.11 (lbs/US gal) | 0.973 (specific gravity (dimensionless)) |
+| LUBRIZOL_4986D | 2 | `density` | 8.11 (lbs/US gal) | 0.973 (specific gravity (dimensionless)) |
+| LUBRIZOL_4986E | 2 | `density` | 8.11 (lbs/US gal) | 0.973 (specific gravity (dimensionless)) |
+| LUBRIZOL_4986F | 2 | `density` | 8.13 (lbs/US gal) | 0.974 (specific gravity (dimensionless)) |
+| LUBRIZOL_4986G | 2 | `density` | 8.13 (lbs/US gal) | 0.976 (specific gravity (dimensionless)) |
+| LUBRIZOL_4987 | 2 | `density` | 8.11 (lbs/US gal) | 0.973 (specific gravity (dimensionless)) |
+| LUBRIZOL_CV1100 | 2 | `density` | 7.93 (lbs/US gal) | 0.952 (specific gravity (dimensionless)) |
+| LUBRIZOL_CV1103 | 2 | `density` | 7.94 (lbs/gal) | 0.953 (specific gravity (dimensionless)) |
+| LUBRIZOL_CV2301 | 2 | `density` | 8.18 (lbs/US gal) | 0.982 (specific gravity (dimensionless)) |
+| LUBRIZOL_CV2601 | 2 | `density` | 7.96 (lbs/US gal) | 0.955 (specific gravity (dimensionless)) |
+| LUBRIZOL_CV3515 | 2 | `density` | 8.1 (lbs/US gal) | 0.972 (specific gravity (dimensionless)) |
+| CHEVRON_OLOA_61003 | 2 | `density` | – (kg/m3 (or as printed)) | 0.968 (specific gravity (dimensionless)) |
+| TREE_TRADING_NT513 | 2 | `density` | – (kg/m3 (or as printed)) | 0.99 (specific gravity (dimensionless)) |
+| ADNOC_ADBASE_4CST | 1 | `api_group_chemistry.chemistry` | ADbase base oil produced from high-paraffinic crude oil feedstock through a process including hydrocracking and hydroisomerization. (–) | Group III base oil (hydrocracked / hydroisomerised mineral oil) (–) |
+| ADNOC_ADBASE_6CST | 1 | `api_group_chemistry.chemistry` | ADbase base oil produced from high-paraffinic crude oil feedstock through a process including hydrocracking and hydroisomerization. (–) | Group III base oil (hydrocracked / hydroisomerised mineral oil) (–) |
+| ADNOC_ADBASE_8CST | 1 | `api_group_chemistry.chemistry` | ADbase base oil produced from high-paraffinic crude oil feedstock through a process including hydrocracking and hydroisomerization. (–) | Group III base oil (hydrocracked / hydroisomerised mineral oil) (–) |
+| ARAMCO_LUBEREF_PRIMA_110 | 1 | `density` | 0.85 (–) | 0.85 (g/cm³) |
+| ARAMCO_LUBEREF_PRIMA_230 | 1 | `density` | 0.863 (–) | 0.863 (g/cm³) |
+| ARAMCO_LUBEREF_PRIMA_500 | 1 | `density` | 0.867 (–) | 0.867 (g/cm³) |
+| CHEVRON_WOP_240 | 1 | `density` | 0.868 (kg/L) | – (g/cm³) |
+| CHEVRON_WOP_40 | 1 | `density` | 0.856 (kg/L) | – (g/cm³) |
+| CHEVRON_WOP_70 | 1 | `density` | 0.85 (kg/L) | – (g/cm³) |
+| ERGON_HYGOLD_P150BS | 1 | `density` | 7.437 (lbs/gal) | – (g/cm³) |
+| ERGON_HYGOLD_P40 | 1 | `density` | 0.8124 (g/cm3) | 0.8124 (g/cm³) |
+| ERGON_HYGOLD_P70N | 1 | `density` | 0.8552 (g/cm3) | 0.8552 (g/cm³) |
+| EXXONMOBIL_APE_CORE_100 | 1 | `api_group_chemistry.api_group` | Group I (–) | – (–) |
+| EXXONMOBIL_APE_CORE_150 | 1 | `api_group_chemistry.api_group` | Group I (–) | – (–) |
+| EXXONMOBIL_APE_CORE_2500 | 1 | `api_group_chemistry.api_group` | Group I (–) | – (–) |
+| EXXONMOBIL_APE_CORE_600 | 1 | `api_group_chemistry.api_group` | Group I (–) | – (–) |
+| EXXONMOBIL_EHC_45 | 1 | `ccs[0]` | – (mPa.s) | – (mPa·s) |
+| EXXONMOBIL_EHC_45 | 2 | `noack_volatility` | – (mass%) | – (wt.%) |
+| EXXONMOBIL_EHC_50 | 1 | `ccs[0]` | – (mPa.s) | – (mPa·s) |
+| EXXONMOBIL_EHC_50 | 2 | `noack_volatility` | – (mass%) | – (wt.%) |
+| EXXONMOBIL_EHC_65 | 1 | `ccs[0]` | – (mPa.s) | – (mPa·s) |
+| EXXONMOBIL_EHC_65 | 2 | `noack_volatility` | – (mass%) | – (wt.%) |
+| EXXONMOBIL_SPECTRASYN_10 | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_10 | 1 | `ccs[0]` | 8840 (cP) | – (mPa·s) |
+| EXXONMOBIL_SPECTRASYN_100 | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_2 | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_2B | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_2C | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_2C | 2 | `flash_point` | – (°C) | – (°C) |
+| EXXONMOBIL_SPECTRASYN_4 | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_4 | 1 | `ccs[0]` | 910 (cP) | – (mPa·s) |
+| EXXONMOBIL_SPECTRASYN_4 | 2 | `mrv[0].mrv_viscosity` | – (cP) | – (mPa·s) |
+| EXXONMOBIL_SPECTRASYN_4 | 2 | `noack_volatility` | – (wt%) | – (wt.%) |
+| EXXONMOBIL_SPECTRASYN_40 | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_5 | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_5 | 1 | `kv40` | 25.0 (cSt) | 5 (cSt) |
+| EXXONMOBIL_SPECTRASYN_5 | 1 | `ccs[0]` | 2420 (cP) | – (mPa·s) |
+| EXXONMOBIL_SPECTRASYN_5 | 2 | `mrv[0].mrv_viscosity` | 4200 (cP) | – (mPa·s) |
+| EXXONMOBIL_SPECTRASYN_6 | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_6 | 1 | `ccs[0]` | 2260 (cP) | – (mPa·s) |
+| EXXONMOBIL_SPECTRASYN_6 | 2 | `mrv[0].mrv_viscosity` | 6500 (cP) | – (mPa·s) |
+| EXXONMOBIL_SPECTRASYN_8 | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_8 | 1 | `ccs[0]` | 4800 (cP) | – (mPa·s) |
+| EXXONMOBIL_SPECTRASYN_8 | 2 | `mrv[0].mrv_viscosity` | 16200 (cP) | – (mPa·s) |
+| EXXONMOBIL_SPECTRASYN_ELITE_150 | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_ELITE_300 | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_ELITE_65 | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_PLUS_3_6 | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_PLUS_3_6 | 1 | `ccs[0]` | 660 (cP) | – (mPa·s) |
+| EXXONMOBIL_SPECTRASYN_PLUS_3_6 | 2 | `mrv[0].mrv_viscosity` | 2060 (cP) | – (mPa·s) |
+| EXXONMOBIL_SPECTRASYN_PLUS_3_6 | 2 | `noack_volatility` | – (wt%) | 17 (wt.%) |
+| EXXONMOBIL_SPECTRASYN_PLUS_3_6 | 2 | `pour_point` | – (°C) | -65 (°C) |
+| EXXONMOBIL_SPECTRASYN_PLUS_4 | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_PLUS_4 | 1 | `ccs[0]` | 733 (cP) | – (mPa·s) |
+| EXXONMOBIL_SPECTRASYN_PLUS_4 | 2 | `mrv[0].mrv_viscosity` | 2023 (cP) | – (mPa·s) |
+| EXXONMOBIL_SPECTRASYN_PLUS_4 | 2 | `noack_volatility` | – (wt%) | 12 (wt.%) |
+| EXXONMOBIL_SPECTRASYN_PLUS_4 | 2 | `pour_point` | – (°C) | -60 (°C) |
+| EXXONMOBIL_SPECTRASYN_PLUS_6 | 1 | `api_group_chemistry.api_group` | Group IV (–) | – (–) |
+| EXXONMOBIL_SPECTRASYN_PLUS_6 | 1 | `ccs[0]` | 2247 (cP) | – (mPa·s) |
+| EXXONMOBIL_SPECTRASYN_PLUS_6 | 2 | `mrv[0].mrv_viscosity` | 6243 (cP) | – (mPa·s) |
+| EXXONMOBIL_SPECTRASYN_PLUS_6 | 2 | `noack_volatility` | – (wt%) | 6 (wt.%) |
+| EXXONMOBIL_SPECTRASYN_PLUS_6 | 2 | `pour_point` | – (°C) | -54 (°C) |
+| EXXONMOBIL_SPECTRASYN_ULTRA_1000 | 2 | `flash_point` | – (°C) | 265 (°C) |
+| EXXONMOBIL_SPECTRASYN_ULTRA_300 | 1 | `kv40` | 3100 (cSt) | 3600 (cSt) |
+| EXXONMOBIL_SPECTRASYN_ULTRA_300 | 2 | `flash_point` | – (°C) | 265 (°C) |
+| EXXONMOBIL_SYNESSTIC_12 | 1 | `api_group_chemistry.api_group` | Group V (–) | – (–) |
+| EXXONMOBIL_SYNESSTIC_5 | 1 | `api_group_chemistry.api_group` | Group V (–) | – (–) |
+| FORMOSA_150N_GII_PLUS | 1 | `density` | – (kg/m3) | 0.85 (relative density) |
+| FORMOSA_500N_GII | 1 | `density` | – (kg/m3) | 0.87 (relative density) |
+| NYNAS_NYFROST_68 | 1 | `api_group_chemistry.api_group` | Group V (–) | – (–) |
+| NYNAS_S_3B | 1 | `api_group_chemistry.api_group` | Group V (–) | V (–) |
+| NYNAS_T_3 | 1 | `api_group_chemistry.api_group` | Group V (–) | V (–) |
+| NYNAS_T_4 | 1 | `api_group_chemistry.api_group` | Group V (–) | V (–) |
+| NYNAS_T_600 | 1 | `api_group_chemistry.api_group` | Group V (–) | V (–) |
+| NYNAS_T_9 | 1 | `api_group_chemistry.api_group` | Group V (–) | V (–) |
+| PETRONAS_EQUINAS_8 | 1 | `api_group_chemistry.api_group` | Group III (–) | III (–) |
+| PETRONAS_ETRO_3 | 1 | `api_group_chemistry.api_group` | Group II (–) | II (–) |
+| PETRONAS_ETRO_4 | 1 | `api_group_chemistry.api_group` | Group III (–) | III (–) |
+| PETRONAS_ETRO_4_PLUS | 1 | `api_group_chemistry.api_group` | Group III (–) | III (–) |
+| PETRONAS_ETRO_6 | 1 | `api_group_chemistry.api_group` | Group III (–) | III (–) |
+| PETRONAS_ETRO_6_PLUS | 1 | `api_group_chemistry.api_group` | Group III (–) | III (–) |
+| PETRONAS_M500 | 1 | `api_group_chemistry.api_group` | Group II (–) | II (–) |
+| PETRO_CANADA_PURITY_L35 | 1 | `api_group_chemistry.api_group` | – (–) | Group II (–) |
+| PETRO_CANADA_PURITY_L40 | 1 | `api_group_chemistry.api_group` | – (–) | Group II (–) |
+| PETRO_CANADA_PURITY_L40 | 1 | `ccs[0]` | – (mPa.s) | 1300 (mPa·s) |
+| PETRO_CANADA_PURITY_L45 | 1 | `api_group_chemistry.api_group` | – (–) | Group II (–) |
+| PETRO_CANADA_PURITY_L45 | 1 | `ccs[0]` | – (mPa.s) | 935 (mPa·s) |
+| PETRO_CANADA_PURITY_L50 | 1 | `api_group_chemistry.api_group` | – (–) | Group II (–) |
+| PETRO_CANADA_PURITY_L50 | 1 | `ccs[0]` | – (mPa.s) | 2708 (mPa·s) |
+| PETRO_CANADA_PURITY_L60 | 1 | `api_group_chemistry.api_group` | – (–) | Group II (–) |
+| PETRO_CANADA_PURITY_L65 | 1 | `api_group_chemistry.api_group` | – (–) | Group II (–) |
+| S_OIL_ARAMCO_ULTRA_8 | 1 | `api_group_chemistry.api_group` | Group III (–) | – (–) |
+| S_OIL_ARAMCO_ULTRA_8 | 1 | `viscosity_index` | 134 (–) | – (unitless) |
+| S_OIL_ARAMCO_ULTRA_8 | 1 | `density` | 0.8425 (kg/L) | – (–) |
+| S_OIL_ARAMCO_ULTRA_8 | 2 | `noack_volatility` | 4.0 (wt%) | – (–) |
+| S_OIL_ARAMCO_ULTRA_8 | 2 | `pour_point` | -14 (°C) | – (–) |
+| S_OIL_ARAMCO_ULTRA_8 | 3 | `sulfur` | – (ppm (wt)) | – (–) |
+| S_OIL_ARAMCO_ULTRA_8 | 3 | `saturates` | – (wt%) | – (–) |
+| S_OIL_PREMIUM_P_20 | 1 | `api_group_chemistry.api_group` | – (–) | Group III (–) |
+| S_OIL_PREMIUM_P_20 | 1 | `api_group_chemistry.chemistry` | – (–) | Distillates (petroleum), hydrotreated heavy paraffinic (–) |
+| S_OIL_ULTRA_S_2 | 1 | `api_group_chemistry.api_group` | – (–) | Group III (–) |
+| S_OIL_ULTRA_S_2 | 1 | `density` | 0.83 (kg/L) | – (–) |
+| S_OIL_ULTRA_S_3 | 1 | `api_group_chemistry.api_group` | – (–) | Group III (–) |
+| S_OIL_ULTRA_S_3 | 1 | `density` | 0.8323 (kg/L) | – (–) |
+| S_OIL_ULTRA_S_4 | 1 | `api_group_chemistry.api_group` | – (–) | Group III (–) |
+| S_OIL_ULTRA_S_4 | 1 | `density` | 0.835 (kg/L) | – (–) |
+| S_OIL_ULTRA_S_4 | 1 | `ccs[0]` | 1500 (mPa.s) | – (mPa·s) |
+| S_OIL_ULTRA_S_6 | 1 | `api_group_chemistry.api_group` | – (–) | Group III (–) |
+| S_OIL_ULTRA_S_6 | 1 | `density` | 0.8398 (kg/L) | – (–) |
+| S_OIL_ULTRA_S_6 | 1 | `ccs[0]` | 3850 (mPa.s) | – (mPa·s) |
+| S_OIL_ULTRA_S_8 | 1 | `api_group_chemistry.api_group` | – (–) | Group III (–) |
+| S_OIL_ULTRA_S_8 | 1 | `density` | 0.8425 (kg/L) | – (–) |
+| S_OIL_ULTRA_S_8 | 1 | `ccs[0]` | 6300 (mPa.s) | – (mPa·s) |
+| YUBASE_3 | 1 | `api_group_chemistry.api_group` | Group II (–) | – (–) |
+| YUBASE_4 | 1 | `api_group_chemistry.api_group` | Group III (–) | III (–) |
+| YUBASE_5 | 1 | `api_group_chemistry.api_group` | Group III (–) | III (–) |
+| YUBASE_6 | 1 | `api_group_chemistry.api_group` | Group III (–) | III (–) |
+
+### Human review
+
+- Confirm the accepted resolutions: AFTON_HITEC_12200 (08/18 bulletin over 05/18), LUBRIZOL_CV7540 (2022 sheet over 2020), NYNAS_NS_3 (2024 edition over 2016), RICHFUL_RF6077 and RICHFUL_RF6088F (user decisions of 2026-10-18), and the ARAMCO_LUBEREF_DURA_BS150_YANBU density note (no value conflict).
+- Decide the unresolved conflicts listed above as "not adopted" on their evidence (methods, temperatures, dates, reliability), in particular RICHFUL_RF6066 (two undated TDS differing by about 20 % in KV100; fields hold values from the supplier web page), PETRONAS_ETRO_6_PLUS density (TDS 0.8429 kg/L with no temperature vs SDS 0.8486 g/cm³ at 15 °C), INFINEUM_D3424 flash point (TDS typical 190 °C vs SDS bound >110 °C) and RICHFUL_RF6078 (the proposal states that the conflict note has the two files swapped; check against both PDFs).
+- TIANHE_P_TEC_3232 `density`: printed 'Density, kg/m3, at 15℃ 1.0130 ASTM D4052' with unit kg/m3; the normalised density is out of range, so `value_final` is null and flagged. Check the printed unit.
+- PETRO_CANADA_PURITY_L65: the viscosity-index conflict is stored as text, so it carries no `resolved` key; the proposal on origin/main (keep the TDS value 92 over the brochure value 104) was not adopted.
+- `integrate_products.py` was revised on 2026-10-24 to follow the data rules: it no longer averages values, prefers a document type or sets a value, status or source; its remaining annotations are the 10 accepted notes above, each pinned to the reviewed field, and the 16 accepted conflict rules. It has not been run on the repository; a test run on a temporary copy left all original keys, all kept normalised keys and all conflict entries unchanged, and would add normalised keys to the 564 value objects that have none. Conflict entries recorded on this branch have no rule and stay unresolved as recorded.
+- Components: AFTON_HITEC_8767B, AFTON_HITEC_12250 and LUBRIZOL_CV6320 carry the seven viscosity-modifier fields inside `general.json` (21 fields), whereas the viscosity modifiers AFTON_HITEC_5748 and RF6602 keep them in a separate `vm.json` as the templates do. Each record states why (Missing pending the product's function for 8767B and 12250; `Not Applicable` for CV6320, whose printed function is an ashless antiwear booster). `Not Applicable` is defined in the templates' status vocabulary. Decide whether this layout is an accepted variation or should move to the template layout.

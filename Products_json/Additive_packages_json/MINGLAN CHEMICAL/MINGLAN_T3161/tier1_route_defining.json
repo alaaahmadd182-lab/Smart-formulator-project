@@ -26,7 +26,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": "MULTIFUNCTIONAL ENGINE OIL ADDITIVE FOR CI-4/SL"
       },
       "intended_service": {
         "unit": null,
@@ -37,7 +38,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": "T3161 has been developed to formulate high quality automotive engine oils and multigrade oils. The following performance levels can be achieved with oils formulated with T3161."
       }
     },
     "performance_claims": [
@@ -54,7 +56,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -69,7 +72,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -84,7 +88,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -99,7 +104,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -113,7 +119,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -129,7 +136,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). The datasheet makes no base-oil statement."
+      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). The datasheet makes no base-oil statement.",
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -143,7 +151,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -166,7 +175,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 12.0,
+          "unit_final": null,
+          "integration_flags": [
+            "unit None not recognised or not printed; kept as printed"
+          ]
         }
       },
       {
@@ -189,7 +203,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 11.0,
+          "unit_final": null,
+          "integration_flags": [
+            "unit None not recognised or not printed; kept as printed"
+          ]
         }
       },
       {
@@ -212,7 +231,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 9.0,
+          "unit_final": null,
+          "integration_flags": [
+            "unit None not recognised or not printed; kept as printed"
+          ]
         }
       },
       {
@@ -235,7 +259,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 7.0,
+          "unit_final": null,
+          "integration_flags": [
+            "unit None not recognised or not printed; kept as printed"
+          ]
         }
       }
     ],
@@ -260,7 +289,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -297,7 +328,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -307,7 +339,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },

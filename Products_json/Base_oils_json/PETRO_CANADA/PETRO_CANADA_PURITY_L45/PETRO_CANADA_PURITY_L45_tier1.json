@@ -12,7 +12,7 @@
     "revision_date": "2015-07"
   },
   "fields": {
-    "api_group_chemistry": { 
+    "api_group_chemistry": {
       "api_group": {
         "value": null,
         "status": "Missing",
@@ -43,7 +43,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons"
       }
     },
     "kv40": {
@@ -62,7 +63,9 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 6.3,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 1.9,
@@ -80,7 +83,9 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 1.9,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": null,
@@ -98,7 +103,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.85,
@@ -116,9 +123,10 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 0.85,
+      "unit_final": "g/cm³"
     },
-    
     "ccs": [
       {
         "value": null,
@@ -139,9 +147,7 @@
         }
       }
     ]
-
   },
-  
   "open_questions": [
     "Not verified (2026-10 audit): the grade-level brochure cited for API Group II could not be retrieved; the field is Missing (see the API Group question). Previous note: 'API Group II confirmed from an additional official Petro-Canada manufacturer brochure; the original DL2-10020.pdf did not explicitly assign a grade-specific group.'",
     "Viscosity index remains unreported for PURITY L45. Grade-specific CCS remains Missing: the CCS values previously recorded here at -20°C, -25°C, -30°C and -35°C belong to PURITY 1020, not L45; the manufacturer's March 2023 brochure prints no CCS for L45 (see the 'CCS (2026-10 audit)' note).",

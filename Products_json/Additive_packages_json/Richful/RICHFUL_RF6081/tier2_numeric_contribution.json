@@ -38,7 +38,11 @@
         "page": 2,
         "revision_date": "2025-05-13"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 118,
+      "unit_final": "mg KOH/g",
+      "min_final": 106,
+      "max_final": 130
     },
     "sulfated_ash": {
       "value": 14.67,
@@ -57,7 +61,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet.",
+      "value_final": 14.67,
+      "unit_final": "wt.%"
     },
     "elements": {
       "Ca": {
@@ -77,7 +83,11 @@
           "page": 2,
           "revision_date": "2025-05-13"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 3.8,
+        "unit_final": "wt.%",
+        "min_final": 3.42,
+        "max_final": 4.18
       },
       "Mg": {
         "value": null,
@@ -96,7 +106,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Zn": {
         "value": 1.41,
@@ -115,7 +127,11 @@
           "page": 2,
           "revision_date": "2025-05-13"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.41,
+        "unit_final": "wt.%",
+        "min_final": 1.26,
+        "max_final": 1.56
       },
       "P": {
         "value": 1.24,
@@ -134,7 +150,11 @@
           "page": 2,
           "revision_date": "2025-05-13"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.24,
+        "unit_final": "wt.%",
+        "min_final": 1.11,
+        "max_final": 1.37
       },
       "B": {
         "value": null,
@@ -153,7 +173,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Mo": {
         "value": null,
@@ -172,7 +194,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "N": {
         "value": 0.73,
@@ -191,7 +215,11 @@
           "page": 2,
           "revision_date": "2025-05-13"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.73,
+        "unit_final": "wt.%",
+        "min_final": 0.62,
+        "max_final": 0.84
       },
       "S": {
         "value": null,
@@ -210,7 +238,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       }
     },
     "kv40": {
@@ -230,7 +260,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 132.0,
@@ -249,7 +281,9 @@
         "page": 2,
         "revision_date": "2025-05-13"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 132,
+      "unit_final": "cSt"
     },
     "density": {
       "value": 1000.0,
@@ -268,7 +302,15 @@
         "page": 2,
         "revision_date": "2025-05-13"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 1,
+      "unit_final": "g/cm³",
+      "min_final": 0.98,
+      "max_final": 1.02,
+      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)",
+      "integration_flags": [
+        "density is at 20 °C, not 15 °C; not temperature-corrected"
+      ]
     },
     "flash_point": {
       "value": 209.0,
@@ -288,7 +330,10 @@
         "revision_date": "2025-05-13"
       },
       "flash_method": "COC",
-      "notes": null
+      "notes": null,
+      "value_final": 209,
+      "unit_final": "°C",
+      "min_final": 180
     },
     "pour_point": {
       "value": null,
@@ -307,7 +352,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "°C"
     }
   },
   "open_questions": [
@@ -335,7 +382,9 @@
           "revision_date": "2025-04-09"
         }
       ],
-      "note": "All documents dated; field holds the most recent (DL2-15836.pdf). Not resolved."
+      "note": "All documents dated; field holds the most recent (DL2-15836.pdf). Not resolved.",
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.kv100.resolution. TDS preferred over SDS: TDS DL2-15836.pdf 132 cSt kept over SDS DL2-15837.pdf 130 cSt (the TDS is also newer)."
     }
   ],
   "external_fill_notes": []

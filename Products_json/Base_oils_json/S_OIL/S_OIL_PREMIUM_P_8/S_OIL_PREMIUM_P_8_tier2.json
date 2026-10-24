@@ -12,7 +12,6 @@
     "revision_date": null
   },
   "fields": {
-    
     "mrv": [
       {
         "test_temperature_c": null,
@@ -71,7 +70,9 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
     "pour_point": {
       "value": -20.0,
@@ -90,7 +91,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": -20,
+      "unit_final": "°C"
     },
     "flash_point": {
       "value": 156,
@@ -109,10 +112,11 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": 156,
+      "unit_final": "°C"
     }
   },
-  
   "open_questions": [
     "API Group for historical S-OIL P-8 (Premium 60N) remains unverified.",
     "Chemistry identified in S-OIL Premium-8 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated light paraffinic; CAS 64742-55-8.",

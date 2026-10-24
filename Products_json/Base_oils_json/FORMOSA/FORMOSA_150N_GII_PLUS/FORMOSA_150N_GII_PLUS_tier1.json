@@ -25,7 +25,8 @@
           "revision_date": "2009-10-21"
         },
         "printed_text": "Product Name: Base Oil 150N GII+",
-        "value_kind": "supplier description"
+        "value_kind": "supplier description",
+        "value_final": "Group II+"
       },
       "chemistry": {
         "value": "Catalytic dewaxed paraffinic oil",
@@ -36,7 +37,8 @@
           "revision_date": "2011-05-05"
         },
         "printed_text": "CATALYTIC DEWAXED PARAFFINIC OIL",
-        "value_kind": "supplier description"
+        "value_kind": "supplier description",
+        "value_final": "Catalytic dewaxed paraffinic oil"
       }
     },
     "kv40": {
@@ -55,7 +57,9 @@
         "file": "DL2-10011.pdf",
         "page": 3,
         "revision_date": "2011-05-05"
-      }
+      },
+      "value_final": 29.3,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 5.2,
@@ -73,7 +77,11 @@
         "file": "DL2-10011.pdf",
         "page": 3,
         "revision_date": "2011-05-05"
-      }
+      },
+      "value_final": 5.2,
+      "unit_final": "cSt",
+      "min_final": 5,
+      "max_final": 5.4
     },
     "viscosity_index": {
       "value": null,
@@ -91,7 +99,9 @@
         "file": "DL2-10001.pdf",
         "page": 1,
         "revision_date": "2009-10-21"
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -147,7 +157,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

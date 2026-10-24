@@ -16,7 +16,6 @@
   },
   "fields": {
     "api_group_chemistry": {
-      
       "api_group": {
         "value": null,
         "status": "Missing",
@@ -52,7 +51,8 @@
         "calculation_note": null,
         "flash_method": null,
         "test_temperature_c": null,
-        "unit": null
+        "unit": null,
+        "value_final": "Distillates (petroleum), hydrotreated heavy paraffinic"
       }
     },
     "kv40": {
@@ -72,7 +72,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 43.89,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 7.234,
@@ -91,7 +93,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 7.234,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 127,
@@ -110,7 +114,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 127,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.8425,
@@ -171,7 +177,6 @@
         }
       ]
     },
-    
     "ccs": [
       {
         "value": 6300,
@@ -193,16 +198,14 @@
         "flash_method": null
       }
     ]
-
   },
-  
-    "open_questions": [
-      "Chemistry is recorded from SDS DL2-15238.pdf, Section 3: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7. The SDS revision date is recorded as 2015-06-10.",
-      "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",
-      "CCS for Ultra-S 8 is recorded in Tier 1 as 6,300 mPa.s at -30 °C (ASTM D5293) from the current S-OIL Lube Base Oil web page; the archived 2009 sheet DL2-11177.pdf prints no CCS (2026-10 audit).",
-      "Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15238.pdf remains pending.",
+  "open_questions": [
+    "Chemistry is recorded from SDS DL2-15238.pdf, Section 3: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7. The SDS revision date is recorded as 2015-06-10.",
+    "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",
+    "CCS for Ultra-S 8 is recorded in Tier 1 as 6,300 mPa.s at -30 °C (ASTM D5293) from the current S-OIL Lube Base Oil web page; the archived 2009 sheet DL2-11177.pdf prints no CCS (2026-10 audit).",
+    "Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15238.pdf remains pending.",
     "API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); Ultra-S and aramcoULTRA are stated by S-OIL to have the same quality'; note 'API Group III supported by official manufacturer product-family classification and equivalence; not directly printed in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 8 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 8 and aramcoULTRA 8 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.25 lists aramcoULTRA 8 as API Base Oil Category Group III (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Confirm the API Group of Ultra-S 8 with S-OIL."
-    ],
+  ],
   "conflicts": [
     {
       "conflict_type": "edition difference",

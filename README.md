@@ -13,6 +13,8 @@ additive components) following `Smart_Formulator_Minimum_Property_Set.pdf`, whic
 | `source_registry.json` | External (non-archive) sources cited in `Products_json`, with verification status |
 | `Raw_Material_Missing_Properties_2026-10-13.xlsx` | Supplementary raw-material reference (453 materials, missing-property status per material); not the Task 3 scope |
 | `open_questions_and_conflicts.md` | Task 5 – conflicts and open questions |
+| `integrate_products.py` | Data integration: adds normalised `value_final` / `unit_final` (and reviewed conflict annotations) beside the original keys; dry run unless `--write`. See [Data integration](#data-integration) |
+| `build_conflicts_report.py` | Generates a Task 5 conflicts report (`conflicts_report_generated.md`) from the JSON; never writes `open_questions_and_conflicts.md` |
 | `reconciliation/` | Task 3 – identity review (open items) and the historical comparison of the supplementary inventory with `Products_json` |
 
 ## Scope
@@ -61,6 +63,42 @@ The workbooks are not interchangeable:
   status of every property in the JSON, validation findings and source traceability. Products outside
   the archive scope do not appear in it.
 
+## Data integration
+
+`integrate_products.py` (from `main`) adds normalised keys next to the original data and never edits
+an original key: `value_final`, `unit_final`, `min_final`, `max_final`, `unit_conversion` and
+`integration_flags` (viscosity cSt, density g/cm³ at the printed temperature, temperatures °C,
+CCS/MRV/HTHS mPa·s, mass fractions wt.%; specific gravity and a bare `%` are flagged, not converted).
+It also annotates `conflicts[]` entries with `resolved` and `final_resolution`.
+
+Data rules approved on 2026-10-24 apply to all integration output:
+
+1. Conflicting datasheet values are never averaged automatically. Both values and their sources are
+   kept, and the conflict stays unresolved unless authoritative evidence supports a resolution.
+2. TDS is never preferred over SDS automatically, nor the reverse. Measurement conditions, test
+   methods, revision dates, source reliability and comparability are evaluated case by case.
+3. The coverage matrix reports the validated `status` of the selected property; `status_final` is
+   never substituted for it.
+
+In the current data the normalised keys are kept only where they match the current, validated values;
+where a Task 3 correction changed a value object, its `*_final` keys were removed rather than
+recomputed, and are absent until the script has been reviewed and re-run. Resolutions proposed by the
+script that average values or prefer one document type are not adopted: the conflict entry carries
+`resolved: false` and the proposal in `final_resolution`.
+
+The script enforces these rules. It is a dry run unless `--write` is given, and it writes nothing if any
+check fails. Its annotation table can attach only a reviewed note to a property, never a value, status
+or source, and each note names the field values it was reviewed against, so a changed field stops the
+run. A conflict entry is marked resolved only by a reviewed rule (newer dated edition of the same
+document, the 2026-10-18 user decisions, or "no value conflict"). An existing `resolved` /
+`final_resolution` is never overwritten, and an entry marked resolved without a rule is an error.
+Conflict entries without a rule, including conflicts stored as text, keep exactly what they record.
+Every file's original keys are compared before and after a run.
+
+`build_conflicts_report.py` writes `conflicts_report_generated.md` by default, refuses to write
+`open_questions_and_conflicts.md` (the curated log), replaces an existing report only with `--overwrite`,
+and reports the validated status, value, unit and source (`value_final` is informational).
+
 ## Building the coverage matrix (Task 4)
 
 Requires Python 3.12 (Windows, macOS or Linux). From the project folder:
@@ -86,7 +124,10 @@ The script only reads the JSON files; it never changes them. The workbook contai
 - **Validation Issues** – structural problems, plus non-blocking review items: mixed nested
   statuses, a status that contradicts its value, a value outside its own min/max, and a KV40/KV100
   test temperature that differs from the property.
-- **Status Detail** – every nested status in the JSON, with its original spelling, the source file and the page.
+- **Status Detail** – every nested status in the JSON, with its original spelling, value, unit, the source
+  file and the page. Where `integrate_products.py` has added `value_final` / `unit_final`, they are shown in
+  two informational columns; the note column carries any `resolution` and `integration_flags`. Status,
+  value and source are always the validated keys, never the `*_final` ones.
 - **Traceability Audit** – the source of every reported value, its issuer type and issuer, with a severity:
 
 | Finding | Severity |

@@ -34,7 +34,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": "Universal Type Engine Oil Package"
       },
       "intended_service": {
         "unit": null,
@@ -45,7 +46,8 @@
           "page": 1,
           "revision_date": "2025-04-21"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "Formulation of internal combustion engine oil."
       }
     },
     "performance_claims": [
@@ -62,7 +64,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -77,7 +80,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -92,7 +96,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -107,7 +112,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -122,7 +128,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -137,7 +144,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -152,7 +160,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -167,7 +176,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -182,7 +192,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -197,7 +208,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -212,7 +224,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -226,7 +239,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -238,7 +252,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -254,7 +269,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). Printed base-oil wording: 'in suitable base oils' (DL2-14746.pdf p.1); this generic wording does not identify specific API Groups."
+      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). Printed base-oil wording: 'in suitable base oils' (DL2-14746.pdf p.1); this generic wording does not identify specific API Groups.",
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -268,7 +284,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -291,7 +308,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 5.8,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -314,7 +336,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 5.6,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -337,7 +364,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 4.8,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -360,7 +392,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 3.6,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -383,7 +420,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 3.4,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -406,7 +448,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 2.5,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -429,7 +476,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 2.7,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -452,7 +504,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 2.6,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -475,7 +532,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 2.4,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -498,7 +560,12 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 1.5,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -549,7 +616,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -586,7 +655,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -596,7 +666,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },
@@ -628,7 +699,9 @@
           "revision_date": null
         }
       ],
-      "note": "Both TDS undated; not resolved."
+      "note": "Both TDS undated; not resolved.",
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.treat_rate_matrix[10].treat_rate_wt_pct.resolution. Same document type, editions undated so the newest cannot be determined; average taken: row 'CF/SF Multi' is 4.1 % in DL2-15456.pdf and 3.7 % in DL2-14746.pdf -> 3.9 %."
     }
   ],
   "external_fill_notes": [

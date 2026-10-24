@@ -26,7 +26,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "HDDO Additive Package"
       },
       "intended_service": {
         "unit": null,
@@ -37,7 +38,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "additive package for Heavy Duty Diesel Oils designed for traditional engine technologies. It could be used also in Passenger Car Motor Oils."
       }
     },
     "performance_claims": [
@@ -54,7 +56,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -69,7 +72,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -84,7 +88,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -99,7 +104,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -114,7 +120,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -129,7 +136,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -144,7 +152,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -159,7 +168,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -174,7 +184,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -189,7 +200,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -204,7 +216,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -219,7 +232,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -234,7 +248,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -248,7 +263,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -260,7 +276,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -272,7 +289,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -284,7 +302,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -296,7 +315,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -308,7 +328,8 @@
           "page": 1,
           "revision_date": "02/2017"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -329,7 +350,8 @@
         "page": 1,
         "revision_date": "02/2017"
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -345,7 +367,8 @@
         "page": 1,
         "revision_date": "02/2017"
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -368,7 +391,12 @@
             "page": 1,
             "revision_date": "02/2017"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 6.95,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -391,7 +419,12 @@
             "page": 1,
             "revision_date": "02/2017"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 6.95,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -414,7 +447,12 @@
             "page": 1,
             "revision_date": "02/2017"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 6.95,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -437,7 +475,12 @@
             "page": 1,
             "revision_date": "02/2017"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 5.35,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -460,7 +503,12 @@
             "page": 1,
             "revision_date": "02/2017"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 5.1,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -483,7 +531,12 @@
             "page": 1,
             "revision_date": "02/2017"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 4.9,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -506,7 +559,12 @@
             "page": 1,
             "revision_date": "02/2017"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 4.5,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -529,7 +587,12 @@
             "page": 1,
             "revision_date": "02/2017"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 3.8,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -552,7 +615,12 @@
             "page": 1,
             "revision_date": "02/2017"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 3.6,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -575,7 +643,12 @@
             "page": 1,
             "revision_date": "02/2017"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 3.3,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -598,7 +671,12 @@
             "page": 1,
             "revision_date": "02/2017"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 3.1,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -621,7 +699,12 @@
             "page": 1,
             "revision_date": "02/2017"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 2.7,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -644,7 +727,12 @@
             "page": 1,
             "revision_date": "02/2017"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 1.8,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       }
     ],
@@ -669,7 +757,12 @@
             "page": 1,
             "revision_date": "02/2017"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 1.2,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -692,7 +785,12 @@
             "page": 1,
             "revision_date": "02/2017"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 0.5,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -715,7 +813,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -752,7 +852,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -762,7 +863,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },

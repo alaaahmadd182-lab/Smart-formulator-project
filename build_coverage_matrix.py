@@ -4,6 +4,9 @@
 Reads every product JSON file (read-only) and writes one Excel workbook:
 Overview, one sheet per material class, Validation Issues, Status Detail and
 Traceability Audit. Cell classification follows the original Task 4 rules.
+Status, value, unit and source always come from the validated keys (status / value / unit / source);
+*_final keys added by integrate_products.py are never substituted for them. value_final / unit_final,
+resolution and integration_flags are shown in Status Detail as informational columns only.
 
 Exit codes: 0 = passed, output written; 1 = usage / file error;
 2 = validation failed, diagnostic workbook written instead of the output.
@@ -18,7 +21,7 @@ CLASSES = {'base_oil': 'Base Oils', 'additive_package': 'Additive Packages', 'ad
 STATUS = {'reported': 'reported', 'calculated': 'calculated', 'missing': 'missing', 'not required': 'not_applicable',
           'not_applicable': 'not_applicable', 'not applicable': 'not_applicable', 'n/a': 'not_applicable'}
 PRIORITY = ('reported', 'calculated', 'missing', 'not_applicable')
-SKIP_KEYS = ('source', 'notes', 'calculation_note', 'method', 'printed_text', 'external_fill_notes')
+SKIP_KEYS = ('source', 'source_final', 'notes', 'calculation_note', 'method', 'printed_text', 'external_fill_notes')
 VALUE_KEYS = ('value', 'min', 'max', 'wt_pct', 'type', 'form')
 EXPECTED_TIERS = {'base_oil': {1, 2, 3}, 'additive_package': {1, 2}, 'additive_component': {1}}
 UNRECOGNIZED = 'unrecognized: '
@@ -46,14 +49,22 @@ records = {}; issues = []; statuses = collections.Counter(); details = []; trace
 sources = {}  # external URL -> source_registry.json entry
 
 
+def raw_status(node):
+    """The validated status as recorded; status_final is never substituted (data rule of 2026-10-24)."""
+    return str(node.get('status')).strip()
+
+
 def detail(ctx, path, raw, norm, counted, node=None, note=''):
     """Record one nested property for the Status Detail sheet."""
-    src = node.get('source') if isinstance(node, dict) else None
-    src = src if isinstance(src, dict) else {}
-    value = node.get('value') if isinstance(node, dict) else None
+    node = node if isinstance(node, dict) else {}
+    src = node.get('source') if isinstance(node.get('source'), dict) else {}
+    # Integration output (integrate_products.py) is informational: shown beside the validated value, never instead of it.
+    extra = [node.get('resolution'), '; '.join(node.get('integration_flags') or [])]
+    note = ' | '.join(x for x in [note] + extra if x)
     details.append([ctx['class'], ctx['record_id'], ctx['tier'], ctx['file'], ctx['field'], path or '(property)',
-                    raw, norm, 'yes' if counted else 'no', None, cell_text(value),
-                    cell_text(src.get('file') or src.get('url')), cell_text(src.get('page')), note])
+                    raw, norm, 'yes' if counted else 'no', None, cell_text(node.get('value')), cell_text(node.get('unit')),
+                    cell_text(src.get('file') or src.get('url')), cell_text(src.get('page')),
+                    cell_text(node.get('value_final')), cell_text(node.get('unit_final')), note])
 
 
 def audit_trace(ctx, path, node):
@@ -106,7 +117,7 @@ def scan_nested(x, path, ctx, top=True):
     """List status nodes nested inside a status-bearing node; they do not count toward the cell."""
     if isinstance(x, dict):
         if not top and 'status' in x:
-            raw = str(x['status']).strip(); norm = STATUS.get(raw.lower(), UNRECOGNIZED + raw)
+            raw = raw_status(x); norm = STATUS.get(raw.lower(), UNRECOGNIZED + raw)
             detail(ctx, path, raw, norm, False, x, 'Nested inside a status-bearing property (legacy rule: not counted in cell)')
             if norm.startswith(UNRECOGNIZED): issues.append((ctx['issue_path'] + path, 'Unknown status', raw))
             if norm == 'reported': audit_trace(ctx, path, x)
@@ -122,7 +133,7 @@ def leaf_status(x, path, ctx):
     issue_path = ctx['issue_path'] + path
     if isinstance(x, dict):
         if 'status' in x:
-            raw = str(x['status']).strip(); key = raw.lower(); statuses[raw] += 1
+            raw = raw_status(x); key = raw.lower(); statuses[raw] += 1
             norm = STATUS.get(key)
             if norm is None:
                 issues.append((issue_path, 'Unknown status', raw)); norm = UNRECOGNIZED + raw
@@ -285,9 +296,11 @@ def build(input_dir):
 
     sd = wb.create_sheet('Status Detail')
     write_rows(sd, [['Material class', 'Record ID', 'Tier', 'JSON file', 'Property (matrix column)', 'Sub-path',
-                     'Original status', 'Normalized status', 'Counted in matrix cell', 'Matrix cell status', 'Value',
-                     'Source file / URL', 'Source page', 'Note']] + details)
-    header(sd, 1, 14); widths(sd, [18, 26, 6, 60, 28, 34, 16, 18, 12, 18, 30, 30, 10, 50]); sd.freeze_panes = 'A2'
+                     'Original status', 'Normalized status', 'Counted in matrix cell', 'Matrix cell status',
+                     'Value', 'Unit', 'Source file / URL', 'Source page',
+                     'value_final (informational)', 'unit_final (informational)',
+                     'Note / resolution / integration flags']] + details)
+    header(sd, 1, 17); widths(sd, [18, 26, 6, 60, 28, 34, 16, 18, 12, 18, 30, 14, 30, 10, 18, 14, 60]); sd.freeze_panes = 'A2'
     sd.auto_filter.ref = sd.dimensions
 
     ta = wb.create_sheet('Traceability Audit')

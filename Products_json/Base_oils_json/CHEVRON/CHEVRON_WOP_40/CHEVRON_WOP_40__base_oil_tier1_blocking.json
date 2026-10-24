@@ -20,7 +20,8 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null
       },
       "chemistry": {
         "value": "Highly refined mineral oil formulated with saturated aliphatic and alicyclic, non-polar hydrocarbons",
@@ -31,7 +32,8 @@
           "revision_date": null
         },
         "basis": "Supplier product-family technical datasheet product description",
-        "notes": "Supplier wording describes the product chemistry; it is not a grade-specific CAS/composition analysis."
+        "notes": "Supplier wording describes the product chemistry; it is not a grade-specific CAS/composition analysis.",
+        "value_final": "Highly refined mineral oil formulated with saturated aliphatic and alicyclic, non-polar hydrocarbons"
       }
     },
     "kv40": {
@@ -50,7 +52,9 @@
         "file": "DL2-13008.pdf",
         "page": 3,
         "revision_date": null
-      }
+      },
+      "value_final": 15.5,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 3.1,
@@ -68,7 +72,9 @@
         "file": "DL2-13008.pdf",
         "page": 3,
         "revision_date": null
-      }
+      },
+      "value_final": 3.1,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": null,
@@ -86,7 +92,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.856,
@@ -123,7 +131,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

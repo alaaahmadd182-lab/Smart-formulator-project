@@ -38,7 +38,11 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": 103,
+      "unit_final": "mg KOH/g",
+      "min_final": 93,
+      "max_final": 113
     },
     "sulfated_ash": {
       "value": 13.92,
@@ -57,7 +61,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet.",
+      "value_final": 13.92,
+      "unit_final": "wt.%"
     },
     "elements": {
       "Ca": {
@@ -77,7 +83,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 3.54,
+        "unit_final": "wt.%",
+        "min_final": 3.19,
+        "max_final": 3.89
       },
       "Mg": {
         "value": null,
@@ -96,7 +106,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Zn": {
         "value": 1.52,
@@ -115,7 +127,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.52,
+        "unit_final": "wt.%",
+        "min_final": 1.37,
+        "max_final": 1.67
       },
       "P": {
         "value": 1.35,
@@ -134,7 +150,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.35,
+        "unit_final": "wt.%",
+        "min_final": 1.21,
+        "max_final": 1.49
       },
       "B": {
         "value": null,
@@ -153,7 +173,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Mo": {
         "value": null,
@@ -172,7 +194,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "N": {
         "value": 0.52,
@@ -191,7 +215,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.52,
+        "unit_final": "wt.%",
+        "min_final": 0.44,
+        "max_final": 0.6
       },
       "S": {
         "value": null,
@@ -210,7 +238,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       }
     },
     "kv40": {
@@ -230,7 +260,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 142,
@@ -271,7 +303,13 @@
         "page": 5,
         "revision_date": "2022-01-04"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 0.981,
+      "unit_final": "g/cm³",
+      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)",
+      "integration_flags": [
+        "density is at 20 °C, not 15 °C; not temperature-corrected"
+      ]
     },
     "flash_point": {
       "value": 180,
@@ -291,7 +329,10 @@
         "revision_date": "2022-01-04"
       },
       "flash_method": "COC",
-      "notes": null
+      "notes": null,
+      "value_final": 180,
+      "unit_final": "°C",
+      "min_final": 180
     },
     "pour_point": {
       "value": null,
@@ -310,7 +351,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "°C"
     }
   },
   "open_questions": [
@@ -340,7 +383,9 @@
           "revision_date": "2022-01-04"
         }
       ],
-      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.",
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.kv100.resolution. TDS preferred over SDS: TDS DL2-15618.pdf 118 cSt chosen over SDS DL2-15619.pdf 142 cSt (2022-01-04)."
     }
   ],
   "external_fill_notes": [

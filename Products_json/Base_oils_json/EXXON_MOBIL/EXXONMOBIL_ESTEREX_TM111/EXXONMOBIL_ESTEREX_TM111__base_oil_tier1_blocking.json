@@ -20,7 +20,8 @@
           "file": "DL2-12121.pdf",
           "page": 1,
           "revision_date": "05/27/2008"
-        }
+        },
+        "value_final": "Group V"
       },
       "chemistry": {
         "value": "Trimellitate ester",
@@ -29,7 +30,8 @@
           "file": "DL2-12121.pdf",
           "page": 1,
           "revision_date": "05/27/2008"
-        }
+        },
+        "value_final": "Trimellitate ester"
       }
     },
     "kv40": {
@@ -48,7 +50,9 @@
         "file": "DL2-12121.pdf",
         "page": 1,
         "revision_date": "05/27/2008"
-      }
+      },
+      "value_final": 124,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 11.9,
@@ -66,7 +70,9 @@
         "file": "DL2-12121.pdf",
         "page": 1,
         "revision_date": "05/27/2008"
-      }
+      },
+      "value_final": 11.9,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 81.0,
@@ -84,7 +90,9 @@
         "file": "DL2-12121.pdf",
         "page": 1,
         "revision_date": "05/27/2008"
-      }
+      },
+      "value_final": 81.0,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -102,7 +110,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "g/cm³"
     },
     "specific_gravity": {
       "value": 0.978,
@@ -140,7 +150,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

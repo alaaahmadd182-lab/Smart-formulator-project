@@ -25,7 +25,8 @@
         "value_kind": null,
         "method": null,
         "min": null,
-        "max": null
+        "max": null,
+        "value_final": null
       },
       "chemistry": {
         "value": "Severely hydrotreated naphthenic base oil",
@@ -39,7 +40,8 @@
         "printed_text": "Supplier description",
         "method": null,
         "min": null,
-        "max": null
+        "max": null,
+        "value_final": "Severely hydrotreated naphthenic base oil"
       }
     },
     "kv40": {
@@ -58,7 +60,11 @@
         "file": "DL2-10417.pdf",
         "page": 1,
         "revision_date": "2017-04-10"
-      }
+      },
+      "value_final": 97.7,
+      "unit_final": "cSt",
+      "min_final": 90.5,
+      "max_final": 109
     },
     "kv100": {
       "value": 8.7,
@@ -76,7 +82,9 @@
         "file": "DL2-10417.pdf",
         "page": 1,
         "revision_date": "2017-04-10"
-      }
+      },
+      "value_final": 8.7,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": null,
@@ -94,7 +102,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.905,
@@ -112,7 +122,12 @@
         "file": "DL2-10417.pdf",
         "page": 1,
         "revision_date": "2017-04-10"
-      }
+      },
+      "value_final": 0.905,
+      "unit_final": "g/cm\u00b3",
+      "integration_flags": [
+        "density is at 15.6 \u00b0C, not 15 \u00b0C; not temperature-corrected"
+      ]
     },
     "specific_gravity": {
       "value": 0.9059,
@@ -150,7 +165,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa\u00b7s"
       }
     ]
   },

@@ -12,7 +12,7 @@
     "revision_date": "2014-06-02"
   },
   "fields": {
-    "api_group_chemistry": {   
+    "api_group_chemistry": {
       "api_group": {
         "value": null,
         "status": "Not Required",
@@ -29,7 +29,8 @@
         "qualifier": null,
         "calculation_note": "Shell Risella X 430 is a GTL-derived process oil. API lubricant base-oil Group classification is treated as not required for its documented application under the proposed project applicability rule.",
         "flash_method": null,
-        "test_temperature_c": null
+        "test_temperature_c": null,
+        "value_final": null
       },
       "chemistry": {
         "value": "GTL-derived hydrocarbon fluid; highly saturated, iso-paraffinic",
@@ -47,7 +48,8 @@
         "qualifier": null,
         "calculation_note": null,
         "flash_method": null,
-        "test_temperature_c": null
+        "test_temperature_c": null,
+        "value_final": "GTL-derived hydrocarbon fluid; highly saturated, iso-paraffinic"
       }
     },
     "kv40": {
@@ -67,7 +69,9 @@
         "page": 1,
         "revision_date": "2014-06-02"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 43,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 7.6,
@@ -86,7 +90,9 @@
         "page": 1,
         "revision_date": "2014-06-02"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 7.6,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 140,
@@ -105,7 +111,9 @@
         "page": 1,
         "revision_date": "2014-06-02"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 140,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 828,
@@ -124,7 +132,10 @@
         "page": 1,
         "revision_date": "2014-06-02"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 0.828,
+      "unit_final": "g/cm³",
+      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)"
     },
     "ccs": [
       {
@@ -144,11 +155,12 @@
           "page": null,
           "revision_date": null
         },
-        "flash_method": null
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },
-  
   "open_questions": [
     "Shell Risella X 430 is described as a GTL-derived process oil. API lubricant base-oil Group classification is treated as Not Required under the proposed project applicability rule; confirm acceptance of this classification with the professor.",
     "Chemistry is recorded from TDS DL2-13727.pdf, page 1, dated 2014-06-02: GTL-derived hydrocarbon fluid, highly saturated with a high degree of iso-paraffinic structures.",
@@ -176,7 +188,9 @@
         "page": 7,
         "revision_date": "2020-01-13"
       },
-      "note": "Different supplier-reported values at same temperature; TDS retained as primary, SDS separately documented."
+      "note": "Different supplier-reported values at same temperature; TDS retained as primary, SDS separately documented.",
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.density.resolution. TDS preferred over SDS: TDS DL2-13727.pdf 828 kg/m³ kept over SDS DL2-13731.pdf 824.8 kg/m³."
     }
   ]
 }

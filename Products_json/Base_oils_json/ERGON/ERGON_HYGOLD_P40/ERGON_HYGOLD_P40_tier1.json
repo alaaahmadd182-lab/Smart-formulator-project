@@ -25,7 +25,8 @@
         "value_kind": null,
         "method": null,
         "min": null,
-        "max": null
+        "max": null,
+        "value_final": null
       },
       "chemistry": {
         "value": "Paraffinic base oil",
@@ -39,7 +40,8 @@
         "printed_text": "Paraffinic Base Oil Marketing Specification",
         "method": null,
         "min": null,
-        "max": null
+        "max": null,
+        "value_final": "Paraffinic base oil"
       }
     },
     "kv40": {
@@ -58,7 +60,11 @@
         "file": "DL2-13279.pdf",
         "page": 1,
         "revision_date": "2017-05-09"
-      }
+      },
+      "value_final": 3.2,
+      "unit_final": "cSt",
+      "min_final": 2.4,
+      "max_final": 5.2
     },
     "kv100": {
       "value": 1.3,
@@ -76,7 +82,9 @@
         "file": "DL2-13279.pdf",
         "page": 1,
         "revision_date": "2017-05-09"
-      }
+      },
+      "value_final": 1.3,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": null,
@@ -94,7 +102,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.8124,
@@ -150,7 +160,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa\u00b7s"
       }
     ]
   },

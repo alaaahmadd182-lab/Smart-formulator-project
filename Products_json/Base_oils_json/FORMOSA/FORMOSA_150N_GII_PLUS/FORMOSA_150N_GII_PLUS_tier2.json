@@ -34,7 +34,9 @@
             "file": null,
             "page": null,
             "revision_date": null
-          }
+          },
+          "value_final": null,
+          "unit_final": "mPa·s"
         },
         "yield_stress": {
           "value": null,
@@ -52,7 +54,9 @@
             "file": null,
             "page": null,
             "revision_date": null
-          }
+          },
+          "value_final": null,
+          "unit_final": "Pa"
         }
       }
     ],
@@ -72,7 +76,10 @@
         "file": "DL2-10001.pdf",
         "page": 1,
         "revision_date": "2009-10-21"
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%",
+      "max_final": 15
     },
     "pour_point": {
       "value": null,
@@ -90,7 +97,10 @@
         "file": "DL2-10001.pdf",
         "page": 1,
         "revision_date": "2009-10-21"
-      }
+      },
+      "value_final": null,
+      "unit_final": "°C",
+      "max_final": -15
     },
     "flash_point": {
       "value": null,
@@ -109,7 +119,10 @@
         "page": 1,
         "revision_date": "2009-10-21"
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": null,
+      "unit_final": "°C",
+      "min_final": 210
     }
   },
   "open_questions": [
@@ -129,7 +142,9 @@
         "page": 3,
         "value": ">230 C"
       },
-      "note": "SDS and specification use different threshold statements; preserve both without assuming equivalence."
+      "note": "SDS and specification use different threshold statements; preserve both without assuming equivalence.",
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.flash_point.resolution. TDS preferred over SDS: specification sheet DL2-10001.pdf 'Min 210 C' kept over SDS DL2-10011.pdf '>230 C'. Both are bounds, so there is no single measured value."
     }
   ]
 }

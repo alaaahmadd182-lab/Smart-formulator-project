@@ -29,9 +29,9 @@
         "qualifier": null,
         "calculation_note": null,
         "flash_method": null,
-        "test_temperature_c": null
+        "test_temperature_c": null,
+        "value_final": null
       },
-      
       "chemistry": {
         "value": "Distillates (petroleum), hydrotreated heavy paraffinic",
         "status": "Reported",
@@ -48,7 +48,8 @@
         "qualifier": null,
         "calculation_note": "Grade-specific composition reported in Section 3 of S-OIL's Premium-480 SDS.",
         "flash_method": null,
-        "test_temperature_c": null
+        "test_temperature_c": null,
+        "value_final": "Distillates (petroleum), hydrotreated heavy paraffinic"
       }
     },
     "kv40": {
@@ -68,7 +69,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 480.6,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 31.32,
@@ -87,7 +90,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 31.32,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 98,
@@ -106,7 +111,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 98,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -125,7 +132,9 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
     "specific_gravity": {
       "value": 0.894,
@@ -146,7 +155,6 @@
         "revision_date": null
       }
     },
-    
     "ccs": [
       {
         "value": null,
@@ -165,12 +173,12 @@
           "page": null,
           "revision_date": null
         },
-        "flash_method": null
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
-
   },
- 
   "open_questions": [
     "Historical P-480 (150BS) API Group has not been explicitly verified in the reviewed manufacturer documents.",
     "Chemistry confirmed using S-OIL Premium-480 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated heavy paraffinic, CAS 64742-57-0, purity 100%.",

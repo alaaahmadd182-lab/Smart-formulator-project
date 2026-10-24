@@ -20,7 +20,8 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null
       },
       "chemistry": {
         "value": "Highly Branched Isoparaffinic Polyalphaolefin",
@@ -31,7 +32,8 @@
           "revision_date": null
         },
         "basis": "Grade-specific supplier technical datasheet product description",
-        "notes": "Grade-specific supplier datasheet explicitly describes this chemistry; no CAS number inferred."
+        "notes": "Grade-specific supplier datasheet explicitly describes this chemistry; no CAS number inferred.",
+        "value_final": "Highly Branched Isoparaffinic Polyalphaolefin"
       }
     },
     "kv40": {
@@ -50,7 +52,9 @@
         "file": "DL2-11914.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 16.8,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 3.9,
@@ -68,7 +72,9 @@
         "file": "DL2-11914.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 3.9,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 124.0,
@@ -86,7 +92,9 @@
         "file": "DL2-11914.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 124.0,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -104,7 +112,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "g/cm³"
     },
     "specific_gravity": {
       "value": 0.819,
@@ -163,7 +173,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

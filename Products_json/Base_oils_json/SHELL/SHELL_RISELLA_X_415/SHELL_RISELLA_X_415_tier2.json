@@ -12,48 +12,47 @@
     "revision_date": "2013-02-08"
   },
   "fields": {
-    
-"mrv": [
-  {
-    "test_temperature_c": null,
-    "mrv_viscosity": {
-      "value": null,
-      "qualifier": null,
-      "min": null,
-      "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": "mPa.s",
-      "test_temperature_c": null,
-      "method": null,
-      "status": "Not Required",
-      "calculation_note": "Shell Risella X 415 is marketed as a GTL-derived process/technical white oil. MRV engine-oil low-temperature pumpability testing is not required for its documented process-oil application.",
-      "source": {
-        "file": null,
-        "page": null,
-        "revision_date": null
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Not Required",
+          "calculation_note": "Shell Risella X 415 is marketed as a GTL-derived process/technical white oil. MRV engine-oil low-temperature pumpability testing is not required for its documented process-oil application.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Not Required",
+          "calculation_note": "Shell Risella X 415 is marketed as a GTL-derived process/technical white oil. MRV engine-oil low-temperature pumpability testing is not required for its documented process-oil application.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
       }
-    },
-    "yield_stress": {
-      "value": null,
-      "qualifier": null,
-      "min": null,
-      "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": "Pa",
-      "test_temperature_c": null,
-      "method": null,
-      "status": "Not Required",
-      "calculation_note": "Shell Risella X 415 is marketed as a GTL-derived process/technical white oil. MRV engine-oil low-temperature pumpability testing is not required for its documented process-oil application.",
-      "source": {
-        "file": null,
-        "page": null,
-        "revision_date": null
-      }
-    }
-  }
-],
+    ],
     "noack_volatility": {
       "value": 40,
       "qualifier": null,
@@ -71,7 +70,9 @@
         "page": 1,
         "revision_date": "2013-02-08"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 40,
+      "unit_final": "wt.%"
     },
     "pour_point": {
       "value": -39,
@@ -90,7 +91,9 @@
         "page": 1,
         "revision_date": "2013-02-08"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": -39,
+      "unit_final": "°C"
     },
     "flash_point": {
       "value": 200,
@@ -109,10 +112,11 @@
         "page": 1,
         "revision_date": "2013-02-08"
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": 200,
+      "unit_final": "°C"
     }
   },
-  
   "open_questions": [
     "Shell Risella X 415 is marketed as a GTL-derived process/technical white oil. API lubricant base-oil Group classification is treated as Not Required for its documented application, subject to project applicability rules.",
     "MRV low-temperature pumpability testing is treated as Not Required for the documented process-oil application. No MRV viscosity, yield stress, or test temperature is reported in the supplied TDS.",

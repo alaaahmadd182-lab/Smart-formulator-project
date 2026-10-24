@@ -46,7 +46,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "Hydrotreated, wax-isomerized and hydrofinished highly isoparaffinic base oil"
       }
     },
     "kv40": {
@@ -65,7 +66,9 @@
         "file": "DL2-10234.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 32.55,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 6.0,
@@ -83,7 +86,11 @@
         "file": "DL2-10234.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 6,
+      "unit_final": "cSt",
+      "min_final": 5.8,
+      "max_final": 6.2
     },
     "viscosity_index": {
       "value": 132,
@@ -101,7 +108,9 @@
         "file": "DL2-10234.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 132,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.8486,
@@ -157,7 +166,9 @@
           "file": "DL2-10234.pdf",
           "page": 1,
           "revision_date": null
-        }
+        },
+        "value_final": 2175,
+        "unit_final": "mPa·s"
       },
       {
         "value": 3990,
@@ -175,7 +186,9 @@
           "file": "DL2-10234.pdf",
           "page": 1,
           "revision_date": null
-        }
+        },
+        "value_final": 3990,
+        "unit_final": "mPa·s"
       },
       {
         "value": 7610,
@@ -193,7 +206,9 @@
           "file": "DL2-10234.pdf",
           "page": 1,
           "revision_date": null
-        }
+        },
+        "value_final": 7610,
+        "unit_final": "mPa·s"
       }
     ]
   },
@@ -211,7 +226,9 @@
       "primary_value": "32.55 cSt at 40°C (ASTM D445)",
       "comparison_source": "DL2-14610.pdf",
       "comparison_value": "34.79 mm²/s at 40°C (ASTM D445), page 4",
-      "assessment": "Different reported values; retain TDS typical value, flag for review."
+      "assessment": "Different reported values; retain TDS typical value, flag for review.",
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.kv40.resolution. TDS preferred over SDS: TDS DL2-10234.pdf 32.55 cSt kept over SDS DL2-14610.pdf 34.79 cSt."
     },
     {
       "conflict_type": "conflicting values between different documents",
@@ -220,7 +237,9 @@
       "primary_value": "240°C ASTM D92 (COC)",
       "comparison_source": "DL2-14610.pdf",
       "comparison_value": "228°C ASTM D93 (PMCC), page 3",
-      "assessment": "Different methods, not directly comparable; both values retained."
+      "assessment": "Different methods, not directly comparable; both values retained.",
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.flash_point.resolution. TDS preferred over SDS: TDS DL2-10234.pdf 240 °C (ASTM D92, COC) kept over SDS DL2-14610.pdf 228 °C (ASTM D93, PMCC). Different methods, so the two values are not directly comparable."
     },
     {
       "conflict_type": "conflicting values between different documents",
@@ -229,7 +248,9 @@
       "primary_value": "5.7 mass% ASTM D5800-B",
       "comparison_source": "DL2-14610.pdf",
       "comparison_value": "5.3 mass% ASTM D5800 B, page 4",
-      "assessment": "Different reported values; retain TDS typical value, flag for review."
+      "assessment": "Different reported values; retain TDS typical value, flag for review.",
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.noack_volatility.resolution. TDS preferred over SDS: TDS DL2-10234.pdf 5.7 wt.% kept over SDS DL2-14610.pdf 5.3 wt.%."
     },
     {
       "conflict_type": "conflicting values between different documents",
@@ -238,7 +259,9 @@
       "primary_value": "0.8429 kg/L (temperature not stated)",
       "comparison_source": "DL2-14610.pdf",
       "comparison_value": "0.8486 g/cm³ at 15°C ASTM D4052, page 4",
-      "assessment": "TDS lacks measurement temperature; SDS has a stated temperature and is used in the density field, with its own source."
+      "assessment": "TDS lacks measurement temperature; SDS has a stated temperature and is used in the density field, with its own source.",
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.density.resolution. TDS preferred over SDS: TDS DL2-10234.pdf 0.8429 kg/L chosen over SDS DL2-14610.pdf 0.8486 g/cm³ at 15 °C, which was in the field. The TDS prints no measurement temperature."
     }
   ]
 }

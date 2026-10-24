@@ -24,7 +24,8 @@
         "value_kind": "single",
         "qualifier": null,
         "printed_text": "Group II",
-        "method": "API 1509 E.1.3"
+        "method": "API 1509 E.1.3",
+        "value_final": "Group II"
       },
       "chemistry": {
         "value": "mineral base oil",
@@ -37,7 +38,8 @@
         "value_kind": "single",
         "qualifier": null,
         "printed_text": "mineral base oil",
-        "method": "Supplier product description"
+        "method": "Supplier product description",
+        "value_final": "mineral base oil"
       }
     },
     "kv40": {
@@ -56,7 +58,11 @@
         "file": "DL2-10004.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt",
+      "min_final": 40,
+      "max_final": 46
     },
     "kv100": {
       "value": null,
@@ -74,7 +80,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": null,
@@ -92,7 +100,9 @@
         "file": "DL2-10004.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -110,7 +120,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -129,7 +141,10 @@
           "file": "DL2-10004.pdf",
           "page": 1,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s",
+        "max_final": 3600
       }
     ]
   },

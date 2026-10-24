@@ -43,7 +43,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "Hydrotreated, wax-isomerized and hydrofinished isoparaffinic base oil"
       }
     },
     "kv40": {
@@ -62,7 +63,9 @@
         "file": "DL2-10231.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 18.02,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 4.11,
@@ -80,7 +83,11 @@
         "file": "DL2-10231.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 4.11,
+      "unit_final": "cSt",
+      "min_final": 4.05,
+      "max_final": 4.25
     },
     "viscosity_index": {
       "value": 132,
@@ -98,7 +105,9 @@
         "file": "DL2-10231.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 132,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -116,7 +125,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -135,7 +146,9 @@
           "file": "DL2-10231.pdf",
           "page": 1,
           "revision_date": null
-        }
+        },
+        "value_final": 700,
+        "unit_final": "mPa·s"
       },
       {
         "value": 1170,
@@ -153,7 +166,9 @@
           "file": "DL2-10231.pdf",
           "page": 1,
           "revision_date": null
-        }
+        },
+        "value_final": 1170,
+        "unit_final": "mPa·s"
       },
       {
         "value": 2070,
@@ -171,7 +186,9 @@
           "file": "DL2-10231.pdf",
           "page": 1,
           "revision_date": null
-        }
+        },
+        "value_final": 2070,
+        "unit_final": "mPa·s"
       }
     ]
   },

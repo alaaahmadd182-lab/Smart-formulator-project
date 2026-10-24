@@ -33,7 +33,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "mg KOH/g"
     },
     "sulfated_ash": {
       "value": 9.6,
@@ -52,7 +54,9 @@
         "page": 1,
         "revision_date": "2011-06-06"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 9.6,
+      "unit_final": "wt.%"
     },
     "elements": {
       "Ca": {
@@ -72,7 +76,11 @@
           "page": 1,
           "revision_date": "2011-06-06"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 2.39,
+        "unit_final": "wt.%",
+        "min_final": 2.15,
+        "max_final": 2.63
       },
       "Mg": {
         "value": null,
@@ -91,7 +99,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Zn": {
         "value": 0.96,
@@ -110,7 +120,11 @@
           "page": 1,
           "revision_date": "2011-06-06"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.96,
+        "unit_final": "wt.%",
+        "min_final": 0.86,
+        "max_final": 1.06
       },
       "P": {
         "value": 0.88,
@@ -129,7 +143,11 @@
           "page": 1,
           "revision_date": "2011-06-06"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.88,
+        "unit_final": "wt.%",
+        "min_final": 0.79,
+        "max_final": 0.97
       },
       "B": {
         "value": null,
@@ -148,7 +166,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Mo": {
         "value": null,
@@ -167,7 +187,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "N": {
         "value": 0.63,
@@ -186,7 +208,11 @@
           "page": 1,
           "revision_date": "2011-06-06"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.63,
+        "unit_final": "wt.%",
+        "min_final": 0.57,
+        "max_final": 0.69
       },
       "S": {
         "value": 3.0,
@@ -205,7 +231,9 @@
           "page": 1,
           "revision_date": "2011-06-06"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 3,
+        "unit_final": "wt.%"
       }
     },
     "kv40": {
@@ -225,7 +253,9 @@
         "page": 1,
         "revision_date": "2011-06-06"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 1900,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 115.0,
@@ -244,7 +274,9 @@
         "page": 1,
         "revision_date": "2011-06-06"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 115,
+      "unit_final": "cSt"
     },
     "density": {
       "value": 8.13,
@@ -322,7 +354,9 @@
         "revision_date": "2011-06-06"
       },
       "flash_method": "PMCC",
-      "notes": null
+      "notes": null,
+      "value_final": 156,
+      "unit_final": "°C"
     },
     "pour_point": {
       "value": -18.0,
@@ -341,7 +375,9 @@
         "page": 1,
         "revision_date": "2011-06-06"
       },
-      "notes": null
+      "notes": null,
+      "value_final": -18,
+      "unit_final": "°C"
     }
   },
   "open_questions": [

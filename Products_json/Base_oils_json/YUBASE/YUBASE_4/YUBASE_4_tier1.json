@@ -31,7 +31,6 @@
         "flash_method": null,
         "test_temperature_c": null
       },
-      
       "chemistry": {
         "value": "Distillates (petroleum), hydrotreated heavy paraffinic",
         "status": "Reported",
@@ -49,9 +48,9 @@
         "calculation_note": "SK Lubricants Material Safety Data Sheet for YUBASE 4 (MSDS No. YUB400(ENG), date of issue 2009.10.01), from SK's own site yubase.com via a Wayback Machine snapshot (2010-02-14, original bytes), Section 3 p.3: 'Distillate, Hydrotreated Heavy Paraffines' 100 wt%, CAS 64742-54-7. Previously sourced to a third-party SlideShare copy of the 1999 SK Corporation MSDS No. 739-YU4-02 (same composition). Not stated in the archived NARMAK TRADE sheet DL2-11304.pdf (2026-10 audit).",
         "flash_method": null,
         "test_temperature_c": null,
-        "unit": null
+        "unit": null,
+        "value_final": "Distillates (petroleum), hydrotreated heavy paraffinic"
       }
-
     },
     "kv40": {
       "value": 19.57,
@@ -70,7 +69,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 19.57,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 4.23,
@@ -89,7 +90,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 4.23,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 122,
@@ -108,7 +111,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 122,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -127,33 +132,34 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
-    
-  "ccs": [
-    {
-      "value": null,
-      "qualifier": null,
-      "min": null,
-      "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": "mPa.s",
-      "test_temperature_c": null,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": "No grade-specific CCS cold-cranking viscosity measurement, test temperature, or test method is reported in archived YUBASE 4 property sheet DL2-11304.pdf.",
-      "source": {
-        "file": null,
-        "page": null,
-        "revision_date": null
-      },
-      "flash_method": null
-    }
-  ]
-
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "No grade-specific CCS cold-cranking viscosity measurement, test temperature, or test method is reported in archived YUBASE 4 property sheet DL2-11304.pdf.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
+      }
+    ]
   },
- 
   "open_questions": [
     "Confirm the manufacturer and distributor relationship between SK Corporation/SK Enmove and NARMAK TRADE S.R.O. for archived YUBASE 4.",
     "API Group III for YUBASE 4 is now sourced to SK's official YUBASE site (archived 'Performance' page: all YUBASE except YUBASE-3/L3 are Group III); SK's 2000 paper agrees. Not stated in the archived NARMAK TRADE sheet. Confirm that the current YUBASE 4 is unchanged (2026-10 audit).",

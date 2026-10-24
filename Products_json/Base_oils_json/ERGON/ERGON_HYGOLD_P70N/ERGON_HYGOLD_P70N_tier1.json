@@ -25,7 +25,8 @@
         "value_kind": null,
         "method": null,
         "min": null,
-        "max": null
+        "max": null,
+        "value_final": null
       },
       "chemistry": {
         "value": "Severely hydrotreated paraffinic base oil",
@@ -39,7 +40,8 @@
         "printed_text": "Severely hydrotreated paraffinic base oil",
         "method": null,
         "min": null,
-        "max": null
+        "max": null,
+        "value_final": "Severely hydrotreated paraffinic base oil"
       }
     },
     "kv40": {
@@ -58,7 +60,11 @@
         "file": "DL2-13346.pdf",
         "page": 1,
         "revision_date": "2017-05-09"
-      }
+      },
+      "value_final": 11.8,
+      "unit_final": "cSt",
+      "min_final": 9.6,
+      "max_final": 13.3
     },
     "kv100": {
       "value": 2.9,
@@ -76,7 +82,9 @@
         "file": "DL2-13346.pdf",
         "page": 1,
         "revision_date": "2017-05-09"
-      }
+      },
+      "value_final": 2.9,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 81,
@@ -95,7 +103,9 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": "Supplier specification lists a minimum VI of 60 and a separate typical VI of 81. The value field is the reported typical value; min is the supplier minimum specification."
+      "notes": "Supplier specification lists a minimum VI of 60 and a separate typical VI of 81. The value field is the reported typical value; min is the supplier minimum specification.",
+      "value_final": 81,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.8552,
@@ -151,7 +161,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

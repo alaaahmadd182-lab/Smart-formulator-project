@@ -57,7 +57,8 @@
           "file": "DL2-12420.jpg",
           "page": 1,
           "revision_date": "2016-09"
-        }
+        },
+        "value_final": "Group III"
       },
       "chemistry": {
         "value": "ADbase base oil produced from high-paraffinic crude oil feedstock through a process including hydrocracking and hydroisomerization.",
@@ -89,7 +90,9 @@
         "file": "DL2-12221.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 20,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 4.35,
@@ -129,7 +132,9 @@
         "file": "DL2-12221.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 4.35,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 130,
@@ -169,7 +174,9 @@
         "file": "DL2-12221.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 130,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.832,
@@ -209,7 +216,9 @@
         "file": "DL2-12221.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 0.832,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -250,7 +259,9 @@
           "file": "DL2-12221.pdf",
           "page": 1,
           "revision_date": null
-        }
+        },
+        "value_final": 1400,
+        "unit_final": "mPa·s"
       }
     ]
   },

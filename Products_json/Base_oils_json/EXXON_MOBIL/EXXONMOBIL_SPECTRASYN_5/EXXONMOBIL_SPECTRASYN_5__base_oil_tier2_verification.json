@@ -49,7 +49,9 @@
             "file": null,
             "page": null,
             "revision_date": null
-          }
+          },
+          "value_final": null,
+          "unit_final": "Pa"
         }
       }
     ],
@@ -69,7 +71,9 @@
         "file": "DL2-11333.pdf",
         "page": 1,
         "revision_date": "07/30/2015"
-      }
+      },
+      "value_final": 6.8,
+      "unit_final": "wt.%"
     },
     "pour_point": {
       "value": -57.0,
@@ -87,7 +91,9 @@
         "file": "DL2-11333.pdf",
         "page": 1,
         "revision_date": "07/30/2015"
-      }
+      },
+      "value_final": -57,
+      "unit_final": "\u00b0C"
     },
     "flash_point": {
       "value": 240.0,
@@ -106,7 +112,9 @@
         "page": 1,
         "revision_date": "07/30/2015"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 240,
+      "unit_final": "\u00b0C"
     }
   },
   "open_questions": [],

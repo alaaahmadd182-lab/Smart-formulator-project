@@ -26,7 +26,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": "MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE"
       },
       "intended_service": {
         "unit": null,
@@ -37,7 +38,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": "It’s a cost effective engine oil additive package designed for deep hydrogenation oils market."
       }
     },
     "performance_claims": [
@@ -54,7 +56,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -69,7 +72,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -84,7 +88,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -98,7 +103,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -119,7 +125,8 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": "Groups interpreted from the datasheet's printed base oil 'deep hydrogenation oils' (permitted_grades), i.e. hydroprocessed base oils, which are API Group II/III. Group mapping is our interpretation; the datasheet names no API group."
+      "notes": "Groups interpreted from the datasheet's printed base oil 'deep hydrogenation oils' (permitted_grades), i.e. hydroprocessed base oils, which are API Group II/III. Group mapping is our interpretation; the datasheet names no API group.",
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -133,7 +140,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -156,7 +164,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 5.8,
+          "unit_final": "wt.%"
         }
       },
       {
@@ -179,7 +189,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 4,
+          "unit_final": "wt.%"
         }
       },
       {
@@ -202,7 +214,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 2.8,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -227,7 +241,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -264,7 +280,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -274,7 +291,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },

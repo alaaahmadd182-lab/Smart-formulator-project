@@ -27,19 +27,21 @@
         "value_kind": "single",
         "printed_text": "LUBEREF GII product/specification heading",
         "method": null,
-        "basis": "Supplier document heading"
+        "basis": "Supplier document heading",
+        "value_final": "Group II"
       },
       "chemistry": {
-      "value": "Distillates, petroleum, hydrotreated heavy paraffinic",
-      "status": "Reported",
-      "basis": "External official supplier safety data sheet",
-      "notes": "Chemistry not stated in supplied DL2-12172.pdf. Obtained from the official Luberef SDS for aramcoPRIMA 500 (issue date 12/08/2020, revision 2.0): Section 3, p.2, 'Base oil : distillates hydrotreated heavy paraffinic'. CAS 64742-54-7 (p.1-2).",
-      "source": {
-        "file": "https://luberefapp.s3-accelerate.amazonaws.com/documents/prima500.pdf",
-        "page": 2,
-        "revision_date": "2020-08-12"
+        "value": "Distillates, petroleum, hydrotreated heavy paraffinic",
+        "status": "Reported",
+        "basis": "External official supplier safety data sheet",
+        "notes": "Chemistry not stated in supplied DL2-12172.pdf. Obtained from the official Luberef SDS for aramcoPRIMA 500 (issue date 12/08/2020, revision 2.0): Section 3, p.2, 'Base oil : distillates hydrotreated heavy paraffinic'. CAS 64742-54-7 (p.1-2).",
+        "source": {
+          "file": "https://luberefapp.s3-accelerate.amazonaws.com/documents/prima500.pdf",
+          "page": 2,
+          "revision_date": "2020-08-12"
+        },
+        "value_final": "Distillates, petroleum, hydrotreated heavy paraffinic"
       }
-    }
     },
     "kv40": {
       "value": null,
@@ -57,7 +59,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": null,
@@ -75,7 +79,11 @@
         "file": "DL2-12172.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt",
+      "min_final": 10.5,
+      "max_final": 11.5
     },
     "viscosity_index": {
       "value": 105,
@@ -93,7 +101,9 @@
         "file": "DL2-12172.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 105,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.867,
@@ -131,7 +141,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

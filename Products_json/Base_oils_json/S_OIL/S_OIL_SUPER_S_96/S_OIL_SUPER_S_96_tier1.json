@@ -29,28 +29,28 @@
         "qualifier": null,
         "calculation_note": null,
         "flash_method": null,
-        "test_temperature_c": null
+        "test_temperature_c": null,
+        "value_final": null
       },
-          
-    "chemistry": {
-      "value": "Distillates (petroleum), hydrotreated heavy paraffinic",
-      "status": "Reported",
-      "source": {
-        "file": "https://www.s-oil.com/common/page/FileDownload.aspx?FileName=20150714153031987.pdf&PIndex=21&PathType=BOARD&TFileName=S96_20150610.pdf",
-        "page": 1,
-        "revision_date": "2015-06-10"
-      },
-      "printed_text": "Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; purity 100%",
-      "value_kind": "supplier composition",
-      "method": null,
-      "min": null,
-      "max": null,
-      "qualifier": null,
-      "calculation_note": "Grade-specific composition reported in Section 3 of S-OIL Super-96 SDS.",
-      "flash_method": null,
-      "test_temperature_c": null
-    }
-
+      "chemistry": {
+        "value": "Distillates (petroleum), hydrotreated heavy paraffinic",
+        "status": "Reported",
+        "source": {
+          "file": "https://www.s-oil.com/common/page/FileDownload.aspx?FileName=20150714153031987.pdf&PIndex=21&PathType=BOARD&TFileName=S96_20150610.pdf",
+          "page": 1,
+          "revision_date": "2015-06-10"
+        },
+        "printed_text": "Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; purity 100%",
+        "value_kind": "supplier composition",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "Grade-specific composition reported in Section 3 of S-OIL Super-96 SDS.",
+        "flash_method": null,
+        "test_temperature_c": null,
+        "value_final": "Distillates (petroleum), hydrotreated heavy paraffinic"
+      }
     },
     "kv40": {
       "value": 96.66,
@@ -69,7 +69,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 96.66,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 10.93,
@@ -88,7 +90,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 10.93,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 97,
@@ -107,7 +111,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 97,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -126,7 +132,9 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
     "specific_gravity": {
       "value": 0.8762,
@@ -147,7 +155,6 @@
         "revision_date": null
       }
     },
-   
     "ccs": [
       {
         "value": null,
@@ -166,12 +173,12 @@
           "page": null,
           "revision_date": null
         },
-        "flash_method": null
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
-
   },
-
   "open_questions": [
     "API Group for historical S-OIL S-96 (Super 500N) has not been explicitly verified.",
     "Chemistry confirmed in S-OIL Super-96 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; purity 100%.",

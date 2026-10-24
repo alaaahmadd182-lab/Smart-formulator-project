@@ -49,7 +49,9 @@
             "file": null,
             "page": null,
             "revision_date": null
-          }
+          },
+          "value_final": null,
+          "unit_final": "Pa"
         }
       }
     ],
@@ -70,7 +72,9 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
     "pour_point": {
       "value": -12.5,
@@ -89,7 +93,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": -12.5,
+      "unit_final": "°C"
     },
     "flash_point": {
       "value": 212,
@@ -108,10 +114,11 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": 212,
+      "unit_final": "°C"
     }
   },
-  
   "open_questions": [
     "API Group remains unverified for the historical S-OIL P-31 (Premium 150N) grade.",
     "Specific gravity at 15/4°C is dimensionless and has not been transcribed as absolute density.",

@@ -12,7 +12,6 @@
     "revision_date": null
   },
   "fields": {
-    
     "mrv": [
       {
         "test_temperature_c": null,
@@ -71,7 +70,9 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
     "pour_point": {
       "value": -15.0,
@@ -90,7 +91,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": -15,
+      "unit_final": "°C"
     },
     "flash_point": {
       "value": 214,
@@ -109,10 +112,11 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": 214,
+      "unit_final": "°C"
     }
   },
-  
   "open_questions": [
     "API Group for historical S-OIL S-31 (Super 150N) has not been explicitly verified.",
     "Chemistry identified in S-OIL Super-31 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7.",

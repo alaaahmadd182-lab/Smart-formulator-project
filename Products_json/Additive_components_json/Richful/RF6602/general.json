@@ -32,7 +32,8 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": "viscosity index improver"
       },
       "secondary": {
         "unit": null,
@@ -43,7 +44,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     },
     "chemical_family": {
@@ -55,7 +57,8 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": "Polymethacrylate (PMA)"
     },
     "active_content": {
       "value": null,
@@ -75,7 +78,11 @@
         "revision_date": "2022-02-18"
       },
       "basis": "SDS Section 3 'Acrylic copolymer' share (polymer)",
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "wt.%",
+      "min_final": 65,
+      "max_final": 85
     },
     "carrier": {
       "identity": {
@@ -87,7 +94,8 @@
           "page": 2,
           "revision_date": "2022-02-18"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "Distillates (petroleum), hydrotreated heavy paraffinic (contains less than 3% DMSO extract), CAS-No.: 64742-54-7"
       },
       "share_wt_pct": {
         "value": null,
@@ -106,7 +114,11 @@
           "page": 2,
           "revision_date": "2022-02-18"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%",
+        "min_final": 15,
+        "max_final": 35
       }
     },
     "treat_rate": {
@@ -126,7 +138,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "wt.%"
     },
     "compatibility_restrictions": {
       "value": null,
@@ -141,7 +155,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "function_specific_markers": {
       "tbn": {
@@ -161,7 +176,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": "Not printed in the TDS DL2-14874.pdf or the SDS RF6602.pdf, and not given on Richful's own RF6602 product page (page data feed productId 104/105, checked 2026-10-23). Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts'; an SDS composition table lists declared ingredients only and does not show that an element is absent, so the marker is recorded as Missing, not as absent (2026-10 audit)."
+        "notes": "Not printed in the TDS DL2-14874.pdf or the SDS RF6602.pdf, and not given on Richful's own RF6602 product page (page data feed productId 104/105, checked 2026-10-23). Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts'; an SDS composition table lists declared ingredients only and does not show that an element is absent, so the marker is recorded as Missing, not as absent (2026-10 audit).",
+        "value_final": null,
+        "unit_final": "mg KOH/g"
       },
       "ca": {
         "value": null,
@@ -180,7 +197,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": "Not printed in the TDS DL2-14874.pdf or the SDS RF6602.pdf, and not given on Richful's own RF6602 product page (page data feed productId 104/105, checked 2026-10-23). Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts'; an SDS composition table lists declared ingredients only and does not show that an element is absent, so the marker is recorded as Missing, not as absent (2026-10 audit)."
+        "notes": "Not printed in the TDS DL2-14874.pdf or the SDS RF6602.pdf, and not given on Richful's own RF6602 product page (page data feed productId 104/105, checked 2026-10-23). Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts'; an SDS composition table lists declared ingredients only and does not show that an element is absent, so the marker is recorded as Missing, not as absent (2026-10 audit).",
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "mg": {
         "value": null,
@@ -199,7 +218,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": "Not printed in the TDS DL2-14874.pdf or the SDS RF6602.pdf, and not given on Richful's own RF6602 product page (page data feed productId 104/105, checked 2026-10-23). Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts'; an SDS composition table lists declared ingredients only and does not show that an element is absent, so the marker is recorded as Missing, not as absent (2026-10 audit)."
+        "notes": "Not printed in the TDS DL2-14874.pdf or the SDS RF6602.pdf, and not given on Richful's own RF6602 product page (page data feed productId 104/105, checked 2026-10-23). Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts'; an SDS composition table lists declared ingredients only and does not show that an element is absent, so the marker is recorded as Missing, not as absent (2026-10 audit).",
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "p": {
         "value": null,
@@ -218,7 +239,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": "Not printed in the TDS DL2-14874.pdf or the SDS RF6602.pdf, and not given on Richful's own RF6602 product page (page data feed productId 104/105, checked 2026-10-23). Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts'; an SDS composition table lists declared ingredients only and does not show that an element is absent, so the marker is recorded as Missing, not as absent (2026-10 audit)."
+        "notes": "Not printed in the TDS DL2-14874.pdf or the SDS RF6602.pdf, and not given on Richful's own RF6602 product page (page data feed productId 104/105, checked 2026-10-23). Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts'; an SDS composition table lists declared ingredients only and does not show that an element is absent, so the marker is recorded as Missing, not as absent (2026-10 audit).",
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "zn": {
         "value": null,
@@ -237,7 +260,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": "Not printed in the TDS DL2-14874.pdf or the SDS RF6602.pdf, and not given on Richful's own RF6602 product page (page data feed productId 104/105, checked 2026-10-23). Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts'; an SDS composition table lists declared ingredients only and does not show that an element is absent, so the marker is recorded as Missing, not as absent (2026-10 audit)."
+        "notes": "Not printed in the TDS DL2-14874.pdf or the SDS RF6602.pdf, and not given on Richful's own RF6602 product page (page data feed productId 104/105, checked 2026-10-23). Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts'; an SDS composition table lists declared ingredients only and does not show that an element is absent, so the marker is recorded as Missing, not as absent (2026-10 audit).",
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "mo": {
         "value": null,
@@ -256,7 +281,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": "Not printed in the TDS DL2-14874.pdf or the SDS RF6602.pdf, and not given on Richful's own RF6602 product page (page data feed productId 104/105, checked 2026-10-23). Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts'; an SDS composition table lists declared ingredients only and does not show that an element is absent, so the marker is recorded as Missing, not as absent (2026-10 audit)."
+        "notes": "Not printed in the TDS DL2-14874.pdf or the SDS RF6602.pdf, and not given on Richful's own RF6602 product page (page data feed productId 104/105, checked 2026-10-23). Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: RF6602 is a polymethacrylate (PMA) viscosity index improver (Reported chemical_family / function). The spec defines function-specific markers as TBN + Ca/Mg for detergents, P + Zn for ZDDP and Mo for molybdenum additives; a PMA polymer is none of these and its SDS lists only acrylic copolymer and mineral oil (no metal or phosphorus compound). VM response data are carried in vm.json instead.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts'; an SDS composition table lists declared ingredients only and does not show that an element is absent, so the marker is recorded as Missing, not as absent (2026-10 audit).",
+        "value_final": null,
+        "unit_final": "wt.%"
       }
     }
   },

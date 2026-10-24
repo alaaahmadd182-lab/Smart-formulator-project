@@ -12,7 +12,6 @@
     "revision_date": null
   },
   "fields": {
-   
     "mrv": [
       {
         "test_temperature_c": null,
@@ -71,7 +70,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 12,
+      "unit_final": "wt.%"
     },
     "pour_point": {
       "value": -15,
@@ -90,7 +91,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": -15,
+      "unit_final": "°C"
     },
     "flash_point": {
       "value": 235,
@@ -109,7 +112,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": 235,
+      "unit_final": "°C"
     }
   },
   "open_questions": [

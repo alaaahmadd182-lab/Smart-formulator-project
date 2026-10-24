@@ -15,7 +15,6 @@
     "revision_date": null
   },
   "fields": {
-    
     "mrv": [
       {
         "test_temperature_c": null,
@@ -74,7 +73,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 4.1,
+      "unit_final": "wt.%"
     },
     "pour_point": {
       "value": -15,
@@ -93,7 +94,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": -15,
+      "unit_final": "°C"
     },
     "flash_point": {
       "value": 256,
@@ -112,10 +115,11 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": 256,
+      "unit_final": "°C"
     }
   },
-  
   "open_questions": [
     "API Group is not printed in any reviewed S-OIL document for Ultra-S 8; the Tier 1 API Group is Missing (2026-10 audit). S-OIL's published Ultra-S/aramcoULTRA equivalence and the Aramco catalog classification of aramcoULTRA 8 are indirect evidence only; see the Tier 1 open questions.",
     "Chemistry is recorded from SDS DL2-15238.pdf, Section 3: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; revision date 2015-06-10.",

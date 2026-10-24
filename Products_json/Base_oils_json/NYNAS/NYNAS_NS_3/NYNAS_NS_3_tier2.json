@@ -31,7 +31,9 @@
             "file": null,
             "page": null,
             "revision_date": null
-          }
+          },
+          "value_final": null,
+          "unit_final": "mPa·s"
         },
         "yield_stress": {
           "value": null,
@@ -49,7 +51,9 @@
             "file": null,
             "page": null,
             "revision_date": null
-          }
+          },
+          "value_final": null,
+          "unit_final": "Pa"
         }
       }
     ],
@@ -69,7 +73,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     },
     "pour_point": {
       "value": -70,
@@ -87,7 +93,10 @@
         "file": "DL2-15474.pdf",
         "page": 2,
         "revision_date": "2024-05-30"
-      }
+      },
+      "value_final": -70,
+      "unit_final": "°C",
+      "max_final": -60
     },
     "flash_point": {
       "value": 95,
@@ -106,7 +115,11 @@
         "page": 2,
         "revision_date": "2024-05-30"
       },
-      "flash_method": "PM"
+      "flash_method": "PM",
+      "value_final": 95,
+      "unit_final": "°C",
+      "min_final": 90,
+      "resolution": "Same document type; newest edition used: 2024 edition DL2-15474.pdf 95 °C over 2016 edition DL2-12382.pdf 94 °C."
     }
   },
   "open_questions": [
@@ -127,7 +140,9 @@
         "source_file": "DL2-12382.pdf",
         "page": 2
       },
-      "note": "Different typical values in 2024 and 2016 editions; newer edition selected."
+      "note": "Different typical values in 2024 and 2016 editions; newer edition selected.",
+      "resolved": true,
+      "final_resolution": "Same document type; newest edition used; see tier1 fields.kv40.resolution."
     },
     {
       "conflict_type": "edition difference",
@@ -142,7 +157,9 @@
         "source_file": "DL2-12382.pdf",
         "page": 2
       },
-      "note": "Different typical values in 2024 and 2016 editions."
+      "note": "Different typical values in 2024 and 2016 editions.",
+      "resolved": true,
+      "final_resolution": "Same document type; newest edition used; see tier1 fields.density.resolution."
     },
     {
       "conflict_type": "edition difference",
@@ -157,7 +174,9 @@
         "source_file": "DL2-12382.pdf",
         "page": 2
       },
-      "note": "Different typical PM flash points in two editions."
+      "note": "Different typical PM flash points in two editions.",
+      "resolved": true,
+      "final_resolution": "Same document type; newest edition used; see tier2 fields.flash_point.resolution."
     },
     {
       "conflict_type": "edition difference",
@@ -172,7 +191,9 @@
         "source_file": "DL2-12382.pdf",
         "page": 2
       },
-      "note": "Older typical 30 ppm versus newer upper-bound <10 ppm; not interchangeable."
+      "note": "Older typical 30 ppm versus newer upper-bound <10 ppm; not interchangeable.",
+      "resolved": true,
+      "final_resolution": "Same document type; newest edition used; see tier3 fields.sulfur.resolution."
     }
   ]
 }

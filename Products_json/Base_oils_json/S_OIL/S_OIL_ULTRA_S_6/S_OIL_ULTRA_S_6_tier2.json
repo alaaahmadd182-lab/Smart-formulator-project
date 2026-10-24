@@ -15,7 +15,6 @@
     "revision_date": null
   },
   "fields": {
-    
     "mrv": [
       {
         "test_temperature_c": null,
@@ -74,7 +73,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 8,
+      "unit_final": "wt.%"
     },
     "pour_point": {
       "value": -20,
@@ -93,7 +94,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": -20,
+      "unit_final": "°C"
     },
     "flash_point": {
       "value": 235,
@@ -112,10 +115,11 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": 235,
+      "unit_final": "°C"
     }
   },
-  
   "open_questions": [
     "Chemistry is recorded from SDS DL2-15237.pdf, Section 3: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7. Final source-level verification remains pending.",
     "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",

@@ -26,7 +26,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       "intended_service": {
         "unit": null,
@@ -37,7 +38,8 @@
           "page": 1,
           "revision_date": "2018-02-02"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "Petrochemical industry: Lubricant additives"
       }
     },
     "performance_claims": [
@@ -54,7 +56,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -68,7 +71,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -84,7 +88,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "API group compatibility not published — confirm with supplier. SDS only; no performance claims to apply a rule to."
+      "notes": "API group compatibility not published — confirm with supplier. SDS only; no performance claims to apply a rule to.",
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -98,7 +103,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -121,7 +127,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -146,7 +154,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -183,7 +193,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -193,7 +204,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },

@@ -51,7 +51,8 @@
         "calculation_note": null,
         "flash_method": null,
         "test_temperature_c": null,
-        "unit": null
+        "unit": null,
+        "value_final": "Distillates (petroleum), hydrotreated light paraffinic"
       }
     },
     "kv40": {
@@ -71,7 +72,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 19.62,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 4.247,
@@ -90,7 +93,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 4.247,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 123,
@@ -109,7 +114,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 123,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.835,
@@ -170,7 +177,6 @@
         }
       ]
     },
-        
     "ccs": [
       {
         "value": 1500,
@@ -192,9 +198,7 @@
         "flash_method": null
       }
     ]
-
   },
-  
   "open_questions": [
     "S-OIL Ultra-S 4 SDS revised 2015-06-10 reports Distillates (petroleum), hydrotreated light paraffinic; CAS 64742-54-7; purity 100%. The printed description and CAS number appear inconsistent and require supplier clarification.",
     "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",

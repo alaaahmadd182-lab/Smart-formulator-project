@@ -32,7 +32,8 @@
           "file": "DL2-11376.pdf",
           "page": 1,
           "revision_date": "08/10/2009"
-        }
+        },
+        "value_final": "Polyalphaolefin (PAO)"
       }
     },
     "kv40": {
@@ -51,7 +52,9 @@
         "file": "DL2-11376.pdf",
         "page": 1,
         "revision_date": "08/10/2009"
-      }
+      },
+      "value_final": 1240,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 100.0,
@@ -69,7 +72,9 @@
         "file": "DL2-11376.pdf",
         "page": 1,
         "revision_date": "08/10/2009"
-      }
+      },
+      "value_final": 100,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 170.0,
@@ -87,7 +92,9 @@
         "file": "DL2-11376.pdf",
         "page": 1,
         "revision_date": "08/10/2009"
-      }
+      },
+      "value_final": 170.0,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -105,7 +112,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "g/cm³"
     },
     "specific_gravity": {
       "value": 0.853,
@@ -143,7 +152,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

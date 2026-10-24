@@ -23,7 +23,8 @@
           "page": null,
           "revision_date": null
         },
-        "value_kind": "manufacturer brand classification (grade named as a BAPbase product; distributor table corroborates the grade)"
+        "value_kind": "manufacturer brand classification (grade named as a BAPbase product; distributor table corroborates the grade)",
+        "value_final": "Group III"
       },
       "chemistry": {
         "value": null,
@@ -32,7 +33,8 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null
       }
     },
     "kv40": {
@@ -51,7 +53,11 @@
         "file": "DL2-13093.jpg",
         "page": 1,
         "revision_date": "2017-08-17"
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt",
+      "min_final": 45,
+      "max_final": 55
     },
     "kv100": {
       "value": null,
@@ -69,7 +75,11 @@
         "file": "DL2-13093.jpg",
         "page": 1,
         "revision_date": "2017-08-17"
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt",
+      "min_final": 7.8,
+      "max_final": 8.2
     },
     "viscosity_index": {
       "value": null,
@@ -87,7 +97,9 @@
         "file": "DL2-13093.jpg",
         "page": 1,
         "revision_date": "2017-08-17"
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -105,7 +117,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -124,7 +138,10 @@
           "file": "DL2-13093.jpg",
           "page": 1,
           "revision_date": "2017-08-17"
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s",
+        "max_final": 10000
       }
     ]
   },

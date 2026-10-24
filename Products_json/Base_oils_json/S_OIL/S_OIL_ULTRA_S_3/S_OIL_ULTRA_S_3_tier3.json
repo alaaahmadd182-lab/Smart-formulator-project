@@ -32,7 +32,11 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": "wt.%",
+      "max_final": 0.0001,
+      "unit_conversion": "wt ppm -> wt.% (x0.0001)"
     },
     "saturates": {
       "value": null,
@@ -51,7 +55,10 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": "wt.%",
+      "min_final": 99
     },
     "aromatics": {
       "value": null,
@@ -70,7 +77,9 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
     "cloud_point": {
       "value": null,
@@ -89,7 +98,9 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
     "wax_content": {
       "value": null,
@@ -108,7 +119,9 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     }
   },
   "open_questions": [
