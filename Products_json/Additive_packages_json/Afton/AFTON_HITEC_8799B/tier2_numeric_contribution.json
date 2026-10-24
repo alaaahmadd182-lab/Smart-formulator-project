@@ -265,6 +265,25 @@
       },
       "notes": null
     },
+    "specific_gravity": {
+      "value": 0.958,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "Relative density : 0.958",
+      "unit": "dimensionless",
+      "reference_condition": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "SDS Section 9 (p.7): label and value printed in separate columns, paired by position. No temperature, water reference or method printed. Not converted to density.",
+      "source": {
+        "file": "DL2-15017.pdf",
+        "page": 7,
+        "revision_date": "2018-12-03"
+      }
+    },
     "flash_point": {
       "value": 135,
       "qualifier": "≥",

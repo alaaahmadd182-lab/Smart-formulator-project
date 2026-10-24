@@ -273,6 +273,46 @@
       },
       "notes": null
     },
+    "specific_gravity": {
+      "value": 0.948,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity @ 15.6/15.6°C 0.948",
+      "unit": "dimensionless",
+      "reference_condition": "15.6/15.6°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "'Typical Characteristics' (p.2, 04/22 bulletin; the 05/18 bulletin DL2-11796.pdf p.2 prints the same row). Printed reference '15.6/15.6°C'; test_temperature_c left null. No method printed. Not converted to density.",
+      "source": {
+        "file": "DL2-15568.pdf",
+        "page": 2,
+        "revision_date": "04/22"
+      },
+      "alternate_entries": [
+        {
+          "value": 0.948,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "single",
+          "printed_text": "Relative density : 0.948",
+          "unit": "dimensionless",
+          "reference_condition": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": "SDS Section 9 (p.8): label and value printed in separate columns, paired by position. No temperature, water reference or method printed. Not converted to density.",
+          "source": {
+            "file": "DL2-15569.pdf",
+            "page": 8,
+            "revision_date": "2022-10-11"
+          }
+        }
+      ]
+    },
     "flash_point": {
       "value": 135,
       "qualifier": "≥",

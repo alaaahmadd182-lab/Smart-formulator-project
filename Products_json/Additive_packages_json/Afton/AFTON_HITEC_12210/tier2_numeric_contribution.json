@@ -257,13 +257,32 @@
       "test_temperature_c": null,
       "method": null,
       "status": "Reported",
-      "calculation_note": "Template unit kg/m3; printed lbs/gal kept, not converted. No reference temperature printed for the density line. Also printed: 'Specific Gravity @ 15.6/15.6°C 0.948' (no template field).",
+      "calculation_note": "Template unit kg/m3; printed lbs/gal kept, not converted. No reference temperature printed for the density line. Also printed: 'Specific Gravity @ 15.6/15.6°C 0.948' (recorded in specific_gravity, not converted).",
       "source": {
         "file": "DL2-11418.pdf",
         "page": 2,
         "revision_date": "05/16"
       },
       "notes": "density printed as lbs/gal with no reference temperature on datasheet"
+    },
+    "specific_gravity": {
+      "value": 0.948,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity @ 15.6/15.6°C 0.948",
+      "unit": "dimensionless",
+      "reference_condition": "15.6/15.6°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "'Typical Characteristics' (p.2). Printed reference '15.6/15.6°C'; test_temperature_c left null. No method printed. Not converted to density.",
+      "source": {
+        "file": "DL2-11418.pdf",
+        "page": 2,
+        "revision_date": "05/16"
+      }
     },
     "flash_point": {
       "value": 135,
