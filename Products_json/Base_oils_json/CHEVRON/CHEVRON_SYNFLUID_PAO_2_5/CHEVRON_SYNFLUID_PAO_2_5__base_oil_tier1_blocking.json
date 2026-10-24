@@ -104,6 +104,25 @@
         "revision_date": null
       }
     },
+    "specific_gravity": {
+      "value": 0.8086,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity 0.8086 (C12 Based PAOs table, column '2.5 cSt') ASTM D 4052",
+      "unit": "dimensionless",
+      "reference_condition": null,
+      "test_temperature_c": null,
+      "method": "ASTM D 4052",
+      "status": "Reported",
+      "calculation_note": "Family sheet 'Typical Properties', C12 Based PAOs table (p.1), column '2.5 cSt' (checked by position). No reference temperature printed. No date printed. Not converted to density; the Density, lb/gal row (no temperature printed) is not recorded here.",
+      "source": {
+        "file": "DL2-13200.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
     "ccs": [
       {
         "value": null,
