@@ -11,43 +11,55 @@ additive components) following `Smart_Formulator_Minimum_Property_Set.pdf`, whic
 | `Products_json/` | Task 3 – one folder per product, one JSON file per tier |
 | `build_coverage_matrix.py`, `Coverage_Matrix.xlsx` | Task 4 – coverage script and its output |
 | `source_registry.json` | External (non-archive) sources cited in `Products_json`, with verification status |
-| `Raw_Material_Missing_Properties_2026-10-13.xlsx` | Full raw-material inventory (453 materials) with missing-property status per material |
+| `Raw_Material_Missing_Properties_2026-10-13.xlsx` | Supplementary raw-material reference (453 materials, missing-property status per material); not the Task 3 scope |
 | `open_questions_and_conflicts.md` | Task 5 – conflicts and open questions |
-| `reconciliation/` | Task 3 – reconciliation of the 453-material inventory with `Products_json`, ingestion queue, identity review and unverified research leads |
+| `reconciliation/` | Task 3 – identity review (open items) and the historical comparison of the supplementary inventory with `Products_json` |
 
 ## Scope
 
+Task 3 covers the distinct products that have a supplier datasheet of their own, or their own column
+in a multi-product table, in `Manual + Data to share.zip`. The archive holds 359 datasheet files
+(248 base oils, 109 additive packages, 2 additive components); several files can describe one product
+(TDS, SDS and later editions), and one file can describe several products.
+
 | | Base oils | Additive packages | Additive components | Total |
 |---|---|---|---|---|
-| Full inventory (`Raw_Material_Missing_Properties_2026-10-13.xlsx`) | 202 | 130 | 121 | **453 materials** |
-| Processed JSON subset (`Products_json/`, `Coverage_Matrix.xlsx`) | 181 | 78 | 5 | **264 JSON product folders** |
-| Inventory materials represented by those folders | 180 | 78 | 5 | **263 materials** |
-| Inventory materials not yet represented (deferred) | 22 | 52 | 116 | **190 materials** |
+| Archive-supported products | 181 | 77 | 3 | **261** |
+| …represented by JSON records | 181 | 77 | 3 | **261** |
+| Additional records from external Afton datasheets (HiTEC 12204L, HiTEC 12250, HiTEC 5748) | 0 | 1 | 2 | **3** |
+| JSON product folders | 181 | 78 | 5 | **264** |
+| JSON files | 543 | 156 | 7 | **706** |
 
-The 264 product folders are stored in **706 JSON files**, because each product has one file per
-tier (base oils: 3 tiers; additive packages: 2; additive components: one file per component
-template, e.g. `general.json`, `vm.json`, `ppd.json`).
+All 261 archive-supported products are represented, subject to these documented identity questions
+(`reconciliation/identity_review.md`):
 
-The 264 folders represent 263 inventory materials because one material, `BO-S-OIL-ULTRA-S-8`
-(Ultra-S 8), currently maps to two folders: `S_OIL_ULTRA_S_8` and `S_OIL_ARAMCO_ULTRA_8` (the
-aramcoULTRA 8 rebrand; see `reconciliation/identity_review.md`, ID-01).
+- **ID-15:** the FPCC GII table (DL2-12108.jpeg p.1; copies DL2-12109 and DL2-12111) prints 150N and
+  500N columns whose identity with `FORMOSA_150N_GII_PLUS` and `FORMOSA_500N_GII` is unresolved. The
+  existing records are kept; no record was created for the FPCC columns.
+- **ID-01:** Ultra-S 8 and aramcoULTRA 8 are named in separate archive SDSs and have two folders,
+  `S_OIL_ULTRA_S_8` and `S_OIL_ARAMCO_ULTRA_8`; whether they are one product is unresolved.
 
-The inventory is **not** fully ingested. Of the 190 materials without JSON
-(`reconciliation/README.md`; each is listed with its deferral reason in
-`reconciliation/deferred_products.csv`):
+The 3 Afton records are named in archive datasheets (as premixes or co-components) but have no
+datasheet of their own there; their values come from Afton's own product data sheets (Internet
+Archive copies registered in `source_registry.json`).
 
-- **Category B (archived supplier datasheet): 0.** All nine were ingested.
-- **Category C (mentioned only in other products' documents): 20.**
-- **Category D (no archived source located): 170.**
+The 359 datasheet files are all accounted for: 269 are cited by the JSON records, and the other 90
+(all base oils) are SDSs, later editions or copies of products that already have records.
 
-The two workbooks cover different scopes and are not interchangeable:
+`Raw_Material_Missing_Properties_2026-10-13.xlsx` is a supplementary reference, not the Task 3
+scope, and its 453 materials are not a completion denominator. The 190 materials it lists without
+JSON are outside the required scope: 170 appear only in the workbook, and 20 are named only inside
+other products' datasheets. They are listed, with the historical comparison, in `reconciliation/`
+(`deferred_products.csv`).
 
-- `Raw_Material_Missing_Properties_2026-10-13.xlsx` – the whole 453-material library as of
-  2026-10-13: which Minimum-Property-Set items are present or missing for every material, with a
-  document register. It is not generated from `Products_json`.
-- `Coverage_Matrix.xlsx` – generated by `build_coverage_matrix.py` from the 264 processed product
-  folders only: the status of every property in the JSON, validation findings and source traceability.
-  Materials outside the processed subset do not appear in it.
+The workbooks are not interchangeable:
+
+- `Raw_Material_Missing_Properties_2026-10-13.xlsx` – a supplementary property and document reference
+  (453 materials, as of 2026-10-13). It is not generated from `Products_json`, and its values are not
+  used as supplier-datasheet evidence.
+- `Coverage_Matrix.xlsx` – generated by `build_coverage_matrix.py` from the 264 product folders: the
+  status of every property in the JSON, validation findings and source traceability. Products outside
+  the archive scope do not appear in it.
 
 ## Building the coverage matrix (Task 4)
 

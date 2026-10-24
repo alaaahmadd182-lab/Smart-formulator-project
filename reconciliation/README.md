@@ -6,15 +6,24 @@ This folder compares the full raw-material inventory
 It is documentation only: no product JSON, template, coverage workbook or source-registry file was
 changed.
 
+## Scope basis (2026-10-24)
+
+The authoritative Task 3 scope is the set of distinct products supported by supplier datasheets in
+`Manual + Data to share.zip`: 261 archive-supported products, all represented by JSON (subject to the open identity
+questions ID-01 and ID-15 in `identity_review.md`), plus 3 Afton records sourced from Afton's own data sheets outside
+the archive (see the main `README.md`). The Excel workbook is a supplementary reference. The comparison below, made
+against its 453 materials, is kept as **historical evidence**: the 190 materials it found without JSON are outside the
+required scope and are not pending work.
+
 | File | Contents |
 |---|---|
-| `inventory_reconciliation.csv` | One row per inventory material (453 rows): sheet row, Material ID, name, supplier, register documents, category, matching JSON folder, match evidence and confidence, identity flag, external lead, reconciliation history |
-| `base_oil_ingestion_queue.md` | The 9 base oils that had no JSON but an archived supplier datasheet, with their ingestion status |
-| `identity_review.md` | Uncertain identities, the possible duplicate S-OIL JSONs and supplier-name issues (nothing merged) |
-| `richful_feed_leads.csv` | 103 Richful product-feed records for 52 materials without JSON; unverified research leads, not approved sources |
-| `deferred_products.csv`, `deferred_products.md` | The 190 materials without JSON (no datasheet of their own), with the reason each is deferred; no placeholder JSON was created |
+| `inventory_reconciliation.csv` | Historical. One row per inventory material (453 rows): sheet row, Material ID, name, supplier, register documents, category, matching JSON folder, match evidence and confidence, identity flag, external lead, reconciliation history |
+| `base_oil_ingestion_queue.md` | Closed. The 9 base oils that had no JSON but an archived supplier datasheet; all nine ingested |
+| `identity_review.md` | Open identity items: the possible duplicate S-OIL JSONs, the FPCC GII grades (ID-15) and supplier-name issues (nothing merged); Excel-only items are labelled out of scope |
+| `richful_feed_leads.csv` | Historical. 103 Richful product-feed records for 52 Excel-only materials; unverified research leads, outside the datasheet scope |
+| `deferred_products.csv`, `deferred_products.md` | Historical. The 190 materials without JSON (no datasheet of their own in the archive), with the original reason codes; outside the Task 3 scope, not unfinished work |
 
-## Counts
+## Inventory comparison counts (historical, Excel inventory basis)
 
 Current state, after the ingestion of NYNAS T 22 (pilot), NYNAS T 110, aramcoPRIMA 150, aramcoPRIMA 100, aramcoPRIMA 220, aramcoPRIMA 600, aramcoPRIMA 500L, NEXBASE 3030 and FPCC 70N GII (all nine category-B base oils), and of HiTEC 12250, HiTEC 5748 and HiTEC 12204L (category-C materials with verified manufacturer sources):
 
@@ -33,8 +42,8 @@ materials, 202 without JSON and 9 in category B. NYNAS T 22 (`BO-NYNAS-NYNAS-T-2
 (`BO-NYNAS-NYNAS-T-110`), aramcoPRIMA 150 (`BO-ARAMCO-ARAMCOPRIMA-150N`), aramcoPRIMA 100
 (`BO-ARAMCO-ARAMCOPRIMA-100`), aramcoPRIMA 220 (`BO-ARAMCO-ARAMCOPRIMA-220`), aramcoPRIMA 600 (`BO-ARAMCO-ARAMCOPRIMA-600`), aramcoPRIMA 500L (`BO-ARAMCO-ARAMCOPRIMA-500L`), NEXBASE 3030 (`BO-NESTE-NEXBASE-3030`) and FPCC 70N GII (`BO-FORMOSA-FPCC-70N-GII`) have since moved from category B to A, and HiTEC 12250 (`AC-AFTON-HITEC-12250`), HiTEC 5748 (`AC-AFTON-HITEC-5748`) and HiTEC 12204L (`PK-AFTON-HITEC-12204L`) from category C to A; their CSV rows record this in `reconciliation_history`.
 
-`Coverage_Matrix.xlsx` (regenerated at commit `1878436`) and the scope table in the main `README.md` describe the current
-state: 264 folders, 263 materials, 190 without JSON, including HiTEC 12250, HiTEC 5748 and HiTEC 12204L.
+`Coverage_Matrix.xlsx` (regenerated at commit `1878436`) describes the current JSON state: 264 folders and 706 files, including
+HiTEC 12250, HiTEC 5748 and HiTEC 12204L. The main `README.md` states the scope on the datasheet-archive basis.
 
 The 264 JSON folders represent 263 inventory materials because two S-OIL folders, `S_OIL_ULTRA_S_8` and
 `S_OIL_ARAMCO_ULTRA_8`, both correspond to `BO-S-OIL-ULTRA-S-8` (see `identity_review.md`, ID-01). Every
@@ -76,7 +85,7 @@ The intermediate scripts were run outside the repository; the CSV is the record 
 with JSON, but those siblings were built from other documents, not from the same family sheets (see
 `base_oil_ingestion_queue.md`).
 
-## Proposed ingestion order (awaiting approval)
+## Ingestion history (closed)
 
 1. **Category B, the 9 queued base oils** in `base_oil_ingestion_queue.md` (all ingested 2026-10-23):
    - Nynas T 22 (ingested 2026-10-23 as a pilot) and Nynas T 110 (ingested 2026-10-23), both from product-specific data sheets;
@@ -87,14 +96,15 @@ with JSON, but those siblings were built from other documents, not from the same
    ID-14 supplier fields), before any further JSON work.
 3. **Category C (20 remaining)**, only where a verified manufacturer source gives the product its own data, or if JSON
    records that are mostly Missing are approved for products known only from other documents (precedent:
-   `AFTON_HITEC_8767B`). HiTEC 12250 was ingested 2026-10-23 from the archived Afton HiTEC 12204L PDS (06/17), and HiTEC 5748
-   from Afton's own archived HiTEC 5748 PDS (05/23). HiTEC 12204L was ingested 2026-10-23 from the same Afton HiTEC 12204L
-   PDS (its own column); the DL2-14639 premix formula is kept as an open question. Remaining priority A: SV261, Lubrizol
-   7077, RF0206.
-4. **Category D (170)**, only after manufacturer sources are found and verified. The Richful leads in
-   `richful_feed_leads.csv` are candidates for that research; none is an approved source.
+   `AFTON_HITEC_8767B`). HiTEC 12250 was ingested 2026-10-23 from the Internet Archive copy of the Afton HiTEC 12204L PDS (06/17; not in the
+   datasheet ZIP), and HiTEC 5748 from the Internet Archive copy of Afton's own HiTEC 5748 PDS (05/23). HiTEC 12204L was
+   ingested 2026-10-23 from the same Afton HiTEC 12204L PDS (its own column); the DL2-14639 premix formula is kept as an open
+   question. The other 20 category-C materials are named only inside other products' archive datasheets; they are outside the
+   datasheet scope and no further ingestion is planned.
+4. **Category D (170)**: Excel-only materials, outside the datasheet scope; no ingestion is planned. The Richful leads in
+   `richful_feed_leads.csv` are kept as historical research notes; none is an approved source.
 
-## Richful product-feed leads
+## Richful product-feed leads (historical; outside the datasheet scope)
 
 `richful_feed_leads.csv` lists records from Richful's product data feed
 (`https://www.richful.com/rfapi/api/product/getproductbyid?productId=N`, shown on

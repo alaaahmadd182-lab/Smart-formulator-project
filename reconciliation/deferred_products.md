@@ -1,5 +1,11 @@
 # Deferred products (2026-10-24)
 
+> **Status (2026-10-24): outside the Task 3 scope — not unfinished work.** The Task 3 scope is the set of products
+> supported by supplier datasheets in `Manual + Data to share.zip` (see the main `README.md`). None of these 190 materials
+> has a supplier datasheet of its own in the archive: 170 appear only in the supplementary Excel workbook and 20 are named
+> only inside other products' datasheets. This file and `deferred_products.csv` are kept unchanged below as historical
+> evidence of the inventory comparison; the reason codes are the original ones.
+
 The 190 inventory materials without a product JSON are listed, one row each, in
 `deferred_products.csv`. None of them has a supplier datasheet of its own in
 `Manual + Data to share.zip`, so no JSON was created for them: an empty or placeholder record
