@@ -126,6 +126,25 @@
       },
       "flash_method": null
     },
+    "specific_gravity": {
+      "value": 0.8035,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "Relative density : 0.8035 (15 °C / 59 °F)",
+      "unit": "dimensionless",
+      "reference_condition": "15 °C / 59 °F (water reference temperature not printed)",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "SDS Section 9 (p.8). 'Method: ISO 12185' is printed after the Density line, not the relative-density line; method left null. Not converted to density.",
+      "source": {
+        "file": "DL2-13729.pdf",
+        "page": 8,
+        "revision_date": "2018-10-26"
+      }
+    },
    
     "ccs": [
       {
