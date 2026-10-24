@@ -121,6 +121,25 @@
         "revision_date": "2020-03-24"
       }
     },
+    "specific_gravity": {
+      "value": 0.8486,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "Relative density : 0.8486 (15 °C)",
+      "unit": "dimensionless",
+      "reference_condition": "15 °C (water reference temperature not printed)",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "SDS Section 9 (p.4). 'Method: ASTM D 4052' is printed after the Density line, not the relative-density line; method left null. Not converted to density.",
+      "source": {
+        "file": "DL2-14610.pdf",
+        "page": 4,
+        "revision_date": "2020-03-24"
+      }
+    },
     "ccs": [
       {
         "value": 2175,
