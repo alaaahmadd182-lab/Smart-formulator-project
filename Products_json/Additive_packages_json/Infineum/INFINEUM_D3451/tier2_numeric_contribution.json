@@ -273,6 +273,25 @@
       },
       "notes": null
     },
+    "specific_gravity": {
+      "value": 0.961,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "Relative density : 0,961 at 15,6 °C (60,1 ° F) Method: ASTM D4052",
+      "unit": "dimensionless",
+      "reference_condition": "15,6 °C (60,1 ° F) (water reference temperature not printed)",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": "SDS Section 9 (p.11); printed with a decimal comma. Not converted to density.",
+      "source": {
+        "file": "DL2-13720.pdf",
+        "page": 11,
+        "revision_date": "2017-04-12"
+      }
+    },
     "flash_point": {
       "value": 182,
       "qualifier": null,
