@@ -416,11 +416,11 @@
           "max": null,
           "value_kind": null,
           "printed_text": "In 150N（10% of RF6602) (250 cycles) After Shear KV100 9.87",
-          "unit": "cSt",
+          "unit": null,
           "test_temperature_c": 100,
           "method": "The Shear of Diesel Injector Nozzle",
           "status": "Reported",
-          "calculation_note": "Also printed: 30 cycles 10.00 (10 %), 7.68 (6 %). Unit not printed in the table; KV100 assumed cSt per the 'KV100' label - please confirm.",
+          "calculation_note": "Also printed: 30 cycles 10.00 (10 %), 7.68 (6 %). Unit not printed in the shear-test table; unit left null (not inferred from the 'KV100' label).",
           "source": {
             "file": "DL2-14874.pdf",
             "page": 1,
