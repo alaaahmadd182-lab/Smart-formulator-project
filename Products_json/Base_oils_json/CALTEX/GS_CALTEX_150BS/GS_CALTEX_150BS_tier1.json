@@ -25,7 +25,8 @@
         "value_kind": "supplier designation",
         "method": null,
         "min": null,
-        "max": null
+        "max": null,
+        "value_final": "Group II"
       },
       "chemistry": {
         "value": null,
@@ -36,7 +37,8 @@
           "revision_date": null
         },
         "printed_text": null,
-        "value_kind": null
+        "value_kind": null,
+        "value_final": null
       }
     },
     "kv40": {
@@ -55,7 +57,9 @@
         "file": "DL2-13094.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 445.5,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 33.8,
@@ -73,7 +77,9 @@
         "file": "DL2-13094.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 33.8,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 111,
@@ -91,7 +97,9 @@
         "file": "DL2-13094.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 111,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -109,7 +117,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "relative density"
     },
     "ccs": [
       {
@@ -128,7 +138,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

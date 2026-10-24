@@ -29,7 +29,8 @@
         "qualifier": null,
         "calculation_note": null,
         "flash_method": null,
-        "test_temperature_c": null
+        "test_temperature_c": null,
+        "value_final": null
       },
       "chemistry": {
         "value": null,
@@ -47,7 +48,8 @@
         "qualifier": null,
         "calculation_note": null,
         "flash_method": null,
-        "test_temperature_c": null
+        "test_temperature_c": null,
+        "value_final": null
       }
     },
     "kv40": {
@@ -67,7 +69,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 8.186,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 2.244,
@@ -86,7 +90,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 2.244,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 72,
@@ -105,7 +111,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 72,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -124,9 +132,10 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
-    
     "ccs": [
       {
         "value": null,
@@ -145,12 +154,12 @@
           "page": null,
           "revision_date": null
         },
-        "flash_method": null
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
-
   },
-  
   "open_questions": [
     "API Group for historical S-OIL S-8 (Super 60N) has not been explicitly verified.",
     "S-OIL lists a grade-specific Super 8 SDS, but its Section 3 chemical composition and CAS number require direct verification.",

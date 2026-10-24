@@ -27,7 +27,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "V"
       },
       "chemistry": {
         "value": "Hydrotreated naphthenic base oil",
@@ -43,7 +44,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "Hydrotreated naphthenic base oil"
       }
     },
     "kv40": {
@@ -62,7 +64,11 @@
         "file": "DL2-12819.pdf",
         "page": 2,
         "revision_date": "2019-05-29"
-      }
+      },
+      "value_final": 3.2,
+      "unit_final": "cSt",
+      "min_final": 2.95,
+      "max_final": 3.35
     },
     "kv100": {
       "value": 1.23,
@@ -80,7 +86,9 @@
         "file": "DL2-12819.pdf",
         "page": 2,
         "revision_date": "2019-05-29"
-      }
+      },
+      "value_final": 1.23,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": null,
@@ -98,7 +106,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.859,
@@ -116,7 +126,11 @@
         "file": "DL2-12819.pdf",
         "page": 2,
         "revision_date": "2019-05-29"
-      }
+      },
+      "value_final": 0.859,
+      "unit_final": "g/cm³",
+      "min_final": 0.847,
+      "max_final": 0.872
     },
     "ccs": [
       {
@@ -135,7 +149,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

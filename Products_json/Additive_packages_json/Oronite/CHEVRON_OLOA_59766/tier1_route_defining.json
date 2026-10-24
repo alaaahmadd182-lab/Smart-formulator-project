@@ -30,7 +30,8 @@
           "origin": "public web (supplier website), not the archived datasheet"
         },
         "printed_text": "OLOA 59766 is an optimized and cost-effective package for general applications suitable for Euro III and IV engines and particularly adapted for buses and trucks.",
-        "notes": "Sourced from Chevron Oronite's public 'Heavy Duty Motor Oils' web page (https://www.oronite.com/products-technology/heavy-duty-motor-oils.html), not from the product datasheet. Chevron Oronite official 'Heavy Duty Motor Oils' page https://www.oronite.com/products-technology/heavy-duty-motor-oils.html (retrieved 2026-10-17) lists OLOA 59766 under 'OLOA 59880/59770/59766 additive packages' with the quoted description. Euro III/IV suitability is an emissions-era statement, not a formal API/ACEA claim, so performance_claims is left Missing."
+        "notes": "Sourced from Chevron Oronite's public 'Heavy Duty Motor Oils' web page (https://www.oronite.com/products-technology/heavy-duty-motor-oils.html), not from the product datasheet. Chevron Oronite official 'Heavy Duty Motor Oils' page https://www.oronite.com/products-technology/heavy-duty-motor-oils.html (retrieved 2026-10-17) lists OLOA 59766 under 'OLOA 59880/59770/59766 additive packages' with the quoted description. Euro III/IV suitability is an emissions-era statement, not a formal API/ACEA claim, so performance_claims is left Missing.",
+        "value_final": "Heavy-duty engine oil (HDEO) additive package"
       },
       "intended_service": {
         "unit": null,
@@ -41,7 +42,8 @@
           "page": 1,
           "revision_date": "2017-01-24"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "Automotive lubricant additive"
       }
     },
     "performance_claims": [
@@ -58,7 +60,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -72,7 +75,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -88,7 +92,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "API group compatibility not published — confirm with supplier. SDS only; no performance claims to apply a rule to."
+      "notes": "API group compatibility not published — confirm with supplier. SDS only; no performance claims to apply a rule to.",
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -102,7 +107,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -125,7 +131,9 @@
             "page": 8,
             "revision_date": "2017-01-24"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 11.2,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -150,7 +158,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -187,7 +197,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -197,7 +208,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },

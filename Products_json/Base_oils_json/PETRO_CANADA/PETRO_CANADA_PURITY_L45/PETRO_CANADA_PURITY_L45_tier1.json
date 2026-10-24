@@ -12,7 +12,7 @@
     "revision_date": "2015-07"
   },
   "fields": {
-    "api_group_chemistry": { 
+    "api_group_chemistry": {
       "api_group": {
         "value": "Group II",
         "status": "Reported",
@@ -27,7 +27,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": "Group II classification confirmed from an additional official manufacturer brochure, not inferred from chemistry."
+        "calculation_note": "Group II classification confirmed from an additional official manufacturer brochure, not inferred from chemistry.",
+        "value_final": "Group II"
       },
       "chemistry": {
         "value": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons",
@@ -43,7 +44,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons"
       }
     },
     "kv40": {
@@ -62,7 +64,9 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 6.3,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 1.9,
@@ -80,7 +84,9 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 1.9,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": null,
@@ -98,7 +104,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.85,
@@ -116,9 +124,10 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 0.85,
+      "unit_final": "g/cm³"
     },
-    
     "ccs": [
       {
         "value": 935,
@@ -136,7 +145,9 @@
           "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
           "page": null,
           "revision_date": "2023-03"
-        }
+        },
+        "value_final": 935,
+        "unit_final": "mPa·s"
       },
       {
         "value": 1716,
@@ -154,7 +165,9 @@
           "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
           "page": null,
           "revision_date": "2023-03"
-        }
+        },
+        "value_final": 1716,
+        "unit_final": "mPa·s"
       },
       {
         "value": 3438,
@@ -172,7 +185,9 @@
           "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
           "page": null,
           "revision_date": "2023-03"
-        }
+        },
+        "value_final": 3438,
+        "unit_final": "mPa·s"
       },
       {
         "value": 7415,
@@ -190,12 +205,12 @@
           "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
           "page": null,
           "revision_date": "2023-03"
-        }
+        },
+        "value_final": 7415,
+        "unit_final": "mPa·s"
       }
     ]
-
   },
-  
   "open_questions": [
     "API Group II confirmed from an additional official Petro-Canada manufacturer brochure; the original DL2-10020.pdf did not explicitly assign a grade-specific group.",
     "Viscosity index remains unreported for PURITY L45. CCS values at -20°C, -25°C, -30°C and -35°C were obtained from the manufacturer's March 2023 brochure.",

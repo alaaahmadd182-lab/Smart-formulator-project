@@ -47,7 +47,23 @@
         "retrieved": "2026-10-17",
         "origin": "public web (supplier website), not the archived datasheet"
       },
-      "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=112), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=112 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=112), retrieved 2026-10-17. Archive conflict (see conflicts) between undated DL2-13819.pdf and DL2-15451.pdf left this null; the supplier's current page prints the DL2-15451.pdf value, so that version is taken as current. Conflict record kept unchanged."
+      "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=112), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=112 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=112), retrieved 2026-10-17. Archive conflict (see conflicts) between undated DL2-13819.pdf and DL2-15451.pdf left this null; the supplier's current page prints the DL2-15451.pdf value, so that version is taken as current. Conflict record kept unchanged.",
+      "value_final": 107,
+      "unit_final": "mg KOH/g",
+      "status_final": "Calculated",
+      "source_final": [
+        {
+          "file": "DL2-13819.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "file": "DL2-15451.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      ],
+      "resolution": "Same document type, editions undated so the newest cannot be determined; average taken: TDS 106 and 108 mg KOH/g -> 107. SDS value (106) not used: TDS preferred over SDS."
     },
     "sulfated_ash": {
       "value": 12.25,
@@ -66,7 +82,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet.",
+      "value_final": 12.25,
+      "unit_final": "wt.%"
     },
     "elements": {
       "Ca": {
@@ -89,7 +107,23 @@
           "retrieved": "2026-10-17",
           "origin": "public web (supplier website), not the archived datasheet"
         },
-        "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=112), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=112 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=112), retrieved 2026-10-17. Archive conflict (see conflicts) between undated DL2-13819.pdf and DL2-15451.pdf left this null; the supplier's current page prints the DL2-15451.pdf value, so that version is taken as current. Conflict record kept unchanged."
+        "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=112), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=112 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=112), retrieved 2026-10-17. Archive conflict (see conflicts) between undated DL2-13819.pdf and DL2-15451.pdf left this null; the supplier's current page prints the DL2-15451.pdf value, so that version is taken as current. Conflict record kept unchanged.",
+        "value_final": 3.075,
+        "unit_final": "wt.%",
+        "status_final": "Calculated",
+        "source_final": [
+          {
+            "file": "DL2-13819.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          {
+            "file": "DL2-15451.pdf",
+            "page": 1,
+            "revision_date": null
+          }
+        ],
+        "resolution": "Same document type, editions undated so the newest cannot be determined; average taken: TDS 3.0 and 3.15 wt.% -> 3.075 wt.%."
       },
       "Mg": {
         "value": null,
@@ -108,7 +142,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Zn": {
         "value": 1.24,
@@ -130,7 +166,23 @@
           "retrieved": "2026-10-17",
           "origin": "public web (supplier website), not the archived datasheet"
         },
-        "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=112), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=112 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=112), retrieved 2026-10-17. Archive conflict (see conflicts) between undated DL2-13819.pdf and DL2-15451.pdf left this null; the supplier's current page prints the DL2-15451.pdf value, so that version is taken as current. Conflict record kept unchanged."
+        "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=112), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=112 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=112), retrieved 2026-10-17. Archive conflict (see conflicts) between undated DL2-13819.pdf and DL2-15451.pdf left this null; the supplier's current page prints the DL2-15451.pdf value, so that version is taken as current. Conflict record kept unchanged.",
+        "value_final": 1.27,
+        "unit_final": "wt.%",
+        "status_final": "Calculated",
+        "source_final": [
+          {
+            "file": "DL2-13819.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          {
+            "file": "DL2-15451.pdf",
+            "page": 1,
+            "revision_date": null
+          }
+        ],
+        "resolution": "Same document type, editions undated so the newest cannot be determined; average taken: TDS 1.3 and 1.24 wt.% -> 1.27 wt.%."
       },
       "P": {
         "value": 1.1,
@@ -149,7 +201,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.1,
+        "unit_final": "wt.%",
+        "min_final": 0.97,
+        "max_final": 1.19
       },
       "B": {
         "value": null,
@@ -168,7 +224,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Mo": {
         "value": 0.048,
@@ -187,7 +245,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.048,
+        "unit_final": "wt.%",
+        "min_final": 0.037,
+        "max_final": 0.056
       },
       "N": {
         "value": 1.05,
@@ -206,7 +268,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.05,
+        "unit_final": "wt.%",
+        "min_final": 0.89,
+        "max_final": 1.21
       },
       "S": {
         "value": null,
@@ -225,7 +291,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       }
     },
     "kv40": {
@@ -245,7 +313,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 185,
@@ -267,7 +337,23 @@
         "retrieved": "2026-10-17",
         "origin": "public web (supplier website), not the archived datasheet"
       },
-      "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=112), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=112 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=112), retrieved 2026-10-17. Archive conflict (see conflicts) between undated DL2-13819.pdf and DL2-15451.pdf left this null; the supplier's current page prints the DL2-15451.pdf value, so that version is taken as current. Conflict record kept unchanged."
+      "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=112), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=112 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=112), retrieved 2026-10-17. Archive conflict (see conflicts) between undated DL2-13819.pdf and DL2-15451.pdf left this null; the supplier's current page prints the DL2-15451.pdf value, so that version is taken as current. Conflict record kept unchanged.",
+      "value_final": 206,
+      "unit_final": "cSt",
+      "status_final": "Calculated",
+      "source_final": [
+        {
+          "file": "DL2-13819.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "file": "DL2-15451.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      ],
+      "resolution": "Same document type, editions undated so the newest cannot be determined; average taken: TDS 227 and 185 cSt -> 206 cSt. The two TDS differ by about 20 %, so this average is weak; check with Richful. SDS values (200, 185) not used: TDS preferred over SDS."
     },
     "density": {
       "value": 988,
@@ -289,7 +375,28 @@
         "retrieved": "2026-10-17",
         "origin": "public web (supplier website), not the archived datasheet"
       },
-      "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=112), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=112 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=112), retrieved 2026-10-17. Archive conflict (see conflicts) between undated DL2-13819.pdf and DL2-15451.pdf left this null; the supplier's current page prints the DL2-15451.pdf value, so that version is taken as current. Conflict record kept unchanged."
+      "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=112), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=112 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=112), retrieved 2026-10-17. Archive conflict (see conflicts) between undated DL2-13819.pdf and DL2-15451.pdf left this null; the supplier's current page prints the DL2-15451.pdf value, so that version is taken as current. Conflict record kept unchanged.",
+      "value_final": 0.989,
+      "unit_final": "g/cm³",
+      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)",
+      "integration_flags": [
+        "density is at 20 °C, not 15 °C; not temperature-corrected"
+      ],
+      "status_final": "Calculated",
+      "test_temperature_c_final": 20,
+      "source_final": [
+        {
+          "file": "DL2-13819.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "file": "DL2-15451.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      ],
+      "resolution": "Same document type, editions undated so the newest cannot be determined; average taken: TDS DL2-13819.pdf 990 kg/m³ and TDS DL2-15451.pdf 988 kg/m³ (both at 20 °C) -> 989 kg/m³ = 0.989 g/cm³. SDS values (990 kg/m³, 0.988 g/cm³) not used: TDS preferred over SDS."
     },
     "flash_point": {
       "value": 180,
@@ -309,7 +416,10 @@
         "revision_date": "2021-09-02"
       },
       "flash_method": "COC",
-      "notes": null
+      "notes": null,
+      "value_final": 180,
+      "unit_final": "°C",
+      "min_final": 180
     },
     "pour_point": {
       "value": null,
@@ -328,7 +438,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "°C"
     }
   },
   "open_questions": [
@@ -373,7 +485,9 @@
           "revision_date": "2021-09-02"
         }
       ],
-      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.",
+      "resolved": true,
+      "final_resolution": "See fields.density.resolution."
     },
     {
       "field": "tier2.kv100",
@@ -407,7 +521,9 @@
           "revision_date": "2021-09-02"
         }
       ],
-      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.",
+      "resolved": true,
+      "final_resolution": "See fields.kv100.resolution."
     },
     {
       "field": "tier2.tbn",
@@ -434,7 +550,9 @@
           "revision_date": "2020-07-06"
         }
       ],
-      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.",
+      "resolved": true,
+      "final_resolution": "See fields.tbn.resolution."
     },
     {
       "field": "tier2.elements.Zn",
@@ -454,7 +572,9 @@
           "revision_date": null
         }
       ],
-      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.",
+      "resolved": true,
+      "final_resolution": "See fields.elements.Zn.resolution."
     },
     {
       "field": "tier2.elements.Ca",
@@ -474,7 +594,9 @@
           "revision_date": null
         }
       ],
-      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.",
+      "resolved": true,
+      "final_resolution": "See fields.elements.Ca.resolution."
     }
   ],
   "external_fill_notes": [

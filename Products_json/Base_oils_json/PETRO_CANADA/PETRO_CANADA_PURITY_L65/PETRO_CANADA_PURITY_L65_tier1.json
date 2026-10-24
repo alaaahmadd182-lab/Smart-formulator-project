@@ -27,7 +27,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": "Group II classification directly supported by Petro-Canada's manufacturer brochure; not inferred from chemistry."
+        "calculation_note": "Group II classification directly supported by Petro-Canada's manufacturer brochure; not inferred from chemistry.",
+        "value_final": "Group II"
       },
       "chemistry": {
         "value": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons",
@@ -43,7 +44,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons"
       }
     },
     "kv40": {
@@ -62,7 +64,9 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 9.5,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 2.6,
@@ -80,7 +84,9 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 2.6,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 92,
@@ -98,7 +104,10 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 92,
+      "unit_final": "unitless",
+      "resolution": "TDS DL2-10020.pdf 92 kept over the Petro-Canada marketing brochure (104), which is neither a TDS nor an SDS and is not in the archive."
     },
     "density": {
       "value": 0.83,
@@ -116,9 +125,10 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 0.83,
+      "unit_final": "g/cm³"
     },
-    
     "ccs": [
       {
         "value": null,
@@ -136,17 +146,22 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },
-    "open_questions": [
-      "API Group II confirmed for PURITY L65 using Petro-Canada's official World-Class Base Oils brochure.",
-      "No grade-specific CCS measurement has been verified for PURITY L65.",
-      "Noack volatility and grade-specific SDS require further verification."
-    ],
-    "conflicts": [
-      "Viscosity index differs between manufacturer documents: DL2-10020.pdf (2015-07), page 2, reports 92; Petro-Canada's World-Class Base Oils brochure reports 104. The original value of 92 is retained pending reconciliation."
-    ]
-
+  "open_questions": [
+    "API Group II confirmed for PURITY L65 using Petro-Canada's official World-Class Base Oils brochure.",
+    "No grade-specific CCS measurement has been verified for PURITY L65.",
+    "Noack volatility and grade-specific SDS require further verification."
+  ],
+  "conflicts": [
+    {
+      "note": "Viscosity index differs between manufacturer documents: DL2-10020.pdf (2015-07), page 2, reports 92; Petro-Canada's World-Class Base Oils brochure reports 104. The original value of 92 is retained pending reconciliation.",
+      "resolved": true,
+      "final_resolution": "TDS kept; see tier1 fields.viscosity_index.resolution."
+    }
+  ]
 }

@@ -28,19 +28,21 @@
         "value_kind": "single",
         "printed_text": "LUBEREF GI product/specification heading",
         "method": null,
-        "basis": "Supplier document heading"
+        "basis": "Supplier document heading",
+        "value_final": "Group I"
       },
       "chemistry": {
-      "value": "Distillates, petroleum, solvent-dewaxed light paraffinic",
-      "status": "Reported",
-      "basis": "Supplier safety data sheet, Section 3",
-      "notes": "Composition explicitly reported in DL2-15783.pdf, page 2, Section 3, as 100% distillates, petroleum, solvent-dewaxed light paraffinic (CAS 64742-56-9; DMSO <3%).",
-      "source": {
-        "file": "DL2-15783.pdf",
-        "page": 2,
-        "revision_date": "2019-08-05"
+        "value": "Distillates, petroleum, solvent-dewaxed light paraffinic",
+        "status": "Reported",
+        "basis": "Supplier safety data sheet, Section 3",
+        "notes": "Composition explicitly reported in DL2-15783.pdf, page 2, Section 3, as 100% distillates, petroleum, solvent-dewaxed light paraffinic (CAS 64742-56-9; DMSO <3%).",
+        "source": {
+          "file": "DL2-15783.pdf",
+          "page": 2,
+          "revision_date": "2019-08-05"
+        },
+        "value_final": "Distillates, petroleum, solvent-dewaxed light paraffinic"
       }
-    }
     },
     "kv40": {
       "value": null,
@@ -58,7 +60,11 @@
         "file": "DL2-12173.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt",
+      "min_final": 28,
+      "max_final": 31
     },
     "kv100": {
       "value": null,
@@ -76,7 +82,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 101,
@@ -94,7 +102,9 @@
         "file": "DL2-12173.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 101,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -112,7 +122,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -131,24 +143,26 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },
- "open_questions": [
-  {
-    "question": "KV100, density and CCS are not reported in the reviewed source specifications.",
-    "fields": [
-      "kv100",
-      "density",
-      "ccs[]"
-    ],
-    "source_files": [
-      "DL2-12173.pdf",
-      "DL2-15783.pdf"
-    ]
-  }
-],
+  "open_questions": [
+    {
+      "question": "KV100, density and CCS are not reported in the reviewed source specifications.",
+      "fields": [
+        "kv100",
+        "density",
+        "ccs[]"
+      ],
+      "source_files": [
+        "DL2-12173.pdf",
+        "DL2-15783.pdf"
+      ]
+    }
+  ],
   "conflicts": [],
   "source_documents": [
     {

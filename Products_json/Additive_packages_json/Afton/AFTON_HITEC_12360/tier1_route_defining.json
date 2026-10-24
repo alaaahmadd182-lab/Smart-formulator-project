@@ -26,7 +26,8 @@
           "page": 1,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "HDEO Additive Package"
       },
       "intended_service": {
         "unit": null,
@@ -37,7 +38,8 @@
           "page": 1,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "Made For Asia Pacific Top Tier Heavy Duty Engine Oil Additive"
       }
     },
     "performance_claims": [
@@ -54,7 +56,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -69,7 +72,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -84,7 +88,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -99,7 +104,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -114,7 +120,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -129,7 +136,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -144,7 +152,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -159,7 +168,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -174,7 +184,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -189,7 +200,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -204,7 +216,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -219,7 +232,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -234,7 +248,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -249,7 +264,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -264,7 +280,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -278,7 +295,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -290,7 +308,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -302,7 +321,8 @@
           "page": 2,
           "revision_date": "07/20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -326,7 +346,8 @@
         "page": 2,
         "revision_date": "07/20"
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -344,7 +365,8 @@
         "page": 2,
         "revision_date": "07/20"
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -367,7 +389,12 @@
             "page": 2,
             "revision_date": "07/20"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 16.1,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -390,7 +417,12 @@
             "page": 2,
             "revision_date": "07/20"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 16.1,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       },
       {
@@ -413,7 +445,12 @@
             "page": 2,
             "revision_date": "07/20"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 16.1,
+          "unit_final": "%",
+          "integration_flags": [
+            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+          ]
         }
       }
     ],
@@ -438,7 +475,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -475,7 +514,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -485,7 +525,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },

@@ -31,7 +31,8 @@
           "page": 1,
           "revision_date": "12-Feb-2024"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "HDD Detergent Inhibitor Package for API CI-4/SL Quality"
       },
       "intended_service": {
         "unit": null,
@@ -42,7 +43,8 @@
           "page": 1,
           "revision_date": "2022-03-10"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "Infineum D3417 is a performance additive package for formulating premium quality diesel engine oils."
       }
     },
     "performance_claims": [
@@ -59,7 +61,8 @@
           "page": 1,
           "revision_date": "2022-03-10"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -74,7 +77,8 @@
           "page": 1,
           "revision_date": "2022-03-10"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -88,7 +92,8 @@
           "page": 1,
           "revision_date": "2022-03-10"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -100,7 +105,8 @@
           "page": 1,
           "revision_date": "2022-03-10"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -120,7 +126,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CI-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use). Datasheet itself says 'Claims are base stock and viscosity grade specific', so confirm with Infineum."
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CI-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use). Datasheet itself says 'Claims are base stock and viscosity grade specific', so confirm with Infineum.",
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -136,7 +143,8 @@
         "page": 1,
         "revision_date": "2022-03-10"
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -159,7 +167,9 @@
             "page": 1,
             "revision_date": "2022-03-10"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 8.6,
+          "unit_final": "wt.%"
         }
       },
       {
@@ -182,7 +192,9 @@
             "page": 1,
             "revision_date": "2022-03-10"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 8.6,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -207,7 +219,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -244,7 +258,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -254,7 +269,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },

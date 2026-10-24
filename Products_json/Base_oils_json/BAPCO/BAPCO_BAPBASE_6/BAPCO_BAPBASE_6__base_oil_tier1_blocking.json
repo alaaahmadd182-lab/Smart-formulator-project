@@ -14,16 +14,17 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-      "value": "Group III",
-      "status": "Reported",
-      "basis": "External official manufacturer product-family classification",
-      "notes": "The supplied DL2-12888.jfif does not explicitly state the API Group. Bapco's official website identifies BAPbase products as Group III lubricant base oils.",
-      "source": {
-        "file": "https://www.bapco.net/en/page/crude-and-petroleum-products",
-        "page": null,
-        "revision_date": null
-      }
-    },
+        "value": "Group III",
+        "status": "Reported",
+        "basis": "External official manufacturer product-family classification",
+        "notes": "The supplied DL2-12888.jfif does not explicitly state the API Group. Bapco's official website identifies BAPbase products as Group III lubricant base oils.",
+        "source": {
+          "file": "https://www.bapco.net/en/page/crude-and-petroleum-products",
+          "page": null,
+          "revision_date": null
+        },
+        "value_final": "Group III"
+      },
       "chemistry": {
         "value": null,
         "status": "Missing",
@@ -31,7 +32,8 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null
       }
     },
     "kv40": {
@@ -50,7 +52,11 @@
         "file": "DL2-12888.jfif",
         "page": 1,
         "revision_date": "2017-08-17"
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt",
+      "min_final": 31,
+      "max_final": 35
     },
     "kv100": {
       "value": null,
@@ -68,7 +74,11 @@
         "file": "DL2-12888.jfif",
         "page": 1,
         "revision_date": "2017-08-17"
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt",
+      "min_final": 5.8,
+      "max_final": 6.2
     },
     "viscosity_index": {
       "value": null,
@@ -86,7 +96,9 @@
         "file": "DL2-12888.jfif",
         "page": 1,
         "revision_date": "2017-08-17"
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -104,7 +116,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -123,7 +137,10 @@
           "file": "DL2-12888.jfif",
           "page": 1,
           "revision_date": "2017-08-17"
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s",
+        "max_final": 4500
       }
     ]
   },

@@ -46,19 +46,21 @@
           "file": "https://adnoc.ae/-/media/files/ad-base-docs/adbase-2cst.ashx",
           "page": 1,
           "revision_date": null
-        }
+        },
+        "value_final": "Group II"
       },
       "chemistry": {
-      "value": "Paraffinic petroleum-derived base oil",
-      "status": "Reported",
-      "basis": "External supplier brochure (ADbase product family)",
-      "notes": "Not stated in DL2-12221.pdf. ADNOC's official ADbase brochure confirms that ADbase uses high-paraffinic crude oil as feedstock. This supports the oil-family description, but not an exact molecular composition or grade-specific processing route.",
-      "source": {
-        "file": "https://www.adnoc.ae/-/media/adnoc-v2/files/publications/adbase-brochure_2020.ashx",
-        "page": 2,
-        "revision_date": null
+        "value": "Paraffinic petroleum-derived base oil",
+        "status": "Reported",
+        "basis": "External supplier brochure (ADbase product family)",
+        "notes": "Not stated in DL2-12221.pdf. ADNOC's official ADbase brochure confirms that ADbase uses high-paraffinic crude oil as feedstock. This supports the oil-family description, but not an exact molecular composition or grade-specific processing route.",
+        "source": {
+          "file": "https://www.adnoc.ae/-/media/adnoc-v2/files/publications/adbase-brochure_2020.ashx",
+          "page": 2,
+          "revision_date": null
+        },
+        "value_final": "Paraffinic petroleum-derived base oil"
       }
-    }
     },
     "kv40": {
       "value": 7.5,
@@ -78,7 +80,9 @@
         "file": "DL2-12221.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 7.5,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 2.3,
@@ -98,7 +102,9 @@
         "file": "DL2-12221.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 2.3,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 115,
@@ -118,7 +124,9 @@
         "file": "DL2-12221.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 115,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.823,
@@ -158,7 +166,9 @@
         "file": "DL2-12221.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 0.823,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -179,7 +189,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

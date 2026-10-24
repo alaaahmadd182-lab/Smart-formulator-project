@@ -29,7 +29,8 @@
         "qualifier": null,
         "calculation_note": "Shell Risella X 415 is marketed as a GTL-derived process/technical white oil; API lubricant base-oil Group classification is not required for this product's documented application.",
         "flash_method": null,
-        "test_temperature_c": null
+        "test_temperature_c": null,
+        "value_final": null
       },
       "chemistry": {
         "value": "GTL-derived hydrocarbon fluid; highly saturated, iso-paraffinic",
@@ -47,7 +48,8 @@
         "qualifier": null,
         "calculation_note": null,
         "flash_method": null,
-        "test_temperature_c": null
+        "test_temperature_c": null,
+        "value_final": "GTL-derived hydrocarbon fluid; highly saturated, iso-paraffinic"
       }
     },
     "kv40": {
@@ -67,7 +69,9 @@
         "page": 1,
         "revision_date": "2013-02-08"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 9.3,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 2.6,
@@ -86,7 +90,9 @@
         "page": 1,
         "revision_date": "2013-02-08"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 2.6,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 118,
@@ -105,7 +111,9 @@
         "page": 1,
         "revision_date": "2013-02-08"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 118,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 806,
@@ -124,9 +132,12 @@
         "page": 1,
         "revision_date": "2013-02-08"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 0.806,
+      "unit_final": "g/cm³",
+      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)",
+      "resolution": "TDS preferred over SDS: TDS DL2-13728.pdf 806 kg/m³ kept over SDS DL2-13729.pdf 803.5 kg/m³."
     },
-   
     "ccs": [
       {
         "value": null,
@@ -145,12 +156,12 @@
           "page": null,
           "revision_date": null
         },
-        "flash_method": null
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
-
   },
-  
   "open_questions": [
     "Shell identifies Risella X 415 as a GTL-derived technical white/process oil, but no explicit grade-specific API base-oil Group classification has been verified. API Group remains Missing.",
     "Chemistry is supported by the historical TDS DL2-13728.pdf: GTL-derived hydrocarbon fluid, highly saturated with a high degree of iso-paraffinic structures. Shell's newer official TDS also describes the product as a highly refined paraffinic process oil made using GTL technology.",
@@ -176,7 +187,9 @@
         "page": 8,
         "revision_date": "2018-10-26"
       },
-      "note": "Different reported values at same temperature; TDS selected as primary, SDS retained for reconciliation."
+      "note": "Different reported values at same temperature; TDS selected as primary, SDS retained for reconciliation.",
+      "resolved": true,
+      "final_resolution": "TDS preferred over SDS; see tier1 fields.density.resolution."
     }
   ]
 }

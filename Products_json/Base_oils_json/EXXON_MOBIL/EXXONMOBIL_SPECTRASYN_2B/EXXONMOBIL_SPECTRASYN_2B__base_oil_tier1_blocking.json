@@ -20,7 +20,8 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null
       },
       "chemistry": {
         "value": "Polyalphaolefin (PAO)",
@@ -29,7 +30,8 @@
           "file": "DL2-11330.pdf",
           "page": 1,
           "revision_date": null
-        }
+        },
+        "value_final": "Polyalphaolefin (PAO)"
       }
     },
     "kv40": {
@@ -48,7 +50,9 @@
         "file": "DL2-11330.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 5,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 1.8,
@@ -66,7 +70,9 @@
         "file": "DL2-11330.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 1.8,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": null,
@@ -84,7 +90,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -102,7 +110,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -121,7 +131,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

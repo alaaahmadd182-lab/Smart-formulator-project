@@ -33,7 +33,10 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": 110,
+      "unit_final": "mg KOH/g",
+      "min_final": 110
     },
     "sulfated_ash": {
       "value": 13.3,
@@ -52,7 +55,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn/Mo/B contents in this file), not from the product datasheet. Calculated by us from the element contents already in this file (TDS minimums for Ca, Mg, Zn, Mo, B) using the ASTM D874 sulfate/oxide conversion factors (Ca 3.40, Mg 4.95, Zn 1.50, Mo 1.50, B 3.22). All five ash-forming elements in the schema are printed, so the sum is complete for them; because every input is a minimum the result is a nominal lower bound. Measured D874 ash can differ from calculated: across the 31 packages in this data set that print sulfated ash together with their Ca/Mg/Zn contents, calculated/measured ranged 0.97-1.10 (Lubrizol 0.99-1.01)."
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn/Mo/B contents in this file), not from the product datasheet. Calculated by us from the element contents already in this file (TDS minimums for Ca, Mg, Zn, Mo, B) using the ASTM D874 sulfate/oxide conversion factors (Ca 3.40, Mg 4.95, Zn 1.50, Mo 1.50, B 3.22). All five ash-forming elements in the schema are printed, so the sum is complete for them; because every input is a minimum the result is a nominal lower bound. Measured D874 ash can differ from calculated: across the 31 packages in this data set that print sulfated ash together with their Ca/Mg/Zn contents, calculated/measured ranged 0.97-1.10 (Lubrizol 0.99-1.01).",
+      "value_final": 13.3,
+      "unit_final": "wt.%"
     },
     "elements": {
       "Ca": {
@@ -72,7 +77,10 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 3,
+        "unit_final": "wt.%",
+        "min_final": 3
       },
       "Mg": {
         "value": 0.2,
@@ -91,7 +99,10 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.2,
+        "unit_final": "wt.%",
+        "min_final": 0.2
       },
       "Zn": {
         "value": 1.1,
@@ -110,7 +121,10 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.1,
+        "unit_final": "wt.%",
+        "min_final": 1.1
       },
       "P": {
         "value": 0.95,
@@ -129,7 +143,10 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.95,
+        "unit_final": "wt.%",
+        "min_final": 0.95
       },
       "B": {
         "value": 0.14,
@@ -148,7 +165,10 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.14,
+        "unit_final": "wt.%",
+        "min_final": 0.14
       },
       "Mo": {
         "value": 0.025,
@@ -167,7 +187,10 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.025,
+        "unit_final": "wt.%",
+        "min_final": 0.025
       },
       "N": {
         "value": 0.6,
@@ -186,7 +209,10 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.6,
+        "unit_final": "wt.%",
+        "min_final": 0.6
       },
       "S": {
         "value": null,
@@ -205,7 +231,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       }
     },
     "kv40": {
@@ -225,7 +253,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": null,
@@ -244,7 +274,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "density": {
       "value": null,
@@ -263,7 +295,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "kg/m3 (or as printed)"
     },
     "flash_point": {
       "value": 180,
@@ -283,7 +317,10 @@
         "revision_date": null
       },
       "flash_method": "COC",
-      "notes": null
+      "notes": null,
+      "value_final": 180,
+      "unit_final": "°C",
+      "min_final": 180
     },
     "pour_point": {
       "value": null,
@@ -302,7 +339,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "°C"
     }
   },
   "open_questions": [

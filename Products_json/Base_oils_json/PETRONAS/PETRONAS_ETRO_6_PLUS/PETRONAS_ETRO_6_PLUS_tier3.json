@@ -28,7 +28,11 @@
         "file": "DL2-10234.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 0.0002,
+      "unit_final": "wt.%",
+      "max_final": 0.001,
+      "unit_conversion": "mg/kg -> wt.% (x0.0001)"
     },
     "saturates": {
       "value": 99,
@@ -46,7 +50,10 @@
         "file": "DL2-10234.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 99,
+      "unit_final": "wt.%",
+      "min_final": 95
     },
     "aromatics": {
       "value": null,
@@ -64,7 +71,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     },
     "cloud_point": {
       "value": null,
@@ -82,7 +91,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "°C"
     },
     "wax_content": {
       "value": null,
@@ -100,7 +111,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     }
   },
   "open_questions": [
@@ -116,7 +129,9 @@
       "primary_value": "32.55 cSt at 40°C (ASTM D445)",
       "comparison_source": "DL2-14610.pdf",
       "comparison_value": "34.79 mm²/s at 40°C (ASTM D445), page 4",
-      "assessment": "Different reported values; retain TDS typical value, flag for review."
+      "assessment": "Different reported values; retain TDS typical value, flag for review.",
+      "resolved": true,
+      "final_resolution": "TDS preferred over SDS; see tier1 fields.kv40.resolution."
     },
     {
       "property": "flash_point",
@@ -124,7 +139,9 @@
       "primary_value": "240°C ASTM D92 (COC)",
       "comparison_source": "DL2-14610.pdf",
       "comparison_value": "228°C ASTM D93 (PMCC), page 3",
-      "assessment": "Different methods, not directly comparable; both values retained."
+      "assessment": "Different methods, not directly comparable; both values retained.",
+      "resolved": true,
+      "final_resolution": "TDS preferred over SDS; see tier2 fields.flash_point.resolution."
     },
     {
       "property": "noack_volatility",
@@ -132,7 +149,9 @@
       "primary_value": "5.7 mass% ASTM D5800-B",
       "comparison_source": "DL2-14610.pdf",
       "comparison_value": "5.3 mass% ASTM D5800 B, page 4",
-      "assessment": "Different reported values; retain TDS typical value, flag for review."
+      "assessment": "Different reported values; retain TDS typical value, flag for review.",
+      "resolved": true,
+      "final_resolution": "TDS preferred over SDS; see tier2 fields.noack_volatility.resolution."
     },
     {
       "property": "density",
@@ -140,7 +159,9 @@
       "primary_value": "0.8429 kg/L (temperature not stated)",
       "comparison_source": "DL2-14610.pdf",
       "comparison_value": "0.8486 g/cm³ at 15°C ASTM D4052, page 4",
-      "assessment": "TDS lacks measurement temperature; SDS has a stated temperature and is used in the density field, with its own source."
+      "assessment": "TDS lacks measurement temperature; SDS has a stated temperature and is used in the density field, with its own source.",
+      "resolved": true,
+      "final_resolution": "TDS preferred over SDS; see tier1 fields.density.resolution."
     }
   ]
 }

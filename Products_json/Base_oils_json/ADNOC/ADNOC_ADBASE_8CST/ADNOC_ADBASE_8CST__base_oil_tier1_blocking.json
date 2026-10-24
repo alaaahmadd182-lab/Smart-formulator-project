@@ -57,7 +57,8 @@
           "file": "DL2-12468.jpg",
           "page": 1,
           "revision_date": "2016-11"
-        }
+        },
+        "value_final": "Group III"
       },
       "chemistry": {
         "value": "Group III base oil (hydrocracked / hydroisomerised mineral oil)",
@@ -68,7 +69,8 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": "Group III base oil (hydrocracked / hydroisomerised mineral oil)"
       }
     },
     "kv40": {
@@ -89,7 +91,9 @@
         "file": "DL2-12221.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 49,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 8.05,
@@ -129,7 +133,9 @@
         "file": "DL2-12221.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 8.05,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 137,
@@ -169,7 +175,9 @@
         "file": "DL2-12221.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 137,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.845,
@@ -209,7 +217,9 @@
         "file": "DL2-12221.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 0.845,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -230,7 +240,9 @@
           "file": "DL2-12221.pdf",
           "page": 1,
           "revision_date": null
-        }
+        },
+        "value_final": 8000,
+        "unit_final": "mPa·s"
       }
     ]
   },

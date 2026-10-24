@@ -29,9 +29,9 @@
         "qualifier": null,
         "calculation_note": "API Group III classification is attributed to SK Enmove's official YUBASE product information, not to the archived NARMAK TRADE property sheet DL2-11304.pdf. Preserve the external manufacturer reference for traceability.",
         "flash_method": null,
-        "test_temperature_c": null
+        "test_temperature_c": null,
+        "value_final": "III"
       },
-      
       "chemistry": {
         "value": "Distillates (petroleum), hydrotreated heavy paraffinic",
         "status": "Reported",
@@ -49,9 +49,9 @@
         "calculation_note": "Historical SK Corporation YUBASE 4 MSDS No. 739-YU4-02, Section 2, reports 100% hydrotreated heavy paraffinic distillate, CAS 64742-54-7. This is an external historical SDS, not the archived NARMAK TRADE property sheet DL2-11304.pdf.",
         "flash_method": null,
         "test_temperature_c": null,
-        "unit": null
+        "unit": null,
+        "value_final": "Distillates (petroleum), hydrotreated heavy paraffinic"
       }
-
     },
     "kv40": {
       "value": 19.57,
@@ -70,7 +70,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 19.57,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 4.23,
@@ -89,7 +91,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 4.23,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 122,
@@ -108,7 +112,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 122,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -127,33 +133,34 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
-    
-  "ccs": [
-    {
-      "value": null,
-      "qualifier": null,
-      "min": null,
-      "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": "mPa.s",
-      "test_temperature_c": null,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": "No grade-specific CCS cold-cranking viscosity measurement, test temperature, or test method is reported in archived YUBASE 4 property sheet DL2-11304.pdf.",
-      "source": {
-        "file": null,
-        "page": null,
-        "revision_date": null
-      },
-      "flash_method": null
-    }
-  ]
-
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "No grade-specific CCS cold-cranking viscosity measurement, test temperature, or test method is reported in archived YUBASE 4 property sheet DL2-11304.pdf.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
+      }
+    ]
   },
- 
   "open_questions": [
     "Confirm the manufacturer and distributor relationship between SK Corporation/SK Enmove and NARMAK TRADE S.R.O. for archived YUBASE 4.",
     "API Group III classification is supported by SK Enmove manufacturer information but is not explicitly stated in archived property sheet DL2-11304.pdf. Confirm that the classification applies to the archived grade.",

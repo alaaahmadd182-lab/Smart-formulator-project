@@ -55,7 +55,10 @@
         "file": "DL2-12221.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 0.0003,
+      "unit_final": "wt.%",
+      "unit_conversion": "mg/kg -> wt.% (x0.0001)"
     },
     "saturates": {
       "value": 99.8,
@@ -75,7 +78,9 @@
         "file": "DL2-12221.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 99.8,
+      "unit_final": "wt.%"
     },
     "aromatics": {
       "value": 0.2,
@@ -95,7 +100,9 @@
         "file": "DL2-12221.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 0.2,
+      "unit_final": "wt.%"
     },
     "cloud_point": {
       "value": null,
@@ -115,7 +122,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "°C"
     },
     "wax_content": {
       "value": null,
@@ -135,7 +144,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     }
   },
   "open_questions": [

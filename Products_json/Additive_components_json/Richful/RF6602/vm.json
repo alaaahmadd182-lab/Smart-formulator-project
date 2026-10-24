@@ -33,7 +33,8 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "active_polymer": {
       "wt_pct": {
@@ -53,7 +54,11 @@
           "page": 2,
           "revision_date": "2022-02-18"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%",
+        "min_final": 65,
+        "max_final": 85
       },
       "carrier_identity": "Distillates (petroleum), hydrotreated heavy paraffinic (contains less than 3% DMSO extract), CAS-No.: 64742-54-7",
       "carrier_share_wt_pct": {
@@ -73,7 +78,11 @@
           "page": 2,
           "revision_date": "2022-02-18"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%",
+        "min_final": 15,
+        "max_final": 35
       }
     },
     "treat_range_by_sae_grade": [
@@ -96,7 +105,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -122,7 +133,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 0.54,
+          "unit_final": "cSt"
         },
         "usable": false
       },
@@ -147,7 +160,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 1.43,
+          "unit_final": "cSt"
         },
         "usable": false
       },
@@ -172,7 +187,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 2.81,
+          "unit_final": "cSt"
         },
         "usable": false
       },
@@ -197,7 +214,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 0.87,
+          "unit_final": "cSt"
         },
         "usable": false
       },
@@ -222,7 +241,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 2.38,
+          "unit_final": "cSt"
         },
         "usable": false
       },
@@ -247,7 +268,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 4.43,
+          "unit_final": "cSt"
         },
         "usable": false
       },
@@ -272,7 +295,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 0.48,
+          "unit_final": "cSt"
         },
         "usable": false
       },
@@ -297,7 +322,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 1.54,
+          "unit_final": "cSt"
         },
         "usable": false
       },
@@ -322,7 +349,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 2.77,
+          "unit_final": "cSt"
         },
         "usable": false
       }
@@ -347,7 +376,8 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 0.13
         },
         "method": "The Shear of Diesel Injector Nozzle",
         "cycle_count": 30,
@@ -372,7 +402,8 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 2.34
         },
         "method": "The Shear of Diesel Injector Nozzle",
         "cycle_count": 30,
@@ -397,7 +428,8 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 3.61
         },
         "method": "The Shear of Diesel Injector Nozzle",
         "cycle_count": 250,
@@ -426,7 +458,9 @@
             "page": 1,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": 9.87,
+          "unit_final": "cSt"
         },
         "usable": true
       },
@@ -451,7 +485,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": null
         },
         "usable": null
       },
@@ -476,7 +512,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": null
         },
         "usable": null
       },
@@ -501,7 +539,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": null
         },
         "usable": null
       },
@@ -526,7 +566,8 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null
         },
         "usable": null
       }
@@ -549,7 +590,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "°C"
       },
       "procedure": null
     }

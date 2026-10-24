@@ -38,7 +38,11 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": 74,
+      "unit_final": "mg KOH/g",
+      "min_final": 66,
+      "max_final": 82
     },
     "sulfated_ash": {
       "value": 8.04,
@@ -57,7 +61,10 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": 8.04,
+      "unit_final": "wt.%",
+      "max_final": 8.33
     },
     "elements": {
       "Ca": {
@@ -77,7 +84,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.95,
+        "unit_final": "wt.%",
+        "min_final": 1.75,
+        "max_final": 2.15
       },
       "Mg": {
         "value": null,
@@ -96,7 +107,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Zn": {
         "value": 1.05,
@@ -115,7 +128,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.05,
+        "unit_final": "wt.%",
+        "min_final": 0.94,
+        "max_final": 1.16
       },
       "P": {
         "value": 0.92,
@@ -134,7 +151,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.92,
+        "unit_final": "wt.%",
+        "min_final": 0.83,
+        "max_final": 1.01
       },
       "B": {
         "value": null,
@@ -153,7 +174,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Mo": {
         "value": null,
@@ -172,7 +195,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "N": {
         "value": 0.91,
@@ -191,7 +216,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.91,
+        "unit_final": "wt.%",
+        "min_final": 0.77,
+        "max_final": 1.05
       },
       "S": {
         "value": null,
@@ -210,7 +239,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       }
     },
     "kv40": {
@@ -230,7 +261,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 178.2,
@@ -249,7 +282,10 @@
         "page": 5,
         "revision_date": "2024-10-17"
       },
-      "notes": "From SDS"
+      "notes": "From SDS",
+      "value_final": 178.2,
+      "unit_final": "cSt",
+      "resolution": "User decision of 2026-10-18 kept (SDS DL2-15840.pdf 178.2 cSt); it overrides the TDS-preferred rule, which would give TDS DL2-15839.pdf 177 cSt."
     },
     "density": {
       "value": 963.0,
@@ -268,7 +304,14 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": "From TDS"
+      "notes": "From TDS",
+      "value_final": 0.963,
+      "unit_final": "g/cm³",
+      "unit_conversion": "kg/m³ -> g/cm³ (x0.001)",
+      "integration_flags": [
+        "density is at 20 °C, not 15 °C; not temperature-corrected"
+      ],
+      "resolution": "User decision of 2026-10-18 kept (TDS DL2-15839.pdf 963 kg/m³ at 20 °C); agrees with TDS preferred over SDS (SDS DL2-15840.pdf relative density 0.958 not used)."
     },
     "flash_point": {
       "value": 180,
@@ -288,7 +331,10 @@
         "revision_date": "2024-10-17"
       },
       "flash_method": null,
-      "notes": "test method not printed on datasheet"
+      "notes": "test method not printed on datasheet",
+      "value_final": 180,
+      "unit_final": "°C",
+      "min_final": 180
     },
     "pour_point": {
       "value": null,
@@ -307,7 +353,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "°C"
     }
   },
   "open_questions": [
@@ -335,7 +383,9 @@
           "revision_date": "2024-10-17"
         }
       ],
-      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved. Resolved 2026-10-18 by user decision: 963.0 kg/m³ from DL2-15839.pdf used."
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved. Resolved 2026-10-18 by user decision: 963.0 kg/m³ from DL2-15839.pdf used.",
+      "resolved": true,
+      "final_resolution": "User decision of 2026-10-18 kept; see fields.density.resolution."
     },
     {
       "field": "tier2.kv100",
@@ -355,7 +405,9 @@
           "revision_date": "2024-10-17"
         }
       ],
-      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved. Resolved 2026-10-18 by user decision: 178.2 mm²/s from DL2-15840.pdf used."
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved. Resolved 2026-10-18 by user decision: 178.2 mm²/s from DL2-15840.pdf used.",
+      "resolved": true,
+      "final_resolution": "User decision of 2026-10-18 kept; see fields.kv100.resolution."
     }
   ],
   "external_fill_notes": []

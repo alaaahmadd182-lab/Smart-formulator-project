@@ -33,7 +33,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "mg KOH/g"
     },
     "sulfated_ash": {
       "value": 12.6,
@@ -52,7 +54,9 @@
         "page": 1,
         "revision_date": "2008-02-06"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 12.6,
+      "unit_final": "wt.%"
     },
     "elements": {
       "Ca": {
@@ -72,7 +76,11 @@
           "page": 1,
           "revision_date": "2008-02-06"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 3.2,
+        "unit_final": "wt.%",
+        "min_final": 2.88,
+        "max_final": 3.52
       },
       "Mg": {
         "value": null,
@@ -91,7 +99,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Zn": {
         "value": 1.15,
@@ -110,7 +120,11 @@
           "page": 1,
           "revision_date": "2008-02-06"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.15,
+        "unit_final": "wt.%",
+        "min_final": 1.04,
+        "max_final": 1.27
       },
       "P": {
         "value": 1.05,
@@ -129,7 +143,11 @@
           "page": 1,
           "revision_date": "2008-02-06"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.05,
+        "unit_final": "wt.%",
+        "min_final": 0.94,
+        "max_final": 1.15
       },
       "B": {
         "value": null,
@@ -148,7 +166,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Mo": {
         "value": null,
@@ -167,7 +187,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "N": {
         "value": 0.53,
@@ -186,7 +208,11 @@
           "page": 1,
           "revision_date": "2008-02-06"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.53,
+        "unit_final": "wt.%",
+        "min_final": 0.48,
+        "max_final": 0.59
       },
       "S": {
         "value": 3.07,
@@ -205,7 +231,11 @@
           "page": 1,
           "revision_date": "2008-02-06"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 3.07,
+        "unit_final": "wt.%",
+        "min_final": 2.76,
+        "max_final": 3.37
       }
     },
     "kv40": {
@@ -225,7 +255,9 @@
         "page": 1,
         "revision_date": "2008-02-06"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 1950,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 116.0,
@@ -244,7 +276,9 @@
         "page": 1,
         "revision_date": "2008-02-06"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 116,
+      "unit_final": "cSt"
     },
     "density": {
       "value": 0.981,
@@ -263,7 +297,13 @@
         "page": 1,
         "revision_date": "2008-02-06"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 0.981,
+      "unit_final": "specific gravity (dimensionless)",
+      "integration_flags": [
+        "specific gravity is not a density; kept as printed, not converted to g/cm³",
+        "density is at 15.6 °C, not 15 °C; not temperature-corrected"
+      ]
     },
     "flash_point": {
       "value": 161.0,
@@ -283,7 +323,9 @@
         "revision_date": "2008-02-06"
       },
       "flash_method": "PMCC",
-      "notes": null
+      "notes": null,
+      "value_final": 161,
+      "unit_final": "°C"
     },
     "pour_point": {
       "value": -21.0,
@@ -302,7 +344,9 @@
         "page": 1,
         "revision_date": "2008-02-06"
       },
-      "notes": null
+      "notes": null,
+      "value_final": -21,
+      "unit_final": "°C"
     }
   },
   "open_questions": [

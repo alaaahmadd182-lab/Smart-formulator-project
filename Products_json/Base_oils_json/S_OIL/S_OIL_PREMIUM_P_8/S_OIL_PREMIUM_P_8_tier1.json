@@ -29,28 +29,28 @@
         "qualifier": null,
         "calculation_note": null,
         "flash_method": null,
-        "test_temperature_c": null
+        "test_temperature_c": null,
+        "value_final": null
       },
-      
-    "chemistry": {
-      "value": "Distillates (petroleum), hydrotreated light paraffinic",
-      "status": "Reported",
-      "source": {
-        "file": "https://www.s-oil.com/common/page/FileDownload.aspx?FileName=20150714152739959.pdf&PIndex=21&PathType=BOARD&TFileName=P8_20150610.pdf",
-        "page": 1,
-        "revision_date": "2015-06-10"
-      },
-      "printed_text": "Distillates (petroleum), hydrotreated light paraffinic; CAS 64742-55-8; purity 100%",
-      "value_kind": "supplier composition",
-      "method": null,
-      "min": null,
-      "max": null,
-      "qualifier": null,
-      "calculation_note": "Grade-specific chemical composition reported in Section 3 of S-OIL's Premium-8 SDS.",
-      "flash_method": null,
-      "test_temperature_c": null
-    }
-
+      "chemistry": {
+        "value": "Distillates (petroleum), hydrotreated light paraffinic",
+        "status": "Reported",
+        "source": {
+          "file": "https://www.s-oil.com/common/page/FileDownload.aspx?FileName=20150714152739959.pdf&PIndex=21&PathType=BOARD&TFileName=P8_20150610.pdf",
+          "page": 1,
+          "revision_date": "2015-06-10"
+        },
+        "printed_text": "Distillates (petroleum), hydrotreated light paraffinic; CAS 64742-55-8; purity 100%",
+        "value_kind": "supplier composition",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "Grade-specific chemical composition reported in Section 3 of S-OIL's Premium-8 SDS.",
+        "flash_method": null,
+        "test_temperature_c": null,
+        "value_final": "Distillates (petroleum), hydrotreated light paraffinic"
+      }
     },
     "kv40": {
       "value": 7.498,
@@ -69,7 +69,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 7.498,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 2.036,
@@ -88,7 +90,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 2.036,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 66,
@@ -107,7 +111,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 66,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -126,9 +132,10 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
-    
     "ccs": [
       {
         "value": null,
@@ -147,12 +154,12 @@
           "page": null,
           "revision_date": null
         },
-        "flash_method": null
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
-
   },
-
   "open_questions": [
     "API Group classification for historical S-OIL P-8 (Premium 60N) has not been explicitly verified.",
     "Chemistry confirmed in S-OIL Premium-8 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated light paraffinic; CAS 64742-55-8; purity 100%.",

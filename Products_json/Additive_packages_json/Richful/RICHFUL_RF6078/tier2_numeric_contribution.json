@@ -41,7 +41,11 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": 83,
+      "unit_final": "mg KOH/g",
+      "min_final": 75,
+      "max_final": 91
     },
     "sulfated_ash": {
       "value": 10.29,
@@ -60,7 +64,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet.",
+      "value_final": 10.29,
+      "unit_final": "wt.%"
     },
     "elements": {
       "Ca": {
@@ -80,7 +86,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 2.55,
+        "unit_final": "wt.%",
+        "min_final": 2.3,
+        "max_final": 2.81
       },
       "Mg": {
         "value": null,
@@ -99,7 +109,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Zn": {
         "value": 1.31,
@@ -118,7 +130,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.31,
+        "unit_final": "wt.%",
+        "min_final": 1.18,
+        "max_final": 1.44
       },
       "P": {
         "value": 1.16,
@@ -137,7 +153,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.16,
+        "unit_final": "wt.%",
+        "min_final": 1.04,
+        "max_final": 1.28
       },
       "B": {
         "value": null,
@@ -156,7 +176,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Mo": {
         "value": 0.052,
@@ -175,7 +197,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.052,
+        "unit_final": "wt.%",
+        "min_final": 0.042,
+        "max_final": 0.062
       },
       "N": {
         "value": null,
@@ -194,7 +220,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "S": {
         "value": null,
@@ -213,7 +241,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       }
     },
     "kv40": {
@@ -233,7 +263,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 146,
@@ -252,7 +284,9 @@
         "page": 5,
         "revision_date": "2021-09-02"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 146,
+      "unit_final": "cSt"
     },
     "density": {
       "value": 972,
@@ -274,7 +308,27 @@
         "retrieved": "2026-10-17",
         "origin": "public web (supplier website), not the archived datasheet"
       },
-      "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=109), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=109 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=109), retrieved 2026-10-17. Page body names 'RF6078 CI-4 Diesel Engine Oil Package'. Same value as both archived TDS (972); only the SDS DL2-15833.pdf prints 975. Conflict record kept unchanged."
+      "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=109), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=109 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=109), retrieved 2026-10-17. Page body names 'RF6078 CI-4 Diesel Engine Oil Package'. Same value as both archived TDS (972); only the SDS DL2-15833.pdf prints 975. Conflict record kept unchanged.",
+      "value_final": 0.972,
+      "unit_final": "g/cm³",
+      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)",
+      "integration_flags": [
+        "density is at 20 °C, not 15 °C; not temperature-corrected"
+      ],
+      "status_final": "Reported",
+      "source_final": [
+        {
+          "file": "DL2-15832.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "file": "RF6078%20-%20TDS.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      ],
+      "resolution": "TDS preferred over SDS: both TDS print 972 kg/m³ at 20 °C (= 0.972 g/cm³); SDS DL2-15833.pdf 975 kg/m³ not used."
     },
     "flash_point": {
       "value": 180,
@@ -294,7 +348,10 @@
         "revision_date": "2021-09-02"
       },
       "flash_method": "COC",
-      "notes": null
+      "notes": null,
+      "value_final": 180,
+      "unit_final": "°C",
+      "min_final": 180
     },
     "pour_point": {
       "value": null,
@@ -313,7 +370,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "°C"
     }
   },
   "open_questions": [
@@ -349,7 +408,9 @@
           "revision_date": "2021-09-02"
         }
       ],
-      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.",
+      "resolved": true,
+      "final_resolution": "See fields.density.resolution."
     }
   ],
   "external_fill_notes": [

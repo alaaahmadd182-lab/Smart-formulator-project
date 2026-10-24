@@ -28,7 +28,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     },
     "saturates": {
       "value": 97.8,
@@ -46,7 +48,12 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 97.8,
+      "unit_final": "%",
+      "integration_flags": [
+        "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+      ]
     },
     "aromatics": {
       "value": 2.2,
@@ -64,7 +71,12 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 2.2,
+      "unit_final": "%",
+      "integration_flags": [
+        "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+      ]
     },
     "cloud_point": {
       "value": null,
@@ -82,7 +94,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "°C"
     },
     "wax_content": {
       "value": null,
@@ -100,7 +114,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     }
   },
   "open_questions": [

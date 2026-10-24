@@ -31,7 +31,11 @@
         "file": "DL2-12172.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 0.001,
+      "unit_final": "wt.%",
+      "max_final": 0.001,
+      "unit_conversion": "ppm -> wt.% (x0.0001)"
     },
     "saturates": {
       "value": 99,
@@ -49,7 +53,12 @@
         "file": "DL2-12172.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 99,
+      "unit_final": "%",
+      "integration_flags": [
+        "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+      ]
     },
     "aromatics": {
       "value": null,
@@ -67,7 +76,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     },
     "cloud_point": {
       "value": null,
@@ -85,7 +96,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "°C"
     },
     "wax_content": {
       "value": null,
@@ -103,7 +116,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     }
   },
   "open_questions": [

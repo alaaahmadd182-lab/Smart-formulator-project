@@ -26,7 +26,8 @@
         "method": null,
         "min": null,
         "max": null,
-        "qualifier": null
+        "qualifier": null,
+        "value_final": "Group III"
       },
       "chemistry": {
         "value": "Catalytically hydroisomerized and dewaxed; hydrogenated, highly isoparaffinic hydrocarbons",
@@ -41,7 +42,8 @@
         "method": null,
         "min": null,
         "max": null,
-        "qualifier": null
+        "qualifier": null,
+        "value_final": "Catalytically hydroisomerized and dewaxed; hydrogenated, highly isoparaffinic hydrocarbons"
       }
     },
     "kv40": {
@@ -60,7 +62,9 @@
         "file": "DL2-10040.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 49,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 7.9,
@@ -78,7 +82,11 @@
         "file": "DL2-10040.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 7.9,
+      "unit_final": "cSt",
+      "min_final": 7.8,
+      "max_final": 8.2
     },
     "viscosity_index": {
       "value": 130,
@@ -96,7 +104,9 @@
         "file": "DL2-10040.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 130,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 847,
@@ -114,7 +124,10 @@
         "file": "DL2-10040.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 0.847,
+      "unit_final": "g/cm³",
+      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)"
     },
     "ccs": [
       {
@@ -133,7 +146,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

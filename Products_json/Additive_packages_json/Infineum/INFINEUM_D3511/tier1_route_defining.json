@@ -26,7 +26,8 @@
           "page": 1,
           "revision_date": "2023-09-20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "performance additive package"
       },
       "intended_service": {
         "unit": null,
@@ -37,7 +38,8 @@
           "page": 1,
           "revision_date": "2023-09-20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "Infineum D3511 is a performance additive package for formulating premium quality diesel engine oils."
       }
     },
     "performance_claims": [
@@ -54,7 +56,8 @@
           "page": 1,
           "revision_date": "2023-09-20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -69,7 +72,8 @@
           "page": 1,
           "revision_date": "2023-09-20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -83,7 +87,8 @@
           "page": 1,
           "revision_date": "2023-09-20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -95,7 +100,8 @@
           "page": 1,
           "revision_date": "2023-09-20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -107,7 +113,8 @@
           "page": 1,
           "revision_date": "2023-09-20"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -126,7 +133,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for API CK-4/FA-4 packages), not from the product datasheet. Packages claiming API CK-4/FA-4 performance are typically designed for Group II/III base oils. Rule of thumb only, not a supplier statement or an API 1509 restriction. Datasheet itself says 'Claims are base stock and viscosity grade specific', so confirm with Infineum."
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for API CK-4/FA-4 packages), not from the product datasheet. Packages claiming API CK-4/FA-4 performance are typically designed for Group II/III base oils. Rule of thumb only, not a supplier statement or an API 1509 restriction. Datasheet itself says 'Claims are base stock and viscosity grade specific', so confirm with Infineum.",
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -142,7 +150,8 @@
         "page": 1,
         "revision_date": "2023-09-20"
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -165,7 +174,9 @@
             "page": 1,
             "revision_date": "2023-09-20"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 13.2,
+          "unit_final": "wt.%"
         }
       },
       {
@@ -188,7 +199,9 @@
             "page": 1,
             "revision_date": "2023-09-20"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 13.2,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -213,7 +226,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -250,7 +265,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -260,7 +276,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },
