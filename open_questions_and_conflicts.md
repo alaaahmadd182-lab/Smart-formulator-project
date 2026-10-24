@@ -983,13 +983,13 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 
 ## 145. FORMOSA_150N_GII_PLUS
 - (tier1) Supplier group II+ is a commercial subclass, not a separate API group.
-- (tier1) Density reported as relative density, not mass density; preserve original units.
+- (tier1) Relative density 'Relative Density (at 15 C ): 0.85' (DL2-10011.pdf p.3) is recorded in the optional specific_gravity property; no absolute density is printed, so density is Missing (2026-10-24). [History] The density field previously held this relative density.
 - (tier1) KV40 reported only in SDS, not specification.
 - **Conflict (tier2)** [conflicting values between different documents] `flash_point`: {"source_a": {"file": "DL2-10001.pdf", "page": 1, "value": "minimum 210 C"}, "source_b": {"file": "DL2-10011.pdf", "page": 3, "value": ">230 C"}, "note": "SDS and specification use different threshold statements; preserve both without assuming equivalence."}
 - (tier2) SDS flash point >230 C and specification minimum 210 C differ in stated thresholds; not necessarily contradictory.
 
 ## 146. FORMOSA_500N_GII
-- (tier1) Density reported as relative density, not mass density; preserve original units.
+- (tier1) Relative density 'Relative Density (at 15 C ): 0.87' (DL2-10017.pdf p.3) is recorded in the optional specific_gravity property; no absolute density is printed, so density is Missing (2026-10-24). [History] The density field previously held this relative density.
 - (tier1) KV40 reported only in SDS, not specification.
 
 ## 147. NESTE_NEXBASE_3020
