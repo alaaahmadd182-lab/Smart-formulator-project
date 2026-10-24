@@ -12,6 +12,7 @@ changed.
 | `base_oil_ingestion_queue.md` | The 9 base oils that had no JSON but an archived supplier datasheet, with their ingestion status |
 | `identity_review.md` | Uncertain identities, the possible duplicate S-OIL JSONs and supplier-name issues (nothing merged) |
 | `richful_feed_leads.csv` | 103 Richful product-feed records for 52 materials without JSON; unverified research leads, not approved sources |
+| `deferred_products.csv`, `deferred_products.md` | The 190 materials without JSON (no datasheet of their own), with the reason each is deferred; no placeholder JSON was created |
 
 ## Counts
 
