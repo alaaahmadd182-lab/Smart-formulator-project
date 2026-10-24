@@ -20,7 +20,8 @@
           "file": "DL2-12124.pdf",
           "page": 1,
           "revision_date": null
-        }
+        },
+        "value_final": "Group I"
       },
       "chemistry": {
         "value": "Mineral base oil",
@@ -29,7 +30,8 @@
           "file": "DL2-12124.pdf",
           "page": 1,
           "revision_date": null
-        }
+        },
+        "value_final": "Mineral base oil"
       }
     },
     "kv40": {
@@ -48,7 +50,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": [
@@ -69,7 +73,12 @@
         "file": "DL2-12124.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": [
+        13,
+        16.5
+      ],
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 85,
@@ -87,7 +96,9 @@
         "file": "DL2-12124.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 85,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -105,7 +116,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -124,7 +137,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

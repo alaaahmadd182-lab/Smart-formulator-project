@@ -38,8 +38,12 @@
             "file": null,
             "page": null,
             "revision_date": null
-          }
-        }
+          },
+          "value_final": null,
+          "unit_final": "Pa"
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ],
     "noack_volatility": {
@@ -59,7 +63,9 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
     "pour_point": {
       "value": -15.0,
@@ -78,7 +84,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": -15,
+      "unit_final": "°C"
     },
     "flash_point": {
       "value": 208,
@@ -97,7 +105,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": 208,
+      "unit_final": "°C"
     }
   },
   "open_questions": [

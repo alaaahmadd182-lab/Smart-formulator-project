@@ -26,7 +26,8 @@
           "page": 1,
           "revision_date": "2019-11-04"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "Heavy Duty Diesel Lubricant Package"
       },
       "intended_service": {
         "unit": null,
@@ -37,7 +38,8 @@
           "page": 1,
           "revision_date": "2019-11-04"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "Petrochemical industry: Heavy Duty Diesel Lubricant Package"
       }
     },
     "performance_claims": [
@@ -54,7 +56,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -68,7 +71,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -92,7 +96,8 @@
         "retrieved": "2026-10-18",
         "origin": "public web (supplier product data sheet), not the archived datasheet"
       },
-      "notes": "Sourced from Afton's public HiTEC 8788B product data sheet (search-engine excerpt only; the archive has the SDS only), not from the archived product datasheet. Afton's public HiTEC 8788B PDS: 'It uses a simple formulation style, using conventional OCP Viscosity Modifier (VM) and a mix of Group I and Group III base stocks.' Text taken from the search-engine excerpt of that PDF; the PDF itself returned HTTP 403 and was not opened."
+      "notes": "Sourced from Afton's public HiTEC 8788B product data sheet (search-engine excerpt only; the archive has the SDS only), not from the archived product datasheet. Afton's public HiTEC 8788B PDS: 'It uses a simple formulation style, using conventional OCP Viscosity Modifier (VM) and a mix of Group I and Group III base stocks.' Text taken from the search-engine excerpt of that PDF; the PDF itself returned HTTP 403 and was not opened.",
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -106,7 +111,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -129,7 +135,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -154,7 +162,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -191,7 +201,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -201,7 +212,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },

@@ -12,7 +12,7 @@
     "revision_date": "2015-07"
   },
   "fields": {
-    "api_group_chemistry": {     
+    "api_group_chemistry": {
       "api_group": {
         "value": "Group II",
         "status": "Reported",
@@ -27,7 +27,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": "Grade-specific Group II classification verified in Petro-Canada's official brochure. Group II+ is a broader family designation and is not specifically assigned to L60."
+        "calculation_note": "Grade-specific Group II classification verified in Petro-Canada's official brochure. Group II+ is a broader family designation and is not specifically assigned to L60.",
+        "value_final": "Group II"
       },
       "chemistry": {
         "value": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons",
@@ -43,7 +44,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons"
       }
     },
     "kv40": {
@@ -62,7 +64,9 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 10.2,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 2.4,
@@ -80,7 +84,9 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 2.4,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 87,
@@ -98,7 +104,9 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 87,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.85,
@@ -116,9 +124,10 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 0.85,
+      "unit_final": "g/cm³"
     },
-    
     "ccs": [
       {
         "value": null,
@@ -136,7 +145,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

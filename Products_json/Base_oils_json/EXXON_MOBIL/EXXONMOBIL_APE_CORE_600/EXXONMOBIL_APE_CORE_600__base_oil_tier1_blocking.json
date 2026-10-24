@@ -20,7 +20,8 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null
       },
       "chemistry": {
         "value": null,
@@ -29,7 +30,8 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null
       }
     },
     "kv40": {
@@ -48,7 +50,11 @@
         "file": "DL2-13265.pdf",
         "page": 1,
         "revision_date": "2020-06-17"
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt",
+      "min_final": 109,
+      "max_final": 116
     },
     "kv100": {
       "value": null,
@@ -66,7 +72,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 95,
@@ -84,7 +92,9 @@
         "file": "DL2-13265.pdf",
         "page": 1,
         "revision_date": "2020-06-17"
-      }
+      },
+      "value_final": 95,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -102,7 +112,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -121,7 +133,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

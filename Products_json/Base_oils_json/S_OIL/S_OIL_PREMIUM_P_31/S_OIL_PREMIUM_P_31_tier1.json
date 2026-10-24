@@ -29,8 +29,9 @@
         "qualifier": null,
         "calculation_note": null,
         "flash_method": null,
-        "test_temperature_c": null
-      },     
+        "test_temperature_c": null,
+        "value_final": null
+      },
       "chemistry": {
         "value": "Petroleum-derived base oil produced by hydrotreating and MEK dewaxing",
         "status": "Reported",
@@ -47,7 +48,8 @@
         "qualifier": null,
         "calculation_note": "Family-level process description; no grade-specific chemical composition or CAS number established.",
         "flash_method": null,
-        "test_temperature_c": null
+        "test_temperature_c": null,
+        "value_final": "Petroleum-derived base oil produced by hydrotreating and MEK dewaxing"
       }
     },
     "kv40": {
@@ -67,7 +69,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 30.14,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 5.189,
@@ -86,7 +90,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 5.189,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 101,
@@ -105,7 +111,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 101,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -124,9 +132,10 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
-    
     "ccs": [
       {
         "value": null,
@@ -144,10 +153,11 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
-
   },
   "open_questions": [
     "No explicit API Group classification has been verified for historical S-OIL P-31 (Premium 150N).",

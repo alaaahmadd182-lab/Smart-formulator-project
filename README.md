@@ -10,7 +10,7 @@ additive components) following `Smart_Formulator_Minimum_Property_Set.pdf`, whic
 | `json_templates/` | Task 2 – one JSON template per material class and tier |
 | `Products_json/` | Task 3 – one folder per product, one JSON file per tier |
 | `build_coverage_matrix.py`, `Coverage_Matrix.xlsx` | Task 4 – coverage script and its output |
-| `open_questions_and_conflicts.md` | Task 5 – conflicts and open questions |
+| `open_questions_and_conflicts.md` | Task 5 – conflicts and open questions (`python build_conflicts_report.py`) |
 
 ## Building the coverage matrix (Task 4)
 
@@ -30,7 +30,9 @@ The script only reads the JSON files; it never changes them. The workbook contai
 - **Base Oils / Additive Packages / Additive Components** – one row per product, one column per
   property. Each cell is `reported`, `calculated`, `missing` or `not_applicable`.
 - **Validation Issues** – structural problems and mixed nested statuses.
-- **Status Detail** – every nested status in the JSON, with its original spelling, the source file and the page.
+- **Status Detail** – every nested status in the JSON, with its value, unit, source file and page. Where
+  `integrate_products.py` has added `value_final` / `unit_final` / `status_final` / `source_final`, those are shown;
+  otherwise the original keys. The note column carries any `resolution` and `integration_flags`.
 - **Traceability Audit** (informational) – reported values with no source file, with an
   external URL instead of an archive file, with no page number, or based on general knowledge.
 

@@ -12,7 +12,7 @@
     "revision_date": "2015-07"
   },
   "fields": {
-    "api_group_chemistry": {  
+    "api_group_chemistry": {
       "api_group": {
         "value": "Group II",
         "status": "Reported",
@@ -29,7 +29,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "Group II"
       },
       "chemistry": {
         "value": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons",
@@ -45,7 +46,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons"
       }
     },
     "kv40": {
@@ -64,7 +66,9 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 3.4,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 1.3,
@@ -82,7 +86,9 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 1.3,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": null,
@@ -100,7 +106,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.85,
@@ -118,9 +126,10 @@
         "file": "DL2-10020.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 0.85,
+      "unit_final": "g/cm³"
     },
-    
     "ccs": [
       {
         "value": 1300,
@@ -138,7 +147,9 @@
           "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
           "page": null,
           "revision_date": "2023-03"
-        }
+        },
+        "value_final": 1300,
+        "unit_final": "mPa·s"
       },
       {
         "value": 1876,
@@ -156,7 +167,9 @@
           "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
           "page": null,
           "revision_date": "2023-03"
-        }
+        },
+        "value_final": 1876,
+        "unit_final": "mPa·s"
       },
       {
         "value": 2390,
@@ -174,10 +187,11 @@
           "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
           "page": null,
           "revision_date": "2023-03"
-        }
+        },
+        "value_final": 2390,
+        "unit_final": "mPa·s"
       }
     ]
-
   },
   "open_questions": [
     "API Group II confirmed from an additional official Petro-Canada manufacturer brochure; the original DL2-10020.pdf did not explicitly assign a grade-specific group.",

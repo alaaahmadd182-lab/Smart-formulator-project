@@ -12,7 +12,6 @@
     "revision_date": null
   },
   "fields": {
-    
     "mrv": [
       {
         "value": null,
@@ -31,7 +30,9 @@
           "page": null,
           "revision_date": null
         },
-        "flash_method": null
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ],
     "noack_volatility": {
@@ -51,7 +52,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 14.5,
+      "unit_final": "wt.%"
     },
     "pour_point": {
       "value": -20,
@@ -70,7 +73,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": -20,
+      "unit_final": "°C"
     },
     "flash_point": {
       "value": 228,
@@ -89,10 +94,11 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": 228,
+      "unit_final": "°C"
     }
   },
-
   "open_questions": [
     "SDS DL2-15139.pdf, revised 2015-06-10, reports 'Distillates (petroleum), hydrotreated light paraffinic' with CAS 64742-54-7. The printed description and CAS number appear inconsistent and require supplier clarification.",
     "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",

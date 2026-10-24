@@ -28,7 +28,9 @@
         "file": "DL2-11510.pdf",
         "page": 2,
         "revision_date": "2016-11-01"
-      }
+      },
+      "value_final": 0.06,
+      "unit_final": "wt.%"
     },
     "saturates": {
       "value": null,
@@ -46,7 +48,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     },
     "aromatics": {
       "value": null,
@@ -64,7 +68,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     },
     "cloud_point": {
       "value": null,
@@ -82,7 +88,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "°C"
     },
     "wax_content": {
       "value": null,
@@ -100,7 +108,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     }
   },
   "open_questions": [
@@ -114,7 +124,9 @@
       "value_a": "32 cSt (typical)",
       "source_b": "DL2-13444.pdf p.6 (2020-05-23)",
       "value_b": "31 cSt (SDS)",
-      "resolution": "Retained supplier PDS typical value; SDS discrepancy flagged."
+      "resolution": "Retained supplier PDS typical value; SDS discrepancy flagged.",
+      "resolved": true,
+      "final_resolution": "TDS preferred over SDS; see tier1 fields.kv40.resolution."
     },
     {
       "property": "flash_point",
@@ -122,7 +134,9 @@
       "value_a": "176°C typical, Pensky-Martens (ASTM D93)",
       "source_b": "DL2-13444.pdf p.6 (2020-05-23)",
       "value_b": ">180°C closed cup Pensky-Martens",
-      "resolution": "Not numerically compatible; PDS typical retained and SDS limit flagged for review."
+      "resolution": "Not numerically compatible; PDS typical retained and SDS limit flagged for review.",
+      "resolved": true,
+      "final_resolution": "TDS preferred over SDS; see tier2 fields.flash_point.resolution."
     }
   ]
 }

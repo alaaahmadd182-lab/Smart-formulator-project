@@ -25,7 +25,8 @@
         "value_kind": null,
         "method": null,
         "min": null,
-        "max": null
+        "max": null,
+        "value_final": null
       },
       "chemistry": {
         "value": "Severely hydrotreated mineral oil (naphthenic ink oil)",
@@ -39,7 +40,8 @@
         "printed_text": "Naphthenic Ink Oil Marketing Specification; severely hydrotreated mineral oil",
         "method": null,
         "min": null,
-        "max": null
+        "max": null,
+        "value_final": "Severely hydrotreated mineral oil (naphthenic ink oil)"
       }
     },
     "kv40": {
@@ -58,7 +60,9 @@
         "file": "DL2-13168.pdf",
         "page": 1,
         "revision_date": "2018-05-10"
-      }
+      },
+      "value_final": 3,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 1.2,
@@ -76,7 +80,9 @@
         "file": "DL2-13168.pdf",
         "page": 1,
         "revision_date": "2018-05-10"
-      }
+      },
+      "value_final": 1.2,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": null,
@@ -94,7 +100,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -112,7 +120,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "g/cm\u00b3"
     },
     "ccs": [
       {
@@ -131,7 +141,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa\u00b7s"
       }
     ]
   },

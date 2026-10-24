@@ -44,7 +44,16 @@
         "retrieved": "2026-10-17",
         "origin": "public web (supplier website), not the archived datasheet"
       },
-      "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=130), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=130 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=130), retrieved 2026-10-17. Archive conflict DL2-15456.pdf (168-198, 185) vs DL2-14746.pdf (>=180), both undated, left this null; the supplier's current page prints the DL2-15456.pdf value. Conflict record kept unchanged."
+      "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=130), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=130 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=130), retrieved 2026-10-17. Archive conflict DL2-15456.pdf (168-198, 185) vs DL2-14746.pdf (>=180), both undated, left this null; the supplier's current page prints the DL2-15456.pdf value. Conflict record kept unchanged.",
+      "value_final": 185,
+      "unit_final": "mg KOH/g",
+      "status_final": "Reported",
+      "source_final": {
+        "file": "DL2-15456.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "resolution": "Measured value beats a bound: TDS DL2-15456.pdf typical 185 mg KOH/g chosen over TDS DL2-14746.pdf '≥180' (a minimum, not a measurement)."
     },
     "sulfated_ash": {
       "value": 25.89,
@@ -63,7 +72,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet.",
+      "value_final": 25.89,
+      "unit_final": "wt.%"
     },
     "elements": {
       "Ca": {
@@ -83,7 +94,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 6.8,
+        "unit_final": "wt.%",
+        "min_final": 5.98,
+        "max_final": 7.3
       },
       "Mg": {
         "value": null,
@@ -102,7 +117,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Zn": {
         "value": 2.23,
@@ -121,7 +138,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 2.23,
+        "unit_final": "wt.%",
+        "min_final": 1.97,
+        "max_final": 2.53
       },
       "P": {
         "value": 1.96,
@@ -140,7 +161,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.96,
+        "unit_final": "wt.%",
+        "min_final": 1.72,
+        "max_final": 2.1
       },
       "B": {
         "value": null,
@@ -159,7 +184,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Mo": {
         "value": null,
@@ -178,7 +205,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "N": {
         "value": 0.41,
@@ -197,7 +226,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.41,
+        "unit_final": "wt.%",
+        "min_final": 0.34,
+        "max_final": 0.46
       },
       "S": {
         "value": null,
@@ -216,7 +249,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       }
     },
     "kv40": {
@@ -236,7 +271,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 72,
@@ -255,7 +292,9 @@
         "page": 5,
         "revision_date": "2025-04-21"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 72,
+      "unit_final": "cSt"
     },
     "density": {
       "value": 1.06,
@@ -274,7 +313,12 @@
         "page": 5,
         "revision_date": "2025-04-21"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 1.06,
+      "unit_final": "g/cm³",
+      "integration_flags": [
+        "density is at 20 °C, not 15 °C; not temperature-corrected"
+      ]
     },
     "flash_point": {
       "value": 180,
@@ -294,7 +338,10 @@
         "revision_date": "2025-04-21"
       },
       "flash_method": "COC",
-      "notes": null
+      "notes": null,
+      "value_final": 180,
+      "unit_final": "°C",
+      "min_final": 180
     },
     "pour_point": {
       "value": null,
@@ -313,7 +360,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "°C"
     }
   },
   "open_questions": [
@@ -343,7 +392,9 @@
           "revision_date": null
         }
       ],
-      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.",
+      "resolved": true,
+      "final_resolution": "See fields.tbn.resolution."
     }
   ],
   "external_fill_notes": [

@@ -41,7 +41,11 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": 109,
+      "unit_final": "mg KOH/g",
+      "min_final": 98,
+      "max_final": 120
     },
     "sulfated_ash": {
       "value": 13.56,
@@ -60,7 +64,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet."
+      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet.",
+      "value_final": 13.56,
+      "unit_final": "wt.%"
     },
     "elements": {
       "Ca": {
@@ -80,7 +86,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 3.44,
+        "unit_final": "wt.%",
+        "min_final": 3.1,
+        "max_final": 3.78
       },
       "Mg": {
         "value": null,
@@ -99,7 +109,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Zn": {
         "value": 1.5,
@@ -118,7 +130,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.5,
+        "unit_final": "wt.%",
+        "min_final": 1.35,
+        "max_final": 1.65
       },
       "P": {
         "value": 1.34,
@@ -137,7 +153,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 1.34,
+        "unit_final": "wt.%",
+        "min_final": 1.21,
+        "max_final": 1.47
       },
       "B": {
         "value": null,
@@ -156,7 +176,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "Mo": {
         "value": null,
@@ -175,7 +197,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "N": {
         "value": 0.76,
@@ -194,7 +218,11 @@
           "page": 1,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": 0.76,
+        "unit_final": "wt.%",
+        "min_final": 0.64,
+        "max_final": 0.88
       },
       "S": {
         "value": null,
@@ -213,7 +241,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       }
     },
     "kv40": {
@@ -233,7 +263,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 140,
@@ -252,7 +284,9 @@
         "page": 5,
         "revision_date": "2022-03-18"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 140,
+      "unit_final": "cSt"
     },
     "density": {
       "value": 1.0,
@@ -271,7 +305,12 @@
         "page": 5,
         "revision_date": "2022-03-18"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 1,
+      "unit_final": "g/cm³",
+      "integration_flags": [
+        "density is at 20 °C, not 15 °C; not temperature-corrected"
+      ]
     },
     "flash_point": {
       "value": 180,
@@ -291,7 +330,10 @@
         "revision_date": "2022-03-18"
       },
       "flash_method": null,
-      "notes": "test method not printed on datasheet"
+      "notes": "test method not printed on datasheet",
+      "value_final": 180,
+      "unit_final": "°C",
+      "min_final": 180
     },
     "pour_point": {
       "value": null,
@@ -310,7 +352,9 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "°C"
     }
   },
   "open_questions": [

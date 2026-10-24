@@ -4,6 +4,8 @@
 Reads every product JSON file (read-only) and writes one Excel workbook:
 Overview, one sheet per material class, Validation Issues, Status Detail and
 Traceability Audit. Cell classification follows the original Task 4 rules.
+Integrated data (integrate_products.py) is used where present: value_final / unit_final /
+source_final / status_final, falling back to value / unit / source / status.
 
 Exit codes: 0 = passed, output written; 1 = usage / file error;
 2 = validation failed, diagnostic workbook written instead of the output.
@@ -18,7 +20,7 @@ CLASSES = {'base_oil': 'Base Oils', 'additive_package': 'Additive Packages', 'ad
 STATUS = {'reported': 'reported', 'calculated': 'calculated', 'missing': 'missing', 'not required': 'not_applicable',
           'not_applicable': 'not_applicable', 'not applicable': 'not_applicable', 'n/a': 'not_applicable'}
 PRIORITY = ('reported', 'calculated', 'missing', 'not_applicable')
-SKIP_KEYS = ('source', 'notes', 'calculation_note', 'method', 'printed_text', 'external_fill_notes')
+SKIP_KEYS = ('source', 'source_final', 'notes', 'calculation_note', 'method', 'printed_text', 'external_fill_notes')
 VALUE_KEYS = ('value', 'min', 'max', 'wt_pct', 'type', 'form')
 EXPECTED_TIERS = {'base_oil': {1, 2, 3}, 'additive_package': {1, 2}, 'additive_component': {1}}
 UNRECOGNIZED = 'unrecognized: '
@@ -34,23 +36,38 @@ WHITE_BOLD = Font(bold=True, color='FFFFFF')
 records = {}; issues = []; statuses = collections.Counter(); details = []; trace = []; json_count = 0
 
 
+def final(node, key):
+    """The integrated <key>_final when present, otherwise the original <key>."""
+    return node.get(f'{key}_final', node.get(key)) if isinstance(node, dict) else None
+
+
+def raw_status(node):
+    return str(final(node, 'status')).strip()
+
+
+def final_source(node):
+    """(file or URL, page) of the final value; several sources (an average) are joined with '; '."""
+    src = final(node, 'source')
+    srcs = [s for s in (src if isinstance(src, list) else [src]) if isinstance(s, dict)]
+    return ('; '.join(str(s.get('file') or s.get('url')) for s in srcs if s.get('file') or s.get('url')) or None,
+            '; '.join(str(s.get('page')) for s in srcs if s.get('page') not in (None, '')) or None)
+
+
 def detail(ctx, path, raw, norm, counted, node=None, note=''):
     """Record one nested property for the Status Detail sheet."""
-    src = node.get('source') if isinstance(node, dict) else None
-    src = src if isinstance(src, dict) else {}
-    value = node.get('value') if isinstance(node, dict) else None
+    location, page = final_source(node) if isinstance(node, dict) else (None, None)
+    extra = [node.get('resolution'), '; '.join(node.get('integration_flags') or [])] if isinstance(node, dict) else []
+    note = ' | '.join(x for x in [note] + extra if x)
     details.append([ctx['class'], ctx['record_id'], ctx['tier'], ctx['file'], ctx['field'], path or '(property)',
-                    raw, norm, 'yes' if counted else 'no', None, cell_text(value),
-                    cell_text(src.get('file') or src.get('url')), cell_text(src.get('page')), note])
+                    raw, norm, 'yes' if counted else 'no', None, cell_text(final(node, 'value')),
+                    cell_text(final(node, 'unit')), cell_text(location), cell_text(page), note])
 
 
 def audit_trace(ctx, path, node):
     """Traceability findings for a Reported value; informational only, nothing is changed."""
-    src = node.get('source') if isinstance(node.get('source'), dict) else {}
-    file, url, page = src.get('file'), src.get('url'), src.get('page')
-    location = file or url
-    base = [ctx['class'], ctx['record_id'], ctx['file'], ctx['field'], path or '(property)', node.get('status'),
-            cell_text(node.get('value')), cell_text(node.get('basis')), cell_text(location), cell_text(page)]
+    location, page = final_source(node)
+    base = [ctx['class'], ctx['record_id'], ctx['file'], ctx['field'], path or '(property)', raw_status(node),
+            cell_text(final(node, 'value')), cell_text(node.get('basis')), cell_text(location), cell_text(page)]
     if node.get('basis') == 'general_knowledge':
         trace.append(['Unsupported reported value (basis: general_knowledge)'] + base
                      + ['Value is not printed in any source document; status left unchanged pending supplier confirmation.'])
@@ -67,7 +84,7 @@ def scan_nested(x, path, ctx, top=True):
     """List status nodes nested inside a status-bearing node; they do not count toward the cell."""
     if isinstance(x, dict):
         if not top and 'status' in x:
-            raw = str(x['status']).strip(); norm = STATUS.get(raw.lower(), UNRECOGNIZED + raw)
+            raw = raw_status(x); norm = STATUS.get(raw.lower(), UNRECOGNIZED + raw)
             detail(ctx, path, raw, norm, False, x, 'Nested inside a status-bearing property (legacy rule: not counted in cell)')
             if norm.startswith(UNRECOGNIZED): issues.append((ctx['issue_path'] + path, 'Unknown status', raw))
             if norm == 'reported': audit_trace(ctx, path, x)
@@ -82,7 +99,7 @@ def leaf_status(x, path, ctx):
     issue_path = ctx['issue_path'] + path
     if isinstance(x, dict):
         if 'status' in x:
-            raw = str(x['status']).strip(); key = raw.lower(); statuses[raw] += 1
+            raw = raw_status(x); key = raw.lower(); statuses[raw] += 1
             norm = STATUS.get(key)
             if norm is None:
                 issues.append((issue_path, 'Unknown status', raw)); norm = UNRECOGNIZED + raw
@@ -241,9 +258,10 @@ def build(input_dir):
 
     sd = wb.create_sheet('Status Detail')
     write_rows(sd, [['Material class', 'Record ID', 'Tier', 'JSON file', 'Property (matrix column)', 'Sub-path',
-                     'Original status', 'Normalized status', 'Counted in matrix cell', 'Matrix cell status', 'Value',
-                     'Source file / URL', 'Source page', 'Note']] + details)
-    header(sd, 1, 14); widths(sd, [18, 26, 6, 60, 28, 34, 16, 18, 12, 18, 30, 30, 10, 50]); sd.freeze_panes = 'A2'
+                     'Status (final if integrated)', 'Normalized status', 'Counted in matrix cell', 'Matrix cell status',
+                     'Value (value_final, else value)', 'Unit (unit_final, else unit)', 'Source file / URL',
+                     'Source page', 'Note / resolution / integration flags']] + details)
+    header(sd, 1, 15); widths(sd, [18, 26, 6, 60, 28, 34, 16, 18, 12, 18, 30, 14, 30, 10, 60]); sd.freeze_panes = 'A2'
     sd.auto_filter.ref = sd.dimensions
 
     ta = wb.create_sheet('Traceability Audit')

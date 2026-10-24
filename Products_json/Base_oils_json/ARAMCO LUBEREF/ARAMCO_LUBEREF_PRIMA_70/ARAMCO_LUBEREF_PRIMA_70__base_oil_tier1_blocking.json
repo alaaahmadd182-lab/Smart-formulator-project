@@ -28,19 +28,21 @@
         "value_kind": "single",
         "printed_text": "LUBEREF GII product/specification heading",
         "method": null,
-        "basis": "Supplier document heading"
+        "basis": "Supplier document heading",
+        "value_final": "Group II"
       },
       "chemistry": {
-      "value": "Distillates, petroleum, hydrotreated light paraffinic",
-      "status": "Reported",
-      "basis": "Supplier safety data sheet, Section 3",
-      "notes": "Composition explicitly reported in DL2-15448.pdf, page 2, Section 3. CAS 64742-55-8, concentration 100%, DMSO <3%.",
-      "source": {
-        "file": "DL2-15448.pdf",
-        "page": 2,
-        "revision_date": "2021-05-05"
+        "value": "Distillates, petroleum, hydrotreated light paraffinic",
+        "status": "Reported",
+        "basis": "Supplier safety data sheet, Section 3",
+        "notes": "Composition explicitly reported in DL2-15448.pdf, page 2, Section 3. CAS 64742-55-8, concentration 100%, DMSO <3%.",
+        "source": {
+          "file": "DL2-15448.pdf",
+          "page": 2,
+          "revision_date": "2021-05-05"
+        },
+        "value_final": "Distillates, petroleum, hydrotreated light paraffinic"
       }
-    }
     },
     "kv40": {
       "value": null,
@@ -58,7 +60,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": null,
@@ -76,7 +80,11 @@
         "file": "DL2-12172.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt",
+      "min_final": 2.8,
+      "max_final": 3.3
     },
     "viscosity_index": {
       "value": 76,
@@ -94,7 +102,9 @@
         "file": "DL2-12172.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 76,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -112,7 +122,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -131,12 +143,14 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },
   "open_questions": [
-  {
+    {
       "question": "KV40, density and CCS are not reported in the reviewed source specifications.",
       "fields": [
         "kv40",

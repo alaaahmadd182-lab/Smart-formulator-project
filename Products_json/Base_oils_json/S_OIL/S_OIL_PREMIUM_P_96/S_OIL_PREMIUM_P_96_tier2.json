@@ -12,7 +12,6 @@
     "revision_date": null
   },
   "fields": {
-    
     "mrv": [
       {
         "value": null,
@@ -31,7 +30,9 @@
           "page": null,
           "revision_date": null
         },
-        "flash_method": null
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ],
     "noack_volatility": {
@@ -51,7 +52,9 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
     "pour_point": {
       "value": -12.5,
@@ -70,7 +73,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": -12.5,
+      "unit_final": "°C"
     },
     "flash_point": {
       "value": 242,
@@ -89,10 +94,11 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": 242,
+      "unit_final": "°C"
     }
   },
-  
   "open_questions": [
     "API Group for historical S-OIL P-96 (Premium 500N) remains unverified.",
     "Chemistry identified in S-OIL Premium-96 SDS revised 2015-06-10: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7.",

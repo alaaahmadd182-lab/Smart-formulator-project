@@ -27,19 +27,21 @@
         "value_kind": "single",
         "printed_text": "LUBEREF GII product/specification heading",
         "method": null,
-        "basis": "Supplier document heading"
+        "basis": "Supplier document heading",
+        "value_final": "Group II"
       },
       "chemistry": {
-      "value": "Distillates, petroleum, hydrotreated heavy paraffinic",
-      "status": "Reported",
-      "basis": "External official supplier safety data sheet, Section 3",
-      "notes": "Not stated in supplied DL2-12172.pdf. Obtained from the official Luberef SDS for aramcoPRIMA 230, page 2, Section 3. CAS 64742-54-7, concentration 100%, DMSO <3%.",
-      "source": {
-        "file": "https://luberefapp.s3-accelerate.amazonaws.com/documents/prima230-1664376579.pdf",
-        "page": 2,
-        "revision_date": "2020-08-12"
+        "value": "Distillates, petroleum, hydrotreated heavy paraffinic",
+        "status": "Reported",
+        "basis": "External official supplier safety data sheet, Section 3",
+        "notes": "Not stated in supplied DL2-12172.pdf. Obtained from the official Luberef SDS for aramcoPRIMA 230, page 2, Section 3. CAS 64742-54-7, concentration 100%, DMSO <3%.",
+        "source": {
+          "file": "https://luberefapp.s3-accelerate.amazonaws.com/documents/prima230-1664376579.pdf",
+          "page": 2,
+          "revision_date": "2020-08-12"
+        },
+        "value_final": "Distillates, petroleum, hydrotreated heavy paraffinic"
       }
-    }
     },
     "kv40": {
       "value": null,
@@ -57,7 +59,11 @@
         "file": "DL2-12172.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt",
+      "min_final": 42.5,
+      "max_final": 46
     },
     "kv100": {
       "value": 6.65,
@@ -76,7 +82,9 @@
         "file": "https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramcoprima/aramcoprima_2021_december/aramcoprima-230_yanbu_ar.pdf?hash=35009BCB03F8661F4C2220E5BC82ED39EAFE713F&la=ar",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 6.65,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 105,
@@ -94,7 +102,9 @@
         "file": "DL2-12172.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 105,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.863,
@@ -112,7 +122,9 @@
         "file": "DL2-12172.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 0.863,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -132,7 +144,9 @@
           "file": "https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramcoprima/aramcoprima_2021_december/aramcoprima-230_yanbu_ar.pdf?hash=35009BCB03F8661F4C2220E5BC82ED39EAFE713F&la=ar",
           "page": 1,
           "revision_date": null
-        }
+        },
+        "value_final": 5900,
+        "unit_final": "mPa·s"
       }
     ]
   },

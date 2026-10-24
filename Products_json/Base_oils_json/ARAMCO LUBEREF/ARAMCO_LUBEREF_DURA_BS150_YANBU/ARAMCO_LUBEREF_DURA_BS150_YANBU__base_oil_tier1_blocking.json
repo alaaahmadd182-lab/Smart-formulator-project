@@ -28,19 +28,21 @@
         "value_kind": "single",
         "printed_text": "LUBEREF GI product/specification heading",
         "method": null,
-        "basis": "Supplier document heading"
+        "basis": "Supplier document heading",
+        "value_final": "Group I"
       },
       "chemistry": {
-      "value": "Paraffin oils (petroleum), catalytic dewaxed heavy",
-      "status": "Reported",
-      "basis": "Supplier safety data sheet, Section 3",
-      "notes": "Composition explicitly reported in DL2-12648.pdf, page 2, Section 3. CAS 64742-70-7, concentration 100%, DMSO <3%.",
-      "source": {
-        "file": "DL2-12648.pdf",
-        "page": 2,
-        "revision_date": "2019-08-05"
+        "value": "Paraffin oils (petroleum), catalytic dewaxed heavy",
+        "status": "Reported",
+        "basis": "Supplier safety data sheet, Section 3",
+        "notes": "Composition explicitly reported in DL2-12648.pdf, page 2, Section 3. CAS 64742-70-7, concentration 100%, DMSO <3%.",
+        "source": {
+          "file": "DL2-12648.pdf",
+          "page": 2,
+          "revision_date": "2019-08-05"
+        },
+        "value_final": "Paraffin oils (petroleum), catalytic dewaxed heavy"
       }
-    }
     },
     "kv40": {
       "value": null,
@@ -58,7 +60,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 31.32,
@@ -76,7 +80,9 @@
         "file": "DL2-13944.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 31.32,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 95,
@@ -94,7 +100,9 @@
         "file": "DL2-13944.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 95,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.894,
@@ -112,7 +120,12 @@
         "file": "DL2-13944.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 0.894,
+      "unit_final": "g/cm³",
+      "integration_flags": [
+        "density is at 15.6 °C, not 15 °C; not temperature-corrected"
+      ]
     },
     "ccs": [
       {
@@ -131,12 +144,14 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },
   "open_questions": [
-  {
+    {
       "question": "KV40 and CCS are not reported in the reviewed source specifications.",
       "fields": [
         "kv40",
@@ -152,7 +167,9 @@
   "conflicts": [
     {
       "field": "density",
-      "note": "The 0.894 kg/L typical density is at 15.6°C (DL2-13944), not 15°C; do not treat it as a 15°C measurement."
+      "note": "The 0.894 kg/L typical density is at 15.6°C (DL2-13944), not 15°C; do not treat it as a 15°C measurement.",
+      "resolved": true,
+      "final_resolution": "No value conflict: a note that the density is at 15.6 °C, not 15 °C."
     }
   ],
   "source_documents": [

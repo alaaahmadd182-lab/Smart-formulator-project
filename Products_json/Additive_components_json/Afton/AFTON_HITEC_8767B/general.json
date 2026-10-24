@@ -27,7 +27,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       "secondary": {
         "unit": null,
@@ -38,7 +39,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     },
     "chemical_family": {
@@ -50,7 +52,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "active_content": {
       "value": null,
@@ -70,7 +73,9 @@
         "revision_date": null
       },
       "basis": null,
-      "notes": null
+      "notes": null,
+      "value_final": null,
+      "unit_final": "wt.%"
     },
     "carrier": {
       "identity": {
@@ -82,7 +87,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       "share_wt_pct": {
         "value": null,
@@ -101,7 +107,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       }
     },
     "treat_rate": {
@@ -121,7 +129,12 @@
         "page": 2,
         "revision_date": "12/16"
       },
-      "notes": null
+      "notes": null,
+      "value_final": 3.3,
+      "unit_final": "%",
+      "integration_flags": [
+        "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
+      ]
     },
     "compatibility_restrictions": {
       "value": null,
@@ -136,7 +149,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "function_specific_markers": {
       "tbn": {
@@ -156,7 +170,9 @@
           "page": 2,
           "revision_date": "12/16"
         },
-        "notes": null
+        "notes": null,
+        "value_final": 38,
+        "unit_final": "mg KOH/g"
       },
       "ca": {
         "value": null,
@@ -175,7 +191,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "mg": {
         "value": null,
@@ -194,7 +212,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "p": {
         "value": null,
@@ -213,7 +233,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "zn": {
         "value": null,
@@ -232,7 +254,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       },
       "mo": {
         "value": null,
@@ -251,7 +275,9 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null,
+        "unit_final": "wt.%"
       }
     },
     "active_polymer": {
@@ -271,7 +297,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "This product is not a viscosity modifier — field does not apply"
+      "notes": "This product is not a viscosity modifier — field does not apply",
+      "value_final": null
     },
     "dissolution_blend_temperature": {
       "value": null,
@@ -290,7 +317,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "This product is not a viscosity modifier — field does not apply"
+      "notes": "This product is not a viscosity modifier — field does not apply",
+      "value_final": null
     },
     "polymer_chemistry": {
       "value": null,
@@ -309,7 +337,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "This product is not a viscosity modifier — field does not apply"
+      "notes": "This product is not a viscosity modifier — field does not apply",
+      "value_final": null
     },
     "post_shear_blend_behaviour": {
       "value": null,
@@ -328,7 +357,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "This product is not a viscosity modifier — field does not apply"
+      "notes": "This product is not a viscosity modifier — field does not apply",
+      "value_final": null
     },
     "shear_stability": {
       "value": null,
@@ -347,7 +377,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "This product is not a viscosity modifier — field does not apply"
+      "notes": "This product is not a viscosity modifier — field does not apply",
+      "value_final": null
     },
     "thickening_response": {
       "value": null,
@@ -366,7 +397,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "This product is not a viscosity modifier — field does not apply"
+      "notes": "This product is not a viscosity modifier — field does not apply",
+      "value_final": null
     },
     "treat_range_by_sae_grade": {
       "value": null,
@@ -385,7 +417,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "This product is not a viscosity modifier — field does not apply"
+      "notes": "This product is not a viscosity modifier — field does not apply",
+      "value_final": null
     }
   },
   "open_questions": [

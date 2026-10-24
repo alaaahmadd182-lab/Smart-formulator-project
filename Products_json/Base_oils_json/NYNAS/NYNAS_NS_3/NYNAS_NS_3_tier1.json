@@ -27,7 +27,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "Group V"
       },
       "chemistry": {
         "value": "Hydrotreated naphthenic base oil",
@@ -43,7 +44,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "Hydrotreated naphthenic base oil"
       }
     },
     "kv40": {
@@ -62,7 +64,12 @@
         "file": "DL2-15474.pdf",
         "page": 2,
         "revision_date": "2024-05-30"
-      }
+      },
+      "value_final": 2.92,
+      "unit_final": "cSt",
+      "min_final": 2.7,
+      "max_final": 3.1,
+      "resolution": "Same document type; newest edition used: 2024 edition DL2-15474.pdf 2.92 cSt over 2016 edition DL2-12382.pdf 2.84 cSt."
     },
     "kv100": {
       "value": null,
@@ -80,7 +87,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": null,
@@ -98,7 +107,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.863,
@@ -116,7 +127,12 @@
         "file": "DL2-15474.pdf",
         "page": 2,
         "revision_date": "2024-05-30"
-      }
+      },
+      "value_final": 0.863,
+      "unit_final": "g/cm³",
+      "min_final": 0.85,
+      "max_final": 0.875,
+      "resolution": "Same document type; newest edition used: 2024 edition DL2-15474.pdf 0.863 over 2016 edition DL2-12382.pdf 0.860."
     },
     "ccs": [
       {
@@ -135,7 +151,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },
@@ -156,7 +174,9 @@
         "source_file": "DL2-12382.pdf",
         "page": 2
       },
-      "note": "Different typical values in 2024 and 2016 editions; newer edition selected."
+      "note": "Different typical values in 2024 and 2016 editions; newer edition selected.",
+      "resolved": true,
+      "final_resolution": "Same document type; newest edition used; see tier1 fields.kv40.resolution."
     },
     {
       "property": "density",
@@ -170,7 +190,9 @@
         "source_file": "DL2-12382.pdf",
         "page": 2
       },
-      "note": "Different typical values in 2024 and 2016 editions."
+      "note": "Different typical values in 2024 and 2016 editions.",
+      "resolved": true,
+      "final_resolution": "Same document type; newest edition used; see tier1 fields.density.resolution."
     },
     {
       "property": "flash_point",
@@ -184,7 +206,9 @@
         "source_file": "DL2-12382.pdf",
         "page": 2
       },
-      "note": "Different typical PM flash points in two editions."
+      "note": "Different typical PM flash points in two editions.",
+      "resolved": true,
+      "final_resolution": "Same document type; newest edition used; see tier2 fields.flash_point.resolution."
     },
     {
       "property": "sulfur",
@@ -198,7 +222,9 @@
         "source_file": "DL2-12382.pdf",
         "page": 2
       },
-      "note": "Older typical 30 ppm versus newer upper-bound <10 ppm; not interchangeable."
+      "note": "Older typical 30 ppm versus newer upper-bound <10 ppm; not interchangeable.",
+      "resolved": true,
+      "final_resolution": "Same document type; newest edition used; see tier3 fields.sulfur.resolution."
     }
   ]
 }

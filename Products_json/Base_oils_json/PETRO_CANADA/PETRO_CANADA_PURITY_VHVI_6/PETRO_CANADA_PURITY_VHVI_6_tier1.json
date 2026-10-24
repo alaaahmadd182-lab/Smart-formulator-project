@@ -27,7 +27,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "Group III"
       },
       "chemistry": {
         "value": "Highly isoparaffinic saturated hydrocarbons; severe hydrotreating, hydrocracking, catalytic wax hydroisomerization",
@@ -43,7 +44,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "Highly isoparaffinic saturated hydrocarbons; severe hydrotreating, hydrocracking, catalytic wax hydroisomerization"
       }
     },
     "kv40": {
@@ -62,7 +64,9 @@
         "file": "DL2-11261.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 34.1,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 6.0,
@@ -80,7 +84,9 @@
         "file": "DL2-11261.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 6,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 127,
@@ -98,7 +104,9 @@
         "file": "DL2-11261.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 127,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.85,
@@ -116,7 +124,9 @@
         "file": "DL2-11261.pdf",
         "page": 2,
         "revision_date": "2015-07"
-      }
+      },
+      "value_final": 0.85,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -137,7 +147,9 @@
             "file": "DL2-11261.pdf",
             "page": 2,
             "revision_date": "2015-07"
-          }
+          },
+          "value_final": 1550,
+          "unit_final": "mPa·s"
         }
       },
       {
@@ -158,7 +170,9 @@
             "file": "DL2-11261.pdf",
             "page": 2,
             "revision_date": "2015-07"
-          }
+          },
+          "value_final": 1998,
+          "unit_final": "mPa·s"
         }
       },
       {
@@ -179,7 +193,9 @@
             "file": "DL2-11261.pdf",
             "page": 2,
             "revision_date": "2015-07"
-          }
+          },
+          "value_final": 3560,
+          "unit_final": "mPa·s"
         }
       }
     ]

@@ -22,7 +22,8 @@
           "revision_date": "2009-10-21"
         },
         "printed_text": "Product Name: Base Oil 500N GII",
-        "value_kind": "supplier description"
+        "value_kind": "supplier description",
+        "value_final": "Group II"
       },
       "chemistry": {
         "value": "Catalytic dewaxed paraffinic oil",
@@ -33,7 +34,8 @@
           "revision_date": "2011-05-05"
         },
         "printed_text": "CATALYTIC DEWAXED PARAFFINIC OIL",
-        "value_kind": "supplier description"
+        "value_kind": "supplier description",
+        "value_final": "Catalytic dewaxed paraffinic oil"
       }
     },
     "kv40": {
@@ -52,7 +54,9 @@
         "file": "DL2-10017.pdf",
         "page": 3,
         "revision_date": "2011-05-05"
-      }
+      },
+      "value_final": 85,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 11,
@@ -70,7 +74,11 @@
         "file": "DL2-10017.pdf",
         "page": 3,
         "revision_date": "2011-05-05"
-      }
+      },
+      "value_final": 11,
+      "unit_final": "cSt",
+      "min_final": 10,
+      "max_final": 12
     },
     "viscosity_index": {
       "value": null,
@@ -88,7 +96,9 @@
         "file": "DL2-10003.pdf",
         "page": 1,
         "revision_date": "2009-10-21"
-      }
+      },
+      "value_final": null,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.87,
@@ -106,7 +116,12 @@
         "file": "DL2-10017.pdf",
         "page": 3,
         "revision_date": "2011-05-05"
-      }
+      },
+      "value_final": 0.87,
+      "unit_final": "relative density",
+      "integration_flags": [
+        "relative density is not a density; kept as printed, not converted to g/cm³"
+      ]
     },
     "ccs": [
       {
@@ -125,7 +140,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

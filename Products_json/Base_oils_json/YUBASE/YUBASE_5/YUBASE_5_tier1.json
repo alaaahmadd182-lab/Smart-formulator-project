@@ -29,7 +29,8 @@
         "qualifier": null,
         "calculation_note": "SK Lubricants identifies the YUBASE brand as API Group III in its official Business with ZIC publication. The source does not explicitly identify YUBASE 5. Classification is provisionally attributed from the manufacturer family description and requires grade-specific confirmation for archived product DL2-11305.pdf.",
         "flash_method": null,
-        "test_temperature_c": null
+        "test_temperature_c": null,
+        "value_final": "III"
       },
       "chemistry": {
         "value": null,
@@ -48,7 +49,8 @@
         "calculation_note": null,
         "flash_method": null,
         "test_temperature_c": null,
-        "unit": null
+        "unit": null,
+        "value_final": null
       }
     },
     "kv40": {
@@ -68,7 +70,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 25.24,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 4.99,
@@ -87,7 +91,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 4.99,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 126,
@@ -106,7 +112,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 126,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -125,9 +133,10 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
-   
     "ccs": [
       {
         "value": null,
@@ -146,10 +155,11 @@
           "page": null,
           "revision_date": null
         },
-        "flash_method": null
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
-
   },
   "open_questions": [
     "SK Lubricants officially describes the YUBASE brand as API Group III, but the located manufacturer publication does not explicitly classify YUBASE 5. Obtain grade-specific confirmation before final approval.",

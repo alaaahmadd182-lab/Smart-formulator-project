@@ -13,7 +13,6 @@
   },
   "fields": {
     "api_group_chemistry": {
-      
       "api_group": {
         "value": "Group III",
         "status": "Reported",
@@ -30,7 +29,8 @@
         "qualifier": null,
         "calculation_note": "API Group III supported by official manufacturer product-family classification and equivalence; not directly printed in the historical grade-specific SDS.",
         "flash_method": null,
-        "test_temperature_c": null
+        "test_temperature_c": null,
+        "value_final": "Group III"
       },
       "chemistry": {
         "value": "Distillates (petroleum), hydrotreated heavy paraffinic",
@@ -49,7 +49,8 @@
         "calculation_note": null,
         "flash_method": null,
         "test_temperature_c": null,
-        "unit": null
+        "unit": null,
+        "value_final": "Distillates (petroleum), hydrotreated heavy paraffinic"
       }
     },
     "kv40": {
@@ -69,7 +70,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 43.89,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 7.234,
@@ -88,7 +91,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 7.234,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 127,
@@ -107,7 +112,9 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 127,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -126,9 +133,10 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
-    
     "ccs": [
       {
         "value": null,
@@ -147,17 +155,17 @@
           "page": null,
           "revision_date": null
         },
-        "flash_method": null
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
-
   },
-  
-    "open_questions": [
-      "Chemistry is recorded from SDS DL2-15238.pdf, Section 3: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7. The SDS revision date is recorded as 2015-06-10.",
-      "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",
-      "No grade-specific CCS viscosity or CCS test temperature has been verified for Ultra-S 8.",
-      "Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15238.pdf remains pending."
-    ],
+  "open_questions": [
+    "Chemistry is recorded from SDS DL2-15238.pdf, Section 3: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7. The SDS revision date is recorded as 2015-06-10.",
+    "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",
+    "No grade-specific CCS viscosity or CCS test temperature has been verified for Ultra-S 8.",
+    "Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15238.pdf remains pending."
+  ],
   "conflicts": []
 }

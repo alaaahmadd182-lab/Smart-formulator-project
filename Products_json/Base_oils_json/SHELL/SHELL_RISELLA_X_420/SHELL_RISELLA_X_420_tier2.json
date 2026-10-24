@@ -30,7 +30,9 @@
           "page": null,
           "revision_date": null
         },
-        "flash_method": null
+        "flash_method": null,
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ],
     "noack_volatility": {
@@ -50,7 +52,9 @@
         "page": 1,
         "revision_date": "2014-06-02"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": 12,
+      "unit_final": "wt.%"
     },
     "pour_point": {
       "value": -36,
@@ -69,7 +73,9 @@
         "page": 1,
         "revision_date": "2014-06-02"
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": -36,
+      "unit_final": "°C"
     },
     "flash_point": {
       "value": 230,
@@ -88,10 +94,11 @@
         "page": 1,
         "revision_date": "2014-06-02"
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": 230,
+      "unit_final": "°C"
     }
   },
-  
   "open_questions": [
     "Shell Risella X 420 is marketed as a GTL-derived process oil. API lubricant base-oil Group classification is treated as Not Required under the proposed project applicability rule; confirm this interpretation is accepted by the professor's template.",
     "Chemistry is recorded from TDS DL2-13726.pdf, page 1, dated 2014-06-02: GTL-derived hydrocarbon fluid, highly saturated with a high degree of iso-paraffinic structures.",

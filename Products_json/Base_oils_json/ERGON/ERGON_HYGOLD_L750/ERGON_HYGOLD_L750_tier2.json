@@ -31,7 +31,9 @@
             "file": null,
             "page": null,
             "revision_date": null
-          }
+          },
+          "value_final": null,
+          "unit_final": "mPa\u00b7s"
         },
         "yield_stress": {
           "value": null,
@@ -49,7 +51,9 @@
             "file": null,
             "page": null,
             "revision_date": null
-          }
+          },
+          "value_final": null,
+          "unit_final": "Pa"
         }
       }
     ],
@@ -69,7 +73,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "wt.%"
     },
     "pour_point": {
       "value": -25,
@@ -87,7 +93,10 @@
         "file": "DL2-10414.pdf",
         "page": 1,
         "revision_date": "2017-01-05"
-      }
+      },
+      "value_final": -25,
+      "unit_final": "\u00b0C",
+      "max_final": -12
     },
     "flash_point": {
       "value": 230,
@@ -106,7 +115,10 @@
         "page": 1,
         "revision_date": "2017-01-05"
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": 230,
+      "unit_final": "\u00b0C",
+      "min_final": 204
     }
   },
   "open_questions": [
@@ -123,7 +135,9 @@
           "file": "DL2-10414.pdf",
           "page": 1
         }
-      ]
+      ],
+      "resolved": false,
+      "final_resolution": "UNRESOLVED; see tier1 fields.density.resolution."
     }
   ]
 }

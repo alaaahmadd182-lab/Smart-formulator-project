@@ -27,7 +27,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "II"
       },
       "chemistry": {
         "value": "Hydrotreated, wax-isomerized and hydrofinished iso-paraffinic base fluid",
@@ -43,7 +44,8 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null
+        "calculation_note": null,
+        "value_final": "Hydrotreated, wax-isomerized and hydrofinished iso-paraffinic base fluid"
       }
     },
     "kv40": {
@@ -62,7 +64,10 @@
         "file": "DL2-10229.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 10.72,
+      "unit_final": "cSt",
+      "min_final": 9
     },
     "kv100": {
       "value": 2.85,
@@ -80,7 +85,11 @@
         "file": "DL2-10229.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 2.85,
+      "unit_final": "cSt",
+      "min_final": 2.7,
+      "max_final": 3.2
     },
     "viscosity_index": {
       "value": 114,
@@ -98,7 +107,9 @@
         "file": "DL2-10229.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 114,
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.8338,
@@ -116,7 +127,9 @@
         "file": "DL2-10229.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 0.8338,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -135,7 +148,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },

@@ -38,8 +38,12 @@
             "file": null,
             "page": null,
             "revision_date": null
-          }
-        }
+          },
+          "value_final": null,
+          "unit_final": "Pa"
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ],
     "noack_volatility": {
@@ -59,7 +63,9 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
     "pour_point": {
       "value": null,
@@ -78,7 +84,9 @@
         "page": null,
         "revision_date": null
       },
-      "flash_method": null
+      "flash_method": null,
+      "value_final": null,
+      "unit_final": null
     },
     "flash_point": {
       "value": null,
@@ -97,10 +105,13 @@
         "page": 2,
         "revision_date": "2018-09-07"
       },
-      "flash_method": "COC"
+      "flash_method": "COC",
+      "value_final": null,
+      "unit_final": "°C",
+      "min_final": 240,
+      "max_final": 260
     }
   },
-  
   "open_questions": [
     "API group not explicitly specified in the original SDS.",
     "The original SDS reports viscosity ranges; additional typical properties are available in Aramco's grade-specific technical datasheet.",

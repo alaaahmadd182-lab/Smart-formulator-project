@@ -26,7 +26,8 @@
           "page": 1,
           "revision_date": "2024-09-25"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "DIESEL ENGINE OIL ADDITIVE PACKAGE"
       },
       "intended_service": {
         "unit": null,
@@ -37,7 +38,8 @@
           "page": 1,
           "revision_date": "2024-09-25"
         },
-        "notes": null
+        "notes": null,
+        "value_final": "BT3089 is customer specific. It is used in blending low and Middle tier diesel engine oils providing cost effective solution ."
       }
     },
     "performance_claims": [
@@ -54,7 +56,8 @@
           "page": 1,
           "revision_date": "2024-09-25"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -69,7 +72,8 @@
           "page": 1,
           "revision_date": "2024-09-25"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -84,7 +88,8 @@
           "page": 1,
           "revision_date": "2024-09-25"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -99,7 +104,8 @@
           "page": 1,
           "revision_date": "2024-09-25"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       },
       {
         "value": null,
@@ -114,7 +120,8 @@
           "page": 1,
           "revision_date": "2024-09-25"
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "sae_grades_documented": [
@@ -128,7 +135,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ],
     "permitted_base_oils_restrictions": {
@@ -148,7 +156,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CF-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use)."
+      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CF-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use).",
+      "value_final": null
     },
     "route_selector_restrictions": {
       "value": null,
@@ -162,7 +171,8 @@
         "page": null,
         "revision_date": null
       },
-      "notes": null
+      "notes": null,
+      "value_final": null
     },
     "treat_rate_matrix": [
       {
@@ -185,7 +195,9 @@
             "page": 1,
             "revision_date": "2024-09-25"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 4.8,
+          "unit_final": "wt.%"
         }
       },
       {
@@ -208,7 +220,9 @@
             "page": 1,
             "revision_date": "2024-09-25"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 3.5,
+          "unit_final": "wt.%"
         }
       },
       {
@@ -231,7 +245,9 @@
             "page": 1,
             "revision_date": "2024-09-25"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 3.2,
+          "unit_final": "wt.%"
         }
       },
       {
@@ -254,7 +270,9 @@
             "page": 1,
             "revision_date": "2024-09-25"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 2.5,
+          "unit_final": "wt.%"
         }
       },
       {
@@ -277,7 +295,9 @@
             "page": 1,
             "revision_date": "2024-09-25"
           },
-          "notes": null
+          "notes": null,
+          "value_final": 2.2,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -302,7 +322,9 @@
             "page": null,
             "revision_date": null
           },
-          "notes": null
+          "notes": null,
+          "value_final": null,
+          "unit_final": "wt.%"
         }
       }
     ],
@@ -339,7 +361,8 @@
                 "page": null,
                 "revision_date": null
               },
-              "notes": null
+              "notes": null,
+              "value_final": null
             }
           }
         ],
@@ -349,7 +372,8 @@
           "page": null,
           "revision_date": null
         },
-        "notes": null
+        "notes": null,
+        "value_final": null
       }
     ]
   },

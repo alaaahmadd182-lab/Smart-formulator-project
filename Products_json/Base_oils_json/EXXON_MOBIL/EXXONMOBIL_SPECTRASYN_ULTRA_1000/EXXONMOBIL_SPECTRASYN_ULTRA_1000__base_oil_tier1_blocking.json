@@ -22,7 +22,8 @@
           "file": "https://www.exxonmobil.com/basestocks/-/media/project/wep/exxonmobil/exxonmobil-basestocks/pdfs/735723-1-exxon-intermed-cross-bu-broch-update-v12.pdf",
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": "Group IV"
       },
       "chemistry": {
         "value": "Polyalphaolefin (PAO)",
@@ -31,7 +32,8 @@
           "file": "DL2-11190.pdf",
           "page": 1,
           "revision_date": null
-        }
+        },
+        "value_final": "Polyalphaolefin (PAO)"
       }
     },
     "kv40": {
@@ -50,7 +52,9 @@
         "file": "DL2-11190.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 10000,
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 1000,
@@ -68,7 +72,9 @@
         "file": "DL2-11190.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 1000,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 307,
@@ -86,7 +92,9 @@
         "file": "DL2-11190.pdf",
         "page": 1,
         "revision_date": null
-      }
+      },
+      "value_final": 307,
+      "unit_final": "unitless"
     },
     "density": {
       "value": null,
@@ -104,7 +112,9 @@
         "file": null,
         "page": null,
         "revision_date": null
-      }
+      },
+      "value_final": null,
+      "unit_final": "g/cm³"
     },
     "ccs": [
       {
@@ -123,7 +133,9 @@
           "file": null,
           "page": null,
           "revision_date": null
-        }
+        },
+        "value_final": null,
+        "unit_final": "mPa·s"
       }
     ]
   },
