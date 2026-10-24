@@ -648,7 +648,7 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claims listed in a table without approval wording, except 'MB 228.3 (Blanket Approval)'; others recorded as 'other' ('(Level)' kept where printed).
 - (tier1) 'The typical finished oil BN is 10.1 mg KOH/g at the standard treat of 11.2 wt%' is finished-oil TBN, not package TBN (not entered).
 - (tier2) Flash point, Mg, B, S and pour point not printed. Mo printed in ppm.
-- (tier2) User decision 2026-10-17: density field stores the number 0.99 (specific gravity (dimensionless)), which is reported as specific gravity ('Specific Gravity, at 15°C ASTM D4052 0.99', DL2-14797.pdf p.1), not a density in kg/m3; flagged for review.
+- (tier2) [History] User decision 2026-10-17: the density field stored 0.99 (specific gravity, dimensionless) from 'Specific Gravity, at 15°C ASTM D4052 0.99' (DL2-14797.pdf p.1). Superseded 2026-10-24 by the approved optional specific_gravity property: the specific gravity moved there and density is now Missing (no density printed).
 
 ## 76. WUXI_WX3118
 - (tier1) No company name or date printed on DL2-13534.pdf (website WWW.WXNFCN.CN/EN); supplier left null (archive folder 'Wuxi South Petroleum'). No SDS in the archive.

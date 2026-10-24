@@ -247,23 +247,42 @@
       "notes": null
     },
     "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3 (or as printed)",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "Not printed: the sheet prints only a specific gravity (recorded in specific_gravity), which is not converted to density.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "specific_gravity": {
       "value": 0.99,
       "qualifier": null,
       "min": null,
       "max": null,
       "value_kind": "typical",
       "printed_text": "Specific Gravity, at 15°C ASTM D4052 0.99",
-      "unit": "specific gravity (dimensionless)",
+      "unit": "dimensionless",
+      "reference_condition": "15°C (water reference temperature not printed)",
       "test_temperature_c": 15,
       "method": "ASTM D4052",
       "status": "Reported",
-      "calculation_note": "Column 'Typical Value'. Printed as specific gravity. reported as specific gravity.",
+      "calculation_note": "Column 'Typical Value' (p.1); label, method and value paired by position. Not converted to density.",
       "source": {
         "file": "DL2-14797.pdf",
         "page": 1,
         "revision_date": null
-      },
-      "notes": null
+      }
     },
     "flash_point": {
       "value": null,
@@ -307,7 +326,7 @@
   },
   "open_questions": [
     "Flash point, Mg, B, S and pour point not printed. Mo printed in ppm.",
-    "User decision 2026-10-17: density field stores the number 0.99 (specific gravity (dimensionless)), which is reported as specific gravity ('Specific Gravity, at 15°C ASTM D4052 0.99', DL2-14797.pdf p.1), not a density in kg/m3; flagged for review."
+    "[History] User decision 2026-10-17: the density field stored 0.99 (specific gravity, dimensionless) from 'Specific Gravity, at 15°C ASTM D4052 0.99' (DL2-14797.pdf p.1). Superseded 2026-10-24 by the approved optional specific_gravity property: the specific gravity moved there and density is now Missing (no density printed)."
   ],
   "conflicts": [],
   "external_fill_notes": []
