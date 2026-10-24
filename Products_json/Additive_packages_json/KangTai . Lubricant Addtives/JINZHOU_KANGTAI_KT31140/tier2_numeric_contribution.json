@@ -26,7 +26,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "SH/T 0251",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Printed as a minimum. Column header 'Typical Value' but each value printed with 'min'.",
       "source": {
         "file": "DL2-12961.pdf",
@@ -45,7 +45,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "Calculated (ASTM D874 factors)",
-      "status": "calculated",
+      "status": "Calculated",
       "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×5.0 (Ca) + 1.24×1.6 (Zn) = 18.9840 → 18.98 wt.%. Mg not reported, taken as 0. Inputs are printed minimums (≥), so the result is a lower bound.",
       "source": {
         "file": null,
@@ -65,7 +65,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "SH/T 0270",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Printed as a minimum. Column header 'Typical Value' but each value printed with 'min'.",
         "source": {
           "file": "DL2-12961.pdf",
@@ -84,7 +84,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -103,7 +103,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "SH/T 0226",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Printed as a minimum. Column header 'Typical Value' but each value printed with 'min'.",
         "source": {
           "file": "DL2-12961.pdf",
@@ -122,7 +122,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "SH/T 0296",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Printed as a minimum. Column header 'Typical Value' but each value printed with 'min'.",
         "source": {
           "file": "DL2-12961.pdf",
@@ -141,7 +141,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -160,7 +160,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -179,7 +179,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "SH/T0224",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Printed as a minimum. Column header 'Typical Value' but each value printed with 'min'.",
         "source": {
           "file": "DL2-12961.pdf",
@@ -198,7 +198,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -218,7 +218,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -237,7 +237,7 @@
       "unit": "cSt",
       "test_temperature_c": 100,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -256,7 +256,7 @@
       "unit": "kg/m3 (or as printed)",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -272,10 +272,10 @@
       "max": null,
       "value_kind": "specification",
       "printed_text": "Flash Point (COC) °C 180 min GB/T 3536",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "GB/T 3536",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Printed as a minimum. Column header 'Typical Value' but each value printed with 'min'.",
       "source": {
         "file": "DL2-12961.pdf",
@@ -292,10 +292,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,

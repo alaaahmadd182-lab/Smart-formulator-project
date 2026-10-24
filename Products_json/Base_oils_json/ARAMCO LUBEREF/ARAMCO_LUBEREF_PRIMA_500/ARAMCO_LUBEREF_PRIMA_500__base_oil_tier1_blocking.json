@@ -33,10 +33,10 @@
       "value": "Distillates, petroleum, hydrotreated heavy paraffinic",
       "status": "Reported",
       "basis": "External official supplier safety data sheet",
-      "notes": "Chemistry not stated in supplied DL2-12172.pdf. Obtained from the official Luberef SDS for aramcoPRIMA 500. CAS 64742-54-7.",
+      "notes": "Chemistry not stated in supplied DL2-12172.pdf. Obtained from the official Luberef SDS for aramcoPRIMA 500 (issue date 12/08/2020, revision 2.0): Section 3, p.2, 'Base oil : distillates hydrotreated heavy paraffinic'. CAS 64742-54-7 (p.1-2).",
       "source": {
         "file": "https://luberefapp.s3-accelerate.amazonaws.com/documents/prima500.pdf",
-        "page": 1,
+        "page": 2,
         "revision_date": "2020-08-12"
       }
     }
@@ -100,13 +100,14 @@
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": "single",
-      "printed_text": "0.867",
-      "unit": "kg/L",
+      "value_kind": "typical",
+      "printed_text": "Density @ 15 °C, ASTM D-4052, Typical: 0.867 (column 'aramcoPRIMA 500 Spec.')",
+      "unit": null,
       "test_temperature_c": 15,
       "method": "ASTM D4052",
       "status": "Reported",
       "calculation_note": null,
+      "notes": "DL2-12172.pdf p.1 prints no unit for this density (row 'Density @ 15 °C | ASTM D-4052 | Typical', column 'aramcoPRIMA 500 Spec.'); unit left null. No unit is inferred and no conversion is made. DL2-11773.pdf prints a different value for this grade; see open questions.",
       "source": {
         "file": "DL2-12172.pdf",
         "page": 1,
@@ -143,6 +144,16 @@
       ],
       "source_files": [
         "DL2-12172.pdf"
+      ]
+    },
+    {
+      "question": "Document discrepancy requiring review (not a confirmed numerical contradiction): density @ 15 °C, aramcoPRIMA 500. DL2-12172.pdf p.1 ('LUBEREF GII Product Specifications*', no printed date; column 'aramcoPRIMA 500 Spec.', Typical, ASTM D-4052) prints 0.867 with no unit. DL2-11773.pdf p.1 (brochure, printed pp. 8-9 'Group II' table, no printed date; column 'aramcoPRIMA 500', which carries no '*' (the footnote does not apply), Typical, D 4052) prints 0.8720 in the row 'Density @ 15°C, Kg/L'. The density field keeps the DL2-12172.pdf value with unit null; the brochure value is not entered and its unit is not applied to the specification-sheet value.",
+      "fields": [
+        "density"
+      ],
+      "source_files": [
+        "DL2-12172.pdf",
+        "DL2-11773.pdf"
       ]
     }
   ],

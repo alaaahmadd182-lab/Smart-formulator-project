@@ -8,7 +8,10 @@
     "product_name": "Base Oil 150N GII+",
     "supplier": "Formosa Petrochemical Corporation",
     "document_type": "Product specification + MSDS",
-    "source_file": "DL2-10001.pdf; DL2-10011.pdf",
+    "source_file": [
+      "DL2-10001.pdf",
+      "DL2-10011.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
@@ -91,17 +94,36 @@
       }
     },
     "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "Not printed: the sheet prints only a specific gravity (recorded in specific_gravity), which is not converted to density.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "specific_gravity": {
       "value": 0.85,
       "qualifier": null,
       "min": null,
       "max": null,
       "value_kind": "typical",
-      "printed_text": "Relative density at 15 C: 0.85",
-      "unit": "relative density",
+      "printed_text": "Relative Density (at 15 C ): 0.85",
+      "unit": "dimensionless",
+      "reference_condition": "15 C (water reference temperature not printed)",
       "test_temperature_c": 15,
       "method": null,
       "status": "Reported",
-      "calculation_note": null,
+      "calculation_note": "SDS 'Important health, safety, and environmental information' (p.3); no method printed. Not converted to density.",
       "source": {
         "file": "DL2-10011.pdf",
         "page": 3,
@@ -131,7 +153,7 @@
   },
   "open_questions": [
     "Supplier group II+ is a commercial subclass, not a separate API group.",
-    "Density reported as relative density, not mass density; preserve original units.",
+    "Relative density 'Relative Density (at 15 C ): 0.85' (DL2-10011.pdf p.3) is recorded in the optional specific_gravity property; no absolute density is printed, so density is Missing (2026-10-24). [History] The density field previously held this relative density.",
     "KV40 reported only in SDS, not specification."
   ],
   "conflicts": []

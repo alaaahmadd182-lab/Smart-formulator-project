@@ -8,7 +8,10 @@
     "product_name": "150BS",
     "supplier": "GS Caltex",
     "document_type": "Product specification",
-    "source_file": "DL2-13094.pdf; DL2-13626.pdf",
+    "source_file": [
+      "DL2-13094.pdf",
+      "DL2-13626.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
@@ -47,7 +50,7 @@
       "value_kind": "typical",
       "printed_text": "Typical 445.50 mm²/s",
       "unit": "cSt",
-      "test_temperature_c": null,
+      "test_temperature_c": 40,
       "method": "ASTM D445",
       "status": "Reported",
       "calculation_note": null,
@@ -65,7 +68,7 @@
       "value_kind": "typical",
       "printed_text": "Typical 33.80 mm²/s",
       "unit": "cSt",
-      "test_temperature_c": null,
+      "test_temperature_c": 100,
       "method": "ASTM D445",
       "status": "Reported",
       "calculation_note": null,

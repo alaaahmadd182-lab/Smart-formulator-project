@@ -120,24 +120,21 @@
     },
     "ccs": [
       {
+        "value": 3250,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "3250 cP @ -35°C",
+        "unit": "cP",
         "test_temperature_c": -35,
-        "ccs_viscosity": {
-          "value": 3250,
-          "qualifier": null,
-          "min": null,
-          "max": null,
-          "value_kind": "typical",
-          "printed_text": "3250 cP @ -35°C",
-          "unit": "cP",
-          "test_temperature_c": -35,
-          "method": "ASTM D5293",
-          "status": "Reported",
-          "calculation_note": null,
-          "source": {
-            "file": "DL2-11261.pdf",
-            "page": 2,
-            "revision_date": "2015-07"
-          }
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-11261.pdf",
+          "page": 2,
+          "revision_date": "2015-07"
         }
       }
     ]

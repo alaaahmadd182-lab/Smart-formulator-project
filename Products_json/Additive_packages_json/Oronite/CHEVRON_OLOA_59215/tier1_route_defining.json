@@ -20,7 +20,7 @@
       "package_type": {
         "unit": null,
         "value": "Heavy Duty Engine Oil Package",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13875.pdf",
           "page": 1,
@@ -31,7 +31,7 @@
       "intended_service": {
         "unit": null,
         "value": "high performance engine oil additive designed for modern diesel engines operating under severe conditions and heavy loads",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13875.pdf",
           "page": 1,
@@ -48,7 +48,7 @@
         "claim_type": "meets",
         "scope": "OLOA® 59215 meets the performance requirements of API CI-4 in SAE 15W-40 and 20W-50 viscosity grades in select Grp II base stocks with PARATONE 24 SSI and 35 SSI VII.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13875.pdf",
           "page": 1,
@@ -63,7 +63,7 @@
         "claim_type": "other",
         "scope": "OLOA® 59215 meets the following OEM claims in SAE 15W-40 viscosity grade with PARATONE 24 SSI VII: 'MB 228.3 (Approval in progress)'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13875.pdf",
           "page": 1,
@@ -78,7 +78,7 @@
         "claim_type": "other",
         "scope": "OLOA® 59215 meets the following OEM claims in SAE 15W-40 viscosity grade with PARATONE 24 SSI VII: 'CES 20076/77 (Approval in progress)'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13875.pdf",
           "page": 1,
@@ -93,7 +93,7 @@
         "claim_type": "meets",
         "scope": "OLOA® 59215 meets the following OEM claims in SAE 15W-40 viscosity grade with PARATONE 24 SSI VII: 'MTU Type 2 (meets performance)'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13875.pdf",
           "page": 1,
@@ -108,7 +108,7 @@
         "claim_type": "meets",
         "scope": "OLOA® 59215 meets the following OEM claims in SAE 15W-40 viscosity grade with PARATONE 24 SSI VII: 'MAN M3275-1 (meets performance)'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13875.pdf",
           "page": 1,
@@ -123,7 +123,7 @@
         "claim_type": "meets",
         "scope": "OLOA® 59215 meets the following OEM claims in SAE 15W-40 viscosity grade with PARATONE 24 SSI VII: 'VDS (meets performance)'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13875.pdf",
           "page": 1,
@@ -137,7 +137,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "SAE 15W-40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13875.pdf",
           "page": 1,
@@ -149,7 +149,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "SAE 20W-50",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13875.pdf",
           "page": 1,
@@ -169,7 +169,7 @@
       ],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-13875.pdf",
         "page": 1,
@@ -186,7 +186,7 @@
         "API CI-4: SAE 15W-40 and 20W-50 with PARATONE 24 SSI and 35 SSI VII",
         "OEM claims: SAE 15W-40 with PARATONE 24 SSI VII"
       ],
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-13875.pdf",
         "page": 1,
@@ -208,7 +208,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Single 'Dosage' printed for the product; not tied to a specific grade or claim.",
           "source": {
             "file": "DL2-13875.pdf",
@@ -233,7 +233,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": "Required for API CI-4 and OEM claims (p.1); dose not printed.",
           "source": {
             "file": null,
@@ -256,7 +256,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": "Named for API CI-4 (p.1); dose not printed.",
           "source": {
             "file": null,
@@ -293,7 +293,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -304,7 +304,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,

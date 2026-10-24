@@ -106,6 +106,25 @@
         "revision_date": null
       }
     },
+    "specific_gravity": {
+      "value": 0.81,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity, 60°/60°F, 15.6°/15.6°C 0.8100",
+      "unit": "dimensionless",
+      "reference_condition": "60°/60°F, 15.6°/15.6°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "Typical properties table (p.1). Printed reference '60°/60°F, 15.6°/15.6°C'; test_temperature_c left null. No method printed on this sheet. The page prints a 'Revision Date' tied to the MSDS reference; revision_date left null as in this record's other fields. The family sheet DL2-13200.pdf p.1 prints the same value (0.8100, ASTM D 4052). Not converted to density; the sheet's Density, lb/gal row (no temperature printed) is not recorded here.",
+      "source": {
+        "file": "DL2-13202.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
     "ccs": [
       {
         "value": null,

@@ -114,6 +114,25 @@
         "revision_date": null
       }
     },
+    "specific_gravity": {
+      "value": 0.8618,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity, 60\u00b0F (15.6\u00b0C) ASTM D4052 0.8618",
+      "unit": "dimensionless",
+      "reference_condition": "60\u00b0F (15.6\u00b0C)",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": "Typical properties (p.1). No density is printed; density stays Missing and is not derived from this value. Not converted to density.",
+      "source": {
+        "file": "DL2-13168.pdf",
+        "page": 1,
+        "revision_date": "2018-05-10"
+      }
+    },
     "ccs": [
       {
         "value": null,

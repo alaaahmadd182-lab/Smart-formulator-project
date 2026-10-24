@@ -101,13 +101,14 @@
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": "single",
-      "printed_text": "0.863",
-      "unit": "kg/L",
+      "value_kind": "typical",
+      "printed_text": "Density @ 15 °C, ASTM D-4052, Typical: 0.8630 (column 'aramcoPRIMA 230 Spec.')",
+      "unit": null,
       "test_temperature_c": 15,
       "method": "ASTM D4052",
       "status": "Reported",
       "calculation_note": null,
+      "notes": "DL2-12172.pdf p.1 prints no unit for this density (row 'Density @ 15 °C | ASTM D-4052 | Typical', column 'aramcoPRIMA 230 Spec.'); unit left null. No unit is inferred and no conversion is made. DL2-11773.pdf prints a different value for this grade; see open questions.",
       "source": {
         "file": "DL2-12172.pdf",
         "page": 1,
@@ -136,7 +137,18 @@
       }
     ]
   },
-  "open_questions": [],
+  "open_questions": [
+    {
+      "question": "Document discrepancy requiring review (not a confirmed numerical contradiction): density @ 15 °C, aramcoPRIMA 230. DL2-12172.pdf p.1 ('LUBEREF GII Product Specifications*', no printed date; column 'aramcoPRIMA 230 Spec.', Typical, ASTM D-4052) prints 0.8630 with no unit. DL2-11773.pdf p.1 (brochure, printed pp. 8-9 'Group II' table, no printed date; column 'aramcoPRIMA 230*', the '*' footnote reads '*Typicals are subject to confirmation upon startup of the new Group II plant.' (provisional typical), Typical, D 4052) prints 0.8625 in the row 'Density @ 15°C, Kg/L'. The density field keeps the DL2-12172.pdf value with unit null; the brochure value is not entered and its unit is not applied to the specification-sheet value.",
+      "fields": [
+        "density"
+      ],
+      "source_files": [
+        "DL2-12172.pdf",
+        "DL2-11773.pdf"
+      ]
+    }
+  ],
   "conflicts": [],
   "source_documents": [
     {

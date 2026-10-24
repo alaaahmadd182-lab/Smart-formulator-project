@@ -14,16 +14,17 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-      "value": "Group III",
-      "status": "Reported",
-      "basis": "External official manufacturer product-family classification",
-      "notes": "The supplied DL2-13093.jpg does not explicitly state the API Group. Bapco's official website identifies BAPbase products as Group III lubricant base oils.",
-      "source": {
-        "file": "https://www.bapco.net/en/page/crude-and-petroleum-products",
-        "page": null,
-        "revision_date": null
-      }
-    },
+        "value": "Group III",
+        "status": "Reported",
+        "basis": "Official manufacturer classification of the BAPbase brand (Bapco / BLBOC), corroborated grade by grade by a distributor table",
+        "notes": "The supplied DL2-13093.jpg does not state the API Group. Bapco (cited page): 'Branded globally as BAPbase, our Group III Lubricant Base Oils ... Our BAPbase grades are produced by our affiliate, the Bahrain Lube Base Oil Company (BLBOC)'. Bapco's BLBOC page (https://www.bapco.net/ar/default.asp?action=article&id=34) describes the BLBOC plant as 'manufacturing Group III base oils' with a capacity of '400,000 tonnes a year of Very High Viscosity Index (VHVI), Group III Base Oils'. The manufacturer therefore classifies the whole BAPbase brand, and the plant that makes every grade, as Group III. Grade-level corroboration (distributor): MOGO 2025 Base Oils flyer (https://specs.ergonspecialtyoils.com/mogoil/MOGO-2025_Base%20Oils_Flyer_a4_Digital.pdf) p.4 lists BAPbase 8 in its 'Group III' table. Web page, no page number (2026-10 audit).",
+        "source": {
+          "file": "https://www.bapco.net/en/page/crude-and-petroleum-products",
+          "page": null,
+          "revision_date": null
+        },
+        "value_kind": "manufacturer brand classification (grade named as a BAPbase product; distributor table corroborates the grade)"
+      },
       "chemistry": {
         "value": null,
         "status": "Missing",

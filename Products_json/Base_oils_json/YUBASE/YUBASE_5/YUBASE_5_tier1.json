@@ -14,20 +14,20 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": "III",
+        "value": "Group III",
         "status": "Reported",
         "source": {
-          "file": "https://www.zic-europe.com/Business_with_ZIC.pdf",
+          "file": "https://web.archive.org/web/20190422064732/http://www.yubase.com:80/eng/product/pr_performance_01api.asp",
           "page": null,
           "revision_date": null
         },
-        "printed_text": null,
-        "value_kind": "manufacturer family classification",
+        "printed_text": "All YUBASE (with exception of YUBASE-3 and YUBASE-L3 both of which are Group II because their Viscosity Index is below 120) are Group III category",
+        "value_kind": "manufacturer product-line classification (grade named by the manufacturer)",
         "method": null,
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": "SK Lubricants identifies the YUBASE brand as API Group III in its official Business with ZIC publication. The source does not explicitly identify YUBASE 5. Classification is provisionally attributed from the manufacturer family description and requires grade-specific confirmation for archived product DL2-11305.pdf.",
+        "calculation_note": "SK's official YUBASE site, 'Product > Performance' page (yubase.com, Wayback Machine snapshot 2019-04-22; identical text in the 2010-02-13 snapshot): 'All YUBASE (with exception of YUBASE-3 and YUBASE-L3 both of which are Group II because their Viscosity Index is below 120) are Group III category'. YUBASE 5 is listed as an SK grade on the same site's SDS page. SK's typical-properties page notes 'YUBASE5 is available only in Europe'. Not stated in the archived NARMAK TRADE property sheet. Supersedes the brand-level SK Enmove page and the third-party SlideShare copy of SK Corporation's 2000 paper (slide 10), which agrees (2026-10 audit).",
         "flash_method": null,
         "test_temperature_c": null
       },
@@ -152,10 +152,10 @@
 
   },
   "open_questions": [
-    "SK Lubricants officially describes the YUBASE brand as API Group III, but the located manufacturer publication does not explicitly classify YUBASE 5. Obtain grade-specific confirmation before final approval.",
-    "API Group III classification is supported by SK Enmove manufacturer information, but is not explicitly stated in archived property sheet DL2-11304.pdf. Confirm that the classification applies to the archived grade.",
+    "[Open - history included] API Group (2026-10 audit): first recorded as 'III' from a brand-level ZIC statement, then set to Missing because no grade-level evidence was found; now Reported as Group III from SK's official YUBASE site (archived 'Performance' page: all YUBASE except YUBASE-3/L3 are Group III), which also lists YUBASE 5 as an SK grade. Confirm that the archived DL2-11305.pdf grade is the current SK YUBASE 5. Previous note: 'API Group (2026-10 audit): previously recorded as 'III' (Reported) from SK Lubricants' brand-level statement in 'Business with ZIC' (https://www.zic-europe.com/Business_with_ZIC.pdf, p.3: YUBASE is 'a synthetic new generation base oil classified as group III by API'), which does not name YUBASE 5. The brand statement is not used on its own because SK's own 2000 conference paper classes YUBASE-3 as API Group II, so not every YUBASE grade is Group III. No grade-level classification of YUBASE 5 was found, and YUBASE 5 is not in SK Enmove's current YUBASE line-up; the field is now Missing. Confirm the API Group of YUBASE 5 with SK Enmove.'",
+    "The API Group is not stated in the archived NARMAK TRADE property sheet DL2-11305.pdf (the earlier note named DL2-11304.pdf, which is the YUBASE 4 sheet) (2026-10 audit).",
     "Historical SK Corporation YUBASE 4 MSDS No. 739-YU4-02, dated 1999-02-12, identifies hydrotreated heavy paraffinic petroleum distillate (CAS 64742-54-7). Confirm that this composition applies to the archived grade.",
-    "The specific-gravity entry at 15°C is printed as 0.8338 with the inconsistent unit g/m3. Verify the original unit and measurement conditions before assigning density.",
+    "The specific-gravity entry at 15°C is printed as 0.8363 with the inconsistent unit g/m3. Verify the original unit and measurement conditions before assigning density.",
     "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in archived property sheet DL2-11304.pdf.",
     "Noack volatility is reported as 15 wt% using DIN 51581. The source transcription does not specify a test temperature; do not assume one.",
     "Confirm the archived property sheet's issue date and applicable product revision."

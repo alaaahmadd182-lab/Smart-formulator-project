@@ -14,13 +14,14 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": null,
-        "status": "Missing",
+        "value": "Group V",
+        "status": "Reported",
         "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
-        }
+          "file": "DL2-12122.pdf",
+          "page": 1,
+          "revision_date": "04/10/2015"
+        },
+        "notes": "Printed in the archived product datasheet DL2-12122.pdf p.1: 'Synesstic™ Alkylated Naphthalene (AN) represent a unique class of API Group V category fluids.' ExxonMobil's base stocks brochure (v12) p.6 also lists Synesstic™ AN under 'Group V', and its p.5 table names Synesstic 5 and 12 as alkylated naphthalenes (2026-10 audit)."
       },
       "chemistry": {
         "value": "Alkylated naphthalene",
@@ -97,11 +98,30 @@
       "test_temperature_c": 15,
       "method": null,
       "status": "Missing",
-      "calculation_note": null,
+      "calculation_note": "Not printed: the sheet prints only a specific gravity (recorded in specific_gravity), which is not converted to density.",
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
+      }
+    },
+    "specific_gravity": {
+      "value": 0.908,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity (60.1°F (15.6°C)) 0.908",
+      "unit": "dimensionless",
+      "reference_condition": "60.1°F (15.6°C)",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": "'Basics' table, Typical Value (English and SI) columns (p.1). Water reference temperature not printed. Not converted to density.",
+      "source": {
+        "file": "DL2-12122.pdf",
+        "page": 1,
+        "revision_date": "04/10/2015"
       }
     },
     "ccs": [

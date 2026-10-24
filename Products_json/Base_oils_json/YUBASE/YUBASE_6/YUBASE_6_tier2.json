@@ -14,23 +14,43 @@
   "fields": {
     "mrv": [
       {
-        "value": null,
-        "qualifier": null,
-        "min": null,
-        "max": null,
-        "value_kind": null,
-        "printed_text": null,
-        "unit": "mPa.s",
         "test_temperature_c": null,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in archived YUBASE 6 property sheet DL2-11306.pdf.",
-        "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in archived YUBASE 6 property sheet DL2-11306.pdf.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
         },
-        "flash_method": null
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in archived YUBASE 6 property sheet DL2-11306.pdf.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
       }
     ],
     "noack_volatility": {
@@ -94,8 +114,8 @@
   
   "open_questions": [
     "Confirm the manufacturer and distributor relationship between SK Lubricants/SK Enmove and NARMAK TRADE S.R.O. for archived YUBASE 6.",
-    "API Group III is supported by external SK Enmove manufacturer information but is not explicitly declared in archived property sheet DL2-11306.pdf. Confirm applicability to the historical grade.",
-    "A historical SK Lubricants YUBASE 6 SDS dated 2020-01-01 identifies the chemistry as distillates (petroleum), hydrotreated heavy paraffinic, CAS 64742-54-7. Confirm that this SDS applies to the undated archived grade.",
+    "API Group III for YUBASE 6 is now sourced to SK's official YUBASE site (archived 'Performance' page: all YUBASE except YUBASE-3/L3 are Group III); SK's 2000 paper agrees. Not stated in the archived NARMAK TRADE sheet. Confirm that the current YUBASE 6 is unchanged (2026-10 audit).",
+    "Chemistry provenance (2026-10 audit): earlier cited to a Scribd upload (https://ru.scribd.com/document/799055322/Global-English-YUBASE-6, uploaded by an unrelated user) described as an SK Lubricants YUBASE 6 SDS dated 2020-01-01 giving 100% distillates (petroleum), hydrotreated heavy paraffinic, CAS 64742-54-7. The Scribd page shows no document content, so that claim could not be verified and is not used. Chemistry is now sourced to the Hilditch Pty Ltd SDS HIL0045 (2021-09-28), which gives the same composition. Obtain SK Enmove's own YUBASE 6 SDS to confirm. Previous note: 'A historical SK Lubricants YUBASE 6 SDS dated 2020-01-01 identifies the chemistry as distillates (petroleum), hydrotreated heavy paraffinic, CAS 64742-54-7. Confirm that this SDS applies to the undated archived grade.'",
     "The specific-gravity entry at 15°C is printed as 0.8423 with the inconsistent unit g/m3. Verify the original units and measurement conditions before assigning density.",
     "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in archived property sheet DL2-11306.pdf.",
     "Noack volatility is reported as 7 wt% using DIN 51581. The supplied transcription does not specify a test temperature; do not assume one.",

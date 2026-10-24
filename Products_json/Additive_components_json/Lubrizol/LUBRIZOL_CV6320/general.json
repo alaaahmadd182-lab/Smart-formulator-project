@@ -26,7 +26,7 @@
       "primary": {
         "unit": null,
         "value": "Ashless Antiwear Performance Booster",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-12015.pdf",
           "page": 1,
@@ -37,7 +37,7 @@
       "secondary": {
         "unit": null,
         "value": null,
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
@@ -49,7 +49,7 @@
     "chemical_family": {
       "unit": null,
       "value": null,
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -67,7 +67,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -81,7 +81,7 @@
       "identity": {
         "unit": null,
         "value": "Mineral oil",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-12016.pdf",
           "page": 2,
@@ -99,7 +99,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "SDS Section 3 'Percent by Weight'. CAS Nos. listed: 64742-54-7, 64742-65-0, 64742-55-8, 64742-56-9.",
         "source": {
           "file": "DL2-12016.pdf",
@@ -119,7 +119,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Single recommended dose. Same 2.0 wt% printed in LUBRIZOL® CV1100 (DL2-11503.pdf) and CV1103 (DL2-14978.pdf) for their API FA-4 routes.",
       "source": {
         "file": "DL2-12015.pdf",
@@ -137,7 +137,7 @@
       ],
       "seals": [],
       "exclusions": [],
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-12015.pdf",
         "page": 1,
@@ -156,7 +156,7 @@
         "unit": "mg KOH/g",
         "test_temperature_c": null,
         "method": null,
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Chemical Characteristics, column 'Typical'.",
         "source": {
           "file": "DL2-12015.pdf",
@@ -175,14 +175,14 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "not_applicable",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
           "page": null,
           "revision_date": null
         },
-        "notes": "Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing."
+        "notes": "Not printed in the TDS or SDS. Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts', so an element that is not listed is recorded as Missing, not as absent (2026-10 audit)."
       },
       "mg": {
         "value": null,
@@ -194,14 +194,14 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "not_applicable",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
           "page": null,
           "revision_date": null
         },
-        "notes": "Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing."
+        "notes": "Not printed in the TDS or SDS. Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts', so an element that is not listed is recorded as Missing, not as absent (2026-10 audit)."
       },
       "p": {
         "value": null,
@@ -213,7 +213,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -232,14 +232,14 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "not_applicable",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
           "page": null,
           "revision_date": null
         },
-        "notes": "Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing."
+        "notes": "Not printed in the TDS or SDS. Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts', so an element that is not listed is recorded as Missing, not as absent (2026-10 audit)."
       },
       "mo": {
         "value": null,
@@ -251,14 +251,14 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "not_applicable",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
           "page": null,
           "revision_date": null
         },
-        "notes": "Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing."
+        "notes": "Not printed in the TDS or SDS. Previously 'Not Applicable', set by classification ('Sourced from classification against the template marker definitions (inferred from the printed product type and SDS composition), not from the product datasheet. Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing.'). The component template defines this marker for every additive component, and the extraction rule is 'Never infer absent facts', so an element that is not listed is recorded as Missing, not as absent (2026-10 audit)."
       }
     },
     "active_polymer": {
@@ -271,7 +271,7 @@
       "unit": null,
       "test_temperature_c": null,
       "method": null,
-      "status": "not_applicable",
+      "status": "Not Applicable",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -290,7 +290,7 @@
       "unit": null,
       "test_temperature_c": null,
       "method": null,
-      "status": "not_applicable",
+      "status": "Not Applicable",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -309,7 +309,7 @@
       "unit": null,
       "test_temperature_c": null,
       "method": null,
-      "status": "not_applicable",
+      "status": "Not Applicable",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -328,7 +328,7 @@
       "unit": null,
       "test_temperature_c": null,
       "method": null,
-      "status": "not_applicable",
+      "status": "Not Applicable",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -347,7 +347,7 @@
       "unit": null,
       "test_temperature_c": null,
       "method": null,
-      "status": "not_applicable",
+      "status": "Not Applicable",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -366,7 +366,7 @@
       "unit": null,
       "test_temperature_c": null,
       "method": null,
-      "status": "not_applicable",
+      "status": "Not Applicable",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -385,7 +385,7 @@
       "unit": null,
       "test_temperature_c": null,
       "method": null,
-      "status": "not_applicable",
+      "status": "Not Applicable",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -401,7 +401,7 @@
     "Function-specific marker not in template: SULFUR 0.60 (% weight, Typical; DL2-12015.pdf p.1).",
     "Physical properties (no field in the component template), DL2-12015.pdf p.1 (Target column): FLASH POINT, C, PMCC 181; POUR POINT, C -21; SPECIFIC GRAVITY @ 15.6 C 0.849 / 0.869 / 0.889 (min/target/max); VISCOSITY @ 100 C, CST 69; VISCOSITY @ 40 C, CST 787; LBS PER U.S. GAL @ 15.6 C 7.24. SDS DL2-12016.pdf p.4-5 prints the same: flash 181 °C (Pensky-Martens Closed Cup), relative density 0,849 - 0,889 (15,6 °C), 787 mm2/s (40 °C), 69 mm2/s (100 °C), pour point -21 °C.",
     "SDS supplier block names LUBRIZOL FRANCE (Rouen); TDS is The Lubrizol Corporation. SDS Issue Date 21.12.2017, Version 1.1.",
-    "2026-10-17: Ca, Mg, Zn, Mo markers set to N/A (ashless booster); P marker remains Missing."
+    "[History] 2026-10-17: Ca, Mg, Zn, Mo markers set to N/A (ashless booster); P marker remains Missing. Changed back to Missing (2026-10 audit): the N/A status was inferred from the product type and SDS composition; the template does not exclude these markers and absent elements are not inferred. Confirm Ca, Mg, Zn, Mo and P contents with Lubrizol."
   ],
   "conflicts": [],
   "external_fill_notes": [
@@ -409,32 +409,32 @@
       "value": null,
       "unit": null,
       "property": "function_specific_markers.ca",
-      "status": "not_applicable",
-      "source": "Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing.",
+      "status": "Missing",
+      "source": "Changed from 'Not Applicable' to Missing (2026-10 audit): no source states this marker. Superseded reasoning: 'Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing.'",
       "notes": null
     },
     {
       "value": null,
       "unit": null,
       "property": "function_specific_markers.mg",
-      "status": "not_applicable",
-      "source": "Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing.",
+      "status": "Missing",
+      "source": "Changed from 'Not Applicable' to Missing (2026-10 audit): no source states this marker. Superseded reasoning: 'Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing.'",
       "notes": null
     },
     {
       "value": null,
       "unit": null,
       "property": "function_specific_markers.zn",
-      "status": "not_applicable",
-      "source": "Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing.",
+      "status": "Missing",
+      "source": "Changed from 'Not Applicable' to Missing (2026-10 audit): no source states this marker. Superseded reasoning: 'Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing.'",
       "notes": null
     },
     {
       "value": null,
       "unit": null,
       "property": "function_specific_markers.mo",
-      "status": "not_applicable",
-      "source": "Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing.",
+      "status": "Missing",
+      "source": "Changed from 'Not Applicable' to Missing (2026-10 audit): no source states this marker. Superseded reasoning: 'Not applicable: CV6320 is printed as an 'Ashless Antiwear Performance Booster' (DL2-12015.pdf p.1). The metal markers (Ca/Mg for detergents, Zn for ZDDP, Mo for molybdenum additives) do not apply to an ashless (metal-free) booster; its SDS Section 3 names olefin sulfide, ethoxylated alcohol and aryl thiophosphate, no metal compound. The P marker is still applicable (thiophosphate antiwear) and stays Missing.'",
       "notes": null
     }
   ]

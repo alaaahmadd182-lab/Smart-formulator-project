@@ -25,7 +25,7 @@
       "package_type": {
         "unit": null,
         "value": "CI-4 Diesel Engine Oil Additive Package",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15536.pdf",
           "page": 1,
@@ -36,7 +36,7 @@
       "intended_service": {
         "unit": null,
         "value": "RF6077 is a Heavy-duty diesel engine oil additive package formulated with detergent, dispersant, anti-oxidant and other components.",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15536.pdf",
           "page": 1,
@@ -53,7 +53,7 @@
         "claim_type": "meets",
         "scope": "Recommended treat rate table: 15W-40, 20W-50, 8.76%. Text: '15W-40/20W-50 diesel engine oil blended with OCP VII in Group II base oil is compliant to API CI-4 specification.'",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15536.pdf",
           "page": 1,
@@ -67,7 +67,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "15W-40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15536.pdf",
           "page": 1,
@@ -79,7 +79,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "20W-50",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15536.pdf",
           "page": 1,
@@ -99,7 +99,7 @@
       "allowed_combinations": [
         "blended with OCP VII in Group II base oil"
       ],
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-15536.pdf",
         "page": 1,
@@ -113,7 +113,7 @@
       "limits": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -135,7 +135,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Grades printed '15W-40、20W-50'. Printed '%' (basis not stated).",
           "source": {
             "file": "DL2-15536.pdf",
@@ -160,7 +160,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": "Text: 'blended with OCP VII in Group II base oil'; product and dose not printed.",
           "source": {
             "file": null,
@@ -197,7 +197,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -208,7 +208,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,

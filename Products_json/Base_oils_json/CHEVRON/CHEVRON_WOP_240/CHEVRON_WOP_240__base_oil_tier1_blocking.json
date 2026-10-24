@@ -89,20 +89,20 @@
       }
     },
     "density": {
-      "value": null,
+      "value": 0.868,
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": "kg/m3",
+      "value_kind": "typical",
+      "printed_text": "Density at 15°C, kg/l (ASTM D1298): 0.868 (column 'WOP 240')",
+      "unit": "kg/L",
       "test_temperature_c": 15,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "method": "ASTM D1298",
+      "status": "Reported",
+      "calculation_note": "'Typical test data' table (p.3); the sheet states 'The information given in the typical data does not constitute a specification'. Printed unit kg/l.",
       "source": {
-        "file": null,
-        "page": null,
+        "file": "DL2-13008.pdf",
+        "page": 3,
         "revision_date": null
       }
     },

@@ -8,7 +8,10 @@
     "product_name": "Base Oil 150N GII+",
     "supplier": "Formosa Petrochemical Corporation",
     "document_type": "Product specification + MSDS",
-    "source_file": "DL2-10001.pdf; DL2-10011.pdf",
+    "source_file": [
+      "DL2-10001.pdf",
+      "DL2-10011.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
@@ -61,7 +64,7 @@
       "value_kind": "maximum",
       "printed_text": "Max 15 wt.%",
       "unit": "wt.% loss",
-      "test_temperature_c": 250,
+      "test_temperature_c": null,
       "method": "ASTM D5800",
       "status": "Reported",
       "calculation_note": null,
@@ -78,7 +81,7 @@
       "max": -15,
       "value_kind": "maximum",
       "printed_text": "Max -15 C",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D97 / D5950",
       "status": "Reported",
@@ -96,7 +99,7 @@
       "max": null,
       "value_kind": "minimum",
       "printed_text": "Min 210 C",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D92",
       "status": "Reported",
@@ -114,6 +117,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "flash_point",
       "source_a": {
         "file": "DL2-10001.pdf",

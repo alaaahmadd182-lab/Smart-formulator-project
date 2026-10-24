@@ -8,30 +8,53 @@
     "product_name": "Ultra-S 4 (100 Neutral)",
     "supplier": "S-OIL",
     "document_type": "Product Data Sheet",
-    "source_file": "DL2-11177.pdf",
+    "source_file": [
+      "DL2-11177.pdf",
+      "DL2-15139.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
     
     "mrv": [
       {
-        "value": null,
-        "qualifier": null,
-        "min": null,
-        "max": null,
-        "value_kind": null,
-        "printed_text": null,
-        "unit": "mPa.s",
         "test_temperature_c": null,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": null,
-        "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
         },
-        "flash_method": null
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
       }
     ],
     "noack_volatility": {
@@ -96,9 +119,31 @@
   "open_questions": [
     "SDS DL2-15139.pdf, revised 2015-06-10, reports 'Distillates (petroleum), hydrotreated light paraffinic' with CAS 64742-54-7. The printed description and CAS number appear inconsistent and require supplier clarification.",
     "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",
-    "No grade-specific CCS viscosity or CCS test temperature has been verified for Ultra-S 4.",
+    "CCS for Ultra-S 4 is recorded in Tier 1 as 1,500 mPa.s at -30 °C (ASTM D5293) from the current S-OIL Lube Base Oil web page; the archived 2009 sheet DL2-11177.pdf prints no CCS (2026-10 audit).",
     "MRV apparent viscosity, MRV yield stress, and MRV test temperature have not been verified for Ultra-S 4.",
     "Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15139.pdf remains pending."
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "conflict_type": "edition difference",
+      "field": "tier2.flash_point",
+      "values": [
+        {
+          "value": 228,
+          "printed_text": "228 °C (COC)",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 220,
+          "printed_text": "Flash Point, COC, ℃ (D92): 220",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 4: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 220. The recorded value is kept; not resolved (2026-10 audit)."
+    }
+  ]
 }

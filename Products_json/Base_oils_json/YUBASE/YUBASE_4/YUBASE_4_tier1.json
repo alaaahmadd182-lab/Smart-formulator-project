@@ -14,20 +14,20 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": "III",
+        "value": "Group III",
         "status": "Reported",
         "source": {
-          "file": "https://www.skenmove.com/business/base_oil",
+          "file": "https://web.archive.org/web/20190422064732/http://www.yubase.com:80/eng/product/pr_performance_01api.asp",
           "page": null,
           "revision_date": null
         },
-        "printed_text": "YUBASE: API Group III (SK Enmove official base oil classification)",
-        "value_kind": "reported",
+        "printed_text": "All YUBASE (with exception of YUBASE-3 and YUBASE-L3 both of which are Group II because their Viscosity Index is below 120) are Group III category",
+        "value_kind": "manufacturer product-line classification (grade named by the manufacturer)",
         "method": null,
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": "API Group III classification is attributed to SK Enmove's official YUBASE product information, not to the archived NARMAK TRADE property sheet DL2-11304.pdf. Preserve the external manufacturer reference for traceability.",
+        "calculation_note": "SK's official YUBASE site, 'Product > Performance' page (yubase.com, Wayback Machine snapshot 2019-04-22; identical text in the 2010-02-13 snapshot): 'All YUBASE (with exception of YUBASE-3 and YUBASE-L3 both of which are Group II because their Viscosity Index is below 120) are Group III category'. YUBASE 4 is listed as an SK grade on the same site's SDS page. Not stated in the archived NARMAK TRADE property sheet. Supersedes the brand-level SK Enmove page and the third-party SlideShare copy of SK Corporation's 2000 paper (slide 10), which agrees (2026-10 audit).",
         "flash_method": null,
         "test_temperature_c": null
       },
@@ -36,9 +36,9 @@
         "value": "Distillates (petroleum), hydrotreated heavy paraffinic",
         "status": "Reported",
         "source": {
-          "file": "https://www.slideshare.net/slideshow/yubase4-eng/33826605",
-          "page": 1,
-          "revision_date": "1999-02-12"
+          "file": "https://web.archive.org/web/20100214223317/http://www.yubase.com:80/eng/download/msds/SK%20Lubricants_MSDS_YUBASE%204%20(English).pdf",
+          "page": 3,
+          "revision_date": "2009-10-01"
         },
         "printed_text": "Distillate, Hydrotreated Heavy Paraffines",
         "value_kind": "supplier SDS composition",
@@ -46,7 +46,7 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": "Historical SK Corporation YUBASE 4 MSDS No. 739-YU4-02, Section 2, reports 100% hydrotreated heavy paraffinic distillate, CAS 64742-54-7. This is an external historical SDS, not the archived NARMAK TRADE property sheet DL2-11304.pdf.",
+        "calculation_note": "SK Lubricants Material Safety Data Sheet for YUBASE 4 (MSDS No. YUB400(ENG), date of issue 2009.10.01), from SK's own site yubase.com via a Wayback Machine snapshot (2010-02-14, original bytes), Section 3 p.3: 'Distillate, Hydrotreated Heavy Paraffines' 100 wt%, CAS 64742-54-7. Previously sourced to a third-party SlideShare copy of the 1999 SK Corporation MSDS No. 739-YU4-02 (same composition). Not stated in the archived NARMAK TRADE sheet DL2-11304.pdf (2026-10 audit).",
         "flash_method": null,
         "test_temperature_c": null,
         "unit": null
@@ -156,8 +156,8 @@
  
   "open_questions": [
     "Confirm the manufacturer and distributor relationship between SK Corporation/SK Enmove and NARMAK TRADE S.R.O. for archived YUBASE 4.",
-    "API Group III classification is supported by SK Enmove manufacturer information but is not explicitly stated in archived property sheet DL2-11304.pdf. Confirm that the classification applies to the archived grade.",
-    "Historical SK Corporation YUBASE 4 MSDS No. 739-YU4-02, dated 1999-02-12, identifies the chemistry as hydrotreated heavy paraffinic petroleum distillate (CAS 64742-54-7). Confirm that this historical composition applies to the archived NARMAK TRADE product grade.",
+    "API Group III for YUBASE 4 is now sourced to SK's official YUBASE site (archived 'Performance' page: all YUBASE except YUBASE-3/L3 are Group III); SK's 2000 paper agrees. Not stated in the archived NARMAK TRADE sheet. Confirm that the current YUBASE 4 is unchanged (2026-10 audit).",
+    "[History] Chemistry is now sourced to SK Lubricants' 2009 YUBASE 4 MSDS (YUB400, archived from yubase.com), which agrees with the 1999 SK Corporation MSDS (2026-10 audit). Previous note: 'Historical SK Corporation YUBASE 4 MSDS No. 739-YU4-02, dated 1999-02-12, identifies the chemistry as hydrotreated heavy paraffinic petroleum distillate (CAS 64742-54-7). Confirm that this historical composition applies to the archived NARMAK TRADE product grade.'",
     "The specific-gravity entry at 15°C is printed as 0.8338 with the inconsistent unit g/m3. Verify the original unit and measurement conditions before assigning a density value.",
     "No grade-specific CCS cold-cranking viscosity, test temperature, or test method is reported in archived property sheet DL2-11304.pdf.",
     "Confirm the issue date of the archived NARMAK TRADE property sheet and whether newer applicable TDS/SDS revisions are available."

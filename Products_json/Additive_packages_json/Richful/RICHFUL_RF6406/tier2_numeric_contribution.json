@@ -34,10 +34,10 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "SH/T0251, ASTM D2896",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": null,
       "source": {
-        "file": null,
+        "file": "https://www.richful.com/catalogueDetail.html?id=130",
         "page": null,
         "revision_date": null,
         "url": "https://www.richful.com/catalogueDetail.html?id=130",
@@ -56,7 +56,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "Calculated (ASTM D874 factors)",
-      "status": "calculated",
+      "status": "Calculated",
       "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×6.8 (Ca) + 1.24×2.23 (Zn) = 25.8852 → 25.89 wt.%. Mg not reported, taken as 0.",
       "source": {
         "file": null,
@@ -76,7 +76,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T17476, ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '5.98-7.30'. Compared with DL2-14746.pdf (which prints only a minimum) on the index minimum. Same value in: DL2-14746.pdf p.1 (undated): 'Ca Content，%（m/m） ≥5.98 GB/T17476，ASTM D4951'.",
         "source": {
           "file": "DL2-15456.pdf",
@@ -95,7 +95,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -114,7 +114,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T17476, ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '1.97-2.53'. Compared with DL2-14746.pdf (which prints only a minimum) on the index minimum. Same value in: DL2-14746.pdf p.1 (undated): 'Zn Content，%（m/m） ≥1.97 GB/T17476，ASTM D4951'.",
         "source": {
           "file": "DL2-15456.pdf",
@@ -133,7 +133,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T 17476, ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '1.72-2.10'.",
         "source": {
           "file": "DL2-15456.pdf",
@@ -152,7 +152,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -171,7 +171,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -190,7 +190,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "SH/T 0704, ASTM D5762",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '0.34-0.46'.",
         "source": {
           "file": "DL2-15456.pdf",
@@ -209,7 +209,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -229,7 +229,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -248,7 +248,7 @@
       "unit": "mm2/s",
       "test_temperature_c": 100,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Same value in: DL2-15456.pdf p.1 (undated): 'Kinematic Viscosity (100℃), mm2/s Report 72 GB/T265, ASTM D445'.",
       "source": {
         "file": "RF6406.pdf",
@@ -267,7 +267,7 @@
       "unit": "g/cm³",
       "test_temperature_c": 20,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "SDS Section 9; 1.06 g/cm³ = 1060 kg/m3 (same value). Same value in: DL2-15456.pdf p.1 (undated): 'Density (20℃), kg/m3 1037-1077 1060 SH/T 0604, ASTM D4052'.",
       "source": {
         "file": "RF6406.pdf",
@@ -283,10 +283,10 @@
       "max": null,
       "value_kind": "specification",
       "printed_text": "Flash point : ≥180 °C (COC)",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "COC (ASTM D92)",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Same value in: DL2-15456.pdf p.1 (undated): 'Flash Point (COC), ℃ ≮180 223 GB/T3536, ASTM D92'; DL2-14746.pdf p.1 (undated): 'Flash Point (COC),℃ ≮180 GB/T3536，ASTMD92'.",
       "source": {
         "file": "RF6406.pdf",
@@ -303,10 +303,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -326,6 +326,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier2.tbn",
       "values": [
         {
@@ -351,7 +352,7 @@
       "value": null,
       "unit": null,
       "property": "tbn",
-      "status": "reported",
+      "status": "Reported",
       "source": "Richful official product page, https://www.richful.com/catalogueDetail.html?id=130 (retrieved 2026-10-17)",
       "notes": null
     }

@@ -14,23 +14,23 @@
   "fields": {
     "mrv": [
       {
-        "test_temperature_c": null,
+        "test_temperature_c": -40,
         "mrv_viscosity": {
-          "value": null,
+          "value": 2023,
           "qualifier": null,
           "min": null,
           "max": null,
-          "value_kind": null,
-          "printed_text": null,
-          "unit": "mPa.s",
-          "test_temperature_c": null,
-          "method": null,
-          "status": "Missing",
-          "calculation_note": null,
+          "value_kind": "typical",
+          "printed_text": "Apparent Viscosity by Mini-Rotary Viscometer 2 | -40\u00b0F (-40\u00b0C) | 2023 cP",
+          "unit": "cP",
+          "test_temperature_c": -40,
+          "method": "ASTM D4684",
+          "status": "Reported",
+          "calculation_note": "'Flow' table, Typical Value (SI) column (p.1); footnote 2 on 'Apparent Viscosity by Mini-Rotary Viscometer': 'Single sample or two sample average determinations'. Sheet note: 'Typical properties: these are not to be construed as specifications.'",
           "source": {
-            "file": null,
-            "page": null,
-            "revision_date": null
+            "file": "DL2-11381.pdf",
+            "page": 1,
+            "revision_date": "07/17/2007"
           }
         },
         "yield_stress": {
@@ -44,7 +44,7 @@
           "test_temperature_c": null,
           "method": null,
           "status": "Missing",
-          "calculation_note": null,
+          "calculation_note": "Not printed in DL2-11381.pdf; only the MRV apparent viscosity at -40 \u00b0C is given. Not derived from the viscosity.",
           "source": {
             "file": null,
             "page": null,
@@ -54,17 +54,17 @@
       }
     ],
     "noack_volatility": {
-      "value": 12.0,
-      "qualifier": "Typical (reported upper bound)",
+      "value": null,
+      "qualifier": "<",
       "min": null,
-      "max": null,
-      "value_kind": "maximum",
+      "max": 12.0,
+      "value_kind": "upper bound",
       "printed_text": "< 12.0",
       "unit": "wt%",
-      "test_temperature_c": 250,
+      "test_temperature_c": null,
       "method": "ASTM D5800/DIN 51581",
       "status": "Reported",
-      "calculation_note": null,
+      "calculation_note": "Printed '< 12.0' in the Typical Value (SI) column (p.1): a strict upper bound, not a measured value; no value is assigned. Normalised 2026-10-23 from value 12.0 with qualifier 'Typical (reported upper bound)'.",
       "source": {
         "file": "DL2-11381.pdf",
         "page": 1,
@@ -72,17 +72,17 @@
       }
     },
     "pour_point": {
-      "value": -60.0,
-      "qualifier": "Typical (reported upper bound)",
+      "value": null,
+      "qualifier": "<",
       "min": null,
-      "max": null,
-      "value_kind": "maximum",
+      "max": -60.0,
+      "value_kind": "upper bound",
       "printed_text": "< -60.0",
       "unit": "\u00b0C",
       "test_temperature_c": null,
       "method": "ASTM D5950/D97",
       "status": "Reported",
-      "calculation_note": null,
+      "calculation_note": "Printed '< -60' in the Typical Value (SI) column (p.1): a strict upper bound, not a measured value; no value is assigned. Normalised 2026-10-23 from value -60.0 with qualifier 'Typical (reported upper bound)'.",
       "source": {
         "file": "DL2-11381.pdf",
         "page": 1,

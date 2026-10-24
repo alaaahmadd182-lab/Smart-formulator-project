@@ -61,7 +61,7 @@
       "value_kind": null,
       "printed_text": null,
       "unit": "wt.% loss",
-      "test_temperature_c": 250,
+      "test_temperature_c": null,
       "method": null,
       "status": "Missing",
       "calculation_note": null,
@@ -91,22 +91,22 @@
     },
     "flash_point": {
       "value": null,
-      "qualifier": null,
-      "min": null,
+      "qualifier": ">",
+      "min": 150,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": "C",
+      "value_kind": "lower bound",
+      "printed_text": "Flash Point, COC | > 302 \u00b0F | > 150 \u00b0C | ASTM D92",
+      "unit": "\u00b0C",
       "test_temperature_c": null,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": "'Basics' table, Typical Value (SI) column (p.1). Printed '> 150 \u00b0C': a strict lower bound, not a measured value; no value is assigned.",
       "source": {
-        "file": null,
-        "page": null,
-        "revision_date": null
+        "file": "DL2-11331.pdf",
+        "page": 1,
+        "revision_date": "07/30/2015"
       },
-      "flash_method": null
+      "flash_method": "COC"
     }
   },
   "open_questions": [],

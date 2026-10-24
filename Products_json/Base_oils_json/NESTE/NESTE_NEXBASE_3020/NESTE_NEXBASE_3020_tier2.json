@@ -8,7 +8,10 @@
     "product_name": "NEXBASE 3020",
     "supplier": "Neste (Suisse) S.A.",
     "document_type": "Safety Data Sheet",
-    "source_file": "DL2-14513.pdf; DL2-14514.pdf",
+    "source_file": [
+      "DL2-14513.pdf",
+      "DL2-14514.pdf"
+    ],
     "revision_date": "2020-06-16"
   },
   "fields": {
@@ -78,7 +81,7 @@
       "max": null,
       "value_kind": "limit",
       "printed_text": "Pour point ≤ -42°C (ASTM D-97)",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D97",
       "status": "Reported",
@@ -96,7 +99,7 @@
       "max": null,
       "value_kind": "limit",
       "printed_text": "Flash point > 150°C (ASTM D-93)",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D93",
       "status": "Reported",

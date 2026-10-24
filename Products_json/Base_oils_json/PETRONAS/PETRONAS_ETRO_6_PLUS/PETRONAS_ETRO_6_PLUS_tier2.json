@@ -8,7 +8,10 @@
     "product_name": "ETRO 6+",
     "supplier": "PETRONAS Lubricants International",
     "document_type": "Product Data Sheet + Safety Data Sheet",
-    "source_file": "DL2-10234.pdf",
+    "source_file": [
+      "DL2-10234.pdf",
+      "DL2-14610.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
@@ -78,7 +81,7 @@
       "max": -15,
       "value_kind": "typical",
       "printed_text": "-18°C; specification ≤-15°C",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D97 / ASTM D5950",
       "status": "Reported",
@@ -96,7 +99,7 @@
       "max": null,
       "value_kind": "typical",
       "printed_text": "240°C; specification ≥220°C",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D92",
       "status": "Reported",
@@ -117,6 +120,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "kv40",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "32.55 cSt at 40°C (ASTM D445)",
@@ -125,6 +129,7 @@
       "assessment": "Different reported values; retain TDS typical value, flag for review."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "flash_point",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "240°C ASTM D92 (COC)",
@@ -133,6 +138,7 @@
       "assessment": "Different methods, not directly comparable; both values retained."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "noack_volatility",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "5.7 mass% ASTM D5800-B",
@@ -141,6 +147,7 @@
       "assessment": "Different reported values; retain TDS typical value, flag for review."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "density",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "0.8429 kg/L (temperature not stated)",

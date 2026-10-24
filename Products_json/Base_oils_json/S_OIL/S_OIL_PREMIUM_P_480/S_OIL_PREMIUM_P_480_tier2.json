@@ -15,23 +15,43 @@
    
     "mrv": [
       {
-        "value": null,
-        "qualifier": null,
-        "min": null,
-        "max": null,
-        "value_kind": null,
-        "printed_text": null,
-        "unit": "mPa.s",
         "test_temperature_c": null,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": null,
-        "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
         },
-        "flash_method": null
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
       }
     ],
     "noack_volatility": {

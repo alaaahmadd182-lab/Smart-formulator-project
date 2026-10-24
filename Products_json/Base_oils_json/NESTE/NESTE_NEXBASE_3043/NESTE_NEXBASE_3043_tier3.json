@@ -8,7 +8,10 @@
     "product_name": "NEXBASE 3043",
     "supplier": "Neste N.V.",
     "document_type": "Technical Data Sheet; Safety Data Sheet",
-    "source_file": "DL2-10037.pdf; DL2-15010.pdf",
+    "source_file": [
+      "DL2-10037.pdf",
+      "DL2-15010.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
@@ -73,7 +76,7 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
       "status": "Missing",

@@ -1,0 +1,425 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "AFTON_HITEC_12250",
+  "product": {
+    "product_name": "HiTEC® 12250",
+    "supplier": "Afton Chemical Corporation",
+    "document_type": [
+      "PDS"
+    ],
+    "source_file": [
+      "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf"
+    ],
+    "revision_date": "06/17"
+  },
+  "component_subtype": null,
+  "fields": {
+    "function": {
+      "primary": {
+        "unit": null,
+        "value": "Booster package",
+        "status": "Reported",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": "Printed: 'The performance level of HiTEC® 12204L can also be achieved through the use of HiTEC® 12250 booster package at 4.2% in combination with HiTEC® 12200 at 10.3%' (Afton HiTEC 12204L PDS, 06/17, p.2). The booster's chemistry is not stated."
+      },
+      "secondary": {
+        "unit": null,
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "chemical_family": {
+      "unit": null,
+      "value": null,
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "basis": null,
+      "notes": null
+    },
+    "carrier": {
+      "identity": {
+        "unit": null,
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "treat_rate": {
+      "value": 4.2,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": "HiTEC® 12250 booster package at 4.2% in combination with HiTEC® 12200 at 10.3%",
+      "unit": "%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "Formulation-specific dose only: 4.2% HiTEC® 12250 together with 10.3% HiTEC® 12200, stated to achieve the performance level of HiTEC® 12204L (recommended at '14.2% wt', API CI-4 Plus SAE 15W-40). Not a general treat rate; no min/max/typical range is printed. Printed '%' (basis not stated for this dose). The archived HiTEC 12200 leaflet DL2-14639.pdf p.2 prints the same combination ('14.2% HiTEC® 12204L = 10.3% HiTEC® 12200 + 4.2% HiTEC® 12250').",
+      "source": {
+        "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+        "page": 2,
+        "revision_date": "06/17"
+      },
+      "notes": null
+    },
+    "compatibility_restrictions": {
+      "value": null,
+      "unit": null,
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": 30,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Total Base Number, mg KOH/g: 30",
+        "unit": "mg KOH/g",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Reported",
+        "calculation_note": "'Typical Characteristics' table, column 'HiTEC® 12250' (p.2). No test method is printed.",
+        "source": {
+          "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+          "page": 2,
+          "revision_date": "06/17"
+        },
+        "notes": null
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "Not printed in the HiTEC 12204L PDS (06/17); not inferred.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "Not printed in the HiTEC 12204L PDS (06/17); not inferred.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "Not printed in the HiTEC 12204L PDS (06/17); not inferred.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "Not printed in the HiTEC 12204L PDS (06/17); not inferred.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "Not printed in the HiTEC 12204L PDS (06/17); not inferred.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "active_polymer": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Not printed for HiTEC® 12250 in the Afton HiTEC 12204L PDS (06/17, p.2). Missing pending confirmation of the product's specific function: the PDS calls it a 'booster package' but does not state that it has no viscosity-modifying function, so non-applicability of the VM block is not inferred from the product description (same treatment as AFTON_HITEC_8767B). Confirm with Afton."
+    },
+    "dissolution_blend_temperature": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Not printed for HiTEC® 12250 in the Afton HiTEC 12204L PDS (06/17, p.2). Missing pending confirmation of the product's specific function: the PDS calls it a 'booster package' but does not state that it has no viscosity-modifying function, so non-applicability of the VM block is not inferred from the product description (same treatment as AFTON_HITEC_8767B). Confirm with Afton."
+    },
+    "polymer_chemistry": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Not printed for HiTEC® 12250 in the Afton HiTEC 12204L PDS (06/17, p.2). Missing pending confirmation of the product's specific function: the PDS calls it a 'booster package' but does not state that it has no viscosity-modifying function, so non-applicability of the VM block is not inferred from the product description (same treatment as AFTON_HITEC_8767B). Confirm with Afton."
+    },
+    "post_shear_blend_behaviour": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Not printed for HiTEC® 12250 in the Afton HiTEC 12204L PDS (06/17, p.2). Missing pending confirmation of the product's specific function: the PDS calls it a 'booster package' but does not state that it has no viscosity-modifying function, so non-applicability of the VM block is not inferred from the product description (same treatment as AFTON_HITEC_8767B). Confirm with Afton."
+    },
+    "shear_stability": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Not printed for HiTEC® 12250 in the Afton HiTEC 12204L PDS (06/17, p.2). Missing pending confirmation of the product's specific function: the PDS calls it a 'booster package' but does not state that it has no viscosity-modifying function, so non-applicability of the VM block is not inferred from the product description (same treatment as AFTON_HITEC_8767B). Confirm with Afton."
+    },
+    "thickening_response": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Not printed for HiTEC® 12250 in the Afton HiTEC 12204L PDS (06/17, p.2). Missing pending confirmation of the product's specific function: the PDS calls it a 'booster package' but does not state that it has no viscosity-modifying function, so non-applicability of the VM block is not inferred from the product description (same treatment as AFTON_HITEC_8767B). Confirm with Afton."
+    },
+    "treat_range_by_sae_grade": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "Not printed for HiTEC® 12250 in the Afton HiTEC 12204L PDS (06/17, p.2). Missing pending confirmation of the product's specific function: the PDS calls it a 'booster package' but does not state that it has no viscosity-modifying function, so non-applicability of the VM block is not inferred from the product description (same treatment as AFTON_HITEC_8767B). Confirm with Afton."
+    }
+  },
+  "open_questions": [
+    "Source: no HiTEC 12250 data sheet is in the archive or was found. All values come from Afton's HiTEC 12204L PDS (printed edition '06/17', © 2017 Afton Chemical Corporation), retrieved as the Internet Archive original-bytes copy captured 2020-10-23 (SHA-256 7a1e57d81d66b52b83215da261732256867d89b651c75334068022362a74183e), p.2 'Typical Characteristics' column 'HiTEC® 12250'. Afton's live site blocks automated access. The archived HiTEC 12200 leaflet DL2-14639.pdf gives only the dose.",
+    "Printed properties with no field in the component template (HiTEC 12204L PDS 06/17, p.2, column 'HiTEC® 12250', typical characteristics): Density, lbs/gal. 7.67; Specific Gravity @ 15.6/15.6°C 0.920; Viscosity @ 100°C, cSt 175; Flash Point, °C (PMCC) 135 min.",
+    "Handling information printed for 'HiTEC® 12204L and HiTEC® 12250' (p.2), no template field: Max Handling Temp: 70˚C; Shelf Life: 3 months @ 45°C, 36 months @ ambient (10-40°C).",
+    "Treat rate: the only dose is 4.2% with 10.3% HiTEC® 12200 to reach HiTEC® 12204L performance (12204L itself: 14.2% wt). The basis of the 4.2% is not printed, and 10.3% + 4.2% = 14.5% differs from the 14.2% 12204L rate; recorded as printed, not reconciled. Confirm with Afton.",
+    "Chemical family, active content, carrier identity/share, compatibility restrictions and Ca, Mg, P, Zn, Mo contents are not printed; left Missing and not inferred from HiTEC 12204L or HiTEC 12200. component_subtype left null (booster, not VM or PPD). Confirm with Afton."
+  ],
+  "conflicts": [],
+  "external_fill_notes": [
+    {
+      "value": null,
+      "unit": null,
+      "property": "function.primary",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 12204L PDS, edition 06/17, p.2 (Internet Archive original-bytes copy captured 2020-10-23): https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "treat_rate",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 12204L PDS, edition 06/17, p.2 (Internet Archive original-bytes copy captured 2020-10-23): https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "function_specific_markers.tbn",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 12204L PDS, edition 06/17, p.2 (Internet Archive original-bytes copy captured 2020-10-23): https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+      "notes": null
+    }
+  ]
+}

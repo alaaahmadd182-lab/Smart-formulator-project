@@ -8,26 +8,29 @@
     "product_name": "Ultra-S 4 (100 Neutral)",
     "supplier": "S-OIL",
     "document_type": "Product Data Sheet",
-    "source_file": "DL2-11177.pdf",
+    "source_file": [
+      "DL2-11177.pdf",
+      "DL2-15139.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": "Group III",
-        "status": "Reported",
+        "value": null,
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
           "revision_date": null
         },
-        "printed_text": "aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties",
-        "value_kind": "reported_classification",
-        "method": "S-OIL official base-oil product information",
+        "printed_text": null,
+        "value_kind": null,
+        "method": null,
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": "Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.",
+        "calculation_note": null,
         "flash_method": null,
         "test_temperature_c": null
       },
@@ -109,40 +112,80 @@
       "flash_method": null
     },
     "density": {
-      "value": null,
+      "value": 0.835,
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": null,
-      "test_temperature_c": null,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "value_kind": "typical",
+      "printed_text": "Density @ 15.6℃, kg/L: 0.8350",
+      "unit": "kg/L",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052 (D1298)",
+      "status": "Reported",
+      "calculation_note": "From the current S-OIL Lube Base Oil web page, 'Ultra-S Base Oil Typical Properties' table (undated, retrieved 2026-10-21). The archived 2009 sheet DL2-11177.pdf prints specific gravity 15/4 °C, which is not density; it is recorded separately in specific_gravity and not converted. Other values in this record come from archived documents; edition differences are listed in conflicts (2026-10 audit).",
       "source": {
-        "file": null,
+        "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
         "page": null,
         "revision_date": null
       },
       "flash_method": null
     },
+    "specific_gravity": {
+      "value": 0.834,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Sp.Gravity, 15/4 °C | D 1298 | 0.834 (column 'Ultra-S 4')",
+      "unit": "dimensionless",
+      "reference_condition": "15/4 °C",
+      "test_temperature_c": null,
+      "method": "ASTM D1298",
+      "status": "Reported",
+      "calculation_note": "'Typical Properties' table, column 'Ultra-S 4' (p.1). Printed reference '15/4 °C' (no separate sample-temperature label); test_temperature_c left null. Not converted to density.",
+      "source": {
+        "file": "DL2-11177.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "alternate_entries": [
+        {
+          "value": 0.834,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "single",
+          "printed_text": "RELATIVE DENSITY 0.834 @ 15 ℃",
+          "unit": "dimensionless",
+          "reference_condition": "15℃",
+          "test_temperature_c": 15,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": "SDS (p.2) prints 'RELATIVE DENSITY 0.834 @ 15 ℃' with no method and no water reference temperature; relative density is dimensionless and recorded as specific gravity. Not converted to density.",
+          "source": {
+            "file": "DL2-15139.pdf",
+            "page": 2,
+            "revision_date": "2015-06-10"
+          }
+        }
+      ]
+    },
         
     "ccs": [
       {
-        "value": null,
+        "value": 1500,
         "qualifier": null,
         "min": null,
         "max": null,
-        "value_kind": null,
-        "printed_text": null,
+        "value_kind": "typical",
+        "printed_text": "CCS Viscosity @ -30℃, mPa-s: 1,500",
         "unit": "mPa.s",
-        "test_temperature_c": null,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": null,
+        "test_temperature_c": -30,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "From the current S-OIL Lube Base Oil web page, 'Ultra-S Base Oil Typical Properties' table (undated, retrieved 2026-10-21); the archived 2009 sheet DL2-11177.pdf prints no CCS (2026-10 audit).",
         "source": {
-          "file": null,
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
           "page": null,
           "revision_date": null
         },
@@ -155,8 +198,73 @@
   "open_questions": [
     "S-OIL Ultra-S 4 SDS revised 2015-06-10 reports Distillates (petroleum), hydrotreated light paraffinic; CAS 64742-54-7; purity 100%. The printed description and CAS number appear inconsistent and require supplier clarification.",
     "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",
-    "No grade-specific CCS viscosity or CCS test temperature has been verified for Ultra-S 4.",
-    "Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15139.pdf remains pending."
+    "CCS for Ultra-S 4 is recorded in Tier 1 as 1,500 mPa.s at -30 °C (ASTM D5293) from the current S-OIL Lube Base Oil web page; the archived 2009 sheet DL2-11177.pdf prints no CCS (2026-10 audit).",
+    "Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15139.pdf remains pending.",
+    "API Group (2026-10 audit): previously recorded as 'Group III' (Reported, no source; printed_text 'aramcoULTRA (Group III); S-OIL states Ultra-S and aramcoULTRA have the same properties'; note 'Classification supported by manufacturer-published Ultra-S/aramcoULTRA equivalence; not directly stated in the historical grade-specific SDS.'). No archived or public S-OIL document classifies Ultra-S 4 directly, so the field is now Missing. Indirect evidence only, not a classification of Ultra-S: (1) S-OIL states 'Ultra-S base oil is S-OIL's own brand product and has the same properties with armcoULTRA base oil' and lists identical typical properties for Ultra-S 4 and aramcoULTRA 4 (https://www.s-oil.com/en/energy/LubeBaseOil.aspx, undated, retrieved 2026-10-21); (2) the Aramco base-oil catalog 2024 p.25 lists aramcoULTRA 4 as API Base Oil Category Group III (https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf). Confirm the API Group of Ultra-S 4 with S-OIL."
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "conflict_type": "edition difference",
+      "field": "tier1.kv40",
+      "values": [
+        {
+          "value": 19.62,
+          "printed_text": "19.62 cSt @40°C",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 19.7,
+          "printed_text": "Kinematic Viscosity @ 40℃, cSt (D445): 19.7",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 4: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 19.7. The recorded value is kept; not resolved (2026-10 audit)."
+    },
+    {
+      "conflict_type": "edition difference",
+      "field": "tier1.kv100",
+      "values": [
+        {
+          "value": 4.247,
+          "printed_text": "4.247 cSt @100°C",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 4.27,
+          "printed_text": "Kinematic Viscosity @ 100℃, cSt (D445): 4.27",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 4: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 4.27. The recorded value is kept; not resolved (2026-10 audit)."
+    },
+    {
+      "conflict_type": "edition difference",
+      "field": "tier1.viscosity_index",
+      "values": [
+        {
+          "value": 123,
+          "printed_text": "123",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 124,
+          "printed_text": "Viscosity Index (D2270): 124",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 4: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 124. The recorded value is kept; not resolved (2026-10 audit)."
+    }
+  ]
 }

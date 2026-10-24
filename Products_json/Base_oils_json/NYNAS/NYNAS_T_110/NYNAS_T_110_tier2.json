@@ -1,0 +1,116 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "NYNAS_T_110",
+  "product": {
+    "product_name": "Nynas T 110",
+    "supplier": "Nynas",
+    "document_type": "Product Data Sheet",
+    "source_file": "DL2-12370.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": "No MRV value printed on DL2-12370.pdf.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": "No MRV yield stress printed on DL2-12370.pdf.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% loss",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "No Noack volatility printed on DL2-12370.pdf. test_temperature_c is null because the source reports no test condition.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -30,
+      "qualifier": null,
+      "min": null,
+      "max": -15,
+      "value_kind": "typical",
+      "printed_text": "Pour point, °C, D 97: guaranteed max -15; typical -30",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12370.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 212,
+      "qualifier": null,
+      "min": 206,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Flash Point, PM, °C, D 93A: guaranteed min 206; typical 212",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D93A",
+      "status": "Reported",
+      "calculation_note": "Method printed as 'D 93A' (Pensky-Martens, procedure A).",
+      "source": {
+        "file": "DL2-12370.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "PM"
+    }
+  },
+  "open_questions": [
+    "No Noack volatility or MRV value is printed on DL2-12370.pdf."
+  ],
+  "conflicts": []
+}

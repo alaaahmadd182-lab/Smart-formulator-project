@@ -1,0 +1,145 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "FORMOSA_FPCC_70N_GII",
+  "product": {
+    "product_name": "FPCC 70N GII",
+    "supplier": "Formosa Petrochemical Corporation",
+    "document_type": "Product specification",
+    "source_file": "DL2-12108.jpeg",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group II",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12108.jpeg",
+          "page": 1,
+          "revision_date": null
+        },
+        "printed_text": "Title 'Specification of FPCC API GII Base Oil' over the 70N, 150N and 500N columns",
+        "value_kind": "supplier description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "Family-level evidence: the title covers the whole table (70N, 150N, 500N); no separate grade-specific statement is printed for 70N."
+      },
+      "chemistry": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "Not printed on DL2-12108.jpeg; no FPCC 70N SDS is in the archive. Not inferred from the API Group."
+      }
+    },
+    "kv40": {
+      "value": 12.76,
+      "qualifier": null,
+      "min": 11,
+      "max": 13.8,
+      "value_kind": "typical",
+      "printed_text": "Viscosity @40℃, cSt, ASTM D-445: Specification 11~13.8; Typical 12.76 (columns 'Specification 70N' and 'Typical (2017 AUG) 70N')",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": "Typical value from the column headed 'Typical (2017 AUG)'; '2017 AUG' dates the typical data, not the document.",
+      "source": {
+        "file": "DL2-12108.jpeg",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 3.031,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity @100℃, cSt, ASTM D-445: Specification 'Report'; Typical 3.031 (columns 'Specification 70N' and 'Typical (2017 AUG) 70N')",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": "Typical value from the column headed 'Typical (2017 AUG)'; '2017 AUG' dates the typical data, not the document. The specification is printed 'Report' (no limit).",
+      "source": {
+        "file": "DL2-12108.jpeg",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 88,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity Index, min, ASTM D-2270: Specification 'Report'; Typical 88 (columns 'Specification 70N' and 'Typical (2017 AUG) 70N')",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": "Typical value from the column headed 'Typical (2017 AUG)'; '2017 AUG' dates the typical data, not the document. The specification is printed 'Report' (no minimum given for 70N).",
+      "source": {
+        "file": "DL2-12108.jpeg",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 0.8518,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density 15℃, kg/L, ASTM-D4052: Specification 'Report'; Typical 0.8518 (columns 'Specification 70N' and 'Typical (2017 AUG) 70N')",
+      "unit": "kg/L",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": "Typical value from the column headed 'Typical (2017 AUG)'; '2017 AUG' dates the typical data, not the document. The specification is printed 'Report' (no limit).",
+      "source": {
+        "file": "DL2-12108.jpeg",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "No CCS value is printed on DL2-12108.jpeg. The test_temperature_c of -25 is the template default, not a condition reported by the source.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "Source identity: DL2-12108.jpeg, DL2-12109.jpeg and DL2-12111.jpeg are pixel-identical copies of one image (bytes differ only in embedded EXIF titles 'FORMOSA 500N', '150N' and 'FORMOSA 70N', which are not printed); they count as one source, cited as DL2-12108.jpeg.",
+    "The image prints 'FPCC' only (title 'Specification of FPCC API GII Base Oil'); the supplier is recorded as Formosa Petrochemical Corporation per the archive folder and inventory. Confirm with the supplier.",
+    "No document revision or issue date is printed. '2017 AUG' appears only in the column heading 'Typical (2017 AUG)' and dates the typical data; revision_date left null.",
+    "API Group II is taken from the title covering all three grades (family-level evidence). The typical viscosity index of 70N is 88 and its VI specification is 'Report'.",
+    "Chemistry is not printed, and no FPCC 70N SDS is in the archive. No CCS value is printed.",
+    "Printed properties with no template field (DL2-12108.jpeg, 70N): Color, max, ASTM D-1500: Specification +0.5, Typical <0.5; Water Content, ppmw, max, ASTM D-6304: Specification 50, Typical 32.60; Appearance, Visual: B & C / B & C ('* B&C - Bright and Clear @ ambient air temperature')."
+  ],
+  "conflicts": []
+}

@@ -14,26 +14,37 @@
   "fields": {
     "mrv": [
       {
-        "value": null,
-        "qualifier": null,
-        "min": null,
-        "max": null,
-        "value_kind": null,
-        "printed_text": null,
-        "unit": "mPa.s",
         "test_temperature_c": null,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": null,
-        "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
         },
         "yield_stress": {
           "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
           "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
           "status": "Missing",
+          "calculation_note": null,
           "source": {
             "file": null,
             "page": null,
@@ -43,38 +54,38 @@
       }
     ],
     "noack_volatility": {
-      "value": null,
+      "value": 4.0,
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": null,
+      "value_kind": "typical",
+      "printed_text": "Noack Volatility, wt% (Procedure B): 4.0",
+      "unit": "wt%",
       "test_temperature_c": null,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "method": "ASTM D5800 (Procedure B)",
+      "status": "Reported",
+      "calculation_note": "From the current S-OIL Lube Base Oil web page, 'Typical Properties of aramcoULTRA Base Oil' table, aramcoULTRA 8 column (undated, retrieved 2026-10-21); not printed in the archived SDS DL2-14611.pdf. (2026-10 audit)",
       "source": {
-        "file": null,
+        "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
         "page": null,
         "revision_date": null
       },
       "flash_method": null
     },
     "pour_point": {
-      "value": null,
+      "value": -14,
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": null,
+      "value_kind": "typical",
+      "printed_text": "Pour Point, ℃: -14",
+      "unit": "°C",
       "test_temperature_c": null,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "method": "ASTM D6749 (D5950)",
+      "status": "Reported",
+      "calculation_note": "From the current S-OIL Lube Base Oil web page, 'Typical Properties of aramcoULTRA Base Oil' table, aramcoULTRA 8 column (undated, retrieved 2026-10-21); not printed in the archived SDS DL2-14611.pdf. (2026-10 audit)",
       "source": {
-        "file": null,
+        "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
         "page": null,
         "revision_date": null
       },

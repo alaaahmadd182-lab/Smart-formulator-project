@@ -97,17 +97,36 @@
       }
     },
     "density": {
-      "value": 812.4,
+      "value": 0.8124,
       "qualifier": null,
       "min": null,
       "max": null,
       "value_kind": "typical",
-      "printed_text": "Density at 15.6\u00b0C: 0.8124 g/cm\u00b3; converted to 812.4 kg/m\u00b3",
-      "unit": "kg/m3",
+      "printed_text": "Density at 15.6\u00b0C, g/cm3 (ASTM D1250): 0.8124",
+      "unit": "g/cm3",
       "test_temperature_c": 15.6,
       "method": "ASTM D1250",
       "status": "Reported",
       "calculation_note": null,
+      "source": {
+        "file": "DL2-13279.pdf",
+        "page": 1,
+        "revision_date": "2017-05-09"
+      }
+    },
+    "specific_gravity": {
+      "value": 0.8132,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity, 60\u00b0F (15.6\u00b0C) ASTM D4052 0.8132",
+      "unit": "dimensionless",
+      "reference_condition": "60\u00b0F (15.6\u00b0C)",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": "Printed separately from the density rows (p.1); density is not derived from it, nor it from density. Not converted to density.",
       "source": {
         "file": "DL2-13279.pdf",
         "page": 1,

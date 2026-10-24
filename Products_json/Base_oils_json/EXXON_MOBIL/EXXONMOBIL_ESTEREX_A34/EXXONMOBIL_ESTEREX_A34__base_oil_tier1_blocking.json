@@ -97,11 +97,30 @@
       "test_temperature_c": 15,
       "method": null,
       "status": "Missing",
-      "calculation_note": null,
+      "calculation_note": "Not printed: the sheet prints only a specific gravity (recorded in specific_gravity), which is not converted to density.",
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
+      }
+    },
+    "specific_gravity": {
+      "value": 0.922,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity (68°F (20°C)) 0.922",
+      "unit": "dimensionless",
+      "reference_condition": "68°F (20°C)",
+      "test_temperature_c": 20,
+      "method": "BRCP 4843",
+      "status": "Reported",
+      "calculation_note": "'Basics' table, Typical Value (English and SI) columns (p.1). Water reference temperature not printed. Test method printed as 'Test Based On: BRCP 4843' (not an ASTM designation; not identified on the sheet). Not converted to density.",
+      "source": {
+        "file": "DL2-12114.pdf",
+        "page": 1,
+        "revision_date": "11/16/2005"
       }
     },
     "ccs": [

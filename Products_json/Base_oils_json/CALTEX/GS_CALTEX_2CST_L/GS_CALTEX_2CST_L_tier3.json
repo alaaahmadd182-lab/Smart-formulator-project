@@ -8,7 +8,10 @@
     "product_name": "2cSt_L",
     "supplier": "GS Caltex",
     "document_type": "Product specification",
-    "source_file": "DL2-13094.pdf; DL2-13626.pdf",
+    "source_file": [
+      "DL2-13094.pdf",
+      "DL2-13626.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
@@ -73,7 +76,7 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
       "status": "Missing",

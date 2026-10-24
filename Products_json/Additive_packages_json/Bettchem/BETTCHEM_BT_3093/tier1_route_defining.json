@@ -20,7 +20,7 @@
       "package_type": {
         "unit": null,
         "value": "HEAVY DUTY DIESEL ENGINE OIL ADDITIVE PACKAGE",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15550.pdf",
           "page": 1,
@@ -31,7 +31,7 @@
       "intended_service": {
         "unit": null,
         "value": "BT3093 is customer specific based on field trials in severe driving conditions . The package is designed for heavy duty engines meeting API CI-4 /CH-4 performance levels when formulated in suitable base stocks.",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15550.pdf",
           "page": 1,
@@ -48,7 +48,7 @@
         "claim_type": "recommended",
         "scope": "RECOMMENDED DOSAGE table: 'API CI-4' 8.0 % WT. Text: 'designed for heavy duty engines meeting API CI-4 /CH-4 performance levels when formulated in suitable base stocks'. Product is 'CUSTOMER SPECIFIC'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15550.pdf",
           "page": 1,
@@ -63,7 +63,7 @@
         "claim_type": "recommended",
         "scope": "RECOMMENDED DOSAGE table: 'API CH-4' 7.0 % WT. Text: 'designed for heavy duty engines meeting API CI-4 /CH-4 performance levels when formulated in suitable base stocks'. Product is 'CUSTOMER SPECIFIC'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15550.pdf",
           "page": 1,
@@ -78,7 +78,7 @@
         "claim_type": "recommended",
         "scope": "RECOMMENDED DOSAGE table: 'API CF-4/SL' 6.0 % WT. Text: 'designed for heavy duty engines meeting API CI-4 /CH-4 performance levels when formulated in suitable base stocks'. Product is 'CUSTOMER SPECIFIC'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15550.pdf",
           "page": 1,
@@ -92,7 +92,7 @@
         "value": null,
         "unit": null,
         "sae_grade": null,
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
@@ -104,21 +104,17 @@
     "permitted_base_oils_restrictions": {
       "value": null,
       "unit": null,
-      "permitted_api_groups": [
-        "Group I",
-        "Group II",
-        "Group III"
-      ],
+      "permitted_api_groups": [],
       "permitted_grades": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "reported",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CI-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use)."
+      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). Printed base-oil wording: 'when formulated in suitable base stocks' (DL2-15550.pdf p.1); this generic wording does not identify specific API Groups."
     },
     "route_selector_restrictions": {
       "value": null,
@@ -126,7 +122,7 @@
       "limits": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -148,7 +144,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "RECOMMENDED DOSAGE, column 'TREAT RATE % WT'.",
           "source": {
             "file": "DL2-15550.pdf",
@@ -171,7 +167,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "RECOMMENDED DOSAGE, column 'TREAT RATE % WT'.",
           "source": {
             "file": "DL2-15550.pdf",
@@ -194,7 +190,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "RECOMMENDED DOSAGE, column 'TREAT RATE % WT'.",
           "source": {
             "file": "DL2-15550.pdf",
@@ -219,7 +215,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -256,7 +252,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -267,7 +263,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
@@ -280,7 +276,8 @@
   "open_questions": [
     "Claim type 'recommended' from the 'RECOMMENDED DOSAGE' table (DL2-15550.pdf p.1); product is 'CUSTOMER SPECIFIC'.",
     "No SAE grades, base oils, co-components or published formulation printed in DL2-15550.pdf; no SDS in the archive.",
-    "B and pour point are not printed in DL2-15550.pdf. Base number has 'Minimum' 100 and 'TYPICAL' 115, no 'Maximum'."
+    "B and pour point are not printed in DL2-15550.pdf. Base number has 'Minimum' 100 and 'TYPICAL' 115, no 'Maximum'.",
+    "Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Bettchem."
   ],
   "conflicts": [],
   "external_fill_notes": []

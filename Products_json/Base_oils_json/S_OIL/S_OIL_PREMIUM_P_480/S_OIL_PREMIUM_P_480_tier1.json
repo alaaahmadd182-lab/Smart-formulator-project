@@ -119,13 +119,32 @@
       "test_temperature_c": null,
       "method": null,
       "status": "Missing",
-      "calculation_note": null,
+      "calculation_note": "Not printed: the sheet prints only a specific gravity (recorded in specific_gravity), which is not converted to density.",
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
       "flash_method": null
+    },
+    "specific_gravity": {
+      "value": 0.894,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Sp.Gravity, 15/4 °C | D 1298 | 0.8940 (column 'P-480 (150BS)')",
+      "unit": "dimensionless",
+      "reference_condition": "15/4 °C",
+      "test_temperature_c": null,
+      "method": "ASTM D1298",
+      "status": "Reported",
+      "calculation_note": "'Typical Properties' table, column 'P-480 (150BS)' (p.1). Printed reference '15/4 °C' (no separate sample-temperature label); test_temperature_c left null. Image-only page; value read from the rendered page. Not converted to density.",
+      "source": {
+        "file": "DL2-11173.pdf",
+        "page": 1,
+        "revision_date": null
+      }
     },
     
     "ccs": [

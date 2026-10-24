@@ -15,23 +15,43 @@
     
     "mrv": [
       {
-        "value": null,
-        "qualifier": null,
-        "min": null,
-        "max": null,
-        "value_kind": null,
-        "printed_text": null,
-        "unit": "mPa.s",
         "test_temperature_c": null,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in the archived YUBASE 4 property sheet DL2-11304.pdf.",
-        "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in the archived YUBASE 4 property sheet DL2-11304.pdf.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
         },
-        "flash_method": null
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in the archived YUBASE 4 property sheet DL2-11304.pdf.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
       }
     ],
     "noack_volatility": {
@@ -95,7 +115,7 @@
   
   "open_questions": [
     "Confirm the manufacturer and distributor relationship between SK Corporation/SK Enmove and NARMAK TRADE S.R.O. for archived YUBASE 4.",
-    "API Group III classification is supported by SK Enmove manufacturer information, but is not explicitly stated in archived property sheet DL2-11304.pdf. Confirm that the classification applies to the archived grade.",
+    "API Group III for YUBASE 4 is now sourced to SK's official YUBASE site (archived 'Performance' page: all YUBASE except YUBASE-3/L3 are Group III); SK's 2000 paper agrees. Not stated in the archived NARMAK TRADE sheet. Confirm that the current YUBASE 4 is unchanged (2026-10 audit).",
     "Historical SK Corporation YUBASE 4 MSDS No. 739-YU4-02, dated 1999-02-12, identifies hydrotreated heavy paraffinic petroleum distillate (CAS 64742-54-7). Confirm that this composition applies to the archived grade.",
     "The specific-gravity entry at 15°C is printed as 0.8338 with the inconsistent unit g/m3. Verify the original unit and measurement conditions before assigning density.",
     "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in archived property sheet DL2-11304.pdf.",

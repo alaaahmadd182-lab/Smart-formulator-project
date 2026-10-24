@@ -14,13 +14,16 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": null,
-        "status": "Missing",
+        "value": "Group IV",
+        "status": "Reported",
         "source": {
-          "file": null,
-          "page": null,
+          "file": "https://www.exxonmobil.com/basestocks/-/media/project/wep/exxonmobil/exxonmobil-basestocks/pdfs/735723-1-exxon-intermed-cross-bu-broch-update-v12.pdf",
+          "page": 5,
           "revision_date": null
-        }
+        },
+        "notes": "Not stated in the archived product datasheet DL2-11382.pdf. ExxonMobil's base stocks brochure (v12) p.5 lists 'SpectraSyn Plus™ PAO' under the heading 'Group IV', and the typical-properties table on the same page names SpectraSyn Plus 6 as a PAO. Manufacturer classification of the product line with this grade named (2026-10 audit).",
+        "value_kind": "manufacturer product-line classification (grade named by the manufacturer)",
+        "basis": "ExxonMobil classifies the SpectraSyn / SpectraSyn Plus / SpectraSyn Elite lines as Group IV and names this grade in the same page’s table (brochure v12 p.5)"
       },
       "chemistry": {
         "value": "Polyalphaolefin (PAO)",
@@ -97,30 +100,67 @@
       "test_temperature_c": 15,
       "method": null,
       "status": "Missing",
-      "calculation_note": null,
+      "calculation_note": "Not printed: the sheet prints only a specific gravity (recorded in specific_gravity), which is not converted to density.",
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       }
     },
+    "specific_gravity": {
+      "value": 0.827,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity 2 (60.1°F (15.6°C)) 0.827",
+      "unit": "dimensionless",
+      "reference_condition": "60.1°F (15.6°C)",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": "'Basics' table, Typical Value (English and SI) columns (p.1). Water reference temperature not printed. Footnote 2 on the Specific Gravity row: 'Single sample or two sample average determinations' (p.2). Not converted to density.",
+      "source": {
+        "file": "DL2-11382.pdf",
+        "page": 1,
+        "revision_date": "04/26/2011"
+      }
+    },
     "ccs": [
       {
-        "value": null,
+        "value": 2247,
         "qualifier": null,
         "min": null,
         "max": null,
-        "value_kind": null,
-        "printed_text": null,
-        "unit": "mPa.s",
-        "test_temperature_c": -25,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": null,
+        "value_kind": "typical",
+        "printed_text": "Cold Cranking Simulator 2 | -22°F (-30°C) | 2247 cP",
+        "unit": "cP",
+        "test_temperature_c": -30,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "'Flow' table, Typical Value (SI) column (p.1); footnote 2 on 'Cold Cranking Simulator': 'Single sample or two sample average determinations'. Sheet note: 'Typical properties: these are not to be construed as specifications.' The same CCS block also prints a row '77°F (25°C) 1400 cP'; a cold-cranking value at +25 °C is not a usable CCS condition and may be a misprint, so it is not recorded and no other temperature is inferred.",
         "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+          "file": "DL2-11382.pdf",
+          "page": 1,
+          "revision_date": "04/26/2011"
+        }
+      },
+      {
+        "value": 3600,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Cold Cranking Simulator 2 | -31°F (-35°C) | 3600 cP",
+        "unit": "cP",
+        "test_temperature_c": -35,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "'Flow' table, Typical Value (SI) column (p.1); footnote 2 on 'Cold Cranking Simulator': 'Single sample or two sample average determinations'. Sheet note: 'Typical properties: these are not to be construed as specifications.' The same CCS block also prints a row '77°F (25°C) 1400 cP'; a cold-cranking value at +25 °C is not a usable CCS condition and may be a misprint, so it is not recorded and no other temperature is inferred.",
+        "source": {
+          "file": "DL2-11382.pdf",
+          "page": 1,
+          "revision_date": "04/26/2011"
         }
       }
     ]

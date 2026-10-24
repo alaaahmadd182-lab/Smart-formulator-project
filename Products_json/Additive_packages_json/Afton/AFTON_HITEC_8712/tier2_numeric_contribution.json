@@ -26,7 +26,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -45,7 +45,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -65,7 +65,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -84,7 +84,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -103,7 +103,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -122,7 +122,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -141,7 +141,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -160,7 +160,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -179,7 +179,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -198,7 +198,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -218,7 +218,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "SDS Section 9 value; not labelled typical or specification.",
       "source": {
         "file": "DL2-15020.pdf",
@@ -237,7 +237,7 @@
       "unit": "cSt",
       "test_temperature_c": 100,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "SDS Section 9 value; not labelled typical or specification.",
       "source": {
         "file": "DL2-15020.pdf",
@@ -256,7 +256,7 @@
       "unit": "g/cm³",
       "test_temperature_c": null,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "No reference temperature printed. Relative density printed on the same page: 1.036. Template unit kg/m3; printed unit kept. SDS Section 9 value; not labelled typical or specification.",
       "source": {
         "file": "DL2-15020.pdf",
@@ -265,6 +265,25 @@
       },
       "notes": "reference temperature not printed on datasheet"
     },
+    "specific_gravity": {
+      "value": 1.036,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "Relative density : 1.036",
+      "unit": "dimensionless",
+      "reference_condition": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "SDS Section 9 (p.6): label and value printed in separate columns, paired by position. No temperature, water reference or method printed. Not converted to density.",
+      "source": {
+        "file": "DL2-15020.pdf",
+        "page": 6,
+        "revision_date": "2018-02-02"
+      }
+    },
     "flash_point": {
       "value": 135,
       "qualifier": "≥",
@@ -272,10 +291,10 @@
       "max": null,
       "value_kind": "specification",
       "printed_text": "Closed cup: 135°C (275°F) [Pensky-Martens. Minimum]",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "Pensky-Martens closed cup",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Printed as a minimum.",
       "source": {
         "file": "DL2-15020.pdf",
@@ -292,10 +311,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,

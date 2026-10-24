@@ -34,7 +34,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Under 'Typical Characteristics'. Same value in DL2-11412.PDF p.2 (05/18).",
       "source": {
         "file": "DL2-14639.pdf",
@@ -53,7 +53,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -73,7 +73,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -92,7 +92,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -111,7 +111,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -130,7 +130,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -149,7 +149,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -168,7 +168,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -187,7 +187,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -206,7 +206,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -226,7 +226,7 @@
       "unit": "mm2/s",
       "test_temperature_c": 40,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Printed unit mm2/s (= cSt) kept. Same value in DL2-11412.PDF p.2 (05/18). SDS DL2-12074.pdf p.7 prints '4100 cSt at 40°C'.",
       "source": {
         "file": "DL2-14639.pdf",
@@ -245,7 +245,7 @@
       "unit": "mm2/s",
       "test_temperature_c": 100,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Printed unit mm2/s (= cSt) kept. Same value in DL2-11412.PDF p.2 (05/18). SDS DL2-12074.pdf p.7 prints '190 cSt @ 100°C'.",
       "source": {
         "file": "DL2-14639.pdf",
@@ -264,7 +264,7 @@
       "unit": "g/ml",
       "test_temperature_c": 15,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Template unit kg/m3; printed g/ml kept, not converted. Same value in DL2-11412.PDF p.2 (05/18). SDS DL2-12074.pdf p.7 prints '0.989 g/cm³ [60.1°F (15.6°C)]' (same value, reference temperature 15.6°C).",
       "source": {
         "file": "DL2-14639.pdf",
@@ -273,6 +273,25 @@
       },
       "notes": null
     },
+    "specific_gravity": {
+      "value": 0.989,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "Relative density : 0.989",
+      "unit": "dimensionless",
+      "reference_condition": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "SDS Section 9 (p.7): label and value printed in separate columns, paired by position. No temperature, water reference or method printed. Not converted to density.",
+      "source": {
+        "file": "DL2-12074.pdf",
+        "page": 7,
+        "revision_date": "2019-07-16"
+      }
+    },
     "flash_point": {
       "value": 135,
       "qualifier": "≥",
@@ -280,10 +299,10 @@
       "max": null,
       "value_kind": "specification",
       "printed_text": "Flash point, PMCC, °C: 135 min",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "PMCC",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Printed as a minimum. Same value in DL2-11412.PDF p.2 (05/18). SDS DL2-12074.pdf p.7: 'Closed cup: 135°C (275°F) [Pensky-Martens. Minimum]'.",
       "source": {
         "file": "DL2-14639.pdf",
@@ -300,10 +319,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,

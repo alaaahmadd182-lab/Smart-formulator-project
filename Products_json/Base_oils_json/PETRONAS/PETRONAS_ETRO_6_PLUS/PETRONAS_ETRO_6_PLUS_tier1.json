@@ -8,13 +8,16 @@
     "product_name": "ETRO 6+",
     "supplier": "PETRONAS Lubricants International",
     "document_type": "Product Data Sheet + Safety Data Sheet",
-    "source_file": "DL2-10234.pdf",
+    "source_file": [
+      "DL2-10234.pdf",
+      "DL2-14610.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": "III",
+        "value": "Group III",
         "status": "Reported",
         "source": {
           "file": "DL2-10234.pdf",
@@ -118,6 +121,25 @@
         "revision_date": "2020-03-24"
       }
     },
+    "specific_gravity": {
+      "value": 0.8486,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "Relative density : 0.8486 (15 °C)",
+      "unit": "dimensionless",
+      "reference_condition": "15 °C (water reference temperature not printed)",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "SDS Section 9 (p.4). 'Method: ASTM D 4052' is printed after the Density line, not the relative-density line; method left null. Not converted to density.",
+      "source": {
+        "file": "DL2-14610.pdf",
+        "page": 4,
+        "revision_date": "2020-03-24"
+      }
+    },
     "ccs": [
       {
         "value": 2175,
@@ -183,6 +205,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "kv40",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "32.55 cSt at 40°C (ASTM D445)",
@@ -191,6 +214,7 @@
       "assessment": "Different reported values; retain TDS typical value, flag for review."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "flash_point",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "240°C ASTM D92 (COC)",
@@ -199,6 +223,7 @@
       "assessment": "Different methods, not directly comparable; both values retained."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "noack_volatility",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "5.7 mass% ASTM D5800-B",
@@ -207,6 +232,7 @@
       "assessment": "Different reported values; retain TDS typical value, flag for review."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "density",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "0.8429 kg/L (temperature not stated)",

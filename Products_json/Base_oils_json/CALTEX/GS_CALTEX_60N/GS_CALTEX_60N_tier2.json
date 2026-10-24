@@ -8,7 +8,10 @@
     "product_name": "60N",
     "supplier": "GS Caltex",
     "document_type": "Product specification",
-    "source_file": "DL2-13094.pdf; DL2-13626.pdf",
+    "source_file": [
+      "DL2-13094.pdf",
+      "DL2-13626.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
@@ -78,7 +81,7 @@
       "max": null,
       "value_kind": "typical",
       "printed_text": "Typical -11°C; specification not stated",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D6749",
       "status": "Reported",
@@ -96,7 +99,7 @@
       "max": null,
       "value_kind": "typical",
       "printed_text": "COC typical 155°C; specification minimum 145°C",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D92",
       "status": "Reported",

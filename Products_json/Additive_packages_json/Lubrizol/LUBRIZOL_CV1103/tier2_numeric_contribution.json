@@ -26,7 +26,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -45,7 +45,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "ASTM D 874",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated).",
       "source": {
         "file": "DL2-14978.pdf",
@@ -65,7 +65,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "LZ Test Method",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated).",
         "source": {
           "file": "DL2-14978.pdf",
@@ -84,7 +84,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -103,7 +103,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "LZ Test Method",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated).",
         "source": {
           "file": "DL2-14978.pdf",
@@ -122,7 +122,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "LZ Test Method",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated).",
         "source": {
           "file": "DL2-14978.pdf",
@@ -141,7 +141,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -160,7 +160,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -179,7 +179,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D 5291",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated).",
         "source": {
           "file": "DL2-14978.pdf",
@@ -198,7 +198,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "LZ Test Method",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. Unit printed as '%' (mass basis not stated).",
         "source": {
           "file": "DL2-14978.pdf",
@@ -218,7 +218,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": "ASTM D 445",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'.",
       "source": {
         "file": "DL2-14978.pdf",
@@ -237,7 +237,7 @@
       "unit": "cSt",
       "test_temperature_c": 100,
       "method": "ASTM D 445",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'.",
       "source": {
         "file": "DL2-14978.pdf",
@@ -247,23 +247,42 @@
       "notes": null
     },
     "density": {
-      "value": 0.953,
+      "value": 7.94,
       "qualifier": null,
       "min": null,
       "max": null,
       "value_kind": "typical",
-      "printed_text": "SPECIFIC GRAVITY @ 15.6 C 0.953 SPGRAV ASTM D 4052",
-      "unit": "specific gravity (dimensionless)",
+      "printed_text": "LBS PER GAL @ 15.6 C 7.94 lbs CALCULATED",
+      "unit": "lbs/gal",
       "test_temperature_c": 15.6,
-      "method": "ASTM D 4052",
-      "status": "reported",
-      "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'. reported as specific gravity.",
+      "method": "CALCULATED",
+      "status": "Reported",
+      "calculation_note": "'TYPICAL CHARACTERISTICS²' table (p.2; footnote '²Not a manufacturing specification'). The Method column prints 'CALCULATED': a value calculated by Lubrizol, recorded as Reported (not a project calculation). The unit cell prints 'lbs'; the row label 'LBS PER GAL' does not state U.S. or imperial gallons. Not converted. The specific gravity printed on the same page is recorded in specific_gravity, not here.",
       "source": {
         "file": "DL2-14978.pdf",
         "page": 2,
         "revision_date": "2021-01-11"
       },
       "notes": null
+    },
+    "specific_gravity": {
+      "value": 0.953,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "SPECIFIC GRAVITY @ 15.6 C 0.953 SPGRAV ASTM D 4052",
+      "unit": "dimensionless",
+      "reference_condition": "15.6 C (water reference temperature not printed)",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D 4052",
+      "status": "Reported",
+      "calculation_note": "'TYPICAL CHARACTERISTICS²' table (p.2; footnote '²Not a manufacturing specification'); the unit cell prints 'SPGRAV'. Not converted to density.",
+      "source": {
+        "file": "DL2-14978.pdf",
+        "page": 2,
+        "revision_date": "2021-01-11"
+      }
     },
     "flash_point": {
       "value": 150.0,
@@ -272,10 +291,10 @@
       "max": null,
       "value_kind": "typical",
       "printed_text": "FLASH POINT, C, PMCC 150 °C ASTM D 93",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D 93",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'.",
       "source": {
         "file": "DL2-14978.pdf",
@@ -292,10 +311,10 @@
       "max": null,
       "value_kind": "typical",
       "printed_text": "POUR POINT, C -21 °C ASTM D 5950",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D 5950",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TYPICAL CHARACTERISTICS, footnote '²Not a manufacturing specification'.",
       "source": {
         "file": "DL2-14978.pdf",
@@ -306,9 +325,9 @@
     }
   },
   "open_questions": [
-    "Density field holds SPECIFIC GRAVITY @ 15.6 C (0.953, ASTM D 4052); 'LBS PER GAL @ 15.6 C 7.94 lbs CALCULATED' also printed.",
+    "Density holds 'LBS PER GAL @ 15.6 C 7.94 lbs CALCULATED' (calculated by Lubrizol, recorded as Reported; U.S. or imperial gallon not stated); 'SPECIFIC GRAVITY @ 15.6 C 0.953 SPGRAV ASTM D 4052' is recorded in the optional specific_gravity property (2026-10-24).",
     "TBN, Mg, B and Mo not printed.",
-    "User decision 2026-10-17: density field stores the number 0.953 (specific gravity (dimensionless)), which is reported as specific gravity ('SPECIFIC GRAVITY @ 15.6 C 0.953 SPGRAV ASTM D 4052', DL2-14978.pdf p.2), not a density in kg/m3; flagged for review."
+    "[History] User decision 2026-10-17: the density field stored 0.953 (specific gravity, dimensionless) from 'SPECIFIC GRAVITY @ 15.6 C 0.953 SPGRAV ASTM D 4052' (DL2-14978.pdf p.2). Superseded 2026-10-24 by the approved optional specific_gravity property: the specific gravity moved there and density now holds the printed supplier-calculated 7.94 lbs/gal @ 15.6 C."
   ],
   "conflicts": [],
   "external_fill_notes": []

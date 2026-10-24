@@ -31,7 +31,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "ASTM D2896",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
       "source": {
         "file": "DL2-15335.pdf",
@@ -50,7 +50,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "Calculated (ASTM D874 factors)",
-      "status": "calculated",
+      "status": "Calculated",
       "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×1.26 (Ca) + 4.95×1.19 (Mg) + 1.24×1.51 (Zn) = 12.0469 → 12.05 wt.%.",
       "source": {
         "file": null,
@@ -70,7 +70,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "See Alt. Test Methods",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Customer specification (PDS) DL2-15334.pdf: value = 'Target', min/max = 'Min'/'Max'. TDS DL2-15335.pdf p.1 typical is the same value. Alternate methods listed on the PDS.",
         "source": {
           "file": "DL2-15334.pdf",
@@ -89,7 +89,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "See Alt. Test Methods",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Customer specification (PDS) DL2-15334.pdf: value = 'Target', min/max = 'Min'/'Max'. TDS DL2-15335.pdf p.1 typical is the same value. Alternate methods listed on the PDS.",
         "source": {
           "file": "DL2-15334.pdf",
@@ -108,7 +108,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "See Alt. Test Methods",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Customer specification (PDS) DL2-15334.pdf: value = 'Target', min/max = 'Min'/'Max'. TDS DL2-15335.pdf p.1 typical is the same value. Alternate methods listed on the PDS.",
         "source": {
           "file": "DL2-15334.pdf",
@@ -127,7 +127,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "See Alt. Test Methods",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Customer specification (PDS) DL2-15334.pdf: value = 'Target', min/max = 'Min'/'Max'. TDS DL2-15335.pdf p.1 typical is the same value. Alternate methods listed on the PDS.",
         "source": {
           "file": "DL2-15334.pdf",
@@ -146,7 +146,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -165,7 +165,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -184,7 +184,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D5291",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Customer specification (PDS) DL2-15334.pdf: value = 'Target', min/max = 'Min'/'Max'. TDS DL2-15335.pdf p.1 typical is the same value.",
         "source": {
           "file": "DL2-15334.pdf",
@@ -203,7 +203,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -223,7 +223,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": "ASTM D445",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
       "source": {
         "file": "DL2-15335.pdf",
@@ -242,7 +242,7 @@
       "unit": "cSt",
       "test_temperature_c": 100,
       "method": "ASTM D445",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
       "source": {
         "file": "DL2-15335.pdf",
@@ -261,7 +261,7 @@
       "unit": "kg/m3",
       "test_temperature_c": 15,
       "method": "ASTM D4052",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
       "source": {
         "file": "DL2-15335.pdf",
@@ -277,10 +277,10 @@
       "max": null,
       "value_kind": "typical",
       "printed_text": "185 °C ASTM D93",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D93",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'. Row label 'Flash Point Deg C' is visible on the page image but missing from the text layer.",
       "source": {
         "file": "DL2-15335.pdf",
@@ -297,10 +297,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,

@@ -115,6 +115,25 @@
         "revision_date": "2017-01-17"
       }
     },
+    "specific_gravity": {
+      "value": 0.9157,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity, 60°F (15.6°C) ASTM D4052 0.9157",
+      "unit": "dimensionless",
+      "reference_condition": "60°F (15.6°C)",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": "Printed separately from the density rows (p.1); density is not derived from it, nor it from density. Not converted to density.",
+      "source": {
+        "file": "DL2-10409.pdf",
+        "page": 1,
+        "revision_date": "2017-01-17"
+      }
+    },
     "ccs": [
       {
         "value": null,

@@ -37,10 +37,10 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "SH/T0251, ASTM D2896",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": null,
       "source": {
-        "file": null,
+        "file": "https://www.richful.com/catalogueDetail.html?id=112",
         "page": null,
         "revision_date": null,
         "url": "https://www.richful.com/catalogueDetail.html?id=112",
@@ -59,7 +59,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "Calculated (ASTM D874 factors)",
-      "status": "calculated",
+      "status": "Calculated",
       "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×3.15 (Ca) + 1.24×1.24 (Zn) = 12.2476 → 12.25 wt.%. Mg not reported, taken as 0.",
       "source": {
         "file": null,
@@ -79,10 +79,10 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T17476, ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": null,
         "source": {
-          "file": null,
+          "file": "https://www.richful.com/catalogueDetail.html?id=112",
           "page": null,
           "revision_date": null,
           "url": "https://www.richful.com/catalogueDetail.html?id=112",
@@ -101,7 +101,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -120,10 +120,10 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T17476, ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": null,
         "source": {
-          "file": null,
+          "file": "https://www.richful.com/catalogueDetail.html?id=112",
           "page": null,
           "revision_date": null,
           "url": "https://www.richful.com/catalogueDetail.html?id=112",
@@ -142,7 +142,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS DL2-15451.pdf: 'Typical Value' with 'Index' range 0.97-1.19. Same value in: DL2-13819.pdf p.1 (undated): 'P Content,%（m/m） 1.1 GB/T17476，ASTM D4951'.",
         "source": {
           "file": "DL2-15451.pdf",
@@ -161,7 +161,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -180,7 +180,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS DL2-15451.pdf: 'Typical Value' with 'Index' range 0.037-0.056.",
         "source": {
           "file": "DL2-15451.pdf",
@@ -199,7 +199,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D5762",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS DL2-15451.pdf: 'Typical Value' with 'Index' range 0.89-1.21.",
         "source": {
           "file": "DL2-15451.pdf",
@@ -218,7 +218,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -238,7 +238,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -257,10 +257,10 @@
       "unit": "mm²/s",
       "test_temperature_c": 100,
       "method": "GB/T265, ASTM D445",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": null,
       "source": {
-        "file": null,
+        "file": "https://www.richful.com/catalogueDetail.html?id=112",
         "page": null,
         "revision_date": null,
         "url": "https://www.richful.com/catalogueDetail.html?id=112",
@@ -279,10 +279,10 @@
       "unit": "kg/m3",
       "test_temperature_c": 20,
       "method": "SH/T 0604, ASTM D4052",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": null,
       "source": {
-        "file": null,
+        "file": "https://www.richful.com/catalogueDetail.html?id=112",
         "page": null,
         "revision_date": null,
         "url": "https://www.richful.com/catalogueDetail.html?id=112",
@@ -298,10 +298,10 @@
       "max": null,
       "value_kind": "specification",
       "printed_text": "Flash point : ≥ 180 °C (open cup)",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "COC (ASTM D92)",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "SDS body is image/vector graphics (text layer has only the page header); read visually. Same value in: DL2-13819.pdf p.1 (undated): 'Flash Point(COC), ℃ ≮180 GB/T3536，ASTMD92'; DL2-15451.pdf p.1 (undated): 'Flash Point (COC), ℃ ≥180 220 GB/T 3536, ASTM D92'; DL2-13820.pdf p.4 (2020-07-06): 'Flash point ≮180 °C'.",
       "source": {
         "file": "DL2-15831.pdf",
@@ -318,10 +318,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -342,6 +342,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier2.density",
       "values": [
         {
@@ -376,6 +377,7 @@
       "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier2.kv100",
       "values": [
         {
@@ -410,6 +412,7 @@
       "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier2.tbn",
       "values": [
         {
@@ -437,6 +440,7 @@
       "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier2.elements.Zn",
       "values": [
         {
@@ -457,6 +461,7 @@
       "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier2.elements.Ca",
       "values": [
         {
@@ -482,7 +487,7 @@
       "value": null,
       "unit": null,
       "property": "tbn",
-      "status": "reported",
+      "status": "Reported",
       "source": "Richful official product page, https://www.richful.com/catalogueDetail.html?id=112 (retrieved 2026-10-17)",
       "notes": null
     },
@@ -490,7 +495,7 @@
       "value": null,
       "unit": null,
       "property": "elements.Ca",
-      "status": "reported",
+      "status": "Reported",
       "source": "Richful official product page, https://www.richful.com/catalogueDetail.html?id=112 (retrieved 2026-10-17)",
       "notes": null
     },
@@ -498,7 +503,7 @@
       "value": null,
       "unit": null,
       "property": "elements.Zn",
-      "status": "reported",
+      "status": "Reported",
       "source": "Richful official product page, https://www.richful.com/catalogueDetail.html?id=112 (retrieved 2026-10-17)",
       "notes": null
     },
@@ -506,7 +511,7 @@
       "value": null,
       "unit": null,
       "property": "kv100",
-      "status": "reported",
+      "status": "Reported",
       "source": "Richful official product page, https://www.richful.com/catalogueDetail.html?id=112 (retrieved 2026-10-17)",
       "notes": null
     },
@@ -514,7 +519,7 @@
       "value": null,
       "unit": null,
       "property": "density",
-      "status": "reported",
+      "status": "Reported",
       "source": "Richful official product page, https://www.richful.com/catalogueDetail.html?id=112 (retrieved 2026-10-17)",
       "notes": null
     }

@@ -1,0 +1,229 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "ARAMCO_LUBEREF_PRIMA_500L__T1",
+  "product": {
+    "product_name": "aramcoPRIMA 500L",
+    "supplier": "Saudi Aramco Luberef",
+    "document_type": [
+      "Supplier brochure"
+    ],
+    "source_file": "DL2-11773.pdf",
+    "revision_date": null,
+    "product_id": "ARAMCO_LUBEREF_PRIMA_500L"
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "Group II",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-11773.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "printed_text": "Table heading 'Group II' printed over the column headings 'aramcoPRIMA 100', 'aramcoPRIMA 110*', 'aramcoPRIMA 150', 'aramcoPRIMA 220', 'aramcoPRIMA 230*', 'aramcoPRIMA 500', 'aramcoPRIMA 500L*' and 'aramcoPRIMA 600'",
+        "value_kind": "supplier classification",
+        "basis": "Supplier document heading",
+        "calculation_note": "Family-level evidence: the heading is printed at the top left of the table (printed page 8); the table, its heading rule and its column headings run continuously across the pp. 8-9 spread, including 'aramcoPRIMA 500L*' on page 9. No grade-specific API certification statement is printed. The footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' qualifies the typical values of this column; it does not state the group."
+      },
+      "chemistry": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "Not printed on DL2-11773.pdf; no aramcoPRIMA 500L SDS is in the archive. Not inferred from the API Group or from another grade (e.g. aramcoPRIMA 500)."
+      }
+    },
+    "kv40": {
+      "value": 84.5,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Kinematic Viscosity @ 40°C, cSt, D 445: 84.5 (column 'aramcoPRIMA 500L* / Typical')",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "Provisional typical: the column heading 'aramcoPRIMA® 500L*' carries the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' (DL2-11773.pdf, printed page 8). Not a guaranteed specification and not a confirmed production value."
+    },
+    "kv100": {
+      "value": 10.75,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Kinematic Viscosity @ 100°C, cSt, D 445: 10.75 (column 'aramcoPRIMA 500L* / Typical')",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "Provisional typical: the column heading 'aramcoPRIMA® 500L*' carries the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' (DL2-11773.pdf, printed page 8). Not a guaranteed specification and not a confirmed production value."
+    },
+    "viscosity_index": {
+      "value": 105,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity Index, D 2270: 105 (column 'aramcoPRIMA 500L* / Typical')",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "Provisional typical: the column heading 'aramcoPRIMA® 500L*' carries the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' (DL2-11773.pdf, printed page 8). Not a guaranteed specification and not a confirmed production value."
+    },
+    "density": {
+      "value": 0.862,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density @ 15°C, Kg/L, D 4052: 0.8620 (column 'aramcoPRIMA 500L* / Typical')",
+      "unit": "kg/L",
+      "test_temperature_c": 15,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "Provisional typical: the column heading 'aramcoPRIMA® 500L*' carries the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' (DL2-11773.pdf, printed page 8). Not a guaranteed specification and not a confirmed production value."
+    },
+    "ccs": [
+      {
+        "value": 8300,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Cranking Viscosity @ -20°C, mPa-s, D 5293: 8,300 (column 'aramcoPRIMA 500L* / Typical')",
+        "unit": "mPa.s",
+        "test_temperature_c": -20,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "Printed '8,300'; the comma is a thousands separator (the table uses decimal points).",
+        "source": {
+          "file": "DL2-11773.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": "Provisional typical: the column heading 'aramcoPRIMA® 500L*' carries the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' (DL2-11773.pdf, printed page 8). Not a guaranteed specification and not a confirmed production value."
+      },
+      {
+        "value": 16000,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Cranking Viscosity @ -25°C, mPa-s, D 5293: 16,000 (column 'aramcoPRIMA 500L* / Typical')",
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "Printed '16,000'; the comma is a thousands separator (the table uses decimal points).",
+        "source": {
+          "file": "DL2-11773.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": "Provisional typical: the column heading 'aramcoPRIMA® 500L*' carries the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' (DL2-11773.pdf, printed page 8). Not a guaranteed specification and not a confirmed production value."
+      }
+    ]
+  },
+  "open_questions": [
+    {
+      "question": "Provisional values: the column heading is printed 'aramcoPRIMA® 500L*', and the '*' refers to the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' All aramcoPRIMA 500L values are provisional brochure typicals, not guaranteed specifications or confirmed production values. Obtain confirmed typicals or a specification from Saudi Aramco / Luberef.",
+      "fields": [
+        "kv40",
+        "kv100",
+        "viscosity_index",
+        "density",
+        "ccs[]",
+        "noack_volatility",
+        "pour_point",
+        "flash_point",
+        "sulfur",
+        "saturates",
+        "aromatics"
+      ],
+      "source_files": [
+        "DL2-11773.pdf"
+      ]
+    },
+    {
+      "question": "API Group 'Group II' is taken from the brochure table heading, printed at the top left of the pp. 8-9 table and covering all eight aramcoPRIMA columns including aramcoPRIMA 500L* on page 9 (family-level evidence); no grade-specific statement is printed. Confirm with Saudi Aramco / Luberef.",
+      "fields": [
+        "api_group_chemistry.api_group"
+      ],
+      "source_files": [
+        "DL2-11773.pdf"
+      ]
+    },
+    {
+      "question": "Chemistry is not printed on DL2-11773.pdf, and no aramcoPRIMA 500L SDS is in the archive.",
+      "fields": [
+        "api_group_chemistry.chemistry"
+      ],
+      "source_files": [
+        "DL2-11773.pdf"
+      ]
+    },
+    {
+      "question": "No guaranteed specification for aramcoPRIMA 500L is in the archive (the specification sheet DL2-12172.pdf covers aramcoPRIMA 70, 110, 230 and 500 only). No issuing date is printed; the PDF metadata title 'Base oils Dubai Catalog 27Sep2018 FINALout-LOW' is not a printed date. The issuing company is not named on the page.",
+      "fields": [
+        "product"
+      ],
+      "source_files": [
+        "DL2-11773.pdf"
+      ]
+    },
+    {
+      "question": "Printed properties with no template field (DL2-11773.pdf, column 'aramcoPRIMA 500L* / Typical', provisional): Appearance, Visual: C&B; Color ASTM, D 1500: L 0.5; Copper Corrosion 100°C 3hrs, D 130: 1b; Tan mgKOH/gm, D 974: 0.02. Blank cells in this column: Brookfield @ -40°C (D 2983), Saybolt Color (D 156).",
+      "fields": [
+        "(no template field)"
+      ],
+      "source_files": [
+        "DL2-11773.pdf"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-11773.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier product brochure (aramcoPRIMA Group II typical properties table, printed pp. 8-9)",
+      "revision_date": null,
+      "notes": "Vector PDF without a text layer; values read from the rendered page. The column heading is printed 'aramcoPRIMA® 500L*' on the printed page-9 half of the spread; the '*' is the marker of the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' printed at the bottom left of page 8, not part of the product name. Byte-identical copies in the archive: DL2-11774.pdf, DL2-11781.pdf, DL2-11782.pdf, DL2-11783.pdf, DL2-11784.pdf. No issuing date is printed; the PDF metadata title is 'Base oils Dubai Catalog 27Sep2018 FINALout-LOW' (not a printed date)."
+    }
+  ]
+}

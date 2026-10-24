@@ -98,17 +98,36 @@
       "notes": "Supplier specification lists a minimum VI of 60 and a separate typical VI of 81. The value field is the reported typical value; min is the supplier minimum specification."
     },
     "density": {
-      "value": 855.2,
+      "value": 0.8552,
       "qualifier": null,
       "min": null,
       "max": null,
       "value_kind": "typical",
-      "printed_text": "Density at 15.6°C: 0.8552 g/cm³; converted to 855.2 kg/m³",
-      "unit": "kg/m3",
+      "printed_text": "Density at 15.6°C, g/cm3 (ASTM D1250): 0.8552",
+      "unit": "g/cm3",
       "test_temperature_c": 15.6,
       "method": "ASTM D1250",
       "status": "Reported",
       "calculation_note": null,
+      "source": {
+        "file": "DL2-13346.pdf",
+        "page": 1,
+        "revision_date": "2017-05-09"
+      }
+    },
+    "specific_gravity": {
+      "value": 0.8559,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity, 60°F (15.6°C) ASTM D4052 0.8559",
+      "unit": "dimensionless",
+      "reference_condition": "60°F (15.6°C)",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": "Printed separately from the density rows (p.1); density is not derived from it, nor it from density. Not converted to density.",
       "source": {
         "file": "DL2-13346.pdf",
         "page": 1,

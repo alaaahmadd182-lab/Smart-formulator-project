@@ -78,7 +78,7 @@
       "max": -60,
       "value_kind": "upper bound",
       "printed_text": "Typical < -70°C; specification maximum -60°C",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D97 / ASTM D5950",
       "status": "Reported",
@@ -96,7 +96,7 @@
       "max": null,
       "value_kind": "typical",
       "printed_text": "Typical 95°C; specification minimum 90°C; PM",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D93",
       "status": "Reported",
@@ -115,6 +115,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "edition difference",
       "property": "kv40",
       "primary": {
         "value": 2.92,
@@ -129,6 +130,7 @@
       "note": "Different typical values in 2024 and 2016 editions; newer edition selected."
     },
     {
+      "conflict_type": "edition difference",
       "property": "density",
       "primary": {
         "value": 0.863,
@@ -143,6 +145,7 @@
       "note": "Different typical values in 2024 and 2016 editions."
     },
     {
+      "conflict_type": "edition difference",
       "property": "flash_point",
       "primary": {
         "value": 95,
@@ -157,6 +160,7 @@
       "note": "Different typical PM flash points in two editions."
     },
     {
+      "conflict_type": "edition difference",
       "property": "sulfur",
       "primary": {
         "value": "<10 ppm",

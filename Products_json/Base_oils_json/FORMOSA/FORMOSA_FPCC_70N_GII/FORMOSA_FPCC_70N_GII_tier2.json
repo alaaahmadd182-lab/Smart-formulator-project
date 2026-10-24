@@ -1,0 +1,117 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "FORMOSA_FPCC_70N_GII",
+  "product": {
+    "product_name": "FPCC 70N GII",
+    "supplier": "Formosa Petrochemical Corporation",
+    "document_type": "Product specification",
+    "source_file": "DL2-12108.jpeg",
+    "revision_date": null
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": "No MRV value printed on DL2-12108.jpeg.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": "No MRV yield stress printed on DL2-12108.jpeg.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% loss",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "The 'Evaporative Loss, Noack, wt%, max, ASTM D-5800' row is '-' for 70N in both the Specification and Typical columns. test_temperature_c is null because the source reports no test condition.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -30,
+      "qualifier": "<",
+      "min": null,
+      "max": -24,
+      "value_kind": "typical",
+      "printed_text": "Pour Point, ℃, max, ASTM D-97: Specification -24; Typical <-30 (columns 'Specification 70N' and 'Typical (2017 AUG) 70N')",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": "Typical value from the column headed 'Typical (2017 AUG)'; '2017 AUG' dates the typical data, not the document. The typical is printed '<-30' (below -30 ℃), not an exact value.",
+      "source": {
+        "file": "DL2-12108.jpeg",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 184,
+      "qualifier": null,
+      "min": 165,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Flash Point, ℃, min, ASTM D-92: Specification 165; Typical 184 (columns 'Specification 70N' and 'Typical (2017 AUG) 70N')",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": "Typical value from the column headed 'Typical (2017 AUG)'; '2017 AUG' dates the typical data, not the document. ASTM D92 is the Cleveland open cup method; the sheet prints only the method number.",
+      "source": {
+        "file": "DL2-12108.jpeg",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC"
+    }
+  },
+  "open_questions": [
+    "Noack volatility is printed '-' for 70N (specification and typical); left Missing.",
+    "No MRV value is printed on DL2-12108.jpeg."
+  ],
+  "conflicts": []
+}

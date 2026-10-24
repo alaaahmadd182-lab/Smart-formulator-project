@@ -26,7 +26,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "SH/T0251",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
       "source": {
         "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
@@ -45,7 +45,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "Calculated (ASTM D874 factors)",
-      "status": "calculated",
+      "status": "Calculated",
       "calculation_note": "Sulfated ash = 3.4×3.0 (Ca) + 4.95×0.2 (Mg) + 1.5×1.1 (Zn) + 1.5×0.025 (Mo) + 3.22×0.14 (B) = 13.33 wt.%.",
       "source": {
         "file": null,
@@ -65,7 +65,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "SH/T 0270",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
         "source": {
           "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
@@ -84,7 +84,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "NB/SH/T 0824",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Printed as a minimum. Column header 'Typical Value'. Unit printed '%'.",
         "source": {
           "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
@@ -103,7 +103,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "SH/T 0226",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
         "source": {
           "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
@@ -122,7 +122,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "SH/T 0296",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
         "source": {
           "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
@@ -141,7 +141,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "NB/SH/T 0824",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Printed as a minimum. Column header 'Typical Value'. Unit printed '%'.",
         "source": {
           "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
@@ -160,7 +160,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "NB/SH/T 0824",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
         "source": {
           "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
@@ -179,7 +179,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "SH/T0224",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
         "source": {
           "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
@@ -198,7 +198,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -218,7 +218,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -237,7 +237,7 @@
       "unit": "cSt",
       "test_temperature_c": 100,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -256,7 +256,7 @@
       "unit": "kg/m3 (or as printed)",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -272,10 +272,10 @@
       "max": null,
       "value_kind": "specification",
       "printed_text": "Flash point (COC) °C, 180min GB/T 3536",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "GB/T 3536",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Printed as a minimum. Column header 'Typical Value'.",
       "source": {
         "file": "T3161A%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf",
@@ -292,10 +292,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -316,7 +316,7 @@
       "value": null,
       "unit": null,
       "property": "sulfated_ash",
-      "status": "calculated",
+      "status": "Calculated",
       "source": "Calculated from Ca/Mg/Zn/Mo/B in this file using ASTM D874 factors: Sulfated ash = 3.4×3.0 (Ca) + 4.95×0.2 (Mg) + 1.5×1.1 (Zn) + 1.5×0.025 (Mo) + 3.22×0.14 (B) = 13.33 wt.%.",
       "notes": null
     }
