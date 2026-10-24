@@ -33,9 +33,8 @@ materials, 202 without JSON and 9 in category B. NYNAS T 22 (`BO-NYNAS-NYNAS-T-2
 (`BO-NYNAS-NYNAS-T-110`), aramcoPRIMA 150 (`BO-ARAMCO-ARAMCOPRIMA-150N`), aramcoPRIMA 100
 (`BO-ARAMCO-ARAMCOPRIMA-100`), aramcoPRIMA 220 (`BO-ARAMCO-ARAMCOPRIMA-220`), aramcoPRIMA 600 (`BO-ARAMCO-ARAMCOPRIMA-600`), aramcoPRIMA 500L (`BO-ARAMCO-ARAMCOPRIMA-500L`), NEXBASE 3030 (`BO-NESTE-NEXBASE-3030`) and FPCC 70N GII (`BO-FORMOSA-FPCC-70N-GII`) have since moved from category B to A, and HiTEC 12250 (`AC-AFTON-HITEC-12250`), HiTEC 5748 (`AC-AFTON-HITEC-5748`) and HiTEC 12204L (`PK-AFTON-HITEC-12204L`) from category C to A; their CSV rows record this in `reconciliation_history`.
 
-`Coverage_Matrix.xlsx` and the scope table in the main `README.md` describe the state synchronized at commit
-`53fb90e` (261 folders, 260 materials, 193 without JSON) and do not yet include HiTEC 12250, HiTEC 5748 or HiTEC 12204L, until the coverage
-workbook is regenerated.
+`Coverage_Matrix.xlsx` (regenerated at commit `1878436`) and the scope table in the main `README.md` describe the current
+state: 264 folders, 263 materials, 190 without JSON, including HiTEC 12250, HiTEC 5748 and HiTEC 12204L.
 
 The 264 JSON folders represent 263 inventory materials because two S-OIL folders, `S_OIL_ULTRA_S_8` and
 `S_OIL_ARAMCO_ULTRA_8`, both correspond to `BO-S-OIL-ULTRA-S-8` (see `identity_review.md`, ID-01). Every
