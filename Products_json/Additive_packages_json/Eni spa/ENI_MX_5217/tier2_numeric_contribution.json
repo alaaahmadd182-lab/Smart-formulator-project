@@ -26,7 +26,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "ASTM D 2896",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
       "source": {
         "file": "DL2-12630.pdf",
@@ -49,7 +49,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -71,7 +71,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D 4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
         "source": {
           "file": "DL2-12630.pdf",
@@ -94,7 +94,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D 4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
         "source": {
           "file": "DL2-12630.pdf",
@@ -117,7 +117,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D 4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
         "source": {
           "file": "DL2-12630.pdf",
@@ -140,7 +140,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D 4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
         "source": {
           "file": "DL2-12630.pdf",
@@ -163,7 +163,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -184,7 +184,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -205,7 +205,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D 5291",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
         "source": {
           "file": "DL2-12630.pdf",
@@ -228,7 +228,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -250,7 +250,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -271,7 +271,7 @@
       "unit": "mm2/sec",
       "test_temperature_c": 100,
       "method": "ASTM D 445",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
       "source": {
         "file": "DL2-12630.pdf",
@@ -294,7 +294,7 @@
       "unit": "kg/m3",
       "test_temperature_c": 15,
       "method": "ASTM D 4052",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Single value printed across the merged min/max cell; not labelled typical or limit.",
       "source": {
         "file": "DL2-12630.pdf",
@@ -313,10 +313,10 @@
       "max": null,
       "value_kind": "specification",
       "printed_text": "Flash Point ASTM D 93 °C 100",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D 93",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Printed in the 'min' column only. TECHNICAL DATA table, columns 'Value: min / max' (specification limits; no typical value printed).",
       "source": {
         "file": "DL2-12630.pdf",
@@ -336,10 +336,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,

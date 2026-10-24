@@ -1,0 +1,118 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "NESTE_NEXBASE_3030",
+  "product": {
+    "product_name": "NEXBASE 3030",
+    "supplier": "Neste Oil",
+    "document_type": "Technical Data Sheet",
+    "source_file": "DL2-10962.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": "No MRV value printed on DL2-10962.pdf.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": "No MRV yield stress printed on DL2-10962.pdf.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% loss",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "The 'Noak Volatility, w-%' row is '–' (Spec and Typ) for NEXBASE 3030. test_temperature_c is null because the source reports no test condition.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -30,
+      "qualifier": null,
+      "min": null,
+      "max": -24,
+      "value_kind": "typical",
+      "printed_text": "Pour Point, °C: Spec ≤ -24, Typ -30 ('Technical Data' table, column 'Nexbase 3030')",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "No test method is printed in the DL2-10962.pdf table.",
+      "source": {
+        "file": "DL2-10962.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 198,
+      "qualifier": null,
+      "min": 170,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Flash Point, °C: Spec ≥170, Typ 198 ('Technical Data' table, column 'Nexbase 3030')",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "No test method is printed in the DL2-10962.pdf table. The flash-point method (open or closed cup) is not printed.",
+      "source": {
+        "file": "DL2-10962.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": null
+    }
+  },
+  "open_questions": [
+    "Noack volatility is printed as '–' for NEXBASE 3030 (values are given only for 3043-3080); left Missing.",
+    "No MRV value is printed on DL2-10962.pdf.",
+    "The flash-point method (open or closed cup) is not printed; flash_method left null."
+  ],
+  "conflicts": []
+}

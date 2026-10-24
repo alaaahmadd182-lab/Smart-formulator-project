@@ -25,7 +25,7 @@
       "package_type": {
         "unit": null,
         "value": "HEAVY DUTY DIESEL ENGINE OIL ADDITIVE PACKAGE",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15551.pdf",
           "page": 1,
@@ -37,7 +37,7 @@
       "intended_service": {
         "unit": null,
         "value": "BT3088 is a diesel engine oil additive package having excellent antioxidant and dispersing properties.",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15551.pdf",
           "page": 1,
@@ -55,7 +55,7 @@
         "claim_type": "recommended",
         "scope": "RECOMMENDED DOSAGE table: 'API CI-4' 8.0 % WT; text: 'It covers API CI-4 /CH-4 performance levels at cost effective treat rates.'",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15551.pdf",
           "page": 1,
@@ -71,7 +71,7 @@
         "claim_type": "recommended",
         "scope": "RECOMMENDED DOSAGE table: 'API CH-4/SJ' 7.0 % WT; text: 'covers API CI-4 /CH-4 performance levels'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15551.pdf",
           "page": 1,
@@ -87,7 +87,7 @@
         "claim_type": "recommended",
         "scope": "RECOMMENDED DOSAGE table: 'API CF-4/SG' 6.0 % WT.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15551.pdf",
           "page": 1,
@@ -103,7 +103,7 @@
         "claim_type": "other",
         "scope": "Note: this is a prediction (Technical Judgement, DL2-15620.pdf), not a measurement. 'Technical Judgement for BT 3088' (DL2-15620.pdf): passing results predicted for the listed engine tests; no measured results. Heading '1. )API CI-4 at 8%'.",
         "evidence_class": "Predicted",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15620.pdf",
           "page": 1,
@@ -119,7 +119,7 @@
         "claim_type": "other",
         "scope": "Note: this is a prediction (Technical Judgement, DL2-15620.pdf), not a measurement. 'Technical Judgement for BT 3088' (DL2-15620.pdf): passing results predicted for the listed engine tests; no measured results. Heading '2. )API CH-4 at 7%'.",
         "evidence_class": "Predicted",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15620.pdf",
           "page": 2,
@@ -135,7 +135,7 @@
         "claim_type": "other",
         "scope": "Note: this is a prediction (Technical Judgement, DL2-15620.pdf), not a measurement. 'Technical Judgement for BT 3088' (DL2-15620.pdf): passing results predicted for the listed engine tests; no measured results. Heading '3.)API SL at 8%'.",
         "evidence_class": "Predicted",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15620.pdf",
           "page": 4,
@@ -150,7 +150,7 @@
         "value": null,
         "unit": null,
         "sae_grade": null,
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
@@ -163,21 +163,17 @@
     "permitted_base_oils_restrictions": {
       "value": null,
       "unit": null,
-      "permitted_api_groups": [
-        "Group I",
-        "Group II",
-        "Group III"
-      ],
+      "permitted_api_groups": [],
       "permitted_grades": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "reported",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CI-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use).",
+      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). The datasheet makes no base-oil statement.",
       "value_final": null
     },
     "route_selector_restrictions": {
@@ -186,7 +182,7 @@
       "limits": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -209,7 +205,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "RECOMMENDED DOSAGE, column 'TREAT RATE % WT'.",
           "source": {
             "file": "DL2-15551.pdf",
@@ -234,7 +230,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "RECOMMENDED DOSAGE, column 'TREAT RATE % WT'.",
           "source": {
             "file": "DL2-15551.pdf",
@@ -259,7 +255,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "RECOMMENDED DOSAGE, column 'TREAT RATE % WT'.",
           "source": {
             "file": "DL2-15551.pdf",
@@ -284,7 +280,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "From the Technical Judgement, not the TDS dosage table. Note: this is a prediction (Technical Judgement, DL2-15620.pdf), not a measurement.",
           "source": {
             "file": "DL2-15620.pdf",
@@ -314,7 +310,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -353,7 +349,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -365,7 +361,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
@@ -380,7 +376,8 @@
     "User decision 2026-10-17: the 4 entries from the 'Technical Judgement for BT 3088' (DL2-15620.pdf, document_type 'other') are recorded as Reported with evidence_class 'Predicted' and the note that the value is a prediction, not a measurement.",
     "Claim type: the TDS (DL2-15551.pdf p.1) gives a 'RECOMMENDED DOSAGE' per specification and says the package 'covers API CI-4 /CH-4 performance levels'; recorded as 'recommended'.",
     "No SAE grades, base oils, co-components or published formulation are printed in either document.",
-    "API SL at 8% appears only in the Technical Judgement (p.4); the TDS lists API CH-4/SJ at 7.0 and CF-4/SG at 6.0."
+    "API SL at 8% appears only in the Technical Judgement (p.4); the TDS lists API CH-4/SJ at 7.0 and CF-4/SG at 6.0.",
+    "Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Bettchem."
   ],
   "conflicts": [],
   "external_fill_notes": []

@@ -28,7 +28,7 @@
       "package_type": {
         "unit": null,
         "value": "ACEA E7/CI-4 Diesel Engine Oil Package",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15832.pdf",
           "page": 1,
@@ -40,7 +40,7 @@
       "intended_service": {
         "unit": null,
         "value": "This package is applicable to heavy duty diesel engine vehicles with China V and below emission standards.",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15832.pdf",
           "page": 1,
@@ -58,7 +58,7 @@
         "claim_type": "meets",
         "scope": "DL2-15832.pdf: 'The diesel engine oil blended with this package, using Group II base oil and OCP viscosity modifier, meets API CI-4 and ACEA E7 performance specifications'; treat-rate row 'ACEA E7/API CI-4' (11.85% here, 10.85% in RF6078 - TDS.pdf).",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15832.pdf",
           "page": 1,
@@ -74,7 +74,7 @@
         "claim_type": "meets",
         "scope": "DL2-15832.pdf: 'The diesel engine oil blended with this package, using Group II base oil and OCP viscosity modifier, meets API CI-4 and ACEA E7 performance specifications'; row 'API CI-4' 10.85%.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15832.pdf",
           "page": 1,
@@ -90,7 +90,7 @@
         "claim_type": "meets",
         "scope": "RF6078 - TDS.pdf: 'Diesel engine oil blended with RF6078 and OCP VII in Group II base oils passed all engine tests and bench tests that ACEA E7&API CI-4 requires ... By increasing the dosage, RF6078 can also meet the performance requirements of API CI-4 Plus.'; row 'API CI-4 Plus' 11.85%.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "RF6078%20-%20TDS.pdf",
           "page": 1,
@@ -105,7 +105,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "10W-30",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15832.pdf",
           "page": 1,
@@ -118,7 +118,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "10W-40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15832.pdf",
           "page": 1,
@@ -131,7 +131,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "15W-40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15832.pdf",
           "page": 1,
@@ -144,7 +144,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "20W-50",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15832.pdf",
           "page": 1,
@@ -165,7 +165,7 @@
       "allowed_combinations": [
         "using Group II base oil and OCP viscosity modifier"
       ],
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-15832.pdf",
         "page": 1,
@@ -183,7 +183,7 @@
       ],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-15832.pdf",
         "page": 1,
@@ -206,30 +206,14 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": "11.85% (DL2-15832.pdf) vs 10.85% (RF6078 - TDS.pdf), both undated; see conflicts.",
           "source": {
             "file": null,
             "page": null,
             "revision_date": null
           },
-          "notes": null,
-          "value_final": 11.35,
-          "unit_final": "wt.%",
-          "status_final": "Calculated",
-          "source_final": [
-            {
-              "file": "DL2-15832.pdf",
-              "page": 1,
-              "revision_date": null
-            },
-            {
-              "file": "RF6078%20-%20TDS.pdf",
-              "page": 1,
-              "revision_date": null
-            }
-          ],
-          "resolution": "Same document type, editions undated so the newest cannot be determined; average taken: row 'ACEA E7/API CI-4' is 11.85 % in DL2-15832.pdf and 10.85 % in 'RF6078 - TDS.pdf' -> 11.35 %. The two sheets label their second row differently ('API CI-4' vs 'API CI-4 Plus'), so the average is weak; check with Richful."
+          "notes": null
         }
       },
       {
@@ -245,7 +229,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "DL2-15832.pdf row.",
           "source": {
             "file": "DL2-15832.pdf",
@@ -273,7 +257,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "RF6078 - TDS.pdf row ('By increasing the dosage').",
           "source": {
             "file": "RF6078%20-%20TDS.pdf",
@@ -303,7 +287,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": "Both TDS: blended with OCP VII / OCP viscosity modifier in Group II base oil; product and dose not printed.",
           "source": {
             "file": null,
@@ -342,7 +326,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -354,7 +338,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
@@ -372,6 +356,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier1.treat_rate_matrix (ACEA E7/API CI-4)",
       "values": [
         {
@@ -390,8 +375,8 @@
         }
       ],
       "note": "Both TDS undated; DL2-15832.pdf lists API CI-4 alone at 10.85%, 'RF6078 - TDS.pdf' lists API CI-4 Plus at 11.85%. Not resolved.",
-      "resolved": true,
-      "final_resolution": "See fields.treat_rate_matrix[0].treat_rate_wt_pct.resolution. The 'values' in this entry are correct; the note text has the two files swapped."
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.treat_rate_matrix[0].treat_rate_wt_pct.resolution. The 'values' in this entry are correct; the note text has the two files swapped. Same document type, editions undated so the newest cannot be determined; average taken: row 'ACEA E7/API CI-4' is 11.85 % in DL2-15832.pdf and 10.85 % in 'RF6078 - TDS.pdf' -> 11.35 %. The two sheets label their second row differently ('API CI-4' vs 'API CI-4 Plus'), so the average is weak; check with Richful."
     }
   ],
   "external_fill_notes": []

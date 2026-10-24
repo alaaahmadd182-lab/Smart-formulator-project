@@ -85,7 +85,7 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
       "status": "Missing",
@@ -137,6 +137,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "unit or test-condition discrepancy",
       "field": "sulfur",
       "sources": [
         {

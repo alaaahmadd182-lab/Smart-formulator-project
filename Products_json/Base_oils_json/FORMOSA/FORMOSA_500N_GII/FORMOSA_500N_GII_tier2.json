@@ -8,7 +8,10 @@
     "product_name": "Base Oil 500N GII",
     "supplier": "Formosa Petrochemical Corporation",
     "document_type": "Product specification + MSDS",
-    "source_file": "DL2-10003.pdf; DL2-10017.pdf",
+    "source_file": [
+      "DL2-10003.pdf",
+      "DL2-10017.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
@@ -65,7 +68,7 @@
       "value_kind": null,
       "printed_text": null,
       "unit": "wt.% loss",
-      "test_temperature_c": 250,
+      "test_temperature_c": null,
       "method": null,
       "status": "Missing",
       "calculation_note": null,
@@ -84,7 +87,7 @@
       "max": -12,
       "value_kind": "maximum",
       "printed_text": "Max -12 C",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D97 / D5950",
       "status": "Reported",
@@ -105,7 +108,7 @@
       "max": null,
       "value_kind": "minimum",
       "printed_text": "Min 230 C",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D92",
       "status": "Reported",

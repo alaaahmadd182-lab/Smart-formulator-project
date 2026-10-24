@@ -84,7 +84,7 @@
       "max": null,
       "value_kind": "typical",
       "printed_text": "−18°C",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D5950",
       "status": "Reported",
@@ -104,7 +104,7 @@
       "max": null,
       "value_kind": "typical",
       "printed_text": "COC 210°C",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D92",
       "status": "Reported",
@@ -124,5 +124,69 @@
     "Grade-specific SDS reconciliation pending.",
     "Additional Petro-Canada documents not yet reconciled against this brochure."
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "conflict_type": "edition difference",
+      "field": "tier2.noack_volatility",
+      "values": [
+        {
+          "value": 15.5,
+          "printed_text": "15.5 wt%",
+          "file": "DL2-10020.pdf",
+          "page": 2,
+          "revision_date": "2015-07"
+        },
+        {
+          "value": 16,
+          "printed_text": "NOACK Volatility, % wt: 16",
+          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
+          "page": 2,
+          "revision_date": "2023-03"
+        }
+      ],
+      "note": "Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 16 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit)."
+    },
+    {
+      "conflict_type": "edition difference",
+      "field": "tier2.pour_point",
+      "values": [
+        {
+          "value": -18,
+          "printed_text": "−18°C",
+          "file": "DL2-10020.pdf",
+          "page": 2,
+          "revision_date": "2015-07"
+        },
+        {
+          "value": -24,
+          "printed_text": "Pour Point, °C: -24",
+          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
+          "page": 2,
+          "revision_date": "2023-03"
+        }
+      ],
+      "note": "Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints -24 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit)."
+    },
+    {
+      "conflict_type": "edition difference",
+      "field": "tier2.flash_point",
+      "values": [
+        {
+          "value": 210,
+          "printed_text": "COC 210°C",
+          "file": "DL2-10020.pdf",
+          "page": 2,
+          "revision_date": "2015-07"
+        },
+        {
+          "value": 226,
+          "printed_text": "Flash Point, COC, °C: 226",
+          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
+          "page": 2,
+          "revision_date": "2023-03"
+        }
+      ],
+      "note": "Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 226 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit)."
+    }
+  ]
 }

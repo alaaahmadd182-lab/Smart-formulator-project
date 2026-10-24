@@ -20,9 +20,9 @@
       "package_type": {
         "unit": null,
         "value": "Heavy-duty engine oil (HDEO) additive package",
-        "status": "reported",
+        "status": "Reported",
         "source": {
-          "file": null,
+          "file": "https://www.oronite.com/products-technology/heavy-duty-motor-oils.html",
           "page": null,
           "revision_date": null,
           "url": "https://www.oronite.com/products-technology/heavy-duty-motor-oils.html",
@@ -36,7 +36,7 @@
       "intended_service": {
         "unit": null,
         "value": "Automotive lubricant additive",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-11731.pdf",
           "page": 1,
@@ -54,7 +54,7 @@
         "claim_type": null,
         "scope": null,
         "evidence_class": null,
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
@@ -69,7 +69,7 @@
         "value": null,
         "unit": null,
         "sae_grade": null,
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
@@ -86,7 +86,7 @@
       "permitted_grades": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -101,7 +101,7 @@
       "limits": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -124,7 +124,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Section 11 skin sensitization text ('when formulated in a finished oil at the prescribed treatment rate of'); not tied to a claim or grade.",
           "source": {
             "file": "DL2-11731.pdf",
@@ -151,7 +151,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -190,7 +190,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -202,7 +202,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
@@ -223,7 +223,7 @@
       "value": null,
       "unit": null,
       "property": "package_type_application.package_type",
-      "status": "reported",
+      "status": "Reported",
       "source": "Chevron Oronite official web page, https://www.oronite.com/products-technology/heavy-duty-motor-oils.html (retrieved 2026-10-17)",
       "notes": null
     }

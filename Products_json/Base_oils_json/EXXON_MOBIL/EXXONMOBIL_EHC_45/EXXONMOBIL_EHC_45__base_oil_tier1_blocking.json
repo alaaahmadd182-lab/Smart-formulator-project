@@ -129,23 +129,21 @@
     "ccs": [
       {
         "value": null,
-        "qualifier": null,
+        "qualifier": "maximum",
         "min": null,
-        "max": null,
-        "value_kind": null,
-        "printed_text": null,
+        "max": 1550,
+        "value_kind": "maximum",
+        "printed_text": "Cold-Cranking Simulator, Apparent Viscosity @ -25 °C, mPa.s | ASTM D5293 | Max | 1,550 (column 'EHC 45')",
         "unit": "mPa.s",
         "test_temperature_c": -25,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": null,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "Sales specification limit ('Specifications' table, p.2; printed date 4/29/2019). Printed '1,550' (the comma is a thousands separator). Note 1: 'Products are certified on release to meet the values specified.' The -20 °C cell of the EHC 45 column is blank.",
         "source": {
-          "file": null,
-          "page": null,
+          "file": "DL2-11785.pdf",
+          "page": 2,
           "revision_date": null
-        },
-        "value_final": null,
-        "unit_final": "mPa·s"
+        }
       }
     ]
   },

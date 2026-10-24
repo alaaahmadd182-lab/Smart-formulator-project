@@ -1,4 +1,25 @@
 {
+  "_template_notes": {
+    "purpose": "Template-only documentation. Do not copy this _template_notes block into product records.",
+    "status_vocabulary": {
+      "Reported": "Value printed in the cited source document (archive file or registered external source).",
+      "Calculated": "Numeric value calculated in the record from reported values (e.g. unit conversion, difference, element-based estimate); the calculation is stated in calculation_note. Derived non-numeric classifications stay Reported, with value_kind/basis stating that they are derived.",
+      "Missing": "No value found in any reviewed source; value stays null.",
+      "Not Applicable": "The property does not apply to this product type.",
+      "Not Required": "The property is not required for the documented application (reason stated in notes)."
+    },
+    "units": "Temperatures in °C. Keep printed units as printed (e.g. g/ml, kg/L, cSt, mPa.s); never replace a measured test temperature with a template default.",
+    "source": "source.file is an archive file name (Manual + Data to share.zip) or an external URL listed in source_registry.json; source.page is the PDF page index (null for web pages); source.revision_date is the document's printed revision or issue date.",
+    "optional_provenance_keys": {
+      "source_documents": "Top level: list of documents used for the record (file, pages, doc_type, revision_date, notes).",
+      "external_fill_notes": "Top level (additive packages): notes on values filled from sources outside the archive.",
+      "notes / basis": "Inside a property: why the cited source supports this exact product and value.",
+      "printed_text": "Inside a property: the value exactly as printed.",
+      "calculation_note": "Inside a property: derivation of a Calculated value, or a note on a Reported or Missing one.",
+      "alternate_entries": "Inside a property: other printed values (e.g. specification limits) kept beside the main value."
+    },
+    "conflicts": "Top-level 'conflicts' entries record documents or editions that print different values: conflict_type ('edition difference', 'conflicting values between different documents', 'inconsistency within one document' or 'unit or test-condition discrepancy'), field, values[{value, printed_text, file, page, revision_date}], note."
+  },
   "template_version": "1.0",
   "material_class": "base_oil",
   "tier": 2,
@@ -61,7 +82,7 @@
       "value_kind": null,
       "printed_text": null,
       "unit": "wt.% loss",
-      "test_temperature_c": 250,
+      "test_temperature_c": null,
       "method": null,
       "status": "Missing",
       "calculation_note": null,
@@ -78,7 +99,7 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
       "status": "Missing",
@@ -96,7 +117,7 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
       "status": "Missing",

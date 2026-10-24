@@ -1,13 +1,21 @@
 #!/usr/bin/env python3
-"""Task 5 report: open_questions_and_conflicts.md generated from every product JSON (read-only).
+"""Task 5 report generated from every product JSON (read-only); it does not replace the curated log.
 
-Usage: python build_conflicts_report.py [--input Products_json] [--output open_questions_and_conflicts.md]
+Usage: python build_conflicts_report.py [--input Products_json] [--output conflicts_report_generated.md] [--overwrite]
 
-Sections: 1 unresolved conflicts, 2 resolved values (value_final) and resolved conflict records,
+The curated log open_questions_and_conflicts.md is never written: an --output naming it is refused. An existing
+output file is replaced only with --overwrite.
+
+Sections: 1 unresolved conflicts, 2 reviewed resolution notes and conflict records marked resolved,
 3 reported numeric values with no test method, no unit or no reference temperature,
-4 open questions per product. Final (integrated) keys are used where present, else the originals.
+4 open questions per product. Status, value, unit, method, temperature and source are always the validated
+keys; value_final / unit_final from integrate_products.py are shown for information only.
+Data rules (approved 2026-10-24): conflicting values are never averaged; TDS is never preferred over SDS (or
+the reverse) automatically; the validated status is never replaced by status_final.
 """
-import argparse, collections, datetime, glob, json, os, re, sys
+import argparse, collections, datetime, json, os, re, sys
+
+CURATED_LOG = 'open_questions_and_conflicts.md'
 
 CLASSES = (('base_oil', 'Base oils'), ('additive_package', 'Additive packages'), ('additive_component', 'Additive components'))
 NEEDS_TEMPERATURE = {'kv40', 'kv100', 'delta_kv100_cst', 'density', 'ccs', 'ccs_viscosity', 'mrv', 'mrv_viscosity',
@@ -20,12 +28,8 @@ NO_METHOD_EXPECTED = {'treat_rate', 'treat_rate_wt_pct', 'treat_range_wt_pct', '
 
 def long_path(p):
     """Windows extended-length path so files beyond the 260-character limit are never skipped."""
-    s = os.path.abspath(str(p))
+    s = os.path.normpath(os.path.abspath(str(p)))
     return '\\\\?\\' + s if os.name == 'nt' and not s.startswith('\\\\?\\') else s
-
-
-def final(node, key):
-    return node[f'{key}_final'] if f'{key}_final' in node else node.get(key)
 
 
 def md(v):
@@ -63,10 +67,12 @@ def walk(node, path, parent, out):
 
 def load(root):
     products = collections.OrderedDict()
-    for f in sorted(glob.glob(os.path.join(os.path.abspath(root), '**', '*.json'), recursive=True)):
-        with open(long_path(f), encoding='utf-8') as fh:
+    base = long_path(root)
+    found = sorted(os.path.join(dp, f) for dp, _, fs in os.walk(base) for f in fs if f.lower().endswith('.json'))
+    for f in found:  # os.walk on the extended-length path, so files beyond 260 characters are not skipped
+        with open(f, encoding='utf-8') as fh:
             d = json.load(fh)
-        key = (d.get('material_class'), os.path.relpath(os.path.dirname(f), os.path.abspath(root)))
+        key = (d.get('material_class'), os.path.relpath(os.path.dirname(f), base))
         products.setdefault(key, []).append(d)
     for docs in products.values():
         docs.sort(key=lambda d: (d.get('tier') or 0, str(d.get('component_subtype'))))
@@ -95,50 +101,53 @@ def build(products, generated):
             nodes = []
             walk(d.get('fields', {}), '', None, nodes)
             for path, n, parent in nodes:
-                if n.get('resolution') and 'value_final' in n:
+                if n.get('resolution'):
                     target = unresolved_values if n['resolution'].startswith('UNRESOLVED') else resolved_values
                     target.append((cl, pid, tl, path, n))
                 conv = str(n.get('unit_conversion') or '')
                 if 'does not match printed text' in conv or any('left null' in fl for fl in n.get('integration_flags', [])):
                     corrections.append((cl, pid, tl, path, n))
-                status = str(final(n, 'status') or '').lower()
-                v = final(n, 'value')
-                if status != 'reported' or not any(is_num(x) for x in (v, final(n, 'min'), final(n, 'max'))):
+                status = str(n.get('status') or '').lower()
+                v = n.get('value')
+                if status != 'reported' or not any(is_num(x) for x in (v, n.get('min'), n.get('max'))):
                     continue
                 key, missing = last_key(path), []
-                if key not in NO_METHOD_EXPECTED and not final(n, 'method'):
+                if key not in NO_METHOD_EXPECTED and not n.get('method'):
                     missing.append('method')
-                if key not in UNITLESS and not final(n, 'unit'):
+                if key not in UNITLESS and not n.get('unit'):
                     missing.append('unit')
                 if key in NEEDS_TEMPERATURE:
-                    t = final(n, 'test_temperature_c')
+                    t = n.get('test_temperature_c')
                     if t is None and isinstance(parent, dict):
                         t = parent.get('test_temperature_c')
                     if t is None:
                         missing.append('temperature')
                 if missing:
-                    rng = '–'.join(md(final(n, k)) for k in ('min', 'max')) if v is None else md(v)
-                    gaps.append((cl, pid, tl, path, rng, final(n, 'unit'), missing))
+                    rng = '–'.join(md(n.get(k)) for k in ('min', 'max')) if v is None else md(v)
+                    gaps.append((cl, pid, tl, path, rng, n.get('unit'), missing))
             for q in d.get('open_questions', []):
                 questions.setdefault((cl, pid), []).append((tl, q))
 
-    L = ['# Open questions and conflicts (all products)', '',
+    L = ['# Conflicts report (generated)', '',
          f'Generated {generated} by `build_conflicts_report.py` from the `open_questions`, `conflicts` and '
          '`fields` of every JSON file in `Products_json` (base oils, additive packages, additive components). '
-         'Final values (`value_final`, `unit_final`, `status_final`, `source_final`, written by '
-         '`integrate_products.py`) are used where present, otherwise the original keys.', '',
+         f'The curated log is `{CURATED_LOG}`; this report does not replace it. Status, value, unit, method, '
+         'temperature and source are the validated keys; `value_final` / `unit_final` (written by '
+         '`integrate_products.py`) are shown for information only.', '',
          '| Section | Count |', '|---|---|',
          f'| 1. Unresolved conflicts | {len(unresolved)} |',
-         f'| 2a. Properties whose value_final was resolved | {len(resolved_values)} |',
+         f'| 2a. Properties with a reviewed resolution note | {len(resolved_values)} |',
          f'| 2b. Conflict records marked resolved | {len(resolved_records)} '
-         f'({sum(1 for r in resolved_records if not r[4] or "see " not in r[4].lower())} needed no value change) |',
+         f'({sum(1 for r in resolved_records if not r[4] or "see " not in r[4].lower())} with no property note) |',
          f'| 2c. value_final corrected or left null during unit integration | {len(corrections)} |',
          f'| 3. Reported numeric values with no method, unit or reference temperature | {len(gaps)} |',
          f'| 4. Open questions | {sum(len(v) for v in questions.values())} (in {len(questions)} products) |', '']
 
     L += ['## 1. Unresolved conflicts', '',
-          'The resolution rules could not choose a value for these. The value_final shown is the field as it stands, '
-          'pending supplier confirmation.', '']
+          'Every conflict entry not marked resolved, with both values and sources as recorded (duplicates across tier '
+          'files listed once). No value was chosen, averaged or preferred by document type; each needs authoritative '
+          'evidence (supplier confirmation, a newer dated edition, or a reviewed decision) before it is resolved. Where '
+          'a reviewed note explains why an entry stays unresolved, the field is shown as it stands.', '']
     by_pid = {(r[1], last_key(r[3])): r for r in unresolved_values}
     for cl, pid, tl, body, note in unresolved:
         L.append(f'### {pid} ({dict(CLASSES)[cl]}, {tl})')
@@ -152,22 +161,23 @@ def build(products, generated):
             L.append(f"- **Why unresolved:** {md(n['resolution'][len('UNRESOLVED: '):])}")
         L.append('')
 
-    L += ['## 2. Resolved values', '',
-          'Rules (user decision 2026-10-24): TDS (or PDS / bulletin / specification sheet) preferred over SDS; '
-          'same document type -> newest dated edition, or the average (status Calculated) when the dates cannot be '
-          'compared; text values take the newest; a measured or typical number beats a bound; the user decisions '
-          'of 2026-10-18 on RF6077 and RF6088F are kept.', '',
-          '### 2a. Properties whose value_final was resolved', '',
-          '| Class | Product | Tier | Property | Original value | value_final | Final status | Final source | How it was resolved |',
+    L += ['## 2. Reviewed resolutions', '',
+          'Data rules (approved 2026-10-24): (1) conflicting datasheet values are never averaged automatically; both '
+          'values and their sources are kept, and a conflict stays unresolved unless authoritative evidence supports a '
+          'resolution; (2) TDS is never preferred over SDS, nor the reverse, automatically: measurement conditions, '
+          'test methods, revision dates, source reliability and comparability are evaluated; (3) the validated status '
+          'is reported, never status_final. A resolution note never changes the value, status or source of a field.', '',
+          '### 2a. Properties with a reviewed resolution note', '',
+          '| Class | Product | Tier | Property | Value (unit) | Status | Source | value_final (informational) | Note |',
           '|---|---|---|---|---|---|---|---|---|']
     for cl, pid, tl, path, n in resolved_values:
         orig = f"{md(n.get('value'))} {md(n.get('unit'))}" if n.get('value') is not None else f"– (printed: {md(n.get('printed_text'))})"
-        L.append(f"| {dict(CLASSES)[cl]} | {pid} | {tl} | `{path}` | {orig} | **{md(n.get('value_final'))} "
-                 f"{md(n.get('unit_final'))}** | {md(final(n, 'status'))} | {md(final(n, 'source'))} | {md(n['resolution'])} |")
+        L.append(f"| {dict(CLASSES)[cl]} | {pid} | {tl} | `{path}` | {orig} | {md(n.get('status'))} | {md(n.get('source'))} | "
+                 f"{md(n.get('value_final'))} {md(n.get('unit_final'))} | {md(n['resolution'])} |")
     L += ['', '### 2b. Conflict records marked resolved', '',
-          'Every resolved entry of the `conflicts` arrays (duplicates across tier files listed once). Entries pointing '
-          'to a property are detailed in 2a; the others needed no value change, e.g. claim conflicts where the fields '
-          'already held the newest edition.', '',
+          'Every entry of the `conflicts` arrays marked resolved (duplicates across tier files listed once), with the '
+          'evidence it rests on. Entries pointing to a property note are detailed in 2a; the others needed no value '
+          'change, e.g. claim conflicts where the fields already held the newer dated edition.', '',
           '| Class | Product | Tier | Recorded conflict | Final resolution |', '|---|---|---|---|---|']
     for cl, pid, tl, body, note in resolved_records:
         L.append(f'| {dict(CLASSES)[cl]} | {pid} | {tl} | {md(body)} | {md(note)} |')
@@ -212,11 +222,17 @@ def build(products, generated):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     ap.add_argument('--input', default='Products_json', help='product JSON folder (default: Products_json)')
-    ap.add_argument('--output', default='open_questions_and_conflicts.md', help='report to write')
+    ap.add_argument('--output', default='conflicts_report_generated.md',
+                    help=f'report to write (default: conflicts_report_generated.md; never {CURATED_LOG})')
+    ap.add_argument('--overwrite', action='store_true', help='allow replacing an existing output file')
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding='utf-8')
     if not os.path.isdir(args.input):
         sys.exit(f'input folder not found: {args.input}')
+    if os.path.basename(os.path.abspath(args.output)).lower() == CURATED_LOG.lower():
+        sys.exit(f'refused: {CURATED_LOG} is the curated conflict log and is never generated; choose another --output')
+    if os.path.exists(args.output) and not args.overwrite:
+        sys.exit(f'refused: {args.output} exists; pass --overwrite to replace it')
     text, n_unres, n_res, n_gaps = build(load(args.input), datetime.date.today().isoformat())
     with open(args.output, 'w', encoding='utf-8', newline='\n') as fh:
         fh.write(text)

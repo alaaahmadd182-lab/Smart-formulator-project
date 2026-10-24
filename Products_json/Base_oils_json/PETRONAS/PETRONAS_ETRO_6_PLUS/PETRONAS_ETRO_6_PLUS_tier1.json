@@ -8,13 +8,16 @@
     "product_name": "ETRO 6+",
     "supplier": "PETRONAS Lubricants International",
     "document_type": "Product Data Sheet + Safety Data Sheet",
-    "source_file": "DL2-10234.pdf",
+    "source_file": [
+      "DL2-10234.pdf",
+      "DL2-14610.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": "III",
+        "value": "Group III",
         "status": "Reported",
         "source": {
           "file": "DL2-10234.pdf",
@@ -27,8 +30,7 @@
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null,
-        "value_final": "III"
+        "calculation_note": null
       },
       "chemistry": {
         "value": "Hydrotreated, wax-isomerized and hydrofinished highly isoparaffinic base oil",
@@ -66,8 +68,7 @@
         "revision_date": null
       },
       "value_final": 32.55,
-      "unit_final": "cSt",
-      "resolution": "TDS preferred over SDS: TDS DL2-10234.pdf 32.55 cSt kept over SDS DL2-14610.pdf 34.79 cSt."
+      "unit_final": "cSt"
     },
     "kv100": {
       "value": 6.0,
@@ -127,18 +128,26 @@
         "file": "DL2-14610.pdf",
         "page": 4,
         "revision_date": "2020-03-24"
-      },
-      "value_final": 0.8429,
-      "unit_final": "g/cm³",
-      "status_final": "Reported",
-      "test_temperature_c_final": null,
-      "method_final": "ASTM D 1298/D 4052",
-      "source_final": {
-        "file": "DL2-10234.pdf",
-        "page": 1,
-        "revision_date": null
-      },
-      "resolution": "TDS preferred over SDS: TDS DL2-10234.pdf 0.8429 kg/L chosen over SDS DL2-14610.pdf 0.8486 g/cm³ at 15 °C, which was in the field. The TDS prints no measurement temperature."
+      }
+    },
+    "specific_gravity": {
+      "value": 0.8486,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "Relative density : 0.8486 (15 °C)",
+      "unit": "dimensionless",
+      "reference_condition": "15 °C (water reference temperature not printed)",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "SDS Section 9 (p.4). 'Method: ASTM D 4052' is printed after the Density line, not the relative-density line; method left null. Not converted to density.",
+      "source": {
+        "file": "DL2-14610.pdf",
+        "page": 4,
+        "revision_date": "2020-03-24"
+      }
     },
     "ccs": [
       {
@@ -211,44 +220,48 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "kv40",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "32.55 cSt at 40°C (ASTM D445)",
       "comparison_source": "DL2-14610.pdf",
       "comparison_value": "34.79 mm²/s at 40°C (ASTM D445), page 4",
       "assessment": "Different reported values; retain TDS typical value, flag for review.",
-      "resolved": true,
-      "final_resolution": "TDS preferred over SDS; see tier1 fields.kv40.resolution."
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.kv40.resolution. TDS preferred over SDS: TDS DL2-10234.pdf 32.55 cSt kept over SDS DL2-14610.pdf 34.79 cSt."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "flash_point",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "240°C ASTM D92 (COC)",
       "comparison_source": "DL2-14610.pdf",
       "comparison_value": "228°C ASTM D93 (PMCC), page 3",
       "assessment": "Different methods, not directly comparable; both values retained.",
-      "resolved": true,
-      "final_resolution": "TDS preferred over SDS; see tier2 fields.flash_point.resolution."
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.flash_point.resolution. TDS preferred over SDS: TDS DL2-10234.pdf 240 °C (ASTM D92, COC) kept over SDS DL2-14610.pdf 228 °C (ASTM D93, PMCC). Different methods, so the two values are not directly comparable."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "noack_volatility",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "5.7 mass% ASTM D5800-B",
       "comparison_source": "DL2-14610.pdf",
       "comparison_value": "5.3 mass% ASTM D5800 B, page 4",
       "assessment": "Different reported values; retain TDS typical value, flag for review.",
-      "resolved": true,
-      "final_resolution": "TDS preferred over SDS; see tier2 fields.noack_volatility.resolution."
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.noack_volatility.resolution. TDS preferred over SDS: TDS DL2-10234.pdf 5.7 wt.% kept over SDS DL2-14610.pdf 5.3 wt.%."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "density",
       "primary_source": "DL2-10234.pdf",
       "primary_value": "0.8429 kg/L (temperature not stated)",
       "comparison_source": "DL2-14610.pdf",
       "comparison_value": "0.8486 g/cm³ at 15°C ASTM D4052, page 4",
       "assessment": "TDS lacks measurement temperature; SDS has a stated temperature and is used in the density field, with its own source.",
-      "resolved": true,
-      "final_resolution": "TDS preferred over SDS; see tier1 fields.density.resolution."
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.density.resolution. TDS preferred over SDS: TDS DL2-10234.pdf 0.8429 kg/L chosen over SDS DL2-14610.pdf 0.8486 g/cm³ at 15 °C, which was in the field. The TDS prints no measurement temperature."
     }
   ]
 }

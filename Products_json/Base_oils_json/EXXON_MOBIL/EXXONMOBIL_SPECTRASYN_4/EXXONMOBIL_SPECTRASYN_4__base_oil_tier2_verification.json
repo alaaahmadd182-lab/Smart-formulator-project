@@ -14,26 +14,24 @@
   "fields": {
     "mrv": [
       {
-        "test_temperature_c": null,
+        "test_temperature_c": -40,
         "mrv_viscosity": {
           "value": null,
-          "qualifier": null,
+          "qualifier": "<",
           "min": null,
-          "max": null,
-          "value_kind": null,
-          "printed_text": null,
-          "unit": "mPa.s",
-          "test_temperature_c": null,
-          "method": null,
-          "status": "Missing",
-          "calculation_note": null,
+          "max": 5000,
+          "value_kind": "upper bound",
+          "printed_text": "Apparent Viscosity by Mini-Rotary Viscometer 2 | -40\u00b0F (-40\u00b0C) | < 5000 cP",
+          "unit": "cP",
+          "test_temperature_c": -40,
+          "method": "ASTM D4684",
+          "status": "Reported",
+          "calculation_note": "'Flow' table, Typical Value (SI) column (p.1); footnote 2 on 'Apparent Viscosity by Mini-Rotary Viscometer': 'Single sample or two sample average determinations'. Sheet note: 'Typical properties: these are not to be construed as specifications.' Printed '< 5000 cP' in both columns: an upper bound, not a measured value; no value is assigned.",
           "source": {
-            "file": null,
-            "page": null,
-            "revision_date": null
-          },
-          "value_final": null,
-          "unit_final": "mPa\u00b7s"
+            "file": "DL2-11332.pdf",
+            "page": 1,
+            "revision_date": "07/30/2015"
+          }
         },
         "yield_stress": {
           "value": null,
@@ -46,7 +44,7 @@
           "test_temperature_c": null,
           "method": null,
           "status": "Missing",
-          "calculation_note": null,
+          "calculation_note": "Not printed in DL2-11332.pdf; only the MRV apparent viscosity at -40 \u00b0C is given. Not derived from the viscosity.",
           "source": {
             "file": null,
             "page": null,
@@ -59,23 +57,21 @@
     ],
     "noack_volatility": {
       "value": null,
-      "qualifier": null,
+      "qualifier": "<",
       "min": null,
-      "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": "wt.% loss",
-      "test_temperature_c": 250,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "max": 14.0,
+      "value_kind": "upper bound",
+      "printed_text": "Noack Volatility | < 14.0 wt% | ASTM D5800/DIN 51581",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D5800/DIN 51581",
+      "status": "Reported",
+      "calculation_note": "'Basics' table, Typical Value (SI) column (p.1); no footnote on this row. Printed '< 14.0 wt%': an upper bound, not a measured value; no value is assigned. The sheet prints no test temperature or duration; test_temperature_c is null.",
       "source": {
-        "file": null,
-        "page": null,
-        "revision_date": null
-      },
-      "value_final": null,
-      "unit_final": "wt.%"
+        "file": "DL2-11332.pdf",
+        "page": 1,
+        "revision_date": "07/30/2015"
+      }
     },
     "pour_point": {
       "value": -66.0,

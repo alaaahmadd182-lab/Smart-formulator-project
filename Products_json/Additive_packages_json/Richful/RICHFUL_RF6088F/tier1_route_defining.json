@@ -25,7 +25,7 @@
       "package_type": {
         "unit": null,
         "value": "CK-4 Diesel Engine Oil Package",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15839.pdf",
           "page": 1,
@@ -37,7 +37,7 @@
       "intended_service": {
         "unit": null,
         "value": "RF6088F refers to a CK-4 Diesel Engine Oil Package which formulated with high-quality detergent, dispersant, ZDDP and other additive components.",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15839.pdf",
           "page": 1,
@@ -55,7 +55,7 @@
         "claim_type": "meets",
         "scope": "Recommended treat rate table: 10W-30, 10W-40, 15W-40, 12.0%. Text: 'The diesel engine oils which blended with RF6088F using Group II and above base oils, appropriate viscosity index modifier and other additive components can provide excellent detergency, high temperature anti-oxidant, soot dispersancy and anti-wear performance. Greatly meet API CK-4 specification.'",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15839.pdf",
           "page": 1,
@@ -70,7 +70,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "10W-30",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15839.pdf",
           "page": 1,
@@ -83,7 +83,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "10W-40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15839.pdf",
           "page": 1,
@@ -96,7 +96,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "15W-40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15839.pdf",
           "page": 1,
@@ -117,7 +117,7 @@
       "allowed_combinations": [
         "using Group II and above base oils"
       ],
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-15839.pdf",
         "page": 1,
@@ -132,7 +132,7 @@
       "limits": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -155,7 +155,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Printed '%' (basis not stated).",
           "source": {
             "file": "DL2-15839.pdf",
@@ -185,7 +185,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": "Text: 'appropriate viscosity index modifier'; not named, no dose.",
           "source": {
             "file": null,
@@ -224,7 +224,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -236,7 +236,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,

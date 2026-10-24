@@ -20,7 +20,7 @@
       "package_type": {
         "unit": null,
         "value": "ACEA E6-12 premium package",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-12025.pdf",
           "page": 1,
@@ -32,7 +32,7 @@
       "intended_service": {
         "unit": null,
         "value": "Infineum D3320 is an ACEA E6-12 premium package for Group II/III base stocks (SAE 10W-30, 10W-40).",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-12025.pdf",
           "page": 1,
@@ -50,7 +50,7 @@
         "claim_type": "other",
         "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 10W-30 at 13.7 mass %; 10W-40 at 13.7 mass %. Description: 'an ACEA E6-12 premium package for Group II/III base stocks (SAE 10W-30, 10W-40)'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-12025.pdf",
           "page": 1,
@@ -66,7 +66,7 @@
         "claim_type": "other",
         "scope": "Performance table ('Performance Level / SAE Viscosity Grade / Mass %'); 10W-30 at 13.7 mass %; 10W-40 at 13.7 mass %. Description: 'an ACEA E6-12 premium package for Group II/III base stocks (SAE 10W-30, 10W-40)'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-12025.pdf",
           "page": 1,
@@ -81,7 +81,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "10W-30",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-12025.pdf",
           "page": 1,
@@ -94,7 +94,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "10W-40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-12025.pdf",
           "page": 1,
@@ -113,7 +113,7 @@
       "permitted_grades": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-12025.pdf",
         "page": 1,
@@ -128,7 +128,7 @@
       "limits": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -151,7 +151,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Column 'Mass %'.",
           "source": {
             "file": "DL2-12025.pdf",
@@ -176,7 +176,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Column 'Mass %'.",
           "source": {
             "file": "DL2-12025.pdf",
@@ -203,7 +203,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -242,7 +242,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -254,7 +254,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,

@@ -1,0 +1,133 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "ARAMCO_LUBEREF_PRIMA_600__T3",
+  "product": {
+    "product_name": "aramcoPRIMA 600",
+    "supplier": "Saudi Aramco Luberef",
+    "document_type": [
+      "Supplier brochure"
+    ],
+    "source_file": "DL2-11773.pdf",
+    "revision_date": null,
+    "product_id": "ARAMCO_LUBEREF_PRIMA_600"
+  },
+  "fields": {
+    "sulfur": {
+      "value": 30,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Sulfur, wt ppm, D2622: 30 (column 'aramcoPRIMA 600 / Typical')",
+      "unit": "ppm",
+      "test_temperature_c": null,
+      "method": "ASTM D2622",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "saturates": {
+      "value": 95,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Saturates, wt%, D 2007: 95 (column 'aramcoPRIMA 600 / Typical')",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D2007",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": 5,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Aromatic, wt%, D 2007: 5 (column 'aramcoPRIMA 600 / Typical')",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D2007",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "No cloud point printed on DL2-11773.pdf.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "No wax content printed on DL2-11773.pdf.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    {
+      "question": "Cloud point and wax content are not printed on DL2-11773.pdf.",
+      "fields": [
+        "cloud_point",
+        "wax_content"
+      ],
+      "source_files": [
+        "DL2-11773.pdf"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-11773.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier product brochure (aramcoPRIMA Group II typical properties table, printed pp. 8-9)",
+      "revision_date": null,
+      "notes": "Vector PDF without a text layer; values read from the rendered page. The aramcoPRIMA 600 column is the last column of the table, on the printed page-9 half of the spread. Byte-identical copies in the archive: DL2-11774.pdf, DL2-11781.pdf, DL2-11782.pdf, DL2-11783.pdf, DL2-11784.pdf. No issuing date is printed; the PDF metadata title is 'Base oils Dubai Catalog 27Sep2018 FINALout-LOW' (not a printed date)."
+    }
+  ]
+}

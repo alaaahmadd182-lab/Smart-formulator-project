@@ -31,7 +31,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "ASTM D2896",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TDS 'Typical Value' column with index/limit '106-130'.",
       "source": {
         "file": "DL2-15836.pdf",
@@ -54,7 +54,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "Calculated (ASTM D874 factors)",
-      "status": "calculated",
+      "status": "Calculated",
       "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×3.8 (Ca) + 1.24×1.41 (Zn) = 14.6684 → 14.67 wt.%. Mg not reported, taken as 0.",
       "source": {
         "file": null,
@@ -76,7 +76,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '3.42-4.18'.",
         "source": {
           "file": "DL2-15836.pdf",
@@ -99,7 +99,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -120,7 +120,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '1.26-1.56'.",
         "source": {
           "file": "DL2-15836.pdf",
@@ -143,7 +143,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '1.11-1.37'.",
         "source": {
           "file": "DL2-15836.pdf",
@@ -166,7 +166,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -187,7 +187,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -208,7 +208,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D5762",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '0.62-0.84'.",
         "source": {
           "file": "DL2-15836.pdf",
@@ -231,7 +231,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -253,7 +253,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -274,7 +274,7 @@
       "unit": "mm2/s",
       "test_temperature_c": 100,
       "method": "ASTM D445",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Most recent of conflicting documents; see conflicts. TDS 'Typical Value' column.",
       "source": {
         "file": "DL2-15836.pdf",
@@ -283,8 +283,7 @@
       },
       "notes": null,
       "value_final": 132,
-      "unit_final": "cSt",
-      "resolution": "TDS preferred over SDS: TDS DL2-15836.pdf 132 cSt kept over SDS DL2-15837.pdf 130 cSt (the TDS is also newer)."
+      "unit_final": "cSt"
     },
     "density": {
       "value": 1000.0,
@@ -296,7 +295,7 @@
       "unit": "kg/m3",
       "test_temperature_c": 20,
       "method": "ASTM D4052",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TDS 'Typical Value' column with index/limit '980-1020'. Same value in: DL2-15837.pdf p.5 (2025-04-09): 'Density : 1.000 g/cm3 (20 °C)'.",
       "source": {
         "file": "DL2-15836.pdf",
@@ -320,10 +319,10 @@
       "max": null,
       "value_kind": "typical",
       "printed_text": "Flash Point（COC）, ℃ ≥180 209 ASTM D92",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D92",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TDS 'Typical Value' column with index/limit '≥180'. Compared with other documents on the printed minimum. Same value in: DL2-15837.pdf p.5 (2025-04-09): 'Flash point : ≥180 °C (COC)'.",
       "source": {
         "file": "DL2-15836.pdf",
@@ -343,10 +342,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -365,6 +364,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier2.kv100",
       "values": [
         {
@@ -383,8 +383,8 @@
         }
       ],
       "note": "All documents dated; field holds the most recent (DL2-15836.pdf). Not resolved.",
-      "resolved": true,
-      "final_resolution": "See fields.kv100.resolution."
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.kv100.resolution. TDS preferred over SDS: TDS DL2-15836.pdf 132 cSt kept over SDS DL2-15837.pdf 130 cSt (the TDS is also newer)."
     }
   ],
   "external_fill_notes": []

@@ -135,8 +135,26 @@
       "flash_method": null,
       "value_final": 0.806,
       "unit_final": "g/cm³",
-      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)",
-      "resolution": "TDS preferred over SDS: TDS DL2-13728.pdf 806 kg/m³ kept over SDS DL2-13729.pdf 803.5 kg/m³."
+      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)"
+    },
+    "specific_gravity": {
+      "value": 0.8035,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "Relative density : 0.8035 (15 °C / 59 °F)",
+      "unit": "dimensionless",
+      "reference_condition": "15 °C / 59 °F (water reference temperature not printed)",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "SDS Section 9 (p.8). 'Method: ISO 12185' is printed after the Density line, not the relative-density line; method left null. Not converted to density.",
+      "source": {
+        "file": "DL2-13729.pdf",
+        "page": 8,
+        "revision_date": "2018-10-26"
+      }
     },
     "ccs": [
       {
@@ -163,7 +181,7 @@
     ]
   },
   "open_questions": [
-    "Shell identifies Risella X 415 as a GTL-derived technical white/process oil, but no explicit grade-specific API base-oil Group classification has been verified. API Group remains Missing.",
+    "[History] Shell identifies Risella X 415 as a GTL-derived technical white/process oil, but no explicit grade-specific API base-oil Group classification has been verified. API Group remains Missing. Superseded: the api_group status in this record is 'Not Required' (TDS DL2-13728.pdf p.1 prints 'GtL Technical White Oil' and 'Purity Requirements for Technical White Oil FDA 178.3620 (b) Pass'), the same treatment as tier 2 and Risella X 420/430; the sentence 'API Group remains Missing' contradicted it (2026-10 audit). No grade-specific API Group is printed; the Not Required classification still awaits confirmation of the project applicability rule.",
     "Chemistry is supported by the historical TDS DL2-13728.pdf: GTL-derived hydrocarbon fluid, highly saturated with a high degree of iso-paraffinic structures. Shell's newer official TDS also describes the product as a highly refined paraffinic process oil made using GTL technology.",
     "No grade-specific CCS apparent viscosity, ASTM D5293 measurement, or CCS test temperature has been verified for Shell Risella X 415.",
     "TDS DL2-13728.pdf reports density of 806 kg/m3 at 15°C, whereas SDS DL2-13729.pdf reports 803.5 kg/m3 at 15°C. The document variation requires reconciliation.",
@@ -171,6 +189,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "density",
       "tds": {
         "value": 806,
@@ -188,8 +207,8 @@
         "revision_date": "2018-10-26"
       },
       "note": "Different reported values at same temperature; TDS selected as primary, SDS retained for reconciliation.",
-      "resolved": true,
-      "final_resolution": "TDS preferred over SDS; see tier1 fields.density.resolution."
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.density.resolution. TDS preferred over SDS: TDS DL2-13728.pdf 806 kg/m³ kept over SDS DL2-13729.pdf 803.5 kg/m³."
     }
   ]
 }

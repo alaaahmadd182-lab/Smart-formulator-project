@@ -166,6 +166,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "unit or test-condition discrepancy",
       "field": "density",
       "note": "The 0.894 kg/L typical density is at 15.6°C (DL2-13944), not 15°C; do not treat it as a 15°C measurement.",
       "resolved": true,

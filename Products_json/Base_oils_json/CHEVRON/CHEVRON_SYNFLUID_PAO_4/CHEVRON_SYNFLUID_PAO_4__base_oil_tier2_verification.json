@@ -65,7 +65,7 @@
       "value_kind": "single",
       "printed_text": "13.4",
       "unit": "wt.%",
-      "test_temperature_c": 250,
+      "test_temperature_c": null,
       "method": null,
       "status": "Reported",
       "calculation_note": null,
@@ -103,7 +103,7 @@
       "min": null,
       "max": null,
       "value_kind": "single",
-      "printed_text": "226.0",
+      "printed_text": "Flash Point (COC), °F, °C 438 (226)",
       "unit": "°C",
       "test_temperature_c": null,
       "method": null,
@@ -114,7 +114,7 @@
         "page": 1,
         "revision_date": null
       },
-      "flash_method": null,
+      "flash_method": "COC",
       "value_final": 226,
       "unit_final": "°C"
     }

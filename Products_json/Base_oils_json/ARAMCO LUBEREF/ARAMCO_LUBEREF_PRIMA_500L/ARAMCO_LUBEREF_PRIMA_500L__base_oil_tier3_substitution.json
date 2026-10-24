@@ -1,0 +1,147 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "ARAMCO_LUBEREF_PRIMA_500L__T3",
+  "product": {
+    "product_name": "aramcoPRIMA 500L",
+    "supplier": "Saudi Aramco Luberef",
+    "document_type": [
+      "Supplier brochure"
+    ],
+    "source_file": "DL2-11773.pdf",
+    "revision_date": null,
+    "product_id": "ARAMCO_LUBEREF_PRIMA_500L"
+  },
+  "fields": {
+    "sulfur": {
+      "value": 1,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Sulfur, wt ppm, D2622: 1 (column 'aramcoPRIMA 500L* / Typical')",
+      "unit": "ppm",
+      "test_temperature_c": null,
+      "method": "ASTM D2622",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "Provisional typical: the column heading 'aramcoPRIMA® 500L*' carries the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' (DL2-11773.pdf, printed page 8). Not a guaranteed specification and not a confirmed production value."
+    },
+    "saturates": {
+      "value": 98,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Saturates, wt%, D 2007: 98 (column 'aramcoPRIMA 500L* / Typical')",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D2007",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "Provisional typical: the column heading 'aramcoPRIMA® 500L*' carries the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' (DL2-11773.pdf, printed page 8). Not a guaranteed specification and not a confirmed production value."
+    },
+    "aromatics": {
+      "value": 2,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Aromatic, wt%, D 2007: 2 (column 'aramcoPRIMA 500L* / Typical')",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D2007",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "Provisional typical: the column heading 'aramcoPRIMA® 500L*' carries the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' (DL2-11773.pdf, printed page 8). Not a guaranteed specification and not a confirmed production value."
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "No cloud point printed on DL2-11773.pdf.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "No wax content printed on DL2-11773.pdf.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [
+    {
+      "question": "Sulfur, saturates and aromatics are provisional typicals under the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.'",
+      "fields": [
+        "sulfur",
+        "saturates",
+        "aromatics"
+      ],
+      "source_files": [
+        "DL2-11773.pdf"
+      ]
+    },
+    {
+      "question": "Cloud point and wax content are not printed on DL2-11773.pdf.",
+      "fields": [
+        "cloud_point",
+        "wax_content"
+      ],
+      "source_files": [
+        "DL2-11773.pdf"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-11773.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier product brochure (aramcoPRIMA Group II typical properties table, printed pp. 8-9)",
+      "revision_date": null,
+      "notes": "Vector PDF without a text layer; values read from the rendered page. The column heading is printed 'aramcoPRIMA® 500L*' on the printed page-9 half of the spread; the '*' is the marker of the footnote '*Typicals are subject to confirmation upon startup of the new Group II plant.' printed at the bottom left of page 8, not part of the product name. Byte-identical copies in the archive: DL2-11774.pdf, DL2-11781.pdf, DL2-11782.pdf, DL2-11783.pdf, DL2-11784.pdf. No issuing date is printed; the PDF metadata title is 'Base oils Dubai Catalog 27Sep2018 FINALout-LOW' (not a printed date)."
+    }
+  ]
+}

@@ -25,7 +25,7 @@
       "package_type": {
         "unit": null,
         "value": "diesel engine oil additive package",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15834.pdf",
           "page": 1,
@@ -37,7 +37,7 @@
       "intended_service": {
         "unit": null,
         "value": "RF6080 diesel engine oil additive package meets all API CI-4 and ACEA E7 certification requirements, delivering exceptional performance.",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15834.pdf",
           "page": 1,
@@ -55,7 +55,7 @@
         "claim_type": "meets",
         "scope": "Text: 'RF6080 diesel engine oil additive package meets all API CI-4 and ACEA E7 certification requirements, delivering exceptional performance.'",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15834.pdf",
           "page": 1,
@@ -71,7 +71,7 @@
         "claim_type": "meets",
         "scope": "Text: 'RF6080 diesel engine oil additive package meets all API CI-4 and ACEA E7 certification requirements, delivering exceptional performance.'",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15834.pdf",
           "page": 1,
@@ -86,7 +86,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "15W-40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15834.pdf",
           "page": 1,
@@ -99,7 +99,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "20W-50",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15834.pdf",
           "page": 1,
@@ -120,7 +120,7 @@
       "allowed_combinations": [
         "When blended with appropriate Group II base oils using viscosity index improvers and pour point depressants"
       ],
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-15834.pdf",
         "page": 1,
@@ -135,7 +135,7 @@
       "limits": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -158,7 +158,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Single rate for both grades; includes anti-foam agent.",
           "source": {
             "file": "DL2-15834.pdf",
@@ -185,7 +185,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": "Text: 'using viscosity index improvers and pour point depressants'; not named, no dose.",
           "source": {
             "file": null,
@@ -210,7 +210,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": "Text: 'using viscosity index improvers and pour point depressants'; not named, no dose.",
           "source": {
             "file": null,
@@ -249,7 +249,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -261,7 +261,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,

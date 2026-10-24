@@ -26,7 +26,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -47,7 +47,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -69,7 +69,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -90,7 +90,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -111,7 +111,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -132,7 +132,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -153,7 +153,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -174,7 +174,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -195,7 +195,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -216,7 +216,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -238,7 +238,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Section 9 header: 'Attention: the data below are typical values and do not constitute a specification.'",
       "source": {
         "file": "DL2-12494.pdf",
@@ -259,7 +259,7 @@
       "unit": "cSt",
       "test_temperature_c": 100,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -280,7 +280,7 @@
       "unit": "kg/l",
       "test_temperature_c": 15,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Template unit kg/m3; printed kg/l kept. Section 9 header: 'Attention: the data below are typical values and do not constitute a specification.'",
       "source": {
         "file": "DL2-12494.pdf",
@@ -291,6 +291,25 @@
       "value_final": 0.985,
       "unit_final": "g/cm³"
     },
+    "specific_gravity": {
+      "value": 0.985,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity: 0.9850 @ 15.6°C (60°F)",
+      "unit": "dimensionless",
+      "reference_condition": "15.6°C (60°F) (water reference temperature not printed)",
+      "test_temperature_c": 15.6,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "SDS Section 9 (p.5), headed 'the data below are typical values and do not constitute a specification'. Image-only page, read visually. No method printed. Not converted to density.",
+      "source": {
+        "file": "DL2-12494.pdf",
+        "page": 5,
+        "revision_date": "2017-11-01"
+      }
+    },
     "flash_point": {
       "value": 180,
       "qualifier": "≥",
@@ -298,10 +317,10 @@
       "max": null,
       "value_kind": "specification",
       "printed_text": "Flashpoint: (Cleveland Open Cup) 180 °C (356 °F) Minimum",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "Cleveland Open Cup",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Printed as a minimum (Section 5).",
       "source": {
         "file": "DL2-12494.pdf",
@@ -321,10 +340,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,

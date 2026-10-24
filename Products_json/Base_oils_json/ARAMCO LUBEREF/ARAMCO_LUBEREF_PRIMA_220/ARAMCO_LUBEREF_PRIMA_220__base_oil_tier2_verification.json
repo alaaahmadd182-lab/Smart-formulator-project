@@ -1,0 +1,139 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "ARAMCO_LUBEREF_PRIMA_220__T2",
+  "product": {
+    "product_name": "aramcoPRIMA 220",
+    "supplier": "Saudi Aramco Luberef",
+    "document_type": [
+      "Supplier brochure"
+    ],
+    "source_file": "DL2-11773.pdf",
+    "revision_date": null,
+    "product_id": "ARAMCO_LUBEREF_PRIMA_220"
+  },
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": "No MRV value printed on DL2-11773.pdf.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": "No MRV yield stress printed on DL2-11773.pdf.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": 10.3,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Noack Volatility, wt%, D 5800 (B): 10.3 (column 'aramcoPRIMA 220 / Typical')",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D5800 (B)",
+      "status": "Reported",
+      "calculation_note": "The test temperature is not printed; test_temperature_c is null because the source states no test condition.",
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": -18,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Pour Point, °C, D 97: -18 (column 'aramcoPRIMA 220 / Typical')",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": 230,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Flash Point COC, °C, D 92: 230 (column 'aramcoPRIMA 220 / Typical')",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11773.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "flash_method": "COC"
+    }
+  },
+  "open_questions": [
+    {
+      "question": "No MRV value is printed on DL2-11773.pdf.",
+      "fields": [
+        "mrv[].mrv_viscosity",
+        "mrv[].yield_stress"
+      ],
+      "source_files": [
+        "DL2-11773.pdf"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "source_documents": [
+    {
+      "file": "DL2-11773.pdf",
+      "pages": [
+        1
+      ],
+      "doc_type": "Supplier product brochure (aramcoPRIMA Group II typical properties table, printed pp. 8-9)",
+      "revision_date": null,
+      "notes": "Vector PDF without a text layer; values read from the rendered page. The aramcoPRIMA 220 column is on the printed page-9 half of the spread. Byte-identical copies in the archive: DL2-11774.pdf, DL2-11781.pdf, DL2-11782.pdf, DL2-11783.pdf, DL2-11784.pdf. No issuing date is printed; the PDF metadata title is 'Base oils Dubai Catalog 27Sep2018 FINALout-LOW' (not a printed date)."
+    }
+  ]
+}

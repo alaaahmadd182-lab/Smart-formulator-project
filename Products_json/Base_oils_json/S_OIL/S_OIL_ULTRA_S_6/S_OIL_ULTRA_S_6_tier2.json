@@ -8,31 +8,52 @@
     "product_name": "Ultra-S 6 (150 Neutral)",
     "supplier": "S-OIL",
     "document_type": "Product Data Sheet",
-    "source_file": "DL2-11177.pdf",
+    "source_file": [
+      "DL2-11177.pdf",
+      "DL2-15237.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
     "mrv": [
       {
-        "value": null,
-        "qualifier": null,
-        "min": null,
-        "max": null,
-        "value_kind": null,
-        "printed_text": null,
-        "unit": "mPa.s",
         "test_temperature_c": null,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": null,
-        "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
         },
-        "flash_method": null,
-        "value_final": null,
-        "unit_final": "mPa·s"
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
       }
     ],
     "noack_volatility": {
@@ -102,9 +123,52 @@
   "open_questions": [
     "Chemistry is recorded from SDS DL2-15237.pdf, Section 3: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7. Final source-level verification remains pending.",
     "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",
-    "No grade-specific CCS viscosity or CCS test temperature has been verified for Ultra-S 6.",
+    "CCS for Ultra-S 6 is recorded in Tier 1 as 3,850 mPa.s at -30 °C (ASTM D5293) from the current S-OIL Lube Base Oil web page; the archived 2009 sheet DL2-11177.pdf prints no CCS (2026-10 audit).",
     "MRV apparent viscosity, MRV yield stress, and MRV test temperature have not been verified for Ultra-S 6.",
     "Final source-level reconciliation between DL2-11177.pdf and SDS DL2-15237.pdf remains pending."
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "conflict_type": "edition difference",
+      "field": "tier2.flash_point",
+      "values": [
+        {
+          "value": 235,
+          "printed_text": "235 °C (COC)",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 240,
+          "printed_text": "Flash Point, COC, ℃ (D92): 240",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 6: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 240. The recorded value is kept; not resolved (2026-10 audit)."
+    },
+    {
+      "conflict_type": "edition difference",
+      "field": "tier2.pour_point",
+      "values": [
+        {
+          "value": -20,
+          "printed_text": "-20.0 °C",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": -16,
+          "printed_text": "Pour Point, ℃ (D5950/6749): -16",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 6: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints -16. The recorded value is kept; not resolved (2026-10 audit)."
+    }
+  ]
 }

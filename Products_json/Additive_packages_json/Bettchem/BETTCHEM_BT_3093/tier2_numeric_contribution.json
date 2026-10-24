@@ -26,7 +26,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "ASTM D2896",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
       "source": {
         "file": "DL2-15550.pdf",
@@ -48,7 +48,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "ASTM D874",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
       "source": {
         "file": "DL2-15550.pdf",
@@ -72,7 +72,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
         "source": {
           "file": "DL2-15550.pdf",
@@ -95,7 +95,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
         "source": {
           "file": "DL2-15550.pdf",
@@ -118,7 +118,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
         "source": {
           "file": "DL2-15550.pdf",
@@ -141,7 +141,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
         "source": {
           "file": "DL2-15550.pdf",
@@ -164,7 +164,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -185,7 +185,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TYPICAL column; min/max printed as 'Report'.",
         "source": {
           "file": "DL2-15550.pdf",
@@ -206,7 +206,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D5762",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
         "source": {
           "file": "DL2-15550.pdf",
@@ -229,7 +229,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
         "source": {
           "file": "DL2-15550.pdf",
@@ -253,7 +253,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": "ASTM D445",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TYPICAL column; min/max printed as 'Report'.",
       "source": {
         "file": "DL2-15550.pdf",
@@ -274,7 +274,7 @@
       "unit": "cSt",
       "test_temperature_c": 100,
       "method": "ASTM D445",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image).",
       "source": {
         "file": "DL2-15550.pdf",
@@ -288,29 +288,42 @@
       "max_final": 155
     },
     "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3 (or as printed)",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "Not printed: the sheet prints only a specific gravity (recorded in specific_gravity), which is not converted to density.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "specific_gravity": {
       "value": 0.99,
       "qualifier": null,
       "min": 0.9,
       "max": 1.1,
       "value_kind": "typical",
       "printed_text": "SPECIFIC GRAVITY at 15.6℃ 0.9 1.1 0.99 ASTM D1298",
-      "unit": "specific gravity (dimensionless)",
+      "unit": "dimensionless",
+      "reference_condition": "15.6℃ (water reference temperature not printed)",
       "test_temperature_c": 15.6,
       "method": "ASTM D1298",
-      "status": "reported",
-      "calculation_note": "Value = TYPICAL column; min/max = 'Minimum'/'Maximum' columns of the same row (checked on the page image). Printed as specific gravity, not density. reported as specific gravity.",
+      "status": "Reported",
+      "calculation_note": "Value = TYPICAL column; min/max = Minimum/Maximum columns of the same row (p.1). Not converted to density.",
       "source": {
         "file": "DL2-15550.pdf",
         "page": 1,
         "revision_date": "2023-12-06"
-      },
-      "notes": null,
-      "value_final": 0.99,
-      "unit_final": "specific gravity (dimensionless)",
-      "integration_flags": [
-        "specific gravity is not a density; kept as printed, not converted to g/cm³",
-        "density is at 15.6 °C, not 15 °C; not temperature-corrected"
-      ]
+      }
     },
     "flash_point": {
       "value": 198,
@@ -319,10 +332,10 @@
       "max": null,
       "value_kind": "typical",
       "printed_text": "FLASH POINT ( COC ℃) 160 198 ASTM D92",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D92",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TYPICAL 198; 'Minimum' column 160 (checked on page image).",
       "source": {
         "file": "DL2-15550.pdf",
@@ -342,10 +355,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -358,9 +371,9 @@
     }
   },
   "open_questions": [
-    "Density field holds the printed SPECIFIC GRAVITY at 15.6℃ (ASTM D1298); no density in kg/m3 printed (DL2-15550.pdf p.1).",
+    "'SPECIFIC GRAVITY at 15.6℃ 0.9 1.1 0.99 ASTM D1298' is recorded in the optional specific_gravity property; no density is printed, so density is Missing (2026-10-24).",
     "B and pour point are not printed in DL2-15550.pdf. Base number has 'Minimum' 100 and 'TYPICAL' 115, no 'Maximum'.",
-    "User decision 2026-10-17: density field stores the number 0.99 (specific gravity (dimensionless)), which is reported as specific gravity ('SPECIFIC GRAVITY at 15.6℃ 0.9 1.1 0.99 ASTM D1298', DL2-15550.pdf p.1), not a density in kg/m3; flagged for review."
+    "[History] User decision 2026-10-17: the density field stored 0.99 (specific gravity, dimensionless) from 'SPECIFIC GRAVITY at 15.6℃ 0.9 1.1 0.99 ASTM D1298' (DL2-15550.pdf p.1). Superseded 2026-10-24 by the approved optional specific_gravity property: the specific gravity moved there and density is now Missing (no density printed)."
   ],
   "conflicts": [],
   "external_fill_notes": []

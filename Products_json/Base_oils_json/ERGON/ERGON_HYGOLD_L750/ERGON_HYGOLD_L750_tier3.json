@@ -80,7 +80,7 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "\u00b0C",
       "test_temperature_c": null,
       "method": null,
       "status": "Missing",
@@ -121,6 +121,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "inconsistency within one document",
       "property": "density_at_15_6_c",
       "description": "TDS reports density at 15.6\u00b0C = 0.854 g/cm3 but specific gravity at 15.6\u00b0C = 0.9183; these appear inconsistent. Neither has been silently corrected.",
       "sources": [

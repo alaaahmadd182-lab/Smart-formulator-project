@@ -31,7 +31,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "ASTM D 2896",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
       "source": {
         "file": "DL2-10204.pdf",
@@ -52,7 +52,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "ASTM D874",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
       "source": {
         "file": "DL2-10204.pdf",
@@ -74,7 +74,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D 5185",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
         "source": {
           "file": "DL2-10204.pdf",
@@ -95,7 +95,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D 5185",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
         "source": {
           "file": "DL2-10204.pdf",
@@ -116,7 +116,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D 5185",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
         "source": {
           "file": "DL2-10204.pdf",
@@ -137,7 +137,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D 5185",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
         "source": {
           "file": "DL2-10204.pdf",
@@ -158,7 +158,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -179,7 +179,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -200,7 +200,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D 5291",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'.",
         "source": {
           "file": "DL2-10204.pdf",
@@ -221,7 +221,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -243,7 +243,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": "ASTM D 445",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'. SDS part of the same file (Multisol Limited, Revision Date 02Dec2008, p.6) prints the same value.",
       "source": {
         "file": "DL2-10204.pdf",
@@ -264,7 +264,7 @@
       "unit": "cSt",
       "test_temperature_c": 100,
       "method": "ASTM D 445",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'. SDS part of the same file (Multisol Limited, Revision Date 02Dec2008, p.6) prints the same value.",
       "source": {
         "file": "DL2-10204.pdf",
@@ -285,7 +285,7 @@
       "unit": "kg/m3",
       "test_temperature_c": 15,
       "method": "ASTM D 4052",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Typical Inspections, footnote '(a) Not a specification, (b) Methods typically used by Infineum manufacturing plants'. SDS part of the same file (Multisol Limited, Revision Date 02Dec2008, p.6) prints the same value. ('960 kg/m3 (8.01 lbs/gal, 0.96 kg/dm3)').",
       "source": {
         "file": "DL2-10204.pdf",
@@ -304,10 +304,10 @@
       "max": null,
       "value_kind": "specification",
       "printed_text": "Flash Point [Method]: >110C (230F) [ ASTM D-93]",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D-93",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "More recent SDS value (02Dec2008). TDS p.1 (2004) prints 'Flash Point (PM) 190 °C' typical; see conflicts.",
       "source": {
         "file": "DL2-10204.pdf",
@@ -315,18 +315,7 @@
         "revision_date": "2008-12-02"
       },
       "flash_method": "PMCC",
-      "notes": null,
-      "value_final": 190,
-      "unit_final": "°C",
-      "qualifier_final": null,
-      "method_final": "ASTM D 93 (PM)",
-      "status_final": "Reported",
-      "source_final": {
-        "file": "DL2-10204.pdf",
-        "page": 1,
-        "revision_date": "2004-11-09"
-      },
-      "resolution": "TDS preferred over SDS: TDS typical 190 °C (DL2-10204.pdf p.1, 2004) chosen over SDS lower bound '>110 °C' (p.6, 2008), which was in the field under the old newest-document rule."
+      "notes": null
     },
     "pour_point": {
       "value": null,
@@ -335,10 +324,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -357,6 +346,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier2.flash_point",
       "values": [
         {
@@ -375,8 +365,8 @@
         }
       ],
       "note": "TDS typical (2004, p.1) vs SDS lower bound (2008, p.6; also p.3 Section 5). Values are compatible (190 > 110) but printed differently; per rule the field holds the more recent SDS value. Not resolved.",
-      "resolved": true,
-      "final_resolution": "TDS preferred over SDS; see fields.flash_point.resolution."
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see fields.flash_point.resolution. TDS preferred over SDS: TDS typical 190 °C (DL2-10204.pdf p.1, 2004) chosen over SDS lower bound '>110 °C' (p.6, 2008), which was in the field under the old newest-document rule."
     }
   ],
   "external_fill_notes": []

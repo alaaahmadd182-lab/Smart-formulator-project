@@ -26,7 +26,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "ASTM D-2896",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Column 'Limit', printed as a minimum.",
       "source": {
         "file": "DL2-13534.pdf",
@@ -48,7 +48,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "Calculated (ASTM D874 factors)",
-      "status": "calculated",
+      "status": "Calculated",
       "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×3.4 (Ca) + 4.95×0.33 (Mg) + 1.24×1.1 (Zn) = 14.5575 → 14.56 wt.%. Inputs are printed minimums (≥), so the result is a lower bound.",
       "source": {
         "file": null,
@@ -70,7 +70,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D-4628",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Column 'Limit', printed as a minimum.",
         "source": {
           "file": "DL2-13534.pdf",
@@ -92,7 +92,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D-4628",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Column 'Limit', printed as a minimum.",
         "source": {
           "file": "DL2-13534.pdf",
@@ -114,7 +114,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D-4628",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Column 'Limit', printed as a minimum.",
         "source": {
           "file": "DL2-13534.pdf",
@@ -136,7 +136,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D-4628",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Column 'Limit', printed as a minimum.",
         "source": {
           "file": "DL2-13534.pdf",
@@ -158,7 +158,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D-4628",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Column 'Limit', printed as a minimum.",
         "source": {
           "file": "DL2-13534.pdf",
@@ -180,7 +180,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -201,7 +201,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D-3228",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Column 'Limit', printed as a minimum.",
         "source": {
           "file": "DL2-13534.pdf",
@@ -223,7 +223,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -245,7 +245,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -266,7 +266,7 @@
       "unit": "cSt",
       "test_temperature_c": 100,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -287,7 +287,7 @@
       "unit": "kg/m3 (or as printed)",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -305,10 +305,10 @@
       "max": null,
       "value_kind": "specification",
       "printed_text": "Flash Point (COC),℃ 170 min. ASTM D - 92",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D-92",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Column 'Limit', printed as a minimum.",
       "source": {
         "file": "DL2-13534.pdf",
@@ -328,10 +328,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,

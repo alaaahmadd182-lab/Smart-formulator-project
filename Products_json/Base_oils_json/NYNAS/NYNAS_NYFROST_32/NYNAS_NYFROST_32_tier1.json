@@ -68,8 +68,7 @@
       "value_final": 32,
       "unit_final": "cSt",
       "min_final": 28.8,
-      "max_final": 35.2,
-      "resolution": "TDS preferred over SDS: PDS DL2-11510.pdf 32 cSt kept over SDS DL2-13444.pdf 31 cSt."
+      "max_final": 35.2
     },
     "kv100": {
       "value": 4.5,
@@ -162,24 +161,26 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "kv40",
       "source_a": "DL2-11510.pdf p.2 (2016-11-01)",
       "value_a": "32 cSt (typical)",
       "source_b": "DL2-13444.pdf p.6 (2020-05-23)",
       "value_b": "31 cSt (SDS)",
       "resolution": "Retained supplier PDS typical value; SDS discrepancy flagged.",
-      "resolved": true,
-      "final_resolution": "TDS preferred over SDS; see tier1 fields.kv40.resolution."
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.kv40.resolution. TDS preferred over SDS: PDS DL2-11510.pdf 32 cSt kept over SDS DL2-13444.pdf 31 cSt."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "property": "flash_point",
       "source_a": "DL2-11510.pdf p.2 (2016-11-01)",
       "value_a": "176°C typical, Pensky-Martens (ASTM D93)",
       "source_b": "DL2-13444.pdf p.6 (2020-05-23)",
       "value_b": ">180°C closed cup Pensky-Martens",
       "resolution": "Not numerically compatible; PDS typical retained and SDS limit flagged for review.",
-      "resolved": true,
-      "final_resolution": "TDS preferred over SDS; see tier2 fields.flash_point.resolution."
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.flash_point.resolution. TDS preferred over SDS: PDS DL2-11510.pdf typical 176 °C (Pensky-Martens) kept over SDS DL2-13444.pdf bound '>180 °C'."
     }
   ]
 }

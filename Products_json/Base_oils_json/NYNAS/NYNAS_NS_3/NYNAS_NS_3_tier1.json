@@ -163,6 +163,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "edition difference",
       "property": "kv40",
       "primary": {
         "value": 2.92,
@@ -179,6 +180,7 @@
       "final_resolution": "Same document type; newest edition used; see tier1 fields.kv40.resolution."
     },
     {
+      "conflict_type": "edition difference",
       "property": "density",
       "primary": {
         "value": 0.863,
@@ -195,6 +197,7 @@
       "final_resolution": "Same document type; newest edition used; see tier1 fields.density.resolution."
     },
     {
+      "conflict_type": "edition difference",
       "property": "flash_point",
       "primary": {
         "value": 95,
@@ -211,6 +214,7 @@
       "final_resolution": "Same document type; newest edition used; see tier2 fields.flash_point.resolution."
     },
     {
+      "conflict_type": "edition difference",
       "property": "sulfur",
       "primary": {
         "value": "<10 ppm",

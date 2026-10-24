@@ -135,8 +135,26 @@
       "flash_method": null,
       "value_final": 0.816,
       "unit_final": "g/cm³",
-      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)",
-      "resolution": "TDS preferred over SDS: TDS DL2-13726.pdf 816 kg/m³ kept over SDS DL2-13730.pdf 813.8 kg/m³."
+      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)"
+    },
+    "specific_gravity": {
+      "value": 0.8138,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "Relative density : 0.8138 (15 °C / 59 °F)",
+      "unit": "dimensionless",
+      "reference_condition": "15 °C / 59 °F (water reference temperature not printed)",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "SDS Section 9 (p.8). 'Method: ISO 12185' is printed after the Density line, not the relative-density line; method left null. Not converted to density.",
+      "source": {
+        "file": "DL2-13730.pdf",
+        "page": 8,
+        "revision_date": "2018-10-26"
+      }
     },
     "ccs": [
       {
@@ -171,6 +189,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "density",
       "tds": {
         "value": 816,
@@ -189,8 +208,8 @@
         "revision_date": "2018-10-26"
       },
       "note": "Different supplier-reported values at same temperature; TDS retained as primary, SDS separately documented.",
-      "resolved": true,
-      "final_resolution": "TDS preferred over SDS; see tier1 fields.density.resolution."
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.density.resolution. TDS preferred over SDS: TDS DL2-13726.pdf 816 kg/m³ kept over SDS DL2-13730.pdf 813.8 kg/m³."
     }
   ]
 }

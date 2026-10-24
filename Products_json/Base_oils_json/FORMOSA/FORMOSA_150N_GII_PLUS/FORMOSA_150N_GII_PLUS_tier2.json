@@ -8,7 +8,10 @@
     "product_name": "Base Oil 150N GII+",
     "supplier": "Formosa Petrochemical Corporation",
     "document_type": "Product specification + MSDS",
-    "source_file": "DL2-10001.pdf; DL2-10011.pdf",
+    "source_file": [
+      "DL2-10001.pdf",
+      "DL2-10011.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
@@ -65,7 +68,7 @@
       "value_kind": "maximum",
       "printed_text": "Max 15 wt.%",
       "unit": "wt.% loss",
-      "test_temperature_c": 250,
+      "test_temperature_c": null,
       "method": "ASTM D5800",
       "status": "Reported",
       "calculation_note": null,
@@ -85,7 +88,7 @@
       "max": -15,
       "value_kind": "maximum",
       "printed_text": "Max -15 C",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D97 / D5950",
       "status": "Reported",
@@ -106,7 +109,7 @@
       "max": null,
       "value_kind": "minimum",
       "printed_text": "Min 210 C",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D92",
       "status": "Reported",
@@ -119,8 +122,7 @@
       "flash_method": "COC",
       "value_final": null,
       "unit_final": "°C",
-      "min_final": 210,
-      "resolution": "TDS preferred over SDS: specification sheet DL2-10001.pdf 'Min 210 C' kept over SDS DL2-10011.pdf '>230 C'. Both are bounds, so there is no single measured value."
+      "min_final": 210
     }
   },
   "open_questions": [
@@ -128,6 +130,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "flash_point",
       "source_a": {
         "file": "DL2-10001.pdf",
@@ -140,8 +143,8 @@
         "value": ">230 C"
       },
       "note": "SDS and specification use different threshold statements; preserve both without assuming equivalence.",
-      "resolved": true,
-      "final_resolution": "TDS preferred over SDS; see tier2 fields.flash_point.resolution."
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier2 fields.flash_point.resolution. TDS preferred over SDS: specification sheet DL2-10001.pdf 'Min 210 C' kept over SDS DL2-10011.pdf '>230 C'. Both are bounds, so there is no single measured value."
     }
   ]
 }

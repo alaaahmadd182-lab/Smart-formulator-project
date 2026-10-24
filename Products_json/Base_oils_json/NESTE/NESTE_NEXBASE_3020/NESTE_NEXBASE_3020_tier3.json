@@ -8,7 +8,10 @@
     "product_name": "NEXBASE 3020",
     "supplier": "Neste (Suisse) S.A.",
     "document_type": "Safety Data Sheet",
-    "source_file": "DL2-14513.pdf; DL2-14514.pdf",
+    "source_file": [
+      "DL2-14513.pdf",
+      "DL2-14514.pdf"
+    ],
     "revision_date": "2020-06-16"
   },
   "fields": {
@@ -79,7 +82,7 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
       "status": "Missing",

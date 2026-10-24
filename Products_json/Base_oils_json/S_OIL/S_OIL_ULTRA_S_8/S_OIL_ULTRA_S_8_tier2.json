@@ -8,31 +8,52 @@
     "product_name": "Ultra-S 8 (250 Neutral)",
     "supplier": "S-OIL",
     "document_type": "Product Data Sheet",
-    "source_file": "DL2-11177.pdf",
+    "source_file": [
+      "DL2-11177.pdf",
+      "DL2-15238.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
     "mrv": [
       {
-        "value": null,
-        "qualifier": null,
-        "min": null,
-        "max": null,
-        "value_kind": null,
-        "printed_text": null,
-        "unit": "mPa.s",
         "test_temperature_c": null,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": null,
-        "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
         },
-        "flash_method": null,
-        "value_final": null,
-        "unit_final": "mPa·s"
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
       }
     ],
     "noack_volatility": {
@@ -100,12 +121,55 @@
     }
   },
   "open_questions": [
-    "API Group III classification is supported by S-OIL's published Ultra-S/aramcoULTRA product-family equivalence, but is not explicitly printed in the historical grade-specific SDS.",
+    "API Group is not printed in any reviewed S-OIL document for Ultra-S 8; the Tier 1 API Group is Missing (2026-10 audit). S-OIL's published Ultra-S/aramcoULTRA equivalence and the Aramco catalog classification of aramcoULTRA 8 are indirect evidence only; see the Tier 1 open questions.",
     "Chemistry is recorded from SDS DL2-15238.pdf, Section 3: Distillates (petroleum), hydrotreated heavy paraffinic; CAS 64742-54-7; revision date 2015-06-10.",
     "Specific gravity at 15/4°C is dimensionless and must not be transcribed directly as absolute density.",
     "No grade-specific MRV apparent viscosity, MRV yield stress, or MRV test temperature has been verified for Ultra-S 8.",
-    "Current S-OIL product information includes CCS viscosity and density for Ultra-S 8, but these values have not been reconciled with historical product data sheet DL2-11177.pdf and must not be silently incorporated.",
+    "CCS (6,300 mPa.s at -30 °C) and density (0.8425 kg/L at 15.6 °C) for Ultra-S 8 are recorded in Tier 1 from the current S-OIL Lube Base Oil web page, with that source stated; differences between that table and the archived sheets are listed as conflicts (2026-10 audit).",
     "Final reconciliation between historical product data sheet DL2-11177.pdf, SDS DL2-15238.pdf, and current manufacturer product information remains pending."
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "conflict_type": "edition difference",
+      "field": "tier2.flash_point",
+      "values": [
+        {
+          "value": 256,
+          "printed_text": "256 °C (COC)",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": 250,
+          "printed_text": "Flash Point, COC, ℃ (D92): 250",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 8: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 250. The recorded value is kept; not resolved (2026-10 audit)."
+    },
+    {
+      "conflict_type": "edition difference",
+      "field": "tier2.pour_point",
+      "values": [
+        {
+          "value": -15,
+          "printed_text": "-15.0 °C",
+          "file": "DL2-11177.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        {
+          "value": -14,
+          "printed_text": "Pour Point, ℃ (D5950/6749): -14",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for Ultra-S 8: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints -14. The recorded value is kept; not resolved (2026-10 audit)."
+    }
+  ]
 }

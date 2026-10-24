@@ -37,7 +37,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "SH/T0251, ASTM D2896",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TDS 'Typical Value' column with index/limit '155-181'. Same value in: RF6400%20TDS.pdf p.1 (undated): 'Total Base Number, mgKOH/g 155-181 168 SH/T0251, ASTM D2896'.",
       "source": {
         "file": "DL2-15849.pdf",
@@ -60,7 +60,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "Calculated (ASTM D874 factors)",
-      "status": "calculated",
+      "status": "Calculated",
       "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×5.94 (Ca) + 1.24×1.9 (Zn) = 22.5520 → 22.55 wt.%. Mg not reported, taken as 0.",
       "source": {
         "file": null,
@@ -82,7 +82,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T17476, ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '5.35-6.53'. Same value in: RF6400%20TDS.pdf p.1 (undated): 'Ca Content, m% 5.35-6.53 5.94 GB/T17476, ASTM D4951'.",
         "source": {
           "file": "DL2-15849.pdf",
@@ -105,7 +105,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -126,7 +126,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T17476, ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '1.71-2.09'. Same value in: RF6400%20TDS.pdf p.1 (undated): 'Zn Content, m% 1.71-2.09 1.90 GB/T17476, ASTM D4951'.",
         "source": {
           "file": "DL2-15849.pdf",
@@ -149,7 +149,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '1.48-1.80'. Same value in: RF6400%20TDS.pdf p.1 (undated): 'P Content, m% 1.48-1.80 1.64 ASTM D4951'.",
         "source": {
           "file": "DL2-15849.pdf",
@@ -172,7 +172,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -193,7 +193,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -214,7 +214,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D5762",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '0.46-0.62'. Same value in: RF6400%20TDS.pdf p.1 (undated): 'N Content, m% 0.46-0.62 0.54 ASTM D5762'.",
         "source": {
           "file": "DL2-15849.pdf",
@@ -237,7 +237,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -259,7 +259,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -280,7 +280,7 @@
       "unit": "mm2/s",
       "test_temperature_c": 100,
       "method": "ASTM D445",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Same value in: DL2-15849.pdf p.1 (undated): 'Kinematic Viscosity (100℃), mm2/s Report 109 GB/T265, ASTM D445'; RF6400%20TDS.pdf p.1 (undated): 'Kinematic Viscosity (100℃), mm2/s Report 109 GB/T265, ASTM D445'; RF6400%20MSDS.pdf p.5 (2022-07-25): 'Viscosity, kinematic : 109 mm2/s (100 °C, ASTM D445)'.",
       "source": {
         "file": "DL2-15850.pdf",
@@ -301,7 +301,7 @@
       "unit": "kg/m3",
       "test_temperature_c": 20,
       "method": "ASTM D4052",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Same value in: DL2-15849.pdf p.1 (undated): 'Density (20℃), kg/m3 1019-1059 1039 SH/T 0604, ASTM D4052'; RF6400%20TDS.pdf p.1 (undated): 'Density (20℃), kg/m3 1019-1059 1039 SH/T 0604, ASTM D4052'; RF6400%20MSDS.pdf p.5 (2022-07-25): 'Density : 1039 kg/m3 (20 °C, ASTM D4052)'.",
       "source": {
         "file": "DL2-15850.pdf",
@@ -323,10 +323,10 @@
       "max": null,
       "value_kind": "specification",
       "printed_text": "Flash point : >= 180 °C (ASTM D92, Open cup)",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D92",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Same value in: DL2-15849.pdf p.1 (undated): 'Flash Point (COC), ℃ ≥180 226 GB/T3536, ASTM D92'; RF6400%20TDS.pdf p.1 (undated): 'Flash Point (COC), ℃ ≥180 226 GB/T3536, ASTM D92'; RF6400%20MSDS.pdf p.4 (2022-07-25): 'Flash point : >= 180 °C (ASTM D92)'.",
       "source": {
         "file": "DL2-15850.pdf",
@@ -346,10 +346,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,

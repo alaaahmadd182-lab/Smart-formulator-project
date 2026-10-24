@@ -135,8 +135,7 @@
       "flash_method": null,
       "value_final": 0.828,
       "unit_final": "g/cm³",
-      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)",
-      "resolution": "TDS preferred over SDS: TDS DL2-13727.pdf 828 kg/m³ kept over SDS DL2-13731.pdf 824.8 kg/m³."
+      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)"
     },
     "ccs": [
       {
@@ -171,6 +170,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "density",
       "tds": {
         "value": 828,
@@ -189,8 +189,8 @@
         "revision_date": "2020-01-13"
       },
       "note": "Different supplier-reported values at same temperature; TDS retained as primary, SDS separately documented.",
-      "resolved": true,
-      "final_resolution": "TDS preferred over SDS; see tier1 fields.density.resolution."
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see tier1 fields.density.resolution. TDS preferred over SDS: TDS DL2-13727.pdf 828 kg/m³ kept over SDS DL2-13731.pdf 824.8 kg/m³."
     }
   ]
 }

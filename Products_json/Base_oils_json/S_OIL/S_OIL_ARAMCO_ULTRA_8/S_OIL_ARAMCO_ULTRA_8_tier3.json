@@ -14,45 +14,41 @@
   "fields": {
     "sulfur": {
       "value": null,
-      "qualifier": null,
+      "qualifier": "<",
       "min": null,
-      "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": null,
+      "max": 1.0,
+      "value_kind": "upper bound",
+      "printed_text": "Sulphur, wtppm: <1.0",
+      "unit": "ppm (wt)",
       "test_temperature_c": null,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "method": "ASTM D2622 (D5453)",
+      "status": "Reported",
+      "calculation_note": "From the current S-OIL Lube Base Oil web page, 'Typical Properties of aramcoULTRA Base Oil' table, aramcoULTRA 8 column (undated, retrieved 2026-10-21); not printed in the archived SDS DL2-14611.pdf. (2026-10 audit)",
       "source": {
-        "file": null,
+        "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
         "page": null,
         "revision_date": null
       },
-      "flash_method": null,
-      "value_final": null,
-      "unit_final": null
+      "flash_method": null
     },
     "saturates": {
       "value": null,
-      "qualifier": null,
-      "min": null,
+      "qualifier": ">",
+      "min": 99,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": null,
+      "value_kind": "lower bound",
+      "printed_text": "Saturates, wt%: >99",
+      "unit": "wt%",
       "test_temperature_c": null,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "method": "ASTM D7419 (D2007)",
+      "status": "Reported",
+      "calculation_note": "From the current S-OIL Lube Base Oil web page, 'Typical Properties of aramcoULTRA Base Oil' table, aramcoULTRA 8 column (undated, retrieved 2026-10-21); not printed in the archived SDS DL2-14611.pdf. (2026-10 audit)",
       "source": {
-        "file": null,
+        "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
         "page": null,
         "revision_date": null
       },
-      "flash_method": null,
-      "value_final": null,
-      "unit_final": null
+      "flash_method": null
     },
     "aromatics": {
       "value": null,

@@ -28,7 +28,7 @@
       "package_type": {
         "unit": null,
         "value": "Universal Type Engine Oil Package",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15456.pdf",
           "page": 1,
@@ -40,7 +40,7 @@
       "intended_service": {
         "unit": null,
         "value": "Formulation of internal combustion engine oil.",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "RF6406.pdf",
           "page": 1,
@@ -58,7 +58,7 @@
         "claim_type": "recommended",
         "scope": "'Recommended Treat Rate' (DL2-15456.pdf): Multi, 5.8%; same in DL2-14746.pdf 'Recommended Dosage'. Text: 'this package is able to meet various oil performance requirements with different treat rates'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15456.pdf",
           "page": 1,
@@ -74,7 +74,7 @@
         "claim_type": "recommended",
         "scope": "'Recommended Treat Rate' (DL2-15456.pdf): Multi, 5.6%; same in DL2-14746.pdf 'Recommended Dosage'. Text: 'this package is able to meet various oil performance requirements with different treat rates'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15456.pdf",
           "page": 1,
@@ -90,7 +90,7 @@
         "claim_type": "recommended",
         "scope": "'Recommended Treat Rate' (DL2-15456.pdf): Multi, 4.8%; same in DL2-14746.pdf 'Recommended Dosage'. Text: 'this package is able to meet various oil performance requirements with different treat rates'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15456.pdf",
           "page": 1,
@@ -106,7 +106,7 @@
         "claim_type": "recommended",
         "scope": "'Recommended Treat Rate' (DL2-15456.pdf): Mono, 3.6%; same in DL2-14746.pdf 'Recommended Dosage'. Text: 'this package is able to meet various oil performance requirements with different treat rates'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15456.pdf",
           "page": 1,
@@ -122,7 +122,7 @@
         "claim_type": "recommended",
         "scope": "'Recommended Treat Rate' (DL2-15456.pdf): Multi, 3.4%; same in DL2-14746.pdf 'Recommended Dosage'. Text: 'this package is able to meet various oil performance requirements with different treat rates'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15456.pdf",
           "page": 1,
@@ -138,7 +138,7 @@
         "claim_type": "recommended",
         "scope": "'Recommended Treat Rate' (DL2-15456.pdf): Multi/Mono, 2.5%; same in DL2-14746.pdf 'Recommended Dosage'. Text: 'this package is able to meet various oil performance requirements with different treat rates'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15456.pdf",
           "page": 1,
@@ -154,7 +154,7 @@
         "claim_type": "recommended",
         "scope": "'Recommended Treat Rate' (DL2-15456.pdf): Multi, 2.7%; same in DL2-14746.pdf 'Recommended Dosage'. Text: 'this package is able to meet various oil performance requirements with different treat rates'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15456.pdf",
           "page": 1,
@@ -170,7 +170,7 @@
         "claim_type": "recommended",
         "scope": "'Recommended Treat Rate' (DL2-15456.pdf): Multi, 2.6%; same in DL2-14746.pdf 'Recommended Dosage'. Text: 'this package is able to meet various oil performance requirements with different treat rates'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15456.pdf",
           "page": 1,
@@ -186,7 +186,7 @@
         "claim_type": "recommended",
         "scope": "'Recommended Treat Rate' (DL2-15456.pdf): Multi, 2.4%; same in DL2-14746.pdf 'Recommended Dosage'. Text: 'this package is able to meet various oil performance requirements with different treat rates'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15456.pdf",
           "page": 1,
@@ -202,7 +202,7 @@
         "claim_type": "recommended",
         "scope": "'Recommended Treat Rate' (DL2-15456.pdf): Mono, 1.5%; same in DL2-14746.pdf 'Recommended Dosage'. Text: 'this package is able to meet various oil performance requirements with different treat rates'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15456.pdf",
           "page": 1,
@@ -218,7 +218,7 @@
         "claim_type": "recommended",
         "scope": "Rate differs between the two TDS (4.1% vs 3.7%); see conflicts. Multi grade.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15456.pdf",
           "page": 1,
@@ -233,7 +233,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "Multi",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15456.pdf",
           "page": 1,
@@ -246,7 +246,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "Mono",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15456.pdf",
           "page": 1,
@@ -259,21 +259,17 @@
     "permitted_base_oils_restrictions": {
       "value": null,
       "unit": null,
-      "permitted_api_groups": [
-        "Group I",
-        "Group II",
-        "Group III"
-      ],
+      "permitted_api_groups": [],
       "permitted_grades": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "reported",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CF-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use).",
+      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). Printed base-oil wording: 'in suitable base oils' (DL2-14746.pdf p.1); this generic wording does not identify specific API Groups.",
       "value_final": null
     },
     "route_selector_restrictions": {
@@ -282,7 +278,7 @@
       "limits": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -305,7 +301,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Same rate in DL2-14746.pdf.",
           "source": {
             "file": "DL2-15456.pdf",
@@ -333,7 +329,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Same rate in DL2-14746.pdf.",
           "source": {
             "file": "DL2-15456.pdf",
@@ -361,7 +357,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Same rate in DL2-14746.pdf.",
           "source": {
             "file": "DL2-15456.pdf",
@@ -389,7 +385,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Same rate in DL2-14746.pdf.",
           "source": {
             "file": "DL2-15456.pdf",
@@ -417,7 +413,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Same rate in DL2-14746.pdf.",
           "source": {
             "file": "DL2-15456.pdf",
@@ -445,7 +441,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Same rate in DL2-14746.pdf.",
           "source": {
             "file": "DL2-15456.pdf",
@@ -473,7 +469,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Same rate in DL2-14746.pdf.",
           "source": {
             "file": "DL2-15456.pdf",
@@ -501,7 +497,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Same rate in DL2-14746.pdf.",
           "source": {
             "file": "DL2-15456.pdf",
@@ -529,7 +525,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Same rate in DL2-14746.pdf.",
           "source": {
             "file": "DL2-15456.pdf",
@@ -557,7 +553,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Same rate in DL2-14746.pdf.",
           "source": {
             "file": "DL2-15456.pdf",
@@ -585,36 +581,17 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": null,
           "source": {
-            "file": null,
+            "file": "https://www.richful.com/catalogueDetail.html?id=130",
             "page": null,
             "revision_date": null,
             "url": "https://www.richful.com/catalogueDetail.html?id=130",
             "retrieved": "2026-10-17",
             "origin": "public web (supplier website), not the archived datasheet"
           },
-          "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=130), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=130 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=130), retrieved 2026-10-17. Archive conflict DL2-15456.pdf (4.1 %) vs DL2-14746.pdf (3.7 %), both undated, left this null; the supplier's current page prints 4.1 %. Conflict record kept unchanged.",
-          "value_final": 3.9,
-          "unit_final": "%",
-          "integration_flags": [
-            "printed '%' with no mass/volume basis; kept as '%', not converted to wt.%"
-          ],
-          "status_final": "Calculated",
-          "source_final": [
-            {
-              "file": "DL2-15456.pdf",
-              "page": 1,
-              "revision_date": null
-            },
-            {
-              "file": "DL2-14746.pdf",
-              "page": 1,
-              "revision_date": null
-            }
-          ],
-          "resolution": "Same document type, editions undated so the newest cannot be determined; average taken: row 'CF/SF Multi' is 4.1 % in DL2-15456.pdf and 3.7 % in DL2-14746.pdf -> 3.9 %."
+          "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=130), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=130 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=130), retrieved 2026-10-17. Archive conflict DL2-15456.pdf (4.1 %) vs DL2-14746.pdf (3.7 %), both undated, left this null; the supplier's current page prints 4.1 %. Conflict record kept unchanged."
         }
       }
     ],
@@ -632,7 +609,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -671,7 +648,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -683,7 +660,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
@@ -699,10 +676,12 @@
     "Supplier: neither TDS prints a company name and SDS Section 1.3 is blank (RF6406.pdf p.1); supplier left null.",
     "TBN minimum differs (DL2-14746.pdf ≥180 vs DL2-15456.pdf index 168-198); CF/SF treat rate differs (3.7 vs 4.1 %); both TDS undated, see conflicts.",
     "Grades printed only as 'Multi' / 'Mono'.",
-    "2026-10-17: API CF/SF (Multi) treat rate filled from the Richful official product page https://www.richful.com/catalogueDetail.html?id=130 (NOT from the datasheet)."
+    "2026-10-17: API CF/SF (Multi) treat rate filled from the Richful official product page https://www.richful.com/catalogueDetail.html?id=130 (NOT from the datasheet).",
+    "Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CF-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Richful."
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier1.treat_rate_matrix (API CF/SF, Multi)",
       "values": [
         {
@@ -721,8 +700,8 @@
         }
       ],
       "note": "Both TDS undated; not resolved.",
-      "resolved": true,
-      "final_resolution": "See fields.treat_rate_matrix[10].treat_rate_wt_pct.resolution."
+      "resolved": false,
+      "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.treat_rate_matrix[10].treat_rate_wt_pct.resolution. Same document type, editions undated so the newest cannot be determined; average taken: row 'CF/SF Multi' is 4.1 % in DL2-15456.pdf and 3.7 % in DL2-14746.pdf -> 3.9 %."
     }
   ],
   "external_fill_notes": [
@@ -730,7 +709,7 @@
       "value": null,
       "unit": null,
       "property": "treat_rate_matrix[API CF/SF, Multi].treat_rate_wt_pct",
-      "status": "reported",
+      "status": "Reported",
       "source": "Richful official product page, https://www.richful.com/catalogueDetail.html?id=130 (retrieved 2026-10-17)",
       "notes": null
     }

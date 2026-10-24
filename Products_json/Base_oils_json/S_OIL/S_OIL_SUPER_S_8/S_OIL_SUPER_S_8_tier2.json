@@ -14,25 +14,43 @@
   "fields": {
     "mrv": [
       {
-        "value": null,
-        "qualifier": null,
-        "min": null,
-        "max": null,
-        "value_kind": null,
-        "printed_text": null,
-        "unit": "mPa.s",
         "test_temperature_c": null,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": null,
-        "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
         },
-        "flash_method": null,
-        "value_final": null,
-        "unit_final": "mPa·s"
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
       }
     ],
     "noack_volatility": {
@@ -62,12 +80,12 @@
       "min": null,
       "max": null,
       "value_kind": null,
-      "printed_text": "L-40.0 °C (as printed; ambiguous)",
+      "printed_text": "L-40.0 °C",
       "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D5950",
       "status": "Missing",
-      "calculation_note": null,
+      "calculation_note": "The 'Pour Point, °C' row prints 'L-40.0' for S-8 (Super 60N). The meaning of the 'L' prefix is not defined in any S-OIL document reviewed (DL2-12392/12393/12394.pdf, the S-OIL product catalog, the S-OIL Lube Base Oil web page), so no numeric value is assigned (2026-10 audit).",
       "source": {
         "file": "DL2-12392.pdf",
         "page": 1,
@@ -103,7 +121,7 @@
     "API Group for historical S-OIL S-8 (Super 60N) remains unverified.",
     "Grade-specific Super 8 SDS composition and CAS number require direct verification.",
     "Specific gravity 0.8719 at 15/4°C (ASTM D1298) is dimensionless and must not be transcribed as absolute density.",
-    "Pour point is printed as L-40.0 °C (ASTM D5950); qualifier or encoding remains ambiguous. Numeric value deliberately left null.",
+    "Pour point is printed as L-40.0 °C (ASTM D5950); qualifier or encoding remains ambiguous. Numeric value deliberately left null. No S-OIL legend defining the 'L' prefix was found in the archived sheets, the S-OIL catalog or the S-OIL web page (2026-10 audit); confirm with S-OIL whether 'L-40.0' means 'below -40.0 °C'.",
     "MRV apparent viscosity and MRV yield stress have not been verified for S-8; no MRV test temperature is available.",
     "Noack volatility, CCS viscosity, saturates and aromatics remain unverified.",
     "Final reconciliation between DL2-12392.pdf and grade-specific Super 8 SDS pending."

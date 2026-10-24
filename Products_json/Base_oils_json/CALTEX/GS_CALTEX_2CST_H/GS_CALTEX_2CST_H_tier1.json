@@ -8,7 +8,10 @@
     "product_name": "2cSt_H",
     "supplier": "GS Caltex",
     "document_type": "Product specification",
-    "source_file": "DL2-13094.pdf; DL2-13626.pdf",
+    "source_file": [
+      "DL2-13094.pdf",
+      "DL2-13626.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
@@ -49,7 +52,7 @@
       "value_kind": "typical",
       "printed_text": "Typical 7.30 mm²/s",
       "unit": "cSt",
-      "test_temperature_c": null,
+      "test_temperature_c": 40,
       "method": "ASTM D445",
       "status": "Reported",
       "calculation_note": null,
@@ -69,7 +72,7 @@
       "value_kind": "typical",
       "printed_text": "Typical 2.20 mm²/s; specification 2.0–2.4 mm²/s",
       "unit": "cSt",
-      "test_temperature_c": null,
+      "test_temperature_c": 100,
       "method": "ASTM D445",
       "status": "Reported",
       "calculation_note": null,

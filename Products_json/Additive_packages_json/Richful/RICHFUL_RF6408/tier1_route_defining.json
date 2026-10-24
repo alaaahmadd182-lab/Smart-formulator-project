@@ -20,7 +20,7 @@
       "package_type": {
         "unit": null,
         "value": "CF-4 Diesel Engine Oil Package",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15534.pdf",
           "page": 1,
@@ -32,7 +32,7 @@
       "intended_service": {
         "unit": null,
         "value": "RF6408 Diesel Engine Oil Package is formulated with high performance dispersant, detergent, ZDDP and etc. it offers high performance with low treat rate.",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15534.pdf",
           "page": 1,
@@ -50,7 +50,7 @@
         "claim_type": "other",
         "scope": "Recommended treat rate table: 10W-30, 15W-40, 20W-50, 5.88%. Text: 'The 10W-30, 15W-40 and 20W-50 diesel engine oils formulated with this package, Group II base oil and OCP viscosity modifier passed Mack T-8A, Caterpillar 1K, Sequence VIII and Mack T-9 engine tests and all bench tests.'",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15534.pdf",
           "page": 1,
@@ -65,7 +65,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "10W-30",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15534.pdf",
           "page": 1,
@@ -78,7 +78,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "15W-40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15534.pdf",
           "page": 1,
@@ -91,7 +91,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "20W-50",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15534.pdf",
           "page": 1,
@@ -112,7 +112,7 @@
       "allowed_combinations": [
         "Group II base oil and OCP viscosity modifier"
       ],
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-15534.pdf",
         "page": 1,
@@ -127,7 +127,7 @@
       "limits": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -150,7 +150,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Printed '%' (basis not stated).",
           "source": {
             "file": "DL2-15534.pdf",
@@ -180,7 +180,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": "Text names an OCP viscosity modifier; product and dose not printed.",
           "source": {
             "file": null,
@@ -219,7 +219,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -231,7 +231,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,

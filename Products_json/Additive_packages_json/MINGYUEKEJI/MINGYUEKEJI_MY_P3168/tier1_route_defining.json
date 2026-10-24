@@ -20,7 +20,7 @@
       "package_type": {
         "unit": null,
         "value": "Additive Package For Multi-fonction engine oil",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "TDS%20of%20P3168.pdf",
           "page": 1,
@@ -32,7 +32,7 @@
       "intended_service": {
         "unit": null,
         "value": "Additive package MY-P3168 is an economical additive for preparing a series of medium - grade lubricants. The product has been tested in internationally renowned laboratories (using standard base oils) to demonstrate excellent performance in engine cleaning, wear resistance and soot deposition control, exceeding API CF4 and API CF grade engine testing requirements. This product is suitable for diesel engine oils.",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "TDS%20of%20P3168.pdf",
           "page": 1,
@@ -50,7 +50,7 @@
         "claim_type": "other",
         "scope": "'Dosage' table: 'CF4/SG, Multi-grade, mass% 6.8'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "TDS%20of%20P3168.pdf",
           "page": 1,
@@ -66,7 +66,7 @@
         "claim_type": "other",
         "scope": "'Dosage' table: 'CF/SF, Multi-grade, mass% 4.0'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "TDS%20of%20P3168.pdf",
           "page": 1,
@@ -82,7 +82,7 @@
         "claim_type": "other",
         "scope": "'Dosage' table: 'CF, Mono-grade, mass% 3.75'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "TDS%20of%20P3168.pdf",
           "page": 1,
@@ -98,7 +98,7 @@
         "claim_type": "other",
         "scope": "'Dosage' table: 'CC/SC, Multi-grade, mass% 2.7'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "TDS%20of%20P3168.pdf",
           "page": 1,
@@ -114,7 +114,7 @@
         "claim_type": "other",
         "scope": "'Dosage' table: 'CB/SB, Mono-grade, mass% 2.0'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "TDS%20of%20P3168.pdf",
           "page": 1,
@@ -130,7 +130,7 @@
         "claim_type": "meets",
         "scope": "Applications text: '... exceeding API CF4 and API CF grade engine testing requirements' (tested using standard base oils).",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "TDS%20of%20P3168.pdf",
           "page": 1,
@@ -146,7 +146,7 @@
         "claim_type": "meets",
         "scope": "Applications text: '... exceeding API CF4 and API CF grade engine testing requirements'.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "TDS%20of%20P3168.pdf",
           "page": 1,
@@ -161,7 +161,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "Multi-grade",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "TDS%20of%20P3168.pdf",
           "page": 1,
@@ -174,7 +174,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "Mono-grade",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "TDS%20of%20P3168.pdf",
           "page": 1,
@@ -187,21 +187,17 @@
     "permitted_base_oils_restrictions": {
       "value": null,
       "unit": null,
-      "permitted_api_groups": [
-        "Group I",
-        "Group II",
-        "Group III"
-      ],
+      "permitted_api_groups": [],
       "permitted_grades": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "reported",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CF4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use).",
+      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). The datasheet's only base-oil wording, 'tested in internationally renowned laboratories (using standard base oils)' (TDS of P3168.pdf p.1), describes engine testing, not a permitted-base-oil restriction.",
       "value_final": null
     },
     "route_selector_restrictions": {
@@ -210,7 +206,7 @@
       "limits": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -233,7 +229,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "'Dosage' table.",
           "source": {
             "file": "TDS%20of%20P3168.pdf",
@@ -258,7 +254,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "'Dosage' table.",
           "source": {
             "file": "TDS%20of%20P3168.pdf",
@@ -283,7 +279,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "'Dosage' table.",
           "source": {
             "file": "TDS%20of%20P3168.pdf",
@@ -308,7 +304,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "'Dosage' table.",
           "source": {
             "file": "TDS%20of%20P3168.pdf",
@@ -333,7 +329,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "'Dosage' table.",
           "source": {
             "file": "TDS%20of%20P3168.pdf",
@@ -360,7 +356,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -399,7 +395,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -411,7 +407,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
@@ -424,7 +420,8 @@
   },
   "open_questions": [
     "No revision date printed on 'TDS of P3168.pdf'. Supplier from the archive folder 'MINGYUEKEJI' (sheet header prints only Chinese text '高品质润滑油添加剂生产商').",
-    "Grades printed only as 'Multi-grade' / 'Mono-grade'. Claims from the 'Dosage' table recorded as 'other'; API CF4 and CF also as 'meets' from the text 'exceeding ... engine testing requirements'."
+    "Grades printed only as 'Multi-grade' / 'Mono-grade'. Claims from the 'Dosage' table recorded as 'other'; API CF4 and CF also as 'meets' from the text 'exceeding ... engine testing requirements'.",
+    "Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CF4), not from any supplier document; the field is now missing. Confirm permitted API groups with MINGYUEKEJI."
   ],
   "conflicts": [],
   "external_fill_notes": []

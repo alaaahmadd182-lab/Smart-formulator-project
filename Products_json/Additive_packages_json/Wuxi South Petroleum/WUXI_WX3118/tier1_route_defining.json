@@ -20,7 +20,7 @@
       "package_type": {
         "unit": null,
         "value": "diesel engine oil additive package",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13534.pdf",
           "page": 1,
@@ -32,7 +32,7 @@
       "intended_service": {
         "unit": null,
         "value": "WX3118(CF-4 CH-4 CI-4) diesel engine oil additive package",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13534.pdf",
           "page": 1,
@@ -50,7 +50,7 @@
         "claim_type": "recommended",
         "scope": "Table 'Performance Level / SAE Viscosity / Treat rate m%': 30,40,50,10W/30,15W/40,20W/40,, 8.0.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13534.pdf",
           "page": 1,
@@ -66,7 +66,7 @@
         "claim_type": "recommended",
         "scope": "Table 'Performance Level / SAE Viscosity / Treat rate m%': 30,40,50,10W/30,15W/40,20W/40,, 10.0.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13534.pdf",
           "page": 1,
@@ -82,7 +82,7 @@
         "claim_type": "recommended",
         "scope": "Table 'Performance Level / SAE Viscosity / Treat rate m%': 30,40,50,10W/30,15W/40,20W/40,, 11.0.",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13534.pdf",
           "page": 1,
@@ -97,7 +97,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "30",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13534.pdf",
           "page": 1,
@@ -110,7 +110,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13534.pdf",
           "page": 1,
@@ -123,7 +123,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "50",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13534.pdf",
           "page": 1,
@@ -136,7 +136,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "10W/30",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13534.pdf",
           "page": 1,
@@ -149,7 +149,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "15W/40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13534.pdf",
           "page": 1,
@@ -162,7 +162,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "20W/40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-13534.pdf",
           "page": 1,
@@ -175,21 +175,17 @@
     "permitted_base_oils_restrictions": {
       "value": null,
       "unit": null,
-      "permitted_api_groups": [
-        "Group I",
-        "Group II",
-        "Group III"
-      ],
+      "permitted_api_groups": [],
       "permitted_grades": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "reported",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
         "revision_date": null
       },
-      "notes": "Sourced from industry standard knowledge (base oil rule of thumb for older API categories, CF through CI-4), not from the product datasheet. Packages whose highest API claim is an older category (CF/CF-4/CG-4/CH-4/CI-4 era, before CJ-4/CK-4) are typically Group I/II/III compatible. Highest claim here: API CI-4. CI-4 is treated as part of this older family. Rule of thumb only, not a supplier statement or an API 1509 restriction (API 1509 governs base oil interchange testing, not which groups a package may use).",
+      "notes": "API group compatibility not published - confirm with supplier. No API Group is named in any archived source or public supplier document reviewed (2026-10 audit). The datasheet makes no base-oil statement.",
       "value_final": null
     },
     "route_selector_restrictions": {
@@ -198,7 +194,7 @@
       "limits": [],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "missing",
+      "status": "Missing",
       "source": {
         "file": null,
         "page": null,
@@ -221,7 +217,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Column 'Treat rate m%'.",
           "source": {
             "file": "DL2-13534.pdf",
@@ -246,7 +242,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Column 'Treat rate m%'.",
           "source": {
             "file": "DL2-13534.pdf",
@@ -271,7 +267,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Column 'Treat rate m%'.",
           "source": {
             "file": "DL2-13534.pdf",
@@ -298,7 +294,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -337,7 +333,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -349,7 +345,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,
@@ -363,7 +359,8 @@
   "open_questions": [
     "No company name or date printed on DL2-13534.pdf (website WWW.WXNFCN.CN/EN); supplier left null (archive folder 'Wuxi South Petroleum'). No SDS in the archive.",
     "Claim type 'recommended' from the treat-rate table (no approval/meets wording).",
-    "Grades printed as '30,40,50,10W/30,15W/40,20W/40,' (trailing comma)."
+    "Grades printed as '30,40,50,10W/30,15W/40,20W/40,' (trailing comma).",
+    "Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Wuxi South Petroleum."
   ],
   "conflicts": [],
   "external_fill_notes": []

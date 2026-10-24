@@ -14,25 +14,43 @@
   "fields": {
     "mrv": [
       {
-        "value": null,
-        "qualifier": null,
-        "min": null,
-        "max": null,
-        "value_kind": null,
-        "printed_text": null,
-        "unit": "mPa.s",
         "test_temperature_c": null,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in the archived YUBASE 3 property sheet DL2-11303.pdf.",
-        "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in the archived YUBASE 3 property sheet DL2-11303.pdf.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
         },
-        "flash_method": null,
-        "value_final": null,
-        "unit_final": "mPa·s"
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in the archived YUBASE 3 property sheet DL2-11303.pdf.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
       }
     ],
     "noack_volatility": {
@@ -101,7 +119,7 @@
   },
   "open_questions": [
     "Confirm the manufacturer and distributor relationship between SK and NARMAK TRADE S.R.O. for archived YUBASE 3.",
-    "Resolve the API Group classification of archived YUBASE 3. Current SK Enmove product information presents YUBASE 3 within its Group III range, while a January 2021 SK corporate offering circular explicitly lists YUBASE 3 as Group II.",
+    "[Resolved] Resolved (2026-10 audit): Tier 1 records Group II from SK's official YUBASE site, which names YUBASE-3 as Group II (VI below 120). Previous note: 'Resolve the API Group classification of archived YUBASE 3. Current SK Enmove product information presents YUBASE 3 within its Group III range, while a January 2021 SK corporate offering circular explicitly lists YUBASE 3 as Group II.'",
     "The archived property sheet does not explicitly state the product chemistry. Obtain grade-specific manufacturer documentation before assigning a chemistry description.",
     "The specific-gravity entry reports 0.8299 with the questionable unit g/m3. Verify the original units and measurement conditions before recording a density value.",
     "No MRV apparent viscosity, yield stress, test temperature, or test method is reported in DL2-11303.pdf.",

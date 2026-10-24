@@ -14,21 +14,20 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": null,
-        "status": "Missing",
+        "value": "Group V",
+        "status": "Reported",
         "source": {
-          "file": null,
+          "file": "https://www.nynas.com/en/products/base-oils/products/nyfrost-68/",
           "page": null,
           "revision_date": null
         },
-        "printed_text": null,
-        "value_kind": null,
+        "printed_text": "NYFROST 68 is a hydrotreated naphthenic base oil, classified as an API Group V base oil.",
+        "value_kind": "supplier classification",
         "method": null,
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null,
-        "value_final": null
+        "calculation_note": "Grade-level statement on Nynas' NYFROST 68 product page; not stated in the archived datasheet DL2-11747.pdf (2026-10 audit)."
       },
       "chemistry": {
         "value": "Severely hydrotreated naphthenic base oil",
@@ -117,7 +116,7 @@
       "max": 0.924,
       "value_kind": "typical",
       "printed_text": "Typical 0.912 kg/dm3 at 15°C; specification 0.904–0.924 kg/dm3",
-      "unit": "g/cm3",
+      "unit": "kg/dm3",
       "test_temperature_c": 15,
       "method": "ASTM D4052",
       "status": "Reported",

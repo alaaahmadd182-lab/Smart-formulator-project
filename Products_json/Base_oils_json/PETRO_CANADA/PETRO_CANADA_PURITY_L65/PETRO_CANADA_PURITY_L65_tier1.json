@@ -14,21 +14,20 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": "Group II",
-        "status": "Reported",
+        "value": null,
+        "status": "Missing",
         "source": {
-          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/base-oils/ilma-engage-sponsorship-base-oils-brochure.ashx",
+          "file": null,
           "page": null,
           "revision_date": null
         },
-        "printed_text": "PURITY L65 listed in GROUP II TYPICAL PROPERTIES table",
-        "value_kind": "supplier classification",
+        "printed_text": null,
+        "value_kind": null,
         "method": null,
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": "Group II classification directly supported by Petro-Canada's manufacturer brochure; not inferred from chemistry.",
-        "value_final": "Group II"
+        "calculation_note": null
       },
       "chemistry": {
         "value": "Hydrotreated/hydrocracked paraffinic and cycloparaffinic mineral hydrocarbons",
@@ -106,8 +105,7 @@
         "revision_date": "2015-07"
       },
       "value_final": 92,
-      "unit_final": "unitless",
-      "resolution": "TDS DL2-10020.pdf 92 kept over the Petro-Canada marketing brochure (104), which is neither a TDS nor an SDS and is not in the archive."
+      "unit_final": "unitless"
     },
     "density": {
       "value": 0.83,
@@ -153,15 +151,75 @@
     ]
   },
   "open_questions": [
-    "API Group II confirmed for PURITY L65 using Petro-Canada's official World-Class Base Oils brochure.",
+    "Not verified (2026-10 audit): the grade-level brochure cited for API Group II could not be retrieved; the field is Missing (see the API Group question). Previous note: 'API Group II confirmed for PURITY L65 using Petro-Canada's official World-Class Base Oils brochure.'",
     "No grade-specific CCS measurement has been verified for PURITY L65.",
-    "Noack volatility and grade-specific SDS require further verification."
+    "Noack volatility and grade-specific SDS require further verification.",
+    "API Group (2026-10 audit): previously recorded as 'Group II' (Reported) citing Petro-Canada's ILMA Engage base-oils brochure (https://petrocanadalubricants.com/-/media/pdfs/brochures/base-oils/ilma-engage-sponsorship-base-oils-brochure.ashx, no page), printed_text 'PURITY L65 listed in GROUP II TYPICAL PROPERTIES table'. That brochure could not be retrieved (Petro-Canada blocks automated access; no Wayback Machine copy; the distributor-hosted 'World-Class Base Oils' copy is also blocked), so no grade-level classification of PURITY L65 could be inspected. Petro-Canada's LUB3213E editions (2015.07 = DL2-10020.pdf p.1; 2023.03 p.1) describe PURITY only as 'Group II and Group II+ base oils' at brand level, which does not classify an individual grade; the field is now Missing. Obtain the brochure or a grade-specific Petro-Canada document to confirm."
   ],
   "conflicts": [
+    "Viscosity index differs between manufacturer documents: DL2-10020.pdf (2015-07), page 2, reports 92; Petro-Canada's World-Class Base Oils brochure reports 104. The original value of 92 is retained pending reconciliation.",
     {
-      "note": "Viscosity index differs between manufacturer documents: DL2-10020.pdf (2015-07), page 2, reports 92; Petro-Canada's World-Class Base Oils brochure reports 104. The original value of 92 is retained pending reconciliation.",
-      "resolved": true,
-      "final_resolution": "TDS kept; see tier1 fields.viscosity_index.resolution."
+      "conflict_type": "edition difference",
+      "field": "tier1.kv40",
+      "values": [
+        {
+          "value": 9.5,
+          "printed_text": "9.5 cSt",
+          "file": "DL2-10020.pdf",
+          "page": 2,
+          "revision_date": "2015-07"
+        },
+        {
+          "value": 9.33,
+          "printed_text": "Viscosity @ 40°C, cSt: 9.33",
+          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
+          "page": 2,
+          "revision_date": "2023-03"
+        }
+      ],
+      "note": "Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 9.33 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit)."
+    },
+    {
+      "conflict_type": "edition difference",
+      "field": "tier1.kv100",
+      "values": [
+        {
+          "value": 2.6,
+          "printed_text": "2.6 cSt",
+          "file": "DL2-10020.pdf",
+          "page": 2,
+          "revision_date": "2015-07"
+        },
+        {
+          "value": 2.57,
+          "printed_text": "Viscosity @ 100°C, cSt: 2.57",
+          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
+          "page": 2,
+          "revision_date": "2023-03"
+        }
+      ],
+      "note": "Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 2.57 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit)."
+    },
+    {
+      "conflict_type": "edition difference",
+      "field": "tier1.viscosity_index",
+      "values": [
+        {
+          "value": 92,
+          "printed_text": "92",
+          "file": "DL2-10020.pdf",
+          "page": 2,
+          "revision_date": "2015-07"
+        },
+        {
+          "value": 104,
+          "printed_text": "Viscosity Index: 104",
+          "file": "https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx",
+          "page": 2,
+          "revision_date": "2023-03"
+        }
+      ],
+      "note": "Document editions differ: the recorded value comes from the cited document; Petro-Canada LUB3213E / IM-1809E (2023.03) p.2 prints 104 (copy read from the distributor-hosted mirror https://mascherpa.it/wp-content/uploads/2025/06/Purity-Base-oil_LUB3213E.pdf, because the Petro-Canada server blocks automated retrieval). The recorded value is kept; not resolved (2026-10 audit)."
     }
   ]
 }

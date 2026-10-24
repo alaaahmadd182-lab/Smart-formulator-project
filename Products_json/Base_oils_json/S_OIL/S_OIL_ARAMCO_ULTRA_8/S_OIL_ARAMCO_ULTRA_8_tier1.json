@@ -14,23 +14,22 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": null,
-        "status": "Missing",
+        "value": "Group III",
+        "status": "Reported",
         "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+          "file": "https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf",
+          "page": 25,
+          "revision_date": "2024"
         },
-        "printed_text": null,
-        "value_kind": null,
+        "printed_text": "aramcoULTRA slate 8: API Base Oil Category Group III",
+        "value_kind": "supplier classification",
         "method": null,
         "min": null,
         "max": null,
         "qualifier": null,
-        "calculation_note": null,
+        "calculation_note": "Grade-level: Aramco base-oil catalog 2024 p.25 lists aramcoULTRA 8 with 'API Base Oil Category: Group III' (manufacturing site Ulsan). Not stated in the archived SDS DL2-14611.pdf (2018). Also listed as a.ULTRA 8 in the 'Group III' table of the MOGO 2025 distributor flyer p.4 (2026-10 audit).",
         "flash_method": null,
-        "test_temperature_c": null,
-        "value_final": null
+        "test_temperature_c": null
       },
       "chemistry": {
         "value": "Distillates (petroleum), hydrotreated heavy paraffinic",
@@ -99,46 +98,61 @@
       "max_final": 7.5
     },
     "viscosity_index": {
-      "value": null,
+      "value": 134,
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity Index: 134",
       "unit": null,
       "test_temperature_c": null,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": "From the current S-OIL Lube Base Oil web page, 'Typical Properties of aramcoULTRA Base Oil' table, aramcoULTRA 8 column (undated, retrieved 2026-10-21); not printed in the archived SDS DL2-14611.pdf. (2026-10 audit)",
       "source": {
-        "file": null,
+        "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
         "page": null,
         "revision_date": null
       },
-      "flash_method": null,
-      "value_final": null,
-      "unit_final": "unitless"
+      "flash_method": null
     },
     "density": {
-      "value": null,
+      "value": 0.8425,
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": null,
-      "test_temperature_c": null,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "value_kind": "typical",
+      "printed_text": "Density @ 15.6℃, kg/L: 0.8425",
+      "unit": "kg/L",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052 (D1298)",
+      "status": "Reported",
+      "calculation_note": "From the current S-OIL Lube Base Oil web page, 'Typical Properties of aramcoULTRA Base Oil' table, aramcoULTRA 8 column (undated, retrieved 2026-10-21); not printed in the archived SDS DL2-14611.pdf. The SDS relative density 0.847 at 15 °C is a different quantity, recorded separately in specific_gravity and not converted. (2026-10 audit)",
       "source": {
-        "file": null,
+        "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
         "page": null,
         "revision_date": null
       },
-      "flash_method": null,
-      "value_final": null,
-      "unit_final": null
+      "flash_method": null
+    },
+    "specific_gravity": {
+      "value": 0.847,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "single",
+      "printed_text": "RELATIVE DENSITY 0.847 @ 15℃",
+      "unit": "dimensionless",
+      "reference_condition": "15℃",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "SDS (p.2) prints 'RELATIVE DENSITY 0.847 @ 15℃' with no method and no water reference temperature; relative density is dimensionless and recorded as specific gravity. Not converted to density.",
+      "source": {
+        "file": "DL2-14611.pdf",
+        "page": 2,
+        "revision_date": "2018-09-07"
+      }
     },
     "ccs": [
       {
@@ -170,5 +184,27 @@
     "CCS viscosity of 6,300 mPa.s at -30°C (ASTM D5293) was obtained from S-OIL's official technical specifications, not the original SDS.",
     "Final source-level audit and alternate document reconciliation pending."
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "conflict_type": "edition difference",
+      "field": "tier1.kv40",
+      "values": [
+        {
+          "value": "42.0 - 55.0",
+          "printed_text": "42.0 - 55.0 cSt @ 40°C (ASTM D 445)",
+          "file": "DL2-14611.pdf",
+          "page": 2,
+          "revision_date": "2018-09-07"
+        },
+        {
+          "value": 41.1,
+          "printed_text": "Kinematic Viscosity @ 40℃, cSt (D445): 41.1",
+          "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+          "page": null,
+          "revision_date": null
+        }
+      ],
+      "note": "Document editions differ for aramcoULTRA 8: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 41.1. The recorded value is kept; not resolved (2026-10 audit)."
+    }
+  ]
 }

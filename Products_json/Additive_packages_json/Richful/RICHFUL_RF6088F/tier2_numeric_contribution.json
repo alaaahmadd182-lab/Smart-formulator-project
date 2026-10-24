@@ -31,7 +31,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "SH/T 0251，ASTM D2896",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TDS 'Typical Value' column with index/limit '66-82'.",
       "source": {
         "file": "DL2-15839.pdf",
@@ -54,7 +54,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "ASTM D874",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "'≯8.33' = not more than 8.33 (index); typical 8.04.",
       "source": {
         "file": "DL2-15839.pdf",
@@ -77,7 +77,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T 17476，ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '1.75-2.15'.",
         "source": {
           "file": "DL2-15839.pdf",
@@ -100,7 +100,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -121,7 +121,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T 17476，ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '0.94-1.16'.",
         "source": {
           "file": "DL2-15839.pdf",
@@ -144,7 +144,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "GB/T 17476，ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '0.83-1.01'.",
         "source": {
           "file": "DL2-15839.pdf",
@@ -167,7 +167,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -188,7 +188,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -209,7 +209,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "SH/T 0704，ASTM D5762",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '0.77-1.05'.",
         "source": {
           "file": "DL2-15839.pdf",
@@ -232,7 +232,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -254,7 +254,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -275,7 +275,7 @@
       "unit": "mm²/s",
       "test_temperature_c": 100,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Chosen by user decision from the conflicting values (see conflicts).",
       "source": {
         "file": "DL2-15840.pdf",
@@ -297,7 +297,7 @@
       "unit": "kg/m³",
       "test_temperature_c": 20,
       "method": "SH/T 0604, ASTM D4052",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Chosen by user decision from the conflicting values (see conflicts).",
       "source": {
         "file": "DL2-15839.pdf",
@@ -320,10 +320,10 @@
       "max": null,
       "value_kind": "specification",
       "printed_text": "Flash point : ≥180 ℃",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Same value in: DL2-15839.pdf p.1 (undated): 'Flash Point (COC), ℃ ≮180 218 GB/T 3536，ASTM D92'.",
       "source": {
         "file": "DL2-15840.pdf",
@@ -343,10 +343,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -366,6 +366,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier2.density",
       "values": [
         {
@@ -388,6 +389,7 @@
       "final_resolution": "User decision of 2026-10-18 kept; see fields.density.resolution."
     },
     {
+      "conflict_type": "conflicting values between different documents",
       "field": "tier2.kv100",
       "values": [
         {

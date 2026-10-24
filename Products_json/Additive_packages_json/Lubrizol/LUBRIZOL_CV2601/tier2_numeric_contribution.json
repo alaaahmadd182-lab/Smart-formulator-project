@@ -26,7 +26,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -47,7 +47,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Column 'Typical'. Chemical Characteristics header '% Weight'.",
       "source": {
         "file": "DL2-11702.pdf",
@@ -69,7 +69,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Column 'Typical' with Minimum/Maximum limits. Chemical Characteristics header '% Weight'.",
         "source": {
           "file": "DL2-11702.pdf",
@@ -92,7 +92,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Column 'Typical' with Minimum/Maximum limits. Chemical Characteristics header '% Weight'.",
         "source": {
           "file": "DL2-11702.pdf",
@@ -115,7 +115,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Column 'Typical' with Minimum/Maximum limits. Chemical Characteristics header '% Weight'.",
         "source": {
           "file": "DL2-11702.pdf",
@@ -138,7 +138,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Column 'Typical' with Minimum/Maximum limits. Chemical Characteristics header '% Weight'.",
         "source": {
           "file": "DL2-11702.pdf",
@@ -161,7 +161,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Column 'Typical' with Minimum/Maximum limits. Chemical Characteristics header '% Weight'.",
         "source": {
           "file": "DL2-11702.pdf",
@@ -184,7 +184,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -205,7 +205,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "Column 'Typical' with Minimum/Maximum limits. Chemical Characteristics header '% Weight'.",
         "source": {
           "file": "DL2-11702.pdf",
@@ -228,7 +228,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -250,7 +250,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Column 'Target'. Value from 'Target' column (a target, not a measured typical).",
       "source": {
         "file": "DL2-11702.pdf",
@@ -271,7 +271,7 @@
       "unit": "cSt",
       "test_temperature_c": 100,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Column 'Target'. Value from 'Target' column (a target, not a measured typical).",
       "source": {
         "file": "DL2-11702.pdf",
@@ -283,29 +283,62 @@
       "unit_final": "cSt"
     },
     "density": {
-      "value": 0.955,
+      "value": 7.96,
       "qualifier": null,
-      "min": 0.935,
-      "max": 0.975,
-      "value_kind": "typical",
-      "printed_text": "SPECIFIC GRAVITY @ 15.6 C 0.935 0.955 0.975",
-      "unit": "specific gravity (dimensionless)",
+      "min": null,
+      "max": null,
+      "value_kind": "target",
+      "printed_text": "LBS PER U.S. GAL @ 15.6 C 7.96",
+      "unit": "lbs/US gal",
       "test_temperature_c": 15.6,
       "method": null,
-      "status": "reported",
-      "calculation_note": "Column 'Target' with Minimum/Maximum limits. Printed as SPECIFIC GRAVITY @ 15.6 C (no density in kg/m3); LBS PER GAL lines also printed. Value from 'Target' column (a target, not a measured typical). reported as specific gravity.",
+      "status": "Reported",
+      "calculation_note": "'Physical Characteristics' table, 'Target' column (p.1); no Minimum or Maximum is printed for this row and no method is printed. Not converted. The specific gravity printed on the same page is recorded in specific_gravity, not here.",
       "source": {
         "file": "DL2-11702.pdf",
         "page": 1,
         "revision_date": "2016-06-16"
       },
       "notes": null,
-      "value_final": 0.955,
-      "unit_final": "specific gravity (dimensionless)",
-      "integration_flags": [
-        "specific gravity is not a density; kept as printed, not converted to g/cm³",
-        "density is at 15.6 °C, not 15 °C; not temperature-corrected"
+      "alternate_entries": [
+        {
+          "value": 9.56,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "target",
+          "printed_text": "LBS PER IMP GAL @ 15.6 C 9.56",
+          "unit": "lbs/Imp gal",
+          "test_temperature_c": 15.6,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": "Same row block, 'Target' column (p.1): the same quantity printed per imperial gallon. Not converted.",
+          "source": {
+            "file": "DL2-11702.pdf",
+            "page": 1,
+            "revision_date": "2016-06-16"
+          }
+        }
       ]
+    },
+    "specific_gravity": {
+      "value": 0.955,
+      "qualifier": null,
+      "min": 0.935,
+      "max": 0.975,
+      "value_kind": "target",
+      "printed_text": "SPECIFIC GRAVITY @ 15.6 C 0.935 0.955 0.975",
+      "unit": "dimensionless",
+      "reference_condition": "15.6 C (water reference temperature not printed)",
+      "test_temperature_c": 15.6,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "'Physical Characteristics' table (p.1): Minimum 0.935, Target 0.955, Maximum 0.975; value = Target, min/max = the printed Minimum/Maximum. No method printed. Not converted to density.",
+      "source": {
+        "file": "DL2-11702.pdf",
+        "page": 1,
+        "revision_date": "2016-06-16"
+      }
     },
     "flash_point": {
       "value": 170.0,
@@ -314,10 +347,10 @@
       "max": null,
       "value_kind": "typical",
       "printed_text": "FLASH POINT, C, PMCC 170",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "PMCC",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Column 'Target'. Value from 'Target' column (a target, not a measured typical).",
       "source": {
         "file": "DL2-11702.pdf",
@@ -336,10 +369,10 @@
       "max": null,
       "value_kind": "typical",
       "printed_text": "POUR POINT, C -12",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "Column 'Target'. Value from 'Target' column (a target, not a measured typical).",
       "source": {
         "file": "DL2-11702.pdf",
@@ -352,10 +385,10 @@
     }
   },
   "open_questions": [
-    "Density field holds 'SPECIFIC GRAVITY @ 15.6 C' (dimensionless); LBS PER GAL also printed.",
+    "Density holds 'LBS PER U.S. GAL @ 15.6 C 7.96' (Target), with 'LBS PER IMP GAL @ 15.6 C 9.56' as an alternate entry; 'SPECIFIC GRAVITY @ 15.6 C 0.935 0.955 0.975' is recorded in the optional specific_gravity property (2026-10-24).",
     "Physical values (p.1) in the 'Target' column; chemical values (p.2) in the 'Typical' column.",
     "TBN, Mo and S are not printed.",
-    "User decision 2026-10-17: density field stores the number 0.955 (specific gravity (dimensionless)), which is reported as specific gravity ('SPECIFIC GRAVITY @ 15.6 C 0.935 0.955 0.975', DL2-11702.pdf p.1), not a density in kg/m3; flagged for review."
+    "[History] User decision 2026-10-17: the density field stored 0.955 (specific gravity, dimensionless) from 'SPECIFIC GRAVITY @ 15.6 C 0.935 0.955 0.975' (DL2-11702.pdf p.1). Superseded 2026-10-24 by the approved optional specific_gravity property: the specific gravity moved there and density now holds the printed 7.96 lbs/US gal @ 15.6 C."
   ],
   "conflicts": [],
   "external_fill_notes": []

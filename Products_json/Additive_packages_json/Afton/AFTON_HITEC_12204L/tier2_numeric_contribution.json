@@ -1,0 +1,353 @@
+{
+  "template_version": "1.0",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "AFTON_HITEC_12204L",
+  "product": {
+    "product_name": "HiTEC® 12204L",
+    "supplier": "Afton Chemical Corporation",
+    "document_type": [
+      "PDS",
+      "TDS"
+    ],
+    "source_file": [
+      "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+      "DL2-14639.pdf"
+    ],
+    "revision_date": [
+      "06/17",
+      "08/18"
+    ]
+  },
+  "fields": {
+    "tbn": {
+      "value": 82,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Total Base Number, mg KOH/g: 82",
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "'Typical Characteristics', column 'HiTEC® 12204L' (p.2). No test method is printed.",
+      "source": {
+        "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+        "page": 2,
+        "revision_date": "06/17"
+      },
+      "notes": null
+    },
+    "sulfated_ash": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "elements": {
+      "Ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "P": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "N": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": null
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "kv100": {
+      "value": 190,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity @ 100°C, cSt 190",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "'Typical Characteristics', column 'HiTEC® 12204L' (p.2). No test method is printed.",
+      "source": {
+        "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+        "page": 2,
+        "revision_date": "06/17"
+      },
+      "notes": null
+    },
+    "density": {
+      "value": 8.11,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density, lbs/gal. 8.11",
+      "unit": "lbs/gal",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "'Typical Characteristics', column 'HiTEC® 12204L' (p.2). Template unit kg/m3; printed lbs/gal kept, not converted. No reference temperature printed for the density line. Also printed: 'Specific Gravity @ 15.6/15.6°C 0.972' (no template field).",
+      "source": {
+        "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+        "page": 2,
+        "revision_date": "06/17"
+      },
+      "notes": null
+    },
+    "flash_point": {
+      "value": 135,
+      "qualifier": "≥",
+      "min": 135,
+      "max": null,
+      "value_kind": "specification",
+      "printed_text": "Flash Point, °C (PMCC) 135 min.",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "PMCC",
+      "status": "Reported",
+      "calculation_note": "'Typical Characteristics', column 'HiTEC® 12204L' (p.2). Printed as a minimum.",
+      "source": {
+        "file": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+        "page": 2,
+        "revision_date": "06/17"
+      },
+      "flash_method": "PMCC",
+      "notes": null
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": null,
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    }
+  },
+  "open_questions": [
+    "Source: Afton's own HiTEC 12204L PDS 'HiTEC® 12204L HDEO Additive Package', printed edition '06/17' (© 2017 Afton Chemical Corporation; PDF created 2017-06-16), retrieved as the Internet Archive original-bytes copy captured 2020-10-23 (SHA-256 7a1e57d81d66b52b83215da261732256867d89b651c75334068022362a74183e), p.2 (p.1 is the cover). Afton's live site blocks automated access. The same document is the source of AFTON_HITEC_12250. The archive's HiTEC 12200 bulletin DL2-14639.pdf (08/18) prints no HiTEC 12204L properties; it is used only for the premix formula and route context (see below).",
+    "Handling information printed for 'HiTEC® 12204L and HiTEC® 12250' (p.2), no template field: Max Handling Temp: 70˚C; Shelf Life: 3 months @ 45°C, 36 months @ ambient (10-40°C). Also printed, no template field: Specific Gravity @ 15.6/15.6°C 0.972.",
+    "KV40, sulfated ash, all elements (Ca, Mg, Zn, P, B, Mo, N, S) and pour point are not printed in the PDS; left Missing. Nothing is inferred from HiTEC 12200 (DL2-14639.pdf) or HiTEC 12250, including the premix formula; HiTEC 12200 also prints KV100 190 mm2/s, but that value is not used here."
+  ],
+  "conflicts": [],
+  "external_fill_notes": [
+    {
+      "value": null,
+      "unit": null,
+      "property": "tbn",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 12204L PDS, edition 06/17, p.2 (Internet Archive original-bytes copy captured 2020-10-23): https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "kv100",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 12204L PDS, edition 06/17, p.2 (Internet Archive original-bytes copy captured 2020-10-23): https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "density",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 12204L PDS, edition 06/17, p.2 (Internet Archive original-bytes copy captured 2020-10-23): https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+      "notes": null
+    },
+    {
+      "value": null,
+      "unit": null,
+      "property": "flash_point",
+      "status": "Reported",
+      "source": "Afton Chemical HiTEC 12204L PDS, edition 06/17, p.2 (Internet Archive original-bytes copy captured 2020-10-23): https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf",
+      "notes": null
+    }
+  ]
+}

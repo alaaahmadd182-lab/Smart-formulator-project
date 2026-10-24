@@ -16,13 +16,14 @@
       "api_group": {
         "value": "Group IV",
         "status": "Reported",
-        "basis": "External manufacturer portfolio classification",
-        "notes": "The original product datasheet DL2-11197.pdf identifies SpectraSyn Ultra 300 as polyalphaolefin (PAO), but does not explicitly state its API Group. ExxonMobil's official base-stocks brochure classifies the SpectraSyn PAO product family under Group IV. This classification is supported by manufacturer family-level documentation rather than a grade-specific API Group statement.",
+        "basis": "Derived classification, not a printed API Group: datasheet p.1 identifies the product as a polyalphaolefin (PAO); API 1509 Annex E E.1.3(d) defines Group IV as PAOs. Status stays Reported because the project uses Calculated only for numeric calculations.",
+        "notes": "Derived, not a manufacturer-printed API Group statement. (1) The archived ExxonMobil Chemical datasheet DL2-11197.pdf p.1 identifies the product as 'SpectraSyn Ultra™ 300 - High VI Polyalphaolefin (PAO) Fluid'. (2) API 1509 (21st edition) Annex E, clause E.1.3(d), PDF p.2 (https://API.org/-/media/Files/Certification/Engine-Oil-Diesel/Publications/API%201509-%2021st%20Edition%20Annex%20E.pdf): 'Group IV base stocks are polyalphaolefins (PAO).' Group IV follows from these two documents. ExxonMobil's base stocks brochure (v12) lists other SpectraSyn lines under 'Group IV' but does not name SpectraSyn Ultra, so it is no longer cited (2026-10 audit).",
         "source": {
-          "file": "https://www.exxonmobil.com/basestocks/-/media/project/wep/exxonmobil/exxonmobil-basestocks/pdfs/735723-1-exxon-intermed-cross-bu-broch-update-v12.pdf",
-          "page": null,
+          "file": "DL2-11197.pdf",
+          "page": 1,
           "revision_date": null
         },
+        "value_kind": "derived classification (manufacturer-printed chemistry + API 1509 Annex E definition)",
         "value_final": "Group IV"
       },
       "chemistry": {
@@ -37,24 +38,22 @@
       }
     },
     "kv40": {
-      "value": 3600,
+      "value": 3100,
       "qualifier": "Typical",
       "min": null,
       "max": null,
       "value_kind": "single",
-      "printed_text": "3600",
+      "printed_text": "3100",
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": "ASTM D445",
       "status": "Reported",
-      "calculation_note": null,
+      "calculation_note": "Corrected 2026-10-23: previously recorded as 3600 (transcription error). DL2-11197.pdf p.1 (scan) 'Kinematic Viscosity' rows print 140°C, Calculated 110 / 100°C 300 / 40°C 3100 mm²/s / 0°C, Calculated 36000 mm²/s.",
       "source": {
         "file": "DL2-11197.pdf",
         "page": 1,
         "revision_date": null
-      },
-      "value_final": 3600,
-      "unit_final": "cSt"
+      }
     },
     "kv100": {
       "value": 300,

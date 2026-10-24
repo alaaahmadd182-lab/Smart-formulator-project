@@ -8,7 +8,10 @@
     "product_name": "150BS",
     "supplier": "GS Caltex",
     "document_type": "Product specification",
-    "source_file": "DL2-13094.pdf; DL2-13626.pdf",
+    "source_file": [
+      "DL2-13094.pdf",
+      "DL2-13626.pdf"
+    ],
     "revision_date": null
   },
   "fields": {
@@ -84,7 +87,7 @@
       "max": -15,
       "value_kind": "typical",
       "printed_text": "Typical -18 °C; specification maximum -15 °C",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D6749",
       "status": "Reported",
@@ -105,7 +108,7 @@
       "max": null,
       "value_kind": "typical",
       "printed_text": "COC typical 262 °C; specification minimum 250 °C",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D92",
       "status": "Reported",

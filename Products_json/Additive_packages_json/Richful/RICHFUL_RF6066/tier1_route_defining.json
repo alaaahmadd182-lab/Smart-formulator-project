@@ -31,7 +31,7 @@
       "package_type": {
         "unit": null,
         "value": "CH-4/CI-4 Diesel Engine Oil Package",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15451.pdf",
           "page": 1,
@@ -43,7 +43,7 @@
       "intended_service": {
         "unit": null,
         "value": "RF6066 Diesel Engine Oil Package is formulated with a number of high-quality detergent, dispersant, ZDDP, high-temp anti-oxidant and other additive components.",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15451.pdf",
           "page": 1,
@@ -61,7 +61,7 @@
         "claim_type": "recommended",
         "scope": "TDS DL2-15451.pdf p.1 'Recommended Treat Rate' (API Performance Level / SAE Viscosity Grade / Treat Rate): 'The API CH-4, CI-4 diesel engine oils formulated with this package with appropriate Group I, II and III base oils provide excellent ...'. Grades 15W-40, 20W-50; 10.5%. Also in TDS DL2-13819.pdf p.1 'Recommended Dosage' (API Performance Level / Treating rate(mass%)).",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15451.pdf",
           "page": 1,
@@ -77,7 +77,7 @@
         "claim_type": "recommended",
         "scope": "TDS DL2-15451.pdf p.1 'Recommended Treat Rate' (API Performance Level / SAE Viscosity Grade / Treat Rate): 'The API CH-4, CI-4 diesel engine oils formulated with this package with appropriate Group I, II and III base oils provide excellent ...'. Grades 15W-40, 20W-50, 40, 50; 8.5%. Also in TDS DL2-13819.pdf p.1 'Recommended Dosage' (API Performance Level / Treating rate(mass%)).",
         "evidence_class": "Supplier claim",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15451.pdf",
           "page": 1,
@@ -92,7 +92,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "15W-40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15451.pdf",
           "page": 1,
@@ -105,7 +105,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "20W-50",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15451.pdf",
           "page": 1,
@@ -118,7 +118,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "40",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15451.pdf",
           "page": 1,
@@ -131,7 +131,7 @@
         "value": null,
         "unit": null,
         "sae_grade": "50",
-        "status": "reported",
+        "status": "Reported",
         "source": {
           "file": "DL2-15451.pdf",
           "page": 1,
@@ -154,7 +154,7 @@
       "allowed_combinations": [
         "with appropriate Group I, II and III base oils"
       ],
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-15451.pdf",
         "page": 1,
@@ -171,7 +171,7 @@
       ],
       "exclusions": [],
       "allowed_combinations": [],
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-15451.pdf",
         "page": 1,
@@ -194,7 +194,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Same 10.5% in DL2-13819.pdf p.1 ('Treating rate(mass%)').",
           "source": {
             "file": "DL2-15451.pdf",
@@ -222,7 +222,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": null,
-          "status": "reported",
+          "status": "Reported",
           "calculation_note": "Same 8.5% in DL2-13819.pdf p.1.",
           "source": {
             "file": "DL2-15451.pdf",
@@ -252,7 +252,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -291,7 +291,7 @@
               "unit": null,
               "test_temperature_c": null,
               "method": null,
-              "status": "missing",
+              "status": "Missing",
               "calculation_note": null,
               "source": {
                 "file": null,
@@ -303,7 +303,7 @@
             }
           }
         ],
-        "status": "missing",
+        "status": "Missing",
         "source": {
           "file": null,
           "page": null,

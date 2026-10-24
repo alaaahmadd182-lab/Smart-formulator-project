@@ -27,7 +27,7 @@
       "unit": null,
       "type": "Polymethacrylate (PMA)",
       "form": null,
-      "status": "reported",
+      "status": "Reported",
       "source": {
         "file": "DL2-14874.pdf",
         "page": 1,
@@ -47,7 +47,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "SDS Section 3 component share of the polymer ('Acrylic copolymer').",
         "source": {
           "file": "RF6602.pdf",
@@ -71,7 +71,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "SDS Section 3.",
         "source": {
           "file": "RF6602.pdf",
@@ -98,7 +98,7 @@
           "unit": "wt.%",
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -126,7 +126,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 1% (5.77) - KV100 at 0% (5.23) in 150N = 0.54. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -153,7 +153,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 3% (6.66) - KV100 at 0% (5.23) in 150N = 1.43. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -180,7 +180,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 5% (8.04) - KV100 at 0% (5.23) in 150N = 2.81. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -207,7 +207,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 1% (11.07) - KV100 at 0% (10.2) in 500N = 0.87. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -234,7 +234,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 3% (12.58) - KV100 at 0% (10.2) in 500N = 2.38. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -261,7 +261,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 5% (14.63) - KV100 at 0% (10.2) in 500N = 4.43. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -288,7 +288,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 1% (6.62) - KV100 at 0% (6.14) in Group Ⅲ 6# = 0.48. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -315,7 +315,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 3% (7.68) - KV100 at 0% (6.14) in Group Ⅲ 6# = 1.54. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -342,7 +342,7 @@
           "unit": "cSt",
           "test_temperature_c": 100,
           "method": null,
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "ΔKV100 = KV100 at 5% (8.91) - KV100 at 0% (6.14) in Group Ⅲ 6# = 2.77. Printed unit 'mm/s2' (as printed; read as mm2/s = cSt). Test method not printed (template default D445 removed).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -369,7 +369,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": "The Shear of Diesel Injector Nozzle",
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "(7.69 - 7.68) / 7.69 x 100 = 0.13 % (dose 6 % in 150N, 30 cycles).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -395,7 +395,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": "The Shear of Diesel Injector Nozzle",
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "(10.24 - 10.0) / 10.24 x 100 = 2.34 % (dose 10 % in 150N, 30 cycles).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -421,7 +421,7 @@
           "unit": "%",
           "test_temperature_c": null,
           "method": "The Shear of Diesel Injector Nozzle",
-          "status": "calculated",
+          "status": "Calculated",
           "calculation_note": "(10.24 - 9.87) / 10.24 x 100 = 3.61 % (dose 10 % in 150N, 250 cycles).",
           "source": {
             "file": "DL2-14874.pdf",
@@ -448,19 +448,17 @@
           "max": null,
           "value_kind": null,
           "printed_text": "In 150N（10% of RF6602) (250 cycles) After Shear KV100 9.87",
-          "unit": "cSt",
+          "unit": null,
           "test_temperature_c": 100,
           "method": "The Shear of Diesel Injector Nozzle",
-          "status": "reported",
-          "calculation_note": "Also printed: 30 cycles 10.00 (10 %), 7.68 (6 %). Unit not printed in the table; KV100 assumed cSt per the 'KV100' label - please confirm.",
+          "status": "Reported",
+          "calculation_note": "Also printed: 30 cycles 10.00 (10 %), 7.68 (6 %). Unit not printed in the shear-test table; unit left null (not inferred from the 'KV100' label).",
           "source": {
             "file": "DL2-14874.pdf",
             "page": 1,
             "revision_date": null
           },
-          "notes": null,
-          "value_final": 9.87,
-          "unit_final": "cSt"
+          "notes": null
         },
         "usable": true
       },
@@ -478,7 +476,7 @@
           "unit": null,
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -505,7 +503,7 @@
           "unit": null,
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -532,7 +530,7 @@
           "unit": null,
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -559,7 +557,7 @@
           "unit": null,
           "test_temperature_c": null,
           "method": null,
-          "status": "missing",
+          "status": "Missing",
           "calculation_note": null,
           "source": {
             "file": null,
@@ -580,10 +578,10 @@
         "max": null,
         "value_kind": null,
         "printed_text": null,
-        "unit": "C",
+        "unit": "°C",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -606,6 +604,7 @@
     "Shear test 'The Shear of Diesel Injector Nozzle' (30 and 250 cycles) in 150N at 6 % and 10 %: no standard (e.g. ASTM D6278/D7109) and no SSI printed; percentage KV100 loss calculated. Units for KV100 not printed in that table.",
     "Polymer form (solid/concentrate) not stated; appearance 'Clear、bright、no sediment viscous liquid'. Treat range by SAE grade, HTHS, CCS/MRV impact, gelation and dissolution temperature not printed.",
     "Storage (TDS p.1): short-term storage/transport ≤ 75℃, long-term ≤ 45℃ (not a dissolution/blend temperature).",
+    "Storage temperature differs between Richful documents (no template field; recorded here, not resolved): TDS DL2-14874.pdf p.1 (undated; PDF created 2021-05-16): 'For short-term storage and transportation, the temperature of the product shall not surpass 75℃; for long-term storage,it shall not surpass 45℃.' Richful product page https://www.richful.com/catalogueDetail.html?id=105 (English; Chinese id=104), page data feed productId=105, record created 2023-05-23, no revision date, retrieved 2026-10-23: 'The maximum storage and transportation temperature shall not exceed 60℃ in short term, and shall not exceed 45℃ in long term.' (Chinese page: '短期最高温度不应超过 60℃；长期储存最高温度不应超过 45℃'). Both state the same condition (short-term storage and transport) and the same 45℃ long-term limit, so the short-term limits genuinely differ (75℃ vs 60℃). The page is reachable directly but is not in Richful's public catalogue listing. Confirm the current short-term limit with Richful.",
     "Old Product_JSON uses record id 'RF6602' (no RICHFUL_ prefix); kept per decision (d)."
   ],
   "conflicts": [],

@@ -31,7 +31,7 @@
       "unit": "mg KOH/g",
       "test_temperature_c": null,
       "method": "ASTM D2896",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TDS 'Typical Value' column with index/limit '102-126'.",
       "source": {
         "file": "DL2-15834.pdf",
@@ -54,7 +54,7 @@
       "unit": "wt.%",
       "test_temperature_c": null,
       "method": "Calculated (ASTM D874 factors)",
-      "status": "calculated",
+      "status": "Calculated",
       "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×3.61 (Ca) + 1.24×1.46 (Zn) = 14.0844 → 14.08 wt.%. Mg not reported, taken as 0.",
       "source": {
         "file": null,
@@ -76,7 +76,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '3.24-3.98'.",
         "source": {
           "file": "DL2-15834.pdf",
@@ -99,7 +99,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -120,7 +120,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '1.31-1.61'.",
         "source": {
           "file": "DL2-15834.pdf",
@@ -143,7 +143,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D4951",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '1.15-1.41'.",
         "source": {
           "file": "DL2-15834.pdf",
@@ -166,7 +166,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -187,7 +187,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -208,7 +208,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": "ASTM D5762",
-        "status": "reported",
+        "status": "Reported",
         "calculation_note": "TDS 'Typical Value' column with index/limit '0.63-0.87'.",
         "source": {
           "file": "DL2-15834.pdf",
@@ -231,7 +231,7 @@
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "missing",
+        "status": "Missing",
         "calculation_note": null,
         "source": {
           "file": null,
@@ -253,7 +253,7 @@
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,
@@ -274,7 +274,7 @@
       "unit": "mm2/s",
       "test_temperature_c": 100,
       "method": "ASTM D445",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TDS 'Typical Value' column. Same value in: DL2-15835.pdf p.5 (2025-04-08): 'Viscosity, kinematic : 136 mm2/s (100 °C)'.",
       "source": {
         "file": "DL2-15834.pdf",
@@ -295,7 +295,7 @@
       "unit": "kg/m3",
       "test_temperature_c": 20,
       "method": "ASTM D4052",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TDS 'Typical Value' column with index/limit '978-1018'. Same value in: DL2-15835.pdf p.5 (2025-04-08): 'Density : 0.998 g/cm3 (20 °C)'.",
       "source": {
         "file": "DL2-15834.pdf",
@@ -319,10 +319,10 @@
       "max": null,
       "value_kind": "typical",
       "printed_text": "Flash Point（COC）, ℃ ≥180 206 ASTM D92",
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": "ASTM D92",
-      "status": "reported",
+      "status": "Reported",
       "calculation_note": "TDS 'Typical Value' column with index/limit '≥180'. Compared with other documents on the printed minimum. Same value in: DL2-15835.pdf p.5 (2025-04-08): 'Flash point : ≥180 °C (COC)'.",
       "source": {
         "file": "DL2-15834.pdf",
@@ -342,10 +342,10 @@
       "max": null,
       "value_kind": null,
       "printed_text": null,
-      "unit": "C",
+      "unit": "°C",
       "test_temperature_c": null,
       "method": null,
-      "status": "missing",
+      "status": "Missing",
       "calculation_note": null,
       "source": {
         "file": null,

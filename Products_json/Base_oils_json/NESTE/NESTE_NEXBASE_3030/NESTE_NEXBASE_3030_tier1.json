@@ -1,0 +1,145 @@
+{
+  "template_version": "1.0",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "NESTE_NEXBASE_3030",
+  "product": {
+    "product_name": "NEXBASE 3030",
+    "supplier": "Neste Oil",
+    "document_type": "Technical Data Sheet",
+    "source_file": "DL2-10962.pdf",
+    "revision_date": null
+  },
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "Not stated for NEXBASE 3030: the sheet says 'NEXBASE 3020 and NEXBASE 3030 are used in hydraulic and transmission oil formulations' and that only 'The other grades ... conform to ACEA Group III'. No API Group is printed and none is inferred."
+      },
+      "chemistry": {
+        "value": "Catalytically hydroisomerized and dewaxed base stock; hydrogenated, highly isoparaffinic hydrocarbons",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-10962.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "printed_text": "Description: 'NEXBASE is a colourless, catalytically hydroisomerized and dewaxed base stock comprising of hydrogenated, highly isoparaffinic hydrocarbons.'; title 'HYDROISOMERIZED BASE STOCKS NEXBASE® 3020, 3030, 3043, 3050, 3060, 3080'",
+        "value_kind": "supplier description",
+        "method": null,
+        "min": null,
+        "max": null,
+        "qualifier": null,
+        "calculation_note": "Family-level evidence: the description is written for NEXBASE as a whole on a sheet whose title lists NEXBASE 3030; no grade-specific chemistry statement is printed."
+      }
+    },
+    "kv40": {
+      "value": 12,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity at 40 °C, mm²/s: Spec '_' (no limit), Typ 12 ('Technical Data' table, column 'Nexbase 3030')",
+      "unit": "cSt",
+      "test_temperature_c": 40,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "No test method is printed in the DL2-10962.pdf table. No specification limit is printed for this grade.",
+      "source": {
+        "file": "DL2-10962.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": 3.0,
+      "qualifier": null,
+      "min": 2.7,
+      "max": 3.1,
+      "value_kind": "typical",
+      "printed_text": "Viscosity at 100 °C, mm²/s: Spec 2.7-3.1, Typ 3.0 ('Technical Data' table, column 'Nexbase 3030')",
+      "unit": "cSt",
+      "test_temperature_c": 100,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "No test method is printed in the DL2-10962.pdf table.",
+      "source": {
+        "file": "DL2-10962.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "viscosity_index": {
+      "value": 111,
+      "qualifier": null,
+      "min": 100,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "VI: Spec ≥ 100, Typ 111 ('Technical Data' table, column 'Nexbase 3030')",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "No test method is printed in the DL2-10962.pdf table. A small speck to the left of the typical value in the scan is not part of it.",
+      "source": {
+        "file": "DL2-10962.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": 825,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density@15 °C, Kg/m³: Spec '_' (no limit), Typ 825 ('Technical Data' table, column 'Nexbase 3030')",
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "No test method is printed in the DL2-10962.pdf table. No specification limit is printed for this grade.",
+      "source": {
+        "file": "DL2-10962.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": -25,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "No CCS value is printed on DL2-10962.pdf. The sheet's 'Viscosity at -20 °C, mm²/s' row (kinematic, not CCS) is '–' for NEXBASE 3030. The test_temperature_c of -25 is the template default, not a condition reported by the source.",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ]
+  },
+  "open_questions": [
+    "DL2-10962.pdf is a Neste Oil NEXBASE family technical data sheet ('Edition 8') with no calendar revision date; no date inferred. Only the 'NESTE OIL' logo identifies the issuer; no legal entity is printed.",
+    "API Group is not printed for NEXBASE 3030: the sheet attributes 'ACEA Group III' only to 'the other grades' (not 3020 and 3030). Left Missing; confirm with Neste.",
+    "Chemistry is family-level evidence (the NEXBASE description), not a grade-specific statement.",
+    "No test methods are printed in the DL2-10962.pdf table; method left null for every value. No NEXBASE 3030 SDS or grade-specific TDS is in the archive.",
+    "Viscosity at 40 °C and density at 15 °C have typical values only (spec printed as '_'). No CCS value is printed; the 'Viscosity at -20 °C' row (kinematic) is '–' for NEXBASE 3030.",
+    "Printed properties with no template field (DL2-10962.pdf, column 'Nexbase 3030', Spec / Typ): Appearance: pass / (1), footnote '1) Clear and bright liquid on visual observance'; Colour: ≤ 0.5 / < 0.5 (no scale or method printed); Viscosity at -20 °C, mm²/s: – / –."
+  ],
+  "conflicts": []
+}

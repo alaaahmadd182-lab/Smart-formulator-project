@@ -16,7 +16,11 @@ Products_json/
   Base_oils_json/<SUPPLIER>/<PRODUCT_ID>/          3 tiers per product
   Additive_packages_json/<Supplier>/<PRODUCT_ID>/  2 tiers per product
   Additive_components_json/<Supplier>/<ID>/        general.json (+ subtype file e.g. vm.json, ppd.json)
-build_coverage_matrix.py           Builds the coverage matrix (Task 4) from a ZIP of Products_json
+build_coverage_matrix.py           Builds the coverage matrix (Task 4) from the Products_json folder
+integrate_products.py              Adds normalised *_final keys and conflict annotations (under review)
+build_conflicts_report.py          Generates a Task 5 conflicts report from the JSON (under review)
+source_registry.json               External (non-archive) sources cited in Products_json, with verification status
+reconciliation/                    Task 3 identity review and inventory reconciliation
 Coverage_Matrix.xlsx               Output of the script above
 open_questions_and_conflicts.md    Collected open_questions + conflicts from every product JSON
 Property_Glossary.docx             Definitions of every property/field
@@ -39,7 +43,11 @@ Manual + Data to share.zip         Source documents (PDF/JPG datasheets, ~90 MB)
 - **Never invent or infer values.** If a value is not printed in a source document, leave `value: null` and `status: "Missing"`, and explain in `open_questions`.
 - Every non-missing value must cite its `source` (file + page). Keep `printed_text` exactly as printed and keep the printed unit.
 - If something comes from general knowledge (not the document), set `basis: "general_knowledge"` and say so in `notes`.
-- When documents disagree, record it in `conflicts` (both values, both sources), use the newer document in `fields`, and do not silently resolve it.
+- When documents disagree, record it in `conflicts` (both values, both sources) and do not silently resolve it.
+- Data rules approved 2026-10-24:
+  1. Never automatically average conflicting datasheet values. Keep both values and their sources; leave the conflict unresolved unless authoritative evidence supports a resolution.
+  2. Never automatically prefer TDS over SDS or vice versa. Evaluate measurement conditions, test methods, revision dates, source reliability and whether the values are comparable.
+  3. The coverage matrix reflects the validated `status` of the selected property; never substitute `status_final` for `status`.
 - Component shares from an SDS (e.g. "ZDDP 10–15 %") are **not** element contents — do not put them in Zn/P/Ca fields.
 - Do not edit the source documents or the templates when filling product data.
 
@@ -54,10 +62,15 @@ Manual + Data to share.zip         Source documents (PDF/JPG datasheets, ~90 MB)
 - Folder names contain spaces and punctuation (e.g. `KangTai . Lubricant Addtives`, `JINZHOU DONGGONG PETROCHEMICAL PRODUCTS CO., LTD`). Always quote paths.
 
 ## build_coverage_matrix.py
-- Usage: `python build_coverage_matrix.py <Products_json.zip> <output.xlsx>`
-- Input is a **ZIP** of `Products_json`, not the folder itself.
-- It imports `artifact_tool` (a tool from Claude's sandbox, not a pip package). To run it locally, replace it with `openpyxl`.
-- It reports per-product, per-property status, expected tiers, and a "Validation Issues" sheet. It never changes the input JSON.
+- Usage: `python build_coverage_matrix.py --output Coverage_Matrix_new.xlsx` (options `--input`, default `Products_json`; `--sources`, default `source_registry.json`; `--overwrite`). Uses `openpyxl` (`requirements.txt`).
+- It reads the `Products_json` folder directly and reports per-product, per-property status, expected tiers, and "Validation Issues", "Status Detail" and "Traceability Audit" sheets. It never changes the input JSON.
+
+## integrate_products.py and build_conflicts_report.py
+- See README "Data integration". `integrate_products.py` is a dry run unless `--write` is given, and writes nothing if any check fails. Test a run on a temporary copy of `Products_json` before running it on the repository.
+- Its `*_final` keys are derived, informational data; a value object whose original keys change must have its `*_final` keys removed or re-derived (the script re-derives them on every run).
+- Its `ANNOTATIONS` may carry only a reviewed `resolution` note pinned to the field values in `expect`; `CONFLICTS` rules may mark an entry resolved only on a basis in `RESOLVING_BASES`. Never add averaged values or document-type preferences.
+- `build_conflicts_report.py` writes `conflicts_report_generated.md` and refuses to write `open_questions_and_conflicts.md`, which is curated by hand.
+- Status vocabulary: the templates also define `Not Applicable` (the property does not apply to this product type), used by LUBRIZOL_CV6320.
 
 ## Working conventions
 - Environment: Windows, VS Code, Python 3.

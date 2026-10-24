@@ -130,6 +130,25 @@
       ],
       "resolution": "UNRESOLVED: a single TDS (DL2-10414.pdf) prints density 0.854 g/cm\u00b3 and specific gravity 0.9183 at 15.6 \u00b0C, which contradict each other. This is not a two-document conflict, so the rules do not apply; confirm with Ergon. value_final shows the density as printed."
     },
+    "specific_gravity": {
+      "value": 0.9183,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity, 60\u00b0F (15.6\u00b0C) ASTM D4052 0.9183",
+      "unit": "dimensionless",
+      "reference_condition": "60\u00b0F (15.6\u00b0C)",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": "Printed separately from the density rows (p.1); density is not derived from it, nor it from density. The same sheet prints a density of 0.854 g/cm3 at 15.6\u00b0C, inconsistent with this specific gravity; both kept as printed (see conflicts). Not converted to density.",
+      "source": {
+        "file": "DL2-10414.pdf",
+        "page": 1,
+        "revision_date": "2017-01-05"
+      }
+    },
     "ccs": [
       {
         "value": null,
@@ -160,6 +179,7 @@
   ],
   "conflicts": [
     {
+      "conflict_type": "inconsistency within one document",
       "property": "density_at_15_6_c",
       "description": "TDS reports density at 15.6\u00b0C = 0.854 g/cm3 but specific gravity at 15.6\u00b0C = 0.9183; these appear inconsistent. Neither has been silently corrected.",
       "sources": [
