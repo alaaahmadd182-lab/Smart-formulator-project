@@ -252,23 +252,42 @@
       "notes": null
     },
     "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3 (or as printed)",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "Not printed: the sheet prints only a specific gravity (recorded in specific_gravity), which is not converted to density.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "specific_gravity": {
       "value": 0.9881,
       "qualifier": null,
       "min": null,
       "max": null,
       "value_kind": "typical",
       "printed_text": "SPECIFIC GRAVITY at 15.6℃ Report 0.9881 ASTM D1298",
-      "unit": "specific gravity (dimensionless)",
+      "unit": "dimensionless",
+      "reference_condition": "15.6℃ (water reference temperature not printed)",
       "test_temperature_c": 15.6,
       "method": "ASTM D1298",
       "status": "Reported",
-      "calculation_note": "TYPICAL column; min/max printed as 'Report' or blank. Printed as specific gravity, not density; template unit kg/m3 not used. reported as specific gravity.",
+      "calculation_note": "TYPICAL column (p.1); the limit column prints 'Report'. Not converted to density.",
       "source": {
         "file": "DL2-15551.pdf",
         "page": 1,
         "revision_date": "2024-12-12"
-      },
-      "notes": null
+      }
     },
     "flash_point": {
       "value": 190,
@@ -312,9 +331,9 @@
   },
   "open_questions": [
     "User decision 2026-10-17: element rows Ca, Zn, P, B, N, S and Sulphated Ash (DL2-15551.pdf p.1) print no unit; numbers stored as Reported with unit 'not printed'. Flagged: unit to be confirmed (likely mass %).",
-    "Density field holds the printed SPECIFIC GRAVITY at 15.6℃ (0.9881, ASTM D1298); no density in kg/m3 is printed.",
+    "'SPECIFIC GRAVITY at 15.6℃ Report 0.9881 ASTM D1298' is recorded in the optional specific_gravity property; no density is printed, so density is Missing (2026-10-24).",
     "Mg and Mo not printed.",
-    "User decision 2026-10-17: density field stores the number 0.9881 (specific gravity (dimensionless)), which is reported as specific gravity ('SPECIFIC GRAVITY at 15.6℃ Report 0.9881 ASTM D1298', DL2-15551.pdf p.1), not a density in kg/m3; flagged for review."
+    "[History] User decision 2026-10-17: the density field stored 0.9881 (specific gravity, dimensionless) from 'SPECIFIC GRAVITY at 15.6℃ Report 0.9881 ASTM D1298' (DL2-15551.pdf p.1). Superseded 2026-10-24 by the approved optional specific_gravity property: the specific gravity moved there and density is now Missing (no density printed)."
   ],
   "conflicts": [],
   "external_fill_notes": []

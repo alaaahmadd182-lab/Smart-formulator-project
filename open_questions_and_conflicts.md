@@ -113,25 +113,25 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) API SL at 8% appears only in the Technical Judgement (p.4); the TDS lists API CH-4/SJ at 7.0 and CF-4/SG at 6.0.
 - (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Bettchem.
 - (tier2) User decision 2026-10-17: element rows Ca, Zn, P, B, N, S and Sulphated Ash (DL2-15551.pdf p.1) print no unit; numbers stored as Reported with unit 'not printed'. Flagged: unit to be confirmed (likely mass %).
-- (tier2) Density field holds the printed SPECIFIC GRAVITY at 15.6℃ (0.9881, ASTM D1298); no density in kg/m3 is printed.
+- (tier2) 'SPECIFIC GRAVITY at 15.6℃ Report 0.9881 ASTM D1298' is recorded in the optional specific_gravity property; no density is printed, so density is Missing (2026-10-24).
 - (tier2) Mg and Mo not printed.
-- (tier2) User decision 2026-10-17: density field stores the number 0.9881 (specific gravity (dimensionless)), which is reported as specific gravity ('SPECIFIC GRAVITY at 15.6℃ Report 0.9881 ASTM D1298', DL2-15551.pdf p.1), not a density in kg/m3; flagged for review.
+- (tier2) [History] User decision 2026-10-17: the density field stored 0.9881 (specific gravity, dimensionless) from 'SPECIFIC GRAVITY at 15.6℃ Report 0.9881 ASTM D1298' (DL2-15551.pdf p.1). Superseded 2026-10-24 by the approved optional specific_gravity property: the specific gravity moved there and density is now Missing (no density printed).
 
 ## 13. BETTCHEM_BT_3089
 - (tier1) Claim type 'recommended' from the 'RECOMMENDED DOSAGE' table (DL2-15552.pdf p.1); product is 'CUSTOMER SPECIFIC'.
 - (tier1) No SAE grades, base oils, co-components or published formulation printed in DL2-15552.pdf; no SDS in the archive.
 - (tier1) Mg, B and Mo are not printed in DL2-15552.pdf. Base number has a 'Minimum' (198) and a 'TYPICAL' (233) but no 'Maximum'.
 - (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CF-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Bettchem.
-- (tier2) Density field holds the printed SPECIFIC GRAVITY at 15.6℃ (ASTM D1298); no density in kg/m3 printed (DL2-15552.pdf p.1).
-- (tier2) User decision 2026-10-17: density field stores the number 1.09 (specific gravity (dimensionless)), which is reported as specific gravity ('SPECIFIC GRAVITY at 15.6℃ Report 1.09 ASTM D1298', DL2-15552.pdf p.1), not a density in kg/m3; flagged for review.
+- (tier2) 'SPECIFIC GRAVITY at 15.6℃ Report 1.09 ASTM D1298' is recorded in the optional specific_gravity property; no density is printed, so density is Missing (2026-10-24).
+- (tier2) [History] User decision 2026-10-17: the density field stored 1.09 (specific gravity, dimensionless) from 'SPECIFIC GRAVITY at 15.6℃ Report 1.09 ASTM D1298' (DL2-15552.pdf p.1). Superseded 2026-10-24 by the approved optional specific_gravity property: the specific gravity moved there and density is now Missing (no density printed).
 
 ## 14. BETTCHEM_BT_3093
 - (tier1) Claim type 'recommended' from the 'RECOMMENDED DOSAGE' table (DL2-15550.pdf p.1); product is 'CUSTOMER SPECIFIC'.
 - (tier1) No SAE grades, base oils, co-components or published formulation printed in DL2-15550.pdf; no SDS in the archive.
 - (tier1) B and pour point are not printed in DL2-15550.pdf. Base number has 'Minimum' 100 and 'TYPICAL' 115, no 'Maximum'.
 - (tier1) Permitted base oils (2026-10 audit): previously recorded as reported [Group I, Group II, Group III] with no source, from an industry rule of thumb based on the highest API claim (API CI-4), not from any supplier document; the field is now missing. Confirm permitted API groups with Bettchem.
-- (tier2) Density field holds the printed SPECIFIC GRAVITY at 15.6℃ (ASTM D1298); no density in kg/m3 printed (DL2-15550.pdf p.1).
-- (tier2) User decision 2026-10-17: density field stores the number 0.99 (specific gravity (dimensionless)), which is reported as specific gravity ('SPECIFIC GRAVITY at 15.6℃ 0.9 1.1 0.99 ASTM D1298', DL2-15550.pdf p.1), not a density in kg/m3; flagged for review.
+- (tier2) 'SPECIFIC GRAVITY at 15.6℃ 0.9 1.1 0.99 ASTM D1298' is recorded in the optional specific_gravity property; no density is printed, so density is Missing (2026-10-24).
+- (tier2) [History] User decision 2026-10-17: the density field stored 0.99 (specific gravity, dimensionless) from 'SPECIFIC GRAVITY at 15.6℃ 0.9 1.1 0.99 ASTM D1298' (DL2-15550.pdf p.1). Superseded 2026-10-24 by the approved optional specific_gravity property: the specific gravity moved there and density is now Missing (no density printed).
 
 ## 15. BRB_PETROLAD_8099
 - (tier1) Claim types: API rows set to 'meets' (text p.1 'meet market standard API requirements'), 'MB 228.3 blanket approval' to 'approval', all other rows of the 'Performances' table to 'other' because the table has no wording beyond 'Performances'. Please confirm.
