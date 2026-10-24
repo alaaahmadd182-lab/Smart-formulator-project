@@ -247,23 +247,42 @@
       "notes": null
     },
     "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3 (or as printed)",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "Not printed: the sheet prints only a specific gravity (recorded in specific_gravity), which is not converted to density.",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": null
+    },
+    "specific_gravity": {
       "value": 0.968,
       "qualifier": null,
       "min": null,
       "max": null,
       "value_kind": "typical",
       "printed_text": "Specific Gravity, at 15°C (ASTM D 4052) 0,968",
-      "unit": "specific gravity (dimensionless)",
+      "unit": "dimensionless",
+      "reference_condition": "15°C (water reference temperature not printed)",
       "test_temperature_c": 15,
       "method": "ASTM D 4052",
       "status": "Reported",
-      "calculation_note": "Printed with decimal comma; printed as specific gravity, not density. reported as specific gravity.",
+      "calculation_note": "'Physical' block (p.1); printed with a decimal comma. Not converted to density.",
       "source": {
         "file": "DL2-11032.pdf",
         "page": 1,
         "revision_date": "2009-01-08"
-      },
-      "notes": null
+      }
     },
     "flash_point": {
       "value": null,
@@ -307,8 +326,8 @@
   },
   "open_questions": [
     "Calcium is printed as 'Calcium, as Sulfonate' (ASTM D 3712), which may not be total calcium.",
-    "Density field holds 'Specific Gravity, at 15°C' 0,968. Mg, B, Mo, S, flash point and pour point not printed.",
-    "User decision 2026-10-17: density field stores the number 0.968 (specific gravity (dimensionless)), which is reported as specific gravity ('Specific Gravity, at 15°C (ASTM D 4052) 0,968', DL2-11032.pdf p.1), not a density in kg/m3; flagged for review."
+    "'Specific Gravity, at 15°C (ASTM D 4052) 0,968' is recorded in the optional specific_gravity property; no density is printed, so density is Missing (2026-10-24). Mg, B, Mo, S, flash point and pour point not printed.",
+    "[History] User decision 2026-10-17: the density field stored 0.968 (specific gravity, dimensionless) from 'Specific Gravity, at 15°C (ASTM D 4052) 0,968' (DL2-11032.pdf p.1). Superseded 2026-10-24 by the approved optional specific_gravity property: the specific gravity moved there and density is now Missing (no density printed)."
   ],
   "conflicts": [],
   "external_fill_notes": []

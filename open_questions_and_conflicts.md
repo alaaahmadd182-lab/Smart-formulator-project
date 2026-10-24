@@ -185,8 +185,8 @@ Generated from the open_questions and conflicts arrays of every output file, in 
 - (tier1) Claims are listed under 'performance claims can be made' (DL2-11032.pdf p.1); recorded as claim_type 'other'. Items with '*' are 'Approvals on going'.
 - (tier1) VII PARATONE® 8006 named, dose not printed. No SAE grades or base oils printed. No SDS in the archive.
 - (tier2) Calcium is printed as 'Calcium, as Sulfonate' (ASTM D 3712), which may not be total calcium.
-- (tier2) Density field holds 'Specific Gravity, at 15°C' 0,968. Mg, B, Mo, S, flash point and pour point not printed.
-- (tier2) User decision 2026-10-17: density field stores the number 0.968 (specific gravity (dimensionless)), which is reported as specific gravity ('Specific Gravity, at 15°C (ASTM D 4052) 0,968', DL2-11032.pdf p.1), not a density in kg/m3; flagged for review.
+- (tier2) 'Specific Gravity, at 15°C (ASTM D 4052) 0,968' is recorded in the optional specific_gravity property; no density is printed, so density is Missing (2026-10-24). Mg, B, Mo, S, flash point and pour point not printed.
+- (tier2) [History] User decision 2026-10-17: the density field stored 0.968 (specific gravity, dimensionless) from 'Specific Gravity, at 15°C (ASTM D 4052) 0,968' (DL2-11032.pdf p.1). Superseded 2026-10-24 by the approved optional specific_gravity property: the specific gravity moved there and density is now Missing (no density printed).
 
 ## 22. ENI_MX_5212
 - (tier1) Claim type 'recommended' from the text 'is recommended for blending ...' and the 'TREAT RATE & PERFORMANCE CLAIMS' table (DL2-14981.pdf p.1).

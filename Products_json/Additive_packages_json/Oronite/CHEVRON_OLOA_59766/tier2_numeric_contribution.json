@@ -265,6 +265,25 @@
       },
       "notes": null
     },
+    "specific_gravity": {
+      "value": 0.9918,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Relative Density: 0.9918 @ 15.6°C (60°F)",
+      "unit": "dimensionless",
+      "reference_condition": "15.6°C (60°F) (water reference temperature not printed)",
+      "test_temperature_c": 15.6,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "SDS Section 9 (value on p.7; the section starts on p.6 with 'the data below are typical values and do not constitute a specification'). No method printed. Not converted to density.",
+      "source": {
+        "file": "DL2-11731.pdf",
+        "page": 7,
+        "revision_date": "2017-01-24"
+      }
+    },
     "flash_point": {
       "value": 180,
       "qualifier": "≥",
