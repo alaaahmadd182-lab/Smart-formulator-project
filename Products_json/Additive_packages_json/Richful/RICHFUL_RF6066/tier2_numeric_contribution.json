@@ -438,7 +438,7 @@
           "revision_date": "2021-09-02"
         }
       ],
-      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved.",
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved. [Review 2026-10-31, audit CF-159: (1) 'field left null' describes the archive documents only; since 2026-10-17 fields.kv100 holds 185 mm²/s from the Richful product page (open question 6, fields.kv100.notes). The conflict between the documents is still unresolved. (2) DL2-15831.pdf p.5 (SDS, 2021-09-02, read visually) prints 185 on its 'Viscosity, dynamic' line with the kinematic unit mm²/s (100 °C), while its 'Viscosity, kinematic' line reads 'Not available'. Label and unit disagree, so it is uncertain whether this SDS value is a kinematic viscosity; the value is kept as printed. Confirm with Richful.]",
       "resolved": false,
       "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: See fields.kv100.resolution. Same document type, editions undated so the newest cannot be determined; average taken: TDS 227 and 185 cSt -> 206 cSt. The two TDS differ by about 20 %, so this average is weak; check with Richful. SDS values (200, 185) not used: TDS preferred over SDS."
     },

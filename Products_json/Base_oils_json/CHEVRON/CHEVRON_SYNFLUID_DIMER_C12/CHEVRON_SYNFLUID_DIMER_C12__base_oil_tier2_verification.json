@@ -78,23 +78,24 @@
       "unit_final": "wt.%"
     },
     "pour_point": {
-      "value": -63,
+      "value": -53,
       "qualifier": "typical",
       "min": null,
       "max": null,
       "value_kind": "single",
-      "printed_text": "-63",
+      "printed_text": "Pour Point, °F, °C -53 (-63)",
       "unit": "°C",
       "test_temperature_c": null,
       "method": null,
       "status": "Reported",
-      "calculation_note": null,
+      "calculation_note": "'Typical Properties' table, p.1 (sheet dated 'Revision Date April 2011'). The row label reads '°F, °C' but the pair is printed '-53 (-63)'. Read in label order this would be -53 °F with -63 °C, which do not convert (-53 °F is about -47 °C; -63 °C is about -81 °F). The pair is consistent only as -53 °C (-63 °F): -53 × 1.8 + 32 = -63.4. The other °F, °C rows of this sheet are consistent in label order (Flash Point (COC) 362 (183), Fire Point (COC) 396 (202)). The C12 Dimer column of the Synfluid C12 table DL2-13200.pdf p.1 prints 'Pour Point, °C (°F) -53 (-63)', and the Chevron Phillips 'Synfluid® Dimer C12' data sheet (revision June 2012; copy in reconciliation/audit_evidence) prints 'Pour Point, °C (°F) ASTM D5950 -53 (-63)'. DL2-13202.pdf prints no method, so method is left null.",
       "source": {
         "file": "DL2-13202.pdf",
         "page": 1,
         "revision_date": null
       },
-      "value_final": -63,
+      "notes": "Correction 2026-10-31 (audit CF-136): this field previously stored -63 °C with printed_text '-63', taking the second number of the pair in the row-label order (°F, °C). Corrected to -53 °C on the evidence in calculation_note; the full printed row is quoted in printed_text.",
+      "value_final": -53,
       "unit_final": "°C"
     },
     "flash_point": {

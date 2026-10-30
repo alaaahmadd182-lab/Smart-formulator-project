@@ -38,24 +38,45 @@
       "unit_final": "mg KOH/g"
     },
     "sulfated_ash": {
-      "value": 5.8,
+      "value": 7,
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": "calculated",
-      "printed_text": null,
+      "value_kind": "typical",
+      "printed_text": "SULFATED ASH 7",
       "unit": "wt.%",
       "test_temperature_c": null,
-      "method": "Calculated (ASTM D874 factors)",
-      "status": "Calculated",
-      "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×1.705 (Ca) = 5.7970 → 5.8 wt.%. Mg/Zn not reported, taken as 0.",
+      "method": null,
+      "status": "Reported",
+      "calculation_note": "Column 'Typical'; no Minimum/Maximum printed for this row. Chemical Characteristics table: header 'Minimum % Weight | Typical | Maximum % Weight' on p.1; the table continues on p.2 without a new header (rows in alphabetical order after PHOSPHORUS on p.1). No test method printed.",
       "source": {
-        "file": null,
-        "page": null,
-        "revision_date": null
+        "file": "DL2-11503.pdf",
+        "page": 2,
+        "revision_date": "2017-11-08"
       },
-      "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet.",
-      "value_final": 5.8,
+      "notes": "Correction 2026-10-31 (audit CF-142/CF-143): this field previously held the calculated estimate 5.8 wt.% (status Calculated), now kept in alternate_entries. The product data sheet prints a typical sulfated ash, recorded here as Reported.",
+      "alternate_entries": [
+        {
+          "value": 5.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "calculated",
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": "Calculated (ASTM D874 factors)",
+          "status": "Calculated",
+          "calculation_note": "Sulfated ash = (Ca_ppm×3.40 + Mg_ppm×4.95 + Zn_ppm×1.24)/10000; elements are in wt.% here, so = 3.40×1.705 (Ca) = 5.7970 → 5.8 wt.%. Mg/Zn not reported, taken as 0.",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          },
+          "notes": "Sourced from calculation (ASTM D874 sulfated-ash conversion factors applied to the Ca/Mg/Zn contents in this file), not from the product datasheet. Historical estimate, superseded 2026-10-31 (audit CF-142/CF-143): it took Zn as 0 ('Mg/Zn not reported'), but this data sheet prints ZINC 0.778 typical (p.2). It is a calculation, not a reported measurement, and is kept for provenance only."
+        }
+      ],
+      "value_final": 7,
       "unit_final": "wt.%"
     },
     "elements": {
@@ -104,25 +125,27 @@
         "unit_final": "wt.%"
       },
       "Zn": {
-        "value": null,
+        "value": 0.778,
         "qualifier": null,
-        "min": null,
-        "max": null,
-        "value_kind": null,
-        "printed_text": null,
+        "min": 0.7,
+        "max": 0.856,
+        "value_kind": "typical",
+        "printed_text": "ZINC 0.700 0.778 0.856",
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "Missing",
-        "calculation_note": null,
+        "status": "Reported",
+        "calculation_note": "Column 'Typical' with Minimum/Maximum limits. Chemical Characteristics table: header 'Minimum % Weight | Typical | Maximum % Weight' on p.1; the table continues on p.2 without a new header (rows in alphabetical order after PHOSPHORUS on p.1). No test method printed.",
         "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+          "file": "DL2-11503.pdf",
+          "page": 2,
+          "revision_date": "2017-11-08"
         },
-        "notes": null,
-        "value_final": null,
-        "unit_final": "wt.%"
+        "notes": "Added 2026-10-31 (audit CF-142/CF-143 follow-up): printed on p.2 but previously recorded as Missing.",
+        "value_final": 0.778,
+        "unit_final": "wt.%",
+        "min_final": 0.7,
+        "max_final": 0.856
       },
       "P": {
         "value": 0.71,
@@ -213,24 +236,24 @@
         "max_final": 1.026
       },
       "S": {
-        "value": null,
+        "value": 2.35,
         "qualifier": null,
         "min": null,
         "max": null,
-        "value_kind": null,
-        "printed_text": null,
+        "value_kind": "typical",
+        "printed_text": "SULFUR 2.35",
         "unit": "wt.%",
         "test_temperature_c": null,
         "method": null,
-        "status": "Missing",
-        "calculation_note": null,
+        "status": "Reported",
+        "calculation_note": "Column 'Typical'; no Minimum/Maximum printed for this row. Chemical Characteristics table: header 'Minimum % Weight | Typical | Maximum % Weight' on p.1; the table continues on p.2 without a new header (rows in alphabetical order after PHOSPHORUS on p.1). No test method printed.",
         "source": {
-          "file": null,
-          "page": null,
-          "revision_date": null
+          "file": "DL2-11503.pdf",
+          "page": 2,
+          "revision_date": "2017-11-08"
         },
-        "notes": null,
-        "value_final": null,
+        "notes": "Added 2026-10-31 (audit CF-142/CF-143 follow-up): printed on p.2 but previously recorded as Missing.",
+        "value_final": 2.35,
         "unit_final": "wt.%"
       }
     },
