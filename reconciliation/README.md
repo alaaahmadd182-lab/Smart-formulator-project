@@ -22,6 +22,9 @@ required scope and are not pending work.
 | `identity_review.md` | Open identity items: the possible duplicate S-OIL JSONs, the FPCC GII grades (ID-15) and supplier-name issues (nothing merged); Excel-only items are labelled out of scope |
 | `richful_feed_leads.csv` | Historical. 103 Richful product-feed records for 52 Excel-only materials; unverified research leads, outside the datasheet scope |
 | `deferred_products.csv`, `deferred_products.md` | Historical. The 190 materials without JSON (no datasheet of their own in the archive), with the original reason codes; outside the Task 3 scope, not unfinished work |
+| `comprehensive_conflicts_audit.md`, `comprehensive_conflicts_audit.csv` | Added 2026-10-30. The standalone conflicts and contradictions report (findings CF-001 to CF-180) and its one-row-per-finding CSV; a dated snapshot that changed no product data |
+| `audit_evidence/` | Added 2026-10-30. External evidence copies used by the audit, with `evidence_manifest.md` (URLs, editions, pages, hashes) |
+| `comprehensive_conflicts_audit_corrections_2026-10-31.md` | Added 2026-10-31. Correction log for the product-data corrections made after the audit (CF-136, CF-142, CF-143, CF-159, CF-180) |
 
 ## Inventory comparison counts (historical, Excel inventory basis)
 
