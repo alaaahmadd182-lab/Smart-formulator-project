@@ -15,7 +15,8 @@ additive components) following `Smart_Formulator_Minimum_Property_Set.pdf`, whic
 | `open_questions_and_conflicts.md` | Task 5 – conflicts and open questions |
 | `integrate_products.py` | Data integration: adds normalised `value_final` / `unit_final` (and reviewed conflict annotations) beside the original keys; dry run unless `--write`. See [Data integration](#data-integration) |
 | `build_conflicts_report.py` | Generates a Task 5 conflicts report (`conflicts_report_generated.md`) from the JSON; never writes `open_questions_and_conflicts.md` |
-| `reconciliation/` | Task 3 – identity review (open items) and the historical comparison of the supplementary inventory with `Products_json` |
+| `reconciliation/` | Task 3 – identity review (open items) and the historical comparison of the supplementary inventory with `Products_json`; the comprehensive conflicts audit (`comprehensive_conflicts_audit.md` / `.csv`, evidence in `audit_evidence/`) and its later correction log (`comprehensive_conflicts_audit_corrections_2026-10-31.md`) |
+| `PROJECT_FILE_GUIDE.md` | Plain-language guide to every file and folder, with the cleanup record |
 
 ## Scope
 
