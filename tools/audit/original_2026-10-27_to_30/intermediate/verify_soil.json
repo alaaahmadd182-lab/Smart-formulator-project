@@ -1,0 +1,907 @@
+{
+ "catalog": {
+  "2": {
+   "specific_gravity": [
+    "0.820",
+    "D 1298",
+    "Sp.Gravity, 15/4 °C"
+   ],
+   "kv40": [
+    "7.117",
+    "D 445",
+    "Kin.Vis @40 °C, cSt"
+   ],
+   "kv100": [
+    "2.174",
+    "D 445",
+    "@100 °C, cSt"
+   ],
+   "viscosity_index": [
+    "109",
+    "D 2270",
+    "Viscosity Index"
+   ],
+   "flash_point": [
+    "158",
+    "D 92",
+    "Flash Point, °C(COC)"
+   ],
+   "pour_point": [
+    "-37.5",
+    "D 5950",
+    "Pour Point, °C"
+   ]
+  },
+  "3": {
+   "specific_gravity": [
+    "0.827",
+    "D 1298",
+    "Sp.Gravity, 15/4 °C"
+   ],
+   "kv40": [
+    "13.47",
+    "D 445",
+    "Kin.Vis @40 °C, cSt"
+   ],
+   "kv100": [
+    "3.315",
+    "D 445",
+    "@100 °C, cSt"
+   ],
+   "viscosity_index": [
+    "117",
+    "D 2270",
+    "Viscosity Index"
+   ],
+   "flash_point": [
+    "204",
+    "D 92",
+    "Flash Point, °C(COC)"
+   ],
+   "pour_point": [
+    "-25.0",
+    "D 5950",
+    "Pour Point, °C"
+   ]
+  },
+  "4": {
+   "specific_gravity": [
+    "0.834",
+    "D 1298",
+    "Sp.Gravity, 15/4 °C"
+   ],
+   "kv40": [
+    "19.62",
+    "D 445",
+    "Kin.Vis @40 °C, cSt"
+   ],
+   "kv100": [
+    "4.247",
+    "D 445",
+    "@100 °C, cSt"
+   ],
+   "viscosity_index": [
+    "123",
+    "D 2270",
+    "Viscosity Index"
+   ],
+   "flash_point": [
+    "228",
+    "D 92",
+    "Flash Point, °C(COC)"
+   ],
+   "pour_point": [
+    "-20.0",
+    "D 5950",
+    "Pour Point, °C"
+   ]
+  },
+  "6": {
+   "specific_gravity": [
+    "0.843",
+    "D 1298",
+    "Sp.Gravity, 15/4 °C"
+   ],
+   "kv40": [
+    "33.32",
+    "D 445",
+    "Kin.Vis @40 °C, cSt"
+   ],
+   "kv100": [
+    "6.0",
+    "D 445",
+    "@100 °C, cSt"
+   ],
+   "viscosity_index": [
+    "127",
+    "D 2270",
+    "Viscosity Index"
+   ],
+   "flash_point": [
+    "235",
+    "D 92",
+    "Flash Point, °C(COC)"
+   ],
+   "pour_point": [
+    "-20",
+    "D 5950",
+    "Pour Point, °C"
+   ]
+  },
+  "8": {
+   "specific_gravity": [
+    "0.847",
+    "D 1298",
+    "Sp.Gravity, 15/4 °C"
+   ],
+   "kv40": [
+    "43.89",
+    "D 445",
+    "Kin.Vis @40 °C, cSt"
+   ],
+   "kv100": [
+    "7.234",
+    "D 445",
+    "@100 °C, cSt"
+   ],
+   "viscosity_index": [
+    "127",
+    "D 2270",
+    "Viscosity Index"
+   ],
+   "flash_point": [
+    "256",
+    "D 92",
+    "Flash Point, °C(COC)"
+   ],
+   "pour_point": [
+    "-15.0",
+    "D 5950",
+    "Pour Point, °C"
+   ]
+  }
+ },
+ "live": {
+  "2": {
+   "density": [
+    "0.8300",
+    "D4052(D1298)",
+    "Density @ 15.6℃, kg/L"
+   ],
+   "kv40": [
+    "7.62",
+    "D445",
+    "Kinematic Viscosity @ 40℃, cSt"
+   ],
+   "kv100": [
+    "2.25",
+    "D445",
+    "Kinematic Viscosity @ 100℃, cSt"
+   ],
+   "viscosity_index": [
+    "103",
+    "D2270",
+    "Viscosity Index"
+   ],
+   "flash_point": [
+    "158",
+    "D92",
+    "Flash Point,COC ,℃"
+   ],
+   "pour_point": [
+    "-36",
+    "D6749(D5950)",
+    "Pour Point, ℃"
+   ],
+   "noack_volatility": [
+    "-",
+    "D5800(B)",
+    "Noack Volatility, wt% (Procedure B)"
+   ]
+  },
+  "3": {
+   "density": [
+    "0.8323",
+    "D4052(D1298)",
+    "Density @ 15.6℃, kg/L"
+   ],
+   "kv40": [
+    "14.0",
+    "D445",
+    "Kinematic Viscosity @ 40℃, cSt"
+   ],
+   "kv100": [
+    "3.38",
+    "D445",
+    "Kinematic Viscosity @ 100℃, cSt"
+   ],
+   "viscosity_index": [
+    "115",
+    "D2270",
+    "Viscosity Index"
+   ],
+   "flash_point": [
+    "202",
+    "D92",
+    "Flash Point,COC ,℃"
+   ],
+   "pour_point": [
+    "-27",
+    "D6749(D5950)",
+    "Pour Point, ℃"
+   ],
+   "noack_volatility": [
+    "-",
+    "D5800(B)",
+    "Noack Volatility, wt% (Procedure B)"
+   ]
+  },
+  "4": {
+   "density": [
+    "0.8350",
+    "D4052(D1298)",
+    "Density @ 15.6℃, kg/L"
+   ],
+   "kv40": [
+    "19.7",
+    "D445",
+    "Kinematic Viscosity @ 40℃, cSt"
+   ],
+   "kv100": [
+    "4.27",
+    "D445",
+    "Kinematic Viscosity @ 100℃, cSt"
+   ],
+   "viscosity_index": [
+    "124",
+    "D2270",
+    "Viscosity Index"
+   ],
+   "flash_point": [
+    "220",
+    "D92",
+    "Flash Point,COC ,℃"
+   ],
+   "pour_point": [
+    "-20",
+    "D6749(D5950)",
+    "Pour Point, ℃"
+   ],
+   "noack_volatility": [
+    "14.7",
+    "D5800(B)",
+    "Noack Volatility, wt% (Procedure B)"
+   ]
+  },
+  "6": {
+   "density": [
+    "0.8398",
+    "D4052(D1298)",
+    "Density @ 15.6℃, kg/L"
+   ],
+   "kv40": [
+    "32.54",
+    "D445",
+    "Kinematic Viscosity @ 40℃, cSt"
+   ],
+   "kv100": [
+    "6.04",
+    "D445",
+    "Kinematic Viscosity @ 100℃, cSt"
+   ],
+   "viscosity_index": [
+    "134",
+    "D2270",
+    "Viscosity Index"
+   ],
+   "flash_point": [
+    "240",
+    "D92",
+    "Flash Point,COC ,℃"
+   ],
+   "pour_point": [
+    "-16",
+    "D6749(D5950)",
+    "Pour Point, ℃"
+   ],
+   "noack_volatility": [
+    "6.4",
+    "D5800(B)",
+    "Noack Volatility, wt% (Procedure B)"
+   ]
+  },
+  "8": {
+   "density": [
+    "0.8425",
+    "D4052(D1298)",
+    "Density @ 15.6℃, kg/L"
+   ],
+   "kv40": [
+    "41.10",
+    "D445",
+    "Kinematic Viscosity @ 40℃, cSt"
+   ],
+   "kv100": [
+    "7.1",
+    "D445",
+    "Kinematic Viscosity @ 100℃, cSt"
+   ],
+   "viscosity_index": [
+    "134",
+    "D2270",
+    "Viscosity Index"
+   ],
+   "flash_point": [
+    "250",
+    "D92",
+    "Flash Point,COC ,℃"
+   ],
+   "pour_point": [
+    "-14",
+    "D6749(D5950)",
+    "Pour Point, ℃"
+   ],
+   "noack_volatility": [
+    "4.0",
+    "D5800(B)",
+    "Noack Volatility, wt% (Procedure B)"
+   ]
+  }
+ },
+ "findings": [
+  {
+   "id": "CF-102",
+   "record_id": "S_OIL_ARAMCO_ULTRA_8",
+   "property": "tier1.kv40",
+   "grade": "8",
+   "archive": [
+    "DL2-14611.pdf",
+    "42.0 - 55.0"
+   ],
+   "archive_cell": [
+    "43.89",
+    "D 445",
+    "Kin.Vis @40 °C, cSt"
+   ],
+   "web": 41.1,
+   "web_cell": [
+    "41.10",
+    "D445",
+    "Kinematic Viscosity @ 40℃, cSt"
+   ],
+   "match_archive": false,
+   "match_web": true
+  },
+  {
+   "id": "CF-103",
+   "record_id": "S_OIL_ULTRA_S_2",
+   "property": "tier1.kv40",
+   "grade": "2",
+   "archive": [
+    "DL2-11177.pdf",
+    7.117
+   ],
+   "archive_cell": [
+    "7.117",
+    "D 445",
+    "Kin.Vis @40 °C, cSt"
+   ],
+   "web": 7.62,
+   "web_cell": [
+    "7.62",
+    "D445",
+    "Kinematic Viscosity @ 40℃, cSt"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-104",
+   "record_id": "S_OIL_ULTRA_S_2",
+   "property": "tier1.kv100",
+   "grade": "2",
+   "archive": [
+    "DL2-11177.pdf",
+    2.174
+   ],
+   "archive_cell": [
+    "2.174",
+    "D 445",
+    "@100 °C, cSt"
+   ],
+   "web": 2.25,
+   "web_cell": [
+    "2.25",
+    "D445",
+    "Kinematic Viscosity @ 100℃, cSt"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-105",
+   "record_id": "S_OIL_ULTRA_S_2",
+   "property": "tier1.viscosity_index",
+   "grade": "2",
+   "archive": [
+    "DL2-11177.pdf",
+    109
+   ],
+   "archive_cell": [
+    "109",
+    "D 2270",
+    "Viscosity Index"
+   ],
+   "web": 103,
+   "web_cell": [
+    "103",
+    "D2270",
+    "Viscosity Index"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-106",
+   "record_id": "S_OIL_ULTRA_S_2",
+   "property": "tier2.pour_point",
+   "grade": "2",
+   "archive": [
+    "DL2-11177.pdf",
+    -37.5
+   ],
+   "archive_cell": [
+    "-37.5",
+    "D 5950",
+    "Pour Point, °C"
+   ],
+   "web": -36,
+   "web_cell": [
+    "-36",
+    "D6749(D5950)",
+    "Pour Point, ℃"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-107",
+   "record_id": "S_OIL_ULTRA_S_3",
+   "property": "tier1.kv40",
+   "grade": "3",
+   "archive": [
+    "DL2-11177.pdf",
+    13.47
+   ],
+   "archive_cell": [
+    "13.47",
+    "D 445",
+    "Kin.Vis @40 °C, cSt"
+   ],
+   "web": 14.0,
+   "web_cell": [
+    "14.0",
+    "D445",
+    "Kinematic Viscosity @ 40℃, cSt"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-108",
+   "record_id": "S_OIL_ULTRA_S_3",
+   "property": "tier1.kv100",
+   "grade": "3",
+   "archive": [
+    "DL2-11177.pdf",
+    3.315
+   ],
+   "archive_cell": [
+    "3.315",
+    "D 445",
+    "@100 °C, cSt"
+   ],
+   "web": 3.38,
+   "web_cell": [
+    "3.38",
+    "D445",
+    "Kinematic Viscosity @ 100℃, cSt"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-109",
+   "record_id": "S_OIL_ULTRA_S_3",
+   "property": "tier1.viscosity_index",
+   "grade": "3",
+   "archive": [
+    "DL2-11177.pdf",
+    117
+   ],
+   "archive_cell": [
+    "117",
+    "D 2270",
+    "Viscosity Index"
+   ],
+   "web": 115,
+   "web_cell": [
+    "115",
+    "D2270",
+    "Viscosity Index"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-110",
+   "record_id": "S_OIL_ULTRA_S_3",
+   "property": "tier2.flash_point",
+   "grade": "3",
+   "archive": [
+    "DL2-11177.pdf",
+    204
+   ],
+   "archive_cell": [
+    "204",
+    "D 92",
+    "Flash Point, °C(COC)"
+   ],
+   "web": 202,
+   "web_cell": [
+    "202",
+    "D92",
+    "Flash Point,COC ,℃"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-111",
+   "record_id": "S_OIL_ULTRA_S_3",
+   "property": "tier2.pour_point",
+   "grade": "3",
+   "archive": [
+    "DL2-11177.pdf",
+    -25.0
+   ],
+   "archive_cell": [
+    "-25.0",
+    "D 5950",
+    "Pour Point, °C"
+   ],
+   "web": -27,
+   "web_cell": [
+    "-27",
+    "D6749(D5950)",
+    "Pour Point, ℃"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-112",
+   "record_id": "S_OIL_ULTRA_S_4",
+   "property": "tier1.kv40",
+   "grade": "4",
+   "archive": [
+    "DL2-11177.pdf",
+    19.62
+   ],
+   "archive_cell": [
+    "19.62",
+    "D 445",
+    "Kin.Vis @40 °C, cSt"
+   ],
+   "web": 19.7,
+   "web_cell": [
+    "19.7",
+    "D445",
+    "Kinematic Viscosity @ 40℃, cSt"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-113",
+   "record_id": "S_OIL_ULTRA_S_4",
+   "property": "tier1.kv100",
+   "grade": "4",
+   "archive": [
+    "DL2-11177.pdf",
+    4.247
+   ],
+   "archive_cell": [
+    "4.247",
+    "D 445",
+    "@100 °C, cSt"
+   ],
+   "web": 4.27,
+   "web_cell": [
+    "4.27",
+    "D445",
+    "Kinematic Viscosity @ 100℃, cSt"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-114",
+   "record_id": "S_OIL_ULTRA_S_4",
+   "property": "tier1.viscosity_index",
+   "grade": "4",
+   "archive": [
+    "DL2-11177.pdf",
+    123
+   ],
+   "archive_cell": [
+    "123",
+    "D 2270",
+    "Viscosity Index"
+   ],
+   "web": 124,
+   "web_cell": [
+    "124",
+    "D2270",
+    "Viscosity Index"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-115",
+   "record_id": "S_OIL_ULTRA_S_4",
+   "property": "tier2.flash_point",
+   "grade": "4",
+   "archive": [
+    "DL2-11177.pdf",
+    228
+   ],
+   "archive_cell": [
+    "228",
+    "D 92",
+    "Flash Point, °C(COC)"
+   ],
+   "web": 220,
+   "web_cell": [
+    "220",
+    "D92",
+    "Flash Point,COC ,℃"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-116",
+   "record_id": "S_OIL_ULTRA_S_6",
+   "property": "tier1.kv40",
+   "grade": "6",
+   "archive": [
+    "DL2-11177.pdf",
+    33.32
+   ],
+   "archive_cell": [
+    "33.32",
+    "D 445",
+    "Kin.Vis @40 °C, cSt"
+   ],
+   "web": 32.54,
+   "web_cell": [
+    "32.54",
+    "D445",
+    "Kinematic Viscosity @ 40℃, cSt"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-117",
+   "record_id": "S_OIL_ULTRA_S_6",
+   "property": "tier1.kv100",
+   "grade": "6",
+   "archive": [
+    "DL2-11177.pdf",
+    6.0
+   ],
+   "archive_cell": [
+    "6.0",
+    "D 445",
+    "@100 °C, cSt"
+   ],
+   "web": 6.04,
+   "web_cell": [
+    "6.04",
+    "D445",
+    "Kinematic Viscosity @ 100℃, cSt"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-118",
+   "record_id": "S_OIL_ULTRA_S_6",
+   "property": "tier1.viscosity_index",
+   "grade": "6",
+   "archive": [
+    "DL2-11177.pdf",
+    127
+   ],
+   "archive_cell": [
+    "127",
+    "D 2270",
+    "Viscosity Index"
+   ],
+   "web": 134,
+   "web_cell": [
+    "134",
+    "D2270",
+    "Viscosity Index"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-119",
+   "record_id": "S_OIL_ULTRA_S_6",
+   "property": "tier2.flash_point",
+   "grade": "6",
+   "archive": [
+    "DL2-11177.pdf",
+    235
+   ],
+   "archive_cell": [
+    "235",
+    "D 92",
+    "Flash Point, °C(COC)"
+   ],
+   "web": 240,
+   "web_cell": [
+    "240",
+    "D92",
+    "Flash Point,COC ,℃"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-120",
+   "record_id": "S_OIL_ULTRA_S_6",
+   "property": "tier2.pour_point",
+   "grade": "6",
+   "archive": [
+    "DL2-11177.pdf",
+    -20
+   ],
+   "archive_cell": [
+    "-20",
+    "D 5950",
+    "Pour Point, °C"
+   ],
+   "web": -16,
+   "web_cell": [
+    "-16",
+    "D6749(D5950)",
+    "Pour Point, ℃"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-121",
+   "record_id": "S_OIL_ULTRA_S_8",
+   "property": "tier1.kv40",
+   "grade": "8",
+   "archive": [
+    "DL2-11177.pdf",
+    43.89
+   ],
+   "archive_cell": [
+    "43.89",
+    "D 445",
+    "Kin.Vis @40 °C, cSt"
+   ],
+   "web": 41.1,
+   "web_cell": [
+    "41.10",
+    "D445",
+    "Kinematic Viscosity @ 40℃, cSt"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-122",
+   "record_id": "S_OIL_ULTRA_S_8",
+   "property": "tier1.kv100",
+   "grade": "8",
+   "archive": [
+    "DL2-11177.pdf",
+    7.234
+   ],
+   "archive_cell": [
+    "7.234",
+    "D 445",
+    "@100 °C, cSt"
+   ],
+   "web": 7.1,
+   "web_cell": [
+    "7.1",
+    "D445",
+    "Kinematic Viscosity @ 100℃, cSt"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-123",
+   "record_id": "S_OIL_ULTRA_S_8",
+   "property": "tier1.viscosity_index",
+   "grade": "8",
+   "archive": [
+    "DL2-11177.pdf",
+    127
+   ],
+   "archive_cell": [
+    "127",
+    "D 2270",
+    "Viscosity Index"
+   ],
+   "web": 134,
+   "web_cell": [
+    "134",
+    "D2270",
+    "Viscosity Index"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-124",
+   "record_id": "S_OIL_ULTRA_S_8",
+   "property": "tier2.flash_point",
+   "grade": "8",
+   "archive": [
+    "DL2-11177.pdf",
+    256
+   ],
+   "archive_cell": [
+    "256",
+    "D 92",
+    "Flash Point, °C(COC)"
+   ],
+   "web": 250,
+   "web_cell": [
+    "250",
+    "D92",
+    "Flash Point,COC ,℃"
+   ],
+   "match_archive": true,
+   "match_web": true
+  },
+  {
+   "id": "CF-125",
+   "record_id": "S_OIL_ULTRA_S_8",
+   "property": "tier2.pour_point",
+   "grade": "8",
+   "archive": [
+    "DL2-11177.pdf",
+    -15
+   ],
+   "archive_cell": [
+    "-15.0",
+    "D 5950",
+    "Pour Point, °C"
+   ],
+   "web": -14,
+   "web_cell": [
+    "-14",
+    "D6749(D5950)",
+    "Pour Point, ℃"
+   ],
+   "match_archive": true,
+   "match_web": true
+  }
+ ],
+ "live_equals_wayback": true,
+ "aramcoultra_equals_ultras": true
+}

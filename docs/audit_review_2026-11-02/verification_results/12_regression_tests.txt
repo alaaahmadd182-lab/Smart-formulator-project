@@ -1,0 +1,81 @@
+$ python -m unittest discover -s tools\audit\review_2026-11-02\tests -v
+exit code: 0
+
+sources examined: 424 in 180 findings (351 value citations, 4 document cited in the explanations, 69 referenced sources)
+  A fully verified: automated column/row check: 221
+  B fully verified: visual check: 23
+  C fully verified: context review: 174
+  D automated text presence only: 0
+  E unresolved: 5
+  N not used as evidence (named only as not consulted): 1
+fully verified: 418; automated text presence only: 0; unresolved: 5; not used as evidence: 1
+findings with no source row: []
+  UNRESOLVED CF-142 referenced source: ASTM D874 (sulfated ash), sold by ASTM — unavailable (not accessed): named only to describe the factors in the JSON calculation note ("ASTM D874-type"); the stan
+  UNRESOLVED CF-143 referenced source: ASTM D874 (sulfated ash), sold by ASTM — unavailable (not accessed): as CF-142
+  UNRESOLVED CF-144 referenced source: ASTM D874-23 (sulfated ash), sold by ASTM — unavailable (not accessed): the factor table and its conditions are needed to validate either factor set; not accessed (
+  UNRESOLVED CF-164 referenced source: Afton HiTEC 5748 PDS, edition 03/18 — unavailable (not retrieved): quoted in the open question ("a typical Shear Stability Index (SSI) of 22"); not retrieved 
+  UNRESOLVED CF-164 referenced source: Afton HiTEC 5748 PDS, edition 04/21 — unavailable (not retrieved): quoted in the open question ("Shear Stability Index %: 22"); not retrieved; not re-tried
+VERIFICATION COMPLETE: NO (5 sources not fully verified)
+158 explicit verdicts written; presence-only citations without a verdict: 1 ['CF-001#9#DL2-99999.pdf']
+test_any_unresolved_or_unreviewed_prevents_completion (test_ledger_rules.Completeness.test_any_unresolved_or_unreviewed_prevents_completion) ... ok
+test_ledger_exit_code_and_report_reflect_incompleteness (test_ledger_rules.Completeness.test_ledger_exit_code_and_report_reflect_incompleteness)
+With the real inputs (which contain unavailable sources) the ledger exits 3 and the report says so. ... C:\Users\windo\OneDrive\Desktop\Smart formulator project\tools\audit\review_2026-11-02\verification_ledger.py:59: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\windo\\OneDrive\\Desktop\\Smart formulator project\\tools\\audit\\review_2026-11-02\\output\\findings_v5.json' mode='r' encoding='utf-8'>
+  return json.load(open(path, encoding='utf-8'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\OneDrive\Desktop\Smart formulator project\tools\audit\review_2026-11-02\verification_ledger.py:67: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\windo\\OneDrive\\Desktop\\Smart formulator project\\docs\\audit_review_2026-11-02\\verification_results\\source_checks_v5.csv' mode='r' encoding='utf-8'>
+  rows = list(csv.DictReader(open(checks_path, encoding='utf-8')))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\OneDrive\Desktop\Smart formulator project\tools\audit\review_2026-11-02\verification_ledger.py:59: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\windo\\OneDrive\\Desktop\\Smart formulator project\\docs\\audit_review_2026-11-02\\verification_results\\column_checked_citations.json' mode='r' encoding='utf-8'>
+  return json.load(open(path, encoding='utf-8'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\OneDrive\Desktop\Smart formulator project\tools\audit\review_2026-11-02\verification_ledger.py:59: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\windo\\OneDrive\\Desktop\\Smart formulator project\\tools\\audit\\review_2026-11-02\\expected_source_results.json' mode='r' encoding='utf-8'>
+  return json.load(open(path, encoding='utf-8'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\OneDrive\Desktop\Smart formulator project\tools\audit\review_2026-11-02\verification_ledger.py:59: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\windo\\OneDrive\\Desktop\\Smart formulator project\\tools\\audit\\review_2026-11-02\\association_review.json' mode='r' encoding='utf-8'>
+  return json.load(open(path, encoding='utf-8'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\OneDrive\Desktop\Smart formulator project\tools\audit\review_2026-11-02\verification_ledger.py:114: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\windo\\OneDrive\\Desktop\\Smart formulator project\\docs\\audit_review_2026-11-02\\verification_results\\ledger_summary.json' mode='w' encoding='utf-8'>
+  json.dump(S, open(os.path.join(RES, 'ledger_summary.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\OneDrive\Desktop\Smart formulator project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:97: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\windo\\OneDrive\\Desktop\\Smart formulator project\\docs\\audit_review_2026-11-02\\verification_results\\ledger_summary.json' mode='r' encoding='utf-8'>
+  s = json.load(open(os.path.join(RES, 'ledger_summary.json'), encoding='utf-8'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\OneDrive\Desktop\Smart formulator project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:99: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\windo\\OneDrive\\Desktop\\Smart formulator project\\reconciliation\\comprehensive_conflicts_audit.md' mode='r' encoding='utf-8'>
+  md = open(R.REPORT_MD, encoding='utf-8').read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_run_all_distinguishes_execution_from_completeness (test_ledger_rules.Completeness.test_run_all_distinguishes_execution_from_completeness) ... ok
+test_incomplete_never_counted_as_verified (test_ledger_rules.IncompleteVerdicts.test_incomplete_never_counted_as_verified) ... ok
+test_incomplete_verdict_is_unresolved (test_ledger_rules.IncompleteVerdicts.test_incomplete_verdict_is_unresolved) ... ok
+test_incomplete_verdict_wins_over_automated_check (test_ledger_rules.IncompleteVerdicts.test_incomplete_verdict_wins_over_automated_check) ... ok
+test_unavailable_verdict_is_unresolved (test_ledger_rules.IncompleteVerdicts.test_unavailable_verdict_is_unresolved) ... ok
+test_unknown_or_malformed_verdicts_are_unresolved (test_ledger_rules.IncompleteVerdicts.test_unknown_or_malformed_verdicts_are_unresolved) ... ok
+test_association_review_has_no_default_verdict (test_ledger_rules.UnknownCitations.test_association_review_has_no_default_verdict)
+A presence-only citation that is not listed in build_association_review.py receives no verdict. ... C:\Users\windo\OneDrive\Desktop\Smart formulator project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:61: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\windo\\OneDrive\\Desktop\\Smart formulator project\\docs\\audit_review_2026-11-02\\verification_results\\source_checks_v5.csv' mode='r' encoding='utf-8'>
+  rows = list(csv.DictReader(open(os.path.join(RES, 'source_checks_v5.csv'), encoding='utf-8')))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\OneDrive\Desktop\Smart formulator project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:62: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\windo\\OneDrive\\Desktop\\Smart formulator project\\tools\\audit\\review_2026-11-02\\output\\findings_v5.json' mode='r' encoding='utf-8'>
+  F = {f['id']: f for f in json.load(open(os.path.join(R.HERE, 'output', 'findings_v5.json'), encoding='utf-8'))}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\OneDrive\Desktop\Smart formulator project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:69: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\windo\\AppData\\Local\\Temp\\tmpgh_tzev9\\here\\output\\findings_v5.json' mode='w' encoding='utf-8'>
+  json.dump(list(F.values()), open(os.path.join(here, 'output', 'findings_v5.json'), 'w', encoding='utf-8'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\OneDrive\Desktop\Smart formulator project\tools\audit\review_2026-11-02\build_association_review.py:202: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\windo\\AppData\\Local\\Temp\\tmpgh_tzev9\\docs\\audit_review_2026-11-02\\verification_results\\source_checks_v5.csv' mode='r' encoding='utf-8'>
+  rows = list(csv.DictReader(open(os.path.join(R.ROOT, 'docs', 'audit_review_2026-11-02', 'verification_results', 'source_checks_v5.csv'),
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\OneDrive\Desktop\Smart formulator project\tools\audit\review_2026-11-02\build_association_review.py:223: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\windo\\AppData\\Local\\Temp\\tmpgh_tzev9\\here\\output\\findings_v5.json' mode='r' encoding='utf-8'>
+  F = {f['id']: f for f in json.load(open(os.path.join(R.HERE, 'output', 'findings_v5.json'), encoding='utf-8'))}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\OneDrive\Desktop\Smart formulator project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:72: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\windo\\AppData\\Local\\Temp\\tmpgh_tzev9\\here\\association_review.json' mode='r' encoding='utf-8'>
+  written = json.load(open(os.path.join(here, 'association_review.json'), encoding='utf-8'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_unknown_citation_with_number_on_page_is_not_verified (test_ledger_rules.UnknownCitations.test_unknown_citation_with_number_on_page_is_not_verified) ... ok
+test_unknown_citation_without_number_is_unresolved (test_ledger_rules.UnknownCitations.test_unknown_citation_without_number_is_unresolved) ... ok
+test_unlisted_reference_is_unresolved (test_ledger_rules.UnknownCitations.test_unlisted_reference_is_unresolved)
+A source named in a finding text without a recorded verdict becomes an unresolved ledger row. ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.123s
+
+OK

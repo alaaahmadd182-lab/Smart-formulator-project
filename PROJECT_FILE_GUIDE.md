@@ -2,7 +2,8 @@
 
 A plain-language map of the Smart Formulator project folder: what each file is, why it exists, and whether it is an
 input, a record you edit, a generated output or a historical record. Written 2026-10-31; it describes the
-repository after the data-correction commit `28265fd`.
+repository after the data-correction commit `28265fd`. Updated 2026-11-02 for version 5 of the conflicts audit and
+the new `tools/` and `docs/` folders.
 
 The project builds a **raw-material database** for lubricant (engine oil) formulation. Every base oil, additive
 package and additive component is a set of JSON files, and every value in them is traced to a page of a supplier
@@ -32,9 +33,12 @@ Smart formulator project/
 ├── integrate_products.py                      normalisation / conflict-annotation script (dry run by default)
 ├── build_conflicts_report.py                  generates a draft conflicts report (not the curated log)
 │
+├── tools/                                     saved scripts of the audits and reviews (see tools/README.md)
+├── docs/audit_review_2026-11-02/              the 2026-11-02 review: method, change list, verification results
+│
 └── reconciliation/                            reviews, audits and their evidence
     ├── README.md                              explains the inventory reconciliation
-    ├── comprehensive_conflicts_audit.md       STANDALONE CONFLICTS AND CONTRADICTIONS REPORT (2026-10-30)
+    ├── comprehensive_conflicts_audit.md       STANDALONE CONFLICTS AND CONTRADICTIONS REPORT (version 5, 2026-11-02)
     ├── comprehensive_conflicts_audit.csv      the same report, one row per finding (CF-001 … CF-180)
     ├── audit_evidence/                        external evidence copies for the audit + evidence_manifest.md
     ├── comprehensive_conflicts_audit_corrections_2026-10-31.md   LATER CORRECTION LOG
@@ -55,9 +59,9 @@ A `.git` folder (hidden) holds the version history. Do not delete it.
 | **Editable record** | Maintained by hand; changes must follow the rules in `CLAUDE.md`. | `Products_json/`, `open_questions_and_conflicts.md`, `source_registry.json`, `reconciliation/identity_review.md`, `README.md`, `CLAUDE.md`, this guide |
 | **Specification** | Fixed design; do not edit while filling data. | `json_templates/`, `Property_Glossary.docx` |
 | **Generated output** | Produced by a script; regenerate it instead of editing it. | `Coverage_Matrix.xlsx` (and `conflicts_report_generated.md` if `build_conflicts_report.py` is run; not present now) |
-| **Historical record** | A dated snapshot, kept as evidence of what was found or decided. Do not rewrite it; add a new dated record instead. | `reconciliation/comprehensive_conflicts_audit.md` / `.csv`, `audit_evidence/evidence_manifest.md`, the 2026-10-31 correction log, `inventory_reconciliation.csv`, `deferred_products.*`, `base_oil_ingestion_queue.md`, `richful_feed_leads.csv` |
+| **Historical record** | A dated snapshot, kept as evidence of what was found or decided. Do not rewrite it; add a new dated record or a new numbered version instead (earlier versions stay in git history). | `reconciliation/comprehensive_conflicts_audit.md` / `.csv` (versioned: version 5 of 2026-11-02 is current), `audit_evidence/evidence_manifest.md`, the 2026-10-31 correction log, `inventory_reconciliation.csv`, `deferred_products.*`, `base_oil_ingestion_queue.md`, `richful_feed_leads.csv`, `docs/audit_review_2026-11-02/` |
 | **Supplementary reference** | Useful background, not evidence for values. | `Raw_Material_Missing_Properties_2026-10-13.xlsx` |
-| **Tool** | Scripts and their dependency list. | `build_coverage_matrix.py`, `integrate_products.py`, `build_conflicts_report.py`, `requirements.txt` |
+| **Tool** | Scripts and their dependency list. | `build_coverage_matrix.py`, `integrate_products.py`, `build_conflicts_report.py`, `requirements.txt`, `tools/` (audit and review scripts; `tools/README.md`) |
 
 ## Top-level files
 
@@ -137,12 +141,12 @@ cites them with `%` restored.
 
 ## `reconciliation/`: reviews, audits and evidence
 
-### The conflicts and contradictions audit (complete; historical snapshot)
+### The conflicts and contradictions audit (complete; version 5 is current)
 
 | File | What it is |
 |---|---|
-| `comprehensive_conflicts_audit.md` | **The standalone conflicts and contradictions report**, dated 2026-10-30 (PR #4). It contains: a supervisor summary; 180 findings, CF-001 to CF-180 (179 distinct issues), grouped by type (32 confirmed contradictions, 13 potential, 100 edition differences, 18 explainable differences, 17 data-quality issues); the verification status; follow-up categories; and the report's own correction log. It changed no product data. |
-| `comprehensive_conflicts_audit.csv` | The same findings, one row per CF-ID: values, units, sources and pages, JSON paths, comparability, verification, follow-up and provenance. |
+| `comprehensive_conflicts_audit.md` | **The standalone conflicts and contradictions report. Use version 5 (revision of 2026-11-02), the version in the folder.** Original audit 2026-10-27; version 4 of 2026-10-30 (PR #4, commit `e6617ca`) is kept in git history. It contains: a supervisor summary; 180 findings, CF-001 to CF-180 (179 distinct issues), grouped by type (version 5: 29 confirmed contradictions, 19 potential, 98 edition differences, 17 explainable differences, 17 data-quality issues; version 4 had 32 / 13 / 100 / 18 / 17); the verification status; follow-up categories; and the report's own correction log (section 8.3 lists the version-5 corrections, section 8.4 the later data corrections). The findings describe the database at the 2026-10-30 snapshot. Neither version changed product data. |
+| `comprehensive_conflicts_audit.csv` | The same findings, one row per CF-ID: values, units, sources and pages, JSON paths, comparability, verification, follow-up and provenance; `changed_in_v5` names the fields revised on 2026-11-02 and `later_state_2026_10_31` the state after the 2026-10-31 data corrections. |
 | `audit_evidence/` | Copies of the external sources the audit used: Petro-Canada PURITY 2023 brochure, S-OIL web table (live and Internet Archive), API 1509 Annex E, Chevron Phillips Dimer C12 sheet, ADNOC specification, two Afton HiTEC 5748 data sheets, PubChem records and a Richful feed record. |
 | `audit_evidence/evidence_manifest.md` | For each evidence file: URL, how it was retrieved, edition, pages used, size, SHA-256 and SHA-1, and which findings it supports. |
 | `audit_evidence/.gitattributes` | `* -text`, so git stores the evidence files byte for byte (their hashes match the manifest). |
@@ -151,7 +155,17 @@ cites them with `%` restored.
 
 | File | What it is |
 |---|---|
-| `comprehensive_conflicts_audit_corrections_2026-10-31.md` | The data corrections made after the audit (commit `28265fd`). CF-136: Dimer C12 pour point −63 → −53 °C. CF-142/143: Lubrizol CV1100/CV3515 sulfated ash, now the printed values 7 and 10, with the omitted Zn and S added. CF-159/180: Richful conflict notes clarified; both conflicts still unresolved. It also records the effect on CF-144 (26 → 24 calculated estimates) and on the coverage workbook. The audit report itself was deliberately left unchanged. |
+| `comprehensive_conflicts_audit_corrections_2026-10-31.md` | The data corrections made after the audit (commit `28265fd`). CF-136: Dimer C12 pour point −63 → −53 °C. CF-142/143: Lubrizol CV1100/CV3515 sulfated ash, now the printed values 7 and 10, with the omitted Zn and S added. CF-159/180: Richful conflict notes clarified; both conflicts still unresolved. It also records the effect on CF-144 (26 → 24 calculated estimates) and on the coverage workbook. The audit report itself was left unchanged at the time; its errata section (2026-11-02) corrects one statement about the ASTM D 5950 method. |
+
+### The 2026-11-02 review of the audit documentation
+
+| File | What it is |
+|---|---|
+| `docs/audit_review_2026-11-02/README.md` | Review and change log: what was checked, how, the results, every corrected finding, remaining limitations and the exact commands to reproduce the checks. |
+| `docs/audit_review_2026-11-02/finding_changes.csv` | Every changed field of every finding: before, after, reason, evidence. |
+| `docs/audit_review_2026-11-02/source_reading_log.csv` | The checks made by reading sources (page renders, column reading), separate from the automated checks. |
+| `docs/audit_review_2026-11-02/verification_results/` | The saved output of each check script, the source ledger (`citation_ledger.csv`: 424 sources, 418 fully verified, 5 unresolved; verification not complete) and the Afton claims-matrix extractions and renders (`afton/`). |
+| `tools/` | All scripts: the original 2026-10-27/30 audit scripts and their intermediate data, the 2026-10-31 correction scripts, the 2026-10-24 integration scripts and the 2026-11-02 review scripts (`tools/README.md`). |
 
 ### Inventory reconciliation (2026-10-23/24, mostly historical)
 
@@ -172,7 +186,8 @@ The work reached `main` in this order:
 |---|---|---|
 | PR #2, PR #3 | up to `77ba590` | Data integration and the reconciled Task 3 data |
 | PR #4 (branch `audit/comprehensive-conflicts`) | `b1ca3c6`, `e6617ca` | The comprehensive conflicts audit: report, CSV, evidence and manifest |
-| Branch `fix/audit-source-corrections` | `28265fd` and the following documentation commit | The 2026-10-31 data corrections, the synchronised coverage workbook and the correction log; this guide and the README updates |
+| Branch `fix/audit-source-corrections` (PR #5) | `28265fd`, `17ff2a6` | The 2026-10-31 data corrections, the synchronised coverage workbook and the correction log; this guide and the README updates |
+| Branch `docs/audit-report-review-2026-11-02` (local commit, not pushed or merged) | the commit "docs(audit): finalize v5 review with explicit verification gaps" | Version 5 of the audit report and CSV, the review record in `docs/`, and the saved scripts in `tools/` |
 
 To get the current state, pull `main`. Older branches (`fix/task3-data-quality`, `integration/reconcile-task3`,
 and on the project owner's computer only, `backup/reconcile-task3-pre-merge-2026-10-24`) are kept for history.
@@ -184,8 +199,8 @@ repository neither adds them nor deletes anything on anyone else's computer.
 
 | File on the owner's Desktop | What it is | Kept? |
 |---|---|---|
-| `Smart formulator project (2).zip` (196 MB, 2026-10-27) | A full project backup, including `.git`, taken during the audit. Its git history is fully contained in the current repository, but it holds the **only copy of the first draft of the conflicts audit** (2026-10-27 versions of `comprehensive_conflicts_audit.md` and `.csv`, never committed). | **Kept**, as the only record of that draft. Delete it only if the draft is no longer wanted. |
-| `SmartFormulator_source_corrections_review_v2_2026-10-31.zip` (1.2 MB) | The review package approved before commit `28265fd`: the changed files, the full diff, the validation script (`tools/validate_corrections.py`) and its output, and a coverage comparison. | **Kept**: it is the reviewed record, and the validation script and its output exist nowhere else. |
+| `Smart formulator project (2).zip` (196 MB, 2026-10-27) | A full project backup, including `.git`, taken during the audit. Its git history is fully contained in the current repository, but it holds the **only copy of the first draft of the conflicts audit** (2026-10-27 versions of `comprehensive_conflicts_audit.md` and `.csv`, never committed). | **Kept**, as the only record of that draft. Delete it only if the draft is no longer wanted. *Note 2026-11-02: this ZIP was no longer on the Desktop when the audit review started; the review did not delete it. The quality-reviewed 2026-10-27 report and CSV (version 2) survived in a working folder and are now kept in `tools/audit/original_2026-10-27_to_30/intermediate/`; whether they are identical to the draft in the ZIP cannot be checked.* |
+| `SmartFormulator_source_corrections_review_v2_2026-10-31.zip` (1.2 MB) | The review package approved before commit `28265fd`: the changed files, the full diff, the validation script (`tools/validate_corrections.py`) and its output, and a coverage comparison. | **Kept**: it is the reviewed record. *Since 2026-11-02 the validation script is also saved in the project (`tools/corrections_2026-10-31/validate_corrections.py`).* |
 
 ## Cleanup record (2026-10-31)
 

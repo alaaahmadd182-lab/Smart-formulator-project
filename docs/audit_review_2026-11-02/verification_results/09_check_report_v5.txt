@@ -1,0 +1,8 @@
+$ python tools\audit\review_2026-11-02\check_report.py
+exit code: 0
+
+WAIVED D1 CF-024: data-quality record (suspected unit misprint) whose comparability text accurately describes the typical-vs-maximum comparison and the 10,000-fold unit gap; the uncertainty is the point of the finding
+WAIVED D1 CF-159: data-quality record inside the CF-009 comparison; it repeats CF-009's comparability statement, which is accurate
+
+checks run: 2199; failed: 0
+OVERALL: PASS

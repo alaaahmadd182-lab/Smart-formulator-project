@@ -1,0 +1,4 @@
+$ python tools\audit\review_2026-11-02\gen_report_v5.py --outdir C:\Users\windo\AppData\Local\Temp\tmpii2mv93o
+exit code: 0
+
+written 180 {'Edition difference': 98, 'Explainable difference': 17, 'Confirmed contradiction': 29, 'Potential contradiction (comparability uncertain)': 19, 'Data-quality issue': 17} | follow-up {'Edition-selection policy': 96, 'No follow-up needed beyond documentation': 10, 'Supplier clarification': 44, 'Standard or further source needed': 9, 'Correctable from existing evidence (data owner)': 12, 'Data-owner decision (field-selection rule)': 9} | levels {'Verified': 176, 'Pending': 1, 'Partially verified': 3} | pending {'Medium': 5, 'High': 1, 'Low': 2}

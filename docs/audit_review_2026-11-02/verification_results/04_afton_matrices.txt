@@ -1,0 +1,44 @@
+$ python tools\audit\review_2026-11-02\afton_matrices.py
+exit code: 0
+
+== DL2-11412.PDF p.2 (HiTEC 12200 bulletin 05/18): 29 columns, 15 rows, 186 marked cells; 33 cell separators; unassigned marks 0 []
+   footnote/legend: © 2018. Afton Chemical Corporation is a wholly owned subsidiary of NewMarket Corporation (NYSE:NEU). HiTEC® is a trademark of Afton Chemical Corporation. 05/18.
+   footnote/legend: The information in this bulletin is, to our best knowledge, sure and accurate, but all recommendations or suggestions are made without guarantee since the condi
+   footnote/legend: 1 14.2% HiTEC® 12204L = 10.3% HiTEC® 12200 + 4.2% HiTEC® 12250 2 30% Group III 3 Up to 0.6% wt maybe required for some group I’s to cover MB 228.3 approvals MB 
+   footnote/legend: 4 15.3% HiTEC® 12204Y = 10.3% HiTEC® 12200 + 5.0% HiTEC® 12255 5 Meets requirements of (MRO) 6 Formulations, available in Q2 2018
+== DL2-14639.pdf p.2 (HiTEC 12200 bulletin 08/18): 32 columns, 17 rows, 194 marked cells; 37 cell separators; unassigned marks 0 []
+   footnote/legend: © 2018. Afton Chemical Corporation is a wholly owned subsidiary of NewMarket Corporation (NYSE:NEU). HiTEC® is a trademark of Afton Chemical Corporation. 08/18.
+   footnote/legend: The information in this bulletin is, to our best knowledge, sure and accurate, but all recommendations or suggestions are made without guarantee since the condi
+   footnote/legend: 1 14.2% HiTEC® 12204L = 10.3% HiTEC® 12200 + 4.2% HiTEC® 12250 2 30% Group III 3 Up to 0.6% wt maybe required for some group I’s to cover MB 228.3 approvals MB 
+   footnote/legend: 4 15.3% HiTEC® 12204Y = 10.3% HiTEC® 12200 + 5.0% HiTEC® 12255 5 Meets requirements of (MRO) 611.15% HiTEC® 12252 = 10.8% HiTEC® 12200 + 0.35% HiTEC® 9552
+== DL2-11796.pdf p.2 (HiTEC 12210M bulletin 05/18): 21 columns, 3 rows, 37 marked cells; 27 cell separators; unassigned marks 0 []
+   footnote/legend: For speciﬁ c formulation recommendations and licensing details, please contact your Afton Chemical representative.
+   footnote/legend: Meets requirements
+   footnote/legend: Oxidation Protection
+   footnote/legend: Injector Screw Wear Protection
+== DL2-15568.pdf p.2 (HiTEC 12210M bulletin 04/22): 20 columns, 4 rows, 51 marked cells; 25 cell separators; unassigned marks 0 []
+   footnote/legend: For specific formulation recommendations and licensing details, please contact your Afton Chemical representative.
+   footnote/legend: Meets requirements
+   footnote/legend: Approvals/Claims are speciﬁc for each formulation. Any change in the base oil/additive percentage could aﬀect the accuracy of these approvals/claims. Contact Af
+   footnote/legend: Oxidation Protection
+   footnote/legend: Injector Screw Wear Protection
+
+CF-001 MTU 2.0, row 10.3% + 5.0% HiTEC 12255 SAE 15W-40 GP I:
+   DL2-11412.PDF: dot
+   DL2-14639.pdf: empty
+CF-002 DDC 93K215, row 11.7% + 0.9% HiTEC 12260 SAE 10W-30 GP II:
+   DL2-11412.PDF: empty
+   DL2-14639.pdf: dot
+CF-167 rows/columns only in 08/18:
+   DL2-11412.PDF: columns API SN / MB 229.3 / RN 0700 present: [False, False, False] | rows with 10.8% + 0.9% HiTEC 12260 SAE 10W-30: [] | rows with 10.8% + 0.6% HiTEC 9552 SAE 10W-40: []
+   DL2-14639.pdf: columns API SN / MB 229.3 / RN 0700 present: [True, True, True] | rows with 10.8% + 0.9% HiTEC 12260 SAE 10W-30: ['10.8% 0.9% HiTEC® 12260 SAE 10W-30 GP II'] | rows with 10.8% + 0.6% HiTEC 9552 SAE 10W-40: ['10.8% 0.6% HiTEC® 9552 SAE 10W-40 GP II/III2']
+   DL2-14639.pdf row "10.8% 0.9% HiTEC® 12260 SAE 10W-30 GP II" marked columns: ['API CI-4', 'API SL']
+   DL2-14639.pdf row "10.8% 0.6% HiTEC® 9552 SAE 10W-40 GP II/III2" marked columns: ['API SN', 'API SL', 'API SJ', 'ACEA A3/B4-16', 'MB 229.3', 'RN 0700']
+CF-166 columns of the HiTEC 12210M tables:
+   only in 05/18: ['API CJ-4', 'Ford WSS-M2C214-B1', 'ACEA E7-16', 'ACEA E9-16', 'MTU 2.1', 'Deutz DQC III-10LA']
+   only in 04/22: ['ACEA E7-22', 'ACEA E11-22', 'MAN 3775', 'Deutz DQC III-18LA', 'Allison TES 439']
+   rows 05/18: ['API CK-4 15W-40', 'API CK-4 10W-30', 'API FA-4 10W-30']
+   rows 04/22: ['API CK-4 15W-40', 'API CK-4 10W-40', 'API CK-4 10W-30', 'API FA-4 10W-30']
+   shared rows x shared columns compared: 45; cells that differ: []
+
+OVERALL: PASS (every mark assigned)

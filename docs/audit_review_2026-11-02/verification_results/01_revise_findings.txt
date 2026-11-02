@@ -1,0 +1,6 @@
+$ python tools\audit\review_2026-11-02\revise_findings.py
+exit code: 0
+
+changes: 152 field changes in 124 findings
+type counts v4: {'Edition difference': 100, 'Explainable difference': 18, 'Confirmed contradiction': 32, 'Potential contradiction (comparability uncertain)': 13, 'Data-quality issue': 17}
+type counts v5: {'Edition difference': 98, 'Explainable difference': 17, 'Confirmed contradiction': 29, 'Potential contradiction (comparability uncertain)': 19, 'Data-quality issue': 17}

@@ -1,0 +1,5 @@
+$ python tools\audit\review_2026-11-02\check_sources.py --findings tools\audit\review_2026-11-02\output\findings_v5.json --out C:\Users\windo\OneDrive\Desktop\Smart formulator project\docs\audit_review_2026-11-02\verification_results\source_checks_v5.csv
+exit code: 0
+
+archive/evidence value citations: 351 {'on cited page': 235, 'no numeric value': 8, 'not found': 10, 'not an archive file': 89, 'no text layer': 5, 'on other page(s)': 4}
+OVERALL: PASS
