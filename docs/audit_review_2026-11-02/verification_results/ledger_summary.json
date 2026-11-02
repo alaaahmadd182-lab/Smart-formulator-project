@@ -1,0 +1,50 @@
+{
+ "A": 221,
+ "B": 23,
+ "C": 174,
+ "D": 0,
+ "E": 5,
+ "N": 1,
+ "verified": 418,
+ "total": 424,
+ "complete": false,
+ "findings": 180,
+ "by_kind": {
+  "value citation": 351,
+  "document cited in the explanation": 4,
+  "referenced source": 69
+ },
+ "no_citation": [],
+ "unresolved": [
+  {
+   "id": "CF-142",
+   "kind": "referenced source",
+   "source": "ASTM D874 (sulfated ash), sold by ASTM",
+   "how_verified": "unavailable (not accessed): named only to describe the factors in the JSON calculation note (\"ASTM D874-type\"); the standard was not accessed, so the label cannot be checked against it"
+  },
+  {
+   "id": "CF-143",
+   "kind": "referenced source",
+   "source": "ASTM D874 (sulfated ash), sold by ASTM",
+   "how_verified": "unavailable (not accessed): as CF-142"
+  },
+  {
+   "id": "CF-144",
+   "kind": "referenced source",
+   "source": "ASTM D874-23 (sulfated ash), sold by ASTM",
+   "how_verified": "unavailable (not accessed): the factor table and its conditions are needed to validate either factor set; not accessed (the finding is \"Pending\")"
+  },
+  {
+   "id": "CF-164",
+   "kind": "referenced source",
+   "source": "Afton HiTEC 5748 PDS, edition 03/18",
+   "how_verified": "unavailable (not retrieved): quoted in the open question (\"a typical Shear Stability Index (SSI) of 22\"); not retrieved (Internet Archive search offline on 2026-10-30); not re-tried"
+  },
+  {
+   "id": "CF-164",
+   "kind": "referenced source",
+   "source": "Afton HiTEC 5748 PDS, edition 04/21",
+   "how_verified": "unavailable (not retrieved): quoted in the open question (\"Shear Stability Index %: 22\"); not retrieved; not re-tried"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+$ python tools\audit\review_2026-11-02\check_columns.py --findings tools\audit\review_2026-11-02\output\findings_v5.json --out C:\Users\windo\OneDrive\Desktop\Smart formulator project\docs\audit_review_2026-11-02\verification_results\column_checked_citations.json
+exit code: 0
+
+Petro-Canada: 62 findings checked in grade column and property row of both editions; mismatches 0
+S-OIL web: aramcoULTRA table == Ultra-S table: True | Internet Archive 2026-06-10 == live 2026-10-30: True
+CF-141: three value sets checked in the Ultra-S 6 columns; Cosan sheet equals the catalog for Ultra-S 4 and 8: True
+CF-102: web aramcoULTRA 8 column, KV40 row prints 41.10; recorded 41.1: True
+S-OIL: 23 catalog-vs-web findings checked in grade column and property row; mismatches 0
+citations verified by this check: 174
+OVERALL: PASS

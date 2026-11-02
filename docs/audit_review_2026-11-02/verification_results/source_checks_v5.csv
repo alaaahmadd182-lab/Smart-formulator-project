@@ -1,0 +1,352 @@
+id,value_index,file,page,value,result,where,expected_reason,status
+CF-001,0,DL2-11412.PDF,2,MTU 2.0 claimed,on cited page,2,,ok
+CF-001,1,DL2-14639.pdf,2,MTU 2.0 not claimed,on cited page,2,,ok
+CF-002,0,DL2-11412.PDF,2,DDC 93K215 not claimed,on cited page,2,,ok
+CF-002,1,DL2-14639.pdf,2,DDC 93K215 claimed,on cited page,2,,ok
+CF-003,0,DL2-10204.pdf,1,190,on cited page,1,,ok
+CF-003,1,DL2-10204.pdf,6,110,on cited page,6,,ok
+CF-004,0,DL2-13065.pdf,2,8.18,on cited page,2,,ok
+CF-004,1,DL2-13713.pdf,5,8.18,on cited page,5,,ok
+CF-005,0,DL2-14638.pdf,1,L,no numeric value,,,ok
+CF-005,1,DL2-15581.pdf,1,A,no numeric value,,,ok
+CF-006,0,DL2-14638.pdf,1,L,no numeric value,,,ok
+CF-006,1,DL2-15581.pdf,1,A,no numeric value,,,ok
+CF-007,0,DL2-14638.pdf,1,L,no numeric value,,,ok
+CF-007,1,DL2-15581.pdf,1,A,no numeric value,,,ok
+CF-008,0,DL2-13819.pdf,1,990,on cited page,1,,ok
+CF-008,1,DL2-15451.pdf,1,988,on cited page,1,,ok
+CF-008,2,DL2-13820.pdf,5,990,on cited page,5,,ok
+CF-008,3,DL2-15831.pdf,5,0.988,not found,,"visual check 2026-11-02 (page render): value printed on the cited page; the text layer does not carry it (""Density : 0.988 g/cm³ (20 °C)"")",ok
+CF-009,0,DL2-13819.pdf,1,227,on cited page,1,,ok
+CF-009,1,DL2-15451.pdf,1,185,on cited page,1,,ok
+CF-009,2,DL2-13820.pdf,5,200,on cited page,5,,ok
+CF-009,3,DL2-15831.pdf,5,185,not found,,"visual check 2026-11-02 (page render): value printed on the cited page; the text layer does not carry it (""Viscosity, dynamic : 185 mm²/s (100 °C)"")",ok
+CF-010,0,DL2-13819.pdf,1,106,on cited page,1,,ok
+CF-010,1,DL2-15451.pdf,1,108,on cited page,1,,ok
+CF-010,2,DL2-13820.pdf,5,106,on cited page,5,,ok
+CF-011,0,DL2-13819.pdf,1,1.3,on cited page,1,,ok
+CF-011,1,DL2-15451.pdf,1,1.24,on cited page,1,,ok
+CF-012,0,DL2-13819.pdf,1,3.0,on cited page,1,,ok
+CF-012,1,DL2-15451.pdf,1,3.15,on cited page,1,,ok
+CF-013,0,DL2-15618.pdf,1,118,on cited page,1,,ok
+CF-013,1,DL2-15619.pdf,5,142,not found,,"visual check 2026-11-02 (page render): value printed on the cited page; the text layer does not carry it (""Viscosity, kinematic : 142 mm²/s (100 °C, ASTM D445)"")",ok
+CF-014,0,DL2-15536.pdf,1,998.0,on cited page,1,,ok
+CF-014,1,DL2-15542.pdf,5,0.991,on cited page,5,,ok
+CF-015,0,DL2-15536.pdf,1,160.0,on cited page,1,,ok
+CF-015,1,DL2-15542.pdf,5,150,on cited page,5,,ok
+CF-016,0,DL2-15832.pdf,1,11.85,on cited page,1,,ok
+CF-016,1,RF6078%20-%20TDS.pdf,1,10.85,on cited page,1,,ok
+CF-017,0,DL2-15832.pdf,1,972.0,on cited page,1,,ok
+CF-017,1,RF6078%20-%20TDS.pdf,1,972.0,on cited page,1,,ok
+CF-017,2,DL2-15833.pdf,5,975,not found,,"visual check 2026-11-02 (page render): value printed on the cited page; the text layer does not carry it (""Density : 975 kg/m³ (20 °C, ASTM D4052)"")",ok
+CF-018,0,DL2-15836.pdf,2,132.0,on cited page,2,,ok
+CF-018,1,DL2-15837.pdf,5,130,on cited page,5,,ok
+CF-019,0,DL2-15839.pdf,1,963.0,on cited page,1,,ok
+CF-019,1,DL2-15840.pdf,5,0.958,on cited page,5,,ok
+CF-020,0,DL2-15839.pdf,1,177.0,on cited page,1,,ok
+CF-020,1,DL2-15840.pdf,5,178.2,on cited page,5,,ok
+CF-021,0,DL2-15456.pdf,1,4.1,on cited page,1,,ok
+CF-021,1,DL2-14746.pdf,1,3.7,on cited page,1,,ok
+CF-022,0,DL2-15456.pdf,1,185.0,on cited page,1,,ok
+CF-022,1,DL2-14746.pdf,1,180,on cited page,1,,ok
+CF-023,0,DL2-13944.pdf,1,0.894,on cited page,1,,ok
+CF-024,0,DL2-13944.pdf,1,1.3,on cited page,1,,ok
+CF-024,1,DL2-12173.pdf,1,1.3,on cited page,1,,ok
+CF-025,0,DL2-10414.pdf,1,0.854,on cited page,1,,ok
+CF-025,1,DL2-10414.pdf,1,0.9183,on cited page,1,,ok
+CF-025,2,DL2-10025.pdf,6,"0,92",on cited page,6,,ok
+CF-026,0,DL2-10001.pdf,1,minimum 210 C,on cited page,1,,ok
+CF-026,1,DL2-10011.pdf,3,>230 C,on cited page,3,,ok
+CF-027,0,DL2-15474.pdf,2,2.92,on cited page,2,,ok
+CF-027,1,DL2-12382.pdf,2,2.84,on cited page,2,,ok
+CF-028,0,DL2-15474.pdf,2,0.863,on cited page,2,,ok
+CF-028,1,DL2-12382.pdf,2,0.86,on cited page,2,,ok
+CF-029,0,DL2-15474.pdf,2,95,on cited page,2,,ok
+CF-029,1,DL2-12382.pdf,2,94,on cited page,2,,ok
+CF-030,0,DL2-15474.pdf,2,<10 ppm,on cited page,2,,ok
+CF-030,1,DL2-12382.pdf,2,30 ppm,on cited page,2,,ok
+CF-031,0,DL2-11510.pdf,2,32 cSt (typical),on cited page,2,,ok
+CF-031,1,DL2-13444.pdf,7 (cited in the JSON as p.6),31 cSt (SDS),on cited page,"7,6","PAGE REFERENCE: values printed on p.7 (printed folio 7/12, Section 9), not on the cited p.6; corrected in revision 2026-11-02",ok
+CF-032,0,DL2-11510.pdf,2,"176°C typical, Pensky-Martens (ASTM D93)",on cited page,2,,ok
+CF-032,1,DL2-13444.pdf,7 (cited in the JSON as p.6),>180°C closed cup Pensky-Martens,on cited page,"7,6","PAGE REFERENCE: values printed on p.7 (printed folio 7/12, Section 9), not on the cited p.6; corrected in revision 2026-11-02",ok
+CF-033,0,DL2-10234.pdf,1 (no page in the JSON citation),32.55 cSt at 40°C (ASTM D445),on cited page,1,"NO PAGE in the JSON citation; one-page TDS, value on p.1; page added in revision 2026-11-02",ok
+CF-033,1,DL2-14610.pdf,4,"34.79 mm²/s at 40°C (ASTM D445), page 4",on cited page,4,,ok
+CF-034,0,DL2-10234.pdf,1 (no page in the JSON citation),240°C ASTM D92 (COC),on cited page,1,"NO PAGE in the JSON citation; one-page TDS, value on p.1; page added in revision 2026-11-02",ok
+CF-034,1,DL2-14610.pdf,3,"228°C ASTM D93 (PMCC), page 3",on cited page,3,,ok
+CF-035,0,DL2-10234.pdf,1 (no page in the JSON citation),5.7 mass% ASTM D5800-B,on cited page,1,"NO PAGE in the JSON citation; one-page TDS, value on p.1; page added in revision 2026-11-02",ok
+CF-035,1,DL2-14610.pdf,4,"5.3 mass% ASTM D5800 B, page 4",on cited page,4,,ok
+CF-036,0,DL2-10234.pdf,1 (no page in the JSON citation),0.8429 kg/L (temperature not stated),on cited page,1,"NO PAGE in the JSON citation; one-page TDS, value on p.1; page added in revision 2026-11-02",ok
+CF-036,1,DL2-14610.pdf,4,"0.8486 g/cm³ at 15°C ASTM D4052, page 4",on cited page,4,,ok
+CF-037,0,DL2-10020.pdf,2,21.5,on cited page,2,,ok
+CF-037,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,21.7,not an archive file,,,ok
+CF-038,0,DL2-10020.pdf,2,4.4,on cited page,2,,ok
+CF-038,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,4.45,not an archive file,,,ok
+CF-039,0,DL2-10020.pdf,2,115,on cited page,2,,ok
+CF-039,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,117,not an archive file,,,ok
+CF-040,0,DL2-10020.pdf,2,15.5,on cited page,2,,ok
+CF-040,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,16,not an archive file,,,ok
+CF-041,0,DL2-10020.pdf,2,-18,on cited page,2,,ok
+CF-041,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,-24,not an archive file,,,ok
+CF-042,0,DL2-10020.pdf,2,210,on cited page,2,,ok
+CF-042,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,226,not an archive file,,,ok
+CF-043,0,DL2-10020.pdf,2,4.3,on cited page,2,,ok
+CF-043,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,4.33,not an archive file,,,ok
+CF-044,0,DL2-10020.pdf,2,107,on cited page,2,,ok
+CF-044,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,109,not an archive file,,,ok
+CF-045,0,DL2-10020.pdf,2,741,on cited page,2,,ok
+CF-045,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,861,not an archive file,,,ok
+CF-046,0,DL2-10020.pdf,2,1321,on cited page,2,,ok
+CF-046,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,1330,not an archive file,,,ok
+CF-047,0,DL2-10020.pdf,2,22.4,on cited page,2,,ok
+CF-047,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,22,not an archive file,,,ok
+CF-048,0,DL2-10020.pdf,2,-24,on cited page,2,,ok
+CF-048,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,-21,not an archive file,,,ok
+CF-049,0,DL2-10020.pdf,2,225,on cited page,2,,ok
+CF-049,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,217,not an archive file,,,ok
+CF-050,0,DL2-10020.pdf,2,22.3,on cited page,2,,ok
+CF-050,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,21.3,not an archive file,,,ok
+CF-051,0,DL2-10020.pdf,2,4.4,on cited page,2,,ok
+CF-051,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,4.16,not an archive file,,,ok
+CF-052,0,DL2-10020.pdf,2,94,on cited page,2,,ok
+CF-052,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,93,not an archive file,,,ok
+CF-053,0,DL2-10020.pdf,2,33.6,on cited page,2,,ok
+CF-053,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,27,not an archive file,,,ok
+CF-054,0,DL2-10020.pdf,2,-18,on cited page,2,,ok
+CF-054,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,-21,not an archive file,,,ok
+CF-055,0,DL2-10020.pdf,2,210,on cited page,2,,ok
+CF-055,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,207,not an archive file,,,ok
+CF-056,0,DL2-10020.pdf,2,41.5,on cited page,2,,ok
+CF-056,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,40.2,not an archive file,,,ok
+CF-057,0,DL2-10020.pdf,2,6.3,on cited page,2,,ok
+CF-057,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,6.27,not an archive file,,,ok
+CF-058,0,DL2-10020.pdf,2,102,on cited page,2,,ok
+CF-058,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,103,not an archive file,,,ok
+CF-059,0,DL2-10020.pdf,2,0.87,on cited page,2,,ok
+CF-059,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,0.86,not an archive file,,,ok
+CF-060,0,DL2-10020.pdf,2,3400,on cited page,2,,ok
+CF-060,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,2708,not an archive file,,,ok
+CF-061,0,DL2-10020.pdf,2,7000,on cited page,2,,ok
+CF-061,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,5361,not an archive file,,,ok
+CF-062,0,DL2-10020.pdf,2,240,on cited page,2,,ok
+CF-062,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,233,not an archive file,,,ok
+CF-063,0,DL2-10020.pdf,2,45.4,on cited page,2,,ok
+CF-063,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,44.8,not an archive file,,,ok
+CF-064,0,DL2-10020.pdf,2,7.0,on cited page,2,,ok
+CF-064,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,6.97,not an archive file,,,ok
+CF-065,0,DL2-10020.pdf,2,110,on cited page,2,,ok
+CF-065,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,113,not an archive file,,,ok
+CF-066,0,DL2-10020.pdf,2,6200,on cited page,2,,ok
+CF-066,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,5660,not an archive file,,,ok
+CF-067,0,DL2-10020.pdf,2,-15,on cited page,2,,ok
+CF-067,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,-18,not an archive file,,,ok
+CF-068,0,DL2-10020.pdf,2,230,on cited page,2,,ok
+CF-068,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,242,not an archive file,,,ok
+CF-069,0,DL2-10020.pdf,2,3.7,on cited page,2,,ok
+CF-069,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,3.83,not an archive file,,,ok
+CF-070,0,DL2-10020.pdf,2,0.82,on cited page,2,,ok
+CF-070,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,0.83,not an archive file,,,ok
+CF-071,0,DL2-10020.pdf,2,135,on cited page,2,,ok
+CF-071,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,134,not an archive file,,,ok
+CF-072,0,DL2-10020.pdf,2,3.4,on cited page,2,,ok
+CF-072,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,3.62,not an archive file,,,ok
+CF-073,0,DL2-10020.pdf,2,1.3,on cited page,2,,ok
+CF-073,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,1.37,not an archive file,,,ok
+CF-074,0,DL2-10020.pdf,2,0.85,on cited page,2,,ok
+CF-074,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,0.84,not an archive file,,,ok
+CF-075,0,DL2-10020.pdf,2,-33,on cited page,2,,ok
+CF-075,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,-27,not an archive file,,,ok
+CF-076,0,DL2-10020.pdf,2,126,on cited page,2,,ok
+CF-076,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,127,not an archive file,,,ok
+CF-077,0,DL2-10020.pdf,2,97.8,on cited page,2,,ok
+CF-077,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,96.4,not an archive file,,,ok
+CF-078,0,DL2-10020.pdf,2,2.2,on cited page,2,,ok
+CF-078,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,3.6,not an archive file,,,ok
+CF-079,0,DL2-10020.pdf,2,6.3,on cited page,2,,ok
+CF-079,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,6.31,not an archive file,,,ok
+CF-080,0,DL2-10020.pdf,2,1.9,on cited page,2,,ok
+CF-080,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,1.94,not an archive file,,,ok
+CF-081,0,DL2-10020.pdf,2,5.2,on cited page,2,,ok
+CF-081,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,5.51,not an archive file,,,ok
+CF-082,0,DL2-10020.pdf,2,1.7,on cited page,2,,ok
+CF-082,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,1.78,not an archive file,,,ok
+CF-083,0,DL2-10020.pdf,2,-6,on cited page,2,,ok
+CF-083,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,-12,not an archive file,,,ok
+CF-084,0,DL2-10020.pdf,2,151,on cited page,2,,ok
+CF-084,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,152,not an archive file,,,ok
+CF-085,0,DL2-10020.pdf,2,98.5,on cited page,2,,ok
+CF-085,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,97.7,not an archive file,,,ok
+CF-086,0,DL2-10020.pdf,2,1.5,on cited page,2,,ok
+CF-086,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,2.3,not an archive file,,,ok
+CF-087,0,DL2-10020.pdf,2,10.2,on cited page,2,,ok
+CF-087,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,9.61,not an archive file,,,ok
+CF-088,0,DL2-10020.pdf,2,2.4,on cited page,2,,ok
+CF-088,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,2.51,not an archive file,,,ok
+CF-089,0,DL2-10020.pdf,2,87,on cited page,2,,ok
+CF-089,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,80,not an archive file,,,ok
+CF-090,0,DL2-10020.pdf,2,0.85,on cited page,2,,ok
+CF-090,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,0.86,not an archive file,,,ok
+CF-091,0,DL2-10020.pdf,2,-27,on cited page,2,,ok
+CF-091,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,-21,not an archive file,,,ok
+CF-092,0,DL2-10020.pdf,2,171,on cited page,2,,ok
+CF-092,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,178,not an archive file,,,ok
+CF-093,0,DL2-10020.pdf,2,92,on cited page,2,,ok
+CF-093,1,PetroCanada_PURITY_LUB3213E_2023-03__wayback_20251215051152.pdf,2,104,on cited page,2,,ok
+CF-094,0,DL2-10020.pdf,2,9.5,on cited page,2,,ok
+CF-094,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,9.33,not an archive file,,,ok
+CF-095,0,DL2-10020.pdf,2,2.6,on cited page,2,,ok
+CF-095,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,2.57,not an archive file,,,ok
+CF-096,0,DL2-10020.pdf,2,92,on cited page,2,,ok
+CF-096,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,104,not an archive file,,,ok
+CF-097,0,DL2-10020.pdf,2,-30,on cited page,2,,ok
+CF-097,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,-42,not an archive file,,,ok
+CF-098,0,DL2-10020.pdf,2,177,on cited page,2,,ok
+CF-098,1,https://petrocanadalubricants.com/-/media/pdfs/brochures/purity/purity-base-oil_lub3213e.ashx,2,185,not an archive file,,,ok
+CF-099,0,DL2-13728.pdf,1,806,on cited page,1,,ok
+CF-099,1,DL2-13729.pdf,8,803.5,on cited page,8,,ok
+CF-100,0,DL2-13726.pdf,1,816,on cited page,1,,ok
+CF-100,1,DL2-13730.pdf,8,813.8,on cited page,8,,ok
+CF-101,0,DL2-13727.pdf,1,828,on cited page,1,,ok
+CF-101,1,DL2-13731.pdf,7,824.8,not found,,"visual check 2026-11-02 (page render): value printed on the cited page; the text layer does not carry it (""Density : 824.8 kg/m3 (15.0 °C / 59.0 °F) Method: ISO 12185""; encoded font)",ok
+CF-102,0,DL2-14611.pdf,2,42.0 - 55.0,on cited page,2,,ok
+CF-102,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,41.1,not an archive file,,,ok
+CF-103,0,DL2-11177.pdf,1,7.117,on cited page,1,,ok
+CF-103,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,7.62,not an archive file,,,ok
+CF-104,0,DL2-11177.pdf,1,2.174,on cited page,1,,ok
+CF-104,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,2.25,not an archive file,,,ok
+CF-105,0,DL2-11177.pdf,1,109,on cited page,1,,ok
+CF-105,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,103,not an archive file,,,ok
+CF-106,0,DL2-11177.pdf,1,-37.5,on cited page,1,,ok
+CF-106,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,-36,not an archive file,,,ok
+CF-107,0,DL2-11177.pdf,1,13.47,on cited page,1,,ok
+CF-107,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,14.0,not an archive file,,,ok
+CF-108,0,DL2-11177.pdf,1,3.315,on cited page,1,,ok
+CF-108,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,3.38,not an archive file,,,ok
+CF-109,0,DL2-11177.pdf,1,117,on cited page,1,,ok
+CF-109,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,115,not an archive file,,,ok
+CF-110,0,DL2-11177.pdf,1,204,on cited page,1,,ok
+CF-110,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,202,not an archive file,,,ok
+CF-111,0,DL2-11177.pdf,1,-25.0,on cited page,1,,ok
+CF-111,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,-27,not an archive file,,,ok
+CF-112,0,DL2-11177.pdf,1,19.62,on cited page,1,,ok
+CF-112,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,19.7,not an archive file,,,ok
+CF-113,0,DL2-11177.pdf,1,4.247,on cited page,1,,ok
+CF-113,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,4.27,not an archive file,,,ok
+CF-114,0,DL2-11177.pdf,1,123,on cited page,1,,ok
+CF-114,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,124,not an archive file,,,ok
+CF-115,0,DL2-11177.pdf,1,228,on cited page,1,,ok
+CF-115,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,220,not an archive file,,,ok
+CF-116,0,DL2-11177.pdf,1,33.32,on cited page,1,,ok
+CF-116,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,32.54,not an archive file,,,ok
+CF-117,0,DL2-11177.pdf,1,6.0,on cited page,1,,ok
+CF-117,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,6.04,not an archive file,,,ok
+CF-118,0,DL2-11177.pdf,1,127,on cited page,1,,ok
+CF-118,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,134,not an archive file,,,ok
+CF-119,0,DL2-11177.pdf,1,235,on cited page,1,,ok
+CF-119,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,240,not an archive file,,,ok
+CF-120,0,DL2-11177.pdf,1,-20,on cited page,1,,ok
+CF-120,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,-16,not an archive file,,,ok
+CF-121,0,DL2-11177.pdf,1,43.89,on cited page,1,,ok
+CF-121,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,41.1,not an archive file,,,ok
+CF-122,0,DL2-11177.pdf,1,7.234,on cited page,1,,ok
+CF-122,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,7.1,not an archive file,,,ok
+CF-123,0,DL2-11177.pdf,1,127,on cited page,1,,ok
+CF-123,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,134,not an archive file,,,ok
+CF-124,0,DL2-11177.pdf,1,256,on cited page,1,,ok
+CF-124,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,250,not an archive file,,,ok
+CF-125,0,DL2-11177.pdf,1,-15,on cited page,1,,ok
+CF-125,1,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,-14,not an archive file,,,ok
+CF-126,0,DL2-11912.pdf,1,265,on cited page,1,,ok
+CF-126,1,DL2-11906.PDF,3 and 4,255,on cited page,"3,4",,ok
+CF-126,1,DL2-14992.pdf,3 and 4,255,on cited page,"3,4",,ok
+CF-127,0,DL2-11913.pdf,1,278,on cited page,1,,ok
+CF-127,1,DL2-11909.PDF,3 and 4,250,on cited page,"3,4",,ok
+CF-128,0,DL2-11914.pdf,1,226,on cited page,1,,ok
+CF-128,1,DL2-11904.PDF,3 and 5,219,on cited page,"3,5",,ok
+CF-129,0,DL2-11915.pdf,1,245,on cited page,1,,ok
+CF-129,1,DL2-11907.pdf,2 and 4,238,on cited page,"2,4",,ok
+CF-130,0,DL2-11916.pdf,1,262,on cited page,1,,ok
+CF-130,1,DL2-11905.PDF,3 and 5,257,on cited page,"3,5",,ok
+CF-131,0,DL2-14990.pdf,1,159,on cited page,1,,ok
+CF-131,1,DL2-13192.pdf,1,164,on cited page,1,,ok
+CF-131,2,DL2-14991.pdf,4 and 6,160,on cited page,"4,6",,ok
+CF-132,0,DL2-14990.pdf,1,5.1,on cited page,1,,ok
+CF-132,1,DL2-13192.pdf,1,5.0,on cited page,1,,ok
+CF-133,0,DL2-13193.pdf,1,viscosity_index 144; pour_point -45; noack_volatility 5.5,on cited page,1,,ok
+CF-133,1,DL2-13200.pdf,1,viscosity_index 145; pour_point -46; noack_volatility 5.6,on cited page,1,,ok
+CF-134,0,DL2-13194.pdf,1,kv40 37.3; viscosity_index 148; pour_point -42; flash_point 262; noack_volatility 3.3,on cited page,1,,ok
+CF-134,1,DL2-13200.pdf,1,kv40 37.7; viscosity_index 146; pour_point -43; flash_point 264; noack_volatility 3.7,on cited page,1,,ok
+CF-135,0,DL2-13196.pdf,1,kv40 53.9; kv100 9.0; pour_point -36; flash_point 276; noack_volatility 2.2,on cited page,1,,ok
+CF-135,1,DL2-13200.pdf,1,kv40 53.4; kv100 8.9; pour_point -34; flash_point 280; noack_volatility 2.4,on cited page,1,,ok
+CF-136,0,DL2-13202.pdf,1,-63,on cited page,1,,ok
+CF-136,1,DL2-13200.pdf,1,-53,on cited page,1,,ok
+CF-137,0,DL2-11378.pdf,1,277.0,on cited page,1,,ok
+CF-137,1,DL2-11849.pdf,2 and 5,246,on cited page,"2,5",,ok
+CF-138,0,DL2-11378.pdf,1,kv40 1649.0; kv100 156.0,on cited page,1,,ok
+CF-138,1,DL2-11849.pdf,5,kv40 1731; kv100 157,on cited page,5,,ok
+CF-139,0,DL2-12120.pdf,1,kv40 84.0; kv100 8.3,on cited page,1,,ok
+CF-139,1,DL2-12989.pdf,5,kv40 86.7; kv100 8.5,on cited page,5,,ok
+CF-140,0,DL2-12172.pdf,1,minimum 175,on cited page,1,,ok
+CF-140,1,DL2-15448.pdf,5,168,on cited page,5,,ok
+CF-141,0,DL2-11177.pdf,1,kv40 33.32; kv100 6.0; VI 127; flash 235; pour -20,on cited page,1,,ok
+CF-141,1,"DL2-11240.pdf (= DL2-11241.pdf, DL2-11242.pdf, byte-identical)",1,kv40 32.69; kv100 6.017; VI 132; flash 234; pour -17.5; Noack 7.9; Sp.Gravity 15/4 °C 0.840,not an archive file,,,ok
+CF-141,2,https://www.s-oil.com/en/energy/LubeBaseOil.aspx,,kv40 32.54; kv100 6.04; VI 134; flash 240; pour -16,not an archive file,,,ok
+CF-142,1,DL2-11503.pdf,2,7,on cited page,2,,ok
+CF-143,1,DL2-15722.pdf,2,10,on cited page,2,,ok
+CF-145,0,https://www.adnoc.ae/-/media/adnoc-v2/files/our-products/adnoc-base-oil-spec-group-ii--group-iii.ashx?hash=E8C7E60F6ED980EDDDB910B5EB2375E21F42336C&la=en,3,Group II,not an archive file,,,ok
+CF-145,1,DL2-12221.pdf,1,120,on cited page,1,,ok
+CF-146,0,DL2-12172.pdf,1,Group II,no numeric value,,,ok
+CF-146,1,DL2-12172.pdf,1,76,on cited page,1,,ok
+CF-147,0,DL2-11261.pdf,1,Group III,no numeric value,,,ok
+CF-147,1,DL2-11261.pdf,2,100,on cited page,2,,ok
+CF-148,0,DL2-15831.pdf,5,≥ 180 (lower bound),not found,,"visual check 2026-11-02 (page render): value printed on the cited page; the text layer does not carry it (""Flash point : ≥ 180 °C (open cup)"")",ok
+CF-148,1,DL2-15451.pdf,1,220 (typical),on cited page,1,,ok
+CF-149,0,DL2-15619.pdf,5,≥ 180 (lower bound),not found,,"visual check 2026-11-02 (page render): value printed on the cited page; the text layer does not carry it (""Flash point : >= 180 °C (ASTM D92)"")",ok
+CF-149,1,DL2-15618.pdf,1,216 (typical),on cited page,1,,ok
+CF-150,0,DL2-15542.pdf,5,≥ 180 (lower bound),on cited page,5,,ok
+CF-150,1,DL2-15536.pdf,1,210 (typical),on cited page,1,,ok
+CF-151,0,DL2-15833.pdf,5,≥ 180 (lower bound),not found,,"visual check 2026-11-02 (page render): value printed on the cited page; the text layer does not carry it (""Flash point : >= 180 °C (ASTM D92)"")",ok
+CF-151,1,DL2-15832.pdf,1,220 (typical),on cited page,1,,ok
+CF-151,1,RF6078 - TDS.pdf,1,220 (typical),on cited page,1,,ok
+CF-152,0,DL2-15541.pdf,5,≥ 180 (lower bound),not found,,"visual check 2026-11-02 (page render): value printed on the cited page; the text layer does not carry it (""Flash point : ≥180 ℃"", no method)",ok
+CF-152,1,DL2-15535.pdf,1,214 (typical),on cited page,1,,ok
+CF-152,1,RF6079 Diesel Engine Oil Additive Package.pdf,1,214 (typical),on cited page,1,,ok
+CF-153,0,DL2-15838.pdf,5,≥ 180 (lower bound),on cited page,5,,ok
+CF-153,1,DL2-15452.pdf,1,203 (typical),on cited page,1,,ok
+CF-154,0,DL2-15840.pdf,5,≥ 180 (lower bound),on cited page,5,,ok
+CF-154,1,DL2-15839.pdf,1,218 (typical),on cited page,1,,ok
+CF-155,0,DL2-15850.pdf,5,≥ 180 (lower bound),on cited page,5,,ok
+CF-155,1,DL2-15849.pdf,1,226 (typical),on cited page,1,,ok
+CF-155,1,RF6400 TDS.pdf,1,226 (typical),on cited page,1,,ok
+CF-156,0,RF6406.pdf,5,≥ 180 (lower bound),on cited page,5,,ok
+CF-156,1,DL2-15456.pdf,1,223 (typical),on cited page,1,,ok
+CF-157,0,DL2-10203.pdf,1,110,on cited page,1,,ok
+CF-158,0,DL2-10217.pdf,1,110,no text layer,,"visual check 2026-11-02: scanned page; ""Flash Point Deg C | 110 Minimum | °C | ASTM D93"" under ""Typical Inspections"", footnote ""(a)Not a specification""",ok
+CF-159,0,DL2-15831.pdf,5,185,not found,,"visual check 2026-11-02 (page render): value printed on the cited page; the text layer does not carry it (""Viscosity, dynamic : 185 mm²/s (100 °C)""; ""Viscosity, kinematic : Not available"")",ok
+CF-160,0,DL2-12939.pdf,1,1.013,on cited page,1,,ok
+CF-161,0,DL2-14874.pdf,1,≮180 (index); 210 (typical),on cited page,1,,ok
+CF-161,1,RF6602.pdf,4,160,on cited page,4,,ok
+CF-162,0,DL2-14874.pdf,1,short-term storage and transportation ≤ 75 ℃; long-term storage ≤ 45 ℃,on cited page,1,,ok
+CF-162,1,https://www.richful.com/rfapi/api/product/getproductbyid?productId=105,,short-term storage and transportation ≤ 60 ℃; long-term ≤ 45 ℃,not an archive file,,,ok
+CF-163,0,DL2-13819.pdf,1,storage ≤ 50 ℃; loading/unloading and blending ≤ 60 ℃,on cited page,1,,ok
+CF-163,1,DL2-15451.pdf,1,long-term storage ≤ 45 ℃; loading/unloading or blending ≤ 65 ℃,on cited page,1,,ok
+CF-164,0,Afton_HiTEC-5748_PDS_05-23__wayback_20241005085229.pdf,2,Shear Stability Index %: 22,on cited page,2,"NO PAGE cited; ""Shear Stability Index %:"" on p.2 of the saved evidence copy; page added in revision 2026-11-02",ok
+CF-164,1,Afton_HiTEC-5748_PDS_07-11__wayback_20120503020512.pdf,2,"""It is based on 23 SSI polymer""",on cited page,2,"NO PAGE cited; ""It is based on 23 SSI polymer"" on p.2 of the saved evidence copy; page added in revision 2026-11-02",ok
+CF-164,2,DL2-13692.pdf,2,"""HiTEC® 5748 25SSI OCP"" / ""25SSI viscosity modifier""",on cited page,2,,ok
+CF-165,0,DL2-14639.pdf,2,14.2 % = 10.3 % + 4.2 % (sum is 14.5 %),on other page(s),2,"composite value: 14.2, 10.3 and 4.2 printed on p.2 (footnote 1); 14.5 is the audit's own sum",ok
+CF-168,0,DL2-12172.pdf,1,0.8500,on cited page,1,,ok
+CF-168,1,DL2-11773.pdf,1,0.8510,no text layer,,"visual check: image-only brochure, Group II table, aramcoPRIMA 110* column, Density @ 15°C, Kg/L 0.8510",ok
+CF-169,0,DL2-12172.pdf,1,0.8630,on cited page,1,,ok
+CF-169,1,DL2-11773.pdf,1,0.8625,no text layer,,"visual check: image-only brochure, aramcoPRIMA 230* column, 0.8625",ok
+CF-170,0,DL2-12172.pdf,1,0.867,on cited page,1,,ok
+CF-170,1,DL2-11773.pdf,1,0.8720,no text layer,,"visual check: image-only brochure, aramcoPRIMA 500 column (no asterisk), 0.8720",ok
+CF-171,0,DL2-15139.pdf,1,"""Distillates (petroleum), hydrotreated light paraffinic"" with CAS 64742-54-7",on other page(s),1,composite value: name and CAS 64742-54-7 printed on p.1; the other numbers are part of the CAS number,ok
+CF-172,0,DL2-11177.pdf,1,0.843,on cited page,1,,ok
+CF-172,1,DL2-15237.pdf,2,0.841,on cited page,2,,ok
+CF-172,2,DL2-11240.pdf,1,0.840,on cited page,1,,ok
+CF-173,0,DL2-11303.pdf,1,"0,8299",on cited page,1,,ok
+CF-174,0,DL2-11304.pdf,1,"0,8338",on cited page,1,,ok
+CF-175,0,DL2-11305.pdf,1,"0,8363",on cited page,1,,ok
+CF-176,0,DL2-11306.pdf,1,"0,8423",on cited page,1,,ok
+CF-178,0,DL2-12108.jpeg,1,FPCC GII table columns 150N / 500N vs FORMOSA_150N_GII_PLUS and FORMOSA_500N_GII,no text layer,,"visual check: image; ""Specification of FPCC API GII Base Oil"", Specification and Typical (2017 AUG) columns 70N/150N/500N",ok
+CF-180,1,DL2-15832.pdf,1,"DL2-15832.pdf p.1: ""ACEA E7/API CI-4 11.85%"", ""API CI-4 10.85%""; RF6078 - TDS.pdf p.1: ""ACEA E7/API CI-4 10.85%"", ""API CI-4 Plus 11.85%""",on other page(s),1,composite quotation of two files; each quoted row read on p.1 of its own file,ok
+CF-180,1,RF6078%20-%20TDS.pdf,1,"DL2-15832.pdf p.1: ""ACEA E7/API CI-4 11.85%"", ""API CI-4 10.85%""; RF6078 - TDS.pdf p.1: ""ACEA E7/API CI-4 10.85%"", ""API CI-4 Plus 11.85%""",on other page(s),1,composite quotation of two files; each quoted row read on p.1 of its own file,ok

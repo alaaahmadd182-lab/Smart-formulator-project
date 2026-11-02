@@ -26,7 +26,9 @@ other seven were deliberately left unchanged.
 
 **CF-136.** Read in the row-label order (°F, °C), −53 °F would be about −47 °C, not −63 °C. The pair is consistent
 only as −53 °C = −63 °F. The sheet's other °F, °C rows do follow the label order: flash 362 (183) and fire 396 (202).
-No method is printed in DL2-13202.pdf, so the method stays null; ASTM D5950 appears only in the 2012 sheet.
+No method is printed in DL2-13202.pdf, so the method stays null; ASTM D 5950 is printed for the pour-point row in the
+family table DL2-13200.pdf (whose C12 Dimer column prints -53 (-63)) and in the 2012 sheet. *(Corrected 2026-11-02; see
+"Errata" below.)*
 
 **CF-142 and CF-143.** The values were checked by word position in both PDFs:
 - The "Typical" column sits at x=347, under the p.1 header "Minimum % Weight | Typical | Maximum % Weight".
@@ -106,3 +108,24 @@ accessed.
 - The Chevron Phillips 2012 sheet is cited in a field note, not as a field source, and is not added to
   `source_registry.json`.
 - `reconciliation/README.md` does not list this log.
+
+## Errata (2026-11-02)
+
+Found in the review of the audit documentation (`docs/audit_review_2026-11-02/`). The product-data changes above are
+not affected.
+
+- **CF-136, method.** This log said "ASTM D5950 appears only in the 2012 sheet". That was wrong: the Synfluid
+  typical-properties table DL2-13200.pdf p.1 prints "ASTM D 5950" as the test method of the row
+  "Pour Point, °C (°F)", which covers the C12 Dimer column (-53 (-63)). The sentence in "Details of the changes" now
+  says so. The field `method` stays null because the cited source DL2-13202.pdf prints no method; the JSON
+  `calculation_note` quotes DL2-13200 and the 2012 sheet correctly and makes no "only" claim, so no product data needed a
+  change.
+- **"Not done", now out of date.** The batch was committed (`28265fd`) and merged with PR #5 (`545fd3d`), and
+  `reconciliation/README.md` lists this log. The list above records the state when the log was written.
+- **Audit snapshot.** The audit report and CSV were kept unchanged as the 2026-10-30 snapshot until 2026-11-02, when
+  version 5 corrected their reporting (`comprehensive_conflicts_audit.md`, section 8.3). Version 5 lists the corrections in
+  this log as the later state of CF-136, CF-142, CF-143, CF-144, CF-159 and CF-180 (section 8.4).
+- **CF-144, verification status.** ASTM D874 has still not been accessed. The review's source ledger
+  (`docs/audit_review_2026-11-02/verification_results/citation_ledger.csv`) records it as an unresolved source of
+  CF-142, CF-143 and CF-144, so the statement above that CF-144 "stands for the 24 records" describes the inconsistent
+  factors only. Neither factor set has been validated.
