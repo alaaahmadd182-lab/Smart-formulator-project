@@ -6,7 +6,7 @@ opened as a PR.**
 | | Commit |
 |---|---|
 | Baseline (shared with Workstream B) | `f4d97e71f72598df601b72403775581c34061ad1` (origin/main, "Merge pull request #6") |
-| Workstream A content commit | see `git log --oneline f4d97e7..HEAD` (the first commit after the baseline) |
+| Workstream A content commit | `8702228ff8e465131a2a286c67775259214bb983` |
 | Final local commit | the commit that adds the content-commit hash to this file (`git log -1`) |
 
 ## 1. Changed files (summary)
