@@ -2027,3 +2027,33 @@ Each of the 33 overrides in `integrate_products.py` was checked against the curr
 - PETRO_CANADA_PURITY_L65: the viscosity-index conflict is stored as text, so it carries no `resolved` key; the proposal on origin/main (keep the TDS value 92 over the brochure value 104) was not adopted.
 - `integrate_products.py` was revised on 2026-10-24 to follow the data rules: it no longer averages values, prefers a document type or sets a value, status or source; its remaining annotations are the 10 accepted notes above, each pinned to the reviewed field, and the 16 accepted conflict rules. It has not been run on the repository; a test run on a temporary copy left all original keys, all kept normalised keys and all conflict entries unchanged, and would add normalised keys to the 564 value objects that have none. Conflict entries recorded on this branch have no rule and stay unresolved as recorded.
 - Components: AFTON_HITEC_8767B, AFTON_HITEC_12250 and LUBRIZOL_CV6320 carry the seven viscosity-modifier fields inside `general.json` (21 fields), whereas the viscosity modifiers AFTON_HITEC_5748 and RF6602 keep them in a separate `vm.json` as the templates do. Each record states why (Missing pending the product's function for 8767B and 12250; `Not Applicable` for CV6320, whose printed function is an ashless antiwear booster). `Not Applicable` is defined in the templates' status vocabulary. Decide whether this layout is an accepted variation or should move to the template layout.
+
+## Source-selection policy and mandatory Tier 1 review, 2026-11-10
+
+Added 2026-11-10 (Workstream A, branch `feat/data-policy-mandatory-review`). The sections above are historical and are not rewritten; where they say a 2026-10-18 user decision or "no automatic TDS preference" applies, this section supersedes them. Policy: `docs/data_policy_mandatory_review/source_selection_policy.md`; full change list: `reports/data_policy/source_selection_changes.csv`.
+
+### Selected values changed to the technical-document value (28 fields)
+
+- INFINEUM_D3424 (tier 2) `flash_point`: SDS bound > 110 °C → TDS 190 °C (PMCC, ASTM D 93, DL2-10204.pdf p.1). The SDS bound stays as an alternate; the conflict stays open.
+- RICHFUL RF6066, RF6069, RF6077, RF6078, RF6079, RF6088, RF6088F, RF6400, RF6406 (tier 2) `flash_point`: SDS lower bound (≥/≮ 180 °C) → TDS typical (COC, ASTM D92). The bound is a lower bound, not a "safety margin".
+- RICHFUL RF6069, RF6077, RF6079, RF6088, RF6400, RF6406 (tier 2) `density`: → TDS typical at 20 °C (kg/m³, index range in min/max).
+- RICHFUL RF6077, RF6078, RF6079, RF6088, RF6088F, RF6400, RF6406 (tier 2) `kv100`: → TDS typical.
+- NESTE_NEXBASE_3020: the open question "No product TDS supplied" was wrong. The family TDS DL2-10962.pdf (Edition 8, image) has a 3020 column; KV40 7.5, KV100 2.2 mm²/s and density 834 kg/m³ at 15 °C (tier 1) and pour point −45 °C and flash point 160 °C (tier 2) are now taken from it. API group, VI and sulfur remain Missing.
+
+### Superseded user decisions (confirmation needed)
+
+- RICHFUL_RF6077 `tier2.density` and `tier2.kv100`, RICHFUL_RF6088F `tier2.kv100`: the 2026-10-18 decisions kept the SDS values. Under the 2026-11-10 policy the TDS values are selected (998 kg/m³ at 20 °C; 160 mm²/s; 177 mm²/s); the SDS values are kept as alternates and the three conflicts are **reopened** (`resolved: false`). The SDS density of RF6077 is at 15 °C and the TDS density at 20 °C, so the two are not directly comparable.
+
+### Not changed (documented)
+
+- Exceptions (SDS kept): PETRONAS_ETRO_6_PLUS density (TDS 0.8429 kg/L, no temperature); AFTON_HITEC_12210M density (bulletin lbs/gal, no temperature).
+- Pending: FORMOSA_150N_GII_PLUS and FORMOSA_500N_GII kv100 (specification range vs SDS typical); RICHFUL_RF6066 (two undated TDS); RICHFUL_RF6069 kv100 (supplier web page 142 vs archived TDS 118); S_OIL_ARAMCO_ULTRA_8 (external web table vs SDS ranges); AFTON_HITEC_8788B (external PDS not reviewed); NEXBASE 3043–3080 (family TDS Edition 8 vs individual sheets).
+
+### TDS–SDS screening thresholds (awaiting review)
+
+- 65 TDS–SDS comparisons are inventoried in `reports/data_policy/tds_sds_comparisons.csv`; the proposed property-specific thresholds are in `docs/data_policy_mandatory_review/threshold_proposal.md`. No conflict here or in the v5 audit has been reclassified; all entries above keep their current state until the thresholds are approved.
+
+### Mandatory Tier 1 eligibility
+
+- `reports/mandatory_properties/product_eligibility.csv`: 11 of 181 base oils are formulation-eligible under the mandatory-data rules; 0 of 78 packages (none has a published formulation) and 0 of 5 components. Ineligible products stay in the database. Unmet requirements per product: `reports/mandatory_properties/missing_mandatory_properties.csv`.
+- SHELL_RISELLA_X_415/420/430: the `Not Required` labels on API group (and CCS for 420/430) rely on a proposed, unapproved applicability rule, so they do not satisfy the requirement.

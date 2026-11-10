@@ -298,24 +298,50 @@
       "unit_conversion": "kg/m3 -> g/cm³ (x0.001)"
     },
     "flash_point": {
-      "value": 110,
-      "qualifier": ">",
-      "min": 110,
+      "value": 190,
+      "qualifier": null,
+      "min": null,
       "max": null,
-      "value_kind": "specification",
-      "printed_text": "Flash Point [Method]: >110C (230F) [ ASTM D-93]",
+      "value_kind": "typical",
+      "printed_text": "Flash Point (PM) 190 °C ASTM D 93",
       "unit": "°C",
       "test_temperature_c": null,
-      "method": "ASTM D-93",
+      "method": "ASTM D 93",
       "status": "Reported",
-      "calculation_note": "More recent SDS value (02Dec2008). TDS p.1 (2004) prints 'Flash Point (PM) 190 °C' typical; see conflicts.",
+      "calculation_note": "\"Typical Inspections\" table of the TDS (p.1, version 9th November 2004 (3.1)), footnote \"(a) Not a specification\". The SDS in the same file (p.6, revision 02Dec2008) prints \">110C (230F)\", a lower bound that the typical value meets. A newer SDS revision is not a newer edition of the TDS.",
       "source": {
         "file": "DL2-10204.pdf",
-        "page": 6,
-        "revision_date": "2008-12-02"
+        "page": 1,
+        "revision_date": "2004-11-09"
       },
       "flash_method": "PMCC",
-      "notes": null
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "alternate_entries": [
+        {
+          "value": 110,
+          "qualifier": ">",
+          "min": 110,
+          "max": null,
+          "value_kind": "lower bound",
+          "printed_text": "Flash Point [Method]: >110C (230F) [ ASTM D-93]",
+          "unit": "°C",
+          "test_temperature_c": null,
+          "method": "ASTM D-93",
+          "status": "Reported",
+          "calculation_note": "More recent SDS value (02Dec2008). TDS p.1 (2004) prints 'Flash Point (PM) 190 °C' typical; see conflicts.",
+          "source": {
+            "file": "DL2-10204.pdf",
+            "page": 6,
+            "revision_date": "2008-12-02"
+          },
+          "flash_method": "PMCC",
+          "notes": "The SDS prints \">110C\" (a lower bound); the earlier label value_kind \"specification\" is not supported by the SDS wording.",
+          "value_kind_previous_label": "specification",
+          "selection_note": "Previously selected value, kept as an alternate under the source-selection policy of 2026-11-10. Not judged erroneous: the policy selects the technical-document value first."
+        }
+      ],
+      "value_final": 190,
+      "unit_final": "°C"
     },
     "pour_point": {
       "value": null,
@@ -364,7 +390,7 @@
           "revision_date": "2008-12-02"
         }
       ],
-      "note": "TDS typical (2004, p.1) vs SDS lower bound (2008, p.6; also p.3 Section 5). Values are compatible (190 > 110) but printed differently; per rule the field holds the more recent SDS value. Not resolved.",
+      "note": "TDS typical (2004, p.1) vs SDS lower bound (2008, p.6; also p.3 Section 5). Values are compatible (190 > 110) but printed differently; per rule the field holds the more recent SDS value. Not resolved. [2026-11-10 source-selection policy: the field now holds the TDS typical 190 °C (p.1); the SDS \">110C\" lower bound is kept as an alternate entry. The two values are compatible (190 > 110) and remain recorded.]",
       "resolved": false,
       "final_resolution": "Not resolved. The resolution proposed on origin/main (integrate_products.py) was not adopted under the data rules approved on 2026-10-24: no automatic averaging of conflicting values and no automatic preference of TDS over SDS or vice versa. Both values and sources stay as recorded; pending human review. Proposal: TDS preferred over SDS; see fields.flash_point.resolution. TDS preferred over SDS: TDS typical 190 °C (DL2-10204.pdf p.1, 2004) chosen over SDS lower bound '>110 °C' (p.6, 2008), which was in the field under the old newest-document rule."
     }

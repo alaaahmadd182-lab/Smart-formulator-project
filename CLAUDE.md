@@ -21,6 +21,10 @@ integrate_products.py              Adds normalised *_final keys and conflict ann
 build_conflicts_report.py          Generates a Task 5 conflicts report from the JSON (under review)
 source_registry.json               External (non-archive) sources cited in Products_json, with verification status
 reconciliation/                    Task 3 identity review and inventory reconciliation
+tools/data_policy/                 Source selection (Rule 1), TDS–SDS comparison inventory and proposed thresholds (Rule 2), tests
+tools/mandatory_properties/        Mandatory Tier 1 requirements and the eligibility build (Rule 3)
+reports/                           Generated outputs of the two tool folders above
+docs/data_policy_mandatory_review/ Policy, threshold proposal, eligibility interface, change log, HANDOFF
 Coverage_Matrix.xlsx               Output of the script above
 open_questions_and_conflicts.md    Collected open_questions + conflicts from every product JSON
 Property_Glossary.docx             Definitions of every property/field
@@ -44,10 +48,12 @@ Manual + Data to share.zip         Source documents (PDF/JPG datasheets, ~90 MB)
 - Every non-missing value must cite its `source` (file + page). Keep `printed_text` exactly as printed and keep the printed unit.
 - If something comes from general knowledge (not the document), set `basis: "general_knowledge"` and say so in `notes`.
 - When documents disagree, record it in `conflicts` (both values, both sources) and do not silently resolve it.
-- Data rules approved 2026-10-24:
+- Data rules approved 2026-10-24 (rule 2 replaced on 2026-11-10):
   1. Never automatically average conflicting datasheet values. Keep both values and their sources; leave the conflict unresolved unless authoritative evidence supports a resolution.
-  2. Never automatically prefer TDS over SDS or vice versa. Evaluate measurement conditions, test methods, revision dates, source reliability and whether the values are comparable.
+  2. **Source selection (2026-11-10):** select the applicable technical-document value (TDS, PDS, bulletin, specification sheet; classified by purpose and content per page, not by file name); if no technical document gives the property, select the applicable SDS value. Keep the selected value's printed text, unit, qualifier, method, conditions, source, page and revision; keep the other value in `alternate_entries[]` and keep the conflict entry. Selecting the TDS is not a finding that the SDS is wrong, and does not resolve the conflict. Record an exception (unreadable, inconsistent, demonstrably erroneous TDS value, or one lacking a required condition such as a density temperature) instead of selecting a known error. Do not call an SDS bound a "safety margin" unless its wording says so. Edition rule: newest dated edition of the same product/grade/region; undated disagreeing editions stay pending. Full policy: `docs/data_policy_mandatory_review/source_selection_policy.md`; tool: `tools/data_policy/source_selection.py`. (Rule 2 of 2026-10-24, "never automatically prefer TDS over SDS or vice versa", is superseded.)
   3. The coverage matrix reflects the validated `status` of the selected property; never substitute `status_final` for `status`.
+- A source-selection change never makes incomplete or unknown evidence count as verified; keep the unresolved-evidence distinction of the v5 audit.
+- TDS–SDS screening thresholds (Rule 2) are **proposed, not approved** (`tools/data_policy/thresholds.py`, `APPROVAL = 'proposed'`); do not reclassify findings with them until approved.
 - Component shares from an SDS (e.g. "ZDDP 10–15 %") are **not** element contents — do not put them in Zn/P/Ca fields.
 - Do not edit the source documents or the templates when filling product data.
 
@@ -71,6 +77,15 @@ Manual + Data to share.zip         Source documents (PDF/JPG datasheets, ~90 MB)
 - Its `ANNOTATIONS` may carry only a reviewed `resolution` note pinned to the field values in `expect`; `CONFLICTS` rules may mark an entry resolved only on a basis in `RESOLVING_BASES`. Never add averaged values or document-type preferences.
 - `build_conflicts_report.py` writes `conflicts_report_generated.md` and refuses to write `open_questions_and_conflicts.md`, which is curated by hand.
 - Status vocabulary: the templates also define `Not Applicable` (the property does not apply to this product type), used by LUBRIZOL_CV6320.
+- Never run `integrate_products.py --write` on the whole repository (a dry run would change 229 files that are deliberately not re-derived). For changed records use `tools/data_policy/integration_diff.py`.
+
+## Mandatory Tier 1 eligibility (2026-11-10)
+- `python tools/mandatory_properties/build_eligibility.py` writes `reports/mandatory_properties/product_eligibility.csv` (interface for Workstream B: `docs/data_policy_mandatory_review/eligibility_interface.md`) and the missing-properties CSV/MD; `--check` writes nothing. Regenerate after any product JSON change (the rows carry a snapshot hash of `Products_json`).
+- A product missing any mandatory Tier 1 requirement is not formulation-eligible but stays in the database. Tier 2/3 gaps never block. `Not Required` / `Not Applicable` satisfy a requirement only under an approved applicability rule; a calculated value only through a registered reproducibility check. "Eligible" is not a statement of chemical suitability.
+
+## Historical generators (do not run against the current data)
+- `tools/corrections_2026-10-31/`, `tools/integration_2026-10-24/`, `tools/audit/original_2026-10-27_to_30/` and `tools/audit/review_2026-11-02/` (report generators) rebuild superseded values or the v5 audit snapshot; several hard-code the main checkout path. See `docs/data_policy_mandatory_review/implementation_plan.md`, section 1.
+- Workstream B (association mining) owns `analysis/association_mining/`; do not edit it from this workstream.
 
 ## Working conventions
 - Environment: Windows, VS Code, Python 3.

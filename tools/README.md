@@ -112,3 +112,34 @@ These were written for this review. They use repository-relative paths and are d
 
 Dependencies: Python 3.12, `pymupdf` (tested 1.28.2) and `openpyxl` (3.1.5). See
 `docs/audit_review_2026-11-02/README.md` for the exact commands.
+
+## `data_policy/` and `mandatory_properties/`: Workstream A of 2026-11-10 (current tools)
+
+Written for the source-selection, TDS-SDS comparison and mandatory Tier 1 review. They use repository-relative paths,
+never write on import, and write only the files named below. Policy and interface:
+`docs/data_policy_mandatory_review/`.
+
+| Script | Purpose | Writes |
+|---|---|---|
+| `data_policy/policy_lib.py` | Shared read-only helpers (product loading, value objects, archive pages) | nothing |
+| `data_policy/document_classes.py` | Classify every cited (file, page) as SDS / TECHNICAL (tds, specification, bulletin, catalog) / COA / EXTERNAL by content; exit 1 if any page is unclassified | `reports/data_policy/document_classes.csv` |
+| `data_policy/tds_candidates.py` | Reading aid: technical-document lines for every SDS-sourced selected value | nothing (stdout) |
+| `data_policy/source_selection.py` | Rule 1: the declared selections, exceptions and pending cases; dry run unless `--write`; idempotent; asserts the expected current value and source | product JSON (declared fields only) with `--write`; `reports/data_policy/source_selection_changes.csv` with `--report` on a fresh apply |
+| `data_policy/integration_diff.py` | What `integrate_products.py` would change in given files (or `--changed`), in memory | nothing |
+| `data_policy/tds_sds_inventory.py` | Rule 2 A-B: every TDS-SDS comparison, comparability first, differences, proposed screen | `reports/data_policy/tds_sds_comparisons.csv` |
+| `data_policy/thresholds.py` | Rule 2 C: the proposed property-specific screening rules (`APPROVAL = 'proposed'`) | nothing |
+| `data_policy/tests/test_data_policy.py` | Regression tests (36) for Rules 1-3, the outputs and the safety checks | nothing |
+| `mandatory_properties/requirements.py` | Rule 3: versioned mandatory Tier 1 requirements and checks | nothing |
+| `mandatory_properties/build_eligibility.py` | Eligibility outputs; `--check` compares without writing | `reports/mandatory_properties/*` |
+
+Dependencies: Python 3.12, `pymupdf` (document classification and archive pages) and `openpyxl` (coverage workbook).
+
+**Historical generators.** After 2026-11-10 do not run `corrections_2026-10-31/apply_corrections.py`,
+`integration_2026-10-24/resolve_json.py --write`, the `audit/original_2026-10-27_to_30/` generators or the
+`audit/review_2026-11-02/` report generators (`revise_findings.py`, `gen_report_v5.py`, `run_all_checks.py`) against the
+current data: they would restore superseded values or rewrite the v5 snapshot. `audit/review_2026-11-02/verify_revision.py`
+compares protected files with commit `545fd3d` and now fails by design, because product JSON and the workbook changed.
+
+**Line endings.** With `core.autocrlf=true`, a fresh checkout rewrites line endings, so `sha256sum -c PRESERVED_SHA256.txt`
+can report text files as FAILED although their committed content is unchanged. Check them in a checkout without
+conversion, or compare the committed blobs (`git diff <commit> -- tools/`).

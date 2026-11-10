@@ -7,10 +7,11 @@
   "product": {
     "product_name": "NEXBASE 3020",
     "supplier": "Neste (Suisse) S.A.",
-    "document_type": "Safety Data Sheet",
+    "document_type": "Safety Data Sheet; Technical Data Sheet",
     "source_file": [
       "DL2-14513.pdf",
-      "DL2-14514.pdf"
+      "DL2-14514.pdf",
+      "DL2-10962.pdf"
     ],
     "revision_date": "2020-06-16"
   },
@@ -51,38 +52,61 @@
       "min": null,
       "max": null,
       "value_kind": "typical",
-      "printed_text": "Kinematic viscosity typical value 7,5 mm2/s @ 40°C (ASTM D-445)",
-      "unit": "cSt",
+      "printed_text": "Viscosity at 40 °C, mm²/s: Spec ≥ 7.1, Typ 7.5",
+      "unit": "mm2/s",
       "test_temperature_c": 40,
-      "method": "ASTM D445",
+      "method": null,
       "status": "Reported",
-      "calculation_note": null,
+      "calculation_note": "NEXBASE family \"Technical Data Sheet BASE OILS\" (Neste Oil, Edition 8; no calendar date printed), image-only page read on a render (2026-11-10), column \"Nexbase 3020\", sub-column \"Typ\". The sheet prints no test method.",
       "source": {
-        "file": "DL2-14513.pdf",
-        "page": 5,
-        "revision_date": "2020-06-16"
+        "file": "DL2-10962.pdf",
+        "page": 1,
+        "revision_date": null
       },
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "alternate_entries": [
+        {
+          "value": 7.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "Kinematic viscosity typical value 7,5 mm2/s @ 40°C (ASTM D-445)",
+          "unit": "cSt",
+          "test_temperature_c": 40,
+          "method": "ASTM D445",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14513.pdf",
+            "page": 5,
+            "revision_date": "2020-06-16"
+          },
+          "selection_note": "Previously selected value, kept as an alternate under the source-selection policy of 2026-11-10. Not judged erroneous: the policy selects the technical-document value first."
+        }
+      ],
       "value_final": 7.5,
       "unit_final": "cSt"
     },
     "kv100": {
-      "value": null,
+      "value": 2.2,
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": "cSt",
-      "test_temperature_c": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity at 100 °C, mm²/s: Spec 2.1-2.3, Typ 2.2",
+      "unit": "mm2/s",
+      "test_temperature_c": 100,
       "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "status": "Reported",
+      "calculation_note": "NEXBASE family \"Technical Data Sheet BASE OILS\" (Neste Oil, Edition 8; no calendar date printed), image-only page read on a render (2026-11-10), column \"Nexbase 3020\", sub-column \"Typ\". The sheet prints no test method.",
       "source": {
-        "file": null,
-        "page": null,
+        "file": "DL2-10962.pdf",
+        "page": 1,
         "revision_date": null
       },
-      "value_final": null,
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "value_final": 2.2,
       "unit_final": "cSt"
     },
     "viscosity_index": {
@@ -106,24 +130,26 @@
       "unit_final": "unitless"
     },
     "density": {
-      "value": null,
+      "value": 834,
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": "relative density",
-      "test_temperature_c": null,
+      "value_kind": "typical",
+      "printed_text": "Density@15 °C, Kg/m³: Spec –, Typ 834",
+      "unit": "kg/m3",
+      "test_temperature_c": 15,
       "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "status": "Reported",
+      "calculation_note": "NEXBASE family \"Technical Data Sheet BASE OILS\" (Neste Oil, Edition 8; no calendar date printed), image-only page read on a render (2026-11-10), column \"Nexbase 3020\", sub-column \"Typ\". The sheet prints no test method.",
       "source": {
-        "file": null,
-        "page": null,
+        "file": "DL2-10962.pdf",
+        "page": 1,
         "revision_date": null
       },
-      "value_final": null,
-      "unit_final": "relative density"
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "value_final": 0.834,
+      "unit_final": "g/cm³",
+      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)"
     },
     "ccs": [
       {
@@ -149,8 +175,8 @@
     ]
   },
   "open_questions": [
-    "No product TDS supplied for NEXBASE 3020; only two matching SDS files.",
-    "API group, KV100, VI, mass density, sulfur and other absent properties remain missing.",
+    "No product TDS supplied for NEXBASE 3020; only two matching SDS files. [Corrected 2026-11-10: the NEXBASE family TDS DL2-10962.pdf (Edition 8, image) has a \"Nexbase 3020\" column; KV40, KV100 and density are now taken from it. VI is printed as \"–\" for 3020 and stays Missing.]",
+    "API group, KV100, VI, mass density, sulfur and other absent properties remain missing. [2026-11-10: KV100 (2.2 mm²/s) and density (834 kg/m³ at 15 °C) are now Reported from DL2-10962.pdf; API group, VI and sulfur remain Missing.]",
     "Relative density 0.82 at 15°C must not be treated as mass density."
   ],
   "conflicts": []

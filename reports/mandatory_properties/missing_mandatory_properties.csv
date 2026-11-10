@@ -1,0 +1,789 @@
+product_id,material_class,product_name,requirement,reason,calculated_value_rejected
+ADNOC_ADBASE_2CST,base_oil,ADbase 2 cSt,ccs,ccs: status Missing,false
+ADNOC_ADBASE_3CST,base_oil,ADbase 3 cSt,ccs,ccs: status Missing,false
+AFTON_HITEC_12010,additive_package,HiTEC® 12010,package_type_application.package_type,package_type_application.package_type: status Missing,false
+AFTON_HITEC_12010,additive_package,HiTEC® 12010,performance_claims,performance_claims: status Missing,false
+AFTON_HITEC_12010,additive_package,HiTEC® 12010,sae_grades_documented,sae_grades_documented: status Missing,false
+AFTON_HITEC_12010,additive_package,HiTEC® 12010,treat_rate_matrix,treat_rate_matrix: status Missing,false
+AFTON_HITEC_12010,additive_package,HiTEC® 12010,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+AFTON_HITEC_12010,additive_package,HiTEC® 12010,route_selector_restrictions,route_selector_restrictions: status Missing,false
+AFTON_HITEC_12010,additive_package,HiTEC® 12010,required_co_components,required_co_components: entry without a name or role,false
+AFTON_HITEC_12010,additive_package,HiTEC® 12010,published_formulations,published_formulations: status Missing,false
+AFTON_HITEC_12200,additive_package,HiTEC® 12200,treat_rate_matrix,treat_rate_matrix: unit '%' does not establish the required basis,false
+AFTON_HITEC_12200,additive_package,HiTEC® 12200,required_co_components,required_co_components.dose_wt_pct: unit '%' does not establish the required basis,false
+AFTON_HITEC_12200,additive_package,HiTEC® 12200,published_formulations,published_formulations: status Missing,false
+AFTON_HITEC_12204L,additive_package,HiTEC® 12204L,package_type_application.intended_service,package_type_application.intended_service: status Missing,false
+AFTON_HITEC_12204L,additive_package,HiTEC® 12204L,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+AFTON_HITEC_12204L,additive_package,HiTEC® 12204L,route_selector_restrictions,route_selector_restrictions: status Missing,false
+AFTON_HITEC_12204L,additive_package,HiTEC® 12204L,required_co_components,required_co_components: entry without a name or role,false
+AFTON_HITEC_12204L,additive_package,HiTEC® 12204L,published_formulations,published_formulations: status Missing,false
+AFTON_HITEC_12208,additive_package,HiTEC® 12208,required_co_components,required_co_components: entry without a name or role,false
+AFTON_HITEC_12208,additive_package,HiTEC® 12208,published_formulations,published_formulations: status Missing,false
+AFTON_HITEC_12210,additive_package,HiTEC® 12210,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+AFTON_HITEC_12210,additive_package,HiTEC® 12210,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+AFTON_HITEC_12210,additive_package,HiTEC® 12210,published_formulations,published_formulations: status Missing,false
+AFTON_HITEC_12210M,additive_package,HiTEC® 12210M,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+AFTON_HITEC_12210M,additive_package,HiTEC® 12210M,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+AFTON_HITEC_12210M,additive_package,HiTEC® 12210M,published_formulations,published_formulations: status Missing,false
+AFTON_HITEC_12250,additive_component,HiTEC® 12250,chemical_family,chemical_family: status Missing,false
+AFTON_HITEC_12250,additive_component,HiTEC® 12250,active_content,active_content: status Missing,false
+AFTON_HITEC_12250,additive_component,HiTEC® 12250,carrier.identity,carrier.identity: status Missing,false
+AFTON_HITEC_12250,additive_component,HiTEC® 12250,treat_rate,treat_rate: unit '%' does not establish the required basis,false
+AFTON_HITEC_12250,additive_component,HiTEC® 12250,compatibility_restrictions,compatibility_restrictions: status Missing,false
+AFTON_HITEC_12360,additive_package,HiTEC® 12360,treat_rate_matrix,treat_rate_matrix: unit '%' does not establish the required basis,false
+AFTON_HITEC_12360,additive_package,HiTEC® 12360,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+AFTON_HITEC_12360,additive_package,HiTEC® 12360,published_formulations,published_formulations: status Missing,false
+AFTON_HITEC_12400,additive_package,HiTEC® 12400,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+AFTON_HITEC_12400,additive_package,HiTEC® 12400,published_formulations,published_formulations: status Missing,false
+AFTON_HITEC_5748,additive_component,HiTEC® 5748,active_content,active_content: status Missing,false
+AFTON_HITEC_5748,additive_component,HiTEC® 5748,carrier.identity,carrier.identity: status Missing,false
+AFTON_HITEC_5748,additive_component,HiTEC® 5748,treat_rate,treat_rate: status Missing,false
+AFTON_HITEC_5748,additive_component,HiTEC® 5748,compatibility_restrictions,compatibility_restrictions: status Missing,false
+AFTON_HITEC_5748,additive_component,HiTEC® 5748,vm.active_polymer.wt_pct,vm.active_polymer.wt_pct: status Missing,false
+AFTON_HITEC_5748,additive_component,HiTEC® 5748,vm.active_polymer.carrier_identity,vm.active_polymer.carrier_identity: not recorded,false
+AFTON_HITEC_5748,additive_component,HiTEC® 5748,vm.treat_range_by_sae_grade,vm.treat_range_by_sae_grade: status Missing,false
+AFTON_HITEC_5748,additive_component,HiTEC® 5748,vm.thickening_response,vm.thickening_response: status Missing,false
+AFTON_HITEC_5748,additive_component,HiTEC® 5748,vm.shear_stability,vm.shear_stability: method or cycle count not recorded (I-7),false
+AFTON_HITEC_5748,additive_component,HiTEC® 5748,vm.post_shear_blend_behaviour.post_shear_kv100,vm.post_shear_blend_behaviour.post_shear_kv100: status Missing,false
+AFTON_HITEC_5748,additive_component,HiTEC® 5748,vm.post_shear_blend_behaviour.hths_150c,vm.post_shear_blend_behaviour.hths_150c: status Missing,false
+AFTON_HITEC_5748,additive_component,HiTEC® 5748,vm.post_shear_blend_behaviour.ccs_impact,vm.post_shear_blend_behaviour.ccs_impact: status Missing,false
+AFTON_HITEC_5748,additive_component,HiTEC® 5748,vm.post_shear_blend_behaviour.mrv_impact,vm.post_shear_blend_behaviour.mrv_impact: status Missing,false
+AFTON_HITEC_5748,additive_component,HiTEC® 5748,vm.post_shear_blend_behaviour.low_temp_gelation,vm.post_shear_blend_behaviour.low_temp_gelation: status Missing,false
+AFTON_HITEC_5748,additive_component,HiTEC® 5748,vm.dissolution_blend_temperature,vm.dissolution_blend_temperature: status Missing,false
+AFTON_HITEC_8712,additive_package,HiTEC® 8712 Performance Additive,package_type_application.package_type,package_type_application.package_type: status Missing,false
+AFTON_HITEC_8712,additive_package,HiTEC® 8712 Performance Additive,performance_claims,performance_claims: status Missing,false
+AFTON_HITEC_8712,additive_package,HiTEC® 8712 Performance Additive,sae_grades_documented,sae_grades_documented: status Missing,false
+AFTON_HITEC_8712,additive_package,HiTEC® 8712 Performance Additive,treat_rate_matrix,treat_rate_matrix: status Missing,false
+AFTON_HITEC_8712,additive_package,HiTEC® 8712 Performance Additive,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+AFTON_HITEC_8712,additive_package,HiTEC® 8712 Performance Additive,route_selector_restrictions,route_selector_restrictions: status Missing,false
+AFTON_HITEC_8712,additive_package,HiTEC® 8712 Performance Additive,required_co_components,required_co_components: entry without a name or role,false
+AFTON_HITEC_8712,additive_package,HiTEC® 8712 Performance Additive,published_formulations,published_formulations: status Missing,false
+AFTON_HITEC_8767B,additive_component,HiTEC® 8767B,function.primary,function.primary: status Missing,false
+AFTON_HITEC_8767B,additive_component,HiTEC® 8767B,chemical_family,chemical_family: status Missing,false
+AFTON_HITEC_8767B,additive_component,HiTEC® 8767B,active_content,active_content: status Missing,false
+AFTON_HITEC_8767B,additive_component,HiTEC® 8767B,carrier.identity,carrier.identity: status Missing,false
+AFTON_HITEC_8767B,additive_component,HiTEC® 8767B,treat_rate,treat_rate: unit '%' does not establish the required basis,false
+AFTON_HITEC_8767B,additive_component,HiTEC® 8767B,compatibility_restrictions,compatibility_restrictions: status Missing,false
+AFTON_HITEC_8767B,additive_component,HiTEC® 8767B,function_specific_markers,function_specific_markers: applicability cannot be established because the primary function is missing,false
+AFTON_HITEC_8788B,additive_package,HiTEC® 8788B,performance_claims,performance_claims: status Missing,false
+AFTON_HITEC_8788B,additive_package,HiTEC® 8788B,sae_grades_documented,sae_grades_documented: status Missing,false
+AFTON_HITEC_8788B,additive_package,HiTEC® 8788B,treat_rate_matrix,treat_rate_matrix: status Missing,false
+AFTON_HITEC_8788B,additive_package,HiTEC® 8788B,route_selector_restrictions,route_selector_restrictions: status Missing,false
+AFTON_HITEC_8788B,additive_package,HiTEC® 8788B,required_co_components,required_co_components: entry without a name or role,false
+AFTON_HITEC_8788B,additive_package,HiTEC® 8788B,published_formulations,published_formulations: status Missing,false
+AFTON_HITEC_8799B,additive_package,HiTEC® 8799B,package_type_application.package_type,package_type_application.package_type: status Missing,false
+AFTON_HITEC_8799B,additive_package,HiTEC® 8799B,performance_claims,performance_claims: status Missing,false
+AFTON_HITEC_8799B,additive_package,HiTEC® 8799B,sae_grades_documented,sae_grades_documented: status Missing,false
+AFTON_HITEC_8799B,additive_package,HiTEC® 8799B,treat_rate_matrix,treat_rate_matrix: status Missing,false
+AFTON_HITEC_8799B,additive_package,HiTEC® 8799B,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+AFTON_HITEC_8799B,additive_package,HiTEC® 8799B,route_selector_restrictions,route_selector_restrictions: status Missing,false
+AFTON_HITEC_8799B,additive_package,HiTEC® 8799B,required_co_components,required_co_components: entry without a name or role,false
+AFTON_HITEC_8799B,additive_package,HiTEC® 8799B,published_formulations,published_formulations: status Missing,false
+ARAMCO_LUBEREF_DURA_150_JEDDAH,base_oil,aramcoDURA 150 Jeddah,kv100,kv100: status Missing,false
+ARAMCO_LUBEREF_DURA_150_JEDDAH,base_oil,aramcoDURA 150 Jeddah,viscosity_index,"viscosity_index: only a one-sided bound is recorded (qualifier 'minimum', value_kind 'minimum')",false
+ARAMCO_LUBEREF_DURA_150_JEDDAH,base_oil,aramcoDURA 150 Jeddah,density,density: status Missing,false
+ARAMCO_LUBEREF_DURA_150_JEDDAH,base_oil,aramcoDURA 150 Jeddah,ccs,ccs: status Missing,false
+ARAMCO_LUBEREF_DURA_500_JEDDAH,base_oil,aramcoDURA 500 Jeddah,kv100,kv100: status Missing,false
+ARAMCO_LUBEREF_DURA_500_JEDDAH,base_oil,aramcoDURA 500 Jeddah,viscosity_index,"viscosity_index: only a one-sided bound is recorded (qualifier 'minimum', value_kind 'minimum')",false
+ARAMCO_LUBEREF_DURA_500_JEDDAH,base_oil,aramcoDURA 500 Jeddah,density,density: status Missing,false
+ARAMCO_LUBEREF_DURA_500_JEDDAH,base_oil,aramcoDURA 500 Jeddah,ccs,ccs: status Missing,false
+ARAMCO_LUBEREF_DURA_BS150_YANBU,base_oil,aramcoDURA BS150 Yanbu,kv40,kv40: status Missing,false
+ARAMCO_LUBEREF_DURA_BS150_YANBU,base_oil,aramcoDURA BS150 Yanbu,ccs,ccs: status Missing,false
+ARAMCO_LUBEREF_PRIMA_100,base_oil,aramcoPRIMA 100,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+ARAMCO_LUBEREF_PRIMA_110,base_oil,aramcoPRIMA 110,kv100,kv100: status Missing,false
+ARAMCO_LUBEREF_PRIMA_110,base_oil,aramcoPRIMA 110,viscosity_index,"viscosity_index: only a one-sided bound is recorded (qualifier 'minimum', value_kind 'minimum')",false
+ARAMCO_LUBEREF_PRIMA_110,base_oil,aramcoPRIMA 110,density,density: unit not recorded,false
+ARAMCO_LUBEREF_PRIMA_110,base_oil,aramcoPRIMA 110,ccs,ccs: status Missing,false
+ARAMCO_LUBEREF_PRIMA_150,base_oil,aramcoPRIMA 150,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+ARAMCO_LUBEREF_PRIMA_220,base_oil,aramcoPRIMA 220,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+ARAMCO_LUBEREF_PRIMA_230,base_oil,aramcoPRIMA 230,viscosity_index,"viscosity_index: only a one-sided bound is recorded (qualifier 'minimum', value_kind 'minimum')",false
+ARAMCO_LUBEREF_PRIMA_230,base_oil,aramcoPRIMA 230,density,density: unit not recorded,false
+ARAMCO_LUBEREF_PRIMA_500,base_oil,aramcoPRIMA 500,kv40,kv40: status Missing,false
+ARAMCO_LUBEREF_PRIMA_500,base_oil,aramcoPRIMA 500,viscosity_index,"viscosity_index: only a one-sided bound is recorded (qualifier 'minimum', value_kind 'minimum')",false
+ARAMCO_LUBEREF_PRIMA_500,base_oil,aramcoPRIMA 500,density,density: unit not recorded,false
+ARAMCO_LUBEREF_PRIMA_500,base_oil,aramcoPRIMA 500,ccs,ccs: status Missing,false
+ARAMCO_LUBEREF_PRIMA_500L,base_oil,aramcoPRIMA 500L,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+ARAMCO_LUBEREF_PRIMA_600,base_oil,aramcoPRIMA 600,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+ARAMCO_LUBEREF_PRIMA_70,base_oil,aramcoPRIMA 70,kv40,kv40: status Missing,false
+ARAMCO_LUBEREF_PRIMA_70,base_oil,aramcoPRIMA 70,viscosity_index,"viscosity_index: only a one-sided bound is recorded (qualifier 'minimum', value_kind 'minimum')",false
+ARAMCO_LUBEREF_PRIMA_70,base_oil,aramcoPRIMA 70,density,density: status Missing,false
+ARAMCO_LUBEREF_PRIMA_70,base_oil,aramcoPRIMA 70,ccs,ccs: status Missing,false
+BAPCO_BAPBASE_4,base_oil,BAPbase 4,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+BAPCO_BAPBASE_4,base_oil,BAPbase 4,viscosity_index,viscosity_index: only a one-sided bound is recorded,false
+BAPCO_BAPBASE_4,base_oil,BAPbase 4,density,density: status Missing,false
+BAPCO_BAPBASE_4,base_oil,BAPbase 4,ccs,ccs: only a one-sided bound is recorded,false
+BAPCO_BAPBASE_6,base_oil,BAPbase 6,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+BAPCO_BAPBASE_6,base_oil,BAPbase 6,viscosity_index,viscosity_index: only a one-sided bound is recorded,false
+BAPCO_BAPBASE_6,base_oil,BAPbase 6,density,density: status Missing,false
+BAPCO_BAPBASE_6,base_oil,BAPbase 6,ccs,ccs: only a one-sided bound is recorded,false
+BAPCO_BAPBASE_8,base_oil,BAPbase 8,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+BAPCO_BAPBASE_8,base_oil,BAPbase 8,viscosity_index,viscosity_index: only a one-sided bound is recorded,false
+BAPCO_BAPBASE_8,base_oil,BAPbase 8,density,density: status Missing,false
+BAPCO_BAPBASE_8,base_oil,BAPbase 8,ccs,ccs: only a one-sided bound is recorded,false
+BETTCHEM_BT_3088,additive_package,BT3088,sae_grades_documented,sae_grades_documented: status Missing,false
+BETTCHEM_BT_3088,additive_package,BT3088,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+BETTCHEM_BT_3088,additive_package,BT3088,route_selector_restrictions,route_selector_restrictions: status Missing,false
+BETTCHEM_BT_3088,additive_package,BT3088,required_co_components,required_co_components: entry without a name or role,false
+BETTCHEM_BT_3088,additive_package,BT3088,published_formulations,published_formulations: status Missing,false
+BETTCHEM_BT_3089,additive_package,BT3089,sae_grades_documented,sae_grades_documented: status Missing,false
+BETTCHEM_BT_3089,additive_package,BT3089,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+BETTCHEM_BT_3089,additive_package,BT3089,route_selector_restrictions,route_selector_restrictions: status Missing,false
+BETTCHEM_BT_3089,additive_package,BT3089,required_co_components,required_co_components: entry without a name or role,false
+BETTCHEM_BT_3089,additive_package,BT3089,published_formulations,published_formulations: status Missing,false
+BETTCHEM_BT_3093,additive_package,BT 3093,sae_grades_documented,sae_grades_documented: status Missing,false
+BETTCHEM_BT_3093,additive_package,BT 3093,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+BETTCHEM_BT_3093,additive_package,BT 3093,route_selector_restrictions,route_selector_restrictions: status Missing,false
+BETTCHEM_BT_3093,additive_package,BT 3093,required_co_components,required_co_components: entry without a name or role,false
+BETTCHEM_BT_3093,additive_package,BT 3093,published_formulations,published_formulations: status Missing,false
+BRB_PETROLAD_8099,additive_package,Petrolad 8099,sae_grades_documented,sae_grades_documented: status Missing,false
+BRB_PETROLAD_8099,additive_package,Petrolad 8099,required_co_components,required_co_components: entry without a name or role,false
+BRB_PETROLAD_8099,additive_package,Petrolad 8099,published_formulations,published_formulations: status Missing,false
+CHEVRON_GROUP_II_100R,base_oil,Chevron Base Oil 100R,kv100,kv100: status Missing,false
+CHEVRON_GROUP_II_100R,base_oil,Chevron Base Oil 100R,viscosity_index,viscosity_index: only a one-sided bound is recorded,false
+CHEVRON_GROUP_II_100R,base_oil,Chevron Base Oil 100R,density,density: status Missing,false
+CHEVRON_GROUP_II_100R,base_oil,Chevron Base Oil 100R,ccs,ccs: only a one-sided bound is recorded,false
+CHEVRON_GROUP_II_110RLV,base_oil,Chevron Base Oil 110RLV,kv40,kv40: status Missing,false
+CHEVRON_GROUP_II_110RLV,base_oil,Chevron Base Oil 110RLV,density,density: status Missing,false
+CHEVRON_GROUP_II_110RLV,base_oil,Chevron Base Oil 110RLV,ccs,ccs: only a one-sided bound is recorded,false
+CHEVRON_GROUP_II_150R,base_oil,Chevron Base Oil 150R,kv40,kv40: status Missing,false
+CHEVRON_GROUP_II_150R,base_oil,Chevron Base Oil 150R,viscosity_index,viscosity_index: only a one-sided bound is recorded,false
+CHEVRON_GROUP_II_150R,base_oil,Chevron Base Oil 150R,density,density: status Missing,false
+CHEVRON_GROUP_II_150R,base_oil,Chevron Base Oil 150R,ccs,ccs: only a one-sided bound is recorded,false
+CHEVRON_GROUP_II_220R,base_oil,Chevron Base Oil 220R,kv100,kv100: status Missing,false
+CHEVRON_GROUP_II_220R,base_oil,Chevron Base Oil 220R,viscosity_index,viscosity_index: only a one-sided bound is recorded,false
+CHEVRON_GROUP_II_220R,base_oil,Chevron Base Oil 220R,density,density: status Missing,false
+CHEVRON_GROUP_II_220R,base_oil,Chevron Base Oil 220R,ccs,ccs: only a one-sided bound is recorded,false
+CHEVRON_GROUP_II_600R,base_oil,Chevron Base Oil 600R,kv40,kv40: status Missing,false
+CHEVRON_GROUP_II_600R,base_oil,Chevron Base Oil 600R,viscosity_index,viscosity_index: only a one-sided bound is recorded,false
+CHEVRON_GROUP_II_600R,base_oil,Chevron Base Oil 600R,density,density: status Missing,false
+CHEVRON_GROUP_II_600R,base_oil,Chevron Base Oil 600R,ccs,ccs: status Missing,false
+CHEVRON_GROUP_II_60R,base_oil,Chevron Base Oil 60R,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_GROUP_II_60R,base_oil,Chevron Base Oil 60R,kv100,kv100: status Missing,false
+CHEVRON_GROUP_II_60R,base_oil,Chevron Base Oil 60R,viscosity_index,viscosity_index: status Missing,false
+CHEVRON_GROUP_II_60R,base_oil,Chevron Base Oil 60R,density,density: status Missing,false
+CHEVRON_GROUP_II_60R,base_oil,Chevron Base Oil 60R,ccs,ccs: status Missing,false
+CHEVRON_N204,additive_package,N 204,package_type_application.package_type,package_type_application.package_type: status Missing,false
+CHEVRON_N204,additive_package,N 204,performance_claims,performance_claims: status Missing,false
+CHEVRON_N204,additive_package,N 204,sae_grades_documented,sae_grades_documented: status Missing,false
+CHEVRON_N204,additive_package,N 204,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+CHEVRON_N204,additive_package,N 204,route_selector_restrictions,route_selector_restrictions: status Missing,false
+CHEVRON_N204,additive_package,N 204,required_co_components,required_co_components: entry without a name or role,false
+CHEVRON_N204,additive_package,N 204,published_formulations,published_formulations: status Missing,false
+CHEVRON_N216,additive_package,N216,package_type_application.package_type,package_type_application.package_type: status Missing,false
+CHEVRON_N216,additive_package,N216,performance_claims,performance_claims: status Missing,false
+CHEVRON_N216,additive_package,N216,sae_grades_documented,sae_grades_documented: status Missing,false
+CHEVRON_N216,additive_package,N216,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+CHEVRON_N216,additive_package,N216,route_selector_restrictions,route_selector_restrictions: status Missing,false
+CHEVRON_N216,additive_package,N216,required_co_components,required_co_components: entry without a name or role,false
+CHEVRON_N216,additive_package,N216,published_formulations,published_formulations: status Missing,false
+CHEVRON_OLOA_59215,additive_package,OLOA 59215,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+CHEVRON_OLOA_59215,additive_package,OLOA 59215,published_formulations,published_formulations: status Missing,false
+CHEVRON_OLOA_59230,additive_package,OLOA 59230,sae_grades_documented,sae_grades_documented: status Missing,false
+CHEVRON_OLOA_59230,additive_package,OLOA 59230,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+CHEVRON_OLOA_59230,additive_package,OLOA 59230,route_selector_restrictions,route_selector_restrictions: status Missing,false
+CHEVRON_OLOA_59230,additive_package,OLOA 59230,required_co_components,required_co_components: entry without a name or role,false
+CHEVRON_OLOA_59230,additive_package,OLOA 59230,published_formulations,published_formulations: status Missing,false
+CHEVRON_OLOA_59766,additive_package,OLOA 59766,performance_claims,performance_claims: status Missing,false
+CHEVRON_OLOA_59766,additive_package,OLOA 59766,sae_grades_documented,sae_grades_documented: status Missing,false
+CHEVRON_OLOA_59766,additive_package,OLOA 59766,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+CHEVRON_OLOA_59766,additive_package,OLOA 59766,route_selector_restrictions,route_selector_restrictions: status Missing,false
+CHEVRON_OLOA_59766,additive_package,OLOA 59766,required_co_components,required_co_components: entry without a name or role,false
+CHEVRON_OLOA_59766,additive_package,OLOA 59766,published_formulations,published_formulations: status Missing,false
+CHEVRON_OLOA_61003,additive_package,OLOA 61003,sae_grades_documented,sae_grades_documented: status Missing,false
+CHEVRON_OLOA_61003,additive_package,OLOA 61003,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+CHEVRON_OLOA_61003,additive_package,OLOA 61003,route_selector_restrictions,route_selector_restrictions: status Missing,false
+CHEVRON_OLOA_61003,additive_package,OLOA 61003,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+CHEVRON_OLOA_61003,additive_package,OLOA 61003,published_formulations,published_formulations: status Missing,false
+CHEVRON_SYNFLUID_DIMER_C10,base_oil,Synfluid Dimer C10,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_DIMER_C10,base_oil,Synfluid Dimer C10,viscosity_index,viscosity_index: status Missing,false
+CHEVRON_SYNFLUID_DIMER_C10,base_oil,Synfluid Dimer C10,density,density: status Missing,false
+CHEVRON_SYNFLUID_DIMER_C10,base_oil,Synfluid Dimer C10,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_DIMER_C12,base_oil,Synfluid Dimer C12,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_DIMER_C12,base_oil,Synfluid Dimer C12,viscosity_index,viscosity_index: status Missing,false
+CHEVRON_SYNFLUID_DIMER_C12,base_oil,Synfluid Dimer C12,density,density: status Missing,false
+CHEVRON_SYNFLUID_DIMER_C12,base_oil,Synfluid Dimer C12,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_MPAO_100,base_oil,Synfluid MPAO 100 cSt,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_MPAO_100,base_oil,Synfluid MPAO 100 cSt,density,density: status Missing,false
+CHEVRON_SYNFLUID_MPAO_100,base_oil,Synfluid MPAO 100 cSt,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_MPAO_150,base_oil,Synfluid MPAO 150 cSt,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_MPAO_150,base_oil,Synfluid MPAO 150 cSt,density,density: status Missing,false
+CHEVRON_SYNFLUID_MPAO_150,base_oil,Synfluid MPAO 150 cSt,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_MPAO_40,base_oil,Synfluid MPAO 40 cSt,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_MPAO_40,base_oil,Synfluid MPAO 40 cSt,density,density: status Missing,false
+CHEVRON_SYNFLUID_MPAO_40,base_oil,Synfluid MPAO 40 cSt,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_MPAO_50,base_oil,Synfluid MPAO 50 cSt,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_MPAO_50,base_oil,Synfluid MPAO 50 cSt,density,density: status Missing,false
+CHEVRON_SYNFLUID_MPAO_50,base_oil,Synfluid MPAO 50 cSt,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_MPAO_65,base_oil,Synfluid MPAO 65 cSt,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_MPAO_65,base_oil,Synfluid MPAO 65 cSt,density,density: status Missing,false
+CHEVRON_SYNFLUID_MPAO_65,base_oil,Synfluid MPAO 65 cSt,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_PAO_2,base_oil,Synfluid PAO 2 cSt,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_PAO_2,base_oil,Synfluid PAO 2 cSt,viscosity_index,viscosity_index: status Missing,false
+CHEVRON_SYNFLUID_PAO_2,base_oil,Synfluid PAO 2 cSt,density,density: status Missing,false
+CHEVRON_SYNFLUID_PAO_2,base_oil,Synfluid PAO 2 cSt,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_PAO_2_5,base_oil,Synfluid PAO 2.5 cSt,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_PAO_2_5,base_oil,Synfluid PAO 2.5 cSt,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+CHEVRON_SYNFLUID_PAO_2_5,base_oil,Synfluid PAO 2.5 cSt,viscosity_index,viscosity_index: status Missing,false
+CHEVRON_SYNFLUID_PAO_2_5,base_oil,Synfluid PAO 2.5 cSt,density,density: status Missing,false
+CHEVRON_SYNFLUID_PAO_2_5,base_oil,Synfluid PAO 2.5 cSt,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_PAO_4,base_oil,Synfluid PAO 4 cSt,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_PAO_4,base_oil,Synfluid PAO 4 cSt,density,density: status Missing,false
+CHEVRON_SYNFLUID_PAO_4,base_oil,Synfluid PAO 4 cSt,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_PAO_40,base_oil,Synfluid PAO 40 cSt,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_PAO_40,base_oil,Synfluid PAO 40 cSt,density,density: status Missing,false
+CHEVRON_SYNFLUID_PAO_40,base_oil,Synfluid PAO 40 cSt,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_PAO_5,base_oil,Synfluid PAO 5 cSt,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_PAO_5,base_oil,Synfluid PAO 5 cSt,density,density: status Missing,false
+CHEVRON_SYNFLUID_PAO_5,base_oil,Synfluid PAO 5 cSt,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_PAO_6,base_oil,Synfluid PAO 6 cSt,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_PAO_6,base_oil,Synfluid PAO 6 cSt,density,density: status Missing,false
+CHEVRON_SYNFLUID_PAO_6,base_oil,Synfluid PAO 6 cSt,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_PAO_6_HVI,base_oil,Synfluid PAO 6 cSt HVI,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_PAO_6_HVI,base_oil,Synfluid PAO 6 cSt HVI,density,density: status Missing,false
+CHEVRON_SYNFLUID_PAO_6_HVI,base_oil,Synfluid PAO 6 cSt HVI,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_PAO_7,base_oil,Synfluid PAO 7 cSt,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_PAO_7,base_oil,Synfluid PAO 7 cSt,density,density: status Missing,false
+CHEVRON_SYNFLUID_PAO_7,base_oil,Synfluid PAO 7 cSt,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_PAO_8,base_oil,Synfluid PAO 8 cSt,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_PAO_8,base_oil,Synfluid PAO 8 cSt,density,density: status Missing,false
+CHEVRON_SYNFLUID_PAO_8,base_oil,Synfluid PAO 8 cSt,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_PAO_8_BLEND,base_oil,Synfluid PAO 8 cSt BLEND,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_PAO_8_BLEND,base_oil,Synfluid PAO 8 cSt BLEND,density,density: status Missing,false
+CHEVRON_SYNFLUID_PAO_8_BLEND,base_oil,Synfluid PAO 8 cSt BLEND,ccs,ccs: status Missing,false
+CHEVRON_SYNFLUID_PAO_9,base_oil,Synfluid PAO 9 cSt,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_SYNFLUID_PAO_9,base_oil,Synfluid PAO 9 cSt,density,density: status Missing,false
+CHEVRON_SYNFLUID_PAO_9,base_oil,Synfluid PAO 9 cSt,ccs,ccs: status Missing,false
+CHEVRON_WOP_240,base_oil,White Oil Pharmaceutical WOP 240,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_WOP_240,base_oil,White Oil Pharmaceutical WOP 240,viscosity_index,viscosity_index: status Missing,false
+CHEVRON_WOP_240,base_oil,White Oil Pharmaceutical WOP 240,ccs,ccs: status Missing,false
+CHEVRON_WOP_40,base_oil,White Oil Pharmaceutical WOP 40,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_WOP_40,base_oil,White Oil Pharmaceutical WOP 40,viscosity_index,viscosity_index: status Missing,false
+CHEVRON_WOP_40,base_oil,White Oil Pharmaceutical WOP 40,ccs,ccs: status Missing,false
+CHEVRON_WOP_70,base_oil,White Oil Pharmaceutical WOP 70,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+CHEVRON_WOP_70,base_oil,White Oil Pharmaceutical WOP 70,viscosity_index,viscosity_index: status Missing,false
+CHEVRON_WOP_70,base_oil,White Oil Pharmaceutical WOP 70,ccs,ccs: status Missing,false
+ENI_MX_5212,additive_package,Eni MX 5212,treat_rate_matrix,treat_rate_matrix: unit '%' does not establish the required basis,false
+ENI_MX_5212,additive_package,Eni MX 5212,required_co_components,required_co_components.dose_wt_pct: unit '%' does not establish the required basis,false
+ENI_MX_5212,additive_package,Eni MX 5212,published_formulations,published_formulations: status Missing,false
+ENI_MX_5217,additive_package,Eni MX 5217,treat_rate_matrix,treat_rate_matrix: unit '%' does not establish the required basis,false
+ENI_MX_5217,additive_package,Eni MX 5217,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+ENI_MX_5217,additive_package,Eni MX 5217,published_formulations,published_formulations: status Missing,false
+ERGON_HYGOLD_100,base_oil,HyGold 100,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_100,base_oil,HyGold 100,viscosity_index,viscosity_index: status Missing,false
+ERGON_HYGOLD_100,base_oil,HyGold 100,ccs,ccs: status Missing,false
+ERGON_HYGOLD_100E,base_oil,HyGold 100E,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_100E,base_oil,HyGold 100E,viscosity_index,viscosity_index: status Missing,false
+ERGON_HYGOLD_100E,base_oil,HyGold 100E,ccs,ccs: status Missing,false
+ERGON_HYGOLD_5000BS,base_oil,HyGold 5000BS,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_5000BS,base_oil,HyGold 5000BS,viscosity_index,"viscosity_index: only a one-sided bound is recorded (qualifier 'minimum', value_kind 'single')",false
+ERGON_HYGOLD_5000BS,base_oil,HyGold 5000BS,ccs,ccs: status Missing,false
+ERGON_HYGOLD_60,base_oil,HyGold 60,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_60,base_oil,HyGold 60,viscosity_index,viscosity_index: status Missing,false
+ERGON_HYGOLD_60,base_oil,HyGold 60,ccs,ccs: status Missing,false
+ERGON_HYGOLD_70E,base_oil,HyGold 70E,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_70E,base_oil,HyGold 70E,viscosity_index,viscosity_index: status Missing,false
+ERGON_HYGOLD_70E,base_oil,HyGold 70E,ccs,ccs: status Missing,false
+ERGON_HYGOLD_L1200,base_oil,HyGold L1200,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_L1200,base_oil,HyGold L1200,viscosity_index,viscosity_index: status Missing,false
+ERGON_HYGOLD_L1200,base_oil,HyGold L1200,ccs,ccs: status Missing,false
+ERGON_HYGOLD_L150,base_oil,HyGold L150,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_L150,base_oil,HyGold L150,viscosity_index,viscosity_index: status Missing,false
+ERGON_HYGOLD_L150,base_oil,HyGold L150,ccs,ccs: status Missing,false
+ERGON_HYGOLD_L200,base_oil,HyGold L200,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_L200,base_oil,HyGold L200,viscosity_index,viscosity_index: status Missing,false
+ERGON_HYGOLD_L200,base_oil,HyGold L200,ccs,ccs: status Missing,false
+ERGON_HYGOLD_L2000,base_oil,HyGold L2000,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_L2000,base_oil,HyGold L2000,viscosity_index,viscosity_index: status Missing,false
+ERGON_HYGOLD_L2000,base_oil,HyGold L2000,ccs,ccs: status Missing,false
+ERGON_HYGOLD_L250E,base_oil,HyGold L250E,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_L250E,base_oil,HyGold L250E,viscosity_index,viscosity_index: status Missing,false
+ERGON_HYGOLD_L250E,base_oil,HyGold L250E,ccs,ccs: status Missing,false
+ERGON_HYGOLD_L350E,base_oil,HyGold L350E,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_L350E,base_oil,HyGold L350E,viscosity_index,viscosity_index: status Missing,false
+ERGON_HYGOLD_L350E,base_oil,HyGold L350E,ccs,ccs: status Missing,false
+ERGON_HYGOLD_L500,base_oil,HyGold L500,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_L500,base_oil,HyGold L500,viscosity_index,viscosity_index: status Missing,false
+ERGON_HYGOLD_L500,base_oil,HyGold L500,ccs,ccs: status Missing,false
+ERGON_HYGOLD_L750,base_oil,HyGold L750,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_L750,base_oil,HyGold L750,viscosity_index,viscosity_index: status Missing,false
+ERGON_HYGOLD_L750,base_oil,HyGold L750,ccs,ccs: status Missing,false
+ERGON_HYGOLD_OLYMPUS_L500,base_oil,HyGold Olympus L500,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_OLYMPUS_L500,base_oil,HyGold Olympus L500,viscosity_index,viscosity_index: status Missing,false
+ERGON_HYGOLD_OLYMPUS_L500,base_oil,HyGold Olympus L500,ccs,ccs: status Missing,false
+ERGON_HYGOLD_P150BS,base_oil,HyGold P150BS,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_P150BS,base_oil,HyGold P150BS,ccs,ccs: status Missing,false
+ERGON_HYGOLD_P40,base_oil,HyGold P40,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_P40,base_oil,HyGold P40,viscosity_index,viscosity_index: status Missing,false
+ERGON_HYGOLD_P40,base_oil,HyGold P40,ccs,ccs: status Missing,false
+ERGON_HYGOLD_P70N,base_oil,HyGold P70N,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HYGOLD_P70N,base_oil,HyGold P70N,viscosity_index,"viscosity_index: only a one-sided bound is recorded (qualifier 'minimum', value_kind 'single')",false
+ERGON_HYGOLD_P70N,base_oil,HyGold P70N,ccs,ccs: status Missing,false
+ERGON_HY_40,base_oil,HY 40,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+ERGON_HY_40,base_oil,HY 40,viscosity_index,viscosity_index: status Missing,false
+ERGON_HY_40,base_oil,HY 40,density,density: status Missing,false
+ERGON_HY_40,base_oil,HY 40,ccs,ccs: status Missing,false
+EXXONMOBIL_APE_CORE_100,base_oil,AP/E CORE 100,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+EXXONMOBIL_APE_CORE_100,base_oil,AP/E CORE 100,kv100,kv100: status Missing,false
+EXXONMOBIL_APE_CORE_100,base_oil,AP/E CORE 100,viscosity_index,"viscosity_index: only a one-sided bound is recorded (qualifier 'Min', value_kind 'single')",false
+EXXONMOBIL_APE_CORE_100,base_oil,AP/E CORE 100,density,density: status Missing,false
+EXXONMOBIL_APE_CORE_100,base_oil,AP/E CORE 100,ccs,"ccs: only a one-sided bound is recorded (qualifier 'Max', value_kind 'single')",false
+EXXONMOBIL_APE_CORE_150,base_oil,AP/E CORE 150,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+EXXONMOBIL_APE_CORE_150,base_oil,AP/E CORE 150,kv100,kv100: status Missing,false
+EXXONMOBIL_APE_CORE_150,base_oil,AP/E CORE 150,viscosity_index,"viscosity_index: only a one-sided bound is recorded (qualifier 'Min', value_kind 'single')",false
+EXXONMOBIL_APE_CORE_150,base_oil,AP/E CORE 150,density,density: status Missing,false
+EXXONMOBIL_APE_CORE_150,base_oil,AP/E CORE 150,ccs,"ccs: only a one-sided bound is recorded (qualifier 'Max', value_kind 'single')",false
+EXXONMOBIL_APE_CORE_2500,base_oil,AP/E CORE 2500,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+EXXONMOBIL_APE_CORE_2500,base_oil,AP/E CORE 2500,kv40,kv40: status Missing,false
+EXXONMOBIL_APE_CORE_2500,base_oil,AP/E CORE 2500,viscosity_index,"viscosity_index: only a one-sided bound is recorded (qualifier 'Min', value_kind 'single')",false
+EXXONMOBIL_APE_CORE_2500,base_oil,AP/E CORE 2500,density,density: status Missing,false
+EXXONMOBIL_APE_CORE_2500,base_oil,AP/E CORE 2500,ccs,ccs: status Missing,false
+EXXONMOBIL_APE_CORE_600,base_oil,AP/E CORE 600,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+EXXONMOBIL_APE_CORE_600,base_oil,AP/E CORE 600,kv100,kv100: status Missing,false
+EXXONMOBIL_APE_CORE_600,base_oil,AP/E CORE 600,viscosity_index,"viscosity_index: only a one-sided bound is recorded (qualifier 'Min', value_kind 'single')",false
+EXXONMOBIL_APE_CORE_600,base_oil,AP/E CORE 600,density,density: status Missing,false
+EXXONMOBIL_APE_CORE_600,base_oil,AP/E CORE 600,ccs,ccs: status Missing,false
+EXXONMOBIL_APE_SN_500,base_oil,AP/E SN 500,kv100,kv100: status Missing,false
+EXXONMOBIL_APE_SN_500,base_oil,AP/E SN 500,viscosity_index,"viscosity_index: only a one-sided bound is recorded (qualifier 'Sales specification', value_kind 'minimum')",false
+EXXONMOBIL_APE_SN_500,base_oil,AP/E SN 500,density,density: status Missing,false
+EXXONMOBIL_APE_SN_500,base_oil,AP/E SN 500,ccs,ccs: status Missing,false
+EXXONMOBIL_EHC_110,base_oil,EHC 110,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+EXXONMOBIL_EHC_110,base_oil,EHC 110,kv40,kv40: status Missing,false
+EXXONMOBIL_EHC_110,base_oil,EHC 110,density,density: status Missing,false
+EXXONMOBIL_EHC_110,base_oil,EHC 110,ccs,ccs: status Missing,false
+EXXONMOBIL_EHC_120,base_oil,EHC 120,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+EXXONMOBIL_EHC_120,base_oil,EHC 120,kv40,kv40: status Missing,false
+EXXONMOBIL_EHC_120,base_oil,EHC 120,density,density: status Missing,false
+EXXONMOBIL_EHC_120,base_oil,EHC 120,ccs,ccs: status Missing,false
+EXXONMOBIL_EHC_45,base_oil,EHC 45,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+EXXONMOBIL_EHC_45,base_oil,EHC 45,kv40,kv40: status Missing,false
+EXXONMOBIL_EHC_45,base_oil,EHC 45,density,density: status Missing,false
+EXXONMOBIL_EHC_45,base_oil,EHC 45,ccs,ccs: only a one-sided bound is recorded,false
+EXXONMOBIL_EHC_50,base_oil,EHC 50,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+EXXONMOBIL_EHC_50,base_oil,EHC 50,kv40,kv40: status Missing,false
+EXXONMOBIL_EHC_50,base_oil,EHC 50,density,density: status Missing,false
+EXXONMOBIL_EHC_50,base_oil,EHC 50,ccs,ccs: only a one-sided bound is recorded,false
+EXXONMOBIL_EHC_65,base_oil,EHC 65,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+EXXONMOBIL_EHC_65,base_oil,EHC 65,kv40,kv40: status Missing,false
+EXXONMOBIL_EHC_65,base_oil,EHC 65,density,density: status Missing,false
+EXXONMOBIL_EHC_65,base_oil,EHC 65,ccs,ccs: only a one-sided bound is recorded,false
+EXXONMOBIL_ESTEREX_A32,base_oil,Esterex A32,density,density: status Missing,false
+EXXONMOBIL_ESTEREX_A32,base_oil,Esterex A32,ccs,ccs: status Missing,false
+EXXONMOBIL_ESTEREX_A34,base_oil,Esterex A34,density,density: status Missing,false
+EXXONMOBIL_ESTEREX_A34,base_oil,Esterex A34,ccs,ccs: status Missing,false
+EXXONMOBIL_ESTEREX_A41,base_oil,Esterex A41,density,density: status Missing,false
+EXXONMOBIL_ESTEREX_A41,base_oil,Esterex A41,ccs,ccs: status Missing,false
+EXXONMOBIL_ESTEREX_A51,base_oil,Esterex A51,density,density: status Missing,false
+EXXONMOBIL_ESTEREX_A51,base_oil,Esterex A51,ccs,ccs: status Missing,false
+EXXONMOBIL_ESTEREX_NP343,base_oil,Esterex NP343,density,density: status Missing,false
+EXXONMOBIL_ESTEREX_NP343,base_oil,Esterex NP343,ccs,ccs: status Missing,false
+EXXONMOBIL_ESTEREX_NP451,base_oil,Esterex NP451,density,density: status Missing,false
+EXXONMOBIL_ESTEREX_NP451,base_oil,Esterex NP451,ccs,ccs: status Missing,false
+EXXONMOBIL_ESTEREX_P61,base_oil,Esterex P61,density,density: status Missing,false
+EXXONMOBIL_ESTEREX_P61,base_oil,Esterex P61,ccs,ccs: status Missing,false
+EXXONMOBIL_ESTEREX_P81,base_oil,Esterex P81,density,density: status Missing,false
+EXXONMOBIL_ESTEREX_P81,base_oil,Esterex P81,ccs,ccs: status Missing,false
+EXXONMOBIL_ESTEREX_TM111,base_oil,Esterex TM111,density,density: status Missing,false
+EXXONMOBIL_ESTEREX_TM111,base_oil,Esterex TM111,ccs,ccs: status Missing,false
+EXXONMOBIL_SN_800,base_oil,SN 800,kv40,kv40: status Missing,false
+EXXONMOBIL_SN_800,base_oil,SN 800,viscosity_index,"viscosity_index: only a one-sided bound is recorded (qualifier 'Sales specification', value_kind 'minimum')",false
+EXXONMOBIL_SN_800,base_oil,SN 800,density,density: status Missing,false
+EXXONMOBIL_SN_800,base_oil,SN 800,ccs,ccs: status Missing,false
+EXXONMOBIL_SPECTRASYN_10,base_oil,SpectraSyn 10,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_100,base_oil,SpectraSyn 100,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_100,base_oil,SpectraSyn 100,ccs,ccs: status Missing,false
+EXXONMOBIL_SPECTRASYN_2,base_oil,SpectraSyn 2,viscosity_index,viscosity_index: status Missing,false
+EXXONMOBIL_SPECTRASYN_2,base_oil,SpectraSyn 2,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_2,base_oil,SpectraSyn 2,ccs,ccs: status Missing,false
+EXXONMOBIL_SPECTRASYN_2B,base_oil,SpectraSyn 2B,viscosity_index,viscosity_index: status Missing,false
+EXXONMOBIL_SPECTRASYN_2B,base_oil,SpectraSyn 2B,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_2B,base_oil,SpectraSyn 2B,ccs,ccs: status Missing,false
+EXXONMOBIL_SPECTRASYN_2C,base_oil,SpectraSyn 2C,viscosity_index,viscosity_index: status Missing,false
+EXXONMOBIL_SPECTRASYN_2C,base_oil,SpectraSyn 2C,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_2C,base_oil,SpectraSyn 2C,ccs,ccs: status Missing,false
+EXXONMOBIL_SPECTRASYN_4,base_oil,SpectraSyn 4,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_40,base_oil,SpectraSyn 40,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_40,base_oil,SpectraSyn 40,ccs,ccs: status Missing,false
+EXXONMOBIL_SPECTRASYN_5,base_oil,SpectraSyn 5,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_6,base_oil,SpectraSyn 6,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_8,base_oil,SpectraSyn 8,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_ELITE_150,base_oil,SpectraSyn Elite 150,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_ELITE_150,base_oil,SpectraSyn Elite 150,ccs,ccs: status Missing,false
+EXXONMOBIL_SPECTRASYN_ELITE_300,base_oil,SpectraSyn Elite 300,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_ELITE_300,base_oil,SpectraSyn Elite 300,ccs,ccs: status Missing,false
+EXXONMOBIL_SPECTRASYN_ELITE_65,base_oil,SpectraSyn Elite 65,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_ELITE_65,base_oil,SpectraSyn Elite 65,ccs,ccs: status Missing,false
+EXXONMOBIL_SPECTRASYN_PLUS_3_6,base_oil,SpectraSyn Plus 3.6,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_PLUS_4,base_oil,SpectraSyn Plus 4,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_PLUS_6,base_oil,SpectraSyn Plus 6,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_ULTRA_1000,base_oil,SpectraSyn Ultra 1000,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_ULTRA_1000,base_oil,SpectraSyn Ultra 1000,ccs,ccs: status Missing,false
+EXXONMOBIL_SPECTRASYN_ULTRA_300,base_oil,SpectraSyn Ultra 300,density,density: status Missing,false
+EXXONMOBIL_SPECTRASYN_ULTRA_300,base_oil,SpectraSyn Ultra 300,ccs,ccs: status Missing,false
+EXXONMOBIL_SYNESSTIC_12,base_oil,Synesstic 12,density,density: status Missing,false
+EXXONMOBIL_SYNESSTIC_12,base_oil,Synesstic 12,ccs,ccs: status Missing,false
+EXXONMOBIL_SYNESSTIC_5,base_oil,Synesstic 5,density,density: status Missing,false
+EXXONMOBIL_SYNESSTIC_5,base_oil,Synesstic 5,ccs,ccs: status Missing,false
+FORMOSA_150N_GII_PLUS,base_oil,Base Oil 150N GII+,viscosity_index,viscosity_index: only a one-sided bound is recorded,false
+FORMOSA_150N_GII_PLUS,base_oil,Base Oil 150N GII+,density,density: status Missing,false
+FORMOSA_150N_GII_PLUS,base_oil,Base Oil 150N GII+,ccs,ccs: status Missing,false
+FORMOSA_500N_GII,base_oil,Base Oil 500N GII,viscosity_index,viscosity_index: only a one-sided bound is recorded,false
+FORMOSA_500N_GII,base_oil,Base Oil 500N GII,density,density: status Missing,false
+FORMOSA_500N_GII,base_oil,Base Oil 500N GII,ccs,ccs: status Missing,false
+FORMOSA_FPCC_70N_GII,base_oil,FPCC 70N GII,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+FORMOSA_FPCC_70N_GII,base_oil,FPCC 70N GII,ccs,ccs: status Missing,false
+GS_CALTEX_150BS,base_oil,150BS,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+GS_CALTEX_150BS,base_oil,150BS,density,density: status Missing,false
+GS_CALTEX_150BS,base_oil,150BS,ccs,ccs: status Missing,false
+GS_CALTEX_150N,base_oil,150N,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+GS_CALTEX_150N,base_oil,150N,density,density: status Missing,false
+GS_CALTEX_150N,base_oil,150N,ccs,ccs: status Missing,false
+GS_CALTEX_220N,base_oil,220N,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+GS_CALTEX_220N,base_oil,220N,density,density: status Missing,false
+GS_CALTEX_220N,base_oil,220N,ccs,ccs: status Missing,false
+GS_CALTEX_2CST_H,base_oil,2cSt_H,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+GS_CALTEX_2CST_H,base_oil,2cSt_H,density,density: status Missing,false
+GS_CALTEX_2CST_H,base_oil,2cSt_H,ccs,ccs: status Missing,false
+GS_CALTEX_2CST_L,base_oil,2cSt_L,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+GS_CALTEX_2CST_L,base_oil,2cSt_L,density,density: status Missing,false
+GS_CALTEX_2CST_L,base_oil,2cSt_L,ccs,ccs: status Missing,false
+GS_CALTEX_600N,base_oil,600N,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+GS_CALTEX_600N,base_oil,600N,density,density: status Missing,false
+GS_CALTEX_600N,base_oil,600N,ccs,ccs: status Missing,false
+GS_CALTEX_60N,base_oil,60N,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+GS_CALTEX_60N,base_oil,60N,density,density: status Missing,false
+GS_CALTEX_60N,base_oil,60N,ccs,ccs: status Missing,false
+HiTEC_8766B,additive_package,HiTEC® 8766B,treat_rate_matrix,treat_rate_matrix: unit '%' does not establish the required basis,false
+HiTEC_8766B,additive_package,HiTEC® 8766B,required_co_components,required_co_components.dose_wt_pct: unit '%' does not establish the required basis,false
+HiTEC_8766B,additive_package,HiTEC® 8766B,published_formulations,published_formulations: status Missing,false
+INFINEUM_D3320,additive_package,Infineum D3320,route_selector_restrictions,route_selector_restrictions: status Missing,false
+INFINEUM_D3320,additive_package,Infineum D3320,required_co_components,required_co_components: entry without a name or role,false
+INFINEUM_D3320,additive_package,Infineum D3320,published_formulations,published_formulations: status Missing,false
+INFINEUM_D3354,additive_package,Infineum D3354,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+INFINEUM_D3354,additive_package,Infineum D3354,published_formulations,published_formulations: status Missing,false
+INFINEUM_D3375,additive_package,Infineum D3375,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+INFINEUM_D3375,additive_package,Infineum D3375,published_formulations,published_formulations: status Missing,false
+INFINEUM_D3384,additive_package,Infineum D3384,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+INFINEUM_D3384,additive_package,Infineum D3384,required_co_components,required_co_components.dose_wt_pct: unit '%' does not establish the required basis,false
+INFINEUM_D3384,additive_package,Infineum D3384,published_formulations,published_formulations: status Missing,false
+INFINEUM_D3396,additive_package,Infineum D3396,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+INFINEUM_D3396,additive_package,Infineum D3396,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+INFINEUM_D3396,additive_package,Infineum D3396,published_formulations,published_formulations: status Missing,false
+INFINEUM_D3398,additive_package,Infineum D3398,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+INFINEUM_D3398,additive_package,Infineum D3398,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+INFINEUM_D3398,additive_package,Infineum D3398,published_formulations,published_formulations: status Missing,false
+INFINEUM_D3416,additive_package,Infineum D3416,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+INFINEUM_D3416,additive_package,Infineum D3416,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+INFINEUM_D3416,additive_package,Infineum D3416,published_formulations,published_formulations: status Missing,false
+INFINEUM_D3417,additive_package,Infineum D3417,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+INFINEUM_D3417,additive_package,Infineum D3417,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+INFINEUM_D3417,additive_package,Infineum D3417,published_formulations,published_formulations: status Missing,false
+INFINEUM_D3424,additive_package,Infineum D3424,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+INFINEUM_D3424,additive_package,Infineum D3424,required_co_components,required_co_components: entry without a name or role,false
+INFINEUM_D3424,additive_package,Infineum D3424,published_formulations,published_formulations: status Missing,false
+INFINEUM_D3451,additive_package,Infineum D3451,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+INFINEUM_D3451,additive_package,Infineum D3451,required_co_components,required_co_components.dose_wt_pct: unit '%' does not establish the required basis,false
+INFINEUM_D3451,additive_package,Infineum D3451,published_formulations,published_formulations: status Missing,false
+INFINEUM_D3453,additive_package,Infineum D3453,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+INFINEUM_D3453,additive_package,Infineum D3453,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+INFINEUM_D3453,additive_package,Infineum D3453,published_formulations,published_formulations: status Missing,false
+INFINEUM_D3463,additive_package,Infineum D3463,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+INFINEUM_D3463,additive_package,Infineum D3463,route_selector_restrictions,route_selector_restrictions: status Missing,false
+INFINEUM_D3463,additive_package,Infineum D3463,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+INFINEUM_D3463,additive_package,Infineum D3463,published_formulations,published_formulations: status Missing,false
+INFINEUM_D3503,additive_package,Infineum D3503,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+INFINEUM_D3503,additive_package,Infineum D3503,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+INFINEUM_D3503,additive_package,Infineum D3503,published_formulations,published_formulations: status Missing,false
+INFINEUM_D3511,additive_package,Infineum D3511,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+INFINEUM_D3511,additive_package,Infineum D3511,required_co_components,required_co_components: entry without a name or role,false
+INFINEUM_D3511,additive_package,Infineum D3511,published_formulations,published_formulations: status Missing,false
+JINZHOU_DONGGONG_T3160,additive_package,Multifunction Engine Oil Additive Package T3160,route_selector_restrictions,route_selector_restrictions: status Missing,false
+JINZHOU_DONGGONG_T3160,additive_package,Multifunction Engine Oil Additive Package T3160,required_co_components,required_co_components: entry without a name or role,false
+JINZHOU_DONGGONG_T3160,additive_package,Multifunction Engine Oil Additive Package T3160,published_formulations,published_formulations: status Missing,false
+JINZHOU_KANGTAI_KT31140,additive_package,KT31140,sae_grades_documented,sae_grades_documented: status Missing,false
+JINZHOU_KANGTAI_KT31140,additive_package,KT31140,route_selector_restrictions,route_selector_restrictions: status Missing,false
+JINZHOU_KANGTAI_KT31140,additive_package,KT31140,required_co_components,required_co_components: entry without a name or role,false
+JINZHOU_KANGTAI_KT31140,additive_package,KT31140,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_16008,additive_package,LUBRIZOL® 16008,sae_grades_documented,sae_grades_documented: status Missing,false
+LUBRIZOL_16008,additive_package,LUBRIZOL® 16008,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+LUBRIZOL_16008,additive_package,LUBRIZOL® 16008,route_selector_restrictions,route_selector_restrictions: status Missing,false
+LUBRIZOL_16008,additive_package,LUBRIZOL® 16008,required_co_components,required_co_components: entry without a name or role,false
+LUBRIZOL_16008,additive_package,LUBRIZOL® 16008,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_3589C,additive_package,LUBRIZOL® 3589C,sae_grades_documented,sae_grades_documented: status Missing,false
+LUBRIZOL_3589C,additive_package,LUBRIZOL® 3589C,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+LUBRIZOL_3589C,additive_package,LUBRIZOL® 3589C,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_3700,additive_package,LUBRIZOL® 3700,sae_grades_documented,sae_grades_documented: status Missing,false
+LUBRIZOL_3700,additive_package,LUBRIZOL® 3700,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+LUBRIZOL_3700,additive_package,LUBRIZOL® 3700,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_3700D,additive_package,LUBRIZOL® 3700D,sae_grades_documented,sae_grades_documented: status Missing,false
+LUBRIZOL_3700D,additive_package,LUBRIZOL® 3700D,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+LUBRIZOL_3700D,additive_package,LUBRIZOL® 3700D,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_4986,additive_package,LUBRIZOL® 4986,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+LUBRIZOL_4986,additive_package,LUBRIZOL® 4986,route_selector_restrictions,route_selector_restrictions: status Missing,false
+LUBRIZOL_4986,additive_package,LUBRIZOL® 4986,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+LUBRIZOL_4986,additive_package,LUBRIZOL® 4986,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_4986D,additive_package,LUBRIZOL® 4986D,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+LUBRIZOL_4986D,additive_package,LUBRIZOL® 4986D,route_selector_restrictions,route_selector_restrictions: status Missing,false
+LUBRIZOL_4986D,additive_package,LUBRIZOL® 4986D,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+LUBRIZOL_4986D,additive_package,LUBRIZOL® 4986D,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_4986E,additive_package,LUBRIZOL® 4986E,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+LUBRIZOL_4986E,additive_package,LUBRIZOL® 4986E,route_selector_restrictions,route_selector_restrictions: status Missing,false
+LUBRIZOL_4986E,additive_package,LUBRIZOL® 4986E,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+LUBRIZOL_4986E,additive_package,LUBRIZOL® 4986E,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_4986F,additive_package,LUBRIZOL® 4986F,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+LUBRIZOL_4986F,additive_package,LUBRIZOL® 4986F,route_selector_restrictions,route_selector_restrictions: status Missing,false
+LUBRIZOL_4986F,additive_package,LUBRIZOL® 4986F,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+LUBRIZOL_4986F,additive_package,LUBRIZOL® 4986F,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_4986G,additive_package,LUBRIZOL® 4986G,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+LUBRIZOL_4986G,additive_package,LUBRIZOL® 4986G,route_selector_restrictions,route_selector_restrictions: status Missing,false
+LUBRIZOL_4986G,additive_package,LUBRIZOL® 4986G,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+LUBRIZOL_4986G,additive_package,LUBRIZOL® 4986G,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_4987,additive_package,LUBRIZOL® 4987,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+LUBRIZOL_4987,additive_package,LUBRIZOL® 4987,route_selector_restrictions,route_selector_restrictions: status Missing,false
+LUBRIZOL_4987,additive_package,LUBRIZOL® 4987,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+LUBRIZOL_4987,additive_package,LUBRIZOL® 4987,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_CV1100,additive_package,LUBRIZOL® CV1100,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_CV1103,additive_package,LUBRIZOL® CV1103,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+LUBRIZOL_CV1103,additive_package,LUBRIZOL® CV1103,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_CV2301,additive_package,LUBRIZOL® CV2301,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+LUBRIZOL_CV2301,additive_package,LUBRIZOL® CV2301,route_selector_restrictions,route_selector_restrictions: status Missing,false
+LUBRIZOL_CV2301,additive_package,LUBRIZOL® CV2301,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+LUBRIZOL_CV2301,additive_package,LUBRIZOL® CV2301,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_CV2601,additive_package,LUBRIZOL® CV2601,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+LUBRIZOL_CV2601,additive_package,LUBRIZOL® CV2601,route_selector_restrictions,route_selector_restrictions: status Missing,false
+LUBRIZOL_CV2601,additive_package,LUBRIZOL® CV2601,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+LUBRIZOL_CV2601,additive_package,LUBRIZOL® CV2601,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_CV3515,additive_package,LUBRIZOL® CV3515,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+LUBRIZOL_CV3515,additive_package,LUBRIZOL® CV3515,route_selector_restrictions,route_selector_restrictions: status Missing,false
+LUBRIZOL_CV3515,additive_package,LUBRIZOL® CV3515,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+LUBRIZOL_CV3515,additive_package,LUBRIZOL® CV3515,published_formulations,published_formulations: status Missing,false
+LUBRIZOL_CV6320,additive_component,LUBRIZOL® CV6320,chemical_family,chemical_family: status Missing,false
+LUBRIZOL_CV6320,additive_component,LUBRIZOL® CV6320,active_content,active_content: status Missing,false
+LUBRIZOL_CV7540,additive_package,LUBRIZOL® CV7540,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+LUBRIZOL_CV7540,additive_package,LUBRIZOL® CV7540,published_formulations,published_formulations: status Missing,false
+MINGLAN_T3161,additive_package,T3161,sae_grades_documented,sae_grades_documented: status Missing,false
+MINGLAN_T3161,additive_package,T3161,treat_rate_matrix,treat_rate_matrix: unit not recorded,false
+MINGLAN_T3161,additive_package,T3161,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+MINGLAN_T3161,additive_package,T3161,route_selector_restrictions,route_selector_restrictions: status Missing,false
+MINGLAN_T3161,additive_package,T3161,required_co_components,required_co_components: entry without a name or role,false
+MINGLAN_T3161,additive_package,T3161,published_formulations,published_formulations: status Missing,false
+MINGLAN_T3161A,additive_package,T3161A,sae_grades_documented,sae_grades_documented: status Missing,false
+MINGLAN_T3161A,additive_package,T3161A,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+MINGLAN_T3161A,additive_package,T3161A,route_selector_restrictions,route_selector_restrictions: status Missing,false
+MINGLAN_T3161A,additive_package,T3161A,required_co_components,required_co_components: entry without a name or role,false
+MINGLAN_T3161A,additive_package,T3161A,published_formulations,published_formulations: status Missing,false
+MINGYUEKEJI_MY_P3168,additive_package,Additive Package MY-P3168,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+MINGYUEKEJI_MY_P3168,additive_package,Additive Package MY-P3168,route_selector_restrictions,route_selector_restrictions: status Missing,false
+MINGYUEKEJI_MY_P3168,additive_package,Additive Package MY-P3168,required_co_components,required_co_components: entry without a name or role,false
+MINGYUEKEJI_MY_P3168,additive_package,Additive Package MY-P3168,published_formulations,published_formulations: status Missing,false
+NESTE_NEXBASE_3020,base_oil,NEXBASE 3020,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+NESTE_NEXBASE_3020,base_oil,NEXBASE 3020,viscosity_index,viscosity_index: status Missing,false
+NESTE_NEXBASE_3020,base_oil,NEXBASE 3020,ccs,ccs: status Missing,false
+NESTE_NEXBASE_3030,base_oil,NEXBASE 3030,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+NESTE_NEXBASE_3030,base_oil,NEXBASE 3030,ccs,ccs: status Missing,false
+NESTE_NEXBASE_3043,base_oil,NEXBASE 3043,ccs,ccs: status Missing,false
+NESTE_NEXBASE_3050,base_oil,NEXBASE 3050,ccs,ccs: status Missing,false
+NESTE_NEXBASE_3060,base_oil,NEXBASE 3060,ccs,ccs: status Missing,false
+NESTE_NEXBASE_3080,base_oil,NEXBASE 3080,ccs,ccs: status Missing,false
+NYNAS_BASE_STOCK_20,base_oil,Base Stock 20,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+NYNAS_BASE_STOCK_20,base_oil,Base Stock 20,viscosity_index,viscosity_index: status Missing,false
+NYNAS_BASE_STOCK_20,base_oil,Base Stock 20,ccs,ccs: status Missing,false
+NYNAS_BNS_5,base_oil,BNS 5,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+NYNAS_BNS_5,base_oil,BNS 5,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+NYNAS_BNS_5,base_oil,BNS 5,kv100,kv100: status Missing,false
+NYNAS_BNS_5,base_oil,BNS 5,viscosity_index,viscosity_index: status Missing,false
+NYNAS_BNS_5,base_oil,BNS 5,ccs,ccs: status Missing,false
+NYNAS_NS_3,base_oil,NS 3,kv100,kv100: status Missing,false
+NYNAS_NS_3,base_oil,NS 3,viscosity_index,viscosity_index: status Missing,false
+NYNAS_NS_3,base_oil,NS 3,ccs,ccs: status Missing,false
+NYNAS_NYBASE_70,base_oil,NYBASE 70,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+NYNAS_NYBASE_70,base_oil,NYBASE 70,ccs,ccs: status Missing,false
+NYNAS_NYFROST_100,base_oil,NYFROST 100,viscosity_index,viscosity_index: status Missing,false
+NYNAS_NYFROST_100,base_oil,NYFROST 100,ccs,ccs: status Missing,false
+NYNAS_NYFROST_32,base_oil,NYFROST 32,viscosity_index,viscosity_index: status Missing,false
+NYNAS_NYFROST_32,base_oil,NYFROST 32,ccs,ccs: status Missing,false
+NYNAS_NYFROST_68,base_oil,Nyfrost 68,viscosity_index,viscosity_index: status Missing,false
+NYNAS_NYFROST_68,base_oil,Nyfrost 68,ccs,ccs: status Missing,false
+NYNAS_S_3B,base_oil,Nynas S 3B,viscosity_index,viscosity_index: status Missing,false
+NYNAS_S_3B,base_oil,Nynas S 3B,ccs,ccs: status Missing,false
+NYNAS_T_110,base_oil,Nynas T 110,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+NYNAS_T_110,base_oil,Nynas T 110,viscosity_index,viscosity_index: status Missing,false
+NYNAS_T_110,base_oil,Nynas T 110,ccs,ccs: status Missing,false
+NYNAS_T_22,base_oil,Nynas T 22,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+NYNAS_T_22,base_oil,Nynas T 22,viscosity_index,viscosity_index: status Missing,false
+NYNAS_T_22,base_oil,Nynas T 22,ccs,ccs: status Missing,false
+NYNAS_T_3,base_oil,Nynas T 3,viscosity_index,viscosity_index: status Missing,false
+NYNAS_T_3,base_oil,Nynas T 3,ccs,ccs: status Missing,false
+NYNAS_T_4,base_oil,Nynas T 4,viscosity_index,viscosity_index: status Missing,false
+NYNAS_T_4,base_oil,Nynas T 4,ccs,ccs: status Missing,false
+NYNAS_T_600,base_oil,Nynas T 600,viscosity_index,viscosity_index: status Missing,false
+NYNAS_T_600,base_oil,Nynas T 600,ccs,ccs: status Missing,false
+NYNAS_T_9,base_oil,Nynas T 9,viscosity_index,viscosity_index: status Missing,false
+NYNAS_T_9,base_oil,Nynas T 9,ccs,ccs: status Missing,false
+PETRONAS_EQUINAS_4,base_oil,EQUINAS 4,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+PETRONAS_EQUINAS_4,base_oil,EQUINAS 4,viscosity_index,viscosity_index: status Missing,false
+PETRONAS_EQUINAS_4,base_oil,EQUINAS 4,ccs,ccs: status Missing,false
+PETRONAS_EQUINAS_6,base_oil,EQUINAS 6,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+PETRONAS_EQUINAS_6,base_oil,EQUINAS 6,viscosity_index,viscosity_index: status Missing,false
+PETRONAS_EQUINAS_6,base_oil,EQUINAS 6,ccs,ccs: status Missing,false
+PETRONAS_ETRO_3,base_oil,ETRO 3,ccs,ccs: status Missing,false
+PETRONAS_ETRO_4,base_oil,ETRO 4,kv40,kv40: status Missing,false
+PETRONAS_ETRO_4,base_oil,ETRO 4,density,density: status Missing,false
+PETRONAS_ETRO_4_PLUS,base_oil,ETRO 4+,density,density: status Missing,false
+PETRONAS_ETRO_6,base_oil,ETRO 6,kv40,kv40: status Missing,false
+PETRONAS_ETRO_6,base_oil,ETRO 6,density,density: status Missing,false
+PETRONAS_ETRO_6,base_oil,ETRO 6,ccs,ccs: status Missing,false
+PETRONAS_M500,base_oil,M500,ccs,ccs: status Missing,false
+PETRO_CANADA_PURITY_1003,base_oil,PURITY 1003 Base Oil,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+PETRO_CANADA_PURITY_1017,base_oil,PURITY 1017 Base Oil,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+PETRO_CANADA_PURITY_1020,base_oil,PURITY 1020 Base Oil,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+PETRO_CANADA_PURITY_2204,base_oil,PURITY 2204 Base Oil,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+PETRO_CANADA_PURITY_2305,base_oil,PURITY 2305 Base Oil,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+PETRO_CANADA_PURITY_L35,base_oil,PURITY L35 Base Oil,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+PETRO_CANADA_PURITY_L35,base_oil,PURITY L35 Base Oil,viscosity_index,viscosity_index: status Missing,false
+PETRO_CANADA_PURITY_L35,base_oil,PURITY L35 Base Oil,ccs,ccs: status Missing,false
+PETRO_CANADA_PURITY_L40,base_oil,PURITY L40 Base Oil,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+PETRO_CANADA_PURITY_L40,base_oil,PURITY L40 Base Oil,viscosity_index,viscosity_index: status Missing,false
+PETRO_CANADA_PURITY_L40,base_oil,PURITY L40 Base Oil,ccs,ccs: status Missing,false
+PETRO_CANADA_PURITY_L45,base_oil,PURITY L45 Base Oil,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+PETRO_CANADA_PURITY_L45,base_oil,PURITY L45 Base Oil,viscosity_index,viscosity_index: status Missing,false
+PETRO_CANADA_PURITY_L45,base_oil,PURITY L45 Base Oil,ccs,ccs: status Missing,false
+PETRO_CANADA_PURITY_L50,base_oil,PURITY L50 Base Oil,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+PETRO_CANADA_PURITY_L50,base_oil,PURITY L50 Base Oil,viscosity_index,viscosity_index: status Missing,false
+PETRO_CANADA_PURITY_L50,base_oil,PURITY L50 Base Oil,ccs,ccs: status Missing,false
+PETRO_CANADA_PURITY_L60,base_oil,PURITY L60 Base Oil,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+PETRO_CANADA_PURITY_L60,base_oil,PURITY L60 Base Oil,ccs,ccs: status Missing,false
+PETRO_CANADA_PURITY_L65,base_oil,PURITY L65 Base Oil,api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+PETRO_CANADA_PURITY_L65,base_oil,PURITY L65 Base Oil,ccs,ccs: status Missing,false
+RF6602,additive_component,RF6602 Polymethacrylate (PMA) Viscosity Index Improver,treat_rate,treat_rate: status Missing,false
+RF6602,additive_component,RF6602 Polymethacrylate (PMA) Viscosity Index Improver,compatibility_restrictions,compatibility_restrictions: status Missing,false
+RF6602,additive_component,RF6602 Polymethacrylate (PMA) Viscosity Index Improver,vm.polymer_chemistry,vm.polymer_chemistry: type or form not recorded,false
+RF6602,additive_component,RF6602 Polymethacrylate (PMA) Viscosity Index Improver,vm.treat_range_by_sae_grade,vm.treat_range_by_sae_grade: status Missing,false
+RF6602,additive_component,RF6602 Polymethacrylate (PMA) Viscosity Index Improver,vm.thickening_response,vm.thickening_response: method not recorded (I-7),true
+RF6602,additive_component,RF6602 Polymethacrylate (PMA) Viscosity Index Improver,vm.post_shear_blend_behaviour.post_shear_kv100,vm.post_shear_blend_behaviour.post_shear_kv100: unit not recorded,false
+RF6602,additive_component,RF6602 Polymethacrylate (PMA) Viscosity Index Improver,vm.post_shear_blend_behaviour.hths_150c,vm.post_shear_blend_behaviour.hths_150c: status Missing,false
+RF6602,additive_component,RF6602 Polymethacrylate (PMA) Viscosity Index Improver,vm.post_shear_blend_behaviour.ccs_impact,vm.post_shear_blend_behaviour.ccs_impact: status Missing,false
+RF6602,additive_component,RF6602 Polymethacrylate (PMA) Viscosity Index Improver,vm.post_shear_blend_behaviour.mrv_impact,vm.post_shear_blend_behaviour.mrv_impact: status Missing,false
+RF6602,additive_component,RF6602 Polymethacrylate (PMA) Viscosity Index Improver,vm.post_shear_blend_behaviour.low_temp_gelation,vm.post_shear_blend_behaviour.low_temp_gelation: status Missing,false
+RF6602,additive_component,RF6602 Polymethacrylate (PMA) Viscosity Index Improver,vm.dissolution_blend_temperature,vm.dissolution_blend_temperature: status Missing,false
+RICHFUL_RF6066,additive_package,RF6066 CH-4/CI-4 Diesel Engine Oil Package,treat_rate_matrix,treat_rate_matrix: unit '%' does not establish the required basis,false
+RICHFUL_RF6066,additive_package,RF6066 CH-4/CI-4 Diesel Engine Oil Package,required_co_components,required_co_components: entry without a name or role,false
+RICHFUL_RF6066,additive_package,RF6066 CH-4/CI-4 Diesel Engine Oil Package,published_formulations,published_formulations: status Missing,false
+RICHFUL_RF6069,additive_package,RF6069 CI-4 Diesel Engine Oil Package,treat_rate_matrix,treat_rate_matrix: unit '%' does not establish the required basis,false
+RICHFUL_RF6069,additive_package,RF6069 CI-4 Diesel Engine Oil Package,route_selector_restrictions,route_selector_restrictions: status Missing,false
+RICHFUL_RF6069,additive_package,RF6069 CI-4 Diesel Engine Oil Package,required_co_components,required_co_components.dose_wt_pct: unit '%' does not establish the required basis,false
+RICHFUL_RF6069,additive_package,RF6069 CI-4 Diesel Engine Oil Package,published_formulations,published_formulations: status Missing,false
+RICHFUL_RF6071L,additive_package,RF6071L CI-4 Extended EDI Diesel Engine Oil Package,treat_rate_matrix,treat_rate_matrix: unit '%' does not establish the required basis,false
+RICHFUL_RF6071L,additive_package,RF6071L CI-4 Extended EDI Diesel Engine Oil Package,required_co_components,required_co_components: entry without a name or role,false
+RICHFUL_RF6071L,additive_package,RF6071L CI-4 Extended EDI Diesel Engine Oil Package,published_formulations,published_formulations: status Missing,false
+RICHFUL_RF6077,additive_package,RF6077 CI-4 Diesel Engine Oil Additive Package,treat_rate_matrix,treat_rate_matrix: unit '%' does not establish the required basis,false
+RICHFUL_RF6077,additive_package,RF6077 CI-4 Diesel Engine Oil Additive Package,route_selector_restrictions,route_selector_restrictions: status Missing,false
+RICHFUL_RF6077,additive_package,RF6077 CI-4 Diesel Engine Oil Additive Package,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+RICHFUL_RF6077,additive_package,RF6077 CI-4 Diesel Engine Oil Additive Package,published_formulations,published_formulations: status Missing,false
+RICHFUL_RF6078,additive_package,RF6078 ACEA E7/CI-4 Diesel Engine Oil Package,treat_rate_matrix,treat_rate_matrix: status Missing,false
+RICHFUL_RF6078,additive_package,RF6078 ACEA E7/CI-4 Diesel Engine Oil Package,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+RICHFUL_RF6078,additive_package,RF6078 ACEA E7/CI-4 Diesel Engine Oil Package,published_formulations,published_formulations: status Missing,false
+RICHFUL_RF6079,additive_package,RF6079 API CI-4/ACEA E7 Diesel Engine Oil Additive Package,route_selector_restrictions,route_selector_restrictions: status Missing,false
+RICHFUL_RF6079,additive_package,RF6079 API CI-4/ACEA E7 Diesel Engine Oil Additive Package,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+RICHFUL_RF6079,additive_package,RF6079 API CI-4/ACEA E7 Diesel Engine Oil Additive Package,published_formulations,published_formulations: status Missing,false
+RICHFUL_RF6080,additive_package,RF6080,route_selector_restrictions,route_selector_restrictions: status Missing,false
+RICHFUL_RF6080,additive_package,RF6080,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+RICHFUL_RF6080,additive_package,RF6080,published_formulations,published_formulations: status Missing,false
+RICHFUL_RF6081,additive_package,RF6081,route_selector_restrictions,route_selector_restrictions: status Missing,false
+RICHFUL_RF6081,additive_package,RF6081,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+RICHFUL_RF6081,additive_package,RF6081,published_formulations,published_formulations: status Missing,false
+RICHFUL_RF6088,additive_package,RF6088 Diesel Engine Oil Additive Package,treat_rate_matrix,treat_rate_matrix: unit '%' does not establish the required basis,false
+RICHFUL_RF6088,additive_package,RF6088 Diesel Engine Oil Additive Package,route_selector_restrictions,route_selector_restrictions: status Missing,false
+RICHFUL_RF6088,additive_package,RF6088 Diesel Engine Oil Additive Package,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+RICHFUL_RF6088,additive_package,RF6088 Diesel Engine Oil Additive Package,published_formulations,published_formulations: status Missing,false
+RICHFUL_RF6088F,additive_package,RF6088F CK-4 Diesel Engine Oil Package,treat_rate_matrix,treat_rate_matrix: unit '%' does not establish the required basis,false
+RICHFUL_RF6088F,additive_package,RF6088F CK-4 Diesel Engine Oil Package,route_selector_restrictions,route_selector_restrictions: status Missing,false
+RICHFUL_RF6088F,additive_package,RF6088F CK-4 Diesel Engine Oil Package,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+RICHFUL_RF6088F,additive_package,RF6088F CK-4 Diesel Engine Oil Package,published_formulations,published_formulations: status Missing,false
+RICHFUL_RF6089,additive_package,RF6089,package_type_application.package_type,package_type_application.package_type: status Missing,false
+RICHFUL_RF6089,additive_package,RF6089,performance_claims,performance_claims: status Missing,false
+RICHFUL_RF6089,additive_package,RF6089,sae_grades_documented,sae_grades_documented: status Missing,false
+RICHFUL_RF6089,additive_package,RF6089,treat_rate_matrix,treat_rate_matrix: status Missing,false
+RICHFUL_RF6089,additive_package,RF6089,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+RICHFUL_RF6089,additive_package,RF6089,route_selector_restrictions,route_selector_restrictions: status Missing,false
+RICHFUL_RF6089,additive_package,RF6089,required_co_components,required_co_components: entry without a name or role,false
+RICHFUL_RF6089,additive_package,RF6089,published_formulations,published_formulations: status Missing,false
+RICHFUL_RF6400,additive_package,RF6400 CF-4/SG Universal Type Engine Oil Package,treat_rate_matrix,treat_rate_matrix: unit '%' does not establish the required basis,false
+RICHFUL_RF6400,additive_package,RF6400 CF-4/SG Universal Type Engine Oil Package,route_selector_restrictions,route_selector_restrictions: status Missing,false
+RICHFUL_RF6400,additive_package,RF6400 CF-4/SG Universal Type Engine Oil Package,required_co_components,required_co_components: entry without a name or role,false
+RICHFUL_RF6400,additive_package,RF6400 CF-4/SG Universal Type Engine Oil Package,published_formulations,published_formulations: status Missing,false
+RICHFUL_RF6406,additive_package,RF6406 Universal Type Engine Oil Package,treat_rate_matrix,treat_rate_matrix: unit '%' does not establish the required basis,false
+RICHFUL_RF6406,additive_package,RF6406 Universal Type Engine Oil Package,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+RICHFUL_RF6406,additive_package,RF6406 Universal Type Engine Oil Package,route_selector_restrictions,route_selector_restrictions: status Missing,false
+RICHFUL_RF6406,additive_package,RF6406 Universal Type Engine Oil Package,required_co_components,required_co_components: entry without a name or role,false
+RICHFUL_RF6406,additive_package,RF6406 Universal Type Engine Oil Package,published_formulations,published_formulations: status Missing,false
+RICHFUL_RF6408,additive_package,RF6408 CF-4 Diesel Engine Oil Package,treat_rate_matrix,treat_rate_matrix: unit '%' does not establish the required basis,false
+RICHFUL_RF6408,additive_package,RF6408 CF-4 Diesel Engine Oil Package,route_selector_restrictions,route_selector_restrictions: status Missing,false
+RICHFUL_RF6408,additive_package,RF6408 CF-4 Diesel Engine Oil Package,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+RICHFUL_RF6408,additive_package,RF6408 CF-4 Diesel Engine Oil Package,published_formulations,published_formulations: status Missing,false
+SAMA_P2021A,additive_package,P2021A,sae_grades_documented,sae_grades_documented: status Missing,false
+SAMA_P2021A,additive_package,P2021A,treat_rate_matrix,treat_rate_matrix: status Missing,false
+SAMA_P2021A,additive_package,P2021A,route_selector_restrictions,route_selector_restrictions: status Missing,false
+SAMA_P2021A,additive_package,P2021A,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+SAMA_P2021A,additive_package,P2021A,published_formulations,published_formulations: status Missing,false
+SHELL_RISELLA_X_415,base_oil,Shell Risella X 415,api_group_chemistry.api_group,api_group_chemistry.api_group: marked 'Not Required' without an approved applicability rule,false
+SHELL_RISELLA_X_415,base_oil,Shell Risella X 415,ccs,ccs: status Missing,false
+SHELL_RISELLA_X_420,base_oil,Shell Risella X 420,api_group_chemistry.api_group,api_group_chemistry.api_group: marked 'Not Required' without an approved applicability rule,false
+SHELL_RISELLA_X_420,base_oil,Shell Risella X 420,ccs,ccs: marked 'Not Required' without an approved applicability rule,false
+SHELL_RISELLA_X_430,base_oil,Shell Risella X 430,api_group_chemistry.api_group,api_group_chemistry.api_group: marked 'Not Required' without an approved applicability rule,false
+SHELL_RISELLA_X_430,base_oil,Shell Risella X 430,ccs,ccs: marked 'Not Required' without an approved applicability rule,false
+S_OIL_PREMIUM_P_20,base_oil,P-20 (Premium 100N),api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+S_OIL_PREMIUM_P_20,base_oil,P-20 (Premium 100N),api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+S_OIL_PREMIUM_P_20,base_oil,P-20 (Premium 100N),density,density: status Missing,false
+S_OIL_PREMIUM_P_20,base_oil,P-20 (Premium 100N),ccs,ccs: status Missing,false
+S_OIL_PREMIUM_P_31,base_oil,P-31 (Premium 150N),api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+S_OIL_PREMIUM_P_31,base_oil,P-31 (Premium 150N),density,density: status Missing,false
+S_OIL_PREMIUM_P_31,base_oil,P-31 (Premium 150N),ccs,ccs: status Missing,false
+S_OIL_PREMIUM_P_480,base_oil,P-480 (150BS),api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+S_OIL_PREMIUM_P_480,base_oil,P-480 (150BS),density,density: status Missing,false
+S_OIL_PREMIUM_P_480,base_oil,P-480 (150BS),ccs,ccs: status Missing,false
+S_OIL_PREMIUM_P_8,base_oil,P-8 (Premium 60N),api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+S_OIL_PREMIUM_P_8,base_oil,P-8 (Premium 60N),density,density: status Missing,false
+S_OIL_PREMIUM_P_8,base_oil,P-8 (Premium 60N),ccs,ccs: status Missing,false
+S_OIL_PREMIUM_P_96,base_oil,P-96 (Premium 500N),api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+S_OIL_PREMIUM_P_96,base_oil,P-96 (Premium 500N),density,density: status Missing,false
+S_OIL_PREMIUM_P_96,base_oil,P-96 (Premium 500N),ccs,ccs: status Missing,false
+S_OIL_SUPER_S_31,base_oil,S-31 (Super 150N),api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+S_OIL_SUPER_S_31,base_oil,S-31 (Super 150N),density,density: status Missing,false
+S_OIL_SUPER_S_31,base_oil,S-31 (Super 150N),ccs,ccs: status Missing,false
+S_OIL_SUPER_S_8,base_oil,S-8 (Super 60N),api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+S_OIL_SUPER_S_8,base_oil,S-8 (Super 60N),api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+S_OIL_SUPER_S_8,base_oil,S-8 (Super 60N),density,density: status Missing,false
+S_OIL_SUPER_S_8,base_oil,S-8 (Super 60N),ccs,ccs: status Missing,false
+S_OIL_SUPER_S_96,base_oil,S-96 (Super 500N),api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+S_OIL_SUPER_S_96,base_oil,S-96 (Super 500N),density,density: status Missing,false
+S_OIL_SUPER_S_96,base_oil,S-96 (Super 500N),ccs,ccs: status Missing,false
+S_OIL_ULTRA_S_2,base_oil,Ultra-S 2 (60 Neutral),api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+S_OIL_ULTRA_S_2,base_oil,Ultra-S 2 (60 Neutral),ccs,ccs: status Missing,false
+S_OIL_ULTRA_S_3,base_oil,Ultra-S 3 (70 Neutral),api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+S_OIL_ULTRA_S_3,base_oil,Ultra-S 3 (70 Neutral),ccs,ccs: status Missing,false
+S_OIL_ULTRA_S_4,base_oil,Ultra-S 4 (100 Neutral),api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+S_OIL_ULTRA_S_6,base_oil,Ultra-S 6 (150 Neutral),api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+S_OIL_ULTRA_S_8,base_oil,Ultra-S 8 (250 Neutral),api_group_chemistry.api_group,api_group_chemistry.api_group: status Missing,false
+TIANHE_P_TEC_3232,additive_package,P-TEC 3232,permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+TIANHE_P_TEC_3232,additive_package,P-TEC 3232,required_co_components,required_co_components: entry without a name or role,false
+TIANHE_P_TEC_3232,additive_package,P-TEC 3232,published_formulations,published_formulations: status Missing,false
+TREE_TRADING_NT513,additive_package,NT513,required_co_components,required_co_components.dose_wt_pct: status Missing,false
+TREE_TRADING_NT513,additive_package,NT513,published_formulations,published_formulations: status Missing,false
+WUXI_WX3118,additive_package,WX3118(CF-4 CH-4 CI-4),permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+WUXI_WX3118,additive_package,WX3118(CF-4 CH-4 CI-4),route_selector_restrictions,route_selector_restrictions: status Missing,false
+WUXI_WX3118,additive_package,WX3118(CF-4 CH-4 CI-4),required_co_components,required_co_components: entry without a name or role,false
+WUXI_WX3118,additive_package,WX3118(CF-4 CH-4 CI-4),published_formulations,published_formulations: status Missing,false
+WUXI_WX3326,additive_package,WX3326(CF-4 SL SM),permitted_base_oils_restrictions,permitted_base_oils_restrictions: status Missing,false
+WUXI_WX3326,additive_package,WX3326(CF-4 SL SM),route_selector_restrictions,route_selector_restrictions: status Missing,false
+WUXI_WX3326,additive_package,WX3326(CF-4 SL SM),required_co_components,required_co_components: entry without a name or role,false
+WUXI_WX3326,additive_package,WX3326(CF-4 SL SM),published_formulations,published_formulations: status Missing,false
+YUBASE_3,base_oil,YUBASE 3,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+YUBASE_3,base_oil,YUBASE 3,density,density: status Missing,false
+YUBASE_3,base_oil,YUBASE 3,ccs,ccs: status Missing,false
+YUBASE_4,base_oil,YUBASE 4,density,density: status Missing,false
+YUBASE_4,base_oil,YUBASE 4,ccs,ccs: status Missing,false
+YUBASE_5,base_oil,YUBASE 5,api_group_chemistry.chemistry,api_group_chemistry.chemistry: status Missing,false
+YUBASE_5,base_oil,YUBASE 5,density,density: status Missing,false
+YUBASE_5,base_oil,YUBASE 5,ccs,ccs: status Missing,false
+YUBASE_6,base_oil,YUBASE 6,density,density: status Missing,false
+YUBASE_6,base_oil,YUBASE 6,ccs,ccs: status Missing,false

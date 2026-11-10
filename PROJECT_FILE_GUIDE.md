@@ -3,7 +3,8 @@
 A plain-language map of the Smart Formulator project folder: what each file is, why it exists, and whether it is an
 input, a record you edit, a generated output or a historical record. Written 2026-10-31; it describes the
 repository after the data-correction commit `28265fd`. Updated 2026-11-02 for version 5 of the conflicts audit and
-the new `tools/` and `docs/` folders.
+the new `tools/` and `docs/` folders. Updated 2026-11-10 for the source-selection policy (TDS first, SDS fallback), the
+TDS–SDS comparison inventory and the mandatory Tier 1 eligibility outputs (`reports/`, `docs/data_policy_mandatory_review/`).
 
 The project builds a **raw-material database** for lubricant (engine oil) formulation. Every base oil, additive
 package and additive component is a set of JSON files, and every value in them is traced to a page of a supplier
@@ -16,7 +17,7 @@ Smart formulator project/
 ├── CLAUDE.md                                  working rules for AI-assisted editing
 ├── README.md                                  project overview, scope and how to run the scripts
 ├── PROJECT_FILE_GUIDE.md                      this guide
-├── requirements.txt                           Python dependency (openpyxl)
+├── requirements.txt                           Python dependencies (openpyxl, pymupdf)
 │
 ├── Manual + Data to share.zip                 ORIGINAL SOURCE ARCHIVE (supplier datasheets): never edit
 ├── Raw_Material_Missing_Properties_2026-10-13.xlsx   supplementary inventory workbook (453 materials)
@@ -35,6 +36,9 @@ Smart formulator project/
 │
 ├── tools/                                     saved scripts of the audits and reviews (see tools/README.md)
 ├── docs/audit_review_2026-11-02/              the 2026-11-02 review: method, change list, verification results
+├── docs/data_policy_mandatory_review/         2026-11-10: source-selection policy, threshold proposal, eligibility interface, HANDOFF
+├── reports/data_policy/                       generated: document classes, source-selection changes, TDS–SDS comparisons
+├── reports/mandatory_properties/              generated: product_eligibility.csv (interface), missing mandatory properties
 │
 └── reconciliation/                            reviews, audits and their evidence
     ├── README.md                              explains the inventory reconciliation
@@ -58,7 +62,7 @@ A `.git` folder (hidden) holds the version history. Do not delete it.
 | **Authoritative input** | Original evidence. Read it, never edit it. | `Manual + Data to share.zip`; the copies in `reconciliation/audit_evidence/` |
 | **Editable record** | Maintained by hand; changes must follow the rules in `CLAUDE.md`. | `Products_json/`, `open_questions_and_conflicts.md`, `source_registry.json`, `reconciliation/identity_review.md`, `README.md`, `CLAUDE.md`, this guide |
 | **Specification** | Fixed design; do not edit while filling data. | `json_templates/`, `Property_Glossary.docx` |
-| **Generated output** | Produced by a script; regenerate it instead of editing it. | `Coverage_Matrix.xlsx` (and `conflicts_report_generated.md` if `build_conflicts_report.py` is run; not present now) |
+| **Generated output** | Produced by a script; regenerate it instead of editing it. | `Coverage_Matrix.xlsx`, `reports/data_policy/*`, `reports/mandatory_properties/*` (and `conflicts_report_generated.md` if `build_conflicts_report.py` is run; not present now) |
 | **Historical record** | A dated snapshot, kept as evidence of what was found or decided. Do not rewrite it; add a new dated record or a new numbered version instead (earlier versions stay in git history). | `reconciliation/comprehensive_conflicts_audit.md` / `.csv` (versioned: version 5 of 2026-11-02 is current), `audit_evidence/evidence_manifest.md`, the 2026-10-31 correction log, `inventory_reconciliation.csv`, `deferred_products.*`, `base_oil_ingestion_queue.md`, `richful_feed_leads.csv`, `docs/audit_review_2026-11-02/` |
 | **Supplementary reference** | Useful background, not evidence for values. | `Raw_Material_Missing_Properties_2026-10-13.xlsx` |
 | **Tool** | Scripts and their dependency list. | `build_coverage_matrix.py`, `integrate_products.py`, `build_conflicts_report.py`, `requirements.txt`, `tools/` (audit and review scripts; `tools/README.md`) |
@@ -67,7 +71,7 @@ A `.git` folder (hidden) holds the version history. Do not delete it.
 
 | File | What it contains | Why it exists |
 |---|---|---|
-| `CLAUDE.md` | Project rules: JSON structure, the allowed `status` words, "never invent values", the three data rules of 2026-10-24 (no averaging; no automatic TDS-over-SDS preference or the reverse; coverage uses `status`, never `status_final`), naming quirks. | So that every editor, human or AI, follows the same rules. |
+| `CLAUDE.md` | Project rules: JSON structure, the allowed `status` words, "never invent values", the data rules (no averaging; source selection of 2026-11-10: technical-document value first, SDS fallback, alternates and conflicts kept; coverage uses `status`, never `status_final`), naming quirks. | So that every editor, human or AI, follows the same rules. |
 | `README.md` | Scope (261 archive-supported products + 3 Afton records = 264), how the coverage matrix is built, what the integration script does, the source-registry rules. | The main entry point for a reader. |
 | `PROJECT_FILE_GUIDE.md` | This guide, including the cleanup record. | Folder orientation. |
 | `requirements.txt` | `openpyxl>=3.1`. | The only package the scripts need beyond standard Python. |
@@ -76,9 +80,9 @@ A `.git` folder (hidden) holds the version history. Do not delete it.
 | `Property_Glossary.docx` | Definition of every property and field (Task 1). | Shared vocabulary for the templates and the JSON. |
 | `source_registry.json` | Every external URL cited in `Products_json`: publisher, issuer, format, edition, verification status, date checked, and SHA-256 for PDFs. | The coverage script reports an external source as a warning until it is registered and verified here. |
 | `build_coverage_matrix.py` | Script (Task 4). Reads `Products_json` and `source_registry.json` and writes the coverage workbook. Never changes the JSON. Usage: `python build_coverage_matrix.py --output Coverage_Matrix_new.xlsx` (add `--overwrite` to replace a file). | Produces the coverage matrix. |
-| `Coverage_Matrix.xlsx` | Generated output. Sheets: Overview, Base Oils, Additive Packages, Additive Components (one cell per product × property: reported / calculated / missing / not_applicable), Validation Issues, Status Detail (every nested status with value, unit and source), Traceability Audit. Last regenerated 2026-10-31 (commit `28265fd`). | Task 4 deliverable. Regenerate it after any JSON change; do not edit it by hand. |
+| `Coverage_Matrix.xlsx` | Generated output. Sheets: Overview, Base Oils, Additive Packages, Additive Components (one cell per product × property: reported / calculated / missing / not_applicable), Validation Issues, Status Detail (every nested status with value, unit and source), Traceability Audit. Last regenerated 2026-11-10 (source-selection changes). | Task 4 deliverable. Regenerate it after any JSON change; do not edit it by hand. |
 | `open_questions_and_conflicts.md` | The curated Task 5 log: per product, every open question and every documented conflict between documents; then audit summaries, the review of the integration proposals and a human-review list. | The day-to-day record of unresolved questions. It is curated by hand; `build_conflicts_report.py` refuses to overwrite it. |
-| `integrate_products.py` | Script. Adds informational normalised keys (`value_final`, `unit_final`, `min_final`, `max_final`, `unit_conversion`, `integration_flags`) beside the original values and applies reviewed conflict annotations. Dry run unless `--write`; refuses to write if any check fails. | Unit normalisation for later formulation stages, under the 2026-10-24 data rules. Under review: test it on a copy before using `--write`. |
+| `integrate_products.py` | Script. Adds informational normalised keys (`value_final`, `unit_final`, `min_final`, `max_final`, `unit_conversion`, `integration_flags`) beside the original values and applies reviewed conflict annotations. Dry run unless `--write`; refuses to write if any check fails. | Unit normalisation for later formulation stages, under the data rules. Under review: test it on a copy before using `--write`; never run `--write` on the whole repository (use `tools/data_policy/integration_diff.py`). |
 | `build_conflicts_report.py` | Script. Writes a draft `conflicts_report_generated.md` from the JSON conflict entries. | A machine-generated companion to the curated log; it never replaces it. |
 
 ## The database: `Products_json/`
@@ -177,6 +181,21 @@ cites them with `%` restored.
 | `deferred_products.csv`, `deferred_products.md` | Historical. The 190 inventory materials without JSON; outside the datasheet scope, not unfinished work. |
 | `base_oil_ingestion_queue.md` | Closed. The 9 base oils that were queued; all were ingested on 2026-10-23. |
 | `richful_feed_leads.csv` | Historical. Unverified Richful web-feed records for inventory-only materials; none is an approved source. |
+
+## Source selection, TDS–SDS comparisons and mandatory Tier 1 (2026-11-10)
+
+| Path | Kind | What it is |
+|---|---|---|
+| `docs/data_policy_mandatory_review/source_selection_policy.md` | Editable record (policy) | Rule 1: technical-document value first, SDS fallback, exceptions, editions, document classes |
+| `docs/data_policy_mandatory_review/threshold_proposal.md` | Proposal awaiting review | Rule 2: comparability rules and property-specific screening thresholds; nothing reclassified yet |
+| `docs/data_policy_mandatory_review/eligibility_interface.md` | Interface specification | Columns and meaning of `product_eligibility.csv` for the association-mining workstream |
+| `docs/data_policy_mandatory_review/CHANGELOG_2026-11-10.md`, `HANDOFF.md`, `implementation_plan.md` | Historical record | What changed, how to reproduce it, and which generators are historical |
+| `reports/data_policy/` | Generated output | `document_classes.csv`, `source_selection_changes.csv`, `tds_sds_comparisons.csv` |
+| `reports/mandatory_properties/` | Generated output | `product_eligibility.csv` (one row per product), `missing_mandatory_properties.csv` / `.md` |
+| `tools/data_policy/`, `tools/mandatory_properties/` | Tool | The scripts and tests that produce the above (`tools/README.md`) |
+
+"Formulation-eligible" means only that every mandatory Tier 1 requirement is met; ineligible products stay in the
+database with all their data.
 
 ## Version history (git)
 

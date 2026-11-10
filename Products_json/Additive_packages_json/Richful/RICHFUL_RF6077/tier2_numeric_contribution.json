@@ -267,71 +267,144 @@
       "unit_final": "cSt"
     },
     "kv100": {
-      "value": 150,
+      "value": 160,
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": "reported",
-      "printed_text": "Viscosity, kinematic : 150mm2/s (100 °C)",
-      "unit": "mm²/s",
+      "value_kind": "typical",
+      "printed_text": "Kinematic Viscosity (100℃), mm2/s Report 160 GB/T 265, ASTM D445",
+      "unit": "mm2/s",
       "test_temperature_c": 100,
-      "method": null,
+      "method": "GB/T 265, ASTM D445",
       "status": "Reported",
-      "calculation_note": "Chosen by user decision from the conflicting values (see conflicts).",
+      "calculation_note": "TDS \"Typical Value\" column. TDS prints no revision date.",
       "source": {
-        "file": "DL2-15542.pdf",
-        "page": 5,
-        "revision_date": "2023-11-16"
+        "file": "DL2-15536.pdf",
+        "page": 1,
+        "revision_date": null
       },
-      "notes": "From SDS, not from TDS",
-      "value_final": 150,
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "alternate_entries": [
+        {
+          "value": 150,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "reported",
+          "printed_text": "Viscosity, kinematic : 150mm2/s (100 °C)",
+          "unit": "mm²/s",
+          "test_temperature_c": 100,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": "Chosen by user decision from the conflicting values (see conflicts).",
+          "source": {
+            "file": "DL2-15542.pdf",
+            "page": 5,
+            "revision_date": "2023-11-16"
+          },
+          "notes": "From SDS, not from TDS",
+          "selection_note": "Previously selected value, kept as an alternate under the source-selection policy of 2026-11-10. Not judged erroneous: the policy selects the technical-document value first."
+        }
+      ],
+      "value_final": 160,
       "unit_final": "cSt",
-      "resolution": "User decision of 2026-10-18 kept (SDS DL2-15542.pdf 150 cSt); it overrides the TDS-preferred rule, which would give TDS DL2-15536.pdf 160 cSt."
+      "resolution": "Source-selection policy of 2026-11-10: TDS DL2-15536.pdf 160 cSt selected; it supersedes the user decision of 2026-10-18 (SDS DL2-15542.pdf 150 cSt, kept as an alternate). Not resolved."
     },
     "density": {
-      "value": 0.991,
+      "value": 998,
+      "qualifier": null,
+      "min": 978,
+      "max": 1018,
+      "value_kind": "typical",
+      "printed_text": "Density (20℃), kg/m3 978-1018 998 GB/T 13377, ASTM D4052",
+      "unit": "kg/m3",
+      "test_temperature_c": 20,
+      "method": "GB/T 13377, ASTM D4052",
+      "status": "Reported",
+      "calculation_note": "TDS \"Typical Value\" column; index (specification range) 978-1018 kg/m3 printed in the same row. TDS prints no revision date.",
+      "source": {
+        "file": "DL2-15536.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "alternate_entries": [
+        {
+          "value": 0.991,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "reported",
+          "printed_text": "Density : 0.991 g/cm3 (15 °C)",
+          "unit": "g/cm³",
+          "test_temperature_c": 15,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": "Chosen by user decision from the conflicting values (see conflicts).",
+          "source": {
+            "file": "DL2-15542.pdf",
+            "page": 5,
+            "revision_date": "2023-11-16"
+          },
+          "notes": "From SDS, not from TDS",
+          "selection_note": "Previously selected value, kept as an alternate under the source-selection policy of 2026-11-10. Not judged erroneous: the policy selects the technical-document value first."
+        }
+      ],
+      "value_final": 0.998,
+      "unit_final": "g/cm³",
+      "min_final": 0.978,
+      "max_final": 1.018,
+      "unit_conversion": "kg/m3 -> g/cm³ (x0.001)",
+      "integration_flags": [
+        "density is at 20 °C, not 15 °C; not temperature-corrected"
+      ],
+      "resolution": "Source-selection policy of 2026-11-10: TDS DL2-15536.pdf 998 kg/m³ at 20 °C selected; it supersedes the user decision of 2026-10-18 (SDS DL2-15542.pdf 0.991 g/cm³ at 15 °C, kept as an alternate). Not resolved."
+    },
+    "flash_point": {
+      "value": 210,
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": "reported",
-      "printed_text": "Density : 0.991 g/cm3 (15 °C)",
-      "unit": "g/cm³",
-      "test_temperature_c": 15,
-      "method": null,
-      "status": "Reported",
-      "calculation_note": "Chosen by user decision from the conflicting values (see conflicts).",
-      "source": {
-        "file": "DL2-15542.pdf",
-        "page": 5,
-        "revision_date": "2023-11-16"
-      },
-      "notes": "From SDS, not from TDS",
-      "value_final": 0.991,
-      "unit_final": "g/cm³",
-      "resolution": "User decision of 2026-10-18 kept (SDS DL2-15542.pdf 0.991 g/cm³ at 15 °C); it overrides the TDS-preferred rule, which would give TDS DL2-15536.pdf 998 kg/m³ at 20 °C."
-    },
-    "flash_point": {
-      "value": 180,
-      "qualifier": "≥",
-      "min": 180,
-      "max": null,
-      "value_kind": "specification",
-      "printed_text": "Flash point : >= 180 °C (ASTM D92)",
+      "value_kind": "typical",
+      "printed_text": "Flash Point (COC), ℃ ≥180 210 GB/T 3536, ASTM D92",
       "unit": "°C",
       "test_temperature_c": null,
-      "method": "ASTM D92",
+      "method": "GB/T 3536, ASTM D92",
       "status": "Reported",
-      "calculation_note": "Same value in: DL2-15536.pdf p.1 (undated): 'Flash Point (COC), ℃ ≥180 210 GB/T 3536, ASTM D92'.",
+      "calculation_note": "TDS \"Typical Value\" column (Item | Index | Typical Value | Test Method); the same row prints the index (specification) ≥180 °C, which this typical value meets. TDS prints no revision date.",
       "source": {
-        "file": "DL2-15542.pdf",
-        "page": 5,
-        "revision_date": "2023-11-16"
+        "file": "DL2-15536.pdf",
+        "page": 1,
+        "revision_date": null
       },
       "flash_method": "COC",
-      "notes": null,
-      "value_final": 180,
-      "unit_final": "°C",
-      "min_final": 180
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "alternate_entries": [
+        {
+          "value": 180,
+          "qualifier": "≥",
+          "min": 180,
+          "max": null,
+          "value_kind": "lower bound",
+          "printed_text": "Flash point : >= 180 °C (ASTM D92)",
+          "unit": "°C",
+          "test_temperature_c": null,
+          "method": "ASTM D92",
+          "status": "Reported",
+          "calculation_note": "Same value in: DL2-15536.pdf p.1 (undated): 'Flash Point (COC), ℃ ≥180 210 GB/T 3536, ASTM D92'.",
+          "source": {
+            "file": "DL2-15542.pdf",
+            "page": 5,
+            "revision_date": "2023-11-16"
+          },
+          "flash_method": "COC",
+          "notes": "The SDS prints the flash point as a lower bound (\">= 180 °C\" / \"≥180\"); the earlier label value_kind \"specification\" is not supported by the SDS wording.",
+          "value_kind_previous_label": "specification",
+          "selection_note": "Previously selected value, kept as an alternate under the source-selection policy of 2026-11-10. Not judged erroneous: the policy selects the technical-document value first."
+        }
+      ],
+      "value_final": 210,
+      "unit_final": "°C"
     },
     "pour_point": {
       "value": null,
@@ -381,9 +454,9 @@
           "revision_date": "2023-11-16"
         }
       ],
-      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved. Resolved 2026-10-18 by user decision: 0.991 g/cm³ from DL2-15542.pdf used.",
-      "resolved": true,
-      "final_resolution": "User decision of 2026-10-18 kept; see fields.density.resolution."
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved. Resolved 2026-10-18 by user decision: 0.991 g/cm³ from DL2-15542.pdf used. [2026-11-10: the user decision of 2026-10-18 is superseded by the source-selection policy; the field holds the TDS value. Not resolved.]",
+      "resolved": false,
+      "final_resolution": "Superseded 2026-11-10: the source-selection policy (TDS value first, SDS fallback) selects the TDS value 998 kg/m³ at 20 °C; the documents still disagree (SDS 0.991 g/cm³ at 15 °C), so the conflict is not resolved. Earlier annotation: User decision of 2026-10-18 kept (SDS value)."
     },
     {
       "conflict_type": "conflicting values between different documents",
@@ -404,9 +477,9 @@
           "revision_date": "2023-11-16"
         }
       ],
-      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved. Resolved 2026-10-18 by user decision: 150 mm²/s from DL2-15542.pdf used.",
-      "resolved": true,
-      "final_resolution": "User decision of 2026-10-18 kept; see fields.kv100.resolution."
+      "note": "At least one document is undated, so the most recent cannot be determined; field left null. Not resolved. Resolved 2026-10-18 by user decision: 150 mm²/s from DL2-15542.pdf used. [2026-11-10: the user decision of 2026-10-18 is superseded by the source-selection policy; the field holds the TDS value. Not resolved.]",
+      "resolved": false,
+      "final_resolution": "Superseded 2026-11-10: the source-selection policy (TDS value first, SDS fallback) selects the TDS value 160 mm²/s; the documents still disagree (SDS 150 mm²/s), so the conflict is not resolved. Earlier annotation: User decision of 2026-10-18 kept (SDS value)."
     }
   ],
   "external_fill_notes": []

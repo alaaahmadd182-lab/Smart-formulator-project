@@ -7,10 +7,11 @@
   "product": {
     "product_name": "NEXBASE 3020",
     "supplier": "Neste (Suisse) S.A.",
-    "document_type": "Safety Data Sheet",
+    "document_type": "Safety Data Sheet; Technical Data Sheet",
     "source_file": [
       "DL2-14513.pdf",
-      "DL2-14514.pdf"
+      "DL2-14514.pdf",
+      "DL2-10962.pdf"
     ],
     "revision_date": "2020-06-16"
   },
@@ -117,8 +118,8 @@
     }
   },
   "open_questions": [
-    "No product TDS supplied for NEXBASE 3020; only two matching SDS files.",
-    "API group, KV100, VI, mass density, sulfur and other absent properties remain missing.",
+    "No product TDS supplied for NEXBASE 3020; only two matching SDS files. [Corrected 2026-11-10: the NEXBASE family TDS DL2-10962.pdf (Edition 8, image) has a \"Nexbase 3020\" column; KV40, KV100 and density are now taken from it. VI is printed as \"–\" for 3020 and stays Missing.]",
+    "API group, KV100, VI, mass density, sulfur and other absent properties remain missing. [2026-11-10: KV100 (2.2 mm²/s) and density (834 kg/m³ at 15 °C) are now Reported from DL2-10962.pdf; API group, VI and sulfur remain Missing.]",
     "Relative density 0.82 at 15°C must not be treated as mass density."
   ],
   "conflicts": []
