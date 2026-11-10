@@ -1,134 +1,168 @@
 # HANDOFF: Workstream A (source selection, TDS–SDS review, mandatory Tier 1)
 
-Date: 2026-11-10. Branch `feat/data-policy-mandatory-review`, in the worktree `C:\Users\windo\sf-wsA`. **Not pushed, merged or
-opened as a PR.**
+Date: 2026-11-10. Revision 2: a provisional checkpoint, **not approved final output**.
+
+- Branch `feat/data-policy-mandatory-review`, in the worktree `C:\Users\windo\sf-wsA`.
+- Not pushed, merged or opened as a PR.
+- Association mining is not implemented. `analysis/association_mining/` is untouched (it does not exist on this branch).
 
 | | Commit |
 |---|---|
 | Baseline (shared with Workstream B) | `f4d97e71f72598df601b72403775581c34061ad1` (origin/main, "Merge pull request #6") |
-| Workstream A content commit | `8702228ff8e465131a2a286c67775259214bb983` |
-| Final local commit | the commit that adds the content-commit hash to this file (`git log -1`) |
+| Revision 1 content commit | `8702228ff8e465131a2a286c67775259214bb983` (+ `f9529a2`, which records it here) |
+| Revision 2 content commit | the commit after `f9529a2` that adds this text: `git log --oneline f9529a2..HEAD` |
 
-## 1. Changed files (summary)
+## 1. Completed in revision 2
 
-The full list is in [implementation_plan.md](implementation_plan.md), section 3, and [CHANGELOG_2026-11-10.md](CHANGELOG_2026-11-10.md).
+1. **Validation bugs.** Five invalid inputs were reproduced, fixed and kept as regression tests with valid counterparts:
+   - a reversed range;
+   - infinity;
+   - `≮` read as an exact value;
+   - a shear-loss calculation with stored 999 vs stated 10, and no source;
+   - a thickening calculation for another oil and dose.
 
-- **Product JSON, 13 files.** Tier 2 of INFINEUM_D3424 and of nine RICHFUL packages; NESTE_NEXBASE_3020 tiers 1–3.
-- **`integrate_products.py`.** Rule text; three re-pinned annotations; three conflict rules reopened.
-- **`Coverage_Matrix.xlsx`.** Regenerated.
-- **Documentation.** CLAUDE.md, README.md, PROJECT_FILE_GUIDE.md, tools/README.md and requirements.txt are updated, and a dated section is appended to `open_questions_and_conflicts.md`.
-- **New.** `tools/data_policy/`, `tools/mandatory_properties/`, `reports/data_policy/`, `reports/mandatory_properties/`, and this folder.
+   The checks now cover:
+   - finite, non-boolean numbers and ordered ranges;
+   - a supported qualifier / value-kind vocabulary, including Unicode inequalities; conflicting or unknown qualifiers are invalid;
+   - registered calculation checks: recomputed result, matching oil, dose, cycles and units, inputs printed on the cited page, an applicable index type, zero denominators.
+   - A `Calculated` status cannot bypass these checks through blocks, claims or formulations.
+   - **None of these fixes changed an actual product decision** (CHANGELOG, revision 2).
+2. **Outcome categories.** Every requirement outcome is now one of: met, absent, bound/range needing assessment, missing unit/condition/provenance, invalid value, unreproducible calculation, unresolved applicability, unresolved source selection.
+   - `tier1_complete` (documented) and `formulation_eligible` (met) are now distinct. The interface columns are unchanged; the version is `mandatory-tier1-2026-11-10.2`.
+   - A new detail report `requirement_outcomes.csv` was added.
+3. **Authority map** ([requirements_review.md](requirements_review.md)). Every requirement is mapped to its source wording, status (explicit / conditional / optional), interpretation, affected products and open decision. Decisions A–E are worked through, plus F, G and per-property representations (B-REP).
+   - Withdrawn: VM/PPD subtype blocks are no longer blocking (they are tier 2/3 files). Markers for functions the slide does not name, and missing co-component architecture, are now "unresolved applicability".
+   - Mass basis: established from the page for 3 products. For the other 18 it is not established and not guessed.
+4. **Source-selection coverage.**
+   - A new ledger covers every base-oil and package property, whether currently selected from a technical document or from an SDS ([source_review_coverage.md](source_review_coverage.md)).
+   - FORMOSA 150N / 500N KV100: the technical specification range is now selected as printed, with the SDS typical kept as an alternate.
+   - NEXBASE pending cases are now field-level (15 fields).
+   - Reviewed SDS fallbacks are recorded.
+5. **Threshold proposal, revision 2** ([threshold_proposal.md](threshold_proposal.md)).
+   - Wording corrected ("below proposed project review threshold"; "logically compatible, not agreement").
+   - All thresholds are labelled empirical. The ASTM claims are unverified and are no longer used as justification.
+   - The reporting increment is not used as a tolerance.
+   - A sensitivity table was added.
+   - Specific gravity is dimensionless; the units in this file are corrected.
+6. **Reproducibility.**
+   - A form-aware check of the preserved files and evidence was added.
+   - An informational LF-normalised data fingerprint was added.
+   - The eligibility build refuses a stale ledger.
+   - Test and check outputs are saved in `test_results/`.
 
-## 2. Rules
+## 2. Rules: provisional vs approved
 
-**Source selection (Rule 1), applied.** See [source_selection_policy.md](source_selection_policy.md).
-- The technical-document value comes first: TDS, PDS, bulletin or specification sheet, classified per page by content. The SDS is the fallback.
-- Provenance and alternates are kept, and conflicts stay open.
-- Exceptions are recorded. Specification range vs SDS typical goes to pending.
-- Edition rule: the newest dated edition of the same product, grade and region. Undated editions that disagree are pending.
-- Result: 28 fields switched, 2 exceptions, 7 pending groups.
+| Rule | Status |
+|---|---|
+| Rule 1 source selection: technical first, SDS fallback, technical range/bound selected as printed | Given by you; applied (30 field selections) |
+| Exceptions (2), pending field list, reviewed SDS fallbacks | Applied with recorded reasons; the pending cases await a decision |
+| Rule 2 screening thresholds | **PROPOSED**: KV40/KV100 3 %, density 0.005 g/cm³, specific gravity 0.005 (dimensionless), flash point 10 °C, pour point 3 °C; Noack and TBN none. Not applied; no finding reclassified; v5 unchanged. |
+| Rule 3 mandatory requirements | Explicit items are from the MPS and glossary. Interpretations I-1 … I-8, the representation rules and the subtype/marker/co-component handling are **provisional**. No applicability rule is approved. |
 
-**TDS–SDS thresholds (Rule 2): PROPOSED, NOT APPROVED.** See [threshold_proposal.md](threshold_proposal.md).
-- The inventory has 65 comparisons. Comparability is decided before any difference is computed.
-- Proposed screening thresholds:
+## 3. Eligibility (provisional rules `mandatory-tier1-2026-11-10.2`)
 
-  | Property | Proposed threshold |
-  |---|---|
-  | KV40 / KV100 | ≤ 3 % (relative) |
-  | Density, specific gravity | ≤ 0.005 g/cm³ (same reference conditions) |
-  | Flash point | ≤ 10 °C (same cup type) |
-  | Pour point | ≤ 3 °C |
-  | Noack, TBN and all others | none: pending |
+Fingerprints of the data:
+- Exact-byte snapshot (CRLF checkout): `63537ed984b2402f264bb9b5975187492962e1d8513bb1f1bfdb9fc35911bf38`.
+- Informational LF-normalised fingerprint: `6237a76d86c8145e1b307e9b653b4caa41558f29bcf42033ae89ce18be7cdb4b`.
 
-- Bound rule: a point value inside the other document's bound is ordinary.
-- **No finding or conflict has been reclassified, and no v5 successor has been written.**
-
-## 3. Product eligibility counts (mandatory-tier1-2026-11-10)
-
-Source snapshot SHA-256: `5389436fa36b7988a4a7c2e52fc0190b7b4df31ca82b1c6b66460b9b2a7bf10a`. This is the worktree bytes with `core.autocrlf=true`.
-
-| Class | Products | Eligible | Not eligible |
+| Class | Products | Tier 1 complete | Formulation-eligible |
 |---|---:|---:|---:|
-| base_oil | 181 | 11 | 170 |
-| additive_package | 78 | 0 | 78 |
-| additive_component | 5 | 0 | 5 |
-| **Total** | **264** | **11** | **253** |
+| base_oil | 181 | 11 | 10 |
+| additive_package | 78 | 0 | 0 |
+| additive_component | 5 | 0 | 0 |
+| **Total** | **264** | **11** | **10** |
 
-The eligible base oils are ADNOC_ADBASE_4CST, _6CST and _8CST; PETRONAS_EQUINAS_8; PETRONAS_ETRO_6_PLUS; PETRO_CANADA_PURITY_VHVI_2, _3, _4, _6 and _8; and S_OIL_ARAMCO_ULTRA_8.
-- ETRO 6+ and ULTRA 8 carry warnings: an unresolved conflict exists on kv40 and density, and on kv40, respectively.
-- ULTRA 8's Tier 1 values are from its SDS ranges. Its Rule 1 case is pending, and identity question ID-01 is open.
+**Eligible base oils:** ADNOC_ADBASE_4CST, _6CST and _8CST; PETRONAS_EQUINAS_8; PETRONAS_ETRO_6_PLUS (with open-conflict warnings on KV40 and density); PETRO_CANADA_PURITY_VHVI_2, _3, _4, _6 and _8.
 
-Main blockers:
-- **Base oils:** CCS (146 products), density (98), API group (76), VI (69), chemistry (31), kv40 (15), kv100 (12).
-- **Packages:** every one lacks a published formulation and a wt.% co-component architecture.
-- **Components:** active content, treat rate and compatibility are missing, and the VM subtype data is incomplete.
+**Change from revision 1** (11 eligible):
+- S_OIL_ARAMCO_ULTRA_8 is now Tier 1 complete but not eligible.
+- Its KV40 and KV100 are SDS ranges, which revision 1 accepted and which are now documented but provisional.
+- Its Rule 1 selection is also pending: an external web table vs the archived SDS, plus identity question ID-01.
+- The validation-bug fixes did not change this or any other decision.
 
-## 4. Unresolved questions and evidence (for the reviewer)
+**Main reasons, by category** (full table in `reports/mandatory_properties/missing_mandatory_properties.md`):
 
-1. **Approve the thresholds** in threshold_proposal.md, section 5. Density is not tested by the data. Also decide the split-or-note handling and the treatment of label/unit inconsistencies.
-2. **Confirm the superseded user decisions** of 2026-10-18: RF6077 density and kv100, RF6088F kv100. Their conflicts are reopened.
-3. **Confirm the Rule 3 interpretations** I-1 … I-8 (requirements.py):
-   - a one-sided bound does not satisfy a requirement;
-   - one CCS point is enough;
-   - the secondary function is optional;
-   - the marker applicability rule;
-   - VM and PPD subtype blocks are mandatory;
-   - the wt.% basis is required (a bare "%" does not count; 22 packages and 2 components are affected);
-   - the response usability rule;
-   - a co-component "none required" statement has no place in the schema.
-4. **Shell Risella X 415/420/430.** The `Not Required` labels cite an unapproved applicability rule. Decide whether to approve such a rule (process oils, not engine base oils).
-5. **The pending Rule 1 cases** (source_selection_policy.md, section 4), especially RF6069 kv100 (web page 142 vs archived TDS 118) and the NEXBASE family TDS vs individual sheets.
-6. **The VI calculation.** No reproducible ASTM D2270 check exists in the repository, so a calculated VI cannot satisfy Tier 1. No current record relies on one.
+| Class | Category | Unmet requirements |
+|---|---|---|
+| Base oils | absent | CCS 132, density 95, API group 73, VI 46 |
+| | bound / range needing assessment | VI 27, KV100 17, KV40 13, CCS 12 |
+| | unresolved source selection | 11 |
+| | unresolved applicability | 5 (Risella "Not Required") |
+| Packages | published formulation absent | all 78 |
+| | co-component architecture unresolved | 66 |
+| | treat-rate mass basis missing | 15 |
+| Components | function-specific marker applicability unresolved | all 5 |
 
-## 5. Commands to reproduce
+## 4. Remaining source-review gaps (not done; see source_review_coverage.md)
 
-Run them from the repository root, with Python 3.12, `pip install -r requirements.txt`.
+- **137 comparison gaps** (32 mandatory): a technical page and an SDS page both mention the property, but no comparison is recorded. **The TDS–SDS check is not exhaustive.**
+- **165 "Missing, label found" leads** (89 mandatory), not reviewed. A sample of 22 was inspected: most are "Report"/"N/A" cells or label noise. Some need column-level reading: ARAMCO DURA, the Petro-Canada multi-grade table, APE Core 2500 CCS, and a lb/gal density without temperature.
+- **61 Missing rows** with image-only associated documents that were not read for the property.
+- **External sources** were not re-read. The AFTON_HITEC_8788B external PDS has not been reviewed.
+- **Name-match document associations** (48 products) are unverified.
+- **Proposed record correction, not applied:** ERGON_HYGOLD_5000BS / P70N VI qualifier.
+
+## 5. Tests and checks (saved in `test_results/`)
+
+| Check | Result |
+|---|---|
+| `tools/mandatory_properties/tests` | 30 tests OK |
+| `tools/data_policy/tests` | 26 tests OK |
+| `tools/audit/review_2026-11-02/tests` (v5) | OK, unchanged |
+| `source_selection.py` (dry run) | 30/30 declared selections in the data, nothing to write |
+| `build_eligibility.py --check` | up to date |
+| `integrate_products.py` (dry run) | no errors; annotations 10/10, conflict rules 16/16; would change 229 files (baseline 230); **do not `--write`** |
+| `integration_diff.py --changed` | 6 differences in the 2 FORMOSA files, all earlier gaps in untouched fields (density, specific gravity) |
+| `Coverage_Matrix.xlsx` | regenerated; validation issues 30 (unchanged) |
+
+**Protected files** (`verify_preserved.py`):
+
+| Item | Result |
+|---|---|
+| Preserved files | 49/49 verified: 31 = committed blob, 17 = blob with CRLF (original CRLF bytes), 1 = all forms |
+| Evidence copies | 11/11 verified |
+| Archive ZIP (SHA-256 `6488b08f…5497a`) | worktree = HEAD blob = baseline blob |
+
+- No diff against the baseline in the archive, the templates, the glossary, `reconciliation/` (v5 audit and evidence), `tools/audit/`, the historical `tools/` folders, `docs/audit_review_2026-11-02/` or `source_registry.json`.
+- **Cause of the 31 "failures" in revision 1:** this machine's system Git config (`core.autocrlf=true`) checks LF originals out with CRLF. No file changed.
+- **Safe procedure:** run `python tools/data_policy/verify_preserved.py` in any checkout. In a CRLF checkout, do not use a bare `sha256sum -c`. No manifest was edited, and no evidence was normalised.
+
+## 6. Reproduce
+
+Run from the repository root (Python 3.12, `pip install -r requirements.txt`), in this order:
 
 ```
-python tools/data_policy/document_classes.py                # reports/data_policy/document_classes.csv (exit 1 if a page is unclassified)
-python tools/data_policy/source_selection.py                # dry run; on this branch: "all 28 declared selections are already in the data ... 0 files"
-python tools/data_policy/source_selection.py --write        # (only on the baseline) applies the 28 selections, notes, open questions, product blocks
-python tools/data_policy/integration_diff.py --changed      # integrate derivation on changed files: 32 pre-existing differences in untouched fields
-python integrate_products.py                                # dry run: no errors, 10/10 annotations, 16/16 conflict rules (would change 229 files: do NOT --write)
-python tools/data_policy/tds_sds_inventory.py               # reports/data_policy/tds_sds_comparisons.csv (65 comparisons)
-python tools/mandatory_properties/build_eligibility.py      # reports/mandatory_properties/* ; --check to compare without writing
+python tools/data_policy/document_classes.py
+python tools/data_policy/source_selection.py                 # dry run; --write applies declared selections; --report writes the change list
+python tools/data_policy/tds_sds_inventory.py                # comparisons + threshold_sensitivity.csv
+python tools/data_policy/source_coverage_ledger.py           # ledger + .meta.json (fingerprint)
+python tools/mandatory_properties/treat_rate_basis_scan.py   # reading aid for the mass basis
+python tools/mandatory_properties/build_eligibility.py       # --check to compare without writing; exit 3 = stale ledger
 python build_coverage_matrix.py --output Coverage_Matrix.xlsx --overwrite
-python -m unittest discover -s tools/data_policy/tests -v   # 36 tests
+python integrate_products.py                                 # dry run only
+python tools/data_policy/verify_preserved.py
+python -m unittest discover -s tools/mandatory_properties/tests -v
+python -m unittest discover -s tools/data_policy/tests -v
 python -m unittest discover -s tools/audit/review_2026-11-02/tests -v
 ```
 
-`source_selection_changes.csv` is written by `source_selection.py --report` only on a fresh apply, when "before" values
-exist. The committed file comes from the apply on this branch.
+Regenerate the ledger and the eligibility outputs after any product-JSON change, and after any checkout whose byte conversion differs.
 
-## 6. Interface for Workstream B
+## 7. Interface for Workstream B
 
-See [eligibility_interface.md](eligibility_interface.md). File: `reports/mandatory_properties/product_eligibility.csv`.
+See [eligibility_interface.md](eligibility_interface.md).
+- The columns are unchanged.
+- `tier1_complete` and `formulation_eligible` can now differ.
+- The list columns are JSON arrays, and each reason is prefixed with its category.
+- **The rules are provisional.** Treat the file as a checkpoint, not a final list, and recompute it on a fingerprint mismatch.
 
-- Columns, in this exact order: `product_id, material_class, product_name, supplier, tier1_complete, formulation_eligible, missing_mandatory_properties, eligibility_reasons, calculated_mandatory_properties, requirements_version, source_snapshot_sha256`.
-- Formats:
-  - booleans are lowercase `true`/`false`;
-  - the three list columns are JSON arrays;
-  - `product_id` is the product folder name.
-- **Recompute or reject on a snapshot mismatch.** The hash covers exact file bytes, which depend on line-ending conversion at checkout.
+## 8. Warnings: historical generators
 
-## 7. Warnings: historical generators
-
-Do not run any of the following against the current data. They would restore superseded values or findings.
-
-- `tools/corrections_2026-10-31/apply_corrections.py` and `update_curated_log.py`. They hard-code the main-checkout path, and would rewrite product JSON and the curated log there.
-- `tools/integration_2026-10-24/resolve_json.py --write`.
-- The `tools/audit/original_2026-10-27_to_30/` generators.
-- The `tools/audit/review_2026-11-02/` report generators: `revise_findings.py`, `gen_report_v5.py`, `run_all_checks.py`. The v5 report is a historical snapshot.
+Do not run any of the following against the current data:
+- `tools/corrections_2026-10-31/apply_corrections.py` and `update_curated_log.py` (hard-coded main-checkout path);
+- `tools/integration_2026-10-24/resolve_json.py --write`;
+- the `tools/audit/original_2026-10-27_to_30/` generators;
+- the `tools/audit/review_2026-11-02/` report generators (`revise_findings.py`, `gen_report_v5.py`, `run_all_checks.py`);
 - `integrate_products.py --write` on the whole repository.
 
-Two checks are expected to fail:
-- `tools/audit/review_2026-11-02/verify_revision.py` fails by design, because it compares with `545fd3d`.
-- In this worktree, `sha256sum -c tools/PRESERVED_SHA256.txt` reports 31 of the 49 files as FAILED (18 pass). The cause is checkout line-ending conversion (`core.autocrlf=true`), not a change. The committed blobs are unchanged from the baseline, and the main checkout passes 49/49.
-
-## 8. Protected-file checks (2026-11-10)
-
-- **Archive.** `Manual + Data to share.zip`: SHA-256 `6488b08f…5497a` in the worktree, identical to the committed blob. No diff against the baseline.
-- **Evidence.** The 11 files in `reconciliation/audit_evidence/` match `evidence_manifest.md`, both in the worktree and as git blobs.
-- **Preserved files.** The 49 preserved files have no diff against the baseline. 49/49 hashes pass in the main checkout. In this worktree, each file matches either its committed blob or its checked-out bytes, according to how its line endings are converted.
-- **No diff against the baseline** in `json_templates/`, `reconciliation/`, `tools/audit/`, `tools/corrections_2026-10-31/`, `tools/integration_2026-10-24/`, `tools/maintenance_2026-10-31/` or `docs/audit_review_2026-11-02/`.
-- **`analysis/association_mining/`.** Not present and not touched.
+`verify_revision.py` compares the protected files with `545fd3d` and now fails by design.

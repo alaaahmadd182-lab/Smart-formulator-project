@@ -11,9 +11,11 @@
   5. A TDS value is not selected (documented exception) when it is unreadable, internally inconsistent, demonstrably
      erroneous, or lacks a condition the property definition requires (e.g. a density without a reference temperature).
   6. "Applicable" means the same product, grade, region and formulation and the same property under the property's
-     defining conditions. A specification limit or range is a different value kind from a typical value; where the
-     technical document gives only a limit and the SDS a typical value, the case is listed for review (PENDING), not
-     decided by this rule.
+     defining conditions. A technical specification range or bound can be the selected information: it is selected as
+     printed, never converted to a single value, and the SDS typical value is kept as an alternate (clarified
+     2026-11-10). Whether a range or bound is usable for a calculation is assessed separately (mandatory-property
+     rules). A different value kind alone is not a reason to keep the SDS; identity, applicability, conflicting
+     editions or source reliability are (PENDING, with the reason).
   7. Several TDS editions: the newest dated edition supplies the value. Undated editions that print the same value may
      be cited interchangeably; undated editions that disagree are a TDS-TDS conflict and stay PENDING (no edition rule
      applies). A supplier's current public product page (retrieval date recorded) is treated as the current edition
@@ -25,7 +27,7 @@ SDS wording is kept as printed: an SDS bound such as ">= 180 °C" is a lower bou
 Usage:
     python tools/data_policy/source_selection.py            # dry run: checks every declared change, writes nothing
     python tools/data_policy/source_selection.py --write    # applies the changes (only if every check passes)
-    python tools/data_policy/source_selection.py --report   # writes reports/data_policy/source_selection_decisions.csv
+    python tools/data_policy/source_selection.py --report   # writes reports/data_policy/source_selection_changes.csv
 Exit codes: 0 all declared changes match the data (or were applied); 1 a declared "before" does not match.
 Importing this module writes nothing.
 """
@@ -156,6 +158,25 @@ for path, file, expect_v, expect_src, new in [
                         evidence=f'{NEX} p.1 (render): 3020 column, Typ value; the record previously stated "No product TDS supplied for NEXBASE 3020", '
                                  'but this family TDS has a 3020 column'))
 
+FORMOSA_NOTE = ('Product specification (Formosa Petrochemical, issue date 2009-10-21, version 1.0), "Limitation" columns Min. / Max.; '
+                'a specification range, not a typical value. Selected as printed (no single value derived); the SDS typical value is '
+                'kept as an alternate. Clarified rule of 2026-11-10: a different value kind alone does not override the technical document.')
+for pid, fname, spec_file, lo, hi, sds_file, sds_val, sds_line in [
+        ('FORMOSA_150N_GII_PLUS', 'FORMOSA_150N_GII_PLUS_tier1.json', 'DL2-10001.pdf', 5.0, 5.4, 'DL2-10011.pdf', 5.2,
+         'Viscosity:   29.3 cSt at 40℃  |  5.2 cSt at 100℃'),
+        ('FORMOSA_500N_GII', 'FORMOSA_500N_GII_tier1.json', 'DL2-10003.pdf', 10, 12, 'DL2-10017.pdf', 11,
+         'Viscosity:   85 cSt at 40℃  | 11 cSt at 100℃')]:
+    CHANGES.append(dict(
+        product=pid, file=fname, path='kv100', expect=dict(value=sds_val, source=sds_file),
+        new=dict(value=None, qualifier='Specification', min=lo, max=hi, value_kind='range',
+                 printed_text=f'3. Kinematic viscosity，100℃ mm2/s （cSt） {lo} {hi} D445', unit='mm2/s', test_temperature_c=100,
+                 method='ASTM D445', source=dict(file=spec_file, page=1, revision_date='2009-10-21'), calculation_note=FORMOSA_NOTE),
+        old_kind=None,
+        old_override=dict(min=None, max=None, printed_text=sds_line,
+                          notes=(f'SDS {sds_file} p.3 line as printed. The specification range that this entry previously carried in min/max '
+                                 f'(and in its printed_text) is printed in {spec_file}, not in the SDS; it is now the selected value.')),
+        evidence=f'{spec_file} p.1 (text layer): "3. Kinematic viscosity，100℃ mm2/s （cSt） {lo} {hi} D445" (Min., Max. columns)'))
+
 # conflict entries whose recorded resolution changes with the policy: (product, file, conflict field, new final_resolution)
 CONFLICT_UPDATES = [
     ('RICHFUL_RF6077', 'tier2_numeric_contribution.json', 'tier2.density',
@@ -231,14 +252,45 @@ EXCEPTIONS = [  # TDS value exists but is not selected; reason recorded
      '0.95 g/cm³ at 15 °C stays selected. Exception type: TDS value lacks a required condition.'),
 ]
 PENDING = [  # needs a decision outside this rule
-    ('FORMOSA_150N_GII_PLUS', 'kv100', 'The specification DL2-10001.pdf prints only a range (5.0-5.4 cSt); the SDS prints 5.2 cSt. Range vs typical: value kinds differ; kept as is, for review.'),
-    ('FORMOSA_500N_GII', 'kv100', 'The specification DL2-10003.pdf prints only a range (10-12 cSt); the SDS prints 11 cSt. Range vs typical; kept as is, for review.'),
     ('RICHFUL_RF6066', 'density, kv100, tbn, elements.Zn, elements.Ca', 'Two undated TDS (DL2-13819.pdf, DL2-15451.pdf) print different values; no edition rule applies (TDS-TDS conflict). Fields keep their current values.'),
     ('RICHFUL_RF6069', 'kv100', 'Field holds 142 mm²/s from the supplier web page (2026-10-17); the archived undated TDS DL2-15618.pdf prints 118. Web page vs archived TDS edition; kept as is, for review.'),
     ('S_OIL_ARAMCO_ULTRA_8', 'kv40, kv100, flash_point', 'Only the SDS DL2-14611.pdf is in the archive (ranges); the S-OIL web table (external, typical) prints typical values. External technical page vs archived SDS; kept as is, for review.'),
     ('AFTON_HITEC_8788B', 'kv40, kv100, density, flash_point', 'The record cites an archived external Afton PDS (Internet Archive) for a base-oil claim; its numeric values have not been reviewed against the SDS values selected now.'),
     ('NESTE_NEXBASE_3043 to 3080', 'several', 'The NEXBASE family TDS DL2-10962.pdf (Edition 8) and the individual sheets (e.g. DL2-10037.pdf, edition 5.2) print different typical values for the same grades (TDS-TDS editions; not dated); not changed.'),
 ]
+# Field-level form of the pending cases (used by the coverage ledger and the eligibility build). The NEXBASE fields
+# are those where the family TDS DL2-10962.pdf (Edition 8, read on its render 2026-11-10) and the individual sheet the
+# record cites print different values; fields where the two agree are not pending.
+NEX_WHY = ('Family TDS DL2-10962.pdf (Edition 8, undated) and the individual sheet cited by the record (undated) print different '
+           'values for this field: conflicting technical editions; no edition rule applies.')
+PENDING_FIELDS = [
+    ('NESTE_NEXBASE_3043', 'density', NEX_WHY + ' (831 vs 837 kg/m³ at 15 °C)'),
+    ('NESTE_NEXBASE_3043', 'flash_point', NEX_WHY + ' (224 vs 228 °C)'),
+    ('NESTE_NEXBASE_3043', 'noack_volatility', NEX_WHY + ' (14.4 vs 14.2 w-%)'),
+    ('NESTE_NEXBASE_3050', 'density', NEX_WHY + ' (835 vs 839 kg/m³ at 15 °C)'),
+    ('NESTE_NEXBASE_3050', 'pour_point', NEX_WHY + ' (-15 vs -18 °C)'),
+    ('NESTE_NEXBASE_3060', 'kv40', NEX_WHY + ' (33 vs 32 mm²/s)'),
+    ('NESTE_NEXBASE_3060', 'kv100', NEX_WHY + ' (6.0 vs 5.9 mm²/s)'),
+    ('NESTE_NEXBASE_3060', 'density', NEX_WHY + ' (838 vs 843 kg/m³ at 15 °C)'),
+    ('NESTE_NEXBASE_3060', 'noack_volatility', NEX_WHY + ' (5.7 vs 7.2 w-%)'),
+    ('NESTE_NEXBASE_3080', 'kv40', NEX_WHY + ' (50 vs 49 mm²/s)'),
+    ('NESTE_NEXBASE_3080', 'kv100', NEX_WHY + ' (8 vs 7.9 mm²/s)'),
+    ('NESTE_NEXBASE_3080', 'viscosity_index', NEX_WHY + ' (128 vs 130)'),
+    ('NESTE_NEXBASE_3080', 'density', NEX_WHY + ' (843 vs 847 kg/m³ at 15 °C)'),
+    ('NESTE_NEXBASE_3080', 'flash_point', NEX_WHY + ' (260 vs 261 °C)'),
+    ('NESTE_NEXBASE_3080', 'pour_point', NEX_WHY + ' (-15 vs -12 °C)'),
+]
+
+# Field-level SDS fallbacks reviewed against the technical document (used by the coverage ledger).
+SDS_FALLBACK_FIELDS = [
+    ('FORMOSA_150N_GII_PLUS', 'kv40', 'Specification DL2-10001.pdf p.1 prints "Report" for KV40 (no value); SDS value kept.'),
+    ('FORMOSA_150N_GII_PLUS', 'specific_gravity', 'Specification DL2-10001.pdf p.1 prints "Report" for specific gravity (no value); SDS value kept.'),
+    ('FORMOSA_500N_GII', 'kv40', 'Specification DL2-10003.pdf p.1 prints "Report" for KV40 (no value); SDS value kept.'),
+    ('FORMOSA_500N_GII', 'specific_gravity', 'Specification DL2-10003.pdf p.1 prints "Report" for specific gravity (no value); SDS value kept.'),
+    ('INFINEUM_D3384', 'specific_gravity', 'Technical sheet DL2-10218.pdf p.1 (image, read on its render 2026-11-10) prints density at 15 °C and in '
+                                           'lb/USG but no specific gravity; SDS value kept.'),
+]
+
 SDS_FALLBACK_CONFIRMED = ('No technical document in the archive provides the property for these SDS-selected values (checked with '
                           'tds_candidates.py and a text search of the archive): AFTON_HITEC_12010, AFTON_HITEC_8712, AFTON_HITEC_8799B, '
                           'CHEVRON_N204, CHEVRON_N216, CHEVRON_OLOA_59766 and RICHFUL_RF6089 (SDS-only packages); PETRONAS_EQUINAS_4 and _6 '
@@ -261,6 +313,25 @@ def find_file(prods, pid, name):
     raise KeyError(f'{pid}/{name}')
 
 
+def is_applied(node, c):
+    """The declared new selection is already in the field (value, min, max and source file)."""
+    return (node.get('value') == c['new']['value'] and node.get('min') == c['new'].get('min', node.get('min'))
+            and node.get('max') == c['new'].get('max', node.get('max'))
+            and (node.get('source') or {}).get('file') == c['new']['source']['file'])
+
+
+def change_log():
+    """One row per declared change, from the declarations (before = the declared expectation, after = the new value)."""
+    return [dict(product=c['product'], file=c['file'], field=c['path'], before_value=c['expect']['value'], before_source=c['expect']['source'],
+                 after_value=c['new']['value'] if c['new']['value'] is not None else f"{c['new'].get('min')}-{c['new'].get('max')} (range)",
+                 after_unit=c['new'].get('unit'), after_source=c['new']['source']['file'], after_page=c['new']['source']['page'],
+                 change=('filled from TDS (was Missing)' if c['expect']['value'] is None else
+                         'technical specification range selected; SDS typical kept as alternate' if c['new']['value'] is None else
+                         'source switched to TDS, same value' if c['expect']['value'] == c['new']['value'] else
+                         'TDS value selected (differs from previous)'),
+                 evidence=c['evidence']) for c in CHANGES]
+
+
 def apply(prods, integ):
     """Apply every declared change to the in-memory documents; return (changed relpaths, errors, log rows)."""
     errors, log, changed = [], [], set()
@@ -270,6 +341,8 @@ def apply(prods, integ):
         if node is None:
             errors.append(f"{c['product']} {c['path']}: field not found"); continue
         now = dict(value=node.get('value'), source=(node.get('source') or {}).get('file'))
+        if is_applied(node, c):
+            continue
         if now != c['expect']:
             errors.append(f"{c['product']} {c['path']}: expected {c['expect']}, found {now}"); continue
         old = {k: copy.deepcopy(v) for k, v in node.items() if k not in P.OWN_KEYS and k != 'alternate_entries'}
@@ -279,6 +352,7 @@ def apply(prods, integ):
                 old['value_kind_previous_label'] = old.get('value_kind')
                 old['value_kind'], kind_note = c['old_kind']
                 old['notes'] = ((old.get('notes') or '') + ' ' + kind_note).strip()
+            old.update(copy.deepcopy(c.get('old_override') or {}))
             old['selection_note'] = ALT_NOTE
             alts.append(old)
         keep_extra = {k: v for k, v in node.items() if k not in P.OWN_KEYS and k not in c['new'] and k not in
@@ -312,9 +386,10 @@ def apply(prods, integ):
         hit = [x for x in d.get('conflicts', []) if isinstance(x, dict) and x.get('field') == fld]
         if len(hit) != 1:
             errors.append(f'{pid} conflict {fld}: {len(hit)} entries'); continue
-        hit[0]['resolved'] = False
-        hit[0]['final_resolution'] = text
-        changed.add(f)
+        if hit[0].get('resolved') is not False or hit[0].get('final_resolution') != text:
+            hit[0]['resolved'] = False
+            hit[0]['final_resolution'] = text
+            changed.add(f)
     for pid, name, fld, text in NOTE_APPENDS:
         f, d = find_file(prods, pid, name)
         hit = [x for x in d.get('conflicts', []) if isinstance(x, dict) and (x.get('field') == fld or x.get('property') == fld)]
@@ -322,7 +397,7 @@ def apply(prods, integ):
             errors.append(f'{pid} conflict note {fld}: {len(hit)} entries'); continue
         if text.strip() not in hit[0].get('note', ''):
             hit[0]['note'] = hit[0].get('note', '') + text
-        changed.add(f)
+            changed.add(f)
     changed |= apply_open_questions(prods) | apply_product_updates(prods)
     return sorted(changed), errors, log
 
@@ -342,42 +417,37 @@ def main():
     ap.add_argument('--write', action='store_true')
     ap.add_argument('--report', action='store_true')
     a = ap.parse_args()
-    sys.stdout.reconfigure(encoding='utf-8')
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8')
     prods = P.load_products()
-    already = all(dict(value=find_file(prods, c['product'], c['file'])[1]['fields'][c['path']].get('value'),
-                       source=(find_file(prods, c['product'], c['file'])[1]['fields'][c['path']].get('source') or {}).get('file'))
-                  == dict(value=c['new']['value'], source=c['new']['source']['file']) for c in CHANGES)
-    if already:
-        # keep the reviewed resolution notes of integrate_products.ANNOTATIONS on the selected fields (idempotent)
-        integ, changed = integrate_module(), []
-        for c in CHANGES:
-            f, d = find_file(prods, c['product'], c['file'])
-            ann = integ.ANNOTATIONS.get((c['product'], d.get('tier'), c['path']))
-            if ann and d['fields'][c['path']].get('resolution') != ann['resolution']:
-                d['fields'][c['path']]['resolution'] = ann['resolution']
-                changed.append(f)
-        changed = sorted(set(changed) | apply_open_questions(prods) | apply_product_updates(prods))
-        print(f'all {len(CHANGES)} declared selections are already in the data; annotation notes, open questions or product blocks to sync: {len(changed)} files')
-        errors, log = [], [dict(product=c['product'], field=c['path'], after_value=c['new']['value'],
-                                after_source=c['new']['source']['file']) for c in CHANGES]
-    else:
-        changed, errors, log = apply(prods, integrate_module())
+    todo = [c for c in CHANGES if not is_applied(find_file(prods, c['product'], c['file'])[1]['fields'][c['path']], c)]
+    integ = integrate_module()
+    changed, errors, log = apply(prods, integ)   # skips declared changes that are already applied
+    # keep the reviewed resolution notes of integrate_products.ANNOTATIONS on the selected fields (idempotent)
+    for c in CHANGES:
+        f, d = find_file(prods, c['product'], c['file'])
+        ann = integ.ANNOTATIONS.get((c['product'], d.get('tier'), c['path']))
+        if ann and d['fields'][c['path']].get('resolution') != ann['resolution']:
+            d['fields'][c['path']]['resolution'] = ann['resolution']
+            changed = sorted(set(changed) | {f})
+    print(f'{len(CHANGES)} declared selections; {len(CHANGES) - len(todo)} already in the data; {len(todo)} to apply; '
+          f'files to write (selections, notes, open questions, product blocks): {len(changed)}')
     for e in errors:
         print('ERROR', e)
+    if errors:
+        print('nothing written'); return 1
     if a.report or a.write:
         out = os.path.join(P.REPORTS, 'data_policy', 'source_selection_changes.csv')
         os.makedirs(os.path.dirname(out), exist_ok=True)
-        if log and 'before_value' in log[0]:
-            with open(out, 'w', encoding='utf-8', newline='') as fh:
-                w = csv.DictWriter(fh, fieldnames=list(log[0]), lineterminator='\n'); w.writeheader(); w.writerows(log)
-    if errors:
-        print('nothing written'); return 1
+        rows = change_log()
+        with open(out, 'w', encoding='utf-8', newline='') as fh:
+            w = csv.DictWriter(fh, fieldnames=list(rows[0]), lineterminator='\n'); w.writeheader(); w.writerows(rows)
     if a.write and changed:
         for f in changed:
             write_json(f, find_doc(prods, f))
         print(f'WRITTEN: {len(changed)} files')
-    elif not already:
-        print(f'DRY RUN: {len(log)} field selections would change {len(changed)} files (use --write)')
+    elif changed:
+        print('DRY RUN: nothing written (use --write)')
     return 0
 
 

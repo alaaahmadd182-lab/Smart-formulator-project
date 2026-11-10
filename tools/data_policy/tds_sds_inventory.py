@@ -280,6 +280,13 @@ def main():
         w = csv.DictWriter(fh, fieldnames=cols, lineterminator='\n', extrasaction='ignore'); w.writeheader()
         for r in rows:
             w.writerow({c: r.get(c, '') for c in cols})
+    srows = [{k: ('' if r.get(k) is None else str(r.get(k))) for k in ('property', 'comparability', 'rel_diff_pct', 'abs_diff', 'within_rounding', 'product')}
+             for r in rows]
+    with open(os.path.join(os.path.dirname(a.out), 'threshold_sensitivity.csv'), 'w', encoding='utf-8', newline='') as fh:
+        w = csv.writer(fh, lineterminator='\n')
+        w.writerow(['property', 'threshold', 'proposed', 'pairs_below', 'pairs_at_or_above', 'products_at_or_above', 'thresholds_version'])
+        for prop, t, nb, na, above, prop_flag in TH.sensitivity(srows):
+            w.writerow([prop, t, str(prop_flag).lower(), nb, na, '; '.join(above), TH.VERSION])
     print(f'TDS-SDS comparisons: {len(rows)}')
     by = collections.Counter((r['group'], r['comparability']) for r in rows)
     for g in GROUP_ORDER:

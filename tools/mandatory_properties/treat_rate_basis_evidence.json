@@ -1,0 +1,36 @@
+{
+  "description": "Reviewed evidence (2026-11-10) that a treat rate or dose recorded with a bare '%' is on a mass basis, established from the cited page itself (table heading or wording). Produced by reading the pages listed by treat_rate_basis_scan.py. Only cases where the page states the basis for the recorded number are listed; the basis is never guessed. The recorded unit in the product JSON stays as printed.",
+  "not_established": "All other bare-'%' treat rates found by the scan (Afton HiTEC 12200 dosage table, HiTEC 8766B/8767B, HiTEC 12250 (external PDS), Eni MX 5212/5217, Bettchem BT 3088, Minglan T3161 (no unit printed), Richful RF6066/6069/6071L/6077/6078/6088/6088F/6400/6406/6408): the cited page prints no basis for the dosage figures. The Afton 12200 footnote 3 'Up to 0.6% wt maybe required for some group I's' applies to one booster row only and does not establish the basis of the table.",
+  "evidence": [
+    {
+      "product": "INFINEUM_D3384",
+      "field": "required_co_components",
+      "source_file": "DL2-10218.pdf",
+      "page": 1,
+      "values": null,
+      "basis": "mass %",
+      "quote": "Performance table, column heading 'Mass %:'; rows such as '9.97 + Infineum D2359 at 1.93 %' (package and co-component doses in the Mass % column)",
+      "read_on": "render of the image-only page, 2026-11-10"
+    },
+    {
+      "product": "INFINEUM_D3451",
+      "field": "required_co_components",
+      "source_file": "DL2-12029.pdf",
+      "page": 1,
+      "values": null,
+      "basis": "mass %",
+      "quote": "Table column heading 'Mass %:' with the row '11.9 + Infineum D2367 at 1.2 %'; text 'the recommended treat rate of 11.9 mass%'",
+      "read_on": "text layer, 2026-11-10"
+    },
+    {
+      "product": "AFTON_HITEC_12360",
+      "field": "treat_rate_matrix",
+      "source_file": "DL2-13692.pdf",
+      "page": 2,
+      "values": [16.1],
+      "basis": "wt.%",
+      "quote": "'HiTEC® 12360 is extremely cost effective due to its low treat rate @ 16.1% w.t'",
+      "read_on": "text layer, 2026-11-10"
+    }
+  ]
+}

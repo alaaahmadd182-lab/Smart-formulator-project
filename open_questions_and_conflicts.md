@@ -2057,3 +2057,11 @@ Added 2026-11-10 (Workstream A, branch `feat/data-policy-mandatory-review`). The
 
 - `reports/mandatory_properties/product_eligibility.csv`: 11 of 181 base oils are formulation-eligible under the mandatory-data rules; 0 of 78 packages (none has a published formulation) and 0 of 5 components. Ineligible products stay in the database. Unmet requirements per product: `reports/mandatory_properties/missing_mandatory_properties.csv`.
 - SHELL_RISELLA_X_415/420/430: the `Not Required` labels on API group (and CCS for 420/430) rely on a proposed, unapproved applicability rule, so they do not satisfy the requirement.
+
+### Revision 2 of the 2026-11-10 review (provisional checkpoint)
+
+- FORMOSA_150N_GII_PLUS and FORMOSA_500N_GII (tier 1) `kv100`: the technical specification range is now selected as printed (DL2-10001.pdf / DL2-10003.pdf p.1, issued 2009-10-21: 5.0–5.4 and 10–12 mm²/s). The SDS typical values (5.2 and 11 cSt) are kept as alternates with their own SDS lines. The earlier record had mixed the specification range into the SDS entry; it is corrected. No single value is derived from the range.
+- NEXBASE 3043–3080: the family TDS DL2-10962.pdf (Edition 8) and the individual sheets disagree on 15 fields (densities, and some KV40, KV100, VI, pour point, flash point and Noack values). These fields stay pending: conflicting undated technical editions.
+- ERGON_HYGOLD_5000BS and ERGON_HYGOLD_P70N `viscosity_index`: the record puts `qualifier: "minimum"` on the value 81, which its own notes call the typical value. A correction (qualifier to null) is proposed, not applied.
+- Eligibility (provisional rules, version `mandatory-tier1-2026-11-10.2`): 10 of 181 base oils are formulation-eligible and 11 are Tier 1 complete; no package or component is eligible. S_OIL_ARAMCO_ULTRA_8 is no longer eligible: its KV40/KV100 are SDS ranges and its source selection is pending. Details: `docs/data_policy_mandatory_review/requirements_review.md`.
+- Coverage of the TDS–SDS checking is not exhaustive. Remaining gaps: `docs/data_policy_mandatory_review/source_review_coverage.md`.

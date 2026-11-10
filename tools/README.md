@@ -127,10 +127,15 @@ never write on import, and write only the files named below. Policy and interfac
 | `data_policy/source_selection.py` | Rule 1: the declared selections, exceptions and pending cases; dry run unless `--write`; idempotent; asserts the expected current value and source | product JSON (declared fields only) with `--write`; `reports/data_policy/source_selection_changes.csv` with `--report` on a fresh apply |
 | `data_policy/integration_diff.py` | What `integrate_products.py` would change in given files (or `--changed`), in memory | nothing |
 | `data_policy/tds_sds_inventory.py` | Rule 2 A-B: every TDS-SDS comparison, comparability first, differences, proposed screen | `reports/data_policy/tds_sds_comparisons.csv` |
-| `data_policy/thresholds.py` | Rule 2 C: the proposed property-specific screening rules (`APPROVAL = 'proposed'`) | nothing |
-| `data_policy/tests/test_data_policy.py` | Regression tests (36) for Rules 1-3, the outputs and the safety checks | nothing |
+| `data_policy/thresholds.py` | Rule 2 C: the proposed property-specific screening rules (`APPROVAL = 'proposed'`; empirical choices) and the sensitivity function | nothing |
+| `data_policy/source_coverage_ledger.py` | Rule 1 coverage, per product × property: the technical and SDS documents examined, selection status and reason, comparison status, unsearchable documents | `reports/data_policy/source_coverage_ledger.csv` + `.meta.json` |
+| `data_policy/verify_preserved.py` | Checks the 49 preserved files and 11 evidence copies against their manifests, form-aware (worktree / committed blob / blob with CRLF); checks the archive against HEAD and the baseline | only `--out`, if given |
+| `mandatory_properties/treat_rate_basis_scan.py` | Reading aid: the basis wording on the cited page of every bare-"%" treat rate | `reports/mandatory_properties/treat_rate_basis_scan.csv` |
+| `mandatory_properties/treat_rate_basis_evidence.json` | Reviewed page evidence of a mass basis (3 cases) | (data) |
+| `mandatory_properties/tests/test_requirements.py` | Regression tests (30): the five reported validation bugs with their valid counterparts, categories, calculations, nested rules | nothing |
+| `data_policy/tests/test_data_policy.py` | Regression tests (26): Rule 1, comparison rules, the outputs, counts and the safety checks | nothing |
 | `mandatory_properties/requirements.py` | Rule 3: versioned mandatory Tier 1 requirements and checks | nothing |
-| `mandatory_properties/build_eligibility.py` | Eligibility outputs; `--check` compares without writing | `reports/mandatory_properties/*` |
+| `mandatory_properties/build_eligibility.py` | Eligibility outputs (needs a current coverage ledger); `--check` compares without writing | `reports/mandatory_properties/*` |
 
 Dependencies: Python 3.12, `pymupdf` (document classification and archive pages) and `openpyxl` (coverage workbook).
 
@@ -140,6 +145,14 @@ Dependencies: Python 3.12, `pymupdf` (document classification and archive pages)
 current data: they would restore superseded values or rewrite the v5 snapshot. `audit/review_2026-11-02/verify_revision.py`
 compares protected files with commit `545fd3d` and now fails by design, because product JSON and the workbook changed.
 
-**Line endings.** With `core.autocrlf=true`, a fresh checkout rewrites line endings, so `sha256sum -c PRESERVED_SHA256.txt`
-can report text files as FAILED although their committed content is unchanged. Check them in a checkout without
-conversion, or compare the committed blobs (`git diff <commit> -- tools/`).
+**Line endings.** The manifest records the original bytes, which differ in their line endings:
+
+| Files | Original line ends | How committed |
+|---:|---|---|
+| 31 | LF | byte-exact |
+| 17 | CRLF | normalised to LF |
+| 1 | none | byte-exact |
+
+No single `core.autocrlf` setting therefore reproduces all 49 on disk. A bare `sha256sum -c PRESERVED_SHA256.txt` fails for 31 files in a CRLF checkout, and for 17 in an LF checkout.
+
+Use `python tools/data_policy/verify_preserved.py` instead. It checks each file against the worktree bytes, the committed blob, and the blob written with CRLF, and names the form that reproduces the original. On 2026-11-10: 49/49 preserved files and 11/11 evidence copies verified.

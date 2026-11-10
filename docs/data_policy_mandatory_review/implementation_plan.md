@@ -71,3 +71,43 @@ exist on the baseline and is not touched.
 
 - Rule 2 E: reclassifying ordinary TDS–SDS differences in a dated successor of the v5 audit (stable CF ids, an old-to-new state mapping, recalculated counts).
 - The curated log and the conflict records stay as they are until then. Only the three reopened RF6077/RF6088F conflicts changed, because of Rule 1, not Rule 2.
+
+## 5. Revision 2 (2026-11-10): additional affected files
+
+- **Product JSON:**
+  - `FORMOSA_150N_GII_PLUS_tier1.json` and `FORMOSA_500N_GII_tier1.json`: `kv100` set to the technical specification range; the SDS typical value is kept as an alternate.
+- **Scripts:**
+  - `tools/mandatory_properties/requirements.py`: rewritten, with validation, categories and calculation checks.
+  - `build_eligibility.py`: categories, ledger dependency, new outputs.
+  - `tools/data_policy/source_selection.py`: incremental apply, FORMOSA changes, `PENDING_FIELDS`, `SDS_FALLBACK_FIELDS`.
+  - `thresholds.py` and `tds_sds_inventory.py`: wording, empirical basis, sensitivity.
+  - `policy_lib.py`: closes files.
+- **New tools:**
+  - `tools/data_policy/source_coverage_ledger.py`
+  - `tools/data_policy/verify_preserved.py`
+  - `tools/mandatory_properties/treat_rate_basis_scan.py`
+  - `tools/mandatory_properties/treat_rate_basis_evidence.json`
+  - `tools/mandatory_properties/tests/test_requirements.py`
+- **New reports:**
+  - `reports/data_policy/source_coverage_ledger.csv` (+ `.meta.json`)
+  - `reports/data_policy/threshold_sensitivity.csv`
+  - `reports/mandatory_properties/requirement_outcomes.csv`
+  - `reports/mandatory_properties/treat_rate_basis_scan.csv`
+- **New documentation:**
+  - `requirements_review.md`
+  - `source_review_coverage.md`
+  - `test_results/`
+- **Updated:**
+  - `Coverage_Matrix.xlsx`
+  - every document in this folder
+  - `CLAUDE.md`, `tools/README.md`, `PROJECT_FILE_GUIDE.md`
+  - `open_questions_and_conflicts.md` (dated subsection appended)
+- **Unchanged:** the protected paths listed in section 3.
+
+The pipeline must be run in this order:
+
+```
+tds_sds_inventory.py → source_coverage_ledger.py → build_eligibility.py
+```
+
+The eligibility build stops if the ledger is stale.

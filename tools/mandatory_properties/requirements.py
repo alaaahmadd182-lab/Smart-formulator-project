@@ -1,300 +1,569 @@
 """Mandatory Tier 1 requirements (Rule 3) and the checks that decide whether a product meets them (read-only).
 
-Sources of the requirements:
-  - Smart_Formulator_Minimum_Property_Set.pdf (in the source archive), slides 2-4: base oils "Tier 1 - blocking, all six
-    required"; additive packages "Tier 1 - route-defining ... as blocking as its numbers" (8 items); additive components
-    "A - every component" (6 items), "B - viscosity modifier - adds", "C - pour point depressant - adds";
-  - Property_Glossary.docx (same tiers; specific gravity is optional and never used as density; never infer absent facts);
-  - json_templates/*.json (field paths; base-oil specific_gravity is optional).
-Interpretations that are not stated in those documents are listed in INTERPRETATIONS and in
-docs/data_policy_mandatory_review/eligibility_interface.md; they need reviewer confirmation.
+Authority for every requirement, and the decisions still open, are in
+docs/data_policy_mandatory_review/requirements_review.md. Sources:
+  - Smart_Formulator_Minimum_Property_Set.pdf (in the source archive), slides 2-4;
+  - Property_Glossary.docx (tiers; "Never infer absent facts"; "A component response needs reference oil, dose and method");
+  - json_templates/*.json (field paths and tier numbers).
 
-"Eligible" means eligible under these mandatory-data rules only. It does not mean chemical suitability, compatibility
-or proof of performance.
+Every requirement check returns an Outcome with one category (CATEGORIES). Only MET and NOT_APPLICABLE (an approved
+applicability rule; none is approved yet) satisfy a requirement. The categories separate an absent value from documented
+information that is not (yet) usable, so an unmet requirement is not reported as an absent property:
+
+  absent                              no value is recorded (status Missing, or no entry)
+  bound_or_range_needs_assessment     a reported bound, range or direction-less specification value: documented
+                                      information, never converted to an exact value; whether it serves the intended use
+                                      is a provisional, use-specific decision (REPRESENTATIONS)
+  missing_unit_condition_provenance   value present, but its unit, mass basis, test/reference condition or source is not
+  invalid_value                       recorded value is not a valid measurement (non-finite, boolean, reversed range,
+                                      unsupported or conflicting qualifier, value outside its own recorded range)
+  invalid_or_unreproducible_calculation  a Calculated value that no registered check reproduces from traceable inputs
+  unresolved_applicability            whether or how the requirement applies is not established
+  unresolved_source_selection         a value exists, but which source supplies it is pending (Rule 1)
+
+tier1_complete = every blocking requirement has documented information (met, not applicable, bound/range needing
+assessment, or a value whose source selection is pending). formulation_eligible = every blocking requirement is met.
+Subtype blocks (VM, PPD) are evaluated and reported but are NOT blocking: they are stored in tier 2 / tier 3 files and
+the project rule is that missing Tier 2/3 data does not block (decision C in requirements_review.md).
+
+"Eligible" means eligible under these mandatory-data rules only. It is not a statement of chemical suitability,
+compatibility or performance.
 """
-import re
+import math, re
+from collections import namedtuple
 
-REQUIREMENTS_VERSION = 'mandatory-tier1-2026-11-10'
+REQUIREMENTS_VERSION = 'mandatory-tier1-2026-11-10.2'
+
+MET, NOT_APPLICABLE = 'met', 'not_applicable_approved_rule'
+ABSENT = 'absent'
+BOUND = 'bound_or_range_needs_assessment'
+META = 'missing_unit_condition_provenance'
+INVALID = 'invalid_value'
+CALC = 'invalid_or_unreproducible_calculation'
+APPL = 'unresolved_applicability'
+SEL = 'unresolved_source_selection'
+CATEGORIES = [MET, NOT_APPLICABLE, ABSENT, BOUND, META, INVALID, CALC, APPL, SEL]
+SATISFIED = {MET, NOT_APPLICABLE}
+DOCUMENTED = {MET, NOT_APPLICABLE, BOUND, SEL}
+
+Outcome = namedtuple('Outcome', 'requirement category reason calculated blocking representation')
 
 OK_STATUS = ('Reported', 'Calculated')
 INAPPLICABLE_STATUS = ('Not Required', 'Not Applicable', 'N/A')
-# Applicability rules that have been APPROVED and may turn a requirement into "not applicable". None is approved yet:
-# the 'Not Required' labels on SHELL_RISELLA_X_415/420/430 cite a "proposed project applicability rule", so they do
-# not satisfy a requirement.
+# Applicability rules that have been APPROVED. None is approved yet (requirements_review.md, decisions C, D, F).
 APPROVED_APPLICABILITY_RULES = {}
 
+# ---------------------------------------------------------------- representations (provisional, use-specific)
+# accepted: representations that satisfy the requirement for formulation use. reviewable: documented information that
+# needs a use-specific decision (category BOUND). Anything else (text in a numeric field) is invalid.
+# Where the source names the representation (treat rate "min / max / typical wt.%"), the rule cites it; the others are
+# project interpretations awaiting review (requirements_review.md, decision B-REP).
+POINT_ONLY = dict(accepted={'point'}, reviewable={'range', 'lower_bound', 'upper_bound', 'spec_value'},
+                  basis='interpretation: a formulation calculation needs a point value; ranges and bounds are kept for review')
+DOSE = dict(accepted={'point', 'range'}, reviewable={'lower_bound', 'upper_bound', 'spec_value'},
+            basis='source: Minimum Property Set slide 3/4 and glossary, "Treat rate - min / max / typical wt.%"')
+TEMPERATURE = dict(accepted={'point', 'range'}, reviewable={'lower_bound', 'upper_bound', 'spec_value'},
+                   basis='interpretation: a blend / dissolution temperature can be printed as a range')
+REPRESENTATIONS = {
+    'kv40': POINT_ONLY, 'kv100': POINT_ONLY, 'viscosity_index': POINT_ONLY, 'density': POINT_ONLY, 'ccs': POINT_ONLY,
+    'treat_rate_matrix': DOSE, 'required_co_components': DOSE, 'treat_rate': DOSE, 'vm.treat_range_by_sae_grade': DOSE,
+    'ppd.tested_dose_range_wt_pct': DOSE,
+    'vm.dissolution_blend_temperature': TEMPERATURE, 'ppd.addition_procedure.blend_temperature_c': TEMPERATURE,
+}
+DEFAULT_REPRESENTATION = POINT_ONLY
+
 INTERPRETATIONS = [
-    ('I-1', 'A numeric requirement needs a point value or a two-sided range (min and max). A one-sided bound alone '
-            '(e.g. "minimum 4.0") does not satisfy it, because a calculation cannot use it.'),
-    ('I-2', 'CCS "vs temperature" is satisfied by at least one CCS value with its test temperature; the slide lists '
-            '-15/-20/-25/-30 °C as the possible pairings, not as four required points.'),
-    ('I-3', 'Component "primary and secondary function": the secondary function is optional (not every component '
-            'has one); the primary function is required.'),
-    ('I-4', 'Component function-specific marker: required only for the functions the slide names (detergent: TBN + Ca '
-            'or Mg; ZDDP: P + Zn; molybdenum: Mo). For other functions the slide defines no marker, so the item does '
-            'not apply (rule CG-6-APPL). If the function itself is missing, applicability cannot be established and '
-            'the item is missing.'),
-    ('I-5', 'Viscosity modifiers and pour point depressants must also meet their subtype block (slide 4: "VMs and PPDs '
-            'stay components, but need response data on top"). The template numbering of vm.json (tier 2) and '
-            'ppd.json (tier 3) is file numbering, not a statement that the blocks are optional. Subtype fields that '
-            'sit in a non-VM general.json are ignored.'),
-    ('I-6', 'A treat rate must be on a stated mass basis (wt.%, wt%, mass %). A bare "%" or "vol.%" does not establish '
-            'the wt.% basis the slides require.'),
-    ('I-7', 'A response (thickening, pour point, low temperature) is usable only with its reference oil, dose and test '
-            'method (slide 4 rule); a calculated response also needs its inputs and arithmetic to check.'),
-    ('I-8', 'Package "required VM / PPD / booster architecture" is satisfied by at least one reported co-component. '
-            'The schema has no field for a sourced statement that none is required; such a statement would need a '
-            'schema decision before it could satisfy the item.'),
+    ('I-1', 'Ranges, one-sided bounds and direction-less specification values are documented information. They are never '
+            'converted to an exact value and never rejected as absent; whether they serve a property\'s intended use is a '
+            'provisional, property-specific decision (REPRESENTATIONS). Until decided, they make Tier 1 complete but not '
+            'formulation-eligible.'),
+    ('I-2', 'CCS "vs temperature" is satisfied by at least one CCS value with its test temperature.'),
+    ('I-3', 'Component "primary and secondary function": the secondary function is optional; the primary is required.'),
+    ('I-4', 'Function-specific markers are required for the functions the slide names (detergent: TBN + Ca or Mg; ZDDP: '
+            'P + Zn; molybdenum: Mo). For other functions applicability is unresolved (not assumed inapplicable).'),
+    ('I-5', 'VM and PPD subtype blocks are reported but not blocking, because they are stored in tier 2 / tier 3 files and '
+            'the project rule says missing Tier 2/3 data does not block. This conflicts with slide 4 ("need response data '
+            'on top") and is a decision for the reviewer (decision C).'),
+    ('I-6', 'A treat rate or dose must be on a mass basis: stated in the recorded unit (wt.%, mass %) or established from '
+            'the cited page (heading or footnote) in treat_rate_basis_evidence.json. A bare "%" without such evidence is '
+            'missing its basis; the basis is never guessed.'),
+    ('I-7', 'A response is usable only with its reference oil, dose and method (glossary extraction rule). A calculated '
+            'value is accepted only if a registered check reproduces it from inputs printed on the cited page and its '
+            'conditions match the response record.'),
+    ('I-8', 'Package co-component architecture: met by a reported co-component with a mass-basis dose, or by a sourced '
+            'statement that no co-component is required (proposed field co_component_requirement_statement; no record '
+            'has one yet). Without either, applicability is unresolved; a co-component is never required merely because '
+            'the schema cannot say "none".'),
 ]
 
 
-# ---------------------------------------------------------------- value-object checks
-def _num(x):
-    return isinstance(x, (int, float)) and not isinstance(x, bool)
+# ---------------------------------------------------------------- numeric validation
+def finite(x):
+    return isinstance(x, (int, float)) and not isinstance(x, bool) and math.isfinite(x)
 
 
-def has_text(vo):
-    v = vo.get('value') if isinstance(vo, dict) else None
-    return v is not None and str(v).strip() != ''
+_LOWER_Q = {'>', '>=', '≥', '⩾', '≮', 'min', 'min.', 'minimum', 'not less than'}
+_UPPER_Q = {'<', '<=', '≤', '⩽', '≯', 'max', 'max.', 'maximum', 'not more than'}
+_RANGE_Q = {'range', 'min-max', 'min–max'}
+_NEUTRAL_Q = {'', '=', '~', '≈', 'typical', 'typ', 'typ.', 'approx', 'approx.', 'approximately', 'about', 'nominal',
+              'specification', 'sales specification'}
+_POINT_K = {'', 'typical', 'single', 'reported', 'sds reported', 'calculated', 'measured'}
+_SPEC_K = {'specification', 'target', 'limit'}
+_LOWER_K = {'minimum', 'lower bound', 'lower_bound', 'calculated lower bound', 'lower_bound_exclusive'}
+_UPPER_K = {'maximum', 'upper bound', 'upper_bound', 'upper_bound_exclusive', 'upper-bound typical', 'upper limit'}
+_RANGE_K = {'range'}
+_TEXT_K = re.compile(r'description|classification|designation|composition|reported_description')
 
 
-def has_number(vo):
-    """Point value or a two-sided range. Zero is a valid value (I-1)."""
+def _norm(x):
+    return re.sub(r'\s+', ' ', str(x or '').strip().lower())
+
+
+def representation(vo):
+    """(kind, detail) for a numeric value object. kind: point, range, lower_bound, upper_bound, spec_value, absent,
+    invalid. Never converts a bound or range to an exact value."""
     if not isinstance(vo, dict):
-        return False, 'no value object'
+        return 'absent', 'no value object'
     v, lo, hi = vo.get('value'), vo.get('min'), vo.get('max')
-    q = str(vo.get('qualifier') or '').strip().lower()
-    kind = str(vo.get('value_kind') or '').strip().lower()
-    bound = re.fullmatch(r'(>|>=|≥|<|<=|≤|min\.?|minimum|max\.?|maximum)', q) or re.search(r'minimum|maximum|lower bound|upper (bound|limit)', kind)
-    if isinstance(v, list) and len(v) == 2 and all(_num(x) for x in v):
-        return True, ''
-    if _num(v) and not bound:
-        return True, ''
-    if _num(v):
-        return False, f'only a one-sided bound is recorded (qualifier {vo.get("qualifier")!r}, value_kind {vo.get("value_kind")!r})'
-    if _num(lo) and _num(hi):
-        return True, ''
-    if _num(lo) or _num(hi):
-        return False, 'only a one-sided bound is recorded'
-    return False, 'no numeric value'
+    q, k = _norm(vo.get('qualifier')), _norm(vo.get('value_kind'))
+    for name, x in (('value', v), ('min', lo), ('max', hi)):
+        if isinstance(x, bool):
+            return 'invalid', f'{name} is a boolean, not a measurement'
+        if isinstance(x, (int, float)) and not math.isfinite(x):
+            return 'invalid', f'{name} is not a finite number ({x!r})'
+    if isinstance(v, str) and v.strip():
+        return 'invalid', f'non-numeric text {v[:40]!r} in a numeric field'
+    if isinstance(v, list):
+        if len(v) != 2 or not all(finite(x) for x in v):
+            return 'invalid', f'value list {v!r} is not a pair of finite numbers'
+        if v[0] > v[1]:
+            return 'invalid', f'reversed range {v!r}'
+        if (lo is not None and lo != v[0]) or (hi is not None and hi != v[1]):
+            return 'invalid', 'value list and min/max disagree'
+        lo, hi, v = v[0], v[1], None
+        k = k or 'range'
+    for name, x in (('min', lo), ('max', hi)):
+        if x is not None and not finite(x):
+            return 'invalid', f'{name} is not a finite number ({x!r})'
+    if finite(lo) and finite(hi) and lo > hi:
+        return 'invalid', f'reversed range min {lo} > max {hi}'
+    if q in _LOWER_Q:
+        qd = 'lower_bound'
+    elif q in _UPPER_Q:
+        qd = 'upper_bound'
+    elif q in _RANGE_Q:
+        qd = 'range'
+    elif q in _NEUTRAL_Q:
+        qd = None
+    else:
+        return 'invalid', f'unsupported qualifier {vo.get("qualifier")!r}'
+    if k in _POINT_K:
+        kd = 'point'
+    elif k in _SPEC_K:
+        kd = 'spec_value'
+    elif k in _LOWER_K:
+        kd = 'lower_bound'
+    elif k in _UPPER_K:
+        kd = 'upper_bound'
+    elif k in _RANGE_K:
+        kd = 'range'
+    else:
+        return 'invalid', f'unsupported value_kind {vo.get("value_kind")!r}'
+    if qd and kd in ('lower_bound', 'upper_bound', 'range') and qd != kd:
+        return 'invalid', f'conflicting qualifier {vo.get("qualifier")!r} and value_kind {vo.get("value_kind")!r}'
+    kind = qd or kd
+    note = (f'qualifier {vo.get("qualifier")!r} makes this a {kind.replace("_", " ")} although value_kind is {vo.get("value_kind")!r}'
+            if qd and kd in ('point', 'spec_value') else '')
+    if kind == 'point':
+        if not finite(v):
+            return ('absent', 'no numeric value') if v is None and lo is None and hi is None else (
+                'invalid', 'point value kind without a numeric value')
+        if (finite(lo) and v < lo) or (finite(hi) and v > hi):
+            return 'invalid', f'value {v} outside its own recorded range [{lo}, {hi}]'
+        return 'point', ''
+    if kind == 'spec_value':
+        if finite(lo) and finite(hi):
+            return 'range', 'specification range'
+        if finite(v) or finite(lo) or finite(hi):
+            return 'spec_value', f'specification value without a stated direction (value_kind {vo.get("value_kind")!r})'
+        return 'absent', 'no numeric value'
+    if kind == 'range':
+        if finite(lo) and finite(hi):
+            if finite(v) and not lo <= v <= hi:
+                return 'invalid', f'value {v} outside its own recorded range [{lo}, {hi}]'
+            return 'range', note
+        return 'invalid', 'range without both endpoints'
+    bound = lo if kind == 'lower_bound' else hi
+    other = hi if kind == 'lower_bound' else lo
+    if finite(v) and finite(bound) and v != bound:
+        return 'invalid', f'{kind.replace("_", " ")} recorded as both {v} (value) and {bound} (min/max)'
+    if finite(other):
+        return 'invalid', f'{kind.replace("_", " ")} with an opposite limit recorded'
+    if not (finite(v) or finite(bound)):
+        return 'invalid', f'{kind.replace("_", " ")} without a number'
+    return kind, note
 
 
-def traceable(vo):
-    s = vo.get('source') or {}
-    return bool(s.get('file'))
+def decimals_of(x):
+    s = repr(float(x)) if isinstance(x, float) else str(x)
+    return len(s.split('.')[1]) if '.' in s and not s.endswith('.0') else 0
 
 
-def _status_check(vo, label):
-    """Common status logic. Returns (ok, reason) for the status alone; ok None means 'go on checking content'."""
-    if not isinstance(vo, dict):
-        return False, f'{label}: not present in the record'
-    st = vo.get('status')
+# ---------------------------------------------------------------- context
+class Context:
+    """What a check may consult besides the record: cited page text (traceability), Rule 1 pending fields, and the
+    reviewed treat-rate basis evidence. The default context has no page text, so no calculation can be accepted."""
+
+    def __init__(self, page_text=None, pending=None, basis_evidence=None, product=None):
+        self.page_text = page_text or (lambda f, p: None)
+        self.pending = pending or {}
+        self.basis_evidence = basis_evidence or []
+        self.product = product
+
+    def mass_basis(self, path, vo):
+        s = vo.get('source') or {}
+        for e in self.basis_evidence:
+            if (e['product'] == self.product and e['source_file'] == s.get('file') and str(e['page']) == str(s.get('page'))
+                    and path.startswith(e['field']) and (not e.get('values') or vo.get('value') in e['values'])):
+                return e
+        return None
+
+
+def _o(rid, cat, why='', calc=False, blocking=True, rep=None):
+    return Outcome(rid, cat, why, calc, blocking, rep)
+
+
+def _provenance(vo):
+    s = (vo or {}).get('source') or {}
+    f = s.get('file')
+    if not f:
+        return 'no source file'
+    if not str(f).lower().startswith(('http://', 'https://')) and s.get('page') in (None, ''):
+        return 'source file without a page'
+    return ''
+
+
+def _status(item, rid, allow_calc):
+    """Common status gate for every item (value object, block, claim, formulation entry)."""
+    if not isinstance(item, dict):
+        return _o(rid, ABSENT, 'not present in the record')
+    st = item.get('status')
+    if st in (None, 'Missing'):
+        return _o(rid, ABSENT, f'status {st or "not recorded"}')
     if st in INAPPLICABLE_STATUS:
-        rule = APPROVED_APPLICABILITY_RULES.get(label)
+        rule = APPROVED_APPLICABILITY_RULES.get(rid)
         if rule:
-            return True, f'{label}: not applicable under approved rule {rule}'
-        return False, f'{label}: marked {st!r} without an approved applicability rule'
+            return _o(rid, NOT_APPLICABLE, f'not applicable under approved rule {rule}')
+        return _o(rid, APPL, f'marked {st!r} without an approved applicability rule')
+    if st == 'Calculated' and not allow_calc:
+        return _o(rid, CALC, 'status Calculated, but no calculation is defined for this kind of item', calc=True)
     if st not in OK_STATUS:
-        return False, f'{label}: status {st}'
-    return None, ''
+        return _o(rid, INVALID, f'unsupported status {st!r}')
+    return None
 
 
-def check_value(vo, label, numeric=True, need_unit=None, need_temp=False, unit_pattern=None, calc_check=None):
-    """Return (ok, reason, calculated). need_unit defaults to numeric."""
-    ok, why = _status_check(vo, label)
-    if ok is not None:
-        return ok, why, False
+def check_value(vo, rid, ctx=None, numeric=True, need_unit=None, need_temp=False, mass_basis=False, calc=None, path=None):
+    """Outcome for one value object. calc: a registered calculation check (vo, ctx) -> (ok, reason)."""
+    ctx = ctx or Context()
+    gate = _status(vo, rid, allow_calc=True)
+    if gate:
+        return gate
     need_unit = numeric if need_unit is None else need_unit
-    if numeric:
-        good, why = has_number(vo)
-        if not good:
-            return False, f'{label}: {why}', False
-    elif not has_text(vo) and not _structured_content(vo):
-        return False, f'{label}: status {vo.get("status")} but no value recorded', False
+    is_calc = vo.get('status') == 'Calculated'
+    if is_calc:
+        if calc is None:
+            return _o(rid, CALC, 'calculated, but no registered check can reproduce this calculation', calc=True)
+        ok, why = calc(vo, ctx)
+        if not ok:
+            return _o(rid, CALC, why, calc=True)
+    if not numeric:
+        v = vo.get('value')
+        if isinstance(v, (bool, int, float)) or not (isinstance(v, str) and v.strip()):
+            if not _structured(vo):
+                return _o(rid, INVALID if v is not None else ABSENT,
+                          'no text value recorded' if v is None else f'value {v!r} is not a text value')
+        why = _provenance(vo)
+        return _o(rid, META, why) if why else _o(rid, MET, '', is_calc, rep='text')
+    rep, detail = representation(vo)
+    if rep == 'absent':
+        return _o(rid, INVALID, f'status {vo.get("status")} but {detail}')
+    if rep == 'invalid':
+        return _o(rid, INVALID, detail, is_calc)
     if need_unit and not vo.get('unit'):
-        return False, f'{label}: unit not recorded', False
-    if unit_pattern and vo.get('unit') and not re.search(unit_pattern, str(vo['unit']), re.I):
-        return False, f'{label}: unit {vo["unit"]!r} does not establish the required basis', False
-    if need_temp and not _num(vo.get('test_temperature_c')):
-        return False, f'{label}: reference/test temperature not recorded', False
-    if vo.get('status') == 'Calculated':
-        if calc_check is None:
-            return False, f'{label}: calculated, but no registered check can reproduce the calculation', True
-        good, why = calc_check(vo)
-        if not good:
-            return False, f'{label}: calculated value not accepted ({why})', True
-        return True, '', True
-    if not traceable(vo):
-        return False, f'{label}: reported without a source file', False
-    return True, '', False
+        return _o(rid, META, 'unit not recorded', is_calc, rep=rep)
+    if mass_basis and not re.search(r'wt|mass|weight|m/m|w/w', str(vo.get('unit') or ''), re.I):
+        ev = ctx.mass_basis(path or rid, vo)
+        if not ev:
+            return _o(rid, META, f'unit {vo.get("unit")!r} does not state a mass basis and no page evidence establishes one', is_calc, rep=rep)
+    if need_temp and not finite(vo.get('test_temperature_c')):
+        return _o(rid, META, 'reference/test temperature not recorded', is_calc, rep=rep)
+    why = _provenance(vo)
+    if why:
+        return _o(rid, META, why, is_calc, rep=rep)
+    policy = REPRESENTATIONS.get(rid.split('[')[0], DEFAULT_REPRESENTATION)
+    if rep not in policy['accepted']:
+        return _o(rid, BOUND, f'{rep.replace("_", " ")}{": " + detail if detail else ""} (provisional rule: {policy["basis"]})', is_calc, rep=rep)
+    return _o(rid, MET, detail, is_calc, rep=rep)
 
 
-def _structured_content(n):
-    """True when a non-value-object block (lists of groups, limits, ...) carries content."""
+def _structured(n):
+    """A non-value-object block (lists of groups, limits, ...) carries content."""
     if not isinstance(n, dict):
         return False
     for k, v in n.items():
-        if k in ('status', 'source', 'notes', 'unit', 'value_final', 'unit_final', 'min_final', 'max_final', 'integration_flags', 'resolution'):
+        if k in ('status', 'source', 'notes', 'unit', 'value_final', 'unit_final', 'min_final', 'max_final', 'integration_flags',
+                 'resolution', 'calculation_note', 'printed_text', 'value_kind', 'method', 'basis'):
             continue
         if isinstance(v, list) and any(x not in (None, '', {}) for x in v):
             return True
-        if isinstance(v, dict) and k not in ('source',) and _structured_content(v):
+        if isinstance(v, dict) and _structured(v):
             return True
-        if isinstance(v, str) and v.strip() and k not in ('calculation_note', 'printed_text', 'value_kind', 'method', 'basis'):
+        if isinstance(v, str) and v.strip():
             return True
-        if _num(v):
+        if finite(v):
             return True
     return False
 
 
-def check_block(n, label):
-    """A restrictions-type block (status + lists + source)."""
-    ok, why = _status_check(n, label)
-    if ok is not None:
-        return ok, why, False
-    if not (has_text(n) or _structured_content(n)):
-        return False, f'{label}: status {n.get("status")} but the block is empty', False
-    if not traceable(n):
-        return False, f'{label}: reported without a source file', False
-    return True, '', False
+def check_block(n, rid):
+    gate = _status(n, rid, allow_calc=False)
+    if gate:
+        return gate
+    if not (isinstance(n.get('value'), str) and n['value'].strip()) and not _structured(n):
+        return _o(rid, INVALID, f'status {n.get("status")} but the block is empty')
+    why = _provenance(n)
+    return _o(rid, META, why) if why else _o(rid, MET)
 
 
-# ---------------------------------------------------------------- registered calculation checks (I-7)
+# ---------------------------------------------------------------- registered calculation checks
 _NUM = r'(-?\d+(?:\.\d+)?)'
-_DKV = re.compile(r'=\s*KV100 at ' + _NUM + r'%\s*\(' + _NUM + r'\)\s*-\s*KV100 at 0%\s*\(' + _NUM + r'\)\s*in\s*(.+?)\s*=\s*' + _NUM)
-_SSI = re.compile(r'\(\s*' + _NUM + r'\s*-\s*' + _NUM + r'\s*\)\s*/\s*' + _NUM + r'\s*x\s*100\s*=\s*' + _NUM)
+_DKV = re.compile(r'KV100 at ' + _NUM + r'\s*%\s*\(' + _NUM + r'\)\s*-\s*KV100 at 0\s*%\s*\(' + _NUM + r'\)\s*in\s*(.+?)\s*=\s*' + _NUM)
+_LOSS = re.compile(r'\(\s*' + _NUM + r'\s*-\s*' + _NUM + r'\s*\)\s*/\s*' + _NUM + r'\s*x\s*100\s*=\s*' + _NUM)
+_SSI = re.compile(r'\(\s*' + _NUM + r'\s*-\s*' + _NUM + r'\s*\)\s*/\s*\(\s*' + _NUM + r'\s*-\s*' + _NUM + r'\s*\)\s*x\s*100\s*=\s*' + _NUM)
+_KV_UNITS = re.compile(r'mm2/s|mm²/s|cst', re.I)
+
+
+def _same_oil(a, b):
+    n = lambda x: re.sub(r'[\s#]+', '', str(x or '')).lower()
+    return n(a) == n(b) and n(a) != ''
+
+
+def _result_matches(stored, recomputed, stated):
+    if not finite(stored):
+        return False, f'stored value {stored!r} is not a finite number'
+    tol = 0.5 * 10 ** (-decimals_of(stored)) + 1e-9
+    if abs(stored - stated) > 1e-9:
+        return False, f'stored value {stored} differs from the result stated in the calculation note ({stated})'
+    if abs(stored - recomputed) > tol:
+        return False, f'stored value {stored} does not reproduce the recomputed result {recomputed:.6g}'
+    return True, ''
+
+
+def _inputs_on_page(vo, ctx, numbers):
+    s = vo.get('source') or {}
+    if _provenance(vo):
+        return False, f'calculation inputs not traceable ({_provenance(vo)})'
+    text = ctx.page_text(s.get('file'), s.get('page'))
+    if not text:
+        return False, f'calculation inputs cannot be verified: no text for {s.get("file")} p.{s.get("page")}'
+    flat = text.replace(',', '.')
+    missing = [x for x in numbers if not re.search(r'(?<![\d.])' + re.escape(x) + r'(?![\d])', flat)]
+    if missing:
+        return False, f'input value(s) {", ".join(missing)} not found on {s.get("file")} p.{s.get("page")}'
+    return True, ''
 
 
 def calc_delta_kv100(entry):
-    """ΔKV100 = KV100(dose) - KV100(0) in a named oil: inputs, arithmetic and method must all be checkable."""
-    def check(vo):
+    """ΔKV100 = KV100(dose) - KV100(0 %) in the named reference oil, matched to the response record."""
+    def check(vo, ctx):
         m = _DKV.search(str(vo.get('calculation_note') or ''))
         if not m:
-            return False, 'calculation note does not state the inputs in a checkable form'
-        dose, kv_d, kv_0, oil, res = float(m.group(1)), float(m.group(2)), float(m.group(3)), m.group(4), float(m.group(5))
-        if abs((kv_d - kv_0) - res) > 0.006 or not _num(vo.get('value')) or abs(vo['value'] - res) > 1e-9:
-            return False, 'arithmetic does not reproduce the recorded value'
-        if not traceable(vo):
-            return False, 'inputs have no source file'
-        if not entry.get('reference_oil') or entry.get('dose_wt_pct') is None:
-            return False, 'reference oil or dose not recorded on the response entry'
+            return False, 'calculation note does not state the inputs as "KV100 at d% (a) - KV100 at 0% (b) in <oil> = r"'
+        dose, kv_d, kv_0, oil, res = m.group(1), m.group(2), m.group(3), m.group(4), m.group(5)
+        if not finite(entry.get('dose_wt_pct')) or abs(float(dose) - entry['dose_wt_pct']) > 1e-9:
+            return False, f'dose in the calculation ({dose} %) differs from the response record ({entry.get("dose_wt_pct")!r})'
+        if not _same_oil(oil, entry.get('reference_oil')):
+            return False, f'reference oil in the calculation ({oil!r}) differs from the response record ({entry.get("reference_oil")!r})'
+        if entry.get('usable') is False:
+            return False, 'the response record is marked usable: false'
         if not entry.get('method'):
-            return False, 'test method not recorded (slide 4: a response without its method is not usable)'
-        return True, ''
+            return False, 'test method not recorded on the response (glossary: a response needs reference oil, dose and method)'
+        if vo.get('test_temperature_c') != 100:
+            return False, 'test temperature of ΔKV100 is not 100 °C'
+        if not _KV_UNITS.search(str(vo.get('unit') or '')):
+            return False, f'result unit {vo.get("unit")!r} is not a kinematic-viscosity unit'
+        if not _KV_UNITS.search(str(vo.get('printed_text') or '')):
+            return False, 'input viscosity unit as printed is not an established kinematic-viscosity unit'
+        ok, why = _result_matches(vo.get('value'), float(kv_d) - float(kv_0), float(res))
+        if not ok:
+            return False, why
+        return _inputs_on_page(vo, ctx, [kv_d, kv_0])
     return check
 
 
-def calc_shear_loss(entry):
-    def check(vo):
-        m = _SSI.search(str(vo.get('calculation_note') or ''))
+def index_kind(index_type):
+    """'viscosity_loss', 'ssi' or None, from the recorded index type wording ('no SSI printed' is not an SSI)."""
+    t = str(index_type or '').lower()
+    if re.search(r'viscosity\s+loss|% *loss', t):
+        return 'viscosity_loss'
+    if re.search(r'\bno\s+p?ssi\b', t):
+        return None
+    if re.search(r'\bp?ssi\b|shear\s+stability\s+index', t):
+        return 'ssi'
+    return None
+
+
+def calc_shear_index(entry):
+    """Shear stability: SSI = (V0 - Vs) / (V0 - Vb) x 100 (needs the base-oil viscosity Vb). A % viscosity loss,
+    (V0 - Vs) / V0 x 100, is a different index and does not satisfy an SSI/PSSI requirement."""
+    def check(vo, ctx):
+        idx = str(entry.get('index_type') or '').lower()
+        note = str(vo.get('calculation_note') or '')
+        if not idx:
+            return False, 'index type not recorded'
+        if index_kind(idx) != 'ssi':
+            return False, f'index type {entry.get("index_type")!r} is not SSI/PSSI, which the requirement names'
+        m = _SSI.search(note)
         if not m:
-            return False, 'calculation note does not state the inputs in a checkable form'
-        a, b, c, res = (float(x) for x in m.groups())
-        if a != c or abs((a - b) / a * 100 - res) > 0.006:
-            return False, 'arithmetic does not reproduce the recorded value'
-        if not entry.get('method') or not entry.get('cycle_count'):
+            return False, 'calculation note does not state SSI inputs as "(V0 - Vs) / (V0 - Vb) x 100 = r"'
+        v0, vs, v0b, vb, res = (float(x) for x in m.groups())
+        if v0b != v0:
+            return False, 'SSI formula inputs are inconsistent (V0 differs in numerator and denominator)'
+        if v0 - vb == 0:
+            return False, 'SSI denominator V0 - Vb is zero'
+        if not entry.get('method') or not finite(entry.get('cycle_count')):
             return False, 'method or cycle count not recorded'
-        if not entry.get('index_type'):
-            return False, 'index type (SSI/PSSI/viscosity loss) not recorded'
-        return True, ''
+        cyc = re.search(r'(\d+)\s*cycles', note)
+        if cyc and int(cyc.group(1)) != entry['cycle_count']:
+            return False, f'cycle count in the calculation ({cyc.group(1)}) differs from the record ({entry["cycle_count"]})'
+        ok, why = _result_matches(vo.get('value'), (v0 - vs) / (v0 - vb) * 100, res)
+        if not ok:
+            return False, why
+        return _inputs_on_page(vo, ctx, [m.group(1), m.group(2), m.group(4)])
+    return check
+
+
+def calc_viscosity_loss(entry):
+    """% viscosity loss = (V0 - Vs) / V0 x 100: reproducible on its own; used for reporting, it is not an SSI."""
+    def check(vo, ctx):
+        m = _LOSS.search(str(vo.get('calculation_note') or ''))
+        if not m:
+            return False, 'calculation note does not state "(V0 - Vs) / V0 x 100 = r"'
+        v0, vs, v0b, res = (float(x) for x in m.groups())
+        if v0 != v0b:
+            return False, 'formula inputs are inconsistent (V0 differs in numerator and denominator)'
+        if v0 == 0:
+            return False, 'denominator V0 is zero'
+        ok, why = _result_matches(vo.get('value'), (v0 - vs) / v0 * 100, res)
+        if not ok:
+            return False, why
+        return _inputs_on_page(vo, ctx, [m.group(1), m.group(2)])
     return check
 
 
 # ---------------------------------------------------------------- requirement sets
-def _any(entries, fn):
-    """At least one list entry satisfies fn; returns (ok, first reason, calculated)."""
-    reasons, calc = [], False
-    for e in entries or []:
-        ok, why, c = fn(e)
-        if ok:
-            return True, '', c
-        calc = calc or c
-        if why:
-            reasons.append(why)
-    return False, (reasons[0] if reasons else 'no entries recorded'), calc
+def _any(rid, entries, fn):
+    """At least one entry meets fn. Otherwise the most informative outcome: documented (bound, pending) before
+    defective (meta, calc, invalid) before unresolved applicability before absent."""
+    outs = [fn(e) for e in (entries or [])]
+    for o in outs:
+        if o.category in SATISFIED:
+            return o._replace(requirement=rid)
+    order = [BOUND, SEL, META, CALC, INVALID, APPL, ABSENT]
+    for cat in order:
+        hit = [o for o in outs if o.category == cat]
+        if hit:
+            return hit[0]._replace(requirement=rid)
+    return _o(rid, ABSENT, 'no entries recorded')
 
 
-def base_oil_requirements(files):
+def _sel(o, ctx, prop):
+    """A satisfied or documented requirement whose property is pending in Rule 1 becomes unresolved_source_selection."""
+    why = ctx.pending.get((ctx.product, prop))
+    if why and o.category in (MET, BOUND):
+        return o._replace(category=SEL, reason=f'source selection pending: {why}')
+    return o
+
+
+def base_oil_requirements(files, ctx=None):
+    ctx = ctx or Context()
     t1 = files.get(1)
     if t1 is None:
-        return [('base_oil.tier1', False, 'no Tier 1 record', False)]
+        return [_o('base_oil.tier1', ABSENT, 'no Tier 1 record')]
     f = t1.get('fields', {})
     agc = f.get('api_group_chemistry') or {}
-    out = []
-    for key in ('api_group', 'chemistry'):
-        ok, why, c = check_value(agc.get(key), f'api_group_chemistry.{key}', numeric=False)
-        out.append((f'api_group_chemistry.{key}', ok, why, c))
-    for key in ('kv40', 'kv100'):
-        ok, why, c = check_value(f.get(key), key, numeric=True)
-        out.append((key, ok, why, c))
-    ok, why, c = check_value(f.get('viscosity_index'), 'viscosity_index', numeric=True, need_unit=False)
-    out.append(('viscosity_index', ok, why, c))
-    ok, why, c = check_value(f.get('density'), 'density', numeric=True, need_temp=True)
-    out.append(('density', ok, why, c))
+    out = [check_value(agc.get(k), f'api_group_chemistry.{k}', ctx, numeric=False) for k in ('api_group', 'chemistry')]
+    for k in ('kv40', 'kv100'):
+        out.append(_sel(check_value(f.get(k), k, ctx, need_temp=False), ctx, k))
+    out.append(_sel(check_value(f.get('viscosity_index'), 'viscosity_index', ctx, need_unit=False), ctx, 'viscosity_index'))
+    out.append(_sel(check_value(f.get('density'), 'density', ctx, need_temp=True), ctx, 'density'))
     ccs = f.get('ccs')
-    ok, why, c = _any(ccs if isinstance(ccs, list) else [ccs] if ccs else [],
-                      lambda e: check_value(e, 'ccs', numeric=True, need_temp=True))
-    out.append(('ccs', ok, why if not ok else '', c))
+    ccs = ccs if isinstance(ccs, list) else [ccs] if ccs else []
+    out.append(_sel(_any('ccs', ccs, lambda e: check_value(e, 'ccs', ctx, need_temp=True)), ctx, 'ccs'))
     return out
 
 
-def additive_package_requirements(files):
+def additive_package_requirements(files, ctx=None):
+    ctx = ctx or Context()
     t1 = files.get(1)
     if t1 is None:
-        return [('additive_package.tier1', False, 'no Tier 1 record', False)]
+        return [_o('additive_package.tier1', ABSENT, 'no Tier 1 record')]
     f = t1.get('fields', {})
     pta = f.get('package_type_application') or {}
-    out = []
-    for key in ('package_type', 'intended_service'):
-        ok, why, c = check_value(pta.get(key), f'package_type_application.{key}', numeric=False)
-        out.append((f'package_type_application.{key}', ok, why, c))
+    out = [check_value(pta.get(k), f'package_type_application.{k}', ctx, numeric=False) for k in ('package_type', 'intended_service')]
 
-    def claim(e):
-        ok, why = _status_check(e, 'performance_claims')
-        if ok is not None:
-            return ok, why, False
-        if not e.get('designation'):
-            return False, 'performance_claims: entry without a designation', False
-        if not e.get('claim_type'):
-            return False, 'performance_claims: claim semantics (claim_type) not recorded', False
-        return (True, '', False) if traceable(e) else (False, 'performance_claims: no source file', False)
-    out.append(('performance_claims',) + _any(f.get('performance_claims'), claim))
+    def entry_check(rid, required):
+        def fn(e):
+            gate = _status(e, rid, allow_calc=False)
+            if gate:
+                return gate
+            for k in required:
+                if not (isinstance(e.get(k), str) and e[k].strip()):
+                    return _o(rid, INVALID if e.get(k) not in (None, '') else META, f'{k} not recorded')
+            why = _provenance(e)
+            return _o(rid, META, why) if why else _o(rid, MET)
+        return fn
+    out.append(_any('performance_claims', f.get('performance_claims'), entry_check('performance_claims', ('designation', 'claim_type'))))
+    out.append(_any('sae_grades_documented', f.get('sae_grades_documented'), entry_check('sae_grades_documented', ('sae_grade',))))
+    out.append(_any('treat_rate_matrix', f.get('treat_rate_matrix'), lambda e: check_value(
+        (e or {}).get('treat_rate_wt_pct'), 'treat_rate_matrix', ctx, mass_basis=True, path='treat_rate_matrix')))
+    for k in ('permitted_base_oils_restrictions', 'route_selector_restrictions'):
+        out.append(check_block(f.get(k), k))
 
-    def sae(e):
-        ok, why = _status_check(e, 'sae_grades_documented')
-        if ok is not None:
-            return ok, why, False
-        if not e.get('sae_grade'):
-            return False, 'sae_grades_documented: entry without a grade', False
-        return (True, '', False) if traceable(e) else (False, 'sae_grades_documented: no source file', False)
-    out.append(('sae_grades_documented',) + _any(f.get('sae_grades_documented'), sae))
-
-    out.append(('treat_rate_matrix',) + _any(f.get('treat_rate_matrix'), lambda e: check_value(
-        (e or {}).get('treat_rate_wt_pct'), 'treat_rate_matrix', numeric=True, unit_pattern=r'wt|mass')))
-    for key in ('permitted_base_oils_restrictions', 'route_selector_restrictions'):
-        out.append((key,) + check_block(f.get(key), key))
-
-    def coc(e):
-        if not isinstance(e, dict):
-            return False, 'required_co_components: no entry', False
-        if not (e.get('name') or e.get('role')):
-            return False, 'required_co_components: entry without a name or role', False
-        good, why2, c = check_value(e.get('dose_wt_pct'), 'required_co_components.dose_wt_pct', numeric=True, unit_pattern=r'wt|mass')
-        return good, why2, c
-    out.append(('required_co_components',) + _any(f.get('required_co_components'), coc))
+    entries = [e for e in f.get('required_co_components') or [] if isinstance(e, dict) and (e.get('name') or e.get('role'))
+               and (e.get('dose_wt_pct') or {}).get('status') not in (None, 'Missing')]
+    stmt = f.get('co_component_requirement_statement')
+    if entries:
+        out.append(_any('required_co_components', entries, lambda e: check_value(
+            e.get('dose_wt_pct'), 'required_co_components', ctx, mass_basis=True, path='required_co_components')))
+    elif isinstance(stmt, dict) and stmt.get('status') in OK_STATUS:
+        out.append(check_value(stmt, 'required_co_components', ctx, numeric=False))
+    else:
+        out.append(_o('required_co_components', APPL, 'architecture not established: no reported co-component and no sourced '
+                      'statement that none is required (I-8)'))
 
     def formulation(e):
-        ok, why = _status_check(e, 'published_formulations')
-        if ok is not None:
-            return ok, why, False
-        ing = [i for i in e.get('ingredients') or [] if i.get('name') and _num(i.get('wt_pct'))]
+        gate = _status(e, 'published_formulations', allow_calc=False)
+        if gate:
+            return gate
+        ing = e.get('ingredients') or []
         if not ing:
-            return False, 'published_formulations: no ingredients with wt.%', False
-        total = round(sum(i['wt_pct'] for i in ing), 4)
+            return _o('published_formulations', INVALID, 'no ingredients recorded')
+        for i in ing:
+            w = (i or {}).get('wt_pct')
+            if not (i or {}).get('name') or not finite(w) or w < 0:
+                return _o('published_formulations', INVALID, f'ingredient {i!r} lacks a name or a finite, non-negative wt.%')
+        total = sum(i['wt_pct'] for i in ing)
         if abs(total - 100.0) > 0.005:
-            return False, f'published_formulations: ingredients sum to {total} wt.%, not 100.00', False
-        return (True, '', False) if traceable(e) else (False, 'published_formulations: no source file', False)
-    out.append(('published_formulations',) + _any(f.get('published_formulations'), formulation))
+            return _o('published_formulations', INVALID, f'ingredients sum to {round(total, 4)} wt.%, not 100.00')
+        if e.get('total_wt_pct') is not None and (not finite(e['total_wt_pct']) or abs(e['total_wt_pct'] - total) > 0.005):
+            return _o('published_formulations', INVALID, f'recorded total {e.get("total_wt_pct")!r} differs from the sum {round(total, 4)}')
+        res = [check_value((r or {}).get('result'), 'published_formulations.result', ctx) for r in e.get('results') or []]
+        if not any(r.category == MET for r in res):
+            return _o('published_formulations', ABSENT if not res else res[0].category, 'no measured result recorded for the formulation')
+        why = _provenance(e)
+        return _o('published_formulations', META, why) if why else _o('published_formulations', MET)
+    out.append(_any('published_formulations', f.get('published_formulations'), formulation))
     return out
 
 
@@ -315,34 +584,39 @@ def component_function(general, files):
         kinds.add('vm')
     if _PPD.search(text) or 'ppd' in files:
         kinds.add('ppd')
-    if _DETERGENT.search(text):
-        kinds.add('detergent')
-    if _ZDDP.search(text):
-        kinds.add('zddp')
-    if _MOLY.search(text):
-        kinds.add('moly')
-    known = isinstance(prim, dict) and prim.get('status') in OK_STATUS and has_text(prim)
+    for name, rx in (('detergent', _DETERGENT), ('zddp', _ZDDP), ('moly', _MOLY)):
+        if rx.search(text):
+            kinds.add(name)
+    known = isinstance(prim, dict) and prim.get('status') in OK_STATUS and isinstance(prim.get('value'), str) and prim['value'].strip() != ''
     return kinds, known
 
 
-def additive_component_requirements(files):
+def _active_basis(o, vo):
+    """Glossary: active content "wt.% with basis". Met only if the record names the basis."""
+    if o.category != MET:
+        return o
+    text = ' '.join(str(vo.get(k) or '') for k in ('notes', 'calculation_note', 'printed_text', 'basis'))
+    if not re.search(r'basis|as supplied|share|of (the )?product|section 3', text, re.I):
+        return o._replace(category=META, reason='basis of the active content not stated (glossary: "wt.% with basis")')
+    return o
+
+
+def additive_component_requirements(files, ctx=None):
+    ctx = ctx or Context()
     g = files.get('general')
     if g is None:
-        return [('general', False, 'no general block record', False)]
+        return [_o('general', ABSENT, 'no general block record')]
     f = g.get('fields', {})
-    out = []
-    fn = f.get('function') or {}
-    out.append(('function.primary',) + check_value(fn.get('primary'), 'function.primary', numeric=False))
-    out.append(('chemical_family',) + check_value(f.get('chemical_family'), 'chemical_family', numeric=False))
-    out.append(('active_content',) + check_value(f.get('active_content'), 'active_content', numeric=True))
-    carrier = f.get('carrier') or {}
-    out.append(('carrier.identity',) + check_value(carrier.get('identity'), 'carrier.identity', numeric=False))
-    out.append(('treat_rate',) + check_value(f.get('treat_rate'), 'treat_rate', numeric=True, unit_pattern=r'wt|mass'))
-    out.append(('compatibility_restrictions',) + check_block(f.get('compatibility_restrictions'), 'compatibility_restrictions'))
+    out = [check_value((f.get('function') or {}).get('primary'), 'function.primary', ctx, numeric=False),
+           check_value(f.get('chemical_family'), 'chemical_family', ctx, numeric=False),
+           _active_basis(check_value(f.get('active_content'), 'active_content', ctx), f.get('active_content') or {}),
+           check_value((f.get('carrier') or {}).get('identity'), 'carrier.identity', ctx, numeric=False),
+           check_value(f.get('treat_rate'), 'treat_rate', ctx, mass_basis=True, path='treat_rate'),
+           check_block(f.get('compatibility_restrictions'), 'compatibility_restrictions')]
     kinds, known = component_function(g, files)
     m = f.get('function_specific_markers') or {}
     if not known:
-        out.append(('function_specific_markers', False, 'function_specific_markers: applicability cannot be established because the primary function is missing', False))
+        out.append(_o('function_specific_markers', APPL, 'applicability cannot be established: the primary function is not recorded'))
     else:
         need = []
         if 'detergent' in kinds:
@@ -352,83 +626,108 @@ def additive_component_requirements(files):
         if 'moly' in kinds:
             need.append(('mo',))
         if not need:
-            out.append(('function_specific_markers', True, 'not applicable: no marker defined for this function (rule CG-6-APPL, I-4)', False))
+            out.append(_o('function_specific_markers', APPL, 'the slide names markers only for detergents, ZDDP and molybdenum '
+                          'compounds; whether this function needs one is not stated (I-4)'))
         for alts in need:
-            res = [check_value(m.get(k), f'function_specific_markers.{k}', numeric=True) for k in alts]
-            hit = [r for r in res if r[0]]
-            out.append((f'function_specific_markers.{"|".join(alts)}', bool(hit), '' if hit else res[0][1], any(r[2] for r in hit or res)))
+            rid = f'function_specific_markers.{"|".join(alts)}'
+            out.append(_any(rid, [m.get(k) for k in alts], lambda vo: check_value(vo, rid, ctx)))
     if 'vm' in kinds:
-        out += vm_requirements(files.get('vm'))
+        out += [o._replace(blocking=False) for o in vm_requirements(files.get('vm'), ctx)]
     if 'ppd' in kinds:
-        out += ppd_requirements(files.get('ppd'))
+        out += [o._replace(blocking=False) for o in ppd_requirements(files.get('ppd'), ctx)]
     return out
 
 
-def _response(entries, label, vo_key, calc_factory, extra=()):
+def _response(rid, entries, vo_key, calc_factory, ctx, extra=()):
     def one(e):
         e = e or {}
         vo = e.get(vo_key)
+        gate = _status(vo, rid, allow_calc=True)
+        if gate:
+            return gate
         for k in ('reference_oil', 'dose_wt_pct', 'method') + tuple(extra):
             if e.get(k) in (None, ''):
-                ok, why = _status_check(vo, label)
-                if ok is False:
-                    return False, why, False
-                return False, f'{label}: {k} not recorded (I-7)', (vo or {}).get('status') == 'Calculated'
-        return check_value(vo, label, numeric=True, calc_check=calc_factory(e) if calc_factory else None)
-    return _any(entries, one)
+                return _o(rid, META if vo.get('status') != 'Calculated' else CALC, f'{k} not recorded on the response (I-7)',
+                          vo.get('status') == 'Calculated')
+        if not finite(e.get('dose_wt_pct')):
+            return _o(rid, INVALID, f'dose {e.get("dose_wt_pct")!r} is not a finite number')
+        if e.get('usable') is False:
+            return _o(rid, META, 'the response record is marked usable: false', vo.get('status') == 'Calculated')
+        return check_value(vo, rid, ctx, calc=calc_factory(e) if calc_factory else None)
+    return _any(rid, entries, one)
 
 
-def vm_requirements(vm):
+def vm_requirements(vm, ctx=None):
+    ctx = ctx or Context()
     if vm is None:
-        return [('vm', False, 'viscosity modifier: no vm.json subtype record (I-5)', False)]
+        return [_o('vm', ABSENT, 'viscosity modifier: no vm.json subtype record')]
     f = vm.get('fields', {})
     out = []
     pc = f.get('polymer_chemistry') or {}
-    ok, why = _status_check(pc, 'vm.polymer_chemistry')
-    if ok is None:
-        ok, why = (bool(pc.get('type')) and bool(pc.get('form'))), 'vm.polymer_chemistry: type or form not recorded'
-        ok = ok and traceable(pc)
-        why = '' if ok else why
-    out.append(('vm.polymer_chemistry', ok, why, False))
+    gate = _status(pc, 'vm.polymer_chemistry', allow_calc=False)
+    if gate:
+        out.append(gate)
+    elif not (pc.get('type') and pc.get('form')):
+        out.append(_o('vm.polymer_chemistry', ABSENT, 'type or form not recorded'))
+    else:
+        why = _provenance(pc)
+        out.append(_o('vm.polymer_chemistry', META, why) if why else _o('vm.polymer_chemistry', MET))
     ap = f.get('active_polymer') or {}
-    out.append(('vm.active_polymer.wt_pct',) + check_value(ap.get('wt_pct'), 'vm.active_polymer.wt_pct', numeric=True))
+    out.append(check_value(ap.get('wt_pct'), 'vm.active_polymer.wt_pct', ctx))
     ci = ap.get('carrier_identity')
-    out.append(('vm.active_polymer.carrier_identity', bool(ci), '' if ci else 'vm.active_polymer.carrier_identity: not recorded', False))
-    out.append(('vm.treat_range_by_sae_grade',) + _any(f.get('treat_range_by_sae_grade'), lambda e: check_value(
-        (e or {}).get('treat_range_wt_pct'), 'vm.treat_range_by_sae_grade', numeric=True, unit_pattern=r'wt|mass')))
-    out.append(('vm.thickening_response',) + _response(f.get('thickening_response'), 'vm.thickening_response', 'delta_kv100_cst', calc_delta_kv100))
+    out.append(_o('vm.active_polymer.carrier_identity', MET if ci else ABSENT, '' if ci else 'not recorded'))
+    out.append(_any('vm.treat_range_by_sae_grade', f.get('treat_range_by_sae_grade'), lambda e: check_value(
+        (e or {}).get('treat_range_wt_pct'), 'vm.treat_range_by_sae_grade', ctx, mass_basis=True, path='treat_range_by_sae_grade')))
+    out.append(_response('vm.thickening_response', f.get('thickening_response'), 'delta_kv100_cst', calc_delta_kv100, ctx))
+
     def ssi(e):
         e = e or {}
-        return check_value(e.get('value'), 'vm.shear_stability', numeric=True, need_unit=False, calc_check=calc_shear_loss(e)) \
-            if e.get('method') and e.get('cycle_count') else (False, 'vm.shear_stability: method or cycle count not recorded (I-7)',
-                                                                (e.get('value') or {}).get('status') == 'Calculated')
-    out.append(('vm.shear_stability',) + _any(f.get('shear_stability'), ssi))
+        vo = e.get('value')
+        gate = _status(vo, 'vm.shear_stability', allow_calc=True)
+        if gate:
+            return gate
+        if e.get('usable') is False:
+            return _o('vm.shear_stability', META, 'the record is marked usable: false', vo.get('status') == 'Calculated')
+        if not e.get('method') or not finite(e.get('cycle_count')):
+            return _o('vm.shear_stability', CALC if vo.get('status') == 'Calculated' else META, 'method or cycle count not recorded',
+                      vo.get('status') == 'Calculated')
+        if index_kind(e.get('index_type')) != 'ssi':
+            return _o('vm.shear_stability', CALC if vo.get('status') == 'Calculated' else META,
+                      f'index type {e.get("index_type")!r} is not SSI/PSSI, which the requirement names', vo.get('status') == 'Calculated')
+        return check_value(vo, 'vm.shear_stability', ctx, need_unit=False, calc=calc_shear_index(e))
+    out.append(_any('vm.shear_stability', f.get('shear_stability'), ssi))
     psb = f.get('post_shear_blend_behaviour') or {}
     for key, vok in (('post_shear_kv100', 'kv100'), ('hths_150c', 'hths'), ('ccs_impact', 'ccs'), ('mrv_impact', 'mrv'), ('low_temp_gelation', 'gelation')):
-        e = psb.get(key) or {}
-        out.append((f'vm.post_shear_blend_behaviour.{key}',) + _response([e], f'vm.post_shear_blend_behaviour.{key}', vok, None))
+        out.append(_response(f'vm.post_shear_blend_behaviour.{key}', [psb.get(key) or {}], vok, None, ctx))
     dbt = f.get('dissolution_blend_temperature') or {}
-    out.append(('vm.dissolution_blend_temperature',) + check_value(dbt.get('temperature_c'), 'vm.dissolution_blend_temperature', numeric=True))
+    out.append(check_value(dbt.get('temperature_c'), 'vm.dissolution_blend_temperature', ctx))
     return out
 
 
-def ppd_requirements(ppd):
+def ppd_requirements(ppd, ctx=None):
+    ctx = ctx or Context()
     if ppd is None:
-        return [('ppd', False, 'pour point depressant: no ppd.json subtype record (I-5)', False)]
+        return [_o('ppd', ABSENT, 'pour point depressant: no ppd.json subtype record')]
     f = ppd.get('fields', {})
-    out = [('ppd.chemistry',) + check_value(f.get('chemistry'), 'ppd.chemistry', numeric=False),
-           ('ppd.active_content',) + check_value(f.get('active_content'), 'ppd.active_content', numeric=True),
-           ('ppd.carrier.identity',) + check_value((f.get('carrier') or {}).get('identity'), 'ppd.carrier.identity', numeric=False),
-           ('ppd.tested_dose_range_wt_pct',) + check_value(f.get('tested_dose_range_wt_pct'), 'ppd.tested_dose_range_wt_pct', numeric=True),
-           ('ppd.pour_point_response',) + _response(f.get('pour_point_response'), 'ppd.pour_point_response', 'pour_point_change_c', None)]
+    out = [check_value(f.get('chemistry'), 'ppd.chemistry', ctx, numeric=False),
+           check_value(f.get('active_content'), 'ppd.active_content', ctx),
+           check_value((f.get('carrier') or {}).get('identity'), 'ppd.carrier.identity', ctx, numeric=False),
+           check_value(f.get('tested_dose_range_wt_pct'), 'ppd.tested_dose_range_wt_pct', ctx, mass_basis=True, path='tested_dose_range_wt_pct'),
+           _response('ppd.pour_point_response', f.get('pour_point_response'), 'pour_point_change_c', None, ctx)]
     for key in ('mrv', 'yield_stress', 'ccs'):
-        out.append((f'ppd.low_temp_response.{key}',) + _response(f.get('low_temp_response'), f'ppd.low_temp_response.{key}', key, None, extra=('test_temperature_c',)))
-    out.append(('ppd.compatibility_envelope',) + check_block(f.get('compatibility_envelope'), 'ppd.compatibility_envelope'))
+        out.append(_response(f'ppd.low_temp_response.{key}', f.get('low_temp_response'), key, None, ctx, extra=('test_temperature_c',)))
+    out.append(check_block(f.get('compatibility_envelope'), 'ppd.compatibility_envelope'))
     ap = f.get('addition_procedure') or {}
-    out.append(('ppd.addition_procedure', bool(ap.get('procedure')), '' if ap.get('procedure') else 'ppd.addition_procedure: procedure not recorded', False))
-    out.append(('ppd.addition_procedure.blend_temperature_c',) + check_value(ap.get('blend_temperature_c'), 'ppd.addition_procedure.blend_temperature_c', numeric=True))
+    out.append(_o('ppd.addition_procedure', MET if ap.get('procedure') else ABSENT, '' if ap.get('procedure') else 'procedure not recorded'))
+    out.append(check_value(ap.get('blend_temperature_c'), 'ppd.addition_procedure.blend_temperature_c', ctx))
     return out
 
 
 CHECKERS = {'base_oil': base_oil_requirements, 'additive_package': additive_package_requirements,
             'additive_component': additive_component_requirements}
+
+
+def summarize(outcomes):
+    """(tier1_complete, formulation_eligible) from blocking outcomes."""
+    blocking = [o for o in outcomes if o.blocking]
+    return all(o.category in DOCUMENTED for o in blocking), all(o.category in SATISFIED for o in blocking)

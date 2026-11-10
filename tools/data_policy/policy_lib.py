@@ -35,7 +35,8 @@ def product_files():
 
 
 def load(relpath):
-    return json.load(open(lp(os.path.join(ROOT, relpath)), encoding='utf-8'))
+    with open(lp(os.path.join(ROOT, relpath)), encoding='utf-8') as fh:
+        return json.load(fh)
 
 
 def load_products():

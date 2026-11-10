@@ -1,0 +1,53 @@
+# run 2026-11-10, worktree /c/Users/windo/sf-wsA, HEAD f9529a2 + working changes
+## source_selection (dry run)
+30 declared selections; 30 already in the data; 0 to apply; files to write (selections, notes, open questions, product blocks): 0
+exit 0
+## document_classes
+cited (file, page) pairs: 506 {'TECHNICAL': 248, 'SDS': 223, 'EXTERNAL': 35}
+subclasses: {('TECHNICAL', 'specification'): 19, ('SDS', 'sds'): 223, ('TECHNICAL', 'tds'): 157, ('TECHNICAL', 'bulletin'): 67, ('TECHNICAL', 'catalog'): 5, ('EXTERNAL', ''): 35}
+exit 0
+## tds_sds_inventory
+TDS-SDS comparisons: 67
+  viscosity: 17  {'bound check only': 2, 'comparable': 13, 'comparability unknown': 2}
+  density: 27  {'comparability unknown': 18, 'comparable': 7, 'not comparable: condition': 1, 'bound check only': 1}
+  flash point: 19  {'bound check only': 13, 'comparable': 6}
+  pour point: 1  {'bound check only': 1}
+  volatility: 1  {'comparable': 1}
+  TBN: 2  {'comparable': 2}
+exit 0
+## source_coverage_ledger
+ledger rows: 2175 (259 products)
+  technical_selected: 1385  (mandatory: 569)
+  missing_no_label: 463  (mandatory: 186)
+  missing_label_found: 165  (mandatory: 89)
+  missing_not_searchable: 61  (mandatory: 27)
+  sds_fallback_no_tech_label: 46  (mandatory: 6)
+  pending: 26  (mandatory: 11)
+  external_selected: 22  (mandatory: 14)
+  sds_fallback_reviewed: 5  (mandatory: 2)
+  exception: 2  (mandatory: 1)
+comparison:
+  not possible: 1980
+  gap: 137
+  comparable: 22
+  comparability unknown: 18
+  bound check only: 17
+  not comparable: 1
+exit 0
+## build_eligibility
+products: 264; snapshot 63537ed984b2402f264bb9b5975187492962e1d8513bb1f1bfdb9fc35911bf38
+  base_oil: tier1_complete 11, eligible 10, of 181
+  additive_package: tier1_complete 0, eligible 0, of 78
+  additive_component: tier1_complete 0, eligible 0, of 5
+exit 0
+## build_eligibility --check
+up to date
+exit 0
+## integrate_products (dry run, summary)
+DRY RUN (nothing written): files 706, would change 229, annotations applied 10/10, conflict rules used 16/16, other annotated conflicts kept 34
+exit 0
+## integration_diff --changed
+6 differences in 2 files
+## coverage matrix
+OUTPUT C:\Users\windo\sf-wsA\Coverage_Matrix.xlsx products 264 json 706 issues 30 classes {'additive_component': 5, 'additive_package': 78, 'base_oil': 181} status {'Reported': 3672, 'Missing': 2453, 'Not Applicable': 7, 'Calculated': 36, 'Not Required': 11}
+exit 0

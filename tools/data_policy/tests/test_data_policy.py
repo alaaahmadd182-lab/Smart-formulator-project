@@ -13,7 +13,7 @@ They prove that:
 
 Run: python -m unittest discover -s tools/data_policy/tests -v
 """
-import copy, csv, hashlib, importlib, io, json, os, subprocess, sys, unittest
+import collections, copy, csv, hashlib, importlib, io, json, os, subprocess, sys, unittest
 from contextlib import redirect_stdout
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -75,6 +75,7 @@ class SourceSelection(unittest.TestCase):
 
     def test_no_undeclared_sds_selection_with_technical_alternate(self):
         declared = {(p, f.strip()) for p, fs, _ in self.S.EXCEPTIONS + self.S.PENDING for f in fs.split(',')}
+        declared |= {(p, f) for p, f, _ in self.S.PENDING_FIELDS + self.S.SDS_FALLBACK_FIELDS}
         for pid, p in self.prods.items():
             for rel, d in p['files'].items():
                 for path, n in P.value_objects(d.get('fields', {})):
@@ -86,6 +87,16 @@ class SourceSelection(unittest.TestCase):
                         with self.subTest(product=pid, path=path):
                             self.assertIn((pid, path.split('.')[-1]), declared,
                                           'SDS value selected although a technical alternate exists, with no recorded exception')
+
+    def test_technical_range_selected_without_conversion(self):
+        for pid in ('FORMOSA_150N_GII_PLUS', 'FORMOSA_500N_GII'):
+            n = next(d for d in self.prods[pid]['files'].values() if d.get('tier') == 1)['fields']['kv100']
+            self.assertIsNone(n['value'], 'a specification range must not be converted to a single value')
+            self.assertEqual(n['value_kind'], 'range')
+            self.assertEqual(_cls(self.classes, n['source']), 'TECHNICAL')
+            alt = n['alternate_entries'][-1]
+            self.assertEqual(_cls(self.classes, alt['source']), 'SDS')
+            self.assertIsNone(alt['min'], 'the SDS alternate must not carry the specification range')
 
     def test_exception_keeps_sds_value(self):
         n = _node(next(d for d in self.prods['PETRONAS_ETRO_6_PLUS']['files'].values() if d.get('tier') == 1), 'density')
@@ -129,10 +140,11 @@ class ComparisonRules(unittest.TestCase):
         self.assertEqual(r['comparability'], 'bound check only')
         self.assertEqual(r['bound_satisfied'], 'true')
         self.assertNotIn('abs_diff', r)
-        self.assertEqual(TH.screen('flash_point', r['comparability'], None, None, 'true', ''), 'ordinary: bound satisfied')
+        self.assertEqual(TH.screen('flash_point', r['comparability'], None, None, 'true', ''), TH.BOUND_OK)
+        self.assertIn('not evidence of agreement', TH.BOUND_OK)
 
     def test_point_outside_bound_retained(self):
-        self.assertEqual(TH.screen('flash_point', 'bound check only', None, None, 'false', ''), 'retain for review: outside bound')
+        self.assertEqual(TH.screen('flash_point', 'bound check only', None, None, 'false', ''), TH.BOUND_BAD)
 
     def test_label_unit_inconsistency_pending(self):
         r = INV.compare('kv100', {'value': 185, 'unit': 'mm2/s', 'printed_text': 'Kinematic Viscosity (100℃), mm2/s 185'},
@@ -144,114 +156,34 @@ class ComparisonRules(unittest.TestCase):
         self.assertTrue(r['comparability'].startswith('not comparable'))
 
     def test_property_specific_thresholds(self):
-        self.assertEqual(TH.screen('kv100', 'comparable', 1.5, 2.0, '', 'false'), 'ordinary: within screening threshold')
-        self.assertEqual(TH.screen('kv100', 'comparable', 6.25, 10.0, '', 'false'), 'retain for review: exceeds screening threshold')
-        self.assertEqual(TH.screen('flash_point', 'comparable', 10.07, 28.0, '', 'false'), 'retain for review: exceeds screening threshold')
-        self.assertEqual(TH.screen('flash_point', 'comparable', 3.1, 7.0, '', 'false'), 'ordinary: within screening threshold')
+        self.assertEqual(TH.screen('kv100', 'comparable', 1.5, 2.0, '', 'false'), TH.BELOW)
+        self.assertEqual(TH.screen('kv100', 'comparable', 6.25, 10.0, '', 'false'), TH.ABOVE)
+        self.assertEqual(TH.screen('kv100', 'comparable', 3.0, 3.0, '', 'false'), TH.ABOVE, 'at the threshold is retained for review')
+        self.assertEqual(TH.screen('flash_point', 'comparable', 10.07, 28.0, '', 'false'), TH.ABOVE)
+        self.assertEqual(TH.screen('flash_point', 'comparable', 3.1, 7.0, '', 'false'), TH.BELOW)
+        self.assertEqual(TH.screen('kv100', 'comparable', 1.5, 2.0, '', 'true'), TH.ROUNDING)
+        self.assertNotIn('ordinary', ' '.join([TH.BELOW, TH.ABOVE, TH.BOUND_OK, TH.BOUND_BAD]))
+        self.assertTrue(all(r['basis'].startswith(('empirical', 'no threshold')) for r in TH.RULES.values()))
+        self.assertEqual(TH.screen('kv100', 'comparable', 4.0, 0.2, '', 'false', threshold=5.0), TH.BELOW)
         self.assertEqual(TH.screen('tbn', 'comparable', 1.85, 2.0, '', 'false'), 'pending: no threshold proposed')
 
     def test_zero_tds_value_uses_no_relative_difference(self):
         r = INV.compare('pour_point', {'value': 0, 'unit': '°C'}, {'value': -3, 'unit': '°C'})
         self.assertEqual(r['comparability'], 'comparable')
         self.assertIsNone(r['rel_diff_pct'])
+        # absolute rule only: |0 - (-3)| = 3 °C is at the proposed threshold, so it is retained for review
         self.assertEqual(TH.screen('pour_point', 'comparable', r['rel_diff_pct'], r['abs_diff'], '', r['within_rounding']),
-                         'ordinary: within screening threshold')
+                         TH.ABOVE)
+        r = INV.compare('pour_point', {'value': 0, 'unit': '°C'}, {'value': 0, 'unit': '°C'})
+        self.assertEqual(TH.screen('pour_point', 'comparable', r['rel_diff_pct'], r['abs_diff'], '', r['within_rounding']),
+                         TH.ROUNDING)
 
     def test_thresholds_not_approved_yet(self):
         self.assertEqual(TH.APPROVAL, 'proposed')
 
 
-def _vo(value=None, status='Reported', unit='cSt', temp=None, **kw):
-    d = dict(value=value, qualifier=None, min=None, max=None, value_kind=None, printed_text=str(value), unit=unit,
-             test_temperature_c=temp, method=None, status=status, calculation_note=None,
-             source={'file': 'DL2-00000.pdf', 'page': 1, 'revision_date': None})
-    d.update(kw)
-    return d
-
-
-def _base_oil(**over):
-    f = dict(api_group_chemistry=dict(api_group=_vo('Group III', unit=None), chemistry=_vo('hydrocracked', unit=None)),
-             kv40=_vo(19.6, temp=40), kv100=_vo(4.2, temp=100), viscosity_index=_vo(125, unit=None),
-             density=_vo(835, unit='kg/m3', temp=15), specific_gravity=_vo(None, status='Missing', unit=None),
-             ccs=[_vo(1200, unit='mPa.s', temp=-30)])
-    f.update(over)
-    return {1: dict(material_class='base_oil', tier=1, fields=f, conflicts=[])}
-
-
-def _ok(checks):
-    return [rid for rid, ok, why, calc in checks if not ok]
-
-
-class MandatoryRules(unittest.TestCase):
-    def test_complete_base_oil_eligible_and_optional_sg_ignored(self):
-        self.assertEqual(_ok(REQ.base_oil_requirements(_base_oil())), [])
-
-    def test_nested_ccs_list_requires_temperature(self):
-        self.assertEqual(_ok(REQ.base_oil_requirements(_base_oil(ccs=[_vo(1200, unit='mPa.s', temp=None)]))), ['ccs'])
-        self.assertEqual(_ok(REQ.base_oil_requirements(_base_oil(ccs=[]))), ['ccs'])
-        two = [_vo(None, status='Missing', unit='mPa.s', temp=-25), _vo(3000, unit='mPa.s', temp=-20)]
-        self.assertEqual(_ok(REQ.base_oil_requirements(_base_oil(ccs=two))), [])
-
-    def test_nested_api_group_and_chemistry_both_required(self):
-        agc = dict(api_group=_vo('Group II', unit=None), chemistry=_vo(None, status='Missing', unit=None))
-        self.assertEqual(_ok(REQ.base_oil_requirements(_base_oil(api_group_chemistry=agc))), ['api_group_chemistry.chemistry'])
-
-    def test_density_needs_reference_temperature(self):
-        self.assertEqual(_ok(REQ.base_oil_requirements(_base_oil(density=_vo(835, unit='kg/m3', temp=None)))), ['density'])
-
-    def test_specific_gravity_never_substitutes_density(self):
-        b = _base_oil(density=_vo(None, status='Missing', unit='kg/m3', temp=15), specific_gravity=_vo(0.835, unit=None, temp=15.6))
-        self.assertEqual(_ok(REQ.base_oil_requirements(b)), ['density'])
-
-    def test_zero_is_a_valid_value(self):
-        ok, why = REQ.has_number(_vo(0))
-        self.assertTrue(ok, why)
-        g = {'general': dict(fields=dict(
-            function=dict(primary=_vo('Antiwear (ZDDP)', unit=None)), chemical_family=_vo('zinc dialkyldithiophosphate', unit=None),
-            active_content=_vo(80, unit='wt.%'), carrier=dict(identity=_vo('mineral oil', unit=None)), treat_rate=_vo(1.0, unit='wt.%'),
-            compatibility_restrictions=dict(base_oil_groups=['Group II'], status='Reported', source={'file': 'DL2-00000.pdf', 'page': 1}),
-            function_specific_markers=dict(p=_vo(0, unit='wt.%'), zn=_vo(9.0, unit='wt.%'))))}
-        self.assertEqual(_ok(REQ.additive_component_requirements(g)), [])
-
-    def test_one_sided_bound_does_not_satisfy(self):
-        self.assertEqual(_ok(REQ.base_oil_requirements(_base_oil(viscosity_index=_vo(121, unit=None, qualifier='minimum', value_kind='minimum')))),
-                         ['viscosity_index'])
-        self.assertEqual(_ok(REQ.base_oil_requirements(_base_oil(kv100=_vo([4.0, 4.4], temp=100)))), [])
-
-    def test_not_required_label_without_approved_rule_blocks(self):
-        b = _base_oil(ccs=[_vo(None, status='Not Required', unit='mPa.s')])
-        res = REQ.base_oil_requirements(b)
-        self.assertEqual(_ok(res), ['ccs'])
-        self.assertIn('without an approved applicability rule', [w for r, ok, w, c in res if r == 'ccs'][0])
-
-    def test_calculated_without_registered_check_rejected(self):
-        res = REQ.base_oil_requirements(_base_oil(viscosity_index=_vo(125, unit=None, status='Calculated', calculation_note='from KV40/KV100')))
-        self.assertEqual(_ok(res), ['viscosity_index'])
-        self.assertTrue([c for r, ok, w, c in res if r == 'viscosity_index'][0])
-
-    def test_calculated_response_checked_for_inputs_arithmetic_and_method(self):
-        note = 'ΔKV100 = KV100 at 1% (5.77) - KV100 at 0% (5.23) in 150N = 0.54.'
-        e = dict(reference_oil='150N', dose_wt_pct=1, method='ASTM D445',
-                 delta_kv100_cst=_vo(0.54, status='Calculated', calculation_note=note))
-        self.assertTrue(REQ.check_value(e['delta_kv100_cst'], 'x', calc_check=REQ.calc_delta_kv100(e))[0])
-        bad = copy.deepcopy(e); bad['delta_kv100_cst']['value'] = 0.60
-        self.assertFalse(REQ.check_value(bad['delta_kv100_cst'], 'x', calc_check=REQ.calc_delta_kv100(bad))[0])
-        nometh = copy.deepcopy(e); nometh['method'] = None
-        self.assertFalse(REQ.check_value(nometh['delta_kv100_cst'], 'x', calc_check=REQ.calc_delta_kv100(nometh))[0])
-
-    def test_package_without_published_formulation_ineligible(self):
-        rows, _, _, _ = BE.build()
-        pk = [r for r in rows if r['material_class'] == 'additive_package']
-        self.assertTrue(pk)
-        self.assertTrue(all('published_formulations' in r['missing_mandatory_properties'] and not r['formulation_eligible'] for r in pk))
-
-    def test_vm_component_needs_subtype_block(self):
-        rows, _, _, _ = BE.build()
-        rf = next(r for r in rows if r['product_id'] == 'RF6602')
-        self.assertFalse(rf['formulation_eligible'])
-        self.assertTrue(any(m.startswith('vm.') for m in rf['missing_mandatory_properties']))
-        cv = next(r for r in rows if r['product_id'] == 'LUBRIZOL_CV6320')  # non-VM: embedded VM fields are ignored
-        self.assertFalse(any(m.startswith('vm.') for m in cv['missing_mandatory_properties']))
+# The mandatory-requirement rules (valid and invalid inputs, categories, calculations) are tested in
+# tools/mandatory_properties/tests/test_requirements.py.
 
 
 class Outputs(unittest.TestCase):
@@ -269,6 +201,12 @@ class Outputs(unittest.TestCase):
     def test_exact_columns(self):
         self.assertEqual(self.text.splitlines()[0].split(','), BE.COLUMNS)
 
+    def test_package_without_published_formulation_ineligible(self):
+        pk = [r for r in self.rows if r['material_class'] == 'additive_package']
+        self.assertTrue(pk)
+        self.assertTrue(all('published_formulations' in json.loads(r['missing_mandatory_properties'])
+                            and r['formulation_eligible'] == 'false' for r in pk))
+
     def test_one_row_per_product_and_formats(self):
         ids = [r['product_id'] for r in self.rows]
         self.assertEqual(len(ids), len(set(ids)))
@@ -280,6 +218,8 @@ class Outputs(unittest.TestCase):
             for k in ('missing_mandatory_properties', 'eligibility_reasons', 'calculated_mandatory_properties'):
                 self.assertIsInstance(json.loads(r[k]), list)
             self.assertEqual(r['formulation_eligible'] == 'true', json.loads(r['missing_mandatory_properties']) == [])
+            if r['formulation_eligible'] == 'true':
+                self.assertEqual(r['tier1_complete'], 'true', 'eligible implies Tier 1 complete')
             if r['formulation_eligible'] == 'false':
                 self.assertTrue(json.loads(r['eligibility_reasons']), 'ineligible product without a reason')
 
@@ -302,11 +242,22 @@ class Outputs(unittest.TestCase):
             md = fh.read()
         for cls in ('base_oil', 'additive_package', 'additive_component'):
             n = sum(1 for r in self.rows if r['material_class'] == cls)
+            c = sum(1 for r in self.rows if r['material_class'] == cls and r['tier1_complete'] == 'true')
             e = sum(1 for r in self.rows if r['material_class'] == cls and r['formulation_eligible'] == 'true')
-            self.assertIn(f'| {cls} | {n} | {e} | {n - e} |', md)
+            self.assertIn(f'| {cls} | {n} | {c} | {e} |', md)
+        with open(os.path.join(self.path, 'requirement_outcomes.csv'), encoding='utf-8') as fh:
+            outcomes = list(csv.DictReader(fh))
         with open(os.path.join(self.path, 'missing_mandatory_properties.csv'), encoding='utf-8') as fh:
-            detail = list(csv.DictReader(fh))
-        self.assertEqual(len(detail), sum(len(json.loads(r['missing_mandatory_properties'])) for r in self.rows))
+            unmet = list(csv.DictReader(fh))
+        self.assertEqual(len(unmet), sum(1 for o in outcomes if o['category'] not in ('met', 'not_applicable_approved_rule')))
+        blocking_unmet = collections.Counter(o['product_id'] for o in unmet if o['blocking'] == 'true')
+        for r in self.rows:
+            self.assertEqual(len(json.loads(r['missing_mandatory_properties'])), blocking_unmet[r['product_id']], r['product_id'])
+        tab = collections.Counter((o['material_class'], o['requirement'], o['category']) for o in outcomes if o['blocking'] == 'true')
+        for (cls, rid, cat), k in tab.items():
+            line = next(x for x in md.splitlines() if x.startswith(f'| {cls} | `{rid}` |'))
+            cells = [x.strip() for x in line.strip('|').split('|')][2:]
+            self.assertEqual(cells[REQ.CATEGORIES.index(cat)], str(k), (cls, rid, cat))
 
 
 class Safety(unittest.TestCase):
@@ -324,7 +275,7 @@ class Safety(unittest.TestCase):
         before = snap()
         with redirect_stdout(io.StringIO()):
             for m in ('policy_lib', 'thresholds', 'tds_sds_inventory', 'document_classes', 'source_selection', 'integration_diff',
-                      'requirements', 'build_eligibility'):
+                      'requirements', 'build_eligibility', 'source_coverage_ledger', 'treat_rate_basis_scan', 'verify_preserved'):
                 importlib.reload(importlib.import_module(m))
         self.assertEqual(before, snap())
 

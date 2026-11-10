@@ -57,3 +57,100 @@ Conflicts and open questions:
 - The v5 audit (`reconciliation/comprehensive_conflicts_audit.md` / `.csv`, `findings_v5.json`) is a historical snapshot.
 - No finding has been reclassified (Rule 2 review checkpoint).
 - The archive, evidence copies, templates and glossary are unchanged.
+
+---
+
+# Revision 2, 2026-11-10 (provisional checkpoint corrections)
+
+Content commit of revision 1: `8702228`. The changes below are uncommitted until the revision-2 commit recorded in HANDOFF.md.
+
+## Validation bugs fixed (`tools/mandatory_properties/requirements.py`)
+
+An independent review found five invalid synthetic inputs that the checker accepted. Each was reproduced, now fails, and is kept as a regression test in `tools/mandatory_properties/tests/test_requirements.py`, alongside a valid counterpart:
+
+| Input | Before | Now |
+|---|---|---|
+| reversed range `[10, 2]` | accepted | `invalid_value` |
+| infinity as a value | accepted | `invalid_value` |
+| `≮ 180` | read as an exact value | lower bound: `bound_or_range_needs_assessment` |
+| shear-loss note gives 10, stored 999, no source | accepted | `invalid_or_unreproducible_calculation` |
+| thickening for Oil A at 1 % on an Oil B at 9 % record | accepted | `invalid_or_unreproducible_calculation` |
+
+All numeric checks now cover:
+- finite, non-boolean numbers and ordered ranges;
+- a supported qualifier and value-kind vocabulary, including the Unicode inequalities ≥ ≤ ≮ ≯ ⩾ ⩽; unknown or conflicting qualifiers are invalid and never become exact values;
+- a value lying inside its own recorded range.
+
+Calculated values:
+- They are accepted only through a registered check: ΔKV100, SSI, % viscosity loss.
+- Each check:
+  - recomputes the result and compares it with the stored and stated values;
+  - matches the reference oil, dose, cycles, temperature and units with the response record;
+  - requires the inputs to be printed on the cited page (archive text);
+  - requires an index type that fits the requirement (a % viscosity loss is not an SSI);
+  - rejects zero denominators without crashing.
+- A `Calculated` status on blocks, claims and formulations is rejected; it cannot bypass these checks.
+
+**Effect on actual products.** None of these fixes changed an actual eligibility decision.
+- RF6602's calculated shear value, previously accepted, is now rejected: its index is a % viscosity loss, not an SSI.
+- Its ΔKV100 values are rejected: no method is recorded, and the printed unit is "mm/s2".
+- RF6602 was not eligible before and is not eligible now.
+
+## Outcome categories and semantics (requirements version `mandatory-tier1-2026-11-10.2`)
+
+- Every requirement outcome now has a category. The categories separate an absent value from a range or bound, a missing unit, condition or source, an invalid value, an unreproducible calculation, unresolved applicability, and a pending source selection.
+- `tier1_complete`: every blocking requirement has documented information. `formulation_eligible`: every blocking requirement is met.
+- **Ranges and bounds** are documented, but provisional per property (`REPRESENTATIONS`). Treat rates and doses accept a range, because the source says "min / max / typical".
+- **Withdrawn interpretations:**
+  - The VM/PPD subtype blocks are no longer blocking: they are tier 2 / tier 3 files, under your rule (decision C).
+  - Markers for functions the slide does not name are now "unresolved applicability" instead of "not applicable".
+  - A package with no co-component is now "unresolved applicability" instead of "absent". A sourced "none required" statement is accepted in the proposed field `co_component_requirement_statement`.
+- **Mass basis.** It is accepted when established on the cited page, from `treat_rate_basis_evidence.json`: INFINEUM_D3384, INFINEUM_D3451, AFTON_HITEC_12360. For the other 18 products' bare "%" values it is not established and is not guessed.
+- **New output** `requirement_outcomes.csv`. `missing_mandatory_properties.csv/.md` now carry the categories and a sensitivity table.
+
+**Revised counts.**
+
+| | Revision 1 | Revision 2 |
+|---|---:|---:|
+| Base oils eligible | 11 | 10 |
+| Base oils Tier 1 complete | 11 | 11 |
+| Packages eligible | 0 | 0 |
+| Components eligible | 0 | 0 |
+
+- **S_OIL_ARAMCO_ULTRA_8** is no longer eligible. Its KV40 and KV100 are SDS ranges, which revision 1 accepted, and its Rule 1 source selection is pending (an external web table vs the archived SDS; identity question ID-01).
+
+## Rule 1 (source selection)
+
+- **Clarified rule applied.** A technical specification range is selected as printed.
+  - FORMOSA_150N_GII_PLUS KV100: 5.0–5.4 mm²/s, DL2-10001.pdf p.1, issued 2009-10-21.
+  - FORMOSA_500N_GII KV100: 10–12 mm²/s, DL2-10003.pdf p.1.
+  - The SDS typical values (5.2, 11 cSt) are kept as alternates, with their exact SDS lines. The old entry had mixed the specification range into the SDS record.
+- **Field-level pending list.** `PENDING_FIELDS` was added: NEXBASE 3043–3080 now list the 15 fields where the family TDS and the individual sheets disagree.
+- **Reviewed SDS fallbacks.** `SDS_FALLBACK_FIELDS` was added: FORMOSA KV40 and SG, and D3384 SG.
+- **Selection tool.** `source_selection.py` now applies declared changes incrementally. It writes a file only when the content changes, and `--report` regenerates the full change list (30 rows).
+- **Coverage ledger.** New tool `tools/data_policy/source_coverage_ledger.py` and outputs `reports/data_policy/source_coverage_ledger.csv` and `.meta.json`. The remaining gaps are listed in `source_review_coverage.md`.
+
+## Thresholds (still PROPOSED)
+
+`thresholds.py` is now `thresholds-2026-11-10-proposed.2`:
+- "Ordinary" wording was replaced by "below the proposed project review threshold". A point compatible with a bound is "logically compatible (not evidence of agreement)".
+- All thresholds are labelled empirical. The unverified ASTM statements are removed as justification.
+- A value at the threshold is retained for review.
+- A sensitivity output was added: `reports/data_policy/threshold_sensitivity.csv`.
+- The inventory now has 67 comparisons; the FORMOSA KV100 pairs became bound checks.
+
+## Reproducibility
+
+- **New check** `tools/data_policy/verify_preserved.py` compares three byte forms per file: worktree, committed blob, and blob with CRLF.
+  - Preserved files: 49/49 verified. 31 match the committed blob and 17 match the CRLF form. 1 file has no line endings and matches every form.
+  - Evidence copies: 11/11 verified.
+  - The archive equals both the HEAD and the baseline blobs.
+  - No manifest was edited.
+- **Informational LF-normalised data fingerprint** added to `missing_mandatory_properties.md`. The interface column keeps the exact-byte convention.
+- **Eligibility build** stops if the coverage ledger was built from different data.
+
+## Other
+
+- `policy_lib.load` closes its file.
+- Test results are saved in `docs/data_policy_mandatory_review/test_results/`.
+- **Proposed record correction (not applied):** the qualifier on ERGON_HYGOLD_5000BS and P70N VI (`requirements_review.md` §6).

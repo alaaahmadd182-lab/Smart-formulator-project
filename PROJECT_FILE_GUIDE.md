@@ -190,8 +190,10 @@ cites them with `%` restored.
 | `docs/data_policy_mandatory_review/threshold_proposal.md` | Proposal awaiting review | Rule 2: comparability rules and property-specific screening thresholds; nothing reclassified yet |
 | `docs/data_policy_mandatory_review/eligibility_interface.md` | Interface specification | Columns and meaning of `product_eligibility.csv` for the association-mining workstream |
 | `docs/data_policy_mandatory_review/CHANGELOG_2026-11-10.md`, `HANDOFF.md`, `implementation_plan.md` | Historical record | What changed, how to reproduce it, and which generators are historical |
-| `reports/data_policy/` | Generated output | `document_classes.csv`, `source_selection_changes.csv`, `tds_sds_comparisons.csv` |
-| `reports/mandatory_properties/` | Generated output | `product_eligibility.csv` (one row per product), `missing_mandatory_properties.csv` / `.md` |
+| `reports/data_policy/` | Generated output | `document_classes.csv`, `source_selection_changes.csv`, `tds_sds_comparisons.csv`, `threshold_sensitivity.csv`, `source_coverage_ledger.csv` (+ `.meta.json`) |
+| `reports/mandatory_properties/` | Generated output | `product_eligibility.csv` (one row per product), `requirement_outcomes.csv` (every requirement, with its category), `missing_mandatory_properties.csv` / `.md`, `treat_rate_basis_scan.csv` |
+| `docs/data_policy_mandatory_review/requirements_review.md`, `source_review_coverage.md` | Review records | The authority for every mandatory requirement and the open decisions; what the source-selection check covered, and the remaining gaps |
+| `docs/data_policy_mandatory_review/test_results/` | Historical record | Saved outputs of the pipeline, the tests and the protected-file checks |
 | `tools/data_policy/`, `tools/mandatory_properties/` | Tool | The scripts and tests that produce the above (`tools/README.md`) |
 
 "Formulation-eligible" means only that every mandatory Tier 1 requirement is met; ineligible products stay in the

@@ -62,23 +62,46 @@
       "unit_final": "cSt"
     },
     "kv100": {
-      "value": 5.2,
-      "qualifier": null,
-      "min": 5,
+      "value": null,
+      "qualifier": "Specification",
+      "min": 5.0,
       "max": 5.4,
-      "value_kind": "typical",
-      "printed_text": "SDS 5.2 cSt; specification range 5.0–5.4 cSt",
-      "unit": "cSt",
+      "value_kind": "range",
+      "printed_text": "3. Kinematic viscosity，100℃ mm2/s （cSt） 5.0 5.4 D445",
+      "unit": "mm2/s",
       "test_temperature_c": 100,
-      "method": null,
+      "method": "ASTM D445",
       "status": "Reported",
-      "calculation_note": null,
+      "calculation_note": "Product specification (Formosa Petrochemical, issue date 2009-10-21, version 1.0), \"Limitation\" columns Min. / Max.; a specification range, not a typical value. Selected as printed (no single value derived); the SDS typical value is kept as an alternate. Clarified rule of 2026-11-10: a different value kind alone does not override the technical document.",
       "source": {
-        "file": "DL2-10011.pdf",
-        "page": 3,
-        "revision_date": "2011-05-05"
+        "file": "DL2-10001.pdf",
+        "page": 1,
+        "revision_date": "2009-10-21"
       },
-      "value_final": 5.2,
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "alternate_entries": [
+        {
+          "value": 5.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "Viscosity:   29.3 cSt at 40℃  |  5.2 cSt at 100℃",
+          "unit": "cSt",
+          "test_temperature_c": 100,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-10011.pdf",
+            "page": 3,
+            "revision_date": "2011-05-05"
+          },
+          "notes": "SDS DL2-10011.pdf p.3 line as printed. The specification range that this entry previously carried in min/max (and in its printed_text) is printed in DL2-10001.pdf, not in the SDS; it is now the selected value.",
+          "selection_note": "Previously selected value, kept as an alternate under the source-selection policy of 2026-11-10. Not judged erroneous: the policy selects the technical-document value first."
+        }
+      ],
+      "value_final": null,
       "unit_final": "cSt",
       "min_final": 5,
       "max_final": 5.4
