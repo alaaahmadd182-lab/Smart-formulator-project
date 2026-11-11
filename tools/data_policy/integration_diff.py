@@ -7,7 +7,10 @@ kept consistent with the script without running it on the whole repository.
 
 Usage: python tools/data_policy/integration_diff.py Products_json/.../file.json [...]
        python tools/data_policy/integration_diff.py --changed     (the product files changed against HEAD)
-Exit codes: 0 no differences; 1 differences found.
+       python tools/data_policy/integration_diff.py --changed --against REF
+           also derives each file as it was at REF and labels every difference 'pre-existing' (the file at REF has the
+           same difference: a derivation gap this work did not introduce) or 'NEW'
+Exit codes: 0 no differences (with --against: no NEW differences); 1 otherwise.
 """
 import copy, importlib.util, json, os, subprocess, sys
 
@@ -21,8 +24,8 @@ def integrate_module():
     return m
 
 
-def derived(I, relpath):
-    d = P.load(relpath)
+def derived(I, relpath, d=None):
+    d = P.load(relpath) if d is None else d
     product = relpath.rsplit('/', 2)[1]
     nodes = {}
     I.walk(d.get('fields', {}), '', nodes)
@@ -54,21 +57,36 @@ def diff(a, b, path=''):
     return out
 
 
+def at_ref(ref, relpath):
+    r = subprocess.run(['git', 'show', f'{ref}:{relpath}'], cwd=P.ROOT, capture_output=True, text=True, encoding='utf-8')
+    return json.loads(r.stdout) if r.returncode == 0 else None
+
+
 def main():
     sys.stdout.reconfigure(encoding='utf-8')
-    files = sys.argv[1:]
+    args = sys.argv[1:]
+    against = None
+    if '--against' in args:
+        i = args.index('--against'); against = args[i + 1]; del args[i:i + 2]
+    files = args
     if files == ['--changed']:
         files = [f for f in subprocess.run(['git', 'diff', '--name-only', 'HEAD', '--', 'Products_json'], cwd=P.ROOT, capture_output=True,
                                            text=True, encoding='utf-8').stdout.splitlines() if f]
     I = integrate_module()
-    n = 0
+    n = new = 0
     for f in files:
         dd = diff(P.load(f), derived(I, f))
+        old = set()
+        if against:
+            o = at_ref(against, f)
+            old = set(diff(o, derived(I, f, copy.deepcopy(o)))) if o is not None else set()
         for x in dd:
-            print(f'{f}: {x}')
+            label = '' if not against else ('pre-existing: ' if x in old else 'NEW: ')
+            new += bool(against) and x not in old
+            print(f'{label}{f}: {x}')
         n += len(dd)
-    print(f'{n} differences in {len(files)} files')
-    return 1 if n else 0
+    print(f'{n} differences in {len(files)} files' + (f'; NEW (absent at {against}): {new}; pre-existing: {n - new}' if against else ''))
+    return (1 if new else 0) if against else (1 if n else 0)
 
 
 if __name__ == '__main__':

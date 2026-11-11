@@ -172,7 +172,27 @@
         "value_final": null,
         "unit_final": "mPa·s"
       }
-    ]
+    ],
+    "specific_gravity": {
+      "value": 0.82,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "SDS reported",
+      "printed_text": "Relative density 0,82 @ 15°C (ASTM D-4052).",
+      "unit": "dimensionless",
+      "test_temperature_c": 15,
+      "method": "ASTM D-4052",
+      "status": "Reported",
+      "calculation_note": "Filled in the evidence review of 2026-11-10 (lead review, reports/data_policy/lead_review.csv); SDS section 9 \"Relative density\" (product name on p.1 is this NEXBASE grade). SDS fallback: the family TDS DL2-10962.pdf and the individual sheet print density, not specific gravity. The reference temperature of water is not printed.",
+      "source": {
+        "file": "DL2-14513.pdf",
+        "page": 5,
+        "revision_date": "2020-06-16"
+      },
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "value_final": 0.82
+    }
   },
   "open_questions": [
     "No product TDS supplied for NEXBASE 3020; only two matching SDS files. [Corrected 2026-11-10: the NEXBASE family TDS DL2-10962.pdf (Edition 8, image) has a \"Nexbase 3020\" column; KV40, KV100 and density are now taken from it. VI is printed as \"–\" for 3020 and stays Missing.]",

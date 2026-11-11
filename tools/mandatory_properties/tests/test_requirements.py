@@ -141,8 +141,10 @@ class Categories(unittest.TestCase):
     def test_one_sided_bound_is_documented_not_absent(self):
         o = R.check_value(vo(121, qualifier='minimum', value_kind='minimum', unit=None), 'viscosity_index', need_unit=False)
         self.assertEqual(o.category, R.BOUND)
-        complete, eligible = R.summarize(R.base_oil_requirements(base_oil(viscosity_index=vo(121, qualifier='minimum', unit=None))))
-        self.assertEqual((complete, eligible), (True, False))
+        outs = R.base_oil_requirements(base_oil(viscosity_index=vo(121, qualifier='minimum', unit=None)))
+        # interface meaning (version .3): documented but not satisfied is NOT Tier 1 complete
+        self.assertEqual(R.summarize(outs), (False, False))
+        self.assertTrue(R.documentation_status(outs))
 
     def test_range_accepted_where_the_source_names_it(self):
         self.assertEqual(R.check_value(vo(None, min=4, max=6, value_kind='range', unit='wt.%'), 'treat_rate', mass_basis=True).category, R.MET)
@@ -151,12 +153,18 @@ class Categories(unittest.TestCase):
     def test_pending_selection(self):
         outs = R.base_oil_requirements(base_oil(), ctx(pending={('P', 'kv40'): 'pending: test'}))
         self.assertEqual(cats(outs)['kv40'], R.SEL)
-        self.assertEqual(R.summarize(outs), (True, False))
+        self.assertEqual(R.summarize(outs), (False, False))
+        self.assertTrue(R.documentation_status(outs))
 
     def test_unresolved_applicability_not_complete(self):
         outs = R.base_oil_requirements(base_oil(ccs=[vo(None, status='Not Required', unit='mPa.s')]))
         self.assertEqual(cats(outs)['ccs'], R.APPL)
         self.assertEqual(R.summarize(outs), (False, False))
+        self.assertFalse(R.documentation_status(outs))
+
+    def test_tier1_complete_means_all_satisfied(self):
+        self.assertEqual(R.summarize(R.base_oil_requirements(base_oil())), (True, True))
+        self.assertEqual(R.REQUIREMENTS_VERSION, 'mandatory-tier1-2026-11-10.3')
 
 
 class Calculations(unittest.TestCase):

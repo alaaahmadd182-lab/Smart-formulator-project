@@ -93,12 +93,21 @@ def main(argv=None):
         with open(a.out, 'w', encoding='utf-8', newline='') as fh:
             w = csv.DictWriter(fh, fieldnames=list(rows[0]), lineterminator='\n')
             w.writeheader(); w.writerows(rows)
-    for kind in ('preserved', 'evidence', 'archive'):
+    for kind in ('preserved', 'evidence'):
         sub = [r for r in rows if r['kind'] == kind]
-        forms = {}
-        for r in sub:
-            forms[r['matching_forms'] or r['verdict']] = forms.get(r['matching_forms'] or r['verdict'], 0) + 1
-        print(f'{kind}: {sum(r["verdict"] == "VERIFIED" for r in sub)}/{len(sub)} verified; matching forms: {forms}')
+        wt = sum('worktree' in r['matching_forms'].split(';') for r in sub)
+        bl = sum('blob' in r['matching_forms'].split(';') for r in sub)
+        rc = sum(r['matching_forms'].split(';') == ['blob+crlf'] or (r['matching_forms'] == 'worktree;blob+crlf') for r in sub)
+        print(f'{kind}: {len(sub)} manifest entries; an exact original-byte representation exists for '
+              f'{sum(r["verdict"] == "VERIFIED" for r in sub)}/{len(sub)}')
+        print(f'  - exact worktree bytes of this checkout match the manifest: {wt}/{len(sub)}')
+        print(f'  - committed Git blob matches the manifest byte for byte: {bl}/{len(sub)}')
+        print(f'  - original bytes reproduced only by writing the blob with CRLF (a CRLF checkout): {rc}/{len(sub)}')
+        if wt < len(sub):
+            print(f'    note: {len(sub) - wt} worktree file(s) in this checkout do NOT match the original bytes byte for byte; '
+                  'their originals are reproduced by the committed blob or its CRLF form (see --out).')
+    z = next(r for r in rows if r['kind'] == 'archive')
+    print(f'archive: {z["verdict"]} ({z["note"]})')
     bad = [r for r in rows if r['verdict'] != 'VERIFIED']
     for r in bad:
         print(f'  {r["verdict"]}: {r["path"]}')

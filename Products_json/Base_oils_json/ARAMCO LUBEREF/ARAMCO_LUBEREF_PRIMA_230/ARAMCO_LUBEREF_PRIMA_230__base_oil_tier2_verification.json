@@ -137,7 +137,27 @@
       ]
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    {
+      "id": "EVR-2026-11-11-230-noack",
+      "field": "noack_volatility",
+      "conflict_type": "technical document vs technical document (typical outside the specification limit)",
+      "values": [
+        {
+          "file": "DL2-12172.pdf",
+          "page": 1,
+          "value": "Noack, ASTM D5800-B: 7 (maximum)"
+        },
+        {
+          "file": "https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramcoprima/aramcoprima_2021_december/aramcoprima-230_yanbu_ar.pdf?hash=35009BCB03F8661F4C2220E5BC82ED39EAFE713F&la=ar",
+          "page": 1,
+          "value": "Noack Volatility (Procedure B) | wt% | D 5800 | 7.5"
+        }
+      ],
+      "resolved": false,
+      "note": "Found in the external-source review of 2026-11-11. The typical 7.5 printed by the Aramco sheet lies above the maximum 7 printed by the specification DL2-12172.pdf: logically incompatible. Not resolved; the selected value is unchanged."
+    }
+  ],
   "source_documents": [
     {
       "file": "DL2-12172.pdf",

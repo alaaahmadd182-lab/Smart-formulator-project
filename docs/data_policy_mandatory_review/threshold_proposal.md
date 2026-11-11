@@ -1,11 +1,11 @@
 # TDS–SDS screening thresholds: proposal for review (Rule 2)
 
-**Status: PROPOSED, revision 2 (2026-11-10). Nothing has been applied.**
+**Status: PROPOSED, revision 2 of the rules; inventory updated in the revision-3 evidence review (2026-11-10); sensitivity re-checked on 2026-11-11. Nothing has been applied.**
 - No audit finding and no product-JSON conflict has been reclassified, and no successor of the v5 audit has been written.
 - `tools/data_policy/thresholds.py` keeps `APPROVAL = 'proposed'` (version `thresholds-2026-11-10-proposed.2`).
 
 Data and code:
-- Inventory: [reports/data_policy/tds_sds_comparisons.csv](../../reports/data_policy/tds_sds_comparisons.csv) (67 comparisons), from `python tools/data_policy/tds_sds_inventory.py`.
+- Inventory: [reports/data_policy/tds_sds_comparisons.csv](../../reports/data_policy/tds_sds_comparisons.csv) (141 comparison rows; 71 of them pair an SDS value recorded in the evidence review with the record's technical value: 70 product × property cases, S_OIL_ULTRA_S_3 flash point having two SDSs), from `python tools/data_policy/tds_sds_inventory.py`.
 - Sensitivity: [reports/data_policy/threshold_sensitivity.csv](../../reports/data_policy/threshold_sensitivity.csv).
 - Coverage of the TDS–SDS checking: [reports/data_policy/source_coverage_ledger.csv](../../reports/data_policy/source_coverage_ledger.csv). See section 6 for what the inventory does **not** cover.
 
@@ -18,20 +18,26 @@ Data and code:
 
 ## 1. What is compared (step A)
 
-A comparison pairs one technical-document value with one SDS value, for the same product and property. The pairs come from three places, duplicates merged:
+A comparison pairs one technical-document value with one SDS value for the same product and property. The pairs come from four places, duplicates merged:
 - v5 audit findings;
 - `conflicts[]` entries;
-- a selected value paired with an `alternate_entries` item of the other document class.
+- a selected value paired with an `alternate_entries` item of the other class;
+- **(revision 3)** SDS values recorded in the evidence review (`lead_review_decisions.json`, 'comparisons'), each paired with the record's selected technical value.
 
 | Property group | Comparisons | Comparable | Bound / range check | Comparability unknown | Not comparable |
 |---|---:|---:|---:|---:|---:|
-| viscosity (KV40, KV100) | 17 | 13 | 2 | 2 | 0 |
-| density, specific gravity | 27 | 7 | 1 | 18 | 1 |
-| flash point | 19 | 6 | 13 | 0 | 0 |
-| pour point | 1 | 0 | 1 | 0 | 0 |
+| viscosity (KV40, KV100) | 19 | 15 | 2 | 2 | 0 |
+| density, specific gravity | 46 | 13 | 1 | 31 | 1 |
+| flash point | 59 | 10 | 42 | 5 | 2 |
+| pour point | 12 | 6 | 6 | 0 | 0 |
+| viscosity index | 2 | 0 | 2 | 0 | 0 |
 | Noack volatility | 1 | 1 | 0 | 0 | 0 |
 | TBN | 2 | 2 | 0 | 0 | 0 |
-| **Total** | **67** | **29** | **17** | **20** | **1** |
+| **Total** | **141** | **47** | **53** | **38** | **3** |
+
+There are no TDS–SDS comparisons for CCS, the elements, sulfated ash or sulfur.
+
+**Revision 3 correction.** A flash-point pair is now comparable only if the cup type is known on both sides; otherwise it is "comparability unknown". Before this correction, Chevron mPAO 100 (TDS COC 265 °C vs SDS 255 °C, no method) had been screened.
 
 ## 2. Value kinds, methods and conditions come before any number (step B)
 
@@ -92,21 +98,30 @@ Every threshold below is an **empirical project screening choice**. It is set fr
 
 From `threshold_sensitivity.csv`. "At/above" is the number of pairs retained for review; the proposed threshold is marked with ◆.
 
-| Property | Candidate thresholds → pairs below / at-or-above |
-|---|---|
-| KV40 (1 pair: ETRO 6+ 6.88 %) | 1 %, 2 %, 3 %◆, 5 %: 0 / 1 · 7 %, 10 %: 1 / 0 |
-| KV100 (6 pairs: 0.68, 1.52, 6.25, 8.11, 11.89, 20.34 %) | 1 %: 1 / 5 · 2 %, 3 %◆, 5 %: 2 / 4 · 7 %: 3 / 3 · 10 %: 4 / 2 |
-| Density (3 pairs: RF6066 0.002; RF6078 0.003 twice, from two TDS files) | 0.001, 0.002: 0 / 3 · 0.003: 1 / 2 · 0.005◆, 0.010: 3 / 0 |
-| Specific gravity | No comparable pair (all 9 pending on reference temperatures) |
-| Flash point (6 pairs: 1, 4, 5, 7, 7, 28 °C) | 3 °C: 1 / 5 · 5 °C: 2 / 4 · 8, 10◆, 15, 20 °C: 5 / 1 · 30 °C: 6 / 0 |
-| Pour point | No comparable pair |
+| Property | Pairs (difference) | Candidate thresholds → pairs below / at-or-above |
+|---|---|---|
+| KV40 | SpectraSyn 2: 4.0 %; ETRO 6+: 6.88 % | 1–3 %◆: 0 / 2 · 5 %: 1 / 1 · 7 %, 10 %: 2 / 0 |
+| KV100 | 0.68, 1.52, 6.25, 8.11, 11.89, 20.34 % (Richful) | 1 %: 1 / 5 · 2–5 %◆: 2 / 4 · 7 %: 3 / 3 · 10 %: 4 / 2 |
+| Density | 0.002, 0.003, 0.003 g/cm³ (Richful) | 0.001, 0.002: 0 / 3 · 0.003: 1 / 2 · 0.005◆, 0.010: 3 / 0 |
+| Specific gravity | none comparable: the reference pairs are not printed on both sides (all pending) | — |
+| Flash point | 1, 3.1, 4, 5, 7, 7, 28, 31 °C (Chevron PAO/mPAO, ERGON L350E, SpectraSyn Elite 150) | 3 °C: 1 / 7 · 5 °C: 3 / 5 · 8–20 °C◆: 6 / 2 · 30 °C: 7 / 1 |
+| Pour point | no comparable pair outside print rounding | — |
+
+**Re-checked 2026-11-11 against the current inventory** (141 rows; 47 comparable; 26 of them within print rounding). The 21 comparable pairs outside rounding are exactly the ones in the table above, plus one Noack pair (ETRO 6+, 7.0 %) and one TBN pair (RF6066, 1.85 %), which have no proposed threshold. The external-source review of 2026-11-11 added no TDS–SDS pair: the values it re-read are either selected values without an SDS value for the same property, or external alternatives that are not in the records (the logical incompatibilities it found are `conflicts[]` entries, not inventory rows: aramcoPRIMA 230 Noack, technical vs technical, is new; aramcoULTRA 8 KV40, external page vs SDS range, is the existing 2026-10 audit conflict, which is not an inventory row either). The conclusions below therefore still hold.
 
 What the sensitivity shows:
-- **KV100.** Every threshold from just above 1.52 % up to 6.25 % gives the same split.
-- **Flash point.** Every threshold from just above 7 °C up to 28 °C gives the same split.
-- **Density.** The data cannot locate a threshold. Any threshold above 0.003 g/cm³ puts all three pairs below it, so the data give no reason to prefer 0.005 over 0.004 or 0.010, and three pairs is too few to choose from.
+- **KV100.** Any threshold from just above 1.52 % up to 6.25 % gives the same split.
+- **Flash point.** Any threshold from just above 7 °C up to 28 °C gives the same split.
+- **KV40.** The split depends on whether the threshold is above 4 %: SpectraSyn 2 is 5.0 vs 5.2 cSt, with the SDS by an in-house method.
+- **Density.** Any threshold above 0.003 g/cm³ puts all three pairs below it, so the data give no reason to prefer 0.005 over 0.004 or 0.010.
 
 ## 5. Preview: what approval would change (nothing applied)
+
+The preview lists the v5 audit findings only. The 71 pairs recorded in the evidence review are not v5 findings, and their proposed screen is in `tds_sds_comparisons.csv` (origin "lead review"). Among them, these are retained for review under the proposal:
+- SpectraSyn Elite 150 flash point: TDS 277 vs SDS 246 °C, both COC (31 °C);
+- SpectraSyn 2 KV40: 5.0 vs 5.2 cSt (4.0 %);
+- NYFROST 32: the PMCC typical 176 °C is not above the SDS closed-cup bound "> 180 °C";
+- Esterex P81: the pour point −33 °C is not below the SDS bound "< −34 °C".
 
 A finding could be closed as "below the review threshold" only if **every** value pair in it is below the threshold or within print rounding.
 - Findings that also contain TDS–TDS or SDS–SDS differences keep those parts.
@@ -137,11 +152,14 @@ A finding could be closed as "below the review threshold" only if **every** valu
 
 ## 6. Limits of the inventory (coverage)
 
-The inventory contains only pairs that already appear in the audit, in `conflicts[]` or in `alternate_entries`. The coverage ledger also searches every associated document page for the property label. It found:
-- **137 product–property cases** where a technical page and an SDS page both mention the property, but no comparison is recorded.
-- **Many of these are leads, not comparisons.** A label hit does not mean a value for this grade was read: multi-product tables, "Report"/"N/A" cells and boilerplate also match.
+The evidence review (revision 3) read every case where a technical page and an SDS page both mention a property but no pair existed (139 product × property cases: the 138 of the revision-2 ledger plus NEXBASE 3080 flash point, which appeared when the classifier stopped treating its SDS page 4 as technical):
+- **71 cases, usable evidence:** 70 had the SDS value recorded as a comparison (in one of them, CV2301 flash point, the technical document also disagrees with itself: conflict `EVR-2026-11-10-CV2301`); 1 (mPAO 65 flash point) was filled from the technical sheet, with the SDS value kept as an alternate.
+- **31 cases, already recorded:** same-document pages (Lubrizol handling pages) or a recorded exception.
+- **18 cases:** an unrelated mention (another quantity or product).
+- **12 cases:** insufficient evidence.
+- **7 cases:** unresolved identity (FORMOSA).
 
-These cases are **not reviewed**. The inventory is therefore **not an exhaustive TDS–SDS check** (HANDOFF, remaining gaps).
+The inventory is still **not an exhaustive TDS–SDS check**. It is limited to the archive's text layers, the renders read, and the documents whose identity is established.
 
 ## 7. Decisions requested
 

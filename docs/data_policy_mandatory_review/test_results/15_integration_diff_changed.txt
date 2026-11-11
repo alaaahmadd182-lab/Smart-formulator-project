@@ -1,0 +1,33 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/integration_diff.py --changed --against f4d97e71f72598df601b72403775581c34061ad1
+cwd: C:\Users\windo\sf-wsA
+HEAD: 4e836526fd3c0e0c9d758f88f8a60ce1c1774c02
+return code: 0
+expectation: zero + output matches 'NEW \\(absent at '
+verdict: pass
+duration: 0.8 s
+
+===== stdout =====
+pre-existing: Products_json/Additive_packages_json/Lubrizol/LUBRIZOL_CV2301/tier2_numeric_contribution.json: .fields.density.integration_flags: missing now -> ["unit 'lbs/US gal' not recognised or not printed; kept as printed", "density is at 15.6 °C, not 15 °C; not temperature-
+pre-existing: Products_json/Additive_packages_json/Lubrizol/LUBRIZOL_CV2301/tier2_numeric_contribution.json: .fields.density.unit_final: missing now -> "lbs/US gal"
+pre-existing: Products_json/Additive_packages_json/Lubrizol/LUBRIZOL_CV2301/tier2_numeric_contribution.json: .fields.density.value_final: missing now -> 8.18
+pre-existing: Products_json/Additive_packages_json/Lubrizol/LUBRIZOL_CV2301/tier2_numeric_contribution.json: .fields.specific_gravity.value_final: missing now -> 0.982
+pre-existing: Products_json/Base_oils_json/ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_110/ARAMCO_LUBEREF_PRIMA_110__base_oil_tier1_blocking.json: .fields.density.integration_flags: missing now -> ["unit None not recognised or not printed; kept as printed"]
+pre-existing: Products_json/Base_oils_json/ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_110/ARAMCO_LUBEREF_PRIMA_110__base_oil_tier1_blocking.json: .fields.density.unit_final: missing now -> null
+pre-existing: Products_json/Base_oils_json/ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_110/ARAMCO_LUBEREF_PRIMA_110__base_oil_tier1_blocking.json: .fields.density.value_final: missing now -> 0.85
+pre-existing: Products_json/Base_oils_json/ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_230/ARAMCO_LUBEREF_PRIMA_230__base_oil_tier1_blocking.json: .fields.density.integration_flags: missing now -> ["unit None not recognised or not printed; kept as printed"]
+pre-existing: Products_json/Base_oils_json/ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_230/ARAMCO_LUBEREF_PRIMA_230__base_oil_tier1_blocking.json: .fields.density.unit_final: missing now -> null
+pre-existing: Products_json/Base_oils_json/ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_230/ARAMCO_LUBEREF_PRIMA_230__base_oil_tier1_blocking.json: .fields.density.value_final: missing now -> 0.863
+pre-existing: Products_json/Base_oils_json/ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_500/ARAMCO_LUBEREF_PRIMA_500__base_oil_tier1_blocking.json: .fields.density.integration_flags: missing now -> ["unit None not recognised or not printed; kept as printed"]
+pre-existing: Products_json/Base_oils_json/ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_500/ARAMCO_LUBEREF_PRIMA_500__base_oil_tier1_blocking.json: .fields.density.unit_final: missing now -> null
+pre-existing: Products_json/Base_oils_json/ARAMCO LUBEREF/ARAMCO_LUBEREF_PRIMA_500/ARAMCO_LUBEREF_PRIMA_500__base_oil_tier1_blocking.json: .fields.density.value_final: missing now -> 0.867
+pre-existing: Products_json/Base_oils_json/ERGON/ERGON_HYGOLD_5000BS/ERGON_HYGOLD_5000BS_tier1.json: .fields.specific_gravity.value_final: missing now -> 0.9157
+pre-existing: Products_json/Base_oils_json/ERGON/ERGON_HYGOLD_P70N/ERGON_HYGOLD_P70N_tier1.json: .fields.density.integration_flags: missing now -> ["density is at 15.6 °C, not 15 °C; not temperature-corrected"]
+pre-existing: Products_json/Base_oils_json/ERGON/ERGON_HYGOLD_P70N/ERGON_HYGOLD_P70N_tier1.json: .fields.density.unit_final: missing now -> "g/cm³"
+pre-existing: Products_json/Base_oils_json/ERGON/ERGON_HYGOLD_P70N/ERGON_HYGOLD_P70N_tier1.json: .fields.density.value_final: missing now -> 0.8552
+pre-existing: Products_json/Base_oils_json/ERGON/ERGON_HYGOLD_P70N/ERGON_HYGOLD_P70N_tier1.json: .fields.specific_gravity.value_final: missing now -> 0.8559
+pre-existing: Products_json/Base_oils_json/PETRONAS/PETRONAS_ETRO_4/PETRONAS_ETRO_4_tier1.json: .fields.api_group_chemistry.api_group.value_final: missing now -> "Group III"
+pre-existing: Products_json/Base_oils_json/PETRONAS/PETRONAS_ETRO_6/PETRONAS_ETRO_6_tier1.json: .fields.api_group_chemistry.api_group.value_final: missing now -> "Group III"
+20 differences in 17 files; NEW (absent at f4d97e71f72598df601b72403775581c34061ad1): 0; pre-existing: 20
+
+===== stderr =====
+

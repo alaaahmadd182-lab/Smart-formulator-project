@@ -191,6 +191,9 @@ def _numeric(prop, a, b, row):
         return dict(row, comparability='not comparable: condition', reason=f'temperature {ta} vs {tb} °C')
     if prop in ('flash_point',) and a['cup'] and b['cup'] and a['cup'] != b['cup']:
         return dict(row, comparability='not comparable: method', reason=f"{a['cup']} vs {b['cup']}")
+    if prop in ('flash_point',) and not (a['cup'] and b['cup']):
+        # threshold rule: the cup type (COC/D92 or PMCC/D93) must be known on both sides before a difference is screened
+        return dict(row, comparability='comparability unknown', reason='flash-point cup type not printed on one side')
     if a['methods'] and b['methods'] and not set(a['methods']) & set(b['methods']):
         return dict(row, comparability='not comparable: method', reason=f"{'/'.join(a['methods'])} vs {'/'.join(b['methods'])}")
     if ca is None or cb is None:
@@ -260,6 +263,18 @@ def main():
                     if {cs, ca} == {'TECHNICAL', 'SDS'}:
                         t, s = (sel, av) if cs == 'TECHNICAL' else (av, sel)
                         add(pid, prop_of(path), t, s, f"alternate entry {rel.rsplit('/', 1)[1]}#{path}")
+    # 4. reviewed opposite-document values from the lead review (lead_review_decisions.json), paired with the record's
+    #    selected value when that value comes from a technical page
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'lead_review_decisions.json'), encoding='utf-8') as fh:
+        reviewed = json.load(fh).get('comparisons', [])
+    for x in reviewed:
+        for rel, d in prods[x['product']]['files'].items():
+            n = (d.get('fields') or {}).get(x['property'])
+            n = n[0] if isinstance(n, list) and n else n
+            if isinstance(n, dict) and n.get('status') in ('Reported', 'Calculated'):
+                sel = dict(n, file=P.src(n)[0], page=P.src(n)[1])
+                if c_of(sel['file'], sel['page']) == 'TECHNICAL':
+                    add(x['product'], x['property'], sel, dict(x['sds']), 'lead review 2026-11-10')
     rows = []
     for k, x in pairs.items():
         r = compare(x['property'], x['tds'], x['sds'])

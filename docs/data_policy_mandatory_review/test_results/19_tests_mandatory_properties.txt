@@ -1,4 +1,14 @@
-## tools/mandatory_properties/tests
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover -s tools/mandatory_properties/tests -v
+cwd: C:\Users\windo\sf-wsA
+HEAD: 4e836526fd3c0e0c9d758f88f8a60ce1c1774c02
+return code: 0
+expectation: zero + output matches '\\nOK'
+verdict: pass
+duration: 0.2 s
+
+===== stdout =====
+
+===== stderr =====
 test_calculated_status_cannot_bypass_through_blocks_claims_formulations (test_requirements.Calculations.test_calculated_status_cannot_bypass_through_blocks_claims_formulations) ... ok
 test_inputs_must_be_on_the_cited_page (test_requirements.Calculations.test_inputs_must_be_on_the_cited_page) ... ok
 test_invalid_inputs_do_not_crash (test_requirements.Calculations.test_invalid_inputs_do_not_crash) ... ok
@@ -10,6 +20,7 @@ test_absent_vs_unusable (test_requirements.Categories.test_absent_vs_unusable) .
 test_one_sided_bound_is_documented_not_absent (test_requirements.Categories.test_one_sided_bound_is_documented_not_absent) ... ok
 test_pending_selection (test_requirements.Categories.test_pending_selection) ... ok
 test_range_accepted_where_the_source_names_it (test_requirements.Categories.test_range_accepted_where_the_source_names_it) ... ok
+test_tier1_complete_means_all_satisfied (test_requirements.Categories.test_tier1_complete_means_all_satisfied) ... ok
 test_unresolved_applicability_not_complete (test_requirements.Categories.test_unresolved_applicability_not_complete) ... ok
 test_ccs_list (test_requirements.Nested.test_ccs_list) ... ok
 test_co_component_architecture (test_requirements.Nested.test_co_component_architecture) ... ok
@@ -31,42 +42,7 @@ test_shear_loss_note_10_stored_999_without_source_rejected (test_requirements.Re
 test_thickening_for_another_oil_and_dose_rejected (test_requirements.ReportedBugs.test_thickening_for_another_oil_and_dose_rejected) ... ok
 
 ----------------------------------------------------------------------
-Ran 30 tests in 0.008s
+Ran 31 tests in 0.004s
 
 OK
-## tools/data_policy/tests
-test_bound_checked_not_differenced (test_data_policy.ComparisonRules.test_bound_checked_not_differenced) ... ok
-test_different_temperature_not_comparable (test_data_policy.ComparisonRules.test_different_temperature_not_comparable) ... ok
-test_flash_cup_types_not_comparable (test_data_policy.ComparisonRules.test_flash_cup_types_not_comparable) ... ok
-test_label_unit_inconsistency_pending (test_data_policy.ComparisonRules.test_label_unit_inconsistency_pending) ... ok
-test_missing_temperature_pending (test_data_policy.ComparisonRules.test_missing_temperature_pending) ... ok
-test_point_outside_bound_retained (test_data_policy.ComparisonRules.test_point_outside_bound_retained) ... ok
-test_property_specific_thresholds (test_data_policy.ComparisonRules.test_property_specific_thresholds) ... ok
-test_thresholds_not_approved_yet (test_data_policy.ComparisonRules.test_thresholds_not_approved_yet) ... ok
-test_units_converted_before_difference (test_data_policy.ComparisonRules.test_units_converted_before_difference) ... ok
-test_zero_tds_value_uses_no_relative_difference (test_data_policy.ComparisonRules.test_zero_tds_value_uses_no_relative_difference) ... ok
-test_exact_columns (test_data_policy.Outputs.test_exact_columns) ... ok
-test_one_row_per_product_and_formats (test_data_policy.Outputs.test_one_row_per_product_and_formats) ... ok
-test_outputs_up_to_date (test_data_policy.Outputs.test_outputs_up_to_date) ... ok
-test_package_without_published_formulation_ineligible (test_data_policy.Outputs.test_package_without_published_formulation_ineligible) ... ok
-test_snapshot_hash_independent (test_data_policy.Outputs.test_snapshot_hash_independent) ... ok
-test_summary_counts_match_records (test_data_policy.Outputs.test_summary_counts_match_records) ... ok
-test_no_write_on_import (test_data_policy.Safety.test_no_write_on_import) ... ok
-test_only_declared_product_files_changed_since_baseline (test_data_policy.Safety.test_only_declared_product_files_changed_since_baseline) ... ok
-test_product_json_valid_statuses (test_data_policy.Safety.test_product_json_valid_statuses) ... ok
-test_templates_unchanged_since_baseline (test_data_policy.Safety.test_templates_unchanged_since_baseline) ... ok
-test_exception_keeps_sds_value (test_data_policy.SourceSelection.test_exception_keeps_sds_value) ... ok
-test_no_safety_margin_wording (test_data_policy.SourceSelection.test_no_safety_margin_wording) ... ok
-test_no_undeclared_sds_selection_with_technical_alternate (test_data_policy.SourceSelection.test_no_undeclared_sds_selection_with_technical_alternate) ... ok
-test_sds_fallback_where_no_tds_value (test_data_policy.SourceSelection.test_sds_fallback_where_no_tds_value) ... ok
-test_tds_value_selected_and_sds_kept_as_alternate (test_data_policy.SourceSelection.test_tds_value_selected_and_sds_kept_as_alternate) ... ok
-test_technical_range_selected_without_conversion (test_data_policy.SourceSelection.test_technical_range_selected_without_conversion) ... ok
 
-----------------------------------------------------------------------
-Ran 26 tests in 2.238s
-
-OK
-## tools/audit/review_2026-11-02/tests (v5, unchanged)
-
-OK
-158 explicit verdicts written; presence-only citations without a verdict: 1 ['CF-001#9#DL2-99999.pdf']

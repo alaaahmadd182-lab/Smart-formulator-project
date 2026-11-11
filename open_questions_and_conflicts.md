@@ -2065,3 +2065,35 @@ Added 2026-11-10 (Workstream A, branch `feat/data-policy-mandatory-review`). The
 - ERGON_HYGOLD_5000BS and ERGON_HYGOLD_P70N `viscosity_index`: the record puts `qualifier: "minimum"` on the value 81, which its own notes call the typical value. A correction (qualifier to null) is proposed, not applied.
 - Eligibility (provisional rules, version `mandatory-tier1-2026-11-10.2`): 10 of 181 base oils are formulation-eligible and 11 are Tier 1 complete; no package or component is eligible. S_OIL_ARAMCO_ULTRA_8 is no longer eligible: its KV40/KV100 are SDS ranges and its source selection is pending. Details: `docs/data_policy_mandatory_review/requirements_review.md`.
 - Coverage of the TDS–SDS checking is not exhaustive. Remaining gaps: `docs/data_policy_mandatory_review/source_review_coverage.md`.
+
+### Revision 3 of the 2026-11-10 review (evidence review)
+
+- All outstanding source leads were reviewed. That is 363 product × property cases: the 352 of revision 2 plus 11 found during the review (count corrected 2026-11-11). Each case has a recorded outcome (`reports/data_policy/lead_review.csv`; summary in `docs/data_policy_mandatory_review/evidence_review.md`). A keyword mention was treated as a lead only.
+- Filled from exact product-specific printed evidence:
+  - CHEVRON_GROUP_II_600R KV40 (spec ≥ 100 cSt);
+  - PETRONAS_ETRO_6 CCS (2,088 / 3,977 / 7,422 cP at −25 / −30 / −35 °C, from its own TDS);
+  - ARAMCO_LUBEREF_PRIMA_500 KV40 96.4 cSt and CCS 14,550 / 26,000 mPa·s at −20 / −25 °C (brochure);
+  - CHEVRON_SYNFLUID_MPAO_65 flash point > 266 °C (COC), with the SDS 270 °C kept as an alternate;
+  - ERGON_HYGOLD_P150BS Noack 1.1 wt%;
+  - EXXONMOBIL_SPECTRASYN_ULTRA_1000 specific gravity 0.855;
+  - NEXBASE 3020/3043/3060/3080 specific gravity (SDS fallback).
+- Corrected against the source pages: ERGON_HYGOLD_5000BS and P70N VI qualifier (the "minimum" belonged to the specification column; the typical value is 81).
+- New conflicts, not resolved; the fields are pending:
+  - PETRONAS_ETRO_4 KV100 / VI / CCS: PDS vs the ETRO 4 & 6 TDS;
+  - LUBRIZOL_CV2301 flash point: 158 vs 165 °C in the same technical document;
+  - aramcoPRIMA 110 / 230 / 500 density: spec without a unit vs brochure in Kg/L.
+- Identity:
+  - 174 name-match document links were reviewed (87 same product, 78 byte-identical copies, 9 other product). The 9 are excluded: NYNAS Base Stock 20 ↔ S 3B / NS 3; S-OIL S-8 ↔ Ultra-S sheets.
+  - The FORMOSA KV100 specifications name the exact products. The FORMOSA SDSs do not name the grade, so their KV40 and specific-gravity fallbacks are now pending.
+- Eligibility (version `.3`, `tier1_complete` = all mandatory requirements satisfied): 10 of 181 base oils; 0 packages; 0 components.
+
+### 2026-11-11: external-source review (revision 3 completion)
+
+- The 22 values selected from external (URL) sources and 7 pending fields with an external alternative were reviewed (`reports/data_policy/external_review.csv`; `docs/data_policy_mandatory_review/evidence_review.md` §8).
+  - 21 were confirmed on copies whose identity is established.
+  - 8 are inconclusive because the source could not be obtained: the Afton HiTEC 12204L PDS (KV100, density, flash point, TBN) and the HiTEC 8788B PDS (KV40, KV100, density, flash point; still pending). The Internet Archive refused automated download.
+- New conflicts, not resolved:
+  - ARAMCO_LUBEREF_PRIMA_230 Noack: the Aramco PRIMA 230 sheet prints a typical 7.5 wt%, above the DL2-12172.pdf maximum 7 (`EVR-2026-11-11-230-noack`). The selected value is unchanged.
+  - ARAMCO_LUBEREF_PRIMA_230 density: the same sheet prints 0.8635 kg/L at 15 °C, a third value (`EVR-2026-11-11-230-density-external`). The field stays pending.
+- S_OIL_ARAMCO_ULTRA_8 KV40: the S-OIL typical 41.10 cSt lies below the SDS range 42.0–55.0 cSt. This is the existing 2026-10 audit conflict (edition difference); it is not recorded twice. The field stays pending.
+- Open question for the user: may an external (non-archive) technical document be selected over an archived SDS, or fill a Missing field? This affects aramcoULTRA 8 KV40/KV100/flash point and the BAPbase 4 specific gravity printed by the MOGO flyer.

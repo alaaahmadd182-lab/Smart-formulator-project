@@ -1,0 +1,17 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/mandatory_properties/co_component_evidence_scan.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 4e836526fd3c0e0c9d758f88f8a60ce1c1774c02
+return code: 0
+expectation: zero
+verdict: pass
+duration: 1.8 s
+
+===== stdout =====
+packages: 78
+  63: no explicit statement found in the text layer of the cited pages
+  13: co-components named or required by the supplier
+  2: explicit "none required" statement found (covers only the co-component it names)
+  packages with a recorded co-component: 12
+
+===== stderr =====
+

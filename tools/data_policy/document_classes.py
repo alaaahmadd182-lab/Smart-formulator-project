@@ -74,6 +74,8 @@ SDS_TOPICS = [r'stability\s+and\s+reactivity', r'hazardous\s+decomposition', r'f
               r'ecological\s+information', r'disposal\s+considerations', r'hazards?\s+identification', r'accidental\s+release',
               r'exposure\s+controls|personal\s+protection']
 TECH_DATA_HEAD = re.compile(r'technical\s+data|typical\s+(properties|inspections|characteristics)', re.I)
+STRONG_TECH = re.compile(r'technical\s+data\s+sheet|product\s+data\s*sheet|typical\s+inspections', re.I)
+HANDLING = re.compile(r'unloading,?\s+storage\s+and\s+blending\s+instructions', re.I)
 
 
 def sds_heading(t):
@@ -98,9 +100,15 @@ def classify_page(pages, i):
     file_is_sds = sds_heading(first) and bool(SDS_SECTION.search(' '.join(pages[:3])) or
                                               re.search(r'REACH|Regulation\s*\(E[CU]\)|revision\s+date|issue\s+date', first, re.I))
     page_sds_head = sds_heading(t)
-    page_tech_head = bool(TECH_HEAD.search(t)) and not page_sds_head
+    # inside a file that opens as an SDS only an explicit technical-sheet heading makes a page technical: SDS section 9
+    # tables also print "typical value" (NEXBASE 3080 SDS DL2-14512.pdf p.4, found 2026-11-10)
+    page_tech_head = bool(STRONG_TECH.search(t) if file_is_sds else TECH_HEAD.search(t)) and not page_sds_head
     if COA.search(t):
         return 'COA', 'coa', 'heading "Certificate of Analysis"'
+    if HANDLING.search(t) and not file_is_sds:
+        # Lubrizol product sheets end with an "Unloading, storage and blending instructions" page that refers to the
+        # Safety Data Sheet in its text; it is part of the technical document, not an SDS (reviewed 2026-11-10)
+        return 'TECHNICAL', 'handling', 'handling instructions page of a technical product sheet'
     if page_sds_head or (file_is_sds and not page_tech_head):
         why = ('"Safety Data Sheet" heading or SDS section structure on the page' if page_sds_head
                else 'page of a file that opens as a Safety Data Sheet')

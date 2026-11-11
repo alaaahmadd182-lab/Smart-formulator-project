@@ -1,0 +1,19 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/lead_review.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 4e836526fd3c0e0c9d758f88f8a60ce1c1774c02
+return code: 0
+expectation: zero
+verdict: pass
+duration: 3.4 s
+
+===== stdout =====
+cases (deduplicated product x property): 363
+  mand_lead: 89  insufficient_evidence 51, unrelated_mention 37, usable_evidence 1
+  mand_img: 32  insufficient_evidence 29, usable_evidence 3
+  lead: 76  insufficient_evidence 51, unrelated_mention 18, usable_evidence 7
+  img: 38  insufficient_evidence 38
+  cmp_gap: 139  usable_evidence 71, already_recorded 31, unrelated_mention 18, insufficient_evidence 12, unresolved_identity 7
+outcomes: insufficient_evidence 173, usable_evidence 81, unrelated_mention 71, already_recorded 31, unresolved_identity 7
+
+===== stderr =====
+

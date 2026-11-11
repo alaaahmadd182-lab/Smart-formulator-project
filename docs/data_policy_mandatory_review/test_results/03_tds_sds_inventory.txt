@@ -1,0 +1,20 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/tds_sds_inventory.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 4e836526fd3c0e0c9d758f88f8a60ce1c1774c02
+return code: 0
+expectation: zero
+verdict: pass
+duration: 0.4 s
+
+===== stdout =====
+TDS-SDS comparisons: 141
+  viscosity: 19  {'bound check only': 2, 'comparable': 15, 'comparability unknown': 2}
+  density: 46  {'comparable': 13, 'comparability unknown': 31, 'not comparable: condition': 1, 'bound check only': 1}
+  flash point: 59  {'bound check only': 42, 'comparability unknown': 5, 'comparable': 10, 'not comparable: method': 2}
+  pour point: 12  {'bound check only': 6, 'comparable': 6}
+  volatility: 1  {'comparable': 1}
+  viscosity index: 2  {'bound check only': 2}
+  TBN: 2  {'comparable': 2}
+
+===== stderr =====
+

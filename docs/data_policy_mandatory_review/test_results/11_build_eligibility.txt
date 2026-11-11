@@ -1,0 +1,16 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/mandatory_properties/build_eligibility.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 4e836526fd3c0e0c9d758f88f8a60ce1c1774c02
+return code: 0
+expectation: zero
+verdict: pass
+duration: 0.5 s
+
+===== stdout =====
+products: 264; snapshot 7600b30d8df614b669ff8fb4e5f0489c897c19ebdb0c35d9ab455bddf185cc8e
+  base_oil: tier1_complete (= formulation_eligible) 10 of 181
+  additive_package: tier1_complete (= formulation_eligible) 0 of 78
+  additive_component: tier1_complete (= formulation_eligible) 0 of 5
+
+===== stderr =====
+

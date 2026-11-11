@@ -161,7 +161,46 @@
       ]
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    {
+      "id": "EVR-2026-11-10-230-density",
+      "field": "density",
+      "conflict_type": "technical document vs technical document (undated)",
+      "values": [
+        {
+          "file": "DL2-12172.pdf",
+          "page": 1,
+          "value": "Density @ 15 °C, Typical: 0.8630 (no unit printed)"
+        },
+        {
+          "file": "DL2-11773.pdf",
+          "page": 1,
+          "value": "Density @ 15°C, Kg/L, Typical: 0.8625 (column marked * \"subject to confirmation\")"
+        }
+      ],
+      "resolved": false,
+      "note": "Found in the evidence review of 2026-11-10. The record cites the Luberef GII specification DL2-12172.pdf (typical density at 15 °C printed without a unit); the aramcoPRIMA brochure DL2-11773.pdf (image, render read) prints a different typical density in Kg/L at 15 °C and marks the 110 and 230 typicals \"subject to confirmation upon startup of the new Group II plant\". Both technical documents are undated; not resolved; the field is pending."
+    },
+    {
+      "id": "EVR-2026-11-11-230-density-external",
+      "field": "density",
+      "conflict_type": "technical document vs technical document",
+      "values": [
+        {
+          "file": "DL2-12172.pdf",
+          "page": 1,
+          "value": "Density @ 15 °C, Typical: 0.8630 (no unit printed)"
+        },
+        {
+          "file": "https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramcoprima/aramcoprima_2021_december/aramcoprima-230_yanbu_ar.pdf?hash=35009BCB03F8661F4C2220E5BC82ED39EAFE713F&la=ar",
+          "page": 1,
+          "value": "Density @ 15 °C | kg/L | D 4052 | 0.8635"
+        }
+      ],
+      "resolved": false,
+      "note": "Found in the external-source review of 2026-11-11 (Aramco sheet, bytes equal to the source_registry.json SHA-256). A third value beside conflict EVR-2026-11-10-230-density (brochure DL2-11773.pdf 0.8625, provisional). Not resolved; the field stays pending."
+    }
+  ],
   "source_documents": [
     {
       "file": "DL2-12172.pdf",

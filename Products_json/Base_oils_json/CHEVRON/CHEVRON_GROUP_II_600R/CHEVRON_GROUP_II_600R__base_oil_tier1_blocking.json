@@ -44,23 +44,25 @@
     },
     "kv40": {
       "value": null,
-      "qualifier": null,
-      "min": null,
+      "qualifier": "minimum",
+      "min": 100,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
+      "value_kind": "minimum",
+      "printed_text": "100 (MIN)",
       "unit": "cSt",
       "test_temperature_c": 40,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": "Filled in the evidence review of 2026-11-10 (lead review, reports/data_policy/lead_review.csv); Chevron \"Group II/II+ Specifications\" table, row \"Viscosity @ 40°C, cSt\" (ASTM D445), column 600R prints \"100 (MIN)\" (render read 2026-11-10). A specification minimum, not a typical value; recorded as a lower bound. DL2-10008/10010/10013/10014/10019 are byte-identical copies.",
       "source": {
-        "file": null,
-        "page": null,
+        "file": "DL2-10004.pdf",
+        "page": 1,
         "revision_date": null
       },
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
       "value_final": null,
-      "unit_final": "cSt"
+      "unit_final": "cSt",
+      "min_final": 100
     },
     "kv100": {
       "value": null,

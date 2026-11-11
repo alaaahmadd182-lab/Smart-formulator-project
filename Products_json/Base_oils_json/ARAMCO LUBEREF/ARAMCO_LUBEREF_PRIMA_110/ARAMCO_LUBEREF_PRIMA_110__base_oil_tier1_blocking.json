@@ -169,7 +169,27 @@
       ]
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    {
+      "id": "EVR-2026-11-10-110-density",
+      "field": "density",
+      "conflict_type": "technical document vs technical document (undated)",
+      "values": [
+        {
+          "file": "DL2-12172.pdf",
+          "page": 1,
+          "value": "Density @ 15 °C, Typical: 0.8500 (no unit printed)"
+        },
+        {
+          "file": "DL2-11773.pdf",
+          "page": 1,
+          "value": "Density @ 15°C, Kg/L, Typical: 0.8510 (column marked * \"subject to confirmation\")"
+        }
+      ],
+      "resolved": false,
+      "note": "Found in the evidence review of 2026-11-10. The record cites the Luberef GII specification DL2-12172.pdf (typical density at 15 °C printed without a unit); the aramcoPRIMA brochure DL2-11773.pdf (image, render read) prints a different typical density in Kg/L at 15 °C and marks the 110 and 230 typicals \"subject to confirmation upon startup of the new Group II plant\". Both technical documents are undated; not resolved; the field is pending."
+    }
+  ],
   "source_documents": [
     {
       "file": "DL2-12172.pdf",

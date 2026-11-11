@@ -111,3 +111,43 @@ tds_sds_inventory.py → source_coverage_ledger.py → build_eligibility.py
 ```
 
 The eligibility build stops if the ledger is stale.
+
+## 6. Revision 3 (2026-11-10, evidence review): additional affected files
+
+- **Product JSON:** the fills, qualifier corrections and conflict additions in `evidence_review.md` §2:
+  - CHEVRON_GROUP_II_600R, PETRONAS_ETRO_6, ARAMCO_LUBEREF_PRIMA_500, CHEVRON_SYNFLUID_MPAO_65, ERGON_HYGOLD_P150BS;
+  - EXXONMOBIL_SPECTRASYN_ULTRA_1000, NESTE_NEXBASE_3020/3043/3060/3080;
+  - ERGON_HYGOLD_5000BS/P70N;
+  - PETRONAS_ETRO_4, LUBRIZOL_CV2301, ARAMCO_LUBEREF_PRIMA_110/230/500.
+- **New tools:**
+  - `tools/data_policy/lead_review.py` (+ `lead_review_decisions.json`);
+  - `tools/data_policy/association_review.py` (+ `association_review_decisions.json`);
+  - `tools/mandatory_properties/co_component_evidence_scan.py`.
+- **New reports:**
+  - `reports/data_policy/lead_review.csv`, `name_match_review.csv`;
+  - `reports/mandatory_properties/documentation_coverage.csv`, `co_component_evidence.csv`.
+- **Changed tools:**
+  - `document_classes.py`: Lubrizol handling pages are technical; only a strong technical heading overrides inside an SDS file;
+  - `source_coverage_ledger.py`: reviewed associations only;
+  - `tds_sds_inventory.py`: reviewed comparisons; flash cup type required on both sides;
+  - `source_selection.py`: evidence fills, list fills, qualifier fixes, conflict additions, new pending fields;
+  - `requirements.py` / `build_eligibility.py`: version `.3`, restored `tier1_complete`, documentation coverage;
+  - `verify_preserved.py`: reports worktree, blob and reconstructed matches separately.
+- **New document:** `evidence_review.md`.
+
+## 7. Revision 3 completion (2026-11-11): additional affected files
+
+- **Product JSON:** conflict entries only: ARAMCO_LUBEREF_PRIMA_230 tier 1 (`EVR-2026-11-11-230-density-external`) and tier 2 (`EVR-2026-11-11-230-noack`).
+- **New tools:**
+  - `tools/data_policy/external_review.py` (+ `external_review_decisions.json`);
+  - `tools/data_policy/source_review_status.py`;
+  - `tools/data_policy/run_checks.py`.
+- **Changed tools:**
+  - `association_review.py`: universe frozen at `4e83652`, plus a `now_cited` column;
+  - `lead_review.py` (+ decisions): `exclude_if_comparison`; NEXBASE 3080 flash point added;
+  - `source_selection.py`: two conflict additions, updated pending reasons;
+  - `integration_diff.py`: `--against REF`.
+- **New reports:**
+  - `reports/data_policy/external_review.csv`, `source_review_status.csv`;
+  - `reports/data_policy/external_evidence/` (4 small source copies, `-text`).
+- **Check results:** `test_results/` is now written by `run_checks.py`. The four earlier piped outputs are replaced; Git history keeps them.

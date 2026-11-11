@@ -1,6 +1,13 @@
 # Mandatory requirements: authority map and open decisions
 
-Requirements version: `mandatory-tier1-2026-11-10.2` ([tools/mandatory_properties/requirements.py](../../tools/mandatory_properties/requirements.py)).
+Requirements version: `mandatory-tier1-2026-11-10.3` ([tools/mandatory_properties/requirements.py](../../tools/mandatory_properties/requirements.py)).
+
+**Interface meaning (restored in revision 3).** `tier1_complete` means "all mandatory Tier 1 requirements satisfied under the requirements version", and `formulation_eligible` has the same meaning.
+- A range or bound awaiting a use decision, a pending source selection, or unresolved applicability is **not** complete.
+- Information that is documented but not usable is reported separately, in `documentation_coverage.csv`.
+- **Gates.** Every gate is a requirement listed below; no other eligibility gate exists.
+  - The "unresolved source selection" category applies Rule 1 (the selected source must be established) and your instruction "if a requirement … cannot be established, do not mark the product eligible".
+  - It does not add a requirement; it decides whether an existing requirement is satisfied.
 
 Counts are blocking outcomes from [reports/mandatory_properties/requirement_outcomes.csv](../../reports/mandatory_properties/requirement_outcomes.csv) at the current snapshot. Products: 181 base oils, 78 packages, 5 components.
 
@@ -40,10 +47,10 @@ Counts are blocking outcomes from [reports/mandatory_properties/requirement_outc
 |---|---|---|---|---|---|
 | `fields.api_group_chemistry.api_group` | MPS 2: "API base-oil group + chemistry · Group I–V; mineral / hydrocracked / PAO / ester"; GL: "API group / chemistry · Base-stock classification (I–V) and oil family" | explicit | none | 76 (abs 73, appl 3: Shell Risella X 415/420/430 labelled "Not Required" under an unapproved rule) | F: Risella applicability |
 | `fields.api_group_chemistry.chemistry` | same | explicit | none | 31 (abs 31) | — |
-| `fields.kv40`, `fields.kv100` | MPS 2: "KV40 cSt (mm²/s) at 40 °C", "KV100 … at 100 °C"; GL: "Kinematic viscosity at two reference temperatures" | explicit | I-1 (a range or bound is documented but needs a use decision) | kv40: 31 (abs 15, bnd 13, sel 3); kv100: 32 (abs 12, bnd 17, sel 3) | B-REP |
-| `fields.viscosity_index` | MPS 2: "Viscosity index · dimensionless, from KV40 / KV100"; GL: "Unitless; derived from KV40/KV100" | explicit | I-1. "Derived from KV40/KV100" allows a calculated VI only through a registered, reproducible ASTM D2270 check. None is registered (the D2270 tables are not in the repository), so a calculated VI cannot be accepted. No record has one. | 76 (abs 46, bnd 27, inv 2, sel 1) | B-REP; ERGON correction (section 6) |
-| `fields.density` (with `test_temperature_c`) | MPS 2: "Density + reference temperature · kg/m³ at stated °C, usually 15 °C"; GL: "record reference °C" | explicit | Specific gravity never substitutes for density (GL: "never used as, or converted to, density") | 102 (abs 95, meta 3, sel 4) | — |
-| `fields.ccs[]` (value + `test_temperature_c`) | MPS 2: "CCS vs temperature · mPa·s, paired with −15 / −20 / −25 / −30 °C"; GL: "mPa·s; stated subzero °C" | explicit | I-2: one temperature point is enough | 146 (abs 132, bnd 12, appl 2) | D: applicability |
+| `fields.kv40`, `fields.kv100` | MPS 2: "KV40 cSt (mm²/s) at 40 °C", "KV100 … at 100 °C"; GL: "Kinematic viscosity at two reference temperatures" | explicit | I-1 (a range or bound is documented but needs a use decision) | kv40: 32 (abs 13, bnd 14, sel 5); kv100: 33 (abs 12, bnd 17, sel 4) | B-REP |
+| `fields.viscosity_index` | MPS 2: "Viscosity index · dimensionless, from KV40 / KV100"; GL: "Unitless; derived from KV40/KV100" | explicit | I-1. "Derived from KV40/KV100" allows a calculated VI only through a registered, reproducible ASTM D2270 check. None is registered (the D2270 tables are not in the repository), so a calculated VI cannot be accepted. No record has one. | 75 (abs 46, bnd 27, sel 2); the 2 ERGON invalid values were corrected against the source (section 6) | B-REP |
+| `fields.density` (with `test_temperature_c`) | MPS 2: "Density + reference temperature · kg/m³ at stated °C, usually 15 °C"; GL: "record reference °C" | explicit | Specific gravity never substitutes for density (GL: "never used as, or converted to, density") | 102 (abs 95, meta 3: aramcoPRIMA 110/230/500 printed without a unit, also pending; sel 4) | — |
+| `fields.ccs[]` (value + `test_temperature_c`) | MPS 2: "CCS vs temperature · mPa·s, paired with −15 / −20 / −25 / −30 °C"; GL: "mPa·s; stated subzero °C" | explicit | I-2: one temperature point is enough | 145 (abs 130, bnd 12, appl 2, sel 1) | D: applicability |
 | `fields.specific_gravity` | GL: "opt."; T: optional | optional | — | never blocks | — |
 
 ## 2. Additive packages (MPS slide 3 "TIER 1 — ROUTE-DEFINING … these make a generated recipe legitimate or invalid"; "Its route fields are as blocking as its numbers"; GL table B, Tier 1)
@@ -73,7 +80,7 @@ Counts are blocking outcomes from [reports/mandatory_properties/requirement_outc
 | `vm.json` block (polymer chemistry and form, active polymer + carrier, treat range by SAE grade, ΔKV100 response, SSI/PSSI, post-shear KV100/HTHS, CCS/MRV/gelation, dissolution temperature) | MPS 4 B "VISCOSITY MODIFIER — ADDS"; "VMs and PPDs stay components, but need response data on top"; GL: "A component response needs reference oil, dose and method" | conditional (VMs) | I-5: reported, **not blocking** (C) | 2 VMs (RF6602, AFTON_HITEC_5748): 22 of 24 subtype outcomes unmet | C |
 | `ppd.json` block | MPS 4 C | conditional (PPDs) | I-5: reported, not blocking | no PPD in the data | C |
 
-## 4. Decisions A–E (as requested) and the related F, G
+## 4. Decisions A–E (as requested) and the related F, G, H
 
 **A. Published formulation.**
 - MPS slide 3 and the glossary both list "Exact published formulation + its results" under Tier 1 route-defining. It is therefore explicitly mandatory for every additive package as written. Nothing in either source exempts a package.
@@ -90,7 +97,12 @@ Counts are blocking outcomes from [reports/mandatory_properties/requirement_outc
 - The implementation does not require a co-component merely because of that gap:
   - a package with no reported co-component is **unresolved applicability** (66), not absent;
   - a sourced statement is accepted if it is recorded in a proposed field `fields.co_component_requirement_statement`. This is an ordinary value object with value, printed_text, source and status Reported.
-- No record has such a field, and no source text was searched for such statements.
+- No record has such a field.
+- **Supplier statements searched (revision 3; `co_component_evidence.csv`).**
+  - 2 packages state that no supplemental PPD is needed: HiTEC 12210 and 12210M. This covers the PPD only.
+  - 13 packages name or require co-components, mostly without a dose. For example Infineum: "in combination with approved base stocks and viscosity modifiers".
+  - 63 packages have no explicit statement.
+  - An empty list is not evidence of absence.
 - **Decision required:** approve the field (a template change, which this workstream does not make), or choose another representation.
 
 **C. VM/PPD subtype blocks vs "missing Tier 2/3 does not block".**
@@ -146,7 +158,20 @@ Counts are blocking outcomes from [reports/mandatory_properties/requirement_outc
   | Blend / dissolution temperatures (interpretation) | point or range | — |
 
 - For each property, a bound may support a conservative use. For example, a CCS maximum gives an upper estimate for a cold-cranking check, and a VI minimum supports a VI-minimum check. Neither supports a blend calculation.
-- **Decision required:** for each property, which representations are acceptable for its intended use. Until then, ranges and bounds make Tier 1 complete but not formulation-eligible. If all of them were accepted today, the eligible count would not change (sensitivity table in `missing_mandatory_properties.md`).
+- **Decision required:** for each property, which representations are acceptable for its intended use. Until then, a range or bound leaves the requirement unmet (category `bound_or_range_needs_assessment`): the product is neither Tier 1 complete nor formulation-eligible, and the information is reported in `documentation_coverage.csv`. (Corrected 2026-11-11: an earlier sentence here still used the revision-2 meaning, "complete but not formulation-eligible".) If all ranges and bounds were accepted today, the eligible count would stay 10 (sensitivity table in `missing_mandatory_properties.md`).
+
+**H. External technical sources vs archived SDSs (new, 2026-11-11; Rule 1 scope).**
+- Rule 1 says "technical document first, SDS fallback", but it does not say whether a technical document that is not in the archive qualifies. Examples are a registered supplier web page or a distributor flyer.
+- The current data take both positions:
+  - 22 values are already selected from registered URLs;
+  - 3 aramcoULTRA 8 fields keep their archived SDS ranges, with the confirmed S-OIL typicals unused.
+- **Effect.** S_OIL_ARAMCO_ULTRA_8 is the only product whose sole unmet requirements are pending source selections (KV40, KV100). If pending selections were accepted, it would be the 11th eligible product (sensitivity row "unresolved_source_selection").
+  - Its KV40 has an unresolved logical incompatibility: the S-OIL typical 41.10 cSt lies below the SDS range 42.0–55.0 (an unresolved conflict recorded by the 2026-10 audit).
+  - Choosing a source would therefore not by itself make KV40 consistent.
+- **Decision required:**
+  - may a registered external technical document be selected over an archived SDS?
+  - may a distributor-issued document fill a Missing field (for example the BAPbase 4 specific gravity in the MOGO flyer)?
+  - Until decided, nothing changes.
 
 ## 5. Rules the implementation does not add
 
@@ -154,9 +179,12 @@ Counts are blocking outcomes from [reports/mandatory_properties/requirement_outc
 - No interpretation is promoted to an approved rule. `APPROVED_APPLICABILITY_RULES` is empty, and every interpretation I-1 … I-8 is listed as provisional.
 - `Not Required` / `Not Applicable` labels never satisfy a requirement without an approved rule.
 
-## 6. Record corrections proposed (not applied)
+## 6. Record corrections (applied in revision 3, after checking the source pages)
 
-- **ERGON_HYGOLD_5000BS** and **ERGON_HYGOLD_P70N** `viscosity_index`:
-  - The record has `qualifier: "minimum"` on `value: 81`, while its own printed text and notes say 81 is the typical value and the minimum is 80 / 60.
-  - The checker reports this as invalid_value: conflicting qualifier.
-  - **Proposed correction:** set `qualifier` to null. The value then reads as a typical with its specification minimum in `min`. This is an ordinary data correction, to be applied with the other Task 3 corrections after review.
+**ERGON_HYGOLD_5000BS** and **ERGON_HYGOLD_P70N** `viscosity_index`. The rendered pages DL2-10409.pdf and DL2-13346.pdf (p.1) print Viscosity Index with a specification MIN of 80 / 60 and a TYPICAL value of 81. The changes:
+- `qualifier` "minimum" was set to null;
+- `qualifier_previous` keeps the old label;
+- the specification minimum stays in `min`;
+- a dated note records the correction.
+
+The value is now a typical (point) value. Neither product is eligible, because both still lack API group and CCS.

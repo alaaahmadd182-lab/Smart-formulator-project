@@ -224,11 +224,11 @@ ARAMCO_LUBEREF_PRIMA_230,base_oil,aramcoPRIMA 230,density,missing_unit_condition
 ARAMCO_LUBEREF_PRIMA_230,base_oil,aramcoPRIMA 230,ccs,met,true,point,false,
 ARAMCO_LUBEREF_PRIMA_500,base_oil,aramcoPRIMA 500,api_group_chemistry.api_group,met,true,text,false,
 ARAMCO_LUBEREF_PRIMA_500,base_oil,aramcoPRIMA 500,api_group_chemistry.chemistry,met,true,text,false,
-ARAMCO_LUBEREF_PRIMA_500,base_oil,aramcoPRIMA 500,kv40,absent,true,,false,status Missing
+ARAMCO_LUBEREF_PRIMA_500,base_oil,aramcoPRIMA 500,kv40,met,true,point,false,
 ARAMCO_LUBEREF_PRIMA_500,base_oil,aramcoPRIMA 500,kv100,bound_or_range_needs_assessment,true,range,false,range (provisional rule: interpretation: a formulation calculation needs a point value; ranges and bounds are kept for review)
 ARAMCO_LUBEREF_PRIMA_500,base_oil,aramcoPRIMA 500,viscosity_index,bound_or_range_needs_assessment,true,lower_bound,false,lower bound (provisional rule: interpretation: a formulation calculation needs a point value; ranges and bounds are kept for review)
 ARAMCO_LUBEREF_PRIMA_500,base_oil,aramcoPRIMA 500,density,missing_unit_condition_provenance,true,point,false,unit not recorded
-ARAMCO_LUBEREF_PRIMA_500,base_oil,aramcoPRIMA 500,ccs,absent,true,,false,status Missing
+ARAMCO_LUBEREF_PRIMA_500,base_oil,aramcoPRIMA 500,ccs,met,true,point,false,
 ARAMCO_LUBEREF_PRIMA_500L,base_oil,aramcoPRIMA 500L,api_group_chemistry.api_group,met,true,text,false,
 ARAMCO_LUBEREF_PRIMA_500L,base_oil,aramcoPRIMA 500L,api_group_chemistry.chemistry,absent,true,,false,status Missing
 ARAMCO_LUBEREF_PRIMA_500L,base_oil,aramcoPRIMA 500L,kv40,met,true,point,false,
@@ -337,7 +337,7 @@ CHEVRON_GROUP_II_220R,base_oil,Chevron Base Oil 220R,density,absent,true,,false,
 CHEVRON_GROUP_II_220R,base_oil,Chevron Base Oil 220R,ccs,bound_or_range_needs_assessment,true,upper_bound,false,upper bound (provisional rule: interpretation: a formulation calculation needs a point value; ranges and bounds are kept for review)
 CHEVRON_GROUP_II_600R,base_oil,Chevron Base Oil 600R,api_group_chemistry.api_group,met,true,text,false,
 CHEVRON_GROUP_II_600R,base_oil,Chevron Base Oil 600R,api_group_chemistry.chemistry,met,true,text,false,
-CHEVRON_GROUP_II_600R,base_oil,Chevron Base Oil 600R,kv40,absent,true,,false,status Missing
+CHEVRON_GROUP_II_600R,base_oil,Chevron Base Oil 600R,kv40,bound_or_range_needs_assessment,true,lower_bound,false,lower bound (provisional rule: interpretation: a formulation calculation needs a point value; ranges and bounds are kept for review)
 CHEVRON_GROUP_II_600R,base_oil,Chevron Base Oil 600R,kv100,bound_or_range_needs_assessment,true,range,false,range (provisional rule: interpretation: a formulation calculation needs a point value; ranges and bounds are kept for review)
 CHEVRON_GROUP_II_600R,base_oil,Chevron Base Oil 600R,viscosity_index,bound_or_range_needs_assessment,true,lower_bound,false,lower bound (provisional rule: interpretation: a formulation calculation needs a point value; ranges and bounds are kept for review)
 CHEVRON_GROUP_II_600R,base_oil,Chevron Base Oil 600R,density,absent,true,,false,status Missing
@@ -586,7 +586,7 @@ ERGON_HYGOLD_5000BS,base_oil,HyGold 5000BS,api_group_chemistry.api_group,absent,
 ERGON_HYGOLD_5000BS,base_oil,HyGold 5000BS,api_group_chemistry.chemistry,met,true,text,false,
 ERGON_HYGOLD_5000BS,base_oil,HyGold 5000BS,kv40,met,true,point,false,
 ERGON_HYGOLD_5000BS,base_oil,HyGold 5000BS,kv100,met,true,point,false,
-ERGON_HYGOLD_5000BS,base_oil,HyGold 5000BS,viscosity_index,invalid_value,true,,false,lower bound recorded as both 81 (value) and 80 (min/max)
+ERGON_HYGOLD_5000BS,base_oil,HyGold 5000BS,viscosity_index,met,true,point,false,
 ERGON_HYGOLD_5000BS,base_oil,HyGold 5000BS,density,met,true,point,false,
 ERGON_HYGOLD_5000BS,base_oil,HyGold 5000BS,ccs,absent,true,,false,status Missing
 ERGON_HYGOLD_60,base_oil,HyGold 60,api_group_chemistry.api_group,absent,true,,false,status Missing
@@ -684,7 +684,7 @@ ERGON_HYGOLD_P70N,base_oil,HyGold P70N,api_group_chemistry.api_group,absent,true
 ERGON_HYGOLD_P70N,base_oil,HyGold P70N,api_group_chemistry.chemistry,met,true,text,false,
 ERGON_HYGOLD_P70N,base_oil,HyGold P70N,kv40,met,true,point,false,
 ERGON_HYGOLD_P70N,base_oil,HyGold P70N,kv100,met,true,point,false,
-ERGON_HYGOLD_P70N,base_oil,HyGold P70N,viscosity_index,invalid_value,true,,false,lower bound recorded as both 81 (value) and 60 (min/max)
+ERGON_HYGOLD_P70N,base_oil,HyGold P70N,viscosity_index,met,true,point,false,
 ERGON_HYGOLD_P70N,base_oil,HyGold P70N,density,met,true,point,false,
 ERGON_HYGOLD_P70N,base_oil,HyGold P70N,ccs,absent,true,,false,status Missing
 ERGON_HY_40,base_oil,HY 40,api_group_chemistry.api_group,absent,true,,false,status Missing
@@ -976,14 +976,14 @@ EXXONMOBIL_SYNESSTIC_5,base_oil,Synesstic 5,density,absent,true,,false,status Mi
 EXXONMOBIL_SYNESSTIC_5,base_oil,Synesstic 5,ccs,absent,true,,false,status Missing
 FORMOSA_150N_GII_PLUS,base_oil,Base Oil 150N GII+,api_group_chemistry.api_group,met,true,text,false,
 FORMOSA_150N_GII_PLUS,base_oil,Base Oil 150N GII+,api_group_chemistry.chemistry,met,true,text,false,
-FORMOSA_150N_GII_PLUS,base_oil,Base Oil 150N GII+,kv40,met,true,point,false,
+FORMOSA_150N_GII_PLUS,base_oil,Base Oil 150N GII+,kv40,unresolved_source_selection,true,point,false,"source selection pending: pending: SDS fallback source DL2-10011.pdf names ""150N Base oil"" without the grade ""GII+""; Formosa supplies 150N as GII (FPCC table DL2-12108.jpeg) and GII+ (DL2-10001.pdf); the SDS cannot be tied to this exact product (identity)."
 FORMOSA_150N_GII_PLUS,base_oil,Base Oil 150N GII+,kv100,bound_or_range_needs_assessment,true,range,false,range (provisional rule: interpretation: a formulation calculation needs a point value; ranges and bounds are kept for review)
 FORMOSA_150N_GII_PLUS,base_oil,Base Oil 150N GII+,viscosity_index,bound_or_range_needs_assessment,true,lower_bound,false,lower bound (provisional rule: interpretation: a formulation calculation needs a point value; ranges and bounds are kept for review)
 FORMOSA_150N_GII_PLUS,base_oil,Base Oil 150N GII+,density,absent,true,,false,status Missing
 FORMOSA_150N_GII_PLUS,base_oil,Base Oil 150N GII+,ccs,absent,true,,false,status Missing
 FORMOSA_500N_GII,base_oil,Base Oil 500N GII,api_group_chemistry.api_group,met,true,text,false,
 FORMOSA_500N_GII,base_oil,Base Oil 500N GII,api_group_chemistry.chemistry,met,true,text,false,
-FORMOSA_500N_GII,base_oil,Base Oil 500N GII,kv40,met,true,point,false,
+FORMOSA_500N_GII,base_oil,Base Oil 500N GII,kv40,unresolved_source_selection,true,point,false,"source selection pending: pending: SDS fallback source DL2-10017.pdf names ""500N Base oil"" without the grade ""GII""; its applicability to this exact product is not stated (identity)."
 FORMOSA_500N_GII,base_oil,Base Oil 500N GII,kv100,bound_or_range_needs_assessment,true,range,false,range (provisional rule: interpretation: a formulation calculation needs a point value; ranges and bounds are kept for review)
 FORMOSA_500N_GII,base_oil,Base Oil 500N GII,viscosity_index,bound_or_range_needs_assessment,true,lower_bound,false,lower bound (provisional rule: interpretation: a formulation calculation needs a point value; ranges and bounds are kept for review)
 FORMOSA_500N_GII,base_oil,Base Oil 500N GII,density,absent,true,,false,status Missing
@@ -1546,10 +1546,10 @@ PETRONAS_ETRO_3,base_oil,ETRO 3,ccs,absent,true,,false,status Missing
 PETRONAS_ETRO_4,base_oil,ETRO 4,api_group_chemistry.api_group,met,true,text,false,
 PETRONAS_ETRO_4,base_oil,ETRO 4,api_group_chemistry.chemistry,met,true,text,false,
 PETRONAS_ETRO_4,base_oil,ETRO 4,kv40,absent,true,,false,status Missing
-PETRONAS_ETRO_4,base_oil,ETRO 4,kv100,met,true,point,false,
-PETRONAS_ETRO_4,base_oil,ETRO 4,viscosity_index,met,true,point,false,
+PETRONAS_ETRO_4,base_oil,ETRO 4,kv100,unresolved_source_selection,true,point,false,source selection pending: pending: Technical documents DL2-10230.pdf (4.22) and DL2-12475.pdf (4.26) disagree; both undated (conflict EVR-2026-11-10-ETRO4).
+PETRONAS_ETRO_4,base_oil,ETRO 4,viscosity_index,unresolved_source_selection,true,point,false,source selection pending: pending: Technical documents DL2-10230.pdf (129) and DL2-12475.pdf (130) disagree; both undated (conflict EVR-2026-11-10-ETRO4).
 PETRONAS_ETRO_4,base_oil,ETRO 4,density,absent,true,,false,status Missing
-PETRONAS_ETRO_4,base_oil,ETRO 4,ccs,met,true,point,false,
+PETRONAS_ETRO_4,base_oil,ETRO 4,ccs,unresolved_source_selection,true,point,false,"source selection pending: pending: Technical documents DL2-10230.pdf (810/1,390/2,500) and DL2-12475.pdf (886/1,442/2,419) disagree; both undated (conflict EVR-2026-11-10-ETRO4)."
 PETRONAS_ETRO_4_PLUS,base_oil,ETRO 4+,api_group_chemistry.api_group,met,true,text,false,
 PETRONAS_ETRO_4_PLUS,base_oil,ETRO 4+,api_group_chemistry.chemistry,met,true,text,false,
 PETRONAS_ETRO_4_PLUS,base_oil,ETRO 4+,kv40,met,true,point,false,
@@ -1563,7 +1563,7 @@ PETRONAS_ETRO_6,base_oil,ETRO 6,kv40,absent,true,,false,status Missing
 PETRONAS_ETRO_6,base_oil,ETRO 6,kv100,met,true,point,false,
 PETRONAS_ETRO_6,base_oil,ETRO 6,viscosity_index,met,true,point,false,
 PETRONAS_ETRO_6,base_oil,ETRO 6,density,absent,true,,false,status Missing
-PETRONAS_ETRO_6,base_oil,ETRO 6,ccs,absent,true,,false,status Missing
+PETRONAS_ETRO_6,base_oil,ETRO 6,ccs,met,true,point,false,
 PETRONAS_ETRO_6_PLUS,base_oil,ETRO 6+,api_group_chemistry.api_group,met,true,text,false,
 PETRONAS_ETRO_6_PLUS,base_oil,ETRO 6+,api_group_chemistry.chemistry,met,true,text,false,
 PETRONAS_ETRO_6_PLUS,base_oil,ETRO 6+,kv40,met,true,point,false,
@@ -1867,8 +1867,8 @@ SHELL_RISELLA_X_430,base_oil,Shell Risella X 430,density,met,true,point,false,
 SHELL_RISELLA_X_430,base_oil,Shell Risella X 430,ccs,unresolved_applicability,true,,false,marked 'Not Required' without an approved applicability rule
 S_OIL_ARAMCO_ULTRA_8,base_oil,aramcoULTRA 8 (250 Neutral),api_group_chemistry.api_group,met,true,text,false,
 S_OIL_ARAMCO_ULTRA_8,base_oil,aramcoULTRA 8 (250 Neutral),api_group_chemistry.chemistry,met,true,text,false,
-S_OIL_ARAMCO_ULTRA_8,base_oil,aramcoULTRA 8 (250 Neutral),kv40,unresolved_source_selection,true,range,false,"source selection pending: pending: Only the SDS DL2-14611.pdf is in the archive (ranges); the S-OIL web table (external, typical) prints typical values. External technical page vs archived SDS; kept as is, for review."
-S_OIL_ARAMCO_ULTRA_8,base_oil,aramcoULTRA 8 (250 Neutral),kv100,unresolved_source_selection,true,range,false,"source selection pending: pending: Only the SDS DL2-14611.pdf is in the archive (ranges); the S-OIL web table (external, typical) prints typical values. External technical page vs archived SDS; kept as is, for review."
+S_OIL_ARAMCO_ULTRA_8,base_oil,aramcoULTRA 8 (250 Neutral),kv40,unresolved_source_selection,true,range,false,"source selection pending: pending: Only the SDS DL2-14611.pdf is in the archive (ranges); the S-OIL web table (external, typical; values confirmed on the saved copies 2026-11-11, external_review.csv) prints typical values. Whether an external technical page may be selected over the archived SDS is a policy decision; the KV40 typical 41.10 lies below the SDS range 42.0-55.0 (already recorded as an unresolved conflict by the 2026-10 audit)."
+S_OIL_ARAMCO_ULTRA_8,base_oil,aramcoULTRA 8 (250 Neutral),kv100,unresolved_source_selection,true,range,false,"source selection pending: pending: Only the SDS DL2-14611.pdf is in the archive (ranges); the S-OIL web table (external, typical; values confirmed on the saved copies 2026-11-11, external_review.csv) prints typical values. Whether an external technical page may be selected over the archived SDS is a policy decision; the KV40 typical 41.10 lies below the SDS range 42.0-55.0 (already recorded as an unresolved conflict by the 2026-10 audit)."
 S_OIL_ARAMCO_ULTRA_8,base_oil,aramcoULTRA 8 (250 Neutral),viscosity_index,met,true,point,false,
 S_OIL_ARAMCO_ULTRA_8,base_oil,aramcoULTRA 8 (250 Neutral),density,met,true,point,false,
 S_OIL_ARAMCO_ULTRA_8,base_oil,aramcoULTRA 8 (250 Neutral),ccs,met,true,point,false,

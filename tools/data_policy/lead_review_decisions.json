@@ -1,0 +1,2064 @@
+{
+ "description": "Reviewed decisions for the 352 lead cases of revision 2 (2026-11-10). Rules are matched in order (first match wins) on product (regex, full match), property, document and lead list. 'read' says how the page was read. 'comparisons' are reviewed opposite-document values added to the TDS-SDS inventory (tds_sds_inventory.py pairs each with the record's selected technical value).",
+ "rules": [
+  {
+   "match": {
+    "product": [
+     "CHEVRON_GROUP_II_600R"
+    ],
+    "property": [
+     "kv40"
+    ]
+   },
+   "outcome": "usable_evidence",
+   "identity": "DL2-10004.pdf is the Chevron Group II/II+ specification table with a 600R column (DL2-10008/10010/10013/10014/10019 are byte-identical copies)",
+   "printed": {
+    "*": "Viscosity @ 40°C, cSt (ASTM D445), 600R: 100 (MIN)"
+   },
+   "change": "kv40 filled as a lower bound (min 100 cSt at 40 °C) from DL2-10004.pdf p.1",
+   "reason": "Product-specific specification minimum printed; the record had it as Missing.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "CHEVRON_GROUP_II_.*"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Chevron Group II/II+ specification table, columns 60R/100R/150R/220R/600R/110RLV (six byte-identical copies)",
+   "printed": {
+    "*": "the cells for the missing properties print 'Report', 'N/A' or nothing (e.g. 60R KV100 'Report', 60R CCS 'N/A' at -20/-25/-30 °C, 600R CCS 'N/A'; no density row, only 'API Gravity: Report')"
+   },
+   "change": "none",
+   "reason": "No value is printed for these product/property cells.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "documents": [
+     "DL2-13200.pdf"
+    ],
+    "lists": [
+     "mand_lead",
+     "lead"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Chevron Synfluid C12/C10 PAO family 'Typical Properties' table with a column per grade",
+   "printed": {
+    "*": "VI and Noack '—' for C12/C10 Dimer and PAO 2/2.5; density only as 'Density, lb/gal.' with no temperature"
+   },
+   "change": "none",
+   "reason": "VI/Noack not printed for these grades; density lacks the reference temperature the property requires (not converted).",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "CHEVRON_SYNFLUID_(MPAO_40|MPAO_50|MPAO_65|MPAO_100|MPAO_150|PAO_2|PAO_4|PAO_5|PAO_6|PAO_7|PAO_8|PAO_9|PAO_40|PAO_6_HVI|PAO_8_BLEND)"
+    ],
+    "property": [
+     "density"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Synfluid single-grade technical sheets and SDSs naming the grade",
+   "printed": {
+    "*": "technical sheet 'Density, lb/gal' with no temperature; SDS 'Density : 0,84 g/cm3' (mPAO) or '795,7 g/l' (PAO 2) with no temperature; PAO 6/8 SDS 'Vapour density 10 (Air = 1.0)'"
+   },
+   "change": "none",
+   "reason": "Density requires a reference temperature; none is printed (not converted, not inferred).",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "CHEVRON_SYNFLUID_MPAO_65"
+    ],
+    "property": [
+     "flash_point"
+    ]
+   },
+   "outcome": "usable_evidence",
+   "identity": "DL2-11910.pdf 'Synfluid® mPAO 65 cSt' technical sheet; DL2-11908.PDF its SDS (product name mPAO 65 cSt)",
+   "printed": {
+    "*": "TDS: 'Flash Point (COC), °F, °C >511 (266)'; SDS: 'Flash point : 270 °C (518 °F) Method: ASTM D-92'"
+   },
+   "change": "flash_point filled from the technical sheet as a lower bound (> 266 °C, COC); SDS 270 °C kept as an alternate",
+   "reason": "Technical value first; SDS kept as alternate (Rule 1).",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "CHEVRON_SYNFLUID_PAO_40"
+    ],
+    "property": [
+     "noack_volatility"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Synfluid PAO 40 cSt sheet",
+   "printed": {
+    "*": "Volatility, Noack, wt% '----'"
+   },
+   "change": "none",
+   "reason": "No value printed.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "PETRO_CANADA_PURITY_L(35|40|45|50|60|65)"
+    ],
+    "property": [
+     "viscosity_index"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "DL2-10020.pdf p.2 'Typical properties of PURITY base oils' L-series table (columns L35 … L65)",
+   "printed": {
+    "*": "Viscosity Index '-' for L35, L40, L45, L50"
+   },
+   "change": "none",
+   "reason": "No value printed.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "PETRO_CANADA_PURITY_L(35|40|45|50|60|65)"
+    ],
+    "property": [
+     "ccs",
+     "noack_volatility"
+    ]
+   },
+   "outcome": "unrelated_mention",
+   "identity": "DL2-10020.pdf p.2: CCS and NOACK rows belong to the second table (grades 1003, 1017, 1020, 2204, 2305)",
+   "printed": {
+    "*": "the L-series table has no CCS or Noack row"
+   },
+   "change": "none",
+   "reason": "The label belongs to other grades' table.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "ADNOC_ADBASE_(2|3)CST"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "ADNOC 'Product Specifications' brochure page, columns ADbase 2/3/4/6/8 CST (DL2-12221 and DL2-13457 byte-identical)",
+   "printed": {
+    "*": "Apparent viscosity by CCS @-30 deg C '-' and Evaporation loss Noack '-' for 2CST and 3CST"
+   },
+   "change": "none",
+   "reason": "No value printed.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "ADNOC_ADBASE_(4|6|8)CST"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "ADNOC product specification images DL2-12420/12421/12468, one grade each",
+   "printed": {
+    "*": "no specific gravity row; Density 'Report'"
+   },
+   "change": "none",
+   "reason": "Property not printed.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "ARAMCO_LUBEREF_DURA_.*"
+    ],
+    "lists": [
+     "mand_lead",
+     "lead"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Luberef GI specification DL2-12173.pdf (columns aramcoDURA 150 / 500, Jeddah; BS150, Yanbu); SDSs DL2-15783/12648",
+   "printed": {
+    "*": "Viscosity @ 100 °C '-' (DURA 150/500); Viscosity @ 40 °C '-' (BS150); Density @ 15 °C 'REPORT'; SDS relative density 'No data available'"
+   },
+   "change": "none",
+   "reason": "No value printed.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "ARAMCO_LUBEREF_PRIMA_70"
+    ],
+    "lists": [
+     "mand_lead",
+     "lead"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Luberef GII specification DL2-12172.pdf (column aramcoPRIMA 70 Spec.); SDS DL2-15448.pdf",
+   "printed": {
+    "*": "Density @ 15 °C 'Report'; Noack cell blank for PRIMA 70 (15/7/5 belong to 110/230/500); SDS relative density 'No data available'"
+   },
+   "change": "none",
+   "reason": "No value printed for PRIMA 70.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "ARAMCO_LUBEREF_PRIMA_500"
+    ],
+    "property": [
+     "kv40",
+     "ccs"
+    ]
+   },
+   "outcome": "usable_evidence",
+   "identity": "aramcoPRIMA brochure DL2-11773.pdf (image), Group II 'Typical' table, column 'aramcoPRIMA 500' (no 'subject to confirmation' mark)",
+   "printed": {
+    "*": "KV40 96.4 cSt (D 445); Cranking Viscosity @ -20°C 14,550 and @ -25°C 26,000 mPa-s (D 5293)"
+   },
+   "change": "kv40 and ccs filled from DL2-11773.pdf p.1 (the specification cited by the record prints KV40 'Report' and no CCS row)",
+   "reason": "Product-specific typical values printed in a technical document.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "ARAMCO_LUBEREF_PRIMA_110"
+    ],
+    "property": [
+     "kv100",
+     "ccs"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "aramcoPRIMA brochure DL2-11773.pdf (image), column 'aramcoPRIMA 110*'",
+   "printed": {
+    "*": "KV100 4.6; Cranking Viscosity 900 (-20 °C) / 1,500 (-25 °C); footnote '*Typicals are subject to confirmation upon startup of the new Group II plant'"
+   },
+   "change": "none",
+   "reason": "The supplier marks these typicals as provisional; not entered as product data.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "ARAMCO_LUBEREF_PRIMA_(110|230|500)"
+    ],
+    "property": [
+     "specific_gravity"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "aramcoPRIMA brochure DL2-11773.pdf (image)",
+   "printed": {
+    "*": "no specific gravity row"
+   },
+   "change": "none",
+   "reason": "Property not printed.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "ARAMCO_LUBEREF_PRIMA_(100|150|220|500L|600)"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "aramcoPRIMA brochure DL2-11773.pdf (image), Group II 'Typical' table with a column per grade",
+   "printed": {
+    "*": "no specific gravity row; Noack cell blank for PRIMA 100 and 600"
+   },
+   "change": "none",
+   "reason": "Property not printed.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "EXXONMOBIL_APE_CORE_(600|2500)"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "AP/E Core specification DL2-13265.pdf (05-2020), columns CORE 100/150/600/2500",
+   "printed": {
+    "*": "CCS cells blank for CORE 600 and 2500 (1,250 belongs to CORE 150, 1,650 to CORE 100); KV40 blank for CORE 2500; Noack blank for 600/2500"
+   },
+   "change": "none",
+   "reason": "No value printed for these grades.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "EXXONMOBIL_EHC_(110|120)"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "EHC Series specification (4/29/2019 web print, two byte variants; DL2-11327 earlier sheet), columns EHC 45/50/65/110/120",
+   "printed": {
+    "*": "CCS and Noack cells blank for EHC 110 and EHC 120"
+   },
+   "change": "none",
+   "reason": "No value printed for these grades.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "EXXONMOBIL_SPECTRASYN_ULTRA_1000"
+    ],
+    "property": [
+     "specific_gravity"
+    ]
+   },
+   "outcome": "usable_evidence",
+   "identity": "DL2-13746.pdf 'SpectraSyn Ultra™ 1000' product sheet (© 2011)",
+   "printed": {
+    "*": "Specific Gravity (60.1°F (15.6°C)) 0.855 (typical), ASTM D4052"
+   },
+   "change": "specific_gravity filled (field created per template) from DL2-13746.pdf p.1",
+   "reason": "Product-specific technical value; the cited image sheet prints none.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "EXXONMOBIL_SPECTRASYN_ULTRA_(300|1000)"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "SpectraSyn Ultra 300/1000 product sheets DL2-11197/DL2-11190 (images)",
+   "printed": {
+    "*": "no CCS, density or specific gravity row (only a density correction factor)"
+   },
+   "change": "none",
+   "reason": "Property not printed.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "EXXONMOBIL_(ESTEREX_.*|SPECTRASYN_.*|SYNESSTIC_.*)"
+    ],
+    "property": [
+     "density"
+    ]
+   },
+   "outcome": "unrelated_mention",
+   "identity": "ExxonMobil product datasheets naming the product",
+   "printed": {
+    "*": "'Density Correction Factor … (g/cm³)/°C' and a Specific Gravity row only; SDS 'Vapor Density (Air = 1): N/D'"
+   },
+   "change": "none",
+   "reason": "The label matched a correction factor or vapour density; specific gravity is never used as density.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "EXXONMOBIL_SPECTRASYN_(2|40|100)"
+    ],
+    "property": [
+     "noack_volatility"
+    ]
+   },
+   "outcome": "unrelated_mention",
+   "identity": "SpectraSyn product datasheets",
+   "printed": {
+    "*": "'Evaporation Loss (… ASTM D972)'"
+   },
+   "change": "none",
+   "reason": "Evaporation loss by ASTM D972 is a different test from Noack (ASTM D5800).",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "FORMOSA_(150N_GII_PLUS|500N_GII)"
+    ],
+    "lists": [
+     "mand_lead",
+     "lead"
+    ]
+   },
+   "outcome": "unrelated_mention",
+   "identity": "FPCC MSDS DL2-10011/10017",
+   "printed": {
+    "*": "'Vapor Density (Air = 1): N/E'; the specification prints Specific Gravity 'Report'"
+   },
+   "change": "none",
+   "reason": "Vapour density is not density.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "FORMOSA_(150N_GII_PLUS|500N_GII)"
+    ]
+   },
+   "outcome": "unresolved_identity",
+   "identity": "SDS DL2-10011/10017 name '150N Base oil' / '500N Base oil' without the GII+/GII grade; Formosa supplies 150N as GII (FPCC table) and GII+ (DL2-10001.pdf)",
+   "printed": {
+    "*": "SDS: flash '>230℃ [ASTM D-92]', pour '<-12°C' / '≦-12°C'; specification: KV40 and specific gravity 'Report'"
+   },
+   "change": "kv40 and specific_gravity (SDS fallback) moved to pending (identity)",
+   "reason": "The SDS cannot be tied to the exact product record.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "NYNAS_BASE_STOCK_20"
+    ]
+   },
+   "outcome": "unrelated_mention",
+   "identity": "Associated documents are for other products: DL2-13379.pdf is the NYNAS S 3B SDS; DL2-12382.pdf is the NS 3 sheet",
+   "printed": {
+    "*": "values belong to NYNAS S 3B / NS 3"
+   },
+   "change": "none (associations excluded from the ledger)",
+   "reason": "Other product.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "NYNAS_.*"
+    ],
+    "property": [
+     "viscosity_index"
+    ],
+    "lists": [
+     "mand_lead",
+     "lead"
+    ]
+   },
+   "outcome": "unrelated_mention",
+   "identity": "Nynas SDSs",
+   "printed": {
+    "*": "'Regulation (EC) No. 1272/2008 [CLP] Annex VI Nota …'"
+   },
+   "change": "none",
+   "reason": "'Annex VI' is not a viscosity index.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "NYNAS_NS_3"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Nynas NS 3 sheets DL2-12382/15474",
+   "printed": {
+    "*": "Viscosity, 100°C 'NA' / 'N/A'"
+   },
+   "change": "none",
+   "reason": "No value printed.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "NYNAS_T_(22|110)"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Nynas T 22 / T 110 product sheets (images)",
+   "printed": {
+    "*": "no viscosity index, CCS, specific gravity or Noack row"
+   },
+   "change": "none",
+   "reason": "Property not printed.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "PETRONAS_ETRO_4",
+     "PETRONAS_ETRO_4_PLUS"
+    ],
+    "property": [
+     "density"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "PETRONAS ETRO 4 / 4+ product data sheets",
+   "printed": {
+    "*": "'Density ASTM D 1298/D 4052 kg/L 0.8348' / '0.8306' with no temperature"
+   },
+   "change": "none",
+   "reason": "Density requires a reference temperature (same reason as the ETRO 6+ exception).",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "PETRONAS_ETRO_6"
+    ],
+    "property": [
+     "ccs"
+    ]
+   },
+   "outcome": "usable_evidence",
+   "identity": "DL2-12475.pdf 'ETRO 4 & ETRO 6 Group III Base Oil - Technical Data Sheet', column ETRO 6 (the record's own source)",
+   "printed": {
+    "*": "CCS Viscosity (ASTM D5293, cP) typical: -25 °C 2,088; -30 °C 3,977; -35 °C 7,422"
+   },
+   "change": "ccs filled (three typical points) from DL2-12475.pdf p.1; the ETRO 4 column disagrees with ETRO 4's PDS and is recorded as a conflict",
+   "reason": "Product-specific typical values printed; the record had CCS Missing.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "PETRONAS_ETRO_6",
+     "PETRONAS_ETRO_4"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "DL2-12475.pdf (image), columns ETRO 4 and ETRO 6",
+   "printed": {
+    "*": "no KV40, density or specific gravity row"
+   },
+   "change": "none",
+   "reason": "Property not printed.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "S_OIL_SUPER_S_8"
+    ],
+    "property": [
+     "pour_point"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Super series table DL2-12392.pdf, column S-8 (Super 60N)",
+   "printed": {
+    "*": "Pour Point, °C 'L-40.0'"
+   },
+   "change": "none",
+   "reason": "The page does not define the prefix 'L' for pour point; reading it as '< -40' would be an interpretation.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "S_OIL_SUPER_S_8"
+    ]
+   },
+   "outcome": "unrelated_mention",
+   "identity": "Ultra-S series documents (other product); the Super series table has no CCS or Noack row",
+   "printed": {
+    "*": "Ultra-S grades only; 'Low CCS viscosity …' prose"
+   },
+   "change": "none (Ultra-S associations excluded)",
+   "reason": "Other product or prose.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "S_OIL_ULTRA_S_.*"
+    ],
+    "property": [
+     "ccs"
+    ]
+   },
+   "outcome": "unrelated_mention",
+   "identity": "Ultra-S series catalog pages",
+   "printed": {
+    "*": "'Low CCS viscosity ensures low temperature startability …' (prose)"
+   },
+   "change": "none",
+   "reason": "No CCS row.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "S_OIL_ULTRA_S_(2|3)"
+    ],
+    "property": [
+     "noack_volatility"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Ultra-S series table (columns Ultra-S 2/3/4/6/8)",
+   "printed": {
+    "*": "Noack, wt% '-' for Ultra-S 2 and 3"
+   },
+   "change": "none",
+   "reason": "No value printed.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "S_OIL_PREMIUM_P_.*"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "'PREMIUM SERIES' table DL2-11173.pdf (image), columns P-8 … P-480",
+   "printed": {
+    "*": "Sp.Gravity 15/4 °C only (no density); no CCS or Noack row"
+   },
+   "change": "none",
+   "reason": "Property not printed (specific gravity is never used as density).",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "BAPCO_BAPBASE_(4|6|8)"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Bapco product specification images (B-743B / B-760B / B-780B)",
+   "printed": {
+    "*": "Density at 15 °C 'To be reported'; no specific gravity row"
+   },
+   "change": "none",
+   "reason": "No value printed.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "FORMOSA_FPCC_70N_GII"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "FPCC API GII table DL2-12108.jpeg, 70N columns (the record's own source; ID-15 concerns only the 150N/500N columns)",
+   "printed": {
+    "*": "no CCS or specific gravity row; Noack '-' for 70N"
+   },
+   "change": "none",
+   "reason": "Property not printed.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "INFINEUM_D3375",
+     "INFINEUM_D3453"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Infineum product sheets DL2-10217/DL2-10220 (images)",
+   "printed": {
+    "*": "Typical Inspections without density (D3375), specific gravity or pour point rows"
+   },
+   "change": "none",
+   "reason": "Property not printed.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "NESTE_NEXBASE_30(20|43|60|80)"
+    ],
+    "property": [
+     "specific_gravity"
+    ],
+    "lists": [
+     "lead",
+     "img",
+     "mand_lead"
+    ]
+   },
+   "outcome": "usable_evidence",
+   "identity": "SDSs naming the exact NEXBASE grade (DL2-14513, DL2-15010, DL2-12735, DL2-14512)",
+   "printed": {
+    "NESTE_NEXBASE_3020": "Relative density 0,82 @ 15°C (ASTM D-4052)",
+    "NESTE_NEXBASE_3043": "Relative density 0,82-0,84 @ 15°C",
+    "NESTE_NEXBASE_3060": "Relative density 0,83-0,85 @ 15°C",
+    "NESTE_NEXBASE_3080": "Relative density 0,84 @ 15°C"
+   },
+   "change": "specific_gravity filled (SDS fallback; field created per template)",
+   "reason": "No technical document prints specific gravity (family TDS read on render; individual sheets print density).",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "NESTE_NEXBASE_30(20|30)"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "NEXBASE family TDS DL2-10962.pdf (image), columns 3020/3030",
+   "printed": {
+    "*": "VI '–' for 3020; no CCS row (the -20 °C row is kinematic viscosity); Noack '–'; no specific gravity row"
+   },
+   "change": "none",
+   "reason": "Property not printed.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "ERGON_HYGOLD_P150BS"
+    ],
+    "property": [
+     "noack_volatility"
+    ]
+   },
+   "outcome": "usable_evidence",
+   "identity": "HyGold P150BS Marketing Specification DL2-10961.pdf (the record's source)",
+   "printed": {
+    "*": "Noack Volatility, wt% ASTM D5800: typical 1.1 (no specification limit)"
+   },
+   "change": "noack_volatility filled (typical 1.1 wt%)",
+   "reason": "Product-specific typical value printed; the record had it Missing.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "GS_CALTEX_.*"
+    ],
+    "property": [
+     "noack_volatility"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "GS Caltex product specification (columns 60N, 150N, 220N, 600N, 2cSt_L, 2cst_H, 150BS)",
+   "printed": {
+    "*": "Noack printed only for 150N (13.8) and 220N (6.8); blank for these grades"
+   },
+   "change": "none",
+   "reason": "No value printed for these grades.",
+   "read": "render"
+  },
+  {
+   "match": {
+    "product": [
+     "INFINEUM_D3384",
+     "INFINEUM_D3451"
+    ],
+    "property": [
+     "pour_point"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Infineum SDSs",
+   "printed": {
+    "*": "'Pour point : not determined'"
+   },
+   "change": "none",
+   "reason": "No value printed.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "INFINEUM_D3424"
+    ],
+    "property": [
+     "specific_gravity"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "D3424 SDS in DL2-10204.pdf p.5",
+   "printed": {
+    "*": "'Relative Density (at 15.6 C):' with no value"
+   },
+   "change": "none",
+   "reason": "No value printed.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "JINZHOU_.*",
+     "MINGLAN_.*",
+     "WUXI_.*"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "supplier product sheets naming the package",
+   "printed": {
+    "*": "the property is printed as 'Report' / 'report'"
+   },
+   "change": "none",
+   "reason": "No value printed.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "LUBRIZOL_(3589C|3700|3700D)"
+    ],
+    "property": [
+     "tbn"
+    ]
+   },
+   "outcome": "unrelated_mention",
+   "identity": "Lubrizol product sheets",
+   "printed": {
+    "*": "'Product at 6.15 % by weight provides 11 TBN' / 'TBN booster required' (finished-oil TBN); no package TBN row"
+   },
+   "change": "none",
+   "reason": "Finished-oil TBN at a treat rate is not the package's TBN.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "LUBRIZOL_CV7540"
+    ],
+    "property": [
+     "density"
+    ]
+   },
+   "outcome": "unrelated_mention",
+   "identity": "Lubrizol CV7540 bulletin",
+   "printed": {
+    "*": "footnote 'Volume treatment rates are approximate as the actual treat rate is dependent on the density …'"
+   },
+   "change": "none",
+   "reason": "Footnote, not a value.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "LUBRIZOL_CV2301"
+    ],
+    "property": [
+     "flash_point"
+    ]
+   },
+   "outcome": "usable_evidence",
+   "identity": "Lubrizol CV2301 product sheet DL2-13065.pdf and SDS DL2-13713.pdf",
+   "printed": {
+    "*": "TDS p.2 'FLASH POINT, C, PMCC 158'; TDS p.3 'Flash Point (method) 165oC PMCC'; SDS p.5 '316 °F (158 °C) (Pensky-Martens Closed Cup)'"
+   },
+   "change": "internal inconsistency recorded as conflict EVR-2026-11-10-CV2301; field pending; SDS comparison added",
+   "reason": "The technical document disagrees with itself.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "LUBRIZOL_.*"
+    ],
+    "lists": [
+     "cmp_gap"
+    ]
+   },
+   "outcome": "already_recorded",
+   "identity": "the 'SDS' page was the 'Unloading, storage and blending instructions' page of the same Lubrizol product sheet (classifier corrected: TECHNICAL/handling)",
+   "printed": {
+    "*": "the same flash point / pour point as the property table (or a heating temperature, not a pour point)"
+   },
+   "change": "classifier corrected; no data change",
+   "reason": "Same technical document, same value; no TDS-SDS comparison exists.",
+   "read": "text layer",
+   "exclude_if_comparison": true
+  },
+  {
+   "match": {
+    "product": [
+     "AFTON_HITEC_(12010|8788B)"
+    ],
+    "property": [
+     "specific_gravity"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Afton SDSs",
+   "printed": {
+    "*": "'Relative density … Not available.'"
+   },
+   "change": "none",
+   "reason": "No value printed.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "AFTON_HITEC_12210",
+     "AFTON_HITEC_12210M"
+    ],
+    "property": [
+     "pour_point"
+    ]
+   },
+   "outcome": "unrelated_mention",
+   "identity": "Afton bulletins",
+   "printed": {
+    "*": "'already contains a pour point depressant (PPD) so no supplemental PPD should be needed'"
+   },
+   "change": "none (recorded as co-component evidence)",
+   "reason": "Prose about a PPD, not a pour point value.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "AFTON_HITEC_12200"
+    ],
+    "property": [
+     "density"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "HiTEC 12200 SDS DL2-12074.pdf p.7",
+   "printed": {
+    "*": "'0.989' in the relative density / density block, no unit or temperature"
+   },
+   "change": "none",
+   "reason": "Quantity, unit and temperature not established for a comparison.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "AFTON_HITEC_12210M"
+    ],
+    "property": [
+     "density"
+    ]
+   },
+   "outcome": "already_recorded",
+   "identity": "HiTEC 12210M bulletin and SDS",
+   "printed": {
+    "*": "bulletin 'Density, lbs/gal. 7.90' (no temperature); SDS 0.95 g/cm³ at 15 °C"
+   },
+   "change": "none",
+   "reason": "Already a documented exception (source_selection.EXCEPTIONS).",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "RICHFUL_RF6088",
+     "RICHFUL_RF6088F"
+    ],
+    "property": [
+     "specific_gravity"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Richful SDSs",
+   "printed": {
+    "*": "'Relative density : 0.955 g/cm3@20℃' (relative density with a density unit)"
+   },
+   "change": "none",
+   "reason": "Label and unit are inconsistent.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "RICHFUL_.*"
+    ],
+    "property": [
+     "specific_gravity"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Richful SDSs",
+   "printed": {
+    "*": "'Relative density : Not available / Not determined / No data available'"
+   },
+   "change": "none",
+   "reason": "No value printed.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "RICHFUL_RF6080",
+     "RICHFUL_RF6081"
+    ],
+    "property": [
+     "pour_point"
+    ]
+   },
+   "outcome": "unrelated_mention",
+   "identity": "Richful technical sheets",
+   "printed": {
+    "*": "'… using viscosity index improvers and pour point depressants …' (prose)"
+   },
+   "change": "none",
+   "reason": "Prose, not a value.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "YUBASE_.*"
+    ],
+    "property": [
+     "specific_gravity"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "YUBASE product sheets",
+   "printed": {
+    "*": "'Specific gravity at 15 °C | g/m3 | 0,8299' (a specific gravity with a mass-per-volume unit)"
+   },
+   "change": "none",
+   "reason": "Label and unit are inconsistent; not entered.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "ERGON_HYGOLD_.*",
+     "NESTE_NEXBASE_30(43|60|80)"
+    ],
+    "property": [
+     "density"
+    ],
+    "lists": [
+     "cmp_gap"
+    ]
+   },
+   "outcome": "unrelated_mention",
+   "identity": "SDSs naming the product",
+   "printed": {
+    "*": "SDS prints relative density (0,8x/0,9x at 15/15.56 °C), not density"
+   },
+   "change": "none (compared under specific_gravity)",
+   "reason": "Different quantity.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "ERGON_HYGOLD_(100|70E)"
+    ],
+    "property": [
+     "specific_gravity"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "HyGold SDS",
+   "printed": {
+    "*": "'Relative density Not available.'"
+   },
+   "change": "none",
+   "reason": "No value printed.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "product": [
+     "ARAMCO_LUBEREF_.*"
+    ],
+    "property": [
+     "density"
+    ],
+    "lists": [
+     "cmp_gap"
+    ]
+   },
+   "outcome": "insufficient_evidence",
+   "identity": "Luberef specifications and SDSs",
+   "printed": {
+    "*": "specification 'REPORT' / 'Report'; SDS relative density 'No data available'"
+   },
+   "change": "none",
+   "reason": "No value printed.",
+   "read": "text layer"
+  },
+  {
+   "match": {
+    "lists": [
+     "cmp_gap"
+    ],
+    "product": [
+     ".*"
+    ]
+   },
+   "outcome": "usable_evidence",
+   "identity": "SDS naming the exact product (association reviewed in name_match_review.csv)",
+   "printed": {
+    "*": "see the comparisons list for the printed SDS value"
+   },
+   "change": "TDS-SDS comparison added to the inventory (origin 'lead review'); no data change",
+   "reason": "Comparable or bound-check value printed on the product's SDS.",
+   "read": "text layer",
+   "requires_comparison": true
+  }
+ ],
+ "comparisons": [
+  {
+   "product": "AFTON_HITEC_12200",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-12074.pdf",
+    "page": 7,
+    "value": 135,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "PMCC",
+    "printed_text": "Closed cup: 135°C (275°F) [Pensky-Martens. Minimum]"
+   }
+  },
+  {
+   "product": "AFTON_HITEC_12210M",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-15569.pdf",
+    "page": 7,
+    "value": 135,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "PMCC",
+    "printed_text": "Closed cup: 135°C (275°F) [Pensky-Martens Minimum]"
+   }
+  },
+  {
+   "product": "ARAMCO_LUBEREF_DURA_150_JEDDAH",
+   "property": "viscosity_index",
+   "sds": {
+    "file": "DL2-15783.pdf",
+    "page": 5,
+    "value": 101,
+    "qualifier": "minimum",
+    "value_kind": "minimum",
+    "min": 101,
+    "unit": null,
+    "printed_text": "Viscosity index (min) :101."
+   }
+  },
+  {
+   "product": "ARAMCO_LUBEREF_DURA_150_JEDDAH",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-15783.pdf",
+    "page": 4,
+    "value": 200,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": null,
+    "printed_text": "Flash point : >= 200 °C"
+   }
+  },
+  {
+   "product": "ARAMCO_LUBEREF_DURA_150_JEDDAH",
+   "property": "pour_point",
+   "sds": {
+    "file": "DL2-15783.pdf",
+    "page": 5,
+    "value": -12,
+    "qualifier": "maximum",
+    "value_kind": "maximum",
+    "max": -12,
+    "unit": "°C",
+    "printed_text": "Pour point :-12 °C (max)"
+   }
+  },
+  {
+   "product": "ARAMCO_LUBEREF_DURA_BS150_YANBU",
+   "property": "viscosity_index",
+   "sds": {
+    "file": "DL2-12648.pdf",
+    "page": 5,
+    "value": 95,
+    "qualifier": "minimum",
+    "value_kind": "minimum",
+    "min": 95,
+    "unit": null,
+    "printed_text": "Viscosity index (min) :95."
+   }
+  },
+  {
+   "product": "ARAMCO_LUBEREF_DURA_BS150_YANBU",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-12648.pdf",
+    "page": 4,
+    "value": 232,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": null,
+    "printed_text": "Flash point : >= 232 °C"
+   }
+  },
+  {
+   "product": "ARAMCO_LUBEREF_DURA_BS150_YANBU",
+   "property": "pour_point",
+   "sds": {
+    "file": "DL2-12648.pdf",
+    "page": 5,
+    "value": -6,
+    "unit": "°C",
+    "printed_text": "Pour point : -6°C."
+   }
+  },
+  {
+   "product": "CHEVRON_SYNFLUID_MPAO_100",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-11906.PDF",
+    "page": 3,
+    "value": 255,
+    "unit": "°C",
+    "method": null,
+    "printed_text": "Flash point : 255 °C (491 °F)"
+   }
+  },
+  {
+   "product": "CHEVRON_SYNFLUID_PAO_2",
+   "property": "specific_gravity",
+   "sds": {
+    "file": "DL2-14991.pdf",
+    "page": 6,
+    "value": 0.8,
+    "unit": null,
+    "test_temperature_c": 15.6,
+    "printed_text": "Relative density : 0,8 at 15,6 °C (60,1 °F)"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_60",
+   "property": "specific_gravity",
+   "sds": {
+    "file": "DL2-10027.pdf",
+    "page": 7,
+    "value": 0.89,
+    "unit": null,
+    "test_temperature_c": 15.56,
+    "method": "ASTM D4052",
+    "printed_text": "Relative density 0,89 (15,56 °C (60 °F) ASTM D4052/ ISO 12185)"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_100E",
+   "property": "specific_gravity",
+   "sds": {
+    "file": "DL2-10033.pdf",
+    "page": 6,
+    "value": 0.91,
+    "unit": null,
+    "test_temperature_c": 15.6,
+    "method": "ASTM D4052",
+    "printed_text": "Relative density 0,91 Relative density temperature 15,6 °C (60,08 °F) ASTM D 4052/ ISO 12185"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_L1200",
+   "property": "specific_gravity",
+   "sds": {
+    "file": "DL2-10032.pdf",
+    "page": 6,
+    "value": 0.92,
+    "unit": null,
+    "test_temperature_c": 15.56,
+    "method": "ASTM D4052",
+    "printed_text": "Relative density 0,92 (15,56 °C (60 °F) ASTM D4052/ ISO 12185)"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_L2000",
+   "property": "specific_gravity",
+   "sds": {
+    "file": "DL2-10028.pdf",
+    "page": 6,
+    "value": 0.92,
+    "unit": null,
+    "test_temperature_c": 15.56,
+    "method": "ASTM D4052",
+    "printed_text": "Relative density 0,92 (15,56 °C (60 °F) ASTM D 4052/ ISO 12185)"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_L250E",
+   "property": "specific_gravity",
+   "sds": {
+    "file": "DL2-10030.pdf",
+    "page": 6,
+    "value": 0.91,
+    "unit": null,
+    "test_temperature_c": 15.6,
+    "method": "ISO 91-1",
+    "printed_text": "Relative density 0,91 (15,6 °C (60,08 °F) ISO 91-1)"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_L350E",
+   "property": "specific_gravity",
+   "sds": {
+    "file": "DL2-10023.pdf",
+    "page": 6,
+    "value": 0.91,
+    "unit": null,
+    "method": "ASTM D4052",
+    "printed_text": "Relative density 0,91 ASTM D 4052/ ISO 12185"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_L500",
+   "property": "specific_gravity",
+   "sds": {
+    "file": "DL2-10031.pdf",
+    "page": 6,
+    "value": 0.92,
+    "unit": null,
+    "test_temperature_c": 15.56,
+    "method": "ASTM D4052",
+    "printed_text": "Relative density 0,92 (15,56 °C (60 °F) ASTM D4052/ ISO 12185)"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_L750",
+   "property": "specific_gravity",
+   "sds": {
+    "file": "DL2-10025.pdf",
+    "page": 6,
+    "value": 0.92,
+    "unit": null,
+    "test_temperature_c": 15.56,
+    "method": "ASTM D4052",
+    "printed_text": "Relative density 0,92 (15,56 °C (60 °F) ASTM D 4052/ ISO 12185)"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_OLYMPUS_L500",
+   "property": "specific_gravity",
+   "sds": {
+    "file": "DL2-10026.pdf",
+    "page": 6,
+    "value": 0.91,
+    "unit": null,
+    "test_temperature_c": 15.56,
+    "method": "ASTM D4052",
+    "printed_text": "Relative density 0,91 (15,56 °C (60 °F) ASTM D 4052/ ISO 12185)"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_100",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-10029.pdf",
+    "page": 7,
+    "value": 162.8,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D92",
+    "printed_text": "Flash point >= 162,8 °C (>= 325,0 °F) Cleveland open cup ASTM D92/ ISO 2592"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_100E",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-10033.pdf",
+    "page": 6,
+    "value": 162.8,
+    "qualifier": ">",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D92",
+    "printed_text": "Flash point > 162,8 °C (> 325,0 °F) Cleveland open cup ASTM D 92/ ISO 2592"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_60",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-10027.pdf",
+    "page": 7,
+    "value": 146.1,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D92",
+    "printed_text": "Flash point >= 146,1 °C (>= 295,0 °F) Cleveland open cup ASTM D92/ ISO 2592"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_70E",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-10024.pdf",
+    "page": 7,
+    "value": 143.0,
+    "qualifier": ">",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D93",
+    "printed_text": "Flash point > 143,0 °C (> 289,4 °F) Pensky-Martens Closed Cup ASTM D 93"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_L1200",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-10032.pdf",
+    "page": 6,
+    "value": 204.4,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D92",
+    "printed_text": "Flash point >= 204,4 °C (>= 400,0 °F) Cleveland open cup ASTM D92/ ISO 2719/ IP36"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_L2000",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-10028.pdf",
+    "page": 6,
+    "value": 243.3,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D92",
+    "printed_text": "Flash point >= 243,3 °C (>= 470,0 °F) Cleveland open cup ASTM D 92/ ISO 2592"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_L250E",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-10030.pdf",
+    "page": 6,
+    "value": 160.0,
+    "qualifier": ">",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ISO 2719",
+    "printed_text": "Flash point > 160,0 °C (> 320,0 °F) Pensky-Martens Closed Cup ISO 2719"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_L350E",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-10023.pdf",
+    "page": 6,
+    "value": 198.9,
+    "unit": "°C",
+    "method": "ASTM D92",
+    "printed_text": "198,9 °C (390,0 °F) Cleveland open cup ASTM D 92/ ISO 2592 (the same line also prints >= 173,0 °C Pensky-Martens Closed Cup ASTM D 93)"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_L500",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-10031.pdf",
+    "page": 6,
+    "value": 165.6,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D92",
+    "printed_text": "Flash point >= 165,6 °C (>= 330,0 °F) Cleveland open cup ASTM D92/ ISO 2592"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_L750",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-10025.pdf",
+    "page": 6,
+    "value": 200.0,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D92",
+    "printed_text": "Flash point >= 200,0 °C (>= 392,0 °F) Cleveland open cup ASTM D 92/ ISO 2719/ IP36"
+   }
+  },
+  {
+   "product": "ERGON_HYGOLD_OLYMPUS_L500",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-10026.pdf",
+    "page": 6,
+    "value": 204.4,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D92",
+    "printed_text": "Flash point >= 204,4 °C (>= 400,0 °F) Cleveland open cup ASTM D 92/ ISO 2592"
+   }
+  },
+  {
+   "product": "EXXONMOBIL_ESTEREX_P81",
+   "property": "specific_gravity",
+   "sds": {
+    "file": "DL2-12989.pdf",
+    "page": 5,
+    "value": 0.96,
+    "unit": null,
+    "test_temperature_c": 15,
+    "method": "In-house method",
+    "printed_text": "Relative Density (at 15 °C): 0.96 [In-house method]"
+   }
+  },
+  {
+   "product": "EXXONMOBIL_ESTEREX_P81",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-12989.pdf",
+    "page": 5,
+    "value": 220,
+    "qualifier": ">",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D-93",
+    "printed_text": "Flash Point [Method]: >220°C (428°F) [ASTM D-93]"
+   }
+  },
+  {
+   "product": "EXXONMOBIL_ESTEREX_P81",
+   "property": "pour_point",
+   "sds": {
+    "file": "DL2-12989.pdf",
+    "page": 6,
+    "value": -34,
+    "qualifier": "<",
+    "value_kind": "upper bound",
+    "unit": "°C",
+    "method": "In-house method",
+    "printed_text": "Pour Point: < -34°C (-30°F) [In-house method]"
+   }
+  },
+  {
+   "product": "EXXONMOBIL_SPECTRASYN_2",
+   "property": "kv40",
+   "sds": {
+    "file": "DL2-13913.pdf",
+    "page": 5,
+    "value": 5.2,
+    "unit": "mm2/s",
+    "test_temperature_c": 40,
+    "method": "In-house method",
+    "printed_text": "Viscosity: 5.2 cSt (5.2 mm2/sec) at 40 °C [In-house method]"
+   }
+  },
+  {
+   "product": "EXXONMOBIL_SPECTRASYN_2",
+   "property": "specific_gravity",
+   "sds": {
+    "file": "DL2-13913.pdf",
+    "page": 5,
+    "value": 0.8,
+    "unit": null,
+    "test_temperature_c": 15,
+    "method": "In-house method",
+    "printed_text": "Relative Density (at 15 °C): 0.8 [In-house method]"
+   }
+  },
+  {
+   "product": "EXXONMOBIL_SPECTRASYN_2",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-13913.pdf",
+    "page": 5,
+    "value": 145,
+    "unit": "°C",
+    "method": "ASTM D-93",
+    "printed_text": "Flash Point [Method]: 145°C (293°F) [ASTM D-93]"
+   }
+  },
+  {
+   "product": "EXXONMOBIL_SPECTRASYN_2",
+   "property": "pour_point",
+   "sds": {
+    "file": "DL2-13913.pdf",
+    "page": 5,
+    "value": -66,
+    "unit": "°C",
+    "method": "In-house method",
+    "printed_text": "Pour Point: -66°C (-87°F) [In-house method]"
+   }
+  },
+  {
+   "product": "EXXONMOBIL_SPECTRASYN_ELITE_150",
+   "property": "specific_gravity",
+   "sds": {
+    "file": "DL2-11849.pdf",
+    "page": 5,
+    "value": 0.85,
+    "unit": null,
+    "test_temperature_c": 15,
+    "method": "In-house method",
+    "printed_text": "Relative Density (at 15 °C): 0.85 [In-house method]"
+   }
+  },
+  {
+   "product": "EXXONMOBIL_SPECTRASYN_ELITE_150",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-11849.pdf",
+    "page": 5,
+    "value": 246,
+    "unit": "°C",
+    "method": "ASTM D-92",
+    "printed_text": "Flash Point [Method]: 246°C (475°F) [ASTM D-92]"
+   }
+  },
+  {
+   "product": "EXXONMOBIL_SPECTRASYN_ELITE_150",
+   "property": "pour_point",
+   "sds": {
+    "file": "DL2-11849.pdf",
+    "page": 5,
+    "value": -33,
+    "unit": "°C",
+    "method": "In-house method",
+    "printed_text": "Pour Point: -33°C (-27°F) [In-house method]"
+   }
+  },
+  {
+   "product": "INFINEUM_D3424",
+   "property": "kv40",
+   "sds": {
+    "file": "DL2-10204.pdf",
+    "page": 6,
+    "value": 4240,
+    "unit": "mm2/s",
+    "test_temperature_c": 40,
+    "value_kind": "typical",
+    "printed_text": "Viscosity: 4240 cSt (4240 mm²/sec) at 40°C [Typical]"
+   }
+  },
+  {
+   "product": "INFINEUM_D3424",
+   "property": "density",
+   "sds": {
+    "file": "DL2-10204.pdf",
+    "page": 6,
+    "value": 960,
+    "unit": "kg/m3",
+    "test_temperature_c": 15,
+    "printed_text": "Density (at 15 ºC): 960 kg/m3 (8.01 lbs/gal, 0.96 kg/dm3)"
+   }
+  },
+  {
+   "product": "INFINEUM_D3451",
+   "property": "density",
+   "sds": {
+    "file": "DL2-13720.pdf",
+    "page": 11,
+    "value": 0.96,
+    "unit": "g/cm3",
+    "test_temperature_c": 15,
+    "method": "ASTM D4052",
+    "printed_text": "Density : 0,96 g/cm3 at 15 °C (59 ° F) Method: ASTM D4052"
+   }
+  },
+  {
+   "product": "INFINEUM_D3451",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-13720.pdf",
+    "page": 11,
+    "value": 182,
+    "unit": "°C",
+    "method": "ASTM D93",
+    "printed_text": "Flash point : 182 °C (360 ° F) Method: Pensky-Martens Closed Cup (ASTM D93)"
+   }
+  },
+  {
+   "product": "LUBRIZOL_CV2301",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-13713.pdf",
+    "page": 5,
+    "value": 158,
+    "unit": "°C",
+    "method": "PMCC",
+    "printed_text": "Flash Point: 316 °F (158 °C) (Pensky-Martens Closed Cup)"
+   }
+  },
+  {
+   "product": "LUBRIZOL_CV2301",
+   "property": "pour_point",
+   "sds": {
+    "file": "DL2-13713.pdf",
+    "page": 5,
+    "value": -18,
+    "unit": "°C",
+    "printed_text": "Pour Point Temperature: -18 °C"
+   }
+  },
+  {
+   "product": "NESTE_NEXBASE_3043",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-15010.pdf",
+    "page": 5,
+    "value": 220,
+    "qualifier": ">",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D-92",
+    "printed_text": "Flash point > 220°C (ASTM D-92)."
+   }
+  },
+  {
+   "product": "NESTE_NEXBASE_3043",
+   "property": "pour_point",
+   "sds": {
+    "file": "DL2-15010.pdf",
+    "page": 5,
+    "value": -12,
+    "qualifier": "≤",
+    "value_kind": "upper bound",
+    "unit": "°C",
+    "method": "ASTM D-97",
+    "printed_text": "Pour point ≤ -12°C (ASTM D-97)"
+   }
+  },
+  {
+   "product": "NESTE_NEXBASE_3060",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-12735.pdf",
+    "page": 4,
+    "value": 220,
+    "qualifier": ">",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D-92",
+    "printed_text": "Flash point > 220°C (ASTM D-92)."
+   }
+  },
+  {
+   "product": "NESTE_NEXBASE_3060",
+   "property": "pour_point",
+   "sds": {
+    "file": "DL2-12735.pdf",
+    "page": 4,
+    "value": -12,
+    "qualifier": "≤",
+    "value_kind": "upper bound",
+    "unit": "°C",
+    "method": "ASTM D-97",
+    "printed_text": "(Melting/pour point) ≤ -12°C (ASTM D-97)"
+   }
+  },
+  {
+   "product": "NESTE_NEXBASE_3080",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-14512.pdf",
+    "page": 4,
+    "value": 220,
+    "qualifier": ">",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D-92",
+    "printed_text": "Flash point > 220°C (ASTM D-92)."
+   }
+  },
+  {
+   "product": "NESTE_NEXBASE_3080",
+   "property": "pour_point",
+   "sds": {
+    "file": "DL2-14512.pdf",
+    "page": 4,
+    "value": -12,
+    "qualifier": "≤",
+    "value_kind": "upper bound",
+    "unit": "°C",
+    "method": "ASTM D-97",
+    "printed_text": "(Melting/pour point) ≤ -12°C (ASTM D-97)"
+   }
+  },
+  {
+   "product": "NYNAS_S_3B",
+   "property": "density",
+   "sds": {
+    "file": "DL2-13379.pdf",
+    "page": 8,
+    "value": 0.86,
+    "unit": "g/cm3",
+    "test_temperature_c": 15,
+    "printed_text": "Density 0,86 g/cm³ [15°C]"
+   }
+  },
+  {
+   "product": "NYNAS_S_3B",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-13379.pdf",
+    "page": 8,
+    "value": 100,
+    "qualifier": ">",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "PMCC",
+    "printed_text": "Closed cup: >100°C [Pensky-Martens.] (the same block also prints '>200°C' without a method)"
+   }
+  },
+  {
+   "product": "NYNAS_NYFROST_32",
+   "property": "density",
+   "sds": {
+    "file": "DL2-13444.pdf",
+    "page": 7,
+    "value": 0.9,
+    "unit": "g/cm3",
+    "test_temperature_c": 15,
+    "printed_text": "Density 0,9 g/cm³ [15°C]"
+   }
+  },
+  {
+   "product": "NYNAS_NYFROST_32",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-13444.pdf",
+    "page": 7,
+    "value": 180,
+    "qualifier": ">",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "PMCC",
+    "printed_text": "Closed cup: >180°C [Pensky-Martens.] (the same block also prints '>270°C' without a method)"
+   }
+  },
+  {
+   "product": "PETRONAS_ETRO_6_PLUS",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-14610.pdf",
+    "page": 3,
+    "value": 228,
+    "unit": "°C",
+    "method": "ASTM D 93",
+    "printed_text": "Flash point : 228 °C Method: ASTM D 93"
+   }
+  },
+  {
+   "product": "RICHFUL_RF6080",
+   "property": "density",
+   "sds": {
+    "file": "DL2-15835.pdf",
+    "page": 5,
+    "value": 0.998,
+    "unit": "g/cm3",
+    "test_temperature_c": 20,
+    "printed_text": "Density : 0.998 g/cm3 (20 °C)"
+   }
+  },
+  {
+   "product": "RICHFUL_RF6080",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-15835.pdf",
+    "page": 5,
+    "value": 180,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "COC",
+    "printed_text": "Flash point : ≥180 °C (COC)"
+   }
+  },
+  {
+   "product": "RICHFUL_RF6081",
+   "property": "density",
+   "sds": {
+    "file": "DL2-15837.pdf",
+    "page": 5,
+    "value": 1.0,
+    "unit": "g/cm3",
+    "test_temperature_c": 20,
+    "printed_text": "Density : 1.000 g/cm3 (20 °C)"
+   }
+  },
+  {
+   "product": "RICHFUL_RF6081",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-15837.pdf",
+    "page": 5,
+    "value": 180,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "COC",
+    "printed_text": "Flash point : ≥180 °C (COC)"
+   }
+  },
+  {
+   "product": "SHELL_RISELLA_X_415",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-13729.pdf",
+    "page": 8,
+    "value": 200,
+    "unit": "°C",
+    "method": "ISO 2592",
+    "printed_text": "Flash point : 200 °C / 392 °F Method: ISO 2592"
+   }
+  },
+  {
+   "product": "SHELL_RISELLA_X_415",
+   "property": "pour_point",
+   "sds": {
+    "file": "DL2-13729.pdf",
+    "page": 7,
+    "value": -39,
+    "unit": "°C",
+    "method": "ISO 3016",
+    "printed_text": "pour point : -39 °C / -38 °F Method: ISO 3016"
+   }
+  },
+  {
+   "product": "SHELL_RISELLA_X_420",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-13730.pdf",
+    "page": 8,
+    "value": 230,
+    "unit": "°C",
+    "method": "ISO 2592",
+    "printed_text": "Flash point : 230 °C / 446 °F Method: ISO 2592"
+   }
+  },
+  {
+   "product": "SHELL_RISELLA_X_420",
+   "property": "pour_point",
+   "sds": {
+    "file": "DL2-13730.pdf",
+    "page": 7,
+    "value": -36,
+    "unit": "°C",
+    "method": "ISO 3016",
+    "printed_text": "pour point : -36 °C / -33 °F Method: ISO 3016"
+   }
+  },
+  {
+   "product": "S_OIL_ULTRA_S_2",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-15235.pdf",
+    "page": 2,
+    "value": 150,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D 92",
+    "printed_text": "FLASH POINT (°C) ≥ 150℃ (ASTM D 92)"
+   }
+  },
+  {
+   "product": "S_OIL_ULTRA_S_3",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-15236.pdf",
+    "page": 2,
+    "value": 180,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D 92",
+    "printed_text": "FLASH POINT (°C) ≥ 180℃ (ASTM D 92)"
+   }
+  },
+  {
+   "product": "S_OIL_ULTRA_S_3",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-13823.pdf",
+    "page": 2,
+    "value": 170,
+    "qualifier": ">",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D-92",
+    "printed_text": "Flashpoint (method): >170 deg c (ASTM D-92)"
+   }
+  },
+  {
+   "product": "S_OIL_ULTRA_S_4",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-15139.pdf",
+    "page": 3,
+    "value": 210,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D 92",
+    "printed_text": "FLASH POINT (°C) ≥ 210℃ (ASTM D 92)"
+   }
+  },
+  {
+   "product": "S_OIL_ULTRA_S_6",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-15237.pdf",
+    "page": 2,
+    "value": 210,
+    "qualifier": "≥",
+    "value_kind": "lower bound",
+    "unit": "°C",
+    "method": "ASTM D 92",
+    "printed_text": "FLASH POINT (°C) ≥ 210℃ (ASTM D 92)"
+   }
+  },
+  {
+   "product": "S_OIL_ULTRA_S_8",
+   "property": "flash_point",
+   "sds": {
+    "file": "DL2-15238.pdf",
+    "page": 2,
+    "value": null,
+    "min": 240,
+    "max": 260,
+    "value_kind": "range",
+    "unit": "°C",
+    "method": "ASTM D 92",
+    "printed_text": "FLASH POINT (°C) 240 ~ 260℃ (ASTM D 92)"
+   }
+  }
+ ],
+ "added_cases": [
+  {
+   "product": "ARAMCO_LUBEREF_PRIMA_500",
+   "property": "kv40",
+   "lists": [
+    "mand_img"
+   ],
+   "found": "2026-11-10 (revision 3): the PRIMA density conflict linked the brochure DL2-11773.pdf to this product"
+  },
+  {
+   "product": "ARAMCO_LUBEREF_PRIMA_500",
+   "property": "ccs",
+   "lists": [
+    "mand_img"
+   ],
+   "found": "2026-11-10 (revision 3): the PRIMA density conflict linked the brochure DL2-11773.pdf to this product"
+  },
+  {
+   "product": "NESTE_NEXBASE_3080",
+   "property": "flash_point",
+   "lists": [
+    "cmp_gap"
+   ],
+   "found": "2026-11-10 (revision 3): appeared when the classifier stopped treating SDS DL2-14512.pdf p.4 as technical; closed by its reviewed SDS comparison"
+  }
+ ]
+}

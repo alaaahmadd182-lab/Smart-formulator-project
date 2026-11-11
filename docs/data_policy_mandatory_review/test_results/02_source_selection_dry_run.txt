@@ -1,0 +1,13 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/source_selection.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 4e836526fd3c0e0c9d758f88f8a60ce1c1774c02
+return code: 0
+expectation: zero + output matches '0 to apply; files to write \\(selections, notes, open questions, product blocks\\): 0'
+verdict: pass
+duration: 0.4 s
+
+===== stdout =====
+39 declared selections; 39 already in the data; 0 to apply; files to write (selections, notes, open questions, product blocks): 0
+
+===== stderr =====
+

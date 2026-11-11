@@ -1,10 +1,10 @@
 property,threshold,proposed,pairs_below,pairs_at_or_above,products_at_or_above,thresholds_version
-kv40,1.0,false,0,1,PETRONAS_ETRO_6_PLUS,thresholds-2026-11-10-proposed.2
-kv40,2.0,false,0,1,PETRONAS_ETRO_6_PLUS,thresholds-2026-11-10-proposed.2
-kv40,3.0,true,0,1,PETRONAS_ETRO_6_PLUS,thresholds-2026-11-10-proposed.2
-kv40,5.0,false,0,1,PETRONAS_ETRO_6_PLUS,thresholds-2026-11-10-proposed.2
-kv40,7.0,false,1,0,,thresholds-2026-11-10-proposed.2
-kv40,10.0,false,1,0,,thresholds-2026-11-10-proposed.2
+kv40,1.0,false,0,2,EXXONMOBIL_SPECTRASYN_2; PETRONAS_ETRO_6_PLUS,thresholds-2026-11-10-proposed.2
+kv40,2.0,false,0,2,EXXONMOBIL_SPECTRASYN_2; PETRONAS_ETRO_6_PLUS,thresholds-2026-11-10-proposed.2
+kv40,3.0,true,0,2,EXXONMOBIL_SPECTRASYN_2; PETRONAS_ETRO_6_PLUS,thresholds-2026-11-10-proposed.2
+kv40,5.0,false,1,1,PETRONAS_ETRO_6_PLUS,thresholds-2026-11-10-proposed.2
+kv40,7.0,false,2,0,,thresholds-2026-11-10-proposed.2
+kv40,10.0,false,2,0,,thresholds-2026-11-10-proposed.2
 kv100,1.0,false,1,5,RICHFUL_RF6066; RICHFUL_RF6069; RICHFUL_RF6077; RICHFUL_RF6081,thresholds-2026-11-10-proposed.2
 kv100,2.0,false,2,4,RICHFUL_RF6066; RICHFUL_RF6069; RICHFUL_RF6077,thresholds-2026-11-10-proposed.2
 kv100,3.0,true,2,4,RICHFUL_RF6066; RICHFUL_RF6069; RICHFUL_RF6077,thresholds-2026-11-10-proposed.2
@@ -21,13 +21,13 @@ specific_gravity,0.002,false,0,0,,thresholds-2026-11-10-proposed.2
 specific_gravity,0.003,false,0,0,,thresholds-2026-11-10-proposed.2
 specific_gravity,0.005,true,0,0,,thresholds-2026-11-10-proposed.2
 specific_gravity,0.01,false,0,0,,thresholds-2026-11-10-proposed.2
-flash_point,3.0,false,1,5,CHEVRON_SYNFLUID_MPAO_150; CHEVRON_SYNFLUID_PAO_2; CHEVRON_SYNFLUID_PAO_4; CHEVRON_SYNFLUID_PAO_6; CHEVRON_SYNFLUID_PAO_8,thresholds-2026-11-10-proposed.2
-flash_point,5.0,false,2,4,CHEVRON_SYNFLUID_MPAO_150; CHEVRON_SYNFLUID_PAO_4; CHEVRON_SYNFLUID_PAO_6; CHEVRON_SYNFLUID_PAO_8,thresholds-2026-11-10-proposed.2
-flash_point,8.0,false,5,1,CHEVRON_SYNFLUID_MPAO_150,thresholds-2026-11-10-proposed.2
-flash_point,10.0,true,5,1,CHEVRON_SYNFLUID_MPAO_150,thresholds-2026-11-10-proposed.2
-flash_point,15.0,false,5,1,CHEVRON_SYNFLUID_MPAO_150,thresholds-2026-11-10-proposed.2
-flash_point,20.0,false,5,1,CHEVRON_SYNFLUID_MPAO_150,thresholds-2026-11-10-proposed.2
-flash_point,30.0,false,6,0,,thresholds-2026-11-10-proposed.2
+flash_point,3.0,false,1,7,CHEVRON_SYNFLUID_MPAO_150; CHEVRON_SYNFLUID_PAO_2; CHEVRON_SYNFLUID_PAO_4; CHEVRON_SYNFLUID_PAO_6; CHEVRON_SYNFLUID_PAO_8; ERGON_HYGOLD_L350E; EXXONMOBIL_SPECTRASYN_ELITE_150,thresholds-2026-11-10-proposed.2
+flash_point,5.0,false,3,5,CHEVRON_SYNFLUID_MPAO_150; CHEVRON_SYNFLUID_PAO_4; CHEVRON_SYNFLUID_PAO_6; CHEVRON_SYNFLUID_PAO_8; EXXONMOBIL_SPECTRASYN_ELITE_150,thresholds-2026-11-10-proposed.2
+flash_point,8.0,false,6,2,CHEVRON_SYNFLUID_MPAO_150; EXXONMOBIL_SPECTRASYN_ELITE_150,thresholds-2026-11-10-proposed.2
+flash_point,10.0,true,6,2,CHEVRON_SYNFLUID_MPAO_150; EXXONMOBIL_SPECTRASYN_ELITE_150,thresholds-2026-11-10-proposed.2
+flash_point,15.0,false,6,2,CHEVRON_SYNFLUID_MPAO_150; EXXONMOBIL_SPECTRASYN_ELITE_150,thresholds-2026-11-10-proposed.2
+flash_point,20.0,false,6,2,CHEVRON_SYNFLUID_MPAO_150; EXXONMOBIL_SPECTRASYN_ELITE_150,thresholds-2026-11-10-proposed.2
+flash_point,30.0,false,7,1,EXXONMOBIL_SPECTRASYN_ELITE_150,thresholds-2026-11-10-proposed.2
 pour_point,0.0,false,0,0,,thresholds-2026-11-10-proposed.2
 pour_point,3.0,true,0,0,,thresholds-2026-11-10-proposed.2
 pour_point,6.0,false,0,0,,thresholds-2026-11-10-proposed.2

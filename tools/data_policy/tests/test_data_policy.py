@@ -65,6 +65,10 @@ class SourceSelection(unittest.TestCase):
                 n = _node(self._doc(ch['product'], ch['file']), ch['path'])
                 self.assertEqual(n['value'], ch['new']['value'])
                 self.assertEqual(n['status'], 'Reported')
+                if 'SDS fallback' in ch.get('change_label', ''):
+                    # declared SDS fallback: the value must come from an SDS page and no technical alternate may exist
+                    self.assertEqual(_cls(self.classes, n['source']), 'SDS', n['source'])
+                    continue
                 self.assertEqual(_cls(self.classes, n['source']), 'TECHNICAL', n['source'])
                 if ch['expect'].get('value') is None:  # previously Missing: there is no earlier value to keep
                     continue
@@ -167,6 +171,11 @@ class ComparisonRules(unittest.TestCase):
         self.assertEqual(TH.screen('kv100', 'comparable', 4.0, 0.2, '', 'false', threshold=5.0), TH.BELOW)
         self.assertEqual(TH.screen('tbn', 'comparable', 1.85, 2.0, '', 'false'), 'pending: no threshold proposed')
 
+    def test_flash_point_needs_cup_type_on_both_sides(self):
+        r = INV.compare('flash_point', {'value': 265, 'unit': '°C', 'printed_text': 'Flash Point (COC) 265'}, {'value': 255, 'unit': '°C'})
+        self.assertEqual(r['comparability'], 'comparability unknown')
+        self.assertNotIn('abs_diff', r)
+
     def test_zero_tds_value_uses_no_relative_difference(self):
         r = INV.compare('pour_point', {'value': 0, 'unit': '°C'}, {'value': -3, 'unit': '°C'})
         self.assertEqual(r['comparability'], 'comparable')
@@ -218,8 +227,7 @@ class Outputs(unittest.TestCase):
             for k in ('missing_mandatory_properties', 'eligibility_reasons', 'calculated_mandatory_properties'):
                 self.assertIsInstance(json.loads(r[k]), list)
             self.assertEqual(r['formulation_eligible'] == 'true', json.loads(r['missing_mandatory_properties']) == [])
-            if r['formulation_eligible'] == 'true':
-                self.assertEqual(r['tier1_complete'], 'true', 'eligible implies Tier 1 complete')
+            self.assertEqual(r['tier1_complete'], r['formulation_eligible'], 'version .3: both mean all mandatory Tier 1 satisfied')
             if r['formulation_eligible'] == 'false':
                 self.assertTrue(json.loads(r['eligibility_reasons']), 'ineligible product without a reason')
 
@@ -244,7 +252,10 @@ class Outputs(unittest.TestCase):
             n = sum(1 for r in self.rows if r['material_class'] == cls)
             c = sum(1 for r in self.rows if r['material_class'] == cls and r['tier1_complete'] == 'true')
             e = sum(1 for r in self.rows if r['material_class'] == cls and r['formulation_eligible'] == 'true')
-            self.assertIn(f'| {cls} | {n} | {c} | {e} |', md)
+            self.assertEqual(c, e, 'tier1_complete and formulation_eligible have the same meaning')
+            with open(os.path.join(self.path, 'documentation_coverage.csv'), encoding='utf-8') as fh2:
+                d = sum(1 for r in csv.DictReader(fh2) if r['material_class'] == cls and r['all_blocking_documented'] == 'true')
+            self.assertIn(f'| {cls} | {n} | {c} | {d} |', md)
         with open(os.path.join(self.path, 'requirement_outcomes.csv'), encoding='utf-8') as fh:
             outcomes = list(csv.DictReader(fh))
         with open(os.path.join(self.path, 'missing_mandatory_properties.csv'), encoding='utf-8') as fh:
@@ -275,7 +286,8 @@ class Safety(unittest.TestCase):
         before = snap()
         with redirect_stdout(io.StringIO()):
             for m in ('policy_lib', 'thresholds', 'tds_sds_inventory', 'document_classes', 'source_selection', 'integration_diff',
-                      'requirements', 'build_eligibility', 'source_coverage_ledger', 'treat_rate_basis_scan', 'verify_preserved'):
+                      'requirements', 'build_eligibility', 'source_coverage_ledger', 'treat_rate_basis_scan', 'verify_preserved',
+                      'lead_review', 'association_review', 'co_component_evidence_scan'):
                 importlib.reload(importlib.import_module(m))
         self.assertEqual(before, snap())
 
@@ -291,7 +303,8 @@ class Safety(unittest.TestCase):
         if out.returncode != 0:
             self.skipTest('baseline commit not available')
         import source_selection as S
-        allowed = {ch['product'] for ch in S.CHANGES} | {u[0] for u in S.OPEN_QUESTION_UPDATES}
+        allowed = ({ch['product'] for ch in S.CHANGES} | {u[0] for u in S.OPEN_QUESTION_UPDATES} | {c['product'] for c in S.LIST_FILLS}
+                   | {c['product'] for c in S.QUALIFIER_FIXES} | {c[0] for c in S.CONFLICT_ADDS})
         changed = {f.split('/')[-2] for f in out.stdout.splitlines() if f}
         self.assertTrue(changed <= allowed, changed - allowed)
 
@@ -301,6 +314,177 @@ class Safety(unittest.TestCase):
         if out.returncode != 0:
             self.skipTest('baseline commit not available')
         self.assertEqual(out.stdout.strip(), '')
+
+
+
+class EvidenceReview(unittest.TestCase):
+    """Revision 3: every lead case and name-match association has a recorded outcome; corrections are evidence-backed."""
+
+    @classmethod
+    def setUpClass(cls):
+        with open(os.path.join(P.REPORTS, 'data_policy', 'lead_review.csv'), encoding='utf-8') as fh:
+            cls.leads = list(csv.DictReader(fh))
+        with open(os.path.join(P.REPORTS, 'data_policy', 'name_match_review.csv'), encoding='utf-8') as fh:
+            cls.assoc = list(csv.DictReader(fh))
+
+    def test_every_lead_case_reviewed(self):
+        self.assertGreaterEqual(len(self.leads), 352)
+        self.assertEqual([r for r in self.leads if r['outcome'] == 'not_reviewed'], [])
+        import lead_review as LR
+        self.assertTrue(all(r['outcome'] in LR.OUTCOMES[:-1] for r in self.leads))
+        self.assertEqual(len({(r['product'], r['property']) for r in self.leads}), len(self.leads), 'deduplicated by product x property')
+
+    def test_usable_evidence_has_a_change_and_printed_value(self):
+        for r in self.leads:
+            if r['outcome'] == 'usable_evidence':
+                self.assertTrue(r['printed'] and r['change'] and r['change'] != 'none', (r['product'], r['property']))
+
+    def test_every_association_reviewed_and_wrong_ones_excluded(self):
+        self.assertEqual([r for r in self.assoc if r['verdict'] == 'not_reviewed'], [])
+        wrong = {(r['product'], r['document']) for r in self.assoc if r['usable_as_evidence'] == 'false'}
+        self.assertIn(('NYNAS_BASE_STOCK_20', 'DL2-13379.pdf'), wrong)
+        self.assertIn(('S_OIL_SUPER_S_8', 'DL2-11240.pdf'), wrong)
+        with open(os.path.join(P.REPORTS, 'data_policy', 'source_coverage_ledger.csv'), encoding='utf-8') as fh:
+            for row in csv.DictReader(fh):
+                for pid, doc in wrong:
+                    if row['product'] == pid:
+                        self.assertNotIn(doc + ' (name match', row['documents_examined'])
+
+    def test_reviewed_comparisons_reach_the_inventory(self):
+        with open(os.path.join(DP, 'lead_review_decisions.json'), encoding='utf-8') as fh:
+            comps = json.load(fh)['comparisons']
+        with open(os.path.join(P.REPORTS, 'data_policy', 'tds_sds_comparisons.csv'), encoding='utf-8') as fh:
+            inv = list(csv.DictReader(fh))
+        got = {(r['product'], r['property'], r['sds_file']) for r in inv}
+        for c in comps:
+            self.assertIn((c['product'], c['property'], c['sds']['file']), got)
+
+    def test_ergon_qualifier_corrected_and_previous_kept(self):
+        prods = P.load_products()
+        for pid, lo in (('ERGON_HYGOLD_5000BS', 80), ('ERGON_HYGOLD_P70N', 60)):
+            n = next(d for d in prods[pid]['files'].values() if d.get('tier') == 1)['fields']['viscosity_index']
+            self.assertIsNone(n['qualifier'])
+            self.assertEqual((n['value'], n['min'], n['qualifier_previous']), (81, lo, 'minimum'))
+            self.assertEqual(REQ.representation(n)[0], 'point')
+
+    def test_fills_cite_their_page_and_keep_sds_alternates(self):
+        prods = P.load_products()
+        f = next(d for d in prods['CHEVRON_SYNFLUID_MPAO_65']['files'].values() if d.get('tier') == 2)['fields']['flash_point']
+        self.assertEqual((f['value'], f['qualifier'], f['source']['file']), (266, '>', 'DL2-11910.pdf'))
+        self.assertTrue(any(a['source']['file'] == 'DL2-11908.PDF' and a['value'] == 270 for a in f['alternate_entries']))
+        c = next(d for d in prods['PETRONAS_ETRO_6']['files'].values() if d.get('tier') == 1)['fields']['ccs']
+        self.assertEqual([(x['value'], x['test_temperature_c']) for x in c], [(2088, -25), (3977, -30), (7422, -35)])
+        k = next(d for d in prods['CHEVRON_GROUP_II_600R']['files'].values() if d.get('tier') == 1)['fields']['kv40']
+        self.assertEqual((k['value'], k['min'], k['qualifier']), (None, 100, 'minimum'))
+
+    def test_new_conflicts_recorded_unresolved(self):
+        prods = P.load_products()
+        for pid, cid in (('PETRONAS_ETRO_4', 'EVR-2026-11-10-ETRO4'), ('LUBRIZOL_CV2301', 'EVR-2026-11-10-CV2301')):
+            hits = [c for d in prods[pid]['files'].values() for c in d.get('conflicts') or [] if isinstance(c, dict) and c.get('id') == cid]
+            self.assertEqual(len(hits), 1)
+            self.assertIs(hits[0]['resolved'], False)
+            self.assertGreaterEqual(len(hits[0]['values']), 2)
+
+    def test_formosa_identity_pending_not_fallback(self):
+        import source_selection as S
+        pend = {(p, f) for p, f, _ in S.PENDING_FIELDS}
+        for pid in ('FORMOSA_150N_GII_PLUS', 'FORMOSA_500N_GII'):
+            self.assertIn((pid, 'kv40'), pend)
+            self.assertNotIn((pid, 'kv40'), {(p, f) for p, f, _ in S.SDS_FALLBACK_FIELDS})
+
+    def test_preserved_and_evidence_bytes(self):
+        import verify_preserved as V
+        with redirect_stdout(io.StringIO()):
+            self.assertEqual(V.main([]), 0)
+
+    def test_association_universe_frozen_and_counted(self):
+        verdicts = collections.Counter(r['verdict'] for r in self.assoc)
+        self.assertEqual(sum(verdicts.values()), len({(r['product'], r['document']) for r in self.assoc}))
+        self.assertEqual(set(verdicts) - {'same_product', 'same_document_copy', 'other_product', 'family_document', 'unresolved'}, set())
+        cited = [r for r in self.assoc if r['now_cited'] == 'true']
+        self.assertTrue(all(r['usable_as_evidence'] == 'true' for r in cited), 'a cited association must be a reviewed same-product one')
+
+    def test_comparison_cases_are_usable_lead_cases(self):
+        with open(os.path.join(DP, 'lead_review_decisions.json'), encoding='utf-8') as fh:
+            comps = {(c['product'], c['property']) for c in json.load(fh)['comparisons']}
+        cases = {(r['product'], r['property']): r['outcome'] for r in self.leads}
+        for k in comps:
+            self.assertEqual(cases.get(k), 'usable_evidence', k)
+
+
+class ExternalReview(unittest.TestCase):
+    """Review of 2026-11-11: every external-source value has an outcome; unavailable sources are never called confirmed."""
+
+    @classmethod
+    def setUpClass(cls):
+        import external_review as ER
+        cls.ER = ER
+        with redirect_stdout(io.StringIO()):
+            cls.rc = ER.main([])
+        with open(os.path.join(P.REPORTS, 'data_policy', 'external_review.csv'), encoding='utf-8') as fh:
+            cls.rows = list(csv.DictReader(fh))
+        with open(ER.DECISIONS, encoding='utf-8') as fh:
+            cls.dec = json.load(fh)
+
+    def test_runs_clean_and_covers_every_external_selection(self):
+        self.assertEqual(self.rc, 0)
+        with open(os.path.join(P.REPORTS, 'data_policy', 'source_coverage_ledger.csv'), encoding='utf-8') as fh:
+            ext = {(r['product'], r['property']) for r in csv.DictReader(fh) if r['selection_status'] == 'external_selected'}
+        self.assertEqual(ext, {(r['product'], r['property']) for r in self.rows if r['kind'] == 'external_selected'})
+
+    def test_unobtained_sources_are_not_confirmed(self):
+        unobtained = {k for k, e in self.dec['evidence'].items() if not e.get('path') and not e.get('registry_sha256_match')}
+        for c in self.dec['cases']:
+            if set(c['evidence']) <= unobtained:
+                self.assertEqual(c['outcome'], 'inconclusive_source_unavailable', (c['product'], c['property']))
+        self.assertEqual({c['outcome'] for c in self.dec['cases'] if c['product'] == 'AFTON_HITEC_8788B'}, {'inconclusive_source_unavailable'})
+
+    def test_stale_decision_is_an_error(self):
+        c = self.dec['cases'][4]
+        node = copy.deepcopy(self.ER.field(P.load_products(), c['product'], c['property']))
+        self.assertTrue(self.ER.matches(node, c['expect']))
+        if isinstance(node, dict):
+            node['value'] = 'changed'
+        else:
+            node[0]['value'] = -1
+        self.assertFalse(self.ER.matches(node, c['expect']))
+
+    def test_8788b_stays_pending(self):
+        import source_selection as S
+        self.assertTrue(any(p == 'AFTON_HITEC_8788B' for p, *_ in S.PENDING))
+
+    def test_conflicts_found_recorded_unresolved(self):
+        prods = P.load_products()
+        for pid, cid in (('ARAMCO_LUBEREF_PRIMA_230', 'EVR-2026-11-11-230-noack'), ('ARAMCO_LUBEREF_PRIMA_230', 'EVR-2026-11-11-230-density-external')):
+            hits = [c for d in prods[pid]['files'].values() for c in d.get('conflicts') or [] if isinstance(c, dict) and c.get('id') == cid]
+            self.assertEqual(len(hits), 1, cid)
+            self.assertIs(hits[0]['resolved'], False)
+        # the aramcoULTRA 8 KV40 disagreement was already a conflict (2026-10 audit); it is not recorded twice
+        u8 = [c for d in prods['S_OIL_ARAMCO_ULTRA_8']['files'].values() for c in d.get('conflicts') or []
+              if isinstance(c, dict) and 'kv40' in str(c.get('field'))]
+        self.assertEqual(len(u8), 1)
+
+    def test_review_states_partition_the_ledger(self):
+        import source_review_status as RS
+        with redirect_stdout(io.StringIO()):
+            self.assertEqual(RS.main(), 0)
+        with open(os.path.join(P.REPORTS, 'data_policy', 'source_review_status.csv'), encoding='utf-8') as fh:
+            st = list(csv.DictReader(fh))
+        self.assertTrue(all(r['review_state'] in RS.STATES for r in st))
+        for r in st:
+            if r['external_outcome'] == 'inconclusive_source_unavailable':
+                self.assertEqual(r['review_state'], 'evidence_unavailable')
+
+
+class CheckRunner(unittest.TestCase):
+    """The saved check runner records each command's own return code."""
+
+    def test_return_codes_are_not_masked(self):
+        import run_checks as RC
+        bad = subprocess.run([sys.executable, '-c', 'import sys; print("x"); sys.exit(3)'], capture_output=True, text=True)
+        self.assertEqual(bad.returncode, 3)
+        self.assertTrue(all(e in ('zero', 'by_design_nonzero') for _, _, e, _ in RC.STEPS))
+        self.assertEqual([n for n, _, e, _ in RC.STEPS if e == 'by_design_nonzero'], ['verify_revision_v5'])
 
 
 if __name__ == '__main__':

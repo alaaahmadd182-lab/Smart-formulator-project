@@ -177,6 +177,206 @@ for pid, fname, spec_file, lo, hi, sds_file, sds_val, sds_line in [
                                  f'(and in its printed_text) is printed in {spec_file}, not in the SDS; it is now the selected value.')),
         evidence=f'{spec_file} p.1 (text layer): "3. Kinematic viscosity，100℃ mm2/s （cSt） {lo} {hi} D445" (Min., Max. columns)'))
 
+# ---------------------------------------------------------------- evidence review of 2026-11-10 (revision 3)
+# Fills of Missing fields from exact product-specific printed evidence found in the lead review
+# (reports/data_policy/lead_review.csv). Technical document first; SDS only where no technical document prints the
+# property. Each entry was read on the cited page (text layer, or a render where stated).
+REVIEW_NOTE = 'Filled in the evidence review of 2026-11-10 (lead review, reports/data_policy/lead_review.csv); '
+
+
+def _src(f, p, rev=None):
+    return dict(file=f, page=p, revision_date=rev)
+
+
+CHANGES += [
+    dict(product='CHEVRON_GROUP_II_600R', file='CHEVRON_GROUP_II_600R__base_oil_tier1_blocking.json', path='kv40',
+         expect=dict(value=None, source=None), change_label='filled from the technical specification (was Missing)',
+         new=dict(value=None, qualifier='minimum', min=100, max=None, value_kind='minimum', printed_text='100 (MIN)', unit='cSt',
+                  test_temperature_c=40, method='ASTM D445', source=_src('DL2-10004.pdf', 1),
+                  calculation_note=REVIEW_NOTE + 'Chevron "Group II/II+ Specifications" table, row "Viscosity @ 40°C, cSt" (ASTM D445), '
+                                                 'column 600R prints "100 (MIN)" (render read 2026-11-10). A specification minimum, not a typical '
+                                                 'value; recorded as a lower bound. DL2-10008/10010/10013/10014/10019 are byte-identical copies.'),
+         old_kind=None, evidence='DL2-10004.pdf p.1 (render): Viscosity @ 40°C, cSt | ASTM D445 | ... | 600R: 100 (MIN)'),
+    dict(product='CHEVRON_SYNFLUID_MPAO_65', file='CHEVRON_SYNFLUID_MPAO_65__base_oil_tier2_verification.json', path='flash_point',
+         expect=dict(value=None, source=None), change_label='filled from the technical sheet (was Missing); SDS value kept as alternate',
+         new=dict(value=266, qualifier='>', min=None, max=None, value_kind='lower bound', printed_text='Flash Point (COC), °F, °C >511 (266)',
+                  unit='°C', test_temperature_c=None, method='COC', flash_method='COC', source=_src('DL2-11910.pdf', 1),
+                  calculation_note=REVIEW_NOTE + 'Synfluid mPAO 65 cSt technical sheet prints the flash point as ">511 (266)" (°F, °C), '
+                                                 'a lower bound. DL2-15009.pdf prints the same line. The SDS DL2-11908.PDF p.3 prints 270 °C '
+                                                 '(ASTM D-92), kept as an alternate.'),
+         add_alternates=[dict(value=270, qualifier=None, min=None, max=None, value_kind='SDS reported', printed_text='Flash point : 270 °C (518 °F) Method: ASTM D-92',
+                              unit='°C', test_temperature_c=None, method='ASTM D-92', status='Reported', calculation_note=None,
+                              source=_src('DL2-11908.PDF', 3, '2017-07-10'),
+                              selection_note='SDS value, kept as an alternate: the technical sheet prints the property (Rule 1).')],
+         old_kind=None, evidence='DL2-11910.pdf p.1 (text layer): "Flash Point (COC), °F, °C >511 (266)"'),
+    dict(product='ERGON_HYGOLD_P150BS', file='ERGON_HYGOLD_P150BS_tier2.json', path='noack_volatility',
+         expect=dict(value=None, source=None), change_label='filled from the technical specification (was Missing)',
+         new=dict(value=1.1, qualifier=None, min=None, max=None, value_kind='typical', printed_text='Noack Volatility, wt% ASTM D5800 1.1',
+                  unit='wt%', test_temperature_c=None, method='ASTM D5800', source=_src('DL2-10961.pdf', 1),
+                  calculation_note=REVIEW_NOTE + 'HyGold P150BS Marketing Specification, "TYPICAL VALUES" column (no specification limit printed; '
+                                                 'render read 2026-11-10). Procedure and test temperature are not printed.'),
+         old_kind=None, evidence='DL2-10961.pdf p.1 (render): Noack Volatility, wt% | ASTM D5800 | | | 1.1 (typical)'),
+    dict(product='EXXONMOBIL_SPECTRASYN_ULTRA_1000', file='EXXONMOBIL_SPECTRASYN_ULTRA_1000__base_oil_tier1_blocking.json', path='specific_gravity',
+         expect=dict(value=None, source=None), create_field=True, change_label='filled from a technical sheet of the same product (field absent)',
+         new=dict(value=0.855, qualifier=None, min=None, max=None, value_kind='typical', printed_text='Specific Gravity (60.1°F (15.6°C)) 0.855',
+                  unit='dimensionless', test_temperature_c=15.6, method='ASTM D4052', source=_src('DL2-13746.pdf', 1, '2011'),
+                  calculation_note=REVIEW_NOTE + 'SpectraSyn Ultra 1000 product sheet (© 2011), typical value. The record\'s other values cite '
+                                                 'DL2-11190.pdf (image, undated), which prints no specific gravity; no conflict.'),
+         old_kind=None, evidence='DL2-13746.pdf p.1 (text layer): "Specific Gravity (60.1°F (15.6°C)) 0.855 0.855 ASTM D4052"'),
+]
+CHANGES.append(dict(
+    product='ARAMCO_LUBEREF_PRIMA_500', file='ARAMCO_LUBEREF_PRIMA_500__base_oil_tier1_blocking.json', path='kv40',
+    expect=dict(value=None, source=None), change_label='filled from the supplier brochure (technical; was Missing)',
+    new=dict(value=96.4, qualifier=None, min=None, max=None, value_kind='typical', printed_text='Kinematic Viscosity @ 40°C, cSt (D 445): 96.4',
+             unit='cSt', test_temperature_c=40, method='ASTM D445', source=_src('DL2-11773.pdf', 1),
+             calculation_note=REVIEW_NOTE + 'aramcoPRIMA brochure, Group II "Typical" table, column "aramcoPRIMA 500" (image, render read '
+                                            '2026-11-10; no "subject to confirmation" mark on this column). The specification DL2-12172.pdf cited '
+                                            'by the record prints KV40 "Report".'),
+    old_kind=None, evidence='DL2-11773.pdf p.1 (render): Kinematic Viscosity @ 40°C, cSt | D 445 | aramcoPRIMA 500 Typical 96.4'))
+
+for _pid, _file, _src_file, _pg, _rev, _printed, _val, _rng in [
+        ('NESTE_NEXBASE_3020', 'NESTE_NEXBASE_3020_tier1.json', 'DL2-14513.pdf', 5, '2020-06-16', 'Relative density 0,82 @ 15°C (ASTM D-4052).', 0.82, None),
+        ('NESTE_NEXBASE_3043', 'NESTE_NEXBASE_3043_tier1.json', 'DL2-15010.pdf', 5, None, 'Relative density 0,82-0,84 @ 15°C (ASTM D-4052).', None, (0.82, 0.84)),
+        ('NESTE_NEXBASE_3060', 'NESTE_NEXBASE_3060_tier1.json', 'DL2-12735.pdf', 4, '2017-10-17', 'Relative density 0,83-0,85 @ 15°C (ASTM D-4052)', None, (0.83, 0.85)),
+        ('NESTE_NEXBASE_3080', 'NESTE_NEXBASE_3080_tier1.json', 'DL2-14512.pdf', 4, '2020-07-03', 'Relative density 0,84 @ 15°C (ASTM D-4052)', 0.84, None)]:
+    CHANGES.append(dict(
+        product=_pid, file=_file, path='specific_gravity', expect=dict(value=None, source=None), create_field=True,
+        change_label='filled from the SDS (SDS fallback: no technical document prints it; field absent)',
+        new=dict(value=_val, qualifier=None, min=_rng[0] if _rng else None, max=_rng[1] if _rng else None,
+                 value_kind='range' if _rng else 'SDS reported', printed_text=_printed, unit='dimensionless', test_temperature_c=15,
+                 method='ASTM D-4052', source=_src(_src_file, _pg, _rev),
+                 calculation_note=REVIEW_NOTE + 'SDS section 9 "Relative density" (product name on p.1 is this NEXBASE grade). SDS fallback: '
+                                                'the family TDS DL2-10962.pdf and the individual sheet print density, not specific gravity. '
+                                                'The reference temperature of water is not printed.'),
+        old_kind=None, evidence=f'{_src_file} p.{_pg} (text layer): "{_printed}"'))
+
+# PETRONAS_ETRO_6 CCS is a list field: filled from the record's own TDS (DL2-12475.pdf, image, read on its render).
+LIST_FILLS = [
+    dict(product='PETRONAS_ETRO_6', file='PETRONAS_ETRO_6_tier1.json', path='ccs',
+         new=[dict(value=v, qualifier=None, min=None, max=None, value_kind='typical', printed_text=f'CCS Viscosity (ASTM D5293, cP) at {t}°C: {p}',
+                   unit='cP', test_temperature_c=t, method='ASTM D5293', status='Reported',
+                   calculation_note=REVIEW_NOTE + 'ETRO 4 & ETRO 6 Technical Data Sheet, column "ETRO 6 / Typical value" (image, render read '
+                                                  '2026-11-10). No specification is printed for CCS. 1 cP = 1 mPa·s.',
+                   source=_src('DL2-12475.pdf', 1)) for v, t, p in ((2088, -25, '2,088'), (3977, -30, '3,977'), (7422, -35, '7,422'))],
+         evidence='DL2-12475.pdf p.1 (render): CCS Viscosity, ASTM D5293, cP: at -25°C 2,088; at -30°C 3,977; at -35°C 7,422 (ETRO 6 typical)'),
+    dict(product='ARAMCO_LUBEREF_PRIMA_500', file='ARAMCO_LUBEREF_PRIMA_500__base_oil_tier1_blocking.json', path='ccs',
+         change_label='filled from the supplier brochure (technical; was Missing)',
+         new=[dict(value=v, qualifier=None, min=None, max=None, value_kind='typical', printed_text=f'Cranking Viscosity @ {t}°C, mPa-s (D 5293): {p}',
+                   unit='mPa.s', test_temperature_c=t, method='ASTM D5293', status='Reported',
+                   calculation_note=REVIEW_NOTE + 'aramcoPRIMA brochure, Group II "Typical" table, column "aramcoPRIMA 500" (image, render read '
+                                                  '2026-11-10; this column carries no "subject to confirmation" mark). The specification '
+                                                  'DL2-12172.pdf cited by the record prints no CCS row.',
+                   source=_src('DL2-11773.pdf', 1)) for v, t, p in ((14550, -20, '14,550'), (26000, -25, '26,000'))],
+         evidence='DL2-11773.pdf p.1 (render): Cranking Viscosity @ -20°C, mPa-s 14,550; @ -25°C 26,000 (aramcoPRIMA 500, Typical)'),
+]
+
+# Qualifier corrections confirmed on the source page (not only on the record's notes).
+QUALIFIER_FIXES = [
+    dict(product='ERGON_HYGOLD_5000BS', file='ERGON_HYGOLD_5000BS_tier1.json', path='viscosity_index', expect=dict(value=81, qualifier='minimum', min=80),
+         new_qualifier=None,
+         note='Corrected 2026-11-10: DL2-10409.pdf p.1 (render) prints Viscosity Index with specification MIN 80 and TYPICAL VALUES 81; the '
+              'qualifier "minimum" belonged to the specification (kept in min), not to the typical value 81.'),
+    dict(product='ERGON_HYGOLD_P70N', file='ERGON_HYGOLD_P70N_tier1.json', path='viscosity_index', expect=dict(value=81, qualifier='minimum', min=60),
+         new_qualifier=None,
+         note='Corrected 2026-11-10: DL2-13346.pdf p.1 (render) prints Viscosity Index with specification MIN 60 and TYPICAL VALUES 81; the '
+              'qualifier "minimum" belonged to the specification (kept in min), not to the typical value 81.'),
+]
+
+PRIMA230_SHEET = ('https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramcoprima/aramcoprima_2021_december/'
+                  'aramcoprima-230_yanbu_ar.pdf?hash=35009BCB03F8661F4C2220E5BC82ED39EAFE713F&la=ar')
+# Disagreements found in the evidence review, recorded as conflicts (both values, both sources; not resolved).
+PRIMA_NOTE = ('Found in the evidence review of 2026-11-10. The record cites the Luberef GII specification DL2-12172.pdf (typical density at '
+              '15 °C printed without a unit); the aramcoPRIMA brochure DL2-11773.pdf (image, render read) prints a different typical density '
+              'in Kg/L at 15 °C and marks the 110 and 230 typicals "subject to confirmation upon startup of the new Group II plant". Both '
+              'technical documents are undated; not resolved; the field is pending.')
+CONFLICT_ADDS = [
+    *[(pid, f'{pid}__base_oil_tier1_blocking.json', dict(
+        id=f'EVR-2026-11-10-{pid.rsplit("_", 1)[1]}-density', field='density', conflict_type='technical document vs technical document (undated)',
+        values=[dict(file='DL2-12172.pdf', page=1, value=f'Density @ 15 °C, Typical: {spec} (no unit printed)'),
+                dict(file='DL2-11773.pdf', page=1, value=f'Density @ 15°C, Kg/L, Typical: {bro}{star}')],
+        resolved=False, note=PRIMA_NOTE))
+      for pid, spec, bro, star in (('ARAMCO_LUBEREF_PRIMA_110', '0.8500', '0.8510', ' (column marked * "subject to confirmation")'),
+                                   ('ARAMCO_LUBEREF_PRIMA_230', '0.8630', '0.8625', ' (column marked * "subject to confirmation")'),
+                                   ('ARAMCO_LUBEREF_PRIMA_500', '0.867', '0.8720', ''))],
+    ('PETRONAS_ETRO_4', 'PETRONAS_ETRO_4_tier1.json', dict(
+        id='EVR-2026-11-10-ETRO4', field='kv100, viscosity_index, ccs', conflict_type='technical document vs technical document (undated editions)',
+        values=[dict(file='DL2-10230.pdf', page=1, value='KV100 4.22 mm²/s; VI 129; CCS 810 / 1,390 / 2,500 mPa·s at -25 / -30 / -35 °C (typical)'),
+                dict(file='DL2-12475.pdf', page=1, value='KV100 4.26 mm²/s; VI 130; CCS 886 / 1,442 / 2,419 cP at -25 / -30 / -35 °C (ETRO 4 typical; image, render read)')],
+        resolved=False, note='Found in the evidence review of 2026-11-10. Both technical documents are undated; no edition rule applies. The record keeps '
+                             'the DL2-10230.pdf values; the fields are pending (source_selection.PENDING_FIELDS).')),
+    ('LUBRIZOL_CV2301', 'tier2_numeric_contribution.json', dict(
+        id='EVR-2026-11-10-CV2301', field='flash_point', conflict_type='internal inconsistency of the technical document',
+        values=[dict(file='DL2-13065.pdf', page=2, value='FLASH POINT, C, PMCC 158 (Physical Characteristics, Target)'),
+                dict(file='DL2-13065.pdf', page=3, value='Flash Point (method) 165oC PMCC (handling instructions page)'),
+                dict(file='DL2-13713.pdf', page=5, value='Flash Point 316 °F (158 °C) (Pensky-Martens Closed Cup) (SDS)')],
+        resolved=False, note='Found in the evidence review of 2026-11-10. The same technical document prints 158 and 165 °C PMCC; the SDS prints '
+                             '158 °C. Not resolved; the field is pending (internally inconsistent technical document).')),
+    # found in the external-source review of 2026-11-11 (external_review_decisions.json)
+    ('ARAMCO_LUBEREF_PRIMA_230', 'ARAMCO_LUBEREF_PRIMA_230__base_oil_tier1_blocking.json', dict(
+        id='EVR-2026-11-11-230-density-external', field='density', conflict_type='technical document vs technical document',
+        values=[dict(file='DL2-12172.pdf', page=1, value='Density @ 15 °C, Typical: 0.8630 (no unit printed)'),
+                dict(file=PRIMA230_SHEET, page=1, value='Density @ 15 °C | kg/L | D 4052 | 0.8635')],
+        resolved=False, note='Found in the external-source review of 2026-11-11 (Aramco sheet, bytes equal to the source_registry.json SHA-256). '
+                             'A third value beside conflict EVR-2026-11-10-230-density (brochure DL2-11773.pdf 0.8625, provisional). '
+                             'Not resolved; the field stays pending.')),
+    ('ARAMCO_LUBEREF_PRIMA_230', 'ARAMCO_LUBEREF_PRIMA_230__base_oil_tier2_verification.json', dict(
+        id='EVR-2026-11-11-230-noack', field='noack_volatility', conflict_type='technical document vs technical document (typical outside the specification limit)',
+        values=[dict(file='DL2-12172.pdf', page=1, value='Noack, ASTM D5800-B: 7 (maximum)'),
+                dict(file=PRIMA230_SHEET, page=1, value='Noack Volatility (Procedure B) | wt% | D 5800 | 7.5')],
+        resolved=False, note='Found in the external-source review of 2026-11-11. The typical 7.5 printed by the Aramco sheet lies above the maximum 7 '
+                             'printed by the specification DL2-12172.pdf: logically incompatible. Not resolved; the selected value is unchanged.')),
+]
+
+
+def apply_evidence_corrections(prods, integ):
+    """Apply LIST_FILLS, QUALIFIER_FIXES and CONFLICT_ADDS (idempotent; each checks the expected current state)."""
+    errors, log, changed = [], [], set()
+    for c in LIST_FILLS:
+        f, d = find_file(prods, c['product'], c['file'])
+        cur = d['fields'].get(c['path'])
+        if isinstance(cur, list) and [x.get('value') for x in cur] == [x['value'] for x in c['new']]:
+            continue
+        if not (isinstance(cur, list) and all(x.get('status') == 'Missing' and x.get('value') is None for x in cur)):
+            errors.append(f"{c['product']} {c['path']}: expected an all-Missing list"); continue
+        new = []
+        for x in c['new']:
+            x = copy.deepcopy(x)
+            flags = integ.normalise(x, c['path'])
+            if flags:
+                x['integration_flags'] = flags
+            new.append(x)
+        d['fields'][c['path']] = new
+        changed.add(f)
+        log.append(dict(product=c['product'], file=c['file'], field=c['path'], before_value='Missing', before_source='',
+                        after_value='; '.join(f"{x['value']} at {x['test_temperature_c']} °C" for x in c['new']), after_unit='cP',
+                        after_source=c['new'][0]['source']['file'], after_page=c['new'][0]['source']['page'],
+                        change=c.get('change_label', "filled from the record's own technical document (was Missing)"), evidence=c['evidence']))
+    for c in QUALIFIER_FIXES:
+        f, d = find_file(prods, c['product'], c['file'])
+        n = d['fields'].get(c['path']) or {}
+        if n.get('qualifier') == c['new_qualifier'] and n.get('qualifier_previous') == c['expect']['qualifier']:
+            continue
+        if {k: n.get(k) for k in c['expect']} != c['expect']:
+            errors.append(f"{c['product']} {c['path']}: expected {c['expect']}"); continue
+        n['qualifier_previous'] = n.get('qualifier')
+        n['qualifier'] = c['new_qualifier']
+        n['notes'] = ((n.get('notes') or '') + ' ' + c['note']).strip()
+        changed.add(f)
+        log.append(dict(product=c['product'], file=c['file'], field=c['path'] + '.qualifier', before_value=c['expect']['qualifier'],
+                        before_source=(n.get('source') or {}).get('file'), after_value='null', after_unit='', after_source=(n.get('source') or {}).get('file'),
+                        after_page=(n.get('source') or {}).get('page'), change='qualifier corrected against the source page', evidence=c['note']))
+    for pid, name, conflict in CONFLICT_ADDS:
+        f, d = find_file(prods, pid, name)
+        if any(isinstance(x, dict) and x.get('id') == conflict['id'] for x in d.get('conflicts') or []):
+            continue
+        d.setdefault('conflicts', []).append(copy.deepcopy(conflict))
+        changed.add(f)
+        log.append(dict(product=pid, file=name, field=conflict['field'], before_value='', before_source='', after_value='conflict recorded',
+                        after_unit='', after_source='; '.join(v['file'] for v in conflict['values']), after_page='',
+                        change='disagreement recorded in conflicts[] (not resolved)', evidence=conflict['note']))
+    return changed, errors, log
+
+
 # conflict entries whose recorded resolution changes with the policy: (product, file, conflict field, new final_resolution)
 CONFLICT_UPDATES = [
     ('RICHFUL_RF6077', 'tier2_numeric_contribution.json', 'tier2.density',
@@ -254,8 +454,8 @@ EXCEPTIONS = [  # TDS value exists but is not selected; reason recorded
 PENDING = [  # needs a decision outside this rule
     ('RICHFUL_RF6066', 'density, kv100, tbn, elements.Zn, elements.Ca', 'Two undated TDS (DL2-13819.pdf, DL2-15451.pdf) print different values; no edition rule applies (TDS-TDS conflict). Fields keep their current values.'),
     ('RICHFUL_RF6069', 'kv100', 'Field holds 142 mm²/s from the supplier web page (2026-10-17); the archived undated TDS DL2-15618.pdf prints 118. Web page vs archived TDS edition; kept as is, for review.'),
-    ('S_OIL_ARAMCO_ULTRA_8', 'kv40, kv100, flash_point', 'Only the SDS DL2-14611.pdf is in the archive (ranges); the S-OIL web table (external, typical) prints typical values. External technical page vs archived SDS; kept as is, for review.'),
-    ('AFTON_HITEC_8788B', 'kv40, kv100, density, flash_point', 'The record cites an archived external Afton PDS (Internet Archive) for a base-oil claim; its numeric values have not been reviewed against the SDS values selected now.'),
+    ('S_OIL_ARAMCO_ULTRA_8', 'kv40, kv100, flash_point', 'Only the SDS DL2-14611.pdf is in the archive (ranges); the S-OIL web table (external, typical; values confirmed on the saved copies 2026-11-11, external_review.csv) prints typical values. Whether an external technical page may be selected over the archived SDS is a policy decision; the KV40 typical 41.10 lies below the SDS range 42.0-55.0 (already recorded as an unresolved conflict by the 2026-10 audit).'),
+    ('AFTON_HITEC_8788B', 'kv40, kv100, density, flash_point', 'The record cites an archived external Afton PDS (Internet Archive) for a base-oil claim; whether it prints these values is unknown: no copy could be obtained on 2026-11-11 (external_review.csv). If it prints them, Rule 1 would prefer them to the SDS values selected now.'),
     ('NESTE_NEXBASE_3043 to 3080', 'several', 'The NEXBASE family TDS DL2-10962.pdf (Edition 8) and the individual sheets (e.g. DL2-10037.pdf, edition 5.2) print different typical values for the same grades (TDS-TDS editions; not dated); not changed.'),
 ]
 # Field-level form of the pending cases (used by the coverage ledger and the eligibility build). The NEXBASE fields
@@ -282,11 +482,25 @@ PENDING_FIELDS = [
 ]
 
 # Field-level SDS fallbacks reviewed against the technical document (used by the coverage ledger).
+PENDING_FIELDS += [
+    *[(pid, 'density', 'Spec DL2-12172.pdf (no unit printed) and brochure DL2-11773.pdf (Kg/L at 15 °C) print different typical densities; both '
+                       'undated; the brochure marks 110/230 typicals as provisional (conflict EVR-2026-11-10-...-density).')
+      for pid in ('ARAMCO_LUBEREF_PRIMA_110', 'ARAMCO_LUBEREF_PRIMA_230', 'ARAMCO_LUBEREF_PRIMA_500')],
+    ('PETRONAS_ETRO_4', 'kv100', 'Technical documents DL2-10230.pdf (4.22) and DL2-12475.pdf (4.26) disagree; both undated (conflict EVR-2026-11-10-ETRO4).'),
+    ('PETRONAS_ETRO_4', 'viscosity_index', 'Technical documents DL2-10230.pdf (129) and DL2-12475.pdf (130) disagree; both undated (conflict EVR-2026-11-10-ETRO4).'),
+    ('PETRONAS_ETRO_4', 'ccs', 'Technical documents DL2-10230.pdf (810/1,390/2,500) and DL2-12475.pdf (886/1,442/2,419) disagree; both undated (conflict EVR-2026-11-10-ETRO4).'),
+    ('LUBRIZOL_CV2301', 'flash_point', 'The technical document DL2-13065.pdf prints 158 °C (p.2) and 165 °C (p.3) PMCC (conflict EVR-2026-11-10-CV2301).'),
+    ('FORMOSA_150N_GII_PLUS', 'kv40', 'SDS fallback source DL2-10011.pdf names "150N Base oil" without the grade "GII+"; Formosa supplies 150N as GII (FPCC table '
+                                      'DL2-12108.jpeg) and GII+ (DL2-10001.pdf); the SDS cannot be tied to this exact product (identity).'),
+    ('FORMOSA_150N_GII_PLUS', 'specific_gravity', 'Same identity question as kv40: SDS DL2-10011.pdf names "150N Base oil" without "GII+".'),
+    ('FORMOSA_500N_GII', 'kv40', 'SDS fallback source DL2-10017.pdf names "500N Base oil" without the grade "GII"; its applicability to this exact '
+                                 'product is not stated (identity).'),
+    ('FORMOSA_500N_GII', 'specific_gravity', 'Same identity question as kv40: SDS DL2-10017.pdf names "500N Base oil" without "GII".'),
+]
+
 SDS_FALLBACK_FIELDS = [
-    ('FORMOSA_150N_GII_PLUS', 'kv40', 'Specification DL2-10001.pdf p.1 prints "Report" for KV40 (no value); SDS value kept.'),
-    ('FORMOSA_150N_GII_PLUS', 'specific_gravity', 'Specification DL2-10001.pdf p.1 prints "Report" for specific gravity (no value); SDS value kept.'),
-    ('FORMOSA_500N_GII', 'kv40', 'Specification DL2-10003.pdf p.1 prints "Report" for KV40 (no value); SDS value kept.'),
-    ('FORMOSA_500N_GII', 'specific_gravity', 'Specification DL2-10003.pdf p.1 prints "Report" for specific gravity (no value); SDS value kept.'),
+    ('NESTE_NEXBASE_3020', 'specific_gravity', 'Family TDS DL2-10962.pdf (image, read on its render 2026-11-10) prints density at 15 °C but no '
+                                               'specific gravity; SDS DL2-14513.pdf value used.'),
     ('INFINEUM_D3384', 'specific_gravity', 'Technical sheet DL2-10218.pdf p.1 (image, read on its render 2026-11-10) prints density at 15 °C and in '
                                            'lb/USG but no specific gravity; SDS value kept.'),
 ]
@@ -295,7 +509,8 @@ SDS_FALLBACK_CONFIRMED = ('No technical document in the archive provides the pro
                           'tds_candidates.py and a text search of the archive): AFTON_HITEC_12010, AFTON_HITEC_8712, AFTON_HITEC_8799B, '
                           'CHEVRON_N204, CHEVRON_N216, CHEVRON_OLOA_59766 and RICHFUL_RF6089 (SDS-only packages); PETRONAS_EQUINAS_4 and _6 '
                           '(SDS only; DL2-15279.pdf is EQUINAS 8); specific gravity where the TDS prints a density but no specific gravity '
-                          '(INFINEUM_D3384, INFINEUM_D3451, AFTON_HITEC_12200, SHELL_RISELLA_X_415/420, PETRONAS_ETRO_6_PLUS, FORMOSA); '
+                          '(INFINEUM_D3384, INFINEUM_D3451, AFTON_HITEC_12200, SHELL_RISELLA_X_415/420, PETRONAS_ETRO_6_PLUS; FORMOSA moved to PENDING_FIELDS '
+                          'on 2026-11-10: SDS identity); '
                           'CAS chemical names from SDS section 3 where the technical document prints no chemistry; component carrier '
                           'and active-content shares (LUBRIZOL_CV6320, RF6602).')
 
@@ -325,11 +540,21 @@ def change_log():
     return [dict(product=c['product'], file=c['file'], field=c['path'], before_value=c['expect']['value'], before_source=c['expect']['source'],
                  after_value=c['new']['value'] if c['new']['value'] is not None else f"{c['new'].get('min')}-{c['new'].get('max')} (range)",
                  after_unit=c['new'].get('unit'), after_source=c['new']['source']['file'], after_page=c['new']['source']['page'],
-                 change=('filled from TDS (was Missing)' if c['expect']['value'] is None else
+                 change=(c['change_label'] if c.get('change_label') else 'filled from TDS (was Missing)' if c['expect']['value'] is None else
                          'technical specification range selected; SDS typical kept as alternate' if c['new']['value'] is None else
                          'source switched to TDS, same value' if c['expect']['value'] == c['new']['value'] else
                          'TDS value selected (differs from previous)'),
-                 evidence=c['evidence']) for c in CHANGES]
+                 evidence=c['evidence']) for c in CHANGES] + [
+        dict(product=c['product'], file=c['file'], field=c['path'], before_value='Missing', before_source='',
+             after_value='; '.join(f"{x['value']} at {x['test_temperature_c']} °C" for x in c['new']), after_unit=c['new'][0]['unit'],
+             after_source=c['new'][0]['source']['file'], after_page=c['new'][0]['source']['page'],
+             change=c.get('change_label', "filled from the record's own technical document (was Missing)"), evidence=c['evidence']) for c in LIST_FILLS] + [
+        dict(product=c['product'], file=c['file'], field=c['path'] + '.qualifier', before_value=c['expect']['qualifier'], before_source='',
+             after_value='null', after_unit='', after_source='', after_page='', change='qualifier corrected against the source page',
+             evidence=c['note']) for c in QUALIFIER_FIXES] + [
+        dict(product=pid, file=name, field=cf['field'], before_value='', before_source='', after_value='conflict recorded', after_unit='',
+             after_source='; '.join(v['file'] for v in cf['values']), after_page='', change='disagreement recorded in conflicts[] (not resolved)',
+             evidence=cf['note']) for pid, name, cf in CONFLICT_ADDS]
 
 
 def apply(prods, integ):
@@ -338,6 +563,11 @@ def apply(prods, integ):
     for c in CHANGES:
         f, d = find_file(prods, c['product'], c['file'])
         node = d['fields'].get(c['path'])
+        if node is None and c.get('create_field'):
+            # the record lacks this optional template field; it is created in the template's value-object shape
+            node = dict(value=None, qualifier=None, min=None, max=None, value_kind=None, printed_text=None, unit=None,
+                        test_temperature_c=None, method=None, status='Missing', calculation_note=None,
+                        source=dict(file=None, page=None, revision_date=None))
         if node is None:
             errors.append(f"{c['product']} {c['path']}: field not found"); continue
         now = dict(value=node.get('value'), source=(node.get('source') or {}).get('file'))
@@ -355,6 +585,9 @@ def apply(prods, integ):
             old.update(copy.deepcopy(c.get('old_override') or {}))
             old['selection_note'] = ALT_NOTE
             alts.append(old)
+        for extra in c.get('add_alternates') or []:  # reviewed values of the other document class, kept with provenance
+            if not any(a.get('source') == extra['source'] and a.get('value') == extra.get('value') for a in alts):
+                alts.append(copy.deepcopy(extra))
         keep_extra = {k: v for k, v in node.items() if k not in P.OWN_KEYS and k not in c['new'] and k not in
                       ('alternate_entries', 'notes', 'calculation_note', 'status', 'source', 'flash_method', 'value_kind_previous_label')}
         new = dict(keep_extra)
@@ -399,6 +632,10 @@ def apply(prods, integ):
             hit[0]['note'] = hit[0].get('note', '') + text
             changed.add(f)
     changed |= apply_open_questions(prods) | apply_product_updates(prods)
+    c2, e2, l2 = apply_evidence_corrections(prods, integ)
+    changed |= c2
+    errors += e2
+    log += l2
     return sorted(changed), errors, log
 
 
@@ -420,7 +657,7 @@ def main():
     if hasattr(sys.stdout, 'reconfigure'):
         sys.stdout.reconfigure(encoding='utf-8')
     prods = P.load_products()
-    todo = [c for c in CHANGES if not is_applied(find_file(prods, c['product'], c['file'])[1]['fields'][c['path']], c)]
+    todo = [c for c in CHANGES if not is_applied(find_file(prods, c['product'], c['file'])[1]['fields'].get(c['path']) or {}, c)]
     integ = integrate_module()
     changed, errors, log = apply(prods, integ)   # skips declared changes that are already applied
     # keep the reviewed resolution notes of integrate_products.ANNOTATIONS on the selected fields (idempotent)

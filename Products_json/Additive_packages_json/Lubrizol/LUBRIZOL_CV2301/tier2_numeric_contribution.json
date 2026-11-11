@@ -451,6 +451,30 @@
         }
       ],
       "note": "Same number printed at different stated temperatures (15.6 C on the TDS, 77 °F (25 °C) on the SDS) and under different labels and gallon bases ('LBS PER U.S. GAL' vs 'Bulk density ... lb/gal'). Both kept: TDS value in density, SDS value as an alternate entry. Document discrepancy requiring review; not resolved (2026-10-24)."
+    },
+    {
+      "id": "EVR-2026-11-10-CV2301",
+      "field": "flash_point",
+      "conflict_type": "internal inconsistency of the technical document",
+      "values": [
+        {
+          "file": "DL2-13065.pdf",
+          "page": 2,
+          "value": "FLASH POINT, C, PMCC 158 (Physical Characteristics, Target)"
+        },
+        {
+          "file": "DL2-13065.pdf",
+          "page": 3,
+          "value": "Flash Point (method) 165oC PMCC (handling instructions page)"
+        },
+        {
+          "file": "DL2-13713.pdf",
+          "page": 5,
+          "value": "Flash Point 316 °F (158 °C) (Pensky-Martens Closed Cup) (SDS)"
+        }
+      ],
+      "resolved": false,
+      "note": "Found in the evidence review of 2026-11-10. The same technical document prints 158 and 165 °C PMCC; the SDS prints 158 °C. Not resolved; the field is pending (internally inconsistent technical document)."
     }
   ],
   "external_fill_notes": []

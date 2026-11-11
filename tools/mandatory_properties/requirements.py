@@ -21,8 +21,11 @@ information that is not (yet) usable, so an unmet requirement is not reported as
   unresolved_applicability            whether or how the requirement applies is not established
   unresolved_source_selection         a value exists, but which source supplies it is pending (Rule 1)
 
-tier1_complete = every blocking requirement has documented information (met, not applicable, bound/range needing
-assessment, or a value whose source selection is pending). formulation_eligible = every blocking requirement is met.
+tier1_complete = every blocking (mandatory Tier 1) requirement is satisfied (met, or not applicable under an approved
+rule) under REQUIREMENTS_VERSION. formulation_eligible = tier1_complete; no other eligibility gate exists (a new gate
+needs a documented authority, requirements_review.md). Documentation coverage (documented but unusable information:
+bounds/ranges needing assessment, pending source selections) is reported separately (documentation_status), never as
+completeness.
 Subtype blocks (VM, PPD) are evaluated and reported but are NOT blocking: they are stored in tier 2 / tier 3 files and
 the project rule is that missing Tier 2/3 data does not block (decision C in requirements_review.md).
 
@@ -32,7 +35,7 @@ compatibility or performance.
 import math, re
 from collections import namedtuple
 
-REQUIREMENTS_VERSION = 'mandatory-tier1-2026-11-10.2'
+REQUIREMENTS_VERSION = 'mandatory-tier1-2026-11-10.3'
 
 MET, NOT_APPLICABLE = 'met', 'not_applicable_approved_rule'
 ABSENT = 'absent'
@@ -75,8 +78,8 @@ DEFAULT_REPRESENTATION = POINT_ONLY
 INTERPRETATIONS = [
     ('I-1', 'Ranges, one-sided bounds and direction-less specification values are documented information. They are never '
             'converted to an exact value and never rejected as absent; whether they serve a property\'s intended use is a '
-            'provisional, property-specific decision (REPRESENTATIONS). Until decided, they make Tier 1 complete but not '
-            'formulation-eligible.'),
+            'provisional, property-specific decision (REPRESENTATIONS). Until decided, the requirement is not satisfied: '
+            'the product is not Tier 1 complete; the information is reported in the documentation coverage.'),
     ('I-2', 'CCS "vs temperature" is satisfied by at least one CCS value with its test temperature.'),
     ('I-3', 'Component "primary and secondary function": the secondary function is optional; the primary is required.'),
     ('I-4', 'Function-specific markers are required for the functions the slide names (detergent: TBN + Ca or Mg; ZDDP: '
@@ -728,6 +731,13 @@ CHECKERS = {'base_oil': base_oil_requirements, 'additive_package': additive_pack
 
 
 def summarize(outcomes):
-    """(tier1_complete, formulation_eligible) from blocking outcomes."""
-    blocking = [o for o in outcomes if o.blocking]
-    return all(o.category in DOCUMENTED for o in blocking), all(o.category in SATISFIED for o in blocking)
+    """(tier1_complete, formulation_eligible) from blocking outcomes: both mean "all mandatory Tier 1 requirements
+    satisfied under REQUIREMENTS_VERSION" (the interface meaning agreed for product_eligibility.csv)."""
+    complete = all(o.category in SATISFIED for o in outcomes if o.blocking)
+    return complete, complete
+
+
+def documentation_status(outcomes):
+    """Companion measure, NOT completeness: every blocking requirement has documented information, even if a range,
+    bound or pending source selection keeps it from being satisfied."""
+    return all(o.category in DOCUMENTED for o in outcomes if o.blocking)

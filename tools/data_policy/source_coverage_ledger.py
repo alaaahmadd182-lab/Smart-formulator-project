@@ -6,7 +6,9 @@ It does not rely on the audit, conflicts[] or alternate_entries alone. For each 
 documents:
   - cited: every archive file cited anywhere in the product's records (values, alternates, conflicts, product block);
   - name match: archive files that name the product but are not cited (from the 2026-10-27 audit document map,
-    tools/audit/original_2026-10-27_to_30/intermediate/docmap.json; a heuristic association, flagged as unverified);
+    tools/audit/original_2026-10-27_to_30/intermediate/docmap.json; a heuristic association). Each one carries its
+    reviewed identity verdict (association_review_decisions.json); documents reviewed as another product or an
+    unestablished family document are excluded and listed in excluded_associations;
 and classifies every page of them (document_classes.classify_page; image-only files use the reviewed MANUAL table or
 stay unsearchable). It then searches each page for the property label (LABELS below). A label hit means "the document
 mentions the property", NOT that a value for this product was read: multi-product tables can mention it for another
@@ -113,6 +115,14 @@ def main(argv=None):
         if not v.get('cited_by'):
             for folder in v.get('names') or []:
                 named[folder.split('/')[-1]].add(os.path.basename(v['path']))
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'association_review_decisions.json'), encoding='utf-8') as fh:
+        arules = json.load(fh)['rules']
+
+    def assoc_verdict(pid, f):
+        """Reviewed verdict of a name-match association (association_review.py); byte-identical copies are checked
+        there, here a same-name copy of a cited file is never a name-match."""
+        r = next((r for r in arules if re.fullmatch(r['product'], pid) and (not r.get('documents') or f in r['documents'])), None)
+        return r['verdict'] if r else None
     prods = P.load_products()
     ar = P.Archive()
     page_cache = {}
@@ -137,7 +147,15 @@ def main(argv=None):
         if not props:
             continue
         cited = _cited_files(p)
-        docs = [(f, 'cited') for f in sorted(cited)] + [(f, 'name match (unverified)') for f in sorted(named.get(pid, set()) - {os.path.basename(c) for c in cited})]
+        docs, excluded = [(f, 'cited') for f in sorted(cited)], []
+        for f in sorted(named.get(pid, set()) - {os.path.basename(c) for c in cited}):
+            v = assoc_verdict(pid, f)
+            if v in ('same_product', 'same_document_copy'):
+                docs.append((f, f'name match ({v.replace("_", " ")}, reviewed)'))
+            elif v is None:
+                docs.append((f, 'name match (unverified)'))
+            else:
+                excluded.append(f'{f} ({v})')
         for prop in props:
             node, tier = None, None
             for d in p['files'].values():
@@ -211,7 +229,8 @@ def main(argv=None):
                              selection_status=status, selection_reason=reason,
                              technical_pages_with_label='; '.join(tech), sds_pages_with_label='; '.join(sds),
                              comparison_status=comparison, first_label_lines=' | '.join(lines[:4]), unsearchable_documents='; '.join(unsearch),
-                             documents_examined='; '.join(f'{f} ({how})' for f, how in docs)))
+                             documents_examined='; '.join(f'{f} ({how})' for f, how in docs),
+                             excluded_associations='; '.join(excluded)))
     os.makedirs(os.path.dirname(a.out), exist_ok=True)
     with open(a.out, 'w', encoding='utf-8', newline='') as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0]), lineterminator='\n')

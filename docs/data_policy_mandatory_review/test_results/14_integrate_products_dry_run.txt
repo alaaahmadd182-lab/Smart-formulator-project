@@ -1,0 +1,19 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe integrate_products.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 4e836526fd3c0e0c9d758f88f8a60ce1c1774c02
+return code: 0
+expectation: zero
+verdict: pass
+duration: 0.9 s
+
+===== stdout =====
+DRY RUN (nothing written): files 706, would change 229, annotations applied 10/10, conflict rules used 16/16, other annotated conflicts kept 41
+  flag x123: printed # with no mass/volume basis; kept as #, not converted to wt.%
+  flag x54: density is at #, not #; not temperature-corrected
+  flag x22: unit # not recognised or not printed; kept as printed
+  flag x8: unit None not recognised or not printed; kept as printed
+  flag x3: density printed with no temperature
+  flag x1: converted density # g/cm³ is outside #-#, so the printed number and unit disagree; value_final left null until checked
+
+===== stderr =====
+

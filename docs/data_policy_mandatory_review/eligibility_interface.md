@@ -5,7 +5,7 @@
 - Check it without writing with `--check`.
 - The build needs a current coverage ledger (`python tools/data_policy/source_coverage_ledger.py`). It stops with exit 3 if the ledger was built from different data.
 
-**Meaning.** `formulation_eligible = true` means only one thing: every blocking mandatory Tier 1 requirement is met under the rules of `requirements_version`.
+**Meaning.** `tier1_complete = true` and `formulation_eligible = true` both mean only one thing: all mandatory Tier 1 requirements are satisfied under `requirements_version`.
 - It is not a statement of chemical suitability, compatibility or performance.
 - Products that are not eligible stay in the database with all their data.
 - **These rules are provisional.** The interpretations and decisions listed in `requirements_review.md` are not yet approved.
@@ -19,17 +19,22 @@ UTF-8, comma-separated, RFC 4180 quoting, `\n` line ends, one header row, one ro
 | `product_id` | string | The stable id: the product folder name in `Products_json`. |
 | `material_class` | enum | `base_oil`, `additive_package`, `additive_component`. |
 | `product_name`, `supplier` | string | From `product{}` of the Tier 1 (or component `general`) file. |
-| `tier1_complete` | `true`/`false` | Every **blocking** requirement has documented information. That means it is met, or it is a reported range/bound awaiting a use-specific decision, or a value whose source selection is pending. It is false when any blocking requirement is absent, lacks its unit, condition or provenance, is invalid, is an unreproducible calculation, or has unresolved applicability. |
-| `formulation_eligible` | `true`/`false` | Every blocking requirement is **met**. This implies `tier1_complete`. |
+| `tier1_complete` | `true`/`false` | All mandatory Tier 1 requirements are **satisfied** under `requirements_version`: each is met, or not applicable under an approved rule (none approved yet). A range or bound awaiting a use decision, a pending source selection, or unresolved applicability is **not** complete. Documentation coverage is reported separately (`documentation_coverage.csv`). |
+| `formulation_eligible` | `true`/`false` | Same value as `tier1_complete`. No other eligibility gate exists; a new gate would need a documented authority (`requirements_review.md`) and a new version. |
 | `missing_mandatory_properties` | JSON array of strings | Ids of blocking requirements that are **not met**, whatever the reason. Not every id is an absent property: the category of each one is in `eligibility_reasons` and in `requirement_outcomes.csv`. |
 | `eligibility_reasons` | JSON array of strings | One entry per unmet blocking requirement, as `"<id> [<category>]: <reason>"`. Then notes: non-blocking subtype gaps, and warnings about unresolved conflicts on satisfied properties. For an eligible product the first entry states the rule version. |
 | `calculated_mandatory_properties` | JSON array of strings | Blocking requirements met by a `Calculated` value that a registered check reproduced from inputs printed on the cited page. None at present. |
-| `requirements_version` | string | `mandatory-tier1-2026-11-10.2` |
+| `requirements_version` | string | `mandatory-tier1-2026-11-10.3` |
 | `source_snapshot_sha256` | hex string | The data snapshot the row was computed from (see below). |
 
 - Booleans are lowercase.
 - The list columns are always valid JSON arrays.
 - If a requirement or calculation cannot be established, the product is never eligible, and the reason says why.
+
+**What changed in version `.3`** (current).
+- `tier1_complete` again means "all mandatory Tier 1 requirements satisfied". In `.2` it meant "documented", which counted unresolved bounds and pending selections as complete.
+- Documented-but-unusable information moved to the companion file `documentation_coverage.csv`.
+- On the current data, 10 products are complete and eligible, and 11 are fully documented.
 
 **What changed in version `.2`.**
 - Previously `tier1_complete` was always equal to `formulation_eligible`.
@@ -83,7 +88,8 @@ Non-blocking ids (VM / PPD subtype blocks, reported only) start with `vm.` or `p
 |---|---|
 | `requirement_outcomes.csv` | Every product × requirement. Columns: `product_id, material_class, product_name, requirement, category, blocking, representation, calculated, reason` |
 | `missing_mandatory_properties.csv` | The same columns, unmet rows only (blocking and non-blocking) |
-| `missing_mandatory_properties.md` | Counts per class (products, Tier 1 complete, eligible), the outcome table by requirement and category, the sensitivity table, the interpretations used, and both fingerprints |
+| `missing_mandatory_properties.md` | Counts per class (products, Tier 1 complete = eligible, fully documented), the outcome table by requirement and category, the sensitivity table, the interpretations used, and both fingerprints |
+| `documentation_coverage.csv` | Per product: blocking requirements, satisfied, documented-not-usable (range/bound, pending selection), not documented, `all_blocking_documented`, `tier1_complete` and the category counts. **A companion measure, never completeness.** |
 
 ## Stability promise to Workstream B
 

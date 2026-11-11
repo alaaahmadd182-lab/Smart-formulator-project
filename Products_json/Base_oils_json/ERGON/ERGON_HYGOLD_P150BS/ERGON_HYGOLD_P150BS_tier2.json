@@ -58,23 +58,24 @@
       }
     ],
     "noack_volatility": {
-      "value": null,
+      "value": 1.1,
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
-      "unit": "wt.% loss",
+      "value_kind": "typical",
+      "printed_text": "Noack Volatility, wt% ASTM D5800 1.1",
+      "unit": "wt%",
       "test_temperature_c": null,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "method": "ASTM D5800",
+      "status": "Reported",
+      "calculation_note": "Filled in the evidence review of 2026-11-10 (lead review, reports/data_policy/lead_review.csv); HyGold P150BS Marketing Specification, \"TYPICAL VALUES\" column (no specification limit printed; render read 2026-11-10). Procedure and test temperature are not printed.",
       "source": {
-        "file": null,
-        "page": null,
+        "file": "DL2-10961.pdf",
+        "page": 1,
         "revision_date": null
       },
-      "value_final": null,
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "value_final": 1.1,
       "unit_final": "wt.%"
     },
     "pour_point": {
