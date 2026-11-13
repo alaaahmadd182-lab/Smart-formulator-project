@@ -1,0 +1,4 @@
+command: python tools/data_policy/make_review_snapshot.py --name review_snapshot_2026-11-12 --verify
+review_snapshot_2026-11-12: 944 manifest entries; files present 944; mismatches 0
+exit code: 0
+manifest SHA-256: 8b63a5b642cf691fb2389692bc4399f6da1ae5d523f2cf44d45cbfb311869fbb

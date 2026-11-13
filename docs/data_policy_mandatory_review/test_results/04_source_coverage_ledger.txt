@@ -1,0 +1,29 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/source_coverage_ledger.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+return code: 0
+expectation: zero
+verdict: pass
+duration: 10.0 s
+
+===== stdout =====
+ledger rows: 2175 (259 products)
+  technical_selected: 1385  (mandatory: 567)
+  missing_no_label: 457  (mandatory: 183)
+  missing_label_found: 154  (mandatory: 86)
+  missing_not_searchable: 67  (mandatory: 29)
+  sds_fallback_no_tech_label: 49  (mandatory: 6)
+  pending: 34  (mandatory: 17)
+  external_selected: 25  (mandatory: 16)
+  exception: 2  (mandatory: 1)
+  sds_fallback_reviewed: 2  (mandatory: 0)
+comparison:
+  not possible: 2005
+  bound check only: 55
+  comparable: 39
+  gap: 38
+  comparability unknown: 35
+  not comparable: 3
+
+===== stderr =====
+

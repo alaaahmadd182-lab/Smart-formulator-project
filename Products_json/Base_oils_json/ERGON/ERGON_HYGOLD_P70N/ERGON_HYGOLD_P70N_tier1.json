@@ -88,7 +88,7 @@
     },
     "viscosity_index": {
       "value": 81,
-      "qualifier": "minimum",
+      "qualifier": null,
       "min": 60,
       "max": null,
       "value_kind": "single",
@@ -103,9 +103,10 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": "Supplier specification lists a minimum VI of 60 and a separate typical VI of 81. The value field is the reported typical value; min is the supplier minimum specification.",
+      "notes": "Supplier specification lists a minimum VI of 60 and a separate typical VI of 81. The value field is the reported typical value; min is the supplier minimum specification. Corrected 2026-11-10: DL2-13346.pdf p.1 (render) prints Viscosity Index with specification MIN 60 and TYPICAL VALUES 81; the qualifier \"minimum\" belonged to the specification (kept in min), not to the typical value 81.",
       "value_final": 81,
-      "unit_final": "unitless"
+      "unit_final": "unitless",
+      "qualifier_previous": "minimum"
     },
     "density": {
       "value": 0.8552,

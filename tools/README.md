@@ -112,3 +112,63 @@ These were written for this review. They use repository-relative paths and are d
 
 Dependencies: Python 3.12, `pymupdf` (tested 1.28.2) and `openpyxl` (3.1.5). See
 `docs/audit_review_2026-11-02/README.md` for the exact commands.
+
+## `data_policy/` and `mandatory_properties/`: Workstream A of 2026-11-10 (current tools)
+
+Written for the source-selection, TDS-SDS comparison and mandatory Tier 1 review. They use repository-relative paths,
+never write on import, and write only the files named below. Policy and interface:
+`docs/data_policy_mandatory_review/`.
+
+| Script | Purpose | Writes |
+|---|---|---|
+| `data_policy/policy_lib.py` | Shared read-only helpers (product loading, value objects, archive pages) | nothing |
+| `data_policy/document_classes.py` | Classify every cited (file, page) as SDS / TECHNICAL (tds, specification, bulletin, catalog) / COA / EXTERNAL by content; exit 1 if any page is unclassified | `reports/data_policy/document_classes.csv` |
+| `data_policy/tds_candidates.py` | Reading aid: technical-document lines for every SDS-sourced selected value | nothing (stdout) |
+| `data_policy/source_selection.py` | Rule 1: the declared selections, exceptions and pending cases; dry run unless `--write`; idempotent; asserts the expected current value and source | product JSON (declared fields only) with `--write`; `reports/data_policy/source_selection_changes.csv` with `--report` on a fresh apply |
+| `data_policy/integration_diff.py` | What `integrate_products.py` would change in given files (or `--changed`), in memory; with `--against REF` each difference is labelled pre-existing (same difference at REF) or NEW, and the exit code is 1 only for NEW ones | nothing |
+| `data_policy/tds_sds_inventory.py` | Rule 2 A-B: every TDS-SDS comparison, comparability first, differences, proposed screen; registered external (URL) technical sources are paired like archive documents, and a pair with a source that could not be obtained is never screened | `reports/data_policy/tds_sds_comparisons.csv` |
+| `data_policy/thresholds.py` | Rule 2 C: the proposed property-specific screening rules (`APPROVAL = 'proposed'`; empirical choices) and the sensitivity function | nothing |
+| `data_policy/source_coverage_ledger.py` | Rule 1 coverage, per product × property: the technical and SDS documents examined, selection status and reason, comparison status, unsearchable documents | `reports/data_policy/source_coverage_ledger.csv` + `.meta.json` |
+| `data_policy/verify_preserved.py` | Checks the 49 preserved files and 11 evidence copies against their manifests, form-aware (worktree / committed blob / blob with CRLF); checks the archive against HEAD and the baseline | only `--out`, if given |
+| `mandatory_properties/build_readiness.py` | Separate attributes of every requirement outcome (evidence documentation, value selection, value form, percentage basis, verification status), co-component rows per recorded requirement, the basis of every dose value, applicability labels, and named calculations (registered or not assessed); `--check` | `reports/mandatory_properties/property_attributes.csv`, `product_input_completeness.csv`, `co_component_routes.csv`, `percentage_basis.csv`, `volume_dose_evidence.csv`, `applicability_review.csv`, `calculation_readiness.csv`, `readiness_summary.md` |
+| `mandatory_properties/compare_eligibility.py` | Before/after report of the eligibility outputs against saved baselines: counts, each changed product with its reasons, each changed outcome category | `docs/data_policy_mandatory_review/baselines/eligibility_changes__*.csv` |
+| `mandatory_properties/co_component_statements.json` | Reviewed supplier statements about co-components (kind, scope, page, quoted wording) | (data) |
+| `mandatory_properties/simulate_policy_decisions.py` | The read-only simulation written for the implementation plan of 2026-11-11 (kept for the record) | optional text copy |
+| `mandatory_properties/tests/test_policies.py` | Regression tests (43; incl. route evidence bound by fingerprint, one component in two routes, stale evidence reported as historical, and reviewed "none required" statements) for the four approved policies and their gap fixes: two required components in one route, independent routes, unestablished route association, free-text and qualified statements, a pending selection combined with missing metadata, a mass-basis value that is otherwise unusable, the unregistered conversion, the separate attributes, the unchanged interface meaning and the before/after comparison | nothing |
+| `mandatory_properties/co_component_route_evidence.json` | Reviewed evidence of co-component routes for 8 packages (29 routes): conditions and quotes as printed, required groups, fingerprints of the bound records, unrecorded requirements, limitations, proposed record corrections | (data) |
+| `data_policy/make_review_snapshot.py` | Freezes a dated review snapshot (code, policy inputs, product JSON, reports, documentation, test results) with a SHA-256 manifest; references the source archive by hash; `--verify` | `review_snapshots/<name>/` |
+| `maintenance_2026-11-11/implementation_helpers/` | One-off scripts used to apply edits during this work, kept for the record. Hard-coded paths; already applied; do not rerun | nothing |
+| `mandatory_properties/treat_rate_basis_scan.py` | Reading aid: the basis wording on the cited page of every bare-"%" treat rate, and document-wide convention leads over every page of the source document | `reports/mandatory_properties/treat_rate_basis_scan.csv` |
+| `mandatory_properties/treat_rate_basis_evidence.json` | Reviewed page evidence of a mass basis (3 cases) | (data) |
+| `data_policy/lead_review.py` | Review of the outstanding source leads: the case set frozen at revision 2 (plus cases found during the review), extracts per page, reviewed outcomes from `lead_review_decisions.json` (rules with what was read, and the reviewed SDS comparisons) | `reports/data_policy/lead_review.csv` |
+| `data_policy/association_review.py` | Identity review of the name-match document associations (universe frozen at revision 2 plus the current ledger; verdicts in `association_review_decisions.json`; byte-identical copies detected; `now_cited` marks associations later used as sources) | `reports/data_policy/name_match_review.csv` |
+| `data_policy/external_review.py` | Review of every value from an external (URL) source and of pending fields with an external alternative; each source assessed separately on authority, authenticity, exact identity, applicability and provenance (decisions and evidence hashes in `external_review_decisions.json`); exits 1 on a stale decision or a changed evidence hash | `reports/data_policy/external_review.csv` |
+| `data_policy/external_comparison_accounting.py` | One row per value whose selected source is a URL: paired with an SDS value in the inventory, or the reason a comparison is inapplicable, unavailable or unresolved; the evidence state is reported separately; exits 1 on an unaccounted value | `reports/data_policy/external_comparison_accounting.csv` |
+| `data_policy/verify_soil_table.py` | Confirms the S_OIL_ARAMCO_ULTRA_8 KV40, KV100 and flash-point values against both saved copies of the S-OIL manufacturer table (caption, column, row label, ASTM cell, printed cell; copy hashes against the manifest); exits 1 on a mismatch | nothing |
+| `data_policy/source_review_status.py` | Review state of every ledger row (archive lead review complete, external review complete, evidence unavailable, inconclusive, not individually reviewed) | `reports/data_policy/source_review_status.csv` |
+| `data_policy/run_checks.py` | Runs the whole pipeline and every required check as separate subprocesses; saves each real return code and full output; PASS only if every step meets its expectation (`verify_revision.py` is an expected, by-design failure) | `docs/data_policy_mandatory_review/test_results/` |
+| `mandatory_properties/co_component_evidence_scan.py` | Supplier statements about required (or not required) co-components in each package's cited pages | `reports/mandatory_properties/co_component_evidence.csv` |
+| `mandatory_properties/tests/test_requirements.py` | Regression tests (31): the five reported validation bugs with their valid counterparts, categories, calculations, nested rules | nothing |
+| `data_policy/tests/test_data_policy.py` | Regression tests (61): external technical sources in the comparison inventory (inclusion, unavailable evidence, duplicate prevention, point versus range) and the accounting of every external-sourced value; technical-source selection keeps the SDS alternate and never resolves a disagreement (aramcoULTRA 8), Rule 1, comparison rules, the outputs and counts, the evidence review (every case reviewed, wrong associations excluded, comparisons reach the inventory and are usable cases, fills and corrections), the external review (coverage, unobtained sources never confirmed, stale decisions rejected, new conflicts unresolved), review states, the check runner, protected bytes, safety | nothing |
+| `mandatory_properties/requirements.py` | Rule 3: versioned mandatory Tier 1 requirements and checks | nothing |
+| `mandatory_properties/build_eligibility.py` | Eligibility outputs (needs a current coverage ledger); `--check` compares without writing | `reports/mandatory_properties/*` |
+
+Dependencies: Python 3.12, `pymupdf` (document classification and archive pages) and `openpyxl` (coverage workbook).
+
+**Historical generators.** After 2026-11-10 do not run `corrections_2026-10-31/apply_corrections.py`,
+`integration_2026-10-24/resolve_json.py --write`, the `audit/original_2026-10-27_to_30/` generators or the
+`audit/review_2026-11-02/` report generators (`revise_findings.py`, `gen_report_v5.py`, `run_all_checks.py`) against the
+current data: they would restore superseded values or rewrite the v5 snapshot. `audit/review_2026-11-02/verify_revision.py`
+compares protected files with commit `545fd3d` and now fails by design, because product JSON and the workbook changed.
+
+**Line endings.** The manifest records the original bytes, which differ in their line endings:
+
+| Files | Original line ends | How committed |
+|---:|---|---|
+| 31 | LF | byte-exact |
+| 17 | CRLF | normalised to LF |
+| 1 | none | byte-exact |
+
+No single `core.autocrlf` setting therefore reproduces all 49 on disk. A bare `sha256sum -c PRESERVED_SHA256.txt` fails for 31 files in a CRLF checkout, and for 17 in an LF checkout.
+
+Use `python tools/data_policy/verify_preserved.py` instead. It checks each file against the worktree bytes, the committed blob, and the blob written with CRLF, and names the form that reproduces the original. On 2026-11-10: 49/49 preserved files and 11/11 evidence copies verified.

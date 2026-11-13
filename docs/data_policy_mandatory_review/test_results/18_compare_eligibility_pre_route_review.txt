@@ -1,0 +1,24 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/mandatory_properties/compare_eligibility.py --before-eligibility docs/data_policy_mandatory_review/baselines/pre_route_review_2026-11-12/reports/mandatory_properties/product_eligibility.csv --before-outcomes docs/data_policy_mandatory_review/baselines/pre_route_review_2026-11-12/reports/mandatory_properties/requirement_outcomes.csv --out docs/data_policy_mandatory_review/baselines/eligibility_changes__route_review_2026-11-12.csv
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+return code: 0
+expectation: zero + output matches 'interface columns identical: True'
+verdict: pass
+duration: 0.1 s
+
+===== stdout =====
+requirements version: before mandatory-tier1-2026-11-10.5, after mandatory-tier1-2026-11-10.6
+data fingerprint: before 93b704a79b5844430af87d15f53058ec3df106ad262af4236fb52da1621f3530, after 93b704a79b5844430af87d15f53058ec3df106ad262af4236fb52da1621f3530
+interface columns identical: True
+  additive_component   tier1_complete         before   0  after   0  of 5
+  additive_component   formulation_eligible   before   0  after   0  of 5
+  additive_package     tier1_complete         before   0  after   0  of 78
+  additive_package     formulation_eligible   before   0  after   0  of 78
+  base_oil             tier1_complete         before  11  after  11  of 181
+  base_oil             formulation_eligible   before  11  after  11  of 181
+products whose eligibility fields or missing list changed: 0
+requirement outcomes whose category changed: 4
+    4  required_co_components: unresolved_route_association -> absent
+
+===== stderr =====
+

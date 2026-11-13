@@ -151,7 +151,27 @@
         "value_final": null,
         "unit_final": "mPa·s"
       }
-    ]
+    ],
+    "specific_gravity": {
+      "value": null,
+      "qualifier": null,
+      "min": 0.82,
+      "max": 0.84,
+      "value_kind": "range",
+      "printed_text": "Relative density 0,82-0,84 @ 15°C (ASTM D-4052).",
+      "unit": "dimensionless",
+      "test_temperature_c": 15,
+      "method": "ASTM D-4052",
+      "status": "Reported",
+      "calculation_note": "Filled in the evidence review of 2026-11-10 (lead review, reports/data_policy/lead_review.csv); SDS section 9 \"Relative density\" (product name on p.1 is this NEXBASE grade). SDS fallback: the family TDS DL2-10962.pdf and the individual sheet print density, not specific gravity. The reference temperature of water is not printed.",
+      "source": {
+        "file": "DL2-15010.pdf",
+        "page": 5,
+        "revision_date": null
+      },
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "value_final": null
+    }
   },
   "open_questions": [
     "TDS edition 5.2 has no calendar revision date; no date inferred.",

@@ -1,0 +1,14 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/document_classes.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+return code: 0
+expectation: zero
+verdict: pass
+duration: 7.7 s
+
+===== stdout =====
+cited (file, page) pairs: 511 {'TECHNICAL': 250, 'SDS': 226, 'EXTERNAL': 35}
+subclasses: {('TECHNICAL', 'specification'): 19, ('SDS', 'sds'): 226, ('TECHNICAL', 'tds'): 158, ('TECHNICAL', 'bulletin'): 66, ('TECHNICAL', 'catalog'): 5, ('TECHNICAL', 'handling'): 2, ('EXTERNAL', ''): 35}
+
+===== stderr =====
+

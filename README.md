@@ -19,6 +19,9 @@ additive components) following `Smart_Formulator_Minimum_Property_Set.pdf`, whic
 | `docs/audit_review_2026-11-02/` | The 2026-11-02 review of the audit documentation: change list, source-reading log, verification results and commands |
 | `tools/` | Saved scripts of the audit (2026-10-27/30), the data corrections (2026-10-31), the integration (2026-10-24) and the 2026-11-02 review; see `tools/README.md` |
 | `PROJECT_FILE_GUIDE.md` | Plain-language guide to every file and folder, with the cleanup record |
+| `tools/data_policy/`, `reports/data_policy/` | Source-selection policy (TDS first, SDS fallback; 2026-11-10), document classes, TDS–SDS comparison inventory and **proposed** screening thresholds; regression tests |
+| `tools/mandatory_properties/`, `reports/mandatory_properties/` | Mandatory Tier 1 requirements and the per-product eligibility outputs (`product_eligibility.csv`, interface for the association-mining workstream) |
+| `docs/data_policy_mandatory_review/` | Policy, threshold proposal (awaiting review), eligibility interface, change log and HANDOFF of 2026-11-10 |
 
 ## Scope
 
@@ -74,14 +77,25 @@ an original key: `value_final`, `unit_final`, `min_final`, `max_final`, `unit_co
 CCS/MRV/HTHS mPa·s, mass fractions wt.%; specific gravity and a bare `%` are flagged, not converted).
 It also annotates `conflicts[]` entries with `resolved` and `final_resolution`.
 
-Data rules approved on 2026-10-24 apply to all integration output:
+Data rules approved on 2026-10-24 (rule 2 replaced on 2026-11-10) apply to all integration output:
 
 1. Conflicting datasheet values are never averaged automatically. Both values and their sources are
    kept, and the conflict stays unresolved unless authoritative evidence supports a resolution.
-2. TDS is never preferred over SDS automatically, nor the reverse. Measurement conditions, test
-   methods, revision dates, source reliability and comparability are evaluated case by case.
+2. **Source selection (2026-11-10).** The applicable technical-document value (TDS, PDS, bulletin,
+   specification sheet) is selected; if no technical document gives the property, the applicable SDS
+   value is selected. The other value stays in `alternate_entries[]` and the conflict entry stays open:
+   selecting the TDS is not a finding that the SDS is wrong. Exceptions (a TDS value that is unreadable,
+   inconsistent, erroneous or lacks a required condition) are recorded, never silently selected. See
+   `docs/data_policy_mandatory_review/source_selection_policy.md`. (The 2026-10-24 rule "TDS is never
+   preferred over SDS automatically, nor the reverse" is superseded.)
 3. The coverage matrix reports the validated `status` of the selected property; `status_final` is
    never substituted for it.
+
+The source selection is applied by `tools/data_policy/source_selection.py` (dry run unless `--write`,
+idempotent), not by `integrate_products.py`; three user decisions of 2026-10-18 (RICHFUL_RF6077 density
+and KV100, RICHFUL_RF6088F KV100) are superseded by it and their conflicts reopened, pending confirmation.
+Do not run `integrate_products.py --write` on the whole repository; `tools/data_policy/integration_diff.py`
+shows what it would change in given files.
 
 In the current data the normalised keys are kept only where they match the current, validated values;
 where a Task 3 correction changed a value object, its `*_final` keys were removed rather than

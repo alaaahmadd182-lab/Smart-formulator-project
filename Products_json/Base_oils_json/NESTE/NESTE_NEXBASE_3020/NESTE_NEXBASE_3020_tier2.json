@@ -7,10 +7,11 @@
   "product": {
     "product_name": "NEXBASE 3020",
     "supplier": "Neste (Suisse) S.A.",
-    "document_type": "Safety Data Sheet",
+    "document_type": "Safety Data Sheet; Technical Data Sheet",
     "source_file": [
       "DL2-14513.pdf",
-      "DL2-14514.pdf"
+      "DL2-14514.pdf",
+      "DL2-10962.pdf"
     ],
     "revision_date": "2020-06-16"
   },
@@ -81,50 +82,99 @@
       "unit_final": "wt.%"
     },
     "pour_point": {
-      "value": -42,
-      "qualifier": "<=",
+      "value": -45,
+      "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": "limit",
-      "printed_text": "Pour point ≤ -42°C (ASTM D-97)",
+      "value_kind": "typical",
+      "printed_text": "Pour Point, °C: Spec ≤ -42, Typ -45",
       "unit": "°C",
       "test_temperature_c": null,
-      "method": "ASTM D97",
+      "method": null,
       "status": "Reported",
-      "calculation_note": null,
+      "calculation_note": "NEXBASE family \"Technical Data Sheet BASE OILS\" (Neste Oil, Edition 8; no calendar date printed), image-only page read on a render (2026-11-10), column \"Nexbase 3020\", sub-column \"Typ\". The sheet prints no test method.",
       "source": {
-        "file": "DL2-14513.pdf",
-        "page": 4,
-        "revision_date": "2020-06-16"
+        "file": "DL2-10962.pdf",
+        "page": 1,
+        "revision_date": null
       },
-      "value_final": -42,
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "alternate_entries": [
+        {
+          "value": -42,
+          "qualifier": "<=",
+          "min": null,
+          "max": null,
+          "value_kind": "upper limit",
+          "printed_text": "Pour point ≤ -42°C (ASTM D-97)",
+          "unit": "°C",
+          "test_temperature_c": null,
+          "method": "ASTM D97",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14513.pdf",
+            "page": 4,
+            "revision_date": "2020-06-16"
+          },
+          "value_kind_previous_label": "limit",
+          "notes": "The SDS prints \"Pour point ≤ -42°C\" (an upper limit); kept as printed.",
+          "selection_note": "Previously selected value, kept as an alternate under the source-selection policy of 2026-11-10. Not judged erroneous: the policy selects the technical-document value first."
+        }
+      ],
+      "value_final": -45,
       "unit_final": "°C"
     },
     "flash_point": {
-      "value": 150,
-      "qualifier": ">",
+      "value": 160,
+      "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": "limit",
-      "printed_text": "Flash point > 150°C (ASTM D-93)",
+      "value_kind": "typical",
+      "printed_text": "Flash Point, °C: Spec ≥155, Typ 160",
       "unit": "°C",
       "test_temperature_c": null,
-      "method": "ASTM D93",
+      "method": null,
       "status": "Reported",
-      "calculation_note": null,
+      "calculation_note": "NEXBASE family \"Technical Data Sheet BASE OILS\" (Neste Oil, Edition 8; no calendar date printed), image-only page read on a render (2026-11-10), column \"Nexbase 3020\", sub-column \"Typ\". The sheet prints no test method.",
       "source": {
-        "file": "DL2-14513.pdf",
-        "page": 5,
-        "revision_date": "2020-06-16"
+        "file": "DL2-10962.pdf",
+        "page": 1,
+        "revision_date": null
       },
-      "flash_method": "PMCC",
-      "value_final": 150,
+      "flash_method": null,
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "alternate_entries": [
+        {
+          "value": 150,
+          "qualifier": ">",
+          "min": null,
+          "max": null,
+          "value_kind": "lower bound",
+          "printed_text": "Flash point > 150°C (ASTM D-93)",
+          "unit": "°C",
+          "test_temperature_c": null,
+          "method": "ASTM D93",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14513.pdf",
+            "page": 5,
+            "revision_date": "2020-06-16"
+          },
+          "flash_method": "PMCC",
+          "value_kind_previous_label": "limit",
+          "notes": "The SDS prints \"Flash point > 150°C\" (a lower bound); kept as printed.",
+          "selection_note": "Previously selected value, kept as an alternate under the source-selection policy of 2026-11-10. Not judged erroneous: the policy selects the technical-document value first."
+        }
+      ],
+      "value_final": 160,
       "unit_final": "°C"
     }
   },
   "open_questions": [
-    "No product TDS supplied for NEXBASE 3020; only two matching SDS files.",
-    "API group, KV100, VI, mass density, sulfur and other absent properties remain missing.",
+    "No product TDS supplied for NEXBASE 3020; only two matching SDS files. [Corrected 2026-11-10: the NEXBASE family TDS DL2-10962.pdf (Edition 8, image) has a \"Nexbase 3020\" column; KV40, KV100 and density are now taken from it. VI is printed as \"–\" for 3020 and stays Missing.]",
+    "API group, KV100, VI, mass density, sulfur and other absent properties remain missing. [2026-11-10: KV100 (2.2 mm²/s) and density (834 kg/m³ at 15 °C) are now Reported from DL2-10962.pdf; API group, VI and sulfur remain Missing.]",
     "Relative density 0.82 at 15°C must not be treated as mass density."
   ],
   "conflicts": []

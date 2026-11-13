@@ -131,23 +131,63 @@
     },
     "ccs": [
       {
-        "value": null,
+        "value": 2088,
         "qualifier": null,
         "min": null,
         "max": null,
-        "value_kind": null,
-        "printed_text": null,
-        "unit": "mPa.s",
-        "test_temperature_c": null,
-        "method": null,
-        "status": "Missing",
-        "calculation_note": null,
+        "value_kind": "typical",
+        "printed_text": "CCS Viscosity (ASTM D5293, cP) at -25°C: 2,088",
+        "unit": "cP",
+        "test_temperature_c": -25,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "Filled in the evidence review of 2026-11-10 (lead review, reports/data_policy/lead_review.csv); ETRO 4 & ETRO 6 Technical Data Sheet, column \"ETRO 6 / Typical value\" (image, render read 2026-11-10). No specification is printed for CCS. 1 cP = 1 mPa·s.",
         "source": {
-          "file": null,
-          "page": null,
+          "file": "DL2-12475.pdf",
+          "page": 1,
           "revision_date": null
         },
-        "value_final": null,
+        "value_final": 2088,
+        "unit_final": "mPa·s"
+      },
+      {
+        "value": 3977,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "CCS Viscosity (ASTM D5293, cP) at -30°C: 3,977",
+        "unit": "cP",
+        "test_temperature_c": -30,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "Filled in the evidence review of 2026-11-10 (lead review, reports/data_policy/lead_review.csv); ETRO 4 & ETRO 6 Technical Data Sheet, column \"ETRO 6 / Typical value\" (image, render read 2026-11-10). No specification is printed for CCS. 1 cP = 1 mPa·s.",
+        "source": {
+          "file": "DL2-12475.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "value_final": 3977,
+        "unit_final": "mPa·s"
+      },
+      {
+        "value": 7422,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "CCS Viscosity (ASTM D5293, cP) at -35°C: 7,422",
+        "unit": "cP",
+        "test_temperature_c": -35,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": "Filled in the evidence review of 2026-11-10 (lead review, reports/data_policy/lead_review.csv); ETRO 4 & ETRO 6 Technical Data Sheet, column \"ETRO 6 / Typical value\" (image, render read 2026-11-10). No specification is printed for CCS. 1 cP = 1 mPa·s.",
+        "source": {
+          "file": "DL2-12475.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "value_final": 7422,
         "unit_final": "mPa·s"
       }
     ]

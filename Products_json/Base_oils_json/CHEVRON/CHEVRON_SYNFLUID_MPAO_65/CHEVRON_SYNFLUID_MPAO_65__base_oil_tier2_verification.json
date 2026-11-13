@@ -98,24 +98,46 @@
       "unit_final": "°C"
     },
     "flash_point": {
-      "value": null,
-      "qualifier": null,
+      "value": 266,
+      "qualifier": ">",
       "min": null,
       "max": null,
-      "value_kind": null,
-      "printed_text": null,
+      "value_kind": "lower bound",
+      "printed_text": "Flash Point (COC), °F, °C >511 (266)",
       "unit": "°C",
       "test_temperature_c": null,
-      "method": null,
-      "status": "Missing",
-      "calculation_note": null,
+      "method": "COC",
+      "status": "Reported",
+      "calculation_note": "Filled in the evidence review of 2026-11-10 (lead review, reports/data_policy/lead_review.csv); Synfluid mPAO 65 cSt technical sheet prints the flash point as \">511 (266)\" (°F, °C), a lower bound. DL2-15009.pdf prints the same line. The SDS DL2-11908.PDF p.3 prints 270 °C (ASTM D-92), kept as an alternate.",
       "source": {
-        "file": null,
-        "page": null,
+        "file": "DL2-11910.pdf",
+        "page": 1,
         "revision_date": null
       },
-      "flash_method": null,
-      "value_final": null,
+      "flash_method": "COC",
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "alternate_entries": [
+        {
+          "value": 270,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "SDS reported",
+          "printed_text": "Flash point : 270 °C (518 °F) Method: ASTM D-92",
+          "unit": "°C",
+          "test_temperature_c": null,
+          "method": "ASTM D-92",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11908.PDF",
+            "page": 3,
+            "revision_date": "2017-07-10"
+          },
+          "selection_note": "SDS value, kept as an alternate: the technical sheet prints the property (Rule 1)."
+        }
+      ],
+      "value_final": 266,
       "unit_final": "°C"
     }
   },

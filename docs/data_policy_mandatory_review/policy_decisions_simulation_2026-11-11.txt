@@ -1,0 +1,59 @@
+SIMULATION ONLY - not eligibility results. Requirements version in force: mandatory-tier1-2026-11-10.3
+Data fingerprint of the reports read: 93b704a79b5844430af87d15f53058ec3df106ad262af4236fb52da1621f3530
+
+== Decision 1: ranges and bounds ==
+Current (unchanged) result: tier1_complete = formulation_eligible = {'base_oil': 11}
+Blocking outcomes in category bound_or_range_needs_assessment: 71 in 29 products
+  by requirement and representation:
+    active_content     range        1
+    ccs                upper_bound  12
+    kv100              range        17
+    kv40               lower_bound  1
+    kv40               range        13
+    viscosity_index    lower_bound  21
+    viscosity_index    range        6
+Candidate fields (definitions in the plan):
+  point_calculation_ready            (every requirement met with an accepted input; = current tier1_complete): base_oil 11, additive_package 0, additive_component 0
+  documentation_complete, variant A  (met or a valid sourced range/bound; pending selections NOT counted): base_oil 11, additive_package 0, additive_component 0
+  documentation_complete, variant B  (variant A plus pending source selections; = current all_blocking_documented): base_oil 11, additive_package 0, additive_component 0
+  range_aware_ready, illustration    (met or a CLOSED range only; one-sided bounds excluded): base_oil 11, additive_package 0, additive_component 0
+  products gained by variant A over point_calculation_ready: []
+  products gained by variant B over variant A: []
+  products in variant A that hold a one-sided bound or direction-less specification value: []
+  base oils with at least one range/bound requirement: 28; their OTHER unmet categories: {'absent': 26, 'missing_unit_condition_provenance': 3, 'unresolved_source_selection': 2}
+
+== Decision 2: required co-components (78 packages) ==
+Current outcome categories: {'unresolved_applicability': 66, 'missing_unit_condition_provenance': 4, 'met': 8}
+   56  silence -> unknown
+   10  supplier names or requires a co-component, no usable dose recorded -> route incomplete
+    8  required, usable dose recorded
+    4  required, dose recorded without a usable basis -> route incomplete
+  (the statement counts come from a text-layer search of the cited pages: leads, not reviewed evidence)
+
+== Decision 3: percentage basis (treat rates and co-component doses in the records) ==
+Reported dose values: 271
+  required_co_components   mass (page evidence)   6
+  required_co_components   mass (unit)            11
+  required_co_components   unspecified            9
+  treat_rate               mass (unit)            1
+  treat_rate               unspecified            2
+  treat_rate_matrix        mass (page evidence)   3
+  treat_rate_matrix        mass (unit)            166
+  treat_rate_matrix        unspecified            73
+  units recorded for the unspecified ones: {'%': 80, '': 4}
+  products with a volume-basis dose: []
+Current treat_rate_matrix outcomes (78 packages): {'absent': 6, 'missing_unit_condition_provenance': 15, 'met': 57}
+
+== Decision 4: applicability ==
+Approved applicability rules in force: 0
+  value objects with status 'Not Applicable': class additive_component, tier 1: 7
+  value objects with status 'Not Required': class base_oil, tier 1: 5
+  value objects with status 'Not Required': class base_oil, tier 2: 6
+  products using 'Not Applicable': ['LUBRIZOL_CV6320']
+  products using 'Not Required': ['SHELL_RISELLA_X_415', 'SHELL_RISELLA_X_420', 'SHELL_RISELLA_X_430']
+Blocking outcomes in category unresolved_applicability: 76
+    additive_component   function_specific_markers                5
+    additive_package     required_co_components                   66
+    base_oil             api_group_chemistry.api_group            3
+    base_oil             ccs                                      2
+With no approved rule, every one of these stays unresolved: the simulated result equals the current one.

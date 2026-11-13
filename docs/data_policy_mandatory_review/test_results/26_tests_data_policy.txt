@@ -1,0 +1,258 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover -s tools/data_policy/tests -v
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+return code: 0
+expectation: zero + output matches '\\nOK'
+verdict: pass
+duration: 9.6 s
+
+===== stdout =====
+
+===== stderr =====
+test_return_codes_are_not_masked (test_data_policy.CheckRunner.test_return_codes_are_not_masked) ... ok
+test_bound_checked_not_differenced (test_data_policy.ComparisonRules.test_bound_checked_not_differenced) ... ok
+test_different_temperature_not_comparable (test_data_policy.ComparisonRules.test_different_temperature_not_comparable) ... ok
+test_flash_cup_types_not_comparable (test_data_policy.ComparisonRules.test_flash_cup_types_not_comparable) ... ok
+test_flash_point_needs_cup_type_on_both_sides (test_data_policy.ComparisonRules.test_flash_point_needs_cup_type_on_both_sides) ... ok
+test_label_unit_inconsistency_pending (test_data_policy.ComparisonRules.test_label_unit_inconsistency_pending) ... ok
+test_missing_temperature_pending (test_data_policy.ComparisonRules.test_missing_temperature_pending) ... ok
+test_point_outside_bound_retained (test_data_policy.ComparisonRules.test_point_outside_bound_retained) ... ok
+test_property_specific_thresholds (test_data_policy.ComparisonRules.test_property_specific_thresholds) ... ok
+test_thresholds_not_approved_yet (test_data_policy.ComparisonRules.test_thresholds_not_approved_yet) ... ok
+test_units_converted_before_difference (test_data_policy.ComparisonRules.test_units_converted_before_difference) ... ok
+test_zero_tds_value_uses_no_relative_difference (test_data_policy.ComparisonRules.test_zero_tds_value_uses_no_relative_difference) ... ok
+test_association_universe_frozen_and_counted (test_data_policy.EvidenceReview.test_association_universe_frozen_and_counted) ... ok
+test_comparison_cases_are_usable_lead_cases (test_data_policy.EvidenceReview.test_comparison_cases_are_usable_lead_cases) ... ok
+test_ergon_qualifier_corrected_and_previous_kept (test_data_policy.EvidenceReview.test_ergon_qualifier_corrected_and_previous_kept) ... ok
+test_every_association_reviewed_and_wrong_ones_excluded (test_data_policy.EvidenceReview.test_every_association_reviewed_and_wrong_ones_excluded) ... ok
+test_every_lead_case_reviewed (test_data_policy.EvidenceReview.test_every_lead_case_reviewed) ... ok
+test_fills_cite_their_page_and_keep_sds_alternates (test_data_policy.EvidenceReview.test_fills_cite_their_page_and_keep_sds_alternates) ... ok
+test_formosa_identity_pending_not_fallback (test_data_policy.EvidenceReview.test_formosa_identity_pending_not_fallback) ... ok
+test_new_conflicts_recorded_unresolved (test_data_policy.EvidenceReview.test_new_conflicts_recorded_unresolved) ... ok
+test_preserved_and_evidence_bytes (test_data_policy.EvidenceReview.test_preserved_and_evidence_bytes) ... C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_compile.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_crossdoc.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_detect.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_docmap.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_documented.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_lib.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_v3.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_v4.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/check_final.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/gen_manifest.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/gen_reports.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/gen_reports_v1.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/gen_reports_v3.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/gen_reports_v4.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/index_pdfs.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/candidates.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/comprehensive_conflicts_audit_v2_2026-10-27.csv'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/comprehensive_conflicts_audit_v2_2026-10-27.md'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/corrections_v3.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/corrections_v4.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/crossdoc.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/docmap.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/documented.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/findings.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/findings_v3.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/findings_v4.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/old28.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/qa_evidence.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/recheck.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/verify_pc.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/verify_soil.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/qa_evidence.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/recheck.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/verify_pc.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/verify_soil.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/corrections_2026-10-31/apply_corrections.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/corrections_2026-10-31/cmp_xlsx.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/corrections_2026-10-31/count_ash.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/corrections_2026-10-31/lubwords.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/corrections_2026-10-31/update_curated_log.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/corrections_2026-10-31/validate_corrections.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/integration_2026-10-24/log_section.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/integration_2026-10-24/resolve_json.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/integration_2026-10-24/validate.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/maintenance_2026-10-31/backup_git_check.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/maintenance_2026-10-31/gh_api.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/maintenance_2026-10-31/org_inspect.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/maintenance_2026-10-31/org_verify.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/maintenance_2026-10-31/verify_remote_main.py'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/PetroCanada_PURITY_LUB3213E_2023-03__wayback_20251215051152.pdf'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/SOIL_LubeBaseOil_live_2026-10-30.html'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/SOIL_LubeBaseOil__wayback_20260610070302.html'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/API_1509_21st_Edition_Annex_E.pdf'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/CPChem_Synfluid_Dimer_C12_TDS__cpchem_2020-12.pdf'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/ADNOC_BaseOil_Spec_GroupII_GroupIII__wayback_20220815185412.pdf'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/PubChem_substance_synonyms_64742-54-7.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/PubChem_substance_synonyms_64742-55-8.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/Afton_HiTEC-5748_PDS_05-23__wayback_20241005085229.pdf'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/Afton_HiTEC-5748_PDS_07-11__wayback_20120503020512.pdf'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/Richful_productId105__api_2026-10-30.json'>
+  wt = open(full, 'rb').read() if os.path.exists(full) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_reviewed_comparisons_reach_the_inventory (test_data_policy.EvidenceReview.test_reviewed_comparisons_reach_the_inventory) ... ok
+test_usable_evidence_has_a_change_and_printed_value (test_data_policy.EvidenceReview.test_usable_evidence_has_a_change_and_printed_value) ... ok
+test_every_external_selected_value_is_accounted_for (test_data_policy.ExternalComparisons.test_every_external_selected_value_is_accounted_for) ... ok
+test_external_technical_pairs_are_in_the_inventory (test_data_policy.ExternalComparisons.test_external_technical_pairs_are_in_the_inventory) ... ok
+test_no_duplicate_pairs (test_data_policy.ExternalComparisons.test_no_duplicate_pairs) ... ok
+test_pair_keeps_identity_conditions_and_provenance (test_data_policy.ExternalComparisons.test_pair_keeps_identity_conditions_and_provenance) ... ok
+test_point_versus_range_rule (test_data_policy.ExternalComparisons.test_point_versus_range_rule) ... ok
+test_selection_and_disagreement_stay_separate (test_data_policy.ExternalComparisons.test_selection_and_disagreement_stay_separate) ... ok
+test_ultra8_point_versus_range (test_data_policy.ExternalComparisons.test_ultra8_point_versus_range) ... ok
+test_unobtained_source_is_never_verified (test_data_policy.ExternalComparisons.test_unobtained_source_is_never_verified) ... ok
+test_unregistered_url_and_external_sds_are_not_technical (test_data_policy.ExternalComparisons.test_unregistered_url_and_external_sds_are_not_technical) ... ok
+test_8788b_stays_pending (test_data_policy.ExternalReview.test_8788b_stays_pending) ... ok
+test_conflicts_found_recorded_unresolved (test_data_policy.ExternalReview.test_conflicts_found_recorded_unresolved) ... ok
+test_each_source_assessed_separately (test_data_policy.ExternalReview.test_each_source_assessed_separately) ... ok
+test_review_states_partition_the_ledger (test_data_policy.ExternalReview.test_review_states_partition_the_ledger) ... ok
+test_runs_clean_and_covers_every_external_selection (test_data_policy.ExternalReview.test_runs_clean_and_covers_every_external_selection) ... ok
+test_stale_decision_is_an_error (test_data_policy.ExternalReview.test_stale_decision_is_an_error) ... ok
+test_unobtained_sources_are_not_confirmed (test_data_policy.ExternalReview.test_unobtained_sources_are_not_confirmed) ... ok
+test_exact_columns (test_data_policy.Outputs.test_exact_columns) ... ok
+test_one_row_per_product_and_formats (test_data_policy.Outputs.test_one_row_per_product_and_formats) ... ok
+test_outputs_up_to_date (test_data_policy.Outputs.test_outputs_up_to_date) ... ok
+test_package_without_published_formulation_ineligible (test_data_policy.Outputs.test_package_without_published_formulation_ineligible) ... ok
+test_snapshot_hash_independent (test_data_policy.Outputs.test_snapshot_hash_independent) ... ok
+test_summary_counts_match_records (test_data_policy.Outputs.test_summary_counts_match_records) ... ok
+test_no_write_on_import (test_data_policy.Safety.test_no_write_on_import) ... ok
+test_only_declared_product_files_changed_since_baseline (test_data_policy.Safety.test_only_declared_product_files_changed_since_baseline) ... ok
+test_product_json_valid_statuses (test_data_policy.Safety.test_product_json_valid_statuses) ... ok
+test_templates_unchanged_since_baseline (test_data_policy.Safety.test_templates_unchanged_since_baseline) ... ok
+test_exception_keeps_sds_value (test_data_policy.SourceSelection.test_exception_keeps_sds_value) ... ok
+test_no_safety_margin_wording (test_data_policy.SourceSelection.test_no_safety_margin_wording) ... ok
+test_no_undeclared_sds_selection_with_technical_alternate (test_data_policy.SourceSelection.test_no_undeclared_sds_selection_with_technical_alternate) ... ok
+test_sds_fallback_where_no_tds_value (test_data_policy.SourceSelection.test_sds_fallback_where_no_tds_value) ... ok
+test_tds_value_selected_and_sds_kept_as_alternate (test_data_policy.SourceSelection.test_tds_value_selected_and_sds_kept_as_alternate) ... ok
+test_technical_range_selected_without_conversion (test_data_policy.SourceSelection.test_technical_range_selected_without_conversion) ... ok
+test_disagreement_is_not_resolved_removed_or_duplicated (test_data_policy.TechnicalSelectionKeepsDisagreement.test_disagreement_is_not_resolved_removed_or_duplicated) ... ok
+test_no_longer_pending_and_other_state_preserved (test_data_policy.TechnicalSelectionKeepsDisagreement.test_no_longer_pending_and_other_state_preserved) ... ok
+test_sds_value_kept_as_alternate_with_provenance (test_data_policy.TechnicalSelectionKeepsDisagreement.test_sds_value_kept_as_alternate_with_provenance) ... ok
+test_selected_values_are_the_saved_manufacturer_table_cells (test_data_policy.TechnicalSelectionKeepsDisagreement.test_selected_values_are_the_saved_manufacturer_table_cells) ... ok
+test_selection_and_exact_provenance (test_data_policy.TechnicalSelectionKeepsDisagreement.test_selection_and_exact_provenance) ... ok
+test_selection_mechanism_never_marks_a_conflict_resolved (test_data_policy.TechnicalSelectionKeepsDisagreement.test_selection_mechanism_never_marks_a_conflict_resolved) ... ok
+
+----------------------------------------------------------------------
+Ran 61 tests in 9.229s
+
+OK
+

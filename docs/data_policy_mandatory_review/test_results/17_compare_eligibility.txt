@@ -1,0 +1,35 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/mandatory_properties/compare_eligibility.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+return code: 0
+expectation: zero + output matches 'interface columns identical: True'
+verdict: pass
+duration: 0.1 s
+
+===== stdout =====
+requirements version: before mandatory-tier1-2026-11-10.3, after mandatory-tier1-2026-11-10.6
+data fingerprint: before 93b704a79b5844430af87d15f53058ec3df106ad262af4236fb52da1621f3530, after 93b704a79b5844430af87d15f53058ec3df106ad262af4236fb52da1621f3530
+interface columns identical: True
+  additive_component   tier1_complete         before   0  after   0  of 5
+  additive_component   formulation_eligible   before   0  after   0  of 5
+  additive_package     tier1_complete         before   0  after   0  of 78
+  additive_package     formulation_eligible   before   0  after   0  of 78
+  base_oil             tier1_complete         before  11  after  11  of 181
+  base_oil             formulation_eligible   before  11  after  11  of 181
+products whose eligibility fields or missing list changed: 8
+  INFINEUM_D3354: missing_mandatory_properties=["permitted_base_oils_restrictions", "published_formulations"]  ->  missing_mandatory_properties=["permitted_base_oils_restrictions", "required_co_components", "published_formulations"]
+  INFINEUM_D3384: missing_mandatory_properties=["permitted_base_oils_restrictions", "published_formulations"]  ->  missing_mandatory_properties=["permitted_base_oils_restrictions", "required_co_components", "published_formulations"]
+  INFINEUM_D3451: missing_mandatory_properties=["permitted_base_oils_restrictions", "published_formulations"]  ->  missing_mandatory_properties=["permitted_base_oils_restrictions", "required_co_components", "published_formulations"]
+  LUBRIZOL_3589C: missing_mandatory_properties=["sae_grades_documented", "permitted_base_oils_restrictions", "published_formulations"]  ->  missing_mandatory_properties=["sae_grades_documented", "permitted_base_oils_restrictions", "required_co_components", "published_formulations"]
+  LUBRIZOL_3700: missing_mandatory_properties=["sae_grades_documented", "permitted_base_oils_restrictions", "published_formulations"]  ->  missing_mandatory_properties=["sae_grades_documented", "permitted_base_oils_restrictions", "required_co_components", "published_formulations"]
+  LUBRIZOL_3700D: missing_mandatory_properties=["sae_grades_documented", "permitted_base_oils_restrictions", "published_formulations"]  ->  missing_mandatory_properties=["sae_grades_documented", "permitted_base_oils_restrictions", "required_co_components", "published_formulations"]
+  LUBRIZOL_CV1100: missing_mandatory_properties=["published_formulations"]  ->  missing_mandatory_properties=["required_co_components", "published_formulations"]
+  LUBRIZOL_CV1103: missing_mandatory_properties=["permitted_base_oils_restrictions", "published_formulations"]  ->  missing_mandatory_properties=["permitted_base_oils_restrictions", "required_co_components", "published_formulations"]
+requirement outcomes whose category changed: 74
+    4  required_co_components: met -> absent
+    4  required_co_components: met -> unresolved_route_association
+   35  required_co_components: unresolved_applicability -> absent
+   31  required_co_components: unresolved_applicability -> requirement_unknown
+
+===== stderr =====
+

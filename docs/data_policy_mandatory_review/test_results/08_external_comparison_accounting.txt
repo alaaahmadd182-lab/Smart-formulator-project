@@ -1,0 +1,17 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/external_comparison_accounting.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+return code: 0
+expectation: zero
+verdict: pass
+duration: 0.6 s
+
+===== stdout =====
+values with an external selected source (value objects): 114; in the coverage ledger: 29 (external_selected 25, pending 4)
+  all: paired 8, inapplicable_non_numeric 41, inapplicable_selected_source_is_sds 11, inapplicable_different_quantity 2, unavailable_no_sds_document 1, unavailable_sds_does_not_print_property 14, unresolved_external_source_not_obtained 31, unresolved_property_outside_coverage_ledger 6
+  ledger external_selected: paired 4, inapplicable_different_quantity 2, unavailable_no_sds_document 1, unavailable_sds_does_not_print_property 14, unresolved_external_source_not_obtained 4
+  evidence state: copy read in the external review: 26; external source not obtained: value not re-read: 31; registry-verified, not re-read in the external review: 57
+  inventory pairs with an external technical side: 10 for 8 values
+
+===== stderr =====
+

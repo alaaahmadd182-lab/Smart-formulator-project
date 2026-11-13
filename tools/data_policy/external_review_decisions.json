@@ -1,0 +1,771 @@
+{
+ "description": "Reviewed outcome for every value selected from an external (URL) source and for every pending field whose open question is an external technical source (review of 2026-11-11; the three aramcoULTRA 8 fields reviewed as pending alternatives were selected on 2026-11-11 and are external_selected cases now). One entry per product x property. 'expect' pins the record as reviewed; external_review.py stops if the record has changed. Outcomes: confirmed = the value was re-read as printed on a copy that was obtained; inconclusive_source_unavailable = no copy of the source could be obtained, so the value was not re-read. External evidence is admissible (the templates define source.file as an archive file or a URL in source_registry.json); there is no blanket rule for or against it. Each source is assessed separately on authority, authenticity and provenance (per evidence item) and each case on exact product identity and applicability (per case). 'confirmed' states only that the value is printed as recorded: it is not an approval to select the source, and a distributor-issued document is never treated as manufacturer-issued. identity_status concerns only the link between this source and this record; a question about merging two records (ID-01) is recorded apart from it. Nothing in this file changes product data.",
+ "evidence": {
+  "aramco_prima230_sheet": {
+   "path": "reports/data_policy/external_evidence/Aramco_aramcoPRIMA-230_yanbu_ar.pdf",
+   "sha256": "977c8fee6013e5209a45f2203ef1792173f4f14656f8ed93a8339c5f24d924c6",
+   "retrieved": "2026-11-11 (web fetch of the registry URL; bytes equal the registry SHA-256)",
+   "registry_sha256_match": true,
+   "authority": "manufacturer_issued",
+   "authenticity": "registry_hash_match",
+   "provenance": "Saudi Aramco download URL in source_registry.json; stored copy with SHA-256; undated sheet (PDF created 2019-02-03, 2021-12 document set)",
+   "registry_url": "https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramcoprima/aramcoprima_2021_december/aramcoprima-230_yanbu_ar.pdf?hash=35009BCB03F8661F4C2220E5BC82ED39EAFE713F&la=ar"
+  },
+  "luberef_prima230_sds": {
+   "path": "reports/data_policy/external_evidence/Luberef_aramcoPRIMA-230_SDS.pdf",
+   "sha256": "53177bd44d58e50adca4a8828a6af7649b693fb7edb2077b7b9516a9958f185e",
+   "retrieved": "2026-11-11 (registry URL; bytes equal the registry SHA-256)",
+   "registry_sha256_match": true,
+   "authority": "manufacturer_issued",
+   "authenticity": "registry_hash_match",
+   "provenance": "Luberef document storage URL in source_registry.json; stored copy with SHA-256; SDS revision 2.0, issue date 12/08/2020",
+   "registry_url": "https://luberefapp.s3-accelerate.amazonaws.com/documents/prima230-1664376579.pdf"
+  },
+  "mogo_flyer_2025": {
+   "path": null,
+   "sha256": "9a8728c3d1387decc8cbeb620832ca7c0a2a2f1029d3a4e69740bf4da17386e1",
+   "retrieved": "2026-11-11 (registry URL; bytes equal the registry SHA-256). Not stored in the repository (15 MB).",
+   "registry_sha256_match": true,
+   "authority": "distributor_issued",
+   "authenticity": "registry_hash_match",
+   "provenance": "Ergon/MOGO URL in source_registry.json (issuer: distributor, not Bapco); SHA-256 recorded, copy not stored (15 MB); PDF created 2025-08-18",
+   "registry_url": "https://specs.ergonspecialtyoils.com/mogoil/MOGO-2025_Base%20Oils_Flyer_a4_Digital.pdf"
+  },
+  "aramco_catalog_2024": {
+   "path": null,
+   "sha256": "234377de5059001be061fc49dc341b63fbf3426a8276998708b513d6eb809460",
+   "retrieved": "earlier web fetch in this project's sessions; bytes equal the registry SHA-256. Not stored in the repository (805 KB).",
+   "registry_sha256_match": true,
+   "authority": "manufacturer_issued",
+   "authenticity": "registry_hash_match",
+   "provenance": "Saudi Aramco URL in source_registry.json; SHA-256 recorded, copy not stored; PDF created 2024-12-10",
+   "registry_url": "https://www.aramco.com/-/media/downloads/creating-value/base-oils/aramco-base-oil-catalog-2024.pdf"
+  },
+  "richful_feed_109": {
+   "path": "reports/data_policy/external_evidence/Richful_productId109__api.json",
+   "sha256": "fe74a9fc1593ded09478e72b8d87ddf5041e7a342e731b23cedbb3e2baa19da5",
+   "retrieved": "2026-11-11, https://www.richful.com/rfapi/api/product/getproductbyid?productId=109 (live data feed; the registry records no hash for it)",
+   "registry_sha256_match": null,
+   "authority": "manufacturer_issued",
+   "authenticity": "live_feed_unhashed_in_registry",
+   "provenance": "Richful's own product data feed behind the registered product page; stored copy of the 2026-11-11 response with SHA-256; no edition or revision date; corroborated by the archived TDS",
+   "registry_url": "https://www.richful.com/catalogueDetail.html?id=109"
+  },
+  "richful_feed_130": {
+   "path": "reports/data_policy/external_evidence/Richful_productId130__api.json",
+   "sha256": "c690705fdb1d7cba21882eb6f778717badf07d1b405ba963eea5dd38faf3e8d0",
+   "retrieved": "2026-11-11, https://www.richful.com/rfapi/api/product/getproductbyid?productId=130 (live data feed; the registry records no hash for it)",
+   "registry_sha256_match": null,
+   "authority": "manufacturer_issued",
+   "authenticity": "live_feed_unhashed_in_registry",
+   "provenance": "Richful's own product data feed behind the registered product page; stored copy of the 2026-11-11 response with SHA-256; no edition or revision date; corroborated by the archived TDS",
+   "registry_url": "https://www.richful.com/catalogueDetail.html?id=130"
+  },
+  "soil_page_wayback": {
+   "path": "reconciliation/audit_evidence/SOIL_LubeBaseOil__wayback_20260610070302.html",
+   "sha256": "cff0d3bbb7964c7450a1b9fa813617bf76e4b09de39187d026f674c7604fda60",
+   "retrieved": "2026-10-30 (Internet Archive capture 2026-06-10; saved evidence, manifest hash)",
+   "registry_sha256_match": null,
+   "authority": "manufacturer_issued",
+   "authenticity": "saved_copy_hash_verified",
+   "provenance": "S-OIL page, Internet Archive capture 2026-06-10 saved in reconciliation/audit_evidence (manifest SHA-256); the page is undated",
+   "registry_url": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx"
+  },
+  "soil_page_live": {
+   "path": "reconciliation/audit_evidence/SOIL_LubeBaseOil_live_2026-10-30.html",
+   "sha256": "94b263ad23cfd8b9631b5b637635c0cbdb341aad25cb7553a2a44513f10f011c",
+   "retrieved": "2026-10-30 (live page; saved evidence, manifest hash). Its aramcoULTRA and Ultra-S tables are identical to the capture.",
+   "registry_sha256_match": null,
+   "authority": "manufacturer_issued",
+   "authenticity": "saved_copy_hash_verified",
+   "provenance": "S-OIL page, live copy of 2026-10-30 saved in reconciliation/audit_evidence (manifest SHA-256); the page is undated",
+   "registry_url": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx"
+  },
+  "afton_12204l_pds": {
+   "path": null,
+   "sha256": "7a1e57d81d66b52b83215da261732256867d89b651c75334068022362a74183e",
+   "retrieved": "not obtained: on 2026-11-11 the Internet Archive refused automated download (bot block) and the fetch tool cannot open web.archive.org; no saved copy exists. The registry records a check on 2026-10-23.",
+   "registry_sha256_match": null,
+   "authority": "manufacturer_issued",
+   "authenticity": "not_obtained",
+   "provenance": "Internet Archive snapshot URL and SHA-256 in source_registry.json (checked 2026-10-23); no copy obtained in this review",
+   "registry_url": "https://web.archive.org/web/20201023085523id_/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-12204L/HiTEC-12204L_PDS.pdf?ext=.pdf"
+  },
+  "afton_8788b_pds": {
+   "path": null,
+   "sha256": "c09305fb7b6dd74619406d0c8f0f6570996b1c2c80dfb7cc91019fe96fd811fe",
+   "retrieved": "not obtained: on 2026-11-11 the Internet Archive refused automated download (bot block) and the fetch tool cannot open web.archive.org; no saved copy exists. The registry check of 2026-10-22 covered the base-oil statement only, not numeric values.",
+   "registry_sha256_match": null,
+   "authority": "manufacturer_issued",
+   "authenticity": "not_obtained",
+   "provenance": "Internet Archive snapshot URL and SHA-256 in source_registry.json (checked 2026-10-22, base-oil statement only); no copy obtained in this review",
+   "registry_url": "https://web.archive.org/web/20221204124252/https://www.aftonchemical.com/Afton/media/AftonSBU/Engine/PDS/HiTEC-8788B/HiTEC-8788B_PDS.pdf?ext=.pdf"
+  }
+ },
+ "cases": [
+  {
+   "product": "AFTON_HITEC_12204L",
+   "property": "kv100",
+   "kind": "external_selected",
+   "expect": {
+    "value": 190,
+    "unit": "cSt",
+    "printed_text": "Viscosity @ 100°C, cSt 190"
+   },
+   "evidence": [
+    "afton_12204l_pds"
+   ],
+   "outcome": "inconclusive_source_unavailable",
+   "identity": "Afton HiTEC 12204L PDS 06/17 (registry); not re-read",
+   "printed": "not re-read in this review",
+   "sds": "no HiTEC 12204L SDS among the associated documents or in the registry",
+   "change": "none",
+   "reason": "Source copy unavailable; the value stays as recorded with the registry check of 2026-10-23 as its only verification.",
+   "identity_status": "not_assessed_source_not_obtained",
+   "applicability": "not assessed: the source could not be read"
+  },
+  {
+   "product": "AFTON_HITEC_12204L",
+   "property": "density",
+   "kind": "external_selected",
+   "expect": {
+    "value": 8.11,
+    "unit": "lbs/gal",
+    "printed_text": "Density, lbs/gal. 8.11"
+   },
+   "evidence": [
+    "afton_12204l_pds"
+   ],
+   "outcome": "inconclusive_source_unavailable",
+   "identity": "Afton HiTEC 12204L PDS 06/17 (registry); not re-read",
+   "printed": "not re-read in this review (the record has no density temperature)",
+   "sds": "no HiTEC 12204L SDS among the associated documents or in the registry",
+   "change": "none",
+   "reason": "Source copy unavailable; whether the PDS prints a density temperature cannot be checked.",
+   "identity_status": "not_assessed_source_not_obtained",
+   "applicability": "not assessed: the source could not be read"
+  },
+  {
+   "product": "AFTON_HITEC_12204L",
+   "property": "flash_point",
+   "kind": "external_selected",
+   "expect": {
+    "value": 135,
+    "unit": "°C",
+    "printed_text": "Flash Point, °C (PMCC) 135 min."
+   },
+   "evidence": [
+    "afton_12204l_pds"
+   ],
+   "outcome": "inconclusive_source_unavailable",
+   "identity": "Afton HiTEC 12204L PDS 06/17 (registry); not re-read",
+   "printed": "not re-read in this review",
+   "sds": "no HiTEC 12204L SDS among the associated documents or in the registry",
+   "change": "none",
+   "reason": "Source copy unavailable.",
+   "identity_status": "not_assessed_source_not_obtained",
+   "applicability": "not assessed: the source could not be read"
+  },
+  {
+   "product": "AFTON_HITEC_12204L",
+   "property": "tbn",
+   "kind": "external_selected",
+   "expect": {
+    "value": 82,
+    "unit": "mg KOH/g",
+    "printed_text": "Total Base Number, mg KOH/g: 82"
+   },
+   "evidence": [
+    "afton_12204l_pds"
+   ],
+   "outcome": "inconclusive_source_unavailable",
+   "identity": "Afton HiTEC 12204L PDS 06/17 (registry); not re-read",
+   "printed": "not re-read in this review",
+   "sds": "no HiTEC 12204L SDS among the associated documents or in the registry",
+   "change": "none",
+   "reason": "Source copy unavailable. The archive's DL2-14639.pdf is the HiTEC 12200 bulletin (TBN 103); it is another product and is not used.",
+   "identity_status": "not_assessed_source_not_obtained",
+   "applicability": "not assessed: the source could not be read"
+  },
+  {
+   "product": "ARAMCO_LUBEREF_PRIMA_230",
+   "property": "kv100",
+   "kind": "external_selected",
+   "expect": {
+    "value": 6.65,
+    "unit": "cSt",
+    "printed_text": "6.65"
+   },
+   "evidence": [
+    "aramco_prima230_sheet",
+    "luberef_prima230_sds"
+   ],
+   "outcome": "confirmed",
+   "identity": "Aramco aramcoPRIMA 230 (Yanbu) typical-properties sheet, single page; column 'Yanbu 230', 'Group II'",
+   "printed": "Kinematic Viscosity @ 100 °C | cSt | D 445 | 6.65 (p.1)",
+   "sds": "Luberef SDS aramcoPRIMA 230 rev 2.0 (12/08/2020) p.5 prints only 'Kinematic viscosity : 45 mm²/s (40 °C)'; no KV100: comparison not possible",
+   "change": "none",
+   "reason": "Value, unit, method and page agree.",
+   "identity_status": "exact_grade_named",
+   "applicability": "typical value on a single-grade sheet headed 'Yanbu' (plant-specific); the record does not name a plant; the sheet is undated"
+  },
+  {
+   "product": "ARAMCO_LUBEREF_PRIMA_230",
+   "property": "ccs",
+   "kind": "external_selected",
+   "expect": {
+    "list_values": [
+     5900
+    ],
+    "list_temperatures": [
+     -25
+    ]
+   },
+   "evidence": [
+    "aramco_prima230_sheet",
+    "luberef_prima230_sds"
+   ],
+   "outcome": "confirmed",
+   "identity": "Aramco aramcoPRIMA 230 (Yanbu) typical-properties sheet, single page",
+   "printed": "CCS Viscosity at -25 °C | mPa-s | D 5293 | 5,900 (p.1); the sheet also prints CCS at -20 °C 3,200 mPa-s",
+   "sds": "the SDS prints no CCS: comparison not possible",
+   "change": "none",
+   "reason": "The recorded point agrees (unit printed 'mPa-s', recorded 'mPa.s': same unit). The -20 °C point is not added: the fill rule covers Missing fields only, and this list is not Missing.",
+   "identity_status": "exact_grade_named",
+   "applicability": "typical value on a single-grade sheet headed 'Yanbu' (plant-specific); the record does not name a plant; the sheet is undated"
+  },
+  {
+   "product": "BAPCO_BAPBASE_4",
+   "property": "kv40",
+   "kind": "external_selected",
+   "expect": {
+    "value": 19.54,
+    "unit": "cSt",
+    "printed_text": "19.54"
+   },
+   "evidence": [
+    "mogo_flyer_2025"
+   ],
+   "outcome": "confirmed",
+   "identity": "Ergon/MOGO 2025 Base Oils flyer p.4, 'Group III' table, column 'BAPbase 4' (distributor-issued, not Bapco)",
+   "printed": "KV40, cSt | ASTM D 445 | 19.54 (column headed 'typical')",
+   "sds": "no BAPbase 4 SDS among the associated documents: comparison not possible",
+   "change": "none",
+   "reason": "Value, unit, method and page agree. Representation note: the record has value_kind 'single' where the column is headed 'typical'; both are point values for every check, so it is not changed.",
+   "identity_status": "exact_grade_named",
+   "applicability": "distributor-issued typical value in a column 'BAPbase 4'; the Bapco specification in the archive (2017-08-17) prints no KV40; not a manufacturer statement"
+  },
+  {
+   "product": "RICHFUL_RF6078",
+   "property": "density",
+   "kind": "external_selected",
+   "expect": {
+    "value": 972,
+    "min": 952,
+    "max": 992,
+    "unit": "kg/m3"
+   },
+   "evidence": [
+    "richful_feed_109"
+   ],
+   "outcome": "confirmed",
+   "identity": "Richful data feed productId 109; product text 'RF6078 CI-4 Diesel Engine Oil Package'",
+   "printed": "Density (20℃), kg/m3 | 952-992 | 972 | SH/T 0604,ASTM D4052 (feed retrieved 2026-11-11)",
+   "sds": "the TDS-SDS pair (SDS DL2-15833.pdf p.5) is already in the inventory; the archived TDS DL2-15832.pdf p.1 and RF6078 TDS p.1 print the same 952-992 / 972",
+   "change": "none",
+   "reason": "Value, range, unit, temperature and method agree; the archived TDS agrees (DL2-15832.pdf names method GB/T 13377 instead of SH/T 0604).",
+   "identity_status": "exact_grade_named",
+   "applicability": "specification range and typical value; the same row is printed by the archived TDS of the product"
+  },
+  {
+   "product": "RICHFUL_RF6406",
+   "property": "tbn",
+   "kind": "external_selected",
+   "expect": {
+    "value": 185,
+    "min": 168,
+    "max": 198,
+    "unit": "mg KOH/g"
+   },
+   "evidence": [
+    "richful_feed_130"
+   ],
+   "outcome": "confirmed",
+   "identity": "Richful data feed productId 130; productCode 'RF6406'",
+   "printed": "Total Base Number, mgKOH/g | 168-198 | 185 | SH/T0251, ASTM D2896 (feed retrieved 2026-11-11)",
+   "sds": "no SDS page mentions TBN; the archived TDS DL2-15456.pdf p.1 prints the same 168-198 / 185 (the older DL2-14746.pdf prints '≥180')",
+   "change": "none",
+   "reason": "Value, range, unit and method agree.",
+   "identity_status": "exact_grade_named",
+   "applicability": "specification range and typical value; the same row is printed by the archived TDS of the product"
+  },
+  {
+   "product": "S_OIL_ARAMCO_ULTRA_8",
+   "property": "viscosity_index",
+   "kind": "external_selected",
+   "expect": {
+    "value": 134
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL Lube Base Oil page, 'Typical Properties of aramcoULTRA Base Oil', column 'aramcoULTRA 8'",
+   "printed": "Viscosity Index | D2270 | 134",
+   "sds": "the SDS DL2-14611.pdf prints no VI; the Aramco 2024 catalog p.25 prints '≥ 120' (specification bound; the typical is logically compatible)",
+   "change": "none",
+   "reason": "Value and method agree in both saved copies.",
+   "identity_status": "exact_grade_named_merge_question_separate",
+   "applicability": "typical value on a manufacturer page whose edition date is unknown (none printed), in the table 'Typical Properties of aramcoULTRA Base Oil', column 'aramcoULTRA 8': the page names this record's grade explicitly (it does not print '250 Neutral'). Identity question ID-01 is a different matter: it asks whether the two records S_OIL_ARAMCO_ULTRA_8 and S_OIL_ULTRA_S_8 should be merged; it is open, is not resolved here, and does not concern this source-to-record link"
+  },
+  {
+   "product": "S_OIL_ARAMCO_ULTRA_8",
+   "property": "density",
+   "kind": "external_selected",
+   "expect": {
+    "value": 0.8425,
+    "unit": "kg/L"
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL page, column 'aramcoULTRA 8'",
+   "printed": "Density @ 15.6℃, kg/L | D4052(D1298) | 0.8425",
+   "sds": "the SDS DL2-14611.pdf p.2 prints 'RELATIVE DENSITY 0.847 @ 15℃' (dimensionless): a different property, not compared",
+   "change": "none",
+   "reason": "Value, unit, temperature and method agree.",
+   "identity_status": "exact_grade_named_merge_question_separate",
+   "applicability": "typical value on a manufacturer page whose edition date is unknown (none printed), in the table 'Typical Properties of aramcoULTRA Base Oil', column 'aramcoULTRA 8': the page names this record's grade explicitly (it does not print '250 Neutral'). Identity question ID-01 is a different matter: it asks whether the two records S_OIL_ARAMCO_ULTRA_8 and S_OIL_ULTRA_S_8 should be merged; it is open, is not resolved here, and does not concern this source-to-record link"
+  },
+  {
+   "product": "S_OIL_ARAMCO_ULTRA_8",
+   "property": "ccs",
+   "kind": "external_selected",
+   "expect": {
+    "list_values": [
+     6300
+    ],
+    "list_temperatures": [
+     -30
+    ]
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL page, column 'aramcoULTRA 8'",
+   "printed": "CCS Viscosity @ -30℃, mPa-s | D5293 | 6,300",
+   "sds": "the SDS prints no CCS; the Aramco 2024 catalog p.25 prints '---' for grade 8",
+   "change": "none",
+   "reason": "Value, temperature and method agree. Representation note: the record has qualifier 'Typical' with value_kind 'single' (the Ultra-S records use qualifier null, value_kind 'typical'); both read as a point value, so it is not changed.",
+   "identity_status": "exact_grade_named_merge_question_separate",
+   "applicability": "typical value on a manufacturer page whose edition date is unknown (none printed), in the table 'Typical Properties of aramcoULTRA Base Oil', column 'aramcoULTRA 8': the page names this record's grade explicitly (it does not print '250 Neutral'). Identity question ID-01 is a different matter: it asks whether the two records S_OIL_ARAMCO_ULTRA_8 and S_OIL_ULTRA_S_8 should be merged; it is open, is not resolved here, and does not concern this source-to-record link"
+  },
+  {
+   "product": "S_OIL_ARAMCO_ULTRA_8",
+   "property": "pour_point",
+   "kind": "external_selected",
+   "expect": {
+    "value": -14,
+    "unit": "°C"
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL page, column 'aramcoULTRA 8'",
+   "printed": "Pour Point, ℃ | D6749(D5950) | -14",
+   "sds": "the SDS prints no pour point; the Aramco 2024 catalog p.25 prints '≤-10' (the typical is logically compatible)",
+   "change": "none",
+   "reason": "Value, unit and method agree.",
+   "identity_status": "exact_grade_named_merge_question_separate",
+   "applicability": "typical value on a manufacturer page whose edition date is unknown (none printed), in the table 'Typical Properties of aramcoULTRA Base Oil', column 'aramcoULTRA 8': the page names this record's grade explicitly (it does not print '250 Neutral'). Identity question ID-01 is a different matter: it asks whether the two records S_OIL_ARAMCO_ULTRA_8 and S_OIL_ULTRA_S_8 should be merged; it is open, is not resolved here, and does not concern this source-to-record link"
+  },
+  {
+   "product": "S_OIL_ARAMCO_ULTRA_8",
+   "property": "noack_volatility",
+   "kind": "external_selected",
+   "expect": {
+    "value": 4.0,
+    "unit": "wt%"
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL page, column 'aramcoULTRA 8'",
+   "printed": "Noack Volatility, wt% (Procedure B) | D5800(B) | 4.0",
+   "sds": "the SDS prints no Noack; the Aramco 2024 catalog p.25 prints '---' for grade 8",
+   "change": "none",
+   "reason": "Value, unit and procedure agree.",
+   "identity_status": "exact_grade_named_merge_question_separate",
+   "applicability": "typical value on a manufacturer page whose edition date is unknown (none printed), in the table 'Typical Properties of aramcoULTRA Base Oil', column 'aramcoULTRA 8': the page names this record's grade explicitly (it does not print '250 Neutral'). Identity question ID-01 is a different matter: it asks whether the two records S_OIL_ARAMCO_ULTRA_8 and S_OIL_ULTRA_S_8 should be merged; it is open, is not resolved here, and does not concern this source-to-record link"
+  },
+  {
+   "product": "S_OIL_ULTRA_S_2",
+   "property": "density",
+   "kind": "external_selected",
+   "expect": {
+    "value": 0.83,
+    "unit": "kg/L"
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL page, 'Ultra-S' table, column 'Ultra-S 2'",
+   "printed": "Density @ 15.6℃, kg/L | D4052(D1298) | 0.8300",
+   "sds": "no associated SDS page prints density; the 2009 sheet DL2-11177.pdf prints specific gravity 15/4 °C 0.820 (a different property, recorded separately)",
+   "change": "none",
+   "reason": "Value, unit, temperature and method agree.",
+   "identity_status": "exact_grade_named",
+   "applicability": "typical value on an undated manufacturer page, column of this grade; the archived S-OIL sheet is from 2009"
+  },
+  {
+   "product": "S_OIL_ULTRA_S_3",
+   "property": "density",
+   "kind": "external_selected",
+   "expect": {
+    "value": 0.8323,
+    "unit": "kg/L"
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL page, column 'Ultra-S 3'",
+   "printed": "Density @ 15.6℃, kg/L | D4052(D1298) | 0.8323",
+   "sds": "SDS DL2-13823.pdf p.4 prints only 'Vapor Density: > 1 (air =1.0)': not comparable",
+   "change": "none",
+   "reason": "Value, unit, temperature and method agree.",
+   "identity_status": "exact_grade_named",
+   "applicability": "typical value on an undated manufacturer page, column of this grade; the archived S-OIL sheet is from 2009"
+  },
+  {
+   "product": "S_OIL_ULTRA_S_4",
+   "property": "density",
+   "kind": "external_selected",
+   "expect": {
+    "value": 0.835,
+    "unit": "kg/L"
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL page, column 'Ultra-S 4'",
+   "printed": "Density @ 15.6℃, kg/L | D4052(D1298) | 0.8350",
+   "sds": "no associated SDS page prints density",
+   "change": "none",
+   "reason": "Value, unit, temperature and method agree.",
+   "identity_status": "exact_grade_named",
+   "applicability": "typical value on an undated manufacturer page, column of this grade; the archived S-OIL sheet is from 2009"
+  },
+  {
+   "product": "S_OIL_ULTRA_S_4",
+   "property": "ccs",
+   "kind": "external_selected",
+   "expect": {
+    "list_values": [
+     1500
+    ],
+    "list_temperatures": [
+     -30
+    ]
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL page, column 'Ultra-S 4'",
+   "printed": "CCS Viscosity @ -30℃, mPa-s | D5293 | 1,500",
+   "sds": "no associated SDS page prints CCS",
+   "change": "none",
+   "reason": "Value, temperature and method agree.",
+   "identity_status": "exact_grade_named",
+   "applicability": "typical value on an undated manufacturer page, column of this grade; the archived S-OIL sheet is from 2009"
+  },
+  {
+   "product": "S_OIL_ULTRA_S_6",
+   "property": "density",
+   "kind": "external_selected",
+   "expect": {
+    "value": 0.8398,
+    "unit": "kg/L"
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL page, column 'Ultra-S 6'",
+   "printed": "Density @ 15.6℃, kg/L | D4052(D1298) | 0.8398",
+   "sds": "no associated SDS page prints density",
+   "change": "none",
+   "reason": "Value, unit, temperature and method agree.",
+   "identity_status": "exact_grade_named",
+   "applicability": "typical value on an undated manufacturer page, column of this grade; the archived S-OIL sheet is from 2009"
+  },
+  {
+   "product": "S_OIL_ULTRA_S_6",
+   "property": "ccs",
+   "kind": "external_selected",
+   "expect": {
+    "list_values": [
+     3850
+    ],
+    "list_temperatures": [
+     -30
+    ]
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL page, column 'Ultra-S 6'",
+   "printed": "CCS Viscosity @ -30℃, mPa-s | D5293 | 3,850",
+   "sds": "no associated SDS page prints CCS",
+   "change": "none",
+   "reason": "Value, temperature and method agree.",
+   "identity_status": "exact_grade_named",
+   "applicability": "typical value on an undated manufacturer page, column of this grade; the archived S-OIL sheet is from 2009"
+  },
+  {
+   "product": "S_OIL_ULTRA_S_8",
+   "property": "density",
+   "kind": "external_selected",
+   "expect": {
+    "value": 0.8425,
+    "unit": "kg/L"
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL page, column 'Ultra-S 8'",
+   "printed": "Density @ 15.6℃, kg/L | D4052(D1298) | 0.8425",
+   "sds": "no associated SDS page prints density",
+   "change": "none",
+   "reason": "Value, unit, temperature and method agree.",
+   "identity_status": "exact_grade_named",
+   "applicability": "typical value on an undated manufacturer page, column of this grade; the archived S-OIL sheet is from 2009"
+  },
+  {
+   "product": "S_OIL_ULTRA_S_8",
+   "property": "ccs",
+   "kind": "external_selected",
+   "expect": {
+    "list_values": [
+     6300
+    ],
+    "list_temperatures": [
+     -30
+    ]
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL page, column 'Ultra-S 8'",
+   "printed": "CCS Viscosity @ -30℃, mPa-s | D5293 | 6,300",
+   "sds": "no associated SDS page prints CCS",
+   "change": "none",
+   "reason": "Value, temperature and method agree.",
+   "identity_status": "exact_grade_named",
+   "applicability": "typical value on an undated manufacturer page, column of this grade; the archived S-OIL sheet is from 2009"
+  },
+  {
+   "product": "AFTON_HITEC_8788B",
+   "property": "kv40",
+   "kind": "pending_external_alternative",
+   "expect": {
+    "value": 2850,
+    "unit": "cSt"
+   },
+   "evidence": [
+    "afton_8788b_pds"
+   ],
+   "outcome": "inconclusive_source_unavailable",
+   "identity": "Afton HiTEC 8788B PDS (registry, snapshot 2022-12-04); not read",
+   "printed": "not read: whether the PDS prints KV40 is unknown",
+   "sds": "selected SDS DL2-15016.pdf p.7: '2850 cSt at 40°C'",
+   "change": "none",
+   "reason": "The selection stays pending: Rule 1 would prefer a technical value if the PDS prints one, and the PDS could not be read.",
+   "identity_status": "not_assessed_source_not_obtained",
+   "applicability": "not assessed: the source could not be read"
+  },
+  {
+   "product": "AFTON_HITEC_8788B",
+   "property": "kv100",
+   "kind": "pending_external_alternative",
+   "expect": {
+    "value": 145,
+    "unit": "cSt"
+   },
+   "evidence": [
+    "afton_8788b_pds"
+   ],
+   "outcome": "inconclusive_source_unavailable",
+   "identity": "Afton HiTEC 8788B PDS (registry); not read",
+   "printed": "not read",
+   "sds": "selected SDS DL2-15016.pdf p.7: '145 cSt @ 100°C'",
+   "change": "none",
+   "reason": "Pending; PDS not readable in this review.",
+   "identity_status": "not_assessed_source_not_obtained",
+   "applicability": "not assessed: the source could not be read"
+  },
+  {
+   "product": "AFTON_HITEC_8788B",
+   "property": "density",
+   "kind": "pending_external_alternative",
+   "expect": {
+    "value": 0.958,
+    "unit": "g/cm³"
+   },
+   "evidence": [
+    "afton_8788b_pds"
+   ],
+   "outcome": "inconclusive_source_unavailable",
+   "identity": "Afton HiTEC 8788B PDS (registry); not read",
+   "printed": "not read",
+   "sds": "selected SDS DL2-15016.pdf p.7: 'Density : 0.958 g/cm³ [59°F (15°C)]'",
+   "change": "none",
+   "reason": "Pending; PDS not readable in this review.",
+   "identity_status": "not_assessed_source_not_obtained",
+   "applicability": "not assessed: the source could not be read"
+  },
+  {
+   "product": "AFTON_HITEC_8788B",
+   "property": "flash_point",
+   "kind": "pending_external_alternative",
+   "expect": {
+    "value": 135,
+    "unit": "°C"
+   },
+   "evidence": [
+    "afton_8788b_pds"
+   ],
+   "outcome": "inconclusive_source_unavailable",
+   "identity": "Afton HiTEC 8788B PDS (registry); not read",
+   "printed": "not read",
+   "sds": "selected SDS DL2-15016.pdf p.7: 'Closed cup: 135°C (275°F) [Pensky-Martens. Minimum]'",
+   "change": "none",
+   "reason": "Pending; PDS not readable in this review.",
+   "identity_status": "not_assessed_source_not_obtained",
+   "applicability": "not assessed: the source could not be read"
+  },
+  {
+   "product": "S_OIL_ARAMCO_ULTRA_8",
+   "property": "kv40",
+   "kind": "external_selected",
+   "expect": {
+    "value": 41.1,
+    "unit": "cSt",
+    "test_temperature_c": 40,
+    "method": "ASTM D445",
+    "value_kind": "typical"
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL page, column 'aramcoULTRA 8'",
+   "printed": "Kinematic Viscosity @ 40℃, cSt | D445 | 41.10 (typical)",
+   "sds": "alternate (previously selected) SDS DL2-14611.pdf p.2: '42.0 - 55.0 cSt @ 40°C (ASTM D 445)'; the external typical 41.10 lies below the SDS range: logically incompatible; already recorded as an unresolved edition-difference conflict by the 2026-10 audit (tier-1 conflicts[], 41.1 vs 42.0 - 55.0)",
+   "change": "selected 2026-11-11 (technical source first); SDS range kept as alternate",
+   "reason": "Confirmed as printed on both saved copies and selected as the applicable technical-source value. The disagreement with the SDS range is recorded separately (existing unresolved conflict) and is not a selection veto.",
+   "identity_status": "exact_grade_named_merge_question_separate",
+   "applicability": "typical value on a manufacturer page whose edition date is unknown (none printed), in the table 'Typical Properties of aramcoULTRA Base Oil', column 'aramcoULTRA 8': the page names this record's grade explicitly (it does not print '250 Neutral'). Identity question ID-01 is a different matter: it asks whether the two records S_OIL_ARAMCO_ULTRA_8 and S_OIL_ULTRA_S_8 should be merged; it is open, is not resolved here, and does not concern this source-to-record link. The typical 41.10 lies outside the archived SDS range 42.0-55.0 (unresolved conflict, 2026-10 audit)"
+  },
+  {
+   "product": "S_OIL_ARAMCO_ULTRA_8",
+   "property": "kv100",
+   "kind": "external_selected",
+   "expect": {
+    "value": 7.1,
+    "unit": "cSt",
+    "test_temperature_c": 100,
+    "method": "ASTM D445",
+    "value_kind": "typical"
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live",
+    "aramco_catalog_2024"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL page, column 'aramcoULTRA 8'; Aramco 2024 catalog p.25, 'aramcoULTRA slate' column 8",
+   "printed": "S-OIL: Kinematic Viscosity @ 100℃, cSt | D445 | 7.1 (typical); Aramco catalog: 'Kinematic Viscosity @ 100 °C, cSt | ASTM D-445 | 7.0 - 7.5'",
+   "sds": "alternate (previously selected) SDS DL2-14611.pdf p.2: '7.0 - 7.5 cSt @ 100°C (ASTM D 445)'; the typical lies inside; the catalog range equals the SDS range",
+   "change": "selected 2026-11-11 (technical source first); SDS range kept as alternate",
+   "reason": "Confirmed as printed on both saved copies and selected as the applicable technical-source value. Same unit, temperature and method as the SDS; the typical lies inside the SDS range (logically compatible, not agreement).",
+   "identity_status": "exact_grade_named_merge_question_separate",
+   "applicability": "typical value on a manufacturer page whose edition date is unknown (none printed), in the table 'Typical Properties of aramcoULTRA Base Oil', column 'aramcoULTRA 8': the page names this record's grade explicitly (it does not print '250 Neutral'). Identity question ID-01 is a different matter: it asks whether the two records S_OIL_ARAMCO_ULTRA_8 and S_OIL_ULTRA_S_8 should be merged; it is open, is not resolved here, and does not concern this source-to-record link"
+  },
+  {
+   "product": "S_OIL_ARAMCO_ULTRA_8",
+   "property": "flash_point",
+   "kind": "external_selected",
+   "expect": {
+    "value": 250,
+    "unit": "°C",
+    "method": "ASTM D92",
+    "value_kind": "typical"
+   },
+   "evidence": [
+    "soil_page_wayback",
+    "soil_page_live",
+    "aramco_catalog_2024"
+   ],
+   "outcome": "confirmed",
+   "identity": "S-OIL page, column 'aramcoULTRA 8'; Aramco 2024 catalog p.25",
+   "printed": "S-OIL: Flash Point, COC, ℃ | D92 | 250 (typical); Aramco catalog: 'Flash Point, COC | ASTM D-92 | ≥ 240'",
+   "sds": "alternate (previously selected) SDS DL2-14611.pdf p.2: '240 ~ 260°C (ASTM D 92)'; the typical lies inside",
+   "change": "selected 2026-11-11 (technical source first); SDS range kept as alternate",
+   "reason": "Confirmed as printed on both saved copies and selected as the applicable technical-source value. Same unit and method number as the SDS; the typical lies inside the SDS range (logically compatible, not agreement).",
+   "identity_status": "exact_grade_named_merge_question_separate",
+   "applicability": "typical value on a manufacturer page whose edition date is unknown (none printed), in the table 'Typical Properties of aramcoULTRA Base Oil', column 'aramcoULTRA 8': the page names this record's grade explicitly (it does not print '250 Neutral'). Identity question ID-01 is a different matter: it asks whether the two records S_OIL_ARAMCO_ULTRA_8 and S_OIL_ULTRA_S_8 should be merged; it is open, is not resolved here, and does not concern this source-to-record link"
+  }
+ ],
+ "observations": [
+  {
+   "product": "ARAMCO_LUBEREF_PRIMA_230",
+   "property": "noack_volatility",
+   "text": "The byte-verified Aramco sheet prints 'Noack Volatility (Procedure B) | wt% | D 5800 | 7.5'; the record's DL2-12172.pdf prints a maximum of 7. A typical above the specification maximum is logically incompatible: recorded as conflict EVR-2026-11-11-230-noack (not resolved; the selected value is unchanged)."
+  },
+  {
+   "product": "ARAMCO_LUBEREF_PRIMA_230",
+   "property": "density",
+   "text": "The Aramco sheet prints 'Density @ 15 °C | kg/L | D 4052 | 0.8635', a third value beside DL2-12172.pdf (0.8630, no unit) and DL2-11773.pdf (0.8625, provisional). Recorded as conflict EVR-2026-11-11-230-density-external; the field stays pending."
+  },
+  {
+   "product": "BAPCO_BAPBASE_4",
+   "property": "specific_gravity",
+   "text": "The MOGO flyer prints 'Sp. Gravity, 15/4 °C | ASTM D 4052 | 0.834' for BAPbase 4. Not filled: the flyer is distributor-issued (Ergon/MOGO), not a Bapco document, and a distributor description is not accepted automatically; its authority for this grade has not been assessed further."
+  }
+ ],
+ "comparison_reviews": {
+  "S_OIL_ULTRA_S_3|density": {
+   "status": "inapplicable_different_quantity",
+   "reason": "Reviewed 2026-11-11: SDS DL2-13823.pdf p.4 prints only 'Vapor Density: > 1 (air =1.0)', which is not the density of the liquid; no SDS density value exists to compare."
+  },
+  "S_OIL_ARAMCO_ULTRA_8|density": {
+   "status": "inapplicable_different_quantity",
+   "reason": "Reviewed 2026-11-11: SDS DL2-14611.pdf p.2 prints 'RELATIVE DENSITY 0.847 @ 15℃' (dimensionless), recorded in specific_gravity. Relative density is a different quantity and is never compared with, or converted to, density."
+  }
+ }
+}

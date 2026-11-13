@@ -1,0 +1,18 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/mandatory_properties/co_component_evidence_scan.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+return code: 0
+expectation: zero
+verdict: pass
+duration: 2.4 s
+
+===== stdout =====
+packages: 78
+  55: not found in the inspected text
+  16: co-components named or required in the inspected text (a lead)
+  5: source text unavailable: nothing could be inspected
+  2: "none required" wording found (a lead; covers only the co-component it names)
+  packages with a recorded co-component: 12
+
+===== stderr =====
+

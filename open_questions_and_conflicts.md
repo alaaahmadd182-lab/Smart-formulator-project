@@ -2027,3 +2027,89 @@ Each of the 33 overrides in `integrate_products.py` was checked against the curr
 - PETRO_CANADA_PURITY_L65: the viscosity-index conflict is stored as text, so it carries no `resolved` key; the proposal on origin/main (keep the TDS value 92 over the brochure value 104) was not adopted.
 - `integrate_products.py` was revised on 2026-10-24 to follow the data rules: it no longer averages values, prefers a document type or sets a value, status or source; its remaining annotations are the 10 accepted notes above, each pinned to the reviewed field, and the 16 accepted conflict rules. It has not been run on the repository; a test run on a temporary copy left all original keys, all kept normalised keys and all conflict entries unchanged, and would add normalised keys to the 564 value objects that have none. Conflict entries recorded on this branch have no rule and stay unresolved as recorded.
 - Components: AFTON_HITEC_8767B, AFTON_HITEC_12250 and LUBRIZOL_CV6320 carry the seven viscosity-modifier fields inside `general.json` (21 fields), whereas the viscosity modifiers AFTON_HITEC_5748 and RF6602 keep them in a separate `vm.json` as the templates do. Each record states why (Missing pending the product's function for 8767B and 12250; `Not Applicable` for CV6320, whose printed function is an ashless antiwear booster). `Not Applicable` is defined in the templates' status vocabulary. Decide whether this layout is an accepted variation or should move to the template layout.
+
+## Source-selection policy and mandatory Tier 1 review, 2026-11-10
+
+Added 2026-11-10 (Workstream A, branch `feat/data-policy-mandatory-review`). The sections above are historical and are not rewritten; where they say a 2026-10-18 user decision or "no automatic TDS preference" applies, this section supersedes them. Policy: `docs/data_policy_mandatory_review/source_selection_policy.md`; full change list: `reports/data_policy/source_selection_changes.csv`.
+
+### Selected values changed to the technical-document value (28 fields)
+
+- INFINEUM_D3424 (tier 2) `flash_point`: SDS bound > 110 °C → TDS 190 °C (PMCC, ASTM D 93, DL2-10204.pdf p.1). The SDS bound stays as an alternate; the conflict stays open.
+- RICHFUL RF6066, RF6069, RF6077, RF6078, RF6079, RF6088, RF6088F, RF6400, RF6406 (tier 2) `flash_point`: SDS lower bound (≥/≮ 180 °C) → TDS typical (COC, ASTM D92). The bound is a lower bound, not a "safety margin".
+- RICHFUL RF6069, RF6077, RF6079, RF6088, RF6400, RF6406 (tier 2) `density`: → TDS typical at 20 °C (kg/m³, index range in min/max).
+- RICHFUL RF6077, RF6078, RF6079, RF6088, RF6088F, RF6400, RF6406 (tier 2) `kv100`: → TDS typical.
+- NESTE_NEXBASE_3020: the open question "No product TDS supplied" was wrong. The family TDS DL2-10962.pdf (Edition 8, image) has a 3020 column; KV40 7.5, KV100 2.2 mm²/s and density 834 kg/m³ at 15 °C (tier 1) and pour point −45 °C and flash point 160 °C (tier 2) are now taken from it. API group, VI and sulfur remain Missing.
+
+### Superseded user decisions (confirmation needed)
+
+- RICHFUL_RF6077 `tier2.density` and `tier2.kv100`, RICHFUL_RF6088F `tier2.kv100`: the 2026-10-18 decisions kept the SDS values. Under the 2026-11-10 policy the TDS values are selected (998 kg/m³ at 20 °C; 160 mm²/s; 177 mm²/s); the SDS values are kept as alternates and the three conflicts are **reopened** (`resolved: false`). The SDS density of RF6077 is at 15 °C and the TDS density at 20 °C, so the two are not directly comparable.
+
+### Not changed (documented)
+
+- Exceptions (SDS kept): PETRONAS_ETRO_6_PLUS density (TDS 0.8429 kg/L, no temperature); AFTON_HITEC_12210M density (bulletin lbs/gal, no temperature).
+- Pending: FORMOSA_150N_GII_PLUS and FORMOSA_500N_GII kv100 (specification range vs SDS typical); RICHFUL_RF6066 (two undated TDS); RICHFUL_RF6069 kv100 (supplier web page 142 vs archived TDS 118); S_OIL_ARAMCO_ULTRA_8 (external web table vs SDS ranges); AFTON_HITEC_8788B (external PDS not reviewed); NEXBASE 3043–3080 (family TDS Edition 8 vs individual sheets).
+
+### TDS–SDS screening thresholds (awaiting review)
+
+- 65 TDS–SDS comparisons are inventoried in `reports/data_policy/tds_sds_comparisons.csv`; the proposed property-specific thresholds are in `docs/data_policy_mandatory_review/threshold_proposal.md`. No conflict here or in the v5 audit has been reclassified; all entries above keep their current state until the thresholds are approved.
+
+### Mandatory Tier 1 eligibility
+
+- `reports/mandatory_properties/product_eligibility.csv`: 11 of 181 base oils are formulation-eligible under the mandatory-data rules; 0 of 78 packages (none has a published formulation) and 0 of 5 components. Ineligible products stay in the database. Unmet requirements per product: `reports/mandatory_properties/missing_mandatory_properties.csv`.
+- SHELL_RISELLA_X_415/420/430: the `Not Required` labels on API group (and CCS for 420/430) rely on a proposed, unapproved applicability rule, so they do not satisfy the requirement.
+
+### Revision 2 of the 2026-11-10 review (provisional checkpoint)
+
+- FORMOSA_150N_GII_PLUS and FORMOSA_500N_GII (tier 1) `kv100`: the technical specification range is now selected as printed (DL2-10001.pdf / DL2-10003.pdf p.1, issued 2009-10-21: 5.0–5.4 and 10–12 mm²/s). The SDS typical values (5.2 and 11 cSt) are kept as alternates with their own SDS lines. The earlier record had mixed the specification range into the SDS entry; it is corrected. No single value is derived from the range.
+- NEXBASE 3043–3080: the family TDS DL2-10962.pdf (Edition 8) and the individual sheets disagree on 15 fields (densities, and some KV40, KV100, VI, pour point, flash point and Noack values). These fields stay pending: conflicting undated technical editions.
+- ERGON_HYGOLD_5000BS and ERGON_HYGOLD_P70N `viscosity_index`: the record puts `qualifier: "minimum"` on the value 81, which its own notes call the typical value. A correction (qualifier to null) is proposed, not applied.
+- Eligibility (provisional rules, version `mandatory-tier1-2026-11-10.2`): 10 of 181 base oils are formulation-eligible and 11 are Tier 1 complete; no package or component is eligible. S_OIL_ARAMCO_ULTRA_8 is no longer eligible: its KV40/KV100 are SDS ranges and its source selection is pending. Details: `docs/data_policy_mandatory_review/requirements_review.md`.
+- Coverage of the TDS–SDS checking is not exhaustive. Remaining gaps: `docs/data_policy_mandatory_review/source_review_coverage.md`.
+
+### Revision 3 of the 2026-11-10 review (evidence review)
+
+- All outstanding source leads were reviewed. That is 363 product × property cases: the 352 of revision 2 plus 11 found during the review (count corrected 2026-11-11). Each case has a recorded outcome (`reports/data_policy/lead_review.csv`; summary in `docs/data_policy_mandatory_review/evidence_review.md`). A keyword mention was treated as a lead only.
+- Filled from exact product-specific printed evidence:
+  - CHEVRON_GROUP_II_600R KV40 (spec ≥ 100 cSt);
+  - PETRONAS_ETRO_6 CCS (2,088 / 3,977 / 7,422 cP at −25 / −30 / −35 °C, from its own TDS);
+  - ARAMCO_LUBEREF_PRIMA_500 KV40 96.4 cSt and CCS 14,550 / 26,000 mPa·s at −20 / −25 °C (brochure);
+  - CHEVRON_SYNFLUID_MPAO_65 flash point > 266 °C (COC), with the SDS 270 °C kept as an alternate;
+  - ERGON_HYGOLD_P150BS Noack 1.1 wt%;
+  - EXXONMOBIL_SPECTRASYN_ULTRA_1000 specific gravity 0.855;
+  - NEXBASE 3020/3043/3060/3080 specific gravity (SDS fallback).
+- Corrected against the source pages: ERGON_HYGOLD_5000BS and P70N VI qualifier (the "minimum" belonged to the specification column; the typical value is 81).
+- New conflicts, not resolved; the fields are pending:
+  - PETRONAS_ETRO_4 KV100 / VI / CCS: PDS vs the ETRO 4 & 6 TDS;
+  - LUBRIZOL_CV2301 flash point: 158 vs 165 °C in the same technical document;
+  - aramcoPRIMA 110 / 230 / 500 density: spec without a unit vs brochure in Kg/L.
+- Identity:
+  - 174 name-match document links were reviewed (87 same product, 78 byte-identical copies, 9 other product). The 9 are excluded: NYNAS Base Stock 20 ↔ S 3B / NS 3; S-OIL S-8 ↔ Ultra-S sheets.
+  - The FORMOSA KV100 specifications name the exact products. The FORMOSA SDSs do not name the grade, so their KV40 and specific-gravity fallbacks are now pending.
+- Eligibility (version `.3`, `tier1_complete` = all mandatory requirements satisfied): 10 of 181 base oils; 0 packages; 0 components.
+
+### 2026-11-11: external-source review (revision 3 completion)
+
+- The 22 values selected from external (URL) sources and 7 pending fields with an external alternative were reviewed (`reports/data_policy/external_review.csv`; `docs/data_policy_mandatory_review/evidence_review.md` §8).
+  - 21 were confirmed on copies whose identity is established.
+  - 8 are inconclusive because the source could not be obtained: the Afton HiTEC 12204L PDS (KV100, density, flash point, TBN) and the HiTEC 8788B PDS (KV40, KV100, density, flash point; still pending). The Internet Archive refused automated download.
+- New conflicts, not resolved:
+  - ARAMCO_LUBEREF_PRIMA_230 Noack: the Aramco PRIMA 230 sheet prints a typical 7.5 wt%, above the DL2-12172.pdf maximum 7 (`EVR-2026-11-11-230-noack`). The selected value is unchanged.
+  - ARAMCO_LUBEREF_PRIMA_230 density: the same sheet prints 0.8635 kg/L at 15 °C, a third value (`EVR-2026-11-11-230-density-external`). The field stays pending.
+- S_OIL_ARAMCO_ULTRA_8 KV40: the S-OIL typical 41.10 cSt lies below the SDS range 42.0–55.0 cSt. This is the existing 2026-10 audit conflict (edition difference); it is not recorded twice. The field stays pending.
+- Open question for the user: may an external (non-archive) technical document be selected over an archived SDS, or fill a Missing field? This affects aramcoULTRA 8 KV40/KV100/flash point and the BAPbase 4 specific gravity printed by the MOGO flyer.
+
+### 2026-11-11 (later): correction on external evidence
+
+- The open question above ("may an external technical document be selected over an archived SDS, or fill a Missing field?") is withdrawn. Reliable external evidence was already authorised; it is not a blanket permission question.
+- Each external source is assessed separately on authority, authenticity, exact product identity, applicability and provenance (`reports/data_policy/external_review.csv`).
+- S_OIL_ARAMCO_ULTRA_8: two separate points. (1) ID-01 asks whether the aramcoULTRA 8 and Ultra-S 8 records are one product; it is open and not resolved. (2) The S-OIL table names aramcoULTRA 8 explicitly, so ID-01 does not restrict its use. KV40 stays pending because the undated page's typical 41.10 conflicts with the dated SDS range 42.0–55.0; KV100 and flash point show no conflict, and the SDS ranges are kept selected, unchanged, for review. The 5 values already taken from the page (VI, density, CCS, pour point, Noack) are unchanged.
+- BAPCO_BAPBASE_4: the MOGO flyer is distributor-issued (Ergon/MOGO), not a Bapco document. Its specific gravity is not filled; a distributor description is not accepted automatically. The existing KV40 from the same flyer is unchanged and labelled distributor-issued in the review.
+
+### 2026-11-11: S_OIL_ARAMCO_ULTRA_8 technical-source selections
+
+- KV40, KV100 and flash point now hold the typical values of the S-OIL manufacturer table "Typical Properties of aramcoULTRA Base Oil", column "aramcoULTRA 8": 41.10 cSt at 40 °C (D445), 7.1 cSt at 100 °C (D445) and 250 °C COC (D92). They were confirmed on both saved copies (`tools/data_policy/verify_soil_table.py`).
+- The SDS ranges of DL2-14611.pdf (42.0–55.0 cSt, 7.0–7.5 cSt, 240–260 °C; 2018-09-07) are kept as alternate entries.
+- **Conflict, still unresolved:** KV40 typical 41.10 cSt vs SDS range 42.0–55.0 cSt (the 2026-10 audit entry; a dated note was added, nothing was duplicated). Selecting the technical value does not resolve it and does not judge the SDS wrong.
+- **Open:** the S-OIL page prints no publication or revision date, so its edition date is unknown. Which document is newer cannot be established.
+- **Open:** ID-01 (are aramcoULTRA 8 and Ultra-S 8 one product?). Both records stay separate.
+- Eligibility, as calculated: S_OIL_ARAMCO_ULTRA_8 is Tier 1 complete and formulation-eligible, with a KV40 open-conflict warning. 11 of 181 base oils; 0 packages; 0 components.

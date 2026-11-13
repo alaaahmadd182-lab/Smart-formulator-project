@@ -198,5 +198,25 @@
     "No calendar revision date stated on PDS.",
     "Density measurement temperature is not stated in the PDS; do not infer it."
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "id": "EVR-2026-11-10-ETRO4",
+      "field": "kv100, viscosity_index, ccs",
+      "conflict_type": "technical document vs technical document (undated editions)",
+      "values": [
+        {
+          "file": "DL2-10230.pdf",
+          "page": 1,
+          "value": "KV100 4.22 mm²/s; VI 129; CCS 810 / 1,390 / 2,500 mPa·s at -25 / -30 / -35 °C (typical)"
+        },
+        {
+          "file": "DL2-12475.pdf",
+          "page": 1,
+          "value": "KV100 4.26 mm²/s; VI 130; CCS 886 / 1,442 / 2,419 cP at -25 / -30 / -35 °C (ETRO 4 typical; image, render read)"
+        }
+      ],
+      "resolved": false,
+      "note": "Found in the evidence review of 2026-11-10. Both technical documents are undated; no edition rule applies. The record keeps the DL2-10230.pdf values; the fields are pending (source_selection.PENDING_FIELDS)."
+    }
+  ]
 }

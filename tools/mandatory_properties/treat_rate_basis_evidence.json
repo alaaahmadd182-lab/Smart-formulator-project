@@ -1,0 +1,48 @@
+{
+  "description": "Reviewed evidence (2026-11-10; schema extended 2026-11-11 for policy 3) that establishes the basis of a treat rate or dose recorded with a bare '%'. Each entry gives basis_class (mass or volume), evidence_kind (unit, heading, footnote, text or document_convention), scope (value, table or document), the page and the quoted wording. Only cases where the source states the basis for the recorded number are listed; the basis is never guessed, and the recorded unit in the product JSON stays as printed.",
+  "not_established": "All other bare-'%' treat rates found by the scan (Afton HiTEC 12200 dosage table, HiTEC 8766B/8767B, HiTEC 12250 (external PDS), Eni MX 5212/5217, Bettchem BT 3088, Minglan T3161 (no unit printed), Richful RF6066/6069/6071L/6077/6078/6088/6088F/6400/6406/6408): the cited page prints no basis for the dosage figures. The Afton 12200 footnote 3 'Up to 0.6% wt maybe required for some group I's' applies to one booster row only and does not establish the basis of the table.",
+  "evidence": [
+    {
+      "product": "INFINEUM_D3384",
+      "field": "required_co_components",
+      "source_file": "DL2-10218.pdf",
+      "page": 1,
+      "values": null,
+      "basis": "mass %",
+      "quote": "Performance table, column heading 'Mass %:'; rows such as '9.97 + Infineum D2359 at 1.93 %' (package and co-component doses in the Mass % column)",
+      "read_on": "render of the image-only page, 2026-11-10",
+      "basis_class": "mass",
+      "evidence_kind": "heading",
+      "scope": "table"
+    },
+    {
+      "product": "INFINEUM_D3451",
+      "field": "required_co_components",
+      "source_file": "DL2-12029.pdf",
+      "page": 1,
+      "values": null,
+      "basis": "mass %",
+      "quote": "Table column heading 'Mass %:' with the row '11.9 + Infineum D2367 at 1.2 %'; text 'the recommended treat rate of 11.9 mass%'",
+      "read_on": "text layer, 2026-11-10",
+      "basis_class": "mass",
+      "evidence_kind": "heading",
+      "scope": "table"
+    },
+    {
+      "product": "AFTON_HITEC_12360",
+      "field": "treat_rate_matrix",
+      "source_file": "DL2-13692.pdf",
+      "page": 2,
+      "values": [
+        16.1
+      ],
+      "basis": "wt.%",
+      "quote": "'HiTEC® 12360 is extremely cost effective due to its low treat rate @ 16.1% w.t'",
+      "read_on": "text layer, 2026-11-10",
+      "basis_class": "mass",
+      "evidence_kind": "text",
+      "scope": "value"
+    }
+  ],
+  "document_wide_conventions": "Searched 2026-11-11 with treat_rate_basis_scan.py (column document_wide_convention_leads): every page of the 20 archive documents that carry a dose without a mass unit (19 have a text layer; DL2-10218.pdf is image-only and was read on its render on 2026-11-10). No document states a document-wide percentage convention. The one lead, DL2-12029.pdf p.1 'the recommended treat rate of 11.9 mass%', is a statement about that treat rate, which is already recorded in wt.%, and the page is already listed below for its co-component dose. The two external sources (Afton HiTEC 12250 data sheet, not obtained; Richful page 130) are outside that search."
+}

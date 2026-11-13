@@ -1,0 +1,20 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/mandatory_properties/build_readiness.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+return code: 0
+expectation: zero
+verdict: pass
+duration: 1.0 s
+
+===== stdout =====
+2028 requirement outcomes (2004 mandatory) for 264 products; snapshot 93b704a79b5844430af87d15f53058ec3df106ad262af4236fb52da1621f3530
+  evidence_documentation: documented 1266, not_recorded 665, requirement_unknown 31, documented_incomplete 24, applicability_unresolved 10, recorded_route_not_assessed 8
+  value_selection: selected 1273, none 714, pending 17
+  value_form: none 714, point 616, text 412, structured 191, closed_range 37, lower_bound 22, upper_bound 12
+  basis of values in the dose fields: mass 187, unspecified 84; volume evidence entries outside the fields: 5
+  recorded co-component requirements: required_dose_not_recorded 47, required_usable_dose 17, required_dose_not_usable 9; route association: route_association_not_established 73
+  packages with no recorded requirement: not_found_in_inspected_text 27, not_inspected 2, source_unavailable 1, lead_in_inspected_text_not_reviewed 1
+  applicability: approved rules 0; labels without a rule 18; unresolved outcomes 10
+
+===== stderr =====
+

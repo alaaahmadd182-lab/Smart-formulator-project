@@ -52,50 +52,90 @@
       }
     },
     "kv40": {
-      "value": null,
+      "value": 41.1,
       "qualifier": null,
-      "min": 42.0,
-      "max": 55.0,
-      "value_kind": "range",
-      "printed_text": "42.0 - 55.0 cSt @ 40°C (ASTM D 445)",
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Kinematic Viscosity @ 40℃, cSt: 41.10",
       "unit": "cSt",
       "test_temperature_c": 40,
       "method": "ASTM D445",
       "status": "Reported",
-      "calculation_note": null,
+      "calculation_note": "Selected 2026-11-11 under the source-selection policy (technical source first). S-OIL 'Lube Base Oil' web page, table 'Typical Properties of aramcoULTRA Base Oil', column 'aramcoULTRA 8', row 'Kinematic Viscosity @ 40℃, cSt', ASTM cell 'D445'. Read on the two saved copies in reconciliation/audit_evidence/: SOIL_LubeBaseOil__wayback_20260610070302.html (Internet Archive capture 2026-06-10, SHA-256 cff0d3bbb7964c7450a1b9fa813617bf76e4b09de39187d026f674c7604fda60) and SOIL_LubeBaseOil_live_2026-10-30.html (live page retrieved 2026-10-30, SHA-256 94b263ad23cfd8b9631b5b637635c0cbdb341aad25cb7553a2a44513f10f011c); both print the same cell. The page prints no publication or revision date: its edition date is unknown, and a capture or retrieval date is not an edition date. The archived SDS DL2-14611.pdf (2018-09-07) prints the range 42.0 - 55.0 cSt @ 40 °C (ASTM D 445); it is kept as an alternate entry. The typical value lies below that range: the disagreement is the unresolved conflict already in conflicts[] (2026-10 audit); selecting the technical value does not resolve it and does not judge the SDS wrong.",
       "source": {
-        "file": "DL2-14611.pdf",
-        "page": 2,
-        "revision_date": "2018-09-07"
+        "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+        "page": null,
+        "revision_date": null
       },
-      "flash_method": null,
-      "value_final": null,
-      "unit_final": "cSt",
-      "min_final": 42,
-      "max_final": 55
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "alternate_entries": [
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 42.0,
+          "max": 55.0,
+          "value_kind": "range",
+          "printed_text": "42.0 - 55.0 cSt @ 40°C (ASTM D 445)",
+          "unit": "cSt",
+          "test_temperature_c": 40,
+          "method": "ASTM D445",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14611.pdf",
+            "page": 2,
+            "revision_date": "2018-09-07"
+          },
+          "flash_method": null,
+          "selection_note": "Previously selected value, kept as an alternate under the source-selection policy of 2026-11-10. Not judged erroneous: the policy selects the technical-document value first."
+        }
+      ],
+      "value_final": 41.1,
+      "unit_final": "cSt"
     },
     "kv100": {
-      "value": null,
+      "value": 7.1,
       "qualifier": null,
-      "min": 7.0,
-      "max": 7.5,
-      "value_kind": "range",
-      "printed_text": "7.0 - 7.5 cSt @ 100°C (ASTM D 445)",
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Kinematic Viscosity @ 100℃, cSt: 7.1",
       "unit": "cSt",
       "test_temperature_c": 100,
       "method": "ASTM D445",
       "status": "Reported",
-      "calculation_note": null,
+      "calculation_note": "Selected 2026-11-11 under the source-selection policy (technical source first). S-OIL 'Lube Base Oil' web page, table 'Typical Properties of aramcoULTRA Base Oil', column 'aramcoULTRA 8', row 'Kinematic Viscosity @ 100℃, cSt', ASTM cell 'D445'. Read on the two saved copies in reconciliation/audit_evidence/: SOIL_LubeBaseOil__wayback_20260610070302.html (Internet Archive capture 2026-06-10, SHA-256 cff0d3bbb7964c7450a1b9fa813617bf76e4b09de39187d026f674c7604fda60) and SOIL_LubeBaseOil_live_2026-10-30.html (live page retrieved 2026-10-30, SHA-256 94b263ad23cfd8b9631b5b637635c0cbdb341aad25cb7553a2a44513f10f011c); both print the same cell. The page prints no publication or revision date: its edition date is unknown, and a capture or retrieval date is not an edition date. The archived SDS DL2-14611.pdf (2018-09-07) prints the range 7.0 - 7.5 cSt @ 100 °C (ASTM D 445); it is kept as an alternate entry. The typical value lies inside that range: logically compatible, which is not evidence of agreement (the kind of the SDS range is not stated).",
       "source": {
-        "file": "DL2-14611.pdf",
-        "page": 2,
-        "revision_date": "2018-09-07"
+        "file": "https://www.s-oil.com/en/energy/LubeBaseOil.aspx",
+        "page": null,
+        "revision_date": null
       },
-      "flash_method": null,
-      "value_final": null,
-      "unit_final": "cSt",
-      "min_final": 7,
-      "max_final": 7.5
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "alternate_entries": [
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 7.0,
+          "max": 7.5,
+          "value_kind": "range",
+          "printed_text": "7.0 - 7.5 cSt @ 100°C (ASTM D 445)",
+          "unit": "cSt",
+          "test_temperature_c": 100,
+          "method": "ASTM D445",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14611.pdf",
+            "page": 2,
+            "revision_date": "2018-09-07"
+          },
+          "flash_method": null,
+          "selection_note": "Previously selected value, kept as an alternate under the source-selection policy of 2026-11-10. Not judged erroneous: the policy selects the technical-document value first."
+        }
+      ],
+      "value_final": 7.1,
+      "unit_final": "cSt"
     },
     "viscosity_index": {
       "value": 134,
@@ -204,7 +244,7 @@
           "revision_date": null
         }
       ],
-      "note": "Document editions differ for aramcoULTRA 8: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 41.1. The recorded value is kept; not resolved (2026-10 audit)."
+      "note": "Document editions differ for aramcoULTRA 8: the recorded value comes from the cited archive/older document; the current S-OIL Lube Base Oil web page (typical properties, undated, retrieved 2026-10-21) prints 41.1. The recorded value is kept; not resolved (2026-10 audit). [2026-11-11 source-selection policy: the field now holds the S-OIL table typical 41.10 cSt (technical source first; edition date of the page unknown); the SDS range 42.0 - 55.0 cSt is kept as an alternate entry. The typical lies below the SDS range, so the documents still disagree. Not resolved.]"
     }
   ]
 }

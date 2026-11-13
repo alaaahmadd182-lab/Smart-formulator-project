@@ -23,11 +23,14 @@ Unit rules (unit change only, no estimated values):
   A density whose value and printed unit disagree is flagged and value_final left null; it is never
   replaced by a number read from the printed text.
 
-Data rules (approved 2026-10-24):
+Data rules (approved 2026-10-24; rule 2 replaced 2026-11-10):
   1. Conflicting datasheet values are never averaged. Both values and sources stay as recorded and the
      conflict stays unresolved unless authoritative evidence supports a resolution.
-  2. TDS is never preferred over SDS, nor the reverse, automatically: measurement conditions, test methods,
-     revision dates, source reliability and comparability are evaluated case by case.
+  2. Source selection (2026-11-10): the selected value comes from the applicable technical document (TDS, PDS,
+     technical bulletin, specification sheet) when one provides the property, otherwise from the SDS (SDS fallback);
+     see tools/data_policy/source_selection.py. Selecting the TDS value is not a judgement that the SDS value is
+     wrong: a TDS-SDS disagreement stays recorded and unresolved. (Until 2026-11-10 the rule was: TDS is never
+     preferred over SDS, nor the reverse, automatically.) This script still never selects or changes a value.
   3. Coverage reports the validated status; this script never writes status_final or source_final.
 So ANNOTATIONS may only attach a reviewed note to a property (never a value, status or source), and each
 one names the field values it was reviewed against: if the field has changed since, the run fails.
@@ -76,21 +79,21 @@ NEWEST = 'Same document type; newest edition used'
 # note was reviewed (2026-10-24); 'source' compares source.file. Only 'expect' and 'resolution' are allowed.
 ANNOTATIONS = {
     ('RICHFUL_RF6077', 2, 'density'): dict(
-        expect=dict(value=0.991, unit='g/cm³', test_temperature_c=15, source='DL2-15542.pdf'),
-        resolution="User decision of 2026-10-18 kept (SDS DL2-15542.pdf 0.991 g/cm³ at 15 °C); it overrides the "
-                   "TDS-preferred rule, which would give TDS DL2-15536.pdf 998 kg/m³ at 20 °C."),
+        expect=dict(value=998, unit='kg/m3', test_temperature_c=20, source='DL2-15536.pdf'),
+        resolution="Source-selection policy of 2026-11-10: TDS DL2-15536.pdf 998 kg/m³ at 20 °C selected; it supersedes the "
+                   "user decision of 2026-10-18 (SDS DL2-15542.pdf 0.991 g/cm³ at 15 °C, kept as an alternate). Not resolved."),
     ('RICHFUL_RF6077', 2, 'kv100'): dict(
-        expect=dict(value=150, unit='mm²/s', test_temperature_c=100, source='DL2-15542.pdf'),
-        resolution="User decision of 2026-10-18 kept (SDS DL2-15542.pdf 150 cSt); it overrides the TDS-preferred "
-                   "rule, which would give TDS DL2-15536.pdf 160 cSt."),
+        expect=dict(value=160, unit='mm2/s', test_temperature_c=100, source='DL2-15536.pdf'),
+        resolution="Source-selection policy of 2026-11-10: TDS DL2-15536.pdf 160 cSt selected; it supersedes the user decision "
+                   "of 2026-10-18 (SDS DL2-15542.pdf 150 cSt, kept as an alternate). Not resolved."),
     ('RICHFUL_RF6088F', 2, 'density'): dict(
         expect=dict(value=963.0, unit='kg/m³', test_temperature_c=20, source='DL2-15839.pdf'),
         resolution="User decision of 2026-10-18 kept (TDS DL2-15839.pdf 963 kg/m³ at 20 °C); agrees with TDS preferred over SDS "
                    "(SDS DL2-15840.pdf relative density 0.958 not used)."),
     ('RICHFUL_RF6088F', 2, 'kv100'): dict(
-        expect=dict(value=178.2, unit='mm²/s', test_temperature_c=100, source='DL2-15840.pdf'),
-        resolution="User decision of 2026-10-18 kept (SDS DL2-15840.pdf 178.2 cSt); it overrides the TDS-preferred "
-                   "rule, which would give TDS DL2-15839.pdf 177 cSt."),
+        expect=dict(value=177, unit='mm2/s', test_temperature_c=100, source='DL2-15839.pdf'),
+        resolution="Source-selection policy of 2026-11-10: TDS DL2-15839.pdf 177 cSt selected; it supersedes the user decision "
+                   "of 2026-10-18 (SDS DL2-15840.pdf 178.2 cSt, kept as an alternate). Not resolved."),
     ('NYNAS_NS_3', 1, 'kv40'): dict(
         expect=dict(value=2.92, unit='cSt', test_temperature_c=40, source='DL2-15474.pdf'),
         resolution=f"{NEWEST}: 2024 edition DL2-15474.pdf 2.92 cSt over 2016 edition DL2-12382.pdf 2.84 cSt."),
@@ -129,10 +132,19 @@ CONFLICTS = [
     ('LUBRIZOL_CV7540', 'CES 20076', True, 'newer dated edition of the same document', f"{NEWEST} (2022 sheet: 'A - Approved'); text value, not averaged."),
     ('LUBRIZOL_CV7540', 'CES 20077', True, 'newer dated edition of the same document', f"{NEWEST} (2022 sheet: 'A - Approved'); text value, not averaged."),
     ('LUBRIZOL_CV7540', 'CES 20078', True, 'newer dated edition of the same document', f"{NEWEST} (2022 sheet: 'A - Approved'); text value, not averaged."),
-    ('RICHFUL_RF6077', 'tier2.density', True, 'user decision 2026-10-18', 'User decision of 2026-10-18 kept; see fields.density.resolution.'),
-    ('RICHFUL_RF6077', 'tier2.kv100', True, 'user decision 2026-10-18', 'User decision of 2026-10-18 kept; see fields.kv100.resolution.'),
+    # 2026-11-10: the source-selection policy selects the TDS value; the disagreement stays unresolved (texts must match the JSON,
+    # where tools/data_policy/source_selection.py wrote them)
+    ('RICHFUL_RF6077', 'tier2.density', False, 'source-selection policy 2026-11-10',
+     'Superseded 2026-11-10: the source-selection policy (TDS value first, SDS fallback) selects the TDS value 998 kg/m³ at 20 °C; '
+     'the documents still disagree (SDS 0.991 g/cm³ at 15 °C), so the conflict is not resolved. Earlier annotation: User decision of '
+     '2026-10-18 kept (SDS value).'),
+    ('RICHFUL_RF6077', 'tier2.kv100', False, 'source-selection policy 2026-11-10',
+     'Superseded 2026-11-10: the source-selection policy (TDS value first, SDS fallback) selects the TDS value 160 mm²/s; the documents '
+     'still disagree (SDS 150 mm²/s), so the conflict is not resolved. Earlier annotation: User decision of 2026-10-18 kept (SDS value).'),
     ('RICHFUL_RF6088F', 'tier2.density', True, 'user decision 2026-10-18', 'User decision of 2026-10-18 kept; see fields.density.resolution.'),
-    ('RICHFUL_RF6088F', 'tier2.kv100', True, 'user decision 2026-10-18', 'User decision of 2026-10-18 kept; see fields.kv100.resolution.'),
+    ('RICHFUL_RF6088F', 'tier2.kv100', False, 'source-selection policy 2026-11-10',
+     'Superseded 2026-11-10: the source-selection policy (TDS value first, SDS fallback) selects the TDS value 177 mm²/s; the documents '
+     'still disagree (SDS 178.2 mm²/s), so the conflict is not resolved. Earlier annotation: User decision of 2026-10-18 kept (SDS value).'),
     ('ARAMCO_LUBEREF_DURA_BS150_YANBU', '"field": "density"', True, 'no value conflict',
      'No value conflict: a note that the density is at 15.6 °C, not 15 °C.'),
     ('ARAMCO_LUBEREF_DURA_BS150_YANBU', '"field": "sulfur"', False, 'unresolved', 'UNRESOLVED; see tier3 fields.sulfur.resolution.'),

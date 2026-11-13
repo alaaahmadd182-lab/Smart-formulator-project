@@ -138,7 +138,27 @@
         "value_final": null,
         "unit_final": "mPa·s"
       }
-    ]
+    ],
+    "specific_gravity": {
+      "value": 0.855,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Specific Gravity (60.1°F (15.6°C)) 0.855",
+      "unit": "dimensionless",
+      "test_temperature_c": 15.6,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": "Filled in the evidence review of 2026-11-10 (lead review, reports/data_policy/lead_review.csv); SpectraSyn Ultra 1000 product sheet (© 2011), typical value. The record's other values cite DL2-11190.pdf (image, undated), which prints no specific gravity; no conflict.",
+      "source": {
+        "file": "DL2-13746.pdf",
+        "page": 1,
+        "revision_date": "2011"
+      },
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "value_final": 0.855
+    }
   },
   "open_questions": [],
   "conflicts": []

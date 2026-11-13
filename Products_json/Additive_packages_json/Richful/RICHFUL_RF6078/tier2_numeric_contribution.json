@@ -272,19 +272,41 @@
       "qualifier": null,
       "min": null,
       "max": null,
-      "value_kind": null,
-      "printed_text": "Viscosity, kinematic : 146 mm²/s (100 °C, ASTM D445)",
-      "unit": "mm²/s",
+      "value_kind": "typical",
+      "printed_text": "Kinematic Viscosity (100℃), mm2/s Report 146 GB/T 265, ASTM D445",
+      "unit": "mm2/s",
       "test_temperature_c": 100,
-      "method": "ASTM D445",
+      "method": "GB/T 265, ASTM D445",
       "status": "Reported",
-      "calculation_note": "SDS body is image/vector graphics; read visually. Same value in: DL2-15832.pdf p.1 (undated): 'Kinematic Viscosity (100℃), mm2/s Report 146 GB/T 265, ASTM D445'; RF6078%20-%20TDS.pdf p.1 (undated): 'Kinematic Viscosity (100℃), mm2/s Report 146 GB/T 265, ASTM D445'.",
+      "calculation_note": "TDS \"Typical Value\" column. TDS prints no revision date.",
       "source": {
-        "file": "DL2-15833.pdf",
-        "page": 5,
-        "revision_date": "2021-09-02"
+        "file": "DL2-15832.pdf",
+        "page": 1,
+        "revision_date": null
       },
-      "notes": null,
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "alternate_entries": [
+        {
+          "value": 146,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": "Viscosity, kinematic : 146 mm²/s (100 °C, ASTM D445)",
+          "unit": "mm²/s",
+          "test_temperature_c": 100,
+          "method": "ASTM D445",
+          "status": "Reported",
+          "calculation_note": "SDS body is image/vector graphics; read visually. Same value in: DL2-15832.pdf p.1 (undated): 'Kinematic Viscosity (100℃), mm2/s Report 146 GB/T 265, ASTM D445'; RF6078%20-%20TDS.pdf p.1 (undated): 'Kinematic Viscosity (100℃), mm2/s Report 146 GB/T 265, ASTM D445'.",
+          "source": {
+            "file": "DL2-15833.pdf",
+            "page": 5,
+            "revision_date": "2021-09-02"
+          },
+          "notes": null,
+          "selection_note": "Previously selected value, kept as an alternate under the source-selection policy of 2026-11-10. Not judged erroneous: the policy selects the technical-document value first."
+        }
+      ],
       "value_final": 146,
       "unit_final": "cSt"
     },
@@ -311,27 +333,50 @@
       "notes": "Sourced from the supplier's official public product page (https://www.richful.com/catalogueDetail.html?id=109), not from the product datasheet. Value taken from the supplier's official public product page https://www.richful.com/catalogueDetail.html?id=109 (data endpoint https://www.richful.com/rfapi/api/product/getproductbyid?productId=109), retrieved 2026-10-17. Page body names 'RF6078 CI-4 Diesel Engine Oil Package'. Same value as both archived TDS (972); only the SDS DL2-15833.pdf prints 975. Conflict record kept unchanged."
     },
     "flash_point": {
-      "value": 180,
-      "qualifier": "≥",
-      "min": 180,
+      "value": 220,
+      "qualifier": null,
+      "min": null,
       "max": null,
-      "value_kind": "specification",
-      "printed_text": "Flash point : >= 180 °C (ASTM D92)",
+      "value_kind": "typical",
+      "printed_text": "Flash Point (COC), ℃ ≥180 220 GB/T 3536, ASTM D92",
       "unit": "°C",
       "test_temperature_c": null,
-      "method": "ASTM D92",
+      "method": "GB/T 3536, ASTM D92",
       "status": "Reported",
-      "calculation_note": "SDS body is image/vector graphics; read visually. Same value in: DL2-15832.pdf p.1 (undated): 'Flash Point (COC), ℃ ≥180 220 GB/T 3536, ASTM D92'; RF6078%20-%20TDS.pdf p.1 (undated): 'Flash Point (COC), ℃ ≥180 220 GB/T 3536, ASTM D92'.",
+      "calculation_note": "TDS \"Typical Value\" column (Item | Index | Typical Value | Test Method); the same row prints the index (specification) ≥180 °C, which this typical value meets. TDS prints no revision date.",
       "source": {
-        "file": "DL2-15833.pdf",
-        "page": 5,
-        "revision_date": "2021-09-02"
+        "file": "DL2-15832.pdf",
+        "page": 1,
+        "revision_date": null
       },
       "flash_method": "COC",
-      "notes": null,
-      "value_final": 180,
-      "unit_final": "°C",
-      "min_final": 180
+      "notes": "Selected under the source-selection policy of 2026-11-10 (TDS value first, SDS fallback); see docs/data_policy_mandatory_review/source_selection_policy.md.",
+      "alternate_entries": [
+        {
+          "value": 180,
+          "qualifier": "≥",
+          "min": 180,
+          "max": null,
+          "value_kind": "lower bound",
+          "printed_text": "Flash point : >= 180 °C (ASTM D92)",
+          "unit": "°C",
+          "test_temperature_c": null,
+          "method": "ASTM D92",
+          "status": "Reported",
+          "calculation_note": "SDS body is image/vector graphics; read visually. Same value in: DL2-15832.pdf p.1 (undated): 'Flash Point (COC), ℃ ≥180 220 GB/T 3536, ASTM D92'; RF6078%20-%20TDS.pdf p.1 (undated): 'Flash Point (COC), ℃ ≥180 220 GB/T 3536, ASTM D92'.",
+          "source": {
+            "file": "DL2-15833.pdf",
+            "page": 5,
+            "revision_date": "2021-09-02"
+          },
+          "flash_method": "COC",
+          "notes": "The SDS prints the flash point as a lower bound (\">= 180 °C\" / \"≥180\"); the earlier label value_kind \"specification\" is not supported by the SDS wording.",
+          "value_kind_previous_label": "specification",
+          "selection_note": "Previously selected value, kept as an alternate under the source-selection policy of 2026-11-10. Not judged erroneous: the policy selects the technical-document value first."
+        }
+      ],
+      "value_final": 220,
+      "unit_final": "°C"
     },
     "pour_point": {
       "value": null,
