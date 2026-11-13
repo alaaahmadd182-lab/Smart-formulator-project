@@ -1,5 +1,5 @@
 """Reading aid (read-only): for one document (archive file name or SHA-256 prefix), print every page that carries a name hit of
-any product whose link to it is still open for content review, as the whole page text (whitespace collapsed), with the
+any product whose link to it is still open for content review, as the whole page text (whitespace collapsed; line breaks shown as ' | '), with the
 products hit on each page. Usage: python dochits.py <file|sha-prefix> [extra pages, comma-separated]
 It prints whole pages, not hit windows; it does not decide anything. Pages without a hit are not printed unless listed.
 """
@@ -39,7 +39,7 @@ def main():
                 hitp.setdefault(i, []).append(r['product_id'])
     for i in sorted(set(hitp) | extra):
         t = re.sub(r'[ \t]+', ' ', pages[i - 1])
-        t = re.sub(r'\n\s*\n+', '\n', t).strip()
+        t = re.sub(r'\s*\n\s*', ' | ', t).strip(' |')
         print(f"\n=== p.{i} ({len(t)} chars) products: {', '.join(hitp.get(i, ['(listed)']))}\n{t}")
 
 

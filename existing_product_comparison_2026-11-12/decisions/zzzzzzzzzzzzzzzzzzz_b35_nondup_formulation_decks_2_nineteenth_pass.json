@@ -1,0 +1,479 @@
+{
+ "batch": "non-duplicate review, batch 35: formulation decks (Afton HiTEC 34006 / 9490 / 12200 / 8788B, Oronite OLOA 54xxx, Oronite APAC summary) (nineteenth pass)",
+ "reviewed_on": "2026-11-14 (nineteenth pass)",
+ "note": "Non-duplicate links; every name-hit page read in full, other pages not read (stated per link).",
+ "documents": {
+  "DL2-15608.pdf": {
+   "what": "Afton HiTEC 34006 CVT formulations (one formulation per page with blend physical properties)",
+   "printed_date": "2024 © Afton Chemical Corporation",
+   "read": "name-hit pages 3, 4, 5, 6, 7, 9 read in full (text layer); the other 4 of 10 pages not read",
+   "kind": "another product's document (base oils named in it)",
+   "limits": "targeted reading; pages without a name hit not read"
+  },
+  "DL2-12412.pdf": {
+   "what": "Chevron Oronite OLOA 54000 series / OLOA 54050 / OLOA 54013 formulations and claims deck",
+   "printed_date": "© 2017 Chevron (no other date)",
+   "read": "name-hit pages 10, 11, 12, 13, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48, 49, 54, 55, 56, 57 read in full (text layer); the other 23 of 59 pages not read",
+   "kind": "another product's document (base oils named in it)",
+   "limits": "targeted reading; pages without a name hit not read"
+  },
+  "DL2-12906.pdf": {
+   "what": "Chevron Oronite Technology - Automotive 'Product Summary (Asia Pacific)' including Chevron 150R formulations",
+   "printed_date": "'December 2019' (cover; slides marked © 2016)",
+   "read": "name-hit pages 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 read in full (text layer); the other 1 of 14 pages not read",
+   "kind": "another product's document (base oils named in it)",
+   "limits": "targeted reading; pages without a name hit not read"
+  },
+  "DL2-13364.pdf": {
+   "what": "Afton HiTEC 9490 (Nexbase / Yubase / Chevron), HiTEC 12200 and HiTEC 8788B formulation sheets",
+   "printed_date": "2018-2020 © Afton Chemical Corporation (per slide)",
+   "read": "name-hit pages 3, 4, 5, 10, 11, 12, 17, 18 read in full (text layer); the other 10 of 18 pages not read",
+   "kind": "another product's document (base oils named in it)",
+   "limits": "targeted reading; pages without a name hit not read"
+  }
+ },
+ "links": [
+  {
+   "p": "NESTE_NEXBASE_3030",
+   "f": "DL2-15608.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.9 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,6,7,9); the other 4 of 10 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable for property values: another product's document (Afton HiTEC 34006 CVT formulations, 2024); on p.9 the product appears only as a recipe share with Afton's label 'API Group III'; the record's API group is Missing -> one open-question row (third-party label). No property of the neat base oil is printed (pages without the name not read)",
+   "identity": "printed 'Nexbase 3030' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "NESTE_NEXBASE_3060",
+   "f": "DL2-15608.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.9 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,6,7,9); the other 4 of 10 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 34006 CVT formulations (one formulation per page with blend physical properties)); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; Afton prints an 'API Group II' / 'API Group III' label beside each base oil (third-party label, not a manufacturer classification); no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Nexbase 3060' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "PETRONAS_ETRO_3",
+   "f": "DL2-15608.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.6 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,6,7,9); the other 4 of 10 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 34006 CVT formulations (one formulation per page with blend physical properties)); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; Afton prints an 'API Group II' / 'API Group III' label beside each base oil (third-party label, not a manufacturer classification); no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Etro 3' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "PETRONAS_ETRO_4",
+   "f": "DL2-15608.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.7 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,6,7,9); the other 4 of 10 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 34006 CVT formulations (one formulation per page with blend physical properties)); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; Afton prints an 'API Group II' / 'API Group III' label beside each base oil (third-party label, not a manufacturer classification); no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Etro 4' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "PETRONAS_ETRO_6",
+   "f": "DL2-15608.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.6 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,6,7,9); the other 4 of 10 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 34006 CVT formulations (one formulation per page with blend physical properties)); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; Afton prints an 'API Group II' / 'API Group III' label beside each base oil (third-party label, not a manufacturer classification); no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Etro 6' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "S_OIL_ULTRA_S_3",
+   "f": "DL2-15608.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.5 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,6,7,9); the other 4 of 10 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable for property values: another product's document (Afton HiTEC 34006 CVT formulations, 2024); on p.5 the product appears only as a recipe share with Afton's label 'API Group III'; the record's API group is Missing -> one open-question row (third-party label). No property of the neat base oil is printed (pages without the name not read)",
+   "identity": "printed 'Ultra S3' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "f": "DL2-15608.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.5 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,6,7,9); the other 4 of 10 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable for property values: another product's document (Afton HiTEC 34006 CVT formulations, 2024); on p.5 the product appears only as a recipe share with Afton's label 'API Group III'; the record's API group is Missing -> one open-question row (third-party label). No property of the neat base oil is printed (pages without the name not read)",
+   "identity": "printed 'Ultra S6' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "YUBASE_3",
+   "f": "DL2-15608.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.3 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,6,7,9); the other 4 of 10 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 34006 CVT formulations (one formulation per page with blend physical properties)); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; Afton prints an 'API Group II' / 'API Group III' label beside each base oil (third-party label, not a manufacturer classification); no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Yubase 3' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "YUBASE_4",
+   "f": "DL2-15608.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.4 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,6,7,9); the other 4 of 10 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 34006 CVT formulations (one formulation per page with blend physical properties)); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; Afton prints an 'API Group II' / 'API Group III' label beside each base oil (third-party label, not a manufacturer classification); no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Yubase 4' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "YUBASE_6",
+   "f": "DL2-15608.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.3 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,6,7,9); the other 4 of 10 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 34006 CVT formulations (one formulation per page with blend physical properties)); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; Afton prints an 'API Group II' / 'API Group III' label beside each base oil (third-party label, not a manufacturer classification); no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Yubase 6' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-12412.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.35,42 for this product read in full (text layer), with all other name-hit pages of the document (pp.10,11,12,13,16,17,18,19,21,22,23,24,25,26,27,28,29,30,35,36,37,38,39,40,42,43,44,45,46,47,48,49,54,55,56,57); the other 23 of 59 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite OLOA 54000 series / OLOA 54050 / OLOA 54013 formulations and claims deck); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'CHEVRON 100R' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12412.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.35,36,37,42,43,44,45 for this product read in full (text layer), with all other name-hit pages of the document (pp.10,11,12,13,16,17,18,19,21,22,23,24,25,26,27,28,29,30,35,36,37,38,39,40,42,43,44,45,46,47,48,49,54,55,56,57); the other 23 of 59 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite OLOA 54000 series / OLOA 54050 / OLOA 54013 formulations and claims deck); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'CHEVRON 220R' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-12412.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.36,37,43,44,45 for this product read in full (text layer), with all other name-hit pages of the document (pp.10,11,12,13,16,17,18,19,21,22,23,24,25,26,27,28,29,30,35,36,37,38,39,40,42,43,44,45,46,47,48,49,54,55,56,57); the other 23 of 59 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite OLOA 54000 series / OLOA 54050 / OLOA 54013 formulations and claims deck); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'CHEVRON 600R' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "NESTE_NEXBASE_3043",
+   "f": "DL2-12412.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.28,29,35,37,38,42,45,46,54,55 for this product read in full (text layer), with all other name-hit pages of the document (pp.10,11,12,13,16,17,18,19,21,22,23,24,25,26,27,28,29,30,35,36,37,38,39,40,42,43,44,45,46,47,48,49,54,55,56,57); the other 23 of 59 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite OLOA 54000 series / OLOA 54050 / OLOA 54013 formulations and claims deck); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Nexbase 3043' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "NESTE_NEXBASE_3050",
+   "f": "DL2-12412.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.16,17,18,19,21,30,36,39,44,47,48,49,54,57 for this product read in full (text layer), with all other name-hit pages of the document (pp.10,11,12,13,16,17,18,19,21,22,23,24,25,26,27,28,29,30,35,36,37,38,39,40,42,43,44,45,46,47,48,49,54,55,56,57); the other 23 of 59 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite OLOA 54000 series / OLOA 54050 / OLOA 54013 formulations and claims deck); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Nexbase 3050' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "NESTE_NEXBASE_3080",
+   "f": "DL2-12412.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.40 for this product read in full (text layer), with all other name-hit pages of the document (pp.10,11,12,13,16,17,18,19,21,22,23,24,25,26,27,28,29,30,35,36,37,38,39,40,42,43,44,45,46,47,48,49,54,55,56,57); the other 23 of 59 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite OLOA 54000 series / OLOA 54050 / OLOA 54013 formulations and claims deck); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'NEXBASE 3080' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "PETRONAS_ETRO_4",
+   "f": "DL2-12412.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.42,45 for this product read in full (text layer), with all other name-hit pages of the document (pp.10,11,12,13,16,17,18,19,21,22,23,24,25,26,27,28,29,30,35,36,37,38,39,40,42,43,44,45,46,47,48,49,54,55,56,57); the other 23 of 59 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite OLOA 54000 series / OLOA 54050 / OLOA 54013 formulations and claims deck); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'ETRO 4' / 'Etro 4' (no supplier name on the page)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-12412.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.42,45 for this product read in full (text layer), with all other name-hit pages of the document (pp.10,11,12,13,16,17,18,19,21,22,23,24,25,26,27,28,29,30,35,36,37,38,39,40,42,43,44,45,46,47,48,49,54,55,56,57); the other 23 of 59 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite OLOA 54000 series / OLOA 54050 / OLOA 54013 formulations and claims deck); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'ULTRA S4' / 'Ultra S4' (no supplier name on the page); probable S-OIL Ultra-S 4, not verified; nothing used",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "YUBASE_4",
+   "f": "DL2-12412.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.10,11,12,13,22,23,24,25,26,27,30,35,42,45,46,56 for this product read in full (text layer), with all other name-hit pages of the document (pp.10,11,12,13,16,17,18,19,21,22,23,24,25,26,27,28,29,30,35,36,37,38,39,40,42,43,44,45,46,47,48,49,54,55,56,57); the other 23 of 59 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite OLOA 54000 series / OLOA 54050 / OLOA 54013 formulations and claims deck); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Yubase 4' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "YUBASE_6",
+   "f": "DL2-12412.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.36,44,47,48 for this product read in full (text layer), with all other name-hit pages of the document (pp.10,11,12,13,16,17,18,19,21,22,23,24,25,26,27,28,29,30,35,36,37,38,39,40,42,43,44,45,46,47,48,49,54,55,56,57); the other 23 of 59 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite OLOA 54000 series / OLOA 54050 / OLOA 54013 formulations and claims deck); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'YUBASE 6' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-12906.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.11 for this product read in full (text layer), with all other name-hit pages of the document (pp.1,2,3,4,5,6,7,8,9,10,11,12,13); the other 1 of 14 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite Technology - Automotive 'Product Summary (Asia Pacific)' including Chevron 150R formulations); on the name-hit pages read the product appears only as a 'Base Oils Ratio Only' share or a wt.% recipe share in package formulation tables with performance claims; p.12 note c 'Approved Group III base oils are SK and S-Oil' concerns OLOA 55501 routes, not a base-oil property; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Chevron 100R' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_110RLV",
+   "f": "DL2-12906.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.2 for this product read in full (text layer), with all other name-hit pages of the document (pp.1,2,3,4,5,6,7,8,9,10,11,12,13); the other 1 of 14 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite Technology - Automotive 'Product Summary (Asia Pacific)' including Chevron 150R formulations); on the name-hit pages read the product appears only as a 'Base Oils Ratio Only' share or a wt.% recipe share in package formulation tables with performance claims; p.12 note c 'Approved Group III base oils are SK and S-Oil' concerns OLOA 55501 routes, not a base-oil property; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Chevron 110RLV' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_150R",
+   "f": "DL2-12906.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.1,8,9,12,13 for this product read in full (text layer), with all other name-hit pages of the document (pp.1,2,3,4,5,6,7,8,9,10,11,12,13); the other 1 of 14 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite Technology - Automotive 'Product Summary (Asia Pacific)' including Chevron 150R formulations); on the name-hit pages read the product appears only as a 'Base Oils Ratio Only' share or a wt.% recipe share in package formulation tables with performance claims; p.12 note c 'Approved Group III base oils are SK and S-Oil' concerns OLOA 55501 routes, not a base-oil property; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Chevron 150R' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12906.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.2,3,4,5,6,7,8,9,10,11,12,13 for this product read in full (text layer), with all other name-hit pages of the document (pp.1,2,3,4,5,6,7,8,9,10,11,12,13); the other 1 of 14 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite Technology - Automotive 'Product Summary (Asia Pacific)' including Chevron 150R formulations); on the name-hit pages read the product appears only as a 'Base Oils Ratio Only' share or a wt.% recipe share in package formulation tables with performance claims; p.12 note c 'Approved Group III base oils are SK and S-Oil' concerns OLOA 55501 routes, not a base-oil property; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Chevron 220R' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-12906.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.2,3,7,8,9,10,11,12,13 for this product read in full (text layer), with all other name-hit pages of the document (pp.1,2,3,4,5,6,7,8,9,10,11,12,13); the other 1 of 14 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite Technology - Automotive 'Product Summary (Asia Pacific)' including Chevron 150R formulations); on the name-hit pages read the product appears only as a 'Base Oils Ratio Only' share or a wt.% recipe share in package formulation tables with performance claims; p.12 note c 'Approved Group III base oils are SK and S-Oil' concerns OLOA 55501 routes, not a base-oil property; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Chevron 600R' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "NESTE_NEXBASE_3043",
+   "f": "DL2-12906.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.2,3,4,5,6,11 for this product read in full (text layer), with all other name-hit pages of the document (pp.1,2,3,4,5,6,7,8,9,10,11,12,13); the other 1 of 14 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite Technology - Automotive 'Product Summary (Asia Pacific)' including Chevron 150R formulations); on the name-hit pages read the product appears only as a 'Base Oils Ratio Only' share or a wt.% recipe share in package formulation tables with performance claims; p.12 note c 'Approved Group III base oils are SK and S-Oil' concerns OLOA 55501 routes, not a base-oil property; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Nexbase 3043' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "NESTE_NEXBASE_3080",
+   "f": "DL2-12906.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.4 for this product read in full (text layer), with all other name-hit pages of the document (pp.1,2,3,4,5,6,7,8,9,10,11,12,13); the other 1 of 14 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite Technology - Automotive 'Product Summary (Asia Pacific)' including Chevron 150R formulations); on the name-hit pages read the product appears only as a 'Base Oils Ratio Only' share or a wt.% recipe share in package formulation tables with performance claims; p.12 note c 'Approved Group III base oils are SK and S-Oil' concerns OLOA 55501 routes, not a base-oil property; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Nexbase 3080' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "PETRONAS_ETRO_4",
+   "f": "DL2-12906.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.11 for this product read in full (text layer), with all other name-hit pages of the document (pp.1,2,3,4,5,6,7,8,9,10,11,12,13); the other 1 of 14 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite Technology - Automotive 'Product Summary (Asia Pacific)' including Chevron 150R formulations); on the name-hit pages read the product appears only as a 'Base Oils Ratio Only' share or a wt.% recipe share in package formulation tables with performance claims; p.12 note c 'Approved Group III base oils are SK and S-Oil' concerns OLOA 55501 routes, not a base-oil property; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Etro 4' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "YUBASE_4",
+   "f": "DL2-12906.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.8,11,13 for this product read in full (text layer), with all other name-hit pages of the document (pp.1,2,3,4,5,6,7,8,9,10,11,12,13); the other 1 of 14 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Chevron Oronite Technology - Automotive 'Product Summary (Asia Pacific)' including Chevron 150R formulations); on the name-hit pages read the product appears only as a 'Base Oils Ratio Only' share or a wt.% recipe share in package formulation tables with performance claims; p.12 note c 'Approved Group III base oils are SK and S-Oil' concerns OLOA 55501 routes, not a base-oil property; no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Yubase 4' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-13364.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.5 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,10,11,12,17,18); the other 10 of 18 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 9490 (Nexbase / Yubase / Chevron), HiTEC 12200 and HiTEC 8788B formulation sheets); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; Afton prints an 'API Group II' / 'API Group III' label beside each base oil (third-party label, not a manufacturer classification); no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Chevron 100R' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13364.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.5,10,11,12 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,10,11,12,17,18); the other 10 of 18 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 9490 (Nexbase / Yubase / Chevron), HiTEC 12200 and HiTEC 8788B formulation sheets); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; Afton prints an 'API Group II' / 'API Group III' label beside each base oil (third-party label, not a manufacturer classification); no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Chevron 220R' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-13364.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.12 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,10,11,12,17,18); the other 10 of 18 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 9490 (Nexbase / Yubase / Chevron), HiTEC 12200 and HiTEC 8788B formulation sheets); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; Afton prints an 'API Group II' / 'API Group III' label beside each base oil (third-party label, not a manufacturer classification); no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Chevron 600R' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_600",
+   "f": "DL2-13364.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.17 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,10,11,12,17,18); the other 10 of 18 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 9490 / 12200 / 8788B formulations); on p.17 the product appears only as a recipe share (18.0 %); the slide title reads 'ExxonMobil AP/E Core Grp I & SK Yubase Grp III' while the row prints 'ExxonMobil AP/E Core 600 | API Group III'. That inconsistency was already raised for HiTEC 8788B in an earlier pass; the record's API group is 'Group I' (ExxonMobil web source). Third-party labels as printed; no row, nothing compared. No neat base-oil property printed (pages without the name not read)",
+   "identity": "printed 'AP/E Core 600' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "NESTE_NEXBASE_3043",
+   "f": "DL2-13364.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.3,5,10,11,12 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,10,11,12,17,18); the other 10 of 18 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 9490 (Nexbase / Yubase / Chevron), HiTEC 12200 and HiTEC 8788B formulation sheets); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; Afton prints an 'API Group II' / 'API Group III' label beside each base oil (third-party label, not a manufacturer classification); no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Nexbase 3043' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "NESTE_NEXBASE_3050",
+   "f": "DL2-13364.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.3 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,10,11,12,17,18); the other 10 of 18 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 9490 (Nexbase / Yubase / Chevron), HiTEC 12200 and HiTEC 8788B formulation sheets); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; Afton prints an 'API Group II' / 'API Group III' label beside each base oil (third-party label, not a manufacturer classification); no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Nexbase 3050' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "NESTE_NEXBASE_3060",
+   "f": "DL2-13364.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.3 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,10,11,12,17,18); the other 10 of 18 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 9490 (Nexbase / Yubase / Chevron), HiTEC 12200 and HiTEC 8788B formulation sheets); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; Afton prints an 'API Group II' / 'API Group III' label beside each base oil (third-party label, not a manufacturer classification); no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Nexbase 3060' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "YUBASE_4",
+   "f": "DL2-13364.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.4,5,17,18 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,10,11,12,17,18); the other 10 of 18 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 9490 (Nexbase / Yubase / Chevron), HiTEC 12200 and HiTEC 8788B formulation sheets); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; Afton prints an 'API Group II' / 'API Group III' label beside each base oil (third-party label, not a manufacturer classification); no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Yubase 4' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  },
+  {
+   "p": "YUBASE_6",
+   "f": "DL2-13364.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "name-hit pages p.4,17,18 for this product read in full (text layer), with all other name-hit pages of the document (pp.3,4,5,10,11,12,17,18); the other 10 of 18 pages not read (nineteenth pass, 2026-11-14)",
+   "coverage": "not applicable: another product's document (Afton HiTEC 9490 (Nexbase / Yubase / Chevron), HiTEC 12200 and HiTEC 8788B formulation sheets); on the name-hit pages read the product appears only as a recipe share (wt.%) in finished-oil formulation tables; the KV, VI, CCS, MRV, HTHS, Noack, pour, BN and Brookfield figures on those pages are properties of the blends; Afton prints an 'API Group II' / 'API Group III' label beside each base oil (third-party label, not a manufacturer classification); no property of the neat base oil is printed on those pages (pages without the name not read)",
+   "identity": "printed 'Yubase 6' (name in the document; no lot or supplier identifier)",
+   "note": "Nineteenth-pass targeted review of all name-hit pages (nineteenth pass, 2026-11-14)."
+  }
+ ],
+ "fields": [
+  {
+   "p": "S_OIL_ULTRA_S_3",
+   "tier": 1,
+   "path": "api_group_chemistry.api_group",
+   "old": "DL2-11177.pdf (Ultra-S series sheet) prints no API group (only use 'in combination with conventional Group I or Group II base oils'); record API group Missing since the 2026-10 audit, with an open question listing indirect evidence only.",
+   "new_f": "DL2-15608.pdf",
+   "new_p": 5,
+   "new_text": "'Formulation (%) wt. | HiTEC® 34006 | Additive Pack | 11.6 | Ultra S3 | API Group III | 54.4 | Ultra S6 | API Group III | 34.0' (p.5)",
+   "unit": "(classification label)",
+   "form": "third-party classification label (additive supplier formulation table)",
+   "outcome": "additional",
+   "action": "propose_open_question_update",
+   "reason": "An additive supplier's label beside the base oil in its own formulation table: it is not a manufacturer classification and cannot fill the mandatory API group. Record it in the existing API-group open question as third-party evidence only (document, page, printed text). Other formulation documents that print the same kind of label are not proposed again; they are named in their link coverage. It does not change the audit conclusion that no S-OIL document classifies the grade directly.",
+   "old_rev": "re-read manually: DL2-11177.pdf p.1 (only page) read in full (text layer) (nineteenth pass, 2026-11-14)",
+   "cmp_override": "existing: API group Missing",
+   "qual": "",
+   "method": "",
+   "cond": "",
+   "basis": ""
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "tier": 1,
+   "path": "api_group_chemistry.api_group",
+   "old": "DL2-11177.pdf (Ultra-S series sheet) prints no API group (only use 'in combination with conventional Group I or Group II base oils'); record API group Missing since the 2026-10 audit, with an open question listing indirect evidence only.",
+   "new_f": "DL2-15608.pdf",
+   "new_p": 5,
+   "new_text": "'Formulation (%) wt. | HiTEC® 34006 | Additive Pack | 11.6 | Ultra S3 | API Group III | 54.4 | Ultra S6 | API Group III | 34.0' (p.5)",
+   "unit": "(classification label)",
+   "form": "third-party classification label (additive supplier formulation table)",
+   "outcome": "additional",
+   "action": "propose_open_question_update",
+   "reason": "An additive supplier's label beside the base oil in its own formulation table: it is not a manufacturer classification and cannot fill the mandatory API group. Record it in the existing API-group open question as third-party evidence only (document, page, printed text). Other formulation documents that print the same kind of label are not proposed again; they are named in their link coverage. It does not change the audit conclusion that no S-OIL document classifies the grade directly.",
+   "old_rev": "re-read manually: DL2-11177.pdf p.1 (only page) read in full (text layer) (nineteenth pass, 2026-11-14)",
+   "cmp_override": "existing: API group Missing",
+   "qual": "",
+   "method": "",
+   "cond": "",
+   "basis": ""
+  },
+  {
+   "p": "NESTE_NEXBASE_3030",
+   "tier": 1,
+   "path": "api_group_chemistry.api_group",
+   "old": "DL2-10962.pdf (Neste NEXBASE TDS, Edition 8): 'NEXBASE 3020 and NEXBASE 3030 are used in hydraulic and transmission oil formulations. The other grades ... conform to ACEA Group III'; no API group is printed for 3030 (VI spec '≥ 100', typ 111). Record API group Missing.",
+   "new_f": "DL2-15608.pdf",
+   "new_p": 9,
+   "new_text": "'Formulation (%) wt. | HiTEC® 34006 | Additive Pack | 11.6 | Nexbase 3030 | API Group III | 41.2 | Nexbase 3060 | API Group III | 47.2' (p.9)",
+   "unit": "(classification label)",
+   "form": "third-party classification label (additive supplier formulation table)",
+   "outcome": "additional",
+   "action": "propose_open_question_update",
+   "reason": "An additive supplier's label beside the base oil in its own formulation table: it is not a manufacturer classification and cannot fill the mandatory API group. Record it in the existing API-group open question as third-party evidence only (document, page, printed text). Other formulation documents that print the same kind of label are not proposed again; they are named in their link coverage. The label is not assessed here against Neste's printed VI or any group definition.",
+   "old_rev": "re-read manually: DL2-10962.pdf p.1 (only page; no text layer) viewed as a page image from the old archive (nineteenth pass, 2026-11-14)",
+   "cmp_override": "existing: API group Missing",
+   "qual": "",
+   "method": "",
+   "cond": "",
+   "basis": ""
+  }
+ ]
+}
