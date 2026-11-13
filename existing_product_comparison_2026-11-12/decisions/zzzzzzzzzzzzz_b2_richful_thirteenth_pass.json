@@ -120,7 +120,7 @@
    "cat": "A",
    "status": "completed",
    "fields_status": "SDS pp.1-6 (sections 1-12.1) and pp.9-11 (sections 15-16) text layer read in full; pp.7-8 not read; compared item by item with the JSON (thirteenth pass, 2026-11-13)",
-   "coverage": "assessed by reading (2026-11-13, thirteenth pass) for SDS pp.1-6 (sections 1-12.1) and pp.9-11 (sections 15-16) text layer read in full; pp.7-8 not read: Richful US SDS (HCS-2012) version 1.0, 7/25/2022. Section 9 values (flash '>= 180 °C (ASTM D92)', density '1039 kg/m3 (20 °C, ASTM D4052)', KV '109 mm2/s (100 °C, ASTM D445)') equal the 2023 REACH SDS and the TDS. Section 3 composition DIFFERS from the 2023 REACH SDS recorded in the JSON (no PIB succinimide, no Ca sulfonate; ZDDP CAS 68649-42-3 instead of 4259-15-8; Ca phenate CAS 68784-26-9 instead of EC 701-251-5; ADPA 0.5 - 9.9 instead of 0.5 - 2.9; four base-oil CAS); classification Skin Irrit. 2 / Eye Irrit. 2, 'Warning'. The JSON open question 'All shared values agree' holds for the physical values only -> conflict row.",
+   "coverage": "assessed by reading (2026-11-13, thirteenth pass) for SDS pp.1-6 (sections 1-12.1) and pp.9-11 (sections 15-16) text layer read in full; pp.7-8 not read: Richful US SDS (HCS-2012) version 1.0, 7/25/2022. Section 9 values (flash '>= 180 °C (ASTM D92)', density '1039 kg/m3 (20 °C, ASTM D4052)', KV '109 mm2/s (100 °C, ASTM D445)') equal the 2023 REACH SDS and the TDS. Section 3 composition DIFFERS from the 2023 REACH SDS recorded in the JSON (no PIB succinimide, no Ca sulfonate; ZDDP CAS 68649-42-3 instead of 4259-15-8; Ca phenate CAS 68784-26-9 instead of EC 701-251-5; ADPA 0.5 - 9.9 instead of 0.5 - 2.9; four base-oil CAS); classification Skin Irrit. 2 / Eye Irrit. 2, 'Warning'. The JSON open question 'All shared values agree' holds for the physical values only -> conflict row and open-question row.",
    "identity": "exact: 'Trade name : RF6400'",
    "note": "Byte duplicate of an archive SDS/bulletin that the record lists in its source documents; values from it appear only in alternate entries, conflicts or open questions."
   }
@@ -509,7 +509,7 @@
   {
    "p": "RICHFUL_RF6400",
    "tier": 1,
-   "path": "open_questions",
+   "path": "conflicts",
    "old": "The JSON records the 2023 REACH SDS composition (DL2-15850.pdf p.2) and states 'All shared values agree' for the four RF6400 documents.",
    "new_f": "RF6400%20MSDS.pdf",
    "new_p": 2,
@@ -522,9 +522,29 @@
    "basis": "component share ranges as printed",
    "outcome": "changed_or_conflicting",
    "action": "propose_record_conflict",
-   "reason": "The two RF6400 SDSs are regional disclosures under different regulations (US HCS-2012, 7/25/2022; EU REACH, 6/7/2023) and list different components and classifications. Propose recording the observed difference with both documents and dates, and narrowing the open question 'All shared values agree' to the physical values (density 1039, KV100 109, flash >= 180 agree). No formulation change is inferred from the different lists: disclosure scope and thresholds differ between the two regulations, and the documents give no statement about a reformulation. Not resolved; no element content is derived from the shares.",
+   "reason": "The two RF6400 SDSs are regional disclosures under different regulations (US HCS-2012, 7/25/2022; EU REACH, 6/7/2023) and list different components and classifications. Propose a conflict entry recording the observed difference with both documents and dates (the open-question wording is a separate row). No formulation change is inferred from the different lists: disclosure scope and thresholds differ between the two regulations, and the documents give no statement about a reformulation. Not resolved; no element content is derived from the shares.",
    "old_rev": "re-read manually: DL2-15849.pdf (RF6400 TDS, undated) whole page (thirteenth pass, 2026-11-13)",
    "cmp_override": "existing: 2023 composition only; agreement stated"
+  },
+  {
+   "p": "RICHFUL_RF6400",
+   "tier": 1,
+   "path": "open_questions",
+   "old": "The JSON open question states 'All shared values agree' for the four RF6400 documents.",
+   "new_f": "RF6400%20MSDS.pdf",
+   "new_p": 4,
+   "new_text": "US SDS (HCS-2012, 7/25/2022) section 9 (pp.4-5): flash '>= 180 °C (ASTM D92)', density '1039 kg/m3 (20 °C, ASTM D4052)', KV '109 mm2/s (100 °C, ASTM D445)'; section 3 lists components that differ from the 2023 REACH SDS (see the conflict row).",
+   "unit": "as printed",
+   "form": "SDS reported value; statistical basis unspecified (Richful SDS section 9 states no basis); scope of an agreement statement",
+   "qual": "SDS reported value",
+   "method": "as printed",
+   "cond": "",
+   "basis": "",
+   "outcome": "additional",
+   "action": "propose_open_question_update",
+   "reason": "Propose narrowing the open-question statement 'All shared values agree' to the physical values (density 1039, KV100 109, flash >= 180 agree across the documents); the section 3 compositions do not agree and are the subject of the separate conflict row. Nothing is resolved.",
+   "old_rev": "re-read manually: DL2-15849.pdf (RF6400 TDS, undated) whole page (thirteenth pass, 2026-11-13)",
+   "cmp_override": "existing: 'All shared values agree'"
   },
   {
    "p": "RICHFUL_RF6400",

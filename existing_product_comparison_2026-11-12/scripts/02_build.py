@@ -104,6 +104,9 @@ def statuses(node, out):
     return out
 
 
+TOP_LEVEL_LISTS = ('open_questions', 'conflicts', 'source_documents')
+
+
 def current(prods, pid, tier, path):
     """-> json file, compact current content, status summary, kind ('scalar' | 'list' | 'none'), pruned node"""
     p = prods.get(pid)
@@ -113,6 +116,11 @@ def current(prods, pid, tier, path):
         if d.get('tier') != tier:
             continue
         n = node_at(d.get('fields', {}), path.split(' (')[0])
+        top = path.split(' (')[0].split('[')[0]
+        if n is None and top in TOP_LEVEL_LISTS and isinstance(d.get(top), list):
+            # A record-level list (open_questions, conflicts, ...), not a template field: a valid destination for notes,
+            # open-question updates, conflict entries and citation corrections of conflict entries.
+            return fn, f'{len(d[top])} existing {top} entries', f'top-level list ({top}), not a template field', 'none', None
         if n is None:
             return fn, '', 'no such field in the template', 'none', None
         pr = prune(n)
@@ -259,6 +267,11 @@ def main():
                           inventory_relationship=short, suggested_relationship='A' if r['match_level'] == 'byte_identical_to_cited_source' else 'not suggested (not found by the text search)',
                           hit_pages='', document_type=r['document_type'], pages='')
     udoc = {r['sha256']: r for r in rd(os.path.join(INV, 'tables', 'unique_documents.csv'))}
+    # Sixteenth pass: links known only from the earlier inventory carried no page count. Fill it from the inventory's own
+    # measurement of the same SHA-256 (unique_documents.csv 'pages'); nothing is filled where the inventory has none.
+    for v in led.values():
+        if not v['pages'] and v['sha256'] in udoc and udoc[v['sha256']].get('pages'):
+            v['pages'] = udoc[v['sha256']]['pages']
     unsearch = {r['sha256'] for r in rd(os.path.join(T, 'unsearchable_documents.csv'))}
     rows, used_links = [], set()
     for (pid, sha), r in sorted(led.items()):
@@ -516,7 +529,7 @@ def main():
     print(json.dumps({k: stats[k] for k in ('new_documents_only_after_reviewed_exclusions', 'revision_candidates', 'ledger', 'fields')}, indent=1))
     print(f'reviewed documents {len(docs)}; visual checks {len(visual)} done, {len(pending_visual)} outstanding; old sources referenced {len(old_used)}; excerpts {len(excerpts)}')
     for r in frows:
-        if r['current_status'] in ('product not found', 'no such field in the template') and not r['field_path'].startswith('('):
+        if (r['current_status'] in ('product not found', 'no such field in the template') or r['current_status'].startswith('no tier')) and not r['field_path'].startswith('('):
             print('  CHECK field path:', r['product_id'], r['tier'], r['field_path'], r['current_status'])
     return 0
 

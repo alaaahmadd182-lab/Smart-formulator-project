@@ -187,6 +187,23 @@ def main():
     check('proposals: every proposed change cites a new-archive file with hash, page and printed text',
           all(len(r['new_source_sha256']) == 64 and r['new_source_page'] and r['new_source_printed'] for r in prop), f'{len(prop)} proposals')
     check('proposals: every field row names an existing product and a resolvable current field or says none exists', all(r['current_status'] != 'product not found' for r in fld))
+
+    # Destination check (sixteenth pass). The build reports a record-level list (open_questions, conflicts, source_documents)
+    # as 'top-level list (...)'; 'no such field in the template' is left only for a path that resolves nowhere. A path in
+    # parentheses is an explicit 'no template field' label. A conflict entry is never proposed into open_questions.
+    def p_dest_bad(r):
+        fp = r['field_path']
+        if fp.startswith('('):
+            return False
+        if r['current_status'] in ('no such field in the template', 'product not found') or r['current_status'].startswith('no tier'):
+            return True
+        top = fp.split(' (')[0].split('[')[0]
+        return r['recommended_action'] == 'propose_record_conflict' and top == 'open_questions'
+    _d = dict(field_path='open_questions', current_status='top-level list (open_questions), not a template field', recommended_action='propose_note')
+    check('proposals: every proposal destination resolves to a template field, a record-level list of the target tier file or an explicit "(no template field)" label; no conflict entry is proposed into open_questions (regression cases)',
+          not any(p_dest_bad(r) for r in fld) and not p_dest_bad(_d) and p_dest_bad(dict(_d, recommended_action='propose_record_conflict'))
+          and p_dest_bad(dict(_d, field_path='kv41', current_status='no such field in the template')) and not p_dest_bad(dict(_d, field_path='(no template field) density', current_status='no such field in the template')),
+          f"{sum(1 for r in fld if r['current_status'].startswith('top-level list'))} rows to record-level lists; invalid: {[(r['product_id'], r['tier'], r['field_path'], r['recommended_action']) for r in fld if p_dest_bad(r)][:5]}")
     # Structural association checks. They test that each proposal carries its explicit product, source, page and
     # route/condition association. They do NOT verify that a value is scientifically right: that is the manual
     # verification recorded per row in new_source_verification / old_source_review.

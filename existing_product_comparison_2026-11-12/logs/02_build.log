@@ -47,142 +47,26 @@
   }
  },
  "fields": {
-  "rows": 482,
+  "rows": 501,
   "outcomes": {
-   "additional": 229,
+   "additional": 231,
    "changed_or_conflicting": 79,
    "already_captured": 48,
    "not_comparable": 16,
-   "in_old_source_not_captured": 110
+   "in_old_source_not_captured": 127
   },
-  "proposed": 446,
-  "ready_for_reviewer_decision": 446,
+  "proposed": 465,
+  "ready_for_reviewer_decision": 465,
   "provisional": 0,
   "new_source_verification": {
    "visual": 123,
-   "text layer": 359
+   "text layer": 378
   },
   "old_source_review": {
-   "re-read manually": 466,
+   "re-read manually": 485,
    "re-read manually in full": 15,
    "automated text search only": 1
   }
  }
 }
-reviewed documents 187; visual checks 59 done, 5 outstanding; old sources referenced 142; excerpts 398
-  CHECK field path: RF6602 1 open_questions no such field in the template
-  CHECK field path: EXXONMOBIL_ESTEREX_A32 1 open_questions no such field in the template
-  CHECK field path: EXXONMOBIL_ESTEREX_A34 1 open_questions no such field in the template
-  CHECK field path: EXXONMOBIL_ESTEREX_A41 1 open_questions no such field in the template
-  CHECK field path: EXXONMOBIL_ESTEREX_A51 1 open_questions no such field in the template
-  CHECK field path: EXXONMOBIL_ESTEREX_NP343 1 open_questions no such field in the template
-  CHECK field path: EXXONMOBIL_ESTEREX_NP451 1 open_questions no such field in the template
-  CHECK field path: EXXONMOBIL_ESTEREX_P61 1 open_questions no such field in the template
-  CHECK field path: EXXONMOBIL_ESTEREX_P81 1 open_questions no such field in the template
-  CHECK field path: EXXONMOBIL_ESTEREX_TM111 1 open_questions no such field in the template
-  CHECK field path: EXXONMOBIL_SYNESSTIC_5 1 open_questions no such field in the template
-  CHECK field path: EXXONMOBIL_SYNESSTIC_12 1 open_questions no such field in the template
-  CHECK field path: INFINEUM_D3503 2 open_questions no such field in the template
-  CHECK field path: CHEVRON_SYNFLUID_PAO_4 1 open_questions no such field in the template
-  CHECK field path: CHEVRON_SYNFLUID_PAO_6 1 open_questions no such field in the template
-  CHECK field path: CHEVRON_SYNFLUID_PAO_8 1 open_questions no such field in the template
-  CHECK field path: CHEVRON_SYNFLUID_MPAO_100 1 open_questions no such field in the template
-  CHECK field path: CHEVRON_SYNFLUID_MPAO_65 1 open_questions no such field in the template
-  CHECK field path: CHEVRON_SYNFLUID_MPAO_150 1 open_questions no such field in the template
-  CHECK field path: CHEVRON_SYNFLUID_PAO_2 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6066 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6069 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6069 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6077 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6077 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6078 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6078 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6079 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6079 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6080 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6080 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6081 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6081 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6088 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6088 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6088F 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6088F 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6400 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6400 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6400 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6400 1 open_questions no such field in the template
-  CHECK field path: NYNAS_S_3B 1 open_questions no such field in the template
-  CHECK field path: NYNAS_S_3B 1 open_questions no such field in the template
-  CHECK field path: NYNAS_NS_3 1 open_questions no such field in the template
-  CHECK field path: NYNAS_NYFROST_32 1 conflicts no such field in the template
-  CHECK field path: NYNAS_NYFROST_32 1 open_questions no such field in the template
-  CHECK field path: NYNAS_NYFROST_32 1 open_questions no such field in the template
-  CHECK field path: NESTE_NEXBASE_3020 1 open_questions no such field in the template
-  CHECK field path: PETRO_CANADA_PURITY_L50 1 open_questions no such field in the template
-  CHECK field path: AFTON_HITEC_5748 1 open_questions no such field in the template
-  CHECK field path: LUBRIZOL_CV2301 1 open_questions no such field in the template
-  CHECK field path: LUBRIZOL_CV2301 1 open_questions no such field in the template
-  CHECK field path: LUBRIZOL_CV7540 1 open_questions no such field in the template
-  CHECK field path: MINGYUEKEJI_MY_P3168 1 open_questions no such field in the template
-  CHECK field path: INFINEUM_D3511 1 open_questions no such field in the template
-  CHECK field path: INFINEUM_D3320 1 open_questions no such field in the template
-  CHECK field path: INFINEUM_D3503 1 open_questions no such field in the template
-  CHECK field path: INFINEUM_D3503 1 open_questions no such field in the template
-  CHECK field path: CHEVRON_SYNFLUID_MPAO_40 1 open_questions no such field in the template
-  CHECK field path: NYNAS_BASE_STOCK_20 1 open_questions no such field in the template
-  CHECK field path: NYNAS_BNS_5 1 open_questions no such field in the template
-  CHECK field path: NYNAS_NYBASE_70 1 open_questions no such field in the template
-  CHECK field path: NYNAS_NYFROST_68 1 open_questions no such field in the template
-  CHECK field path: NYNAS_NYFROST_100 1 open_questions no such field in the template
-  CHECK field path: NYNAS_T_3 1 open_questions no such field in the template
-  CHECK field path: NYNAS_T_4 1 open_questions no such field in the template
-  CHECK field path: NYNAS_T_600 1 open_questions no such field in the template
-  CHECK field path: NYNAS_T_9 1 open_questions no such field in the template
-  CHECK field path: NYNAS_NS_3 1 open_questions no such field in the template
-  CHECK field path: LUBRIZOL_CV2301 1 open_questions no such field in the template
-  CHECK field path: CHEVRON_GROUP_II_220R 3 open_questions no such field in the template
-  CHECK field path: AFTON_HITEC_5748 1 open_questions no such field in the template
-  CHECK field path: LUBRIZOL_CV1100 1 open_questions no such field in the template
-  CHECK field path: LUBRIZOL_CV1103 1 open_questions no such field in the template
-  CHECK field path: LUBRIZOL_CV2601 1 open_questions no such field in the template
-  CHECK field path: LUBRIZOL_CV3515 1 open_questions no such field in the template
-  CHECK field path: INFINEUM_D3320 1 open_questions no such field in the template
-  CHECK field path: INFINEUM_D3396 1 open_questions no such field in the template
-  CHECK field path: INFINEUM_D3398 1 open_questions no such field in the template
-  CHECK field path: INFINEUM_D3416 1 open_questions no such field in the template
-  CHECK field path: INFINEUM_D3417 1 open_questions no such field in the template
-  CHECK field path: INFINEUM_D3417 1 open_questions no such field in the template
-  CHECK field path: INFINEUM_D3451 1 open_questions no such field in the template
-  CHECK field path: INFINEUM_D3463 1 open_questions no such field in the template
-  CHECK field path: INFINEUM_D3511 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6071L 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6406 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6406 1 open_questions no such field in the template
-  CHECK field path: RICHFUL_RF6408 1 open_questions no such field in the template
-  CHECK field path: ADNOC_ADBASE_2CST 1 open_questions no such field in the template
-  CHECK field path: ADNOC_ADBASE_3CST 1 open_questions no such field in the template
-  CHECK field path: ADNOC_ADBASE_4CST 1 open_questions no such field in the template
-  CHECK field path: ADNOC_ADBASE_6CST 1 open_questions no such field in the template
-  CHECK field path: ADNOC_ADBASE_8CST 1 open_questions no such field in the template
-  CHECK field path: S_OIL_ULTRA_S_2 1 open_questions no such field in the template
-  CHECK field path: S_OIL_ULTRA_S_3 1 open_questions no such field in the template
-  CHECK field path: S_OIL_ULTRA_S_4 1 open_questions no such field in the template
-  CHECK field path: S_OIL_ULTRA_S_6 1 open_questions no such field in the template
-  CHECK field path: S_OIL_ULTRA_S_8 1 open_questions no such field in the template
-  CHECK field path: GS_CALTEX_60N 1 open_questions no such field in the template
-  CHECK field path: GS_CALTEX_150N 1 open_questions no such field in the template
-  CHECK field path: GS_CALTEX_220N 1 open_questions no such field in the template
-  CHECK field path: GS_CALTEX_600N 1 open_questions no such field in the template
-  CHECK field path: GS_CALTEX_2CST_L 1 open_questions no such field in the template
-  CHECK field path: GS_CALTEX_2CST_H 1 open_questions no such field in the template
-  CHECK field path: GS_CALTEX_150BS 1 open_questions no such field in the template
-  CHECK field path: ARAMCO_LUBEREF_PRIMA_100 1 open_questions no such field in the template
-  CHECK field path: ARAMCO_LUBEREF_PRIMA_150 1 open_questions no such field in the template
-  CHECK field path: ARAMCO_LUBEREF_PRIMA_220 1 open_questions no such field in the template
-  CHECK field path: ARAMCO_LUBEREF_PRIMA_500L 1 open_questions no such field in the template
-  CHECK field path: ARAMCO_LUBEREF_PRIMA_600 1 open_questions no such field in the template
-  CHECK field path: ARAMCO_LUBEREF_PRIMA_500 1 open_questions no such field in the template
-  CHECK field path: ARAMCO_LUBEREF_PRIMA_70 1 open_questions no such field in the template
-  CHECK field path: ARAMCO_LUBEREF_PRIMA_110 1 open_questions no such field in the template
-  CHECK field path: ARAMCO_LUBEREF_PRIMA_230 1 open_questions no such field in the template
-  CHECK field path: ARAMCO_LUBEREF_PRIMA_500 1 open_questions no such field in the template
+reviewed documents 187; visual checks 59 done, 5 outstanding; old sources referenced 144; excerpts 415
