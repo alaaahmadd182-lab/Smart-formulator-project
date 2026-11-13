@@ -65,7 +65,7 @@ row(p='LUBRIZOL_CV2301', tier=1, path='open_questions', old='Not in the cited da
     reason='New-source evidence without a template field (viscosities at 20 / 25 °C and a dynamic viscosity at 122.4 °C; identity and classification). Preserve attributed to the SDS with its class; component shares stay shares.', old_rev=o)
 
 # ---------------- Lubrizol CV7540 2020 PDS ----------------
-o = 're-read manually: DL2-15581.pdf (LUBRIZOL CV7540 Product Data Sheet, Published on 13 May, 2022) pp.1-3 text (thirteenth pass, 2026-11-13)'
+o = 're-read manually: DL2-15581.pdf (LUBRIZOL CV7540 Product Data Sheet, Published on 13 May, 2022) pp.1-3 whole text, re-read in full in the fifteenth pass (2026-11-13); the thirteenth-pass reading was search-filtered fragments only (corrected)'
 link('LUBRIZOL_CV7540', 'DL2-14638.pdf', 'PDS pp.1-3 text layer read in full; p.1 claims table viewed as an image',
      "Lubrizol CV7540 Product Data Sheet 'Published on 20 Jan, 2020' (earlier edition of the cited 13 May 2022 sheet). p.1 image: treat rate '9.70% by weight' (equal in 2022); claims API CI-4 L, ACEA E7-16 (2016) A, MB-Approval 228.3 A, Volvo VDS-3 A, Mack EO-N A, Renault RVI RLD-2 A, MTU Type 2 A, Cummins CES 20076 / 20077 / 20078 L, DEUTZ DQC III-18 A, CAT ECF-1-a A, Detroit Diesel DDC 93K215 A, MAN M 3275 M, Global DHD-1 A, JASO DH-1 L; legend A / L / M and footnote '¹ - Volume treatment rates are approximate'. The JSON already records the edition differences (CES L->A; 2022 adds ACEA E7-22 and CAT ECF-2). p.2 typicals identical (JSON note) with footnote '²Not a manufacturing specification'. Not recorded (both editions): the unloading / storage / blending temperature block and equipment recommendations -> note row.",
      "exact: 'LUBRIZOL® CV7540'")

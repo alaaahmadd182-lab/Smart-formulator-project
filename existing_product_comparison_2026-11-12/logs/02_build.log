@@ -47,29 +47,29 @@
   }
  },
  "fields": {
-  "rows": 420,
+  "rows": 446,
   "outcomes": {
-   "additional": 222,
+   "additional": 223,
    "changed_or_conflicting": 78,
-   "already_captured": 40,
+   "already_captured": 48,
    "not_comparable": 16,
-   "in_old_source_not_captured": 64
+   "in_old_source_not_captured": 81
   },
-  "proposed": 384,
-  "ready_for_reviewer_decision": 384,
+  "proposed": 410,
+  "ready_for_reviewer_decision": 410,
   "provisional": 0,
   "new_source_verification": {
    "visual": 123,
-   "text layer": 297
+   "text layer": 323
   },
   "old_source_review": {
-   "re-read manually": 404,
+   "re-read manually": 430,
    "re-read manually in full": 15,
    "automated text search only": 1
   }
  }
 }
-reviewed documents 187; visual checks 59 done, 5 outstanding; old sources referenced 126; excerpts 343
+reviewed documents 187; visual checks 59 done, 5 outstanding; old sources referenced 134; excerpts 364
   CHECK field path: RF6602 1 open_questions no such field in the template
   CHECK field path: EXXONMOBIL_ESTEREX_A32 1 open_questions no such field in the template
   CHECK field path: EXXONMOBIL_ESTEREX_A34 1 open_questions no such field in the template
@@ -142,3 +142,20 @@ reviewed documents 187; visual checks 59 done, 5 outstanding; old sources refere
   CHECK field path: LUBRIZOL_CV2301 1 open_questions no such field in the template
   CHECK field path: CHEVRON_GROUP_II_220R 3 open_questions no such field in the template
   CHECK field path: AFTON_HITEC_5748 1 open_questions no such field in the template
+  CHECK field path: LUBRIZOL_CV1100 1 open_questions no such field in the template
+  CHECK field path: LUBRIZOL_CV1103 1 open_questions no such field in the template
+  CHECK field path: LUBRIZOL_CV2601 1 open_questions no such field in the template
+  CHECK field path: LUBRIZOL_CV3515 1 open_questions no such field in the template
+  CHECK field path: INFINEUM_D3320 1 open_questions no such field in the template
+  CHECK field path: INFINEUM_D3396 1 open_questions no such field in the template
+  CHECK field path: INFINEUM_D3398 1 open_questions no such field in the template
+  CHECK field path: INFINEUM_D3416 1 open_questions no such field in the template
+  CHECK field path: INFINEUM_D3417 1 open_questions no such field in the template
+  CHECK field path: INFINEUM_D3417 1 open_questions no such field in the template
+  CHECK field path: INFINEUM_D3451 1 open_questions no such field in the template
+  CHECK field path: INFINEUM_D3463 1 open_questions no such field in the template
+  CHECK field path: INFINEUM_D3511 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6071L 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6406 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6406 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6408 1 open_questions no such field in the template
