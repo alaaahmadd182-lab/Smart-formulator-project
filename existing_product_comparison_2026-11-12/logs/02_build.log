@@ -9,23 +9,23 @@
   "after_reviewed_exclusions": 5
  },
  "ledger": {
-  "links_total": 1373,
+  "links_total": 1374,
   "found_by": {
    "full-text search and earlier inventory": 361,
    "full-text search": 906,
    "earlier inventory only": 82,
    "full-text search + reviewed generic-alias mapping (supplier not on the hit page; scripts/reviewed_generic_alias_pairs.json)": 18,
-   "manual review only (not in the automated tables)": 6
+   "manual review only (not in the automated tables)": 7
   },
   "relationship_status": {
-   "completed": 1369,
+   "completed": 1370,
    "unresolved": 2,
    "excluded with reason": 2
   },
   "exact_duplicate_links": 282,
-  "non_duplicate_links": 1091,
+  "non_duplicate_links": 1092,
   "non_duplicate_by_status": {
-   "completed": 1087,
+   "completed": 1088,
    "unresolved": 2,
    "excluded with reason": 2
   },
@@ -41,32 +41,32 @@
     "completed": 22
    },
    "other suppliers": {
-    "completed": 929,
+    "completed": 930,
     "excluded with reason": 2
    }
   }
  },
  "fields": {
-  "rows": 533,
+  "rows": 570,
   "outcomes": {
-   "additional": 238,
-   "changed_or_conflicting": 79,
+   "additional": 244,
+   "changed_or_conflicting": 82,
    "already_captured": 48,
    "not_comparable": 16,
-   "in_old_source_not_captured": 152
+   "in_old_source_not_captured": 180
   },
-  "proposed": 497,
-  "ready_for_reviewer_decision": 497,
+  "proposed": 534,
+  "ready_for_reviewer_decision": 534,
   "provisional": 0,
   "new_source_verification": {
    "visual": 123,
-   "text layer": 410
+   "text layer": 447
   },
   "old_source_review": {
-   "re-read manually": 517,
+   "re-read manually": 554,
    "re-read manually in full": 15,
    "automated text search only": 1
   }
  }
 }
-reviewed documents 187; visual checks 59 done, 5 outstanding; old sources referenced 147; excerpts 432
+reviewed documents 187; visual checks 59 done, 5 outstanding; old sources referenced 168; excerpts 462
