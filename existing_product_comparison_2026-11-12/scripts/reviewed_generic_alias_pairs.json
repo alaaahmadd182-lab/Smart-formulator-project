@@ -1,0 +1,277 @@
+{
+ "purpose": "Reviewed exceptions to the same-page supplier rule of 01_candidates.py. A generic product number (alias flagged 'needs the supplier on the same page') is admitted ONLY on the listed pages of the listed document (by SHA-256), after a reviewer verified document ownership and the product context. The rule is NOT relaxed for any other document: a supplier named somewhere else in a document is not sufficient. known_false_generic_matches lists reviewed hits that must never become links (check in 03_checks.py).",
+ "reviewed_on": "2026-11-13 (tenth pass)",
+ "source_of_list": "gap_analysis_2026-11-13/generic_alias_pairs_not_linked.csv (rows judged GENUINE GAP)",
+ "reviewed_pairs": [
+  {
+   "product_id": "RICHFUL_RF6066",
+   "file": "DL2-15546.pdf",
+   "sha256": "1eaa0c68706b7929231dfd9fa6c6599fe7e499d2cb44925a4343253b34f16e85",
+   "pages": [
+    2,
+    6
+   ],
+   "document_owner_evidence": "Richful catalogue: p.1 'Company Profile ... Xinxiang Richful Lube Additive Co., Ltd.'; one page per product",
+   "identity_evidence": "p.6 '4 RF6066 CH-4/CI-4 Diesel Engine Oil Package / Product Introduction'; p.2 contents line"
+  },
+  {
+   "product_id": "RICHFUL_RF6066",
+   "file": "DL2-15743.pdf",
+   "sha256": "24a0b3e143b0fcfc4e6cc8f8aede13859a31cd16bec3d0e3b3904ad305ad0f77",
+   "pages": [
+    2,
+    7
+   ],
+   "document_owner_evidence": "Richful catalogue: p.1 'Company Profile ... Xinxiang Richful Lube Additive Co., Ltd.'; one page per product",
+   "identity_evidence": "p.7 'RF6066 CH-4/CI-4 Diesel Engine Oil Package / Product Introduction'; p.2 contents"
+  },
+  {
+   "product_id": "RICHFUL_RF6066",
+   "file": "DL2-15764.pdf",
+   "sha256": "d2a2b4618e09a93450124f1e45597c773a72489a4c8d688e7f063654fc45b385",
+   "pages": [
+    2,
+    7
+   ],
+   "document_owner_evidence": "Richful catalogue: p.1 'Company Profile ... Xinxiang Richful Lube Additive Co., Ltd.'; one page per product",
+   "identity_evidence": "p.7 'RF6066 CH-4/CI-4 Diesel Engine Oil Package / Product Introduction'; p.2 contents"
+  },
+  {
+   "product_id": "RICHFUL_RF6078",
+   "file": "DL2-15546.pdf",
+   "sha256": "1eaa0c68706b7929231dfd9fa6c6599fe7e499d2cb44925a4343253b34f16e85",
+   "pages": [
+    2,
+    9
+   ],
+   "document_owner_evidence": "Richful catalogue: p.1 'Company Profile ... Xinxiang Richful Lube Additive Co., Ltd.'; one page per product",
+   "identity_evidence": "p.9 '7 RF6078 CI-4 Diesel Engine Oil Package / Product Introduction'; p.2 contents"
+  },
+  {
+   "product_id": "RICHFUL_RF6078",
+   "file": "DL2-15743.pdf",
+   "sha256": "24a0b3e143b0fcfc4e6cc8f8aede13859a31cd16bec3d0e3b3904ad305ad0f77",
+   "pages": [
+    2,
+    12
+   ],
+   "document_owner_evidence": "Richful catalogue: p.1 'Company Profile ... Xinxiang Richful Lube Additive Co., Ltd.'; one page per product",
+   "identity_evidence": "p.12 'CI-4 Diesel Engine Oil Package / Product Introduction RF6078 is a diesel engine oil additive package'; p.2 contents"
+  },
+  {
+   "product_id": "RICHFUL_RF6078",
+   "file": "DL2-15764.pdf",
+   "sha256": "d2a2b4618e09a93450124f1e45597c773a72489a4c8d688e7f063654fc45b385",
+   "pages": [
+    2,
+    12
+   ],
+   "document_owner_evidence": "Richful catalogue: p.1 'Company Profile ... Xinxiang Richful Lube Additive Co., Ltd.'; one page per product",
+   "identity_evidence": "p.12 'ACEA E7/CI-4 Diesel Engine Oil Package / Product Introduction RF6078'; p.2 contents"
+  },
+  {
+   "product_id": "RICHFUL_RF6079",
+   "file": "DL2-15743.pdf",
+   "sha256": "24a0b3e143b0fcfc4e6cc8f8aede13859a31cd16bec3d0e3b3904ad305ad0f77",
+   "pages": [
+    2,
+    13
+   ],
+   "document_owner_evidence": "Richful catalogue: p.1 'Company Profile ... Xinxiang Richful Lube Additive Co., Ltd.'; one page per product",
+   "identity_evidence": "p.13 'Product Introduction RF6079 is a heavy-duty diesel engine oil additive package'; p.2 contents 'RF6079 API CI-4/ ACEA E7'"
+  },
+  {
+   "product_id": "RICHFUL_RF6079",
+   "file": "DL2-15764.pdf",
+   "sha256": "d2a2b4618e09a93450124f1e45597c773a72489a4c8d688e7f063654fc45b385",
+   "pages": [
+    2,
+    13
+   ],
+   "document_owner_evidence": "Richful catalogue: p.1 'Company Profile ... Xinxiang Richful Lube Additive Co., Ltd.'; one page per product",
+   "identity_evidence": "p.13 'Product Introduction RF6079 is a Heavy-duty diesel engine oil additive package'; p.2 contents"
+  },
+  {
+   "product_id": "RICHFUL_RF6088",
+   "file": "DL2-15743.pdf",
+   "sha256": "24a0b3e143b0fcfc4e6cc8f8aede13859a31cd16bec3d0e3b3904ad305ad0f77",
+   "pages": [
+    2,
+    14
+   ],
+   "document_owner_evidence": "Richful catalogue: p.1 'Company Profile ... Xinxiang Richful Lube Additive Co., Ltd.'; one page per product",
+   "identity_evidence": "p.14 'Product Introduction RF6088 is a Heavy-duty diesel engine oil additive package'; p.2 contents 'RF6088 CK-4'"
+  },
+  {
+   "product_id": "RICHFUL_RF6088",
+   "file": "DL2-15764.pdf",
+   "sha256": "d2a2b4618e09a93450124f1e45597c773a72489a4c8d688e7f063654fc45b385",
+   "pages": [
+    2,
+    14
+   ],
+   "document_owner_evidence": "Richful catalogue: p.1 'Company Profile ... Xinxiang Richful Lube Additive Co., Ltd.'; one page per product",
+   "identity_evidence": "p.14 'Product Introduction RF6088 is a high-end diesel engine oil additive package ... 13.8%'; p.2 contents 'RF6088 CK-4/E11'"
+  },
+  {
+   "product_id": "RICHFUL_RF6400",
+   "file": "DL2-12243.pdf",
+   "sha256": "bb2bcedc4e8e5f95fd0a4b8c74d3b1342aff2a8afc13e11ad44a606f6332af99",
+   "pages": [
+    1,
+    22
+   ],
+   "document_owner_evidence": "Richful catalogue (contents p.1 'COMPANY PROFILE ... Lubricant Additive Packages RF6033 ...'; Richful product range)",
+   "identity_evidence": "p.22 'RF6400 Universal Type Engine Oil Package / Product Introduction RF6400 is universal type engine oil package'; p.1 contents"
+  },
+  {
+   "product_id": "RICHFUL_RF6400",
+   "file": "DL2-15546.pdf",
+   "sha256": "1eaa0c68706b7929231dfd9fa6c6599fe7e499d2cb44925a4343253b34f16e85",
+   "pages": [
+    2,
+    18
+   ],
+   "document_owner_evidence": "Richful catalogue: p.1 'Company Profile ... Xinxiang Richful Lube Additive Co., Ltd.'; one page per product",
+   "identity_evidence": "p.18 '16 RF6400 CF-4/SG Universal Type Engine Oil Package / Product Introduction'; p.2 contents"
+  },
+  {
+   "product_id": "RICHFUL_RF6400",
+   "file": "DL2-15743.pdf",
+   "sha256": "24a0b3e143b0fcfc4e6cc8f8aede13859a31cd16bec3d0e3b3904ad305ad0f77",
+   "pages": [
+    2,
+    5
+   ],
+   "document_owner_evidence": "Richful catalogue: p.1 'Company Profile ... Xinxiang Richful Lube Additive Co., Ltd.'; one page per product",
+   "identity_evidence": "p.5 '2 RF6400 CF-4/SG Universal Type Engine Oil Package / Product Introduction'; p.2 contents"
+  },
+  {
+   "product_id": "RICHFUL_RF6400",
+   "file": "DL2-15764.pdf",
+   "sha256": "d2a2b4618e09a93450124f1e45597c773a72489a4c8d688e7f063654fc45b385",
+   "pages": [
+    2,
+    5
+   ],
+   "document_owner_evidence": "Richful catalogue: p.1 'Company Profile ... Xinxiang Richful Lube Additive Co., Ltd.'; one page per product",
+   "identity_evidence": "p.5 'RF6400 CF-4/SG Universal Type Engine Oil Package / Product Introduction'; p.2 contents"
+  },
+  {
+   "product_id": "RF6602",
+   "file": "DL2-15744.pdf",
+   "sha256": "c41e6f704dce9f2124937d733d7596408083869d14dd9e8f0c89458f03096ab1",
+   "pages": [
+    3,
+    51
+   ],
+   "document_owner_evidence": "Richful catalogue: p.1 'Company Profile ... Xinxiang Richful Lube Additive Co., Ltd.'; one page per product",
+   "identity_evidence": "p.51 '48 RF6602 PMA Viscosity Index Improver / Product Introduction RF6602 refers to polymethacrylate (PMA) viscosity index improver'; p.3 contents"
+  },
+  {
+   "product_id": "RF6602",
+   "file": "DL2-15766.pdf",
+   "sha256": "18eac6e2bb2b767b67b0cbb01e8d08e7ff5658507ecb47f8c2e5fb1b89401f78",
+   "pages": [
+    3,
+    52
+   ],
+   "document_owner_evidence": "Richful catalogue: p.1 'Company Profile ... Xinxiang Richful Lube Additive Co., Ltd.'; one page per product",
+   "identity_evidence": "p.52 'RF6602 Polymethacrylate Viscosity Index Improver / Product Introduction'; thickening-ability table 'RF6602, %wt 0 1 5'; p.3 contents"
+  },
+  {
+   "product_id": "RF6602",
+   "file": "RF5016-Booklet.pdf",
+   "sha256": "982fd11521e8f44beee1ffbe837df18fdda299f80fdf741229d15f5a5663816d",
+   "pages": [
+    14
+   ],
+   "document_owner_evidence": "Richful RF5016 booklet: p.1 'Issue Date:2025/2/20 Email:inquiry@richful.com ... RF5016'",
+   "identity_evidence": "p.14 recipe line 'RF6602（VII）, wt% 3 3.5' beside 'RF8248B（PPD）' (another Richful product's formulation: a mention, not a product page)"
+  },
+  {
+   "product_id": "S_OIL_PREMIUM_P_31",
+   "file": "DL2-12545.pdf",
+   "sha256": "9aea001c7cc2909b19ec97b75a31147082bfd49eb91e5d40037f953a1f842a15",
+   "pages": [
+    6
+   ],
+   "document_owner_evidence": "S-OIL Corporation 'Lube Base Oil' brochure (p.1 S-OIL address and e-mail, scanned)",
+   "identity_evidence": "p.6 Premium-series text 'P-8(Premium 60N), P-20(Premium 100N), P-31 (Premium 150N), P-96(Premium 500N)' and the Premium typical-properties table column"
+  }
+ ],
+ "known_false_generic_matches": [
+  {
+   "product_id": "GS_CALTEX_150N",
+   "file": "DL2-12563.pdf",
+   "sha256": "3f3e15d3fdc6e9b8a008578baa4acb56e2bda21a64cbac5d168d0c4afc56e93b",
+   "why": "'ExxonMobil 150N API Group' (another supplier's 150N)"
+  },
+  {
+   "product_id": "GS_CALTEX_600N",
+   "file": "DL2-12563.pdf",
+   "sha256": "3f3e15d3fdc6e9b8a008578baa4acb56e2bda21a64cbac5d168d0c4afc56e93b",
+   "why": "'ExxonMobil 600N API Group' (another supplier's 600N)"
+  },
+  {
+   "product_id": "GS_CALTEX_150N",
+   "file": "DL2-15765.pdf",
+   "sha256": "a63e0ccbbf9dfaaa513594f6a83c14f8d0e73045ffe22ea97563a6528312aa42",
+   "why": "'Grp. II 150N, %' (generic base-oil class in a Richful deck)"
+  },
+  {
+   "product_id": "S_OIL_SUPER_S_31",
+   "file": "DL2-15492.pdf",
+   "sha256": "02c5011ab4d1c842be722453855f82378d98708f8b8a0ddb53547e280c54258a",
+   "why": "number 'mm2/s 31.62', not S-31"
+  },
+  {
+   "product_id": "S_OIL_SUPER_S_8",
+   "file": "DL2-15800.pdf",
+   "sha256": "dfd31b0807759185f08690dd64649cbb7bb88cec2c6ee3ccf1cefc46fe0adb8b",
+   "why": "number 'mm2/s 8.6', not S-8"
+  },
+  {
+   "product_id": "S_OIL_SUPER_S_8",
+   "file": "DL2-16030.pdf",
+   "sha256": "a5f76ab1bebc1e23f6369628561bc2f568a539c3eb158ea7117fd5a4443ee058",
+   "why": "'RL 90 S 8 0,37' (table code), not S-8"
+  },
+  {
+   "product_id": "S_OIL_SUPER_S_8",
+   "file": "DL2-11662.pdf",
+   "sha256": "c2dcdd4b41988dd269fff2dc031d2fa341b495500b347886715ddae1acbf3a7e",
+   "why": "'Ultra 4 6 8 S4 S8' (Ultra-S column labels)"
+  },
+  {
+   "product_id": "S_OIL_SUPER_S_8",
+   "file": "DL2-12003.pdf",
+   "sha256": "b0c45e67431f339056f71207e7a1736e279ebb3df6ea80bfa0436a8139290bc2",
+   "why": "'S-Oil Ultra S-8' (another S-OIL grade)"
+  },
+  {
+   "product_id": "S_OIL_SUPER_S_8",
+   "file": "DL2-12467.pdf",
+   "sha256": "cdcdb65832ac925103e3a590a7f498b4c3880b6aa4ef0d9959edaef2f873b10a",
+   "why": "'Ultra S8'"
+  },
+  {
+   "product_id": "S_OIL_SUPER_S_8",
+   "file": "DL2-12621.pdf",
+   "sha256": "5dc6a236c54aaf1acdff7c4f6a7a8babd3d8050b47ab38deab6d396c1f9dc35f",
+   "why": "'Ultra S8'"
+  },
+  {
+   "product_id": "S_OIL_SUPER_S_8",
+   "file": "DL2-13115.pdf",
+   "sha256": "ac1410d6eab786d2ba4319e4a52a18a88d6867108580a51499df261291ca8fe7",
+   "why": "'S-Oil Ultra S-8'"
+  },
+  {
+   "product_id": "S_OIL_SUPER_S_8",
+   "file": "DL2-13587.pdf",
+   "sha256": "0f30b1583264fad0fe80bc460713619a752dbcd9eefe3b8c4a51bec8f06d4741",
+   "why": "'S-Oil Ultra S-8'"
+  }
+ ]
+}

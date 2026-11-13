@@ -1,0 +1,17 @@
+    # Safeguard (fifth pass): every action that can add or change a product value counts, including
+    # propose_update_with_history, propose_selection_review*, propose_record_conflict and propose_historical_note.
+    # The only exception is an explicitly evidenced, scoped interchangeability NOTE, which transfers no property.
+    def p_5748a_any(r, pid='AFTON_HITEC_5748', other='5748A'):
+        if r['product_id'] != pid or other not in r['new_source_printed'] or not r['recommended_action'].startswith('propose'):
+            return False
+        scoped_note = (r['recommended_action'] == 'propose_note' and re.search(r'interchang', r['reason'], re.I)
+                       and re.search(r'scope', r['reason'], re.I) and re.search(r'no 5748A data', r['reason']))
+        return not scoped_note
+    check('identity: no value is added or changed for HiTEC 5748 from HiTEC 5748A evidence by ANY proposing action (only a scoped interchangeability note is allowed)',
+          not [r for r in prop if p_5748a_any(r)])
+    _b = dict(product_id='AFTON_HITEC_5748', new_source_printed='HiTEC 5748A (ND-OCP) Shear Stability Index 25', recommended_action='propose_update_with_history', reason='update SSI')
+    check('regression: an incorrect value update of HiTEC 5748 from 5748A text via propose_update_with_history is caught, as are selection review, conflict and an unscoped note; the scoped interchangeability note passes',
+          p_5748a_any(_b) and p_5748a_any(dict(_b, recommended_action='propose_selection_review')) and p_5748a_any(dict(_b, recommended_action='propose_record_conflict'))
+          and p_5748a_any(dict(_b, recommended_action='propose_historical_note')) and p_5748a_any(dict(_b, recommended_action='propose_note', reason='note the 5748A value'))
+          and not p_5748a_any(dict(_b, recommended_action='propose_note', reason='A conditional interchange statement made for one programme. Propose a note with that scope; no 5748A data may be used for HiTEC 5748.'))
+          and not p_5748a_any(dict(_b, recommended_action='no_change')))

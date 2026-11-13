@@ -1,0 +1,31 @@
+    # ---- regression self-tests for the four checks that failed in the third pass and were then refined ----
+    # Each refined predicate is run against a synthetic row reproducing the ORIGINAL failure case (must still be
+    # caught) and against the legitimate case that had triggered the false alarm (must pass).
+    def p_5748a(r):      # violation: a value/entry proposed for HiTEC 5748 from text that names HiTEC 5748A
+        return r['product_id'] == 'AFTON_HITEC_5748' and '5748A' in r['new_source_printed'] and r['recommended_action'].startswith(('propose_add', 'propose_alternate'))
+
+    def p_form(r):       # violation: numeric tier-2 proposal without a typical/specification/batch label
+        return (r['tier'] == '2' and re.match(r'tbn|kv\d|density|flash|pour|elements\.|sulfated', r['field_path'])
+                and not re.search(r'typical|specification|batch|single value|target|minimum', r['value_form'], re.I))
+
+    def p_ready(r):      # violation: ready although the old source was not read by the reviewer
+        return r['action_readiness'].startswith('ready') and not r['old_source_review'].startswith('re-read manually')
+
+    base = dict(product_id='AFTON_HITEC_5748', new_source_printed='HiTEC 5748A (ND-OCP) 3.5', recommended_action='propose_add', tier='2', field_path='tbn', value_form='text',
+                action_readiness='ready for reviewer decision', old_source_review='automated text search only (1 of 1 cited sources searchable)')
+    check('regression: a value proposed for HiTEC 5748 from 5748A text is still caught; a scoped note naming both grades is not',
+          p_5748a(base) and p_5748a(dict(base, recommended_action='propose_alternate_entry')) and not p_5748a(dict(base, recommended_action='propose_note')))
+    check('regression: an unlabelled numeric tier-2 proposal is still caught; a text field of a tier-2 component file is not',
+          p_form(base) and p_form(dict(base, field_path='elements.Ca', value_form='')) and not p_form(dict(base, field_path='polymer_chemistry')) and not p_form(dict(base, value_form='typical')))
+    check('regression: ready on an automated or unavailable old source is still caught, also when a manual note merely mentions an automated search',
+          p_ready(base) and p_ready(dict(base, old_source_review='not available locally: ...'))
+          # fourth-pass build defect: a 'not available locally' statement that mentions another source being
+          # 're-read manually' was counted as a reading by 02_build.py; it must stay caught here
+          and p_ready(dict(base, old_source_review='not available locally: primary PDS has no local copy. The second cited source was re-read manually'))
+          and not p_ready(dict(base, old_source_review='re-read manually: p.2 text. NOT re-read: the earlier edition (automated search only)')))
+    check('regression: the live tables contain none of these three violations', not [r for r in prop if p_5748a(r) or p_form(r) or p_ready(r)])
+    t16 = [r for r in fld if r['product_id'] == 'LUBRIZOL_16008' and r['field_path'] == 'tbn']
+    check('regression: every Lubrizol 16008 TBN row (now more than one source) keeps the 2013 lower bound "> 182" / "greater than 182" visible in its old-source statement',
+          len(t16) >= 2 and all('greater than 182' in r['old_source_statement'] or "'> 182'" in r['old_source_statement'] for r in t16)
+          and any('188' in r['new_source_printed'] and r['recommended_action'] == 'propose_record_conflict' for r in t16))
+    refs = rd(os.path.join(T, 'old_source_references.csv'))

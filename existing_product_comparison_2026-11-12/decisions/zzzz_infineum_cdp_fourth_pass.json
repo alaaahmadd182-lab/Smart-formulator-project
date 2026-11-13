@@ -1,0 +1,24 @@
+{
+  "batch": "infineum",
+  "reviewed_on": "2026-11-13 (fourth pass)",
+  "documents": {
+    "DL2-12623.pdf": {"what": "Infineum Candidate Data Package 'CDP M275 Version 01', July 2014: API CI-4/SL, Infineum D3451 in ExxonMobil group I base stocks (53 pages, Official ACC & ATC Protocol)", "printed_date": "July 2014", "kind": "claim data package (formulation and engine-test data)", "read": "pp.1-2 and hit lines on pp.4, 6, 7, 24", "limits": "pages 3-53 not read; the engine-test matrix (p.4: core data set with 'Paratone 68231 (VM)' / 'Paratone 8051' and an 11.195 value) was NOT read and is not used"},
+    "DL2-13311.pdf": {"what": "Infineum Candidate Data Package 'CDP M233 Version 02', December 2015 (81 pages)", "printed_date": "December 2015", "kind": "claim data package of another programme", "read": "title lines of p.1; the one D3451 hit on p.48", "limits": "not read otherwise"}
+  },
+  "links": [
+    {"p": "INFINEUM_D3451", "f": "DL2-12623.pdf", "cat": "D,E", "status": "completed", "fields_status": "p.2 formulation compared; engine-test pages NOT read", "coverage": "old sheet DL2-12029.pdf read in full (fourth pass)", "identity": "exact: 'Infineum D3451 in ExxonMobil group I base stocks' (title)", "note": "p.2 headline formulation, %m: D3451 11.90; SV261 6.70; V385 0.20; XOMAPE150 62.70; XOMAPE600 18.50: the same recipe as IME1101996-A (DL2-13136.pdf, DL2-13801.pdf p.3), here with the basis '%m'. Corroborates the formulation already proposed; adds the mass basis. The test matrix uses other viscosity modifiers (Paratone 68231 / 8051) and is not read."},
+    {"p": "INFINEUM_D3451", "f": "DL2-13311.pdf", "cat": "C", "status": "completed", "fields_status": "one sentence compared", "coverage": "not applicable", "identity": "named once on p.48", "note": "'SL testing completed for the SL core in the original CI-4 Infineum D3451 documentation': a reference to D3451's data package, no data of D3451."}
+  ],
+  "fields": [],
+  "field_overrides": [
+    {"p": "INFINEUM_D3451", "path": "published_formulations", "new_f": "DL2-13136.pdf",
+     "old_rev": "re-read manually (text layer of DL2-12029.pdf, description, performance and typical inspections)",
+     "old": "DL2-12029.pdf (Version: 8 May 2017 (2.0)) read in full: no formulation printed. JSON: Missing.",
+     "basis": "mass ('% wt' on DL2-13136.pdf; '%m' for the same recipe in DL2-12623.pdf p.2)",
+     "reason_append": "Fourth pass: the old sheet was read in full (no formulation). The same recipe is printed in two further Infineum documents: DL2-13801.pdf p.3 (code IME1101996-A) and the July 2014 claim data package DL2-12623.pdf p.2 ('Formulation, %m')."},
+    {"p": "INFINEUM_D3451", "path": "*", "new_f": "DL2-13136.pdf", "old_rev": "re-read manually (text layer of DL2-12029.pdf, description, performance and typical inspections)"},
+    {"p": "INFINEUM_D3451", "path": "*", "new_f": "DL2-14228.pdf", "old_rev": "re-read manually (text layer of DL2-12029.pdf, description, performance and typical inspections)"},
+    {"p": "INFINEUM_D3451", "path": "*", "new_f": "DL2-12856.pdf", "old_rev": "re-read manually (text layer of DL2-12029.pdf, description, performance and typical inspections)",
+     "old": "DL2-12029.pdf (Version: 8 May 2017 (2.0)) read in full: boosters printed: Infineum D2367 at 1.2 % (API CH-4/SL 10W-40, ACEA E7-12) only; no D2376 route. JSON: D2367 1.2 % and an unnamed viscosity modifier."}
+  ]
+}

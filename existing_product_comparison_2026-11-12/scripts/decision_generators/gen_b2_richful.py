@@ -1,0 +1,124 @@
+# Saved from the session scratchpad on 2026-11-13 (thirteenth pass). Runs from any directory: it changes to the
+# workspace root (the folder that holds Products_json and existing_product_comparison_2026-11-12).
+import os as _os
+_os.chdir(_os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))))
+import json
+B = 'existing_product_comparison_2026-11-12'
+SDSU = 'SDS reported value; statistical basis unspecified (Richful SDS section 9 states no basis)'
+T = '(thirteenth pass, 2026-11-13)'
+H45 = "'The long-term storage temperature shall not exceed 45℃, and the loading/unloading or blending temperature shall not exceed 65℃.'"
+links, F = [], []
+
+
+def link(pid, f, scope, cov, ident, cat='A'):
+    links.append(dict(p=pid, f=f, cat=cat, status='completed', fields_status=f'{scope}; compared item by item with the JSON {T}', coverage=f'assessed by reading (2026-11-13, thirteenth pass) for {scope}: {cov}', identity=ident,
+                      note='Byte duplicate of an archive SDS/bulletin that the record lists in its source documents; values from it appear only in alternate entries, conflicts or open questions.'))
+
+
+def tds_note(pid, tds, tdsdesc, printed, sdsf, orv):
+    F.append(dict(p=pid, tier=1, path='open_questions', old=f'{tds} ({tdsdesc}) prints: {printed}. The JSON does not record it (route_selector_restrictions and open questions checked).', new_f=sdsf, new_p=4,
+                  new_text=f'SDS section 7.2 repeats the limits: {H45}' if sdsf else '', unit='C', form='data-sheet handling statement (not a property value)', qual='as printed', method='', cond='storage / loading-unloading-blending', basis='',
+                  outcome='in_old_source_not_captured', action='propose_note',
+                  reason='Old-source information never captured (no template field; RICHFUL_RF6066 already keeps the same sentence in route_selector_restrictions.limits, so the reviewer may choose that place or a note). The SDS repeats it, which corroborates but adds nothing new. Not a formulation restriction.',
+                  old_rev=orv, cmp_override='existing: not recorded'))
+
+
+def sds_note(pid, sdsf, page, text, orv, form=None):
+    F.append(dict(p=pid, tier=1, path='open_questions', old='Not in the cited data sheet (SDS-only information).', new_f=sdsf, new_p=page, new_text=text, unit='as printed', form=form or f'{SDSU}; SDS classification and composition statements', qual='SDS reported value', method='as printed', cond='', basis='percentage ranges are SDS component shares (not element contents)',
+                  outcome='additional', action='propose_note',
+                  reason='New-source evidence with no template field (hazard classification, CAS detail, partition coefficients, occupational limits). Propose preserving it in a note attributed to the SDS; component shares are not converted to element contents.',
+                  old_rev=orv, cmp_override='existing: partly recorded (see text)'))
+
+
+# ---------------- RF6066 ----------------
+o = 're-read manually: DL2-15451.pdf (RF6066 TDS, undated) page 1 storage paragraph and typical table (thirteenth pass, 2026-11-13); JSON route_selector_restrictions already quotes it'
+link('RICHFUL_RF6066', 'DL2-15831.pdf', 'SDS pp.2, 4 and 5 viewed as page images (no text layer): sections 2.3-3, 7-8 and 9-10',
+     "Richful SDS 2021 (revision date recorded in the JSON as 2021-09-02; p.1 not re-viewed). Section 9: flash '≥ 180 °C (open cup)' (alternate entry present), 'Viscosity, dynamic : 185 mm²/s (100 °C)' (recorded verbatim in the KV100 conflict; the dynamic label with a kinematic unit is not remarked on in the JSON), density '0.988 g/cm³ (20 °C)' (in the density conflict). Section 3 shares are in the open questions, but not the four base-oil CAS rows that share one 10 - 39.9 % range, the CAS numbers or the classifications. Section 7.2 repeats the 45/65 C limits already recorded from the TDS. Uncaptured SDS-only items -> note row.",
+     "exact: 'RF6066' on the SDS; byte duplicate of the archive file")
+sds_note('RICHFUL_RF6066', 'DL2-15831.pdf', 2,
+         "Section 3: one share range '10 - 39.9' printed across four base-oil rows (CAS 64742-54-7, 64742-65-0, 64742-55-8, 64742-56-9); ZDDP CAS 68649-42-3 3 - 17.9 (Skin Irrit. 2 H315, Eye Irrit. 2 H319); overbased Ca sulfurized phenate CAS 68784-26-9 1 - 14.9 (Aquatic Chronic 3 H412); ADPA CAS 68411-46-1 0.5 - 9.9 (Aquatic Chronic 3 H412); MoDTC CAS 253873-83-5 0.1 - 1.99 (Skin Irrit. 2 H315, Aquatic Chronic 2 H411). Section 9 (p.5): Log Pow of the ZDDP 14.876 (25 °C); the 185 mm²/s value is printed on the 'Viscosity, dynamic' line ('Viscosity, kinematic : Not available').", o)
+# ---------------- RF6069 ----------------
+o = 're-read manually: DL2-15618.pdf (RF6069 TDS, undated, 1 page) whole page (thirteenth pass, 2026-11-13)'
+link('RICHFUL_RF6069', 'DL2-15619.pdf', 'SDS pp.2, 4 and 5 viewed as page images (no text layer): sections 2-3, 7-8 and 9',
+     "Richful SDS version 2.0, issue/revision 1/4/2022. Section 9: flash '>= 180 °C (ASTM D92)' and density '981kg/m³ (20 °C, ASTM D4052)' (alternate entries present), KV '142 mm²/s (100 °C, ASTM D445)' (in the KV100 conflict with TDS 118). Section 3 shares are in the open questions (base-oil range shared by four CAS rows not stated). Section 7.2 45/65 C limits and 'Iron drum' (printed against a second 'Storage temperature' label) - the cited TDS prints the same limits and the JSON records neither -> rows.",
+     "exact: 'RF6069' in the page header; byte duplicate of the archive file")
+tds_note('RICHFUL_RF6069', 'DL2-15618.pdf', 'RF6069 TDS, undated', f"{H45} and 'Packed in 200L iron drums or as required by customers'", 'DL2-15619.pdf', o)
+sds_note('RICHFUL_RF6069', 'DL2-15619.pdf', 2,
+         "Section 3: share '10 - 59.9' printed across four base-oil rows (CAS 64742-54-7, 64742-65-0, 64742-55-8, 64742-56-9; not classified); ZDDP 68649-42-3 3 - 17.9 (Skin Irrit. 2 H315, Eye Irrit. 2 H319); Ca phenate 68784-26-9 1 - 14.9 (Aquatic Chronic 3 H412); ADPA 68411-46-1 0.5 - 4.9 (Aquatic Chronic 3 H412). Section 7.2: 'Iron drum'.", o)
+# ---------------- RF6077 ----------------
+o = 're-read manually: DL2-15536.pdf (RF6077 TDS, undated) whole page (thirteenth pass, 2026-11-13)'
+link('RICHFUL_RF6077', 'DL2-15542.pdf', 'SDS pp.1-6 (sections 1-11.1) text layer read in full',
+     "Richful SDS version 1.0, 11/16/2023. Section 9: KV '150mm2/s (100 °C)', density '0.991 g/cm3 (15 °C)', flash '>= 180 °C (ASTM D92)' (alternate entries and conflicts present); vapour pressures 28.7 / 15.9 mmHg at 65 / 45 °C (in the open questions). Section 3 shares are in the open questions; not recorded: classification (incl. ADPA 'Repr.2, H361f'), the second MoDTC CAS 71342-89-7. Section 7.2 45/65 C limits, also in the cited TDS, not recorded -> rows.",
+     "exact: 'Trade name : RF6077'")
+tds_note('RICHFUL_RF6077', 'DL2-15536.pdf', 'RF6077 TDS, undated', f"{H45} and 'Packed in 200L iron drums ...'", 'DL2-15542.pdf', o)
+sds_note('RICHFUL_RF6077', 'DL2-15542.pdf', 2,
+         "Section 2: Skin Irrit. 2 H315, Eye Irrit. 2 H319, Aquatic Chronic 3 H412; GHS07, 'Warning'. Section 3: base oil CAS 64742-54-7 10 - 59.9; ZDDP 68649-42-3 3 - 17.9; Ca phenate 68784-26-9 1 - 14.9; ADPA 68411-46-1 0.5 - 2.9 classified 'Aquatic Chronic 3, H412 Repr.2, H361f'; MoDTC 'CAS-No.: 253873-83-5, 71342-89-7' 0.1 - 0.99 (Skin Irrit. 2 H315, Aquatic Chronic 2 H411). Section 11: base oil LD50 oral rat > 15 g/kg; ADPA LD50 oral rat > 5000 mg/kg. Section 7.2: 'Iron drum'.", o)
+# ---------------- RF6078 ----------------
+o = 're-read manually: DL2-15832.pdf (RF6078 TDS, undated) whole page (thirteenth pass, 2026-11-13)'
+link('RICHFUL_RF6078', 'DL2-15833.pdf', 'SDS pp.2, 4 and 5 viewed as page images (no text layer): sections 2-3, 6-8 and 9',
+     "Richful SDS version 1.0, revision 9/2/2021 (issue date printed '9/022021', as the JSON notes). Section 9: KV '146 mm²/s (100 °C, ASTM D445)' and flash '>= 180 °C (ASTM D92)' (alternate entries present); density '975 kg/m³ (20 °C, ASTM D4052)' (in the density conflict with TDS 972). Section 3 shares are in the open questions (base-oil range shared by four CAS rows not stated; MoDTC printed 'Not classified' here). Section 7.2 45/65 C limits and 'Iron drum'; the cited TDS prints the same limits; JSON route_selector_restrictions holds only the China V / drain-interval statements -> rows.",
+     "exact: 'RF6078' in the page header; byte duplicate")
+tds_note('RICHFUL_RF6078', 'DL2-15832.pdf', 'RF6078 TDS, undated', f"{H45} and 'Packed in 200L iron drums ...'", 'DL2-15833.pdf', o)
+sds_note('RICHFUL_RF6078', 'DL2-15833.pdf', 2,
+         "Section 3: '10 - 39.9' across four base-oil rows (CAS 64742-54-7, 64742-65-0, 64742-55-8, 64742-56-9); ZDDP 68649-42-3 3 - 17.9 (Skin Irrit. 2 H315, Eye Irrit. 2 H319); Ca phenate 68784-26-9 1 - 14.9 and ADPA 68411-46-1 0.5 - 9.9 (Aquatic Chronic 3 H412); MoDTC 253873-83-5 0.1 - 1.99 'Not classified' (the 2021 RF6066 SDS classifies the same CAS Skin Irrit. 2 / Aquatic Chronic 2; recorded, not resolved). Section 7.2: 'Iron drum'.", o)
+# ---------------- RF6079 ----------------
+o = 're-read manually: DL2-15535.pdf (RF6079 TDS, undated) whole page (thirteenth pass, 2026-11-13)'
+link('RICHFUL_RF6079', 'DL2-15541.pdf', 'SDS pp.2-5 viewed as page images (no text layer): sections 2.3-10.4',
+     "Richful SDS issue/revision 3/18/2022 (as recorded). Section 9: flash '≥180 ℃' (no method), KV '140 mm²/s @100℃', 'Relative density : 1.000 g/cm³@20℃' (alternate entries present; the density-vs-relative-density issue is already an open question). Section 3 shares are in the open questions (CAS and classifications not). Section 7.2: 45/65 C limits and 'Metal bucket'; section 8.1.1 ZDDP OELs. The cited TDS and the bulletin print the handling limits; not recorded -> rows.",
+     "exact: 'RF6079' (p.1 title, viewed in the eleventh pass for the RF6079 swap check); byte duplicate")
+link('RICHFUL_RF6079', 'RF6079%20Diesel%20Engine%20Oil%20Additive%20Package.pdf', 'bulletin p.1 (only page) text layer read in full',
+     "Typicals density 1000, KV100 140, flash COC 214, TBN 109, Ca 3.44, Zn 1.50, P 1.34, N 0.76 all equal the JSON (from DL2-15535.pdf); treat rates CI-4 Plus 11.0 %, CI-4 9.15 / 9.50 %, ACEA E7 9.15 % and the CI-4 / E7 / CI-4 Plus claim sentences are all recorded. Not recorded: 'Long-term storage not to exceed 45 °C. Maximum handling temperature 65 °C. Shelf life 24 months at ambient temperature.' -> handling row.",
+     "exact: 'RF6079 is a high performance heavy duty engine oil additive package'")
+tds_note('RICHFUL_RF6079', 'DL2-15535.pdf', "RF6079 TDS, undated; the bulletin 'RF6079 Diesel Engine Oil Additive Package.pdf' (Version 1) adds 'Shelf life 24 months at ambient temperature'", f"{H45}; bulletin: 'Long-term storage not to exceed 45 °C. Maximum handling temperature 65 °C. Shelf life 24 months at ambient temperature.'", 'DL2-15541.pdf', o)
+sds_note('RICHFUL_RF6079', 'DL2-15541.pdf', 2,
+         "Section 3: base oil CAS 64742-54-7 (< 3 % DMSO extract) 10 - 59.9 (not classified); ZDDP 68649-42-3 3 - 17.9 (Skin Irrit. 2 H315, Eye Irrit. 2 H319); Ca phenate 68784-26-9 1 - 14.9 (Aquatic Chronic 3 H412); bis(nonylphenyl)amine 36878-20-3 0.5 - 9.9 and hindered phenolic ester 125643-61-0 0.5 - 9.9 (Aquatic Chronic 4 H413). Section 8.1.1 (p.4): ZDDP - Germany TRGS 900 AGW 0.1 mg/m³ and Slovakia NPHV 0.1 mg/m³ (zinc compounds). Section 7.2 (p.3): 'Metal bucket'.", o)
+# ---------------- RF6080 / RF6081 ----------------
+for pid, sdsf, tds, d1, d2, kv, dens, conf in [('RICHFUL_RF6080', 'DL2-15835.pdf', 'DL2-15834.pdf', '04/08/2025', '2025-05-09', '136', '0.998', 'equal to TDS 136'),
+                                             ('RICHFUL_RF6081', 'DL2-15837.pdf', 'DL2-15836.pdf', '04/09/2025', '2025-05-13', '130', '1.000', 'already in the KV100 conflict with TDS 132')]:
+    o = f're-read manually: {tds} ({pid[8:]} TDS, issue date {d2}) pp.1-2 in full (twelfth pass) and its handling paragraph again (thirteenth pass, 2026-11-13)'
+    link(pid, sdsf, 'SDS pp.1-6 (sections 1-11.1) text layer read in full',
+         f"Richful SDS version 1.0, {d1}. Section 9: flash '≥180 °C (COC)', KV '{kv} mm2/s (100 °C)' ({conf}), density '{dens} g/cm3 (20 °C)' (equal to the TDS at the printed precision). The JSON has no SDS alternate entries for this product; the equal values corroborate and are preserved in the note row with their SDS class (not added as typicals). Section 3 shares are in the open questions. Not recorded: classification, Note L / IP 346 statement, Log Kow values, section 7.2 limits and packaging -> rows.",
+         f"exact: 'Trade name : {pid[8:]}'")
+    tds_note(pid, tds, f'{pid[8:]} TDS, issue date {d2}', "'Long-term storage not to exceed 45 °C. Maximum handling temperature 65 °C. Shelf life 24 months at ambient temperature.'", sdsf, o)
+    sds_note(pid, sdsf, 2,
+             f"Section 2: Skin Irrit. 2 H315, Eye Irrit. 2 H319, Aquatic Chronic 4 H413; GHS07 'Warning'. Section 3: base oil CAS 64742-54-7 '(contains less than 3% DMSO extract)' 10 - 59.9 with 'Note L' (not classified Carc. 1B, < 3 % DMSO extract by IP 346); ZDDP 68649-42-3 5 - 19.9; Ca phenate 68784-26-9 1 - 14.9; bis(nonylphenyl)amine 36878-20-3 0.5 - 9.9; hindered phenolic ester 125643-61-0 0.5 - 9.9. Section 9 (p.5): flash '≥180 °C (COC)', KV '{kv} mm2/s (100 °C)', density '{dens} g/cm3 (20 °C)' (SDS reported values; statistical basis unspecified); Log Kow: base oil 3.9 - 6, ZDDP 14.876 (25 °C), phenate 9.5, amine > 7.6, phenolic ester 9.2 (25 °C). Section 7.2: 'Metal bucket. The product must be stored in a container made of the same material as the original container.'", o)
+# ---------------- RF6088 / RF6088F ----------------
+for pid, sdsf, tds, d1, ships in [('RICHFUL_RF6088', 'DL2-15838.pdf', 'DL2-15452.pdf', '2/25/2024', "bis(nonylphenyl)amine 36878-20-3 1 - 14.9; phenolic ester 125643-61-0 1 - 14.9"),
+                                  ('RICHFUL_RF6088F', 'DL2-15840.pdf', 'DL2-15839.pdf', '17/10/2024', "phenolic ester 125643-61-0 1 - 14.9; bis(nonylphenyl)amine 36878-20-3 1 - 9.9")]:
+    o = f're-read manually: {tds} ({pid[8:]} TDS, undated) whole page (thirteenth pass, 2026-11-13)'
+    link(pid, sdsf, 'SDS pp.1-6 (sections 1-12.1) text layer read in full',
+         f"Richful SDS version 1.0, {d1}. Section 9 values (KV, 'Relative density ... g/cm3@20℃', flash '≥180 ℃' without method) are all in alternate entries or conflicts. Section 3 shares are in the open questions. Section 7.2 gives NO storage temperature (only 'cool, well-ventilated', 'Metal bucket'); the cited TDS prints the 45/65 C limits, not recorded -> rows. Not recorded: classification, ZDDP OELs.",
+         f"exact: 'Trade name : {pid[8:]}'")
+    tds_note(pid, tds, f'{pid[8:]} TDS, undated', f"{H45} and 'Packed in 200L iron drums ...'", sdsf, o)
+    F[-1].update(new_p=3, new_text="SDS section 7.2 prints no storage or handling temperature ('Keep container tightly closed in a cool, well-ventilated place'; 'Metal bucket'); the limits come from the cited TDS only.")
+    sds_note(pid, sdsf, 2,
+             f"Section 2: Skin Irrit. 2 H315, Eye Irrit. 2 H319, Aquatic Chronic 4 H413; GHS07 'Warning'. Section 3: base oil 64742-54-7 10 - 59.9; ZDDP 68649-42-3 3 - 17.9; Ca phenate 68784-26-9 1 - 14.9; {ships}. Section 8.1.1: ZDDP - Germany TRGS 900 AGW 0.1 mg/m³, Slovakia NPHV 0.1 mg/m³. Section 7.2: no storage temperature; 'Metal bucket'.", o)
+# ---------------- RF6400 ----------------
+o = 're-read manually: DL2-15849.pdf (RF6400 TDS, undated) whole page (thirteenth pass, 2026-11-13)'
+link('RICHFUL_RF6400', 'DL2-15850.pdf', 'SDS pp.1-6 (sections 1-11.1) text layer read in full',
+     "Richful REACH SDS version 2.0, issue 3/17/2021, revision 6/7/2023. Section 9: flash '>= 180 °C (ASTM D92, Open cup)', KV '109 mm2/s (100 °C, ASTM D445)', density '1039 kg/m³ (20 °C, ASTM D4052)' (alternate entries present). Section 3 shares are in the open questions. NOT recorded: section 2.1 mixture classification Eye Irrit. 2 H319 / Aquatic Chronic 3 H412 with signal word 'Danger' (2.2); ingredient EC 701-251-5 classified 'Repr. 1B, H360' (an ingredient classification, not the mixture's); section 4.2 'May damage fertility or the unborn child'; section 2.3 PBT wording. Section 7.2 45/65 C limits (also in the cited TDS). -> rows; classification questions are recorded as open questions with exact wording, not as established inconsistencies.",
+     "exact: 'Trade name : RF6400'")
+link('RICHFUL_RF6400', 'RF6400%20MSDS.pdf', 'SDS pp.1-6 (sections 1-12.1) and pp.9-11 (sections 15-16) text layer read in full; pp.7-8 not read',
+     "Richful US SDS (HCS-2012) version 1.0, 7/25/2022. Section 9 values (flash '>= 180 °C (ASTM D92)', density '1039 kg/m3 (20 °C, ASTM D4052)', KV '109 mm2/s (100 °C, ASTM D445)') equal the 2023 REACH SDS and the TDS. Section 3 composition DIFFERS from the 2023 REACH SDS recorded in the JSON (no PIB succinimide, no Ca sulfonate; ZDDP CAS 68649-42-3 instead of 4259-15-8; Ca phenate CAS 68784-26-9 instead of EC 701-251-5; ADPA 0.5 - 9.9 instead of 0.5 - 2.9; four base-oil CAS); classification Skin Irrit. 2 / Eye Irrit. 2, 'Warning'. The JSON open question 'All shared values agree' holds for the physical values only -> conflict row.",
+     "exact: 'Trade name : RF6400'")
+tds_note('RICHFUL_RF6400', 'DL2-15849.pdf', 'RF6400 TDS, undated', f"{H45.rstrip(chr(39)).rstrip('.')}' and 'Packed in 200L iron drums ...'", 'DL2-15850.pdf', o)
+sds_note('RICHFUL_RF6400', 'DL2-15850.pdf', 1,
+         "Section 2.1: Eye Irrit. 2 H319, Aquatic Chronic 3 H412; 2.2: GHS07, signal word 'Danger'. Section 3: EC 701-251-5 (CAS '-') 1 - 14.9 'Repr. 1B, H360, Aquatic Chronic 4, H413'; ZDDP 4259-15-8 3 - 17.9 'Eye Dam. 1, H318, Aquatic Chronic 2, H411'; ADPA 68411-46-1 0.5 - 2.9 'Repr. 2, H361f, Aquatic Chronic 3, H412'; PIB succinimide 84605-20-9 and Ca sulfonate 70024-69-0 not classified. Section 4.2: 'May damage fertility or the unborn child.' Section 9 (p.6): Log Kow values per component.", o)
+F.append(dict(p='RICHFUL_RF6400', tier=1, path='open_questions', old="The JSON records the 2023 REACH SDS composition (DL2-15850.pdf p.2) and states 'All shared values agree' for the four RF6400 documents.", new_f='RF6400%20MSDS.pdf', new_p=2,
+              new_text="US SDS (HCS-2012, 7/25/2022) section 3.2: 'Distillates, petroleum, hydrotreated heavy paraffinic CAS-No.: 64742-54-7 10 - 59.9' (one range across 64742-54-7, 64742-65-0, 64742-55-8, 64742-56-9); 'Phosphorodithioic acid, O,O-di-C1-14-alkyl esters, zinc salts CAS-No.: 68649-42-3 3 - 17.9'; 'Phenol, dodecyl-, sulfurized, carbonates, calcium salts, overbased CAS-No.: 68784-26-9 1 - 14.9'; 'Benzenamine, N-phenyl-, reaction products with 2,4,4-trimethylpentene CAS-No.: 68411-46-1 0.5 - 9.9'. No PIB succinimide and no calcium sulfonate listed. Section 2: Skin Irrit. 2, Eye Irrit. 2, 'Warning'; section 11: 'Reproductive toxicity : Not classified'.",
+              unit='% (SDS component share)', form=f'{SDSU}; SDS composition disclosure (component shares, not element contents)', qual='SDS reported value', method='', cond='', basis='component share ranges as printed',
+              outcome='changed_or_conflicting', action='propose_record_conflict',
+              reason="The two RF6400 SDSs are regional disclosures under different regulations (US HCS-2012, 7/25/2022; EU REACH, 6/7/2023) and list different components and classifications. Propose recording the observed difference with both documents and dates, and narrowing the open question 'All shared values agree' to the physical values (density 1039, KV100 109, flash >= 180 agree). No formulation change is inferred from the different lists: disclosure scope and thresholds differ between the two regulations, and the documents give no statement about a reformulation. Not resolved; no element content is derived from the shares.",
+              old_rev=o, cmp_override='existing: 2023 composition only; agreement stated'))
+# Classification wording of the REACH SDS, kept separate from the cross-document difference above. Recorded as questions, not as established inconsistencies.
+F.append(dict(p='RICHFUL_RF6400', tier=1, path='open_questions', old='Not in the cited data sheet (SDS-only information); the JSON does not record these statements.', new_f='DL2-15850.pdf', new_p=1,
+              new_text="REACH SDS (rev. 6/7/2023), exact wording: section 2.1 'Classification according to Regulation (EC) No. 1272/2008 [CLP] Serious eye damage/eye irritation, Category 2 H319 Hazardous to the aquatic environment – Chronic Hazard, Category 3 H412'; section 2.2 'Signal word (CLP) : Danger'; section 2.3 'CAS-No.: 4259-15-8 and 68411-46-1 meet the PBT criteria of REACH regulation, annex XIII Under development' and 'Contains no PBT/vPvB substances ≥ 0.1% assessed in accordance with REACH Annex XIII'; section 3 ingredient row 'EC-No.: 701-251-5 ... 1 – 14.9 Repr. 1B, H360 Aquatic Chronic 4, H413' (classification of that INGREDIENT); section 4.2 'Symptoms/effects : Causes serious eye irritation. May damage fertility or the unborn child.'",
+              unit='as printed', form=f'{SDSU}; SDS classification wording (mixture vs ingredient) as printed', qual='SDS reported value', method='as printed', cond='', basis='',
+              outcome='additional', action='propose_open_question_update',
+              reason="Preserve the exact wording and keep three questions open for the supplier: (a) whether the signal word 'Danger' corresponds to the listed mixture classes; (b) how the two section 2.3 PBT statements relate; (c) whether the section 4.2 fertility statement reflects a mixture classification. The Repr. 1B entry classifies an ingredient, not the mixture; ingredient presence alone does not show that the mixture classification is inconsistent, and no mixture hazard class is derived here (concentration limits, ingredient identity and the supplier's assessment are not established from this document). None of the three is treated as an established inconsistency; all stay unresolved.",
+              old_rev=o, cmp_override='existing: not recorded'))
+d = dict(batch='never-cited duplicates, batch 2: Richful SDSs and RF6079 bulletin (thirteenth pass)', reviewed_on='2026-11-13 (thirteenth pass)',
+         note='Twelve never-cited duplicate links (twelve documents). SDS pages without a text layer viewed as images; text-layer SDSs read over the stated page ranges; cited TDS re-read in the original for handling statements.',
+         documents={}, links=links, fields=F)
+json.dump(d, open(f'{B}/decisions/zzzzzzzzzzzzz_b2_richful_thirteenth_pass.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print(len(links), len(F))

@@ -1,0 +1,629 @@
+{
+ "batch": "other suppliers: base-oil mentions",
+ "reviewed_on": "2026-11-13 (ninth pass)",
+ "note": "Classified with scripts/helpers/write_base_oil_mentions.py after reading the name-hit lines of every listed document; product-specific documents were excluded and reviewed separately. Ninth pass: the captured first-hit passage of all 62 links was read: recipe shares and formulators' component values (e.g. DL2-11719.pdf / DL2-13230.pdf 'Ultra-S 4 4.25 [kV100] 6.96 [lbs/gal]'); none is an S-OIL document. Identity observation: DL2-15813.pdf p.49 (Richful) prints 'Aramco Ultra S 4 / 6 / 8', a third-party label joining the aramco and Ultra-S names; relevant to the open ID-01 question, not a resolution of it.",
+ "documents": {},
+ "links": [
+  {
+   "p": "S_OIL_ULTRA_S_3",
+   "f": "DL2-13296.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: xbase 3060 33.00 Nexbase 3080 25.70 Ultra S 3 65.00 58.70 Ultra S 6 24.00 Ultra S 8 17.70"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_3",
+   "f": "DL2-13587.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: 19 AT-12812-21 HiTEC® 3491LV 10.98 10.98 S-Oil Ultra S-3 45.50 17.00 S-Oil Ultra S-4 49.00 S-Oil Ultra S-8 43.50 23.00 Red Dye 0.02 0."
+  },
+  {
+   "p": "S_OIL_ULTRA_S_3",
+   "f": "DL2-13089.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: cSt @ 20hr Brookfield cP@-40°C Low Viscosity Multi-Vehicle Ultra S3 Ultra S8 47.3 m% 40.7 m% 6.0 5.4 9,980 Ultra S4 88.0 m% 5.7 5.1 8,240 Mid Viscosity Multi"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_3",
+   "f": "DL2-12636.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.10: 0 SK Energy Yubase 3 41.935 SK Energy Yubase 6 41.935 S-Oil Ultra S-3 49.485 S-Oil Ultra S-8 34.385 Petronas Etro 4 70.000 Petronas Etro 6 13.870 Red Dye 0.030"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_3",
+   "f": "DL2-15608.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: ce CVT Formulation (%) wt. HiTEC® 34006 Additive Pack 11.6 Ultra S3 API Group III 54.4 Ultra S6 API Group III 34.0 Performance CVT Physical Properties KV100"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_3",
+   "f": "DL2-11896.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: Yubase 3 45.2 46.1 - - - - Yubase 4 33.4 34.0 - - - - Ultra S-3 (S-Oil) - - 45.2 46.2 - - Ultra S-4 (S-Oil) - - 33.4 33.9 - - Nexbase 3030 - - - -"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-15813.pdf",
+   "cat": "D,H",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.45: 50 60.35 59.15 57.85 56.65 73.65 74.45 BO, EHC 110 9 8 BO, Ultra-S4 27 28 BO, Yubase 4 25 26 RF0296 0.15 0.15 0.15 0.15 0.15 0.15 RF0106 0.2 0.2 0.2 TOTAL 10 Identity: printed 'Aramco Ultra S'; whether this means S-OIL Ultra-S or aramcoULTRA is not stated (open ID-01 question)."
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-13587.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: 3491LV 10.98 10.98 S-Oil Ultra S-3 45.50 17.00 S-Oil Ultra S-4 49.00 S-Oil Ultra S-8 43.50 23.00 Red Dye 0.02 0.02 Kinematic V"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-13089.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: lti-Vehicle Ultra S3 Ultra S8 47.3 m% 40.7 m% 6.0 5.4 9,980 Ultra S4 88.0 m% 5.7 5.1 8,240 Mid Viscosity Multi-Vehicle Ultra S4 Ultra S8 68.0 m% 20.0 m% 6.3 5"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-13230.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: Formulations Components lbs/gal * % wt. % vol. % wt. % vol. Ultra-S 4, Group III 6.96 53.70 54.44 60.60 61.75 Ultra-S 8, Group III 7.06 7.00 7.00 20.50 20.59 Y"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-11719.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: Covered KV100°C, cSt * lbs/gal * % wt. % vol. % wt. % vol. Ultra-S 4 4.25 6.96 51.85 52.94 -- -- Ultra-S 8 7.23 7.06 30.00 30.20 -- -- Yubase 4 4.20 6.95 -- -"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-12485.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: gon P 100N API Group II 35.0 Ergon P 300N API Group II 36.0 Ultra-S 4 API Group III 10.0 Afton Oil Code LBR-018154-B Viscosity Grade 10W-30 Chemical and Physic"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-12486.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: gon P 100N API Group II 35.0 Ergon P 300N API Group II 36.0 Ultra-S 4 API Group III 10.0 Afton Oil Code LBR-018154-B Viscosity Grade 10W-30 Chemical and Physic"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-13088.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: 0 m% KV cSt @100°C Brookfield cP@-40°C KRL cSt @ 20hr Ultra S4 Ultra S8 68.0 m% 20.0 m% 6.4 11,400 5.7 Yubase 3 Yubase 6 33.0 m% 55.0 m% 6.4"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-11927.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: plus 20.00 - 23.00 - Yubase 6 8.00 10.00 - - Ultra S4 - - 53.70 60.60 Ultra S8 - - 7.00 20.50 Total 100.00 100.00 100.00 1"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-12621.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: Plus SAE OW-16 lnfineum P5807 10.3 lnfineum V534 3.6 Ultra S4 77.1 Ultra S8 9 KV100C, cSt 7.3 HTHS150, cP 2.4 CCS @-T°C, cP 6120 MRV @-T°C, c"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-13084.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: 00 60.00 54.20 XOM 600 BS Gp I 4.60 5.40 5.00 5.40 ULTRAS4 BS Gp III 9.90 9.90 20.00 NEXBASE 3050 BS Gp III 15.00 17.50 20.00 Yubase 4 BS"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-12792.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.16: 1-425 Wt% 0.4 0.4 0.4 0.4 Viscoplex 1-254 Wt% 0.8 0.8 S-Oil Ultra S-4 Wt% (ratio) 60.53 (75) 60.22 (75) 59.93 (75) 44.50 (55) 60.53 (75) 44.28 (55) S-Oil Ultra"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-12412.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.42: 52.0 52.0 52 52 NEXBASE 3043 10.0 YUBASE 4 10.0 ETRO 4 10.0 ULTRA S4 10.0 KV 100°C, mm2/s 14.83 14.86 15.1 14.8 CCS, mPa.s 6342 6244 6460 6380 Bosch 30 13.0 1"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-11761.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.20: 5 SV261 VM 8.30 8.42 V385 LOFI 0.20 0.19 ULTRAS4 BS 9.90 10.40 XOMAPE150 BS 70.65 71.24 Total Mass % 100.00 100.00 API/ACEA"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-12472.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.20: 5 SV261 VM 8.30 8.42 V385 LOFI 0.20 0.19 ULTRAS4 BS 9.90 10.40 XOMAPE150 BS 70.65 71.24 Total Mass % 100.00 100.00 API/ACEA"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-15544.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.20: 4p 42.4 Yubase 4 84.6 40 17 22 ADNOC 4 21 Ultra-S 4 25 GTL 4 19 CTL 4 19 LZ7077 7.5 9.7 4.5 8 6.9 6.9 6.9 6.9 6.9 4 9.8 6.9 7.7 RF8248"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-15745.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.15: 0.2 EHC 50 60.35 59.15 57.85 56.65 73.65 74.45 EHC 110 9 8 Ultra-S4 27 28 Yubase 4 25 26 RF0296 0.15 0.15 0.15 0.15 0.15 0.15 RF0106 0.2 0.2 0.2 TOTAL 100.00"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-13115.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.13: E® 35EX wt% - 6.6 6.6 Viscoplex 1-425 wt% 0.4 0.4 0.4 S-Oil Ultra S-4 wt% (ratio) 74.01 (88) 74.01 (88) 74.01 (88) S-Oil Ultra S-8 wt% (ratio) 10.09 (12) 10.09"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-12003.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: 5 Wt% 0.4 0.4 0.4 0.4 Viscoplex 1-254 Wt% 0.7 0.4 0.7 S-Oil Ultra S-4 Wt% (ratio) 74.01 (88) 73.74 (88) 72.33 (86) 72.33 (86) 74.01 (88) 73.74 (88) 74.01 (88)"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-13141.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: %m 40.0 49.0 - - - - - - PAO 4, %m - - 10.0 - - - - - S-Oil Ultra S4, %m - - - - - - - 10.5 S-Oil Ultra S6, %m - - - - - - - 55.6 Priolube 3970, %m - - 5.0 -"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-12467.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: Plus SAE OW-16 lnfineum P5807 10.3 lnfineum V534 3.6 Ultra S4 77.1 Ultra S8 9 KV100C, cSt 7.3 HTHS150, cP 2.4 CCS @-T°C, cP 6120 MRV @-T°C, c"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-11763.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: 0.200 0.200 Motiva Star 4 BS 27.000 Motiva Star 6 BS 50.300 ULTRA S4 BS 77.755 ULTRA S8 BS 8.000 YUBASE 4 BS 73.260 77.235 80.400 82.700 77.200 YUBASE 6 BS 12"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-15013.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.11: 5.50 9.20 7.30 Chevron 100R API Group II 53.70 50.00 51.90 Ultra-S 4 API Group III 12.00 10.00 12.00 Ultra-S 6 API Group III 18.00 20.00 18.00 Total 100 100 1"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-15800.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.28: 方案 （Scheme） : 原材料 (The raw materials) 比例 (The proportion，%) ULTRA-S4 ULTRA-S6 P5205 SCR-9100 33 48.9 7.6 10.5 外观 (Appearance) 透明液体 (Transparent liquid) 14.4 2"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-15146.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: A LBR-017881-B SAE grade 0W-20 5W-30 Yubase 4 PLUS 23.00 -- Ultra-S 4 53.70 60.60 Ultra-S 8 7.00 20.50 HiTEC® 5754A 6.20 8.80 HiTEC® 11180 10.10 10.10 Total 10"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-12618.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.23: 4 0.4 0.4 0.4 0.4 0.4 Viscoplex 1-254 Wt% 0.8 0.8 0.8 S-Oil Ultra S-4 Wt% (ratio) 60.53 (75) 60.22 (75) 59.93 (75) 44.50 (55) 60.53 (75) 44.28 (55) 60.22 (75)"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_4",
+   "f": "DL2-11896.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: 33.4 34.0 - - - - Ultra S-3 (S-Oil) - - 45.2 46.2 - - Ultra S-4 (S-Oil) - - 33.4 33.9 - - Nexbase 3030 - - - - 43.2 44.3 Nexbase 3043 - - - - 35.4"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "f": "DL2-15813.pdf",
+   "cat": "D,H",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.49: 23 2 3 76.55 76.25 A ram co Ultra S 4 10 10 10 10 A ram co Ultra S 6 10 10 1 0 A ram co Ultra S 8 10 10 T OT A L 100.00 100.00 1 0 0 .0 0 100.00 100.00 100.00 Identity: printed 'Aramco Ultra S'; whether this means S-OIL Ultra-S or aramcoULTRA is not stated (open ID-01 question)."
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "f": "DL2-13296.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: ase 3080 25.70 Ultra S 3 65.00 58.70 Ultra S 6 24.00 Ultra S 8 17.70 Kin.Visc. @ 100°C, cSt 7.19"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "f": "DL2-12792.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.16: 0.22 (75) 59.93 (75) 44.50 (55) 60.53 (75) 44.28 (55) S-Oil Ultra S-6 Wt% (ratio) 36.40 (45) 36.22 (45) S-Oil Ultra S-8 Wt% (ratio) 20.17 (25) 20.08 (25) 19.97"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "f": "DL2-13115.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.13: e also available Some formulations with S-Oil Ultra S-4 and Ultra S-6 are also available RC: Resource Conserving"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "f": "DL2-12003.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: 2.33 (86) 72.33 (86) 74.01 (88) 73.74 (88) 74.01 (88) S-Oil Ultra S-6 Wt% (ratio) 11.77 (14) 11.77 (14) S-Oil Ultra S-8 Wt% (ratio) 10.09 (12) 10.06 (12) 10.09"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "f": "DL2-13141.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: 10.0 - - - - - S-Oil Ultra S4, %m - - - - - - - 10.5 S-Oil Ultra S6, %m - - - - - - - 55.6 Priolube 3970, %m - - 5.0 - - - - - KV @100°C, cSt 13.8 14.0 12.7"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "f": "DL2-15013.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.11: 53.70 50.00 51.90 Ultra-S 4 API Group III 12.00 10.00 12.00 Ultra-S 6 API Group III 18.00 20.00 18.00 Total 100 100 100 * For guidance on claiming ACEA C2 with"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "f": "DL2-15800.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.28: e） : 原材料 (The raw materials) 比例 (The proportion，%) ULTRA-S4 ULTRA-S6 P5205 SCR-9100 33 48.9 7.6 10.5 外观 (Appearance) 透明液体 (Transparent liquid) 14.4 210 -39 2"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "f": "DL2-15608.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: HiTEC® 34006 Additive Pack 11.6 Ultra S3 API Group III 54.4 Ultra S6 API Group III 34.0 Performance CVT Physical Properties KV100, cSt 6.34 KV40, cSt 31.55 V"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "f": "DL2-12618.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.23: 4.28 (55) 60.22 (75) 60.53 (75) 59.35 (75) 59.35 (75) S-Oil Ultra S-6 Wt% (ratio) 36.40 (45) 36.22 (45) S-Oil Ultra S-8 Wt% (ratio) 20.17 (25) 20.08 (25) 19.97"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-15813.pdf",
+   "cat": "D,H",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.49: Ultra S 4 10 10 10 10 A ram co Ultra S 6 10 10 1 0 A ram co Ultra S 8 10 10 T OT A L 100.00 100.00 1 0 0 .0 0 100.00 100.00 100.00 100.00 100.00 100.00 Identity: printed 'Aramco Ultra S'; whether this means S-OIL Ultra-S or aramcoULTRA is not stated (open ID-01 question)."
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-13296.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: ltra S 3 65.00 58.70 Ultra S 6 24.00 Ultra S 8 17.70 Kin.Visc. @ 100°C, cSt 7.19 7.19 7.01 7.19 6.90 6."
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-13587.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: il Ultra S-3 45.50 17.00 S-Oil Ultra S-4 49.00 S-Oil Ultra S-8 43.50 23.00 Red Dye 0.02 0.02 Kinematic Viscosity, 100°C, cSt 5.8"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-13089.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: hr Brookfield cP@-40°C Low Viscosity Multi-Vehicle Ultra S3 Ultra S8 47.3 m% 40.7 m% 6.0 5.4 9,980 Ultra S4 88.0 m% 5.7 5.1 8,240 Mid Viscosity Multi-Vehicle"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-13230.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: t. % vol. Ultra-S 4, Group III 6.96 53.70 54.44 60.60 61.75 Ultra-S 8, Group III 7.06 7.00 7.00 20.50 20.59 Yubase 4PLUS, Group III 6.88 23.00 23.59 -- -- HiTE"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-11719.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: . % vol. % wt. % vol. Ultra-S 4 4.25 6.96 51.85 52.94 -- -- Ultra-S 8 7.23 7.06 30.00 30.20 -- -- Yubase 4 4.20 6.95 -- -- 46.60 47.54 Yubase 6 6.51 7.01 -- --"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-12424.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: olume in Yubase (Yubase 3 + Yubase 6) or S-Oil (Ultra S-3 + Ultra S-8) base stocks plus red dye to prepare fluids formally approved for: Ford MERCON®- V JASO 1"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-11593.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: olume in Yubase (Yubase 3 + Yubase 6) or S-Oil (Ultra S-3 + Ultra S-8) base stocks plus red dye to prepare fluids meeting the requirements of: \u0001 Ford MERCON®-"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-13088.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: St @100°C Brookfield cP@-40°C KRL cSt @ 20hr Ultra S4 Ultra S8 68.0 m% 20.0 m% 6.4 11,400 5.7 Yubase 3 Yubase 6 33.0 m% 55.0 m% 6.4 13,100 5"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-11927.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: ase 6 8.00 10.00 - - Ultra S4 - - 53.70 60.60 Ultra S8 - - 7.00 20.50 Total 100.00 100.00 100.00 100.00 理化性能 测试方法"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-12621.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: lnfineum P5807 10.3 lnfineum V534 3.6 Ultra S4 77.1 Ultra S8 9 KV100C, cSt 7.3 HTHS150, cP 2.4 CCS @-T°C, cP 6120 MRV @-T°C, cP 25,800 Perfo"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-12792.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.16: 55) S-Oil Ultra S-6 Wt% (ratio) 36.40 (45) 36.22 (45) S-Oil Ultra S-8 Wt% (ratio) 20.17 (25) 20.08 (25) 19.97 (25) 20.17 (25) Expected Approval Timing GM Appro"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-13115.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.13: ltra S-4 wt% (ratio) 74.01 (88) 74.01 (88) 74.01 (88) S-Oil Ultra S-8 wt% (ratio) 10.09 (12) 10.09 (12) 10.09 (12) KV at 100°C cSt 8.5 8.5 8.6 HTHS at 150°C cP"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-12003.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: 88) S-Oil Ultra S-6 Wt% (ratio) 11.77 (14) 11.77 (14) S-Oil Ultra S-8 Wt% (ratio) 10.09 (12) 10.06 (12) 10.09 (12) 10.06 (12) 10.09 (12) Expected Approval Timi"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-12467.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: lnfineum P5807 10.3 lnfineum V534 3.6 Ultra S4 77.1 Ultra S8 9 KV100C, cSt 7.3 HTHS150, cP 2.4 CCS @-T°C, cP 6120 MRV @-T°C, cP 25,800 Perfo"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-11763.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: Star 4 BS 27.000 Motiva Star 6 BS 50.300 ULTRA S4 BS 77.755 ULTRA S8 BS 8.000 YUBASE 4 BS 73.260 77.235 80.400 82.700 77.200 YUBASE 6 BS 12.200 8.000 6.000 8."
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-12636.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.10: .935 SK Energy Yubase 6 41.935 S-Oil Ultra S-3 49.485 S-Oil Ultra S-8 34.385 Petronas Etro 4 70.000 Petronas Etro 6 13.870 Red Dye 0.030 0.030 0.030 Total 100."
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-15146.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: de 0W-20 5W-30 Yubase 4 PLUS 23.00 -- Ultra-S 4 53.70 60.60 Ultra-S 8 7.00 20.50 HiTEC® 5754A 6.20 8.80 HiTEC® 11180 10.10 10.10 Total 100.00 100.00 GM Approve"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_8",
+   "f": "DL2-12618.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.23: 75) S-Oil Ultra S-6 Wt% (ratio) 36.40 (45) 36.22 (45) S-Oil Ultra S-8 Wt% (ratio) 20.17 (25) 20.08 (25) 19.97 (25) 20.17 (25) 20.08 (25) 20.17 (25) 19.78 (25)"
+  }
+ ],
+ "fields": []
+}

@@ -1,0 +1,246 @@
+{
+ "description": "Never-cited duplicate links (suggested_relationship 'A (archive file not cited by a value of this product)') whose source-to-JSON coverage was NOT assessed at the end of the twelfth pass. Frozen baseline; key = product_id + sha256.",
+ "derived_from": {
+  "file": "SmartFormulator_comparison_review_2026-11-12_12.zip :: existing_product_comparison_2026-11-12/tables/progress_ledger.csv",
+  "ledger_sha256": "941168682dc00f70c17169b7abd1d2dcac7113cd7d9f4ad8508a1c463a661507",
+  "rule": "suggested_relationship contains 'not cited by a value' (54 rows) and source_to_json_coverage does not start with 'assessed by reading' (33 rows)"
+ },
+ "counts": {
+  "never_cited_total": 54,
+  "assessed_at_twelfth": 21,
+  "outstanding_at_twelfth": 33
+ },
+ "links": [
+  {
+   "product_id": "AFTON_HITEC_12204L",
+   "file": "DL2-14639.pdf",
+   "sha256": "ec69b3baf26b7ee42b97cce693b70daa2508ff8de077e9262895553388ac17d7",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "AFTON_HITEC_12250",
+   "file": "DL2-14639.pdf",
+   "sha256": "ec69b3baf26b7ee42b97cce693b70daa2508ff8de077e9262895553388ac17d7",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "AFTON_HITEC_5748",
+   "file": "DL2-15568.pdf",
+   "sha256": "e420b2aee5dd0aa8c8718fbb2217f142763a794175c1d43ca3c3be1bc0d4e1fe",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "AFTON_HITEC_5748",
+   "file": "DL2-13692.pdf",
+   "sha256": "f898aa92574faa1f62309e0ea504fb6bd07be025800330e2d0c625e0b984a603",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "CHEVRON_SYNFLUID_MPAO_100",
+   "file": "DL2-14992.pdf",
+   "sha256": "1011c728b0976deadafba067fef5614bf7b6faf0d86a857c91ae38c7da43a671",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "CHEVRON_SYNFLUID_MPAO_100",
+   "file": "DL2-11906.PDF",
+   "sha256": "56a10ca4e92450fdb39fa38eeae229c6c2569279731fc245fff6b3878797888d",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "CHEVRON_SYNFLUID_MPAO_150",
+   "file": "DL2-11909.PDF",
+   "sha256": "1c489f2cfec06070a0b11190c3964183db04ac5202a6e8fad899eeb535b6c460",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "CHEVRON_SYNFLUID_MPAO_65",
+   "file": "DL2-11908.PDF",
+   "sha256": "3c09488fb1394304739e87110062d0257fab92354efaf8bd0214ed83dc696c1b",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "CHEVRON_SYNFLUID_MPAO_65",
+   "file": "DL2-15009.pdf",
+   "sha256": "86c36c99962f3c54a94a91b6222ce4a80dfc164c1b12d8ffbcb82da15ad1faa2",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "CHEVRON_SYNFLUID_PAO_2",
+   "file": "DL2-14991.pdf",
+   "sha256": "2d96168f295e73117da83a6ee9b3beccad269c1a0d31edc48d7091c556d47979",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "CHEVRON_SYNFLUID_PAO_4",
+   "file": "DL2-11904.PDF",
+   "sha256": "aa4a2487837664cef00185fd2ba5ba14e4617d7846221c7ca34e46ed29d41b66",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "CHEVRON_SYNFLUID_PAO_6",
+   "file": "DL2-11907.pdf",
+   "sha256": "808d96b9ce8c42e87dd74fbeea0eb0b146b4682e4f943564b7ad50930986abcd",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "CHEVRON_SYNFLUID_PAO_8",
+   "file": "DL2-11905.PDF",
+   "sha256": "21453716c55c9a6769e00a2b61890448b5434e03967d38cf859a2450dbf313fa",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "LUBRIZOL_CV2301",
+   "file": "DL2-13713.pdf",
+   "sha256": "c02ab8a8a82e50bda69e73fee2cc731f4b0e032e57b10ffebb1afd15035e0432",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "LUBRIZOL_CV7540",
+   "file": "DL2-14638.pdf",
+   "sha256": "d630df7012e41c52657f66a9c659cd51b03485bcb132b2e7c864456b40284591",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "MINGYUEKEJI_MY_P3168",
+   "file": "TDS%20of%20P3168.pdf",
+   "sha256": "a41bca8111583aa6125d1f4e60219b2ef6226d1e7dd3ec5fadf82b304510b8c9",
+   "category_at_twelfth": "A",
+   "inventory_label_present": false
+  },
+  {
+   "product_id": "NESTE_NEXBASE_3020",
+   "file": "DL2-14514.pdf",
+   "sha256": "8e4f510998d7dd61b6a9abd35c9d91b6c7e90ee012038cf76668b9d3b7ccb297",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "NYNAS_NS_3",
+   "file": "DL2-12382.pdf",
+   "sha256": "6d6dd73da80bd1b78b04684ce3ef26ff38cc5b47f8a3f112b08fc9b16fb0b50f",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "NYNAS_NYFROST_32",
+   "file": "DL2-13444.pdf",
+   "sha256": "d489c09f4972e778ce381946c5372432dc9197a837c0aa61af33bbb836dd3b23",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "NYNAS_S_3B",
+   "file": "DL2-13379.pdf",
+   "sha256": "ad281d3d91d99cc51836c42471977b8317d7a4d2201bd6ea6a2cb16bf6e07be9",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "PETRO_CANADA_PURITY_L50",
+   "file": "DL2-13351.pdf",
+   "sha256": "04b526e8d4c0f8c748a0c61b8da2dc0b467783a195ae369a4d582d996438cd95",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "RICHFUL_RF6066",
+   "file": "DL2-15831.pdf",
+   "sha256": "c1d2eab36a6f628240bf324fd650c7108094c777e517a308f6449af40178f746",
+   "category_at_twelfth": "A",
+   "inventory_label_present": false
+  },
+  {
+   "product_id": "RICHFUL_RF6069",
+   "file": "DL2-15619.pdf",
+   "sha256": "5a284e07f70b68f8a50c65d6195273a73ccb58af34743c12ef02e033e5eff59a",
+   "category_at_twelfth": "A",
+   "inventory_label_present": false
+  },
+  {
+   "product_id": "RICHFUL_RF6077",
+   "file": "DL2-15542.pdf",
+   "sha256": "cff9d02e1cf2e63060d6cc3630688d2155cf743bf7342d201178199ee1cb3d94",
+   "category_at_twelfth": "A",
+   "inventory_label_present": false
+  },
+  {
+   "product_id": "RICHFUL_RF6078",
+   "file": "DL2-15833.pdf",
+   "sha256": "ea04bce4bcfeff45656ac70bcaad760cfa44219b936486c8f2a36860b13cff99",
+   "category_at_twelfth": "A",
+   "inventory_label_present": false
+  },
+  {
+   "product_id": "RICHFUL_RF6079",
+   "file": "DL2-15541.pdf",
+   "sha256": "3dbc9c17dc340516e1a7cf7c657128841d0f4fc239cf8e336c7ce422de7c39eb",
+   "category_at_twelfth": "A",
+   "inventory_label_present": false
+  },
+  {
+   "product_id": "RICHFUL_RF6079",
+   "file": "RF6079%20Diesel%20Engine%20Oil%20Additive%20Package.pdf",
+   "sha256": "b082b8e506fa58b230665f6944b00271438fb4a5656098464da079c4c50bc37a",
+   "category_at_twelfth": "A",
+   "inventory_label_present": false
+  },
+  {
+   "product_id": "RICHFUL_RF6080",
+   "file": "DL2-15835.pdf",
+   "sha256": "54ac9dd352b20cbabf58308b12a43be4f7532e89b28e04b216968b23b6580e2c",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "RICHFUL_RF6081",
+   "file": "DL2-15837.pdf",
+   "sha256": "b3aaf5805cfa608b62b3e4b2a0340cf038c072a5232cded02cac87369e9dc305",
+   "category_at_twelfth": "A",
+   "inventory_label_present": true
+  },
+  {
+   "product_id": "RICHFUL_RF6088",
+   "file": "DL2-15838.pdf",
+   "sha256": "759bc5a0a37956249dfab0195fa050f865094900c0c95de8a972f5459e24cdc5",
+   "category_at_twelfth": "A",
+   "inventory_label_present": false
+  },
+  {
+   "product_id": "RICHFUL_RF6088F",
+   "file": "DL2-15840.pdf",
+   "sha256": "d7803c9c352622a439263e42b2b4f9f69de5f38d64e5c85b4d07c13e76f209a9",
+   "category_at_twelfth": "A",
+   "inventory_label_present": false
+  },
+  {
+   "product_id": "RICHFUL_RF6400",
+   "file": "RF6400%20MSDS.pdf",
+   "sha256": "8e3a7924590272b6175daa06afb7241f965b286a51cce1bc0934697c977f189d",
+   "category_at_twelfth": "A",
+   "inventory_label_present": false
+  },
+  {
+   "product_id": "RICHFUL_RF6400",
+   "file": "DL2-15850.pdf",
+   "sha256": "99db335abd64ba5cd6703ca5fac1469d4d9cb635a7d44834618d90c8a24dc4ff",
+   "category_at_twelfth": "A",
+   "inventory_label_present": false
+  }
+ ]
+}

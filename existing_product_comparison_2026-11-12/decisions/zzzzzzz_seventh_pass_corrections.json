@@ -1,0 +1,174 @@
+{
+ "batch": "seventh pass: Yubase old sources, HiTEC 12200 basis matching, Yubase 4 density",
+ "reviewed_on": "2026-11-13 (seventh pass)",
+ "documents": {},
+ "links": [],
+ "visual": [
+  {
+   "f": "OLD DL2-11304.pdf",
+   "page": 1,
+   "checked": "original YUBASE 4 property sheet (existing archive), top half",
+   "result": "confirmed",
+   "detail": "NARMAK TRADE S.R.O., 'BASE OIL YUBASE 4', 'PHYSICAL AND CHEMICAL PROPERTIES': Specific gravity at 15 C | g/m3 | 0,8338 | ASTM D1298; KV 40 C 19,57 mm2/s (D445); KV 100 C 4,23 (D445); VI 122 (D2270); Noack 15 wt % (DIN 51581); Flash point 230 C (ASTM D92); Pour point -15 C (D97). No date printed."
+  },
+  {
+   "f": "chs-yubase-4-rev-3.pdf",
+   "page": 2,
+   "checked": "physical properties block",
+   "result": "confirmed",
+   "detail": "Trade Name: Yubase 4; Product Code 002D6059; Density: 834 kg/m3 at 15 C / 59 F; Kinematic Viscosity: 18 - 21 mm2/s at 40 C; Pour Point: -12 C; Flash Point: 200 C; Note 1: 'Physical Properties are for reference only and valid as of date of this revision; see loading terminal for specific properties.' Header: Document Date 12 May 2023, Revision 3."
+  },
+  {
+   "f": "DL2-13364.pdf",
+   "page": 7,
+   "checked": "HiTEC 12200 core-platform route boxes and footnotes",
+   "result": "confirmed",
+   "detail": "Group II: API CI-4+ 15W-40 'HiTEC 12204L 14.2% wt' (booster HiTEC 12250**); API CI-4 10W-30 'HiTEC 12200 11.7% wt + 0.9% wt HiTEC 12260'; API CI-4 10W-40 'HiTEC 12200 10.8% wt + 0.9% wt HiTEC 12260 (30% group III)'; API CI-4 15W-40 / 20W-50 'HiTEC 12200 10.8% wt'; API CH-4 15W-40 / 20W-50 'HiTEC 12200 9.7% wt'. Group I: API CI-4+ 15W-40 'HiTEC 12204Y 15.3 % wt' (booster HiTEC 12255***); API CI-4 15W-40 'HiTEC 12200 10.8% wt + 0.35% wt* HiTEC 9552'; API CH-4 15W-40 / 20W-50 'HiTEC 12200 10.8% wt'. Footnotes: '*Up to 0.6% wt maybe required for some group I's to cover MB 228.3 approvals'; '** 14.2% HiTEC 12204L = 10.3% HiTEC 12200 + 4.2% HiTEC 12250'; '*** 15.3% HiTEC 12204Y = 10.3% HiTEC 12200 + 5.0% HiTEC 12255' (the footnotes print '%' without 'wt')."
+  },
+  {
+   "f": "DL2-13364.pdf",
+   "page": 9,
+   "checked": "Group I profile",
+   "result": "confirmed",
+   "detail": "Rows: API CI-4+ 15W-40 HiTEC 12204Y @ 15.3%; API CI-4 15W-40 / 20W-50 HiTEC 12200 @ 10.8% + HiTEC 9552 @ 0.35%; API CH-4 15W-40 / 20W-50 HiTEC 12200 @ 10.8% (doses printed '%' without 'wt'); footnote 1 'Some base oils may require up to 0.6% wt H9552 for MB 228.3'."
+  }
+ ],
+ "fields": [
+  {
+   "p": "AFTON_HITEC_12200",
+   "tier": 1,
+   "path": "treat_rate_matrix (percentage basis, matched rows)",
+   "old": "DL2-14639.pdf (08/18) p.2 approvals table, re-read: doses printed '%' only (e.g. '10.8% | SAE 15W-40 | GP II'); JSON rows keep printed '%' with the flag 'printed % with no mass/volume basis'.",
+   "new_f": "DL2-13364.pdf",
+   "new_p": 7,
+   "new_text": "Rows individually matched to explicit '% wt' route evidence (product HiTEC 12200, grade, base-oil group, booster and API level all equal): treat_rate_matrix[1] 11.7 % + 0.9 % HiTEC 12260, SAE 10W-30, GP II, API CI-4 = p.7 '11.7% wt + 0.9% wt HiTEC 12260' (Group II, API CI-4 10W-30); [3] 10.8 % + 0.9 % 12260, SAE 10W-40, GP II/III (30 % Group III) = p.7 '10.8% wt + 0.9% wt HiTEC 12260 (30% group III)' (API CI-4 10W-40); [6] 10.8 %, 15W-40, GP II and [7] 10.8 %, 20W-50, GP II = p.7 'HiTEC 12200 10.8% wt' (Group II, API CI-4 15W-40 / 20W-50); [8] 9.7 %, 15W-40, GP II and [9] 9.7 %, 20W-50, GP II = p.7 '9.7% wt' (Group II, API CH-4 15W-40 / 20W-50); [13] 10.8 % + 0.35 % HiTEC 9552, 15W-40, GP I = p.7 '10.8% wt + 0.35% wt* HiTEC 9552' (Group I, API CI-4 15W-40); [15] 10.8 %, 15W-40, GP I and [16] 10.8 %, 20W-50, GP I = p.7 'HiTEC 12200 10.8% wt' (Group I, API CH-4 15W-40 / 20W-50).",
+   "unit": "%",
+   "form": "recommended treat rates per route",
+   "qual": "",
+   "method": "",
+   "cond": "per matched route as listed (product, grade, base-oil group, booster, API level)",
+   "basis": "mass, from the supporting documents cited per row; the bulletin itself prints '%'",
+   "outcome": "additional",
+   "action": "propose_basis_mass_with_citation",
+   "reason": "For these ten rows only: record percentage basis 'mass' citing the supporting document and page per row, while keeping the bulletin's printed text '%' unchanged and its own citation. The claim sets of the rows are not altered. Nothing is converted.",
+   "old_rev": "re-read manually: DL2-14639.pdf (08/18) p.2 text; approvals table rows as recorded",
+   "overlap_reviewed": "the nine rows already exist (same doses); the proposal changes only their percentage-basis attribute and adds a supporting citation, it adds no row",
+   "cmp_override": "rows [1],[3],[6],[7],[8],[9],[13],[15],[16] of treat_rate_matrix, each printed with \"%\" and the flag \"printed % with no mass/volume basis\" (see current_json_excerpts for the full rows)"
+  },
+  {
+   "p": "AFTON_HITEC_12200",
+   "tier": 1,
+   "path": "treat_rate_matrix (rows left unresolved)",
+   "old": "DL2-14639.pdf (08/18) p.2: doses printed '%'",
+   "new_f": "DL2-13364.pdf",
+   "new_p": 7,
+   "new_text": "Row [0] 10.3 % + 4.2 % HiTEC 12250, SAE 15W-40, GP II: the only explicit '% wt' statement is DL2-14862.pdf p.2 'HiTEC 12204L can also be made from HiTEC 12200 @ 10.3 %wt with a booster of HiTEC 12250 at 4.2 %wt', made for a programme 'in Aramco Prima Group II base stock' (p.1 title 'Aramco Prima Group II Base Stock with HiTEC 5748'); its scope is narrower than the general GP II row, so the basis of the general row stays unspecified and the citation is recorded with its Aramco Prima restriction. The same sentence sits beside '14.2 %wt' for HiTEC 12204L (see the premix discrepancy, which is unresolved). No individually matching '% wt' route evidence found for: [2] 10.8 % + 0.9 % 12260, SAE 10W-30, GP II (p.7 shows 10.8 + 0.9 only for 10W-40 with 30 % Group III); [4] 10.8 %, SAE 10W-40, GP II/III without booster (not on p.7); [5] 10.8 % + 0.6 % HiTEC 9552, SAE 10W-40, GP II/III (only a recipe, DL2-13364.pdf p.12 'Formulation (%) wt' LBB-020989-A, matches these doses: a recipe, not the route statement); [10] 8.2 % API CG-4 and [11] 6.1 % API CF-4 (not on p.7); [12] 10.3 % + 5.0 % HiTEC 12255, GP I (p.7 footnote *** prints '%' without 'wt'); [14] 10.8 % + 0.35 % 9552, SAE 20W-50, GP I (p.7 prints '% wt' for 15W-40 only; p.9 shows 20W-50 but without 'wt')",
+   "unit": "%",
+   "form": "recommended treat rates per route",
+   "qual": "",
+   "method": "",
+   "cond": "per row",
+   "basis": "unspecified (as printed)",
+   "outcome": "not_comparable",
+   "action": "leave_unresolved",
+   "reason": "No explicit '% wt' statement matches these rows on product, grade, base oil, booster and scope. Their basis stays unspecified; dose equality alone is not used.",
+   "old_rev": "re-read manually: DL2-14639.pdf (08/18) p.2 text; approvals table rows as recorded",
+   "cmp_override": "rows [0],[2],[4],[5],[10],[11],[12],[14] of treat_rate_matrix (printed \"%\")"
+  },
+  {
+   "p": "AFTON_HITEC_12200",
+   "tier": 1,
+   "path": "required_co_components (percentage basis)",
+   "old": "JSON co-component doses printed '%': HiTEC 12250 4.2; HiTEC 12260 0.9; HiTEC 12255 5.0; HiTEC 9552 0.35; HiTEC 9552 0.6 (DL2-14639.pdf p.2)",
+   "new_f": "DL2-13364.pdf",
+   "new_p": 7,
+   "new_text": "Matched: HiTEC 12260 0.9 = p.7 '+ 0.9% wt HiTEC 12260' (10W-30 GP II and 10W-40 30 % Group III routes); HiTEC 9552 0.35 = p.7 '+ 0.35% wt* HiTEC 9552' (Group I, API CI-4 15W-40); Not matched: HiTEC 12250 4.2 (the only '%wt' statement, DL2-14862.pdf p.2, is restricted to the Aramco Prima Group II programme while the JSON entry belongs to the general GP II route; citation recorded with that restriction); HiTEC 12255 5.0 (footnote prints '%'); HiTEC 9552 0.6 (the JSON entry belongs to the 10W-40 GP II/III route; p.7 footnote 'Up to 0.6% wt maybe required for some group I's' concerns Group I MB 228.3, a different scope)",
+   "unit": "%",
+   "form": "booster doses per route",
+   "qual": "",
+   "method": "",
+   "cond": "per matched route",
+   "basis": "mass for the two matched doses (HiTEC 12260 0.9; HiTEC 9552 0.35; supporting document cited); unspecified for the other three",
+   "outcome": "additional",
+   "action": "propose_basis_mass_with_citation",
+   "reason": "Basis mass with citation for two booster doses whose route matches exactly; HiTEC 12250 4.2, HiTEC 12255 5.0 and HiTEC 9552 0.6 stay unspecified. Printed text unchanged.",
+   "old_rev": "re-read manually: DL2-14639.pdf (08/18) p.2 text; approvals table rows as recorded",
+   "overlap_reviewed": "the two entries exist (HiTEC 12260 0.9, HiTEC 9552 0.35, printed \"%\"); the proposal changes only their basis attribute with a citation and adds no entry",
+   "cmp_override": "required_co_components[1] HiTEC 12260 0.9 % and [3] HiTEC 9552 0.35 % (printed '%', DL2-14639.pdf p.2); [0] HiTEC 12250 4.2 %, [2] HiTEC 12255 5.0 % and [4] HiTEC 9552 0.6 % stay unresolved"
+  }
+ ],
+ "field_overrides": [
+  {
+   "p": "AFTON_HITEC_12200",
+   "path": "treat_rate_matrix",
+   "new_f": "DL2-13364.pdf",
+   "action": "no_change",
+   "outcome": "already_captured",
+   "reason_append": "Seventh pass: superseded by the route-matched rows 'treat_rate_matrix' (propose_basis_mass_with_citation) and 'treat_rate_matrix (rows left unresolved)'."
+  },
+  {
+   "p": "YUBASE_4",
+   "path": "*",
+   "new_f": "*",
+   "old_rev": "re-read manually: DL2-11304.pdf (NARMAK TRADE S.R.O. 'BASE OIL YUBASE 4', 1 page, no date printed) p.1 whole page in the text layer, and the top half as a page image: SG at 15 C '0,8338' with unit 'g/m3', KV40 19,57, KV100 4,23, VI 122, Noack 15, flash 230 C (ASTM D92), pour -15 C (D97), sulfur < 10 ppm"
+  },
+  {
+   "p": "YUBASE_6",
+   "path": "*",
+   "new_f": "*",
+   "old_rev": "re-read manually: DL2-11306.pdf (NARMAK TRADE S.R.O. 'BASE OIL YUBASE 6', 1 page, no date printed) p.1 whole page in the text layer: SG at 15 C '0,8423' with unit 'g/m3', KV40 36,82, KV100 6,52, VI 131, Noack 7, flash 240 C (ASTM D92), pour -15 C (D97)"
+  },
+  {
+   "p": "YUBASE_3",
+   "path": "*",
+   "new_f": "*",
+   "old_rev": "re-read manually: DL2-11303.pdf (NARMAK TRADE S.R.O. 'BASE OIL YUBASE 3', 1 page, no date printed) p.1 whole page in the text layer: SG at 15 C '0,8299' with unit 'g/m3', KV40 12,43, KV100 3,12, VI 112, Noack 40, flash 204 C (ASTM D92), pour -24 C (D97)"
+  },
+  {
+   "p": "YUBASE_4",
+   "path": "density",
+   "new_f": "chs-yubase-4-rev-3.pdf",
+   "action": "propose_alternate_entry",
+   "outcome": "additional",
+   "provisional_because": [],
+   "form": "single value for reference only, third-party shipping document (Shell Cargo Handling Sheet, Document Date 12 May 2023, Revision 3); not a manufacturer specification or typical",
+   "reason": "Decision recorded: the mandatory density stays UNRESOLVED (Missing). 834 kg/m3 at 15 C is preserved as an alternate entry with source class 'third-party reference', its date (12 May 2023, Revision 3) and its qualification verbatim ('Physical Properties are for reference only and valid as of date of this revision; see loading terminal for specific properties.'). It is not promoted to a manufacturer value. Related evidence, kept as printed: the manufacturer SDS (2026-06-30) prints 'Density : Not available' and 'Specific Gravity : 0.834' without temperature; the distributor sheet prints '0,8338' at 15 C labelled 'g/m3', a unit that cannot belong to a specific gravity. Specific gravity and density are different quantities; no conversion is made."
+  },
+  {
+   "p": "YUBASE_4",
+   "path": "kv40",
+   "new_f": "YUBASE_SDS_GLOBAL_UN_4.pdf",
+   "reason": "Evidence and conditions: the distributor sheet prints 19,57 mm2/s measured by ASTM D445 at 40 C; the manufacturer SDS prints '19.5 mm2/s' explicitly labelled 'Viscosity, kinematic (calculated value) (40 C)', one decimal, no method; the cargo sheet prints a reference range 18 - 21 mm2/s. The difference 19.57 vs 19.5 (0.07 mm2/s) is not treated as a conflict, because the SDS states its number is calculated, not measured, and does not say how; it is also not declared equal, because 19.57 rounded to one decimal is 19.6, not 19.5. No change; both values stay attributable to their documents."
+  },
+  {
+   "p": "YUBASE_4",
+   "path": "flash_point",
+   "new_f": "YUBASE_SDS_GLOBAL_UN_4.pdf",
+   "reason": "Evidence and conditions: 230 C by ASTM D92 (distributor sheet) and 220 C by COC (manufacturer SDS 2026). ASTM D92 is the Cleveland open-cup method, so both are open-cup values and are comparable in method; they differ by 10 C. The cargo sheet's 200 C has no method and is a reference value. Recorded as a conflict between the two open-cup values, with the cargo-sheet value as reference evidence; nothing averaged or preferred."
+  },
+  {
+   "p": "YUBASE_4",
+   "path": "pour_point",
+   "new_f": "chs-yubase-4-rev-3.pdf",
+   "reason": "Evidence and conditions: -15 C by ASTM D97 (distributor sheet) and -12 C with no method in the cargo sheet, which states its values are 'for reference only ... see loading terminal for specific properties'. Recorded as a disagreement with that qualification attached; the reference value is not treated as a measurement and does not replace the selected value."
+  },
+  {
+   "p": "YUBASE_6",
+   "path": "flash_point",
+   "new_f": "YUBASE_SDS_GLOBAL_UN_6.pdf",
+   "reason": "Evidence and conditions: 240 C by ASTM D92 (distributor sheet) and 230 C by COC (manufacturer SDS 2026); both open-cup, comparable in method, differ by 10 C. Recorded as a conflict; no average, no automatic preference for the newer SDS."
+  },
+  {
+   "p": "YUBASE_6",
+   "path": "density",
+   "new_f": "YUBASE_SDS_GLOBAL_UN_6.pdf",
+   "reason": "Evidence and conditions: the manufacturer SDS prints 'Density : Not available' and 'Specific Gravity : 0.842' without temperature; the distributor sheet prints '0,8423' at 15 C labelled 'g/m3'. At three decimals 0,8423 reads 0.842, so the two specific gravities agree at the SDS's printed precision; that does not establish the SDS value's temperature, and specific gravity is not density. The SDS KV40 '36 mm2/s' is labelled 'calculated value' with no decimals; the measured 36,82 (D445) rounds to 37, so the numbers are not equal at integer precision either, and the difference is not treated as a conflict because the SDS number is a calculation of unstated basis. No change."
+  },
+  {
+   "p": "YUBASE_3",
+   "path": "flash_point",
+   "new_f": "Yubase%203%20MSDS.pdf",
+   "reason": "Evidence and conditions: 204 C by ASTM D92 (distributor sheet, undated) and 200 C (Cleveland open cup) in the manufacturer SDS of 19 September 2014; both open-cup, comparable in method, differ by 4 C. Recorded as a conflict. Other section 9 values: relative density '0.830 (water = 1)' without temperature vs the distributor's '0,8299' at 15 C ('g/m3'): equal at three decimals, temperature of the SDS value unknown, not a density; viscosity '12 cSt at 40 C' (integer, no method) vs 12,43 mm2/s (D445): 12,43 rounds to 12, so consistent at the SDS's printed precision, which neither confirms nor contradicts the second decimal."
+  }
+ ]
+}

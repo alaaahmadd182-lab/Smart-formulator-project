@@ -1,0 +1,27 @@
+{
+  "batch": "afton old-source readings",
+  "reviewed_on": "2026-11-12 (third pass)",
+  "note": "Manual readings of old (cited) Afton sources, made so that proposals can be judged on a real three-way comparison. Each statement says exactly what was read; anything not read is named.",
+  "documents": {},
+  "links": [],
+  "fields": [],
+  "field_overrides": [
+    {"p": "AFTON_HITEC_12200", "path": "*", "new_f": "*",
+     "old_rev": "re-read manually: DL2-14639.pdf (08/18) p.2 text. Its 'Typical Characteristics' are density, flash point, KV40, KV100 and TBN only; it prints no element content and no formulation; doses appear only in the approvals table. NOT re-read: DL2-11412.PDF (05/18, earlier edition of the same bulletin; automated search only) and the SDS DL2-12074.pdf (automated search; its hits were read and are component names such as 'calcium salts', 'zinc salts', 'Boron compounds 5 - 10', not element contents)"},
+    {"p": "AFTON_HITEC_12210", "path": "*", "new_f": "*",
+     "old_rev": "re-read manually: DL2-11418.pdf (05/16) p.2 application and dosage text ('when used with our OCP Viscosity Modifier, HiTEC 5748A'; 18.0% wt.; contains a PPD). The typical-characteristics block was not re-read (values taken from the JSON citation); a 40 C viscosity was not found by the automated search (its only hit is the storage range '10-40°C')"},
+    {"p": "AFTON_HITEC_12210", "path": "required_co_components", "new_f": "DL2-11421.pdf", "outcome": "already_captured", "action": "no_change",
+     "reason": "Three-way comparison: the OLD source DL2-11418.pdf p.2 already says 'when used with our OCP Viscosity Modifier, HiTEC 5748A', and the CURRENT JSON already names HiTEC 5748A (see current_value). The NEW slide repeats the name and adds only the label '(25 SSI)' for HiTEC 5748A, which is information about a product that has no record. No dose is printed in any of the three. Nothing to add to HiTEC 12210."},
+    {"p": "AFTON_HITEC_12210M", "path": "*", "new_f": "*",
+     "old_rev": "re-read manually: DL2-15568.pdf (04/22) p.2 text: 'when used with our OCP Viscosity Modifiers, HiTEC 5748A or HiTEC 5748'; 18.0% wt.; typical characteristics (density 7.90 lbs/gal, specific gravity 0.948, viscosity 108 cSt, flash point 135 min., TBN 55); no formulation printed. NOT re-read: DL2-11796.pdf (05/18 edition). SDS DL2-15569.pdf: section 9 lines read earlier"},
+    {"p": "AFTON_HITEC_12210M", "path": "required_co_components", "new_f": "DL2-12485.pdf",
+     "reason": "Three-way comparison: the OLD source names the viscosity modifiers 'HiTEC 5748A or HiTEC 5748' without a dose; the CURRENT JSON already names HiTEC 5748A (see current_value) with the dose Missing; the NEW book prints the HiTEC 5748A dose of each of 31 formulations (0.5 to 6.3 % wt). Only the recipe doses are new, and they belong to their formulations: route-bound entries, never a universal dose. The existing co-component entry stays as it is."},
+    {"p": "AFTON_HITEC_12210M", "path": "published_formulations", "new_f": "DL2-12485.pdf", "provisional_because": []},
+    {"p": "AFTON_HITEC_12400", "path": "*", "new_f": "*",
+     "old_rev": "re-read manually: DL2-15365.pdf (06/21) p.2 text: treat rate 16.1% wt; typical characteristics density 0.951 g/ml, flash point 150, KV100 133, TBN 61; no formulation printed. Its approvals table and charts are graphics and were not read"},
+    {"p": "HiTEC_8766B", "path": "*", "new_f": "*",
+     "old_rev": "re-read manually: DL2-10367.pdf (12/16) p.2 text: typical characteristics for HiTEC 8766B and HiTEC 8767B; approvals table with 12.7% / 14.0% / 13.4% rows; the '3.3%' cell belongs to the HiTEC 8767B column (booster used with 12.7% HiTEC 8766B in SAE 10W-40). No viscosity modifier, PPD or complete formulation is printed"},
+    {"p": "HiTEC_8766B", "path": "required_co_components", "new_f": "DL2-12905.pdf",
+     "reason": "Three-way comparison: the OLD source prints one co-component, HiTEC 8767B at 3.3% in the SAE 10W-40 row, which is the 3.3 % entry in the CURRENT JSON. The NEW document prints different, recipe-specific ingredients (Lubrizol 7077 4.6 / 6.0; HiTEC 611 0.5 in two columns; HiTEC 5748 4.2-4.5; HiTEC 672 0.1-0.2 % wt) in eight SAE 15W-40 columns, none of which contains HiTEC 8767B. They are ingredients of those recipes, not universally required components, and they do not replace the recorded booster route."}
+  ]
+}

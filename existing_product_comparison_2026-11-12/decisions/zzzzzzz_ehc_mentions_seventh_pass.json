@@ -1,0 +1,1419 @@
+{
+ "batch": "other suppliers: base-oil mentions",
+ "reviewed_on": "2026-11-13 (sixth pass)",
+ "note": "Classified with scripts/helpers/write_base_oil_mentions.py after reading the name-hit lines of every listed document; product-specific documents were excluded and reviewed separately. Seventh pass: the captured first-hit passage of every link was read; documents whose passage showed something other than a recipe share were reclassified individually in zzzzzzz_ehc_certificates_and_note_corrections.json and later files.",
+ "documents": {},
+ "links": [
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-12560.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: d ID HI 020802.40 HI 020805.40 HiTEC® 2607, %wt EHC 50, %wt EHC 110, %wt 0.47 89.43 10.10 0.47 55.82 43.71 Total, % 100.00 100.00 Kv100, mm2s-1 5.59 6.95 Kv4"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15813.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: 0.3 0.3 BO, ExxonMobil EHC 50 77.2 61.9 51.3 BO, ExxonMobil EHC 110 3.0 4.0 28.8 BO, SK Yubase 4P 10.0 TOTAL 100.0 100.00 100.00 Formulation, wt% 10W-30"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "RF6189%20booklet.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: ed Oil Formulation RF6189, wt.% 7.68 EHC 50, wt.% 69.3 EHC 110, wt.% 13 LZ 7077, wt.% 9.8 RF8248, wt.% 0.2 Foam Ban 130B, wt.% 0.02 Total, wt.%"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15678.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: 90 0.90 HiTEC® 5748 4.70 8.00 5.00 EHC 50 72.40 59.10 65.10 EHC 110 -- -- 22.00 Yubase 4 15.00 25.00 -- TOTAL 100.00 100.00 100.00 KV100, cSt ~8.3 ~10.0 ~10"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15388.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: V385, m% 0.3 0.3 0.3 0.3 Infineum V522, m% 5.4 1.6 5.7 9.1 EHC 110, m% 7.1 11.9 32 3.0 EHC 50, m% 74 73 48.8 74.4 Total 100 100 100 100 HTHS150, cP 3.5 3.0"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "RF6079%20Booklet.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: ExxonMobil EHC 50 II 5.5 31.09 115 91.62 <0.0003 ExxonMobil EHC 110 II 10.6 95.0 95 92.03 <0.0003 C-H-2303 Base Stock Information"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-12610.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: - - - - - - - 77.80 EHC 50 - - - - - - 64.68 - - - - - - - EHC 110 - - - - - - 16.17 - - - - - - - 14.4 12.3 9.8 11.6 9.7 12.3 11.7 11.7 10.1 14.3 14.4 14.4"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15763.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: 248 0.3 0.3 0.3 ExxonMobil EHC 50 77.2 61.9 51.3 ExxonMobil EHC 110 3.0 4.0 28.8 SK Yubase 4P 10.0 TOTAL 100.0 100.00 100.00 Formulation, wt% 10W-30"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-12879.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: 50 wt% (ratio) 44.75 (56) 28.84 (36) 57.61 (72) 58.82 (78) EHC 110 wt% (ratio) 35.16 (44) 41.27 (51.52) 12.4 (15.5) 6.6 (8.75) Yubase 4 wt% (ratio) 10 (12.4"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-13000.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: int Depressant 0.30 0.30 0.30 0.30 0.30 0.30 0.30 0.30 0.30 EHC 110 Group II Basestock 24.75 48.45 84.45 27.50 44.60 84.70 23.00 47.00 83.70 EHC 50 Group II"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-13683.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: Base Oils wt% (ratio) Mobil J150 52 Mobil J500 48 EHC 50 52 EHC 110 48 BPCL Makbase 150N 48 BPCL Makbase 500N 52 Chevron 220N 78 Chevron 600N 22"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15688.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: 90 0.90 HiTEC® 5748 4.70 8.00 5.00 EHC 50 72.40 59.10 65.10 EHC 110 -- -- 22.00 Yubase 4 15.00 25.00 -- TOTAL 100.00 100.00 100.00 KV100, cSt ~8.3 ~10.0 ~10"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-12453.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.23: ,60% 45,90% 12,80% Chevron 600R 84,10% XOM EHC50 53,20% XOM EHC110 26,00% XOM AP/E 150N 62,2% XOM AP/E 600N 17,5% NEXBASE 3043 30% P&C's VK 100°C 14,5 14,74"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-12607.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: eum P5096 6.4 Infineum SV261 7.4 Infineum V385 0.2 EHC50 II EHC110 II"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15564.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.13: 0 0.30 0.30 EHC 50, %m Group II Basestock 39.60 40.30 39.65 EHC 110, %m Group II Basestock 46.00 45.00 45.00 Total 100.00 100.00 100.00 Analytical Results Me"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-11766.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: 220R BS 39.242 65.000 65.000 CHEVRON 600R BS 15.168 15.000 EHC 110 BS 27.359 30.000 EHC 45 BS 16.304 8.777 16.358 EHC 60 BS 41.634 53.109 74.021 Yubase 6 BS"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15587.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.22: um V385, wt % 0.30 0.30 0.30 0.30 0.30 0.30 0.30 ExxonMobil EHC 110, wt% 22.00 ExxonMobil EHC 50, wt% 75.55 65.75 AramcoULTRA 4, wt% 87.15 84.55 AramcoULTRA"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15268.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.13: 0.30 0.30 Infineum SV261, %m 4.90 4.90 4.90 4.90 4.90 4.90 EHC110, %m 24.20 24.40 24.60 24.75 25.00 25.00 EHC50, %m 63.60 63.80 64.00 64.50 64.50 65.00 Tot"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "RF6067%20Booklet.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: ExxonMobil EHC 50 II 5.5 31.09 115 91.62 <0.0003 ExxonMobil EHC 110 II 10.6 95.0 95 92.03 <0.0003 Base Stock Information"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15545.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: -50 SAE 40 SAE 50 EHC 50 67.55 70.75 42.65 6 10 10 EHC 110 22 13 44 79.85 AP/E Core 150 76.85 73.15 55.15 17.65 AP/E Core 600"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15649.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: l Code RX230350151 RF6190, wt.% 8.3 EHC 50, wt.% 49.2 EHC 110, wt.% 35 LZ 7077, wt.% 7.5 Total, wt.% 100 Table 2 RF6190 API SQ 15W-40 Finishe"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-11706.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: .1 0.1 HiTEC® 5748 6.4 6.4 6.5 6.5 EHC 50 41.8 41.8 7.6 9.7 EHC 110 40.9 42.0 75.0 74.0 TOTAL 100.0 100.0 100.0 100.0 %wt. EHC"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-11780.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: - Viscoplex® 1-603, wt% 0.3 EHC 50, wt% (ratio) 39.26 (50) EHC 110, wt% (ratio) 39.25 (50) KV 100°C, mm²/s 14.3 CCS, mPa.s 6850 HTHS, mPa.s 4.4 ACEA E9-16*"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15768.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.26: 7282 Appendix C & NB/SH/T 6034 RF 7608，% 2.5 EHC 50，% 41.5 EHC 110，% 53.2 RF6602，% 1.5 OCP，% 1.0 RF8248B，% 0.3 RF9005，% 0.03 Base Oil Group Ⅱ VII Anti-Foam"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15544.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.20: EHC50 70.6 63.2 64.2 59.6 66.2 66.2 66.1 69.3 41.2 6.4 EHC 110 22 13 44 78 Yubase 4p 42.4 Yubase 4 84.6 40 17 22 ADNOC 4 21 Ultra-S 4"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "RF5016-Booklet.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.14: 8 0.8 EHC 50, wt% 86.546 75.496 S-Oil 2#, wt% 9.6 0 EHC 110, wt% 0 20 RF6602（VII）, wt% 3 3.5 RF8248B（PPD）, wt% 0.05 0.2 RF9005（Compound anti"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15745.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: e 4 85.4 24 28 BO-Yubase 6 63.2 BO-EHC 50 56.4 68.7 71.9 BO-EHC 110 18 10 TOTAL 100.0 100.00 100.00 100.00 100.00"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-11718.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: Esso 600 SN 10.00 - 8.00 6.50 EHC50 - 51.20 - - EHC110 - 22.00 - - Yubase 4 - - 20.00 20.00 PAO 6 - 10.00 - - 100.00 100.00"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15765.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.23: 079, wt% 0.05 0.05 PPD, wt% 47.5 47.5 EHC 50, wt% 36.0 36.0 EHC 110, wt% 100 100 Total, wt% -36 -39 Pour point, °C 20,300 YS<35Pa 19,980 YS<35Pa MRV (-25 °C"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-12452.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.23: ,60% 45,90% 12,80% Chevron 600R 84,10% XOM EHC50 53,20% XOM EHC110 26,00% XOM AP/E 150N 62,2% XOM AP/E 600N 17,5% NEXBASE 3043 30% P&C's VK 100°C 14,5 14,74"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-11768.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: 50.118 CHEVRON 100R BS 13.078 CHEVRON 220R BS 37.000 77.700 EHC 110 BS 30.000 27.359 EHC 45 BS 55.200 41.141 41.260 48.000 EHC 60 BS 25.568 26.927 26.818 53."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-12744.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: 5, %wt 0.53 0.53 0.53 EHC 50, %wt 89.47 56.47 22.47 EHC 110, %wt 10.00 43.00 77.00 Total, % 100.00 100.00 100.00 Kinematic Viscosity @ 40°C,"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15690.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: t. % vol. EHC 50 0.8504 73.30 73.66 60.00 60.18 23.00 22.99 EHC 110 0.8762 Yubase 4 0.8334 15.00 15.38 25.00 25.59 28.50 29.06 Yubase 6 0.8417 30.00 30.29 Hi"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-12139.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.14: HiTEC® 3339, %wt. 3.90 HiTEC® 623, %wt. 1.48 ExxonMobil EHC110, %wt. 61.39 ExxonMobil 2500N, % wt. 33.23 Kinematic Viscosity at 100°C, mm2/s 14.85"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-13565.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: Base Oils wt% (ratio) Mobil J150 52 Mobil J500 48 EHC 50 52 EHC 110 48 BPCL Makbase 150N 48 BPCL Makbase 500N 52 Chevron 220N 78 Chevron 600N 22"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "Infineum-S911%20brochure_WHITE_PDF.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.14: Kerosene 25.0 26.2 Infineum S1054 25.0 24.3 EHC 50 6.0 6.1 EHC 110 41.0 40.6 100.0 100.0 JASO FD & ISO-L-EGD Engine Test Results Limits 3 Hr. Detergency 12"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-12997.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: ME1710003-A Grade 10W-30 15W-40 20W-50 EHC 50 60,50% 36,00% EHC 110 24,75% 48,45% 84,45% Infineum SV261 5% 5,80% 5,80% Infineum D3396 9,45% 9,45% 9,45% Infin"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "HiTEC%2022300%20CDP_API%20SL%20AramcoPrima.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: 0 -- EHC 65 Group II -- 23.97 -- -- -- 24.00 25.17 -- -- -- EHC 110 Group II -- -- -- 22.30 -- -- -- -- 24.81 -- AP/E CORE 150 Group II -- -- -- -- 82.01 --"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15543.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.34: 3 Base Oil 1 EHC 50 77.2 75.9 51.3 Base Oil 2 EHC 110 3.0 28.0 Base Oil 3 Handi 150N 72.3 72.0 41.3 Base Oil 4 Hn"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-13852.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.22: % 0.30% 0.30% 0.30% 0.30% EHC 50 64.50% 51.50% 52.10% 20.0% EHC 110 16.30% EHC 120 13.70% 15.80% 37.6% S Oil Ultra 4 10% 10% S Oil Ultra 8 20% KV 40°C. mm2/s"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "RF6508%20Booklet.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: bil EHC 65 II 6.44 41.90 103 97.8 <0.0003 ExxonMobil EHC 110 II 10.60 95.00 95 92.0 <0.0003 ExxonMobil AP/E Core 150 I 5.22 30.20 103 70.7"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "RF6088%20Booklet.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: ExxonMobil EHC 50 II 5.50 31.09 115 91.6 <0.0003 ExxonMobil EHC 110 II 10.60 95.00 95 92.0 <0.0003 Shell GTL 8# III 7.59 43.43 143 99.5 <0.0003 Base Stock In"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-11068.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: Petrolad 19002 (% w/w) - 5.0 EHC 50 (% w/w) 64.1 60.5 EHC 110 (% w/w) 24.2 22.8 Coefficient of friction measured by HFRR according to MOD ASTM"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-13682.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: int Depressant 0.30 0.30 0.30 0.30 0.30 0.30 0.30 0.30 0.30 EHC 110 Group II Basestock 24.75 48.45 84.45 27.50 44.60 84.70 23.00 47.00 83.70 EHC 50 Group II"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-15332.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.13: 0 0.30 0.30 EHC 50, %m Group II Basestock 39.60 40.30 39.65 EHC 110, %m Group II Basestock 46.00 45.00 45.00 Total 100.00 100.00 100.00 Analytical Results Me"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-13118.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: 50 wt% (ratio) 44.75 (56) 28.84 (36) 57.61 (72) 58.82 (78) EHC 110 wt% (ratio) 35.16 (44) 41.27 (51.52) 12.4 (15.5) 6.6 (8.75) Yubase 4 wt% (ratio) 10 (12.4"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-13583.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.19: Esso 600 SN 10.00 - - 20.00 EHC50 - 51.20 - - EHC110 - 22.00 - - Yubase 4 - - 10.00 30.00 PAO 6 - 10.00 - - 100.00 100.00"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_120",
+   "f": "DL2-12453.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.24: ron 600R 10,00% 69% XOM EHC50 54% 69,90% XOM EHC110 26% XOM EHC120 8,30% XOM AP/E 150N 60,30% XOM AP/E 600N 20,10% P&C's VK 100°C 14,8 18,79 14 14,5 14,3 CC"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_120",
+   "f": "DL2-12992.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.27: xbase 3060, wt% 30 Exxon Mobil EHC 50, wt% 38,7 Exxon Mobil EHC 120, wt% 3,6 PPD, OLOA® 19803, wt% 0.3 KV 100°C, mm2/s 12,9 CCS, mPa.s at -25°C 5853 OLOA® 61"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_120",
+   "f": "DL2-15685.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.30: 7 EHC 50 (Group II) 52.8 53.9 47.8 48.6 76.4 77.7 29.8 30.1 EHC 120 (Group II) 26.0 25.9 18.2 18.1 6.6 6.6 17.0 16.8 Yubase 4 (Group III) - - 15.0 15.6 - - 3"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_120",
+   "f": "DL2-15799.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: 00 8.4000 6.0000 11.5500 3.7000 9.0000 9.0000 8.2000 EHC 45 EHC 120 Kixxlubo 150N aramcoPRIMA 150S aramcoPRIMA 100 aramcoPRIMA 600 PURE PERFORMANCE 110N 54.9"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_120",
+   "f": "DL2-12999.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.23: 385 0.3 0.3 0.3 Exxon Mobil EHC 50 59.0 6.9 5.3 Exxon Mobil EHC 120 27.9 84.8 83.2 Total 100.0 100.0 100.0 Performance API SG/CD SG/CD SG/CD JASO T903:2016 M"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_120",
+   "f": "DL2-12452.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.24: ron 600R 10,00% 69% XOM EHC50 54% 69,90% XOM EHC110 26% XOM EHC120 8,30% XOM AP/E 150N 60,30% XOM AP/E 600N 20,10% P&C's VK 100°C 14,8 18,79 14 14,5 14,3 CC"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_120",
+   "f": "HiTEC%2022300%20CDP_API%20SL%20AramcoPrima.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.14: .0002 II EHC 110 TSU23-00051 10.64 92.76 97 97.1 <0.0002 II EHC 120 RIC23-04562 11.77 102.3 104 97.9 <0.0002 II Yubase 4 RIC22-02745 4.189 19.22 123 96.5 <0."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_120",
+   "f": "DL2-13852.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.22: .30% 0.30% EHC 50 64.50% 51.50% 52.10% 20.0% EHC 110 16.30% EHC 120 13.70% 15.80% 37.6% S Oil Ultra 4 10% 10% S Oil Ultra 8 20% KV 40°C. mm2/s 104.6 97.02 97"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_120",
+   "f": "DL2-12311.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: bricants.com Certificate of Analysis Product: EHC-120 Date: 21 April 2019 Test Results NO Characteristic, Units Methods Actual 1"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "f": "DL2-12610.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: - - - SAFETY-KLEEN 120N - - - - 41.90 - - 39.95 - - - - - - EHC 45 - - 24.87 39.50 - - - - - - - - - - EHC 65 - - 58.03 39.50 - - - - - - - - - 77.80 EHC 50"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "f": "DL2-15654.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: Oil Formulation Oil Code RX230350611 RF6190, wt.% 8.3 EHC 45, wt.% 74.9 EHC 65, wt.% 9 LZ 7077, wt.% 7.8 Total, wt.% 100 Table 2 RF6190 API"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "f": "DL2-12485.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: tion (%) wt HiTEC® 12210M DI 18.0 HiTEC® 5748A ND-OCP 0.85 EHC 45 API Group II 26.78 EHC 65 API Group II 54.37 Afton Oil Code LBR-017413-E Viscosity Grade"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "f": "DL2-12486.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: tion (%) wt HiTEC® 12210M DI 18.0 HiTEC® 5748A ND-OCP 0.85 EHC 45 API Group II 26.78 EHC 65 API Group II 54.37 Afton Oil Code LBR-017413-E Viscosity Grade"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "f": "DL2-11766.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: .000 CHEVRON 600R BS 15.168 15.000 EHC 110 BS 27.359 30.000 EHC 45 BS 16.304 8.777 16.358 EHC 60 BS 41.634 53.109 74.021 Yubase 6 BS 30.000 Sum Formulation"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "f": "Introduction%20of%20Infineum%20T4580.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: 80 8.4 8.4 8.4 8.4 8.4 8.4 8.4 Chevron 100R 91.6 ExxonMobil EHC 45 91.6 aramcoPRIMA 100 91.6 Excel 110 91.6 aracmoPRIMA 110 91.6 ExxonMobil 100SN 46.0 50.0"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "f": "DL2-15544.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.20: 0 5W-30 5W-30 5W-30 5W-30 5W-30 10W-30 10W-40 15W-40 20W-50 EHC45 74.1 EHC65 10 EHC50 70.6 63.2 64.2 59.6 66.2 66.2 66.1 69.3 41."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "f": "DL2-11257.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: II (ExxonMobil Group III (Yubase 4) Americas CORE™ 150) EHC™ 45) Treat Rate, % wt 0 5 10 0 5 10 0 5 10 Viscosity at 100 °C, cSt 5.2 7.0 9"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "f": "DL2-15799.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: 00 8.6000 8.4000 6.0000 11.5500 3.7000 9.0000 9.0000 8.2000 EHC 45 EHC 120 Kixxlubo 150N aramcoPRIMA 150S aramcoPRIMA 100 aramcoPRIMA 600 PURE PERFORMANCE 1"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "f": "DL2-15765.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.48: 9.5 VM, wt% 0.3 0.3 0.3 PPD, RF8248B, wt% 72.48 72.48 72.48 EHC 45, wt% 9.5 9.5 9.5 EHC 65, wt% 8.2 8.2 8.2 DI, RF6188, wt% 0.02 0.02 0.02 RF9003, wt% ASTM"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "f": "DL2-11768.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: .078 CHEVRON 220R BS 37.000 77.700 EHC 110 BS 30.000 27.359 EHC 45 BS 55.200 41.141 41.260 48.000 EHC 60 BS 25.568 26.927 26.818 53.109 Safety-Kleen RHT120N"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "f": "DL2-11763.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.10: 0 0.000 62.260 Base Stock CALPAR150 0.000 15.000 Base Stock EHC45 75.220 0.000 Base Stock EHC60 2.855 0.000 Sequence VG (ASTM D6593-00) Limit PASS PASS"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "f": "HiTEC%2022300%20CDP_API%20SL%20AramcoPrima.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: - -- Yubase 6 Group III 73.00 -- 84.56 -- -- -- -- -- -- -- EHC 45 Group II -- 63.00 -- -- -- 63.11 62.00 -- -- -- EHC 50 Group II -- -- -- 62.80 -- -- -- -"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "f": "RF6508%20Booklet.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: es, % (ASTM D2007) Sulfur, wt.% (ASTM D2622) ExxonMobil EHC 45 II 4.68 23.42 118 97.1 <0.0003 ExxonMobil EHC 50 II 5.50 31.09 115 91.6 <0.0"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-12560.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: e 32 46 Blend ID HI 020802.40 HI 020805.40 HiTEC® 2607, %wt EHC 50, %wt EHC 110, %wt 0.47 89.43 10.10 0.47 55.82 43.71 Total, % 100.00 100.00 Kv100, mm2s-1"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "HiTEC-5825K_PDS.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: roperties of 12.0% wt. HiTEC® 5825K dissolved in ExxonMobil EHC 50: Colour, ASTM D1500 0.5 Density @ 15°C, g/ml 0.853 Flas"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15813.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: .7 10.0 6.6 PPD, Viscoplex-1-248 0.3 0.3 0.3 BO, ExxonMobil EHC 50 77.2 61.9 51.3 BO, ExxonMobil EHC 110 3.0 4.0 28.8 BO, SK Yubase 4P 10.0 TOTAL 100.0 100."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "RF6189%20booklet.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: API SP 10W-40 Finished Oil Formulation RF6189, wt.% 7.68 EHC 50, wt.% 69.3 EHC 110, wt.% 13 LZ 7077, wt.% 9.8 RF8248, wt.% 0.2 Foam Ban 130B, wt."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15678.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: 1 (GF-7A Booster) 0.90 0.90 0.90 HiTEC® 5748 4.70 8.00 5.00 EHC 50 72.40 59.10 65.10 EHC 110 -- -- 22.00 Yubase 4 15.00 25.00 -- TOTAL 100.00 100.00 100.00"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15388.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: fineum V522, m% 5.4 1.6 5.7 9.1 EHC 110, m% 7.1 11.9 32 3.0 EHC 50, m% 74 73 48.8 74.4 Total 100 100 100 100 HTHS150, cP 3.5 3.0 4.0 4.0 KV100, cSt 12.0 9.5"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "RF6079%20Booklet.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: urates, % (ASTM D2007) Sulfur, wt.% (ASTM D2622) ExxonMobil EHC 50 II 5.5 31.09 115 91.62 <0.0003 ExxonMobil EHC 110 II 10.6 95.0 95 92.03 <0.0003 C-H-2303"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-12610.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: - - - - - - EHC 65 - - 58.03 39.50 - - - - - - - - - 77.80 EHC 50 - - - - - - 64.68 - - - - - - - EHC 110 - - - - - - 16.17 - - - - - - - 14.4 12.3 9.8 11."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-13001.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: .60 - Infineum SV261L VM - 9.20 Infineum V385 PPD 0.20 0.20 EHC50 BS 52.80 50.20 Yubase 4 Plus BS 18.00 - Yubase 4 BS - 25.00 Yubase 6 BS 12.00 5.00 Total"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-13797.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.22: V261 4.5% Infineum SV261L 9.2% Infineum V385 0.2% 0.2% 0.2% EHC50_R 54.9% 52.8% 50.2% Yubase 4 30.0% 25.0% Yubase 6 12.0% 5.0% Yubase 4 Plus 18.0% Total 10"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15763.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: ol 7077 5.7 10.0 6.6 Viscoplex-1-248 0.3 0.3 0.3 ExxonMobil EHC 50 77.2 61.9 51.3 ExxonMobil EHC 110 3.0 4.0 28.8 SK Yubase 4P 10.0 TOTAL 100.0 100.00 100.0"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15656.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: Oil Code RX230350619 RF6190, wt.% 8.3 CTL 4, wt.% 18 EHC 50, wt.% 66.4 LZ 7077, wt.% 7.3 Total, wt.% 100 Table 2 RF6190 API SQ/ILSAC GF-7 5W-"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15770.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.47: RF7021 L-QB 300 L-QB 300 L-QB 300 Base oil -- Formosa 150N EHC50 Customer1# Customer2# TAN（KOH），mg/kg 0.05 0.03 0 0 0 Pour point -9 -22 -19 -31 -19 Ther"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-12879.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: wt% 5,1 4,9 5,0 9,6 PPD Viscoplex 1-330 wt% 0,3 0,3 0,3 0,3 EHC 50 wt% (ratio) 44.75 (56) 28.84 (36) 57.61 (72) 58.82 (78) EHC 110 wt% (ratio) 35.16 (44) 41"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-13000.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: stock 24.75 48.45 84.45 27.50 44.60 84.70 23.00 47.00 83.70 EHC 50 Group II Basestock 60.50 36.00 - 47.50 39.40 - 61.50 36.70 0.00 YUBASE 4 Group III Basest"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-13683.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: ) 7.1 6.4 Base Oils wt% (ratio) Mobil J150 52 Mobil J500 48 EHC 50 52 EHC 110 48 BPCL Makbase 150N 48 BPCL Makbase 500N 52 Chevron 220N 78 Chevron 600N 22"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15688.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: 1 (GF-7A Booster) 0.90 0.90 0.90 HiTEC® 5748 4.70 8.00 5.00 EHC 50 72.40 59.10 65.10 EHC 110 -- -- 22.00 Yubase 4 15.00 25.00 -- TOTAL 100.00 100.00 100.00"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-12453.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.23: % Chevron 220R 78,60% 45,90% 12,80% Chevron 600R 84,10% XOM EHC50 53,20% XOM EHC110 26,00% XOM AP/E 150N 62,2% XOM AP/E 600N 17,5% NEXBASE 3043 30% P&C's V"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-12607.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: Infineum P5096 6.4 Infineum SV261 7.4 Infineum V385 0.2 EHC50 II EHC110 II"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15653.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: l Code RX230350552 RF6190, wt.% 8.3 Yubase 4, wt.% 24 EHC 50, wt.% 63.2 LZ 7077, wt.% 4.5 Total, wt.% 100 Table 2 RF6190 API SQ/ILSAC GF-7 5"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15564.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.13: 5.80 Infineum V385, %m Pour Point Depressant 0.30 0.30 0.30 EHC 50, %m Group II Basestock 39.60 40.30 39.65 EHC 110, %m Group II Basestock 46.00 45.00 45.00"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15587.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.22: .30 0.30 0.30 0.30 ExxonMobil EHC 110, wt% 22.00 ExxonMobil EHC 50, wt% 75.55 65.75 AramcoULTRA 4, wt% 87.15 84.55 AramcoULTRA 6, wt% SK Yubase 4, wt% 87.25"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15268.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.13: 90 4.90 4.90 EHC110, %m 24.20 24.40 24.60 24.75 25.00 25.00 EHC50, %m 63.60 63.80 64.00 64.50 64.50 65.00 Total, %m 100.00 100.00 100.00 100.00 100.00 100."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "RF6067%20Booklet.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: urates, % (ASTM D2007) Sulfur, wt.% (ASTM D2622) ExxonMobil EHC 50 II 5.5 31.09 115 91.62 <0.0003 ExxonMobil EHC 110 II 10.6 95.0 95 92.03 <0.0003 Base Stoc"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15545.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: -40 15W-40 20W-50 10W-30 10W-40 15W-40 20W-50 SAE 40 SAE 50 EHC 50 67.55 70.75 42.65 6 10 10 EHC 110 22 13 44 79.85 AP/E Core 150 7"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15649.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: Oil Formulation Oil Code RX230350151 RF6190, wt.% 8.3 EHC 50, wt.% 49.2 EHC 110, wt.% 35 LZ 7077, wt.% 7.5 Total, wt.% 100 Table 2 RF6190"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-11706.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: - - HiTEC® 672 0.1 0.1 0.1 0.1 HiTEC® 5748 6.4 6.4 6.5 6.5 EHC 50 41.8 41.8 7.6 9.7 EHC 110 40.9 42.0 75.0 74.0 TOTAL 100.0 100.0 100.0 100.0 %wt. EHC"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-13117.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: 69923QB 70687RA Base Oils Nexbase / Chevron 220R Nexbase / EHC 50 Nexbase 3043/3050 Nexbase 3043/3050 VM PARATONE® 24EX PARATONE® 24EX PARATONE® 24EX PARAT"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-11780.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: 69 PARATONE® 8065E, wt% 6.5 PPD - Viscoplex® 1-603, wt% 0.3 EHC 50, wt% (ratio) 39.26 (50) EHC 110, wt% (ratio) 39.25 (50) KV 100°C, mm²/s 14.3 CCS, mPa.s 6"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15768.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.26: omponents JB/T 7282 Appendix C & NB/SH/T 6034 RF 7608，% 2.5 EHC 50，% 41.5 EHC 110，% 53.2 RF6602，% 1.5 OCP，% 1.0 RF8248B，% 0.3 RF9005，% 0.03 Base Oil Group"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-12992.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.25: 24.2 PARATONE® 8006E, wt% 3,80 Yubase 6, wt% 30 Exxon Mobil EHC 50, wt% 41,70 PPD, OLOA® 19803, wt% 0.3 KV 100°C, mm2/s 12.3 CCS, mPa.s at -25°C 5830 MRV, m"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "Infineum-T4311%20and%20Infineum%20T4318%20Product%20Brochure.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.24: 10.0 10.0 10.0 Infineum T4163 6.0 6.0 6.0 6.0 6.0 6.0 Exxon EHC 50 40.0 40.0 Chevron 100R 40.0 40.0 Yubase 3 12.0 44.0 22.0 Yubase 4 72.0 22.0 Nexbase 3030"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15544.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.20: 0 15W-40 20W-50 EHC45 74.1 EHC65 10 EHC50 70.6 63.2 64.2 59.6 66.2 66.2 66.1 69.3 41.2 6.4 EHC 110 22 13 44 78 Yubase 4p 42.4 Yub"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15685.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.30: 0.2 0.2 0.2 Infineum SV261L 6.5 0.2 4.3 4.4 2.3 2.4 8.5 8.7 EHC 50 (Group II) 52.8 53.9 47.8 48.6 76.4 77.7 29.8 30.1 EHC 120 (Group II) 26.0 25.9 18.2 18.1"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "RF5016-Booklet.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.14: scosity Grade ISO VG 32 ISO VG 46 RF5016, wt% 0.8 0.8 EHC 50, wt% 86.546 75.496 S-Oil 2#, wt% 9.6 0 EHC 110, wt% 0 20 RF6602（VII）, wt% 3 3."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "RF6179-Booklet.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: Code RX230340315 RF6179, wt.% 7.3 ADNOC 4, wt.% 23.0 EHC 50, wt.% 62.5 LZ 7077, wt.% 7.0 RF8248B, wt.% 0.2 Total, wt.% 100 2. Engine Test Res"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-12999.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.23: eum SV261 8.8 4.0 7.2 Infineum V385 0.3 0.3 0.3 Exxon Mobil EHC 50 59.0 6.9 5.3 Exxon Mobil EHC 120 27.9 84.8 83.2 Total 100.0 100.0 100.0 Performance API S"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15745.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: .3 4.5 7.3 5 9.8 BO-Yubase 4 85.4 24 28 BO-Yubase 6 63.2 BO-EHC 50 56.4 68.7 71.9 BO-EHC 110 18 10 TOTAL 100.0 100.00 100.00 100.00 100.00"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-11718.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: 72.10 - 54.10 53.10 Esso 600 SN 10.00 - 8.00 6.50 EHC50 - 51.20 - - EHC110 - 22.00 - - Yubase 4 - - 20.00 20.00 PAO 6 - 10.00 -"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15765.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.22: 7, wt% 7.68 7.68 RF6189, wt% 0.05 0.05 PPD, wt% 63.35 63.35 EHC 50, wt% 22 22 Yubase 4, wt% (SK4#） 0.02 0.02 Defoamer, wt% 100 100 Total, % -42 -42 Pour poi"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-12310.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: bricants.com Certificate of Analysis Product: EHC-50 Date: 21 April 2019 Test Results NO Characteristic, Units Methods Actual 1"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-12452.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.23: % Chevron 220R 78,60% 45,90% 12,80% Chevron 600R 84,10% XOM EHC50 53,20% XOM EHC110 26,00% XOM AP/E 150N 62,2% XOM AP/E 600N 17,5% NEXBASE 3043 30% P&C's V"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-12744.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: 3.4000 HI 023624.4000 HiTEC® 1505, %wt 0.53 0.53 0.53 EHC 50, %wt 89.47 56.47 22.47 EHC 110, %wt 10.00 43.00 77.00 Total, % 100.00 100.00 1"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15690.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: nts Density @ 15.6ºC % wt. % vol. % wt. % vol. % wt. % vol. EHC 50 0.8504 73.30 73.66 60.00 60.18 23.00 22.99 EHC 110 0.8762 Yubase 4 0.8334 15.00 15.38 25."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15005.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: 0%/℃ 1%RF8248/℃ Mobil150BS -6 -8 Mobil 150SN -11 -35 Mobil EHC50 -17 -41 MobilEHC110 -17 -29"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-13565.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: ) 7.1 6.4 Base Oils wt% (ratio) Mobil J150 52 Mobil J500 48 EHC 50 52 EHC 110 48 BPCL Makbase 150N 48 BPCL Makbase 500N 52 Chevron 220N 78 Chevron 600N 22"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "Infineum-S911%20brochure_WHITE_PDF.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.14: m S911 3.0 2.8 Kerosene 25.0 26.2 Infineum S1054 25.0 24.3 EHC 50 6.0 6.1 EHC 110 41.0 40.6 100.0 100.0 JASO FD & ISO-L-EGD Engine Test Results Limits 3 H"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-12997.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: 0230-A IME1703677-A IME1710003-A Grade 10W-30 15W-40 20W-50 EHC 50 60,50% 36,00% EHC 110 24,75% 48,45% 84,45% Infineum SV261 5% 5,80% 5,80% Infineum D3396 9"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15655.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: il Code RX230350613 RF6190, wt.% 8.3 ADNOC 4, wt.% 25 EHC 50, wt.% 59.4 LZ 7077, wt.% 7.3 Total, wt.% 100 Table 2 RF6190 API SQ/ILSAC GF-7 5W-"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "HiTEC%2022300%20CDP_API%20SL%20AramcoPrima.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: - -- EHC 45 Group II -- 63.00 -- -- -- 63.11 62.00 -- -- -- EHC 50 Group II -- -- -- 62.80 -- -- -- -- 65.00 -- EHC 65 Group II -- 23.97 -- -- -- 24.00 25.1"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15543.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.34: 0W-30 10W-40 15W-40 10W-30 10W-40 15W-40 API Level CK-4 BO EHC 50/110 EHC 50/120 Handi 150N/500N Sinopec HVI 6 Sinopec HVI 10 Requirements Claim"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-13852.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: 7.82% 24.40% 14.60% 35.81% 30.0% Chevron 220R 20.00% 20.00% EHC 50 20.00% 20.00% KV @ 40C. mm2/s 73.17 87.28 73.76 89.19 74.17 89.93 89.94 60.29 KV @ 100C."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "RF6508%20Booklet.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: bil EHC 45 II 4.68 23.42 118 97.1 <0.0003 ExxonMobil EHC 50 II 5.50 31.09 115 91.6 <0.0003 ExxonMobil EHC 65 II 6.44 41.90 103 97.8 <0.0"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "RF6088%20Booklet.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: urates, % (ASTM D2007) Sulfur, wt.% (ASTM D2622) ExxonMobil EHC 50 II 5.50 31.09 115 91.6 <0.0003 ExxonMobil EHC 110 II 10.60 95.00 95 92.0 <0.0003 Shell GT"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-11068.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: lad 7072 (% w/w) 0.2 0.2 Petrolad 19002 (% w/w) - 5.0 EHC 50 (% w/w) 64.1 60.5 EHC 110 (% w/w) 24.2 22.8 Coefficient of friction measured"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-13682.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: stock 24.75 48.45 84.45 27.50 44.60 84.70 23.00 47.00 83.70 EHC 50 Group II Basestock 60.50 36.00 - 47.50 39.40 - 61.50 36.70 0.00 YUBASE 4 Group III Basest"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-13002.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: fineum V385 0.20 0.20 0.20 0.30 0.30 0.30 ExxonMobil EHC 50 54.50 52.80 50.20 54.70 52.70 50.30 Yubase 4 Plus - 18.00 - - - - Yubase 4 30.00 - 25.00"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-15332.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.13: 5.80 Infineum V385, %m Pour Point Depressant 0.30 0.30 0.30 EHC 50, %m Group II Basestock 39.60 40.30 39.65 EHC 110, %m Group II Basestock 46.00 45.00 45.00"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-13118.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: wt% 5,1 4,9 5,0 9,6 PPD Viscoplex 1-330 wt% 0,3 0,3 0,3 0,3 EHC 50 wt% (ratio) 44.75 (56) 28.84 (36) 57.61 (72) 58.82 (78) EHC 110 wt% (ratio) 35.16 (44) 41"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-13583.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.19: 72.10 - 72.30 18.80 Esso 600 SN 10.00 - - 20.00 EHC50 - 51.20 - - EHC110 - 22.00 - - Yubase 4 - - 10.00 30.00 PAO 6 - 10.00"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_65",
+   "f": "DL2-12610.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: 9.95 - - - - - - EHC 45 - - 24.87 39.50 - - - - - - - - - - EHC 65 - - 58.03 39.50 - - - - - - - - - 77.80 EHC 50 - - - - - - 64.68 - - - - - - - EHC 110 -"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_65",
+   "f": "DL2-15654.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: l Code RX230350611 RF6190, wt.% 8.3 EHC 45, wt.% 74.9 EHC 65, wt.% 9 LZ 7077, wt.% 7.8 Total, wt.% 100 Table 2 RF6190 API SQ/ILSAC GF-7 5W-30"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_65",
+   "f": "DL2-12485.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: DI 18.0 HiTEC® 5748A ND-OCP 0.85 EHC 45 API Group II 26.78 EHC 65 API Group II 54.37 Afton Oil Code LBR-017413-E Viscosity Grade 10W-30 Chemical and Physic"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_65",
+   "f": "DL2-12486.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: DI 18.0 HiTEC® 5748A ND-OCP 0.85 EHC 45 API Group II 26.78 EHC 65 API Group II 54.37 Afton Oil Code LBR-017413-E Viscosity Grade 10W-30 Chemical and Physic"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_65",
+   "f": "DL2-15564.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.30: Modifier 10.00 Infineum V385, %m Pour Point Depressant 0.30 EHC 65, %m Group II Basestock 80.45 Total 100.00 Analytical Results Method Results KV@100C, mm2/"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_65",
+   "f": "DL2-12611.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: 411971 OIL FORMULATION Base Oils % Mass % Volume ExxonMobil EHC 65 77.80 78.16 Additives Lubrizol® CV1100 14.20 13.42 Lubrizol® 7077D 8.00 8.42 PROCEDURE D4"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_65",
+   "f": "DL2-15544.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.20: 30 5W-30 10W-30 10W-40 15W-40 20W-50 EHC45 74.1 EHC65 10 EHC50 70.6 63.2 64.2 59.6 66.2 66.2 66.1 69.3 41.2 6.4 EHC 110 22 13 44"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_65",
+   "f": "DL2-15765.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.48: PPD, RF8248B, wt% 72.48 72.48 72.48 EHC 45, wt% 9.5 9.5 9.5 EHC 65, wt% 8.2 8.2 8.2 DI, RF6188, wt% 0.02 0.02 0.02 RF9003, wt% ASTM D445 62.90 63.88 62.93 K"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_65",
+   "f": "HiTEC%2022300%20CDP_API%20SL%20AramcoPrima.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: - -- -- EHC 50 Group II -- -- -- 62.80 -- -- -- -- 65.00 -- EHC 65 Group II -- 23.97 -- -- -- 24.00 25.17 -- -- -- EHC 110 Group II -- -- -- 22.30 -- -- --"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_65",
+   "f": "RF6508%20Booklet.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: bil EHC 50 II 5.50 31.09 115 91.6 <0.0003 ExxonMobil EHC 65 II 6.44 41.90 103 97.8 <0.0003 ExxonMobil EHC 110 II 10.60 95.00 95 92.0 <0."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_65",
+   "f": "DL2-15332.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.30: Modifier 10.00 Infineum V385, %m Pour Point Depressant 0.30 EHC 65, %m Group II Basestock 80.45 Total 100.00 Analytical Results Method Results KV@100C, mm2/"
+  }
+ ],
+ "fields": []
+}

@@ -1,0 +1,124 @@
+{
+ "batch": "other suppliers: YUBASE 4 (product-specific documents)",
+ "reviewed_on": "2026-11-13 (sixth pass)",
+ "note": "Old source: DL2-11304.pdf (property sheet issued by the distributor NARMAK TRADE S.R.O.; values and open questions as in the JSON). New product-specific documents: the manufacturer's SDS and a Shell cargo handling sheet.",
+ "documents": {
+  "YUBASE_SDS_GLOBAL_UN_4.pdf": {
+   "what": "SDS 'YUBASE 4' according to the UN GHS (Rev. 10, 2023); manufacturer SK On Co., Ltd. (SK Enmove)",
+   "printed_date": "Issue date 2020-01-01; Revision date 2026-06-30; Supersedes 2025-11-01; Version 4.0",
+   "kind": "SDS (manufacturer)",
+   "read": "section 1 and section 9 lines (text layer)",
+   "limits": "other sections not read"
+  },
+  "chs-yubase-4-rev-3.pdf": {
+   "what": "Shell 'Cargo Handling Sheet Yubase 4' for vessels chartered on behalf of Shell; product code 002D6059",
+   "printed_date": "Document Date 12 May 2023, Revision 3",
+   "kind": "shipping / cargo handling document (third party)",
+   "read": "all 4 pages (text layer)",
+   "limits": "'Physical Properties are for reference only and valid as of date of this revision; see loading terminal for specific properties.'"
+  }
+ },
+ "links": [
+  {
+   "p": "YUBASE_4",
+   "f": "YUBASE_SDS_GLOBAL_UN_4.pdf",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "sections 1 and 9 compared with the JSON",
+   "coverage": "old property sheet DL2-11304.pdf values (as recorded in the JSON) compared",
+   "identity": "exact: 'Trade name: YUBASE 4'; manufacturer SK On Co., Ltd. (SK Enmove)",
+   "note": "The manufacturer's current SDS (version 4.0, 2026-06-30). Section 9: specific gravity 0.834 (no temperature), 'Density: Not available', KV40 19.5 mm2/s marked 'calculated value', flash point 220 C (COC)."
+  },
+  {
+   "p": "YUBASE_4",
+   "f": "chs-yubase-4-rev-3.pdf",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all physical properties compared with the JSON",
+   "coverage": "as above",
+   "identity": "'Trade Name: Yubase 4'; issued for Shell-chartered vessels (Shell product code 002D6059); manufacturer not named",
+   "note": "Shipping document. Density 834 kg/m3 at 15 C; KV 18 - 21 mm2/s at 40 C; pour point -12 C; flash point 200 C; values 'for reference only'."
+  }
+ ],
+ "fields": [
+  {
+   "p": "YUBASE_4",
+   "tier": 1,
+   "path": "density",
+   "old": "DL2-11304.pdf (NARMAK TRADE property sheet, issue date not printed): specific gravity at 15 C printed '0.8338' with the inconsistent unit 'g/m3'; JSON density Missing with the open question 'Verify the original unit and measurement conditions before assigning a density value.'",
+   "new_f": "chs-yubase-4-rev-3.pdf",
+   "new_p": 2,
+   "new_text": "Density: 834 kg/m3 at 15 C / 59 F (Note 1: 'Physical Properties are for reference only and valid as of date of this revision; see loading terminal for specific properties.'). Manufacturer SDS YUBASE_SDS_GLOBAL_UN_4.pdf p.4: 'Density : Not available'; 'Specific Gravity : 0.834' (no temperature)",
+   "unit": "kg/m3",
+   "form": "reference value in a third-party shipping document; manufacturer SDS gives specific gravity only",
+   "qual": "",
+   "method": "not printed",
+   "cond": "15 C",
+   "basis": "",
+   "outcome": "additional",
+   "action": "propose_add",
+   "reason": "The only density with a temperature is in a Shell cargo handling sheet marked 'for reference only'. The manufacturer's SDS prints no density and a specific gravity 0.834 without temperature; the distributor sheet prints 0.8338 at 15 C with a garbled unit. The three agree numerically but none is a manufacturer technical density with temperature. Whether a third-party shipping document may fill this mandatory field is a source-authority policy decision (CHECKPOINT_6 question 2); until decided the proposal is provisional and nothing is converted.",
+   "old_rev": "re-read manually (the DL2-11304.pdf entries and open questions as recorded in the JSON; the sheet's specific-gravity line)",
+   "provisional_because": [
+    "source-authority policy decision: may a third-party cargo handling sheet ('for reference only') fill the mandatory density?"
+   ]
+  },
+  {
+   "p": "YUBASE_4",
+   "tier": 2,
+   "path": "flash_point",
+   "old": "JSON: 230 C, ASTM D92 (DL2-11304.pdf, distributor sheet)",
+   "new_f": "YUBASE_SDS_GLOBAL_UN_4.pdf",
+   "new_p": 4,
+   "new_text": "Flash point : 220 C (COC (428 F)); Shell cargo handling sheet: 'Flash Point: 200 C / 392 F'",
+   "unit": "C",
+   "form": "single value (manufacturer SDS); reference value (shipping document)",
+   "qual": "",
+   "method": "COC (SDS); not printed (cargo sheet)",
+   "cond": "",
+   "basis": "",
+   "outcome": "changed_or_conflicting",
+   "action": "propose_record_conflict",
+   "reason": "Three values: 230 (distributor sheet, D92), 220 (manufacturer SDS 2026, COC), 200 (shipping reference). Record the disagreement with sources; no average, no automatic preference for the newer SDS; the selected value stays until reviewed.",
+   "old_rev": "re-read manually (the DL2-11304.pdf entries and open questions as recorded in the JSON; the sheet's specific-gravity line)"
+  },
+  {
+   "p": "YUBASE_4",
+   "tier": 1,
+   "path": "kv40",
+   "old": "JSON: 19.57 cSt, ASTM D445 (DL2-11304.pdf)",
+   "new_f": "YUBASE_SDS_GLOBAL_UN_4.pdf",
+   "new_p": 4,
+   "new_text": "Viscosity, kinematic (calculated value) (40 C): 19.5 mm2/s; Shell cargo sheet: 'Kinematic Viscosity: 18 - 21 mm2/s at 40 C'",
+   "unit": "mm2/s",
+   "form": "calculated value (SDS); reference range (shipping document)",
+   "qual": "",
+   "method": "'calculated value'",
+   "cond": "40 C",
+   "basis": "",
+   "outcome": "not_comparable",
+   "action": "no_change",
+   "reason": "The SDS labels its 19.5 a calculated value and the cargo sheet gives a reference range; neither is a measured typical comparable with the recorded 19.57 (D445). No change.",
+   "old_rev": "re-read manually (the DL2-11304.pdf entries and open questions as recorded in the JSON; the sheet's specific-gravity line)"
+  },
+  {
+   "p": "YUBASE_4",
+   "tier": 2,
+   "path": "pour_point",
+   "old": "JSON: -15 C, ASTM D97 (DL2-11304.pdf)",
+   "new_f": "chs-yubase-4-rev-3.pdf",
+   "new_p": 2,
+   "new_text": "Pour Point: -12 C / 10 F (reference only)",
+   "unit": "C",
+   "form": "single value for reference only (shipping document; not a typical or a specification)",
+   "qual": "",
+   "method": "not printed",
+   "cond": "",
+   "basis": "",
+   "outcome": "changed_or_conflicting",
+   "action": "propose_record_conflict",
+   "reason": "Different value in a third-party reference document; record with its 'for reference only' note; no change of the selected value.",
+   "old_rev": "re-read manually (the DL2-11304.pdf entries and open questions as recorded in the JSON; the sheet's specific-gravity line)"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "batch": "other suppliers: Chevron Group II (reclassifications after reading the passages)",
+ "reviewed_on": "2026-11-13 (ninth pass)",
+ "note": "All 117 captured first-hit passages of zzzzzzzzz_chevron_gpii_mentions_ninth_pass.json were read. None is a Chevron base-oil document. The passages are recipe shares, blend results (e.g. DL2-13090.pdf / DL2-15038.pdf: 'Chevron 100R 91.6 m% 6.9 15,200' = a blend with 8.4 % additive), test-solvent uses (DL2-13650.pdf: VII tested 'in Chevron 100R'), a Bosch Rexroth report on a blend (DL2-11803.pdf: 'Blend of Chevron 100R Chevron 220R ... VI 103'), or column headings (DL2-11706.pdf p.16). One passage shows neat base-oil characterisation and is reclassified here: DL2-14862.pdf p.19 (read in full as text).",
+ "documents": {},
+ "links": [
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-14862.pdf",
+   "cat": "D,E",
+   "status": "completed",
+   "fields_status": "p.19 base-stock characterisation read in full (text layer); other hit pages and the rest of the document were reviewed earlier for HiTEC 12204L, not for this base oil",
+   "coverage": "NOT ASSESSED beyond p.19 for this product",
+   "identity": "printed 'BASE OIL IDENTITY Chevron 220R', inventory B15 01523, in an Afton programme book",
+   "note": "Third-party batch characterisation of the neat base oil: saturates 96.5 % (D2007), sulphur 0.0003 % (D5185), KV100 6.48 mm2/s (D445), VI 111, Group II."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-14862.pdf",
+   "cat": "D,E",
+   "status": "completed",
+   "fields_status": "p.19 read in full (text layer)",
+   "coverage": "NOT ASSESSED beyond p.19 for this product",
+   "identity": "printed 'Chevron 100R', inventory R16 06559",
+   "note": "Third-party batch characterisation: saturates 98.8 %, sulphur 0.0003 %, KV100 4.14 mm2/s, VI 103."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-14862.pdf",
+   "cat": "D,E",
+   "status": "completed",
+   "fields_status": "p.19 read in full (text layer)",
+   "coverage": "NOT ASSESSED beyond p.19 for this product",
+   "identity": "printed 'Chevron 600R', inventories B15 1524 and R16 20239",
+   "note": "Two third-party batch characterisations: saturates 96.1 / 97.3 %, sulphur 0.0003 / 0.0003 %, KV100 11.99 / 12.1 mm2/s, VI 107 / 111."
+  }
+ ],
+ "fields": [
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "tier": 1,
+   "path": "kv100",
+   "old": "DL2-10004.pdf (1/2018) read: for 220R the KV100 row prints 'Report' (no value) and the sulphur row prints 'Report'; no density or saturates row. JSON: kv100, density, sulfur, saturates Missing (consistent with the sheet).",
+   "new_f": "DL2-14862.pdf",
+   "new_p": 19,
+   "new_text": "BASE OIL IDENTITY Chevron 220R | INVENTORY NO B15 01523 | % SATURATES (ASTM D2007) 96.5 | % SULPHUR (ASTM D5185) 0.0003 | BS KV 100 C, mm2/s (ASTM D445) 6.48 | VISCOSITY INDEX 111 | BASE OIL TYPE Group II",
+   "unit": "mm2/s; %",
+   "form": "batch measurement of the neat base oil by a third party (inventory number)",
+   "qual": "",
+   "method": "as printed per row",
+   "cond": "one inventory lot",
+   "basis": "",
+   "outcome": "additional",
+   "action": "propose_open_question_update",
+   "reason": "A single Afton batch analysis cannot fill the Missing KV100, sulfur or saturates fields of a manufacturer record; propose only an open-question note citing it as third-party batch evidence. Its VI 111 lies above the recorded minimum 95 (observation only).",
+   "old_rev": "re-read manually: DL2-10004.pdf (Chevron 'Group II/II+ Specifications', footer 1/2018, 1 page) whole text layer: Viscosity @ 100 C 'Report' for 60R, 100R and 220R (ranges only for 150R 5.0-5.4, 600R 11.7-12.9, 110RLV 4.15-4.55); 'Sulpur, ppm ASTM D5453 Report' and 'API Gravity Report' for all grades; no density, no saturates"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "tier": 1,
+   "path": "kv100",
+   "old": "DL2-10004.pdf (1/2018) read: for 100R the KV100 row prints 'Report' (no value) and the sulphur row prints 'Report'; no density or saturates row. JSON: kv100, density, sulfur, saturates Missing (consistent with the sheet).",
+   "new_f": "DL2-14862.pdf",
+   "new_p": 19,
+   "new_text": "Chevron 100R | R16 06559 | saturates 98.8 % | sulphur 0.0003 % | KV100 4.14 mm2/s | VI 103 | Group II",
+   "unit": "mm2/s; %",
+   "form": "batch measurement of the neat base oil by a third party",
+   "qual": "",
+   "method": "D2007, D5185, D445",
+   "cond": "one inventory lot",
+   "basis": "",
+   "outcome": "additional",
+   "action": "propose_open_question_update",
+   "reason": "As for Chevron 220R: open-question note with third-party batch evidence only.",
+   "old_rev": "re-read manually: DL2-10004.pdf (Chevron 'Group II/II+ Specifications', footer 1/2018, 1 page) whole text layer: Viscosity @ 100 C 'Report' for 60R, 100R and 220R (ranges only for 150R 5.0-5.4, 600R 11.7-12.9, 110RLV 4.15-4.55); 'Sulpur, ppm ASTM D5453 Report' and 'API Gravity Report' for all grades; no density, no saturates"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+  "batch": "afton",
+  "reviewed_on": "2026-11-12",
+  "note": "Products named in the reviewed Afton documents that have no record in Products_json. Queue for a future ingestion decision; nothing is created now. Not a complete list of new Afton products in the archive.",
+  "documents": {},
+  "links": [],
+  "fields": [],
+  "new_product_candidates": [
+    {"name_as_printed": "HiTEC 12213", "supplier": "Afton", "file": "DL2-12634.pdf", "page": "1-2", "evidence": "own product bulletin ((c) 2018): treat rate 19.1 % wt., typical characteristics"},
+    {"name_as_printed": "HiTEC 12215", "supplier": "Afton", "file": "DL2-12634.pdf", "page": 2, "evidence": "booster with typical characteristics in the HiTEC 12213 bulletin"},
+    {"name_as_printed": "HiTEC 12260", "supplier": "Afton", "file": "DL2-13289.pdf", "page": "1-2", "evidence": "own product bulletin (booster used with HiTEC 12200)"},
+    {"name_as_printed": "HiTEC 5748A", "supplier": "Afton", "file": "DL2-12485.pdf", "page": "2-32", "evidence": "viscosity modifier of all HiTEC 12210M formulations; distinct grade from HiTEC 5748 (identity review ID-08)"},
+    {"name_as_printed": "HiTEC 672", "supplier": "Afton", "file": "DL2-13364.pdf", "page": 10, "evidence": "PPD in HiTEC 12200 / 12204L / 8788B / 12400 formulations; no data sheet reviewed"},
+    {"name_as_printed": "HiTEC 9552", "supplier": "Afton", "file": "DL2-13364.pdf", "page": 12, "evidence": "DI booster in HiTEC 12200 formulations; no data sheet reviewed"},
+    {"name_as_printed": "HiTEC 12255", "supplier": "Afton", "file": "DL2-13364.pdf", "page": 7, "evidence": "booster of the HiTEC 12204Y premix; name only"},
+    {"name_as_printed": "HiTEC 12204Y", "supplier": "Afton", "file": "DL2-13364.pdf", "page": "7, 9", "evidence": "Group I premix (15.3 %); name and route only"},
+    {"name_as_printed": "HiTEC 9490", "supplier": "Afton", "file": "DL2-13364.pdf", "page": "2-5", "evidence": "PCMO package with formulations in Nexbase, Yubase and Chevron base oils"},
+    {"name_as_printed": "HiTEC 6305", "supplier": "Afton", "file": "DL2-13146.pdf", "page": "2-3", "evidence": "viscosity modifier ('ND-Star') of the HiTEC 12400 formulations"},
+    {"name_as_printed": "HiTEC 611", "supplier": "Afton", "file": "DL2-12905.pdf", "page": 2, "evidence": "0.5 % wt in two HiTEC 8766B formulations; function not printed"},
+    {"name_as_printed": "GE220 (HiTEC 12200)", "supplier": "not named", "file": "DL2-14327.pdf", "page": 1, "evidence": "18 certificates; relation to HiTEC 12200 unresolved"}
+  ]
+}

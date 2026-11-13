@@ -1,0 +1,26 @@
+{
+ "batch": "eleventh-pass corrections: proposal filter and retrieved registered source",
+ "reviewed_on": "2026-11-13 (eleventh pass)",
+ "note": "Pipeline correction: capture_from_old_source rows (outcome in_old_source_not_captured) were dropped from the proposals table, counts and readiness rules because the build filtered on the 'propose' prefix (02_build.is_proposal now includes them; check added). Including them showed that the three fifth-pass HiTEC 8788B capture rows cite the registered PDS retrieved read-only on 2026-11-13, which had no link decision and no hash in the tables. The link is recorded here; the hash is computed from the saved bytes and equals the registered hash.",
+ "documents": {
+  "HiTEC-8788B_PDS__registered_url.pdf": {
+   "what": "Afton HiTEC 8788B PDS 02/19, retrieved from the registered Internet Archive URL",
+   "printed_date": "02/19",
+   "kind": "registered external source already cited by the JSON (not part of the new archive)",
+   "read": "both pages (text layer; approvals table as an image) in the fifth pass",
+   "limits": "SHA-256 c09305fb7b6dd746... equals source_registry.json (RETRIEVAL_LOG.txt)"
+  }
+ },
+ "links": [
+  {
+   "p": "AFTON_HITEC_8788B",
+   "f": "HiTEC-8788B_PDS__registered_url.pdf",
+   "cat": "B",
+   "status": "completed",
+   "fields_status": "both pages read in full in the fifth pass (text layer; p.2 approvals table as an image)",
+   "coverage": "compared with the JSON in the fifth pass: three values printed in this cited source were never captured (TBN 71; the 17.7 % 10W-40 approvals rows as treat-rate rows; KV100 145 and density 0.958 as PDS values beside the SDS values) - see the capture_from_old_source rows",
+   "identity": "the registered source itself: bytes equal to the registered SHA-256 (c09305fb7b6dd74619406d0c8f0f6570996b1c2c80dfb7cc91019fe96fd811fe)",
+   "note": "Not a new-archive document: it is the cited registered source, retrieved read-only; category B (same content as the cited source)."
+  }
+ ]
+}

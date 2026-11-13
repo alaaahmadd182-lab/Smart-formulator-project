@@ -1,0 +1,86 @@
+{
+ "batch": "unresolved relationships: GE220 identity and HiTEC 8799B(+) (eleventh pass)",
+ "reviewed_on": "2026-11-13 (eleventh pass)",
+ "note": "Product-specific identity evidence was searched in the full text of both archives. GE220: resolved by two Afton certificates with the same material number (030231) and identical sales specification; the 18 issuer-less GE220 certificates stay batch evidence (issuer still unnamed). Three GE220 documents not found by the name search were linked. HiTEC 8799B(+): no explanatory document exists in either archive; the two links remain unresolved.",
+ "documents": {
+  "DL2-14351.pdf": {
+   "what": "Afton Chemical certificate of analysis GE220, material number 030231, lot B191227",
+   "printed_date": "ship date August 16, 2019; certification 07/10/2019",
+   "kind": "manufacturer batch certificate (identity evidence)",
+   "read": "whole page",
+   "limits": "customer fields blank in the text layer"
+  }
+ },
+ "links": [
+  {
+   "p": "AFTON_HITEC_12200",
+   "f": "DL2-12905.pdf",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "not verified: column alignment unreadable in the text layer",
+   "coverage": "not assessed",
+   "identity": "exact name in a formulation row (p.2); document by Chevron about Afton packages. RESOLVED by Afton's own documents: the Afton Chemical certificates DL2-14386.pdf ('Product: HiTEC 12200', Material Number 030231, order 0001088597, ship date July 5, 2019) and DL2-14351.pdf ('Product: GE220', Material Number 030231, lot B191227, order 0001088641, ship date August 16, 2019) carry the same Afton material number and an identical sales specification (Ca 3.05 / 3.36 / 3.67 %M; N 0.70 / 0.81 / 0.92; P 0.82 / 0.92 / 1.02; Zn 0.91 / 1.01 / 1.11; flash PMCC D93 min 135; SG 0.974 / 0.989 / 1.004; KV100 150 / 190 / 230; B 500 / 800 / 1100 ppm; Mo 300 / 360 / 420 ppm; TBN 98 / 103 / 113) and the same Afton QC laboratory: GE220 is Afton material 030231, i.e. HiTEC 12200 under another product name.",
+   "note": "Formulations with Chevron 150R/220R/600R; nothing proposed until the table is read visually. Eleventh pass: identity resolved (see identity). The issuer of this certificate is still not printed ('Certified by: Technical Team'; Buyer Ref 971041059); its lot numbers (DH9xxx / B1912xx-B1913xx) belong to the same series as Afton's lot B191227. Batch evidence only: no value is proposed from it. Twelfth pass - two separate questions: (1) PRODUCT IDENTITY (GE220 = Afton material 030231 = HiTEC 12200): established by the two Afton certificates; (2) THIS CERTIFICATE's issuer: not printed ('Certified by: Technical Team'); authenticity of the individual certificate: not verified (no issuer signature, stamp or registry could be checked). (1) does not establish (2)."
+  },
+  {
+   "p": "AFTON_HITEC_12200",
+   "f": "GE220 certificates",
+   "cat": "E",
+   "status": "completed",
+   "identity": "printed product is 'GE220 (HiTEC 12200)'; issuer not named in the text layer. RESOLVED by Afton's own documents: the Afton Chemical certificates DL2-14386.pdf ('Product: HiTEC 12200', Material Number 030231, order 0001088597, ship date July 5, 2019) and DL2-14351.pdf ('Product: GE220', Material Number 030231, lot B191227, order 0001088641, ship date August 16, 2019) carry the same Afton material number and an identical sales specification (Ca 3.05 / 3.36 / 3.67 %M; N 0.70 / 0.81 / 0.92; P 0.82 / 0.92 / 1.02; Zn 0.91 / 1.01 / 1.11; flash PMCC D93 min 135; SG 0.974 / 0.989 / 1.004; KV100 150 / 190 / 230; B 500 / 800 / 1100 ppm; Mo 300 / 360 / 420 ppm; TBN 98 / 103 / 113) and the same Afton QC laboratory: GE220 is Afton material 030231, i.e. HiTEC 12200 under another product name.",
+   "note": "Limits equal Afton's sales specification in DL2-14386.pdf, but whether GE220 is HiTEC 12200 under a customer code or a separately blended product is not stated. Not used for any proposal. Eleventh pass: identity resolved (see identity). The issuer of this certificate is still not printed ('Certified by: Technical Team'; Buyer Ref 971041059); its lot numbers (DH9xxx / B1912xx-B1913xx) belong to the same series as Afton's lot B191227. Batch evidence only: no value is proposed from it. Twelfth pass - two separate questions: (1) PRODUCT IDENTITY (GE220 = Afton material 030231 = HiTEC 12200): established by the two Afton certificates; (2) THIS CERTIFICATE's issuer: not printed ('Certified by: Technical Team'); authenticity of the individual certificate: not verified (no issuer signature, stamp or registry could be checked). (1) does not establish (2).",
+   "fields_status": "whole page read (text layer)",
+   "coverage": "batch evidence only; limits equal the Afton sales specification; nothing proposed"
+  },
+  {
+   "p": "AFTON_HITEC_8799B",
+   "f": "DL2-12551.pdf",
+   "cat": "C,H",
+   "status": "unresolved",
+   "fields_status": "nothing to compare",
+   "coverage": "not applicable",
+   "identity": "printed 'HiTEC 8799B(+)' on p.12: the '(+)' is not explained, so identity with HiTEC 8799B is not established",
+   "note": "Portfolio slide only. Eleventh pass: a full-text search of both archives for '8799B(+)', '8799B +' and '8799 B plus' finds only these two portfolio slides (DL2-12551.pdf, DL2-15748.pdf); no document explains '(+)'. Remains unresolved."
+  },
+  {
+   "p": "AFTON_HITEC_8799B",
+   "f": "DL2-15748.pdf",
+   "cat": "C,H",
+   "status": "unresolved",
+   "fields_status": "nothing to compare",
+   "coverage": "not applicable",
+   "identity": "as DL2-12551.pdf",
+   "note": "Portfolio slide only. Eleventh pass: a full-text search of both archives for '8799B(+)', '8799B +' and '8799 B plus' finds only these two portfolio slides (DL2-12551.pdf, DL2-15748.pdf); no document explains '(+)'. Remains unresolved."
+  },
+  {
+   "p": "AFTON_HITEC_12200",
+   "f": "DL2-14351.pdf",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "whole page read in full (text layer)",
+   "coverage": "limits equal the Afton HiTEC 12200 sales specification (DL2-14386.pdf); Afton-issued; carries the identity evidence (material number) and the full Afton sales specification, equal to DL2-14386.pdf; batch actuals (e.g. Ca 3.25, TBN 104, KV100 174) are batch evidence only. Labelling note: the issuer-less certificates print 'Density @ 15.6 C' against the target 0.989 that Afton prints both for 'Sp. Gr. @ 15.6/15.6 C' and 'Density @ 15 C'.",
+   "identity": "printed 'GE220'; Afton Chemical CERTIFICATE OF ANALYSIS, Product GE220, Material Number 030231, lot B191227 (manufacturing JULY 2019, certification 07/10/2019), order 0001088641. RESOLVED by Afton's own documents: the Afton Chemical certificates DL2-14386.pdf ('Product: HiTEC 12200', Material Number 030231, order 0001088597, ship date July 5, 2019) and DL2-14351.pdf ('Product: GE220', Material Number 030231, lot B191227, order 0001088641, ship date August 16, 2019) carry the same Afton material number and an identical sales specification (Ca 3.05 / 3.36 / 3.67 %M; N 0.70 / 0.81 / 0.92; P 0.82 / 0.92 / 1.02; Zn 0.91 / 1.01 / 1.11; flash PMCC D93 min 135; SG 0.974 / 0.989 / 1.004; KV100 150 / 190 / 230; B 500 / 800 / 1100 ppm; Mo 300 / 360 / 420 ppm; TBN 98 / 103 / 113) and the same Afton QC laboratory: GE220 is Afton material 030231, i.e. HiTEC 12200 under another product name.",
+   "note": "Not found by the name search (\"GE220\" is not a HiTEC 12200 alias); linked by the reviewer in the eleventh pass. Twelfth pass - two separate questions: (1) PRODUCT IDENTITY (GE220 = Afton material 030231 = HiTEC 12200): established by the two Afton certificates; (2) THIS CERTIFICATE's issuer: Afton Chemical (printed); authenticity of the individual certificate: not verified (no issuer signature, stamp or registry could be checked). (1) does not establish (2)."
+  },
+  {
+   "p": "AFTON_HITEC_12200",
+   "f": "DL2-14338.pdf",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "whole page read in full (text layer)",
+   "coverage": "limits equal the Afton HiTEC 12200 sales specification (DL2-14386.pdf); same layout and limits as the 18 GE220 certificates; batch evidence only. Labelling note: the issuer-less certificates print 'Density @ 15.6 C' against the target 0.989 that Afton prints both for 'Sp. Gr. @ 15.6/15.6 C' and 'Density @ 15 C'.",
+   "identity": "printed 'GE220'; Certificate of Analysis 'Product: GE220' (no '(HiTEC 12200)' gloss), Buyer Ref 971041059, batch DH9510, 31 Oct 2019; issuer not printed. RESOLVED by Afton's own documents: the Afton Chemical certificates DL2-14386.pdf ('Product: HiTEC 12200', Material Number 030231, order 0001088597, ship date July 5, 2019) and DL2-14351.pdf ('Product: GE220', Material Number 030231, lot B191227, order 0001088641, ship date August 16, 2019) carry the same Afton material number and an identical sales specification (Ca 3.05 / 3.36 / 3.67 %M; N 0.70 / 0.81 / 0.92; P 0.82 / 0.92 / 1.02; Zn 0.91 / 1.01 / 1.11; flash PMCC D93 min 135; SG 0.974 / 0.989 / 1.004; KV100 150 / 190 / 230; B 500 / 800 / 1100 ppm; Mo 300 / 360 / 420 ppm; TBN 98 / 103 / 113) and the same Afton QC laboratory: GE220 is Afton material 030231, i.e. HiTEC 12200 under another product name.",
+   "note": "Not found by the name search (\"GE220\" is not a HiTEC 12200 alias); linked by the reviewer in the eleventh pass. Twelfth pass - two separate questions: (1) PRODUCT IDENTITY (GE220 = Afton material 030231 = HiTEC 12200): established by the two Afton certificates; (2) THIS CERTIFICATE's issuer: not printed ('Certified by: Technical Team'); authenticity of the individual certificate: not verified (no issuer signature, stamp or registry could be checked). (1) does not establish (2)."
+  },
+  {
+   "p": "AFTON_HITEC_12200",
+   "f": "DL2-14360.pdf",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "whole page read in full (text layer)",
+   "coverage": "limits equal the Afton HiTEC 12200 sales specification (DL2-14386.pdf); as DL2-14338.pdf; batch evidence only. Labelling note: the issuer-less certificates print 'Density @ 15.6 C' against the target 0.989 that Afton prints both for 'Sp. Gr. @ 15.6/15.6 C' and 'Density @ 15 C'.",
+   "identity": "printed 'GE220'; Certificate of Analysis 'Product: GE220', Buyer Ref 971041059, batch DH9402, 28 Aug 2019; issuer not printed. RESOLVED by Afton's own documents: the Afton Chemical certificates DL2-14386.pdf ('Product: HiTEC 12200', Material Number 030231, order 0001088597, ship date July 5, 2019) and DL2-14351.pdf ('Product: GE220', Material Number 030231, lot B191227, order 0001088641, ship date August 16, 2019) carry the same Afton material number and an identical sales specification (Ca 3.05 / 3.36 / 3.67 %M; N 0.70 / 0.81 / 0.92; P 0.82 / 0.92 / 1.02; Zn 0.91 / 1.01 / 1.11; flash PMCC D93 min 135; SG 0.974 / 0.989 / 1.004; KV100 150 / 190 / 230; B 500 / 800 / 1100 ppm; Mo 300 / 360 / 420 ppm; TBN 98 / 103 / 113) and the same Afton QC laboratory: GE220 is Afton material 030231, i.e. HiTEC 12200 under another product name.",
+   "note": "Not found by the name search (\"GE220\" is not a HiTEC 12200 alias); linked by the reviewer in the eleventh pass. Twelfth pass - two separate questions: (1) PRODUCT IDENTITY (GE220 = Afton material 030231 = HiTEC 12200): established by the two Afton certificates; (2) THIS CERTIFICATE's issuer: not printed ('Certified by: Technical Team'); authenticity of the individual certificate: not verified (no issuer signature, stamp or registry could be checked). (1) does not establish (2)."
+  }
+ ]
+}

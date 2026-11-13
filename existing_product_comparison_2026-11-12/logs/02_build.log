@@ -1,0 +1,144 @@
+{
+ "new_documents_only_after_reviewed_exclusions": {
+  "links": 64,
+  "documents": 64,
+  "products": 25
+ },
+ "revision_candidates": {
+  "original": 7,
+  "after_reviewed_exclusions": 5
+ },
+ "ledger": {
+  "links_total": 1373,
+  "found_by": {
+   "full-text search and earlier inventory": 361,
+   "full-text search": 906,
+   "earlier inventory only": 82,
+   "full-text search + reviewed generic-alias mapping (supplier not on the hit page; scripts/reviewed_generic_alias_pairs.json)": 18,
+   "manual review only (not in the automated tables)": 6
+  },
+  "relationship_status": {
+   "completed": 1369,
+   "unresolved": 2,
+   "excluded with reason": 2
+  },
+  "exact_duplicate_links": 282,
+  "non_duplicate_links": 1091,
+  "non_duplicate_by_status": {
+   "completed": 1087,
+   "unresolved": 2,
+   "excluded with reason": 2
+  },
+  "non_duplicate_by_batch_and_status": {
+   "afton": {
+    "completed": 92,
+    "unresolved": 2
+   },
+   "infineum": {
+    "completed": 44
+   },
+   "lubrizol": {
+    "completed": 22
+   },
+   "other suppliers": {
+    "completed": 929,
+    "excluded with reason": 2
+   }
+  }
+ },
+ "fields": {
+  "rows": 420,
+  "outcomes": {
+   "additional": 222,
+   "changed_or_conflicting": 78,
+   "already_captured": 40,
+   "not_comparable": 16,
+   "in_old_source_not_captured": 64
+  },
+  "proposed": 384,
+  "ready_for_reviewer_decision": 384,
+  "provisional": 0,
+  "new_source_verification": {
+   "visual": 123,
+   "text layer": 297
+  },
+  "old_source_review": {
+   "re-read manually": 404,
+   "re-read manually in full": 15,
+   "automated text search only": 1
+  }
+ }
+}
+reviewed documents 187; visual checks 59 done, 5 outstanding; old sources referenced 126; excerpts 343
+  CHECK field path: RF6602 1 open_questions no such field in the template
+  CHECK field path: EXXONMOBIL_ESTEREX_A32 1 open_questions no such field in the template
+  CHECK field path: EXXONMOBIL_ESTEREX_A34 1 open_questions no such field in the template
+  CHECK field path: EXXONMOBIL_ESTEREX_A41 1 open_questions no such field in the template
+  CHECK field path: EXXONMOBIL_ESTEREX_A51 1 open_questions no such field in the template
+  CHECK field path: EXXONMOBIL_ESTEREX_NP343 1 open_questions no such field in the template
+  CHECK field path: EXXONMOBIL_ESTEREX_NP451 1 open_questions no such field in the template
+  CHECK field path: EXXONMOBIL_ESTEREX_P61 1 open_questions no such field in the template
+  CHECK field path: EXXONMOBIL_ESTEREX_P81 1 open_questions no such field in the template
+  CHECK field path: EXXONMOBIL_ESTEREX_TM111 1 open_questions no such field in the template
+  CHECK field path: EXXONMOBIL_SYNESSTIC_5 1 open_questions no such field in the template
+  CHECK field path: EXXONMOBIL_SYNESSTIC_12 1 open_questions no such field in the template
+  CHECK field path: INFINEUM_D3503 2 open_questions no such field in the template
+  CHECK field path: CHEVRON_SYNFLUID_PAO_4 1 open_questions no such field in the template
+  CHECK field path: CHEVRON_SYNFLUID_PAO_6 1 open_questions no such field in the template
+  CHECK field path: CHEVRON_SYNFLUID_PAO_8 1 open_questions no such field in the template
+  CHECK field path: CHEVRON_SYNFLUID_MPAO_100 1 open_questions no such field in the template
+  CHECK field path: CHEVRON_SYNFLUID_MPAO_65 1 open_questions no such field in the template
+  CHECK field path: CHEVRON_SYNFLUID_MPAO_150 1 open_questions no such field in the template
+  CHECK field path: CHEVRON_SYNFLUID_PAO_2 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6066 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6069 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6069 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6077 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6077 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6078 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6078 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6079 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6079 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6080 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6080 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6081 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6081 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6088 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6088 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6088F 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6088F 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6400 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6400 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6400 1 open_questions no such field in the template
+  CHECK field path: RICHFUL_RF6400 1 open_questions no such field in the template
+  CHECK field path: NYNAS_S_3B 1 open_questions no such field in the template
+  CHECK field path: NYNAS_S_3B 1 open_questions no such field in the template
+  CHECK field path: NYNAS_NS_3 1 open_questions no such field in the template
+  CHECK field path: NYNAS_NYFROST_32 1 conflicts no such field in the template
+  CHECK field path: NYNAS_NYFROST_32 1 open_questions no such field in the template
+  CHECK field path: NYNAS_NYFROST_32 1 open_questions no such field in the template
+  CHECK field path: NESTE_NEXBASE_3020 1 open_questions no such field in the template
+  CHECK field path: PETRO_CANADA_PURITY_L50 1 open_questions no such field in the template
+  CHECK field path: AFTON_HITEC_5748 1 open_questions no such field in the template
+  CHECK field path: LUBRIZOL_CV2301 1 open_questions no such field in the template
+  CHECK field path: LUBRIZOL_CV2301 1 open_questions no such field in the template
+  CHECK field path: LUBRIZOL_CV7540 1 open_questions no such field in the template
+  CHECK field path: MINGYUEKEJI_MY_P3168 1 open_questions no such field in the template
+  CHECK field path: INFINEUM_D3511 1 open_questions no such field in the template
+  CHECK field path: INFINEUM_D3320 1 open_questions no such field in the template
+  CHECK field path: INFINEUM_D3503 1 open_questions no such field in the template
+  CHECK field path: INFINEUM_D3503 1 open_questions no such field in the template
+  CHECK field path: CHEVRON_SYNFLUID_MPAO_40 1 open_questions no such field in the template
+  CHECK field path: NYNAS_BASE_STOCK_20 1 open_questions no such field in the template
+  CHECK field path: NYNAS_BNS_5 1 open_questions no such field in the template
+  CHECK field path: NYNAS_NYBASE_70 1 open_questions no such field in the template
+  CHECK field path: NYNAS_NYFROST_68 1 open_questions no such field in the template
+  CHECK field path: NYNAS_NYFROST_100 1 open_questions no such field in the template
+  CHECK field path: NYNAS_T_3 1 open_questions no such field in the template
+  CHECK field path: NYNAS_T_4 1 open_questions no such field in the template
+  CHECK field path: NYNAS_T_600 1 open_questions no such field in the template
+  CHECK field path: NYNAS_T_9 1 open_questions no such field in the template
+  CHECK field path: NYNAS_NS_3 1 open_questions no such field in the template
+  CHECK field path: LUBRIZOL_CV2301 1 open_questions no such field in the template
+  CHECK field path: CHEVRON_GROUP_II_220R 3 open_questions no such field in the template
+  CHECK field path: AFTON_HITEC_5748 1 open_questions no such field in the template

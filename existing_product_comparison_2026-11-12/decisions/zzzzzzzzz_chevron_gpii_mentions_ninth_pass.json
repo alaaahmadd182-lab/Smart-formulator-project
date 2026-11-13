@@ -1,0 +1,1179 @@
+{
+ "batch": "other suppliers: base-oil mentions",
+ "reviewed_on": "2026-11-13 (ninth pass)",
+ "note": "Classified with scripts/helpers/write_base_oil_mentions.py after reading the name-hit lines of every listed document; product-specific documents were excluded and reviewed separately. Ninth pass: the captured first-hit passage of all 117 links was read; DL2-14862.pdf was reclassified in zzzzzzzzz_chevron_gpii_ninth_pass.json; the others are recipe shares, blend results, test-solvent uses or column headings.",
+ "documents": {},
+ "links": [
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-14862.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.10: , %wt HiTEC® 12200 9.68 9.68 9.68 HiTEC® 12204L - - - 14.20 Chevron 100R 55.52 - - - Chevron 600R 24.00 - - - Petrobras 150N - 58.00 - - Petrobras 500N - 23.22 -"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-13071.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: Group II Group III APE CORE 150 APE CORE 600 APE CORE BS Chevron 100R Chevron 220R Chevron 600R Nexbase 3030 Nexbase 3043 Nexbase 3060 HiTEC® 672 Premium Pour"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-12770.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.11: 48-4005 Viscosity Grade ISO 32 ISO 32 HiTEC® 2505, %wt Chevron 100R, %wt Chevron 220R, %wt Yubase 4, %wt Yubase 6, %wt 0.80 34.00 65.20 0.70"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-13090.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: H/M/C4 Base stock 91.6 m% KV cSt @100°C Brookfield cP@-40°C Chevron 100R 91.6 m% 6.9 15,200 ExxonMobil HC E45 91.6 m% 7.4 15,200 Motiva Star 4 91.6 m% 7.0 17,100"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-15038.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: r 4 91.6 m% 7.0 17,100 Excel 110 91.6 m% 6.9 15,700 Chevron 100R 91.6 m% 6.9 15,200"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-13650.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: 2) 1.0 wt% in Sentinel PO847 3) ASTM D5293 (1.5 wt% in Chevron 100R) 4) ASTM D4684 (1.5 wt% in Chevron 100R)"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-11766.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: 0.300 0.300 0.300 CALPAR 150 BS 41.634 65.214 65.410 50.118 CHEVRON 100R BS 14.076 CHEVRON 220R BS 39.242 65.000 65.000 CHEVRON 600R BS 15.168 15.000 EHC 110 BS 2"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "OLOA%2055603%20ILSAC%20GF-7%20and%20Gen%203%20MG%20Customer%20Deck%20-%20AMR%20APR%20EAME%20Jul26%20.pptx",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: .74 - 20.38 CP Synfluid PAO [4] - - - - - - - 9.94 9.83 - - Chevron 100R - - - - - - - - - 8.17 - Chevron 220R - - - - - - - - - 30.24 - BAPBase 4 61.12 52.63 BAP"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-12905.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: HiTEC 672 0.2 0.2 0.2 0.2 Chevron 220R 48.0 47.6 42.9 42.6 Chevron 100R 15.0 15.0 Yubase 4 30.0 20.0 Nexbase 3043 30.0 20.0 100.0 100.0 100.0 100.0 Performance C"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-12906.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.11: 0 11.30 11.30 11.30 11.30 11.30 11.30 Base Oils Ratio Only: Chevron 100R 16.44 16.33 20.24 18.92 Chevron 220R 70.08 70.18 66.26 67.57 46.23 43.72 46.23 45.23 Chev"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "Introduction%20of%20Infineum%20T4580.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: o ExxonMobil/S K Infineum T4580 8.4 8.4 8.4 8.4 8.4 8.4 8.4 Chevron 100R 91.6 ExxonMobil EHC 45 91.6 aramcoPRIMA 100 91.6 Excel 110 91.6 aracmoPRIMA 110 91.6 Exxo"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-12781.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.10: SV261 VM 7.5 5.0 0.5 3.7 Infineum V385 LOFI 0.3 0.3 0.3 0.3 Chevron 100R BS 50.1 30.6 3.1 1.9 Chevron 600R BS 32.0 54.0 86.0 84.0 Total % 100 100 100 100 Test Met"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-11812.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: - - - - - - Luberef II 500SN - 32.50 - 8.50 - - - - - - - - Chevron 100R - - 52.50 - - - - - - - - - Chevron 600R - - 37.90 - - - - - - - - - XOM AP/E 100 - - - -"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-12412.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.35: PARATONE® 8006E, wt% 11.9 11.9 PPD, OLOA® 19803 wt% 0.3 0.3 CHEVRON 100R 14.25 12.97 CHEVRON 220R 52.25 53.53 NEXBASE 3043 10.0 YUBASE 4 10.0 KV 100°C, mm2/s 14.6"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-11706.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: e Formulation, %wt DI1 DI2 HiTEC® 12200 Motiva 6 Motiva 12 Chevron 100R Chevron 600R API Performance Level Oil Code Formulation"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-12593.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: A HiTEC® 34321, % wt. 8.2 6.0 4.1 Motiva Star 4, % wt. 91.8 Chevron 100R, % wt. 59.0 28.8 Chevron 220R, % wt. 35.0 67.1 KV100, mm2/s 7.0 7.1 7.2 Brookfield at -40"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-12633.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: ormulation (% weight) AT-13557-13 HiTEC® 34321 6.0 Chevron 100R 59.0 Chevron 220R 35.0 Kinematic Viscosity, 100°C, cSt 7.21 Brookfield Vi"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "Infineum-T4311%20and%20Infineum%20T4318%20Product%20Brochure.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.24: fineum T4163 6.0 6.0 6.0 6.0 6.0 6.0 Exxon EHC 50 40.0 40.0 Chevron 100R 40.0 40.0 Yubase 3 12.0 44.0 22.0 Yubase 4 72.0 22.0 Nexbase 3030 15.0 44.0 24.5 Nexbase"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-15805.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: ormulation (% weight) AT-13557-13 HiTEC® 34321 6.0 Chevron 100R 59.0 Chevron 220R 35.0 Kinematic Viscosity, 100°C, cSt 7.21 Brookfield Vi"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-12999.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: Yubase 4 80.0 Nexbase 3043 80.0 Yubase 3 45.0 Yubase 6 35.0 Chevron 100R 80.0 Total 100.0 100.0 100.0 100.0 Typical viscometrics KV100, cSt 7.5 7.4 7.5 7.4 KRL @"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-11768.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: 0 0.300 0.300 0.300 0.300 0.300 CALPAR 150 BS 50.758 50.118 CHEVRON 100R BS 13.078 CHEVRON 220R BS 37.000 77.700 EHC 110 BS 30.000 27.359 EHC 45 BS 55.200 41.141"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-13364.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: .6 HiTEC ® 5748 9.2 9.6 9.3 9.6 HiTEC ® 672 0.2 0.2 0.2 0.2 Chevron 100R - - 15.0 15.0 Chevron 220R 48 47.6 42.9 42.6 Yubase 4 - 30.0 - 20 Nexbase 3043 30.0 - 20"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-15013.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.10: HiTEC® 672 PPD 0.20 0.20 0.20 HiTEC® 5748 VM 5.50 9.50 7.30 Chevron 100R API Group II 53.70 49.70 51.90 Yubase 4 API Group III 14.00 15.00 14.00 Yubase 6 API Grou"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-11803.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: Test results Source of Base Oil Blend of Chevron 100R Chevron 220R Viscosity ISO VG 32 Viscosity Index 103 Sulphur"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-13852.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.19: PPD. OLOA® 19803 wt% 0.30% PPD. OLOA® 19803 wt% 0.30% 0.30% CHEVRON 100R 14.25% 12.97% CHEVRON 220R 36.45% CHEVRON 220R 39.90% 43.0% CHEVRON 220R 52.25% 53.53% CH"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_100R",
+   "f": "DL2-13118.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: 69 PARATONE® 24EX 5.4 10 9.7 6.1 PPD 1-318 0.3 0.3 0.3 0.3 Chevron 100R 26.61 (33.43) 15.9 (21.2) 12.9 (17.13) 8.00 (10.14) Chevron 220R 53.00 (66.57) 47.11 (62."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_110RLV",
+   "f": "DL2-12610.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: 53.05 - CHEVRON 600R - - - - - - - - - - 11.88 13.52 5.89 - CHEVRON 110RLV - - - - - 24.09 - - 25.04 - - - 25.26 - SAFETY-KLEEN 240N - - - - 41.90 - - 39.95 - - - -"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_110RLV",
+   "f": "DL2-12276.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: 2 Chevron 220R 58.4325 53.046 54.73 76.57 - - 58.8 - 66.732 Chevron 110RLV 25.0425 25.26 25.26 - - 25.2 - - Chevron RLOP 600R - 5.894 4.21 4.03 - - - - 13.668 Motiv"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_110RLV",
+   "f": "DL2-12485.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: ation (%) wt HiTEC® 12210M DI 18.0 HiTEC® 5748A ND-OCP 1.0 Chevron 110RLV API Group II 31.0 Chevron 220R API Group II 50.0 Afton Oil Code LBR-017416-D Viscosity Gr"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_110RLV",
+   "f": "DL2-12486.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: ation (%) wt HiTEC® 12210M DI 18.0 HiTEC® 5748A ND-OCP 1.0 Chevron 110RLV API Group II 31.0 Chevron 220R API Group II 50.0 Afton Oil Code LBR-017416-D Viscosity Gr"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_110RLV",
+   "f": "DL2-12906.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: 19.0 PARATONE® 68231E # 3.4 3.6 6.9 4.6 PPD 0.3 0.3 0.3 0.3 Chevron 110RLV 24.4 Chevron 220R 53.0 54.4 51.7 74.6 Chevron 600R 1.5 Nexbase 3043 22.7 22.1 100 100 100"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_110RLV",
+   "f": "DL2-11780.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: 5.0 5.0 wt% VISCOPLEX 1-318 0.3 VISCOPLEX 1-603 0.3 0.3 wt% Chevron 110RLV 52.81 (66) Chevron 220R 66.86 (85) 7.20 (9) 20.00 (25) Chevron 600R 11.8 (15) 40.01 (50)"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_150R",
+   "f": "DL2-13066.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: lated to the same HTHS of 3.2cP 10W-30 SJ - SN ROLP 600N 10 Chevron 150R 90 PV7030 6.97 PV6795 0.43 7749B 0.2 7077 5.5 KV100 Target 9.3 – 12.5 cSt HTHS Target >2."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_150R",
+   "f": "DL2-11898.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.19: 19.6 Exxon 600N Am.Core (Grp-I) 26.8 29.1 17.9 78.6 Chevron 150R (Grp-II) 53.7 Chevron 600R (Grp-II) 36.3 Additives, Mass"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_150R",
+   "f": "DL2-12905.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: 2 Chevron 600R 12.0 20.0 20.0 23.0 33.0 33.0 35.0 16.1 15.7 Chevron 150R 48.4 48.9 47.9 Nexbase 3043 30.0 30.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_150R",
+   "f": "DL2-12906.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: logy – Automotive Product Summary ( Asia Pacific) Includes Chevron 150R Formulation Chevron Base Oils December 2019 This presentation contains confidential and p"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_150R",
+   "f": "DL2-11897.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.18: 7 60.83 Exxon 600N Am. Core (Grp-I) 17.9 26.07 Chevron 150R (Grp-II) 53.7 Chevron 600R (Grp-II) 36.3 Asia-Pacific Base Oil 500N (Grou"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_150R",
+   "f": "DL2-12410.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: lated to the same HTHS of 3.2cP 10W-30 SJ - SN ROLP 600N 10 Chevron 150R 90 PV7030 6.97 PV6795 0.43 7749B 0.2 7077 5.5 KV100 Target 9.3 – 12.5 cSt HTHS Target >2."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_150R",
+   "f": "DL2-12548.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: 䉯\u0000栠\u0000汵楤\u0000\u0000睥牥\u0000景牭畬慴敤\u0000瑯\u0000瑨攠獡浥\u0000䡔\u0000匠潦\u0000㌮㉣\u000010W-30 SJ - SN ROLP 600N 10 Chevron 150R 90 PV7030 6.97 PV6795 0.43 7749B 0.2 7077 5.5 KV100 Target 9.3 – 12.5 cSt HTHS Target >2."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_150R",
+   "f": "DL2-15543.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.35: 10W-40 15W-40 API Level CK-4 BO Formosa 150N Formosa 500N Chevron 150R Chevron 600R CNOOC 150N CNOOC 500N Requirements Claim Must have API CK"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_150R",
+   "f": "DL2-12623.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.47: eum SV261 VM 5.200 Infineum V385 LOFI 0.200 Chevron 150R BS (gp II) 48.100 SK500N BS (gp II) 34.600 Total % 100.000 API/ACEA License Informatio"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-14862.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.19: Group II BASE OIL TYPE Group II Group II BASE OIL IDENTITY Chevron 220R Chevron 100R BASE OIL IDENTITY Aramco Prima 230 INVENTORY NO B15 01523 R16 06559 INVENTOR"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13071.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: p III APE CORE 150 APE CORE 600 APE CORE BS Chevron 100R Chevron 220R Chevron 600R Nexbase 3030 Nexbase 3043 Nexbase 3060 HiTEC® 672 Premium Pour Point Depress"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12983.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: 6 Paratone 8006, wt% 0.3 PPD - OLOA 19803, wt% 72.69 14.69 CHEVRON 220R, wt% OLOA 59094, wt% Type 2.1 MTU 93K218 DDC ECF-2, ECF-3 Cat DHD-1 demonstrated Global D"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12202.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: on (%wt) Lubrizol® CV1100 DI 14.2% Lubrizol® 7077 NDVM 7.5% Chevron 220R API Group II 78.3% Performance claims ACEA 2016 E9-16 2 API CK-41, CJ-4 2 Daimler MB 228."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13796.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.11: f manufacturing • Formulated with only two base stock cuts (Chevron 220R and Yubase 4) • Covers thicker SAE 10W-40 and thinner SAE 10W-30 with the same treat rate"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12610.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: - 6.41 - - - - NEXBASE 3060 - 79.30 - - - - - - - - - - - - CHEVRON 220R - - - - - 56.21 - - 58.43 - 67.31 65.99 53.05 - CHEVRON 600R - - - - - - - - - - 11.88 13"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12770.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.11: Grade ISO 32 ISO 32 HiTEC® 2505, %wt Chevron 100R, %wt Chevron 220R, %wt Yubase 4, %wt Yubase 6, %wt 0.80 34.00 65.20 0.70 16.00 83.30 Total"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13550.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: E ® 8065, wt% 6.2 PARATONE ® 8059, wt% 4.3 PPD, wt% 0.3 0.3 CHEVRON 220R, wt% 61.16 CHEVRON 600R, wt% 20.39 BPCL Mbase Gp II 150N 31.71 BPCL Mbase Gp II 500N 51.7"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-11898.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.14: ted Formulation SAE 15W-30 Final Formulation SAE 15W-40 Chevron 220R (Group-II) 79.2% 53.7% Chevron 600R (Group-II) 10.8% 36.3% Lubrizol® 16008 2.8% 2"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12276.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: 5 6 3.9 6.5 6.3 LZ 6662 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 Chevron 220R 58.4325 53.046 54.73 76.57 - - 58.8 - 66.732 Chevron 110RLV 25.0425 25.26 25.26 - - 25.2"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12453.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.23: ,30% 7,1% 7,6% PPD (OLOA 19803) 0,50% 0,50% 0,30% 0,3% 0,3% Chevron 220R 78,60% 45,90% 12,80% Chevron 600R 84,10% XOM EHC50 53,20% XOM EHC110 26,00% XOM AP/E 150N"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12485.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: .0 HiTEC® 5748A ND-OCP 1.0 Chevron 110RLV API Group II 31.0 Chevron 220R API Group II 50.0 Afton Oil Code LBR-017416-D Viscosity Grade 10W-30 Chemical and Physica"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12486.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: .0 HiTEC® 5748A ND-OCP 1.0 Chevron 110RLV API Group II 31.0 Chevron 220R API Group II 50.0 Afton Oil Code LBR-017416-D Viscosity Grade 10W-30 Chemical and Physica"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-11766.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: R 150 BS 41.634 65.214 65.410 50.118 CHEVRON 100R BS 14.076 CHEVRON 220R BS 39.242 65.000 65.000 CHEVRON 600R BS 15.168 15.000 EHC 110 BS 27.359 30.000 EHC 45 BS"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13694.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: 30 0.30 Infineum SV203, %m 3.60 - Infineum SV261, %m - 5.90 Chevron 220R (Gp. II), %m 48.30 47.50 Chevron 600R (Gp. II), %m 7.50 6.00 Yubase 4 (Gp. III), %m 26.00"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "OLOA%2055603%20ILSAC%20GF-7%20and%20Gen%203%20MG%20Customer%20Deck%20-%20AMR%20APR%20EAME%20Jul26%20.pptx",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: - - - - 9.94 9.83 - - Chevron 100R - - - - - - - - - 8.17 - Chevron 220R - - - - - - - - - 30.24 - BAPBase 4 61.12 52.63 BAPBase 8 4.19 29.6 GTL4 (Trim Fluid) 18."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12905.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: 0 HiTEC 672 0.1 0.1 0.2 0.2 0.2 0.2 0.2 0.2 0.1 0.1 0.1 0.1 Chevron 220R 69.3 81.2 61.6 62.1 59.8 67.5 66.8 49.1 48.2 Chevron 600R 12.0 20.0 20.0 23.0 33.0 33.0 3"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13799.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: als have a 50k€ approval fee Code IME1610416-C Grade SAE 40 Chevron 220R 20.0% Chevron 600R 67.5% Infineum M8220 12.5% Total 100.0%"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12906.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: E # 3.4 3.6 6.9 4.6 PPD 0.3 0.3 0.3 0.3 Chevron 110RLV 24.4 Chevron 220R 53.0 54.4 51.7 74.6 Chevron 600R 1.5 Nexbase 3043 22.7 22.1 100 100 100 100 Performance C"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13311.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: 18.630 CHEV5R BS 19.000 CHEVRON 220R BS 67.400 VAL165P BS 61.981 VAL700"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13801.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: • Still using Infineum SV261 Code IME1401827-A Grade 10W-40 Chevron 220R 48.7% Nexbase 3043 30.0% Infineum SV261 8.0% Infineum D3451 11.9% Infineum D2367 1.2% Inf"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12204.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: Detergent, Inhibitor (DI) Additive Package Lubrizol® CV1100 CHEVRON 220R Lubrizol® 7077 Total Detergent, Inhibitor (DI) Additive Package 14.20 Total Non-Dispersan"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12412.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.35: 11.9 PPD, OLOA® 19803 wt% 0.3 0.3 CHEVRON 100R 14.25 12.97 CHEVRON 220R 52.25 53.53 NEXBASE 3043 10.0 YUBASE 4 10.0 KV 100°C, mm2/s 14.6 14.7 CCS, mPa.s 6180 620"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13079.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: - Infineum SV261, %m - 6.9 Infineum V385, %m 0.2 0.3 Chevron 220R, %m 57.7 53.1 YUBASE 4, %m 24.0 26.0 VISCOMETRIC DATA KV100 (cSt) 12.1 14.5 HTH"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-11706.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.16: ² ACC CoP H.4, H.6, H.9 Base Oil Sulfur Base Oil Saturates Chevron 220R DI1 DI2 HiTEC® 12200 IOC 150N IOC 500N Total 150N Total 600N EHC 50 EHC 110 Base Oil Visc"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13117.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: ce OR-F 70520QA 70928QA 69923QB 70687RA Base Oils Nexbase / Chevron 220R Nexbase / EHC 50 Nexbase 3043/3050 Nexbase 3043/3050 VM PARATONE® 24EX PARATONE® 24EX PAR"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-11780.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: 8 0.3 VISCOPLEX 1-603 0.3 0.3 wt% Chevron 110RLV 52.81 (66) Chevron 220R 66.86 (85) 7.20 (9) 20.00 (25) Chevron 600R 11.8 (15) 40.01 (50) Yubase 4 20.00 (25) 20.0"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12593.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: 4.1 Motiva Star 4, % wt. 91.8 Chevron 100R, % wt. 59.0 28.8 Chevron 220R, % wt. 35.0 67.1 KV100, mm2/s 7.0 7.1 7.2 Brookfield at -40˚C, mPa.s 14,000 19,400 43,000"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12225.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: e oils Lubrizol® CV2330 Lubrizol® 7077 Lubrizol® 7749B 13.5 CHEVRON 220R CHEVRON 600R Base oil component 1 Base oil component 1 65.3 14.0 SAE 15W-40 Designation"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12633.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: ) AT-13557-13 HiTEC® 34321 6.0 Chevron 100R 59.0 Chevron 220R 35.0 Kinematic Viscosity, 100°C, cSt 7.21 Brookfield Viscosity, -40°C, cP"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12992.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: requirements The Mack T-12 test was run in SAE 10W-30 with Chevron 220R Group II and 30% Nexbase Group III base stocks."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13112.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: ase 3043, wt% 18.0 18.85 Nexbase 3080, wt% 59.1 27.15 Chevron 220R - 30.0 PPD, OLOA 19803 0.3 0.3 KV 100°C, mm2/s 14.5 14.5 CCS, mPa.s at -25°C"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-15805.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: ) AT-13557-13 HiTEC® 34321 6.0 Chevron 100R 59.0 Chevron 220R 35.0 Kinematic Viscosity, 100°C, cSt 7.21 Brookfield Viscosity, -40°C, cP"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12999.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.14: I / Gp III Infineum T4537 11.2 11.2 11.2 Chevron 100R 83.8 Chevron 220R 5.0 Total 85SN 43.8 Nexbase 3030 15.0 KPE 100SN 38.8 Yubase 4 40.0 Yubase 6 30.0 10.0 Tot"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13080.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: 0.30 0.30 0.30 Infineum SV261 6.30 6.90 7.40 7.80 Chevron 220R 81.20 83.60 84.25 85.00 100.00 100.00 100.00 100.00 PERFORMANCE CLAIMS ACEA E"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-11897.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: ted Formulation SAE 15W-30 Final Formulation SAE 15W-40 Chevron 220R (Group-II) 79.2% 53.7% Chevron 600R (Group-II) 10.8% 36.3% Lubrizol® 16008* 2.8%"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-11509.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: 5.5% 5.5% Lubrizol® 7749B PPD 0.2% 0.2% 0.2% 0.2% 0.2% 0.2% Chevron 220R API Group II - 77.8% - - - Motiva Star 4 API Group II - - 2.3% - - Motiva Star 6 API Grou"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12452.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.23: ,30% 7,1% 7,6% PPD (OLOA 19803) 0,50% 0,50% 0,30% 0,3% 0,3% Chevron 220R 78,60% 45,90% 12,80% Chevron 600R 84,10% XOM EHC50 53,20% XOM EHC110 26,00% XOM AP/E 150N"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-11768.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: 00 0.300 CALPAR 150 BS 50.758 50.118 CHEVRON 100R BS 13.078 CHEVRON 220R BS 37.000 77.700 EHC 110 BS 30.000 27.359 EHC 45 BS 55.200 41.141 41.260 48.000 EHC 60 BS"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13081.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: 0.30 0.30 0.30 Infineum SV261 6.30 6.90 7.40 7.80 Chevron 220R 81.20 83.60 84.25 85.00 100.00 100.00 100.00 100.00 PERFORMANCE CLAIMS ACEA E"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13364.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: 9.6 HiTEC ® 672 0.2 0.2 0.2 0.2 Chevron 100R - - 15.0 15.0 Chevron 220R 48 47.6 42.9 42.6 Yubase 4 - 30.0 - 20 Nexbase 3043 30.0 - 20 - Total 100.0 100.0 100.0 1"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-11803.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: Source of Base Oil Blend of Chevron 100R Chevron 220R Viscosity ISO VG 32 Viscosity Index 103 Sulphur % < 0."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-12169.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: e Oils Manufacturer´s Designation Typ / ATIEL-BOI Group 9.1 CHEVRON 220R % b.w. 80.10 GROUP II 9.6 Composition of the base oil blend CA/CP/CN % b.w. 6.6/56.5/36."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13082.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: 0.30 0.30 0.30 Infineum SV261 6.30 6.90 7.40 7.80 Chevron 220R 81.20 83.60 84.25 85.00 100.00 100.00 100.00 100.00 PERFORMANCE CLAIMS ACEA E"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13852.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: se 6 47.70% 38.43% 15.00% 27.82% 24.40% 14.60% 35.81% 30.0% Chevron 220R 20.00% 20.00% EHC 50 20.00% 20.00% KV @ 40C. mm2/s 73.17 87.28 73.76 89.19 74.17 89.93 89"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_220R",
+   "f": "DL2-13118.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: on 100R 26.61 (33.43) 15.9 (21.2) 12.9 (17.13) 8.00 (10.14) Chevron 220R 53.00 (66.57) 47.11 (62.8 ) 47.41 (62.95) 70.91 (89.86) Yubase 4 12.00 (16) Nexbase 3043"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-14862.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.10: .68 9.68 HiTEC® 12204L - - - 14.20 Chevron 100R 55.52 - - - Chevron 600R 24.00 - - - Petrobras 150N - 58.00 - - Petrobras 500N - 23.22 - - Motiva 6 - - 68.00 - Mo"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-13071.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: RE 150 APE CORE 600 APE CORE BS Chevron 100R Chevron 220R Chevron 600R Nexbase 3030 Nexbase 3043 Nexbase 3060 HiTEC® 672 Premium Pour Point Depressant for the M"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-12983.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: 14.93 KV 100°C, mm²/s 6890 CCS, mPa.s 4.16 HTHS, mPa.s 6.32 CHEVRON 600R, wt% 56920D-B Oil reference OR-F 6 Paratone 8006, wt% 0.3 PPD - OLOA 19803, wt% 72.69 14."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-12610.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: HEVRON 220R - - - - - 56.21 - - 58.43 - 67.31 65.99 53.05 - CHEVRON 600R - - - - - - - - - - 11.88 13.52 5.89 - CHEVRON 110RLV - - - - - 24.09 - - 25.04 - - - 25."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-13550.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: NE ® 8059, wt% 4.3 PPD, wt% 0.3 0.3 CHEVRON 220R, wt% 61.16 CHEVRON 600R, wt% 20.39 BPCL Mbase Gp II 150N 31.71 BPCL Mbase Gp II 500N 51.74 TOTAL 100 100 CATERPIL"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-11898.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.14: ulation SAE 15W-40 Chevron 220R (Group-II) 79.2% 53.7% Chevron 600R (Group-II) 10.8% 36.3% Lubrizol® 16008 2.8% 2.8% Lubrizol® 7075F 7.0% 7.0% Lubri"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-12276.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: MULATION Base Oils % Mass % Volume Chevron 220R 65.30 66.19 Chevron 600R 14.00 14.15 Additives Lubrizol® CV2330 13.50 12.41 Lubrizol® 7077 7.00 7.06 Lubrizol® 774"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-12453.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.23: 50% 0,50% 0,30% 0,3% 0,3% Chevron 220R 78,60% 45,90% 12,80% Chevron 600R 84,10% XOM EHC50 53,20% XOM EHC110 26,00% XOM AP/E 150N 62,2% XOM AP/E 600N 17,5% NEXBASE"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-11766.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: CHEVRON 100R BS 14.076 CHEVRON 220R BS 39.242 65.000 65.000 CHEVRON 600R BS 15.168 15.000 EHC 110 BS 27.359 30.000 EHC 45 BS 16.304 8.777 16.358 EHC 60 BS 41.634"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-13694.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: neum SV261, %m - 5.90 Chevron 220R (Gp. II), %m 48.30 47.50 Chevron 600R (Gp. II), %m 7.50 6.00 Yubase 4 (Gp. III), %m 26.00 26.00 Total, %m 100.00 100.00 PERFORM"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-12905.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: 1 Chevron 220R 69.3 81.2 61.6 62.1 59.8 67.5 66.8 49.1 48.2 Chevron 600R 12.0 20.0 20.0 23.0 33.0 33.0 35.0 16.1 15.7 Chevron 150R 48.4 48.9 47.9 Nexbase 3043 30."
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-13799.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: roval fee Code IME1610416-C Grade SAE 40 Chevron 220R 20.0% Chevron 600R 67.5% Infineum M8220 12.5% Total 100.0%"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-12906.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: .3 0.3 Chevron 110RLV 24.4 Chevron 220R 53.0 54.4 51.7 74.6 Chevron 600R 1.5 Nexbase 3043 22.7 22.1 100 100 100 100 Performance Claims API CK-4/ CJ-4, SN CK-4/ CJ"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-12781.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.10: V385 LOFI 0.3 0.3 0.3 0.3 Chevron 100R BS 50.1 30.6 3.1 1.9 Chevron 600R BS 32.0 54.0 86.0 84.0 Total % 100 100 100 100 Test Method Results ASTM D2896 8.4 8.4 8.5"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-11812.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: 50 - - - - - - - - Chevron 100R - - 52.50 - - - - - - - - - Chevron 600R - - 37.90 - - - - - - - - - XOM AP/E 100 - - - - - 10.00 15.00 20.00 - - - - XOM AP/E 145"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-12412.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.36: 5 12.25 PPD, OLOA® 19803 wt% 0.3 0.3 CHEVRON 220R 39.9 43.0 CHEVRON 600R 26.05 23.15 NEXBASE 3050 10.0 YUBASE 6 10.0 KV 100°C, mm2/s 19.1 19.0 CCS, mPa.s 6350 640"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-11706.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: %wt DI1 DI2 HiTEC® 12200 Motiva 6 Motiva 12 Chevron 100R Chevron 600R API Performance Level Oil Code Formulation"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-11780.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.8: 0RLV 52.81 (66) Chevron 220R 66.86 (85) 7.20 (9) 20.00 (25) Chevron 600R 11.8 (15) 40.01 (50) Yubase 4 20.00 (25) 20.00 (25) API CK-4 Limits Volvo T-13 ASTM WK50"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "HiTEC%2011356_API%20SQ%20CDP%20-%20Version%201_20260525_updated.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.14: 110N 59.7300 54.9100 PURE PERFORMANCE 225N 25.0000 30.0000 Chevron 600R 93.1400 93.1400 PURITY 1003 54.1100 PURITY 2204 30.0000 GTL 4 84.1200 aramcoUTLRA 4U 82.1"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-12225.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: ol® CV2330 Lubrizol® 7077 Lubrizol® 7749B 13.5 CHEVRON 220R CHEVRON 600R Base oil component 1 Base oil component 1 65.3 14.0 SAE 15W-40 Designation Base oil comp"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-15799.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: PURE PERFORMANCE 225N 30.0000 PETROCANADA VHVI 4-M 89.0990 Chevron 600R 93.1400 93.1400 GTL 4 53.4180 84.1200 GTL 8 32.0000 aramcoUTLRA 4U 82.1000 aramcoUTLRA 6U"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-12999.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.26: .3% - Chevron 100R 16.5% 13.8% - Chevron 220R 67.5% 69.1% - Chevron 600R - - 82.5% ExxonMobil APE BS - - 8.5% Total 100.0% 100.0% 100.0% NMMA Certification number"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-12880.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: oil formulation OR-17006 SAE 40 OLOA® 44506 wt% 8.34 Chevron 600R (Group II ) wt% 91.66 Chemical-Physical Characteristics Calcium, wt% 0.132 Phosp"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-11897.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: ulation SAE 15W-40 Chevron 220R (Group-II) 79.2% 53.7% Chevron 600R (Group-II) 10.8% 36.3% Lubrizol® 16008* 2.8% 2.8% Lubrizol® 7075F 7.0% 7.0% Lubr"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-12452.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.23: 50% 0,50% 0,30% 0,3% 0,3% Chevron 220R 78,60% 45,90% 12,80% Chevron 600R 84,10% XOM EHC50 53,20% XOM EHC110 26,00% XOM AP/E 150N 62,2% XOM AP/E 600N 17,5% NEXBASE"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-11768.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: 0 CALPAR 150 BS 22.000 CHEVRON 220R BS 65.000 65.000 77.700 CHEVRON 600R BS 15.168 15.000 PetroCanada 1003 BS 57.428 Sum Formulation 100.000 100.000 100.000 100.0"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-13364.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: CP 9.20 HiTEC® 672 PPD 0.10 Chevron 220R API Group II 41.30 Chevron 600R API Group II 8.00 Nexbase 3043 API Group III 30.00  LBB-020989-A SAE 10W-40 HiTEC®"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-15543.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.35: 0 API Level CK-4 BO Formosa 150N Formosa 500N Chevron 150R Chevron 600R CNOOC 150N CNOOC 500N Requirements Claim Must have API CK-4 X X X X X"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-15704.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: roved Finished oil formulation SAE 40 OLOA® 46800 wt% 9,47 Chevron 600R (Group II ) wt% 90,53 Chemical-Physical Characteristics Calcium, wt% 0,17 Phosphorous,"
+  },
+  {
+   "p": "CHEVRON_GROUP_II_600R",
+   "f": "DL2-13852.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.19: 36.45% CHEVRON 220R 39.90% 43.0% CHEVRON 220R 52.25% 53.53% CHEVRON 600R 34.90% CHEVRON 600R 26.05% 23.15% NEXBASE 3043 10% NEXBASE 3043 10% NEXBASE 3050 10% YUBA"
+  }
+ ],
+ "fields": []
+}

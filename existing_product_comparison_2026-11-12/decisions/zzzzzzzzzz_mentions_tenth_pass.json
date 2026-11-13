@@ -1,0 +1,469 @@
+{
+ "batch": "other suppliers: base-oil mentions",
+ "reviewed_on": "2026-11-13 (tenth pass)",
+ "note": "Classified with scripts/helpers/write_base_oil_mentions.py after reading the name-hit lines of every listed document; product-specific documents were excluded and reviewed separately. Tenth pass: the captured first-hit passage of all 42 links was read; recipe shares or blend results except where reclassified below (false matches and solubility statements).",
+ "documents": {},
+ "links": [
+  {
+   "p": "ADNOC_ADBASE_3CST",
+   "f": "DL2-15807.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: S-Oil aramco® ULTRA 8 43.68 43.59 ADNOC ADbase 3 32.18 32.72 ADNOC ADbase 6 57.00 57.38 Petro-Canada RDS-3673"
+  },
+  {
+   "p": "ADNOC_ADBASE_4CST",
+   "f": "DL2-15799.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: 000 87.1500 40.0000 84.1050 Yubase 6 Kixx lubo 4cSt 84.3950 ADbase 4 73.0000 ADbase 6 12.0000 ICCSYN 4 30.2000 ICCSYN 6 53.0000 ETRO 4 PLUS 59.0200 ETRO 6 PLU"
+  },
+  {
+   "p": "ADNOC_ADBASE_6CST",
+   "f": "DL2-15807.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: 43.59 ADNOC ADbase 3 32.18 32.72 ADNOC ADbase 6 57.00 57.38 Petro-Canada RDS-3673 89.18 90.08 Red Dye 0.02 0.02"
+  },
+  {
+   "p": "ADNOC_ADBASE_6CST",
+   "f": "DL2-15799.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: 00 84.1050 Yubase 6 Kixx lubo 4cSt 84.3950 ADbase 4 73.0000 ADbase 6 12.0000 ICCSYN 4 30.2000 ICCSYN 6 53.0000 ETRO 4 PLUS 59.0200 ETRO 6 PLUS 26.0000 SINOPEC"
+  },
+  {
+   "p": "ARAMCO_LUBEREF_PRIMA_100",
+   "f": "Introduction%20of%20Infineum%20T4580.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: .4 8.4 8.4 8.4 8.4 Chevron 100R 91.6 ExxonMobil EHC 45 91.6 aramcoPRIMA 100 91.6 Excel 110 91.6 aracmoPRIMA 110 91.6 ExxonMobil 100SN 46.0 50.0 ExxonMobil 150SN 41.6"
+  },
+  {
+   "p": "ARAMCO_LUBEREF_PRIMA_100",
+   "f": "DL2-15799.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: 9.0000 8.2000 EHC 45 EHC 120 Kixxlubo 150N aramcoPRIMA 150S aramcoPRIMA 100 aramcoPRIMA 600 PURE PERFORMANCE 110N 54.9100 PURE PERFORMANCE 225N 30.0000 PETROCANADA V"
+  },
+  {
+   "p": "ARAMCO_LUBEREF_PRIMA_110",
+   "f": "DL2-15054.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: HiTEC® 2250 DI 5.65 HiTEC® 672 PPD 0.20 Lz7077 ND-OCP 6.50 AramcoPrima 110 API Group II 20.0 AramcoPrima 230 API Group II 67.65     LBB-021341-A SAE 10W-30 Hi"
+  },
+  {
+   "p": "ARAMCO_LUBEREF_PRIMA_150",
+   "f": "DL2-15564.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.27: 5.60 Infineum V385, %m Pour Point Depressant 0.30 0.30 0.30 AramcoPRIMA150, %m Group II Basestock 47.70 45.50 47.85 AramcoPRIMA500, %m Group II Basestock 38.00 40.0"
+  },
+  {
+   "p": "ARAMCO_LUBEREF_PRIMA_150",
+   "f": "DL2-15332.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.27: 5.60 Infineum V385, %m Pour Point Depressant 0.30 0.30 0.30 AramcoPRIMA150, %m Group II Basestock 47.70 45.50 47.85 AramcoPRIMA500, %m Group II Basestock 38.00 40.0"
+  },
+  {
+   "p": "ARAMCO_LUBEREF_PRIMA_220",
+   "f": "DL2-15564.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.29: Modifier 8.00 Infineum V385, %m Pour Point Depressant 0.30 AramcoPRIMA220, %m Group II Basestock 68.00 AramcoPRIMA600, %m Group II Basestock 14.45 Total 100.00 Ana"
+  },
+  {
+   "p": "ARAMCO_LUBEREF_PRIMA_220",
+   "f": "DL2-15332.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.29: Modifier 8.00 Infineum V385, %m Pour Point Depressant 0.30 AramcoPRIMA220, %m Group II Basestock 68.00 AramcoPRIMA600, %m Group II Basestock 14.45 Total 100.00 Ana"
+  },
+  {
+   "p": "ARAMCO_LUBEREF_PRIMA_230",
+   "f": "DL2-15054.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.2: D 0.20 Lz7077 ND-OCP 6.50 AramcoPrima 110 API Group II 20.0 AramcoPrima 230 API Group II 67.65     LBB-021341-A SAE 10W-30 HiTEC® 2250 @ 5.65% Afton Oil Code"
+  },
+  {
+   "p": "ARAMCO_LUBEREF_PRIMA_500",
+   "f": "DL2-15564.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.27: .30 AramcoPRIMA150, %m Group II Basestock 47.70 45.50 47.85 AramcoPRIMA500, %m Group II Basestock 38.00 40.00 37.00 Total 100.00 100.00 100.00 Analytical Results Me"
+  },
+  {
+   "p": "ARAMCO_LUBEREF_PRIMA_500",
+   "f": "DL2-15054.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: 0.20 Lz7077 ND-OCP 9.00 AramcoPrima 230 API Group II 75.15 AramcoPrima 500 API Group II 10.00     LBB-021343-A SAE 15W-40 HiTEC® 2250 @ 5.65% Afton Oil Code"
+  },
+  {
+   "p": "ARAMCO_LUBEREF_PRIMA_500",
+   "f": "DL2-15332.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.27: .30 AramcoPRIMA150, %m Group II Basestock 47.70 45.50 47.85 AramcoPRIMA500, %m Group II Basestock 38.00 40.00 37.00 Total 100.00 100.00 100.00 Analytical Results Me"
+  },
+  {
+   "p": "ARAMCO_LUBEREF_PRIMA_600",
+   "f": "DL2-15769.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.15: RRBO 2 (N.America) 0 50.440 0 RRBO 3 (N.America) 0 0 93.630 Aramco PRIMA 600 0 48.600 5.400 RF8248B (PPD) 0 0.050 0.050 RF9005 (antifoam agent) 0.006 0 0 RF9006 (anti"
+  },
+  {
+   "p": "ARAMCO_LUBEREF_PRIMA_600",
+   "f": "DL2-15564.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.29: Depressant 0.30 AramcoPRIMA220, %m Group II Basestock 68.00 AramcoPRIMA600, %m Group II Basestock 14.45 Total 100.00 Analytical Results Method Results KV@100C, mm2/"
+  },
+  {
+   "p": "ARAMCO_LUBEREF_PRIMA_600",
+   "f": "DL2-15799.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: C 45 EHC 120 Kixxlubo 150N aramcoPRIMA 150S aramcoPRIMA 100 aramcoPRIMA 600 PURE PERFORMANCE 110N 54.9100 PURE PERFORMANCE 225N 30.0000 PETROCANADA VHVI 4-M 89.0990"
+  },
+  {
+   "p": "ARAMCO_LUBEREF_PRIMA_600",
+   "f": "DL2-15332.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.29: Depressant 0.30 AramcoPRIMA220, %m Group II Basestock 68.00 AramcoPRIMA600, %m Group II Basestock 14.45 Total 100.00 Analytical Results Method Results KV@100C, mm2/"
+  },
+  {
+   "p": "BAPCO_BAPBASE_4",
+   "f": "OLOA%2055603%20ILSAC%20GF-7%20and%20Gen%203%20MG%20Customer%20Deck%20-%20AMR%20APR%20EAME%20Jul26%20.pptx",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: - - - - - - - 8.17 - Chevron 220R - - - - - - - - - 30.24 - BAPBase 4 61.12 52.63 BAPBase 8 4.19 29.6 GTL4 (Trim Fluid) 18.2 OLOA ® 55603 – dexos 1 ™ Gen 3 Bas"
+  },
+  {
+   "p": "BAPCO_BAPBASE_8",
+   "f": "OLOA%2055603%20ILSAC%20GF-7%20and%20Gen%203%20MG%20Customer%20Deck%20-%20AMR%20APR%20EAME%20Jul26%20.pptx",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: hevron 220R - - - - - - - - - 30.24 - BAPBase 4 61.12 52.63 BAPBase 8 4.19 29.6 GTL4 (Trim Fluid) 18.2 OLOA ® 55603 – dexos 1 ™ Gen 3 Base oil Coverage and upg"
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_100",
+   "f": "DL2-15804.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.26: 46 ISO 68 HiTEC® 523F, % wt. Viscoplex 8-200, % wt. AP/E Core 100, % wt. AP/E Core 150, % wt. AP/E Core 600, % wt. Viscosity at 40°C, mm2/s Viscosity"
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_2500",
+   "f": "DL2-12321.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.15: , PPD, % wt. 0.2 AP/E Core 600, % wt. 51.88 AP/E Core 2500 BS, % wt. 46.60 Yanshan 150 SN, % wt. 75.0 Karamay 150 BS, % wt. 23.7"
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_2500",
+   "f": "DL2-15545.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: 5 55.15 17.65 AP/E Core 600 31 68 88.85 61.35 AP/E Core 2500 5 32.5 LZ7077 4.5 10.3 7.4 8.2 6.8 10.5 7.5 8 RF8248B 0.2 0.2 0.2 0.2 0"
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_2500",
+   "f": "DL2-11919.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: AP/E Core 600 62.03 92.02 78.11 49.90 26.81 AP/E Core 2500 BS 19.74 47.95 71.04 97.8 31.00 Canthus 1000 67.00 HiTEC® 623, PP"
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_4",
+   "f": "DL2-11762.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.4: 2.700 Yubase 6 BS 26.100 25.700 25.400 25.400 37.900 38.300 Spectrasyn 4 SYN 30.000 Sum Formulation 100.000 100.000 100.000 100.000 100.000 100.000 100.000 Base o"
+  },
+  {
+   "p": "GS_CALTEX_150N",
+   "f": "DL2-12084.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: 0.90 HiTEC® 5748 5.80 4.30 5.40 4.30 6.00 Kixxlubo 150N 35.60 \\ 36.70 \\ 66.30 Kixxlubo 600N 48.80 85.90 47.00 84.80 15.00 HiTEC®"
+  },
+  {
+   "p": "GS_CALTEX_150N",
+   "f": "DL2-15564.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "first-hit passage (p.12, a false hit) and the p.26 KIXX LUBO 150N line read (text layer); rest NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: Pour Point Depressant 0.30 0.30 0.30 0.30 0.30 0.30 Formosa 150N, %m Group II Basestock 69.40 38.10 69.10 37.80 69.45 37.15 Formosa 500N, %m Group II Base Reviewer: the first captured hit (p.12) is 'Formosa 150N' (another supplier's 150N); the genuine GS Caltex hit is p.26 'KIXX LUBO 150N, %m Group II Basestock 47.20 ...' (Kixx LUBO = GS Caltex brand, as printed elsewhere in this archive), also a recipe share."
+  },
+  {
+   "p": "GS_CALTEX_150N",
+   "f": "DL2-15799.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: 11.5500 3.7000 9.0000 9.0000 8.2000 EHC 45 EHC 120 Kixxlubo 150N aramcoPRIMA 150S aramcoPRIMA 100 aramcoPRIMA 600 PURE PERFORMANCE 110N 54.9100 PURE PERFO"
+  },
+  {
+   "p": "GS_CALTEX_150N",
+   "f": "DL2-15332.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "first-hit passage (p.12, a false hit) and the p.26 KIXX LUBO 150N line read (text layer); rest NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.12: Pour Point Depressant 0.30 0.30 0.30 0.30 0.30 0.30 Formosa 150N, %m Group II Basestock 69.40 38.10 69.10 37.80 69.45 37.15 Formosa 500N, %m Group II Base Reviewer: the first captured hit (p.12) is 'Formosa 150N' (another supplier's 150N); the genuine GS Caltex hit is p.26 'KIXX LUBO 150N, %m Group II Basestock 47.20 ...' (Kixx LUBO = GS Caltex brand, as printed elsewhere in this archive), also a recipe share."
+  },
+  {
+   "p": "GS_CALTEX_600N",
+   "f": "DL2-12084.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: 6.00 Kixxlubo 150N 35.60 \\ 36.70 \\ 66.30 Kixxlubo 600N 48.80 85.90 47.00 84.80 15.00 HiTEC® 672 0.10 0.10 0.10 0.10 0.10 Total"
+  },
+  {
+   "p": "GS_CALTEX_600N",
+   "f": "DL2-15564.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.26: II Basestock 47.20 47.00 47.40 48.20 50.95 46.05 KIXX LUBO 600N, %m Group II Basestock 29.00 38.60 28.50 37.00 24.00 39.00 YUBASE 4, %m Group III Basesto"
+  },
+  {
+   "p": "GS_CALTEX_600N",
+   "f": "DL2-15332.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.26: II Basestock 47.20 47.00 47.40 48.20 50.95 46.05 KIXX LUBO 600N, %m Group II Basestock 29.00 38.60 28.50 37.00 24.00 39.00 YUBASE 4, %m Group III Basesto"
+  },
+  {
+   "p": "NESTE_NEXBASE_3020",
+   "f": "DL2-13068.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.9: AT-12650-36 AT-12650-37 HiTEC® 2018LV 16.3 16.3 Nexbase 3020 12.6 10.0 Nexbase 3043 71.1 73.7 Kinematic Viscosity at 100°C, cSt 5.92 6."
+  },
+  {
+   "p": "NYNAS_T_22",
+   "f": "DL2-12207.pdf",
+   "cat": "C",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: n Shell Gravex 915 clear Shell Ondina 15 clear Nynas T 22 clear Petroleum spirit clear Rapeseed oil clear Reviewer: a solubility statement in a Clariant additive SDS ('clear' / 'soluble in Nynas T9 (hydrocrack oil)'), not a property of the Nynas oil and not a recipe."
+  },
+  {
+   "p": "NYNAS_T_9",
+   "f": "DL2-12210.pdf",
+   "cat": "C",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: ble in Shell Ondina 15 (paraffinic mineral oil) soluble in Nynas T9 (hydrocrack oil) Acide value (ASTM D 664) 6,5 - 7,5 mg KOH/g Viscosity / 40°C (ASTM Reviewer: a solubility statement in a Clariant additive SDS ('clear' / 'soluble in Nynas T9 (hydrocrack oil)'), not a property of the Nynas oil and not a recipe."
+  },
+  {
+   "p": "PETRONAS_ETRO_3",
+   "f": "DL2-15608.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: ce CVT Formulation (%) wt. HiTEC® 34006 Additive Pack 11.6 Etro 3 API Group III 42.4 Etro 6 API Group III 46.0 Performance CVT Physical Properties KV100,"
+  },
+  {
+   "p": "PETRO_CANADA_PURITY_1003",
+   "f": "HiTEC%2011356_API%20SQ%20CDP%20-%20Version%201_20260525_updated.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.14: RFORMANCE 225N 25.0000 30.0000 Chevron 600R 93.1400 93.1400 PURITY 1003 54.1100 PURITY 2204 30.0000 GTL 4 84.1200 aramcoUTLRA 4U 82.1000 CTL4 30.2000 CTL6 53.000"
+  },
+  {
+   "p": "PETRO_CANADA_PURITY_2204",
+   "f": "HiTEC%2011356_API%20SQ%20CDP%20-%20Version%201_20260525_updated.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.14: 00 30.0000 Chevron 600R 93.1400 93.1400 PURITY 1003 54.1100 PURITY 2204 30.0000 GTL 4 84.1200 aramcoUTLRA 4U 82.1000 CTL4 30.2000 CTL6 53.0000 Yubase 4 39.8500 Y"
+  },
+  {
+   "p": "PETRO_CANADA_PURITY_VHVI_4",
+   "f": "OLOA%2055603%20ILSAC%20GF-7%20and%20Gen%203%20MG%20Customer%20Deck%20-%20AMR%20APR%20EAME%20Jul26%20.pptx",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: 8.50 6.65 8.10 6.20 7.00 5.60 PARATONE® 35EX, wt% - - - - - Purity VHVI-4 (Gp3), wt% 62.93 83.58 Purity VHVI-8 (Gp3), wt % 18.80 Motiva Star HVI 6, wt % - - 40.24"
+  },
+  {
+   "p": "PETRO_CANADA_PURITY_VHVI_8",
+   "f": "OLOA%2055603%20ILSAC%20GF-7%20and%20Gen%203%20MG%20Customer%20Deck%20-%20AMR%20APR%20EAME%20Jul26%20.pptx",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: E® 35EX, wt% - - - - - Purity VHVI-4 (Gp3), wt% 62.93 83.58 Purity VHVI-8 (Gp3), wt % 18.80 Motiva Star HVI 6, wt % - - 40.24 10.08 Motiva Star HVI 4, wt % - - 41."
+  },
+  {
+   "p": "S_OIL_SUPER_S_96",
+   "f": "DL2-15054.pdf",
+   "cat": "G",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "not applicable",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "FALSE MATCH: the generic alias matched 'KV 40 C, mm2/s 96.1' (a finished-oil viscosity) on a page that names S-OIL elsewhere; S-96 is not printed in the passage."
+  },
+  {
+   "p": "CHEVRON_SYNFLUID_MPAO_100",
+   "f": "DL2-15468.pdf",
+   "cat": "C,E",
+   "status": "completed",
+   "fields_status": "slides 1, 2 and 20 read (text layer); slide 20 has no numeric values in the text layer; other slides NOT reviewed",
+   "coverage": "qualitative statement only: 'Synfluid mPAO 100 cSt has significantly improved low temperature viscosity metrics when compared to conventional PAO 100 cSt'; no value to compare",
+   "identity": "printed 'Synfluid mPAO 100 cSt' (CPChem presentation, Oct 4, 2024)",
+   "note": "Manufacturer presentation; nothing proposed."
+  },
+  {
+   "p": "CHEVRON_SYNFLUID_PAO_5",
+   "f": "DL2-15468.pdf",
+   "cat": "G",
+   "status": "completed",
+   "fields_status": "slide 2 hit read (text layer)",
+   "coverage": "not applicable",
+   "identity": "FALSE MATCH: agenda line '4. Benefits of Synfluid PAO 5. Fuel Efficiency with PAO' - '5.' is the next agenda number, not the grade PAO 5",
+   "note": ""
+  },
+  {
+   "p": "CHEVRON_SYNFLUID_PAO_6",
+   "f": "DL2-15811.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "p.18 read (text layer)",
+   "coverage": "blend data only: KRL shear test of 'Synfluid PAO6 80%' with 20 % mPAO65 (NACO Synthetics presentation, 2025-04); not a property of PAO 6",
+   "identity": "printed 'Synfluid PAO6'",
+   "note": ""
+  },
+  {
+   "p": "EXXONMOBIL_SYNESSTIC_5",
+   "f": "DL2-15811.pdf",
+   "cat": "D,H",
+   "status": "completed",
+   "fields_status": "p.9 read (text layer)",
+   "coverage": "third-party statement 'AN5H is same structure as Synesstic 5 from EXXONMOBIL CHEMICAL' with NACO AN5H data (KV100 4.80, flash 226, pour -39); these are AN5H values, not Synesstic 5 values; nothing proposed",
+   "identity": "printed 'Synesstic 5' in a competitor's (NACO Synthetics) brochure",
+   "note": "A competitor equivalence claim; not evidence for Synesstic 5 properties."
+  }
+ ],
+ "fields": []
+}

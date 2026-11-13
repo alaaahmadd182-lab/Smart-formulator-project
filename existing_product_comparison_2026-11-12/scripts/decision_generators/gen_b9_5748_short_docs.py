@@ -1,0 +1,69 @@
+"""Fourteenth pass, batch 9: twelve short documents naming HiTEC 5748 (product link AFTON_HITEC_5748). Every page that names
+HiTEC 5748 was read in full; formulation tables viewed as images. Document read scope is the hit pages (stated per link).
+Writes decisions/zzzzzzzzzzzzzz_b9_5748_short_docs_fourteenth_pass.json."""
+# Runs from any directory: it changes to the workspace root.
+import os as _os
+_os.chdir(_os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))))
+import json
+B = 'existing_product_comparison_2026-11-12'
+T = '(fourteenth pass, 2026-11-13)'
+P = 'AFTON_HITEC_5748'
+o = ("re-read manually: Afton HiTEC 5748 PDS 05/23 (registered copy retrieved 2026-11-13, SHA-256 matches the registry; "
+     "retrieved_evidence_2026-11-13/HiTEC-5748_PDS__registered_url.pdf) pp.1-2 whole text (fourteenth pass)")
+POLICY = "recipe doses are package-route data, handled by the existing 'treat_range_by_sae_grade' no_change / not_comparable row (not a 5748 treat range)"
+links, F = [], []
+
+
+def link(f, scope, cov):
+    links.append(dict(p=P, f=f, cat='D', status='completed', fields_status=f'{scope} {T}',
+                      coverage=f'assessed by reading (2026-11-13, fourteenth pass) for {scope}: {cov}', identity="exact 'HiTEC® 5748' (grade suffix checked: 5748 vs 5748A kept apart)",
+                      note="HiTEC 5748 named in another product's document."))
+
+
+def note(f, page, text, reason, path='compatibility_restrictions', form="supplier statement in another product's bulletin (route-bound co-use; no 5748 property)"):
+    F.append(dict(p=P, tier=1, path=path, old='The HiTEC 5748 PDS (05/23, cited) does not name this package.', new_f=f, new_p=page, new_text=text, unit='as printed', form=form,
+                  qual='as printed', method='', cond='route-bound: only for the named package, grades and base oils', basis='', outcome='additional', action='propose_note',
+                  reason=reason, old_rev=o, cmp_override='existing: not recorded'))
+
+
+link('HiTEC-5825K_PDS.pdf', 'p.2 (the only page naming HiTEC 5748) read in full',
+     "'HiTEC® 5825K may be dissolved in a wide range of base oils to produce liquid HiTEC® 5748 Viscosity Modifier' (bulletin 01/26). Already proposed (polymer_chemistry note, earlier pass), including that the 'Properties of 12.0% wt. HiTEC® 5825K dissolved in ExxonMobil EHC 50' (KV100 1100, SSI 22, diluted viscosity 11.5) are 5825K-solution data and NOT HiTEC 5748 properties. No new row.")
+co = [
+ ('DL2-15362.pdf', 2, "HiTEC 11410 bulletin 06/23", "Approvals footnotes: '1 Yubase Group III, HiTEC® 5748 OCP VM, HiTEC® 672 PPD.'; '2 Ultra-S Group III, HiTEC® 5748 OCP VM, HiTEC® 672 PPD.'; '3 Chevron Group II and Yubase / Ultra-S / ADNOC / NEXBASE Group III, HiTEC® 5748 OCP VM, HiTEC® 672 PPD.' (SAE 0W-20 to 5W-40 per footnote; 'Recommended Dosage Please contact your Afton Chemical representative')."),
+ ('DL2-15012.pdf', 2, "HiTEC 11410 bulletin 08/22", "Footnotes '1 Yubase Group III, HiTEC® 5748 OCP VM, HiTEC® 672 PPD.' and '2 Chevron Group II and Yubase / Ultra-S / ADNOC / NEXBASE Group III, HiTEC® 5748 OCP VM, HiTEC® 672 PPD.' attached to the SAE 0W-20 / 5W-20 / 5W-30 approval columns."),
+ ('DL2-13580.pdf', 2, "HiTEC 11410 bulletin 07/20", "'Base oil coverage: Yubase Group III, HiTEC® 5748 OCP VM, HiTEC® 672 PPD'; HiTEC 11410 at 10.6 % in SAE 0W-20 / 5W-20 / 5W-30 (approvals table). No 5748 dose."),
+ ('DL2-14894.pdf', 2, "HiTEC 11600 bulletin 11/20", "'Base Oil Coverage: Yubase Group III, ExxonMobil EHC Group II / Viscosity Modifier: HiTEC® 5748 OCP'; 'Work in progress - please contact your Afton representative for specific OEM approval status'. No 5748 dose."),
+ ('DL2-15689.pdf', 2, "HiTEC 11356 bulletin 01/25", "'HiTEC® 11356 is used at 6.8% wt. to formulate all recommended grades with Afton's OCP VM solution HiTEC® 5748.' (the 6.8 % is the HiTEC 11356 dose; no 5748 dose)."),
+ ('DL2-14882.pdf', 2, "HiTEC 11456 bulletin 05/21", "'HiTEC® 11456 is used at 8.3% wt. to formulate all recommended grades with Afton's OCP VM solution HiTEC® 5748, both are produced in Singapore.' (8.3 % is the HiTEC 11456 dose)."),
+ ('DL2-15336.pdf', 2, "HiTEC 11458 bulletin 12/19", "'Provide consistent and robust performance with Afton liquid VM HiTEC® 5748 Made In Singapore' (HiTEC 11458 at 8.3 % wt; no 5748 dose)."),
+]
+for f, pg, what, txt in co:
+    link(f, f'p.{pg} (the only page naming HiTEC 5748) read in full', f"{what}: {txt} -> route-bound co-use note row.")
+    note(f, pg, f"{what}: {txt}",
+         f"Route-bound co-use evidence ({what}): HiTEC 5748 is the VM named for that package's approvals or grades. Propose a note with the package, grades and base oils as printed; the package dose is not a 5748 dose and HiTEC 5748 gains no claim or property from it; not a universal co-component.")
+link('DL2-12086.pdf', 'p.1 (the only page naming HiTEC 5748) read in full; pp.2-5 not read',
+     "Programme title (March 2018): 'HiTEC® 9490 PCMO Package for ACEA A3/B4-16 ACEA A3/B3-16 in Yubase Group III Base Stocks with HiTEC® 5748 or HiTEC® 5748A Non-Dispersant OCP (ND-OCP) Viscosity Modifier' -> scoped interchangeability note.")
+F.append(dict(p=P, tier=1, path='compatibility_restrictions', old='The HiTEC 5748 PDS (05/23, cited) does not mention HiTEC 5748A or HiTEC 9490.', new_f='DL2-12086.pdf', new_p=1,
+              new_text="'March 2018 HiTEC® 9490 PCMO Package for ACEA A3/B4-16 ACEA A3/B3-16 in Yubase Group III Base Stocks with HiTEC® 5748 or HiTEC® 5748A Non-Dispersant OCP (ND-OCP) Viscosity Modifier'",
+              unit='as printed', form="programme title naming two alternative VMs (another product's document)", qual='as printed', method='', cond='HiTEC 9490 programme, ACEA A3/B4-16 / A3/B3-16, Yubase Group III', basis='',
+              outcome='additional', action='propose_note',
+              reason="An interchangeability statement limited to one programme: HiTEC 5748 or HiTEC 5748A as the VM of the HiTEC 9490 ACEA A3/B4-16 / A3/B3-16 programme in Yubase Group III. Propose a note with exactly that scope; no 5748A data is transferred to HiTEC 5748 and no dose is printed on this page.",
+              old_rev=o, cmp_override='existing: not recorded'))
+link('DL2-15591.pdf', 'p.1 (only page) read in full and viewed as an image',
+     f"'API SQ/GF-7A formulations aramcoULTRA/Ultra-S' (2025, Afton confidential): HiTEC 11455 7.00 with HiTEC 5748 5.50 (LBT-030469-A 0W-16), 7.20 (LBR-027590-A 0W-20), 10.20 (LBT-030278-A 0W-30), 3.00 (LBR-031574-A 5W-20), 6.50 (LBR-031575-A 5W-30), 3.20 (LBR-031677-A 10W-30), 8.00 (LBT-030316-A 10W-40), totals 100.00; 'No booster/PPD is required for the formulations above.' Column mapping confirmed on the image. These {POLICY}. No new row.")
+link('DL2-11395.pdf', 'p.2 (the only page naming HiTEC 5748) read in full; pp.1, 3-7 not read',
+     "HiTEC 5825H manufacturing document (October 2016): typical properties of '~ 12.5 +/- 0.5 weight percent of HiTEC®5825H in API Group I 150N oil making a viscosity modifier analogous to Afton's HiTEC® 5748' (KV100 1150, diluted viscosity 11.55, SSI 23, SG 0.865, flash > 155, colour < 5.0, water 30 ppm) and of a solution 'analogous to Afton's HiTEC® 5748A'. -> scoped note: properties of an analogous solution, not HiTEC 5748 data.")
+F.append(dict(p=P, tier=1, path='open_questions', old="The HiTEC 5748 PDS (05/23, cited) prints SSI 22, KV100 1100, SG 0.855 for HiTEC 5748 itself; the JSON's SSI note lists other SSI wordings.", new_f='DL2-11395.pdf', new_p=2,
+              new_text="'Typical properties ~ 12.5 +/- 0.5 weight percent of HiTEC®5825H in API Group I 150N oil making a viscosity modifier analogous to Afton's HiTEC® 5748': KV100 1150 cSt (D445); diluted viscosity 11.55 cSt; Shear Stability Index 23 (D6278, measured at 11.5 % wt in RO-2001); SG 0.865; flash > 155 °C PMCC; colour < 5.0; water 30 ppm. A second table gives ~12.7 % 5825H in Group II 110N 'analogous to Afton's HiTEC® 5748A' (KV100 1020, SSI 23, SG 0.8540).",
+              unit='as printed', form='typical properties of an ANALOGOUS laboratory/manufacturing solution (not of HiTEC 5748)', qual='as printed', method='as printed', cond='12.5 ± 0.5 % 5825H in Group I 150N', basis='',
+              outcome='additional', action='propose_note',
+              reason="Context for the SSI discussion only. 'Analogous to' does not establish identity: no interchangeability of properties is implied, the note's scope is this manufacturing document, no 5748A data and no analogous-solution value is transferred to any HiTEC 5748 field, and the SSI 22 vs 23 difference is not recorded as a conflict.",
+              old_rev=o, cmp_override='existing: not recorded'))
+link('DL2-14915.pdf', 'pp.1-3 (all pages naming HiTEC 5748) read in full; formulation headers viewed as images; p.4 not read',
+     f"'Final Formulations Last updated by SA 20211224' (Etro plus 4 / 6, HiTEC 11456 8.30 % wt): HiTEC 5748 % wt 3.50 (LBT-025736-A 0W-16), 6.40 (LBT-025737-A 0W-20), 2.70 (LBT-025739-A 5W-20), 6.50 (LBT-025740-A 5W-30), 11.55 (LBT-025741-A 5W-40), 8.10 (LBT-025742-A 10W-30), 10.20 (LBT-025743-A 10W-40), mapped on the images; component line 'HiTEC® 5748, Non-Dispersant Viscosity Modifier | -- | 0.8603' (density @ 15.6 °C) already recorded (no_change row, evidence only). The doses: {POLICY}. No new row.")
+
+d = dict(batch='HiTEC 5748 mentions, batch 9: twelve short documents (fourteenth pass)', reviewed_on='2026-11-13 (fourteenth pass)',
+         note='Hit pages read in full; formulation tables viewed as images. Document read scope (hit pages) is stated per link and is not a full-document read where the document has other pages.',
+         documents={}, links=links, fields=F)
+json.dump(d, open(f'{B}/decisions/zzzzzzzzzzzzzz_b9_5748_short_docs_fourteenth_pass.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print(len(links), len(F))

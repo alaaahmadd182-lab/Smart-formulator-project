@@ -1,0 +1,604 @@
+{
+ "batch": "Eni, ExxonMobil spreadsheet and blending study, BRB, BAPCO and Nyfrost certificates, AP/E Core 2500, GS Caltex in a PPD sheet (tenth pass)",
+ "reviewed_on": "2026-11-13 (tenth pass)",
+ "note": "Single-document batches; each document read in full on the pages stated.",
+ "documents": {
+  "DL2-11130.PDF": {
+   "what": "Eni Triple Tech multipurpose additive packages brochure",
+   "printed_date": "02/2017",
+   "kind": "manufacturer brochure",
+   "read": "both pages; p.1 as an image",
+   "limits": ""
+  },
+  "DL2-11127.pdf": {
+   "what": "Eni MX 5217 data sheet, EN 5030-01",
+   "printed_date": "02/2017",
+   "kind": "manufacturer data sheet (earlier edition)",
+   "read": "both pages; p.1 as an image",
+   "limits": ""
+  },
+  "DL2-12146.xlsx": {
+   "what": "spreadsheet 'EXXON MOBIL': products, KV100, application flags",
+   "printed_date": "not printed",
+   "kind": "compiled product list (issuer not identified)",
+   "read": "all cells (openpyxl, read-only)",
+   "limits": "no issuer, date or methods"
+  },
+  "DL2-11052.pdf": {
+   "what": "BRB Petrolad 8003B diesel engine oil performance booster data sheet",
+   "printed_date": "May 8, 2015",
+   "kind": "manufacturer data sheet (booster)",
+   "read": "all 3 pages",
+   "limits": ""
+  },
+  "DL2-14114.pdf": {
+   "what": "Bapco laboratory report / test certificate BAPBASE 6 cst",
+   "printed_date": "issued 15-JUL-2020",
+   "kind": "manufacturer batch certificate",
+   "read": "whole page",
+   "limits": "tank number not legible in the text layer"
+  },
+  "DL2-14119.pdf": {
+   "what": "Bapco laboratory report / test certificate BAPBASE 8 cst",
+   "printed_date": "issued 15-JUL-2020",
+   "kind": "manufacturer batch certificate",
+   "read": "whole page",
+   "limits": ""
+  },
+  "DL2-14773.pdf": {
+   "what": "Certificate of analysis Nyfrost 32, batch TRAF4-201208",
+   "printed_date": "08-December-2020",
+   "kind": "batch certificate",
+   "read": "whole page",
+   "limits": "issuer partly illegible"
+  },
+  "DL2-14775.pdf": {
+   "what": "Certificate of analysis Nyfrost 32, batch TRAF1-210219 (Inspectorate Antwerp)",
+   "printed_date": "February-2021",
+   "kind": "batch certificate",
+   "read": "whole page",
+   "limits": ""
+  },
+  "DL2-15627.pdf": {
+   "what": "Dowpol NeoFlex 680 pour point depressant data",
+   "printed_date": "April 2018",
+   "kind": "additive supplier data sheet",
+   "read": "p.2",
+   "limits": ""
+  }
+ },
+ "links": [
+  {
+   "p": "ENI_MX_5212",
+   "f": "DL2-11130.PDF",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "both pages read (text layer); p.1 table as an image",
+   "coverage": "Eni Triple Tech brochure (02/2017): 'CF-4/SJ: Eni MX 5612B 5.42% + Eni MX 5612C 1.53% = 6.95% / Eni MX 5212'; CF-4/SM 1.20 + 5.42 + 1.53 = 8.15 % and CF-4/SL 0.50 + 5.42 + 1.53 = 7.45 % agree with the JSON rows '6.95% + 1.20% / + 0.50% Eni MX 5612A'; part-package data p.2 belong to MX 5612A/B/C",
+   "identity": "printed 'Eni MX 5212' as the single-package equivalent",
+   "note": "See the composition note row."
+  },
+  {
+   "p": "ENI_MX_5217",
+   "f": "DL2-11127.pdf",
+   "cat": "F",
+   "status": "completed",
+   "fields_status": "both pages read and compared word by word with the cited DL2-12630.pdf (03/2017); p.1 as an image",
+   "coverage": "earlier edition (02/2017, EN 5030-01): two treat-rate columns only (13.6 %: CH-4 / CI-4 level, E4/E7-12, MB 228.5, M 3277, MTU Type 3 level, VDS-2, Renault RVI RD, CES 20078; 9.6 %: CG-4/SJ, E3-96, MB 228.3, M 3275, MTU Type 2 level, Renault RVI RD); the 03/2017 edition adds the 11.6 % column; p.2 technical data identical to the cited edition and the JSON; footnote '(*) Official approval pending in SAE 10W-40 formulation'",
+   "identity": "exact: 'Eni MX 5217'",
+   "note": "Earlier edition; nothing proposed (the JSON follows the later 03/2017 edition)."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_40",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 39 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_100",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 100 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_10",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 10 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_2",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 1.7 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_2B",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 1.8 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_2C",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 2 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_4",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 4.1 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_5",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 5.1 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_6",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 5.8 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_8",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 8 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_ELITE_150",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 156 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_ELITE_300",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 303 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_ELITE_65",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 65 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_PLUS_4",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 3.9 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_PLUS_6",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 5.9 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SYNESSTIC_12",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 12.4 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_SYNESSTIC_5",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 4.7 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_ESTEREX_A32",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 2.8 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_ESTEREX_A34",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 3.2 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_ESTEREX_A41",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 3.6 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_ESTEREX_A51",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 5.4 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_ESTEREX_NP343",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 4.3 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_ESTEREX_NP451",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 5 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_ESTEREX_P61",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 5.4 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_ESTEREX_P81",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 8.3 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_ESTEREX_TM111",
+   "f": "DL2-12146.xlsx",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "all cells of the single sheet 'EXXON MOBIL' read (openpyxl, read-only)",
+   "coverage": "compiled product / application matrix (no issuer, date or method): 'Kinematic Viscosity @ 100 C (cSt)' 11.9 - equal to the JSON kv100; application flags 'P' are set per product-type group (first row of each group), not per grade, and have no template field",
+   "identity": "product name in the sheet",
+   "note": "Corroborates the KV100 only; issuer unidentified; nothing proposed."
+  },
+  {
+   "p": "EXXONMOBIL_APE_SN_500",
+   "f": "DL2-12146.xlsx",
+   "cat": "C",
+   "status": "completed",
+   "fields_status": "all cells read",
+   "coverage": "name only in the 'Group I basestocks' list (no value, no flag)",
+   "identity": "printed 'AP/E SN 500'",
+   "note": ""
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_100",
+   "f": "DL2-11911.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "both pages read (text layer)",
+   "coverage": "'Blending Study: KV at 40 C, HiVis component % / SpectraSyn 6 (Source: ExxonMobil data)': charts without numeric data in the text layer; blend behaviour, not a property of the neat product",
+   "identity": "product name as a chart legend",
+   "note": ""
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_40",
+   "f": "DL2-11911.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "both pages read (text layer)",
+   "coverage": "'Blending Study: KV at 40 C, HiVis component % / SpectraSyn 6 (Source: ExxonMobil data)': charts without numeric data in the text layer; blend behaviour, not a property of the neat product",
+   "identity": "product name as a chart legend",
+   "note": ""
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_6",
+   "f": "DL2-11911.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "both pages read (text layer)",
+   "coverage": "'Blending Study: KV at 40 C, HiVis component % / SpectraSyn 6 (Source: ExxonMobil data)': charts without numeric data in the text layer; blend behaviour, not a property of the neat product",
+   "identity": "product name as a chart legend",
+   "note": ""
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_ELITE_150",
+   "f": "DL2-11911.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "both pages read (text layer)",
+   "coverage": "'Blending Study: KV at 40 C, HiVis component % / SpectraSyn 6 (Source: ExxonMobil data)': charts without numeric data in the text layer; blend behaviour, not a property of the neat product",
+   "identity": "product name as a chart legend",
+   "note": ""
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_ELITE_65",
+   "f": "DL2-11911.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "both pages read (text layer)",
+   "coverage": "'Blending Study: KV at 40 C, HiVis component % / SpectraSyn 6 (Source: ExxonMobil data)': charts without numeric data in the text layer; blend behaviour, not a property of the neat product",
+   "identity": "product name as a chart legend",
+   "note": ""
+  },
+  {
+   "p": "BRB_PETROLAD_8099",
+   "f": "DL2-11052.pdf",
+   "cat": "D,E",
+   "status": "completed",
+   "fields_status": "all 3 pages read (text layer)",
+   "coverage": "Petrolad 8003B booster TDS (issue date May 8, 2015): 'Performances of Petrolad 8099' at 11.2 % wt (CH-4, CF-4/SJ; E7-04/08; JASO DH-1; Global DHD-1; VDS-3; Mack EO-M +; MB 228.2/3; MAN 3275; Cummins CES 20076/71/72) - an earlier list than the cited 8099 TDS (2016-05-31: E7-12, MB 228.3 blanket approval, MAN 3275-1, CI-4 in Group II, CES 20078, DDC 93K215, Allison C4); booster route 8099 + 8003B; VII Viscotech 6540",
+   "identity": "printed 'Petrolad 8099' in the BRB 8003B data sheet",
+   "note": "See the route row."
+  },
+  {
+   "p": "BAPCO_BAPBASE_6",
+   "f": "DL2-14114.pdf",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "whole page read (text layer)",
+   "coverage": "Bapco laboratory report / test certificate (form BP0209 (04/16)), 5-JUN-2020 sampled, 7-JUN-2020 certified, issued 15-JUL-2020, Certified By 849968: CCS -30 C 3826; colour L 0.5; Saybolt +29; density 15 C 0.8398 kg/liter; flash COC 236; flash PMCC 227; pour (D5950) -16; Noack 7.8; UV 280-350 nm 0.185 / 0.117 / 0.077 / 0.054; KV100 6.046; KV40 32.55; VI 134; water 27 mg/kg; SG 60/60 F 0.8402; saturates (D7419) 99.4; sulfur (D5453) 2.1 mg/kg; every batch value conforms to the specification limits in the JSON (2017 specification images); density is not in the JSON",
+   "identity": "printed '6 cst' (BAPBASE), www.bapco.net",
+   "note": "Batch evidence only."
+  },
+  {
+   "p": "BAPCO_BAPBASE_8",
+   "f": "DL2-14119.pdf",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "whole page read (text layer)",
+   "coverage": "Bapco laboratory report / test certificate (form BP0209 (04/16)), 17-JUN-2020 sampled, 18-JUN-2020 certified, issued 15-JUL-2020, Certified By 700476: CCS -30 C 8365; colour L 0.5; Saybolt +29; density 15 C 0.8443; flash COC 260; pour -14; Noack 2.5; UV 0.088 / 0.080 / 0.090 / 0.030; KV100 7.906; KV40 48.32; VI 133; water 14; SG 0.8447; saturates 99.4; sulfur 1.0; every batch value conforms to the specification limits in the JSON (2017 specification images); density is not in the JSON",
+   "identity": "printed '8 cst' (BAPBASE), www.bapco.net",
+   "note": "Batch evidence only."
+  },
+  {
+   "p": "NYNAS_NYFROST_32",
+   "f": "DL2-14773.pdf",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "whole page read (text layer)",
+   "coverage": "certificate of analysis (08-December-2020, batch TRAF4-201208, ref N2020-17163): density 15 C, KV40, flash PM (D93A), colour, TAN, refractive index, carbon-type composition (D2140 C_A / C_N / C_P), breakdown voltage, water; batch values inside the JSON specification limits (KV40 28.8-35.2, density 0.896-0.916, flash PM min 174); D2140 %C_A is not the template's aromatics quantity; nothing proposed",
+   "identity": "printed 'Nyfrost 32'",
+   "note": "Batch evidence only; no Missing field that a batch value could inform except through ring analysis, which is a different quantity."
+  },
+  {
+   "p": "NYNAS_NYFROST_32",
+   "f": "DL2-14775.pdf",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "whole page read (text layer)",
+   "coverage": "certificate of analysis (February-2021, batch TRAF1-210219, ref N2021-02889): density 15 C, KV40, flash PM (D93A), colour, TAN, refractive index, carbon-type composition (D2140 C_A / C_N / C_P), breakdown voltage, water; batch values inside the JSON specification limits (KV40 28.8-35.2, density 0.896-0.916, flash PM min 174); D2140 %C_A is not the template's aromatics quantity; nothing proposed",
+   "identity": "printed 'Nyfrost 32'",
+   "note": "Batch evidence only; no Missing field that a batch value could inform except through ring analysis, which is a different quantity."
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_2500",
+   "f": "RF6508%20Booklet.pdf",
+   "cat": "D,E",
+   "status": "completed",
+   "fields_status": "p.7 base-stock table read in full (text layer); pp.8, 11 recipe tables",
+   "coverage": "p.7 row 'ExxonMobil AP/E Core 2500 | I | 31.92 | 480.5 | 97 | 41.9 | 1.12' (KV100, KV40, VI, saturates %, sulfur wt.%): KV100 inside the JSON 30.6-32.7; VI 97 >= 95; KV40, saturates and sulfur are Missing in the JSON",
+   "identity": "printed 'ExxonMobil AP/E Core 2500', Group I",
+   "note": "Third-party characterisation without lot number."
+  },
+  {
+   "p": "GS_CALTEX_600N",
+   "f": "DL2-15627.pdf",
+   "cat": "D,E",
+   "status": "completed",
+   "fields_status": "p.2 read in full (text layer)",
+   "coverage": "Dowpol NeoFlex 680 PPD data (Revision Date April, 2018): neat pour point of 'GS-Caltex 600N' -12 C (0.2 % PPD -31 C); method not printed; the JSON typical is -14 C with specification max -12 C: observation only",
+   "identity": "printed '600N | GS-Caltex'",
+   "note": ""
+  },
+  {
+   "p": "GS_CALTEX_150N",
+   "f": "DL2-15627.pdf",
+   "cat": "G",
+   "status": "completed",
+   "fields_status": "p.2 read in full",
+   "coverage": "not applicable",
+   "identity": "FALSE MATCH: the 150N columns are SinoPec-Shanghai, Formosa, CNCOOC, SinoPec-Maoming and HDS; 'GS-Caltex' is named only for the 600N column",
+   "note": ""
+  },
+  {
+   "p": "NESTE_NEXBASE_3043",
+   "f": "DL2-14397.pdf",
+   "cat": "E,H",
+   "status": "completed",
+   "fields_status": "whole page read as an image (the text layer is only a cover line)",
+   "coverage": "compared with the JSON and the TDS DL2-10037.pdf (edition 5.2, read in full on 2026-11-13, tenth pass; the earlier reads were truncated); every printed value accounted for (batch evidence only)",
+   "identity": "printed 'NEXBASE 3043'; issuer not identifiable",
+   "note": "Tank / shipment certificate. Values equal DL2-14398.pdf; no shared identifier; independence unverified (see that link). Observation (tenth pass): the Bapco test certificate DL2-14119.pdf (BAPBASE 8, form BP0209) is also 'Certified By 700476' and uses the same fields (Tank Number, Date Sampled, Date Certified, Certified By); this suggests the same laboratory issued DL2-14397.pdf, but the issuer is still not printed on DL2-14397.pdf, so it remains unidentified. It does not change the independence assessment (independence unverified)."
+  }
+ ],
+ "fields": [
+  {
+   "p": "ENI_MX_5212",
+   "tier": 1,
+   "path": "route_selector_restrictions",
+   "old": "DL2-14981.pdf (02/2017): 'Eni MX 5212 can be used alone or with a specific booster (Eni MX 5612 A) to have a cascade system.'",
+   "new_f": "DL2-11130.PDF",
+   "new_p": 1,
+   "new_text": "Table 2 (image checked): 'CF-4/SJ | Eni MX 5612A - | 5612B 5.42% | 5612C 1.53% | 6.95% | Eni MX 5212'; 'CF-4/SM | 1.20% / 5.42% / 1.53% | 8.15%'; 'CF-4/SL | 0.50% / 5.42% / 1.53% | 7.45%'",
+   "unit": "%",
+   "form": "manufacturer brochure (02/2017)",
+   "qual": "",
+   "method": "",
+   "cond": "",
+   "basis": "",
+   "outcome": "additional",
+   "action": "propose_note",
+   "reason": "Propose a note that the brochure presents Eni MX 5212 at 6.95 % as equivalent to the part-packages 5612B 5.42 % + 5612C 1.53 %; the booster rows reproduce the JSON treat rates (8.15 and 7.45 % in total). Nothing is derived from the equivalence.",
+   "old_rev": "re-read manually: DL2-14981.pdf as quoted in the JSON (treat-rate rows with Eni MX 5612A)",
+   "cmp_override": "existing: cascade with 5612A only"
+  },
+  {
+   "p": "BRB_PETROLAD_8099",
+   "tier": 1,
+   "path": "route_selector_restrictions",
+   "old": "DL2-11053.pdf (8099 TDS, 2016-05-31): 'It can be used in formulations combined with our Viscotech 6540 VI improver.'; claims at 11.2 % wt alone (CI-4 in a Group II formulation).",
+   "new_f": "DL2-11052.pdf",
+   "new_p": 2,
+   "new_text": "'Performances Petrolad 8099 (11.2 % wt.) boosted with Petrolad 8003B (1.7 % wt.)': CI-4/SL 11.2 + 1.7; CG-4 9.3 + 1.4; Cummins 20077/78 11.2 + 1.7; MTU Type 2 11.2 + 1.7; Renault Truck RLD-2 11.2 + 1.7; p.1 'Petrolad 8099 with Petrolad 8003B is formulated for use with Viscotech 6540 VI improver.'",
+   "unit": "% wt",
+   "form": "manufacturer data sheet of the booster (May 2015)",
+   "qual": "",
+   "method": "",
+   "cond": "",
+   "basis": "mass (printed % wt)",
+   "outcome": "additional",
+   "action": "propose_add_route_bound",
+   "reason": "Propose recording the booster route (8099 + 8003B doses per claim) as a separate route; the 2016 claims of 8099 alone are unchanged; the 2015 list of 8099-alone claims is older wording and is not proposed.",
+   "old_rev": "re-read manually: DL2-11053.pdf as quoted in the JSON (claims table, VII statement)",
+   "cmp_override": "existing: 8099 alone at 11.2 % wt; VII Viscotech 6540"
+  },
+  {
+   "p": "BAPCO_BAPBASE_6",
+   "tier": 1,
+   "path": "density",
+   "old": "Specification image cited by the JSON (2017-08-17): no density row. JSON density Missing.",
+   "new_f": "DL2-14114.pdf",
+   "new_p": 1,
+   "new_text": "'Density@ 15 deg C, kg/liter | ASTM D4052 | 0.8398' (Bapco test certificate, 7-JUN-2020 certified)",
+   "unit": "kg/liter",
+   "form": "batch measurement (single manufacturer test certificate)",
+   "qual": "",
+   "method": "ASTM D4052",
+   "cond": "15 C",
+   "basis": "",
+   "outcome": "additional",
+   "action": "propose_open_question_update",
+   "reason": "A single batch result cannot fill the mandatory density; propose recording it in an open question as batch evidence with the certificate identifiers.",
+   "old_rev": "re-read manually: the JSON printed_text of the 2017 specification image (no density row)",
+   "cmp_override": "existing: density Missing"
+  },
+  {
+   "p": "BAPCO_BAPBASE_8",
+   "tier": 1,
+   "path": "density",
+   "old": "Specification image cited by the JSON (2017-08-17): no density row. JSON density Missing.",
+   "new_f": "DL2-14119.pdf",
+   "new_p": 1,
+   "new_text": "'Density@ 15 deg C, kg/liter | ASTM D4052 | 0.8443' (Bapco test certificate, 18-JUN-2020 certified)",
+   "unit": "kg/liter",
+   "form": "batch measurement (single manufacturer test certificate)",
+   "qual": "",
+   "method": "ASTM D4052",
+   "cond": "15 C",
+   "basis": "",
+   "outcome": "additional",
+   "action": "propose_open_question_update",
+   "reason": "A single batch result cannot fill the mandatory density; propose recording it in an open question as batch evidence with the certificate identifiers.",
+   "old_rev": "re-read manually: the JSON printed_text of the 2017 specification image (no density row)",
+   "cmp_override": "existing: density Missing"
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_2500",
+   "tier": 3,
+   "path": "saturates",
+   "old": "DL2-13265.pdf (05-2020) read: CORE 2500 limits only (KV100 30.6-32.7, VI 95 min, flash 294 min, pour -6 max, colour 6 max); no KV40, saturates or sulfur. JSON those Missing.",
+   "new_f": "RF6508%20Booklet.pdf",
+   "new_p": 7,
+   "new_text": "'ExxonMobil AP/E Core 2500 | I | 31.92 | 480.5 | 97 | 41.9 | 1.12' under 'Base Stock Information' (KV100 D445, KV40 D445, VI D2270, Saturates % D2007, Sulfur wt.% D2622)",
+   "unit": "%; wt.%; mm2/s",
+   "form": "third-party characterisation (additive supplier booklet, no lot number)",
+   "qual": "",
+   "method": "",
+   "cond": "",
+   "basis": "",
+   "outcome": "additional",
+   "action": "propose_open_question_update",
+   "reason": "As for AP/E Core 150 / 600 (ninth pass): not a manufacturer value; propose an open-question note citing it.",
+   "old_rev": "re-read manually: DL2-13265.pdf p.1 whole text layer (AP/E CORE specifications, 05-2020)",
+   "cmp_override": "existing: saturates, sulfur, KV40 Missing"
+  }
+ ]
+}

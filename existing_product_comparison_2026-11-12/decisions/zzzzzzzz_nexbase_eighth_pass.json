@@ -1,0 +1,212 @@
+{
+ "batch": "other suppliers: Neste NEXBASE 3043 / 3060 / 3080 (certificates)",
+ "reviewed_on": "2026-11-13 (eighth pass)",
+ "note": "Old sources: DL2-10039.pdf (NEXBASE 3060 TDS edition 6.2) read in full; NEXBASE 3043 / 3080 records cite DL2-10037.pdf / DL2-10040.pdf (TDS) whose values are in the JSON (typicals with specification limits, as for 3060); those two TDS were not re-read in this pass.",
+ "documents": {
+  "DL2-12853.pdf": {
+   "what": "Neste (Suisse) S.A. Certificate of Analysis, 'NEXBASE 3060 DRUMS', lot 32701 190304 01, delivery to TAXOL LUBRITECH, customer reference 'SAMPLE REQUEST'",
+   "printed_date": "not printed (lot code 190304)",
+   "kind": "manufacturer batch certificate with limits",
+   "read": "whole page as an image",
+   "limits": ""
+  },
+  "DL2-14400.pdf": {
+   "what": "Certificate of Analysis 'NEXBASE 3060 (Base Oil GIII, 6 cSt)', batch B201137, issuer not named",
+   "printed_date": "22 Feb 2020",
+   "kind": "third-party batch certificate with limits",
+   "read": "both pages (text layer)",
+   "limits": "issuer not named; colour limit printed 'Min 0.5' (the TDS gives a maximum)"
+  },
+  "DL2-14397.pdf": {
+   "what": "Certificate of Analysis 'NEXBASE 3043', Tank 0772, sampled / certified 30-JUN-2020, order 14762, vessel DS COUGAR (scanned table on a cover page; issuer not named)",
+   "printed_date": "30-JUN-2020",
+   "kind": "terminal / shipment batch certificate",
+   "read": "whole page as an image",
+   "limits": "issuer not identifiable"
+  },
+  "DL2-14398.pdf": {
+   "what": "Certificate of Analysis 'NT 503 (NEXBASE 3043)', batch B201369, buyer ref 98104026/08 (issuer not named)",
+   "printed_date": "30 Jun 2020",
+   "kind": "re-issued batch certificate",
+   "read": "both pages (text layer)",
+   "limits": "every value equals DL2-14397.pdf: the same measurement re-issued, not an independent result"
+  },
+  "DL2-14401.pdf": {
+   "what": "Certificate of Analysis 'NEXBASE 3080', Tank 0775, certified 26-JUL-2020, order 14762, vessel DS COUGAR",
+   "printed_date": "26-JUL-2020",
+   "kind": "terminal / shipment batch certificate",
+   "read": "whole page as an image",
+   "limits": "issuer not identifiable"
+  },
+  "DL2-14402.pdf": {
+   "what": "Certificate of Analysis 'NT502 (NEXBASE 3080)', batch B201368, buyer ref 98104027/08",
+   "printed_date": "26 Jul 2020",
+   "kind": "re-issued batch certificate",
+   "read": "both pages (text layer)",
+   "limits": "every value equals DL2-14401.pdf: same measurement"
+  }
+ },
+ "visual": [
+  {
+   "f": "DL2-12853.pdf",
+   "page": 1,
+   "checked": "certificate columns Min / Max / Result and the 'Additional typical properties' block",
+   "result": "confirmed",
+   "detail": "KV100 (D445/7042) min 5.7 max 6.3 result 5.965 mm2/s; KV40 result 32.32; VI min 125 result 132; pour point max -12 result -15 C; flash point (D-92) min 220 result 240 C; colour max .5 result <.5; Noack (CEC L-40-93b) max 8 result 7.3 wpct; density 15 C (D4052) result 842.3 kg/m3. 'Additional typical properties according API/ATIEL - Base Stock Group III - Typical Result': Sulphur ASTM D-5453 mg/kg, Max 300, result <10; Saturates ASTM D-2007 %, Min 90, result >99. Notes: 'LAST MEASUREMENT ACCORDING TO NESTE'S QUALITY PLAN.'"
+  },
+  {
+   "f": "DL2-14397.pdf",
+   "page": 1,
+   "checked": "scanned certificate table",
+   "result": "confirmed",
+   "detail": "Cloud point -12; CCS -30 C 1558 mPa.s (D5293); density 15 C 0.8351 kg/liter (D4052); flash COC 220 (D92); flash PM closed cup 215 (D93); Noack 14.1 mass % (CEC L-40-9); pour -18 (D5950); VI 125; KV100 4.280; KV40 19.70; specific gravity 60/60 F 0.8355; saturates 99.2 mass% (D7419); total sulfur (low) 0.2 mg/kg (D5453)."
+  },
+  {
+   "f": "DL2-14401.pdf",
+   "page": 1,
+   "checked": "scanned certificate table",
+   "result": "confirmed",
+   "detail": "CCS -30 C 8489; density 15 C 0.8442 kg/liter; flash COC 258; pour -13; Noack 2.8; KV100 7.888; KV40 48.07; VI 134; SG 60/60 F 0.8446; saturates 99.9 mass%; total sulfur 1.5 mg/kg."
+  }
+ ],
+ "links": [
+  {
+   "p": "NESTE_NEXBASE_3060",
+   "f": "DL2-12853.pdf",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "whole certificate read as an image and compared with the TDS and the JSON",
+   "coverage": "old TDS DL2-10039.pdf read in full: its limits equal the certificate limits and are in the JSON",
+   "identity": "exact: 'NEXBASE 3060 DRUMS'; issuer Neste (Suisse) S.A.",
+   "note": "Manufacturer batch certificate. Limits equal the TDS edition 6.2 limits already recorded. New: 'Additional typical properties' for sulphur and saturates (tier-3 fields Missing in the JSON)."
+  },
+  {
+   "p": "NESTE_NEXBASE_3060",
+   "f": "DL2-14400.pdf",
+   "cat": "E,H",
+   "status": "completed",
+   "fields_status": "both pages compared",
+   "coverage": "as above",
+   "identity": "printed 'NEXBASE 3060 (Base Oil GIII, 6 cSt)'; issuer not named",
+   "note": "Third-party batch certificate (22 Feb 2020): limits equal the TDS except the colour limit printed 'Min 0.5'; batch results (KV100 5.986, VI 132, density 0.8424 g/ml, pour -18, flash 238, Noack 7.0, sulfur 0.0003 mg/kg as printed, saturates 97.02 % D2007). Batch evidence only."
+  },
+  {
+   "p": "NESTE_NEXBASE_3043",
+   "f": "DL2-14397.pdf",
+   "cat": "E,H",
+   "status": "completed",
+   "fields_status": "scanned table read as an image and compared with the JSON",
+   "coverage": "JSON values from DL2-10037.pdf compared; that TDS not re-read in this pass",
+   "identity": "printed 'NEXBASE 3043'; issuer not identifiable",
+   "note": "Shipment / tank batch certificate (30-JUN-2020). Batch evidence only."
+  },
+  {
+   "p": "NESTE_NEXBASE_3043",
+   "f": "DL2-14398.pdf",
+   "cat": "B,E",
+   "status": "completed",
+   "fields_status": "values compared with DL2-14397.pdf: identical",
+   "coverage": "as DL2-14397.pdf",
+   "identity": "printed 'NT 503 (NEXBASE 3043)'",
+   "note": "Same measurement as DL2-14397.pdf re-issued under a trade code (NT 503) and batch number B201369; not independent evidence."
+  },
+  {
+   "p": "NESTE_NEXBASE_3080",
+   "f": "DL2-14401.pdf",
+   "cat": "E,H",
+   "status": "completed",
+   "fields_status": "scanned table read as an image and compared with the JSON",
+   "coverage": "JSON values from DL2-10040.pdf compared; that TDS not re-read in this pass",
+   "identity": "printed 'NEXBASE 3080'; issuer not identifiable",
+   "note": "Shipment / tank batch certificate (26-JUL-2020). Batch evidence only."
+  },
+  {
+   "p": "NESTE_NEXBASE_3080",
+   "f": "DL2-14402.pdf",
+   "cat": "B,E",
+   "status": "completed",
+   "fields_status": "values compared with DL2-14401.pdf: identical",
+   "coverage": "as DL2-14401.pdf",
+   "identity": "printed 'NT502 (NEXBASE 3080)'",
+   "note": "Same measurement as DL2-14401.pdf re-issued (batch B201368); not independent."
+  }
+ ],
+ "fields": [
+  {
+   "p": "NESTE_NEXBASE_3060",
+   "tier": 3,
+   "path": "sulfur",
+   "old": "DL2-10039.pdf (TDS edition 6.2) read in full: no sulphur or saturates value. JSON tier-3 sulfur and saturates Missing.",
+   "new_f": "DL2-12853.pdf",
+   "new_p": 1,
+   "new_text": "Additional typical properties according API/ATIEL - Base Stock Group III - Typical Result: Sulphur ASTM D-5453 mg/kg | Max 300 | <10; Saturates ASTM D-2007 % | Min 90 | >99",
+   "unit": "mg/kg; %",
+   "form": "typical result printed by the manufacturer on a certificate ('Additional typical properties'); the 300 / 90 figures are the API/ATIEL Group III thresholds, not product specifications",
+   "qual": "'<' for sulphur; '>' for saturates",
+   "method": "ASTM D-5453; ASTM D-2007",
+   "cond": "",
+   "basis": "mass (sulphur mg/kg); saturates '%' as printed",
+   "outcome": "additional",
+   "action": "propose_add",
+   "reason": "First sulphur and saturates statements from the manufacturer. Propose sulphur '< 10 mg/kg' (qualifier '<', upper bound) and saturates '> 99 %' (qualifier '>', lower bound) as typicals with the certificate as source; record the 300 / 90 values only as the Group III thresholds they are labelled as, not as product limits. Bounds are not converted into points.",
+   "old_rev": "re-read manually: DL2-10039.pdf (NEXBASE 3060 TDS edition 6.2) both pages, text layer"
+  },
+  {
+   "p": "NESTE_NEXBASE_3060",
+   "tier": 1,
+   "path": "density",
+   "old": "DL2-10039.pdf: 'Density, at 15 C | kg/m3 | 843' (typical, long-term average; JSON value 843)",
+   "new_f": "DL2-12853.pdf",
+   "new_p": 1,
+   "new_text": "Density, 15 C ASTM D-4052 kg/m3 result 842.3 (Neste lot 32701 190304 01); third-party certificate DL2-14400.pdf: 'Density, g/ml | ASTM D4052 | 0.8424' (no temperature printed)",
+   "unit": "kg/m3; g/ml",
+   "form": "batch measurements (manufacturer certificate; third-party certificate)",
+   "qual": "",
+   "method": "ASTM D4052",
+   "cond": "15 C (Neste); temperature not printed (DL2-14400)",
+   "basis": "",
+   "outcome": "not_comparable",
+   "action": "no_change",
+   "reason": "Batch results beside a long-term-average typical (843): not typicals, not entered, not averaged. The Neste batch value lies 0.7 kg/m3 below the typical, which is an observation about one lot only.",
+   "old_rev": "re-read manually: DL2-10039.pdf (NEXBASE 3060 TDS edition 6.2) both pages, text layer"
+  },
+  {
+   "p": "NESTE_NEXBASE_3043",
+   "tier": 3,
+   "path": "sulfur",
+   "old": "DL2-10037.pdf (TDS edition 5.2) read: no sulphur or saturates printed; JSON tier-3 sulfur and saturates Missing",
+   "new_f": "DL2-14397.pdf",
+   "new_p": 1,
+   "new_text": "Total Sulfur (Low), mg/kg, ASTM D5453: 0.2; Saturates, mass%, ASTM D7419: 99.2 (tank certificate, 30-JUN-2020; the same values re-issued in DL2-14398.pdf)",
+   "unit": "mg/kg; mass%",
+   "form": "batch measurement (single shipment certificate, issuer not identifiable)",
+   "qual": "",
+   "method": "ASTM D5453; ASTM D7419",
+   "cond": "one tank / one shipment",
+   "basis": "mass",
+   "outcome": "not_comparable",
+   "action": "propose_open_question_update",
+   "reason": "Batch results from an unidentified issuer cannot fill the typical fields; propose only an open-question note listing them as batch evidence. The two certificates are one measurement, not two. The batch values conform to the TDS limits (KV100 4.280 within 4.2-4.4; Noack 14.1 <= 14.8; pour -18 <= -12; flash COC 220 >= 220): an observation about one batch.",
+   "old_rev": "re-read manually: DL2-10037.pdf (NEXBASE 3043 TDS edition 5.2) both pages, text layer: limits KV100 4.2-4.4, VI >= 121, pour <= -12, flash >= 220, colour <= 0.5, Noack <= 14.8; typicals; no sulphur or saturates"
+  },
+  {
+   "p": "NESTE_NEXBASE_3080",
+   "tier": 3,
+   "path": "sulfur",
+   "old": "DL2-10040.pdf (TDS edition 2.2) read: no sulphur or saturates printed; JSON tier-3 sulfur and saturates Missing",
+   "new_f": "DL2-14401.pdf",
+   "new_p": 1,
+   "new_text": "Total Sulfur (Low), mg/kg, ASTM D5453: 1.5; Saturates, mass%, ASTM D7419: 99.9 (tank certificate, 26-JUL-2020; re-issued in DL2-14402.pdf)",
+   "unit": "mg/kg; mass%",
+   "form": "batch measurement (single shipment certificate, issuer not identifiable)",
+   "qual": "",
+   "method": "ASTM D5453; ASTM D7419",
+   "cond": "one tank / one shipment",
+   "basis": "mass",
+   "outcome": "not_comparable",
+   "action": "propose_open_question_update",
+   "reason": "As for NEXBASE 3043: batch evidence note only. The batch conforms to the TDS limits (KV100 7.888 within 7.8-8.2; pour -13 <= -12; Noack 2.8 <= 5).",
+   "old_rev": "re-read manually: DL2-10040.pdf (NEXBASE 3080 TDS edition 2.2) both pages, text layer: limits KV100 7.8-8.2, VI >= 125, pour <= -12, flash >= 220, colour <= 0.5, Noack <= 5; typicals; no sulphur or saturates"
+  }
+ ]
+}

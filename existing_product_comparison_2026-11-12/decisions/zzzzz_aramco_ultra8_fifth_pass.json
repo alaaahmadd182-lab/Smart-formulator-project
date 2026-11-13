@@ -1,0 +1,26 @@
+{
+  "batch": "other suppliers: aramcoULTRA 8",
+  "reviewed_on": "2026-11-13 (fifth pass)",
+  "note": "aramcoULTRA 8 carries an open KV40 conflict and an open identity question (ID-01, merge with S-OIL Ultra S). Nothing here resolves either; third-party evidence is recorded as such.",
+  "documents": {
+    "DL2-15807.pdf": {"what": "Afton 'HiTEC 34500' automatic-transmission-fluid package document (21 pages); p.4 (page 5 of the file) typical and alternative formulations", "printed_date": "not read", "kind": "additive document (third party for base oils)", "read": "p.5 as an image", "limits": ""},
+    "DL2-15747.pdf": {"what": "Afton presentation (29 pages); p.28 formulations naming 'AramcoULTRA 8 (Ultra S)'", "printed_date": "not read", "kind": "additive presentation", "read": "hit lines on p.28", "limits": "not viewed as an image"},
+    "Infineum-S911%20brochure_WHITE_PDF.pdf": {"what": "Infineum S911 brochure ((c) 2022, 45 pages); p.18 formulations", "printed_date": "(c) 2022", "kind": "additive brochure", "read": "hit lines on p.18", "limits": ""}
+  },
+  "visual": [
+    {"f": "DL2-15807.pdf", "page": 5, "checked": "HiTEC 34500 alternative formulations", "result": "confirmed", "detail": "Column 1 (% weight / % volume): HiTEC 34500 10.80 / 9.92; S-Oil aramco ULTRA 3 45.50 / 46.47; S-Oil aramco ULTRA 8 43.68 / 43.59; Red Dye 0.02 / 0.02; Total 100.0 / 100.0. The numbers are recipe shares, not base-oil properties."}
+  ],
+  "links": [
+    {"p": "S_OIL_ARAMCO_ULTRA_8", "f": "HiTEC%2011356_API%20SQ%20CDP%20-%20Version%201_20260525_updated.pdf", "cat": "D,E", "status": "completed", "fields_status": "p.16 read as an image", "coverage": "JSON KV40 / KV100 entries and the open KV40 conflict compared", "identity": "printed 'aramcoULTRA 8', group III, inventory RIC24-02878", "note": "One NEAT batch analysis by Afton: KV100 7.131 cSt, KV40 41.180 cSt (D445), VI 136, saturates 98.2 wt%, sulfur 0.0002 wt%. Selected values: KV40 41.10 cSt, KV100 7.1 cSt (S-OIL table). A batch result is not a typical and does not resolve the open KV40 conflict; it may be cited there as additional third-party evidence."},
+    {"p": "S_OIL_ARAMCO_ULTRA_8", "f": "DL2-15807.pdf", "cat": "D", "status": "completed", "fields_status": "p.5 read as an image", "coverage": "not applicable", "identity": "printed 'S-Oil aramco ULTRA 8'", "note": "Recipe share in an ATF formulation (43.68 % weight / 43.59 % volume). Recipe evidence of another product only."},
+    {"p": "S_OIL_ARAMCO_ULTRA_8", "f": "DL2-15591.pdf", "cat": "D", "status": "completed", "fields_status": "hit line only", "coverage": "not applicable", "identity": "printed 'aramcoULTRA 8'", "note": "Recipe shares (60.00 / 50.00 / 89.80 / 85.00) in HiTEC 11455 formulations."},
+    {"p": "S_OIL_ARAMCO_ULTRA_8", "f": "Infineum-S911%20brochure_WHITE_PDF.pdf", "cat": "D", "status": "completed", "fields_status": "hit line only", "coverage": "not applicable", "identity": "printed 'aramcoULTRA 8'", "note": "Recipe share (36.0 / 36.2) in Infineum S911 formulations."},
+    {"p": "S_OIL_ARAMCO_ULTRA_8", "f": "DL2-15747.pdf", "cat": "D,H", "status": "completed", "fields_status": "hit line only", "coverage": "not applicable", "identity": "printed 'AramcoULTRA 8 (Ultra S)': a third party writes the two names together", "note": "Recipe shares (2.0 / 20.5). The label '(Ultra S)' is identity evidence relevant to the open ID-01 merge question; it is a third-party label and does NOT settle it."}
+  ],
+  "fields": [
+    {"p": "S_OIL_ARAMCO_ULTRA_8", "tier": 1, "path": "kv40", "old": "Selected: KV40 41.10 cSt from the S-OIL lube-base-oil table (registered external source; local evidence copy reports/data_policy/external_evidence and reconciliation/audit_evidence/SOIL_LubeBaseOil_live_2026-10-30.html); SDS DL2-14611.pdf ranges kept as alternates; KV40 conflict open (earlier work).", "new_f": "HiTEC%2011356_API%20SQ%20CDP%20-%20Version%201_20260525_updated.pdf", "new_p": 16, "new_text": "aramcoULTRA 8 | RIC24-02878 | III | Viscosity @ 100 C 7.131 cSt (D445) | Viscosity @ 40 C 41.180 cSt (D445) | VI 136 (D2270) | Saturates 98.2 wt% (D2007) | Sulfur 0.0002 wt% (D2622)", "unit": "cSt", "form": "batch measurement of the neat base oil by a third party", "qual": "", "method": "ASTM D445", "cond": "40 C; one batch", "basis": "", "outcome": "not_comparable", "action": "no_change", "reason": "A single third-party batch result; not a typical, not a specification. It is close to the selected 41.10 cSt but is not used to resolve the open conflict or to confirm the selection; it may be listed in the conflict record as additional evidence. No value or selection change.", "old_rev": "re-read manually (the selected S-OIL table entry and the recorded conflict, from earlier review files)"}
+  ],
+  "new_product_candidates": [
+    {"name_as_printed": "S-Oil aramco ULTRA 3", "supplier": "S-OIL", "file": "DL2-15807.pdf", "page": 5, "evidence": "base oil in an Afton ATF formulation; no database record found under this name"}
+  ]
+}

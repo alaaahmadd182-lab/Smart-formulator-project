@@ -1,0 +1,48 @@
+{
+ "batch": "duplicate-source coverage: first reviewed reading (tenth pass)",
+ "reviewed_on": "2026-11-13 (tenth pass)",
+ "note": "Duplicate (category A) sources are byte-identical to files the products already cite, so the relationship needs no review, but whether everything in them reached the JSON does. tables/duplicate_source_coverage_screen.csv is an AUTOMATED screen of all 282 A links (leads only). This file records the first coverage assessed by reading: Esterex A34. The family layout (ExxonMobil 'Product Datasheet', Esterex / Synesstic) suggests the same pattern for the other sheets, but they have NOT been read in this pass.",
+ "documents": {
+  "DL2-12114.pdf": {
+   "what": "ExxonMobil 'Product Datasheet' Esterex A34 Synthetic Fluid",
+   "printed_date": "Revision Date 11/16/2005",
+   "kind": "manufacturer data sheet (byte duplicate of the cited source)",
+   "read": "both pages (text layer)",
+   "limits": ""
+  }
+ },
+ "links": [
+  {
+   "p": "EXXONMOBIL_ESTEREX_A34",
+   "f": "DL2-12114.pdf",
+   "cat": "A",
+   "status": "completed",
+   "fields_status": "both pages read in full (text layer) and compared value by value with the JSON",
+   "coverage": "assessed by reading (2026-11-13): every value that has a template field is captured (KV100 3.2, KV40 12.0, VI 137, SG 0.922 at 20 C, Noack 20.4, pour -60, flash COC 199) except the second flash-point method (PMCC 170 C, ASTM D93; field row). Not captured, no template field: KV -40 C 1970 cSt, colour < 0.5, water < 1000 ppm, refractive index 1.4487, TAN < 0.08, hydrolytic stability 0.11, density correction factor 7.33E-4, fire point 248 C, evaporation loss 37.0 wt% (D972 mod), RPVOT > 1210 min, biodegradation 78.5 %, aniline point -9.8 C, Kauri-Butanol 84.5, FKM elastomer changes. Observation: the JSON printed_text holds the bare number (e.g. '12.0'), not the printed text ('12.0 cSt 12.0 mm2/s').",
+   "identity": "SHA-256 equal to the cited DL2-12114.pdf",
+   "note": "Exact byte duplicate; coverage now assessed by reading."
+  }
+ ],
+ "fields": [
+  {
+   "p": "EXXONMOBIL_ESTEREX_A34",
+   "tier": 2,
+   "path": "flash_point",
+   "old": "DL2-12114.pdf (cited; Revision Date 11/16/2005) p.1: 'Flash Point, COC 390 F 199 C ASTM D92' and 'Flash Point, PMCC 2 338 F 170 C ASTM D93'. JSON flash_point 199 (COC) only.",
+   "new_f": "DL2-12114.pdf",
+   "new_p": 1,
+   "new_text": "'Flash Point, PMCC 2 338 F 170 C ASTM D93' (Thermal section; footnote marker 2)",
+   "unit": "C",
+   "form": "typical (manufacturer data sheet)",
+   "qual": "typical",
+   "method": "ASTM D93 (Pensky-Martens closed cup)",
+   "cond": "",
+   "basis": "",
+   "outcome": "in_old_source_not_captured",
+   "action": "capture_from_old_source",
+   "reason": "Information in a source the record already cites, never captured: the closed-cup flash point is a second method for the same property. Propose an alternate entry (method D93) beside the COC value; the COC value stays the selected value; the two are not compared as equal or conflicting (different methods). The meaning of footnote marker '2' is not printed on p.1 (not interpreted).",
+   "old_rev": "re-read manually: DL2-12114.pdf both pages (text layer; the cited file itself)",
+   "cmp_override": "existing: flash_point 199 C (COC) only"
+  }
+ ]
+}

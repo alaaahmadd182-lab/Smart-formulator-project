@@ -1,0 +1,115 @@
+{
+ "batch": "Richful: product catalogues DL2-15743.pdf and DL2-15764.pdf (one TDS-style page per package)",
+ "reviewed_on": "2026-11-13 (ninth pass)",
+ "note": "Two undated editions of the Richful 'Company Profile' catalogue: DL2-15743.pdf (59 pp.; lists e.g. RF6088E, RF4011, RF4206) and DL2-15764.pdf (65 pp.; lists RF6088F, RF4015, RF7708R and others instead). Each product page was compared with the cited old TDS by full-text reading and word-level and number-level differences (scratchpad helper catdiff.py): every number not shared is reported below. The catalogue pages carry no date, so no edition order is assumed. CANDIDATE GAP found here: product codes whose alias is 'generic' (needs the supplier name on the same page) are not linked when the supplier is printed only on the catalogue cover; RF6066, RF6078, RF6079, RF6088, RF6400, RF6406 and RF6408 have pages in these catalogues but no ledger link (see checkpoint 9).",
+ "documents": {
+  "DL2-15743.pdf": {
+   "what": "Richful catalogue (Company Profile, contents, one page per package)",
+   "printed_date": "not printed",
+   "kind": "manufacturer product catalogue",
+   "read": "pp.1-2 and product pages 9 (RF6069), 10 (RF6071L), 11 (RF6077) in full (text layer)",
+   "limits": "other product pages not reviewed in this pass"
+  },
+  "DL2-15764.pdf": {
+   "what": "Richful catalogue, other edition",
+   "printed_date": "not printed",
+   "kind": "manufacturer product catalogue",
+   "read": "pp.1-2 and product pages 9 (RF6069), 10 (RF6071L), 11 (RF6077), 15 (RF6088F) in full (text layer)",
+   "limits": "other product pages not reviewed in this pass"
+  }
+ },
+ "links": [
+  {
+   "p": "RICHFUL_RF6069",
+   "f": "DL2-15743.pdf",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "p.9 read in full and compared word by word and number by number (difflib) with DL2-15618.pdf",
+   "coverage": "all treat rates (CI-4 8.5 %, CH-4 7.8 %, CF-4 4.1 % + 1.9 % RF0206) and limits/typicals equal the TDS except KV100 typical 142 (TDS 118) and the method citations: density GB/T 13377 (TDS SH/T 0604), N SH/T 0656 / ASTM D5291 (TDS SH/T 0704 / ASTM D5762), other methods without spaces",
+   "identity": "exact: 'RF6069 CI-4 Diesel Engine Oil Package'",
+   "note": "KV100 142 matches the SDS DL2-15619.pdf and richful.com value already in the JSON conflict; see field row."
+  },
+  {
+   "p": "RICHFUL_RF6069",
+   "f": "DL2-15764.pdf",
+   "cat": "B",
+   "status": "completed",
+   "fields_status": "p.9 read in full and compared word by word and number by number (difflib) with DL2-15618.pdf",
+   "coverage": "same content as DL2-15618.pdf (only the page number and the column heading 'Requirement / Limit' instead of 'Item / Index' differ): KV100 typical 118",
+   "identity": "exact",
+   "note": "Second manufacturer printing of 118."
+  },
+  {
+   "p": "RICHFUL_RF6071L",
+   "f": "DL2-15743.pdf",
+   "cat": "B",
+   "status": "completed",
+   "fields_status": "p.10 read in full and compared word by word and number by number (difflib) with RF6071L.pdf",
+   "coverage": "same content as the cited TDS RF6071L.pdf (no number differs apart from the page number)",
+   "identity": "exact",
+   "note": ""
+  },
+  {
+   "p": "RICHFUL_RF6071L",
+   "f": "DL2-15764.pdf",
+   "cat": "B",
+   "status": "completed",
+   "fields_status": "p.10 read in full and compared word by word and number by number (difflib) with RF6071L.pdf",
+   "coverage": "same content as RF6071L.pdf",
+   "identity": "exact",
+   "note": ""
+  },
+  {
+   "p": "RICHFUL_RF6077",
+   "f": "DL2-15743.pdf",
+   "cat": "B",
+   "status": "completed",
+   "fields_status": "p.11 read in full and compared word by word and number by number (difflib) with DL2-15536.pdf",
+   "coverage": "same content as the cited TDS DL2-15536.pdf (no number differs apart from the page number)",
+   "identity": "exact",
+   "note": ""
+  },
+  {
+   "p": "RICHFUL_RF6077",
+   "f": "DL2-15764.pdf",
+   "cat": "B",
+   "status": "completed",
+   "fields_status": "p.11 read in full and compared word by word and number by number (difflib) with DL2-15536.pdf",
+   "coverage": "same values as DL2-15536.pdf; only the density method citation differs (SH/T 0604 here, GB/T 13377 in the TDS): a method-citation difference, not a value difference",
+   "identity": "exact",
+   "note": "Not proposed: no value differs."
+  },
+  {
+   "p": "RICHFUL_RF6088F",
+   "f": "DL2-15764.pdf",
+   "cat": "B",
+   "status": "completed",
+   "fields_status": "p.15 read in full and compared word by word and number by number (difflib) with DL2-15839.pdf",
+   "coverage": "same content as the cited TDS DL2-15839.pdf (no number differs apart from the page number)",
+   "identity": "exact",
+   "note": ""
+  }
+ ],
+ "fields": [
+  {
+   "p": "RICHFUL_RF6069",
+   "tier": 2,
+   "path": "kv100",
+   "old": "DL2-15618.pdf (TDS, undated) read: 'Kinematic Viscosity (100 C), mm2/s | Report | 118 | GB/T 265, ASTM D445'. JSON: kv100 142 Reported from richful.com (retrieved 2026-10-17); unresolved conflict TDS 118 vs SDS DL2-15619.pdf (2022-01-04) 142, whose note says 'field left null' although the field holds 142.",
+   "new_f": "DL2-15743.pdf",
+   "new_p": 9,
+   "new_text": "DL2-15743.pdf p.9: 'Kinematic Viscosity (100 C), mm2/s | Report | 142 | GB/T265, ASTM D445'; DL2-15764.pdf p.9: '... | Report | 118 | GB/T 265, ASTM D445'",
+   "unit": "mm2/s",
+   "form": "typical (manufacturer catalogues, two undated editions)",
+   "qual": "Report (no limit)",
+   "method": "GB/T 265, ASTM D445",
+   "cond": "100 C",
+   "basis": "",
+   "outcome": "changed_or_conflicting",
+   "action": "propose_record_conflict",
+   "reason": "Each catalogue edition supports one side of the existing conflict (DL2-15743.pdf 142; DL2-15764.pdf 118). Propose adding both citations to the conflict; it stays unresolved (neither catalogue is dated; no preference by document type). Also flagged for the reviewer: the conflict note 'field left null' does not match the stored value 142 (web source).",
+   "old_rev": "re-read manually: DL2-15618.pdf whole page (text layer)",
+   "cmp_override": "existing: kv100 142 (richful.com) with unresolved conflict 118 (TDS) vs 142 (SDS)"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+PASS  proposals: every proposing row (propose_* and capture_from_old_source) is in the proposals table, the count and the readiness rules  [384 proposals, 15 capture_from_old_source]
+PASS  status: no proposal is ready while its old-source statement relies on the JSON quotation or an undocumented earlier comparison  [0 proposals with such statements]
+PASS  case: Esterex A34 PMCC flash point is a proposal that keeps the D92 COC value selected and adds D93 as an alternate (outcome in_old_source_not_captured)
+PASS  counting: original statistic is the one in the automated report (88 / 42)
+PASS  counting: 88 = 66 new-document links + 22 links to files already in the archive  [66 + 22]
+PASS  counting: 66 = 59 additional-evidence + 7 revision-candidate links
+PASS  counting: after the reviewed exclusions 64 links and 5 revision candidates remain
+PASS  counting: hash linkage (202) kept beside the text search (194); both + hash-only + text-only + neither = 264  [both 175, hash only 27, text only 20, neither 42]
+PASS  false match: OLOA 65770 document DL2-11779.pdf is not an OLOA 59766 revision
+PASS  false match: the OLOA 55603 presentation is not a Yubase 6 revision
+PASS  false match: no field row or proposal rests on the two excluded documents for those products
+PASS  false match: byte-identical files are never revision candidates
+PASS  ledger: all 443 earlier inventory links are retained
+PASS  ledger: all full-text candidates are retained  [1285 candidates, 1373 ledger rows]
+PASS  ledger: no duplicate (product, document) rows
+PASS  ledger: every row has an allowed relationship status
+PASS  ledger: every link has a separate field-verification and coverage status
+PASS  ledger: unreviewed links are not presented as assessed
+PASS  screen: the duplicate-source coverage screen covers every A link and labels every row as an automated screen, not a reading  [282 rows]
+PASS  ledger: exact duplicates carry no claim that their content was fully ingested (only a reviewed reading may assess coverage)
+PASS  candidates: every reviewed catalogue / generic-alias pair is linked exactly once in the ledger, through the reviewed mapping  [18 of 18 linked]
+PASS  candidates: every reviewed pair records its document-owner evidence, identity evidence and admitted pages
+PASS  candidates: none of the reviewed false generic matches (other suppliers' 150N/600N, numbers, Ultra S-8) is a candidate or a ledger link  [12 known false matches]
+PASS  case: no other RF6079 formulation row selects one printing of the CDP blend RX210314101
+PASS  case: RF6079 swapped EHC 50 / EHC 110 shares stay unresolved with both printings (p.8 and p.11) cited
+PASS  regression: the generic-alias rule is not relaxed beyond the reviewed pairs (plain full-text candidates unchanged at 1,267)
+PASS  identity: grade suffixes are not merged by the search pattern (11 cases)
+PASS  identity: no value is added or changed for HiTEC 5748 from HiTEC 5748A evidence by ANY proposing action (only a scoped interchangeability note is allowed)
+PASS  regression: an incorrect value update of HiTEC 5748 from 5748A text via propose_update_with_history is caught, as are selection review, conflict and an unscoped note; the scoped interchangeability note passes
+PASS  proposals: every proposed change cites a new-archive file with hash, page and printed text  [384 proposals]
+PASS  proposals: every field row names an existing product and a resolvable current field or says none exists
+PASS  structure: every proposed co-component row is tied to an explicit route or recipe (non-empty conditions) or is a name-only / historical note  [26 rows]
+PASS  structure: co-component doses from recipes are proposed only as route-bound entries
+PASS  structure: every proposed formulation row names a formulation identity (oil code or column) and a percentage basis  [37 rows]
+PASS  structure: specification limits, typicals and batch results are labelled in value_form for every numeric tier-2 proposal
+PASS  structure: SDS values with unspecified statistical basis are never promoted to a manufacturer typical or specification  [40 SDS-reported rows]
+PASS  structure: no certificate limit, target or batch result is proposed as the preferred general value (alternate entry, first value or note only)
+PASS  regression: batch evidence proposed through update / selection review / route-bound add is caught; an open-question note is not
+PASS  status: the five statuses are present and filled on every field row
+PASS  status: no proposal is ready while its relationship is unresolved or a visual check is outstanding
+PASS  status: no proposal is ready on an automated old-source search alone
+PASS  status: every ready proposal has a completed relationship, a compared current JSON and no overlap flag
+PASS  status: list-type proposals show the actual current entries, not a count
+PASS  case: the Infineum D3453 formulation proposal is provisional unless the old source was read, the JSON compared and the relationship completed
+PASS  case: HiTEC 12204L KV40 keeps the printed 42.38 cm2/s and is not proposed as cSt
+PASS  case: the HiTEC 12210M formulation that adds to 100.1 (DL2-12485.pdf p.18) is flagged and not normalised
+PASS  case: Lubrizol 16008 old "> 182" and new typical 182 are kept distinct; properties are not described as all unchanged
+PASS  regression: a value proposed for HiTEC 5748 from 5748A text is still caught; a scoped note naming both grades is not
+PASS  regression: an unlabelled numeric tier-2 proposal is still caught; a text field of a tier-2 component file is not
+PASS  regression: ready on an automated or unavailable old source is still caught, also when a manual note merely mentions an automated search
+PASS  regression: the live tables contain none of these three violations
+PASS  regression: every Lubrizol 16008 TBN row (now more than one source) keeps the 2013 lower bound "> 182" / "greater than 182" visible in its old-source statement
+PASS  old sources: every reference has a SHA-256 or an explicit statement that it is unavailable  [126 references]
+PASS  old sources: no placeholder hash text remains in the field table
+PASS  old sources: rows whose cited source is not available locally say so
+PASS  preservation: existing archive bytes unchanged
+PASS  preservation: new archive bytes unchanged
+PASS  preservation: frozen snapshot manifest unchanged
+PASS  preservation: frozen snapshot verifies against its manifest  [review_snapshot_2026-11-12: 944 manifest entries; files present 944; mismatches 0]
+PASS  preservation: snapshot files are byte-identical to the snapshot, except the 21 recorded publication changes, which equal their recorded post-publication bytes; no product JSON, report, tool or evidence file is among the exceptions  [923 identical, 21 recorded publication changes, 0 unexpected, 0 missing]
+PASS  preservation: earlier inventory review ZIP not overwritten
+PASS  preservation: original automated inventory reports equal the copies in the earlier review ZIP
+PASS  preservation: Git working state outside the two review folders is exactly the recorded local-only state (review_snapshots/ untracked)  [?? review_snapshots/]
+PASS  preservation: nothing staged
+PASS  preservation: HEAD contains the published Part A main (8d4626b) and the branch changes nothing outside the two review folders  [ancestor=True; outside=[]]
+PASS  preservation: association mining folder untouched
+PASS  never-cited reconciliation: 33 baseline keys, every status consistent with its coverage; reclassification alone is not counted as reviewed (regression cases)  [Counter({'reviewed': 33})]
+
+67 of 67 checks passed

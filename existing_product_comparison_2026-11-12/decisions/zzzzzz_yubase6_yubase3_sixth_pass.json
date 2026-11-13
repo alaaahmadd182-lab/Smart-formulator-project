@@ -1,0 +1,118 @@
+{
+ "batch": "other suppliers: YUBASE 6 and YUBASE 3 (product-specific documents)",
+ "reviewed_on": "2026-11-13 (sixth pass)",
+ "documents": {
+  "YUBASE_SDS_GLOBAL_UN_6.pdf": {
+   "what": "SDS 'YUBASE 6' according to the UN GHS; manufacturer SK On Co., Ltd. (SK Enmove)",
+   "printed_date": "Issue date 2020-01-01; Revision date 2026-06-30; Version 4.0",
+   "kind": "SDS (manufacturer)",
+   "read": "section 1 and section 9 lines",
+   "limits": "other sections not read"
+  },
+  "Yubase_6-SDS.pdf": {
+   "what": "SDS 'Yubase 6', supplier Hilditch Pty Ltd, Reference No HIL0045",
+   "printed_date": "Issued 2021-09-28, Version 5.0",
+   "kind": "SDS (distributor)",
+   "read": "hash compared; section 1 lines",
+   "limits": "byte-identical (SHA-256 55e993c5...) to the external source already registered in source_registry.json and cited by the YUBASE 6 record for its chemistry"
+  },
+  "Yubase%203%20MSDS.pdf": {
+   "what": "SDS 'YUBASE 3', SDS No. YUB300(ENG), supplier SK Lubricants Co. Ltd.",
+   "printed_date": "Revision 19 September 2014; Version number 2",
+   "kind": "SDS (manufacturer, older company name)",
+   "read": "sections 1 and 9",
+   "limits": "section 3 not read"
+  }
+ },
+ "links": [
+  {
+   "p": "YUBASE_6",
+   "f": "YUBASE_SDS_GLOBAL_UN_6.pdf",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "sections 1 and 9 compared with the JSON",
+   "coverage": "old property sheet DL2-11306.pdf values as recorded in the JSON compared",
+   "identity": "exact: 'YUBASE 6'; manufacturer SK On Co., Ltd. (SK Enmove)",
+   "note": "Manufacturer SDS 2026: specific gravity 0.842 (no temperature), 'Density: Not available', KV40 36 mm2/s 'calculated value', flash point 230 C (COC)."
+  },
+  {
+   "p": "YUBASE_6",
+   "f": "Yubase_6-SDS.pdf",
+   "cat": "A",
+   "status": "completed",
+   "fields_status": "no content comparison needed: identical bytes to a registered external source already cited by the record",
+   "coverage": "not assessed",
+   "identity": "SHA-256 equal to the registered external source '.../search_api/Yubase_6-SDS.pdf'",
+   "note": "Exact byte duplicate of a registered EXTERNAL source (not of an archive member), so the automated hash step did not mark it. Source-to-JSON coverage of this SDS beyond the chemistry entry has not been assessed."
+  },
+  {
+   "p": "YUBASE_3",
+   "f": "Yubase%203%20MSDS.pdf",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "section 9 compared with the JSON",
+   "coverage": "old property sheet DL2-11303.pdf values as recorded in the JSON compared",
+   "identity": "exact: 'YUBASE 3'; supplier SK Lubricants Co. Ltd.",
+   "note": "Manufacturer SDS 2014: relative density 0.830 (water = 1, no temperature), flash point 200 C (Cleveland open cup), viscosity 12 cSt at 40 C, boiling range 290-400 C."
+  }
+ ],
+ "fields": [
+  {
+   "p": "YUBASE_6",
+   "tier": 2,
+   "path": "flash_point",
+   "old": "JSON: 240 C, ASTM D92 (DL2-11306.pdf, distributor sheet)",
+   "new_f": "YUBASE_SDS_GLOBAL_UN_6.pdf",
+   "new_p": 4,
+   "new_text": "Flash point : 230 C (COC)",
+   "unit": "C",
+   "form": "single value (manufacturer SDS)",
+   "qual": "",
+   "method": "COC",
+   "cond": "",
+   "basis": "",
+   "outcome": "changed_or_conflicting",
+   "action": "propose_record_conflict",
+   "reason": "240 (distributor sheet, D92) vs 230 (manufacturer SDS 2026, COC, same open-cup principle). Record both; no average; no automatic preference for the newer SDS.",
+   "old_rev": "re-read manually (the DL2-11306.pdf entries as recorded in the JSON)"
+  },
+  {
+   "p": "YUBASE_6",
+   "tier": 1,
+   "path": "density",
+   "old": "JSON density: see current_value (record built from the distributor sheet DL2-11306.pdf)",
+   "new_f": "YUBASE_SDS_GLOBAL_UN_6.pdf",
+   "new_p": 4,
+   "new_text": "Density : Not available; Specific Gravity : 0.842 (no temperature printed); Viscosity, kinematic (calculated value) (40 C): 36 mm2/s",
+   "unit": "dimensionless",
+   "form": "single value without temperature (SDS)",
+   "qual": "",
+   "method": "not printed",
+   "cond": "temperature not printed",
+   "basis": "",
+   "outcome": "not_comparable",
+   "action": "no_change",
+   "reason": "The manufacturer's SDS gives no density and a specific gravity without temperature; it cannot fill or change a temperature-dependent density. The KV40 is a calculated value, not comparable with the recorded 36.82 cSt (D445).",
+   "old_rev": "re-read manually (the DL2-11306.pdf entries as recorded in the JSON)"
+  },
+  {
+   "p": "YUBASE_3",
+   "tier": 2,
+   "path": "flash_point",
+   "old": "JSON: 204 C (DL2-11303.pdf, distributor sheet)",
+   "new_f": "Yubase%203%20MSDS.pdf",
+   "new_p": 7,
+   "new_text": "Flash point 200 C (Cleveland open cup); Relative density 0.830 (water = 1); Viscosity 12 cSt at 40 C",
+   "unit": "C",
+   "form": "single value (manufacturer SDS 2014)",
+   "qual": "",
+   "method": "Cleveland open cup",
+   "cond": "",
+   "basis": "",
+   "outcome": "changed_or_conflicting",
+   "action": "propose_record_conflict",
+   "reason": "204 vs 200 C (COC). Record both with sources and dates. The relative density 0.830 has no temperature (cannot fill density); the rounded 12 cSt at 40 C is not a conflict with 12.43 cSt.",
+   "old_rev": "re-read manually (the DL2-11303.pdf entries as recorded in the JSON)"
+  }
+ ]
+}

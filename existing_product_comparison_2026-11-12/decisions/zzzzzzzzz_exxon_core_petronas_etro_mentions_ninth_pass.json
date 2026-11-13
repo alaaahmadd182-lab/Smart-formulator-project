@@ -1,0 +1,229 @@
+{
+ "batch": "other suppliers: base-oil mentions",
+ "reviewed_on": "2026-11-13 (ninth pass)",
+ "note": "Classified with scripts/helpers/write_base_oil_mentions.py after reading the name-hit lines of every listed document; product-specific documents were excluded and reviewed separately. Ninth pass: the captured first-hit passage of all 22 links was read: recipe shares (wt%), blend results (e.g. DL2-11260.pdf 'KV achieved 7.2' for a V9022 blend in ETRO 4) or base-oil column headings; none characterises the neat base oil.",
+ "documents": {},
+ "links": [
+  {
+   "p": "EXXONMOBIL_APE_CORE_150",
+   "f": "HiTEC%20579%20Quenching%20Oil.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.1: ailed below. ISO VG 32 HiTEC® 579 %wt 3 ExxonMobil AP/E Core 150 %wt. 97 Total 100"
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_150",
+   "f": "DL2-15545.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: 70.75 42.65 6 10 10 EHC 110 22 13 44 79.85 AP/E Core 150 76.85 73.15 55.15 17.65 AP/E Core 600 31 68 88.85 61.35 AP/E Core 2"
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_150",
+   "f": "DL2-11706.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: 552 0.35 - - HiTEC® 672 0.1 0.1 0.1 HiTEC® 5748 8.1 8.1 8.5 AP/E Core 150 61.5 61.5 32.6 AP/E Core 600 19.15 19.5 48.0 TOTAL 100.0 100.0 100.0 %wt. AP/E core Oil c"
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_150",
+   "f": "DL2-15804.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.26: 23F, % wt. Viscoplex 8-200, % wt. AP/E Core 100, % wt. AP/E Core 150, % wt. AP/E Core 600, % wt. Viscosity at 40°C, mm2/s Viscosity at 100°C, mm2/s Visc"
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_150",
+   "f": "DL2-11919.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: 680 HiTEC® 352 % wt. 2.0 2.0 2.0 2.0 2.0 2.0 2.0 AP/E Core 150 35.97 5.98 AP/E Core 600 62.03 92.02 78.11 49.90 26.81 AP/E Core 2"
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_600",
+   "f": "DL2-12321.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.15: foam, % wt. 0.02 HiTEC® 623, PPD, % wt. 0.2 AP/E Core 600, % wt. 51.88 AP/E Core 2500 BS, % wt. 46.60 Yanshan 150 SN, % wt. 75.0"
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_600",
+   "f": "DL2-15545.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.5: 5 AP/E Core 150 76.85 73.15 55.15 17.65 AP/E Core 600 31 68 88.85 61.35 AP/E Core 2500 5 32.5 LZ7077 4.5 10.3 7.4 8.2 6"
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_600",
+   "f": "DL2-11706.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: .1 0.1 HiTEC® 5748 8.1 8.1 8.5 AP/E Core 150 61.5 61.5 32.6 AP/E Core 600 19.15 19.5 48.0 TOTAL 100.0 100.0 100.0 %wt. AP/E core Oil code LBB-017830-C LBB-018234-A"
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_600",
+   "f": "DL2-15804.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.26: 8-200, % wt. AP/E Core 100, % wt. AP/E Core 150, % wt. AP/E Core 600, % wt. Viscosity at 40°C, mm2/s Viscosity at 100°C, mm2/s Viscosity Index 0.6"
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_600",
+   "f": "DL2-13364.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.17: 17.7 Lubrizol 7077 ND-OCP 6.0 HiTEC® 672 PPD 0.1 ExxonMobil AP/E Core 600 API Group III 18.0 SK Lubricants Yubase 4 API Group III 40.2 SK Lubricants Yubase 6 API G"
+  },
+  {
+   "p": "EXXONMOBIL_APE_CORE_600",
+   "f": "DL2-11919.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: 2.0 2.0 2.0 2.0 AP/E Core 150 35.97 5.98 AP/E Core 600 62.03 92.02 78.11 49.90 26.81 AP/E Core 2500 BS 19.74 47.95 71.04 97.8"
+  },
+  {
+   "p": "PETRONAS_ETRO_4",
+   "f": "DL2-11260.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.3: 0W-20 Parameter Test Method Value Limits Base Oil - ETRO 4 (Group 3) – 4cSt - Kinematic Viscosity achieved, cSt @ 100oC ASTM D445 7.2 5.6-9.3 Co"
+  },
+  {
+   "p": "PETRONAS_ETRO_4",
+   "f": "DL2-12906.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.11: 2 41.21 42.21 Nexbase 3043 13.48 12.56 Yubase 4 13.50 12.56 Etro 4 13.50 12.56 S-Oil 4 13.51 12.56 Performance Claims ACEA (2010) A3/B4-10 A3/B4-10 A3/B4-10"
+  },
+  {
+   "p": "PETRONAS_ETRO_4",
+   "f": "DL2-12412.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.42: HEVRON 220R 52.0 52.0 52 52 NEXBASE 3043 10.0 YUBASE 4 10.0 ETRO 4 10.0 ULTRA S4 10.0 KV 100°C, mm2/s 14.83 14.86 15.1 14.8 CCS, mPa.s 6342 6244 6460 6380 B"
+  },
+  {
+   "p": "PETRONAS_ETRO_4",
+   "f": "DL2-12881.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: 9/14.11 47.52/38.88 S-Oil 4/8, wt % 70.22/14.38 52.02/34.68 Etro 4/6, wt % 43.05/43.05 KV 100°C, mm2/s 8.0 8.3 8.2 8.1 8.2 8.2 CCS, mPa.s 5950 5900 4200 390"
+  },
+  {
+   "p": "PETRONAS_ETRO_4",
+   "f": "DL2-15800.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.13: e measured. 方案2 Plan2 调合方案 Blending scheme 基础油(Base Oil) ETRO4/GS500N-4=65/35 ETRO4/GS500N-4=65/35 复合剂 (Complex agent) 粘指剂 (VII) V8-310 降凝剂 (Pour Point"
+  },
+  {
+   "p": "PETRONAS_ETRO_4",
+   "f": "DL2-12636.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.10: .935 S-Oil Ultra S-3 49.485 S-Oil Ultra S-8 34.385 Petronas Etro 4 70.000 Petronas Etro 6 13.870 Red Dye 0.030 0.030 0.030 Total 100.000 100.000 100.000 Pro"
+  },
+  {
+   "p": "PETRONAS_ETRO_4",
+   "f": "DL2-15608.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.7: ce CVT Formulation (%) wt. HiTEC® 34006 Additive Pack 11.6 Etro 4 API Group III 88.4 Performance CVT Physical Properties KV100, cSt 5.80 KV40, cSt 27.08 V"
+  },
+  {
+   "p": "PETRONAS_ETRO_6",
+   "f": "DL2-15268.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.14: ETRO 6Plus, %m 14.70 28.20 36.20 91.20 77.20 62.70 Petronas ETRO 6, %m 88.20 Total, %m 100.00 100.0 100.0 100.0 100.0 100.0 100.0 OIL PROPERTIES KV100, mm2/"
+  },
+  {
+   "p": "PETRONAS_ETRO_6",
+   "f": "DL2-12881.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.14: , wt % 0.4 0.4 0.5 0.7 Etro 4, wt % 79.61 22.14 21.29 27.23 Etro 6, wt % 4.19 66.41 63.86 50.57 KV 100°C, mm2/s 8.4 8.2 10.0 14.2 CCS, mPa.s 5300 4700 5000"
+  },
+  {
+   "p": "PETRONAS_ETRO_6",
+   "f": "DL2-12636.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.10: .485 S-Oil Ultra S-8 34.385 Petronas Etro 4 70.000 Petronas Etro 6 13.870 Red Dye 0.030 0.030 0.030 Total 100.000 100.000 100.000 Properties KV-100, c"
+  },
+  {
+   "p": "PETRONAS_ETRO_6",
+   "f": "DL2-15608.pdf",
+   "cat": "D",
+   "status": "completed",
+   "fields_status": "content review LIMITED to the FIRST name-hit passage (text layer), read by the reviewer on 2026-11-13; other hits, tables and the rest of the document NOT reviewed",
+   "coverage": "NOT ASSESSED: only the passages around the name hits were inspected (text layer); tables, other pages and the rest of the document were not reviewed for this product, so absence of a property near the name hit says nothing about the document",
+   "identity": "exact name in the text; document by another supplier",
+   "note": "Recipe share, component value or test-oil use in another product's document. First hit: p.6: . HiTEC® 34006 Additive Pack 11.6 Etro 3 API Group III 42.4 Etro 6 API Group III 46.0 Performance CVT Physical Properties KV100, cSt 5.84 KV40, cSt 27.59 V"
+  }
+ ],
+ "fields": []
+}

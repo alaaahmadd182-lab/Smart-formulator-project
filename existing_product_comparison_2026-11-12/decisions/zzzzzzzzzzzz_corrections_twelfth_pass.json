@@ -1,0 +1,451 @@
+{
+ "batch": "twelfth-pass corrections: original-source review and SDS value class; EHC field-by-field",
+ "reviewed_on": "2026-11-13 (twelfth pass)",
+ "note": "Statements that relied on the JSON quotation of a source ('as quoted in the JSON', 'as recorded in the JSON', 'values as compared in ...', 'line as cited') are not readings. The original pages were read in this pass and the statements replaced with their exact scope; two statements turned out to be wrong (BAPBASE spec has a density row 'To be reported'; the D3503 TDS prints handling viscosities). SDS values whose SDS states no statistical basis are re-classed 'SDS reported value; statistical basis unspecified'.",
+ "documents": {},
+ "links": [
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "f": "DL2-11786.pdf",
+   "cat": "A",
+   "status": "completed",
+   "fields_status": "all 3 pages compared word by word with the cited DL2-11785.pdf (identical text, ratio 1.000); DL2-11785.pdf read in full and compared field by field (twelfth pass, 2026-11-13)",
+   "coverage": "assessed by reading (2026-11-13, twelfth pass): identical text to the cited DL2-11785.pdf (03-2019), whose every limit for EHC 45 / 50 / 65 / 110 / 120 equals the JSON (KV100 and VI ranges, flash min, pour max, Noack max Procedure B, CCS max at -25 / -20 C, Group II). Not captured, no template field: ASTM colour max (L0.5 / 0.5), appearance, the certification notes. Representation issue: KV100 and VI ranges stored as lists in 'value' (min / max empty, printed_text '[a, b]'); flash minimum and pour maximum stored in 'value' with value_kind only.",
+   "identity": "exact: 'EHC Series' (identical text to the cited source)",
+   "note": "Coverage now assessed by reading (field by field)."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "f": "DL2-11786.pdf",
+   "cat": "A",
+   "status": "completed",
+   "fields_status": "all 3 pages compared word by word with the cited DL2-11785.pdf (identical text, ratio 1.000); DL2-11785.pdf read in full and compared field by field (twelfth pass, 2026-11-13)",
+   "coverage": "assessed by reading (2026-11-13, twelfth pass): identical text to the cited DL2-11785.pdf (03-2019), whose every limit for EHC 45 / 50 / 65 / 110 / 120 equals the JSON (KV100 and VI ranges, flash min, pour max, Noack max Procedure B, CCS max at -25 / -20 C, Group II). Not captured, no template field: ASTM colour max (L0.5 / 0.5), appearance, the certification notes. Representation issue: KV100 and VI ranges stored as lists in 'value' (min / max empty, printed_text '[a, b]'); flash minimum and pour maximum stored in 'value' with value_kind only.",
+   "identity": "exact: 'EHC Series' (identical text to the cited source)",
+   "note": "Coverage now assessed by reading (field by field)."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_65",
+   "f": "DL2-11786.pdf",
+   "cat": "A",
+   "status": "completed",
+   "fields_status": "all 3 pages compared word by word with the cited DL2-11785.pdf (identical text, ratio 1.000); DL2-11785.pdf read in full and compared field by field (twelfth pass, 2026-11-13)",
+   "coverage": "assessed by reading (2026-11-13, twelfth pass): identical text to the cited DL2-11785.pdf (03-2019), whose every limit for EHC 45 / 50 / 65 / 110 / 120 equals the JSON (KV100 and VI ranges, flash min, pour max, Noack max Procedure B, CCS max at -25 / -20 C, Group II). Not captured, no template field: ASTM colour max (L0.5 / 0.5), appearance, the certification notes. Representation issue: KV100 and VI ranges stored as lists in 'value' (min / max empty, printed_text '[a, b]'); flash minimum and pour maximum stored in 'value' with value_kind only.",
+   "identity": "exact: 'EHC Series' (identical text to the cited source)",
+   "note": "Coverage now assessed by reading (field by field)."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "f": "DL2-11786.pdf",
+   "cat": "A",
+   "status": "completed",
+   "fields_status": "all 3 pages compared word by word with the cited DL2-11785.pdf (identical text, ratio 1.000); DL2-11785.pdf read in full and compared field by field (twelfth pass, 2026-11-13)",
+   "coverage": "assessed by reading (2026-11-13, twelfth pass): identical text to the cited DL2-11785.pdf (03-2019), whose every limit for EHC 45 / 50 / 65 / 110 / 120 equals the JSON (KV100 and VI ranges, flash min, pour max, Noack max Procedure B, CCS max at -25 / -20 C, Group II). Not captured, no template field: ASTM colour max (L0.5 / 0.5), appearance, the certification notes. Representation issue: KV100 and VI ranges stored as lists in 'value' (min / max empty, printed_text '[a, b]'); flash minimum and pour maximum stored in 'value' with value_kind only.",
+   "identity": "exact: 'EHC Series' (identical text to the cited source)",
+   "note": "Coverage now assessed by reading (field by field)."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_120",
+   "f": "DL2-11786.pdf",
+   "cat": "A",
+   "status": "completed",
+   "fields_status": "all 3 pages compared word by word with the cited DL2-11785.pdf (identical text, ratio 1.000); DL2-11785.pdf read in full and compared field by field (twelfth pass, 2026-11-13)",
+   "coverage": "assessed by reading (2026-11-13, twelfth pass): identical text to the cited DL2-11785.pdf (03-2019), whose every limit for EHC 45 / 50 / 65 / 110 / 120 equals the JSON (KV100 and VI ranges, flash min, pour max, Noack max Procedure B, CCS max at -25 / -20 C, Group II). Not captured, no template field: ASTM colour max (L0.5 / 0.5), appearance, the certification notes. Representation issue: KV100 and VI ranges stored as lists in 'value' (min / max empty, printed_text '[a, b]'); flash minimum and pour maximum stored in 'value' with value_kind only.",
+   "identity": "exact: 'EHC Series' (identical text to the cited source)",
+   "note": "Coverage now assessed by reading (field by field)."
+  }
+ ],
+ "fields": [
+  {
+   "p": "EXXONMOBIL_EHC_120",
+   "tier": 1,
+   "path": "kv100",
+   "old": "DL2-11785.pdf (cited, 03-2019) prints 'Kinematic Viscosity @ 100 C, mm2/s | ASTM D445 | Min- Max | 11.1- 12.7', 'Viscosity Index | Min- Max | 105- 115', 'Flash Point ... Min 255', 'Pour Point ... Max -15'. JSON: KV100 and VI ranges stored as lists in 'value' with min / max null; flash / pour limits stored in 'value' with value_kind only.",
+   "new_f": "DL2-11786.pdf",
+   "new_p": 2,
+   "new_text": "'Kinematic Viscosity @ 100 C, mm2/s ASTM D445 Min- Max ... 11.1- 12.7' (EHC 120 column; identical text to the cited DL2-11785.pdf)",
+   "unit": "mm2/s",
+   "form": "specification limits (manufacturer sales specification)",
+   "qual": "specification range",
+   "method": "ASTM D445",
+   "cond": "",
+   "basis": "",
+   "outcome": "already_captured",
+   "action": "propose_note",
+   "reason": "Values captured but not in the agreed form (ranges in min / max kept as ranges; printed qualifier 'Min', 'Max', 'Min-Max'; printed_text = printed text). Propose a representation correction note; no value changes.",
+   "old_rev": "re-read manually: DL2-11785.pdf (ExxonMobil 'EHC Series' web print 4/29/2019, edition 03-2019; 3 pages) whole text, compared field by field with all five EHC records (twelfth pass, 2026-11-13); and DL2-11327.pdf (06-2018) both pages",
+   "cmp_override": "existing: range as a list in value"
+  }
+ ],
+ "field_overrides": [
+  {
+   "p": "CHEVRON_OLOA_59766",
+   "path": "performance_claims",
+   "new_f": "*",
+   "old_rev": "re-read manually: DL2-11731.pdf (Chevron Oronite SDS 23738, Revision Number 14, January 24, 2017; 11 pages) sections 1-3 and 9 in full and the section 11 skin-sensitization paragraph (twelfth pass, 2026-11-13): no claims, grades, base oils, co-components, formulations, TBN or KV100 are printed; section 9 'Attention: the data below are typical values and do not constitute a specification': flash (Cleveland Open Cup) 180 C Minimum, relative density 0.9918 at 15.6 C, density 0.9929 kg/l at 15 C, viscosity 2486 mm2/s at 40 C; section 3 component shares only"
+  },
+  {
+   "p": "CHEVRON_OLOA_59766",
+   "path": "treat_rate_matrix",
+   "new_f": "*",
+   "old_rev": "re-read manually: DL2-11731.pdf (Chevron Oronite SDS 23738, Revision Number 14, January 24, 2017; 11 pages) sections 1-3 and 9 in full and the section 11 skin-sensitization paragraph (twelfth pass, 2026-11-13): no claims, grades, base oils, co-components, formulations, TBN or KV100 are printed; section 9 'Attention: the data below are typical values and do not constitute a specification': flash (Cleveland Open Cup) 180 C Minimum, relative density 0.9918 at 15.6 C, density 0.9929 kg/l at 15 C, viscosity 2486 mm2/s at 40 C; section 3 component shares only"
+  },
+  {
+   "p": "CHEVRON_OLOA_59766",
+   "path": "route_selector_restrictions",
+   "new_f": "*",
+   "old_rev": "re-read manually: DL2-11731.pdf (Chevron Oronite SDS 23738, Revision Number 14, January 24, 2017; 11 pages) sections 1-3 and 9 in full and the section 11 skin-sensitization paragraph (twelfth pass, 2026-11-13): no claims, grades, base oils, co-components, formulations, TBN or KV100 are printed; section 9 'Attention: the data below are typical values and do not constitute a specification': flash (Cleveland Open Cup) 180 C Minimum, relative density 0.9918 at 15.6 C, density 0.9929 kg/l at 15 C, viscosity 2486 mm2/s at 40 C; section 3 component shares only"
+  },
+  {
+   "p": "CHEVRON_OLOA_59766",
+   "path": "required_co_components",
+   "new_f": "*",
+   "old_rev": "re-read manually: DL2-11731.pdf (Chevron Oronite SDS 23738, Revision Number 14, January 24, 2017; 11 pages) sections 1-3 and 9 in full and the section 11 skin-sensitization paragraph (twelfth pass, 2026-11-13): no claims, grades, base oils, co-components, formulations, TBN or KV100 are printed; section 9 'Attention: the data below are typical values and do not constitute a specification': flash (Cleveland Open Cup) 180 C Minimum, relative density 0.9918 at 15.6 C, density 0.9929 kg/l at 15 C, viscosity 2486 mm2/s at 40 C; section 3 component shares only"
+  },
+  {
+   "p": "CHEVRON_OLOA_59766",
+   "path": "published_formulations",
+   "new_f": "*",
+   "old_rev": "re-read manually: DL2-11731.pdf (Chevron Oronite SDS 23738, Revision Number 14, January 24, 2017; 11 pages) sections 1-3 and 9 in full and the section 11 skin-sensitization paragraph (twelfth pass, 2026-11-13): no claims, grades, base oils, co-components, formulations, TBN or KV100 are printed; section 9 'Attention: the data below are typical values and do not constitute a specification': flash (Cleveland Open Cup) 180 C Minimum, relative density 0.9918 at 15.6 C, density 0.9929 kg/l at 15 C, viscosity 2486 mm2/s at 40 C; section 3 component shares only"
+  },
+  {
+   "p": "CHEVRON_OLOA_59766",
+   "path": "tbn",
+   "new_f": "*",
+   "old_rev": "re-read manually: DL2-11731.pdf (Chevron Oronite SDS 23738, Revision Number 14, January 24, 2017; 11 pages) sections 1-3 and 9 in full and the section 11 skin-sensitization paragraph (twelfth pass, 2026-11-13): no claims, grades, base oils, co-components, formulations, TBN or KV100 are printed; section 9 'Attention: the data below are typical values and do not constitute a specification': flash (Cleveland Open Cup) 180 C Minimum, relative density 0.9918 at 15.6 C, density 0.9929 kg/l at 15 C, viscosity 2486 mm2/s at 40 C; section 3 component shares only"
+  },
+  {
+   "p": "CHEVRON_OLOA_59766",
+   "path": "kv40",
+   "new_f": "*",
+   "old_rev": "re-read manually: DL2-11731.pdf (Chevron Oronite SDS 23738, Revision Number 14, January 24, 2017; 11 pages) sections 1-3 and 9 in full and the section 11 skin-sensitization paragraph (twelfth pass, 2026-11-13): no claims, grades, base oils, co-components, formulations, TBN or KV100 are printed; section 9 'Attention: the data below are typical values and do not constitute a specification': flash (Cleveland Open Cup) 180 C Minimum, relative density 0.9918 at 15.6 C, density 0.9929 kg/l at 15 C, viscosity 2486 mm2/s at 40 C; section 3 component shares only"
+  },
+  {
+   "p": "CHEVRON_OLOA_59766",
+   "path": "treat_rate_matrix",
+   "new_f": "DL2-12453.pdf",
+   "reason_append": "Context of the existing 11.2 wt% (read on the SDS, twelfth pass): it is printed in section 11 as the basis of the skin-sensitization assessment ('not expected to cause allergic skin reactions when formulated in a finished oil at the prescribed treatment rate of: 11.2 wt. %'), not as a usage recommendation with claim or grade; the deck supplies the claim and grade routes."
+  },
+  {
+   "p": "RICHFUL_RF6089",
+   "path": "performance_claims",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15841 (1).pdf (Richful RF6089 SDS, REACH format, issue and revision 07/25/2025, version 1.0; 12 pages) sections 1-3 and 9 in full (text layer) (twelfth pass, 2026-11-13): use 'Blend diesel engine oil'; no claims, treat rate, base oils, TBN or element contents; section 9 (no statistical basis stated): flash point 213 C (COC), kinematic viscosity 92 mm2/s (100 C), density 0.953 g/cm3 (20 C); section 1.3 supplier details are blank in the text layer (not re-checked on the image)"
+  },
+  {
+   "p": "RICHFUL_RF6089",
+   "path": "treat_rate_matrix",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15841 (1).pdf (Richful RF6089 SDS, REACH format, issue and revision 07/25/2025, version 1.0; 12 pages) sections 1-3 and 9 in full (text layer) (twelfth pass, 2026-11-13): use 'Blend diesel engine oil'; no claims, treat rate, base oils, TBN or element contents; section 9 (no statistical basis stated): flash point 213 C (COC), kinematic viscosity 92 mm2/s (100 C), density 0.953 g/cm3 (20 C); section 1.3 supplier details are blank in the text layer (not re-checked on the image)"
+  },
+  {
+   "p": "RICHFUL_RF6089",
+   "path": "package_type_application.package_type",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15841 (1).pdf (Richful RF6089 SDS, REACH format, issue and revision 07/25/2025, version 1.0; 12 pages) sections 1-3 and 9 in full (text layer) (twelfth pass, 2026-11-13): use 'Blend diesel engine oil'; no claims, treat rate, base oils, TBN or element contents; section 9 (no statistical basis stated): flash point 213 C (COC), kinematic viscosity 92 mm2/s (100 C), density 0.953 g/cm3 (20 C); section 1.3 supplier details are blank in the text layer (not re-checked on the image)"
+  },
+  {
+   "p": "RICHFUL_RF6089",
+   "path": "permitted_base_oils_restrictions",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15841 (1).pdf (Richful RF6089 SDS, REACH format, issue and revision 07/25/2025, version 1.0; 12 pages) sections 1-3 and 9 in full (text layer) (twelfth pass, 2026-11-13): use 'Blend diesel engine oil'; no claims, treat rate, base oils, TBN or element contents; section 9 (no statistical basis stated): flash point 213 C (COC), kinematic viscosity 92 mm2/s (100 C), density 0.953 g/cm3 (20 C); section 1.3 supplier details are blank in the text layer (not re-checked on the image)"
+  },
+  {
+   "p": "RICHFUL_RF6089",
+   "path": "tbn",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15841 (1).pdf (Richful RF6089 SDS, REACH format, issue and revision 07/25/2025, version 1.0; 12 pages) sections 1-3 and 9 in full (text layer) (twelfth pass, 2026-11-13): use 'Blend diesel engine oil'; no claims, treat rate, base oils, TBN or element contents; section 9 (no statistical basis stated): flash point 213 C (COC), kinematic viscosity 92 mm2/s (100 C), density 0.953 g/cm3 (20 C); section 1.3 supplier details are blank in the text layer (not re-checked on the image)"
+  },
+  {
+   "p": "RICHFUL_RF6089",
+   "path": "elements.Ca",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15841 (1).pdf (Richful RF6089 SDS, REACH format, issue and revision 07/25/2025, version 1.0; 12 pages) sections 1-3 and 9 in full (text layer) (twelfth pass, 2026-11-13): use 'Blend diesel engine oil'; no claims, treat rate, base oils, TBN or element contents; section 9 (no statistical basis stated): flash point 213 C (COC), kinematic viscosity 92 mm2/s (100 C), density 0.953 g/cm3 (20 C); section 1.3 supplier details are blank in the text layer (not re-checked on the image)"
+  },
+  {
+   "p": "RICHFUL_RF6089",
+   "path": "elements.Zn",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15841 (1).pdf (Richful RF6089 SDS, REACH format, issue and revision 07/25/2025, version 1.0; 12 pages) sections 1-3 and 9 in full (text layer) (twelfth pass, 2026-11-13): use 'Blend diesel engine oil'; no claims, treat rate, base oils, TBN or element contents; section 9 (no statistical basis stated): flash point 213 C (COC), kinematic viscosity 92 mm2/s (100 C), density 0.953 g/cm3 (20 C); section 1.3 supplier details are blank in the text layer (not re-checked on the image)"
+  },
+  {
+   "p": "RICHFUL_RF6089",
+   "path": "elements.P",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15841 (1).pdf (Richful RF6089 SDS, REACH format, issue and revision 07/25/2025, version 1.0; 12 pages) sections 1-3 and 9 in full (text layer) (twelfth pass, 2026-11-13): use 'Blend diesel engine oil'; no claims, treat rate, base oils, TBN or element contents; section 9 (no statistical basis stated): flash point 213 C (COC), kinematic viscosity 92 mm2/s (100 C), density 0.953 g/cm3 (20 C); section 1.3 supplier details are blank in the text layer (not re-checked on the image)"
+  },
+  {
+   "p": "RICHFUL_RF6089",
+   "path": "elements.N",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15841 (1).pdf (Richful RF6089 SDS, REACH format, issue and revision 07/25/2025, version 1.0; 12 pages) sections 1-3 and 9 in full (text layer) (twelfth pass, 2026-11-13): use 'Blend diesel engine oil'; no claims, treat rate, base oils, TBN or element contents; section 9 (no statistical basis stated): flash point 213 C (COC), kinematic viscosity 92 mm2/s (100 C), density 0.953 g/cm3 (20 C); section 1.3 supplier details are blank in the text layer (not re-checked on the image)"
+  },
+  {
+   "p": "RICHFUL_RF6089",
+   "path": "elements.B",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15841 (1).pdf (Richful RF6089 SDS, REACH format, issue and revision 07/25/2025, version 1.0; 12 pages) sections 1-3 and 9 in full (text layer) (twelfth pass, 2026-11-13): use 'Blend diesel engine oil'; no claims, treat rate, base oils, TBN or element contents; section 9 (no statistical basis stated): flash point 213 C (COC), kinematic viscosity 92 mm2/s (100 C), density 0.953 g/cm3 (20 C); section 1.3 supplier details are blank in the text layer (not re-checked on the image)"
+  },
+  {
+   "p": "RICHFUL_RF6089",
+   "path": "kv100",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15841 (1).pdf (Richful RF6089 SDS, REACH format, issue and revision 07/25/2025, version 1.0; 12 pages) sections 1-3 and 9 in full (text layer) (twelfth pass, 2026-11-13): use 'Blend diesel engine oil'; no claims, treat rate, base oils, TBN or element contents; section 9 (no statistical basis stated): flash point 213 C (COC), kinematic viscosity 92 mm2/s (100 C), density 0.953 g/cm3 (20 C); section 1.3 supplier details are blank in the text layer (not re-checked on the image)"
+  },
+  {
+   "p": "RICHFUL_RF6089",
+   "path": "flash_point",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15841 (1).pdf (Richful RF6089 SDS, REACH format, issue and revision 07/25/2025, version 1.0; 12 pages) sections 1-3 and 9 in full (text layer) (twelfth pass, 2026-11-13): use 'Blend diesel engine oil'; no claims, treat rate, base oils, TBN or element contents; section 9 (no statistical basis stated): flash point 213 C (COC), kinematic viscosity 92 mm2/s (100 C), density 0.953 g/cm3 (20 C); section 1.3 supplier details are blank in the text layer (not re-checked on the image)"
+  },
+  {
+   "p": "RICHFUL_RF6089",
+   "path": "density",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15841 (1).pdf (Richful RF6089 SDS, REACH format, issue and revision 07/25/2025, version 1.0; 12 pages) sections 1-3 and 9 in full (text layer) (twelfth pass, 2026-11-13): use 'Blend diesel engine oil'; no claims, treat rate, base oils, TBN or element contents; section 9 (no statistical basis stated): flash point 213 C (COC), kinematic viscosity 92 mm2/s (100 C), density 0.953 g/cm3 (20 C); section 1.3 supplier details are blank in the text layer (not re-checked on the image)"
+  },
+  {
+   "p": "RICHFUL_RF6080",
+   "path": "performance_claims",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15834.pdf (Richful TDS, Issue Date 2025/5/9; 2 pages) whole text (twelfth pass, 2026-11-13): 'meets all API CI-4 and ACEA E7 certification requirements'; 'Recommended treat rate is 9.30wt% (including anti-foam agent). It covers viscosity grades 15W-40 and 20W-50'; Group II base oils with VII and PPD; no API SL, no OEM approvals, no composition statement"
+  },
+  {
+   "p": "RICHFUL_RF6080",
+   "path": "package_type_application.package_type",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15834.pdf (Richful TDS, Issue Date 2025/5/9; 2 pages) whole text (twelfth pass, 2026-11-13): 'meets all API CI-4 and ACEA E7 certification requirements'; 'Recommended treat rate is 9.30wt% (including anti-foam agent). It covers viscosity grades 15W-40 and 20W-50'; Group II base oils with VII and PPD; no API SL, no OEM approvals, no composition statement"
+  },
+  {
+   "p": "RICHFUL_RF6081",
+   "path": "performance_claims",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15836.pdf (Richful TDS, Issue Date 2025/5/13; 2 pages) whole text (twelfth pass, 2026-11-13): 'meets all API CI-4, ACEA E7 and JASO DH-1 certification requirements'; 'Recommended treat rate is 9.60wt% (including anti-foam agent). It covers viscosity grades 15W-40 and 20W-50'; Group II base oils with VII and PPD; no API SL, no OEM approvals, no composition statement"
+  },
+  {
+   "p": "RICHFUL_RF6081",
+   "path": "package_type_application.package_type",
+   "new_f": "DL2-15813.pdf",
+   "old_rev": "re-read manually: DL2-15836.pdf (Richful TDS, Issue Date 2025/5/13; 2 pages) whole text (twelfth pass, 2026-11-13): 'meets all API CI-4, ACEA E7 and JASO DH-1 certification requirements'; 'Recommended treat rate is 9.60wt% (including anti-foam agent). It covers viscosity grades 15W-40 and 20W-50'; Group II base oils with VII and PPD; no API SL, no OEM approvals, no composition statement"
+  },
+  {
+   "p": "ENI_MX_5212",
+   "path": "route_selector_restrictions",
+   "new_f": "DL2-11130.PDF",
+   "old_rev": "re-read manually: DL2-14981.pdf (Eni MX 5212, 02/2017, EN 5023-01; 2 pages) whole text (twelfth pass, 2026-11-13): '6.95% + 1.20% Eni MX 5612A CF-4/SM', '6.95% + 0.50% Eni MX 5612A CF-4/SL', '6.95% CF-4/SJ' ... '1.80% SB/CB'; 'can be used alone or with a specific booster (Eni MX 5612 A) to have a cascade system'; no part-package (5612B / 5612C) equivalence"
+  },
+  {
+   "p": "BRB_PETROLAD_8099",
+   "path": "route_selector_restrictions",
+   "new_f": "DL2-11052.pdf",
+   "old_rev": "re-read manually: DL2-11053.pdf (BRB Petrolad 8099, issue date May 31, 2016; 3 pages) whole text (twelfth pass, 2026-11-13): claims at 11.2 % wt (CI-4 in a GRII formulation, CH-4 CF-4/SJ, ACEA E7-12, ... Allison C4); 'It can be used in formulations combined with our Viscotech 6540 VI improver'; no booster route"
+  },
+  {
+   "p": "BAPCO_BAPBASE_6",
+   "path": "density",
+   "new_f": "*",
+   "old_rev": "re-read manually: DL2-12888.jfif viewed as an image (twelfth pass, 2026-11-13): 'Controlled Bapco Document', REFIN/TS/PRODSPEC/GENE/84, Issue Status 1.0, 17 August 2017, 'BAHRAIN REFINERY PRODUCT SPECIFICATION CODE NO. B-760B'",
+   "old": "DL2-12888.jfif (Bapco product specification B-760B, 17 August 2017; image) prints 'Density at 15 C, kg/m3 | ASTM D 4052 or ASTM D1298 | To be reported' - a density row without limit or value. JSON density Missing. (Correction: the tenth-pass statement 'no density row', taken from the JSON quotation, was wrong.)",
+   "reason_append": "Correction (twelfth pass): the specification lists density as 'To be reported' (no limit); the certificate value is the reported batch result for that item. It remains batch evidence and cannot fill the field as a specification or typical."
+  },
+  {
+   "p": "BAPCO_BAPBASE_8",
+   "path": "density",
+   "new_f": "*",
+   "old_rev": "re-read manually: DL2-13093.jpg viewed as an image (twelfth pass, 2026-11-13): 'Controlled Bapco Document', REFIN/TS/PRODSPEC/GENE/85, Issue Status 1.0, 17 August 2017, 'BAHRAIN REFINERY PRODUCT SPECIFICATION CODE NO. B-780B'",
+   "old": "DL2-13093.jpg (Bapco product specification B-780B, 17 August 2017; image) prints 'Density at 15 C, kg/m3 | ASTM D 4052 or ASTM D1298 | To be reported' - a density row without limit or value. JSON density Missing. (Correction: the tenth-pass statement 'no density row', taken from the JSON quotation, was wrong.)",
+   "reason_append": "Correction (twelfth pass): the specification lists density as 'To be reported' (no limit); the certificate value is the reported batch result for that item. It remains batch evidence and cannot fill the field as a specification or typical."
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "path": "kv40",
+   "new_f": "DL2-11240.pdf",
+   "old_rev": "re-read manually: DL2-11177.pdf (S-OIL Ultra-S series spread 'Lube base oil 08 | 09'; 1 page) whole text (twelfth pass, 2026-11-13): Ultra-S 6 column Sp.Gravity 15/4 C (D 1298) 0.843, KV40 33.32, KV100 6.0 (D 445), VI 127, flash COC 235, pour (D 5950) -20, Noack 8.0, sulfur < 1.0 wt ppm, saturates > 99"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "path": "kv100",
+   "new_f": "DL2-11240.pdf",
+   "old_rev": "re-read manually: DL2-11177.pdf (S-OIL Ultra-S series spread 'Lube base oil 08 | 09'; 1 page) whole text (twelfth pass, 2026-11-13): Ultra-S 6 column Sp.Gravity 15/4 C (D 1298) 0.843, KV40 33.32, KV100 6.0 (D 445), VI 127, flash COC 235, pour (D 5950) -20, Noack 8.0, sulfur < 1.0 wt ppm, saturates > 99"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "path": "viscosity_index",
+   "new_f": "DL2-11240.pdf",
+   "old_rev": "re-read manually: DL2-11177.pdf (S-OIL Ultra-S series spread 'Lube base oil 08 | 09'; 1 page) whole text (twelfth pass, 2026-11-13): Ultra-S 6 column Sp.Gravity 15/4 C (D 1298) 0.843, KV40 33.32, KV100 6.0 (D 445), VI 127, flash COC 235, pour (D 5950) -20, Noack 8.0, sulfur < 1.0 wt ppm, saturates > 99"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "path": "flash_point",
+   "new_f": "DL2-11240.pdf",
+   "old_rev": "re-read manually: DL2-11177.pdf (S-OIL Ultra-S series spread 'Lube base oil 08 | 09'; 1 page) whole text (twelfth pass, 2026-11-13): Ultra-S 6 column Sp.Gravity 15/4 C (D 1298) 0.843, KV40 33.32, KV100 6.0 (D 445), VI 127, flash COC 235, pour (D 5950) -20, Noack 8.0, sulfur < 1.0 wt ppm, saturates > 99"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "path": "pour_point",
+   "new_f": "DL2-11240.pdf",
+   "old_rev": "re-read manually: DL2-11177.pdf (S-OIL Ultra-S series spread 'Lube base oil 08 | 09'; 1 page) whole text (twelfth pass, 2026-11-13): Ultra-S 6 column Sp.Gravity 15/4 C (D 1298) 0.843, KV40 33.32, KV100 6.0 (D 445), VI 127, flash COC 235, pour (D 5950) -20, Noack 8.0, sulfur < 1.0 wt ppm, saturates > 99"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "path": "noack_volatility",
+   "new_f": "DL2-11240.pdf",
+   "old_rev": "re-read manually: DL2-11177.pdf (S-OIL Ultra-S series spread 'Lube base oil 08 | 09'; 1 page) whole text (twelfth pass, 2026-11-13): Ultra-S 6 column Sp.Gravity 15/4 C (D 1298) 0.843, KV40 33.32, KV100 6.0 (D 445), VI 127, flash COC 235, pour (D 5950) -20, Noack 8.0, sulfur < 1.0 wt ppm, saturates > 99"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "path": "specific_gravity",
+   "new_f": "DL2-11240.pdf",
+   "old_rev": "re-read manually: DL2-11177.pdf (S-OIL Ultra-S series spread 'Lube base oil 08 | 09'; 1 page) whole text (twelfth pass, 2026-11-13): Ultra-S 6 column Sp.Gravity 15/4 C (D 1298) 0.843, KV40 33.32, KV100 6.0 (D 445), VI 127, flash COC 235, pour (D 5950) -20, Noack 8.0, sulfur < 1.0 wt ppm, saturates > 99"
+  },
+  {
+   "p": "S_OIL_ULTRA_S_6",
+   "path": "pour_point",
+   "new_f": "DL2-11240.pdf",
+   "reason_append": "Method note (twelfth pass): the cited spread prints the pour point by ASTM D 5950; the Cosan sheet prints D 97."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_2",
+   "path": "kv40",
+   "new_f": "DL2-13913.pdf",
+   "old_rev": "re-read manually: DL2-11328.pdf (ExxonMobil Product Datasheet SpectraSyn 2, Revision Date 07/30/2015; 2 pages) whole text (twelfth pass, 2026-11-13): KV100 1.7, KV40 5.0 (D445), pour -66 (D5950/D97), flash COC 157 (D92), SG 0.798 at 15.6 C (D4052); chemistry 'Polyalphaolefin (PAO) Fluid'; no CAS number; footnote 2 marks the -40 C / -54 C viscosities and other single / two-sample items"
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_2",
+   "path": "flash_point",
+   "new_f": "DL2-13913.pdf",
+   "old_rev": "re-read manually: DL2-11328.pdf (ExxonMobil Product Datasheet SpectraSyn 2, Revision Date 07/30/2015; 2 pages) whole text (twelfth pass, 2026-11-13): KV100 1.7, KV40 5.0 (D445), pour -66 (D5950/D97), flash COC 157 (D92), SG 0.798 at 15.6 C (D4052); chemistry 'Polyalphaolefin (PAO) Fluid'; no CAS number; footnote 2 marks the -40 C / -54 C viscosities and other single / two-sample items"
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_2",
+   "path": "api_group_chemistry.chemistry",
+   "new_f": "DL2-13913.pdf",
+   "old_rev": "re-read manually: DL2-11328.pdf (ExxonMobil Product Datasheet SpectraSyn 2, Revision Date 07/30/2015; 2 pages) whole text (twelfth pass, 2026-11-13): KV100 1.7, KV40 5.0 (D445), pour -66 (D5950/D97), flash COC 157 (D92), SG 0.798 at 15.6 C (D4052); chemistry 'Polyalphaolefin (PAO) Fluid'; no CAS number; footnote 2 marks the -40 C / -54 C viscosities and other single / two-sample items"
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_ELITE_150",
+   "path": "kv40",
+   "new_f": "DL2-11849.pdf",
+   "old_rev": "re-read manually: DL2-11378.pdf (ExxonMobil Product Datasheet SpectraSyn Elite 150, Revision Date 01/07/2015; 1 page) whole text (twelfth pass, 2026-11-13): KV100 156, KV40 1649 (D445), VI 210, pour -33, flash COC 277 (D92), SG 0.849 at 15.6 C; 'Typical properties: these are not to be construed as specifications'"
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_ELITE_150",
+   "path": "kv100",
+   "new_f": "DL2-11849.pdf",
+   "old_rev": "re-read manually: DL2-11378.pdf (ExxonMobil Product Datasheet SpectraSyn Elite 150, Revision Date 01/07/2015; 1 page) whole text (twelfth pass, 2026-11-13): KV100 156, KV40 1649 (D445), VI 210, pour -33, flash COC 277 (D92), SG 0.849 at 15.6 C; 'Typical properties: these are not to be construed as specifications'"
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_ELITE_150",
+   "path": "flash_point",
+   "new_f": "DL2-11849.pdf",
+   "old_rev": "re-read manually: DL2-11378.pdf (ExxonMobil Product Datasheet SpectraSyn Elite 150, Revision Date 01/07/2015; 1 page) whole text (twelfth pass, 2026-11-13): KV100 156, KV40 1649 (D445), VI 210, pour -33, flash COC 277 (D92), SG 0.849 at 15.6 C; 'Typical properties: these are not to be construed as specifications'"
+  },
+  {
+   "p": "EXXONMOBIL_EHC_45",
+   "path": "kv100",
+   "new_f": "DL2-11327.pdf",
+   "old_rev": "re-read manually: DL2-11785.pdf (ExxonMobil 'EHC Series' web print 4/29/2019, edition 03-2019; 3 pages) whole text, compared field by field with all five EHC records (twelfth pass, 2026-11-13); and DL2-11327.pdf (06-2018) both pages",
+   "reason_append": "Field-by-field result (twelfth pass): every limit of DL2-11785.pdf equals the JSON; the same representation issue applies to the viscosity-index range (list in 'value'); colour, appearance and the certification notes ('certified on release', ASTM E 29 rounding, '(a) alternate test methods may be used') have no template field."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_50",
+   "path": "kv100",
+   "new_f": "DL2-11327.pdf",
+   "old_rev": "re-read manually: DL2-11785.pdf (ExxonMobil 'EHC Series' web print 4/29/2019, edition 03-2019; 3 pages) whole text, compared field by field with all five EHC records (twelfth pass, 2026-11-13); and DL2-11327.pdf (06-2018) both pages",
+   "reason_append": "Field-by-field result (twelfth pass): every limit of DL2-11785.pdf equals the JSON; the same representation issue applies to the viscosity-index range (list in 'value'); colour, appearance and the certification notes ('certified on release', ASTM E 29 rounding, '(a) alternate test methods may be used') have no template field."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_65",
+   "path": "kv100",
+   "new_f": "DL2-11327.pdf",
+   "old_rev": "re-read manually: DL2-11785.pdf (ExxonMobil 'EHC Series' web print 4/29/2019, edition 03-2019; 3 pages) whole text, compared field by field with all five EHC records (twelfth pass, 2026-11-13); and DL2-11327.pdf (06-2018) both pages",
+   "reason_append": "Field-by-field result (twelfth pass): every limit of DL2-11785.pdf equals the JSON; the same representation issue applies to the viscosity-index range (list in 'value'); colour, appearance and the certification notes ('certified on release', ASTM E 29 rounding, '(a) alternate test methods may be used') have no template field."
+  },
+  {
+   "p": "EXXONMOBIL_EHC_110",
+   "path": "kv100",
+   "new_f": "DL2-11327.pdf",
+   "old_rev": "re-read manually: DL2-11785.pdf (ExxonMobil 'EHC Series' web print 4/29/2019, edition 03-2019; 3 pages) whole text, compared field by field with all five EHC records (twelfth pass, 2026-11-13); and DL2-11327.pdf (06-2018) both pages",
+   "reason_append": "Field-by-field result (twelfth pass): every limit of DL2-11785.pdf equals the JSON; the same representation issue applies to the viscosity-index range (list in 'value'); colour, appearance and the certification notes ('certified on release', ASTM E 29 rounding, '(a) alternate test methods may be used') have no template field."
+  },
+  {
+   "p": "INFINEUM_D3503",
+   "path": "open_questions",
+   "new_f": "DL2-11679.pdf",
+   "old_rev": "re-read manually: DL2-11404.pdf (Infineum D3503 data sheet, Version 25 May 2016 (3.0); 2 pages) whole text (twelfth pass, 2026-11-13)",
+   "old": "DL2-11404.pdf (cited) ALREADY prints the handling data: 'Min Load/Unload Temp: 60 C', 'Max Load/Unload Temp: 65 C', 'Vis @ Min Load/Unload Temp: 1,210 cSt', 'Vis @ Max Load/Unload Temp: 900 cSt', 'Maximum Storage Temperature: 60 C', 'Do not reheat above: 65 C'; footnotes '(a) Not a specification', '(b) Methods typically used by Infineum manufacturing plants'. The JSON records none of these (its open questions cover Ca, B and pour point only). (Correction: the eleventh-pass statement 'no handling viscosity' in the TDS was wrong.)",
+   "outcome": "in_old_source_not_captured",
+   "reason_append": "Correction (twelfth pass): the handling data are in the cited data sheet itself and were never captured; the SDS repeats them as a range (900-1,210 cSt at 60-65 C). Propose preserving them from the cited source (no template field), with the data-sheet footnotes '(a) Not a specification' and '(b) Methods typically used by Infineum manufacturing plants'."
+  },
+  {
+   "p": "PETRONAS_ETRO_6_PLUS",
+   "path": "density",
+   "new_f": "DL2-14915.pdf",
+   "old_rev": "re-read manually: DL2-14610.pdf (ETRO 6+ SDS, Malaysia format, Version 1.2, release 24.03.2020) pp.1 and 4 (twelfth pass, 2026-11-13): 'Relative density : 0.8486 (15 C)', 'Density : 0.8486 g/cm3 (15 C) Method: ASTM D 4052'; and DL2-10234.pdf (ETRO 6+ TDS) density row 'ASTM D 1298/D 4052 | kg/L | - | 0.8429' (typical column; no temperature printed)"
+  },
+  {
+   "p": "EXXONMOBIL_ESTEREX_P81",
+   "path": "kv40",
+   "new_f": "DL2-12989.pdf",
+   "form": "SDS reported value; statistical basis unspecified (SDS section 9: 'Physical and chemical properties are provided for safety, health and environmental considerations only and may not fully represent product specifications')",
+   "qual": "SDS reported value",
+   "reason_append": "Classification corrected (twelfth pass): the SDS states no statistical basis (not 'typical', not a specification); the value is classed 'SDS reported value; statistical basis unspecified' and must not be promoted to a manufacturer typical or specification."
+  },
+  {
+   "p": "EXXONMOBIL_ESTEREX_P81",
+   "path": "kv100",
+   "new_f": "DL2-12989.pdf",
+   "form": "SDS reported value; statistical basis unspecified (SDS section 9: 'Physical and chemical properties are provided for safety, health and environmental considerations only and may not fully represent product specifications')",
+   "qual": "SDS reported value",
+   "reason_append": "Classification corrected (twelfth pass): the SDS states no statistical basis (not 'typical', not a specification); the value is classed 'SDS reported value; statistical basis unspecified' and must not be promoted to a manufacturer typical or specification."
+  },
+  {
+   "p": "EXXONMOBIL_ESTEREX_P81",
+   "path": "pour_point",
+   "new_f": "DL2-12989.pdf",
+   "form": "SDS reported value; statistical basis unspecified (SDS section 9: 'Physical and chemical properties are provided for safety, health and environmental considerations only and may not fully represent product specifications')",
+   "qual": "SDS reported value (upper bound, printed < -34)",
+   "reason_append": "Classification corrected (twelfth pass): the SDS states no statistical basis (not 'typical', not a specification); the value is classed 'SDS reported value; statistical basis unspecified' and must not be promoted to a manufacturer typical or specification."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_2",
+   "path": "kv40",
+   "new_f": "DL2-13913.pdf",
+   "form": "SDS reported value; statistical basis unspecified (SDS section 9: 'Physical and chemical properties are provided for safety, health and environmental considerations only and may not fully represent product specifications')",
+   "qual": "SDS reported value",
+   "reason_append": "Classification corrected (twelfth pass): the SDS states no statistical basis (not 'typical', not a specification); the value is classed 'SDS reported value; statistical basis unspecified' and must not be promoted to a manufacturer typical or specification."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_2",
+   "path": "flash_point",
+   "new_f": "DL2-13913.pdf",
+   "form": "SDS reported value; statistical basis unspecified (SDS section 9: 'Physical and chemical properties are provided for safety, health and environmental considerations only and may not fully represent product specifications')",
+   "qual": "SDS reported value",
+   "reason_append": "Classification corrected (twelfth pass): the SDS states no statistical basis (not 'typical', not a specification); the value is classed 'SDS reported value; statistical basis unspecified' and must not be promoted to a manufacturer typical or specification."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_ELITE_150",
+   "path": "kv40",
+   "new_f": "DL2-11849.pdf",
+   "form": "SDS reported value; statistical basis unspecified (SDS section 9: 'Physical and chemical properties are provided for safety, health and environmental considerations only and may not fully represent product specifications')",
+   "qual": "SDS reported value",
+   "reason_append": "Classification corrected (twelfth pass): the SDS states no statistical basis (not 'typical', not a specification); the value is classed 'SDS reported value; statistical basis unspecified' and must not be promoted to a manufacturer typical or specification."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_ELITE_150",
+   "path": "kv100",
+   "new_f": "DL2-11849.pdf",
+   "form": "SDS reported value; statistical basis unspecified (SDS section 9: 'Physical and chemical properties are provided for safety, health and environmental considerations only and may not fully represent product specifications')",
+   "qual": "SDS reported value",
+   "reason_append": "Classification corrected (twelfth pass): the SDS states no statistical basis (not 'typical', not a specification); the value is classed 'SDS reported value; statistical basis unspecified' and must not be promoted to a manufacturer typical or specification."
+  },
+  {
+   "p": "EXXONMOBIL_SPECTRASYN_ELITE_150",
+   "path": "flash_point",
+   "new_f": "DL2-11849.pdf",
+   "form": "SDS reported value; statistical basis unspecified (SDS section 9: 'Physical and chemical properties are provided for safety, health and environmental considerations only and may not fully represent product specifications')",
+   "qual": "SDS reported value",
+   "reason_append": "Classification corrected (twelfth pass): the SDS states no statistical basis (not 'typical', not a specification); the value is classed 'SDS reported value; statistical basis unspecified' and must not be promoted to a manufacturer typical or specification."
+  }
+ ]
+}

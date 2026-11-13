@@ -1,0 +1,123 @@
+{
+ "files": 4422,
+ "unique_hashes": 4186,
+ "redundant_copies_within_batch": 236,
+ "duplicate_groups": 176,
+ "file_types": {
+  "pdf": 4339,
+  "jpeg": 55,
+  "ole2": 5,
+  "docx": 1,
+  "xlsx": 13,
+  "png": 8,
+  "pptx": 1
+ },
+ "readability_files": {
+  "text": 3875,
+  "image_only": 425,
+  "partial_text": 116,
+  "not_read": 5,
+  "no_text_extracted": 1
+ },
+ "pdf_pages": 22985,
+ "document_type_unique": {
+  "other": 729,
+  "SDS": 1462,
+  "TDS/PDS": 1052,
+  "unresolved": 808,
+  "brochure": 135
+ },
+ "document_subtype_unique": {
+  "certificate_of_analysis": 662,
+  "safety_data_sheet": 1462,
+  "technical_or_product_data_sheet": 1052,
+  "unresolved": 808,
+  "brochure_or_presentation": 135,
+  "formulation_or_performance_data": 64,
+  "shipping_or_commercial": 3
+ },
+ "document_type_files": {
+  "other": 767,
+  "SDS": 1487,
+  "TDS/PDS": 1112,
+  "unresolved": 898,
+  "brochure": 158
+ },
+ "files_byte_identical_to_existing_archive": 287,
+ "unique_documents_byte_identical_to_existing": 252,
+ "existing_archive_members": 362,
+ "existing_archive_unique_hashes": 316,
+ "existing_archive_unique_hashes_present_in_new_batch": 252,
+ "same_text_groups": 33,
+ "same_text_groups_involving_existing": 1,
+ "local_evidence_copies": 0,
+ "registry_hash_matches": 1,
+ "relationship_unique": {
+  "no existing product identified: other product or material (provisional; not a reading)": 2847,
+  "unresolved: not machine-read": 463,
+  "unresolved: no product field and no known supplier recognised": 490,
+  "names an existing product in its product field or title (automated match; provisional)": 66,
+  "exact byte duplicate of an existing archive file": 252,
+  "mentions an existing product on its first pages (weak; may be about another product)": 68
+ },
+ "match_rows": 443,
+ "match_levels": {
+  "name_in_product_field_and_supplier": 43,
+  "byte_identical_to_cited_source": 227,
+  "name_on_first_pages_and_supplier": 128,
+  "name_in_title_lines_and_supplier": 45
+ },
+ "match_relationships": {
+  "additional evidence for an existing product (provisional)": 59,
+  "exact byte duplicate of a source the product already cites": 227,
+  "mention only: the product is named on the first pages of a document that may be about another product (needs reading)": 109,
+  "already in the existing archive (byte-identical file, not cited by a value of this product): not a new document": 41,
+  "different document of a class the product already cites: revision candidate (NOT assumed newer; provisional)": 7
+ },
+ "existing_products_linked": 209,
+ "existing_products_total": 264,
+ "existing_products_linked_by_new_document": 72,
+ "existing_products_with_new_document_naming_them_in_field_or_title": 42,
+ "new_documents_naming_existing_product_in_field_or_title": 88,
+ "existing_products_with_byte_identical_source": 202,
+ "documents_naming_existing_product": 344,
+ "documents_naming_more_than_one_existing_product": 47,
+ "suppliers_recognised": 62,
+ "documents_without_recognised_supplier": 1411,
+ "distinct_printed_product_names_not_linked": 546,
+ "leads": {
+  "possible finished-oil formulation or performance data": 93,
+  "pending source selection": 130,
+  "co-component dose / route": 173,
+  "HiTEC 12204L / 8788B": 17
+ },
+ "leads_by_label": {
+  "PETRONAS ETRO 4": 9,
+  "NEXBASE 3043 / 3050 / 3060 / 3080": 72,
+  "HiTEC 5748 (viscosity modifier)": 47,
+  "HiTEC 12204L": 6,
+  "HiTEC 12250 (booster of the 12204L premix)": 5,
+  "Formosa 150N / 500N": 17,
+  "Lubrizol CV1100 / CV1103": 10,
+  "Lubrizol CV6320": 6,
+  "Lubrizol 7077 performance polymer": 43,
+  "Infineum SV261": 42,
+  "Lubrizol CV2301": 10,
+  "Infineum D3354 / D3384 / D3451": 17,
+  "Infineum boosters D2332 / D2333 / D2334 / D2353 / D2358 / D2359 / D2367 / C9274": 8,
+  "aramcoPRIMA 110 / 230 / 500": 8,
+  "HiTEC 8788B": 6,
+  "Richful RF6066 / RF6069": 14
+ },
+ "unreadable_or_unclassified": 1204,
+ "tables": {
+  "file_manifest": 4422,
+  "dup_groups": 176,
+  "dup_existing_files": 287,
+  "same_text_groups": 33,
+  "product_matches": 443,
+  "revision_candidates": 7,
+  "leads": 413,
+  "unreadable_or_unclassified": 1204
+ }
+}

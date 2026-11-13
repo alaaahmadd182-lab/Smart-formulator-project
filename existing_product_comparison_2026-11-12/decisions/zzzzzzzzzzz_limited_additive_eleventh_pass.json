@@ -1,0 +1,48 @@
+{
+ "batch": "limited reviews: additive SDS completion (eleventh pass)",
+ "reviewed_on": "2026-11-13 (eleventh pass)",
+ "note": "Completes the limited review of the Infineum D3503 SDS (section 9 had been unread).",
+ "documents": {
+  "DL2-11679.pdf": {
+   "what": "Infineum D3503 SAFETY DATA SHEET according to SS586:2014, Version 1.1",
+   "printed_date": "Revision Date 13.05.2016, Print Date 05.03.2019",
+   "kind": "manufacturer SDS",
+   "read": "sections 1-3, 7 and 9 read in full (text layer); sections 4-6, 8, 10-16 read for product data (hazard, transport and regulatory statements only)",
+   "limits": "19 pages"
+  }
+ },
+ "links": [
+  {
+   "p": "INFINEUM_D3503",
+   "f": "DL2-11679.pdf",
+   "cat": "E",
+   "status": "completed",
+   "fields_status": "sections 1-3, 7 and 9 read in full (text layer); other sections read for product data",
+   "coverage": "compared with the JSON (cited TDS DL2-11404.pdf, 2016-05-25): section 9 equals every captured value - density 0.961 g/cm3 at 15 C (D4052) = 961 kg/m3; flash 184 C (PMCC, D93); KV100 183 mm2/s and KV40 4467 mm2/s (D445). Not captured, no template field (note row): relative density 0.961 at 15.6 C (D1298); vapour pressure < 0.1 hPa at 20 C (estimated); water solubility < 0.0001 g/l (estimated); DMSO extract (IP346) < 3.0 wt% of the mineral-oil component; coefficient of thermal expansion 0.0007 1/C (ITM 50-020); section 7: loading / unloading temperature 60-65 C with 'Viscosity @ Loading/unloading temperature: 900 cSt - 1,210 cSt' (this explains the line noted in an earlier pass); pour point 'not determined'. Section 3 component shares (ZDDP CAS 113706-15-3 >= 5 - < 10 %; thiocarbamide metal complex >= 0.1 - < 1 %) are not element contents.",
+   "identity": "exact: 'Infineum D3503' (other means of identification 73910)",
+   "note": "SDS of the same product; the record cites no SDS."
+  }
+ ],
+ "fields": [
+  {
+   "p": "INFINEUM_D3503",
+   "tier": 2,
+   "path": "open_questions",
+   "old": "DL2-11404.pdf (cited TDS): typical KV100, KV40, density, flash, TBN; no handling viscosity, no relative density at 15.6 C. JSON open questions: calcium, B and pour point not printed.",
+   "new_f": "DL2-11679.pdf",
+   "new_p": 8,
+   "new_text": "Section 7: 'Loading/unloading temperature : 60 C (140 F) - 65 C (149 F)'; 'Viscosity @ Loading/unloading temperature : 900 cSt - 1,210 cSt'. Section 9: 'Relative density : 0.961 at 15.6 C ... Method: ASTM D1298'; 'Pour point : not determined'; 'Coefficient of thermal expansion : 0.0007 1/C ITM 50-020'; 'DMSO extract by IP346 : Less than 3.0 wt% (mineral oil component only)'.",
+   "unit": "as printed",
+   "form": "SDS statements (manufacturer); handling data and typical physical properties as printed",
+   "qual": "as printed",
+   "method": "as printed",
+   "cond": "",
+   "basis": "",
+   "outcome": "additional",
+   "action": "propose_note",
+   "reason": "No template field holds handling viscosity, relative density, thermal expansion or DMSO extract; propose preserving them in a note with section and page. The SDS also states the pour point is 'not determined', which supports the existing open question (pour point not printed). Captured values are confirmed, not changed.",
+   "old_rev": "re-read manually: DL2-11404.pdf as quoted in the JSON printed_text (TDS values) and the JSON open questions",
+   "cmp_override": "existing: not recorded"
+  }
+ ]
+}

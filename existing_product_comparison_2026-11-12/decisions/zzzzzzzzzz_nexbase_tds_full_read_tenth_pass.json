@@ -1,0 +1,72 @@
+{
+ "batch": "other suppliers: NEXBASE TDS full read (correction of the ninth pass)",
+ "reviewed_on": "2026-11-13 (tenth pass)",
+ "note": "Correction. The truncated reads concerned the original TDS DL2-10037.pdf (NEXBASE 3043, edition 5.2) and DL2-10040.pdf (NEXBASE 3080, edition 2.2), not the certificates: the ninth-pass statement that the certificate reads had been cut is withdrawn (the certificates were in any case read in full and as images). Both TDS are now read without truncation (2,223 and 2,118 characters of extracted text, 2 pages each). Every value equals the JSON. Newly read text: footnotes (1) appearance definition and (2) 'Long-term average value' for the typical column; p.2 safety (3043: Asp. Tox. 1, H304), handling, shipping, availability, contact. The eighth-pass link note 'those two TDS were not re-read in this pass' remains true for that pass and is superseded here. The TDS are not in the new archive, so they carry no ledger link of their own; their read scope is recorded in the old-source review of the two sulphur rows and in the coverage of the four certificate links. The NEXBASE 3060 TDS DL2-10039.pdf (2,126 characters) was also printed in full in this pass, because the eighth-pass print of it cannot be shown to have been complete; all its values equal the JSON.",
+ "documents": {},
+ "links": [
+  {
+   "p": "NESTE_NEXBASE_3043",
+   "f": "DL2-14398.pdf",
+   "cat": "E,H",
+   "status": "completed",
+   "fields_status": "complete text (both pages) and both page images read; values compared with DL2-14397.pdf and the JSON",
+   "coverage": "compared with the JSON and the TDS DL2-10037.pdf (edition 5.2, read in full on 2026-11-13, tenth pass; the earlier reads were truncated); every printed value accounted for (batch evidence only)",
+   "identity": "printed 'NT 503(NEXBASE 3043)'; issuer Tree Trading FIZ LLC (logo / footer)",
+   "note": "LIKELY RELATED OR REPRODUCED RESULTS; INDEPENDENCE UNVERIFIED. All 22 values and the date (30 Jun 2020) equal DL2-14397.pdf, but no identifier is shared: Tree Trading prints Buyer Ref 98104026/08, Batch B201369, PL No 253-10918/1287; the tank certificate prints Order 14762, Vessel DS COUGAR, TANK 0772, Certified By 700476. Both sources are kept; they are not counted as two independent results."
+  },
+  {
+   "p": "NESTE_NEXBASE_3043",
+   "f": "DL2-14397.pdf",
+   "cat": "E,H",
+   "status": "completed",
+   "fields_status": "whole page read as an image (the text layer is only a cover line)",
+   "coverage": "compared with the JSON and the TDS DL2-10037.pdf (edition 5.2, read in full on 2026-11-13, tenth pass; the earlier reads were truncated); every printed value accounted for (batch evidence only)",
+   "identity": "printed 'NEXBASE 3043'; issuer not identifiable",
+   "note": "Tank / shipment certificate. Values equal DL2-14398.pdf; no shared identifier; independence unverified (see that link)."
+  },
+  {
+   "p": "NESTE_NEXBASE_3080",
+   "f": "DL2-14402.pdf",
+   "cat": "E,H",
+   "status": "completed",
+   "fields_status": "complete text (both pages) and both page images read; values compared with DL2-14401.pdf and the JSON",
+   "coverage": "compared with the JSON and the TDS DL2-10040.pdf (edition 2.2, read in full on 2026-11-13, tenth pass; the earlier reads were truncated); every printed value accounted for (batch evidence only)",
+   "identity": "printed 'NT502 (NEXBASE 3080)'; issuer Tree Trading FIZ LLC (logo / footer)",
+   "note": "LIKELY RELATED OR REPRODUCED RESULTS; INDEPENDENCE UNVERIFIED. All 20 values and the date (26 Jul 2020) equal DL2-14401.pdf; no shared identifier (Buyer Ref 98104027/08, Batch B201368, PL NO 253-10917/1222 vs Order 14762, DS COUGAR, TANK 0775, Certified By 700443). Both kept; not counted as independent."
+  },
+  {
+   "p": "NESTE_NEXBASE_3080",
+   "f": "DL2-14401.pdf",
+   "cat": "E,H",
+   "status": "completed",
+   "fields_status": "whole page read as an image",
+   "coverage": "compared with the JSON and the TDS DL2-10040.pdf (edition 2.2, read in full on 2026-11-13, tenth pass; the earlier reads were truncated); every printed value accounted for (batch evidence only)",
+   "identity": "printed 'NEXBASE 3080'; issuer not identifiable",
+   "note": "Tank / shipment certificate; values equal DL2-14402.pdf; independence unverified."
+  }
+ ],
+ "fields": [],
+ "field_overrides": [
+  {
+   "p": "NESTE_NEXBASE_3043",
+   "path": "sulfur",
+   "new_f": "*",
+   "old_rev": "re-read manually: DL2-10037.pdf (NEXBASE TDS edition 5.2) complete text of both pages, 2,223 characters of extracted text including the file header, printed without truncation on 2026-11-13 (tenth pass); the eighth-pass reading had been printed through a 1,500-character cut that omitted the end of p.1 (footnotes 1-2) and all of p.2. Values: KV100 4.2-4.4 / 4.3; KV40 typical 20; VI >= 121 / 122; pour <= -12 / -18 (D97); flash >= 220 / 228 (D92); colour <= 0.5 / < 0.5; Noack <= 14.8 / 14.2 (CEC L-40-93b); density 15 C typical 837 kg/m3 (D4052); appearance Pass (D4176-1); no sulphur or saturates; p.2 also states Asp. Tox. 1, H304",
+   "reason_append": " Old-source information not captured in the JSON (no template field; reported, not proposed as a value): DL2-10037.pdf footnote (2) defines every 'Typical value' as a 'Long-term average value'; footnote (1) defines appearance 'Pass' as clear and bright with no water or particulates at the bottom of the vortex and p.2 states the hazard Asp. Tox. 1, H304; p.2 handling, shipping (ADR/RID, IMDG, IATA not classified) and availability (bulk and drums)."
+  },
+  {
+   "p": "NESTE_NEXBASE_3080",
+   "path": "sulfur",
+   "new_f": "*",
+   "old_rev": "re-read manually: DL2-10040.pdf (NEXBASE TDS edition 2.2) complete text of both pages, 2,118 characters of extracted text including the file header, printed without truncation on 2026-11-13 (tenth pass); the eighth-pass reading had been printed through a 1,500-character cut that omitted the end of p.1 (footnotes 1-2) and all of p.2. Values: KV100 7.8-8.2 / 7.9; KV40 typical 49; VI >= 125 / 130; pour <= -12 / -12; flash >= 220 / 261; colour <= 0.5 / < 0.5; Noack <= 5 / 3.5; density 15 C typical 847 kg/m3; appearance Pass; no sulphur or saturates",
+   "reason_append": " Old-source information not captured in the JSON (no template field; reported, not proposed as a value): DL2-10040.pdf footnote (2) defines every 'Typical value' as a 'Long-term average value'; footnote (1) defines appearance 'Pass' as clear and bright with no water or particulates at the bottom of the vortex; p.2 handling, shipping (ADR/RID, IMDG, IATA not classified) and availability (bulk and drums)."
+  },
+  {
+   "p": "NESTE_NEXBASE_3060",
+   "path": "*",
+   "new_f": "*",
+   "old_rev": "re-read manually: DL2-10039.pdf (NEXBASE 3060 TDS edition 6.2) complete text of both pages, 2,126 characters of extracted text including the file header, printed without truncation on 2026-11-13 (tenth pass; whether the eighth-pass print was cut cannot be shown from the record, so it was read again in full). Values: KV100 5.7-6.3 / 5.9; KV40 typical 32; VI >= 125 / 128; pour <= -12 / -15 (D97); flash >= 220 / 240 (D92); colour <= 0.5 / < 0.5; Noack <= 8 / 7.2 (CEC L-40-93b); density 15 C typical 843 kg/m3; appearance Pass; no sulphur or saturates. All equal the JSON.",
+   "reason_append": " Old-source information not captured (no template field): DL2-10039.pdf footnote (2) defines 'Typical value' as 'Long-term average value'; footnote (1) defines appearance 'Pass'; p.2 handling, shipping, availability."
+  }
+ ]
+}

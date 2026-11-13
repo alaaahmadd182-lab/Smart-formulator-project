@@ -1,0 +1,14 @@
+# State verification after the incoming-dataset inventory (2026-11-12)
+branch: feat/data-policy-mandatory-review; HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02; staged files: 0
+git status lines excluding the review directory: 113 (before the inventory: 113)
+git status hash excluding the review directory: 2de292fe3eabccb9 (before the inventory: 2de292fe3eabccb9)
+new archive SHA-256 after the inventory: 62565d5c7a2afc2203536c241004cd4af7f62866a4bfe4f70801b378cf2c78b1
+existing archive SHA-256: 6488b08f9729c4988c8e73bfe51dac355f64ee601e78554591a3450ba5f5497a
+product data fingerprint (exact bytes): 93b704a79b5844430af87d15f53058ec3df106ad262af4236fb52da1621f3530 (snapshot reference: 93b704a79b5844430af87d15f53058ec3df106ad262af4236fb52da1621f3530)
+frozen snapshot:
+review_snapshot_2026-11-12: 944 manifest entries; files present 944; mismatches 0
+snapshot verify exit code: 0
+manifest SHA-256: 8b63a5b642cf691fb2389692bc4399f6da1ae5d523f2cf44d45cbfb311869fbb
+reports, tools, registry, workbook, templates compared with the snapshot: 74 files, 0 different
+protected paths (git status): 0 changed
+review directory tracked by git: 0 files (untracked; _cache ignored)

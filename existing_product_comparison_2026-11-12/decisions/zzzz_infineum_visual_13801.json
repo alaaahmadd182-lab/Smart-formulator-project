@@ -1,0 +1,15 @@
+{
+  "batch": "infineum",
+  "reviewed_on": "2026-11-13 (fourth pass)",
+  "documents": {},
+  "links": [],
+  "fields": [],
+  "visual": [
+    {"f": "DL2-13801.pdf", "page": 4, "checked": "formulation IME1401827-A and its complete claim list", "result": "confirmed", "detail": "Code IME1401827-A, Grade 10W-40: Chevron 220R 48.7%; Nexbase 3043 30.0%; Infineum SV261 8.0%; Infineum D3451 11.9%; Infineum D2367 1.2%; Infineum V385 0.2% (no total row printed; components add to 100.0). Performance: ACEA 2016 E7; API CI-4/SL; Daimler MB 228.3; MAN M3275-1; MTU Type II; VOLVO VDS-3; MACK EO-N; Renault RLD-2; CATERPILLAR ECF-1a; CUMMINS CES 20076/77. Text: 'Additive system delivers a TBN of 9 mg KOH/g'; 'Approved in Chevron Group II + 30% Nexbase Group III'; 'Still using Infineum SV261'."}
+  ],
+  "field_overrides": [
+    {"p": "INFINEUM_D3451", "path": "published_formulations", "new_f": "DL2-13801.pdf", "provisional_because": [],
+     "new_text": "IME1401827-A, SAE 10W-40: Chevron 220R 48.7%; Nexbase 3043 30.0%; Infineum SV261 8.0%; Infineum D3451 11.9%; Infineum D2367 1.2%; Infineum V385 0.2% (no total printed; components add to 100.0). Performance: ACEA 2016 E7; API CI-4/SL; Daimler MB 228.3; MAN M3275-1; MTU Type II; VOLVO VDS-3; MACK EO-N; Renault RLD-2; CATERPILLAR ECF-1a; CUMMINS CES 20076/77. 'Additive system delivers a TBN of 9 mg KOH/g' (finished oil); 'Approved in Chevron Group II + 30% Nexbase Group III'",
+     "reason_append": "Fourth pass: p.4 read as an image; the complete claim list is now recorded. The TBN of 9 is a finished-oil value and stays with the formulation."}
+  ]
+}

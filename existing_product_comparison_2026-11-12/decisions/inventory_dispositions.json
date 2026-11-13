@@ -1,0 +1,17 @@
+{
+  "reviewed_on": "2026-11-12",
+  "file_groups": {
+    "GE220 certificates": ["DL2-14327.pdf", "DL2-14328.pdf", "DL2-14334.pdf", "DL2-14335.pdf", "DL2-14336.pdf", "DL2-14337.pdf", "DL2-14341.pdf", "DL2-14342.pdf", "DL2-14343.pdf", "DL2-14350.pdf", "DL2-14354.pdf", "DL2-14355.pdf", "DL2-14356.pdf", "DL2-14357.pdf", "DL2-14358.pdf", "DL2-14359.pdf", "DL2-14381.pdf", "DL2-14382.pdf"]
+  },
+  "false_revision_matches": [
+    {"product_id": "CHEVRON_OLOA_59766", "file": "DL2-11779.pdf", "disposition": "excluded: false product match (category G)", "reason": "The document is the bulletin of OLOA 65770 ('Version 1, 26 May, 2008, OLOA 65770 Booster for Engine Oils'). It is not an OLOA 59766 document and not a revision of DL2-11731.pdf. OLOA 59766 is named in it only as the package the booster is used with.", "preserved_link": "formulation / compatibility evidence (category D): booster route naming OLOA 59766; the dose statements are to be read when the Oronite batch is reviewed"},
+    {"product_id": "YUBASE_6", "file_startswith": "OLOA%2055603", "disposition": "excluded: false product match (category G)", "reason": "The document is an Oronite customer presentation about OLOA 55603 (ILSAC GF-7 / Gen 3). It is not a Yubase 6 data sheet and not a revision of DL2-11306.pdf. Yubase 6 is named as a base oil of formulations.", "preserved_link": "formulation evidence (category D): Yubase 6 as a base oil in OLOA 55603 formulations; to be read when the Oronite batch is reviewed"}
+  ],
+  "wording_corrections": [
+    {"original": "SUMMARY.md line 107: 'The Afton sources that could not be obtained are not in the batch'", "corrected": "No file of the batch is byte-identical to the Afton sources that could not be obtained, and the searched text layers were not compared with them (they are unavailable). 499 unique documents have no usable text layer and were not searched."},
+    {"original": "SUMMARY.md line 108: 'I found no new stand-alone datasheet for NEXBASE 3043-3080, ETRO 4 or aramcoPRIMA 110/230/500'", "corrected": "Among the documents with a usable text layer, the automated first-page match found no document whose title or product field names these products. This was not a reading of the documents, and 499 unique documents without a text layer were not searched."},
+    {"original": "SUMMARY.md line 110: 'No document in the batch names LUBRIZOL 3589C, 3700 or 3700D'", "corrected": "The full-text search of the 3,687 unique documents with a usable text layer is reported in tables/inventory_wording_checks.csv for these three names. Documents without a text layer were not searched."},
+    {"original": "SUMMARY.md line 122: 'Suppliers and material classes not in the database ... A scope decision first'", "corrected": "Materials of suppliers that the database does not hold yet. Absence from the database says nothing about scope; they are candidates for the future-ingestion queue."},
+    {"original": "inventory_statistics.json: 'new_documents_naming_existing_product_in_field_or_title: 88' and 'existing_products_with_new_document_naming_them_in_field_or_title: 42'", "corrected": "These 88 links / 42 products include 22 links to files that are byte-identical to members of the existing archive (not new documents). New documents only: 66 links / 25 products, before reviewed exclusions."}
+  ]
+}

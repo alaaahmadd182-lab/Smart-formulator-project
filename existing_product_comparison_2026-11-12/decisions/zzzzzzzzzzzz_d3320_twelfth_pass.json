@@ -1,0 +1,88 @@
+{
+ "batch": "limited reviews: Infineum D3320 formulation table (visual), twelfth pass",
+ "reviewed_on": "2026-11-13 (twelfth pass)",
+ "note": "DL2-13796.pdf p.11 (slide 67, footer 01/01/2019, in the Infineum 'Engine Oil Additive Packages Overview, January 2020') read as an image at 120 dpi; the two formulation columns had been seen only in the text-layer hit line.",
+ "documents": {
+  "DL2-13796.pdf": {
+   "what": "Infineum 'Engine Oil Additive Packages Overview' (11 slides)",
+   "printed_date": "January 2020 (slide footer 01/01/2019)",
+   "kind": "manufacturer presentation",
+   "read": "pp.1 and 11 (text layer; p.11 as an image)",
+   "limits": "other slides concern other packages"
+  }
+ },
+ "links": [
+  {
+   "p": "INFINEUM_D3320",
+   "f": "DL2-13796.pdf",
+   "cat": "D,E",
+   "status": "completed",
+   "fields_status": "p.11 read in full (text layer) and as an image at 120 dpi; other slides NOT reviewed for this product",
+   "coverage": "compared with the JSON (cited DL2-12025.pdf, 2015): treat rate 13.7 % for 10W-30 and 10W-40 equal; new: two coded formulations (Chevron 220R + Yubase 4; VM SV203 or SV261; PPD V385), ACEA-16 E6/E7/E9 and OEM claims per formulation, 'Formulated with only two base stock cuts (Chevron 220R and Yubase 4)', 'Covers thicker SAE 10W-40 and thinner SAE 10W-30 with the same treat rate', 'Embraces full SAPS and mid SAPS European key HDD claims'; 'Delivers a TBN of 10.4 mgKOH/g' is a finished-oil value (not proposed)",
+   "identity": "exact: slide 'Infineum D3320 - Cost Effective Approach for the ACEA E6 Segment'",
+   "note": "Manufacturer presentation; formulations and claims are route-bound."
+  }
+ ],
+ "fields": [
+  {
+   "p": "INFINEUM_D3320",
+   "tier": 1,
+   "path": "published_formulations",
+   "old": "DL2-12025.pdf (2015): no formulation printed. JSON published_formulations Missing.",
+   "new_f": "DL2-13796.pdf",
+   "new_p": 11,
+   "new_text": "Identity per formulation column (oil code; image checked): IME1402170-D 10W-30: Chevron 220R 57.7 % / Yubase 4 24.0 % / Infineum SV203 4.4 % / Infineum D3320 13.7 % / Infineum V385 0.2 % / Total 100.0 %; IME1405260-A 10W-40: Chevron 220R 53.1 % / Yubase 4 26.0 % / Infineum SV261 6.9 % / Infineum D3320 13.7 % / Infineum V385 0.3 % / Total 100.0 % (both add to 100.0). Performance (both columns): ACEA-16 E6/E7/E9; API CI-4; Daimler MB 228.51; MAN M3477/M3271-1; Deutz DQC IV-10 LA; Volvo VDS-3; Mack EO-N; Renault RLD-2; MTU Type 3.1; Cummins CES 20076/77",
+   "unit": "%",
+   "form": "manufacturer formulations (presentation, slide dated 01/01/2019)",
+   "qual": "",
+   "method": "",
+   "cond": "ACEA-16 E6/E7/E9 and OEM claims as printed per column",
+   "basis": "printed '%' (basis not stated on the slide; the data sheet states mass %)",
+   "outcome": "additional",
+   "action": "propose_add_route_bound",
+   "reason": "Propose adding both formulations by oil code, each with its base stocks, VM, PPD and the claims printed under it; percentage basis kept as printed.",
+   "old_rev": "re-read manually: DL2-12025.pdf (Infineum D3320 data sheet, Version 6 February 2015 (1.0); 1 page) whole text (twelfth pass): 'ACEA E6-12 premium package for Group II/III base stocks (SAE 10W-30, 10W-40)'; Performance ACEA E6-12 / API CI-4 at 13.7 mass % for 10W-30 and 10W-40; no formulation, VM, PPD or OEM claim printed",
+   "cmp_override": "existing: published_formulations Missing"
+  },
+  {
+   "p": "INFINEUM_D3320",
+   "tier": 1,
+   "path": "performance_claims",
+   "old": "DL2-12025.pdf (2015): ACEA E6-12 and API CI-4 at 13.7 mass % (10W-30, 10W-40). JSON accordingly.",
+   "new_f": "DL2-13796.pdf",
+   "new_p": 11,
+   "new_text": "Performance (both columns): ACEA-16 E6/E7/E9; API CI-4; Daimler MB 228.51; MAN M3477/M3271-1; Deutz DQC IV-10 LA; Volvo VDS-3; Mack EO-N; Renault RLD-2; MTU Type 3.1; Cummins CES 20076/77 (slide 67, dated 01/01/2019; 'ACEA 2016 compliant for E6, E7 and E9')",
+   "unit": "",
+   "form": "claims (manufacturer presentation)",
+   "qual": "",
+   "method": "",
+   "cond": "bound to formulations IME1402170-D (10W-30) and IME1405260-A (10W-40)",
+   "basis": "",
+   "outcome": "additional",
+   "action": "propose_add_route_bound",
+   "reason": "The 2019 slide claims the ACEA 2016 sequences E6/E7/E9 and OEM specifications for two coded formulations; propose adding them bound to those formulations (base stocks Chevron 220R + Yubase 4) and keeping the 2015 data-sheet claims (ACEA E6-12, API CI-4) as they are.",
+   "old_rev": "re-read manually: DL2-12025.pdf (Infineum D3320 data sheet, Version 6 February 2015 (1.0); 1 page) whole text (twelfth pass): 'ACEA E6-12 premium package for Group II/III base stocks (SAE 10W-30, 10W-40)'; Performance ACEA E6-12 / API CI-4 at 13.7 mass % for 10W-30 and 10W-40; no formulation, VM, PPD or OEM claim printed",
+   "cmp_override": "existing: ACEA E6-12, API CI-4"
+  },
+  {
+   "p": "INFINEUM_D3320",
+   "tier": 1,
+   "path": "required_co_components",
+   "old": "DL2-12025.pdf: no VM or PPD named. JSON required_co_components Missing.",
+   "new_f": "DL2-13796.pdf",
+   "new_p": 11,
+   "new_text": "IME1402170-D: 'Infineum SV203 4.4%', 'Infineum V385 0.2%'; IME1405260-A: 'Infineum SV261 6.9%', 'Infineum V385 0.3%'",
+   "unit": "%",
+   "form": "components of manufacturer formulations (presentation)",
+   "qual": "",
+   "method": "",
+   "cond": "formulations IME1402170-D and IME1405260-A only",
+   "basis": "printed '%'",
+   "outcome": "additional",
+   "action": "propose_add_route_bound",
+   "reason": "Propose recording the VM (SV203 or SV261) and PPD (V385) doses for these two formulations only; not universal co-components.",
+   "old_rev": "re-read manually: DL2-12025.pdf (Infineum D3320 data sheet, Version 6 February 2015 (1.0); 1 page) whole text (twelfth pass): 'ACEA E6-12 premium package for Group II/III base stocks (SAE 10W-30, 10W-40)'; Performance ACEA E6-12 / API CI-4 at 13.7 mass % for 10W-30 and 10W-40; no formulation, VM, PPD or OEM claim printed",
+   "cmp_override": "existing: Missing"
+  }
+ ]
+}
