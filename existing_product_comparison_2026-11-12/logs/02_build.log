@@ -47,29 +47,29 @@
   }
  },
  "fields": {
-  "rows": 457,
+  "rows": 482,
   "outcomes": {
-   "additional": 228,
+   "additional": 229,
    "changed_or_conflicting": 79,
    "already_captured": 48,
    "not_comparable": 16,
-   "in_old_source_not_captured": 86
+   "in_old_source_not_captured": 110
   },
-  "proposed": 421,
-  "ready_for_reviewer_decision": 421,
+  "proposed": 446,
+  "ready_for_reviewer_decision": 446,
   "provisional": 0,
   "new_source_verification": {
    "visual": 123,
-   "text layer": 334
+   "text layer": 359
   },
   "old_source_review": {
-   "re-read manually": 441,
+   "re-read manually": 466,
    "re-read manually in full": 15,
    "automated text search only": 1
   }
  }
 }
-reviewed documents 187; visual checks 59 done, 5 outstanding; old sources referenced 139; excerpts 374
+reviewed documents 187; visual checks 59 done, 5 outstanding; old sources referenced 142; excerpts 398
   CHECK field path: RF6602 1 open_questions no such field in the template
   CHECK field path: EXXONMOBIL_ESTEREX_A32 1 open_questions no such field in the template
   CHECK field path: EXXONMOBIL_ESTEREX_A34 1 open_questions no such field in the template
@@ -169,3 +169,20 @@ reviewed documents 187; visual checks 59 done, 5 outstanding; old sources refere
   CHECK field path: S_OIL_ULTRA_S_4 1 open_questions no such field in the template
   CHECK field path: S_OIL_ULTRA_S_6 1 open_questions no such field in the template
   CHECK field path: S_OIL_ULTRA_S_8 1 open_questions no such field in the template
+  CHECK field path: GS_CALTEX_60N 1 open_questions no such field in the template
+  CHECK field path: GS_CALTEX_150N 1 open_questions no such field in the template
+  CHECK field path: GS_CALTEX_220N 1 open_questions no such field in the template
+  CHECK field path: GS_CALTEX_600N 1 open_questions no such field in the template
+  CHECK field path: GS_CALTEX_2CST_L 1 open_questions no such field in the template
+  CHECK field path: GS_CALTEX_2CST_H 1 open_questions no such field in the template
+  CHECK field path: GS_CALTEX_150BS 1 open_questions no such field in the template
+  CHECK field path: ARAMCO_LUBEREF_PRIMA_100 1 open_questions no such field in the template
+  CHECK field path: ARAMCO_LUBEREF_PRIMA_150 1 open_questions no such field in the template
+  CHECK field path: ARAMCO_LUBEREF_PRIMA_220 1 open_questions no such field in the template
+  CHECK field path: ARAMCO_LUBEREF_PRIMA_500L 1 open_questions no such field in the template
+  CHECK field path: ARAMCO_LUBEREF_PRIMA_600 1 open_questions no such field in the template
+  CHECK field path: ARAMCO_LUBEREF_PRIMA_500 1 open_questions no such field in the template
+  CHECK field path: ARAMCO_LUBEREF_PRIMA_70 1 open_questions no such field in the template
+  CHECK field path: ARAMCO_LUBEREF_PRIMA_110 1 open_questions no such field in the template
+  CHECK field path: ARAMCO_LUBEREF_PRIMA_230 1 open_questions no such field in the template
+  CHECK field path: ARAMCO_LUBEREF_PRIMA_500 1 open_questions no such field in the template
