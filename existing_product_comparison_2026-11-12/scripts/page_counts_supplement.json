@@ -1,0 +1,70 @@
+{
+ "note": "Sixteenth pass (2026-11-14): page counts measured directly from the files for documents the inventory left without one. Used by 02_build.py only where the ledger and the inventory have no count. pages=null means not applicable.",
+ "documents": {
+  "fc428780ece4259a34dd15ef136e45a1190bcbaf5eadcda3fb8c91fff8c76ee6": {
+   "file": "DL2-12108.jpeg",
+   "pages": 1,
+   "method": "single raster image (pymupdf image document, 1 page)"
+  },
+  "cd6e3eb71e143ee57c651b45773b04df4e6c0938ef777e176f10d91bace8cc40": {
+   "file": "DL2-12888.jfif",
+   "pages": 1,
+   "method": "single raster image (pymupdf image document, 1 page)"
+  },
+  "bd7779cc327b37d7514425e8e6806b3e4263ce0c2079f053729849a98c7d3c60": {
+   "file": "DL2-13092.jpg",
+   "pages": 1,
+   "method": "single raster image (pymupdf image document, 1 page)"
+  },
+  "e413831a6f3951b6bbae1adbebe56bbb420676397f871c5897f2265ab05e98a6": {
+   "file": "DL2-13093.jpg",
+   "pages": 1,
+   "method": "single raster image (pymupdf image document, 1 page)"
+  },
+  "9e50dcac209afeaab5f897381916d7bf2098e379fe13e7e51b4b2c2ab49bc64c": {
+   "file": "DL2-12420.jpg",
+   "pages": 1,
+   "method": "single raster image (pymupdf image document, 1 page)"
+  },
+  "8345504798d6adf901439edbbe9fa2e44a6e0c72e5d9cef37a6d936af935e709": {
+   "file": "DL2-12421.jpg",
+   "pages": 1,
+   "method": "single raster image (pymupdf image document, 1 page)"
+  },
+  "4af557858a3941db0d2dc86c4ab4d6241c601747f112a284e6a185bd443259af": {
+   "file": "DL2-12468.jpg",
+   "pages": 1,
+   "method": "single raster image (pymupdf image document, 1 page)"
+  },
+  "ba8547a4fe9bc2a3a83c0b346b6fb9c7d0b62b720413f0ca7dd9402835af5221": {
+   "file": "DL2-14338.pdf",
+   "pages": 1,
+   "method": "PDF page count (pymupdf)"
+  },
+  "e8714d199dd87d2090ebd294512eda4b20287c9abcc213a2392d3237322065df": {
+   "file": "DL2-14351.pdf",
+   "pages": 1,
+   "method": "PDF page count (pymupdf)"
+  },
+  "8c2bb8d67b89b1731da26cd036dfc6084b1279e2d9b04e77e057f2f4d08cfb7b": {
+   "file": "DL2-14360.pdf",
+   "pages": 1,
+   "method": "PDF page count (pymupdf)"
+  },
+  "c09305fb7b6dd74619406d0c8f0f6570996b1c2c80dfb7cc91019fe96fd811fe": {
+   "file": "HiTEC-8788B_PDS__registered_url.pdf",
+   "pages": 2,
+   "method": "PDF page count (pymupdf) of the retrieved registered copy in retrieved_evidence_2026-11-13/ (not in the new archive)"
+  },
+  "66d48338eafe0b997cd893d2f0259abc7be531dc2bc2315ae11df36fc9e8bf40": {
+   "file": "OLOA%2055603 ... Jul26 .pptx",
+   "pages": 8,
+   "method": "slide count from ppt/slides/slideN.xml parts (pymupdf reports 25 for this file and is not used for pptx)"
+  },
+  "110cee160b5bd3f357b6273b308ab3080ed8177ad890c0d6d90ef39c2d7c8bda": {
+   "file": "DL2-12146.xlsx",
+   "pages": null,
+   "method": "spreadsheet: 1 worksheet ('EXXON MOBIL'); a page count does not apply and none is recorded"
+  }
+ }
+}

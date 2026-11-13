@@ -272,6 +272,13 @@ def main():
     for v in led.values():
         if not v['pages'] and v['sha256'] in udoc and udoc[v['sha256']].get('pages'):
             v['pages'] = udoc[v['sha256']]['pages']
+    # Seventeenth pass: counts measured directly from the files where neither the ledger nor the inventory has one
+    # (scripts/page_counts_supplement.json; pages null = not applicable, e.g. a spreadsheet, and stays empty).
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'page_counts_supplement.json'), encoding='utf-8') as fh:
+        psup = json.load(fh)['documents']
+    for v in led.values():
+        if not v['pages'] and psup.get(v['sha256'], {}).get('pages'):
+            v['pages'] = str(psup[v['sha256']]['pages'])
     unsearch = {r['sha256'] for r in rd(os.path.join(T, 'unsearchable_documents.csv'))}
     rows, used_links = [], set()
     for (pid, sha), r in sorted(led.items()):
@@ -301,7 +308,9 @@ def main():
     for k in sorted(set(links) - used_links):
         l = links[k]
         rows.append(dict(product_id=k[0], sha256=new_sha.get(k[1], ''), file=k[1], supplier_key='', found_by='manual review only (not in the automated tables)', inventory_relationship='',
-                         suggested_relationship='', hit_pages='', document_type='', pages='', why_not_found_by_text_search='link recorded by the reviewer; the automated search did not pair this product and file',
+                         suggested_relationship='', hit_pages='', document_type='',
+                         pages=(udoc.get(new_sha.get(k[1], ''), {}).get('pages') or str(psup.get(new_sha.get(k[1], ''), {}).get('pages') or '')),
+                         why_not_found_by_text_search='link recorded by the reviewer; the automated search did not pair this product and file',
                          reviewed_categories=l['cat'], relationship_status=l['status'], field_verification_status=l.get('fields_status') or 'see field rows',
                          source_to_json_coverage=l.get('coverage') or 'not assessed', identity_check=l.get('identity', ''), review_note=l.get('note', ''), batch=l.get('batch', '')))
     cols = ['product_id', 'supplier_key', 'file', 'sha256', 'document_type', 'pages', 'found_by', 'why_not_found_by_text_search', 'inventory_relationship', 'suggested_relationship',
