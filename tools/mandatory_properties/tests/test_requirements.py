@@ -164,7 +164,7 @@ class Categories(unittest.TestCase):
 
     def test_tier1_complete_means_all_satisfied(self):
         self.assertEqual(R.summarize(R.base_oil_requirements(base_oil())), (True, True))
-        self.assertEqual(R.REQUIREMENTS_VERSION, 'mandatory-tier1-2026-11-10.3')
+        self.assertEqual(R.REQUIREMENTS_VERSION, 'mandatory-tier1-2026-11-10.6')
 
 
 class Calculations(unittest.TestCase):
@@ -254,14 +254,18 @@ class Nested(unittest.TestCase):
     def test_co_component_architecture(self):
         def pk(**f):
             return {1: dict(fields=f)}
-        self.assertEqual(cats(R.additive_package_requirements(pk(required_co_components=[])))['required_co_components'], R.APPL)
-        stmt = vo('no additional co-component required', unit=None)
-        self.assertEqual(cats(R.additive_package_requirements(pk(co_component_requirement_statement=stmt)))['required_co_components'], R.MET)
+        self.assertEqual(cats(R.additive_package_requirements(pk(required_co_components=[])))['required_co_components'], R.UNKNOWN)  # silence (policy 2)
+        stmt = vo('no additional co-component required', unit=None)   # free text is not an explicit, applicable statement (.5)
+        self.assertEqual(cats(R.additive_package_requirements(pk(co_component_requirement_statement=stmt)))['required_co_components'], R.META)
         e = dict(role='VM', name='X', dose_wt_pct=vo(1.2, unit='%'))
         self.assertEqual(cats(R.additive_package_requirements(pk(required_co_components=[e])))['required_co_components'], R.META)
-        basis = [dict(product='P', field='required_co_components', source_file='DL2-00000.pdf', page=1, values=None)]
+        basis = [dict(product='P', field='required_co_components', source_file='DL2-00000.pdf', page=1, values=None, basis='mass %')]
+        nobasis = [dict(basis[0], basis=None)]   # evidence that does not say which basis it establishes proves nothing (policy 3)
+        self.assertEqual(cats(R.additive_package_requirements(pk(required_co_components=[e]), ctx(basis=nobasis)))['required_co_components'], R.META)
         outs = R.additive_package_requirements(pk(required_co_components=[e]), ctx(basis=basis))
-        self.assertEqual(cats(outs)['required_co_components'], R.MET)
+        # the dose is usable (mass basis from evidence), but one usable component is not a complete route (.5)
+        self.assertEqual(cats(outs)['required_co_components'], R.ROUTE)
+        self.assertEqual(R.co_component_entries(dict(required_co_components=[e]), ctx(basis=basis))[0]['state'], 'required_usable_dose')
 
     def test_component_markers_and_subtypes(self):
         def comp(primary, family, markers, extra=None):

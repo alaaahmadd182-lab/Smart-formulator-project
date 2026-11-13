@@ -1,10 +1,10 @@
 command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/association_review.py
 cwd: C:\Users\windo\sf-wsA
-HEAD: 4e836526fd3c0e0c9d758f88f8a60ce1c1774c02
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
 return code: 0
 expectation: zero
 verdict: pass
-duration: 1.4 s
+duration: 1.8 s
 
 ===== stdout =====
 name-match associations (revision-2 universe + current): 174 pairs, 48 products; now cited as evidence: 3

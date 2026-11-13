@@ -1,0 +1,19 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/external_review.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+return code: 0
+expectation: zero
+verdict: pass
+duration: 0.4 s
+
+===== stdout =====
+external-source cases: 29 (external_selected 25, pending with an external alternative 4)
+  external_selected: confirmed 21, inconclusive_source_unavailable 4
+  pending_external_alternative: inconclusive_source_unavailable 4
+  authority: distributor_issued 1, manufacturer_issued 28
+  authenticity: live_feed_unhashed_in_registry 2, not_obtained 8, registry_hash_match 3, saved_copy_hash_verified 14, saved_copy_hash_verified; registry_hash_match 2
+  identity_status: exact_grade_named 13, exact_grade_named_merge_question_separate 8, not_assessed_source_not_obtained 8
+evidence: aramco_prima230_sheet stored copy, hash verified, luberef_prima230_sds stored copy, hash verified, mogo_flyer_2025 not stored; bytes matched the registry SHA-256 at retrieval, aramco_catalog_2024 not stored; bytes matched the registry SHA-256 at retrieval, richful_feed_109 stored copy, hash verified, richful_feed_130 stored copy, hash verified, soil_page_wayback stored copy, hash verified, soil_page_live stored copy, hash verified, afton_12204l_pds no copy obtained, afton_8788b_pds no copy obtained
+
+===== stderr =====
+

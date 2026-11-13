@@ -295,3 +295,242 @@ Corrected errors:
 
 - Exact bytes: `7600b30d8df614b669ff8fb4e5f0489c897c19ebdb0c35d9ab455bddf185cc8e`. LF-normalised (informational): `71481595b8e6ad80d010c5f08881e0a02d62c6f124eebbc8336ab6eeb963d578`.
 - Eligibility is unchanged: 10 of 181 base oils, 0 packages, 0 components. The only interface change against revision 2 remains S_OIL_ARAMCO_ULTRA_8 `tier1_complete` true → false.
+
+---
+
+# After revision 3, 2026-11-11: policy-decision preparation (no rule, threshold or requirement changed)
+
+Revision 3 is commit `43e7f8b`. The changes below sit on top of it.
+
+- **"Decision H" withdrawn.** Reliable external evidence was already authorised, so it is not a blanket permission question. `external_review_decisions.json` and `external_review.csv` now record, for each source, authority, authenticity and provenance, and for each case exact product identity and applicability. `external_review.py` rejects a decision without them.
+  - Result over the 29 cases: 28 manufacturer-issued and 1 distributor-issued; 21 name the record's exact grade, 8 not assessed (source not obtained).
+  - aramcoULTRA 8: the merge question ID-01 (one product with Ultra-S 8?) is kept apart from the use of the S-OIL table that names aramcoULTRA 8. ID-01 stays open and does not restrict that table; the evidence-based restriction is the KV40 conflict with the SDS range.
+  - No outcome, value or status changed. ID-01 is not resolved, and the distributor flyer's specific gravity for BAPbase 4 is not filled.
+  - The pending reason of S_OIL_ARAMCO_ULTRA_8 in `source_selection.PENDING` is reworded (the ledger's `selection_reason` text changes with it).
+- **New document:** [decision_brief_published_formulation.md](decision_brief_published_formulation.md). Neither option is implemented; the checker, the requirements version and the shared interface are unchanged. It states that no qualifying complete recipe is currently recorded, with the limits of the search, and that one accepted measured result establishes neither the finished-oil requirements nor any approval.
+- **"Evidence unavailable" (181 rows) explained** in `evidence_review.md` section 10: 173 rows where documents were read and are insufficient, and 8 rows where the source could not be obtained. No verification status changed.
+- Tests: `tools/data_policy/tests` 46 (one added: each source assessed separately).
+
+## aramcoULTRA 8 technical-source selections (2026-11-11, uncommitted)
+
+Decision: select the applicable technical-source value; record and assess its disagreement with the SDS separately. A disagreement is not a selection veto.
+
+- **Confirmed** on both saved copies of the S-OIL manufacturer table (new tool `verify_soil_table.py`; hashes equal to the evidence manifest): caption "Typical Properties of aramcoULTRA Base Oil", column "aramcoULTRA 8", row labels, ASTM cells and printed cells.
+- **Selected** (three `CHANGES` entries; `S_OIL_ARAMCO_ULTRA_8` tier 1 and tier 2):
+
+  | Field | Before (SDS DL2-14611.pdf p.2, 2018-09-07) | After (S-OIL table, typical) |
+  |---|---|---|
+  | KV40 | range 42.0–55.0 cSt at 40 °C, ASTM D445 | 41.10 cSt at 40 °C, ASTM D445 |
+  | KV100 | range 7.0–7.5 cSt at 100 °C, ASTM D445 | 7.1 cSt at 100 °C, ASTM D445 |
+  | Flash point | range 240–260 °C, ASTM D92 | 250 °C, COC, ASTM D92 |
+
+  - Each SDS range is kept in `alternate_entries` with its page and revision date.
+  - Each selected value cites the page URL with `revision_date` null, both saved copies with their SHA-256, and the caveat that the edition date of the page is unknown (a capture or retrieval date is not an edition date).
+- **KV40 disagreement:** the existing 2026-10 audit conflict in `conflicts[]` is kept unresolved, with a dated note appended. Nothing was duplicated, and the v5 audit files are unchanged.
+- **Pending:** the `PENDING` entry for these three fields is removed. ID-01 stays open; `S_OIL_ULTRA_S_8` and `reconciliation/` are unchanged.
+- **Recommendation document** added and then corrected (unknown edition date; the VI calculation from memory removed; point-vs-range described as the current comparison policy): [recommendation_aramcoULTRA8_source_selection.md](recommendation_aramcoULTRA8_source_selection.md).
+
+Counts after the change, all from the generated outputs:
+
+| Number | Before (`43e7f8b`) | Now | Counting unit |
+|---|---:|---:|---|
+| Declared selections (`CHANGES`) | 39 | 42 | value object |
+| Change-list rows | 50 | 53 | row (42 selections + 2 list fills + 2 qualifier corrections + 7 conflicts) |
+| Pending fields in the ledger | 37 (19 mandatory) | 34 (17) | ledger row |
+| External source selected | 22 (14 mandatory) | 25 (16) | ledger row |
+| External review cases | 22 selected + 7 pending | 25 selected + 4 pending | product × property; outcomes unchanged (21 confirmed, 8 inconclusive) |
+| Base oils with unresolved source selection, KV40 / KV100 | 5 / 4 | 4 / 3 | product |
+| Tier 1 complete = eligible base oils | 10 | 11 | product |
+| Fully documented (companion) | 11 | 11 | product |
+| TDS–SDS inventory rows | 141 | 141 at this step; 151 after the extension below | pair |
+| Product JSON files changed since revision 2 (`4e83652`) | 17 | 19 | file |
+
+- **Interface.** `product_eligibility.csv`: same columns, same requirements version. One row changed, S_OIL_ARAMCO_ULTRA_8: `tier1_complete` and `formulation_eligible` false → true, `missing_mandatory_properties` `["kv40", "kv100"]` → `[]`, with a KV40 open-conflict warning in `eligibility_reasons`. The fingerprint column changed in every row.
+- **Fingerprint.** Exact bytes: `93b704a79b5844430af87d15f53058ec3df106ad262af4236fb52da1621f3530`. LF-normalised (informational): `6440b6800a2946ad8de0c419af5458695702c7e8fb0dced5230d086794a9474d`.
+- **Tests.** `tools/data_policy/tests` 52 (six added in `TechnicalSelectionKeepsDisagreement`). `run_checks.py` had 23 steps at this step (new: `verify_soil_table`) and removes the step files of an earlier run.
+- **Not changed.** Mandatory requirements, the published-formulation rule, the thresholds (still proposed), the review states of the ledger rows.
+
+## Comparison inventory extended to external technical sources (2026-11-11, uncommitted)
+
+Instruction: check SDS values whenever applicable technical evidence also exists, including external technical evidence.
+
+- **`tds_sds_inventory.py`.**
+  - A URL registered in `source_registry.json` is paired like an archive document: technical, or SDS when its registry title names a safety data sheet. An unregistered URL is never paired.
+  - Each selected external technical value is also paired with every SDS value the inventory already holds for the same product and property.
+  - New columns: `tds_value_kind`, `sds_value_kind`, `tds_source`, `sds_source`, `tds_revision_date`, `sds_revision_date`, `external_evidence`.
+  - A pair whose external source could not be obtained becomes "comparability unknown" and is not screened.
+  - One URL is one source however many saved copies exist; a pair found in `conflicts[]` and through an alternate entry is one row.
+- **New tool `external_comparison_accounting.py`** → `reports/data_policy/external_comparison_accounting.csv`: every value whose selected source is a URL, with one comparison status and a reason. Two reviewed reasons are recorded in `external_review_decisions.json` (`comparison_reviews`): Ultra-S 3 density (the SDS prints only a vapour density) and aramcoULTRA 8 density (the SDS prints a relative density).
+- **No product value, requirement or threshold changed.** The data fingerprint and the eligibility result are the same as after the aramcoULTRA 8 selections (11 of 181 base oils).
+
+Calculated counts:
+
+| Number | Before the extension | Now | Counting unit |
+|---|---:|---:|---|
+| Inventory rows | 141 | 151 | pair of a technical value and an SDS value |
+| Rows with an external technical side | 0 | 10 | pair |
+| Comparable / bound check / comparability unknown / not comparable | 47 / 53 / 38 / 3 | 52 / 56 / 40 / 3 | pair |
+| Comparable pairs within print rounding | 26 | 28 | pair |
+| Bound checks: compatible / outside / not parsed | 44 / 3 / 6 | 46 / 4 / 6 | pair |
+| Ledger rows with a pair | 129 | 132 | product × property |
+| Values with an external selected source, accounted for | — | 114 | value object |
+
+The 10 external pairs: aramcoULTRA 8 KV40 (outside the SDS range; the existing unresolved conflict, one row), KV100 and flash point (numerically inside the SDS range; logically compatible, no agreement claimed); RF6078 density; RF6066 density (2), KV100 (2) and TBN; RF6069 KV100. The 141 earlier rows are unchanged in every earlier column.
+
+Accounting of the 114 values:
+
+| Comparison status | All 114 values | The 25 ledger `external_selected` values |
+|---|---:|---:|
+| paired with an SDS value in the inventory | 8 | 4 |
+| inapplicable: text, classification, claim or block (no numeric comparison) | 41 | 0 |
+| inapplicable: the external source is itself an SDS | 11 | 0 |
+| inapplicable: the SDS prints a different quantity (reviewed) | 2 | 2 |
+| unavailable: no SDS document is associated with the product | 1 | 1 |
+| unavailable: no SDS page mentions the property | 14 | 14 |
+| unresolved: the external source could not be obtained (value not verified) | 31 | 4 |
+| unresolved: numeric property outside the coverage ledger, not assessed | 6 | 0 |
+| **Total** | **114** | **25** |
+
+- **Sensitivity** (`threshold_proposal.md` §4, re-checked): KV100 at the proposed 3 %: 2 below / 5 at or above (was 2 / 4); density at the proposed 0.005 g/cm³: 4 below / 0 (was 3 / 0). Both additions repeat a difference already present, through a second technical source. The conclusions are unchanged, and no threshold was applied.
+- **Tests.** `tools/data_policy/tests` 61 (nine added in `ExternalComparisons`). `run_checks.py` has 24 steps (new: `external_comparison_accounting`).
+
+---
+
+# Four approved policies implemented (2026-11-11, requirements version `.4`, uncommitted)
+
+Approved by you on 2026-11-11: ranges and bounds, co-component requirements, percentage basis, applicability. Plan and its corrections: [implementation_plan_policy_decisions_2026-11-11.md](implementation_plan_policy_decisions_2026-11-11.md). Rules in force: `requirements_review.md` §4a.
+
+## What changed
+
+- **`tools/mandatory_properties/requirements.py`** (version `mandatory-tier1-2026-11-10.4`):
+  - new category `requirement_unknown`; new `Outcome.basis`;
+  - `co_component_outcome` / `co_component_entries`: recorded supplier requirements are assessed one by one; a requirement recorded without a dose is no longer ignored;
+  - `percentage_basis` (mass / volume / unspecified) and `volume_to_mass_percent` (refuses without both densities at one temperature);
+  - `APPROVED_APPLICABILITY_RULES` is a list of rules keyed by product class, requirement and task, with `approved_rule`; it is empty;
+  - I-1, I-6, I-8 and the new I-9 are marked as approved policies.
+- **`build_eligibility.py`:** passes the product class and the reviewed statements to the checks; `requirement_outcomes.csv` gains a last column `percentage_basis`. The eleven interface columns are unchanged.
+- **New `build_readiness.py`** and seven attribute files (`property_attributes.csv`, `product_input_completeness.csv`, `co_component_routes.csv`, `percentage_basis.csv`, `applicability_review.csv`, `calculation_readiness.csv`, `readiness_summary.md`).
+- **New `compare_eligibility.py`** and saved baselines in `baselines/` (the eligibility file, the outcomes and the documentation coverage as they were before the implementation; the change report).
+- **New `co_component_statements.json`:** two reviewed statements (HiTEC 12210 and 12210M: no supplemental PPD needed), scope PPD only.
+- **`treat_rate_basis_evidence.json`:** each entry has `basis_class`, `evidence_kind` and `scope`; the result of the document-wide convention search is recorded.
+- **`treat_rate_basis_scan.py`:** searches every page of each source document for a document-wide convention.
+- **Tests:** `test_policies.py` (27 new); two older tests adjusted (silence is `requirement_unknown`; an evidence entry must name its basis).
+- **`run_checks.py`:** 27 steps (new: `build_readiness`, its `--check`, `compare_eligibility`).
+- **Not changed:** product JSON, templates, the workbook structure, the published-formulation requirement, the thresholds (still proposed), tiers. The simulation script is kept.
+
+## Before and after (`compare_eligibility.py`)
+
+| | Before (`.3`) | After (`.4`) |
+|---|---:|---:|
+| Base oils: `tier1_complete` = `formulation_eligible` | 11 of 181 | 11 of 181 |
+| Packages | 0 of 78 | 0 of 78 |
+| Components | 0 of 5 | 0 of 5 |
+| Products whose eligibility fields or missing list changed | — | 0 |
+| Requirement outcomes whose category changed | — | 66 |
+
+- Data fingerprint unchanged: `93b704a79b5844430af87d15f53058ec3df106ad262af4236fb52da1621f3530`.
+- The 66 category changes are all `required_co_components`: `unresolved_applicability` → `absent` (35) or → `requirement_unknown` (31). They were unmet before and are unmet now.
+
+## Current-data figures (from `readiness_summary.md`)
+
+| | Count |
+|---|---:|
+| Mandatory requirement outcomes | 2,004 in 264 products |
+| Evidence documented | 1,274 |
+| Documented but incomplete (unit, condition, basis or source missing) | 24 |
+| Not documented | 665 |
+| Requirement unknown (co-components, silence) | 31 |
+| Applicability unresolved | 10 |
+| Documented ranges and bounds | 71 in 29 products (37 closed ranges, 22 lower bounds, 12 upper bounds) |
+| Unresolved selections | 14 in 7 products |
+| Dose values with an unspecified basis | 84 of 271, in 18 products |
+| Dose values with a volume basis | 0 |
+| N/A labels without a rule | 18 value objects in 4 products |
+| Approved applicability rules | 0 |
+
+---
+
+# Gap fixes to the policy implementation (2026-11-11, requirements version `.5`, uncommitted)
+
+Five gaps in the `.4` implementation were corrected. No product JSON, template, datasheet or evidence file changed; the data fingerprint is unchanged (`93b704a79b5844430af87d15f53058ec3df106ad262af4236fb52da1621f3530`).
+
+## What was wrong and what changed
+
+1. **Co-component completeness.** `.4` (like `.3`) counted the requirement as met when one recorded co-component had a usable dose. Completeness is now assessed per evidenced route: every requirement that applies to the route needs a usable dose, and the route's requirement list must be confirmed by source review. Routes come only from reviewed evidence (`co_component_route_evidence.json`, empty); nothing is mapped from role text; an unestablished association is reported as not assessed (new category `unresolved_route_association`). The "at least one usable dose" count is kept in the reason as information only. Free text in `co_component_requirement_statement` no longer passes: a "none required" statement must be structured, sourced, unqualified and cover all co-components (`explicit_none_required`).
+2. **Selection status.** It is taken from the source-selection ledger for every outcome (`Outcome.selection_pending`, column `selection_pending`), not from the category.
+3. **Percentage reporting.** `usable_where_wt_pct_is_required` is replaced by `basis_is_mass`, with the value's own check outcome beside it. Volume-basis dosage evidence kept in `external_fill_notes` is listed in the new `volume_dose_evidence.csv`. Counts state their scope.
+4. **Conversion.** `volume_to_mass_percent` is unregistered and unused. Its code is kept; its documentation says it is arithmetic only and cannot establish the source, unit or applicability of its inputs.
+5. **Evidence wording.** "Not recorded", "not found in the inspected text", "source unavailable / not inspected" and "confirmed by source review" are reported separately. The co-component scan now records which documents and pages it inspected and which it could not. Supplier qualifications are kept: the two PPD statements carry `qualification: 'should be needed'`.
+
+## Changed counts, with reasons
+
+| | Before (`.3`) | After (`.5`) |
+|---|---:|---:|
+| Base oils: `tier1_complete` = `formulation_eligible` | 11 of 181 | 11 of 181 |
+| Packages | 0 of 78 | 0 of 78 |
+| Components | 0 of 5 | 0 of 5 |
+| Products whose eligibility booleans changed | — | 0 |
+| Products whose `missing_mandatory_properties` list changed | — | 8 |
+| Requirement outcomes whose category changed | — | 74 |
+
+- **8 packages** gained `required_co_components` in their missing list: INFINEUM_D3354, D3384 and D3451; LUBRIZOL_3589C, 3700, 3700D, CV1100 and CV1103. In `.3` (and in `.4`) each counted as met because one recorded co-component had a usable dose. That is not a complete route: 5 of the 8 also record a viscosity modifier without a dose, and for LUBRIZOL_3700 the source page says "when formulated with appropriate base oils and viscosity modifier" although the record lists only the booster. They are now `unresolved_route_association`. All 8 were ineligible before and stay ineligible (each also lacks the published formulation).
+- **35 outcomes** moved from `unresolved_applicability` to `absent`: a co-component requirement is recorded and none of its doses is recorded, so no route that includes it can be complete.
+- **31 outcomes** moved from `unresolved_applicability` to `requirement_unknown`: nothing is recorded in the record.
+- No base oil and no component outcome changed category.
+
+| Count | `.4` | `.5` | Reason |
+|---|---:|---:|---|
+| Pending selections (mandatory) | 14 | 17 | The status now comes from the ledger. The 3 added are aramcoPRIMA 110 / 230 / 500 density, which also lack a unit; that category had hidden them. Nothing was resolved in between |
+| Co-component requirement met (packages) | 8 | 0 | One usable component is not a complete route; no route is reviewed |
+| `unresolved_route_association` (packages) | — | 8 | The same 8 packages |
+| Evidence "documented" (mandatory outcomes) | 1,274 | 1,266 | The same 8 outcomes are now `recorded_route_not_assessed` |
+| Selected point values | 624 | 616 | The same 8 outcomes no longer count as a met point value |
+| "none required" statements treated as partial | 2 | 2 | Unchanged in number; now also marked as qualified ("should be needed") |
+| Co-component leads found by the scan (packages) | 13 | 16 | The search also matches "formulated with … viscosity modifier" |
+| Packages with no recorded requirement | 31 | 31 | Now split by inspection: 27 not found in the inspected text, 1 unreviewed lead, 2 not inspected (no text layer), 1 source unavailable |
+| Volume-basis evidence entries listed | 0 | 5 | AFTON_HITEC_5748 dosages in vol.%, kept in `external_fill_notes`; its wt.% fields stay Missing |
+| Values in the dose fields: mass / unspecified / volume | 187 / 84 / 0 | 187 / 84 / 0 | Unchanged; the scope is now stated |
+
+## Files
+
+- Changed: `requirements.py`, `build_eligibility.py`, `build_readiness.py` (readiness version `.2`), `co_component_evidence_scan.py`, `co_component_statements.json`, tests.
+- New: `co_component_route_evidence.json` (empty), `volume_dose_evidence.csv`, `tools/maintenance_2026-11-11/implementation_helpers/` (the helper scripts that were only in the scratch folder, with a README).
+- Tests: `tools/mandatory_properties/tests` 66 (35 policy tests): two required components in one route, independent routes, unestablished association, stale or unsourced route evidence, free-text and qualified statements, a pending selection combined with missing metadata, a mass-basis value that is otherwise unusable, the unregistered conversion.
+
+---
+
+# Route-evidence binding, statement review and the route review of eight packages (2026-11-12, requirements version `.6`, uncommitted)
+
+No product JSON, template, datasheet or evidence file changed. Data fingerprint unchanged: `93b704a79b5844430af87d15f53058ec3df106ad262af4236fb52da1621f3530`. The reports and check results as they were before this work are in `baselines/pre_route_review_2026-11-12/`.
+
+## Fixes
+
+1. **Route-evidence freshness.** A route's evidence stored only the entry identity and `dose.value`. It now stores the SHA-256 of each complete record it relies on (`record_fingerprint`: values, range endpoints, unit, qualifier, conditions, role text, source file, page and revision; derived `*_final` keys excluded), for the co-component entries and the treat-rate entry. A change makes the route `route_evidence_stale`; unrelated product fields do not.
+2. **Route memberships.** A recorded requirement can belong to several routes. `co_component_routes.csv` has one row per requirement and route, each with that route's assessment. Stale or invalid evidence is reported as `historical_source_review_not_current`, never as confirmed, and gives no current association.
+3. **"None required".** `explicit_none_required` now needs an explicit reviewed assessment (product, meaning, unconditional, qualification verbatim, scope by component type and route, conditions). A missing qualification is no longer read as "unconditional"; contradictory or incomplete metadata is rejected; a hedge word in the quote together with "unconditional" is a contradiction (a guard, not the basis of the meaning). Inline and side-file statements pass the same check against the current product.
+4. **Source review of eight packages**: [co_component_route_review_2026-11-12.md](co_component_route_review_2026-11-12.md). 29 routes recorded; 0 complete, 21 incomplete, 8 with usable recorded doses but an unconfirmed list. Five record corrections proposed, none applied.
+5. **Baseline.** New `make_review_snapshot.py`; snapshot `review_snapshots/review_snapshot_2026-11-12/`. The snapshot is created after this document is final, so this text cannot contain its manifest hash: see `REFERENCES.txt` inside the snapshot, and `snapshot_verification_2026-11-12.txt` in this folder for the verification output and exit code (written after the snapshot, so it is not part of it).
+
+## Before and after
+
+**Route review of 2026-11-12 (version `.6`), against the baseline saved before it** (`baselines/pre_route_review_2026-11-12/`, comparison in `baselines/eligibility_changes__route_review_2026-11-12.csv`):
+
+| | Before (`.5`) | After (`.6`) |
+|---|---:|---:|
+| Base oils / packages / components: `tier1_complete` = `formulation_eligible` | 11 / 0 / 0 | 11 / 0 / 0 |
+| Products whose eligibility booleans changed | — | 0 |
+| Products whose `missing_mandatory_properties` list changed | — | 0 |
+| Requirement outcomes whose category changed | — | 4 |
+
+The 4 category changes are `required_co_components`, from `unresolved_route_association` to `absent`:
+- **INFINEUM_D3384, INFINEUM_D3451, LUBRIZOL_CV1100, LUBRIZOL_CV1103.** Their routes are now reviewed, and every one requires a viscosity modifier for which the datasheet prints no dose. The association is no longer unresolved; a documented requirement lacks its dose.
+- **INFINEUM_D3354, LUBRIZOL_3589C, 3700, 3700D** stay `unresolved_route_association`: at least one of their routes has usable recorded doses but a requirement list that cannot be confirmed complete.
+- All eight were unmet before and are unmet now. Detail per route: [co_component_route_review_2026-11-12.md](co_component_route_review_2026-11-12.md).
+
+Pending selections are unchanged and still independently represented: 17 mandatory (14 in category `unresolved_source_selection`, 3 with a metadata defect).
+
+## Files
+
+- Changed: `requirements.py`, `build_readiness.py` (readiness version `readiness-2026-11-12.1`), `co_component_route_evidence.json`, `co_component_statements.json`, `run_checks.py` (28 steps), tests.
+- New: `make_review_snapshot.py`, the route review document, helper scripts `route_review_*.py` in `tools/maintenance_2026-11-11/implementation_helpers/`.
+- Tests: `tools/mandatory_properties/tests` 74.

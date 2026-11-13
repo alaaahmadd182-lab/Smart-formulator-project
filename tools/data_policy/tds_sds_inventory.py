@@ -5,7 +5,16 @@ Sources of comparisons (deduplicated by product, property and the two printed va
      value and an SDS value inside one finding;
   2. conflicts[] entries of the product JSON that list a technical-document value and an SDS value;
   3. value objects whose selected value and an alternate entry come from different document classes.
+  4. reviewed SDS values from the lead review, paired with the record's selected technical value.
 Document class per (file, page) comes from reports/data_policy/document_classes.csv.
+
+External (URL) sources. A URL registered in source_registry.json takes part in the pairing like an archive document:
+its class is TECHNICAL, or SDS when its registry title names a safety data sheet. An unregistered URL is never paired.
+One URL is one source however many saved copies of it exist, so identical copies cannot produce duplicate pairs, and a
+pair found both in conflicts[] and through an alternate entry is one row (the origins are joined). For an external
+side the row carries the evidence state from the external review (external_review_decisions.json): if no copy of the
+source could be obtained, the value was not re-read and the pair is 'comparability unknown', whatever the numbers.
+The inventory records relations between documents; it never selects a source and never resolves a disagreement.
 
 For each pair the value is parsed (number, qualifier / value kind, unit, temperature, method) and comparability is
 decided BEFORE any difference is computed:
@@ -34,6 +43,62 @@ import policy_lib as P
 import thresholds as TH
 
 FINDINGS = os.path.join(P.ROOT, 'tools', 'audit', 'review_2026-11-02', 'output', 'findings_v5.json')
+REGISTRY = os.path.join(P.ROOT, 'source_registry.json')
+EXTERNAL_DECISIONS = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'external_review_decisions.json')
+NOT_OBTAINED = 'external source not obtained: value not re-read'
+
+
+def is_url(f):
+    return str(f or '').lower().startswith(('http://', 'https://'))
+
+
+def load_external():
+    """(registry by URL, evidence state by URL). State: 'not_obtained' if no copy of the source could be obtained in the
+    external review, 'copy_read' if a copy was read there, otherwise the registry status (not re-read in that review)."""
+    with open(REGISTRY, encoding='utf-8') as fh:
+        reg = {x['url']: x for x in json.load(fh)['sources']}
+    with open(EXTERNAL_DECISIONS, encoding='utf-8') as fh:
+        ev = json.load(fh)['evidence']
+    state = {}
+    for e in ev.values():
+        u = e.get('registry_url')
+        if u:
+            got = e.get('authenticity') != 'not_obtained'
+            state[u] = 'copy_read' if got or state.get(u) == 'copy_read' else 'not_obtained'
+    return reg, state
+
+
+def external_class(f, reg):
+    """TECHNICAL or SDS for a registered URL (by its registry title); None for an unregistered URL."""
+    e = reg.get(str(f))
+    if not e:
+        return None
+    return 'SDS' if re.search(r'safety data sheet|\bmsds\b', e.get('title') or '', re.I) else 'TECHNICAL'
+
+
+def external_state(f, reg, state):
+    if not is_url(f):
+        return ''
+    if state.get(str(f)) == 'not_obtained':
+        return NOT_OBTAINED
+    if state.get(str(f)) == 'copy_read':
+        return 'copy read in the external review'
+    e = reg.get(str(f)) or {}
+    return f"registry status {e.get('status')} (checked {e.get('checked')}); not re-read in the external review"
+
+
+def apply_evidence_state(r, states):
+    """A pair with an external side that could not be obtained is never screened: the value was not verified."""
+    if NOT_OBTAINED in states:
+        r = dict(r, comparability='comparability unknown', reason=NOT_OBTAINED + ('; ' + r['reason'] if r.get('reason') else ''))
+        for k in ('bound_satisfied', 'abs_diff', 'rel_diff_pct', 'within_rounding', 'tds_canonical', 'sds_canonical', 'rounding_tolerance'):
+            r.pop(k, None)
+    return r
+
+
+def rev_date(v):
+    s2 = v.get('source') if isinstance(v.get('source'), dict) else {}
+    return v.get('revision_date') or s2.get('revision_date') or ''
 PROPERTY_GROUP = {'kv40': 'viscosity', 'kv100': 'viscosity', 'density': 'density', 'specific_gravity': 'density',
                   'flash_point': 'flash point', 'pour_point': 'pour point', 'noack_volatility': 'volatility', 'tbn': 'TBN',
                   'viscosity_index': 'viscosity index', 'sulfur': 'composition', 'Zn': 'elements', 'Ca': 'elements',
@@ -219,7 +284,11 @@ def main():
     a = ap.parse_args()
     sys.stdout.reconfigure(encoding='utf-8')
     cls = {(r['file'], r['page']): r['class'] for r in csv.DictReader(open(os.path.join(P.REPORTS, 'data_policy', 'document_classes.csv'), encoding='utf-8'))}
+    reg, ext_state = load_external()
+
     def c_of(f, pg):
+        if is_url(f):
+            return external_class(f, reg)
         pgs = re.findall(r'\d+', str(pg)) if pg not in (None, '') else []
         return cls.get((str(f), pgs[0] if pgs else ''))
     pairs = collections.OrderedDict()
@@ -232,6 +301,9 @@ def main():
         key = (pid, prop, str(tds.get('file')), vkey(tds), str(sds.get('file')), vkey(sds))
         if key in pairs:
             pairs[key]['origin'] += '; ' + origin
+            if origin.startswith('alternate entry') and (is_url(tds.get('file')) or is_url(sds.get('file'))):
+                # the same pair as a conflicts[] entry: one row; the value objects carry unit, temperature, method and kind
+                pairs[key].update(tds=tds, sds=sds)
         else:
             pairs[key] = dict(product=pid, property=prop, tds=tds, sds=sds, origin=origin)
     for f in json.load(open(FINDINGS, encoding='utf-8')):
@@ -275,9 +347,27 @@ def main():
                 sel = dict(n, file=P.src(n)[0], page=P.src(n)[1])
                 if c_of(sel['file'], sel['page']) == 'TECHNICAL':
                     add(x['product'], x['property'], sel, dict(x['sds']), 'lead review 2026-11-10')
+    # 5. every selected value from a registered external technical source is also paired with each SDS value that the
+    #    inventory already holds for the same product and property (an SDS value found through another technical
+    #    document applies to the external value as well); the pair key prevents duplicates
+    known = collections.defaultdict(list)
+    for x in list(pairs.values()):
+        known[(x['product'], x['property'])].append(x['sds'])
+    for pid, p in prods.items():
+        for rel, d in p['files'].items():
+            for path, n in P.value_objects(d.get('fields', {})):
+                f = P.src(n)[0]
+                if n.get('status') in ('Reported', 'Calculated') and is_url(f) and external_class(f, reg) == 'TECHNICAL':
+                    sel = dict(n, file=f, page=P.src(n)[1])
+                    for sv in known.get((pid, prop_of(path)), []):
+                        add(pid, prop_of(path), sel, sv, 'selected external technical value paired with the SDS value of an existing pair')
     rows = []
     for k, x in pairs.items():
-        r = compare(x['property'], x['tds'], x['sds'])
+        states = [external_state(x[k].get('file'), reg, ext_state) for k in ('tds', 'sds')]
+        r = apply_evidence_state(compare(x['property'], x['tds'], x['sds']), states)
+        r.update(tds_value_kind=str(x['tds'].get('value_kind') or ''), sds_value_kind=str(x['sds'].get('value_kind') or ''))
+        r.update(tds_source='external' if is_url(x['tds'].get('file')) else 'archive', sds_source='external' if is_url(x['sds'].get('file')) else 'archive',
+                 tds_revision_date=rev_date(x['tds']), sds_revision_date=rev_date(x['sds']), external_evidence='; '.join(y for y in states if y))
         grp = PROPERTY_GROUP.get(x['property'], 'other')
         rows.append(dict(group=grp, property=x['property'], product=x['product'],
                          tds_value=str(x['tds'].get('value')), tds_printed=str(x['tds'].get('printed_text') or ''), tds_file=x['tds'].get('file'), tds_page=x['tds'].get('page'),
@@ -289,7 +379,8 @@ def main():
     rows.sort(key=lambda r: (GROUP_ORDER.index(r['group']) if r['group'] in GROUP_ORDER else 99, r['property'], r['product']))
     cols = ['group', 'property', 'product', 'tds_value', 'tds_printed', 'tds_file', 'tds_page', 'sds_value', 'sds_printed', 'sds_file', 'sds_page',
             'tds_kind', 'sds_kind', 'tds_unit', 'sds_unit', 'tds_temp', 'sds_temp', 'tds_method', 'sds_method', 'comparability', 'reason',
-            'bound_satisfied', 'tds_canonical', 'sds_canonical', 'abs_diff', 'rel_diff_pct', 'rounding_tolerance', 'within_rounding', 'proposed_screen', 'thresholds_version', 'origin']
+            'bound_satisfied', 'tds_canonical', 'sds_canonical', 'abs_diff', 'rel_diff_pct', 'rounding_tolerance', 'within_rounding', 'proposed_screen', 'thresholds_version', 'origin',
+            'tds_value_kind', 'sds_value_kind', 'tds_source', 'sds_source', 'tds_revision_date', 'sds_revision_date', 'external_evidence']
     os.makedirs(os.path.dirname(a.out), exist_ok=True)
     with open(a.out, 'w', encoding='utf-8', newline='') as fh:
         w = csv.DictWriter(fh, fieldnames=cols, lineterminator='\n', extrasaction='ignore'); w.writeheader()
@@ -302,7 +393,7 @@ def main():
         w.writerow(['property', 'threshold', 'proposed', 'pairs_below', 'pairs_at_or_above', 'products_at_or_above', 'thresholds_version'])
         for prop, t, nb, na, above, prop_flag in TH.sensitivity(srows):
             w.writerow([prop, t, str(prop_flag).lower(), nb, na, '; '.join(above), TH.VERSION])
-    print(f'TDS-SDS comparisons: {len(rows)}')
+    print(f'TDS-SDS comparisons: {len(rows)} (with an external side: {sum(1 for r in rows if "external" in (r["tds_source"], r["sds_source"]))})')
     by = collections.Counter((r['group'], r['comparability']) for r in rows)
     for g in GROUP_ORDER:
         sub = {k[1]: v for k, v in by.items() if k[0] == g}

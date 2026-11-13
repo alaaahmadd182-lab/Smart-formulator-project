@@ -4,10 +4,17 @@ The coverage ledger marks a value 'external_selected' when its source is a URL r
 some pending fields have an external technical document as their open question. Every such case has a reviewed
 outcome in external_review_decisions.json:
 
-  confirmed                         re-read on a copy whose identity is established (registry SHA-256 match, saved
-                                    evidence with a verified hash, or a live supplier data feed corroborated by the
-                                    archived TDS); product, property, unit, qualifier, conditions and page agree
+  confirmed                         the value was re-read as printed on a copy that was obtained; property, unit,
+                                    qualifier, conditions and page agree with the record
   inconclusive_source_unavailable   no copy could be obtained in the review: the value was not re-read
+
+External evidence is admissible; there is no blanket rule for or against it. Each source is assessed separately:
+  per evidence item   authority (who issued it), authenticity (how the copy is tied to the source), provenance
+  per case            identity_status (exact product identity) and applicability
+'confirmed' is not an approval to select a source: a distributor-issued document is never treated as
+manufacturer-issued. identity_status concerns only the link between the source and the record: a source that names
+the record's exact grade is 'exact_grade_named_merge_question_separate' when a separate question about merging two
+records (ID-01) is open; that question is not resolved here and does not restrict the use of the source.
 
 The tool checks that (1) every external_selected ledger row has a decision, (2) every decision still matches the record
 (its 'expect' values), and (3) every stored evidence file still has its recorded SHA-256. It writes
@@ -23,6 +30,9 @@ import policy_lib as P  # noqa: E402
 DECISIONS = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'external_review_decisions.json')
 OUTCOMES = ('confirmed', 'inconclusive_source_unavailable')
 KINDS = ('external_selected', 'pending_external_alternative')
+AUTHORITY = ('manufacturer_issued', 'distributor_issued', 'third_party')
+AUTHENTICITY = ('registry_hash_match', 'saved_copy_hash_verified', 'live_feed_unhashed_in_registry', 'not_obtained')
+IDENTITY = ('exact_grade_named', 'exact_grade_named_merge_question_separate', 'not_assessed_source_not_obtained')
 
 
 def field(prods, pid, prop):
@@ -74,6 +84,11 @@ def main(argv=None):
         else:
             ev_check[key] = 'no copy obtained'
 
+    for key, e in dec['evidence'].items():
+        if e.get('authority') not in AUTHORITY or e.get('authenticity') not in AUTHENTICITY or not e.get('provenance'):
+            errors.append(f'evidence {key}: authority, authenticity and provenance must be assessed')
+        if (e.get('authenticity') == 'not_obtained') != (ev_check[key] == 'no copy obtained'):
+            errors.append(f'evidence {key}: authenticity {e.get("authenticity")!r} contradicts the copy state')
     cases = {(c['product'], c['property']): c for c in dec['cases']}
     if len(cases) != len(dec['cases']):
         errors.append('duplicate product x property in the decisions')
@@ -90,12 +105,23 @@ def main(argv=None):
         want = 'external_selected' if c['kind'] == 'external_selected' else 'pending'
         if r['selection_status'] != want:
             errors.append(f'{pid} {prop}: ledger selection_status {r["selection_status"]!r}, decision expects {want!r}')
+        unread = all(dec['evidence'][e]['authenticity'] == 'not_obtained' for e in c['evidence'])
+        if c.get('identity_status') not in IDENTITY or not c.get('applicability'):
+            errors.append(f'{pid} {prop}: identity_status and applicability must be assessed')
+        elif unread != (c['identity_status'] == 'not_assessed_source_not_obtained'):
+            errors.append(f'{pid} {prop}: identity_status {c["identity_status"]!r} contradicts whether the source was read')
+        if unread != (c['outcome'] == 'inconclusive_source_unavailable'):
+            errors.append(f'{pid} {prop}: outcome {c["outcome"]!r} contradicts whether the source was read')
         if not matches(field(prods, pid, prop), c['expect']):
             errors.append(f'{pid} {prop}: the record no longer matches the reviewed values {c["expect"]}')
         rows.append(dict(product=pid, property=prop, mandatory=r['mandatory'], kind=c['kind'], selection_status=r['selection_status'],
                          selected_file=r['selected_file'], outcome=c['outcome'],
                          evidence='; '.join(f'{e} ({ev_check.get(e, "unknown")})' for e in c['evidence']),
-                         identity=c['identity'], printed=c['printed'], sds_comparison=c['sds'], change=c['change'], reason=c['reason']))
+                         authority='; '.join(dict.fromkeys(dec['evidence'][e]['authority'] for e in c['evidence'])),
+                         authenticity='; '.join(dict.fromkeys(dec['evidence'][e]['authenticity'] for e in c['evidence'])),
+                         identity_status=c.get('identity_status', ''), identity=c['identity'], applicability=c.get('applicability', ''),
+                         provenance=' | '.join(dec['evidence'][e]['provenance'] for e in c['evidence']),
+                         printed=c['printed'], sds_comparison=c['sds'], change=c['change'], reason=c['reason']))
     os.makedirs(os.path.dirname(a.out), exist_ok=True)
     with open(a.out, 'w', encoding='utf-8', newline='') as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0]), lineterminator='\n')
@@ -105,6 +131,8 @@ def main(argv=None):
     for kind in KINDS:
         cnt = collections.Counter(r['outcome'] for r in rows if r['kind'] == kind)
         print(f'  {kind}: ' + ', '.join(f'{k} {v}' for k, v in sorted(cnt.items())))
+    for col in ('authority', 'authenticity', 'identity_status'):
+        print(f'  {col}: ' + ', '.join(f'{k} {v}' for k, v in sorted(collections.Counter(r[col] for r in rows).items())))
     print('evidence: ' + ', '.join(f'{k} {v}' for k, v in ev_check.items()))
     for e in errors:
         print('ERROR', e)

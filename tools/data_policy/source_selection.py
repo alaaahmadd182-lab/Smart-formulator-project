@@ -234,6 +234,39 @@ CHANGES.append(dict(
                                             'by the record prints KV40 "Report".'),
     old_kind=None, evidence='DL2-11773.pdf p.1 (render): Kinematic Viscosity @ 40°C, cSt | D 445 | aramcoPRIMA 500 Typical 96.4'))
 
+# aramcoULTRA 8 (decision of 2026-11-11): the applicable technical-source value is selected; the archived SDS range is
+# kept as an alternate, and the disagreement with the SDS is recorded and assessed separately (it is not a veto).
+# Values confirmed on both saved copies of the manufacturer table by verify_soil_table.py.
+SOIL_URL = 'https://www.s-oil.com/en/energy/LubeBaseOil.aspx'
+SOIL_NOTE = ("Selected 2026-11-11 under the source-selection policy (technical source first). S-OIL 'Lube Base Oil' web page, table "
+             "'Typical Properties of aramcoULTRA Base Oil', column 'aramcoULTRA 8', row '{row}', ASTM cell '{astm}'. Read on the two "
+             "saved copies in reconciliation/audit_evidence/: SOIL_LubeBaseOil__wayback_20260610070302.html (Internet Archive capture "
+             "2026-06-10, SHA-256 cff0d3bbb7964c7450a1b9fa813617bf76e4b09de39187d026f674c7604fda60) and SOIL_LubeBaseOil_live_2026-10-30.html (live page retrieved 2026-10-30, SHA-256 "
+             "94b263ad23cfd8b9631b5b637635c0cbdb341aad25cb7553a2a44513f10f011c); both print the same cell. The page prints no publication or revision date: its edition date is unknown, "
+             "and a capture or retrieval date is not an edition date. The archived SDS DL2-14611.pdf (2018-09-07) prints {sds}; it is "
+             "kept as an alternate entry. {rel}")
+for _path, _file, _row, _astm, _printed, _val, _unit, _temp, _method, _sds, _rel, _extra in [
+        ('kv40', 'S_OIL_ARAMCO_ULTRA_8_tier1.json', 'Kinematic Viscosity @ 40℃, cSt', 'D445', '41.10', 41.1, 'cSt', 40, 'ASTM D445',
+         'the range 42.0 - 55.0 cSt @ 40 °C (ASTM D 445)',
+         'The typical value lies below that range: the disagreement is the unresolved conflict already in conflicts[] (2026-10 audit); '
+         'selecting the technical value does not resolve it and does not judge the SDS wrong.', {}),
+        ('kv100', 'S_OIL_ARAMCO_ULTRA_8_tier1.json', 'Kinematic Viscosity @ 100℃, cSt', 'D445', '7.1', 7.1, 'cSt', 100, 'ASTM D445',
+         'the range 7.0 - 7.5 cSt @ 100 °C (ASTM D 445)',
+         'The typical value lies inside that range: logically compatible, which is not evidence of agreement (the kind of the SDS range '
+         'is not stated).', {}),
+        ('flash_point', 'S_OIL_ARAMCO_ULTRA_8_tier2.json', 'Flash Point,COC ,℃', 'D92', '250', 250, '°C', None, 'ASTM D92',
+         'the range 240 ~ 260 °C (ASTM D 92)',
+         'The typical value lies inside that range: logically compatible, which is not evidence of agreement (the kind of the SDS range '
+         'is not stated; the SDS prints the method number only, the page also prints COC).', dict(flash_method='COC'))]:
+    CHANGES.append(dict(
+        product='S_OIL_ARAMCO_ULTRA_8', file=_file, path=_path, expect=dict(value=None, source='DL2-14611.pdf'),
+        change_label='external technical source selected (manufacturer table, typical; edition date unknown); SDS range kept as alternate',
+        new=dict(value=_val, qualifier=None, min=None, max=None, value_kind='typical', printed_text=f'{_row}: {_printed}', unit=_unit,
+                 test_temperature_c=_temp, method=_method, source=dict(file=SOIL_URL, page=None, revision_date=None),
+                 calculation_note=SOIL_NOTE.format(row=_row, astm=_astm, sds=_sds, rel=_rel), **_extra),
+        old_kind=None,
+        evidence=f"S-OIL page (saved copies, hashes verified): 'Typical Properties of aramcoULTRA Base Oil' | {_row} | {_astm} | aramcoULTRA 8: {_printed}"))
+
 for _pid, _file, _src_file, _pg, _rev, _printed, _val, _rng in [
         ('NESTE_NEXBASE_3020', 'NESTE_NEXBASE_3020_tier1.json', 'DL2-14513.pdf', 5, '2020-06-16', 'Relative density 0,82 @ 15°C (ASTM D-4052).', 0.82, None),
         ('NESTE_NEXBASE_3043', 'NESTE_NEXBASE_3043_tier1.json', 'DL2-15010.pdf', 5, None, 'Relative density 0,82-0,84 @ 15°C (ASTM D-4052).', None, (0.82, 0.84)),
@@ -391,6 +424,10 @@ CONFLICT_UPDATES = [
      'still disagree (SDS 178.2 mm²/s), so the conflict is not resolved. Earlier annotation: User decision of 2026-10-18 kept (SDS value).'),
 ]
 NOTE_APPENDS = [  # (product, file, conflict field, text appended to the conflict note)
+    ('S_OIL_ARAMCO_ULTRA_8', 'S_OIL_ARAMCO_ULTRA_8_tier1.json', 'tier1.kv40',
+     ' [2026-11-11 source-selection policy: the field now holds the S-OIL table typical 41.10 cSt (technical source first; edition date '
+     'of the page unknown); the SDS range 42.0 - 55.0 cSt is kept as an alternate entry. The typical lies below the SDS range, so the '
+     'documents still disagree. Not resolved.]'),
     ('INFINEUM_D3424', 'tier2_numeric_contribution.json', 'tier2.flash_point',
      ' [2026-11-10 source-selection policy: the field now holds the TDS typical 190 °C (p.1); the SDS ">110C" lower bound is kept as an '
      'alternate entry. The two values are compatible (190 > 110) and remain recorded.]'),
@@ -454,7 +491,6 @@ EXCEPTIONS = [  # TDS value exists but is not selected; reason recorded
 PENDING = [  # needs a decision outside this rule
     ('RICHFUL_RF6066', 'density, kv100, tbn, elements.Zn, elements.Ca', 'Two undated TDS (DL2-13819.pdf, DL2-15451.pdf) print different values; no edition rule applies (TDS-TDS conflict). Fields keep their current values.'),
     ('RICHFUL_RF6069', 'kv100', 'Field holds 142 mm²/s from the supplier web page (2026-10-17); the archived undated TDS DL2-15618.pdf prints 118. Web page vs archived TDS edition; kept as is, for review.'),
-    ('S_OIL_ARAMCO_ULTRA_8', 'kv40, kv100, flash_point', 'Only the SDS DL2-14611.pdf is in the archive (ranges); the S-OIL web table (external, typical; values confirmed on the saved copies 2026-11-11, external_review.csv) prints typical values. Whether an external technical page may be selected over the archived SDS is a policy decision; the KV40 typical 41.10 lies below the SDS range 42.0-55.0 (already recorded as an unresolved conflict by the 2026-10 audit).'),
     ('AFTON_HITEC_8788B', 'kv40, kv100, density, flash_point', 'The record cites an archived external Afton PDS (Internet Archive) for a base-oil claim; whether it prints these values is unknown: no copy could be obtained on 2026-11-11 (external_review.csv). If it prints them, Rule 1 would prefer them to the SDS values selected now.'),
     ('NESTE_NEXBASE_3043 to 3080', 'several', 'The NEXBASE family TDS DL2-10962.pdf (Edition 8) and the individual sheets (e.g. DL2-10037.pdf, edition 5.2) print different typical values for the same grades (TDS-TDS editions; not dated); not changed.'),
 ]

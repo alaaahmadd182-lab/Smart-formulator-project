@@ -1,0 +1,26 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/integration_diff.py --changed --against f4d97e71f72598df601b72403775581c34061ad1
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+return code: 0
+expectation: zero + output matches 'NEW \\(absent at '
+verdict: pass
+duration: 0.3 s
+
+===== stdout =====
+pre-existing: Products_json/Base_oils_json/S_OIL/S_OIL_ARAMCO_ULTRA_8/S_OIL_ARAMCO_ULTRA_8_tier1.json: .fields.api_group_chemistry.api_group.value_final: missing now -> "Group III"
+pre-existing: Products_json/Base_oils_json/S_OIL/S_OIL_ARAMCO_ULTRA_8/S_OIL_ARAMCO_ULTRA_8_tier1.json: .fields.density.integration_flags: missing now -> ["density is at 15.6 °C, not 15 °C; not temperature-corrected"]
+pre-existing: Products_json/Base_oils_json/S_OIL/S_OIL_ARAMCO_ULTRA_8/S_OIL_ARAMCO_ULTRA_8_tier1.json: .fields.density.unit_final: missing now -> "g/cm³"
+pre-existing: Products_json/Base_oils_json/S_OIL/S_OIL_ARAMCO_ULTRA_8/S_OIL_ARAMCO_ULTRA_8_tier1.json: .fields.density.value_final: missing now -> 0.8425
+pre-existing: Products_json/Base_oils_json/S_OIL/S_OIL_ARAMCO_ULTRA_8/S_OIL_ARAMCO_ULTRA_8_tier1.json: .fields.specific_gravity.value_final: missing now -> 0.847
+pre-existing: Products_json/Base_oils_json/S_OIL/S_OIL_ARAMCO_ULTRA_8/S_OIL_ARAMCO_ULTRA_8_tier1.json: .fields.viscosity_index.unit_final: missing now -> "unitless"
+pre-existing: Products_json/Base_oils_json/S_OIL/S_OIL_ARAMCO_ULTRA_8/S_OIL_ARAMCO_ULTRA_8_tier1.json: .fields.viscosity_index.value_final: missing now -> 134
+pre-existing: Products_json/Base_oils_json/S_OIL/S_OIL_ARAMCO_ULTRA_8/S_OIL_ARAMCO_ULTRA_8_tier2.json: .fields.mrv[0].mrv_viscosity.unit_final: missing now -> "mPa·s"
+pre-existing: Products_json/Base_oils_json/S_OIL/S_OIL_ARAMCO_ULTRA_8/S_OIL_ARAMCO_ULTRA_8_tier2.json: .fields.mrv[0].mrv_viscosity.value_final: missing now -> null
+pre-existing: Products_json/Base_oils_json/S_OIL/S_OIL_ARAMCO_ULTRA_8/S_OIL_ARAMCO_ULTRA_8_tier2.json: .fields.noack_volatility.unit_final: missing now -> "wt.%"
+pre-existing: Products_json/Base_oils_json/S_OIL/S_OIL_ARAMCO_ULTRA_8/S_OIL_ARAMCO_ULTRA_8_tier2.json: .fields.noack_volatility.value_final: missing now -> 4
+pre-existing: Products_json/Base_oils_json/S_OIL/S_OIL_ARAMCO_ULTRA_8/S_OIL_ARAMCO_ULTRA_8_tier2.json: .fields.pour_point.unit_final: missing now -> "°C"
+pre-existing: Products_json/Base_oils_json/S_OIL/S_OIL_ARAMCO_ULTRA_8/S_OIL_ARAMCO_ULTRA_8_tier2.json: .fields.pour_point.value_final: missing now -> -14
+13 differences in 2 files; NEW (absent at f4d97e71f72598df601b72403775581c34061ad1): 0; pre-existing: 13
+
+===== stderr =====
+

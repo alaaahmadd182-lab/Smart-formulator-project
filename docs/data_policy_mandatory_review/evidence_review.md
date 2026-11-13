@@ -134,21 +134,35 @@ An empty co-component list is not treated as evidence of absence.
 | Identity not established (FORMOSA SDSs; ID-15 FPCC table; ID-01 Ultra-S 8 vs aramcoULTRA 8) | 7 lead cases + pending fields | Needs a grade-specific document. |
 | Conflicting undated technical documents (ETRO 4; NEXBASE family vs individual sheets; PRIMA densities; RF6066; RF6069) | pending fields | Needs a dated edition or a supplier statement. |
 | External sources that could not be obtained (Afton HiTEC 12204L and 8788B PDSs, Internet Archive) | 8 (4 selected values, 4 pending fields) | On 2026-11-11 the Internet Archive refused automated download and the fetch tool cannot open web.archive.org; no saved copy exists. A manual download whose bytes match the registry SHA-256 would allow the review. |
-| External technical page vs archived SDS (aramcoULTRA 8 KV40/KV100/flash; distributor flyer for BAPbase 4) | 3 pending fields + 1 unfilled field | Values confirmed as printed; whether an external document may be selected over an archived SDS, or fill a Missing field, is a policy decision. |
+| Open points on external evidence (aramcoULTRA 8: unresolved KV40 conflict and unknown edition date of the S-OIL page; BAPbase 4: distributor-issued flyer) | 1 conflict + 1 unfilled field | The aramcoULTRA 8 table typicals were selected on 2026-11-11 (technical source first); the disagreement is recorded separately and only the supplier can settle it. A distributor description is not accepted automatically. |
 | SDS values recorded as comparisons but not screened | the "pending" rows in `tds_sds_comparisons.csv` | They await the threshold decisions. |
 
 **Is the evidence review complete?** The **archive lead review** (363 cases) and the **external-source review** (29 cases) are complete in the sense that every case has a recorded outcome. That does **not** mean all source verification is complete:
-- 181 reviewed rows end as evidence unavailable and 7 as inconclusive (section 9);
+- 181 reviewed rows end as evidence unavailable (173 read but insufficient, 8 source not obtained) and 7 as inconclusive (section 9);
 - 1,783 ledger rows were never individually re-read; their state rests on the mechanical page classification;
 - the decision-dependent items above depend on decisions or documents that the archive does not contain.
 
 ## 8. External-source review (2026-11-11)
 
 **Scope** (counting unit: product × property). 29 cases:
-- the 22 values the ledger marks `external_selected` (selected from a URL registered in `source_registry.json`);
-- the 7 pending fields whose open question is an external technical source: AFTON_HITEC_8788B KV40/KV100/density/flash point, and S_OIL_ARAMCO_ULTRA_8 KV40/KV100/flash point.
+- the 22 values the ledger marked `external_selected` at the time of the review (selected from a URL registered in `source_registry.json`);
+- the 7 fields that were pending with an external technical source as their open question: AFTON_HITEC_8788B KV40/KV100/density/flash point, and S_OIL_ARAMCO_ULTRA_8 KV40/KV100/flash point.
 
-**Method.** For each value: obtain a copy whose identity is established, then check the product (grade column), property, unit, qualifier, conditions and page against the record. Then compare with the applicable SDS.
+**Update of 2026-11-11.** The three aramcoULTRA 8 fields were then selected from the S-OIL table (technical source first), so the ledger now has 25 `external_selected` values and 4 pending fields with an external alternative. Outcomes are unchanged: 21 confirmed as printed, 8 inconclusive.
+
+**Admissibility.** External evidence is admissible; there is no blanket rule for or against it (an earlier "decision H" is withdrawn). Each source is assessed separately on five criteria, recorded in `external_review.csv`:
+
+| Criterion | Result over the 29 cases |
+|---|---|
+| Authority | manufacturer-issued 28; distributor-issued 1 (Ergon/MOGO flyer, BAPbase 4 KV40) |
+| Authenticity | registry hash match 3; saved copy with verified hash 16 (2 of them also checked against a registry-hash catalog); live Richful feed, not hashed in the registry, 2; not obtained 8 |
+| Exact product identity | the record's exact grade is named 21 (for the 8 aramcoULTRA 8 cases the separate merge question ID-01 is open; it does not concern the source-to-record link); not assessed, source not obtained 8 |
+| Applicability | recorded per case: typical or specification, plant (the PRIMA 230 sheet is headed "Yanbu"), edition and date (the S-OIL page is undated), conflicts |
+| Provenance | URL, retrieval, hash and edition per source |
+
+"Confirmed" below means only that the value is printed as recorded. It is not an approval to select the source, and the merge question ID-01 is not resolved by this review. The two aramcoULTRA 8 uncertainties (merging two records vs using the table that names aramcoULTRA 8) are set out in `requirements_review.md` §4.
+
+**Method.** For each value: obtain a copy, then check the product (grade column), property, unit, qualifier, conditions and page against the record. Then compare with the applicable SDS.
 - Copy identity was established in one of three ways:
   - the bytes equal the registry SHA-256;
   - a saved evidence copy with a verified hash;
@@ -179,7 +193,7 @@ An empty co-component list is not treated as evidence of absence.
 - PRIMA 230 Noack typical 7.5 vs specification maximum 7 → conflict `EVR-2026-11-11-230-noack`.
 - PRIMA 230 density 0.8635 kg/L → conflict `EVR-2026-11-11-230-density-external`. The field stays pending.
 - PRIMA 230 CCS at −20 °C 3,200 mPa-s: not added. The record's CCS list is not Missing, and the fill rule covers Missing fields only.
-- BAPbase 4 specific gravity 15/4 °C 0.834 (MOGO flyer): not filled. Whether a distributor-issued external document may fill a Missing field is a policy decision.
+- BAPbase 4 specific gravity 15/4 °C 0.834 (MOGO flyer): not filled. The flyer is distributor-issued, and a distributor description is not accepted automatically.
 - Representation notes, not changed because both read as point values in every check:
   - BAPbase 4 KV40 has value_kind "single" under a column headed "typical";
   - aramcoULTRA 8 CCS has qualifier "Typical" with value_kind "single".
@@ -192,8 +206,69 @@ Counting unit: coverage-ledger row (product × property; 2,175 rows, 259 product
 |---|---:|---:|---|
 | archive lead review complete | 183 | 61 | lead case with a definite outcome: usable 81, already recorded 31, unrelated mention 71 |
 | external review complete | 21 | 16 | external value confirmed on an identified copy (18 selected + 3 pending) |
-| evidence unavailable | 181 | 81 | reviewed, and the evidence is not where it was sought: 173 archive cases where the documents do not print the value, plus 8 external cases where no copy could be obtained |
+| evidence unavailable | 181 | 81 | two different situations under one label (section 10): 173 archive cases where the documents were read and do not give sufficient information, and 8 external cases where the document could not be obtained |
 | evidence inconclusive | 7 | 2 | document identity not established (FORMOSA SDSs) |
 | not individually reviewed | 1,783 | 745 | the row's state rests on the mechanical classification only (for example a technical value selected by page class, or Missing with no mention in any associated document) |
 
 The 392 reviewed rows are exactly the 363 lead cases plus the 29 external cases; no row is in both.
+
+## 10. What "evidence unavailable" covers (181 rows)
+
+**Counting unit.** One row is one product × property pair of the coverage ledger: one property of one product, not a document and not a value. The 181 rows cover 106 products. A document that is read for several properties or grades appears in several rows.
+
+The label joins two situations that must not be read as one:
+
+| Situation | Rows | Mandatory | Was a document read? | Record state |
+|---|---:|---:|---|---|
+| **Read, information insufficient** (lead outcome `insufficient_evidence`) | 173 | 81 | Yes: 112 on page renders, 61 from the text layer | 127 fields Missing; 42 optional specific-gravity fields not present in the record; 4 fields Reported from another page (comparison leads) |
+| **Source could not be obtained** (external outcome `inconclusive_source_unavailable`) | 8 | 0 | No | all 8 Reported: 4 selected from the external source, 4 selected from the SDS and pending |
+
+**Read, information insufficient (173).** The associated archive documents mention the property, or are image-only, and were read; they do not support a value for this product:
+
+| Why | Rows |
+|---|---:|
+| No value printed for this grade or property (cell shows "Report", "-", "N/A", "To be reported", blank, or the property is not in the document) | 143 |
+| Value printed without a condition the property requires (density with no reference temperature) | 20 |
+| Label and unit contradict each other, or the notation is undefined | 8 |
+| Supplier marks the typical value as provisional | 2 |
+
+For these rows the review is finished: re-reading the same documents will not change the outcome. Only a different document could.
+
+**Source could not be obtained (8).** The Afton HiTEC 12204L PDS (KV100, density, flash point, TBN) and the Afton HiTEC 8788B PDS (KV40, KV100, density, flash point). Nothing was read, so nothing is known about what they print. These rows are **unverified**, not "insufficient": obtaining the two files would allow the review.
+
+**Not included in the 181.**
+- 457 Missing rows where no associated document mentions the property were never lead cases; they are in "not individually reviewed".
+- 7 rows are "evidence inconclusive" (identity).
+
+The verification status of none of these rows has been changed; the two situations stay distinguishable through the columns `lead_outcome` and `external_outcome` of `source_review_status.csv`.
+
+## 11. External technical values compared with the SDS (2026-11-11)
+
+The comparison inventory now pairs registered external technical sources with SDS values, as it does archive technical documents (`tds_sds_inventory.py`). `external_comparison_accounting.py` then accounts for every value whose selected source is a URL.
+
+**Counting units.** Inventory: one row is one pair of a technical value and an SDS value for a product and property. Accounting: one row is one value object (product × field).
+
+| Comparison status | All 114 values | The 25 ledger `external_selected` values |
+|---|---:|---:|
+| paired with an SDS value in the inventory | 8 | 4 |
+| inapplicable: text, classification, claim or block (no numeric comparison) | 41 | 0 |
+| inapplicable: the external source is itself an SDS | 11 | 0 |
+| inapplicable: the SDS prints a different quantity (reviewed) | 2 | 2 |
+| unavailable: no SDS document is associated with the product | 1 | 1 |
+| unavailable: no SDS page mentions the property | 14 | 14 |
+| unresolved: the external source could not be obtained (value not verified) | 31 | 4 |
+| unresolved: numeric property outside the coverage ledger, not assessed | 6 | 0 |
+| **Total** | **114** | **25** |
+
+- **Rules.** Only URLs in `source_registry.json` are paired; an external safety data sheet counts as SDS, not as technical. A value is compared only with SDS values recorded for the same product and property; nothing is inferred and no other grade is used. Unit, temperature, method, value kind, revision date and source are carried into each row; a blank revision date means none is recorded (the S-OIL page prints none).
+- **No duplicates.** One URL is one source however many saved copies exist. A pair found in `conflicts[]` and through an alternate entry is one row with both origins. The aramcoULTRA 8 KV40 disagreement is one inventory row and one conflict record.
+- **Unavailable evidence.** A source that could not be obtained is never verified: its values are "unresolved", and any pair with such a source would be "comparability unknown" (none exists now, because no SDS value is recorded against the Afton external values).
+- **Selection and disagreement stay separate.** The inventory records relations only. It selected nothing and resolved nothing.
+
+The three aramcoULTRA 8 comparisons:
+
+| Property | S-OIL table (typical, edition date unknown) | SDS DL2-14611.pdf p.2 (2018-09-07) | Unit, temperature, method | Result |
+|---|---|---|---|---|
+| KV40 | 41.10 cSt | range 42.0–55.0 cSt | cSt, 40 °C, ASTM D445 on both sides | below the SDS range; retained for review; the existing disagreement stays unresolved |
+| KV100 | 7.1 cSt | range 7.0–7.5 cSt | cSt, 100 °C, ASTM D445 on both sides | numerically inside the range; logically compatible; no measured agreement is claimed |
+| Flash point | 250 °C, COC | range 240–260 °C | °C, ASTM D92 on both sides (the SDS prints the method number only) | numerically inside the range; logically compatible; no measured agreement is claimed |

@@ -2097,3 +2097,19 @@ Added 2026-11-10 (Workstream A, branch `feat/data-policy-mandatory-review`). The
   - ARAMCO_LUBEREF_PRIMA_230 density: the same sheet prints 0.8635 kg/L at 15 °C, a third value (`EVR-2026-11-11-230-density-external`). The field stays pending.
 - S_OIL_ARAMCO_ULTRA_8 KV40: the S-OIL typical 41.10 cSt lies below the SDS range 42.0–55.0 cSt. This is the existing 2026-10 audit conflict (edition difference); it is not recorded twice. The field stays pending.
 - Open question for the user: may an external (non-archive) technical document be selected over an archived SDS, or fill a Missing field? This affects aramcoULTRA 8 KV40/KV100/flash point and the BAPbase 4 specific gravity printed by the MOGO flyer.
+
+### 2026-11-11 (later): correction on external evidence
+
+- The open question above ("may an external technical document be selected over an archived SDS, or fill a Missing field?") is withdrawn. Reliable external evidence was already authorised; it is not a blanket permission question.
+- Each external source is assessed separately on authority, authenticity, exact product identity, applicability and provenance (`reports/data_policy/external_review.csv`).
+- S_OIL_ARAMCO_ULTRA_8: two separate points. (1) ID-01 asks whether the aramcoULTRA 8 and Ultra-S 8 records are one product; it is open and not resolved. (2) The S-OIL table names aramcoULTRA 8 explicitly, so ID-01 does not restrict its use. KV40 stays pending because the undated page's typical 41.10 conflicts with the dated SDS range 42.0–55.0; KV100 and flash point show no conflict, and the SDS ranges are kept selected, unchanged, for review. The 5 values already taken from the page (VI, density, CCS, pour point, Noack) are unchanged.
+- BAPCO_BAPBASE_4: the MOGO flyer is distributor-issued (Ergon/MOGO), not a Bapco document. Its specific gravity is not filled; a distributor description is not accepted automatically. The existing KV40 from the same flyer is unchanged and labelled distributor-issued in the review.
+
+### 2026-11-11: S_OIL_ARAMCO_ULTRA_8 technical-source selections
+
+- KV40, KV100 and flash point now hold the typical values of the S-OIL manufacturer table "Typical Properties of aramcoULTRA Base Oil", column "aramcoULTRA 8": 41.10 cSt at 40 °C (D445), 7.1 cSt at 100 °C (D445) and 250 °C COC (D92). They were confirmed on both saved copies (`tools/data_policy/verify_soil_table.py`).
+- The SDS ranges of DL2-14611.pdf (42.0–55.0 cSt, 7.0–7.5 cSt, 240–260 °C; 2018-09-07) are kept as alternate entries.
+- **Conflict, still unresolved:** KV40 typical 41.10 cSt vs SDS range 42.0–55.0 cSt (the 2026-10 audit entry; a dated note was added, nothing was duplicated). Selecting the technical value does not resolve it and does not judge the SDS wrong.
+- **Open:** the S-OIL page prints no publication or revision date, so its edition date is unknown. Which document is newer cannot be established.
+- **Open:** ID-01 (are aramcoULTRA 8 and Ultra-S 8 one product?). Both records stay separate.
+- Eligibility, as calculated: S_OIL_ARAMCO_ULTRA_8 is Tier 1 complete and formulation-eligible, with a KV40 open-conflict warning. 11 of 181 base oils; 0 packages; 0 components.

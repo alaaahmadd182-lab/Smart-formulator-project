@@ -1,0 +1,11 @@
+section,product_id,requirement_or_field,material_class_or_blocking,before,after,detail
+count,,tier1_complete,additive_component,0,0,of 5 products
+count,,formulation_eligible,additive_component,0,0,of 5 products
+count,,tier1_complete,additive_package,0,0,of 78 products
+count,,formulation_eligible,additive_package,0,0,of 78 products
+count,,tier1_complete,base_oil,11,11,of 181 products
+count,,formulation_eligible,base_oil,11,11,of 181 products
+outcome_category,INFINEUM_D3384,required_co_components,true,unresolved_route_association,absent,"every reviewed route is incomplete: a requirement documented for it has no usable dose [D3384-row1: route_incomplete; D3384-row2: route_incomplete; D3384-row3: route_incomplete; D3384-row4: route_incomplete; D3384-row5: route_incomplete; D3384-row6: route_incomplete; D3384-row7: route_incomplete; D3384-row8: route_incomplete; D3384-row9: route_incomplete] (informational only: 5 of 6 recorded requirement(s) have a usable dose, which does not establish the completeness of any route)"
+outcome_category,INFINEUM_D3451,required_co_components,true,unresolved_route_association,absent,"every reviewed route is incomplete: a requirement documented for it has no usable dose [D3451-row1: route_incomplete; D3451-row2: route_incomplete; D3451-row3: route_incomplete] (informational only: 1 of 2 recorded requirement(s) have a usable dose, which does not establish the completeness of any route)"
+outcome_category,LUBRIZOL_CV1100,required_co_components,true,unresolved_route_association,absent,"every reviewed route is incomplete: a requirement documented for it has no usable dose [CV1100-CK-4: route_incomplete; CV1100-FA-4: route_incomplete] (informational only: 1 of 2 recorded requirement(s) have a usable dose, which does not establish the completeness of any route)"
+outcome_category,LUBRIZOL_CV1103,required_co_components,true,unresolved_route_association,absent,"every reviewed route is incomplete: a requirement documented for it has no usable dose [CV1103-column1: route_incomplete; CV1103-FA-4: route_incomplete] (informational only: 1 of 2 recorded requirement(s) have a usable dose, which does not establish the completeness of any route)"

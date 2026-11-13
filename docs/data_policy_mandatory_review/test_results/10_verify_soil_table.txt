@@ -1,0 +1,31 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/verify_soil_table.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+return code: 0
+expectation: zero
+verdict: pass
+duration: 0.4 s
+
+===== stdout =====
+reconciliation/audit_evidence/SOIL_LubeBaseOil__wayback_20260610070302.html
+  SHA-256 cff0d3bbb7964c7450a1b9fa813617bf76e4b09de39187d026f674c7604fda60 (matches the manifest)
+  caption: Typical Properties of aramcoULTRA Base Oil : Test Items, ASTM, aramcoULTRA 2, aramcoULTRA 3, aramcoULTRA 4, aramcoULTRA 6, aramcoULTRA 8 Table.
+  header: ['Test Items', 'ASTM', 'aramcoULTRA 2', 'aramcoULTRA 3', 'aramcoULTRA 4', 'aramcoULTRA 6', 'aramcoULTRA 8']
+  kv40: row 'Kinematic Viscosity @ 40℃, cSt' | ASTM 'D445' | column 'aramcoULTRA 8': '41.10'
+  kv100: row 'Kinematic Viscosity @ 100℃, cSt' | ASTM 'D445' | column 'aramcoULTRA 8': '7.1'
+  flash_point: row 'Flash Point,COC ,℃' | ASTM 'D92' | column 'aramcoULTRA 8': '250'
+reconciliation/audit_evidence/SOIL_LubeBaseOil_live_2026-10-30.html
+  SHA-256 94b263ad23cfd8b9631b5b637635c0cbdb341aad25cb7553a2a44513f10f011c (matches the manifest)
+  caption: Typical Properties of aramcoULTRA Base Oil : Test Items, ASTM, aramcoULTRA 2, aramcoULTRA 3, aramcoULTRA 4, aramcoULTRA 6, aramcoULTRA 8 Table.
+  header: ['Test Items', 'ASTM', 'aramcoULTRA 2', 'aramcoULTRA 3', 'aramcoULTRA 4', 'aramcoULTRA 6', 'aramcoULTRA 8']
+  kv40: row 'Kinematic Viscosity @ 40℃, cSt' | ASTM 'D445' | column 'aramcoULTRA 8': '41.10'
+  kv100: row 'Kinematic Viscosity @ 100℃, cSt' | ASTM 'D445' | column 'aramcoULTRA 8': '7.1'
+  flash_point: row 'Flash Point,COC ,℃' | ASTM 'D92' | column 'aramcoULTRA 8': '250'
+record (selected values):
+  kv40: value 41.1 'cSt' at 40 °C, 'ASTM D445', 'typical', source 'https://www.s-oil.com/en/energy/LubeBaseOil.aspx': agrees with the table
+  kv100: value 7.1 'cSt' at 100 °C, 'ASTM D445', 'typical', source 'https://www.s-oil.com/en/energy/LubeBaseOil.aspx': agrees with the table
+  flash_point: value 250 '°C' at None °C, 'ASTM D92', 'typical', source 'https://www.s-oil.com/en/energy/LubeBaseOil.aspx': agrees with the table
+edition date of the page: not printed (unknown); capture and retrieval dates are not publication dates
+
+===== stderr =====
+

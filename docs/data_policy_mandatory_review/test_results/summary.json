@@ -1,6 +1,6 @@
 {
- "run_at": "2026-11-11T14:11:32",
- "head": "4e836526fd3c0e0c9d758f88f8a60ce1c1774c02",
+ "run_at": "2026-11-13T18:25:51",
+ "head": "43e7f8b5639f7d7169a2b5691bc187799f0dbe02",
  "overall": "PASS",
  "steps": [
   {
@@ -11,7 +11,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "01_document_classes.txt",
-   "seconds": 5.7
+   "seconds": 7.7
   },
   {
    "step": 2,
@@ -21,7 +21,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "02_source_selection_dry_run.txt",
-   "seconds": 0.4
+   "seconds": 0.6
   },
   {
    "step": 3,
@@ -31,7 +31,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "03_tds_sds_inventory.txt",
-   "seconds": 0.4
+   "seconds": 0.8
   },
   {
    "step": 4,
@@ -41,7 +41,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "04_source_coverage_ledger.txt",
-   "seconds": 8.0
+   "seconds": 10.0
   },
   {
    "step": 5,
@@ -51,7 +51,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "05_association_review.txt",
-   "seconds": 1.4
+   "seconds": 1.8
   },
   {
    "step": 6,
@@ -61,7 +61,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "06_lead_review.txt",
-   "seconds": 3.4
+   "seconds": 4.6
   },
   {
    "step": 7,
@@ -71,157 +71,217 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "07_external_review.txt",
-   "seconds": 0.3
+   "seconds": 0.5
   },
   {
    "step": 8,
+   "name": "external_comparison_accounting",
+   "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools/data_policy/external_comparison_accounting.py",
+   "expectation": "zero",
+   "return_code": 0,
+   "verdict": "pass",
+   "file": "08_external_comparison_accounting.txt",
+   "seconds": 0.6
+  },
+  {
+   "step": 9,
    "name": "source_review_status",
    "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools/data_policy/source_review_status.py",
    "expectation": "zero",
    "return_code": 0,
    "verdict": "pass",
-   "file": "08_source_review_status.txt",
+   "file": "09_source_review_status.txt",
    "seconds": 0.4
   },
   {
-   "step": 9,
+   "step": 10,
+   "name": "verify_soil_table",
+   "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools/data_policy/verify_soil_table.py",
+   "expectation": "zero",
+   "return_code": 0,
+   "verdict": "pass",
+   "file": "10_verify_soil_table.txt",
+   "seconds": 0.4
+  },
+  {
+   "step": 11,
    "name": "treat_rate_basis_scan",
    "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools/mandatory_properties/treat_rate_basis_scan.py",
    "expectation": "zero",
    "return_code": 0,
    "verdict": "pass",
-   "file": "09_treat_rate_basis_scan.txt",
-   "seconds": 0.7
+   "file": "11_treat_rate_basis_scan.txt",
+   "seconds": 1.0
   },
   {
-   "step": 10,
+   "step": 12,
    "name": "co_component_evidence_scan",
    "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools/mandatory_properties/co_component_evidence_scan.py",
    "expectation": "zero",
    "return_code": 0,
    "verdict": "pass",
-   "file": "10_co_component_evidence_scan.txt",
-   "seconds": 1.8
+   "file": "12_co_component_evidence_scan.txt",
+   "seconds": 2.4
   },
   {
-   "step": 11,
+   "step": 13,
    "name": "build_eligibility",
    "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools/mandatory_properties/build_eligibility.py",
    "expectation": "zero",
    "return_code": 0,
    "verdict": "pass",
-   "file": "11_build_eligibility.txt",
-   "seconds": 0.5
+   "file": "13_build_eligibility.txt",
+   "seconds": 1.0
   },
   {
-   "step": 12,
+   "step": 14,
    "name": "build_eligibility_check",
    "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools/mandatory_properties/build_eligibility.py --check",
    "expectation": "zero",
    "return_code": 0,
    "verdict": "pass",
-   "file": "12_build_eligibility_check.txt",
-   "seconds": 0.6
+   "file": "14_build_eligibility_check.txt",
+   "seconds": 1.0
   },
   {
-   "step": 13,
+   "step": 15,
+   "name": "build_readiness",
+   "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools/mandatory_properties/build_readiness.py",
+   "expectation": "zero",
+   "return_code": 0,
+   "verdict": "pass",
+   "file": "15_build_readiness.txt",
+   "seconds": 1.1
+  },
+  {
+   "step": 16,
+   "name": "build_readiness_check",
+   "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools/mandatory_properties/build_readiness.py --check",
+   "expectation": "zero",
+   "return_code": 0,
+   "verdict": "pass",
+   "file": "16_build_readiness_check.txt",
+   "seconds": 1.1
+  },
+  {
+   "step": 17,
+   "name": "compare_eligibility",
+   "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools/mandatory_properties/compare_eligibility.py",
+   "expectation": "zero",
+   "return_code": 0,
+   "verdict": "pass",
+   "file": "17_compare_eligibility.txt",
+   "seconds": 0.1
+  },
+  {
+   "step": 18,
+   "name": "compare_eligibility_pre_route_review",
+   "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools/mandatory_properties/compare_eligibility.py --before-eligibility docs/data_policy_mandatory_review/baselines/pre_route_review_2026-11-12/reports/mandatory_properties/product_eligibility.csv --before-outcomes docs/data_policy_mandatory_review/baselines/pre_route_review_2026-11-12/reports/mandatory_properties/requirement_outcomes.csv --out docs/data_policy_mandatory_review/baselines/eligibility_changes__route_review_2026-11-12.csv",
+   "expectation": "zero",
+   "return_code": 0,
+   "verdict": "pass",
+   "file": "18_compare_eligibility_pre_route_review.txt",
+   "seconds": 0.1
+  },
+  {
+   "step": 19,
    "name": "coverage_matrix",
    "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe build_coverage_matrix.py --output Coverage_Matrix.xlsx --overwrite",
    "expectation": "zero",
    "return_code": 0,
    "verdict": "pass",
-   "file": "13_coverage_matrix.txt",
-   "seconds": 2.5
+   "file": "19_coverage_matrix.txt",
+   "seconds": 3.1
   },
   {
-   "step": 14,
+   "step": 20,
    "name": "integrate_products_dry_run",
    "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe integrate_products.py",
    "expectation": "zero",
    "return_code": 0,
    "verdict": "pass",
-   "file": "14_integrate_products_dry_run.txt",
-   "seconds": 0.9
+   "file": "20_integrate_products_dry_run.txt",
+   "seconds": 1.0
   },
   {
-   "step": 15,
+   "step": 21,
    "name": "integration_diff_changed",
    "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools/data_policy/integration_diff.py --changed --against f4d97e71f72598df601b72403775581c34061ad1",
    "expectation": "zero",
    "return_code": 0,
    "verdict": "pass",
-   "file": "15_integration_diff_changed.txt",
-   "seconds": 0.8
+   "file": "21_integration_diff_changed.txt",
+   "seconds": 0.3
   },
   {
-   "step": 16,
+   "step": 22,
    "name": "verify_preserved",
    "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools/data_policy/verify_preserved.py --out docs/data_policy_mandatory_review/test_results/preserved_and_evidence.csv",
    "expectation": "zero",
    "return_code": 0,
    "verdict": "pass",
-   "file": "16_verify_preserved.txt",
-   "seconds": 3.1
+   "file": "22_verify_preserved.txt",
+   "seconds": 3.5
   },
   {
-   "step": 17,
+   "step": 23,
    "name": "protected_paths",
    "command": "builtin: git diff of protected paths against the baseline",
    "expectation": "zero",
    "return_code": 0,
    "verdict": "pass",
-   "file": "17_protected_paths.txt",
+   "file": "23_protected_paths.txt",
    "seconds": 0.1
   },
   {
-   "step": 18,
+   "step": 24,
    "name": "product_json_valid",
    "command": "builtin: parse every product JSON and check status values",
    "expectation": "zero",
    "return_code": 0,
    "verdict": "pass",
-   "file": "18_product_json_valid.txt",
-   "seconds": 0.2
+   "file": "24_product_json_valid.txt",
+   "seconds": 0.3
   },
   {
-   "step": 19,
+   "step": 25,
    "name": "tests_mandatory_properties",
    "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m unittest discover -s tools/mandatory_properties/tests -v",
    "expectation": "zero",
    "return_code": 0,
    "verdict": "pass",
-   "file": "19_tests_mandatory_properties.txt",
-   "seconds": 0.2
+   "file": "25_tests_mandatory_properties.txt",
+   "seconds": 1.3
   },
   {
-   "step": 20,
+   "step": 26,
    "name": "tests_data_policy",
    "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m unittest discover -s tools/data_policy/tests -v",
    "expectation": "zero",
    "return_code": 0,
    "verdict": "pass",
-   "file": "20_tests_data_policy.txt",
-   "seconds": 5.9
+   "file": "26_tests_data_policy.txt",
+   "seconds": 9.6
   },
   {
-   "step": 21,
+   "step": 27,
    "name": "tests_audit_v5",
    "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m unittest discover -s tools/audit/review_2026-11-02/tests -v",
    "expectation": "zero",
    "return_code": 0,
    "verdict": "pass",
-   "file": "21_tests_audit_v5.txt",
-   "seconds": 0.6
+   "file": "27_tests_audit_v5.txt",
+   "seconds": 0.7
   },
   {
-   "step": 22,
+   "step": 28,
    "name": "verify_revision_v5",
    "command": "C:\\Users\\windo\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tools/audit/review_2026-11-02/verify_revision.py",
    "expectation": "by_design_nonzero",
    "return_code": 1,
    "verdict": "expected failure (by design)",
-   "file": "22_verify_revision_v5.txt",
-   "seconds": 0.5
+   "file": "28_verify_revision_v5.txt",
+   "seconds": 0.6
   }
  ]
 }

@@ -1,0 +1,15 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe build_coverage_matrix.py --output Coverage_Matrix.xlsx --overwrite
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+return code: 0
+expectation: zero
+verdict: pass
+duration: 3.1 s
+
+===== stdout =====
+OUTPUT C:\Users\windo\sf-wsA\Coverage_Matrix.xlsx products 264 json 706 issues 30 classes {'additive_component': 5, 'additive_package': 78, 'base_oil': 181} status {'Reported': 3686, 'Missing': 2447, 'Not Applicable': 7, 'Calculated': 36, 'Not Required': 11}
+traceability warnings {}
+traceability infos {'Verified manufacturer-issued PDF with page; archived copy': 36, 'Verified manufacturer-issued web page (no page numbers)': 36, 'Verified manufacturer-issued PDF with page': 36, 'Verified distributor-issued PDF with page': 2, 'Verified manufacturer-issued web page (no page numbers); archived copy': 4}
+
+===== stderr =====
+

@@ -3,7 +3,10 @@
 Inputs besides the product data:
   - reports/data_policy/source_coverage_ledger.csv (+ .meta.json): Rule 1 pending / unreviewed source selections. Its
     recorded product snapshot must equal the current one, otherwise the build stops (exit 3): rerun the ledger first.
-  - tools/mandatory_properties/treat_rate_basis_evidence.json: reviewed page evidence of a mass basis for bare '%'.
+  - tools/mandatory_properties/treat_rate_basis_evidence.json: reviewed source evidence of the basis of a bare '%'.
+  - tools/mandatory_properties/co_component_statements.json: reviewed supplier statements about co-components.
+  - tools/mandatory_properties/co_component_route_evidence.json: reviewed evidence of which recorded co-component
+    requirements belong to which route (empty until routes are reviewed; no mapping is derived from role text).
   - the source archive (text of cited pages), to verify that calculation inputs are printed where the record says.
 
 Outputs (the only files written):
@@ -31,11 +34,13 @@ PRODUCTS = os.path.join(ROOT, 'Products_json')
 OUT = os.path.join(ROOT, 'reports', 'mandatory_properties')
 LEDGER = os.path.join(ROOT, 'reports', 'data_policy', 'source_coverage_ledger.csv')
 BASIS = os.path.join(HERE, 'treat_rate_basis_evidence.json')
+STATEMENTS = os.path.join(HERE, 'co_component_statements.json')
+ROUTES = os.path.join(HERE, 'co_component_route_evidence.json')
 COLUMNS = ['product_id', 'material_class', 'product_name', 'supplier', 'tier1_complete', 'formulation_eligible',
            'missing_mandatory_properties', 'eligibility_reasons', 'calculated_mandatory_properties',
            'requirements_version', 'source_snapshot_sha256']
 DETAIL_COLUMNS = ['product_id', 'material_class', 'product_name', 'requirement', 'category', 'blocking', 'representation',
-                  'calculated', 'reason']
+                  'calculated', 'reason', 'percentage_basis', 'selection_pending']
 CLASSES = ('base_oil', 'additive_package', 'additive_component')
 COMPONENT_ROLE = {1: 'general', 2: 'vm', 3: 'ppd'}
 SELECTION_PENDING = ('pending', 'gap_tech_label_unreviewed')
@@ -144,8 +149,24 @@ class PageText:
         return pages[int(n[0]) - 1] or None
 
 
-def evaluate(pid, p, snapshot, pending, basis, page_text):
-    ctx = R.Context(page_text=page_text, pending=pending, basis_evidence=basis, product=pid)
+def load_statements():
+    with open(STATEMENTS, encoding='utf-8') as fh:
+        return json.load(fh)['statements']
+
+
+def load_routes():
+    with open(ROUTES, encoding='utf-8') as fh:
+        return json.load(fh)['routes']
+
+
+def context(pid, p, pending, basis, page_text, statements=None, routes=None):
+    return R.Context(page_text=page_text, pending=pending, basis_evidence=basis, product=pid, material_class=p['class'],
+                     statements=load_statements() if statements is None else statements,
+                     routes=load_routes() if routes is None else routes)
+
+
+def evaluate(pid, p, snapshot, pending, basis, page_text, statements=None):
+    ctx = context(pid, p, pending, basis, page_text, statements)
     outs = R.CHECKERS[p['class']](p['files'], ctx)
     head = p['files'].get(1) or p['files'].get('general') or next(iter(p['files'].values()))
     prod = head.get('product') or {}
@@ -181,14 +202,16 @@ def build(root=PRODUCTS, ledger=LEDGER, page_text=None):
     with open(BASIS, encoding='utf-8') as fh:
         basis = json.load(fh)['evidence']
     page_text = page_text or PageText()
+    statements = load_statements()
     rows, outcomes = [], []
     for pid in sorted(prods):
-        row, outs = evaluate(pid, prods[pid], snapshot, pending, basis, page_text)
+        row, outs = evaluate(pid, prods[pid], snapshot, pending, basis, page_text, statements)
         rows.append(row)
         for o in outs:
             outcomes.append(dict(product_id=pid, material_class=row['material_class'], product_name=row['product_name'],
                                  requirement=o.requirement, category=o.category, blocking=o.blocking,
-                                 representation=o.representation or '', calculated=o.calculated, reason=o.reason))
+                                 representation=o.representation or '', calculated=o.calculated, reason=o.reason,
+                                 percentage_basis=o.basis or '', selection_pending=o.selection_pending))
     return rows, outcomes, problems, snapshot
 
 
@@ -262,8 +285,12 @@ def render(rows, outcomes, snapshot):
           'requirements version. They are not statements of chemical suitability, compatibility or performance. Products that '
           'are not complete stay in the database.', '',
           '"Documented" (companion measure, `documentation_coverage.csv`) is NOT completeness: it counts products for which every '
-          'mandatory requirement has some documented information, including ranges or bounds still awaiting a use-specific '
-          'decision and values whose source selection is pending.', '',
+          'mandatory requirement is met, is a valid range or bound (never replaced by a point), or has a pending source '
+          'selection on an otherwise complete value. It is derived from the outcome category, so a value that has both a '
+          'pending selection and incomplete metadata is counted by its metadata defect; the independent selection status is '
+          'the column `selection_pending` of `requirement_outcomes.csv`. Evidence documentation, value selection, value form, '
+          'percentage basis and verification status are reported as separate attributes by '
+          '`python tools/mandatory_properties/build_readiness.py` (`property_attributes.csv`).', '',
           'An unmet requirement is not necessarily an absent property: see the category of each row.', '',
           '## Products by material class', '',
           '| Material class | Products | Tier 1 complete (= formulation-eligible) | Documented, not necessarily usable (companion) |',
@@ -295,7 +322,8 @@ def render(rows, outcomes, snapshot):
            f'{sum(1 for o in outcomes if o["calculated"] and o["category"] in R.SATISFIED)} requirement outcome(s) are met by a '
            f'calculated value; {sum(1 for o in outcomes if o["calculated"] and o["category"] not in R.SATISFIED)} calculated value(s) '
            'were not accepted (category invalid_or_unreproducible_calculation, or a missing condition).', '',
-           '## Interpretations used (provisional; need reviewer confirmation)', '']
+           '## Interpretations and approved policies in force', '',
+           'Entries marked "Approved policy" were approved on 2026-11-11; the others remain provisional.', '']
     md += [f'- **{k}.** {t}' for k, t in R.INTERPRETATIONS]
     md += ['', 'Detail: `requirement_outcomes.csv` (every requirement), `missing_mandatory_properties.csv` (unmet only); '
            'interface: `product_eligibility.csv`; authority of each requirement: '

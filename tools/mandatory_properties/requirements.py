@@ -19,23 +19,43 @@ information that is not (yet) usable, so an unmet requirement is not reported as
                                       unsupported or conflicting qualifier, value outside its own recorded range)
   invalid_or_unreproducible_calculation  a Calculated value that no registered check reproduces from traceable inputs
   unresolved_applicability            whether or how the requirement applies is not established
+  requirement_unknown                 whether a requirement exists is not known: none is recorded in the record and no
+                                      explicit statement says that none is required. This is a statement about the
+                                      record; it does not say that the supplier documents are silent
+  unresolved_route_association        co-component requirements are recorded, but which route each belongs to is not
+                                      established by reviewed evidence, so the completeness of a route is not assessed
   unresolved_source_selection         a value exists, but which source supplies it is pending (Rule 1)
 
 tier1_complete = every blocking (mandatory Tier 1) requirement is satisfied (met, or not applicable under an approved
 rule) under REQUIREMENTS_VERSION. formulation_eligible = tier1_complete; no other eligibility gate exists (a new gate
-needs a documented authority, requirements_review.md). Documentation coverage (documented but unusable information:
-bounds/ranges needing assessment, pending source selections) is reported separately (documentation_status), never as
-completeness.
+needs a documented authority, requirements_review.md). These two meanings are unchanged since version .3.
+
+Policies approved on 2026-11-11 (version .4; corrected in .5 the same day; requirements_review.md section 4a):
+  1. ranges and bounds   a valid, sourced range or bound is documented information, never an absent value, and never
+                         replaced by an invented point. It does not satisfy a requirement that needs a point value.
+  2. co-components       completeness is assessed per evidenced route: every requirement that applies to the route
+                         must have a usable dose, and the route's requirement list must be confirmed by source review.
+                         One usable component never completes a route that needs others. Routes are independent, and
+                         a component may belong to several. Route evidence is bound to the complete input records by
+                         fingerprint: a relevant change makes it stale until re-reviewed. "None required" needs an
+                         explicit reviewed assessment (meaning, scope, product, conditions, qualification).
+  3. percentage basis    mass, volume or unspecified, established from the unit or from reviewed source evidence
+                         (heading, footnote, document-wide convention). An unspecified or volume percentage does not
+                         satisfy a wt.% requirement. No volume-to-mass conversion is registered or used.
+  4. applicability       a Not Required / Not Applicable label counts only under a rule approved for the product
+                         class, requirement and task (APPROVED_APPLICABILITY_RULES; empty). Missing is never N/A.
+Evidence documentation, value selection, value form, percentage basis and verification status are separate attributes
+of each outcome (tools/mandatory_properties/build_readiness.py); none of them changes the two fields above.
 Subtype blocks (VM, PPD) are evaluated and reported but are NOT blocking: they are stored in tier 2 / tier 3 files and
 the project rule is that missing Tier 2/3 data does not block (decision C in requirements_review.md).
 
 "Eligible" means eligible under these mandatory-data rules only. It is not a statement of chemical suitability,
 compatibility or performance.
 """
-import math, re
+import hashlib, json, math, re
 from collections import namedtuple
 
-REQUIREMENTS_VERSION = 'mandatory-tier1-2026-11-10.3'
+REQUIREMENTS_VERSION = 'mandatory-tier1-2026-11-10.6'
 
 MET, NOT_APPLICABLE = 'met', 'not_applicable_approved_rule'
 ABSENT = 'absent'
@@ -44,17 +64,38 @@ META = 'missing_unit_condition_provenance'
 INVALID = 'invalid_value'
 CALC = 'invalid_or_unreproducible_calculation'
 APPL = 'unresolved_applicability'
+UNKNOWN = 'requirement_unknown'
+ROUTE = 'unresolved_route_association'
 SEL = 'unresolved_source_selection'
-CATEGORIES = [MET, NOT_APPLICABLE, ABSENT, BOUND, META, INVALID, CALC, APPL, SEL]
+CATEGORIES = [MET, NOT_APPLICABLE, ABSENT, BOUND, META, INVALID, CALC, APPL, UNKNOWN, ROUTE, SEL]
 SATISFIED = {MET, NOT_APPLICABLE}
 DOCUMENTED = {MET, NOT_APPLICABLE, BOUND, SEL}
 
-Outcome = namedtuple('Outcome', 'requirement category reason calculated blocking representation')
+# selection_pending is independent of the category: a requirement can have incomplete metadata AND a pending selection
+Outcome = namedtuple('Outcome', 'requirement category reason calculated blocking representation basis selection_pending',
+                     defaults=('', False))
+BASIS_CLASSES = ('mass', 'volume', 'unspecified')
+DEFAULT_TASK = 'mandatory_tier1_documentation'
 
 OK_STATUS = ('Reported', 'Calculated')
 INAPPLICABLE_STATUS = ('Not Required', 'Not Applicable', 'N/A')
-# Applicability rules that have been APPROVED. None is approved yet (requirements_review.md, decisions C, D, F).
-APPROVED_APPLICABILITY_RULES = {}
+# Applicability rules that have been APPROVED (policy 4 of 2026-11-11). None is approved: the list is empty, and no
+# exemption is assumed. A rule is a dict with id, material_class, requirement, task, authority (document and wording)
+# and approved (date). It applies only to a value labelled Not Required / Not Applicable, for that product class,
+# requirement and task. A Missing value, or a search that found nothing, never becomes "not applicable".
+APPROVED_APPLICABILITY_RULES = []
+RULE_KEYS = ('id', 'material_class', 'requirement', 'task', 'authority', 'approved')
+
+
+def approved_rule(rid, ctx=None, rules=None):
+    """The approved applicability rule for this requirement, product class and task, or None."""
+    rules = APPROVED_APPLICABILITY_RULES if rules is None else rules
+    cls = getattr(ctx, 'material_class', None)
+    task = getattr(ctx, 'task', None) or DEFAULT_TASK
+    for r in rules:
+        if all(r.get(k) for k in RULE_KEYS) and r['requirement'] == rid and r['material_class'] == cls and r['task'] == task:
+            return r
+    return None
 
 # ---------------------------------------------------------------- representations (provisional, use-specific)
 # accepted: representations that satisfy the requirement for formulation use. reviewable: documented information that
@@ -62,7 +103,8 @@ APPROVED_APPLICABILITY_RULES = {}
 # Where the source names the representation (treat rate "min / max / typical wt.%"), the rule cites it; the others are
 # project interpretations awaiting review (requirements_review.md, decision B-REP).
 POINT_ONLY = dict(accepted={'point'}, reviewable={'range', 'lower_bound', 'upper_bound', 'spec_value'},
-                  basis='interpretation: a formulation calculation needs a point value; ranges and bounds are kept for review')
+                  basis='policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a '
+                        'range or bound, and no point is derived from it')
 DOSE = dict(accepted={'point', 'range'}, reviewable={'lower_bound', 'upper_bound', 'spec_value'},
             basis='source: Minimum Property Set slide 3/4 and glossary, "Treat rate - min / max / typical wt.%"')
 TEMPERATURE = dict(accepted={'point', 'range'}, reviewable={'lower_bound', 'upper_bound', 'spec_value'},
@@ -76,10 +118,10 @@ REPRESENTATIONS = {
 DEFAULT_REPRESENTATION = POINT_ONLY
 
 INTERPRETATIONS = [
-    ('I-1', 'Ranges, one-sided bounds and direction-less specification values are documented information. They are never '
-            'converted to an exact value and never rejected as absent; whether they serve a property\'s intended use is a '
-            'provisional, property-specific decision (REPRESENTATIONS). Until decided, the requirement is not satisfied: '
-            'the product is not Tier 1 complete; the information is reported in the documentation coverage.'),
+    ('I-1', '[Approved policy 1, 2026-11-11] Ranges, one-sided bounds and direction-less specification values are '
+            'documented information. They are never converted to an exact value, never given an invented midpoint and never '
+            'reported as absent. A requirement that needs a point value is not satisfied by them; a calculation may use '
+            'them only if its registered method accepts that form (no range-aware method is registered).'),
     ('I-2', 'CCS "vs temperature" is satisfied by at least one CCS value with its test temperature.'),
     ('I-3', 'Component "primary and secondary function": the secondary function is optional; the primary is required.'),
     ('I-4', 'Function-specific markers are required for the functions the slide names (detergent: TBN + Ca or Mg; ZDDP: '
@@ -87,16 +129,23 @@ INTERPRETATIONS = [
     ('I-5', 'VM and PPD subtype blocks are reported but not blocking, because they are stored in tier 2 / tier 3 files and '
             'the project rule says missing Tier 2/3 data does not block. This conflicts with slide 4 ("need response data '
             'on top") and is a decision for the reviewer (decision C).'),
-    ('I-6', 'A treat rate or dose must be on a mass basis: stated in the recorded unit (wt.%, mass %) or established from '
-            'the cited page (heading or footnote) in treat_rate_basis_evidence.json. A bare "%" without such evidence is '
-            'missing its basis; the basis is never guessed.'),
+    ('I-6', '[Approved policy 3, 2026-11-11] The basis of a percentage is mass, volume or unspecified. It is established '
+            'from the recorded unit or from reviewed source evidence (heading, footnote or explicit document-wide convention) '
+            'in treat_rate_basis_evidence.json. An unspecified "%" stays unspecified, and a volume percentage stays volume: '
+            'neither satisfies a wt.% requirement. No volume-to-mass conversion is registered or used; volume evidence is '
+            'listed separately and never fills a wt.% field.'),
     ('I-7', 'A response is usable only with its reference oil, dose and method (glossary extraction rule). A calculated '
             'value is accepted only if a registered check reproduces it from inputs printed on the cited page and its '
             'conditions match the response record.'),
-    ('I-8', 'Package co-component architecture: met by a reported co-component with a mass-basis dose, or by a sourced '
-            'statement that no co-component is required (proposed field co_component_requirement_statement; no record '
-            'has one yet). Without either, applicability is unresolved; a co-component is never required merely because '
-            'the schema cannot say "none".'),
+    ('I-8', '[Approved policy 2, 2026-11-11] Package co-components are assessed per evidenced route. A route is complete '
+            'only if every requirement that applies to it has a usable mass-basis dose and its requirement list is confirmed '
+            'by source review; one usable component never completes a route that needs others, and routes are independent. '
+            'Without reviewed route evidence the association is unresolved and completeness is not assessed. The product-level '
+            'requirement is met only by a complete evidenced route or by an explicit, unqualified, applicable statement that '
+            'none is required. An empty record is "not recorded", never supplier silence.'),
+    ('I-9', '[Approved policy 4, 2026-11-11] A Not Required / Not Applicable label satisfies a requirement only under a rule '
+            'approved for the product class, the requirement and the task. No rule is approved. A Missing value or an '
+            'unsuccessful search is never treated as not applicable, and no property changes tier.'),
 ]
 
 
@@ -217,11 +266,16 @@ class Context:
     """What a check may consult besides the record: cited page text (traceability), Rule 1 pending fields, and the
     reviewed treat-rate basis evidence. The default context has no page text, so no calculation can be accepted."""
 
-    def __init__(self, page_text=None, pending=None, basis_evidence=None, product=None):
+    def __init__(self, page_text=None, pending=None, basis_evidence=None, product=None, material_class=None, task=None,
+                 statements=None, routes=None):
         self.page_text = page_text or (lambda f, p: None)
         self.pending = pending or {}
         self.basis_evidence = basis_evidence or []
         self.product = product
+        self.material_class = material_class
+        self.task = task or DEFAULT_TASK
+        self.statements = statements or []   # reviewed co-component statements (co_component_statements.json)
+        self.routes = routes or []           # reviewed route evidence (co_component_route_evidence.json)
 
     def mass_basis(self, path, vo):
         s = vo.get('source') or {}
@@ -232,8 +286,55 @@ class Context:
         return None
 
 
-def _o(rid, cat, why='', calc=False, blocking=True, rep=None):
-    return Outcome(rid, cat, why, calc, blocking, rep)
+    def basis_of(self, path, vo):
+        """(basis class, how it is established) for a percentage value: 'mass', 'volume' or 'unspecified'. The unit as
+        recorded comes first; otherwise reviewed evidence for the value, its table or its whole document."""
+        return percentage_basis(vo, self.mass_basis(path, vo))
+
+
+_MASS_UNIT = re.compile(r'wt|mass|weight|m/m|w/w', re.I)
+_VOLUME_UNIT = re.compile(r'vol|v/v', re.I)
+
+
+def percentage_basis(vo, evidence=None):
+    u = str((vo or {}).get('unit') or '')
+    if _MASS_UNIT.search(u):
+        return 'mass', f'recorded unit {u!r}'
+    if _VOLUME_UNIT.search(u):
+        return 'volume', f'recorded unit {u!r}'
+    if evidence:
+        b = str(evidence.get('basis') or '').lower()
+        cls = 'volume' if _VOLUME_UNIT.search(b) else 'mass' if _MASS_UNIT.search(b) else None
+        if cls:
+            return cls, (f"reviewed evidence ({evidence.get('evidence_kind') or 'page wording'}, scope "
+                         f"{evidence.get('scope') or 'value'}): {evidence.get('source_file')} p.{evidence.get('page')}")
+    return 'unspecified', f'unit {u!r} states no basis and no reviewed source evidence establishes one'
+
+
+def volume_to_mass_percent(vol_pct, component_density, mixture_density, component_density_temp_c, mixture_density_temp_c):
+    """NOT REGISTERED AND NOT USED. Arithmetic only: vol.% x rho_component / rho_mixture.
+
+    Kept for a later decision. It checks only what its numeric arguments can show: finite numbers, a volume percentage
+    in [0, 100], positive densities, and equal temperature arguments. It does NOT and cannot establish where the
+    densities come from, whether they are in the same unit, whether they belong to this component and this mixture, or
+    whether a conversion is applicable to the product. Those need reviewed source evidence that the project does not
+    have, so no value is converted and no wt.% field is filled from volume evidence. Returns (value, '') or (None, reason)."""
+    for name, x in (('volume percentage', vol_pct), ('component density', component_density), ('mixture density', mixture_density)):
+        if not finite(x):
+            return None, f'{name} is not a finite number ({x!r})'
+    if not 0 <= vol_pct <= 100:
+        return None, f'volume percentage {vol_pct} is outside 0-100'
+    if component_density <= 0 or mixture_density <= 0:
+        return None, 'a density is not positive'
+    if not (finite(component_density_temp_c) and finite(mixture_density_temp_c)):
+        return None, 'a density temperature is not stated'
+    if abs(component_density_temp_c - mixture_density_temp_c) > 1e-9:
+        return None, f'densities are at different temperatures ({component_density_temp_c} vs {mixture_density_temp_c} °C)'
+    return vol_pct * component_density / mixture_density, ''
+
+
+def _o(rid, cat, why='', calc=False, blocking=True, rep=None, basis=''):
+    return Outcome(rid, cat, why, calc, blocking, rep, basis, False)
 
 
 def _provenance(vo):
@@ -246,18 +347,19 @@ def _provenance(vo):
     return ''
 
 
-def _status(item, rid, allow_calc):
+def _status(item, rid, allow_calc, ctx=None):
     """Common status gate for every item (value object, block, claim, formulation entry)."""
     if not isinstance(item, dict):
         return _o(rid, ABSENT, 'not present in the record')
     st = item.get('status')
     if st in (None, 'Missing'):
+        # policy 4: a missing value is never "not applicable", whatever rules exist
         return _o(rid, ABSENT, f'status {st or "not recorded"}')
     if st in INAPPLICABLE_STATUS:
-        rule = APPROVED_APPLICABILITY_RULES.get(rid)
+        rule = approved_rule(rid.split('[')[0], ctx)
         if rule:
-            return _o(rid, NOT_APPLICABLE, f'not applicable under approved rule {rule}')
-        return _o(rid, APPL, f'marked {st!r} without an approved applicability rule')
+            return _o(rid, NOT_APPLICABLE, f'not applicable under approved rule {rule["id"]} ({rule["authority"]})')
+        return _o(rid, APPL, f'marked {st!r} without an applicability rule approved for this product class, requirement and task')
     if st == 'Calculated' and not allow_calc:
         return _o(rid, CALC, 'status Calculated, but no calculation is defined for this kind of item', calc=True)
     if st not in OK_STATUS:
@@ -268,7 +370,7 @@ def _status(item, rid, allow_calc):
 def check_value(vo, rid, ctx=None, numeric=True, need_unit=None, need_temp=False, mass_basis=False, calc=None, path=None):
     """Outcome for one value object. calc: a registered calculation check (vo, ctx) -> (ok, reason)."""
     ctx = ctx or Context()
-    gate = _status(vo, rid, allow_calc=True)
+    gate = _status(vo, rid, allow_calc=True, ctx=ctx)
     if gate:
         return gate
     need_unit = numeric if need_unit is None else need_unit
@@ -294,19 +396,23 @@ def check_value(vo, rid, ctx=None, numeric=True, need_unit=None, need_temp=False
         return _o(rid, INVALID, detail, is_calc)
     if need_unit and not vo.get('unit'):
         return _o(rid, META, 'unit not recorded', is_calc, rep=rep)
-    if mass_basis and not re.search(r'wt|mass|weight|m/m|w/w', str(vo.get('unit') or ''), re.I):
-        ev = ctx.mass_basis(path or rid, vo)
-        if not ev:
-            return _o(rid, META, f'unit {vo.get("unit")!r} does not state a mass basis and no page evidence establishes one', is_calc, rep=rep)
+    basis = ''
+    if mass_basis:
+        basis, how = ctx.basis_of(path or rid, vo)
+        if basis == 'volume':
+            return _o(rid, META, f'volume basis ({how}): not usable where wt.% is required; no volume-to-mass conversion is '
+                      'registered', is_calc, rep=rep, basis=basis)
+        if basis != 'mass':
+            return _o(rid, META, f'percentage basis unspecified: {how}', is_calc, rep=rep, basis=basis)
     if need_temp and not finite(vo.get('test_temperature_c')):
-        return _o(rid, META, 'reference/test temperature not recorded', is_calc, rep=rep)
+        return _o(rid, META, 'reference/test temperature not recorded', is_calc, rep=rep, basis=basis)
     why = _provenance(vo)
     if why:
-        return _o(rid, META, why, is_calc, rep=rep)
+        return _o(rid, META, why, is_calc, rep=rep, basis=basis)
     policy = REPRESENTATIONS.get(rid.split('[')[0], DEFAULT_REPRESENTATION)
     if rep not in policy['accepted']:
-        return _o(rid, BOUND, f'{rep.replace("_", " ")}{": " + detail if detail else ""} (provisional rule: {policy["basis"]})', is_calc, rep=rep)
-    return _o(rid, MET, detail, is_calc, rep=rep)
+        return _o(rid, BOUND, f'{rep.replace("_", " ")}{": " + detail if detail else ""} ({policy["basis"]})', is_calc, rep=rep, basis=basis)
+    return _o(rid, MET, detail, is_calc, rep=rep, basis=basis)
 
 
 def _structured(n):
@@ -328,8 +434,8 @@ def _structured(n):
     return False
 
 
-def check_block(n, rid):
-    gate = _status(n, rid, allow_calc=False)
+def check_block(n, rid, ctx=None):
+    gate = _status(n, rid, allow_calc=False, ctx=ctx)
     if gate:
         return gate
     if not (isinstance(n.get('value'), str) and n['value'].strip()) and not _structured(n):
@@ -472,7 +578,7 @@ def _any(rid, entries, fn):
     for o in outs:
         if o.category in SATISFIED:
             return o._replace(requirement=rid)
-    order = [BOUND, SEL, META, CALC, INVALID, APPL, ABSENT]
+    order = [BOUND, SEL, META, CALC, INVALID, APPL, ROUTE, UNKNOWN, ABSENT]
     for cat in order:
         hit = [o for o in outs if o.category == cat]
         if hit:
@@ -481,11 +587,18 @@ def _any(rid, entries, fn):
 
 
 def _sel(o, ctx, prop):
-    """A satisfied or documented requirement whose property is pending in Rule 1 becomes unresolved_source_selection."""
+    """Rule 1 selection status from the source-selection ledger, independent of the outcome category.
+
+    selection_pending is set whenever the ledger lists the property as pending, whatever else is wrong with the value
+    (missing unit, condition or source, a range, an invalid value). The category changes to unresolved_source_selection
+    only where the value would otherwise be satisfied or a documented range/bound; in every other case the category
+    keeps the first defect and the pending selection is added to the reason, so neither hides the other."""
     why = ctx.pending.get((ctx.product, prop))
-    if why and o.category in (MET, BOUND):
-        return o._replace(category=SEL, reason=f'source selection pending: {why}')
-    return o
+    if not why:
+        return o
+    if o.category in (MET, BOUND):
+        return o._replace(category=SEL, reason=f'source selection pending: {why}', selection_pending=True)
+    return o._replace(selection_pending=True, reason=(o.reason + '; ' if o.reason else '') + f'in addition, the source selection is pending: {why}')
 
 
 def base_oil_requirements(files, ctx=None):
@@ -504,6 +617,268 @@ def base_oil_requirements(files, ctx=None):
     ccs = ccs if isinstance(ccs, list) else [ccs] if ccs else []
     out.append(_sel(_any('ccs', ccs, lambda e: check_value(e, 'ccs', ctx, need_temp=True)), ctx, 'ccs'))
     return out
+
+
+CO_STATES = ('required_usable_dose', 'required_dose_not_usable', 'required_dose_not_recorded')
+ROUTE_STATES = ('route_complete', 'route_incomplete', 'recorded_requirements_usable_list_not_confirmed', 'route_evidence_stale',
+                'route_evidence_invalid', 'route_association_not_established')
+REVIEW_VALIDITY = ('current', 'stale_requires_re_review', 'invalid')
+COMBINATIONS = ('all', 'one_of', 'unresolved')
+ALL_CO = 'all co-components'
+DERIVED_KEYS = ('value_final', 'unit_final', 'min_final', 'max_final', 'integration_flags', 'unit_conversion', 'resolution')
+_BOUND_PATH = re.compile(r'(required_co_components|treat_rate_matrix)\[(\d+)\]')
+_HEDGE = re.compile(r'\b(should|may|might|could|normally|typically|generally|usually|in most cases|unless|except|provided that)\b', re.I)
+
+
+def record_fingerprint(record):
+    """SHA-256 of the complete record as recorded (every key: value, qualifier, min, max, value kind, printed text, unit,
+    conditions, method, status, notes, source file, page and revision), without the derived *_final keys. Reviewed
+    route evidence stores this for each record it relies on; any relevant change gives a different fingerprint."""
+    def strip(x):
+        if isinstance(x, dict):
+            return {k: strip(v) for k, v in sorted(x.items()) if k not in DERIVED_KEYS}
+        if isinstance(x, list):
+            return [strip(v) for v in x]
+        return x
+    return hashlib.sha256(json.dumps(strip(record), ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode('utf-8')).hexdigest()
+
+
+def record_at(fields, path):
+    """The record a route binding names ('required_co_components[i]' or 'treat_rate_matrix[i]'), or None."""
+    m = _BOUND_PATH.fullmatch(str(path or ''))
+    if not m:
+        return None
+    lst = fields.get(m.group(1)) or []
+    i = int(m.group(2))
+    return lst[i] if i < len(lst) and isinstance(lst[i], dict) else None
+
+
+def co_component_entries(fields, ctx=None):
+    """The recorded co-component requirements, one dict per entry (index, role, name, dose, state, outcome). The role
+    text carries the supplier's condition as recorded; it is reported, never parsed into a route."""
+    ctx = ctx or Context()
+    rows = []
+    for i, e in enumerate(fields.get('required_co_components') or []):
+        if not (isinstance(e, dict) and (e.get('name') or e.get('role'))):
+            continue
+        dose = e.get('dose_wt_pct')
+        if not isinstance(dose, dict) or dose.get('status') in (None, 'Missing'):
+            o = _o('required_co_components', ABSENT, 'the requirement is recorded, but no dose is recorded for it')
+            state = 'required_dose_not_recorded'
+        else:
+            o = check_value(dose, 'required_co_components', ctx, mass_basis=True, path='required_co_components')
+            state = 'required_usable_dose' if o.category == MET else 'required_dose_not_usable'
+        rows.append(dict(index=i, role=e.get('role'), name=e.get('name'), dose=dose if isinstance(dose, dict) else {}, state=state, outcome=o))
+    return rows
+
+
+def explicit_none_required(stmt, product, inline=False):
+    """(ok, why not) for a statement offered as "no co-component is required" for `product` as a whole.
+
+    Nothing is inferred from missing metadata, and the meaning is never established by keyword matching. The statement
+    must carry the supplier wording, its source page, and an explicit reviewed assessment:
+      product                        equal to the product being assessed (an inline statement must name it too)
+      kind                           'none_required'
+      quote, source file and page    the wording as printed and where it is
+      review.reviewed_on             date of the review
+      review.meaning                 'no_co_component_required'
+      review.unconditional           true or false, stated explicitly
+      review.qualification_verbatim  the supplier's qualification exactly as printed; '' only if unconditional is true
+      review.scope.component_types   'all' or a list of the component types the statement covers
+      review.scope.routes            'all' or a list of the routes / conditions it covers
+      review.conditions_verbatim     the conditions as printed ('' if none)
+    It is product-wide only if it is unconditional and covers all component types and all routes. Contradictory or
+    incomplete metadata is rejected. A hedge word in the quote together with unconditional = true is treated as a
+    contradiction that needs re-review (a consistency guard, not the basis of the meaning)."""
+    if not isinstance(stmt, dict):
+        return False, 'not a structured statement'
+    if not product or stmt.get('product') != product:
+        return False, f"the statement names product {stmt.get('product')!r}, not {product!r}"
+    if stmt.get('kind') != 'none_required':
+        return False, "kind is not 'none_required'"
+    quote = str(stmt.get('quote') or '').strip()
+    if not quote:
+        return False, 'the quoted supplier wording is missing'
+    src = stmt.get('source') if isinstance(stmt.get('source'), dict) else {}
+    f = stmt.get('source_file') or src.get('file')
+    pg = stmt.get('page') if stmt.get('page') not in (None, '') else src.get('page')
+    if not f or pg in (None, ''):
+        return False, 'source file or page is missing'
+    if inline and stmt.get('status') != 'Reported':
+        return False, 'the inline statement is not status Reported'
+    rv = stmt.get('review')
+    if not isinstance(rv, dict):
+        return False, 'no reviewed assessment of the wording (review) is recorded'
+    scope = rv.get('scope')
+    missing = [k for k in ('reviewed_on', 'meaning') if not rv.get(k)]
+    missing += [k for k in ('unconditional', 'qualification_verbatim', 'conditions_verbatim') if k not in rv]
+    if not isinstance(scope, dict) or 'component_types' not in scope or 'routes' not in scope:
+        missing.append('scope.component_types / scope.routes')
+    if missing:
+        return False, 'review metadata incomplete: ' + ', '.join(missing)
+    if not isinstance(rv['unconditional'], bool) or not isinstance(rv['qualification_verbatim'], str):
+        return False, 'review metadata invalid: unconditional must be true/false and qualification_verbatim a string'
+    qual = rv['qualification_verbatim'].strip()
+    if rv['unconditional'] and qual:
+        return False, 'review metadata contradictory: unconditional is true but a qualification is recorded'
+    if not rv['unconditional'] and not qual:
+        return False, 'review metadata incomplete: unconditional is false but the qualification is not quoted'
+    if qual and qual.lower() not in quote.lower():
+        return False, 'review metadata contradictory: the recorded qualification is not part of the quoted wording'
+    if rv['unconditional'] and _HEDGE.search(quote):
+        return False, ('review metadata contradictory: the quoted wording contains a qualifying word '
+                       f'({_HEDGE.search(quote).group(0)!r}) although unconditional is true; re-review needed')
+    top = str(stmt.get('scope') or '').strip().lower()
+    full = scope['component_types'] == 'all' and scope['routes'] == 'all'
+    if top and (top == ALL_CO) != full:
+        return False, 'review metadata contradictory: the statement scope and the reviewed scope disagree'
+    if rv['meaning'] != 'no_co_component_required':
+        return False, f"reviewed meaning is {rv['meaning']!r}, not 'no_co_component_required'"
+    if not rv['unconditional']:
+        return False, f'the supplier wording is qualified ({qual!r}): not an unconditional statement'
+    if not full:
+        return False, (f"the statement is limited to component types {scope['component_types']!r} and routes {scope['routes']!r}: "
+                       'not a product-wide statement')
+    return True, ''
+
+
+def assess_route(route, fields, by_index):
+    """Assessment of one reviewed route against the current record.
+
+    Evidence (co_component_route_evidence.json): product, route_id, label, conditions (as printed), source_file, page,
+    quote, reviewed_on, association_basis, required (groups of recorded entries: combination 'all', 'one_of' for
+    supplier-stated alternatives, or 'unresolved' where the source does not say; each alternative is a path with the
+    fingerprint of the complete record), bound_records (other records the route relies on, e.g. its treat-rate entry),
+    unrecorded_requirements (requirements the source states that the record does not hold), requirement_list_confirmed
+    (true/false) with list_assessment, and limitations.
+
+    validity: current | stale_requires_re_review (a bound record changed or is gone) | invalid (metadata incomplete).
+    state (only for current evidence): route_complete | route_incomplete (a required group has no usable dose, or a
+    stated requirement has no recorded dose) | recorded_requirements_usable_list_not_confirmed."""
+    out = dict(route=route, groups=[], members=[], state='route_evidence_invalid', validity='invalid', why='')
+    need = ('route_id', 'source_file', 'page', 'quote', 'reviewed_on', 'list_assessment')
+    bad = [k for k in need if route.get(k) in (None, '')]
+    if not isinstance(route.get('required'), list) or not isinstance(route.get('requirement_list_confirmed'), bool):
+        bad.append('required / requirement_list_confirmed')
+    for g in route.get('required') if isinstance(route.get('required'), list) else []:
+        if not isinstance(g, dict) or g.get('combination') not in COMBINATIONS or not g.get('alternatives'):
+            bad.append(f"group {(g or {}).get('group')!r}")
+    if bad:
+        return dict(out, why='review metadata incomplete or invalid: ' + ', '.join(bad))
+    bound = list(route.get('bound_records') or []) + [a for g in route['required'] for a in g['alternatives']]
+    changed = []
+    for b in bound:
+        rec = record_at(fields, b.get('path'))
+        if rec is None or not b.get('sha256') or record_fingerprint(rec) != b['sha256']:
+            changed.append(str(b.get('path')))
+    idx = lambda a: int(_BOUND_PATH.fullmatch(a['path']).group(2))
+    members = [by_index[idx(a)] for g in route['required'] for a in g['alternatives']
+               if _BOUND_PATH.fullmatch(str(a.get('path') or '')) and idx(a) in by_index]
+    if changed:
+        return dict(out, members=members, state='route_evidence_stale', validity='stale_requires_re_review',
+                    why='the record changed since the review, or is no longer present: ' + ', '.join(sorted(set(changed))))
+    groups = []
+    for g in route['required']:
+        alts = [by_index.get(idx(a)) for a in g['alternatives']]
+        if any(a is None for a in alts):
+            return dict(out, why=f"group {g.get('group')!r} names an entry that is not a recorded requirement")
+        ok = [a['state'] == 'required_usable_dose' for a in alts]
+        st = ('combination_unresolved' if g['combination'] == 'unresolved' else
+              'satisfied' if (all(ok) if g['combination'] == 'all' else any(ok)) else 'no_usable_dose')
+        groups.append(dict(group=g.get('group'), combination=g['combination'], members=alts, state=st))
+    unrec = route.get('unrecorded_requirements') or []
+    if any(g['state'] == 'no_usable_dose' for g in groups) or unrec:
+        state = 'route_incomplete'
+        why = '; '.join([f"{g['group']}: no usable dose" for g in groups if g['state'] == 'no_usable_dose']
+                        + [f"{u.get('component')}: stated by the source, not recorded with a dose" for u in unrec])
+    elif route['requirement_list_confirmed'] and not any(g['state'] == 'combination_unresolved' for g in groups):
+        state, why = 'route_complete', 'every required group has a usable dose and the requirement list is confirmed by source review'
+    else:
+        state = 'recorded_requirements_usable_list_not_confirmed'
+        why = '; '.join([f"{g['group']}: whether the alternatives combine or substitute is not established" for g in groups
+                         if g['state'] == 'combination_unresolved']
+                        + ([] if route['requirement_list_confirmed'] else ['the requirement list is not confirmed complete: ' + route['list_assessment']]))
+    return dict(out, groups=groups, members=members, state=state, validity='current', why=why)
+
+
+def co_component_routes(fields, ctx=None):
+    """(route assessments, entries without any current route, all entries). A route exists only through reviewed
+    evidence; nothing is mapped from the role text. A recorded entry may be a member of several independent routes;
+    every membership is kept. Entries named only by stale or invalid evidence have no CURRENT association."""
+    ctx = ctx or Context()
+    entries = co_component_entries(fields, ctx)
+    by_index = {e['index']: e for e in entries}
+    routes = [assess_route(r, fields, by_index) for r in ctx.routes if r.get('product') == ctx.product]
+    current = {m['index'] for r in routes if r['validity'] == 'current' for m in r['members']}
+    return routes, [e for e in entries if e['index'] not in current], entries
+
+
+def none_required_statements(fields, ctx):
+    """[(statement, is inline, ok, why)] for the inline statement of the record and the reviewed sidecar statements of
+    this product. Both kinds pass through the same check against the current product."""
+    out = []
+    inline = fields.get('co_component_requirement_statement')
+    if inline is not None:
+        st = dict(inline, quote=inline.get('quote') or inline.get('printed_text')) if isinstance(inline, dict) else inline
+        out.append((st, True) + explicit_none_required(st, ctx.product, inline=True))
+    for x in ctx.statements:
+        if isinstance(x, dict) and x.get('product') == ctx.product and x.get('kind') == 'none_required':
+            out.append((x, False) + explicit_none_required(x, ctx.product))
+    return out
+
+
+def co_component_outcome(fields, ctx=None):
+    """Product-level outcome of the co-component requirement. Met only by (a) a current, evidenced route that is
+    complete, or (b) an explicit, reviewed, unconditional, product-wide statement that no co-component is required,
+    with no recorded requirement. The count of usable components is informational and establishes nothing. With no
+    target route specified this is not a statement about formulation readiness: the reason lists every route."""
+    ctx = ctx or Context()
+    rid = 'required_co_components'
+    routes, unassigned, entries = co_component_routes(fields, ctx)
+    usable = [e for e in entries if e['state'] == 'required_usable_dose']
+    info = (f'informational only: {len(usable)} of {len(entries)} recorded requirement(s) have a usable dose, which does not '
+            'establish the completeness of any route')
+    listing = '; '.join(f"{r['route'].get('route_id')}: {r['state']}" for r in routes)
+    complete = [r for r in routes if r['state'] == 'route_complete']
+    if complete:
+        r = complete[0]['route']
+        return _o(rid, MET, f"route {r['route_id']!r} is complete ({r['source_file']} p.{r['page']}); routes are assessed separately "
+                  f'and this is not a statement about any other route [{listing}] ({info})', rep='structured', basis='mass')
+    stmts = none_required_statements(fields, ctx)
+    good = [x for x in stmts if x[2]]
+    if good and not entries and not routes:
+        st = good[0][0]
+        src = st.get('source') if isinstance(st.get('source'), dict) else {}
+        return _o(rid, MET, 'explicit, reviewed, unconditional and product-wide statement that no co-component is required: '
+                  f"{st.get('source_file') or src.get('file')} p.{st.get('page') or src.get('page')}", rep='text')
+    if not entries and not routes:
+        inline_bad = [x for x in stmts if x[1]]
+        if inline_bad:
+            return _o(rid, META, 'co_component_requirement_statement is recorded but is not an explicit, reviewed, applicable "none '
+                      f'required" statement: {inline_bad[0][3]}')
+        if stmts:
+            st, _, _, why = stmts[0]
+            return _o(rid, UNKNOWN, f"no requirement is recorded; a reviewed supplier statement exists ({st.get('source_file')} "
+                      f"p.{st.get('page')}) but does not establish that none is required: {why}")
+        return _o(rid, UNKNOWN, 'no co-component requirement is recorded in the product record and no explicit statement that none is '
+                  'required is recorded. This describes the record, not the supplier documents: what was inspected is in '
+                  'co_component_routes.csv')
+    if not routes:
+        if entries and not usable:
+            bad = [e for e in entries if e['state'] == 'required_dose_not_usable']
+            if bad:
+                o = bad[0]['outcome']
+                return o._replace(requirement=rid, reason=f'{len(entries)} requirement(s) recorded, none with a usable dose, so no route '
+                                  f'that includes them can be complete ({o.reason})')
+            return _o(rid, ABSENT, f'{len(entries)} requirement(s) recorded, none with a dose: no route that includes them can be complete '
+                      '(the requirement is recorded; its dose is not)')
+        return _o(rid, ROUTE, f'route association not established by reviewed evidence for {len(unassigned)} of {len(entries)} recorded '
+                  f'requirement(s): the completeness of a route is not assessed ({info})')
+    open_states = ('recorded_requirements_usable_list_not_confirmed', 'route_evidence_stale', 'route_evidence_invalid')
+    if unassigned or any(r['state'] in open_states for r in routes):
+        return _o(rid, ROUTE, f'no reviewed route is complete, and at least one is not resolved [{listing}]'
+                  + (f'; {len(unassigned)} recorded requirement(s) have no current route association' if unassigned else '') + f' ({info})')
+    return _o(rid, ABSENT, f'every reviewed route is incomplete: a requirement documented for it has no usable dose [{listing}] ({info})')
 
 
 def additive_package_requirements(files, ctx=None):
@@ -531,19 +906,9 @@ def additive_package_requirements(files, ctx=None):
     out.append(_any('treat_rate_matrix', f.get('treat_rate_matrix'), lambda e: check_value(
         (e or {}).get('treat_rate_wt_pct'), 'treat_rate_matrix', ctx, mass_basis=True, path='treat_rate_matrix')))
     for k in ('permitted_base_oils_restrictions', 'route_selector_restrictions'):
-        out.append(check_block(f.get(k), k))
+        out.append(check_block(f.get(k), k, ctx))
 
-    entries = [e for e in f.get('required_co_components') or [] if isinstance(e, dict) and (e.get('name') or e.get('role'))
-               and (e.get('dose_wt_pct') or {}).get('status') not in (None, 'Missing')]
-    stmt = f.get('co_component_requirement_statement')
-    if entries:
-        out.append(_any('required_co_components', entries, lambda e: check_value(
-            e.get('dose_wt_pct'), 'required_co_components', ctx, mass_basis=True, path='required_co_components')))
-    elif isinstance(stmt, dict) and stmt.get('status') in OK_STATUS:
-        out.append(check_value(stmt, 'required_co_components', ctx, numeric=False))
-    else:
-        out.append(_o('required_co_components', APPL, 'architecture not established: no reported co-component and no sourced '
-                      'statement that none is required (I-8)'))
+    out.append(co_component_outcome(f, ctx))
 
     def formulation(e):
         gate = _status(e, 'published_formulations', allow_calc=False)

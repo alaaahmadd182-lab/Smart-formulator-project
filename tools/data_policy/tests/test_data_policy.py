@@ -69,6 +69,13 @@ class SourceSelection(unittest.TestCase):
                     # declared SDS fallback: the value must come from an SDS page and no technical alternate may exist
                     self.assertEqual(_cls(self.classes, n['source']), 'SDS', n['source'])
                     continue
+                if 'external technical source' in ch.get('change_label', ''):
+                    # declared selection of a registered manufacturer source outside the archive; the replaced SDS value
+                    # (a range, so expect.value is None) must be kept as an alternate
+                    self.assertEqual(_cls(self.classes, n['source']), 'EXTERNAL', n['source'])
+                    olds = [a for a in n.get('alternate_entries') or [] if (a.get('source') or {}).get('file') == ch['expect']['source']]
+                    self.assertTrue(olds and olds[-1].get('selection_note'), 'replaced SDS value is not kept as an alternate')
+                    continue
                 self.assertEqual(_cls(self.classes, n['source']), 'TECHNICAL', n['source'])
                 if ch['expect'].get('value') is None:  # previously Missing: there is no earlier value to keep
                     continue
@@ -439,6 +446,23 @@ class ExternalReview(unittest.TestCase):
                 self.assertEqual(c['outcome'], 'inconclusive_source_unavailable', (c['product'], c['property']))
         self.assertEqual({c['outcome'] for c in self.dec['cases'] if c['product'] == 'AFTON_HITEC_8788B'}, {'inconclusive_source_unavailable'})
 
+    def test_each_source_assessed_separately(self):
+        ER = self.ER
+        for k, e in self.dec['evidence'].items():
+            self.assertIn(e['authority'], ER.AUTHORITY, k)
+            self.assertIn(e['authenticity'], ER.AUTHENTICITY, k)
+            self.assertTrue(e['provenance'], k)
+        for r in self.rows:
+            self.assertIn(r['identity_status'], ER.IDENTITY)
+            self.assertTrue(r['applicability'])
+            if r['authenticity'] == 'not_obtained':
+                self.assertEqual((r['identity_status'], r['outcome']), ('not_assessed_source_not_obtained', 'inconclusive_source_unavailable'))
+        # a distributor-issued document is labelled as such; the aramcoULTRA 8 page names the exact grade, and the
+        # separate merge question ID-01 is neither resolved nor used as a restriction on that source
+        self.assertEqual(self.dec['evidence']['mogo_flyer_2025']['authority'], 'distributor_issued')
+        self.assertEqual({r['identity_status'] for r in self.rows if r['product'] == 'S_OIL_ARAMCO_ULTRA_8'}, {'exact_grade_named_merge_question_separate'})
+        self.assertNotIn('policy decision', json.dumps(self.dec))
+
     def test_stale_decision_is_an_error(self):
         c = self.dec['cases'][4]
         node = copy.deepcopy(self.ER.field(P.load_products(), c['product'], c['property']))
@@ -474,6 +498,225 @@ class ExternalReview(unittest.TestCase):
         for r in st:
             if r['external_outcome'] == 'inconclusive_source_unavailable':
                 self.assertEqual(r['review_state'], 'evidence_unavailable')
+
+
+class TechnicalSelectionKeepsDisagreement(unittest.TestCase):
+    """aramcoULTRA 8 (2026-11-11): selecting the technical-source value keeps the SDS value as an alternate with its
+    provenance, and never resolves, removes or duplicates the recorded disagreement."""
+
+    SDS = {'kv40': (42.0, 55.0, '42.0 - 55.0 cSt @ 40°C (ASTM D 445)'), 'kv100': (7.0, 7.5, '7.0 - 7.5 cSt @ 100°C (ASTM D 445)'),
+           'flash_point': (240, 260, '240 ~ 260°C (ASTM D 92)')}
+
+    @classmethod
+    def setUpClass(cls):
+        import source_selection as S
+        import verify_soil_table as V
+        cls.S, cls.V = S, V
+        cls.prods = P.load_products()
+        cls.files = cls.prods['S_OIL_ARAMCO_ULTRA_8']['files']
+
+    def _field(self, prop):
+        return next(d['fields'][prop] for d in self.files.values() if prop in d.get('fields', {}))
+
+    def test_selected_values_are_the_saved_manufacturer_table_cells(self):
+        with redirect_stdout(io.StringIO()):
+            self.assertEqual(self.V.main(), 0)
+        for path, sha in self.V.COPIES.items():
+            got, cap, header, rows = self.V.read_table(path)
+            self.assertEqual(got, sha)
+            self.assertTrue(cap.startswith('Typical Properties of aramcoULTRA Base Oil'))
+            j = header.index('aramcoULTRA 8')
+            for prop, (label, astm, printed, *_rest) in self.V.EXPECTED.items():
+                self.assertEqual((rows[label][1], rows[label][j]), (astm, printed), prop)
+
+    def test_selection_and_exact_provenance(self):
+        for prop, (label, astm, printed, value, unit, temp, method) in self.V.EXPECTED.items():
+            n = self._field(prop)
+            self.assertEqual((n['value'], n['unit'], n['test_temperature_c'], n['method'], n['value_kind'], n['qualifier'], n['status']),
+                             (value, unit, temp, method, 'typical', None, 'Reported'), prop)
+            self.assertEqual(n['printed_text'], f'{label}: {printed}')
+            self.assertEqual(n['source'], {'file': self.V.URL, 'page': None, 'revision_date': None}, 'the edition date stays unknown')
+            for sha in self.V.COPIES.values():
+                self.assertIn(sha, n['calculation_note'])
+            self.assertIn('edition date is unknown', n['calculation_note'])
+        self.assertEqual(self._field('flash_point')['flash_method'], 'COC')
+
+    def test_sds_value_kept_as_alternate_with_provenance(self):
+        for prop, (lo, hi, printed) in self.SDS.items():
+            alts = [a for a in self._field(prop)['alternate_entries'] if a['source']['file'] == 'DL2-14611.pdf']
+            self.assertEqual(len(alts), 1, prop)
+            a = alts[0]
+            self.assertEqual((a['value'], a['min'], a['max'], a['value_kind'], a['printed_text'], a['status']), (None, lo, hi, 'range', printed, 'Reported'))
+            self.assertEqual(a['source'], {'file': 'DL2-14611.pdf', 'page': 2, 'revision_date': '2018-09-07'})
+            self.assertIn('Not judged erroneous', a['selection_note'])
+
+    def test_disagreement_is_not_resolved_removed_or_duplicated(self):
+        t1 = next(d for d in self.files.values() if d.get('tier') == 1)
+        kv40 = [c for c in t1['conflicts'] if isinstance(c, dict) and 'kv40' in str(c.get('field'))]
+        self.assertEqual(len(kv40), 1, 'exactly the existing conflict: not removed, not duplicated')
+        c = kv40[0]
+        self.assertIsNot(c.get('resolved'), True)
+        self.assertFalse(c.get('final_resolution'))
+        self.assertEqual({v['file'] for v in c['values']}, {'DL2-14611.pdf', self.V.URL}, 'both sides stay recorded')
+        self.assertIn('Not resolved.]', c['note'])
+        self.assertIn('not resolved (2026-10 audit)', c['note'], 'the historical note text is kept')
+        # the selected typical really is outside the kept SDS range: the selection did not hide the disagreement
+        n = self._field('kv40')
+        a = next(x for x in n['alternate_entries'] if x['source']['file'] == 'DL2-14611.pdf')
+        self.assertLess(n['value'], a['min'])
+
+    def test_selection_mechanism_never_marks_a_conflict_resolved(self):
+        # apply() on a copy of the record as it was before the selection: the alternate is created and the conflict untouched
+        base = subprocess.run(['git', 'show', '43e7f8b:Products_json/Base_oils_json/S_OIL/S_OIL_ARAMCO_ULTRA_8/S_OIL_ARAMCO_ULTRA_8_tier1.json'],
+                              cwd=ROOT, capture_output=True, text=True, encoding='utf-8')
+        if base.returncode != 0:
+            self.skipTest('revision-3 commit not available')
+        prods = copy.deepcopy(self.prods)
+        rel = next(r for r, d in prods['S_OIL_ARAMCO_ULTRA_8']['files'].items() if d.get('tier') == 1)
+        before = json.loads(base.stdout)
+        prods['S_OIL_ARAMCO_ULTRA_8']['files'][rel] = copy.deepcopy(before)
+        self.assertIsNone(before['fields']['kv40']['value'])
+        spec = importlib.util.spec_from_file_location('integrate_products', os.path.join(ROOT, 'integrate_products.py'))
+        integ = importlib.util.module_from_spec(spec); spec.loader.exec_module(integ)
+        changed, errors, _log = self.S.apply(prods, integ)
+        self.assertEqual(errors, [])
+        after = prods['S_OIL_ARAMCO_ULTRA_8']['files'][rel]
+        self.assertEqual(after['fields']['kv40']['value'], 41.1)
+        self.assertEqual(after['fields']['kv40']['alternate_entries'][-1]['min'], 42.0)
+        self.assertEqual(len(after['conflicts']), len(before['conflicts']))
+        for old, new in zip(before['conflicts'], after['conflicts']):
+            self.assertEqual({k: v for k, v in new.items() if k != 'note'}, {k: v for k, v in old.items() if k != 'note'})
+            self.assertTrue(new['note'].startswith(old['note']))
+
+    def test_no_longer_pending_and_other_state_preserved(self):
+        self.assertFalse([p for p, *_ in self.S.PENDING if p == 'S_OIL_ARAMCO_ULTRA_8'])
+        self.assertFalse([p for p, *_ in self.S.PENDING_FIELDS if p == 'S_OIL_ARAMCO_ULTRA_8'])
+        self.assertIn('S_OIL_ULTRA_S_8', self.prods, 'both product records stay separate')
+        out = subprocess.run(['git', 'diff', '--name-only', '43e7f8b', '--', 'Products_json/Base_oils_json/S_OIL/S_OIL_ULTRA_S_8',
+                              'reconciliation'], cwd=ROOT, capture_output=True, text=True, encoding='utf-8')
+        if out.returncode == 0:
+            self.assertEqual(out.stdout.strip(), '', 'the Ultra-S 8 record and the identity review (ID-01) are unchanged')
+        self.assertEqual(TH.APPROVAL, 'proposed')
+        self.assertEqual(REQ.REQUIREMENTS_VERSION, 'mandatory-tier1-2026-11-10.6')
+
+
+class ExternalComparisons(unittest.TestCase):
+    """The comparison inventory includes registered external technical sources; every external-selected value is
+    accounted for; unavailable evidence is never treated as verified; no duplicate pairs; point vs range is a check."""
+
+    U8 = 'S_OIL_ARAMCO_ULTRA_8'
+    SOIL = 'https://www.s-oil.com/en/energy/LubeBaseOil.aspx'
+
+    @classmethod
+    def setUpClass(cls):
+        import external_comparison_accounting as ACC
+        cls.ACC = ACC
+        with redirect_stdout(io.StringIO()):
+            cls.acc_rc = ACC.main()
+
+        def read(name):
+            with open(os.path.join(P.REPORTS, 'data_policy', name), encoding='utf-8') as fh:
+                return list(csv.DictReader(fh))
+        cls.inv, cls.acc, cls.ledger = read('tds_sds_comparisons.csv'), read('external_comparison_accounting.csv'), read('source_coverage_ledger.csv')
+        cls.reg, cls.state = INV.load_external()
+
+    def _row(self, prop):
+        hits = [r for r in self.inv if r['product'] == self.U8 and r['property'] == prop and r['tds_file'] == self.SOIL]
+        self.assertEqual(len(hits), 1, f'{prop}: exactly one pair')
+        return hits[0]
+
+    # ---- external-source inclusion
+    def test_external_technical_pairs_are_in_the_inventory(self):
+        ext = [r for r in self.inv if r['tds_source'] == 'external']
+        self.assertGreaterEqual({(r['product'], r['property']) for r in ext},
+                                {(self.U8, 'kv40'), (self.U8, 'kv100'), (self.U8, 'flash_point'), ('RICHFUL_RF6078', 'density')})
+        self.assertGreater(len({r['product'] for r in ext}), 1, 'not restricted to aramcoULTRA 8')
+        for r in ext:
+            self.assertEqual(INV.external_class(r['tds_file'], self.reg), 'TECHNICAL', 'only registered technical URLs are paired')
+            self.assertTrue(r['external_evidence'])
+            self.assertEqual(r['sds_source'], 'archive')
+
+    def test_pair_keeps_identity_conditions_and_provenance(self):
+        r = self._row('kv40')
+        self.assertEqual((r['tds_value'], r['tds_value_kind'], r['tds_unit'], r['tds_temp'], r['tds_method']), ('41.1', 'typical', 'cst', '40.0', 'ASTMD445'))
+        self.assertEqual((r['sds_file'], r['sds_page'], r['sds_value_kind'], r['sds_unit'], r['sds_temp'], r['sds_method'], r['sds_revision_date']),
+                         ('DL2-14611.pdf', '2', 'range', 'cst', '40.0', 'ASTMD445', '2018-09-07'))
+        self.assertEqual(r['tds_revision_date'], '', 'the edition date of the page stays unknown')
+        self.assertEqual(r['external_evidence'], 'copy read in the external review')
+
+    def test_unregistered_url_and_external_sds_are_not_technical(self):
+        self.assertIsNone(INV.external_class('https://example.com/not-registered.pdf', self.reg))
+        self.assertEqual(INV.external_class('https://luberefapp.s3-accelerate.amazonaws.com/documents/prima230-1664376579.pdf', self.reg), 'SDS')
+
+    # ---- point versus range
+    def test_ultra8_point_versus_range(self):
+        k40, k100, fp = self._row('kv40'), self._row('kv100'), self._row('flash_point')
+        for r in (k40, k100, fp):
+            self.assertEqual(r['comparability'], 'bound check only')
+            self.assertEqual((r['abs_diff'], r['rel_diff_pct'], r['within_rounding']), ('', '', ''), 'a point is checked against a range, not differenced')
+        self.assertEqual(k40['bound_satisfied'], 'false')
+        self.assertIn('retain for review', k40['proposed_screen'])
+        for r in (k100, fp):
+            self.assertEqual(r['bound_satisfied'], 'true')
+            self.assertIn('not evidence of agreement', r['proposed_screen'])
+
+    def test_point_versus_range_rule(self):
+        pt = dict(value=41.1, unit='cSt', test_temperature_c=40, method='ASTM D445', value_kind='typical')
+        rng = dict(value=None, min=42.0, max=55.0, value_kind='range', unit='cSt', test_temperature_c=40, method='ASTM D445')
+        r = INV.compare('kv40', pt, rng)
+        self.assertEqual((r['comparability'], r['bound_satisfied']), ('bound check only', 'false'))
+        self.assertNotIn('abs_diff', r)
+        self.assertEqual(INV.compare('kv40', dict(pt, value=45.0), rng)['bound_satisfied'], 'true')
+
+    # ---- duplicates
+    def test_no_duplicate_pairs(self):
+        keys = [(r['product'], r['property'], r['tds_file'], r['tds_value'], r['sds_file'], r['sds_value']) for r in self.inv]
+        self.assertEqual(len(keys), len(set(keys)))
+        # the two saved copies of the S-OIL page are one source: one URL, one state, one row per property
+        with open(INV.EXTERNAL_DECISIONS, encoding='utf-8') as fh:
+            ev = json.load(fh)['evidence']
+        self.assertEqual(ev['soil_page_wayback']['registry_url'], ev['soil_page_live']['registry_url'])
+        # KV40 is recorded in conflicts[] and as an alternate entry: one inventory row, one conflict record
+        o = self._row('kv40')['origin']
+        self.assertIn('conflicts[]', o); self.assertIn('alternate entry', o)
+        t1 = next(d for d in P.load_products()[self.U8]['files'].values() if d.get('tier') == 1)
+        self.assertEqual(len([c for c in t1['conflicts'] if 'kv40' in str(c.get('field'))]), 1)
+
+    # ---- unavailable evidence
+    def test_unobtained_source_is_never_verified(self):
+        afton = next(u for u in self.reg if 'HiTEC-12204L' in u)
+        self.assertEqual(INV.external_state(afton, self.reg, self.state), INV.NOT_OBTAINED)
+        r = INV.apply_evidence_state(dict(comparability='comparable', reason='', abs_diff=0.0, rel_diff_pct=0.0, within_rounding='true'), [INV.NOT_OBTAINED, ''])
+        self.assertEqual(r['comparability'], 'comparability unknown')
+        self.assertNotIn('abs_diff', r); self.assertNotIn('within_rounding', r)
+        self.assertIn('pending', TH.screen('kv100', r['comparability'], None, None, '', ''))
+        self.assertFalse([x for x in self.inv if INV.NOT_OBTAINED in x['external_evidence'] and x['comparability'] != 'comparability unknown'])
+        # accounting: an unobtained source is unresolved even if pairs exist, and never 'paired'
+        n = dict(value=190, status='Reported')
+        st, _ = self.ACC.decide(n, afton, 'kv100', 'TECHNICAL', INV.NOT_OBTAINED, None, [dict(sds_file='x', sds_page='1', comparability='comparable')], [], None, None)
+        self.assertEqual(st, 'unresolved_external_source_not_obtained')
+        for x in self.acc:
+            if x['evidence_state'] == INV.NOT_OBTAINED:
+                self.assertEqual(x['comparison_status'], 'unresolved_external_source_not_obtained', (x['product'], x['field']))
+
+    def test_every_external_selected_value_is_accounted_for(self):
+        self.assertEqual(self.acc_rc, 0)
+        want = {(r['product'], r['property']) for r in self.ledger if r['selection_status'] == 'external_selected'}
+        got = {(r['product'], r['property']) for r in self.acc if r['ledger_selection_status'] == 'external_selected'}
+        self.assertEqual(want, got)
+        for x in self.acc:
+            self.assertIn(x['comparison_status'], self.ACC.STATUSES)
+            self.assertNotEqual(x['comparison_status'], 'unresolved_not_reviewed')
+            self.assertTrue(x['reason'])
+            self.assertEqual(x['comparison_status'] == 'paired', int(x['inventory_pairs']) > 0 and x['evidence_state'] != INV.NOT_OBTAINED
+                             and x['external_class'] == 'TECHNICAL', (x['product'], x['field']))
+
+    def test_selection_and_disagreement_stay_separate(self):
+        # the inventory records the relation only: the selected values and the conflict state are what the selection tests fixed
+        t1 = next(d for d in P.load_products()[self.U8]['files'].values() if d.get('tier') == 1)
+        self.assertEqual(t1['fields']['kv40']['value'], 41.1)
+        self.assertIsNot(next(c for c in t1['conflicts'] if 'kv40' in str(c.get('field'))).get('resolved'), True)
+        self.assertEqual(TH.APPROVAL, 'proposed')
 
 
 class CheckRunner(unittest.TestCase):

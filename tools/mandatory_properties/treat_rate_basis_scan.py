@@ -17,6 +17,11 @@ import policy_lib as P  # noqa: E402
 MASS = re.compile(r'\bwt\.?\s*%|%\s*wt\b|\bweight\b|\bby\s+mass\b|\bmass\s*%|%\s*\(?m/m\)?|\bw/w\b|\bwt\b', re.I)
 VOL = re.compile(r'\bvol\.?\s*%|%\s*vol\b|\bvolume\b|\bv/v\b|\bby\s+vol', re.I)
 MASS_BASIS = re.compile(r'wt|mass|weight|m/m|w/w', re.I)
+# Policy 3 (2026-11-11): a document-wide convention is a statement, anywhere in the document, of the basis of its
+# percentages ("all percentages are by weight", "treat rates in mass %"). Lines matching CONVENTION are leads to read.
+CONVENTION = re.compile(r'(?:all|unless|otherwise|expressed|given|quoted|stated).{0,60}(?:percent|%)'
+                        r'|(?:percent|%).{0,40}(?:by weight|by mass|by volume|weight basis|mass basis|volume basis)'
+                        r'|(?:treat|dosage|dose).{0,50}(?:wt\.?\s?%|%\s?wt|mass\s?%|%\s?m/m|w/w|vol\.?\s?%|%\s?vol|v/v)', re.I)
 
 
 def targets(prods):
@@ -46,10 +51,10 @@ def main(argv=None):
     for pid, rel, path, vo in targets(prods):
         s = vo.get('source') or {}
         f, pg = s.get('file'), s.get('page')
-        text = None
+        text, pages = None, []
         if f and not str(f).startswith('http'):
             try:
-                pages = arch.pages(f)
+                pages = arch.pages(f) or []
                 n = int(re.findall(r'\d+', str(pg))[0]) if pg not in (None, '') else None
                 text = pages[n - 1] if n and n <= len(pages) else None
             except Exception as e:  # unavailable document: recorded, not hidden
@@ -57,15 +62,24 @@ def main(argv=None):
         lines = [ln.strip() for ln in (text or '').splitlines() if ln.strip()]
         mass = [ln for ln in lines if MASS.search(ln)]
         vol = [ln for ln in lines if VOL.search(ln)]
+        conv = [f'p.{i + 1}: {ln.strip()}' for i, t in enumerate(pages) for ln in (t or '').splitlines() if CONVENTION.search(ln)]
+        searched = sum(1 for t in pages if (t or '').strip())
         rows.append(dict(product=pid, file=rel.rsplit('/', 1)[1], path=path, value=vo.get('value'), unit=vo.get('unit'),
                          printed_text=vo.get('printed_text'), source_file=f, page=pg,
                          page_text='available' if text else ('external URL' if str(f).startswith('http') else 'no text layer or unavailable'),
-                         mass_lines=' || '.join(mass[:6]), volume_lines=' || '.join(vol[:6])))
+                         mass_lines=' || '.join(mass[:6]), volume_lines=' || '.join(vol[:6]),
+                         document_pages_with_text=f'{searched} of {len(pages)}' if pages else '',
+                         document_wide_convention_leads=' || '.join(conv[:6])))
     os.makedirs(os.path.dirname(a.out), exist_ok=True)
     with open(a.out, 'w', encoding='utf-8', newline='') as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0]) if rows else ['product'], lineterminator='\n')
         w.writeheader(); w.writerows(rows)
     print(f'{len(rows)} treat-rate values without a mass basis in the recorded unit; {len({r["product"] for r in rows})} products')
+    docs = {r['source_file']: r for r in rows}
+    print(f'source documents: {len(docs)}; with a document-wide convention lead: '
+          f'{sum(1 for r in docs.values() if r["document_wide_convention_leads"])}; external URL: '
+          f'{sum(1 for r in docs.values() if r["page_text"] == "external URL")}; without any text layer: '
+          f'{sum(1 for r in docs.values() if r["document_pages_with_text"].startswith("0 of"))}')
     return 0
 
 

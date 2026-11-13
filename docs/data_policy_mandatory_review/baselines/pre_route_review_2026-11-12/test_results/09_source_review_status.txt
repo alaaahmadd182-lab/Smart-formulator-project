@@ -1,0 +1,18 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/source_review_status.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+return code: 0
+expectation: zero
+verdict: pass
+duration: 0.5 s
+
+===== stdout =====
+ledger rows (product x property): 2175
+  archive_lead_review_complete: 183 (mandatory 61)
+  external_review_complete: 21 (mandatory 16)
+  evidence_unavailable: 181 (mandatory 81)
+  evidence_inconclusive: 7 (mandatory 2)
+  not_individually_reviewed: 1783 (mandatory 745)
+
+===== stderr =====
+

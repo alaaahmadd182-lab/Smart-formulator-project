@@ -1,0 +1,35 @@
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/audit/review_2026-11-02/verify_revision.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+return code: 1
+expectation: by_design_nonzero
+verdict: expected failure (by design)
+duration: 0.7 s
+
+===== stdout =====
+PASS same 180 IDs in the same order
+PASS new CSV columns are exactly ['changed_in_v5', 'later_state_2026_10_31']
+PASS every changed CSV cell is a declared change (151 cells in 120 findings); unexplained: []
+PASS every declared change appears in the CSV; missing: []
+PASS later-state column filled for exactly CF-136, 142, 143, 144, 159, 180
+PASS version 4 preserved at e6617ca; the working tree carries the dated version-5 header
+PASS DL2-13200.pdf p.1: the pour-point row (C12 Dimer column -53 (-63)) prints ASTM D 5950 as its method
+PASS correction log: the "only in the 2012 sheet" claim is corrected, with an errata entry
+FAIL protected files unchanged against 545fd3d (product JSON, templates, workbook, source ZIP, registry, curated log, evidence, scripts): ['Coverage_Matrix.xlsx', 'Products_json/Additive_packages_json/Infineum/INFINEUM_D3424/tier2_numeric_contribution.json', 'Products_json/Additive_packages_json/Lubrizol/LUBRIZOL_CV2301/tier2_numeric_contribution.json', 'Products_json/Additive_packages_json/Richful/RICHFUL_RF6066/tier2_numeric_contribution.json', 'Products_json/Additive_packages_json/Richful/RICHFUL_RF6069/tier2_numeric_contribution.json'] ['M', 'Coverage_Matrix.xlsx', 'M', 'Products_json/Base_oils_json/S_OIL/S_OIL_ARAMCO_ULTRA_8/S_OIL_ARAMCO_ULTRA_8_tier1.json', 'M']
+PASS 11 evidence files = the manifest rows (11 files, 11 rows)
+PASS SHA-256 matches manifest: ADNOC_BaseOil_Spec_GroupII_GroupIII__wayback_20220815185412.pdf
+PASS SHA-256 matches manifest: API_1509_21st_Edition_Annex_E.pdf
+PASS SHA-256 matches manifest: Afton_HiTEC-5748_PDS_05-23__wayback_20241005085229.pdf
+PASS SHA-256 matches manifest: Afton_HiTEC-5748_PDS_07-11__wayback_20120503020512.pdf
+PASS SHA-256 matches manifest: CPChem_Synfluid_Dimer_C12_TDS__cpchem_2020-12.pdf
+PASS SHA-256 matches manifest: PetroCanada_PURITY_LUB3213E_2023-03__wayback_20251215051152.pdf
+PASS SHA-256 matches manifest: PubChem_substance_synonyms_64742-54-7.json
+PASS SHA-256 matches manifest: PubChem_substance_synonyms_64742-55-8.json
+PASS SHA-256 matches manifest: Richful_productId105__api_2026-10-30.json
+PASS SHA-256 matches manifest: SOIL_LubeBaseOil__wayback_20260610070302.html
+PASS SHA-256 matches manifest: SOIL_LubeBaseOil_live_2026-10-30.html
+
+OVERALL: 1 FAILED
+
+===== stderr =====
+

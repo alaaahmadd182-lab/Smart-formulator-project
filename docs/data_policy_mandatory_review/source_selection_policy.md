@@ -75,3 +75,7 @@ The SDS values stay as alternates, and the three conflicts are reopened. **This 
 - It does not mark any value as verified. The unresolved-evidence distinction of the v5 audit (verified, text presence only, unresolved, not consulted) is unchanged.
 - It does not change `status`, which stays `Reported`. It does not change the original source documents, the templates or the historical audit.
 - It does not resolve TDS–SDS conflicts. Screening of ordinary differences is Rule 2, and its thresholds await review ([threshold_proposal.md](threshold_proposal.md)).
+
+## Update of 2026-11-11: S_OIL_ARAMCO_ULTRA_8
+
+The table above lists S_OIL_ARAMCO_ULTRA_8 as pending ("external web table vs SDS ranges"). That is superseded. External evidence is admissible, and each source is assessed on authority, authenticity, exact product identity, applicability and provenance. The S-OIL manufacturer table names aramcoULTRA 8, so its typical values for KV40, KV100 and flash point are selected under the technical-source-first rule, with the SDS ranges kept as alternates. The KV40 disagreement with the SDS stays an unresolved conflict: a disagreement is recorded and assessed separately and is not a selection veto. The edition date of the page is unknown. Declared selections are now 42, and pending fields 34.

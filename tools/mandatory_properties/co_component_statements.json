@@ -1,0 +1,57 @@
+{
+  "description": "Reviewed supplier statements about co-component requirements. quote: the supplier wording exactly as printed. review: the explicit reviewed assessment that requirements.explicit_none_required needs: reviewed_on, meaning, unconditional (true/false), qualification_verbatim (the supplier's qualification as printed; '' only if unconditional), scope (component_types and routes: 'all' or a list) and conditions_verbatim. A statement makes the product-level requirement met only if it is for this product, its reviewed meaning is 'no_co_component_required', it is unconditional, and it covers all component types and all routes. A missing field proves nothing. An empty record is never recorded here as supplier silence.",
+  "statements": [
+    {
+      "product": "AFTON_HITEC_12210",
+      "kind": "none_required",
+      "scope": "pour point depressant (PPD)",
+      "source_file": "DL2-11418.pdf",
+      "page": 2,
+      "quote": "HiTEC® 12210 already contains a pour point depressant (PPD) so no supplemental PPD should be needed to meet low temperature properties.",
+      "conditions": "as printed: for the package's listed API CK-4 / FA-4 grades; says nothing about a viscosity modifier or booster",
+      "read_on": "text layer, 2026-11-11",
+      "review": {
+        "reviewed_on": "2026-11-12",
+        "meaning": "no_supplemental_ppd_expected",
+        "unconditional": false,
+        "qualification_verbatim": "should be needed",
+        "scope": {
+          "component_types": [
+            "pour point depressant (PPD)"
+          ],
+          "routes": [
+            "the API CK-4 and API FA-4 grades listed with the statement"
+          ]
+        },
+        "conditions_verbatim": "to meet low temperature properties",
+        "note": "The supplier says the package already contains a PPD 'so no supplemental PPD should be needed'. This is a qualified expectation about one component type. It says nothing about a viscosity modifier, which the same page names."
+      }
+    },
+    {
+      "product": "AFTON_HITEC_12210M",
+      "kind": "none_required",
+      "scope": "pour point depressant (PPD)",
+      "source_file": "DL2-15568.pdf",
+      "page": 2,
+      "quote": "HiTEC® 12210M already contains a pour point depressant (PPD) so no supplemental PPD should be needed to meet low temperature properties.",
+      "conditions": "as printed: for the package's listed API CK-4 / FA-4 grades; says nothing about a viscosity modifier or booster",
+      "read_on": "text layer, 2026-11-11",
+      "review": {
+        "reviewed_on": "2026-11-12",
+        "meaning": "no_supplemental_ppd_expected",
+        "unconditional": false,
+        "qualification_verbatim": "should be needed",
+        "scope": {
+          "component_types": [
+            "pour point depressant (PPD)"
+          ],
+          "routes": [
+            "the API CK-4 and API FA-4 grades listed with the statement"
+          ]
+        },
+        "conditions_verbatim": "to meet low temperature properties",
+        "note": "The supplier says the package already contains a PPD 'so no supplemental PPD should be needed'. This is a qualified expectation about one component type. It says nothing about a viscosity modifier, which the same page names."
+      }
+    }
+  ]
+}

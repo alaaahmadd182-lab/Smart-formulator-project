@@ -5,7 +5,7 @@
 - `tools/data_policy/thresholds.py` keeps `APPROVAL = 'proposed'` (version `thresholds-2026-11-10-proposed.2`).
 
 Data and code:
-- Inventory: [reports/data_policy/tds_sds_comparisons.csv](../../reports/data_policy/tds_sds_comparisons.csv) (141 comparison rows; 71 of them pair an SDS value recorded in the evidence review with the record's technical value: 70 product × property cases, S_OIL_ULTRA_S_3 flash point having two SDSs), from `python tools/data_policy/tds_sds_inventory.py`.
+- Inventory: [reports/data_policy/tds_sds_comparisons.csv](../../reports/data_policy/tds_sds_comparisons.csv) (151 comparison rows; 10 have a registered external technical source on the technical side; 71 pair an SDS value recorded in the evidence review with the record's technical value: 70 product × property cases, S_OIL_ULTRA_S_3 flash point having two SDSs), from `python tools/data_policy/tds_sds_inventory.py`.
 - Sensitivity: [reports/data_policy/threshold_sensitivity.csv](../../reports/data_policy/threshold_sensitivity.csv).
 - Coverage of the TDS–SDS checking: [reports/data_policy/source_coverage_ledger.csv](../../reports/data_policy/source_coverage_ledger.csv). See section 6 for what the inventory does **not** cover.
 
@@ -18,22 +18,40 @@ Data and code:
 
 ## 1. What is compared (step A)
 
-A comparison pairs one technical-document value with one SDS value for the same product and property. The pairs come from four places, duplicates merged:
+A comparison pairs one technical-document value with one SDS value for the same product and property. The pairs come from five places, duplicates merged:
 - v5 audit findings;
 - `conflicts[]` entries;
 - a selected value paired with an `alternate_entries` item of the other class;
-- **(revision 3)** SDS values recorded in the evidence review (`lead_review_decisions.json`, 'comparisons'), each paired with the record's selected technical value.
+- **(revision 3)** SDS values recorded in the evidence review (`lead_review_decisions.json`, 'comparisons'), each paired with the record's selected technical value;
+- **(2026-11-11)** registered external technical sources. A URL in `source_registry.json` is treated like an archive document: technical, or SDS when its registry title names a safety data sheet. An unregistered URL is never paired. Each selected external technical value is also paired with every SDS value the inventory already holds for the same product and property.
+
+One URL is one source, however many saved copies of it exist, and a pair found both in `conflicts[]` and through an alternate entry is one row. If no copy of an external source could be obtained, its pairs are "comparability unknown" whatever the numbers. A count below is a count of document pairs: when several technical documents print the same value, each gives its own pair with the SDS.
 
 | Property group | Comparisons | Comparable | Bound / range check | Comparability unknown | Not comparable |
 |---|---:|---:|---:|---:|---:|
-| viscosity (KV40, KV100) | 19 | 15 | 2 | 2 | 0 |
-| density, specific gravity | 46 | 13 | 1 | 31 | 1 |
-| flash point | 59 | 10 | 42 | 5 | 2 |
+| viscosity (KV40, KV100) | 24 | 17 | 4 | 3 | 0 |
+| density, specific gravity | 49 | 15 | 1 | 32 | 1 |
+| flash point | 60 | 10 | 43 | 5 | 2 |
 | pour point | 12 | 6 | 6 | 0 | 0 |
 | viscosity index | 2 | 0 | 2 | 0 | 0 |
 | Noack volatility | 1 | 1 | 0 | 0 | 0 |
-| TBN | 2 | 2 | 0 | 0 | 0 |
-| **Total** | **141** | **47** | **53** | **38** | **3** |
+| TBN | 3 | 3 | 0 | 0 | 0 |
+| **Total** | **151** | **52** | **56** | **40** | **3** |
+
+The 10 pairs with an external technical side (added 2026-11-11; the other 141 rows are unchanged):
+
+| Product · property | External technical value | SDS value | Result |
+|---|---|---|---|
+| S_OIL_ARAMCO_ULTRA_8 · KV40 | 41.10 cSt at 40 °C, D445, typical (S-OIL table) | range 42.0–55.0 cSt at 40 °C, D445 (2018) | bound check: **outside the range**; retained for review. This is the existing unresolved conflict, one row |
+| S_OIL_ARAMCO_ULTRA_8 · KV100 | 7.1 cSt at 100 °C, D445, typical | range 7.0–7.5 cSt at 100 °C, D445 | bound check: numerically inside the range; logically compatible, not evidence of agreement |
+| S_OIL_ARAMCO_ULTRA_8 · flash point | 250 °C, COC, D92, typical | range 240–260 °C, D92 | bound check: numerically inside the range; logically compatible, not evidence of agreement |
+| RICHFUL_RF6078 · density | 972 kg/m³ at 20 °C (Richful page) | 975 kg/m³ at 20 °C | comparable: 0.003 g/cm³ |
+| RICHFUL_RF6066 · density (2 pairs) | 988 kg/m³ at 20 °C (Richful page) | 0.988 g/cm³ at 20 °C; 990 kg/m³, no temperature | within print rounding; comparability unknown (temperature missing) |
+| RICHFUL_RF6066 · KV100 (2 pairs) | 185 mm²/s at 100 °C | 200 mm²/s; "Viscosity, dynamic: 185 mm²/s" | comparable: 8.11 %; comparability unknown (label and unit inconsistent) |
+| RICHFUL_RF6066 · TBN | 108 mg KOH/g | 106 mg KOH/g | comparable: 2 mg KOH/g; no threshold proposed |
+| RICHFUL_RF6069 · KV100 | 142 mm²/s at 100 °C | 142 mm²/s at 100 °C, D445 | within print rounding |
+
+The Richful web pages for RF6066 and RF6069 are registry-verified (checked 2026-10-22) but were not re-read in the external review; the column `external_evidence` says so for each row.
 
 There are no TDS–SDS comparisons for CCS, the elements, sulfated ash or sulfur.
 
@@ -101,19 +119,19 @@ From `threshold_sensitivity.csv`. "At/above" is the number of pairs retained for
 | Property | Pairs (difference) | Candidate thresholds → pairs below / at-or-above |
 |---|---|---|
 | KV40 | SpectraSyn 2: 4.0 %; ETRO 6+: 6.88 % | 1–3 %◆: 0 / 2 · 5 %: 1 / 1 · 7 %, 10 %: 2 / 0 |
-| KV100 | 0.68, 1.52, 6.25, 8.11, 11.89, 20.34 % (Richful) | 1 %: 1 / 5 · 2–5 %◆: 2 / 4 · 7 %: 3 / 3 · 10 %: 4 / 2 |
-| Density | 0.002, 0.003, 0.003 g/cm³ (Richful) | 0.001, 0.002: 0 / 3 · 0.003: 1 / 2 · 0.005◆, 0.010: 3 / 0 |
+| KV100 | 0.68, 1.52, 6.25, 8.11, 8.11, 11.89, 20.34 % (Richful; the second 8.11 % is the RF6066 web-page value against the same SDS) | 1 %: 1 / 6 · 2–5 %◆: 2 / 5 · 7 %: 3 / 4 · 10 %: 5 / 2 |
+| Density | 0.002, 0.003, 0.003, 0.003 g/cm³ (Richful; the third 0.003 is the RF6078 web-page value against the same SDS) | 0.001, 0.002: 0 / 4 · 0.003: 1 / 3 · 0.005◆, 0.010: 4 / 0 |
 | Specific gravity | none comparable: the reference pairs are not printed on both sides (all pending) | — |
 | Flash point | 1, 3.1, 4, 5, 7, 7, 28, 31 °C (Chevron PAO/mPAO, ERGON L350E, SpectraSyn Elite 150) | 3 °C: 1 / 7 · 5 °C: 3 / 5 · 8–20 °C◆: 6 / 2 · 30 °C: 7 / 1 |
 | Pour point | no comparable pair outside print rounding | — |
 
-**Re-checked 2026-11-11 against the current inventory** (141 rows; 47 comparable; 26 of them within print rounding). The 21 comparable pairs outside rounding are exactly the ones in the table above, plus one Noack pair (ETRO 6+, 7.0 %) and one TBN pair (RF6066, 1.85 %), which have no proposed threshold. The external-source review of 2026-11-11 added no TDS–SDS pair: the values it re-read are either selected values without an SDS value for the same property, or external alternatives that are not in the records (the logical incompatibilities it found are `conflicts[]` entries, not inventory rows: aramcoPRIMA 230 Noack, technical vs technical, is new; aramcoULTRA 8 KV40, external page vs SDS range, is the existing 2026-10 audit conflict, which is not an inventory row either). The conclusions below therefore still hold.
+**Re-checked 2026-11-11 against the extended inventory** (151 rows; 52 comparable; 28 of them within print rounding). The 24 comparable pairs outside rounding are the ones in the table above (KV40 2, KV100 7, density 4, flash point 8), plus one Noack pair (ETRO 6+, 7.0 %) and two TBN pairs (RF6066, 1.85 % each), which have no proposed threshold. The external pairs added one KV100 pair above every candidate threshold up to 7 % and one density pair of 0.003 g/cm³; both repeat a difference already in the table, through a second technical source. The three aramcoULTRA 8 pairs are bound checks and enter no threshold. The conclusions below are unchanged.
 
 What the sensitivity shows:
 - **KV100.** Any threshold from just above 1.52 % up to 6.25 % gives the same split.
 - **Flash point.** Any threshold from just above 7 °C up to 28 °C gives the same split.
 - **KV40.** The split depends on whether the threshold is above 4 %: SpectraSyn 2 is 5.0 vs 5.2 cSt, with the SDS by an in-house method.
-- **Density.** Any threshold above 0.003 g/cm³ puts all three pairs below it, so the data give no reason to prefer 0.005 over 0.004 or 0.010.
+- **Density.** Any threshold above 0.003 g/cm³ puts all four pairs below it, so the data give no reason to prefer 0.005 over 0.004 or 0.010.
 
 ## 5. Preview: what approval would change (nothing applied)
 

@@ -33,11 +33,20 @@ STEPS = [  # (name, argv or builtin, expectation, required text in the output)
     ('association_review', ['tools/data_policy/association_review.py'], 'zero', None),
     ('lead_review', ['tools/data_policy/lead_review.py'], 'zero', None),
     ('external_review', ['tools/data_policy/external_review.py'], 'zero', None),
+    ('external_comparison_accounting', ['tools/data_policy/external_comparison_accounting.py'], 'zero', None),
     ('source_review_status', ['tools/data_policy/source_review_status.py'], 'zero', None),
+    ('verify_soil_table', ['tools/data_policy/verify_soil_table.py'], 'zero', None),
     ('treat_rate_basis_scan', ['tools/mandatory_properties/treat_rate_basis_scan.py'], 'zero', None),
     ('co_component_evidence_scan', ['tools/mandatory_properties/co_component_evidence_scan.py'], 'zero', None),
     ('build_eligibility', ['tools/mandatory_properties/build_eligibility.py'], 'zero', None),
     ('build_eligibility_check', ['tools/mandatory_properties/build_eligibility.py', '--check'], 'zero', None),
+    ('build_readiness', ['tools/mandatory_properties/build_readiness.py'], 'zero', None),
+    ('build_readiness_check', ['tools/mandatory_properties/build_readiness.py', '--check'], 'zero', r'up to date'),
+    ('compare_eligibility', ['tools/mandatory_properties/compare_eligibility.py'], 'zero', r'interface columns identical: True'),
+    ('compare_eligibility_pre_route_review', ['tools/mandatory_properties/compare_eligibility.py',
+      '--before-eligibility', 'docs/data_policy_mandatory_review/baselines/pre_route_review_2026-11-12/reports/mandatory_properties/product_eligibility.csv',
+      '--before-outcomes', 'docs/data_policy_mandatory_review/baselines/pre_route_review_2026-11-12/reports/mandatory_properties/requirement_outcomes.csv',
+      '--out', 'docs/data_policy_mandatory_review/baselines/eligibility_changes__route_review_2026-11-12.csv'], 'zero', r'interface columns identical: True'),
     ('coverage_matrix', ['build_coverage_matrix.py', '--output', 'Coverage_Matrix.xlsx', '--overwrite'], 'zero', None),
     ('integrate_products_dry_run', ['integrate_products.py'], 'zero', None),
     ('integration_diff_changed', ['tools/data_policy/integration_diff.py', '--changed', '--against', BASELINE], 'zero', r'NEW \(absent at '),
@@ -100,6 +109,9 @@ def main(argv=None):
     ap.add_argument('--out-dir', default=os.path.join(ROOT, 'docs', 'data_policy_mandatory_review', 'test_results'))
     a = ap.parse_args(argv)
     os.makedirs(a.out_dir, exist_ok=True)
+    for old in os.listdir(a.out_dir):  # step files of an earlier run (the numbering changes when a step is added)
+        if re.fullmatch(r'\d\d_[a-z0-9_]+\.txt', old):
+            os.remove(os.path.join(a.out_dir, old))
     env = dict(os.environ, PYTHONIOENCODING='utf-8', PYTHONUTF8='1', PYTHONDONTWRITEBYTECODE='1')
     head = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=ROOT, capture_output=True, text=True).stdout.strip()
     results = []

@@ -1,0 +1,16 @@
+command: builtin: git diff of protected paths against the baseline
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+return code: 0
+expectation: zero
+verdict: pass
+duration: 0.1 s
+
+===== stdout =====
+$ git diff --name-only f4d97e71f72598df601b72403775581c34061ad1 -- <protected paths>  (return code 0)
+(no differences)
+$ git status --porcelain -- <protected paths>  (return code 0)
+(clean)
+analysis/association_mining exists on this branch: False
+===== stderr =====
+
