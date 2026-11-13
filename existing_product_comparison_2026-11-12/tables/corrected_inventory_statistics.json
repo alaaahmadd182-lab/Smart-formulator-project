@@ -94,23 +94,23 @@
   }
  },
  "fields": {
-  "rows": 446,
+  "rows": 457,
   "outcomes": {
-   "additional": 223,
-   "changed_or_conflicting": 78,
+   "additional": 228,
+   "changed_or_conflicting": 79,
    "already_captured": 48,
    "not_comparable": 16,
-   "in_old_source_not_captured": 81
+   "in_old_source_not_captured": 86
   },
-  "proposed": 410,
-  "ready_for_reviewer_decision": 410,
+  "proposed": 421,
+  "ready_for_reviewer_decision": 421,
   "provisional": 0,
   "new_source_verification": {
    "visual": 123,
-   "text layer": 323
+   "text layer": 334
   },
   "old_source_review": {
-   "re-read manually": 430,
+   "re-read manually": 441,
    "re-read manually in full": 15,
    "automated text search only": 1
   }

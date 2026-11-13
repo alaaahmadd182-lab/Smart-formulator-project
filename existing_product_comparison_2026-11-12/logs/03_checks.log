@@ -1,4 +1,4 @@
-PASS  proposals: every proposing row (propose_* and capture_from_old_source) is in the proposals table, the count and the readiness rules  [410 proposals, 16 capture_from_old_source]
+PASS  proposals: every proposing row (propose_* and capture_from_old_source) is in the proposals table, the count and the readiness rules  [421 proposals, 16 capture_from_old_source]
 PASS  status: no proposal is ready while its old-source statement relies on the JSON quotation or an undocumented earlier comparison  [0 proposals with such statements]
 PASS  case: Esterex A34 PMCC flash point is a proposal that keeps the D92 COC value selected and adds D93 as an alternate (outcome in_old_source_not_captured)
 PASS  counting: original statistic is the one in the automated report (88 / 42)
@@ -27,7 +27,7 @@ PASS  regression: the generic-alias rule is not relaxed beyond the reviewed pair
 PASS  identity: grade suffixes are not merged by the search pattern (11 cases)
 PASS  identity: no value is added or changed for HiTEC 5748 from HiTEC 5748A evidence by ANY proposing action (only a scoped interchangeability note is allowed)
 PASS  regression: an incorrect value update of HiTEC 5748 from 5748A text via propose_update_with_history is caught, as are selection review, conflict and an unscoped note; the scoped interchangeability note passes
-PASS  proposals: every proposed change cites a new-archive file with hash, page and printed text  [410 proposals]
+PASS  proposals: every proposed change cites a new-archive file with hash, page and printed text  [421 proposals]
 PASS  proposals: every field row names an existing product and a resolvable current field or says none exists
 PASS  structure: every proposed co-component row is tied to an explicit route or recipe (non-empty conditions) or is a name-only / historical note  [26 rows]
 PASS  structure: co-component doses from recipes are proposed only as route-bound entries
@@ -50,7 +50,7 @@ PASS  regression: an unlabelled numeric tier-2 proposal is still caught; a text 
 PASS  regression: ready on an automated or unavailable old source is still caught, also when a manual note merely mentions an automated search
 PASS  regression: the live tables contain none of these three violations
 PASS  regression: every Lubrizol 16008 TBN row (now more than one source) keeps the 2013 lower bound "> 182" / "greater than 182" visible in its old-source statement
-PASS  old sources: every reference has a SHA-256 or an explicit statement that it is unavailable  [134 references]
+PASS  old sources: every reference has a SHA-256 or an explicit statement that it is unavailable  [139 references]
 PASS  old sources: no placeholder hash text remains in the field table
 PASS  old sources: rows whose cited source is not available locally say so
 PASS  preservation: existing archive bytes unchanged
