@@ -47,26 +47,26 @@
   }
  },
  "fields": {
-  "rows": 585,
+  "rows": 604,
   "outcomes": {
-   "additional": 245,
+   "additional": 246,
    "changed_or_conflicting": 85,
-   "already_captured": 48,
+   "already_captured": 51,
    "not_comparable": 16,
-   "in_old_source_not_captured": 191
+   "in_old_source_not_captured": 206
   },
-  "proposed": 549,
-  "ready_for_reviewer_decision": 549,
+  "proposed": 568,
+  "ready_for_reviewer_decision": 568,
   "provisional": 0,
   "new_source_verification": {
    "visual": 123,
-   "text layer": 462
+   "text layer": 481
   },
   "old_source_review": {
-   "re-read manually": 569,
+   "re-read manually": 588,
    "re-read manually in full": 15,
    "automated text search only": 1
   }
  }
 }
-reviewed documents 187; visual checks 59 done, 5 outstanding; old sources referenced 178; excerpts 476
+reviewed documents 187; visual checks 59 done, 5 outstanding; old sources referenced 191; excerpts 493
