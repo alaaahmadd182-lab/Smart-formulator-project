@@ -390,6 +390,17 @@ def main():
     else:
         check('never-cited reconciliation table present', False, 'run 07_never_cited_reconciliation.py')
 
+    # ---- sixteenth pass: a text comparison is not a reading ----
+    # 08_progress_measures.py counts 'all N pages' and 'pp.1-N' as full reads. A statement that only says the pages were
+    # COMPARED (machine text comparison, word diff, identical text) must not use those phrases for the comparison.
+    def p_cmp_as_read(s):
+        return bool(re.search(r'all \d+ pages (were )?(compared|diffed|matched)|pp\.1-\d+ (were )?(compared|diffed|matched)', s, re.I))
+    check('reading scope: no reading statement presents a page-by-page text comparison as "all N pages" / "pp.1-N" (counted as a full read by the measures; regression cases)',
+          not [r for r in led if p_cmp_as_read(r['field_verification_status'])]
+          and p_cmp_as_read('all 3 pages compared word by word with the cited X') and p_cmp_as_read('pp.1-23 compared')
+          and not p_cmp_as_read('all 10 pages read (text layer); p.5 compared word by word') and not p_cmp_as_read('text of each of its 3 pages compared by machine'),
+          str([r['file'] for r in led if p_cmp_as_read(r['field_verification_status'])][:5]))
+
     fails = [x for x in results if not x[1]]
     print(f'\n{len(results) - len(fails)} of {len(results)} checks passed' + ('' if not fails else '; FAILED: ' + '; '.join(x[0] for x in fails)))
     return 1 if fails else 0

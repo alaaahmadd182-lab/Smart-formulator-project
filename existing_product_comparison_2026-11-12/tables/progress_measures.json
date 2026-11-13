@@ -3,11 +3,11 @@
  "documents": {
   "total": 551,
   "read_scope": {
-   "read in full": 130,
-   "read in part": 164,
-   "no documented reading": 257
+   "read in full": 131,
+   "read in part": 175,
+   "no documented reading": 245
   },
-  "read_in_full_but_some_links_not_assessed": 40
+  "read_in_full_but_some_links_not_assessed": 42
  },
  "links": {
   "duplicate": {
@@ -24,11 +24,11 @@
   "non-duplicate": {
    "total": 1091,
    "coverage": {
-    "not assessed": 1022,
+    "not assessed": 1004,
     "n/a": 42,
-    "assessed": 27
+    "assessed": 45
    },
-   "content_review_open": 729,
+   "content_review_open": 711,
    "relationship_status": {
     "completed": 1087,
     "unresolved": 2,
@@ -37,8 +37,8 @@
   }
  },
  "proposals": {
-  "total": 490,
-  "ready": 490,
+  "total": 497,
+  "ready": 497,
   "provisional": 0,
   "approved": 0,
   "by_action": {
@@ -46,8 +46,8 @@
    "propose_alternate_entry": 40,
    "propose_add_route_bound": 54,
    "propose_source_addition": 11,
-   "propose_note": 182,
-   "propose_open_question_update": 33,
+   "propose_note": 186,
+   "propose_open_question_update": 36,
    "propose_add_and_record_conflict": 2,
    "propose_historical_note": 13,
    "propose_selection_review_and_record_conflict": 1,
