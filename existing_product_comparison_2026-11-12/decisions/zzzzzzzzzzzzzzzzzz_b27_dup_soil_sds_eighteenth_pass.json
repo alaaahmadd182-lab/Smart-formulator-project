@@ -40,7 +40,7 @@
    "cat": "A",
    "status": "completed",
    "fields_status": "sections 1, 3, 9, 15-16 and the revision lines read (targeted); sections 4-8 and 10-14 not read (eighteenth pass, 2026-11-14)",
-   "coverage": "assessed by reading (2026-11-14, eighteenth pass) for SDS sections 1, 3, 9, 15-16 (4 pp., Rev. 5, June.10. 2015): section 1 names the grade; section 3 CAS and the chemistry equal the record; section 9 prints relative density 0.841 @ 15℃ (the record's specific gravity / density come from DL2-11177.pdf and the S-OIL web page), KV '5.8 - 6.2 cSt @ 100℃' and '28.0 - 31.0 cSt @ 40℃' (ASTM D 445) and flash '≥ 210℃ (ASTM D 92)'. None of the section 9 values is recorded -> SDS alternate-entry rows; the recorded KV40 typical 33.32 lies OUTSIDE the SDS range 28.0 - 31.0 -> conflict row. Also: EINECS 265-157-1; not classified; flammability limits 0.9 % / 7 %; relative density 0.841 beside the existing specific-gravity open question.",
+   "coverage": "assessed by reading (2026-11-14, eighteenth pass) for SDS sections 1, 3, 9, 15-16 (4 pp., Rev. 5, June.10. 2015): section 1 names the grade; section 3 CAS and the chemistry equal the record; section 9 prints relative density 0.841 @ 15℃ (the record's specific gravity / density come from DL2-11177.pdf and the S-OIL web page), KV '5.8 - 6.2 cSt @ 100℃' and '28.0 - 31.0 cSt @ 40℃' (ASTM D 445) and flash '≥ 210℃ (ASTM D 92)'. None of the section 9 values is recorded -> SDS alternate-entry rows; the recorded KV40 typical 33.32 lies outside the SDS range 28.0 - 31.0; edition and value class differ (comparability checked), so it is proposed as an added entry of the existing kv40 edition-difference conflict, not as a verified contradiction. Also: EINECS 265-157-1; not classified; flammability limits 0.9 % / 7 %; relative density 0.841 beside the existing specific-gravity open question.",
    "identity": "SHA-256 equal to the cited archive file; product name in section 1 and the page headers",
    "note": "Byte duplicate of the cited SDS."
   },
@@ -270,7 +270,7 @@
    "p": "S_OIL_ULTRA_S_6",
    "tier": 1,
    "path": "kv40",
-   "old": "Record kv40 33.32 cSt (DL2-11177.pdf, typical).",
+   "old": "Record kv40 33.32 cSt (DL2-11177.pdf, typical, no printed date); existing unresolved 'edition difference' conflict on kv40 with the S-OIL web page (32.54).",
    "new_f": "DL2-15237.pdf",
    "new_p": 2,
    "new_text": "'28.0 - 31.0 cSt @ 40℃ (ASTM D 445)'",
@@ -282,9 +282,9 @@
    "basis": "",
    "outcome": "changed_or_conflicting",
    "action": "propose_record_conflict",
-   "reason": "The data-sheet typical 33.32 cSt lies outside the SDS range 28.0 - 31.0 cSt printed by the same supplier. Propose recording the difference as a conflict with both values and sources (the SDS range kept as printed, not converted to a point); not resolved, not averaged, and the selected data-sheet value is not replaced. The proposed TDS-SDS screening thresholds are not approved and are not applied.",
+   "reason": "Comparability checked (nineteenth pass): same property (kinematic viscosity at 40 °C), unit (cSt), method (ASTM D 445) and grade name ('Ultra-S 6' / 'Base Oil Ultra-S 6 (150 Neutral)'); DIFFERENT edition (catalog undated; SDS Rev. 5, June 2015; web page undated) and DIFFERENT value class (catalog / web typicals vs an SDS range whose statistical basis is not stated). Both recorded typicals (33.32 and 32.54) lie above the SDS range 28.0 - 31.0. This is not a verified direct contradiction. Propose adding the SDS range, as printed (not converted to a point), as a third entry of the EXISTING kv40 edition-difference conflict with these caveats; no new conflict entry, not resolved, not averaged, the selected value unchanged. The proposed TDS-SDS screening thresholds are not approved and are not applied.",
    "old_rev": "re-read manually: DL2-15237.pdf (S-OIL SDS) sections 1, 3, 9, 15-16 and the revision lines read (targeted); sections 4-8 and 10-14 not read (eighteenth pass, 2026-11-14)",
-   "cmp_override": "existing: kv40 33.32"
+   "cmp_override": "existing: kv40 33.32; edition-difference conflict with 32.54"
   },
   {
    "p": "S_OIL_ULTRA_S_6",

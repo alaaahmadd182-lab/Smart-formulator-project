@@ -72,7 +72,7 @@ for pid, (col, single, rows, others) in DIFF.items():
         'propose_open_question_update', 'additional', 'typical values beside the single-grade sheet', f"CONDITIONAL: only if column '{col}' is confirmed to be this product", 'existing: single-grade values only')
 
 d = dict(batch='DL2-13200.pdf unlinked columns, batch 26 (eighteenth pass)', reviewed_on='2026-11-14 (eighteenth pass)',
-         note="Nine reviewer-recorded links (C10 Dimer, C12 Dimer, 2, 4, 6, 8 cSt equal their records; 5, 7, 9 cSt differ). Every column of the sheet now has a product: 2.5 cSt was linked in batch 20. No column is out of scope and none is left without a record.",
+         note="Nine reviewer-recorded links (C10 Dimer, C12 Dimer, 2, 4, 6, 8 cSt equal their records; 5, 7, 9 cSt differ). Every column is now associated with a record that already cites the sheet (2.5 cSt linked in batch 20); no column is out of scope. Identity is NOT verified for any column: the page prints no trade name, and similar or equal values do not establish identity (they were used only to exclude the HVI and Blend grades). All rows from this sheet are conditional on identity.",
          documents={}, links=links, fields=F)
 json.dump(d, open(f'{B}/decisions/zzzzzzzzzzzzzzzzzz_b26_dl2_13200_columns_eighteenth_pass.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(len(links), len(F))

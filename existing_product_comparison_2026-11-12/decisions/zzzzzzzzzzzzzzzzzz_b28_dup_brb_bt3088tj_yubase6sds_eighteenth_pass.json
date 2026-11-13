@@ -30,7 +30,7 @@
    "cat": "A",
    "status": "completed",
    "fields_status": "pp.1-6 read in full (all 6 pages; text layer) (eighteenth pass, 2026-11-14)",
-   "coverage": "assessed by reading (2026-11-14, eighteenth pass) for the whole document (6 pp., Safety Data Sheet 'Yubase 6', Reference No HIL0045, Version 5.0, Issued 2021-09-28, supplier Hilditch Pty Ltd (Australian distributor)): section 3 ('Distillates, petroleum, hydrotreated heavy paraffinic 64742-54-7 100 % (w/w)'; 'DMSO extract (IP 346) <3 %') is the record's chemistry source (registered URL). Section 9 ('Typical values only - consult specification sheet') prints Specific Gravity 0.825 (no temperature), Flash Point (°C) 220 (no method) and Viscosity 6.5 cSt @ 100 °C; none is recorded -> SDS alternate / conflict / open-question rows.",
+   "coverage": "assessed by reading (2026-11-14, eighteenth pass) for the whole document (6 pp., Safety Data Sheet 'Yubase 6', Reference No HIL0045, Version 5.0, Issued 2021-09-28, supplier Hilditch Pty Ltd (Australian distributor)): section 3 ('Distillates, petroleum, hydrotreated heavy paraffinic 64742-54-7 100 % (w/w)'; 'DMSO extract (IP 346) <3 %') is the record's chemistry source (registered URL). Section 9 ('Typical values only - consult specification sheet') prints Specific Gravity 0.825 (no temperature), Flash Point (°C) 220 (no method) and Viscosity 6.5 cSt @ 100 °C; none is recorded -> SDS alternate-entry rows (KV100; flash 220 with the SDS method not printed, so not called a conflict) and an open-question row (SG).",
    "identity": "SHA-256 equal to the registered external source '.../search_api/Yubase_6-SDS.pdf' (the record's chemistry source); 'Product Name: Yubase 6' on every page",
    "note": "Byte duplicate of a cited or registered source."
   }
@@ -70,9 +70,9 @@
    "method": "not printed",
    "cond": "",
    "basis": "",
-   "outcome": "changed_or_conflicting",
-   "action": "propose_record_conflict",
-   "reason": "Two distributor documents print different flash points (SDS 220 °C, no method; property sheet 240 °C, ASTM D92). Propose a conflict entry with both values, sources and the missing SDS method; not resolved, not averaged, the record keeps 240. A COC / PMCC difference cannot be established because the SDS prints no method.",
+   "outcome": "additional",
+   "action": "propose_alternate_entry",
+   "reason": "Comparability checked (nineteenth pass): same property and unit (flash point, °C) and grade name; the METHOD of the SDS value is not printed (the property sheet prints ASTM D92, open cup), the editions differ (SDS 2021-09-28; NARMAK sheet undated) and the value classes differ (SDS 'Typical values only'; property sheet single 'VALUE' column). Because the SDS method is unknown, 220 vs 240 cannot be called a direct conflict. Propose keeping the SDS value as an alternate entry in the SDS class, with the missing method stated, and keeping the question open (which method the SDS used); the record keeps 240, nothing is averaged, and no method is assumed. (First proposed as a conflict entry in the eighteenth pass; revised here.)",
    "old_rev": "re-read manually: Yubase_6-SDS.pdf (Safety Data Sheet 'Yubase 6', Reference No HIL0045, Version 5.0, Issued 2021-09-28, supplier Hilditch Pty Ltd (Australian distributor)) pp.1-6 whole text (eighteenth pass, 2026-11-14)",
    "cmp_override": "existing: flash_point 240"
   },
