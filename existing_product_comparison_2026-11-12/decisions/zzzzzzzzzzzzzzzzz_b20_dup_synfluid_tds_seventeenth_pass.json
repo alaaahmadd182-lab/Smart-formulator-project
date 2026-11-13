@@ -20,7 +20,7 @@
    "cat": "A",
    "status": "completed",
    "fields_status": "p.1 (only page) read in full (text layer) (seventeenth pass, 2026-11-14)",
-   "coverage": "assessed by reading (2026-11-14, seventeenth pass) for the whole page (MSDS #5836, Revision Date April 2011): every recorded value (KV100 / KV40 / VI where printed, specific gravity 60/60 °F, pour, flash COC, Noack where printed, chemistry from the product sub-title) equals the 'Typical Properties' table; each °F (°C) pair was checked on the page. The pour point is printed 'Pour Point, °F, °C -53 (-63)' -> open-question row (unit order). Not recorded: 'Kinematic Viscosity, cSt @ -40°F, -40°C 858' and the other items -> note.",
+   "coverage": "assessed by reading (2026-11-14, seventeenth pass) for the whole page (MSDS #5836, Revision Date April 2011): every recorded value (KV100 / KV40 / VI where printed, specific gravity 60/60 °F, pour, flash COC, Noack where printed, chemistry from the product sub-title) equals the 'Typical Properties' table; each °F (°C) pair was checked on the page. The pour point is printed 'Pour Point, °F, °C -53 (-63)'; the record already documents the unit-order problem in full (pour_point calculation_note and notes, audit CF-136, citing DL2-13200.pdf '°C (°F) -53 (-63)'), so no row is proposed. (An open-question row proposed in the first version of this batch was withdrawn in the eighteenth pass as redundant.) Not recorded: 'Kinematic Viscosity, cSt @ -40°F, -40°C 858' and the other items -> note.",
    "identity": "SHA-256 equal to the cited archive file; product name on the page",
    "note": "Byte duplicate of the cited data sheet."
   },
@@ -100,7 +100,7 @@
    "cat": "A",
    "status": "completed",
    "fields_status": "p.1 (only page) read in full (text layer) (seventeenth pass, 2026-11-14)",
-   "coverage": "assessed by reading (2026-11-14, seventeenth pass) for the whole page (combined C10 / C12 PAO typical-properties sheet, undated): column '2.5 cSt' of the 'C12 Based PAOs' table: KV100 2.4 / KV40 8.2 (ASTM D 7042), pour -52 (-62) ASTM D 5950, flash COC 188 (370) ASTM D 92 and specific gravity 0.8086 (ASTM D 4052) equal the record; VI and Noack are printed '—' (Missing, correctly). The record's chemistry is Missing although the column sits under the heading 'C12 Based PAOs' -> capture row; not recorded: KV -40 °C 1,811 (ASTM D 445), fire point 208 (406), density 6.733 lb/gal and the shared footnote -> note. The page does not print the trade name 'Synfluid' (the existing citation establishes the link). The sheet's other columns (C10 / C12 Dimer, 2, 4, 5, 6, 7, 8, 9 cSt) are not linked to any record in the ledger; they are not compared here and no identity with the single-grade Synfluid sheets is assumed.",
+   "coverage": "assessed by reading (2026-11-14, seventeenth pass) for the whole page (combined C10 / C12 PAO typical-properties sheet, undated): column '2.5 cSt' of the 'C12 Based PAOs' table: KV100 2.4 / KV40 8.2 (ASTM D 7042), pour -52 (-62) ASTM D 5950, flash COC 188 (370) ASTM D 92 and specific gravity 0.8086 (ASTM D 4052) equal the record; VI and Noack are printed '—' (Missing, correctly). The record's chemistry is Missing although the column sits under the heading 'C12 Based PAOs' -> capture row; not recorded: KV -40 °C 1,811 (ASTM D 445), fire point 208 (406), density 6.733 lb/gal and the shared footnote -> note. The page does not print the trade name 'Synfluid' (the existing citation establishes the link). The sheet's other columns are reviewed product by product in batch 26 (eighteenth pass).",
    "identity": "SHA-256 equal to the cited archive file; product name on the page",
    "note": "Byte duplicate of the cited data sheet."
   }
@@ -287,26 +287,6 @@
    "cmp_override": "existing: not recorded"
   },
   {
-   "p": "CHEVRON_SYNFLUID_DIMER_C12",
-   "tier": 1,
-   "path": "open_questions",
-   "old": "Record pour_point -53 °C, printed_text 'Pour Point, °F, °C -53 (-63)' (DL2-13202.pdf p.1).",
-   "new_f": "DL2-13202.pdf",
-   "new_p": 1,
-   "new_text": "'Pour Point, °F, °C -53 (-63)' (DL2-13202.pdf); 'Pour Point, °C (°F) -53 (-63)' (DL2-13200.pdf, C12 Dimer column)",
-   "unit": "as printed",
-   "form": "typical value with an ambiguous printed unit order",
-   "qual": "as printed",
-   "method": "as printed",
-   "cond": "",
-   "basis": "",
-   "outcome": "additional",
-   "action": "propose_open_question_update",
-   "reason": "The row label orders the units '°F, °C', which would make -53 the °F figure and -63 the °C figure. On every other row of this sheet and of the other Synfluid sheets the first figure converts to the figure in brackets as °F -> °C (e.g. Dimer C10 '-100 (-73)'); here -53 °F would be about -47 °C, not -63 °C, while -53 °C is about -63 °F (reviewer's arithmetic check, not a source value). The combined C10/C12 sheet DL2-13200.pdf prints the C12 Dimer row as 'Pour Point, °C (°F) -53 (-63)'. Propose an open question recording both printings; the recorded -53 °C is not changed and the unit order on DL2-13202.pdf is not corrected.",
-   "old_rev": "re-read manually: DL2-13202.pdf (MSDS #5836, Revision Date April 2011) p.1 whole text (seventeenth pass, 2026-11-14)",
-   "cmp_override": "existing: pour_point -53 °C"
-  },
-  {
    "p": "CHEVRON_SYNFLUID_PAO_2_5",
    "tier": 1,
    "path": "open_questions",
@@ -338,11 +318,11 @@
    "form": "supplier table heading naming the chemical family (data sheet)",
    "qual": "as printed",
    "method": "n/a",
-   "cond": "",
+   "cond": "CONDITIONAL: apply only after the reviewer confirms that the '2.5 cSt' column of DL2-13200.pdf is Synfluid PAO 2.5 cSt",
    "basis": "",
    "outcome": "in_old_source_not_captured",
    "action": "capture_from_old_source",
-   "reason": "The only chemistry the sheet prints for this column is its table heading 'C12 Based PAOs' (beside 'C10 Based PAOs'). Propose capturing it as printed ('C12 Based PAOs'), cited to the heading, for the mandatory chemistry field. It is a supplier family heading, not an assay; no API group is inferred from it (api_group stays Missing). The reviewer should confirm that the '2.5 cSt' column is the product of this record, as the existing citations assume, since the page does not print 'Synfluid'.",
+   "reason": "The only chemistry the sheet prints for this column is its table heading 'C12 Based PAOs' (beside 'C10 Based PAOs'). Propose capturing it as printed ('C12 Based PAOs'), cited to the heading, for the mandatory chemistry field. It is a supplier family heading, not an assay; no API group is inferred from it (api_group stays Missing). The reviewer should confirm that the '2.5 cSt' column is the product of this record, as the existing citations assume, since the page does not print 'Synfluid'. Conditional: this capture must not be applied before that identity is confirmed; until then chemistry stays Missing.",
    "old_rev": "re-read manually: DL2-13200.pdf (combined C10 / C12 PAO typical-properties sheet, undated) p.1 whole text (seventeenth pass, 2026-11-14)",
    "cmp_override": "existing: Missing"
   }

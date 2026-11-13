@@ -11,14 +11,14 @@
  },
  "links": {
   "duplicate": {
-   "total": 282,
+   "total": 291,
    "coverage": {
-    "assessed": 247,
+    "assessed": 256,
     "not assessed": 35
    },
    "content_review_open": 35,
    "relationship_status": {
-    "completed": 282
+    "completed": 291
    }
   },
   "non-duplicate": {
@@ -37,23 +37,23 @@
   }
  },
  "proposals": {
-  "total": 588,
-  "ready": 588,
+  "total": 601,
+  "ready": 601,
   "provisional": 0,
   "approved": 0,
   "by_action": {
    "propose_add": 79,
    "propose_alternate_entry": 40,
    "propose_add_route_bound": 54,
-   "propose_source_addition": 14,
+   "propose_source_addition": 20,
    "propose_note": 257,
-   "propose_open_question_update": 45,
+   "propose_open_question_update": 47,
    "propose_add_and_record_conflict": 2,
    "propose_historical_note": 13,
    "propose_selection_review_and_record_conflict": 1,
    "propose_selection_review": 2,
    "propose_update_with_history": 3,
-   "propose_record_conflict": 49,
+   "propose_record_conflict": 54,
    "capture_from_old_source": 21,
    "propose_basis_mass_with_citation": 2,
    "propose_citation_correction": 1,
