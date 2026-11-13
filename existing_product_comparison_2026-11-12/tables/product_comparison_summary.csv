@@ -1,8 +1,8 @@
 product_id,material_class,links,exact_duplicates,other_links,reviewed,not_yet_assessed,unresolved,excluded,substantive_documents,mention_only_documents,field_rows,additional,changed_or_conflicting,already_captured,proposed_changes,proposals_ready,proposals_provisional
 ADNOC_ADBASE_2CST,base_oil,2,1,1,1,0,0,0,1,0,1,1,0,0,1,1,0
 ADNOC_ADBASE_3CST,base_oil,3,1,2,2,0,0,0,2,0,1,1,0,0,1,1,0
-ADNOC_ADBASE_4CST,base_oil,4,2,2,2,0,0,0,2,0,2,1,0,0,2,2,0
-ADNOC_ADBASE_6CST,base_oil,5,2,3,3,0,0,0,3,0,2,1,0,0,2,2,0
+ADNOC_ADBASE_4CST,base_oil,4,2,2,2,0,0,0,2,0,3,1,0,0,3,3,0
+ADNOC_ADBASE_6CST,base_oil,5,2,3,3,0,0,0,3,0,3,1,0,0,3,3,0
 ADNOC_ADBASE_8CST,base_oil,3,2,1,1,0,0,0,1,0,2,1,0,0,2,2,0
 AFTON_HITEC_12010,additive_package,2,1,1,1,0,0,0,1,0,9,6,1,2,8,8,0
 AFTON_HITEC_12200,additive_package,34,3,31,31,0,0,0,29,2,31,21,2,6,25,25,0
@@ -40,7 +40,7 @@ CHEVRON_GROUP_II_100R,base_oil,26,0,26,26,0,0,0,26,0,1,1,0,0,1,1,0
 CHEVRON_GROUP_II_110RLV,base_oil,6,0,6,6,0,0,0,6,0,0,0,0,0,0,0,0
 CHEVRON_GROUP_II_150R,base_oil,9,0,9,9,0,0,0,9,0,0,0,0,0,0,0,0
 CHEVRON_GROUP_II_220R,base_oil,46,0,46,46,0,0,0,46,0,2,2,0,0,2,2,0
-CHEVRON_GROUP_II_600R,base_oil,30,0,30,30,0,0,0,30,0,0,0,0,0,0,0,0
+CHEVRON_GROUP_II_600R,base_oil,30,0,30,30,0,0,0,30,0,1,1,0,0,1,1,0
 CHEVRON_N204,additive_package,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 CHEVRON_N216,additive_package,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 CHEVRON_OLOA_59215,additive_package,1,1,0,0,0,0,0,0,0,1,0,0,0,1,1,0
@@ -218,6 +218,6 @@ TREE_TRADING_NT513,additive_package,1,1,0,0,0,0,0,0,0,1,0,0,0,1,1,0
 WUXI_WX3118,additive_package,1,1,0,0,0,0,0,0,0,1,0,0,0,1,1,0
 WUXI_WX3326,additive_package,1,1,0,0,0,0,0,0,0,1,0,0,0,1,1,0
 YUBASE_3,base_oil,29,1,28,28,0,0,0,28,0,3,1,1,0,3,3,0
-YUBASE_4,base_oil,115,1,114,114,0,0,0,114,0,6,2,2,0,5,5,0
+YUBASE_4,base_oil,115,1,114,114,0,0,0,114,0,8,4,2,0,7,7,0
 YUBASE_5,base_oil,1,1,0,0,0,0,0,0,0,2,1,0,0,2,2,0
 YUBASE_6,base_oil,88,2,86,86,0,0,1,85,0,7,4,1,0,6,6,0
