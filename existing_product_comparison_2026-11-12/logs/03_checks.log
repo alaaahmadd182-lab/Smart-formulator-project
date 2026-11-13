@@ -1,4 +1,4 @@
-PASS  proposals: every proposing row (propose_* and capture_from_old_source) is in the proposals table, the count and the readiness rules  [635 proposals, 21 capture_from_old_source]
+PASS  proposals: every proposing row (propose_* and capture_from_old_source) is in the proposals table, the count and the readiness rules  [636 proposals, 21 capture_from_old_source]
 PASS  status: no proposal is ready while its old-source statement relies on the JSON quotation or an undocumented earlier comparison  [0 proposals with such statements]
 PASS  case: Esterex A34 PMCC flash point is a proposal that keeps the D92 COC value selected and adds D93 as an alternate (outcome in_old_source_not_captured)
 PASS  counting: original statistic is the one in the automated report (88 / 42)
@@ -27,14 +27,14 @@ PASS  regression: the generic-alias rule is not relaxed beyond the reviewed pair
 PASS  identity: grade suffixes are not merged by the search pattern (11 cases)
 PASS  identity: no value is added or changed for HiTEC 5748 from HiTEC 5748A evidence by ANY proposing action (only a scoped interchangeability note is allowed)
 PASS  regression: an incorrect value update of HiTEC 5748 from 5748A text via propose_update_with_history is caught, as are selection review, conflict and an unscoped note; the scoped interchangeability note passes
-PASS  proposals: every proposed change cites a new-archive file with hash, page and printed text  [635 proposals]
+PASS  proposals: every proposed change cites a new-archive file with hash, page and printed text  [636 proposals]
 PASS  proposals: every field row names an existing product and a resolvable current field or says none exists
 PASS  proposals: every proposal destination resolves to a template field, a record-level list of the target tier file or an explicit "(no template field)" label; no conflict entry is proposed into open_questions (regression cases)  [254 rows to record-level lists; invalid: []]
 PASS  structure: every proposed co-component row is tied to an explicit route or recipe (non-empty conditions) or is a name-only / historical note  [26 rows]
 PASS  structure: co-component doses from recipes are proposed only as route-bound entries
 PASS  structure: every proposed formulation row names a formulation identity (oil code or column) and a percentage basis  [37 rows]
 PASS  structure: specification limits, typicals and batch results are labelled in value_form for every numeric tier-2 proposal
-PASS  structure: SDS values with unspecified statistical basis are never promoted to a manufacturer typical or specification  [69 SDS-reported rows]
+PASS  structure: SDS values with unspecified statistical basis are never promoted to a manufacturer typical or specification  [70 SDS-reported rows]
 PASS  structure: no certificate limit, target or batch result is proposed as the preferred general value (alternate entry, first value or note only)
 PASS  regression: batch evidence proposed through update / selection review / route-bound add is caught; an open-question note is not
 PASS  status: the five statuses are present and filled on every field row
