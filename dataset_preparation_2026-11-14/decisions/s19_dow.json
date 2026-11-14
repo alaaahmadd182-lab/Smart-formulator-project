@@ -1,0 +1,653 @@
+{
+ "batch": "S19 Dowpol (DowSyn) / Dow (identity)",
+ "reviewed_on": "2026-11-14",
+ "scope": "35 documents with provisional supplier 'Dow'",
+ "products": {
+  "DOWPOL:DOWSYN PAO4": {
+   "name": "DowSyn PAO4",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "polyalphaolefin (API Group IV)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "DOW:DOWTHERM A": {
+   "name": "DOWTHERM A",
+   "supplier": "The Dow Chemical Company",
+   "material_class": "out_of_template: heat transfer fluid",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed 'Synthetic organic heat transfer fluid - Liquid and Vapor Phase'",
+   "identity_evidence": "printed name",
+   "template": "none"
+  },
+  "DOWPOL:DOWSYN PAO2": {
+   "name": "DowSyn PAO2",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "polyalphaolefin (API Group IV)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "DOWPOL:DOWSYN PAO40": {
+   "name": "DowSyn PAO40",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "polyalphaolefin (API Group IV)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "DOWPOL:DOWSYN PAO100": {
+   "name": "DowSyn PAO100",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "polyalphaolefin (API Group IV)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "DOWPOL:DOWSYN PAO2B": {
+   "name": "DowSyn PAO2B",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "polyalphaolefin (API Group IV)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "DOWPOL:DOWSYN V600": {
+   "name": "DowSyn V600",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "product type not printed on the documents read (certificate of analysis and SDS header only); not inferred from the name",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "not determined"
+  },
+  "DOWPOL:DOWSYN V1000": {
+   "name": "DowSyn V1000",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "product type not printed on the documents read (certificate of analysis and SDS header only); not inferred from the name",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "not determined"
+  },
+  "DOWPOL:DOWSYN PAO6": {
+   "name": "DowSyn PAO6",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "polyalphaolefin (API Group IV)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "DOWPOL:DOWSYN PAO10": {
+   "name": "DowSyn PAO10",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "polyalphaolefin (API Group IV)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "DOWPOL:DOWSYN VM260": {
+   "name": "DowSyn VM260",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "viscosity modifier (VM subtype)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype)"
+  },
+  "DOWPOL:DOWSYN VM200": {
+   "name": "DowSyn VM200",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "viscosity modifier (VM subtype)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype)"
+  },
+  "DOWPOL:DOWSYN AN15": {
+   "name": "DowSyn AN15",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "alkylated naphthalene synthetic base fluid (template fit to confirm: Group V)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "DOWPOL:DOWSYN AN30": {
+   "name": "DowSyn AN30",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "alkylated naphthalene synthetic base fluid (template fit to confirm: Group V)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "DOWPOL:DOWSYN PB2400": {
+   "name": "DowSyn PB2400",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "polybutene: role not stated",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "not determined"
+  },
+  "DOWPOL:DOWSYN VM9777": {
+   "name": "DowSyn VM9777",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "viscosity modifier (VM subtype)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype)"
+  },
+  "DOWPOL:DOWSYN AN23": {
+   "name": "DowSyn AN23",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "alkylated naphthalene synthetic base fluid (template fit to confirm: Group V)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  }
+ },
+ "documents": {
+  "b38b1aaeedc1": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PAO4"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PAO4": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "1826d9008ba7": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "The Dow Chemical Company",
+   "products": [
+    "DOW:DOWTHERM A"
+   ],
+   "roles": {
+    "DOW:DOWTHERM A": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "",
+   "next_action": ""
+  },
+  "857163c47959": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PAO2"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PAO2": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "1d0cf30a8c30": {
+   "doc_type": "SDS",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PAO2"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PAO2": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "cdb606b7f41c": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PAO2"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PAO2": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "652fdec21527": {
+   "doc_type": "brochure / family sheet (multi-product)",
+   "supplier": "The Dow Chemical Company",
+   "products": [],
+   "roles": {},
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "'UCON OSP Fluids - Oil-soluble polyalkylene glycol lubricant technology' brochure",
+   "next_action": "list the products inside (multi-product)"
+  },
+  "9ab95de537da": {
+   "doc_type": "brochure / family sheet (multi-product)",
+   "supplier": "The Dow Chemical Company",
+   "products": [],
+   "roles": {},
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "'Fluids and Lubricants' catalogue (47 pp)",
+   "next_action": "list the products inside (multi-product)"
+  },
+  "455eadbb73c6": {
+   "doc_type": "brochure / family sheet (multi-product)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [],
+   "roles": {},
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "'DowSyn Alkylated Naphthalene' family sheet (April 2018)",
+   "next_action": "list the products inside (multi-product)"
+  },
+  "bf5a03f3299f": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PAO40"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PAO40": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "f215c8f0dfdc": {
+   "doc_type": "SDS",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PAO40"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PAO40": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "5125f566d139": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PAO100"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PAO100": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "d5f383b355b1": {
+   "doc_type": "SDS",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PAO100"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PAO100": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "3831c4cc4a25": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PAO2B"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PAO2B": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "039ca60846aa": {
+   "doc_type": "SDS",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN V600"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN V600": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "f36abdaba05c": {
+   "doc_type": "SDS",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN V1000"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN V1000": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "65c1444bbbe9": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN V600"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN V600": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "0b6cf4886da2": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN V1000"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN V1000": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "82b809812d03": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PAO6"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PAO6": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "b78a5b6d73f9": {
+   "doc_type": "SDS",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PAO6"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PAO6": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "b37b65177940": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PAO2"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PAO2": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "da6f5f456429": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PAO6"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PAO6": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "c41b69b93876": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PAO10"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PAO10": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "170f69ae23b7": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN VM260"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN VM260": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "ed08c43c4f16": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN VM200"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN VM200": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "241d7ee41ae9": {
+   "doc_type": "SDS",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN VM200"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN VM200": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "c89500dae7cc": {
+   "doc_type": "SDS",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN AN15"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN AN15": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "5b60cb8555f1": {
+   "doc_type": "SDS",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN AN30"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN AN30": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "bfc9782e1581": {
+   "doc_type": "SDS",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PB2400"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PB2400": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "d2677a57c6be": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN VM9777"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN VM9777": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "3e0da48df1e1": {
+   "doc_type": "brochure / family sheet (multi-product)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [],
+   "roles": {},
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "'DowSyn Alkylated Naphthalene' family sheet (April 2018; different bytes)",
+   "next_action": "list the products inside (multi-product)"
+  },
+  "55dc1b723ecb": {
+   "doc_type": "SDS",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN AN23"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN AN23": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "f471727d2bf4": {
+   "doc_type": "SDS",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN PAO4"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN PAO4": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "6b82562e741e": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN AN15"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN AN15": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "b21d8c455343": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN AN23"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN AN23": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  },
+  "c9ccda0d7496": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp. (DowSyn)",
+   "products": [
+    "DOWPOL:DOWSYN AN30"
+   ],
+   "roles": {
+    "DOWPOL:DOWSYN AN30": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing / text",
+   "note": "",
+   "next_action": ""
+  }
+ }
+}
