@@ -123,8 +123,7 @@ for k, (mc, n, man) in PR.items():
     PK['SAMA:' + k] = dict(name=k, supplier=SUP, material_class=mc, existing_record='', status='out_of_scope' if mc.startswith(OT) else 'new_candidate',
                            notes=n + ('; manufacturer printed: ' + man if man else '; Sama label (manufacturer not stated)'), identity_evidence='printed product name / code on the documents linked in this batch',
                            template={C: 'additive_component general (+ subtype as noted)', P: 'additive_package tier1 + tier2', B: 'base_oil tier1-3'}.get(mc, 'none / not determined'))
-PK['KUSA:KUSACRYL 2231'] = dict(name='KUSACRYL 2231', supplier='Kusa (named on a Sama technical report)', material_class='unresolved', existing_record='', status='new_candidate',
-                                notes='class to be taken from the Kusa batch (not inferred here)', identity_evidence='printed product name on DL2 Sama technical report', template='not determined')
+# KUSA:KUSACRYL 2231 is defined once, in the Kusa batch (S16); this batch only links the Sama technical report to it.
 miss = [s for s, v in D.items() if v['relation'] == 'unresolved_identity' and not s.startswith('092d504eaf')]
 out = dict(batch='S08 Sama Lubricants (identity)', reviewed_on='2026-11-14', scope='118 documents with provisional supplier Sama', products=PK, documents=D)
 json.dump(out, open(os.path.join(PKG, 'decisions', 's08_sama.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
