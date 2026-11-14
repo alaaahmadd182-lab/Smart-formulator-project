@@ -1,0 +1,835 @@
+{
+ "batch": "S14 ExxonMobil (identity)",
+ "reviewed_on": "2026-11-14",
+ "scope": "48 documents with provisional supplier ExxonMobil",
+ "products": {
+  "EXXONMOBIL:EXXSOL D60": {
+   "name": "Exxsol D60",
+   "supplier": "ExxonMobil",
+   "material_class": "out_of_template: other chemical",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "hydrocarbon solvent",
+   "identity_evidence": "printed product name",
+   "template": "none"
+  },
+  "EXXONMOBIL:EXXSOL D80": {
+   "name": "Exxsol D80",
+   "supplier": "ExxonMobil",
+   "material_class": "out_of_template: other chemical",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "dearomatized hydrocarbon solvent",
+   "identity_evidence": "printed product name",
+   "template": "none"
+  },
+  "EXXONMOBIL:VISTAMAXX 6202": {
+   "name": "Vistamaxx 6202",
+   "supplier": "ExxonMobil",
+   "material_class": "out_of_template: other chemical",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "propylene elastomer (polymer)",
+   "identity_evidence": "printed product name",
+   "template": "none"
+  },
+  "EXXONMOBIL:EXXON IT0316": {
+   "name": "Exxon IT0316",
+   "supplier": "ExxonMobil",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "'Ethylene Propylene Copolymer Rubber' (VM use not printed on page 1)",
+   "identity_evidence": "printed product name",
+   "template": "additive_component general"
+  }
+ },
+ "documents": {
+  "eb0e78546503": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_EHC_110",
+    "EXISTING:EXXONMOBIL_EHC_45",
+    "EXISTING:EXXONMOBIL_EHC_50",
+    "EXISTING:EXXONMOBIL_EHC_65"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_EHC_110": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_45": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_50": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_65": "series / multi-grade sheet (grade listed)"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "dd6f9a54a6ab": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_2"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_2": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "ca3052d4a9b0": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_2B"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_2B": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "c12e76b173b4": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_2C"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_2C": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "d5a033aa14b1": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_4"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_4": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "cc2bdac24d0d": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_5"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_5": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "5362cd5334aa": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_6"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_6": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "792437daa6e6": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_8"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_8": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "dd3de5be3cde": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_10"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_10": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "72ed4f2f537b": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_40"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_40": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "62f9ee50fcc9": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_100"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_100": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "1b42b58bcc41": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_65"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_65": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "740e25908710": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_150"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_150": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "80fee5986971": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_300"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_300": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "42b2cd8ba405": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_PLUS_3_6"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_PLUS_3_6": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "04a953757aa6": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_PLUS_4"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_PLUS_4": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "0644365faf6a": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_PLUS_6"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_PLUS_6": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "5defd1b2d420": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_EHC_110",
+    "EXISTING:EXXONMOBIL_EHC_120",
+    "EXISTING:EXXONMOBIL_EHC_45",
+    "EXISTING:EXXONMOBIL_EHC_50",
+    "EXISTING:EXXONMOBIL_EHC_65"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_EHC_110": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_120": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_45": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_50": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_65": "series / multi-grade sheet (grade listed)"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "b1710332b289": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_EHC_110",
+    "EXISTING:EXXONMOBIL_EHC_120",
+    "EXISTING:EXXONMOBIL_EHC_45",
+    "EXISTING:EXXONMOBIL_EHC_50",
+    "EXISTING:EXXONMOBIL_EHC_65"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_EHC_110": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_120": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_45": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_50": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_65": "series / multi-grade sheet (grade listed)"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "ec31a0d26ab8": {
+   "doc_type": "SDS",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_150"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_150": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "229c490631ea": {
+   "doc_type": "blending study",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_100",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_40",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_6",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_150",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_65"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_100": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_40": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_6": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_150": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_65": "series / multi-grade sheet (grade listed)"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "58376d3a37cb": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_ESTEREX_A32"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_ESTEREX_A32": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "14020315f341": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_ESTEREX_A34"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_ESTEREX_A34": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "23bb43c76aa5": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_ESTEREX_A41"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_ESTEREX_A41": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "d688aaa06658": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_ESTEREX_A51"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_ESTEREX_A51": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "ec565e78ecf1": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_ESTEREX_NP343"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_ESTEREX_NP343": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "9a25ccf05144": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_ESTEREX_NP451"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_ESTEREX_NP451": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "23f64c88c94c": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_ESTEREX_P61"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_ESTEREX_P61": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "7592ce63f8be": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_ESTEREX_P81"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_ESTEREX_P81": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "b4bcffadec7e": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_ESTEREX_TM111"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_ESTEREX_TM111": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "22fcdfd8184b": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SYNESSTIC_5"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SYNESSTIC_5": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "7c07e50c4280": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SYNESSTIC_12"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SYNESSTIC_12": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "e191fd6b02f7": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SN_800"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SN_800": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "5d8717610e17": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_APE_SN_500"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_APE_SN_500": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "8591ee3933f7": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_EHC_110",
+    "EXISTING:EXXONMOBIL_EHC_120",
+    "EXISTING:EXXONMOBIL_EHC_45",
+    "EXISTING:EXXONMOBIL_EHC_50",
+    "EXISTING:EXXONMOBIL_EHC_65"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_EHC_110": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_120": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_45": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_50": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_65": "series / multi-grade sheet (grade listed)"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "110cee160b5b": {
+   "doc_type": "product list (spreadsheet)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_APE_SN_500",
+    "EXISTING:EXXONMOBIL_EHC_110",
+    "EXISTING:EXXONMOBIL_EHC_120",
+    "EXISTING:EXXONMOBIL_EHC_45",
+    "EXISTING:EXXONMOBIL_EHC_50",
+    "EXISTING:EXXONMOBIL_EHC_65",
+    "EXISTING:EXXONMOBIL_ESTEREX_A32",
+    "EXISTING:EXXONMOBIL_ESTEREX_A34",
+    "EXISTING:EXXONMOBIL_ESTEREX_A41",
+    "EXISTING:EXXONMOBIL_ESTEREX_A51",
+    "EXISTING:EXXONMOBIL_ESTEREX_NP343",
+    "EXISTING:EXXONMOBIL_ESTEREX_NP451",
+    "EXISTING:EXXONMOBIL_ESTEREX_P61",
+    "EXISTING:EXXONMOBIL_ESTEREX_P81",
+    "EXISTING:EXXONMOBIL_ESTEREX_TM111",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_10",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_100",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_2",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_2B",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_2C",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_4",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_40",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_5",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_6",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_8",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_150",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_300",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_65",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_PLUS_4",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_PLUS_6",
+    "EXISTING:EXXONMOBIL_SYNESSTIC_12",
+    "EXISTING:EXXONMOBIL_SYNESSTIC_5"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_APE_SN_500": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_110": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_120": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_45": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_50": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_EHC_65": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_ESTEREX_A32": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_ESTEREX_A34": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_ESTEREX_A41": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_ESTEREX_A51": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_ESTEREX_NP343": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_ESTEREX_NP451": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_ESTEREX_P61": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_ESTEREX_P81": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_ESTEREX_TM111": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_10": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_100": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_2": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_2B": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_2C": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_4": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_40": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_5": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_6": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_8": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_150": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_300": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ELITE_65": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_PLUS_4": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_PLUS_6": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SYNESSTIC_12": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SYNESSTIC_5": "series / multi-grade sheet (grade listed)"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "a441ee2dd4f9": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXXONMOBIL:EXXSOL D80"
+   ],
+   "roles": {
+    "EXXONMOBIL:EXXSOL D80": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "'Exxsol D80 Dearomatized Fluid'",
+   "next_action": ""
+  },
+  "639ff7117c61": {
+   "doc_type": "SDS",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_ESTEREX_P81"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_ESTEREX_P81": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "f4fd219df791": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_40",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_100"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_40": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_SPECTRASYN_100": "series / multi-grade sheet (grade listed)"
+   },
+   "relation": "product",
+   "read": "page-1 listing; page image viewed",
+   "note": "2003 PDS 'SpectraSyn Polyalphaolefins (PAO), 40 and 100 cSt' (page image viewed)",
+   "next_action": ""
+  },
+  "a9ce678200cf": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_APE_CORE_100",
+    "EXISTING:EXXONMOBIL_APE_CORE_150",
+    "EXISTING:EXXONMOBIL_APE_CORE_2500",
+    "EXISTING:EXXONMOBIL_APE_CORE_600"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_APE_CORE_100": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_APE_CORE_150": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_APE_CORE_2500": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_APE_CORE_600": "series / multi-grade sheet (grade listed)"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "d550734093a4": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "LANXESS (Rhein Chemie)",
+   "products": [
+    "LANXESS:ADDITIN RC 9200 N"
+   ],
+   "roles": {
+    "LANXESS:ADDITIN RC 9200 N": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "LANXESS 'RC 9200 N (HVLP, group I + II)' technical report, Edition September 2018, filed under ExxonMobil by the automated label",
+   "next_action": ""
+  },
+  "38d38f694c62": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ULTRA_1000"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_ULTRA_1000": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "086ffe18308f": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXXONMOBIL:VISTAMAXX 6202"
+   ],
+   "roles": {
+    "EXXONMOBIL:VISTAMAXX 6202": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "'Vistamaxx Performance Polymer 6202 - Propylene Elastomer'",
+   "next_action": ""
+  },
+  "c9c76741a1a8": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXXONMOBIL:EXXON IT0316"
+   ],
+   "roles": {
+    "EXXONMOBIL:EXXON IT0316": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "'Exxon IT0316 Ethylene Propylene Copolymer Rubber'",
+   "next_action": ""
+  },
+  "cf0bd7dbf0fc": {
+   "doc_type": "SDS",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_2"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_2": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "6c668ceb31d2": {
+   "doc_type": "sales specification",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXXONMOBIL:EXXSOL D60"
+   ],
+   "roles": {
+    "EXXONMOBIL:EXXSOL D60": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing; page image viewed",
+   "note": "'Exxsol D60 Hydrocarbon Fluid' sales specification effective 01 Oct 2014 (page image viewed)",
+   "next_action": ""
+  },
+  "b6b785f5fbfa": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_SPECTRASYN_10"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_SPECTRASYN_10": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "links as in the existing-comparison ledger",
+   "next_action": ""
+  },
+  "4f4b206be5c0": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ExxonMobil",
+   "products": [
+    "EXISTING:EXXONMOBIL_APE_CORE_100",
+    "EXISTING:EXXONMOBIL_APE_CORE_150",
+    "EXISTING:EXXONMOBIL_APE_CORE_600",
+    "EXISTING:EXXONMOBIL_APE_CORE_2500"
+   ],
+   "roles": {
+    "EXISTING:EXXONMOBIL_APE_CORE_100": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_APE_CORE_150": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_APE_CORE_600": "series / multi-grade sheet (grade listed)",
+    "EXISTING:EXXONMOBIL_APE_CORE_2500": "series / multi-grade sheet (grade listed)"
+   },
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "AP/E Core sheet, 'ExxonMobil Basestocks, Egypt' (grades CORE 100 / 150 / 600 / 2500 printed): regional applicability to the existing records to be reviewed",
+   "next_action": ""
+  }
+ }
+}
