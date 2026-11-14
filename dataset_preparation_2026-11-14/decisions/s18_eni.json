@@ -1,0 +1,937 @@
+{
+ "batch": "S18 Eni / Versalis (identity)",
+ "reviewed_on": "2026-11-14",
+ "scope": "37 documents with provisional supplier Eni",
+ "products": {
+  "VERSALIS:DUTRAL OCP 2550": {
+   "name": "Dutral OCP 2550",
+   "supplier": "Versalis (Eni)",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "ethylene-propylene copolymer (EP(D)M header); VM use not printed on page 1",
+   "identity_evidence": "file name + page header",
+   "template": "additive_component general (VM subtype to confirm)"
+  },
+  "ENI:ENI MX 3102": {
+   "name": "Eni MX 3102",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: primary zinc dialkyl dithiophosphate which provides excellent inhibition of wear",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 3104": {
+   "name": "Eni MX 3104",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: Zn dialkyl dithiophosphate",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 3171": {
+   "name": "Eni MX 3171",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: Zn dialkyl dithiophosphate",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 3240": {
+   "name": "Eni MX 3240",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: overbased Calcium Sulfonate 400",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 3245": {
+   "name": "Eni MX 3245",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 300 TBN overbased Calcium sulfonate. Eni MX 3245 can be used as a detergent in a",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 3280": {
+   "name": "Eni MX 3280",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: neutral Calcium Sulfonate",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 3287": {
+   "name": "Eni MX 3287",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: overbased Magnesium Sulfonate 400",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 3316": {
+   "name": "Eni MX 3316",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: bis-succinimide, ashless dispersant typically used in engine lubricants. APPLICA",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 3318": {
+   "name": "Eni MX 3318",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: chlorine free, low molecular weight, bis-succinimide, ashless dispersant typical",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 3323": {
+   "name": "Eni MX 3323",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: chlorine free, bis-succinimide, ashless dispersant typically used in crankcase e",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 4006": {
+   "name": "Eni MX 4006",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: Olefin Copolymer Rubber (OCP) designed for the production of good shear stabilit (VM subtype)",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 4050": {
+   "name": "Eni MX 4050",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: Olefin Copolymer Rubber (OCP) with low ethylene content, designed for the produc (VM subtype)",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 4106": {
+   "name": "Eni MX 4106",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: non-dispersant Viscosity Index Improver (VII) to be used in conjunction with a s (VM subtype)",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 4016": {
+   "name": "Eni MX 4016",
+   "supplier": "Eni S.p.A.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed once on the Eni MX 4106 sheet (sha 318f8bc615); may be a separate grade or a misprint of 4106 - not resolved",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "not determined"
+  },
+  "ENI:ENI MX 4330": {
+   "name": "Eni MX 4330",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: conventional Polymethacrylate type Pour Point Depressant (PPD). APPLICATIONS • E (PPD subtype)",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 4332": {
+   "name": "Eni MX 4332",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: conventional Polymethacrylate type Pour Point Depressant (PPD). APPLICATIONS • E (PPD subtype)",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 4333": {
+   "name": "Eni MX 4333",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: conventional Polymethacrylate type Pour Point Depressant (PPD). APPLICATIONS • E (PPD subtype)",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 4346": {
+   "name": "Eni MX 4346",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: conventional Polymethacrylate type Pour Point Depressant (PPD). APPLICATIONS • E (PPD subtype)",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ENI:ENI MX 5003": {
+   "name": "Eni MX 5003",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: Hydraulic fluids Additive Package Eni MX 5003 is a high performance hydraulic fl",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "ENI:ENI MX 5011": {
+   "name": "Eni MX 5011",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: Slideways fluids Additive Package Eni MX 5011 is a high technology package for s",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "ENI:ENI MX 5021": {
+   "name": "Eni MX 5021",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: high performance additives package suitable to formulate Gas Turbine and Air Com",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "ENI:ENI MX 5031": {
+   "name": "Eni MX 5031",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: high technology additive package developed for steam turbine oils. Specification",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "ENI:ENI MX 5111": {
+   "name": "Eni MX 5111",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: Ultra high performance PCMO Additives Package",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "ENI:ENI MX 5113": {
+   "name": "Eni MX 5113",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: Advanced PCMO and 4-strokes Additive Package",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "ENI:ENI MX 5114": {
+   "name": "Eni MX 5114",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: Advanced PCMO and 4-strokes Additive Package Eni MX 5114 is a new additive packa",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "ENI:ENI MX 5115": {
+   "name": "Eni MX 5115",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: Cost-effective PCMO Additive Package",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "ENI:ENI MX 5116": {
+   "name": "Eni MX 5116",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: cost-effective PCMO Additive Package Eni MX 5116 additive package is suitable fo",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "ENI:ENI MX 5138": {
+   "name": "Eni MX 5138",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: Premium PCMO Additive Package Eni MX 5138 additives package is suitable for blen",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "ENI:ENI MX 5153": {
+   "name": "Eni MX 5153",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: Multipurpose cascade Additives Package",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "ENI:ENI MX 5653": {
+   "name": "Eni MX 5653",
+   "supplier": "Eni S.p.A.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "named only on other grades' sheets / the Triple Tech brochure (class not printed for this grade)",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "not determined"
+  },
+  "ENI:ENI MX 5212": {
+   "name": "Eni MX 5212",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_package",
+   "existing_record": "ENI_MX_5212",
+   "status": "existing",
+   "notes": "printed: HDDO Additive Package",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "ENI:ENI MX 5612A": {
+   "name": "Eni MX 5612A",
+   "supplier": "Eni S.p.A.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "named only on other grades' sheets / the Triple Tech brochure (class not printed for this grade)",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "not determined"
+  },
+  "ENI:ENI MX 5612": {
+   "name": "Eni MX 5612",
+   "supplier": "Eni S.p.A.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "named only on other grades' sheets / the Triple Tech brochure (class not printed for this grade)",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "not determined"
+  },
+  "ENI:ENI MX 5217": {
+   "name": "Eni MX 5217",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_package",
+   "existing_record": "ENI_MX_5217",
+   "status": "existing",
+   "notes": "printed: Premium HDDO Additives Package Eni MX 5217 additives package is suitable for ble",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "ENI:ENI MX 5264": {
+   "name": "Eni MX 5264",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: HDDO & Marine Additive Package Eni MX 5264 is an additive package for premium mu",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "ENI:ENI MX 5450": {
+   "name": "Eni MX 5450",
+   "supplier": "Eni S.p.A.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: Marine Cylinder Oil Additives Package",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "ENI:ENI MX 5612B": {
+   "name": "Eni MX 5612B",
+   "supplier": "Eni S.p.A.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "named only on other grades' sheets / the Triple Tech brochure (class not printed for this grade)",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "not determined"
+  },
+  "ENI:ENI MX 5612C": {
+   "name": "Eni MX 5612C",
+   "supplier": "Eni S.p.A.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "named only on other grades' sheets / the Triple Tech brochure (class not printed for this grade)",
+   "identity_evidence": "printed product code on the documents linked in this batch",
+   "template": "not determined"
+  }
+ },
+ "documents": {
+  "c1fede93bd02": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 3102"
+   ],
+   "roles": {
+    "ENI:ENI MX 3102": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "9c8047e6ca22": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 3104"
+   ],
+   "roles": {
+    "ENI:ENI MX 3104": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "3195e4ccf0fa": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 3171"
+   ],
+   "roles": {
+    "ENI:ENI MX 3171": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "c63f6e9a8b16": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 3240"
+   ],
+   "roles": {
+    "ENI:ENI MX 3240": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "21e523f8d68b": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 3245"
+   ],
+   "roles": {
+    "ENI:ENI MX 3245": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "3c2604e34ceb": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 3280"
+   ],
+   "roles": {
+    "ENI:ENI MX 3280": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "433d8739820c": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 3287"
+   ],
+   "roles": {
+    "ENI:ENI MX 3287": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "87ba3412d9db": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 3316"
+   ],
+   "roles": {
+    "ENI:ENI MX 3316": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "15e9271cbb2a": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 3318"
+   ],
+   "roles": {
+    "ENI:ENI MX 3318": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "80d0b062312f": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 3323"
+   ],
+   "roles": {
+    "ENI:ENI MX 3323": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "df079cb4286b": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 4006"
+   ],
+   "roles": {
+    "ENI:ENI MX 4006": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "67ca2aa6e85d": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 4050"
+   ],
+   "roles": {
+    "ENI:ENI MX 4050": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "318f8bc615be": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 4106",
+    "ENI:ENI MX 4016"
+   ],
+   "roles": {
+    "ENI:ENI MX 4106": "subject",
+    "ENI:ENI MX 4016": "mentioned (other grade named on page 1)"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "87e634b1edbe": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 4330"
+   ],
+   "roles": {
+    "ENI:ENI MX 4330": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "e491e2d963a3": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 4332"
+   ],
+   "roles": {
+    "ENI:ENI MX 4332": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "940d4d08c651": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 4333"
+   ],
+   "roles": {
+    "ENI:ENI MX 4333": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "5d794bbeb21f": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 4346"
+   ],
+   "roles": {
+    "ENI:ENI MX 4346": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "b4ab56651cd6": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5003"
+   ],
+   "roles": {
+    "ENI:ENI MX 5003": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "048520bc630d": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5011"
+   ],
+   "roles": {
+    "ENI:ENI MX 5011": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "8d6f5346fdb0": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5021"
+   ],
+   "roles": {
+    "ENI:ENI MX 5021": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "1b1a6ecda533": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5031"
+   ],
+   "roles": {
+    "ENI:ENI MX 5031": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "3c14a0504fd1": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5111"
+   ],
+   "roles": {
+    "ENI:ENI MX 5111": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "f82348151ba1": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5113"
+   ],
+   "roles": {
+    "ENI:ENI MX 5113": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "6f459dcf43e9": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5114"
+   ],
+   "roles": {
+    "ENI:ENI MX 5114": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "43be5253e334": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5115"
+   ],
+   "roles": {
+    "ENI:ENI MX 5115": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "bdbb10a61ae7": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5116"
+   ],
+   "roles": {
+    "ENI:ENI MX 5116": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "23fa48482e9c": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5138"
+   ],
+   "roles": {
+    "ENI:ENI MX 5138": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "6f11a6c993b8": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5153",
+    "ENI:ENI MX 5653"
+   ],
+   "roles": {
+    "ENI:ENI MX 5153": "subject",
+    "ENI:ENI MX 5653": "mentioned (other grade named on page 1)"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "f2f91aa89625": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5212",
+    "ENI:ENI MX 5612A",
+    "ENI:ENI MX 5612"
+   ],
+   "roles": {
+    "ENI:ENI MX 5212": "subject",
+    "ENI:ENI MX 5612A": "mentioned (other grade named on page 1)",
+    "ENI:ENI MX 5612": "mentioned (other grade named on page 1)"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "55acbb97ed18": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5217"
+   ],
+   "roles": {
+    "ENI:ENI MX 5217": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "8b0a921f41e2": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5264",
+    "ENI:ENI MX 5450"
+   ],
+   "roles": {
+    "ENI:ENI MX 5264": "subject",
+    "ENI:ENI MX 5450": "mentioned (other grade named on page 1)"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "03ec5b3d12a5": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5450",
+    "ENI:ENI MX 5264"
+   ],
+   "roles": {
+    "ENI:ENI MX 5450": "subject",
+    "ENI:ENI MX 5264": "mentioned (other grade named on page 1)"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "6431b25a4a10": {
+   "doc_type": "brochure (multi-product)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5612A",
+    "ENI:ENI MX 5612B",
+    "ENI:ENI MX 5612C",
+    "ENI:ENI MX 5113",
+    "ENI:ENI MX 5114",
+    "ENI:ENI MX 5115",
+    "ENI:ENI MX 5212"
+   ],
+   "roles": {
+    "ENI:ENI MX 5612A": "mentioned (other grade named on page 1)",
+    "ENI:ENI MX 5612B": "mentioned (other grade named on page 1)",
+    "ENI:ENI MX 5612C": "mentioned (other grade named on page 1)",
+    "ENI:ENI MX 5113": "mentioned (other grade named on page 1)",
+    "ENI:ENI MX 5114": "mentioned (other grade named on page 1)",
+    "ENI:ENI MX 5115": "mentioned (other grade named on page 1)",
+    "ENI:ENI MX 5212": "mentioned (other grade named on page 1)"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "'Eni Triple Tech - Multipurpose Additives Packages Technology' brochure",
+   "next_action": "list the products inside (multi-product)"
+  },
+  "00439ea6caed": {
+   "doc_type": "SDS",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 3240"
+   ],
+   "roles": {
+    "ENI:ENI MX 3240": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "a93468cdb794": {
+   "doc_type": "product range sheet (multi-product)",
+   "supplier": "Versalis (Eni)",
+   "products": [],
+   "roles": {},
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "Versalis 'DUTRAL EP(D)M' main-properties range sheet",
+   "next_action": "list the products inside (multi-product)"
+  },
+  "08c406864e40": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Eni S.p.A.",
+   "products": [
+    "ENI:ENI MX 5217"
+   ],
+   "roles": {
+    "ENI:ENI MX 5217": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (MX codes and descriptor)",
+   "note": "",
+   "next_action": ""
+  },
+  "bc18ca1da169": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Versalis (Eni)",
+   "products": [
+    "VERSALIS:DUTRAL OCP 2550"
+   ],
+   "roles": {
+    "VERSALIS:DUTRAL OCP 2550": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing; file name",
+   "note": "name from the file name 'TDS Dutral OCP 2550 2107' and the 'DUTRAL EP(D)M' header",
+   "next_action": "confirm the grade name on the page image"
+  }
+ }
+}
