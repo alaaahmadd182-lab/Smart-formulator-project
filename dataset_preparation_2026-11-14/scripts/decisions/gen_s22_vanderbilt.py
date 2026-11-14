@@ -38,7 +38,7 @@ for r in A:
     desc = ''
     if typ == 'product data sheet (TDS/PDS)':
         stop = next((i for i, x in enumerate(parts) if i > 0 and re.match(r'(?i)T\s?e\s?c\s?h|VANLUBE|MOLYVAN', x)), len(parts))
-        desc = ' '.join(x for x in parts[0:stop] if x and not re.match(r'(?i)VANLUBE|MOLYVAN', x))[:90]
+        desc = ' '.join(x for x in parts[0:stop] if x and not re.match(r'(?i)VANLUBE|MOLYVAN|T\s?e\s?c\s?h', x))[:90]
         if re.search(r'(?i)guarantee|warrant|before using', desc):
             desc = ''
     for k in ks:
