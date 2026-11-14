@@ -17,7 +17,7 @@ def to_root():
 class Batch:
     def __init__(self, name):
         self.name, self.links, self.F, self.docs = name, [], [], {}
-        self.visual, self.pending, self.queue = [], [], []
+        self.visual, self.pending, self.queue, self.overrides = [], [], [], []
 
     def doc(self, f, what, date, frozen, role, cov=None, ident=None, scope_extra='', scope=None, route=None, viewed=None):
         """Close every frozen open link of document f. role: how the products appear on the hit pages.
@@ -74,5 +74,7 @@ class Batch:
             d['not_yet_verified_visually'] = self.pending
         if self.queue:
             d['new_product_candidates'] = self.queue
+        if self.overrides:
+            d['field_overrides'] = self.overrides
         json.dump(d, open(f'{B}/decisions/{fname}', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         print(len(self.links), len(self.F))
