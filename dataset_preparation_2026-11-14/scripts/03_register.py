@@ -104,7 +104,9 @@ def main():
                          existing_comparison_products=' | '.join(epc_products), existing_comparison_open_links=epc_open,
                          existing_comparison_read_scope=scope.get(sha, ''), byte_duplicate_of_existing_archive=u['byte_duplicate_of_existing'],
                          printed_dates=dec.get('date', u['printed_dates']) if dec else u['printed_dates'], region=(dec or {}).get('region', ''),
-                         revision=(dec or {}).get('revision', ''), note=(dec or {}).get('note', ''), next_action=nxt))
+                         revision=(dec or {}).get('revision', ''), note=(dec or {}).get('note', ''), next_action=nxt,
+                         manufacturer=(dec or {}).get('manufacturer', ''), distributor=(dec or {}).get('distributor', ''), issuer=(dec or {}).get('issuer', ''),
+                         decision_file=(dec or {}).get('decision_file', '')))
     # products
     prodrows = {}
     for k, v in P.items():

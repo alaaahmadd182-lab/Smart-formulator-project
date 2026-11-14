@@ -1,0 +1,27 @@
+{
+ "products_total": 1658,
+ "existing_records": 264,
+ "non_existing": 1394,
+ "stage2_identity": {
+  "verified": 1356,
+  "candidate only (mentioned / no subject document read)": 25,
+  "verified, open question": 13
+ },
+ "stage3_class_template": {
+  "established": 887,
+  "open question": 195,
+  "out of template (excluded from conversion; kept in the inventory)": 153,
+  "unresolved": 159
+ },
+ "stage4_evidence_review": {
+  "not started": 1658
+ },
+ "stage5_field_mapping": {
+  "not started": 1658
+ },
+ "conversion_ready": 0,
+ "identity_verified_and_template_established": 868,
+ "blockers": 23,
+ "reconciliation_candidates": 29,
+ "reconciliation_open": 8
+}

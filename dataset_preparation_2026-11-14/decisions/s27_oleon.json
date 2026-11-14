@@ -1,0 +1,459 @@
+{
+ "batch": "S27 Oleon (identity)",
+ "reviewed_on": "2026-11-14",
+ "scope": "20 documents with provisional supplier Emery / Oleon",
+ "products": {
+  "OLEON:RADIALUBE 7368": {
+   "name": "RADIALUBE 7368",
+   "supplier": "Oleon NV",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed 'Chemical name : Trimethylolpropane tricaprylate/caprate'; ester: base fluid vs component to confirm; base_oil template has no API group for esters",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "OLEON:RADIALUBE 7573": {
+   "name": "RADIALUBE 7573",
+   "supplier": "Oleon NV",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed 'Chemical name : Unsaturated ISO VG 68'; ester: base fluid vs component to confirm; base_oil template has no API group for esters",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "OLEON:RADIALUBE 7365": {
+   "name": "RADIALUBE 7365",
+   "supplier": "Oleon NV",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed 'Chemical name : Unsaturated ISO VG 68'; ester: base fluid vs component to confirm; base_oil template has no API group for esters",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "OLEON:RADIA 7192": {
+   "name": "RADIA 7192",
+   "supplier": "Oleon NV",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed 'Chemical name : ISOPROPYL LAURATE'; ester: base fluid vs component to confirm; base_oil template has no API group for esters",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "OLEON:RADIA 7179": {
+   "name": "RADIA 7179",
+   "supplier": "Oleon NV",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed 'Chemical name : PENTAERYTHRITOL TETRAISOSTEARATE'; ester: base fluid vs component to confirm; base_oil template has no API group for esters",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "OLEON:RADIALUBE 7364": {
+   "name": "RADIALUBE 7364",
+   "supplier": "Oleon NV",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed 'Chemical name : Trimethylolpropane trioleate'; ester: base fluid vs component to confirm; base_oil template has no API group for esters; 7361 / 7364 / 7563 print the same chemical name: separate products, not merged",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "OLEON:RADIALUBE 7681": {
+   "name": "RADIALUBE 7681",
+   "supplier": "Oleon NV",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed 'Chemical name : UNSATURATED ISO VG 68'; ester: base fluid vs component to confirm; base_oil template has no API group for esters",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "OLEON:RADIALUBE 7361": {
+   "name": "RADIALUBE 7361",
+   "supplier": "Oleon NV",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed 'Chemical name : Trimethylolpropane trioleate'; ester: base fluid vs component to confirm; base_oil template has no API group for esters; 7361 / 7364 / 7563 print the same chemical name: separate products, not merged",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "OLEON:RADIALUBE 7563": {
+   "name": "RADIALUBE 7563",
+   "supplier": "Oleon NV",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed 'Chemical name : Trimethylolpropane trioleate'; ester: base fluid vs component to confirm; base_oil template has no API group for esters; 7361 / 7364 / 7563 print the same chemical name: separate products, not merged",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "292a0b00bd30": {
+   "doc_type": "SDS",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7368"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7368": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv",
+   "date": ""
+  },
+  "a8781e25bd46": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7573"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7573": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv (Ertvelde)",
+   "date": "09/10/2019"
+  },
+  "0863c0bba2e2": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7365"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7365": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv (Ertvelde)",
+   "date": "04/02/2020"
+  },
+  "75c9afdec582": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIA 7192"
+   ],
+   "roles": {
+    "OLEON:RADIA 7192": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv (Ertvelde)",
+   "date": "22/01/2019"
+  },
+  "b3d5430d3a4e": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIA 7179"
+   ],
+   "roles": {
+    "OLEON:RADIA 7179": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv (Ertvelde)",
+   "date": "29/03/2018"
+  },
+  "42a8af49cb84": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7364"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7364": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv (Ertvelde)",
+   "date": "25/06/2019"
+  },
+  "8e518192e3f3": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7681"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7681": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv (Ertvelde)",
+   "date": "29/10/2016"
+  },
+  "7a095d870e26": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7361"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7361": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv (Ertvelde)",
+   "date": "19/06/2020"
+  },
+  "b1a3229563f6": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIA 7179"
+   ],
+   "roles": {
+    "OLEON:RADIA 7179": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "OLEON N.V. (Oelegem)",
+   "date": ""
+  },
+  "eabe576b3520": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7361"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7361": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "OLEON N.V. (Oelegem)",
+   "date": ""
+  },
+  "bbe88e1ed230": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7365"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7365": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon Port Klang Sdn. Bhd.",
+   "date": ""
+  },
+  "d1cacfc744df": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7563"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7563": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon Port Klang Sdn. Bhd.",
+   "date": ""
+  },
+  "ee8f8e44c170": {
+   "doc_type": "SDS",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIA 7179"
+   ],
+   "roles": {
+    "OLEON:RADIA 7179": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv",
+   "date": ""
+  },
+  "cdefeed6fb3b": {
+   "doc_type": "SDS",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7361"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7361": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv",
+   "date": ""
+  },
+  "c4d814fde78f": {
+   "doc_type": "SDS",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7365"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7365": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv",
+   "date": ""
+  },
+  "5c5aea73ac86": {
+   "doc_type": "SDS",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7563"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7563": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv",
+   "date": ""
+  },
+  "792dfe9dca1e": {
+   "doc_type": "SDS",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7681"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7681": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv",
+   "date": ""
+  },
+  "56c1178ea8dd": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7563"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7563": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv (Ertvelde)",
+   "date": "14/07/2020"
+  },
+  "b9052ca9e018": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7364"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7364": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv (Ertvelde)",
+   "date": "15/04/2020"
+  },
+  "6cc9fabaa997": {
+   "doc_type": "SDS",
+   "supplier": "Oleon NV",
+   "products": [
+    "OLEON:RADIALUBE 7364"
+   ],
+   "roles": {
+    "OLEON:RADIALUBE 7364": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (name, chemical name, certificate header)",
+   "note": "",
+   "next_action": "",
+   "manufacturer": "Oleon NV",
+   "distributor": "",
+   "issuer": "Oleon nv",
+   "date": ""
+  }
+ }
+}
