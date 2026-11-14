@@ -1,0 +1,955 @@
+{
+ "batch": "S17 KangTai (identity)",
+ "reviewed_on": "2026-11-14",
+ "scope": "40 documents with provisional supplier KangTai",
+ "products": {
+  "KANGTAI:BDC010": {
+   "name": "BD C010",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: NEUTRAL SYNTHETIC CALCIUM SULFONATE(Mainly used in industrial lubricants,TBN=MAX10)",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:BDC030": {
+   "name": "BD C030",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: LOW BASE NUMBER SYNTHETIC CALCIUM SULFONATE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KR1300": {
+   "name": "KR 1300",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: POLYISOBUTYLENE SUCCINIC ANHYDRIDE (PIBSA-1300) (THERMAL ADDUCTION PIBSA) (process intermediate: schema gap)",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KTD1351": {
+   "name": "KT D1351",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: POLYISOBUTYLENE MONO-SUCCINIMIDE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KTD1354": {
+   "name": "KT D1354",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: POLYISOBUTYLENE BIS-SUCCINIMIDE (Mw=1300)",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KTD1354B": {
+   "name": "KT D1354B",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: BORIDE POLYISOBUTYLENE BIS-SUCCINIMIDE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KTD1354E": {
+   "name": "KT D1354E",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: POLYISOBUTYLENE BIS-SUCCINIMIDE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:J-0010": {
+   "name": "J-0010",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: ETHYLENE-PROPYLENE COPOLYMER (SOLID) (VM subtype); same code as PetroChina Jilin J0010 linked in an earlier batch (LUBRIZOL:JILIN J0010): not merged, consolidation question",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KT620": {
+   "name": "KT620",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: Viscosity Index Improver（VII） (VM subtype)",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KT6613": {
+   "name": "KT6613",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: ETHYLENE-PROPYLENE COPOLYMER (VM subtype)",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KT6614": {
+   "name": "KT6614",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: ETHYLENE-PROPYLENE COPOLYMER (VM subtype)",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KT33169": {
+   "name": "KT 33169",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: NATURAL GAS ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT3069": {
+   "name": "KT3069",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: DUAL FUEL ENGINE OIL ADDITIVE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT30090": {
+   "name": "KT30090",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KZZ2038": {
+   "name": "KZ Z2038",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: ZINC PROPYL OCTYL SECONDARY-PRIMARY ALKYL DITHIOPHOSPHATE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KZZ2081": {
+   "name": "KZ Z2081",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: ZINC DIOCTYL PRIMARY- SECONDARY ALKYL DITHIOPHOSPHATEHATE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KT30100": {
+   "name": "KT30100",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: SUPER MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT31048": {
+   "name": "KT31048",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: SUPER MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT31050": {
+   "name": "KT31050",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: SUPER MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT31140": {
+   "name": "KT31140",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "JINZHOU_KANGTAI_KT31140",
+   "status": "existing",
+   "notes": "printed: MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT33070": {
+   "name": "KT33070",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: FOUR-STROKE MOTORCYCLE ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT33070A": {
+   "name": "KT33070A",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: FOUR-STROKE MOTORCYCLE ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT33133": {
+   "name": "KT33133",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT33158": {
+   "name": "KT33158",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT33160A": {
+   "name": "KT33160A",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT33161": {
+   "name": "KT33161",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT33162": {
+   "name": "KT33162",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT33210": {
+   "name": "KT33210",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT33303": {
+   "name": "KT33303",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: TWO-STROKE ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT33232": {
+   "name": "KT33232",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:KT33303A": {
+   "name": "KT33303A",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: TWO-STROKE ENGINE OIL ADDITIVE PACKAGE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KANGTAI:BDP250": {
+   "name": "BD P250",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: SULFURIZED CALCIUM ALKYLPHENATE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:BDC300": {
+   "name": "BD C300",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: HIGH BASE NUMBER SYNTHETIC CALCIUM SULFONATE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:BDC400": {
+   "name": "BD C400",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: OVERBASED NUMBER SYNTHETIC CALCIUM SULFONATE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KTZ2048": {
+   "name": "KT Z2048",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: ZINC BUTYL OCTYL PRIMARY ALKYL DITHIOPHOSPHATE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KTZ2080": {
+   "name": "KT Z2080",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: ZINC DIOCTYL PRIMARY ALKYL DITHIOPHOSPHATE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KT3309": {
+   "name": "KT3309",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: TRIPHENYL-THIOPHOSPHATE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KT3321": {
+   "name": "KT3321",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: SULFURIZED ISOBUTYLENE",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KANGTAI:KT3323": {
+   "name": "KT3323",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: AMIDOCYANOGEN THIOESTER COMPOUND",
+   "identity_evidence": "printed code on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  }
+ },
+ "documents": {
+  "c61c407f5955": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:BDC010"
+   ],
+   "roles": {
+    "KANGTAI:BDC010": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'BD C010'",
+   "next_action": ""
+  },
+  "c893d639cda2": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:BDC030"
+   ],
+   "roles": {
+    "KANGTAI:BDC030": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'BD C030'",
+   "next_action": ""
+  },
+  "cdcd9e20a238": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KR1300"
+   ],
+   "roles": {
+    "KANGTAI:KR1300": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KR 1300'",
+   "next_action": ""
+  },
+  "73863d8676ed": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KTD1351"
+   ],
+   "roles": {
+    "KANGTAI:KTD1351": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT D1351'",
+   "next_action": ""
+  },
+  "7f2694db7ab0": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KTD1354"
+   ],
+   "roles": {
+    "KANGTAI:KTD1354": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT D1354'",
+   "next_action": ""
+  },
+  "fd9877d85a48": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KTD1354B"
+   ],
+   "roles": {
+    "KANGTAI:KTD1354B": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT D1354B'",
+   "next_action": ""
+  },
+  "8eca95cd4b81": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KTD1354E"
+   ],
+   "roles": {
+    "KANGTAI:KTD1354E": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT D1354E'",
+   "next_action": ""
+  },
+  "fd9bb20af182": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:J-0010"
+   ],
+   "roles": {
+    "KANGTAI:J-0010": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'J-0010'",
+   "next_action": ""
+  },
+  "24c7cd4c8a9a": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT620"
+   ],
+   "roles": {
+    "KANGTAI:KT620": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT620'",
+   "next_action": ""
+  },
+  "cf75127bfd5e": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT6613"
+   ],
+   "roles": {
+    "KANGTAI:KT6613": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT6613'",
+   "next_action": ""
+  },
+  "88a0db709276": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT6614"
+   ],
+   "roles": {
+    "KANGTAI:KT6614": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT6614'",
+   "next_action": ""
+  },
+  "19b28730d598": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT33169"
+   ],
+   "roles": {
+    "KANGTAI:KT33169": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT 33169'",
+   "next_action": ""
+  },
+  "40690217a62e": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT3069"
+   ],
+   "roles": {
+    "KANGTAI:KT3069": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT3069'",
+   "next_action": ""
+  },
+  "2785dc434f23": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT30090"
+   ],
+   "roles": {
+    "KANGTAI:KT30090": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT30090'",
+   "next_action": ""
+  },
+  "52610744d34e": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KZZ2038"
+   ],
+   "roles": {
+    "KANGTAI:KZZ2038": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KZ Z2038'",
+   "next_action": ""
+  },
+  "18400a0ac6f0": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KZZ2081"
+   ],
+   "roles": {
+    "KANGTAI:KZZ2081": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KZ Z2081'",
+   "next_action": ""
+  },
+  "2948d417b361": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT30100"
+   ],
+   "roles": {
+    "KANGTAI:KT30100": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT30100'",
+   "next_action": ""
+  },
+  "438411ebc3ef": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT31048"
+   ],
+   "roles": {
+    "KANGTAI:KT31048": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT31048'",
+   "next_action": ""
+  },
+  "fe6ec49a2100": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT31050"
+   ],
+   "roles": {
+    "KANGTAI:KT31050": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT31050'",
+   "next_action": ""
+  },
+  "4473f07ba754": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT31140"
+   ],
+   "roles": {
+    "KANGTAI:KT31140": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT31140'",
+   "next_action": ""
+  },
+  "133d49fa7397": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT33070"
+   ],
+   "roles": {
+    "KANGTAI:KT33070": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT33070'",
+   "next_action": ""
+  },
+  "708cdee627b9": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT33070A"
+   ],
+   "roles": {
+    "KANGTAI:KT33070A": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT33070A'",
+   "next_action": ""
+  },
+  "771e8f321c5f": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT33133"
+   ],
+   "roles": {
+    "KANGTAI:KT33133": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT33133'",
+   "next_action": ""
+  },
+  "daeb7e0ca31d": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT33158"
+   ],
+   "roles": {
+    "KANGTAI:KT33158": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT33158'",
+   "next_action": ""
+  },
+  "1c986f0f0994": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT33160A"
+   ],
+   "roles": {
+    "KANGTAI:KT33160A": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT33160A'",
+   "next_action": ""
+  },
+  "c68d6d60a4f6": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT33161"
+   ],
+   "roles": {
+    "KANGTAI:KT33161": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT33161'",
+   "next_action": ""
+  },
+  "603fb4d5f325": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT33162"
+   ],
+   "roles": {
+    "KANGTAI:KT33162": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT33162'",
+   "next_action": ""
+  },
+  "5562ca48b3be": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT33210"
+   ],
+   "roles": {
+    "KANGTAI:KT33210": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT33210'",
+   "next_action": ""
+  },
+  "52a4bf4dc00b": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT33303"
+   ],
+   "roles": {
+    "KANGTAI:KT33303": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT33303'",
+   "next_action": ""
+  },
+  "8e34a3916ed8": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT33232"
+   ],
+   "roles": {
+    "KANGTAI:KT33232": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT33232'",
+   "next_action": ""
+  },
+  "28a1ec284748": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT33303A"
+   ],
+   "roles": {
+    "KANGTAI:KT33303A": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT33303A'",
+   "next_action": ""
+  },
+  "9df8c0b2321c": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:BDP250"
+   ],
+   "roles": {
+    "KANGTAI:BDP250": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'BD P250'",
+   "next_action": ""
+  },
+  "58712682c787": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:BDC300"
+   ],
+   "roles": {
+    "KANGTAI:BDC300": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'BD C300'",
+   "next_action": ""
+  },
+  "92a0b39d5b66": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:BDC400"
+   ],
+   "roles": {
+    "KANGTAI:BDC400": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'BD C400'",
+   "next_action": ""
+  },
+  "f1d21f8aac59": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KTZ2048"
+   ],
+   "roles": {
+    "KANGTAI:KTZ2048": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT Z2048'",
+   "next_action": ""
+  },
+  "6587053731ac": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KTZ2080"
+   ],
+   "roles": {
+    "KANGTAI:KTZ2080": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT Z2080'",
+   "next_action": ""
+  },
+  "a4fd10a61c60": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT3309"
+   ],
+   "roles": {
+    "KANGTAI:KT3309": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT3309'",
+   "next_action": ""
+  },
+  "1efd423014fd": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT3321"
+   ],
+   "roles": {
+    "KANGTAI:KT3321": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT3321'",
+   "next_action": ""
+  },
+  "e3856189b17f": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [
+    "KANGTAI:KT3323"
+   ],
+   "roles": {
+    "KANGTAI:KT3323": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 listing (code + printed descriptor)",
+   "note": "printed code 'KT3323'",
+   "next_action": ""
+  },
+  "15e9e889cd43": {
+   "doc_type": "company catalogue (multi-product)",
+   "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd.",
+   "products": [],
+   "roles": {},
+   "relation": "product",
+   "read": "page-1 listing",
+   "note": "'Additive Expert KANGTAI' catalogue (31 pp)",
+   "next_action": "list the products inside (multi-product)"
+  }
+ }
+}
