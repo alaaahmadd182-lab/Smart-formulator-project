@@ -65,7 +65,7 @@ for r in A:
         br, code, form, fgd, fast, visc = m.groups()
         key = f'{br.upper()} {code.upper()}' + (f' {fgd}' if fgd else '') + (f' {form.upper()}' if form else '') + (f'-{fast.upper()}' if fast else '') + (f' {visc} CST' if visc else '')
         key = re.sub(r'(\d)L\b', r'\1 L', key)
-        d = re.split(r'(?i)\s*issue date', body[m.end():], 1)[0].strip(' ®:-')[:90]
+        d = re.split(r'(?i)\s*(?:issue date|description)', body[m.end():], 1)[0].strip(' ®:-')[:90]
     rev = re.search(r'(?i)issue date:?\s*([0-9A-Za-z ,.\-]{6,22}?\d{4})', t)
     D[sha[:12]] = dict(doc_type='SDS' if re.search(r'(?i)safety data sheet', t[:400]) else ('certificate of analysis (batch)' if 'Certificate of analysis' in t else 'product data sheet (TDS/PDS)'),
                        supplier=SUP, products=['BRB:' + key], roles={'BRB:' + key: 'subject'}, relation='product', date=rev.group(1) if rev else '',
