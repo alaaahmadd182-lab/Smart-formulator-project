@@ -1,0 +1,5283 @@
+{
+ "batch": "S02 Afton Chemical (identity)",
+ "reviewed_on": "2026-11-14",
+ "scope": "305 documents with provisional supplier Afton Chemical",
+ "products": {
+  "AFTON:HiTEC 349": {
+   "name": "HiTEC 349",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:OTR 8005G": {
+   "name": "OTR 8005G",
+   "supplier": "Afton Chemical",
+   "material_class": "out_of_template: fuel additive",
+   "existing_record": "",
+   "notes": "fuel additive: no lubricant raw-material template (schema gap; excluded from conversion unless the scope is widened)",
+   "status": "out_of_scope",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "none (see notes)"
+  },
+  "AFTON:OTR 8334ULS": {
+   "name": "OTR 8334ULS",
+   "supplier": "Afton Chemical",
+   "material_class": "out_of_template: fuel additive",
+   "existing_record": "",
+   "notes": "fuel additive: no lubricant raw-material template (schema gap; excluded from conversion unless the scope is widened)",
+   "status": "out_of_scope",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "none (see notes)"
+  },
+  "AFTON:OTR 8843G": {
+   "name": "OTR 8843G",
+   "supplier": "Afton Chemical",
+   "material_class": "out_of_template: fuel additive",
+   "existing_record": "",
+   "notes": "fuel additive: no lubricant raw-material template (schema gap; excluded from conversion unless the scope is widened)",
+   "status": "out_of_scope",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "none (see notes)"
+  },
+  "AFTON:OTR 8991G": {
+   "name": "OTR 8991G",
+   "supplier": "Afton Chemical",
+   "material_class": "out_of_template: fuel additive",
+   "existing_record": "",
+   "notes": "fuel additive: no lubricant raw-material template (schema gap; excluded from conversion unless the scope is widened)",
+   "status": "out_of_scope",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "none (see notes)"
+  },
+  "AFTON:OTR 9001G": {
+   "name": "OTR 9001G",
+   "supplier": "Afton Chemical",
+   "material_class": "out_of_template: fuel additive",
+   "existing_record": "",
+   "notes": "fuel additive: no lubricant raw-material template (schema gap; excluded from conversion unless the scope is widened)",
+   "status": "out_of_scope",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "none (see notes)"
+  },
+  "AFTON:HiTEC 510": {
+   "name": "HiTEC 510",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 5825H": {
+   "name": "HiTEC 5825H",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "solid OCP VI improver (VM; solid polymer)",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 523F": {
+   "name": "HiTEC 523F",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 12200": {
+   "name": "HiTEC 12200",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "AFTON_HITEC_12200",
+   "notes": "",
+   "status": "existing",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 9325C": {
+   "name": "HiTEC 9325C",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 9300G": {
+   "name": "HiTEC 9300G",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 12210": {
+   "name": "HiTEC 12210",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "AFTON_HITEC_12210",
+   "notes": "",
+   "status": "existing",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 3460": {
+   "name": "HiTEC 3460",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 1811": {
+   "name": "HiTEC 1811",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 5748": {
+   "name": "HiTEC 5748",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "AFTON_HITEC_5748",
+   "notes": "OCP VM (existing record)",
+   "status": "existing",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 2584": {
+   "name": "HiTEC 2584",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 2030": {
+   "name": "HiTEC 2030",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "non-silicone antifoam",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 317": {
+   "name": "HiTEC 317",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 579": {
+   "name": "HiTEC 579",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 3491K": {
+   "name": "HiTEC 3491K",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 2225": {
+   "name": "HiTEC 2225",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 344": {
+   "name": "HiTEC 344",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 511T": {
+   "name": "HiTEC 511T",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "ashless AW / EP agent",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 566": {
+   "name": "HiTEC 566",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 543": {
+   "name": "HiTEC 543",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 382": {
+   "name": "HiTEC 382",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 8777B": {
+   "name": "HiTEC 8777B",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 9310": {
+   "name": "HiTEC 9310",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "PCMO booster for HiTEC 9300",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 9300": {
+   "name": "HiTEC 9300",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 9387X": {
+   "name": "HiTEC 9387X",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 12210M": {
+   "name": "HiTEC 12210M",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "AFTON_HITEC_12210M",
+   "notes": "",
+   "status": "existing",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 9325G": {
+   "name": "HiTEC 9325G",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 9450": {
+   "name": "HiTEC 9450",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 352": {
+   "name": "HiTEC 352",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:UA4159": {
+   "name": "UA4159",
+   "supplier": "Afton Chemical",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "notes": "Afton customer product code (United Oil Company, Singapore); nature not stated on page 1",
+   "status": "unresolved",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "none (see notes)"
+  },
+  "AFTON:HiTEC 11180": {
+   "name": "HiTEC 11180",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 9387/88": {
+   "name": "HiTEC 9387/88",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 9300C": {
+   "name": "HiTEC 9300C",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 369": {
+   "name": "HiTEC 369",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 397": {
+   "name": "HiTEC 397",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 419": {
+   "name": "HiTEC 419",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 429": {
+   "name": "HiTEC 429",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 8703": {
+   "name": "HiTEC 8703",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 9490": {
+   "name": "HiTEC 9490",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 5748A": {
+   "name": "HiTEC 5748A",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "OCP VM (distinct from HiTEC 5748)",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 3435A": {
+   "name": "HiTEC 3435A",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 9890": {
+   "name": "HiTEC 9890",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 12260": {
+   "name": "HiTEC 12260",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "HDDEO booster (filed like HiTEC 12250)",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 12255": {
+   "name": "HiTEC 12255",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "HDEO booster (filed like the existing HiTEC 12250 record)",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 3339": {
+   "name": "HiTEC 3339",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:Jilin J0030": {
+   "name": "Jilin J0030",
+   "supplier": "PetroChina Jilin (named on the sheet)",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "solid OCP VI improver (VM subtype); solid polymer",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 5835A": {
+   "name": "HiTEC 5835A",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "OCP (mentioned only)",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 521": {
+   "name": "HiTEC 521",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 306": {
+   "name": "HiTEC 306",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 552": {
+   "name": "HiTEC 552",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 5751": {
+   "name": "HiTEC 5751",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "OCP VI improver (VM)",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 5754A": {
+   "name": "HiTEC 5754A",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "OCP VI improver (VM)",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:Axcel S": {
+   "name": "Axcel S",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "Afton Axcel® brand gear oil package",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 5777": {
+   "name": "HiTEC 5777",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "dispersant OCP VI improver (VM)",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 343": {
+   "name": "HiTEC 343",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:OTR 8332G": {
+   "name": "OTR 8332G",
+   "supplier": "Afton Chemical",
+   "material_class": "out_of_template: fuel additive",
+   "existing_record": "",
+   "notes": "fuel additive: no lubricant raw-material template (schema gap; excluded from conversion unless the scope is widened)",
+   "status": "out_of_scope",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "none (see notes)"
+  },
+  "AFTON:OTR 8134G": {
+   "name": "OTR 8134G",
+   "supplier": "Afton Chemical",
+   "material_class": "out_of_template: fuel additive",
+   "existing_record": "",
+   "notes": "fuel additive: no lubricant raw-material template (schema gap; excluded from conversion unless the scope is widened)",
+   "status": "out_of_scope",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "none (see notes)"
+  },
+  "AFTON:HiTEC 4009": {
+   "name": "HiTEC 4009",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 4133G": {
+   "name": "HiTEC 4133G",
+   "supplier": "Afton Chemical",
+   "material_class": "out_of_template: fuel additive",
+   "existing_record": "",
+   "notes": "fuel additive: no lubricant raw-material template (schema gap; excluded from conversion unless the scope is widened)",
+   "status": "out_of_scope",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "none (see notes)"
+  },
+  "AFTON:HiTEC 4139G": {
+   "name": "HiTEC 4139G",
+   "supplier": "Afton Chemical",
+   "material_class": "out_of_template: fuel additive",
+   "existing_record": "",
+   "notes": "fuel additive: no lubricant raw-material template (schema gap; excluded from conversion unless the scope is widened)",
+   "status": "out_of_scope",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "none (see notes)"
+  },
+  "AFTON:HiTEC 5710": {
+   "name": "HiTEC 5710",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "dispersant PMA VI improver (VM subtype)",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 11145": {
+   "name": "HiTEC 11145",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 2607": {
+   "name": "HiTEC 2607",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 2505": {
+   "name": "HiTEC 2505",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 11500": {
+   "name": "HiTEC 11500",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 8801": {
+   "name": "HiTEC 8801",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 22520": {
+   "name": "HiTEC 22520",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:APL": {
+   "name": "APL",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "synthetic lubricity improver for metalworking fluids: component general block; application outside engine / driveline scope",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 34321": {
+   "name": "HiTEC 34321",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 2597": {
+   "name": "HiTEC 2597",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:OTR 8932G": {
+   "name": "OTR 8932G",
+   "supplier": "Afton Chemical",
+   "material_class": "out_of_template: fuel additive",
+   "existing_record": "",
+   "notes": "fuel additive: no lubricant raw-material template (schema gap; excluded from conversion unless the scope is widened)",
+   "status": "out_of_scope",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "none (see notes)"
+  },
+  "AFTON:HiTEC 12213": {
+   "name": "HiTEC 12213",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 3419": {
+   "name": "HiTEC 3419",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 1505": {
+   "name": "HiTEC 1505",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 3431": {
+   "name": "HiTEC 3431",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 307": {
+   "name": "HiTEC 307",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 4716": {
+   "name": "HiTEC 4716",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "organomolybdenum friction modifier",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 522": {
+   "name": "HiTEC 522",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 2018LV": {
+   "name": "HiTEC 2018LV",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 3488": {
+   "name": "HiTEC 3488",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 5724": {
+   "name": "HiTEC 5724",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "PMA VI improver (VM subtype)",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 2240": {
+   "name": "HiTEC 2240",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 12400": {
+   "name": "HiTEC 12400",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "AFTON_HITEC_12400",
+   "notes": "",
+   "status": "existing",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 12010": {
+   "name": "HiTEC 12010",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "AFTON_HITEC_12010",
+   "notes": "",
+   "status": "existing",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 527": {
+   "name": "HiTEC 527",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 8788B": {
+   "name": "HiTEC 8788B",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "AFTON_HITEC_8788B",
+   "notes": "",
+   "status": "existing",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 3421": {
+   "name": "HiTEC 3421",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 12204L": {
+   "name": "HiTEC 12204L",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "AFTON_HITEC_12204L",
+   "notes": "",
+   "status": "existing",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 11410": {
+   "name": "HiTEC 11410",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 9388X": {
+   "name": "HiTEC 9388X",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 3491LV": {
+   "name": "HiTEC 3491LV",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 8788LA": {
+   "name": "HiTEC 8788LA",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 12360": {
+   "name": "HiTEC 12360",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "AFTON_HITEC_12360",
+   "notes": "",
+   "status": "existing",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 11210": {
+   "name": "HiTEC 11210",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:P3010": {
+   "name": "P3010",
+   "supplier": "unresolved (issuer not printed)",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "notes": "certificate product code; composition data (P, S, N) suggest an additive but nothing is inferred",
+   "status": "unresolved",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "none (see notes)"
+  },
+  "AFTON:UA4158": {
+   "name": "UA4158",
+   "supplier": "Afton Chemical",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "notes": "Afton customer product code (United Oil Company, Singapore); nature not stated on page 1",
+   "status": "unresolved",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "none (see notes)"
+  },
+  "AFTON:HiTEC 35701": {
+   "name": "HiTEC 35701",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 6320": {
+   "name": "HiTEC 6320",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 12250": {
+   "name": "HiTEC 12250",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "AFTON_HITEC_12250",
+   "notes": "HDEO booster (existing record filed as additive_component)",
+   "status": "existing",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 11456": {
+   "name": "HiTEC 11456",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 11600": {
+   "name": "HiTEC 11600",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 8705": {
+   "name": "HiTEC 8705",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 3421J": {
+   "name": "HiTEC 3421J",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 151": {
+   "name": "HiTEC 151",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 521F": {
+   "name": "HiTEC 521F",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 11183": {
+   "name": "HiTEC 11183",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 6431": {
+   "name": "HiTEC 6431",
+   "supplier": "Afton Chemical",
+   "material_class": "out_of_template: fuel additive",
+   "existing_record": "",
+   "notes": "fuel additive: no lubricant raw-material template (schema gap; excluded from conversion unless the scope is widened)",
+   "status": "out_of_scope",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "none (see notes)"
+  },
+  "AFTON:HiTEC 11181": {
+   "name": "HiTEC 11181",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 8799B": {
+   "name": "HiTEC 8799B",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "AFTON_HITEC_8799B",
+   "notes": "",
+   "status": "existing",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 8712": {
+   "name": "HiTEC 8712",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "AFTON_HITEC_8712",
+   "notes": "",
+   "status": "existing",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 2414": {
+   "name": "HiTEC 2414",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 2250": {
+   "name": "HiTEC 2250",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 2571": {
+   "name": "HiTEC 2571",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 381": {
+   "name": "HiTEC 381",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 11458": {
+   "name": "HiTEC 11458",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 11320": {
+   "name": "HiTEC 11320",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 12208": {
+   "name": "HiTEC 12208",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "AFTON_HITEC_12208",
+   "notes": "",
+   "status": "existing",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 686": {
+   "name": "HiTEC 686",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "calcium phosphate-phenate detergent",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  },
+  "AFTON:HiTEC 22300": {
+   "name": "HiTEC 22300",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 11455": {
+   "name": "HiTEC 11455",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 34006": {
+   "name": "HiTEC 34006",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 11356": {
+   "name": "HiTEC 11356",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 523": {
+   "name": "HiTEC 523",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 34500": {
+   "name": "HiTEC 34500",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "notes": "",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "AFTON:HiTEC 5825K": {
+   "name": "HiTEC 5825K",
+   "supplier": "Afton Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "notes": "solid OCP VM",
+   "status": "new_candidate",
+   "identity_evidence": "printed product name / code on the documents linked in this batch",
+   "template": "additive_component general (+ VM subtype where noted)"
+  }
+ },
+ "documents": {
+  "b97324eff13e": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 349"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "bulletin 'HiTEC® 349 Manual Transmission Fluid Additive Package'",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "f173902a0765": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:OTR 8005G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "eb47d3a14db2": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:OTR 8334ULS"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "da03e2501fad": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:OTR 8843G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "aa8074a848ed": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:OTR 8991G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "54f2bdca9f64": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:OTR 9001G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "e41990ef67aa": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 510"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d73f3e67438c": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 5825H"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b735a58fb6ba": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 5825H"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "7475b1da93ab": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 523F"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "c9d7b9a37e4a": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "8a4e6a60de66": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9325C"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "577d4434d6ea": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9300G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b44a8b2010a8": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12210"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "95a83e8b761e": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "'Afton HDEO Technology for PC-11' presentation: no single subject product on page 1",
+   "roles": {},
+   "date": "",
+   "next_action": "identify the subject products (multi-product presentation) in the package review"
+  },
+  "7233c6000c47": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3460"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "24f1718894cb": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 1811"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "8f657fb9e6c6": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 5748"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "c8bb7e3a8d64": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2584"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "c973fc2f165e": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2584"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "66ee8d2d5762": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [],
+   "relation": "unresolved_identity",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": "identify the subject products (multi-product presentation) in the package review"
+  },
+  "a16e27a02212": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2030"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "c2368e614a77": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 317"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "898f0f3900fd": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 579"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "c9d74e812d43": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3491K"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "bulletin 'HiTEC® 3491K ATF Additive Package'",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "ca293d14f59c": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2225"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b6a6594f75bc": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2584"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "3b9c333576da": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 344"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "bulletin 'HiTEC® 344 Automotive only Gear Oil Additive' (text also prints 'GA 2419 additive'; recorded as printed)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "028953de4d9e": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 511T"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "819d158f377b": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [],
+   "relation": "unresolved_identity",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": "identify the subject products (multi-product presentation) in the package review"
+  },
+  "535fc82608ef": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 566"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b9f0af3a6a1f": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 543"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b8bc9294db0c": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 382"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "one-page bulletin (OCR-damaged text: HiTEC 382 Gear Oil Additive Top Treat)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "84085d74e222": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8777B"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "1f9e799423c0": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9310",
+    "AFTON:HiTEC 9300"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {
+    "AFTON:HiTEC 9300": "mentioned"
+   },
+   "date": "",
+   "next_action": ""
+  },
+  "7fff8d6d1ce0": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "a24212dd33a8": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9387X"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "342651a88d65": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "'Afton Chemical ILSAC GF-5 Technology August 2012' presentation",
+   "roles": {},
+   "date": "",
+   "next_action": "identify the subject products (multi-product presentation) in the package review"
+  },
+  "057eeec826a7": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12210M"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "7e0eb4b7434c": {
+   "doc_type": "formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9325G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "formulation table (Luberef / BPCL / Chevron base oils)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "19c29b7722df": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9450"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "358ab0959705": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3460"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "685f9507e3ad": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 352"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "dafeeb104018": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 352"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "18d8601031c5": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:UA4159"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "Afton SDS 'UA4159' (SDS no. UA4159)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "50c097315133": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11180"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "ca6bf7c37b77": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9387/88"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "1fe21829522f": {
+   "doc_type": "sales specification sheet",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11180"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "cb6f51949589": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11180"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "54987c265915": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9300C"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "f8a0898a9804": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 317"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "2607f4d15724": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 369"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "bafcbf1f014f": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 397"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "2da580077000": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 419"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "38a397a7ed3d": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 429"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "41241256fdd3": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8703"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "9a65dff0c6aa": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9387X"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "8c985e05449b": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11180"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "3ff81e2b3dc4": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9490"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b7075153f6af": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "16e57514ade6": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b2ed7244dc16": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11180"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "4a0257fcbbf9": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9490",
+    "AFTON:HiTEC 5748",
+    "AFTON:HiTEC 5748A"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {
+    "AFTON:HiTEC 5748": "mentioned",
+    "AFTON:HiTEC 5748A": "mentioned"
+   },
+   "date": "",
+   "next_action": ""
+  },
+  "5d346757ea08": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3435A"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "36cacb908625": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9890"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "fec8f8657bdd": {
+   "doc_type": "sales specification sheet",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12260"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "6b85642036d2": {
+   "doc_type": "sales specification sheet",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12255"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "bc4c5a3b72c2": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3339"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "570dfe73a542": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "PetroChina Jilin (named on the sheet)",
+   "products": [
+    "AFTON:Jilin J0030",
+    "AFTON:HiTEC 5835A"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "sheet of 'Jilin J0030' solid OCP VI improver (PetroChina Jilin; not an Afton product); HiTEC 5835A only mentioned",
+   "roles": {
+    "AFTON:HiTEC 5835A": "mentioned"
+   },
+   "date": "",
+   "next_action": ""
+  },
+  "b01e87bce839": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 521"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "e75d2f07a546": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3339"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "52eed9593522": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 306"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "87c9f4bfc26f": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 552"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "a66befa64dfe": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 5751"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d7b4dac2b1e9": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 5754A"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "95263d8c288e": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9387X"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "00e78e5f7cb1": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 382"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "same content as DL2-11635 (different bytes)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "cc2f6ded3085": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:Axcel S"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "bulletin 'Axcel® S Automotive Gear Oil Additive Package' (name printed as graphics; page image viewed)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "01b4a3985622": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 352"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "4c6545894b49": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 510"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "c21ad46884b1": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 5777"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "0845c1d3349b": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11180"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "477fd58855a8": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12210M"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "487c5afc14c8": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12210M"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "8b51125d92c3": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 343"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "03a0d506649f": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:OTR 8332G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "87d40eebda72": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:OTR 8134G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "ba0b32b223a9": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 4009"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "dd09e9f8d2d4": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 4133G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "5dde6b6bb264": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 4139G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "5c1c769cd502": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 5710"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d682de8a2365": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11145"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "1d684f9aa3e5": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11180"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "ccb88b1ff82f": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:OTR 9001G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "17f0f65df083": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2607"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "e69f78c70d14": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2505"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "caa022f40319": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:OTR 8005G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "fc5e5062cbba": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11500"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "c126a6abaed3": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11500"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "1dcceeb82000": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11500"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "54b0b002e78b": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8801"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "a86ac7af64e0": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 566"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "00472091a563": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2607"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "11acd9e6cc2e": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 22520"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "637139fca0d2": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:APL"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "bulletin 'APL™ Synthetic Lubricity Improver Additive' (metalworking fluids)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "8473615c9412": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 34321"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "86937f0073ce": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2597"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "322ef6165edf": {
+   "doc_type": "claims summary",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 34321"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "claim / performance supporting-data table",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "4038fbbf0d32": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2597"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "583dc3bd2d33": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:OTR 8932G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "8c1a4fa117a3": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 34321"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "bbf331b89855": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12213"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "00260705ea13": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3419"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "e65bbe147688": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3419"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "255da7d05af1": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 34321"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "e1e81ac148ef": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 1505"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "e7328c2acc67": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 1505"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b2b6ea9637bc": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 1505"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "20f018bb6b85": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2505"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "7acc1c64dbbc": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3431"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "26c8fbb477bc": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9325G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "2f7fd449fe09": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 306"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "5c5f8578cad1": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 307"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d12fc4aaf9fc": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 307"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b5015fbd1d7c": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 307"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "6367b8fbaa14": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 4716"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "01df2aff2838": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 307"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "673c5b0d7485": {
+   "doc_type": "presentation (Chevron base oils)",
+   "supplier": "Afton Chemical",
+   "products": [],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "'Afton Automotive Product Qualification Summary' by Chevron base oils (December 2018): Afton products qualified in Chevron Group II",
+   "roles": {},
+   "date": "",
+   "next_action": "identify the subject products (multi-product presentation) in the package review"
+  },
+  "3a2c6433166c": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11500"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "c7f4e8a87181": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 522"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "2530db520a8e": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2018LV"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b7fa7b97b12a": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2018LV"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "f743e87af58f": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3488"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "07d342983021": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 5724"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "81106ae1cd66": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2240"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "add7f9cbfd2a": {
+   "doc_type": "sales specification sheet",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2240"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "09fc378410ed": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12400"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "e79882b46818": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12260"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "c5cd05ad3423": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12260"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "41451b54e2cb": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12010"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "0921f14c2fb9": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3460"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "90e628c705f5": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 343"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "ffa7529ffa79": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 527"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d3a191a9156e": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9490",
+    "AFTON:HiTEC 12200",
+    "AFTON:HiTEC 8788B"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "'German Mirror OEM Request Product information and Formulations' (read for base-oil links in batch 35)",
+   "roles": {
+    "AFTON:HiTEC 12200": "mentioned",
+    "AFTON:HiTEC 8788B": "mentioned"
+   },
+   "date": "",
+   "next_action": ""
+  },
+  "09191145115a": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8801"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "32d37f59e54b": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3421"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "5416707f3200": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3421"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "35f63a8485bc": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3488"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "bc99d09503c4": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 34321"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "973e643dd70a": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12204L"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "e57843bcc093": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11410"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "14abaed94949": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9388X"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "2ab7d05f84e6": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9388X"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "ffe8e4259c9a": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9388X"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "75ce103c5b2b": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3491K"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "a29ef6fe1e04": {
+   "doc_type": "sales specification sheet",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3491LV"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "975d88075cd4": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3491LV"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "05c41a1c0bb9": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8788LA"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b1854e3f5a02": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8788LA"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "f898aa92574f": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12360"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "7c1775d6219e": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11210"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "f8f6b07963bb": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8788B"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "7dbaeece35fd": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:P3010"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "certificate 'Product: P3010'; issuer / manufacturer not printed on the card (supplier unresolved)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "f19b6447f7f4": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:UA4159"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "Afton certificate to United Oil Company 'Product: UA4159'",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "81f417ef68de": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:UA4159"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "Afton certificate 'Product: UA4159'",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "c5788c483c6d": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:UA4159"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "Afton certificate 'Product: UA4159'",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "3a4225af9908": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 343"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "ddfdf0c88e39": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [],
+   "relation": "unresolved_identity",
+   "read": "page-1 identity card (text layer) read",
+   "note": "Afton certificate (material 011581, lot 0220SA006): the 'Product' field is blurred / redacted on the page image",
+   "roles": {},
+   "date": "",
+   "next_action": "identify the subject products (multi-product presentation) in the package review"
+  },
+  "8c0a5289597e": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8788B"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "e2e029578339": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8788B"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "ece118685438": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8788B"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "61aab4325862": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8801"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "e72ea2416452": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9325G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b72da3e07bba": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9325G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "a73ed21eb972": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9325G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d0ba164c0f4b": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9325G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "ecfa90f4edcc": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9325G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "61885d547fae": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9387X"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "f3fe13968581": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [],
+   "relation": "unresolved_identity",
+   "read": "page-1 identity card (text layer) read",
+   "note": "Afton certificate (material 026067, lot 0120SN015): no product name printed in the header (page image viewed)",
+   "roles": {},
+   "date": "",
+   "next_action": "identify the subject products (multi-product presentation) in the package review"
+  },
+  "0157a3055bb3": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "certificate printed 'Product: GE220 (HiTEC 12200)'; GE220 is a customer code printed as HiTEC 12200; issuer not printed on the card",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "dd244c0c0575": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "98cb0216f9a2": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "4f493306db92": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "01c86f9766fe": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d021ead59033": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "62f1b9af3c43": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "ae7c6b742026": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "597e091f709f": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "791a5ce2c754": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "e8714d199dd8": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "certificate 'Product: GE220' (material 030231); GE220 is printed as 'GE220 (HiTEC 12200)' on the companion certificates",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "997bcdcca906": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "5ea204de7cb6": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "62253299f143": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "38c7c3ebd29c": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "942914b4327c": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d6f1d6b0c682": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "552de325877e": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "10981ea0571d": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "884563cea346": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:UA4158"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "Afton certificate to United Oil Company (Singapore) 'Product: UA4158' (customer product code)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "86759a20ecc2": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "66401b5be2da": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 343"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "Afton certificate 'HiTEC ® 343 Drum' (the certificate heading is not in the text layer)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "c15892bee19c": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 343"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "Afton certificate 'HiTEC ® 343 Drum' (the certificate heading is not in the text layer)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d9129b7f9a7d": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 343"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "Afton certificate 'HiTEC ® 343 Drum' (the certificate heading is not in the text layer)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "41887a61c99c": {
+   "doc_type": "shipping document",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9387X"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "packing list / delivery note (HiTEC 9387X Bulk, batch 0419FB640)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "ec69b3baf26b": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12200"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "f1d82c050a25": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 35701"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "de4734962cc8": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 35701"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d213829e460a": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 343"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "Afton certificate 'HiTEC ® 343 Drum' (the certificate heading is not in the text layer)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "caf90b46d178": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:P3010"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "certificate 'Product: P3010'; issuer not printed on the card",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "8cb07d109363": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 343"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "Afton certificate 'HiTEC ® 343 Drum' (the certificate heading is not in the text layer)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "baf4539fc5b0": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9325G"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "142f9a25c164": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 6320"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "0192a8205491": {
+   "doc_type": "formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12204L",
+    "AFTON:HiTEC 5748"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "candidate data package API CI-4 PLUS / SL (May-19)",
+   "roles": {
+    "AFTON:HiTEC 5748": "mentioned"
+   },
+   "date": "",
+   "next_action": ""
+  },
+  "ee863ff64ed1": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12250"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "12223164a002": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 35701"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "aa10c114eafe": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11456"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "4ac00668bd74": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 5825H"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "5df609de6ef0": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11600"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "818c980a3a95": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8703"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "bulletin 'HiTEC® 8703 Off-road Additive Package'",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "cebc17117dcd": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8705"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "bulletin 'HiTEC® 8705 Off Road Additive Package'",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d8c1db63604e": {
+   "doc_type": "formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11456"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "'Final Formulations' with ETRO plus base oils (20211224); reviewed in the existing-product comparison",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "2ae4725c488e": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11410"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "3965affc2b34": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11600"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "254d7654027e": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3421J"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "019af771e0ee": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3421J"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "beb175bb7591": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 151"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "49a93972e9bb": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 521F"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "74523345574f": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11410"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "201a18bb72de": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3421"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "9bd195c696a8": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11183"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "dd7ed95760be": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 6431"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "c51122848719": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11181"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "da028ba889da": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 6320"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "e9c1b68f50c6": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 6320"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "02e13e504347": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 6320"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "618d97eb35df": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11410"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d920ddd66260": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11410"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d1853b72d073": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8788B"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "35c17f3b9751": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8799B"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "8ab5ff6c73f1": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12210"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "34e5c5a84821": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12210M"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "8111abe278db": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 8712"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "8a28f7192668": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12010"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "66bdb923f27b": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 521"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "8672761b92fc": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2414"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "4123224e17bb": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2030"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "973d2be4b899": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 4716"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "a209ce88ec79": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2250"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "cfcfa2c5c434": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2250"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b22a1f935e58": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2250"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "9c050c388fb4": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11600"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d6a318dce06a": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9490"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "28281c558f27": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 3435A"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "cf360d1e3013": {
+   "doc_type": "journal article",
+   "supplier": "Afton Chemical",
+   "products": [],
+   "relation": "non_product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "'International Journal of Energy Engineering 2018' literature review on metal-based octane boosters: not a product document",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "a4475ac08c85": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 6320"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "321e02f2ea9d": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2571"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "dbbf1f4225ed": {
+   "doc_type": "sales specification sheet",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 1505"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "90bb6fb6948f": {
+   "doc_type": "sales specification sheet",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2505"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "401e3068ed0b": {
+   "doc_type": "sales specification sheet",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2571"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "6f5ce8c9083d": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 381"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "c59f032b5ea1": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11458"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "0e4109fdf81a": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 151"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "1a5416c4638d": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 2597"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "f143f2c25a97": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11320"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "0942bb360cbb": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11410"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "cb8c3b8a7b04": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11410"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b39983a6b2d6": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12208"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "9716add45300": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12400"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "c852e175753b": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 686"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "adf9fc193793": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11500"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "9198a53d8108": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11500"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "824adcf41f88": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11456"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "32689c996e39": {
+   "doc_type": "sales specification sheet",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11410"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "e420b2aee5dd": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12210M"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "05180986c8f8": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 12210M"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "f291807cbec2": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 5748"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "bfdd5d3dfcec": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 22300"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "44759f1ea46d": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11455"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "63249a25cc0c": {
+   "doc_type": "formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11455"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "'API SQ/GF-7A formulations aramcoULTRA/Ultra-S' with HiTEC 11455 (2025)",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "ee720f81a22d": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 34006"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "a82ee6edd240": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 34006"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "50163d72c5d7": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 5748"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "a00eee9670f7": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 22300"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "abf2088c6588": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11455"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "0a6d75c25025": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "'Next generation PCMO solutions ILSAC GF-7 / API SQ & JASO GLV-1, GLV-2' (same title as DL2-15688)",
+   "roles": {},
+   "date": "",
+   "next_action": "identify the subject products (multi-product presentation) in the package review"
+  },
+  "a059e4e3b5b7": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11455"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "3f2289887563": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "same title as DL2-15678 (different bytes)",
+   "roles": {},
+   "date": "",
+   "next_action": "identify the subject products (multi-product presentation) in the package review"
+  },
+  "9c9c52fc75be": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11356"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b382b1da7ccc": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11356"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d304cf7fb1c1": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11183"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "891e612c9898": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11500"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "f67a65dbb965": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11500"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "ed59085dae41": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11500"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "139c899f66f5": {
+   "doc_type": "SDS",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11500"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "ce2adbe66eda": {
+   "doc_type": "sales specification sheet",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11500"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "942c22670653": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11455"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "a6a41b07cd4b": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 523"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "9cfdf19ea5a9": {
+   "doc_type": "technical report (performance data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 34321"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "62834c4f8756": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 34500"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "85679d264e45": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 11356"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "d4fec779924e": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 22300"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "37245348b3fa": {
+   "doc_type": "letter (formulation data)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 579"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "'To whom it may concern' letter with HiTEC 579 quench-oil formulation data",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "4e03971ebf3a": {
+   "doc_type": "presentation / formulation data",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 9450"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "b8afe85a5433": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 579"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  },
+  "01950002a60b": {
+   "doc_type": "product bulletin (TDS/PDS)",
+   "supplier": "Afton Chemical",
+   "products": [
+    "AFTON:HiTEC 5825K"
+   ],
+   "relation": "product",
+   "read": "page-1 identity card (text layer) read",
+   "note": "",
+   "roles": {},
+   "date": "",
+   "next_action": ""
+  }
+ }
+}
