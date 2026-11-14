@@ -18,20 +18,25 @@ class Batch:
     def __init__(self, name):
         self.name, self.links, self.F, self.docs = name, [], [], {}
 
-    def doc(self, f, what, date, frozen, role, cov=None, ident=None, scope_extra=''):
+    def doc(self, f, what, date, frozen, role, cov=None, ident=None, scope_extra='', scope=None):
         """Close every frozen open link of document f. role: how the products appear on the hit pages.
-        cov / ident: optional per-product overrides {pid: text}."""
+        cov / ident: optional per-product overrides {pid: text}. scope: replaces the page-based reading statement where the
+        text layer has no page breaks (e.g. a slide deck extracted as one block)."""
         rows = [r for r in frozen if r[0] == f]
         allhp = sorted({int(p) for r in rows for p in r[3].split(',') if p})
         n = int(rows[0][5])
-        self.docs[f] = dict(what=what, printed_date=date, read=f"name-hit pages {', '.join(map(str, allhp))} read in full (text layer){scope_extra}; the other {n - len(allhp)} of {n} pages not read",
-                            kind='another product\'s document (base oils named in it)', limits='targeted reading; pages without a name hit not read')
+        rd = scope or f"name-hit pages {', '.join(map(str, allhp))} read in full (text layer){scope_extra}; the other {n - len(allhp)} of {n} pages not read"
+        self.docs[f] = dict(what=what, printed_date=date, read=rd,
+                            kind='another product\'s document (base oils named in it)',
+                            limits='whole text layer read; images not viewed' if scope else 'targeted reading; pages without a name hit not read')
         cov, ident = cov or {}, ident or {}
+        where = 'in the text read' if scope else 'on the name-hit pages read'
+        tail = ('no property of the neat base oil is printed in the text read (images not viewed)' if scope
+                else 'no property of the neat base oil is printed on those pages (pages without the name not read)')
         for f_, pid, cat, hp, first, pages in rows:
-            fs = (f"name-hit pages p.{hp} for this product read in full (text layer), with all other name-hit pages of the document "
-                  f"(pp.{','.join(map(str, allhp))}){scope_extra}; the other {n - len(allhp)} of {n} pages not read ({T})")
-            c = cov.get(pid) or (f"not applicable: another product's document ({what}); on the name-hit pages read the product appears only as {role}; "
-                                 f"no property of the neat base oil is printed on those pages (pages without the name not read)")
+            fs = f'{scope} ({T})' if scope else (f"name-hit pages p.{hp} for this product read in full (text layer), with all other name-hit pages of the document "
+                                                 f"(pp.{','.join(map(str, allhp))}){scope_extra}; the other {n - len(allhp)} of {n} pages not read ({T})")
+            c = cov.get(pid) or f"not applicable: another product's document ({what}); {where} the product appears only as {role}; {tail}"
             self.links.append(dict(p=pid, f=f, cat=cat, status='completed', fields_status=fs, coverage=c,
                                    identity=ident.get(pid) or f"printed '{first}' (name in the document; no lot or supplier identifier)",
                                    note=f'Nineteenth-pass targeted review of all name-hit pages ({T}).'))
