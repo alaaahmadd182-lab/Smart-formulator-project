@@ -69,7 +69,16 @@ Conversion-ready = verified + established + field_mapping complete. Two KangTai 
 ## 5. Next
 
 1. ~~Resolve KT31140 key mismatch~~ — **DONE** in commit 7d135ed (rekeyed evidence rows, fixed fm_s17_kangtai.py).
-2. Investigate KTS-250 and KTD1961: locate their subject documents and determine which batch will process them.
+2. ~~Investigate KTS-250 and KTD1961~~ — **DONE** (findings below).
+
+   **Findings:** Both products are in `decisions/s13_jinzhou.json`, not S17 KangTai.
+   - `KANGTAI:KTS-250` → subject doc `DL2-13602.pdf` (sha `25a87e6e7f7e`), type `TDS/PDS`, identity reviewed (S13).
+   - `KANGTAI:KTD1961` → subject doc `DL2-15762.pdf` (sha `b33820c828a5`), type `TDS/PDS`, identity reviewed (S13).
+   Both are `new_candidate` / `additive_component` with one subject document each. They appear in
+   `product_stages.csv` under the KANGTAI: prefix because s13 assigned them that supplier, and the KangTai
+   product-stages rows were generated from s17 + s13 combined. They have no S17 field-mapping entry because
+   their documents were processed in the S13 Jinzhou companies batch. No blocker; field-mapping is deferred
+   to their own batch pass (outside the S17 pilot scope).
 3. Identity batches for remaining 278 labelled documents (smaller suppliers — S28 onward; highest-volume: SK/YUBASE 17, Nynas 17, Shell 17, Italmatch 15, Neste 14).
 4. Follow up 26 empty OCR pages and the failed JPEG `747b0e9f661a`.
 5. Identity batches for 1,411 unlabelled documents using OCR text.
