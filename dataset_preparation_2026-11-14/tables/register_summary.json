@@ -3,18 +3,19 @@
  "unique_documents": 4186,
  "canonical_files": 4186,
  "relation": {
-  "product": 2681,
-  "automated": 823,
-  "unresolved_identity": 645,
-  "non_product": 37
+  "product": 2708,
+  "automated": 813,
+  "unresolved_identity": 627,
+  "non_product": 37,
+  "out_of_scope": 1
  },
- "identity_reviewed": 2743,
+ "identity_reviewed": 2775,
  "products": {
-  "new_candidate": 1314,
+  "new_candidate": 1327,
   "unresolved": 9,
-  "out_of_scope": 181,
+  "out_of_scope": 186,
   "existing": 264,
-  "unresolved_identity": 2
+  "unresolved_identity": 6
  },
- "links": 4165
+ "links": 4201
 }

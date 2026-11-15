@@ -1,0 +1,114 @@
+{
+ "batch": "S51 Hyrax Oil (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "5 documents with provisional supplier Hyrax Oil",
+ "products": {
+  "HYRAX:HYPERTRANS": {
+   "name": "Hyrax Hypertrans",
+   "supplier": "Hyrax Oil",
+   "material_class": "out_of_template (transformer / electrical insulating oil)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'Hyrax Hypertrans transformer oil is a premium uninhibited mineral electrical insulating oil made from severely hydrotreated wax-free naphthenic oil; good as a dielectric and coolant; IEC 60296 conformant'; out_of_template (transformer/electrical insulating oil — not a lubricant base oil or component)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "HYRAX:NAPREX_L40": {
+   "name": "Hyrax Naprex L-40",
+   "supplier": "Hyrax Oil",
+   "material_class": "unresolved (naphthenic process oil — base_oil Group V or out_of_template)",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Hyrax Naprex L-40 - Process Oils; density 0.8778 at 15°C; FP >120°C; PP -60°C; kV40 4.28 cSt; kV100 1.53 cSt; meets US EPA Final Rule'; naphthenic process oil / rubber process oil; API Group V (naphthenic); material class: unresolved (process oil — template applicability to be confirmed)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "bd50ad82d622": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Hyrax Oil",
+   "products": [
+    "HYRAX:HYPERTRANS"
+   ],
+   "roles": {
+    "HYRAX:HYPERTRANS": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product description, features and benefits",
+   "note": "3pp; Rev: 23/08/17; 'Hyrax Hypertrans transformer oil; premium uninhibited mineral electrical insulating oil from severely hydrotreated wax-free naphthenic oil; IEC 60296 conformant'; Kuala Lumpur, Malaysia",
+   "next_action": "",
+   "manufacturer": "Hyrax Oil Sdn Bhd",
+   "distributor": "",
+   "issuer": "Hyrax Oil Sdn Bhd"
+  },
+  "464899c79649": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Hyrax Oil",
+   "products": [
+    "HYRAX:NAPREX_L40"
+   ],
+   "roles": {
+    "HYRAX:NAPREX_L40": "subject"
+   },
+   "relation": "product",
+   "read": "full page content: typical properties for Naprex L-40",
+   "note": "1pp; Rev:18/04/12; 'Hyrax Naprex L-40 - Process Oils'; kV40 4.28 cSt, kV100 1.53 cSt, density 0.8778 at 15°C, PP -60°C, FP >120°C; described as process oil meeting US EPA Final Rule (rubber-compounding process oil)",
+   "next_action": "",
+   "manufacturer": "Hyrax Oil Sdn Bhd",
+   "distributor": "",
+   "issuer": "Hyrax Oil Sdn Bhd"
+  },
+  "3c4e9de6c081": {
+   "doc_type": "SDS",
+   "supplier": "Hyrax Oil",
+   "products": [
+    "HYRAX:HYPERTRANS"
+   ],
+   "roles": {
+    "HYRAX:HYPERTRANS": "subject"
+   },
+   "relation": "product",
+   "read": "page-1: SDS header for Hyrax Hypertrans, IEC 60296",
+   "note": "11pp SDS; 'PRODUCT NAME: Hyrax Hypertrans; IEC 60296 conformant'; transformer oil / electrical insulating oil",
+   "next_action": "",
+   "manufacturer": "Hyrax Oil Sdn Bhd",
+   "distributor": "",
+   "issuer": "Hyrax Oil Sdn Bhd"
+  },
+  "302fe0f13460": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Hyrax Oil",
+   "products": [
+    "HYRAX:HYPERTRANS"
+   ],
+   "roles": {
+    "HYRAX:HYPERTRANS": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product description",
+   "note": "2pp; Rev: 15/09/21; newer edition of Hypertrans TDS; same description as DL2-12262 (bd50ad82d6) with updated revision date",
+   "next_action": "",
+   "manufacturer": "Hyrax Oil Sdn Bhd",
+   "distributor": "",
+   "issuer": "Hyrax Oil Sdn Bhd"
+  },
+  "0f544584e219": {
+   "doc_type": "SDS",
+   "supplier": "Hyrax Oil",
+   "products": [
+    "HYRAX:HYPERTRANS"
+   ],
+   "roles": {
+    "HYRAX:HYPERTRANS": "subject"
+   },
+   "relation": "product",
+   "read": "page-1: SDS header for Hyrax Hypertrans, IEC 60296",
+   "note": "10pp SDS; 'PRODUCT NAME: Hyrax Hypertrans; IEC 60296'; see also DL2-13942 (3c4e9de6c0); possibly different revision",
+   "next_action": "",
+   "manufacturer": "Hyrax Oil Sdn Bhd",
+   "distributor": "",
+   "issuer": "Hyrax Oil Sdn Bhd"
+  }
+ }
+}

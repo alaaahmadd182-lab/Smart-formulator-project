@@ -1,0 +1,144 @@
+{
+ "batch": "S50 Formosa Petrochemical (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "5 documents with provisional supplier Formosa Petrochemical",
+ "products": {
+  "FORMOSA:M_25_SSI": {
+   "name": "M 25 SSI",
+   "supplier": "Formosa Petrochemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'M 25 SSI is a shear stable amorphous olefin copolymer intended for use as a Viscosity Index Improver when formulating multi grade crankcase and industrial oils; High shear stability, Excellent low temperature properties'; solid in bale form 25 kg; additive_component (VM, OCP, shear-stable); manufacturer Formosa Petrochemical; MSDS in DL2-11417 (s57_kemipex) with Kemipex FZE as distributor issuer",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "TOHO_CHEM:LUBRAN_VI_870": {
+   "name": "LUBRAN VI-870",
+   "supplier": "Toho Chemical Industry",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'LUBRAN VI-870 is a polymethacrylate (PMA) type viscosity index improver; excellent viscosity properties at low temperature with excellent shear stability for gear oil and hydraulic fluids; Kinematic Viscosity 1500 mm2/s at 100°C'; mislabeled under Formosa Petrochemical — document is a Toho Chemical Industry (Tokyo, Japan) product TDS; page 2 uses Formosa, Hyundai, Shell base oils in performance testing (not a Formosa document); additive_component (VM, PMA, dispersant-type or non-dispersant TBD)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "FORMOSA:BASE_OIL_GII_150N": {
+   "name": "Formosa Petrochemical Group II 150N",
+   "supplier": "Formosa Petrochemical",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "CoA text: 'FORMOSA PETROCHEMCIAL CORPORATION BASE OIL 150 N GII' from Mailiao, Taiwan; kV100 5.0-5.6 cSt, VI ≥105, PP ≤-15°C, FP ≥210°C, Sulfur ≤10 ppm; Group II base oil, medium grade (~SN 150); new_candidate base_oil",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "FORMOSA:BASE_OIL_GII_500N": {
+   "name": "Formosa Petrochemical Group II 500N",
+   "supplier": "Formosa Petrochemical",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "CoA text: 'FORMOSA PETROCHEMICAL CORPORATION BASE OIL 500 N G II' from Mailiao, Taiwan; kV100 10-12 cSt, VI ≥95, PP ≤-12°C, FP ≥230°C, Sulfur ≤10 ppm; Group II base oil, heavy grade (~SN 500); new_candidate base_oil",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "OCEAN_CHEM:P8401_PPD": {
+   "name": "P8401 PMA PPD",
+   "supplier": "Ocean Chemical Technology",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'P8401 Polyalkyl methacrylate PPD... effective polyalkyl methacrylate pour point depressant... API Group II and III base oils; Viscosity at 100°C 260 mm2/s, Density 900 kg/m3, FP 160°C'; mislabeled under Formosa Petrochemical — document is Ocean Chemical Technology Co., Ltd (Yiwu, Zhejiang, China); additive_component (PPD, PMA)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  }
+ },
+ "documents": {
+  "dc3ea00a3343": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Formosa Petrochemical",
+   "products": [
+    "FORMOSA:M_25_SSI"
+   ],
+   "roles": {
+    "FORMOSA:M_25_SSI": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product description, key benefits, typical properties",
+   "note": "1pp TDS; 'M 25 SSI Viscosity Index Improver for Lubricant Application'; OCP (amorphous olefin copolymer), shear stable, solid bale 25 kg; MSDS for same product in s57_kemipex (Kemipex FZE as distributor issuer)",
+   "next_action": "",
+   "manufacturer": "Formosa Petrochemical Corporation",
+   "distributor": "",
+   "issuer": "Formosa Petrochemical Corporation"
+  },
+  "b1a14b1f1289": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Toho Chemical Industry",
+   "products": [
+    "TOHO_CHEM:LUBRAN_VI_870"
+   ],
+   "roles": {
+    "TOHO_CHEM:LUBRAN_VI_870": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product description, typical properties; page 2: performance data with Formosa base oils",
+   "note": "2pp; mislabeled under Formosa Petrochemical in auto-classifier; 'TOHO CHEMICAL INDUSTRY CO., LTD., Tokyo, Japan (03)5550-3728'; document date: 2016-6-10; 'LUBRAN VI-870 PMA type viscosity index improver'; page 2 performance table uses Formosa (150N/500N GrII), Hyundai, Shell base oils — this is likely why the classifier attributed to Formosa",
+   "next_action": "",
+   "manufacturer": "Toho Chemical Industry Co., Ltd.",
+   "distributor": "",
+   "issuer": "Toho Chemical Industry Co., Ltd."
+  },
+  "f992acdbaf72": {
+   "doc_type": "certificate of quality (CoA)",
+   "supplier": "Formosa Petrochemical",
+   "products": [
+    "FORMOSA:BASE_OIL_GII_150N"
+   ],
+   "roles": {
+    "FORMOSA:BASE_OIL_GII_150N": "subject"
+   },
+   "relation": "product",
+   "read": "full page content: CoA issued by independent surveyors for vessel MT Southern Dragon",
+   "note": "1pp; W.O.NO. OGC-2080092; 'FORMOSA PETROCHEMCIAL CORPORATION BASE OIL 150 N GII'; vessel MT SOUTHERN DRAGON V.2001; port Mailiao, Taiwan; B/L date 17 Jan 2020; spec: kV100 5.0-5.6 cSt, VI 105 min, PP -15°C max, FP 210°C min, S 10 ppm max, Color 0.5 max",
+   "next_action": "",
+   "manufacturer": "Formosa Petrochemical Corporation",
+   "distributor": "",
+   "issuer": "Independent Surveyors (Mailiao)"
+  },
+  "7c0c04f8834d": {
+   "doc_type": "certificate of quality (CoA)",
+   "supplier": "Formosa Petrochemical",
+   "products": [
+    "FORMOSA:BASE_OIL_GII_500N"
+   ],
+   "roles": {
+    "FORMOSA:BASE_OIL_GII_500N": "subject"
+   },
+   "relation": "product",
+   "read": "full page content: CoA issued by independent surveyors for vessel MT Southern Dragon",
+   "note": "1pp; W.O.NO. OGC-2080093; 'FORMOSA PETROCHEMICAL CORPORATION BASE OIL 500 N G II'; vessel MT SOUTHERN DRAGON V.2001; port Mailiao, Taiwan; B/L date 18 Jan 2020; spec: kV100 10-12 cSt, VI 95 min, PP -12°C max, FP 230°C min, S 10 ppm max, Color 0.5 max",
+   "next_action": "",
+   "manufacturer": "Formosa Petrochemical Corporation",
+   "distributor": "",
+   "issuer": "Independent Surveyors (Mailiao)"
+  },
+  "0532ef083f9e": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Ocean Chemical Technology",
+   "products": [
+    "OCEAN_CHEM:P8401_PPD"
+   ],
+   "roles": {
+    "OCEAN_CHEM:P8401_PPD": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, description, typical properties",
+   "note": "2pp; mislabeled under Formosa Petrochemical; 'OCEAN CHEMICAL TECHNOLOGY CO.,LTD, No.844 Guomao, North Chouzhou Road, Yiwu, Zhejiang, China'; 'P8401 Polyalkyl methacrylate PPD... API Group II and III base oils'; Viscosity@100°C 260 cSt, Density 900 kg/m³ at 20°C, FP 160°C (ASTM D92), Color 0.5 (ASTM D1500)",
+   "next_action": "",
+   "manufacturer": "Ocean Chemical Technology Co., Ltd.",
+   "distributor": "",
+   "issuer": "Ocean Chemical Technology Co., Ltd."
+  }
+ }
+}

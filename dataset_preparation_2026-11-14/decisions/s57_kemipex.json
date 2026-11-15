@@ -1,0 +1,36 @@
+{
+ "batch": "S57 Kemipex (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "1 document with provisional supplier Kemipex",
+ "products": {
+  "FORMOSA:M_25_SSI": {
+   "name": "M 25 SSI",
+   "supplier": "Kemipex / Formosa Petrochemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "same product as s50_formosa FORMOSA:M_25_SSI; MSDS issued by Kemipex FZE (Dubai) as the distributor; product name and description identical to DL2-11416 (Formosa TDS); manufacturer: Formosa Petrochemical Corporation",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  }
+ },
+ "documents": {
+  "356a13758421": {
+   "doc_type": "SDS",
+   "supplier": "Kemipex",
+   "products": [
+    "FORMOSA:M_25_SSI"
+   ],
+   "roles": {
+    "FORMOSA:M_25_SSI": "subject"
+   },
+   "relation": "product",
+   "read": "section 1: product name M 25 SSI, supplier Kemipex FZE Dubai",
+   "note": "5pp; 'M 25 SSI Viscosity Index Improver for Lubricant Application'; 'Supplier: Kemipex FZE, Maze Tower, Sheikh Zayed Road, PO Box 24200, Dubai UAE'; Kemipex = distributor; same product as DL2-11416 (s50_formosa, Formosa TDS); classification: not classified (CLP)",
+   "next_action": "",
+   "manufacturer": "Formosa Petrochemical Corporation",
+   "distributor": "",
+   "issuer": "Kemipex FZE"
+  }
+ }
+}

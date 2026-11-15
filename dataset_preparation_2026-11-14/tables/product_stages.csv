@@ -369,6 +369,8 @@ BRB:VISCOTECH 6550 L 500 CST,Viscotech 6550 L 500 cSt,BRB International BV,new_c
 BRB:VISCOTECH 6640,Viscotech 6640,BRB International BV,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s10_brb.json
 BRB:VISCOTECH 6640 L 1300 CST,Viscotech 6640 L 1300 cSt,BRB International BV,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s10_brb.json
 EXISTING:BRB_PETROLAD_8099,Petrolad 8099,BRB International BV,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
+BAPCO:UNKNOWN_COA_DL2_14114,"Bapco base oil CoA (DL2-14114, grade unknown)",Bapco,unresolved_identity,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s55_bapco.json
+BAPCO:UNKNOWN_COA_DL2_14119,"Bapco base oil CoA (DL2-14119, grade unknown)",Bapco,unresolved_identity,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s55_bapco.json
 EXISTING:BAPCO_BAPBASE_4,BAPbase 4,Bapco,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:BAPCO_BAPBASE_6,BAPbase 6,Bapco,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:BAPCO_BAPBASE_8,BAPbase 8,Bapco,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
@@ -651,6 +653,9 @@ ENI:ENI MX 5612C,Eni MX 5612C,Eni S.p.A.,new_candidate,unresolved,yes,candidate 
 ENI:ENI MX 5653,Eni MX 5653,Eni S.p.A.,new_candidate,unresolved,yes,candidate only (mentioned / no subject document read),unresolved,not started,not started,no,0,1,,s18_eni.json
 EXISTING:ENI_MX_5212,Eni MX 5212,Eni spa,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,2,,product_identities.csv
 EXISTING:ENI_MX_5217,Eni MX 5217,Eni spa,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,2,2,,product_identities.csv
+ERGON:UNKNOWN_SPEC_DL2_13279,"Ergon naphthenic/mineral oil (DL2-13279, name unknown)",Ergon,unresolved_identity,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s54_ergon.json
+ERGON:UNKNOWN_SPEC_DL2_13346,"Ergon naphthenic oil (DL2-13346, name unknown)",Ergon,unresolved_identity,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s54_ergon.json
+EXISTING:ERGON_HY_40,HY 40,Ergon,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,1,1,,s54_ergon.json
 EXISTING:ERGON_HYGOLD_P150BS,HyGold P150BS,"Ergon - West Virginia, Inc.",existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:ERGON_HYGOLD_P40,HyGold P40,"Ergon - West Virginia, Inc.",existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:ERGON_HYGOLD_P70N,HyGold P70N,"Ergon - West Virginia, Inc.",existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
@@ -668,7 +673,6 @@ EXISTING:ERGON_HYGOLD_L350E,HyGold L350E,"Ergon Refining, Inc.",existing,base_oi
 EXISTING:ERGON_HYGOLD_L500,HyGold L500,"Ergon Refining, Inc.",existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:ERGON_HYGOLD_L750,HyGold L750,"Ergon Refining, Inc.",existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:ERGON_HYGOLD_OLYMPUS_L500,HyGold Olympus L500,"Ergon Refining, Inc.",existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:ERGON_HY_40,HY 40,"Ergon Refining, Inc.",existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EVONIK:VISCOPLEX_0_223,VISCOPLEX 0-223,Evonik Industries AG,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s35_evonik.json
 EVONIK:VISCOPLEX_14_520,VISCOPLEX 14-520,Evonik Industries AG,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s35_evonik.json
 EVONIK:VISCOPLEX_1_254,VISCOPLEX 1-254,Evonik Industries AG,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s35_evonik.json
@@ -725,6 +729,8 @@ FRAGOL:FRAGOLTHERM_550,FRAGOLTHERM 550,FRAGOL,out_of_scope,out_of_template (heat
 FRAGOL:FRAGOLTHERM_660,FRAGOLTHERM 660,FRAGOL,out_of_scope,out_of_template (heat transfer fluid — no lubricant template),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s48_fragol.json
 FRAGOL:FRAGOLTHERM_DPO,FRAGOLTHERM DPO,FRAGOL,out_of_scope,out_of_template (heat transfer fluid — no lubricant template),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s48_fragol.json
 FRAGOL:FRAGOLTHERM_HT,FRAGOLTHERM HT,FRAGOL,out_of_scope,out_of_template (heat transfer fluid — no lubricant template),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,3,3,,s48_fragol.json
+FORMOSA:BASE_OIL_GII_150N,Formosa Petrochemical Group II 150N,Formosa Petrochemical,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s50_formosa.json
+FORMOSA:BASE_OIL_GII_500N,Formosa Petrochemical Group II 500N,Formosa Petrochemical,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s50_formosa.json
 EXISTING:FORMOSA_150N_GII_PLUS,Base Oil 150N GII+,Formosa Petrochemical Corporation,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:FORMOSA_500N_GII,Base Oil 500N GII,Formosa Petrochemical Corporation,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:FORMOSA_FPCC_70N_GII,FPCC 70N GII,Formosa Petrochemical Corporation,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
@@ -825,6 +831,9 @@ HATCO:HATCOL_2954,HATCOL 2954,Hatco Corporation,new_candidate,unresolved,yes,ver
 HATCO:HATCOL_3110,HATCOL 3110,Hatco Corporation,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s37_chemtura.json
 HATCO:HATCOL_3165,HATCOL 3165,Hatco Corporation,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s37_chemtura.json
 HATCO:HATCOL_3169,HATCOL 3169,Hatco Corporation,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s37_chemtura.json
+HUNTSMAN:TEPA,TEPA (Tetraethylenepentamine),Huntsman,out_of_scope,out_of_template (industrial chemical / polyamide precursor — no lubricant application stated),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s56_huntsman.json
+HYRAX:HYPERTRANS,Hyrax Hypertrans,Hyrax Oil,out_of_scope,out_of_template (transformer / electrical insulating oil),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,4,4,,s51_hyrax.json
+HYRAX:NAPREX_L40,Hyrax Naprex L-40,Hyrax Oil,new_candidate,unresolved (naphthenic process oil — base_oil Group V or out_of_template),yes,verified,unresolved,not started,not started,no,1,1,,s51_hyrax.json
 HYUNDAIOILBANK:HSB_500N,HSB 500N (DAESAN),"Hyundai Oilbank Co., Ltd. / Shell (joint venture base oil)",new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s30_shell.json
 ILCO:ILCO_PHOS_366,ILCO PHOS 366,ILCO (manufacturer not printed on page 1),out_of_scope,out_of_template (fire-resistant hydraulic fluid),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s30_shell.json
 INEOS:CERECLOR 42,Cereclor 42,INEOS (INEOS Oligomers),new_candidate,additive_component,yes,verified,open question,not started,not started,no,1,1,,s12_ineos.json
@@ -1091,6 +1100,7 @@ XINXING:XT-3205,XT-3205,"Jinzhou Xinxing Petroleum Additive Co., Ltd.",new_candi
 XINXING:XT-63297,XT-63297,"Jinzhou Xinxing Petroleum Additive Co., Ltd.",new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s13_jinzhou.json
 XINXING:XT-64223,XT-64223,"Jinzhou Xinxing Petroleum Additive Co., Ltd.",new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s13_jinzhou.json
 EXISTING:JINZHOU_KANGTAI_KT31140,KT31140,KangTai . Lubricant Addtives,existing,additive_package,yes,existing record (no new-archive identity decision),established,"reviewed (pilot S17, 2026-11-15; all sheets read in full)",complete,no,1,1,,product_identities.csv
+FORMOSA:M_25_SSI,M 25 SSI,Kemipex / Formosa Petrochemical,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s57_kemipex.json
 KINGINDUSTRIES:NA_LUBE_AO_142_I,NA-LUBE AO-142-I,"King Industries, Inc.",new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s34_king.json
 KINGINDUSTRIES:NA_LUBE_BL_1208,NA-LUBE BL-1208,"King Industries, Inc.",new_candidate,additive_package,yes,verified,established,not started,not started,no,5,5,,s34_king.json
 KINGINDUSTRIES:NA_LUBE_KR_008,NA-LUBE KR-008,"King Industries, Inc.",new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s34_king.json
@@ -1357,6 +1367,7 @@ EXISTING:NYNAS_T_600,Nynas T 600,Nynas,existing,base_oil,yes,existing record (no
 EXISTING:NYNAS_T_9,Nynas T 9,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
 NYNAS:NYTRO_LIBRA,Nytro Libra,Nynas AB,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s29_nynas.json
 NYNAS:NYTRO_LYRA_X,Nytro Lyra X,Nynas AB,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s29_nynas.json
+OCEAN_CHEM:P8401_PPD,P8401 PMA PPD,Ocean Chemical Technology,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s50_formosa.json
 OCEANCHEMICAL:HC6247,HC6247,"Ocean Chemical Technology Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s28_sk_yubase.json
 OLEON:RADIA 7179,RADIA 7179,Oleon NV,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,3,3,,s27_oleon.json
 OLEON:RADIA 7192,RADIA 7192,Oleon NV,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s27_oleon.json
@@ -1367,15 +1378,18 @@ OLEON:RADIALUBE 7368,RADIALUBE 7368,Oleon NV,new_candidate,unresolved,yes,verifi
 OLEON:RADIALUBE 7563,RADIALUBE 7563,Oleon NV,new_candidate,unresolved,yes,"verified, open question",unresolved,not started,not started,no,3,3,,s27_oleon.json
 OLEON:RADIALUBE 7573,RADIALUBE 7573,Oleon NV,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s27_oleon.json
 OLEON:RADIALUBE 7681,RADIALUBE 7681,Oleon NV,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,2,2,,s27_oleon.json
-EXISTING:PETRONAS_ETRO_6,ETRO 6,PETRONAS,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:PETRONAS_EQUINAS_4,EQUINAS 4,PETRONAS Lubricants International,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:PETRONAS_EQUINAS_6,EQUINAS 6,PETRONAS Lubricants International,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:PETRONAS_EQUINAS_8,EQUINAS 8,PETRONAS Lubricants International,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
+EXISTING:PETRONAS_EQUINAS_4,EQUINAS 4,PETRONAS,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,1,1,,s52_petronas.json
+EXISTING:PETRONAS_EQUINAS_6,EQUINAS 6,PETRONAS,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,1,1,,s52_petronas.json
+EXISTING:PETRONAS_EQUINAS_8,EQUINAS 8,PETRONAS,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,1,1,,s52_petronas.json
+EXISTING:PETRONAS_ETRO_6,ETRO 6,PETRONAS,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,1,1,,s52_petronas.json
+EXISTING:PETRONAS_ETRO_6_PLUS,ETRO 6+,PETRONAS,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,1,1,,s52_petronas.json
 EXISTING:PETRONAS_ETRO_3,ETRO 3,PETRONAS Lubricants International,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:PETRONAS_ETRO_4,ETRO 4,PETRONAS Lubricants International,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:PETRONAS_ETRO_4_PLUS,ETRO 4+,PETRONAS Lubricants International,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:PETRONAS_ETRO_6_PLUS,ETRO 6+,PETRONAS Lubricants International,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:PETRONAS_M500,M500,PETRONAS Lubricants International,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
+EXISTING:PETRO_CANADA_PURITY_L50,PURITY L50,Petro-Canada,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,1,1,,s53_petro_canada.json
+EXISTING:PETRO_CANADA_PURITY_VHVI_4,PURITY VHVI 4,Petro-Canada,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,1,1,,s53_petro_canada.json
+PETRO_CANADA:SUNISO_GS,Suniso GS (5GS),Petro-Canada,out_of_scope,out_of_template (refrigeration compressor lubricant),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s53_petro_canada.json
 EXISTING:PETRO_CANADA_PURITY_1003,PURITY 1003 Base Oil,Petro-Canada Lubricants Inc.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:PETRO_CANADA_PURITY_1017,PURITY 1017 Base Oil,Petro-Canada Lubricants Inc.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:PETRO_CANADA_PURITY_1020,PURITY 1020 Base Oil,Petro-Canada Lubricants Inc.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
@@ -1384,12 +1398,10 @@ EXISTING:PETRO_CANADA_PURITY_2305,PURITY 2305 Base Oil,Petro-Canada Lubricants I
 EXISTING:PETRO_CANADA_PURITY_L35,PURITY L35 Base Oil,Petro-Canada Lubricants Inc.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:PETRO_CANADA_PURITY_L40,PURITY L40 Base Oil,Petro-Canada Lubricants Inc.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:PETRO_CANADA_PURITY_L45,PURITY L45 Base Oil,Petro-Canada Lubricants Inc.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:PETRO_CANADA_PURITY_L50,PURITY L50 Base Oil,Petro-Canada Lubricants Inc.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:PETRO_CANADA_PURITY_L60,PURITY L60 Base Oil,Petro-Canada Lubricants Inc.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:PETRO_CANADA_PURITY_L65,PURITY L65 Base Oil,Petro-Canada Lubricants Inc.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:PETRO_CANADA_PURITY_VHVI_2,PURITY VHVI 2,Petro-Canada Lubricants Inc.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:PETRO_CANADA_PURITY_VHVI_3,PURITY VHVI 3,Petro-Canada Lubricants Inc.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:PETRO_CANADA_PURITY_VHVI_4,PURITY VHVI 4,Petro-Canada Lubricants Inc.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:PETRO_CANADA_PURITY_VHVI_6,PURITY VHVI 6,Petro-Canada Lubricants Inc.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:PETRO_CANADA_PURITY_VHVI_8,PURITY VHVI 8,Petro-Canada Lubricants Inc.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 LUBRIZOL:JILIN J0010,Jilin J0010,PetroChina Jilin,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s04_lubrizol.json
@@ -1650,14 +1662,17 @@ EXISTING:ARAMCO_LUBEREF_PRIMA_150,aramcoPRIMA 150,Saudi Aramco Luberef,existing,
 EXISTING:ARAMCO_LUBEREF_PRIMA_220,aramcoPRIMA 220,Saudi Aramco Luberef,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:ARAMCO_LUBEREF_PRIMA_500L,aramcoPRIMA 500L,Saudi Aramco Luberef,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:ARAMCO_LUBEREF_PRIMA_600,aramcoPRIMA 600,Saudi Aramco Luberef,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
+MINGLAN:T106D_SUP_HIGH_TBN_CA_SUL,T106D Super High TBN Calcium Sulfonate,Shanghai Minglan Chemical,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s60_micro.json
 EXISTING:SHELL_RISELLA_X_415,Shell Risella X 415,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,3,,product_identities.csv
 EXISTING:SHELL_RISELLA_X_420,Shell Risella X 420,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,4,4,,product_identities.csv
 EXISTING:SHELL_RISELLA_X_430,Shell Risella X 430,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
+SHENYANG_GW:CATALOG,Shenyang Great Wall finished lubricant catalog,Shenyang Great Wall,out_of_scope,out_of_scope,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s60_micro.json
 SONGWON:SONGNOX_5057_LQ,SONGNOX 5057 LQ,"Songwon Industrial Co., Ltd.",new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,2,2,,s42_songwon.json
 SONGWON:SONGNOX_L107,SONGNOX L107,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s42_songwon.json
 SONGWON:SONGNOX_L135,SONGNOX L135,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,3,3,,s42_songwon.json
 SONGWON:SONGNOX_L570,SONGNOX L570,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,3,3,,s42_songwon.json
 SONGWON:SONGNOX_L670,SONGNOX L670,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s42_songwon.json
+TANEE:TE_598,TE-598 Dialkyl Diphenylamine,Tanee Chemical,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s60_micro.json
 DOW:DOWTHERM A,DOWTHERM A,The Dow Chemical Company,out_of_scope,out_of_template: heat transfer fluid,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s19_dow.json
 EXISTING:LUBRIZOL_16008,LUBRIZOL® 16008,The Lubrizol Corporation,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,3,,product_identities.csv
 EXISTING:LUBRIZOL_3589C,LUBRIZOL® 3589C,The Lubrizol Corporation,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
@@ -1683,11 +1698,18 @@ TIANHE:C_TEC_206,C-TEC 206,Tianhe Chemical Group,new_candidate,additive_componen
 TIANHE:C_TEC_209,C-TEC 209,Tianhe Chemical Group,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s43_tianhe.json
 TIANHE:P_TEC_3234,P-TEC 3234,Tianhe Chemical Group,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s43_tianhe.json
 TIANHE:P_TEC_9100,P-TEC 9100,Tianhe Chemical Group,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s43_tianhe.json
+TOHO_CHEM:LUBRAN_VI_870,LUBRAN VI-870,Toho Chemical Industry,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s50_formosa.json
 TOHOLCHEM:LUBRAN_141,LUBRAN 141,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s30_shell.json
 TOHOLCHEM:LUBRAN_165,LUBRAN 165,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s30_shell.json
 TOHOLCHEM:LUBRAN_171,LUBRAN 171,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s30_shell.json
+TOTAL:JARYTHERM_DBT,JARYTHERM DBT,TotalEnergies,out_of_scope,out_of_template (heat transfer fluid — synthetic dibenzyltoluene type),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s59_total.json
 EXISTING:TREE_TRADING_NT513,NT513,Tree Trading FIZ LLC,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 FUNCTIONALPRODUCTS:PARATAC 178,PARATAC 178,Tri-iso Inc. (distributor; manufacturer not printed),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s26_functional_products.json
+TURKMENBASHY:SN1200,Turkmenbashy SN1200,Turkmenbashy refinery,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s58_turkmenbashy.json
+TURKMENBASHY:SN180,Turkmenbashy SN180,Turkmenbashy refinery,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s58_turkmenbashy.json
+TURKMENBASHY:SN350,Turkmenbashy SN350,Turkmenbashy refinery,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s58_turkmenbashy.json
+TURKMENBASHY:SN600,Turkmenbashy SN600,Turkmenbashy refinery,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s58_turkmenbashy.json
+TURKMENBASHY:SN80,Turkmenbashy SN80,Turkmenbashy refinery,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s58_turkmenbashy.json
 VANDERBILT:BUTYLATED HYDROXY TOLUENE TECH GRADE,BUTYLATED HYDROXY TOLUENE TECH GRADE,"Vanderbilt Chemicals, LLC",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s22_vanderbilt.json
 VANDERBILT:MOLYVAN 3000,MOLYVAN 3000,"Vanderbilt Chemicals, LLC",new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s22_vanderbilt.json
 VANDERBILT:MOLYVAN 807,MOLYVAN 807,"Vanderbilt Chemicals, LLC",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s22_vanderbilt.json
