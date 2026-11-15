@@ -1,0 +1,268 @@
+{
+ "batch": "S35 Evonik (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "11 documents with provisional supplier Evonik",
+ "products": {
+  "EVONIK:VISCOPLEX_14_520": {
+   "name": "VISCOPLEX 14-520",
+   "supplier": "Evonik Industries AG",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'VISCOPLEX® 14-520 defoamer for lubricating oils'; 8pp; x2 copies in archive; VISCOPLEX series 14 = defoamers (polysiloxane-based); additive_component (defoamer)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "EVONIK:VISCOPLEX_4_677": {
+   "name": "VISCOPLEX 4-677",
+   "supplier": "Evonik Industries AG",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'VISCOPLEX® 4-677 is a multifunctional engine oil additive combining the functions of viscosity index improver (VII) and pour point depressant (PPD); designed for multigrade gasoline and diesel engine oil'; additive_component (viscosity modifier / VM subtype)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "EVONIK:VISCOPLEX_8_400": {
+   "name": "VISCOPLEX 8-400",
+   "supplier": "Evonik Industries AG",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Viscosity index improver and pour point depressant for hydraulic fluids; VISCOPLEX® 8-400 offers high VI improvement in combination with a high level of shear stability'; additive_component (viscosity modifier / VM subtype)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "EVONIK:VISCOPLEX_8_251": {
+   "name": "VISCOPLEX 8-251",
+   "supplier": "Evonik Industries AG",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Viscosity index improver for hydraulic fluids; VISCOPLEX® 8-251 offers high VI improvement in combination with very high shear stability'; Technical Information Evonik Industries AG August 2013; additive_component (viscosity modifier / VM subtype)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "EVONIK:VISCOPLEX_7_310": {
+   "name": "VISCOPLEX 7-310",
+   "supplier": "Evonik Industries AG",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Shear-stable viscosity index improver for special hydraulic fluids; VISCOPLEX® 7-310 is designed for use in high-VI arctic and automotive fluids'; Evonik Resource Efficiency GmbH July 2017; additive_component (viscosity modifier / VM subtype)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "EVONIK:VISCOPLEX_8_200": {
+   "name": "VISCOPLEX 8-200",
+   "supplier": "Evonik Industries AG",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Viscosity index improver with pour point depressant properties for hydraulic fluids; VISCOPLEX® 8-200 offers high VI improvement in combination with very high shear stability'; additive_component (viscosity modifier / VM subtype)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "EVONIK:VISCOPLEX_1_254": {
+   "name": "VISCOPLEX 1-254",
+   "supplier": "Evonik Industries AG",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'A RohMax Product; Typical Physical Properties: kV100 90 mm2/s, Density 0.90 g/ml, FP 160°C; Shear...' (function truncated); RohMax era PMA; additive_component (viscosity modifier / VM subtype)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "EVONIK:VISCOPLEX_0_223": {
+   "name": "VISCOPLEX 0-223",
+   "supplier": "Evonik Industries AG",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'VISCOPLEX® 0-223 VISCOPLEX® Series 0 Gear Oil Viscosity Index Improvers; Viscosity index and low-temperature fluidity improver for multigrade gear oils such as SAE 75W-90'; additive_component (viscosity modifier / VM subtype)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  }
+ },
+ "documents": {
+  "191e53a21afc": {
+   "doc_type": "contact page (disclaimer and contact addresses)",
+   "supplier": "Evonik Industries AG",
+   "products": [],
+   "roles": {},
+   "relation": "unresolved_identity",
+   "read": "page-1 text: RohMax contact addresses (Germany, USA, Asia) + liability disclaimer only",
+   "note": "1pp; entire page is RohMax/Degussa contact information and standard liability disclaimer; no product name or data; likely a standalone contact sheet or the back/cover of a TDS; cannot identify any specific VISCOPLEX product from this page",
+   "next_action": "manual review: may be a standalone page, not associated with a specific product",
+   "manufacturer": "RohMax Additives GmbH / Evonik Industries AG",
+   "distributor": "",
+   "issuer": "RohMax Additives GmbH"
+  },
+  "738c84bd57bd": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Evonik Industries AG",
+   "products": [
+    "EVONIK:VISCOPLEX_4_677"
+   ],
+   "roles": {
+    "EVONIK:VISCOPLEX_4_677": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, function, performance description)",
+   "note": "2pp; engine oil VII/PPD multifunction",
+   "next_action": "",
+   "manufacturer": "Evonik Industries AG",
+   "distributor": "",
+   "issuer": "Evonik Industries AG"
+  },
+  "f3789d833a0e": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Evonik Industries AG",
+   "products": [
+    "EVONIK:VISCOPLEX_8_400"
+   ],
+   "roles": {
+    "EVONIK:VISCOPLEX_8_400": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, function, performance description)",
+   "note": "2pp; hydraulic VII with PPD",
+   "next_action": "",
+   "manufacturer": "Evonik Industries AG",
+   "distributor": "",
+   "issuer": "Evonik Industries AG"
+  },
+  "0c92fd0f8279": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Evonik Industries AG",
+   "products": [
+    "EVONIK:VISCOPLEX_8_251"
+   ],
+   "roles": {
+    "EVONIK:VISCOPLEX_8_251": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, function, performance description)",
+   "note": "2pp TDS edition 2013",
+   "next_action": "",
+   "manufacturer": "Evonik Industries AG",
+   "distributor": "",
+   "issuer": "Evonik Industries AG"
+  },
+  "e9e8d1cd6ce5": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Evonik Industries AG",
+   "products": [
+    "EVONIK:VISCOPLEX_7_310"
+   ],
+   "roles": {
+    "EVONIK:VISCOPLEX_7_310": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, function, performance description)",
+   "note": "2pp",
+   "next_action": "",
+   "manufacturer": "Evonik Industries AG",
+   "distributor": "",
+   "issuer": "Evonik Industries AG"
+  },
+  "fabdd3f8f850": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Evonik Industries AG",
+   "products": [
+    "EVONIK:VISCOPLEX_8_200"
+   ],
+   "roles": {
+    "EVONIK:VISCOPLEX_8_200": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, function, performance description)",
+   "note": "2pp",
+   "next_action": "",
+   "manufacturer": "Evonik Industries AG",
+   "distributor": "",
+   "issuer": "Evonik Industries AG"
+  },
+  "ab32453908c6": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Evonik Industries AG",
+   "products": [
+    "EVONIK:VISCOPLEX_1_254"
+   ],
+   "roles": {
+    "EVONIK:VISCOPLEX_1_254": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, function, performance description)",
+   "note": "2pp; PMA shear-stable VII/PPD",
+   "next_action": "",
+   "manufacturer": "Evonik Industries AG",
+   "distributor": "",
+   "issuer": "Evonik Industries AG"
+  },
+  "c4df3a5053a2": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Evonik Industries AG",
+   "products": [
+    "EVONIK:VISCOPLEX_0_223"
+   ],
+   "roles": {
+    "EVONIK:VISCOPLEX_0_223": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, function, performance description)",
+   "note": "2pp",
+   "next_action": "",
+   "manufacturer": "Evonik Industries AG",
+   "distributor": "",
+   "issuer": "Evonik Industries AG"
+  },
+  "f650c36c243f": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Evonik Industries AG",
+   "products": [
+    "EVONIK:VISCOPLEX_14_520"
+   ],
+   "roles": {
+    "EVONIK:VISCOPLEX_14_520": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name: defoamer for lubricating oils)",
+   "note": "'VISCOPLEX® 14-520 defoamer for lubricating oils'; 8pp; x2 copies in archive; VISCOPLEX series 14 = defoamers; not a VM despite being in VISCOPLEX family",
+   "next_action": "",
+   "manufacturer": "Evonik Industries AG",
+   "distributor": "",
+   "issuer": "Evonik Industries AG"
+  },
+  "2201cf07a8e8": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Evonik Industries AG",
+   "products": [
+    "EVONIK:VISCOPLEX_8_251"
+   ],
+   "roles": {
+    "EVONIK:VISCOPLEX_8_251": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, function, performance description)",
+   "note": "2pp TDS edition 2015 (second edition for the same product)",
+   "next_action": "",
+   "manufacturer": "Evonik Industries AG",
+   "distributor": "",
+   "issuer": "Evonik Industries AG"
+  },
+  "77b14d733fe7": {
+   "doc_type": "SDS",
+   "supplier": "Evonik Industries AG",
+   "products": [],
+   "roles": {},
+   "relation": "unresolved_identity",
+   "read": "pages 1-2: SDS header with product use (viscosity index improver for hydraulic fluids); product name not in extracted text",
+   "note": "'Update 03/20/2013 Version 7'; 'Product Use: Viscosity index improver for hydraulic fluids'; 'Ingredients... acrylate polymer (PMA)'; product name not in extractable text layer (likely in a graphic header or in a form field); probable VISCOPLEX 8-series hydraulic VII MSDS; not VISCOPLEX 8-251 (two TDS already present)",
+   "next_action": "OCR or manual read to identify VISCOPLEX grade from section 1 product name",
+   "manufacturer": "Evonik Industries AG",
+   "distributor": "",
+   "issuer": "Evonik Oil Additives USA, Inc."
+  }
+ }
+}
