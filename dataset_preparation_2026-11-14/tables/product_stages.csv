@@ -143,12 +143,12 @@ EXISTING:AFTON_HITEC_12400,HiTEC® 12400,Afton Chemical Corporation,existing,add
 EXISTING:AFTON_HITEC_5748,HiTEC® 5748,Afton Chemical Corporation,existing,additive_component,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,5,,product_identities.csv
 EXISTING:AFTON_HITEC_8767B,HiTEC® 8767B,Afton Chemical Corporation,existing,additive_component,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:HiTEC_8766B,HiTEC® 8766B,Afton Chemical Corporation,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-ARKEMA:TPS_20,TPS 20,Arkema Inc.,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s41_arkema.json
-ARKEMA:TPS_32,TPS 32,Arkema Inc.,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s41_arkema.json
-ARKEMA:TPS_44,TPS 44,Arkema Inc.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s41_arkema.json
-ARKEMA:VPS_11,VPS 11,Arkema Inc.,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s41_arkema.json
-ARKEMA:VPS_15,VPS 15,Arkema Inc.,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s41_arkema.json
-ARKEMA:VPS_17,VPS 17,Arkema Inc.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s41_arkema.json
+ARKEMA:TPS_20,TPS 20,Arkema Inc.,new_candidate,additive_component,yes,verified,established,"reviewed (S41, 2026-11-15; all sheets read in full)",complete,yes,2,2,,s41_arkema.json
+ARKEMA:TPS_32,TPS 32,Arkema Inc.,new_candidate,additive_component,yes,verified,established,"reviewed (S41, 2026-11-15; all sheets read in full)",complete,yes,2,2,,s41_arkema.json
+ARKEMA:TPS_44,TPS 44,Arkema Inc.,new_candidate,additive_component,yes,verified,established,"reviewed (S41, 2026-11-15; all sheets read in full)",complete,yes,1,1,,s41_arkema.json
+ARKEMA:VPS_11,VPS 11,Arkema Inc.,new_candidate,additive_component,yes,verified,established,"reviewed (S41, 2026-11-15; all sheets read in full)",complete,yes,2,2,,s41_arkema.json
+ARKEMA:VPS_15,VPS 15,Arkema Inc.,new_candidate,additive_component,yes,verified,established,"reviewed (S41, 2026-11-15; all sheets read in full)",complete,yes,2,2,,s41_arkema.json
+ARKEMA:VPS_17,VPS 17,Arkema Inc.,new_candidate,additive_component,yes,verified,established,"reviewed (S41, 2026-11-15; all sheets read in full)",complete,yes,1,1,,s41_arkema.json
 BASF:AMINE O,Amine O,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
 BASF:BREOX 50,Breox 50,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
 BASF:BREOX 50 A 140,Breox 50 A 140,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,3,3,,s06_basf.json
