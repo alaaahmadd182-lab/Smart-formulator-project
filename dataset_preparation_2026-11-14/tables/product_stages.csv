@@ -559,6 +559,7 @@ CRODA:PRIOLUBE 3986,Priolube 3986,Croda,new_candidate,additive_component,yes,ver
 CRODA:PRIOLUBE 3987,Priolube 3987,Croda,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,5,5,,s09_croda.json
 CRODA:SP PRIOLUBE 3970 MBAL,SP Priolube 3970 MBAL,Croda,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,2,2,,s09_croda.json
 CRODA:XENITRON 3221,Xenitron 3221,Croda,out_of_scope,out_of_template: finished fluid (dielectric ester),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s09_croda.json
+DOWPOL:NEOFLEX_680,NeoFlex 680,Dowpol Chemical International Corp.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s28_sk_yubase.json
 DOWPOL:DOWSYN AN15,DowSyn AN15,Dowpol Chemical International Corp. (DowSyn),new_candidate,base_oil,yes,verified,open question,not started,not started,no,2,2,,s19_dow.json
 DOWPOL:DOWSYN AN23,DowSyn AN23,Dowpol Chemical International Corp. (DowSyn),new_candidate,base_oil,yes,verified,open question,not started,not started,no,2,2,,s19_dow.json
 DOWPOL:DOWSYN AN30,DowSyn AN30,Dowpol Chemical International Corp. (DowSyn),new_candidate,base_oil,yes,verified,open question,not started,not started,no,2,2,,s19_dow.json
@@ -768,6 +769,8 @@ GONCORD:SYNCOLD RL32,SYNCOLD RL32,Goncord Chemical (Singapore) Pte Ltd,out_of_sc
 GONCORD:SYNCOLD RLD22,SYNCOLD RLD22,Goncord Chemical (Singapore) Pte Ltd,out_of_scope,out_of_template: finished lubricant (refrigeration compressor oil),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s23_goncord.json
 GONCORD:SYNCOLD RLT68GX,SYNCOLD RLT68GX,Goncord Chemical (Singapore) Pte Ltd,out_of_scope,out_of_template: finished lubricant (refrigeration compressor oil),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s23_goncord.json
 GONCORD:SYNCOLD SH46,SYNCOLD SH46,Goncord Chemical (Singapore) Pte Ltd,out_of_scope,out_of_template: finished lubricant (refrigeration compressor oil),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s23_goncord.json
+HYUNDAIOILBANK:HSB_500N,HSB 500N (DAESAN),"Hyundai Oilbank Co., Ltd. / Shell (joint venture base oil)",new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s30_shell.json
+ILCO:ILCO_PHOS_366,ILCO PHOS 366,ILCO (manufacturer not printed on page 1),out_of_scope,out_of_template (fire-resistant hydraulic fluid),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s30_shell.json
 INEOS:CERECLOR 42,Cereclor 42,INEOS (INEOS Oligomers),new_candidate,additive_component,yes,verified,open question,not started,not started,no,1,1,,s12_ineos.json
 INEOS:DURASYN 125,Durasyn 125,INEOS (INEOS Oligomers),new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s12_ineos.json
 INEOS:DURASYN 126,Durasyn 126,INEOS (INEOS Oligomers),new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s12_ineos.json
@@ -919,6 +922,17 @@ INFINEUM:UA 5113,UA 5113,Infineum,unresolved,unresolved,yes,verified,unresolved,
 INFINEUM:UA 5161,UA 5161,Infineum,unresolved,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s03_infineum.json
 INFINEUM:UA 5800,UA 5800,Infineum,unresolved,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s03_infineum.json
 INFINEUM:UA 5803,UA 5803,Infineum,unresolved,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s03_infineum.json
+ITALMATCH:DAPRALUBE_77,Dapralube 77,Italmatch Chemicals S.p.A.,out_of_scope,out_of_template (metalworking fluid additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s31_italmatch.json
+ITALMATCH:DAPRALUBE_9501,Dapralube 9501,Italmatch Chemicals S.p.A.,out_of_scope,out_of_template (metalworking fluid additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s31_italmatch.json
+ITALMATCH:KETJENLUBE_09,Ketjenlube 09,Italmatch Chemicals S.p.A.,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s31_italmatch.json
+ITALMATCH:POLARTECH_8142,Polartech 8142,Italmatch Chemicals S.p.A.,out_of_scope,out_of_template (metalworking fluid additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s31_italmatch.json
+ITALMATCH:POLARTECH_8221,Polartech 8221,Italmatch Chemicals S.p.A.,out_of_scope,out_of_template (metalworking fluid additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s31_italmatch.json
+ITALMATCH:POLARTECH_8310,Polartech 8310,Italmatch Chemicals S.p.A.,out_of_scope,out_of_template (metalworking fluid additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s31_italmatch.json
+ITALMATCH:POLARTECH_8430,Polartech 8430,Italmatch Chemicals S.p.A.,out_of_scope,out_of_template (metalworking fluid additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s31_italmatch.json
+ITALMATCH:POLARTECH_AF_2000,Polartech AF 2000,Italmatch Chemicals S.p.A.,out_of_scope,out_of_template (metalworking fluid additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s31_italmatch.json
+ITALMATCH:POLARTECH_EA_150,Polartech EA 150,Italmatch Chemicals S.p.A.,out_of_scope,out_of_template (metalworking fluid additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s31_italmatch.json
+ITALMATCH:POLARTECH_LA_8610,Polartech LA 8610,Italmatch Chemicals S.p.A.,out_of_scope,out_of_template (metalworking fluid additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s31_italmatch.json
+ITALMATCH:POLARTECH_MP_900_CU,Polartech MP 900 CU,Italmatch Chemicals S.p.A.,out_of_scope,out_of_template (metalworking fluid additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s31_italmatch.json
 EXISTING:JINZHOU_DONGGONG_T3160,Multifunction Engine Oil Additive Package T3160,"JINZHOU DONGGONG PETROCHEMICAL PRODUCTS CO., LTD.",existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
 BETTCHEM:BT33040,BT33040,"Jinzhou Bett Chemical Co., Ltd. (Bettchem)",new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s13_jinzhou.json
 BETTCHEM:BT33069,BT33069,"Jinzhou Bett Chemical Co., Ltd. (Bettchem)",new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s13_jinzhou.json
@@ -1244,26 +1258,30 @@ EXISTING:MINGLAN_T3161,T3161,MINGLAN CHEMICAL,existing,additive_package,yes,exis
 EXISTING:MINGLAN_T3161A,T3161A,MINGLAN CHEMICAL,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:MINGYUEKEJI_MY_P3168,Additive Package MY-P3168,MINGYUEKEJI,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 MULTISOL:NOVAD B700,NOVAD B700,Multisol France (distributor; manufacturer not printed),new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s25_wuxi.json
-EXISTING:NESTE_NEXBASE_3020,NEXBASE 3020,Neste (Suisse) S.A.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:NESTE_NEXBASE_3043,NEXBASE 3043,Neste N.V.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
+EXISTING:NESTE_NEXBASE_3020,NEXBASE 3020,Neste (Suisse) S.A.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,2,2,,product_identities.csv
+NESTE:NEXBASE_TM_2000,NEXBASE TM 2000,Neste Corporation,new_candidate,base_oil,yes,verified,open question,not started,not started,no,1,1,,s32_neste.json
+EXISTING:NESTE_NEXBASE_3043,NEXBASE 3043,Neste N.V.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,3,,product_identities.csv
 EXISTING:NESTE_NEXBASE_3050,NEXBASE 3050,Neste N.V.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:NESTE_NEXBASE_3060,NEXBASE 3060,Neste N.V.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:NESTE_NEXBASE_3080,NEXBASE 3080,Neste N.V.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
+EXISTING:NESTE_NEXBASE_3060,NEXBASE 3060,Neste N.V.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,3,,product_identities.csv
+EXISTING:NESTE_NEXBASE_3080,NEXBASE 3080,Neste N.V.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,3,,product_identities.csv
 EXISTING:NESTE_NEXBASE_3030,NEXBASE 3030,Neste Oil,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:NYNAS_BASE_STOCK_20,Base Stock 20,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:NYNAS_BNS_5,BNS 5,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:NYNAS_NS_3,NS 3,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:NYNAS_NYBASE_70,NYBASE 70,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:NYNAS_NYFROST_100,NYFROST 100,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:NYNAS_NYFROST_32,NYFROST 32,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:NYNAS_NYFROST_68,Nyfrost 68,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:NYNAS_S_3B,Nynas S 3B,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
+EXISTING:NYNAS_NS_3,NS 3,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,2,2,,product_identities.csv
+EXISTING:NYNAS_NYBASE_70,NYBASE 70,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
+EXISTING:NYNAS_NYFROST_100,NYFROST 100,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
+EXISTING:NYNAS_NYFROST_32,NYFROST 32,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,4,4,,product_identities.csv
+EXISTING:NYNAS_NYFROST_68,Nyfrost 68,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
+EXISTING:NYNAS_S_3B,Nynas S 3B,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,2,2,,product_identities.csv
 EXISTING:NYNAS_T_110,Nynas T 110,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:NYNAS_T_22,Nynas T 22,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:NYNAS_T_3,Nynas T 3,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:NYNAS_T_4,Nynas T 4,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:NYNAS_T_600,Nynas T 600,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:NYNAS_T_9,Nynas T 9,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
+EXISTING:NYNAS_T_3,Nynas T 3,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
+EXISTING:NYNAS_T_4,Nynas T 4,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
+EXISTING:NYNAS_T_600,Nynas T 600,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
+EXISTING:NYNAS_T_9,Nynas T 9,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
+NYNAS:NYTRO_LIBRA,Nytro Libra,Nynas AB,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s29_nynas.json
+NYNAS:NYTRO_LYRA_X,Nytro Lyra X,Nynas AB,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s29_nynas.json
+OCEANCHEMICAL:HC6247,HC6247,"Ocean Chemical Technology Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s28_sk_yubase.json
 OLEON:RADIA 7179,RADIA 7179,Oleon NV,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,3,3,,s27_oleon.json
 OLEON:RADIA 7192,RADIA 7192,Oleon NV,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s27_oleon.json
 OLEON:RADIALUBE 7361,RADIALUBE 7361,Oleon NV,new_candidate,unresolved,yes,"verified, open question",unresolved,not started,not started,no,3,3,,s27_oleon.json
@@ -1442,6 +1460,7 @@ EXISTING:S_OIL_ULTRA_S_3,Ultra-S 3 (70 Neutral),S-OIL,existing,base_oil,yes,exis
 EXISTING:S_OIL_ULTRA_S_4,Ultra-S 4 (100 Neutral),S-OIL,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:S_OIL_ULTRA_S_6,Ultra-S 6 (150 Neutral),S-OIL,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:S_OIL_ULTRA_S_8,Ultra-S 8 (250 Neutral),S-OIL,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
+SK:YUBASE_4P,YUBASE 4 Plus (YUBASE 4P),"SK Lubricants Co., Ltd.",new_candidate,base_oil,yes,"verified, open question",established,not started,not started,no,1,1,,s28_sk_yubase.json
 SAMA:12-HSA,12-HSA,Sama Lubricants Co. (trading company),out_of_scope,out_of_template: other chemical,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s08_sama.json
 SAMA:A1010,A1010,Sama Lubricants Co. (trading company),out_of_scope,out_of_template: coolant additive,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,3,,s08_sama.json
 SAMA:A1011,A1011,Sama Lubricants Co. (trading company),out_of_scope,out_of_template: coolant additive,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s08_sama.json
@@ -1552,9 +1571,9 @@ EXISTING:ARAMCO_LUBEREF_PRIMA_500,aramcoPRIMA 500,Saudi Aramco Luberef,existing,
 EXISTING:ARAMCO_LUBEREF_PRIMA_500L,aramcoPRIMA 500L,Saudi Aramco Luberef,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:ARAMCO_LUBEREF_PRIMA_600,aramcoPRIMA 600,Saudi Aramco Luberef,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:ARAMCO_LUBEREF_PRIMA_70,aramcoPRIMA 70,Saudi Aramco Luberef,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:SHELL_RISELLA_X_415,Shell Risella X 415,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:SHELL_RISELLA_X_420,Shell Risella X 420,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:SHELL_RISELLA_X_430,Shell Risella X 430,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
+EXISTING:SHELL_RISELLA_X_415,Shell Risella X 415,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,3,,product_identities.csv
+EXISTING:SHELL_RISELLA_X_420,Shell Risella X 420,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,4,4,,product_identities.csv
+EXISTING:SHELL_RISELLA_X_430,Shell Risella X 430,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
 EXISTING:TIANHE_P_TEC_3232,P-TEC 3232,TIANHE CHEMICALS,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 DOW:DOWTHERM A,DOWTHERM A,The Dow Chemical Company,out_of_scope,out_of_template: heat transfer fluid,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s19_dow.json
 EXISTING:LUBRIZOL_16008,LUBRIZOL® 16008,The Lubrizol Corporation,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,3,,product_identities.csv
@@ -1574,6 +1593,9 @@ EXISTING:LUBRIZOL_CV2601,LUBRIZOL® CV2601,The Lubrizol Corporation,existing,ad
 EXISTING:LUBRIZOL_CV3515,LUBRIZOL® CV3515,The Lubrizol Corporation,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
 EXISTING:LUBRIZOL_CV6320,LUBRIZOL® CV6320,The Lubrizol Corporation,existing,additive_component,yes,existing record (no new-archive identity decision),established,not started,not started,no,2,2,,product_identities.csv
 EXISTING:LUBRIZOL_CV7540,LUBRIZOL® CV7540,The Lubrizol Corporation,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,2,2,,product_identities.csv
+TOHOLCHEM:LUBRAN_141,LUBRAN 141,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s30_shell.json
+TOHOLCHEM:LUBRAN_165,LUBRAN 165,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s30_shell.json
+TOHOLCHEM:LUBRAN_171,LUBRAN 171,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s30_shell.json
 EXISTING:TREE_TRADING_NT513,NT513,Tree Trading FIZ LLC,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 FUNCTIONALPRODUCTS:PARATAC 178,PARATAC 178,Tri-iso Inc. (distributor; manufacturer not printed),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s26_functional_products.json
 VANDERBILT:BUTYLATED HYDROXY TOLUENE TECH GRADE,BUTYLATED HYDROXY TOLUENE TECH GRADE,"Vanderbilt Chemicals, LLC",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s22_vanderbilt.json
@@ -1638,10 +1660,10 @@ EXISTING:RICHFUL_RF6088,RF6088 Diesel Engine Oil Additive Package,"Xinxiang Rich
 EXISTING:RICHFUL_RF6088F,RF6088F CK-4 Diesel Engine Oil Package,"Xinxiang Richful Lube Additive Co., Ltd.",existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,2,2,,product_identities.csv
 EXISTING:RICHFUL_RF6089,RF6089,"Xinxiang Richful Lube Additive Co., Ltd.",existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
 EXISTING:RICHFUL_RF6400,RF6400 CF-4/SG Universal Type Engine Oil Package,"Xinxiang Richful Lube Additive Co., Ltd.",existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,5,5,,product_identities.csv
-EXISTING:YUBASE_3,YUBASE 3,YUBASE-SK (archive folder); document issued by NARMAK TRADE S.R.O.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:YUBASE_4,YUBASE 4,YUBASE-SK (archive folder); document issued by NARMAK TRADE S.R.O.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:YUBASE_5,YUBASE 5,YUBASE-SK (archive folder); document issued by NARMAK TRADE S.R.O.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:YUBASE_6,YUBASE 6,YUBASE-SK (archive folder); document issued by NARMAK TRADE S.R.O.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
+EXISTING:YUBASE_3,YUBASE 3,YUBASE-SK (archive folder); document issued by NARMAK TRADE S.R.O.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,2,2,,product_identities.csv
+EXISTING:YUBASE_4,YUBASE 4,YUBASE-SK (archive folder); document issued by NARMAK TRADE S.R.O.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,3,,product_identities.csv
+EXISTING:YUBASE_5,YUBASE 5,YUBASE-SK (archive folder); document issued by NARMAK TRADE S.R.O.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
+EXISTING:YUBASE_6,YUBASE 6,YUBASE-SK (archive folder); document issued by NARMAK TRADE S.R.O.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,3,,product_identities.csv
 YASHO:YALUB 3000,YALUB 3000,Yasho Industries Limited,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s24_yasho.json
 YASHO:YALUB 44,YALUB 44,Yasho Industries Limited,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s24_yasho.json
 YASHO:YALUB 525,YALUB 525,Yasho Industries Limited,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s24_yasho.json

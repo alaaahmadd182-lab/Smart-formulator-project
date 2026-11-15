@@ -1,0 +1,352 @@
+{
+ "batch": "S28 SK (YUBASE) (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "17 documents with provisional supplier SK (YUBASE)",
+ "products": {
+  "SK:YUBASE_3": {
+   "name": "YUBASE 3",
+   "supplier": "SK Lubricants Co., Ltd.",
+   "material_class": "base_oil",
+   "existing_record": "YUBASE_3",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "SK:YUBASE_4": {
+   "name": "YUBASE 4",
+   "supplier": "SK Lubricants Co., Ltd.",
+   "material_class": "base_oil",
+   "existing_record": "YUBASE_4",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "SK:YUBASE_5": {
+   "name": "YUBASE 5",
+   "supplier": "SK Lubricants Co., Ltd.",
+   "material_class": "base_oil",
+   "existing_record": "YUBASE_5",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "SK:YUBASE_6": {
+   "name": "YUBASE 6",
+   "supplier": "SK Lubricants Co., Ltd.",
+   "material_class": "base_oil",
+   "existing_record": "YUBASE_6",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "SK:YUBASE_4P": {
+   "name": "YUBASE 4 Plus (YUBASE 4P)",
+   "supplier": "SK Lubricants Co., Ltd.",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "YUBASE 4 Plus (also called YUBASE 4P); SK SDS product identifier 'YUBASE 4 Plus (YUBASE 4P)'; listed separately from YUBASE 4 in Afton formulation DL2-13231 with kV100 4.164 cSt (vs 4.224 for YUBASE 4); Group III base oil; not merged with YUBASE_4",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "OCEANCHEMICAL:HC6247": {
+   "name": "HC6247",
+   "supplier": "Ocean Chemical Technology Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'HC6247 is a star type hydro-diene polymer with the appearance of a semi-transparent adhesive block; with excellent shear stability (SSI<5)'; VM (viscosity modifier) subtype; document was mislabeled under SK (YUBASE) in automated classification",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "DOWPOL:NEOFLEX_680": {
+   "name": "NeoFlex 680",
+   "supplier": "Dowpol Chemical International Corp.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'NeoFlex 680 Pour Point Depressant is based on the Neo Synthetic Hydrocarbon chemistry; it delivers good low-temperature performance that adapts to a variety of base oils'; PPD subtype; document was mislabeled under SK (YUBASE) in automated classification",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  }
+ },
+ "documents": {
+  "37238f1ddb74": {
+   "doc_type": "product data sheet (distributor)",
+   "supplier": "Narmak Trade s.r.o.",
+   "products": [
+    "SK:YUBASE_3"
+   ],
+   "roles": {
+    "SK:YUBASE_3": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (grade name and property table)",
+   "note": "dupOLD; Narmak Trade s.r.o. (Czech Republic) distributor data sheet; manufacturer SK Lubricants printed implicitly via brand YUBASE",
+   "next_action": "",
+   "manufacturer": "SK Lubricants Co., Ltd.",
+   "distributor": "Narmak Trade s.r.o.",
+   "issuer": "Narmak Trade s.r.o."
+  },
+  "0d8b8c389bf7": {
+   "doc_type": "product data sheet (distributor)",
+   "supplier": "Narmak Trade s.r.o.",
+   "products": [
+    "SK:YUBASE_4"
+   ],
+   "roles": {
+    "SK:YUBASE_4": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (grade name and property table)",
+   "note": "dupOLD; Narmak Trade s.r.o. (Czech Republic) distributor data sheet",
+   "next_action": "",
+   "manufacturer": "SK Lubricants Co., Ltd.",
+   "distributor": "Narmak Trade s.r.o.",
+   "issuer": "Narmak Trade s.r.o."
+  },
+  "13f642c38d94": {
+   "doc_type": "product data sheet (distributor)",
+   "supplier": "Narmak Trade s.r.o.",
+   "products": [
+    "SK:YUBASE_5"
+   ],
+   "roles": {
+    "SK:YUBASE_5": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (grade name and property table)",
+   "note": "dupOLD; Narmak Trade s.r.o. (Czech Republic) distributor data sheet",
+   "next_action": "",
+   "manufacturer": "SK Lubricants Co., Ltd.",
+   "distributor": "Narmak Trade s.r.o.",
+   "issuer": "Narmak Trade s.r.o."
+  },
+  "c3bac1888f57": {
+   "doc_type": "product data sheet (distributor)",
+   "supplier": "Narmak Trade s.r.o.",
+   "products": [
+    "SK:YUBASE_6"
+   ],
+   "roles": {
+    "SK:YUBASE_6": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (grade name and property table)",
+   "note": "dupOLD; Narmak Trade s.r.o. (Czech Republic) distributor data sheet",
+   "next_action": "",
+   "manufacturer": "SK Lubricants Co., Ltd.",
+   "distributor": "Narmak Trade s.r.o.",
+   "issuer": "Narmak Trade s.r.o."
+  },
+  "5988c3eaadda": {
+   "doc_type": "formulation qualification summary",
+   "supplier": "",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "page-1 text (grade table, engine test results)",
+   "note": "page-1 table: Yubase (Group III) used as base oil in 5W-40 and 5W-30 formulations with API SN qualification; engine tests listed (Sequence IIIG/IVA/VG/VIII); Yubase grade not stated on page 1; issuer not stated on page 1",
+   "next_action": "read full text to identify issuer and specific Yubase grades",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": ""
+  },
+  "fee095b35a42": {
+   "doc_type": "OEM specification supplement",
+   "supplier": "Ford Motor Company",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "page-1 text (specification number, table of approved blend stocks)",
+   "note": "Ford WSS-M2C913-D Supplement A: table of approved base oil products, blend plants and cloud points; lists Yubase 4 (Group III, kV100 ~4.2 cSt) and Yubase 6 (Group III, kV100 ~6.4 cSt) as approved blend stocks; OEM specification — not a product document for SK/YUBASE",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "Ford Motor Company"
+  },
+  "1ffc84cf8ec7": {
+   "doc_type": "technical report (engine test programme)",
+   "supplier": "Infineum UK Limited",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "page-1 text (title: test programme in Yubase Group III base stocks)",
+   "note": "'Infineum P6003 Core Engine Test Programme In Yubase Group III Base Stocks with Infineum SV:261 / SV201 VMs'; IBL No: 1109 February 2005; subject is Infineum P6003 / SV:261 / SV201; Yubase is the test base stock, not the subject",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "Infineum UK Limited"
+  },
+  "1493fb9c8467": {
+   "doc_type": "application technical note (final formulation)",
+   "supplier": "Afton Chemical Corporation",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "page-1 text (formulation table: Yubase 4, 6 and 4 Plus as blend stocks)",
+   "note": "'Final Formulations 05/05/2019 AC dexos1 / ILSAC GF-5 / API SN PLUS / API SN'; Yubase 4, Yubase 6 and Yubase 4 Plus listed as blend stocks by kV100 and % wt.; subject is Afton HiTEC 11180 DI package; confirms YUBASE 4 Plus is a distinct product from YUBASE 4",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "Afton Chemical Corporation"
+  },
+  "b9233a17f398": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Ocean Chemical Technology Co., Ltd.",
+   "products": [
+    "OCEANCHEMICAL:HC6247"
+   ],
+   "roles": {
+    "OCEANCHEMICAL:HC6247": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, description, properties)",
+   "note": "mislabeled under SK (YUBASE) in automated classification; actual manufacturer: Ocean Chemical Technology Co., Ltd., No.844 Guomao, North Chouzhou Road, Yiwu, Zhejiang, China; 'HC6247 is a star type hydro-diene polymer with excellent shear stability (SSI<5)'; 4pp TDS",
+   "next_action": "",
+   "manufacturer": "Ocean Chemical Technology Co., Ltd.",
+   "distributor": "",
+   "issuer": "Ocean Chemical Technology Co., Ltd."
+  },
+  "55be2fa8cbdd": {
+   "doc_type": "product data sheet (TDS/PDS, 1pp)",
+   "supplier": "Ocean Chemical Technology Co., Ltd.",
+   "products": [
+    "OCEANCHEMICAL:HC6247"
+   ],
+   "roles": {
+    "OCEANCHEMICAL:HC6247": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, description; auto-classified SDS but page-1 text is product description)",
+   "note": "mislabeled under SK (YUBASE) in automated classification; auto-classifier called this SDS but page-1 text matches product description format, not SDS sections; 1pp; subject same as DL2-15502 (HC6247); may be a 1-page product sheet or combined spec",
+   "next_action": "",
+   "manufacturer": "Ocean Chemical Technology Co., Ltd.",
+   "distributor": "",
+   "issuer": "Ocean Chemical Technology Co., Ltd."
+  },
+  "f4170e38995a": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dowpol Chemical International Corp.",
+   "products": [
+    "DOWPOL:NEOFLEX_680"
+   ],
+   "roles": {
+    "DOWPOL:NEOFLEX_680": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, description)",
+   "note": "mislabeled under SK (YUBASE) in automated classification; actual manufacturer: Dowpol Chemical International Corp. (http://www.dowpol.com); 'NeoFlex 680 Pour Point Depressant is based on the Neo Synthetic Hydrocarbon chemistry'; Revision Date April 2018; 2pp TDS; S19 Dowpol batch does not include this document (it was labeled SK in the automated classifier)",
+   "next_action": "",
+   "manufacturer": "Dowpol Chemical International Corp.",
+   "distributor": "",
+   "issuer": "Dowpol Chemical International Corp."
+  },
+  "683522d84dbf": {
+   "doc_type": "SDS",
+   "supplier": "SK Lubricants Co., Ltd.",
+   "products": [
+    "SK:YUBASE_4"
+   ],
+   "roles": {
+    "SK:YUBASE_4": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product identifier, GHS UN revision date)",
+   "note": "'Issue date: 2020-01-01 Revision date: 2026-06-30 Supersedes: 2025-11-01 Version: 4.0'; GHS UN Rev.10 2023 format",
+   "next_action": "",
+   "manufacturer": "SK Lubricants Co., Ltd.",
+   "distributor": "",
+   "issuer": "SK Lubricants Co., Ltd."
+  },
+  "8d54d874b4bc": {
+   "doc_type": "SDS",
+   "supplier": "SK Lubricants Co., Ltd.",
+   "products": [
+    "SK:YUBASE_4P"
+   ],
+   "roles": {
+    "SK:YUBASE_4P": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product identifier, GHS UN revision date)",
+   "note": "'Trade name: YUBASE 4 Plus (YUBASE 4P)'; 'Issue date: 2020-01-01 Revision date: 2026-06-30'; GHS UN Rev.10 2023 format; confirms YUBASE 4 Plus is a distinct product from YUBASE 4",
+   "next_action": "",
+   "manufacturer": "SK Lubricants Co., Ltd.",
+   "distributor": "",
+   "issuer": "SK Lubricants Co., Ltd."
+  },
+  "287a7490e2f4": {
+   "doc_type": "SDS",
+   "supplier": "SK Lubricants Co., Ltd.",
+   "products": [
+    "SK:YUBASE_6"
+   ],
+   "roles": {
+    "SK:YUBASE_6": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product identifier, GHS UN revision date)",
+   "note": "'Issue date: 2020-01-01 Revision date: 2026-06-30 Supersedes: 2025-11-01 Version: 4.0'; GHS UN Rev.10 2023 format",
+   "next_action": "",
+   "manufacturer": "SK Lubricants Co., Ltd.",
+   "distributor": "",
+   "issuer": "SK Lubricants Co., Ltd."
+  },
+  "8eadd3167037": {
+   "doc_type": "SDS",
+   "supplier": "SK Lubricants Co., Ltd.",
+   "products": [
+    "SK:YUBASE_3"
+   ],
+   "roles": {
+    "SK:YUBASE_3": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product identifier, SDS revision date)",
+   "note": "'SDS No.: YUB300(ENG) Version number: 2 Revision: 19 September 2014'",
+   "next_action": "",
+   "manufacturer": "SK Lubricants Co., Ltd.",
+   "distributor": "",
+   "issuer": "SK Lubricants Co., Ltd."
+  },
+  "55e993c575e5": {
+   "doc_type": "SDS",
+   "supplier": "Hilditch Pty Ltd",
+   "products": [
+    "SK:YUBASE_6"
+   ],
+   "roles": {
+    "SK:YUBASE_6": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, reference, issuer)",
+   "note": "'Reference No: HIL0045 Issued: 2021-09-28 Version: 5.0'; Supplier: Hilditch Pty Ltd (Australian distributor); manufacturer SK Lubricants not explicitly named on page 1",
+   "next_action": "",
+   "manufacturer": "SK Lubricants Co., Ltd.",
+   "distributor": "Hilditch Pty Ltd",
+   "issuer": "Hilditch Pty Ltd"
+  },
+  "769987aa793a": {
+   "doc_type": "cargo handling sheet",
+   "supplier": "Shell",
+   "products": [
+    "SK:YUBASE_4"
+   ],
+   "roles": {
+    "SK:YUBASE_4": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (title, subject, date, issuer)",
+   "note": "'Cargo Handling Sheets are for the use of vessels chartered on behalf of Shell'; Document Date: 12 May 2023, Revision 3; Shell issues CHS for marine cargo logistics; product subject is Yubase 4 (SK Lubricants)",
+   "next_action": "",
+   "manufacturer": "SK Lubricants Co., Ltd.",
+   "distributor": "",
+   "issuer": "Shell"
+  }
+ }
+}

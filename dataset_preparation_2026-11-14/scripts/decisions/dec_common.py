@@ -49,7 +49,7 @@ def prod(PK, key, name, supplier, material_class, notes, existing='', evidence='
                    notes=notes, identity_evidence=evidence, template=TEMPLATE.get(material_class, 'none / not determined'))
 
 
-def write(name, batch, scope, PK, D):
-    json.dump(dict(batch=batch, reviewed_on='2026-11-14', scope=scope, products=PK, documents=D),
+def write(name, batch, scope, PK, D, reviewed_on='2026-11-15'):
+    json.dump(dict(batch=batch, reviewed_on=reviewed_on, scope=scope, products=PK, documents=D),
               open(os.path.join(PKG, 'decisions', name), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(name, len(D), 'documents', len(PK), 'products', dict(Counter(v['relation'] for v in D.values())), dict(Counter(p['material_class'] for p in PK.values())))

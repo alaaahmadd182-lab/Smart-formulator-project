@@ -1,0 +1,366 @@
+{
+ "batch": "S30 Shell (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "17 documents with provisional supplier Shell (1 doc already decided in S28)",
+ "products": {
+  "SHELL:RISELLA_X_415": {
+   "name": "Shell Risella X 415",
+   "supplier": "Shell",
+   "material_class": "base_oil",
+   "existing_record": "SHELL_RISELLA_X_415",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "SHELL:RISELLA_X_420": {
+   "name": "Shell Risella X 420",
+   "supplier": "Shell",
+   "material_class": "base_oil",
+   "existing_record": "SHELL_RISELLA_X_420",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "SHELL:RISELLA_X_430": {
+   "name": "Shell Risella X 430",
+   "supplier": "Shell",
+   "material_class": "base_oil",
+   "existing_record": "SHELL_RISELLA_X_430",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "TOHOLCHEM:LUBRAN_141": {
+   "name": "LUBRAN 141",
+   "supplier": "Toho Chemical Industry Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'LUBRAN 141 is a Polymethacrylate (PMA) type of pour point depressant for lubricating oil'; (Data for Group II); PPD subtype; mislabeled under Shell in automated classification",
+   "identity_evidence": "printed product name and description on 1pp TDS in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "TOHOLCHEM:LUBRAN_165": {
+   "name": "LUBRAN 165",
+   "supplier": "Toho Chemical Industry Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'LUBRAN 165 is a Polymethacrylate (PMA) type of pour point depressant for lubricating oil'; (Data for Group II); PPD subtype; mislabeled under Shell in automated classification",
+   "identity_evidence": "printed product name and description on 1pp TDS in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "TOHOLCHEM:LUBRAN_171": {
+   "name": "LUBRAN 171",
+   "supplier": "Toho Chemical Industry Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'LUBRAN 171 is a Polymethacrylate (PMA) type of pour point depressant for lubricating oil'; (Data for Group II); PPD subtype; mislabeled under Shell in automated classification",
+   "identity_evidence": "printed product name and description on 1pp TDS in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "HYUNDAIOILBANK:HSB_500N": {
+   "name": "HSB 500N (DAESAN)",
+   "supplier": "Hyundai Oilbank Co., Ltd. / Shell (joint venture base oil)",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'HSB 500N (DAESAN)_EN'; address: 7F Yonsei Bldg, 10 Tongil-ro, Jung-gu, Seoul (Hyundai Oilbank HQ); page text truncated as '...HYUNDAI and SHELL Base Oi' confirming HSB = Hyundai Shell Base oil JV; Group III, kV100 10.0-12.0 cSt, VI 95-119, kV40 (Report), PP ≤-15, FP ≥230, S ≤0.001wt%, Sat ≥99wt%, Ar ≤1wt%; manufactured at Daesan industrial complex, South Korea; brand: HSB",
+   "identity_evidence": "printed product name on DL2-12275 TDS; spec match on DL2-14931 CoA",
+   "template": "base_oil tier1-3"
+  },
+  "ILCO:ILCO_PHOS_366": {
+   "name": "ILCO PHOS 366",
+   "supplier": "ILCO (manufacturer not printed on page 1)",
+   "material_class": "out_of_template (fire-resistant hydraulic fluid)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'ILCO PHOS 366 as Fire Resistant Hydraulic Fluid'; ISO HFDR class phosphate ester; not a lubricant base oil or lubricant additive — out of template; mislabeled under Shell in automated classification",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "5f3703fa2fe2": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Toho Chemical Industry Co., Ltd.",
+   "products": [
+    "TOHOLCHEM:LUBRAN_141"
+   ],
+   "roles": {
+    "TOHOLCHEM:LUBRAN_141": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, type description, properties for Group II base oil)",
+   "note": "mislabeled under Shell in automated classification; actual manufacturer: Toho Chemical Industry Co., Ltd., 6-4 Akashi-cho, Chuo-ku, Tokyo 104-0044 Japan; PMA pour point depressant; 1pp TDS; (Data for Group II) in heading",
+   "next_action": "",
+   "manufacturer": "Toho Chemical Industry Co., Ltd.",
+   "distributor": "",
+   "issuer": "Toho Chemical Industry Co., Ltd."
+  },
+  "abdb494fb861": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Toho Chemical Industry Co., Ltd.",
+   "products": [
+    "TOHOLCHEM:LUBRAN_165"
+   ],
+   "roles": {
+    "TOHOLCHEM:LUBRAN_165": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, type description, properties for Group II base oil)",
+   "note": "mislabeled under Shell in automated classification; actual manufacturer: Toho Chemical Industry Co., Ltd., 6-4 Akashi-cho, Chuo-ku, Tokyo 104-0044 Japan; PMA pour point depressant; 1pp TDS; (Data for Group II) in heading",
+   "next_action": "",
+   "manufacturer": "Toho Chemical Industry Co., Ltd.",
+   "distributor": "",
+   "issuer": "Toho Chemical Industry Co., Ltd."
+  },
+  "e51460de2cb1": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Toho Chemical Industry Co., Ltd.",
+   "products": [
+    "TOHOLCHEM:LUBRAN_171"
+   ],
+   "roles": {
+    "TOHOLCHEM:LUBRAN_171": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, type description, properties for Group II base oil)",
+   "note": "mislabeled under Shell in automated classification; actual manufacturer: Toho Chemical Industry Co., Ltd., 6-4 Akashi-cho, Chuo-ku, Tokyo 104-0044 Japan; PMA pour point depressant; 1pp TDS; (Data for Group II) in heading",
+   "next_action": "",
+   "manufacturer": "Toho Chemical Industry Co., Ltd.",
+   "distributor": "",
+   "issuer": "Toho Chemical Industry Co., Ltd."
+  },
+  "5dd6c4e82cbd": {
+   "doc_type": "SDS",
+   "supplier": "Toho Chemical Industry Co., Ltd.",
+   "products": [],
+   "roles": {},
+   "relation": "unresolved_identity",
+   "read": "pages 1-5: GHS boilerplate only; product name not in extractable text layer",
+   "note": "mislabeled under Shell; Toho Chemical Industry format, same date (2016-04-15) as DL2-11726 (08a4939222); 7pp GHS SDS; product name not extractable from text layer (all pages show GHS classification boilerplate); probable SDS for one of LUBRAN 141/165/171 (PMA PPD); cannot be assigned without OCR or manual read",
+   "next_action": "read OCR or full text to identify LUBRAN grade (141, 165 or 171)",
+   "manufacturer": "Toho Chemical Industry Co., Ltd.",
+   "distributor": "",
+   "issuer": "Toho Chemical Industry Co., Ltd."
+  },
+  "08a493922202": {
+   "doc_type": "SDS",
+   "supplier": "Toho Chemical Industry Co., Ltd.",
+   "products": [],
+   "roles": {},
+   "relation": "unresolved_identity",
+   "read": "pages 1-5: GHS boilerplate only; product name not in extractable text layer",
+   "note": "mislabeled under Shell; Toho Chemical Industry format, same date (2016-04-15) as DL2-11726 (5dd6c4e82c); 7pp GHS SDS; product name not extractable from text layer; probable SDS for one of LUBRAN 141/165/171; cannot be assigned without OCR or manual read",
+   "next_action": "read OCR or full text to identify LUBRAN grade (141, 165 or 171)",
+   "manufacturer": "Toho Chemical Industry Co., Ltd.",
+   "distributor": "",
+   "issuer": "Toho Chemical Industry Co., Ltd."
+  },
+  "22dd31aaf8f6": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Hyundai Oilbank Co., Ltd.",
+   "products": [
+    "HYUNDAIOILBANK:HSB_500N"
+   ],
+   "roles": {
+    "HYUNDAIOILBANK:HSB_500N": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, specification table; full text truncated confirming HYUNDAI and SHELL Base Oil JV)",
+   "note": "mislabeled under Shell in automated classification; actual issuer: Hyundai Oilbank Co., Ltd. (Seoul HQ); page text ends '...HYUNDAI and SHELL Base Oi' confirming HSB brand is Hyundai Shell Base oil JV; product: HSB 500N, Group III, kV100 10-12 cSt, VI 95-119, manufactured at Daesan industrial complex, Korea",
+   "next_action": "",
+   "manufacturer": "Hyundai Oilbank Co., Ltd.",
+   "distributor": "",
+   "issuer": "Hyundai Oilbank Co., Ltd."
+  },
+  "334d56401d23": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Shell",
+   "products": [
+    "SHELL:RISELLA_X_420"
+   ],
+   "roles": {
+    "SHELL:RISELLA_X_420": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, GtL classification, typical properties)",
+   "note": "dupOLD; 'Technical Data Sheet Shell Risella X 420 GtL Technical White Oil'; 1pp typical properties table",
+   "next_action": "",
+   "manufacturer": "Shell (Pearl GTL, Qatar)",
+   "distributor": "",
+   "issuer": "Shell"
+  },
+  "e4790b838fd3": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Shell",
+   "products": [
+    "SHELL:RISELLA_X_430"
+   ],
+   "roles": {
+    "SHELL:RISELLA_X_430": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, GtL classification, typical properties)",
+   "note": "dupOLD; 'Technical Data Sheet Shell Risella X 430 GtL Technical White Oil'; 1pp typical properties table",
+   "next_action": "",
+   "manufacturer": "Shell (Pearl GTL, Qatar)",
+   "distributor": "",
+   "issuer": "Shell"
+  },
+  "61f3443933c1": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Shell",
+   "products": [
+    "SHELL:RISELLA_X_415"
+   ],
+   "roles": {
+    "SHELL:RISELLA_X_415": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, GtL classification, typical properties)",
+   "note": "dupOLD; 'Technical Data Sheet Shell Risella X 415 GtL Technical White Oil'; 1pp typical properties table",
+   "next_action": "",
+   "manufacturer": "Shell (Pearl GTL, Qatar)",
+   "distributor": "",
+   "issuer": "Shell"
+  },
+  "efae4694d19f": {
+   "doc_type": "SDS",
+   "supplier": "Shell",
+   "products": [
+    "SHELL:RISELLA_X_415"
+   ],
+   "roles": {
+    "SHELL:RISELLA_X_415": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, CAS No., SDS revision date)",
+   "note": "dupOLD; 'Version 1.2 Revision Date 26.10.2018'; CAS-No. 848301-69-9; Product code 001E2773; 15pp",
+   "next_action": "",
+   "manufacturer": "Shell (Pearl GTL, Qatar)",
+   "distributor": "",
+   "issuer": "Shell"
+  },
+  "ab230074919a": {
+   "doc_type": "SDS",
+   "supplier": "Shell",
+   "products": [
+    "SHELL:RISELLA_X_420"
+   ],
+   "roles": {
+    "SHELL:RISELLA_X_420": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, CAS No., SDS revision date)",
+   "note": "dupOLD; 'Version 1.2 Revision Date 26.10.2018'; CAS-No. 848301-69-9; Product code 001E2774; 15pp",
+   "next_action": "",
+   "manufacturer": "Shell (Pearl GTL, Qatar)",
+   "distributor": "",
+   "issuer": "Shell"
+  },
+  "014d2db56ea5": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Shell",
+   "products": [
+    "SHELL:RISELLA_X_415"
+   ],
+   "roles": {
+    "SHELL:RISELLA_X_415": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (material number, description, batch number, test results)",
+   "note": "'Material 500006734 Risella X 415_BULK_A03Q Batch 11720728 Date 27-Feb-21'; location: H122 Sai Tso Wan Road, Tsing Yi Island, Hong Kong",
+   "next_action": "",
+   "manufacturer": "Shell (Pearl GTL, Qatar)",
+   "distributor": "",
+   "issuer": "Shell"
+  },
+  "526856fa412f": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Shell",
+   "products": [
+    "SHELL:RISELLA_X_420"
+   ],
+   "roles": {
+    "SHELL:RISELLA_X_420": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (material number, description, batch number, test results)",
+   "note": "'Material 500006740 Risella X 420_BULK Batch 11729367 Date 10-Mar-21'; location: H122 Sai Tso Wan Road, Tsing Yi Island, Hong Kong",
+   "next_action": "",
+   "manufacturer": "Shell (Pearl GTL, Qatar)",
+   "distributor": "",
+   "issuer": "Shell"
+  },
+  "f1c9d829498e": {
+   "doc_type": "certificate of origin (trade document)",
+   "supplier": "Shell",
+   "products": [
+    "SHELL:RISELLA_X_420"
+   ],
+   "roles": {
+    "SHELL:RISELLA_X_420": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, quantity, origin)",
+   "note": "'Risella X 420_BULK_A03Q 17510 KGS + 17490 KGS Manufactured in QATAR Date 7-Nov-20 P.O. NO. 4533328415'; trade document, no product properties; confirms Qatar (Pearl GTL) as origin",
+   "next_action": "",
+   "manufacturer": "Shell (Pearl GTL, Qatar)",
+   "distributor": "",
+   "issuer": "Shell"
+  },
+  "09b86a8a5bbc": {
+   "doc_type": "marketing brochure",
+   "supplier": "Shell",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "page-1 text (brand name and claim)",
+   "note": "'SHELL TURBO MAKES IT POSSIBLE... The Shell Turbo range of oils helps to protect your equipment'; 6pp marketing brochure for the Shell Turbo turbine oil range; no product properties; not a TDS or SDS",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "Shell"
+  },
+  "eead3091dcc6": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "",
+   "products": [
+    "HYUNDAIOILBANK:HSB_500N"
+   ],
+   "roles": {
+    "HYUNDAIOILBANK:HSB_500N": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (buyer code, spec limits, test results, testing lab)",
+   "note": "buyer material code MFH5306; spec limits (kV100 10-12 cSt, VI 95-119, PP ≤-15 °C, FP ≥230 °C, S ≤0.001wt%, Sat ≥99wt%, Ar ≤1wt%) match HSB 500N exactly; tested by Intertek Kimsco Co., Ltd., Gunpo-si, Korea; SHIPMENT DATE JUN. 15, 2021; issuer not identified on page 1; assigned to HSB 500N tentatively based on spec match; labeled under Shell in automated classifier",
+   "next_action": "read other pages to confirm issuer and product name",
+   "manufacturer": "Hyundai Oilbank Co., Ltd.",
+   "distributor": "",
+   "issuer": ""
+  },
+  "a0d599a7b8ca": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "ILCO (manufacturer not printed on page 1)",
+   "products": [
+    "ILCO:ILCO_PHOS_366"
+   ],
+   "roles": {
+    "ILCO:ILCO_PHOS_366": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, type description: fire-resistant hydraulic fluid)",
+   "note": "mislabeled under Shell; actual product: ILCO PHOS 366 phosphate ester fire-resistant hydraulic fluid (ISO HFDR); out of template for lubricant base oil / additive database; manufacturer name not on page 1",
+   "next_action": "read full text to identify manufacturer",
+   "manufacturer": "ILCO (manufacturer not printed on page 1)",
+   "distributor": "",
+   "issuer": ""
+  }
+ }
+}
