@@ -141,6 +141,12 @@ EXISTING:AFTON_HITEC_12400,HiTEC® 12400,Afton Chemical Corporation,existing,add
 EXISTING:AFTON_HITEC_5748,HiTEC® 5748,Afton Chemical Corporation,existing,additive_component,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,5,,product_identities.csv
 EXISTING:AFTON_HITEC_8767B,HiTEC® 8767B,Afton Chemical Corporation,existing,additive_component,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:HiTEC_8766B,HiTEC® 8766B,Afton Chemical Corporation,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
+ARKEMA:TPS_20,TPS 20,Arkema Inc.,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s41_arkema.json
+ARKEMA:TPS_32,TPS 32,Arkema Inc.,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s41_arkema.json
+ARKEMA:TPS_44,TPS 44,Arkema Inc.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s41_arkema.json
+ARKEMA:VPS_11,VPS 11,Arkema Inc.,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s41_arkema.json
+ARKEMA:VPS_15,VPS 15,Arkema Inc.,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s41_arkema.json
+ARKEMA:VPS_17,VPS 17,Arkema Inc.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s41_arkema.json
 BASF:AMINE O,Amine O,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
 BASF:BREOX 50,Breox 50,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
 BASF:BREOX 50 A 140,Breox 50 A 140,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,3,3,,s06_basf.json
@@ -364,9 +370,18 @@ EXISTING:BRB_PETROLAD_8099,Petrolad 8099,BRB International BV,existing,additive_
 EXISTING:BAPCO_BAPBASE_4,BAPbase 4,Bapco,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:BAPCO_BAPBASE_6,BAPbase 6,Bapco,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:BAPCO_BAPBASE_8,BAPbase 8,Bapco,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:BETTCHEM_BT_3088,BT3088,Bettchem,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:BETTCHEM_BT_3089,BT3089,Bettchem,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:BETTCHEM_BT_3093,BT 3093,Bettchem,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
+BETTCHEM:BT3090,BT3090,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
+BETTCHEM:BT3096,BT3096,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
+BETTCHEM:BT3097,BT3097,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
+BETTCHEM:BT3098,BT3098,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
+BETTCHEM:BT_3091,BT 3091,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
+BETTCHEM:BT_3095,BT 3095,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
+BETTCHEM:BT_55006,BT 55006,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
+BETTCHEM:BT_55050,BT 55050,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
+EXISTING:BETTCHEM_BT_3088,BT3088,Bettchem,existing,additive_package,yes,existing record; new-archive documents linked,established,not started,not started,no,1,1,,s39_bettchem.json
+EXISTING:BETTCHEM_BT_3089,BT3089,Bettchem,existing,additive_package,yes,existing record; new-archive documents linked,established,not started,not started,no,1,1,,s39_bettchem.json
+EXISTING:BETTCHEM_BT_3093,BT 3093,Bettchem,existing,additive_package,yes,existing record; new-archive documents linked,established,not started,not started,no,1,1,,s39_bettchem.json
+CHEMTURA:NAUGALUBE_16,Naugalube 16,Chemtura Corporation / Naugalube brand,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s37_chemtura.json
 EXISTING:CHEVRON_GROUP_II_100R,Chevron Base Oil 100R,Chevron,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:CHEVRON_GROUP_II_110RLV,Chevron Base Oil 110RLV,Chevron,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:CHEVRON_GROUP_II_150R,Chevron Base Oil 150R,Chevron,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
@@ -559,6 +574,13 @@ CRODA:PRIOLUBE 3986,Priolube 3986,Croda,new_candidate,additive_component,yes,ver
 CRODA:PRIOLUBE 3987,Priolube 3987,Croda,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,5,5,,s09_croda.json
 CRODA:SP PRIOLUBE 3970 MBAL,SP Priolube 3970 MBAL,Croda,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,2,2,,s09_croda.json
 CRODA:XENITRON 3221,Xenitron 3221,Croda,out_of_scope,out_of_template: finished fluid (dielectric ester),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s09_croda.json
+DORFKETAL:PX_3219,PX 3219,Dorf Ketal Chemicals India Pvt. Ltd.,out_of_scope,out_of_template (fuel additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s38_dorfketal.json
+DORFKETAL:PX_3402,PX 3402,Dorf Ketal Chemicals India Pvt. Ltd.,out_of_scope,out_of_template (fuel additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s38_dorfketal.json
+DORFKETAL:PX_3462,PX 3462,Dorf Ketal Chemicals India Pvt. Ltd.,out_of_scope,out_of_template (fuel additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s38_dorfketal.json
+DORFKETAL:PX_3841,PX-3841,Dorf Ketal Chemicals India Pvt. Ltd.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s38_dorfketal.json
+DORFKETAL:PX_3871,PX-3871,Dorf Ketal Chemicals India Pvt. Ltd.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s38_dorfketal.json
+DORFKETAL:SR_8208,SR 8208,Dorf Ketal Chemicals India Pvt. Ltd.,out_of_scope,out_of_template (fuel additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s38_dorfketal.json
+DORFKETAL:UNKNOWN_IC303144,Unknown product (IC:303144),Dorf Ketal Chemicals India Pvt. Ltd.,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s38_dorfketal.json
 DOVER:UNKNOWN_DOC_DL2_15643,Unknown Dover Chemical product,Dover Chemical Corporation,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s34_king.json
 DOWPOL:NEOFLEX_680,NeoFlex 680,Dowpol Chemical International Corp.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s28_sk_yubase.json
 DOWPOL:DOWSYN AN15,DowSyn AN15,Dowpol Chemical International Corp. (DowSyn),new_candidate,base_oil,yes,verified,open question,not started,not started,no,2,2,,s19_dow.json
@@ -577,6 +599,14 @@ DOWPOL:DOWSYN V600,DowSyn V600,Dowpol Chemical International Corp. (DowSyn),new_
 DOWPOL:DOWSYN VM200,DowSyn VM200,Dowpol Chemical International Corp. (DowSyn),new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s19_dow.json
 DOWPOL:DOWSYN VM260,DowSyn VM260,Dowpol Chemical International Corp. (DowSyn),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s19_dow.json
 DOWPOL:DOWSYN VM9777,DowSyn VM9777,Dowpol Chemical International Corp. (DowSyn),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s19_dow.json
+ELCO:ELCO_301,Elco 301,Elco Corporation / Italmatch Chemicals Group,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s36_elco.json
+ELCO:ELCO_313A,Elco 313A,Elco Corporation / Italmatch Chemicals Group,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s36_elco.json
+ELCO:ELCO_7401,Elco 7401,Elco Corporation / Italmatch Chemicals Group,out_of_scope,out_of_template (grease additive package),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s36_elco.json
+ELCO:ELCO_7403,Elco 7403,Elco Corporation / Italmatch Chemicals Group,out_of_scope,out_of_template (grease additive package),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s36_elco.json
+ELCO:ELCO_8403,Elco 8403,Elco Corporation / Italmatch Chemicals Group,out_of_scope,out_of_template (grease additive package),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s36_elco.json
+ELCO:ELCO_87,Elco 87,Elco Corporation / Italmatch Chemicals Group,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s36_elco.json
+ELCO:ELCO_8715,Elco 8715,Elco Corporation / Italmatch Chemicals Group,out_of_scope,out_of_template (grease additive package),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s36_elco.json
+ELCO:ELCO_88,Elco 88,Elco Corporation / Italmatch Chemicals Group,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s36_elco.json
 ENI:ENI MX 3102,Eni MX 3102,Eni S.p.A.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s18_eni.json
 ENI:ENI MX 3104,Eni MX 3104,Eni S.p.A.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s18_eni.json
 ENI:ENI MX 3171,Eni MX 3171,Eni S.p.A.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s18_eni.json
@@ -778,6 +808,13 @@ GONCORD:SYNCOLD RL32,SYNCOLD RL32,Goncord Chemical (Singapore) Pte Ltd,out_of_sc
 GONCORD:SYNCOLD RLD22,SYNCOLD RLD22,Goncord Chemical (Singapore) Pte Ltd,out_of_scope,out_of_template: finished lubricant (refrigeration compressor oil),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s23_goncord.json
 GONCORD:SYNCOLD RLT68GX,SYNCOLD RLT68GX,Goncord Chemical (Singapore) Pte Ltd,out_of_scope,out_of_template: finished lubricant (refrigeration compressor oil),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s23_goncord.json
 GONCORD:SYNCOLD SH46,SYNCOLD SH46,Goncord Chemical (Singapore) Pte Ltd,out_of_scope,out_of_template: finished lubricant (refrigeration compressor oil),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s23_goncord.json
+CHEMTURA:REOLUBE_HYD_46B,REOLUBE HYD 46B,Great Lakes Chemical / Chemtura Corp.,out_of_scope,out_of_template (fully formulated fire-resistant hydraulic fluid),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s37_chemtura.json
+HATCO:HATCOL_200,HATCOL 200,Hatco Corporation,out_of_scope,out_of_scope (biomedical plasticizer),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s37_chemtura.json
+HATCO:HATCOL_2938,HATCOL 2938,Hatco Corporation,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s37_chemtura.json
+HATCO:HATCOL_2954,HATCOL 2954,Hatco Corporation,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s37_chemtura.json
+HATCO:HATCOL_3110,HATCOL 3110,Hatco Corporation,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s37_chemtura.json
+HATCO:HATCOL_3165,HATCOL 3165,Hatco Corporation,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s37_chemtura.json
+HATCO:HATCOL_3169,HATCOL 3169,Hatco Corporation,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s37_chemtura.json
 HYUNDAIOILBANK:HSB_500N,HSB 500N (DAESAN),"Hyundai Oilbank Co., Ltd. / Shell (joint venture base oil)",new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s30_shell.json
 ILCO:ILCO_PHOS_366,ILCO PHOS 366,ILCO (manufacturer not printed on page 1),out_of_scope,out_of_template (fire-resistant hydraulic fluid),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s30_shell.json
 INEOS:CERECLOR 42,Cereclor 42,INEOS (INEOS Oligomers),new_candidate,additive_component,yes,verified,open question,not started,not started,no,1,1,,s12_ineos.json
@@ -1475,11 +1512,14 @@ EXISTING:S_OIL_PREMIUM_P_96,P-96 (Premium 500N),S-OIL,existing,base_oil,yes,exis
 EXISTING:S_OIL_SUPER_S_31,S-31 (Super 150N),S-OIL,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:S_OIL_SUPER_S_8,S-8 (Super 60N),S-OIL,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:S_OIL_SUPER_S_96,S-96 (Super 500N),S-OIL,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:S_OIL_ULTRA_S_2,Ultra-S 2 (60 Neutral),S-OIL,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:S_OIL_ULTRA_S_3,Ultra-S 3 (70 Neutral),S-OIL,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:S_OIL_ULTRA_S_4,Ultra-S 4 (100 Neutral),S-OIL,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:S_OIL_ULTRA_S_6,Ultra-S 6 (150 Neutral),S-OIL,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-EXISTING:S_OIL_ULTRA_S_8,Ultra-S 8 (250 Neutral),S-OIL,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
+EXISTING:S_OIL_ULTRA_S_2,Ultra-S 2 (60 Neutral),S-OIL Corporation,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,2,2,,s40_soil.json
+EXISTING:S_OIL_ULTRA_S_3,Ultra-S 3 (70 Neutral),S-OIL Corporation,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,2,2,,s40_soil.json
+EXISTING:S_OIL_ULTRA_S_4,Ultra-S 4 (100 Neutral),S-OIL Corporation,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,3,3,,s40_soil.json
+EXISTING:S_OIL_ULTRA_S_6,Ultra-S 6 (150 Neutral),S-OIL Corporation,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,3,3,,s40_soil.json
+EXISTING:S_OIL_ULTRA_S_8,Ultra-S 8 (250 Neutral),S-OIL Corporation,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,3,3,,s40_soil.json
+SOIL:TRANSFORMER_OIL_TI,S-OIL Transformer Oil T/I,S-OIL Corporation,out_of_scope,out_of_template (electrical insulating oil),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s40_soil.json
+SIGROUP:ETHAFLOW_6705,ETHAFLOW 6705,"SI Group, Inc.",new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s37_chemtura.json
+SIGROUP:ETHANOX_4703,ETHANOX 4703,"SI Group, Inc.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s37_chemtura.json
 SK:YUBASE_4P,YUBASE 4 Plus (YUBASE 4P),"SK Lubricants Co., Ltd.",new_candidate,base_oil,yes,"verified, open question",established,not started,not started,no,1,1,,s28_sk_yubase.json
 SAMA:12-HSA,12-HSA,Sama Lubricants Co. (trading company),out_of_scope,out_of_template: other chemical,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s08_sama.json
 SAMA:A1010,A1010,Sama Lubricants Co. (trading company),out_of_scope,out_of_template: coolant additive,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,3,,s08_sama.json
@@ -1594,6 +1634,11 @@ EXISTING:ARAMCO_LUBEREF_PRIMA_70,aramcoPRIMA 70,Saudi Aramco Luberef,existing,ba
 EXISTING:SHELL_RISELLA_X_415,Shell Risella X 415,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,3,,product_identities.csv
 EXISTING:SHELL_RISELLA_X_420,Shell Risella X 420,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,4,4,,product_identities.csv
 EXISTING:SHELL_RISELLA_X_430,Shell Risella X 430,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
+SONGWON:SONGNOX_5057_LQ,SONGNOX 5057 LQ,"Songwon Industrial Co., Ltd.",new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,2,2,,s42_songwon.json
+SONGWON:SONGNOX_L107,SONGNOX L107,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s42_songwon.json
+SONGWON:SONGNOX_L135,SONGNOX L135,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,3,3,,s42_songwon.json
+SONGWON:SONGNOX_L570,SONGNOX L570,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,3,3,,s42_songwon.json
+SONGWON:SONGNOX_L670,SONGNOX L670,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s42_songwon.json
 EXISTING:TIANHE_P_TEC_3232,P-TEC 3232,TIANHE CHEMICALS,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 DOW:DOWTHERM A,DOWTHERM A,The Dow Chemical Company,out_of_scope,out_of_template: heat transfer fluid,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s19_dow.json
 EXISTING:LUBRIZOL_16008,LUBRIZOL® 16008,The Lubrizol Corporation,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,3,,product_identities.csv

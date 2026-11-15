@@ -1,0 +1,296 @@
+{
+ "batch": "S37 Chemtura / SI Group (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "11 documents with provisional supplier Chemtura / SI Group",
+ "products": {
+  "SIGROUP:ETHAFLOW_6705": {
+   "name": "ETHAFLOW 6705",
+   "supplier": "SI Group, Inc.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'ETHAFLOW™ 6705'; SI Group product code 001840; ashless phosphate-based antiwear/EP additive for lubricants; additive_component (AW/EP, ashless)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "SIGROUP:ETHANOX_4703": {
+   "name": "ETHANOX 4703",
+   "supplier": "SI Group, Inc.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'ETHANOX® 4703 Lubricant Antioxidant... unique polar molecule containing a hindered phenol structure and an aliphatic amine group; effective at high temperatures'; additive_component (antioxidant, phenol-amine hybrid)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "CHEMTURA:NAUGALUBE_16": {
+   "name": "Naugalube 16",
+   "supplier": "Chemtura Corporation / Naugalube brand",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Naugalube® 16 Sulfur-Containing Phenolic Antioxidant Issued: 7/2006'; additive_component (antioxidant, sulfurized phenol); Chemtura Naugalube brand (antioxidant range)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "CHEMTURA:REOLUBE_HYD_46B": {
+   "name": "REOLUBE HYD 46B",
+   "supplier": "Great Lakes Chemical / Chemtura Corp.",
+   "material_class": "out_of_template (fully formulated fire-resistant hydraulic fluid)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'REOLUBE® HYD 46B is a fully formulated triarylphosphate fire resistant hydraulic fluid based on synthetic butylated phenol; ISO Standard 12922, ASTM D4293 for HFDR-type fire-resistant hydraulic fluids'; fully formulated finished product; not a base oil or additive raw material",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "HATCO:HATCOL_200": {
+   "name": "HATCOL 200",
+   "supplier": "Hatco Corporation",
+   "material_class": "out_of_scope (biomedical plasticizer)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'HATCOL® 200 is a high molecular weight primary plasticizer recommended for use in blood bags, dialysis tubing, catheters, and similar bio-medical devices'; PVC biomedical plasticizer; completely outside lubricant scope; mislabeled under Chemtura/SI Group",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "HATCO:HATCOL_2938": {
+   "name": "HATCOL 2938",
+   "supplier": "Hatco Corporation",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'HATCOL® 2938 is a pure polyol ester basestock based on trimethylolpropane; Applications: Automotive Engine Oils, Gear and Transmission Fluids, Gas Turbine Engine Oils; kV100 4.2-4.5 cSt'; TMP ester base stock; material class: unresolved (polyol ester — base fluid vs additive; template TBD); mislabeled under Chemtura/SI Group",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "HATCO:HATCOL_2954": {
+   "name": "HATCOL 2954",
+   "supplier": "Hatco Corporation",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'HATCOL® 2954 is a pure polyol ester basestock based on pentaerythritol; Applications: Gas Turbine Engine Oils, Wide Temperature Lubricants'; PE ester base stock; material class: unresolved; mislabeled under Chemtura/SI Group",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "HATCO:HATCOL_3110": {
+   "name": "HATCOL 3110",
+   "supplier": "Hatco Corporation",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'HATCOL® 3110 is a pure synthetic diester basestock offering both excellent lubricity and low temperature fluidity; Applications: Military Fluids & Greases, Low Temperature Lubricant Formulations'; diester base stock; material class: unresolved; mislabeled under Chemtura/SI Group",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "HATCO:HATCOL_3165": {
+   "name": "HATCOL 3165",
+   "supplier": "Hatco Corporation",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'HATCOL® 3165 is an advanced pure polyol ester basestock based on dipentaerythritol; Applications: Conveyor Oven Chain Lubricants, High Temperature Greases'; DPE ester, high-temp chain/grease use; material class: unresolved; mislabeled under Chemtura/SI Group",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "HATCO:HATCOL_3169": {
+   "name": "HATCOL 3169",
+   "supplier": "Hatco Corporation",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'HATCOL® 3169 is a pure polyol ester basestock based on pentaerythritol; Applications: High Temperature Greases, Chain Applications'; PE ester; material class: unresolved; mislabeled under Chemtura/SI Group",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "409837114414": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Hatco Corporation",
+   "products": [
+    "HATCO:HATCOL_2938"
+   ],
+   "roles": {
+    "HATCO:HATCOL_2938": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, ester type, applications, typical specification properties",
+   "note": "2pp; ref S2938C1 Rev 8: 22/2/2017; mislabeled under Chemtura/SI Group; Hatco Corporation polyol ester basestock",
+   "next_action": "",
+   "manufacturer": "Hatco Corporation",
+   "distributor": "",
+   "issuer": "Hatco Corporation"
+  },
+  "74ba88d5d842": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Hatco Corporation",
+   "products": [
+    "HATCO:HATCOL_3165"
+   ],
+   "roles": {
+    "HATCO:HATCOL_3165": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, ester type, applications, typical specification properties",
+   "note": "2pp; ref S3165C1 Rev 1: 6/3/2017; mislabeled under Chemtura/SI Group; Hatco Corporation polyol ester basestock",
+   "next_action": "",
+   "manufacturer": "Hatco Corporation",
+   "distributor": "",
+   "issuer": "Hatco Corporation"
+  },
+  "788a769d8c6e": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Hatco Corporation",
+   "products": [
+    "HATCO:HATCOL_3169"
+   ],
+   "roles": {
+    "HATCO:HATCOL_3169": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, ester type, applications, typical specification properties",
+   "note": "2pp; ref S3169C1 Rev 9: 6/3/2017; mislabeled under Chemtura/SI Group; Hatco Corporation polyol ester basestock",
+   "next_action": "",
+   "manufacturer": "Hatco Corporation",
+   "distributor": "",
+   "issuer": "Hatco Corporation"
+  },
+  "88caf87a1f80": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Hatco Corporation",
+   "products": [
+    "HATCO:HATCOL_200"
+   ],
+   "roles": {
+    "HATCO:HATCOL_200": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name and biomedical application description",
+   "note": "'HATCOL® 200 is a high molecular weight primary plasticizer... blood bags, dialysis tubing, catheters'; 2pp; mislabeled under Chemtura/SI Group; biomedical plasticizer, out of lubricant scope",
+   "next_action": "",
+   "manufacturer": "Hatco Corporation",
+   "distributor": "",
+   "issuer": "Hatco Corporation"
+  },
+  "73722d24b7e4": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Great Lakes Chemical / Chemtura Corp.",
+   "products": [
+    "CHEMTURA:REOLUBE_HYD_46B"
+   ],
+   "roles": {
+    "CHEMTURA:REOLUBE_HYD_46B": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, type, and description",
+   "note": "'REOLUBE® HYD 46B is a fully formulated triarylphosphate fire resistant hydraulic fluid'; 'Technical Information Effective: 12 January 2017'; 3pp; ISO 12922 / FM 6930 compliant; fully formulated product, not a raw material; out_of_template",
+   "next_action": "",
+   "manufacturer": "Great Lakes Chemical / Chemtura Corp.",
+   "distributor": "",
+   "issuer": "Great Lakes Chemical / Chemtura Corp."
+  },
+  "b6b41d837bf7": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Chemtura Corporation / Naugalube brand",
+   "products": [
+    "CHEMTURA:NAUGALUBE_16"
+   ],
+   "roles": {
+    "CHEMTURA:NAUGALUBE_16": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name and type description",
+   "note": "'Naugalube® 16 Sulfur-Containing Phenolic Antioxidant Issued: 7/2006'; 2pp TDS",
+   "next_action": "",
+   "manufacturer": "Chemtura Corporation",
+   "distributor": "",
+   "issuer": "Chemtura Corporation"
+  },
+  "b9e9ae9e56b0": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Hatco Corporation",
+   "products": [
+    "HATCO:HATCOL_2954"
+   ],
+   "roles": {
+    "HATCO:HATCOL_2954": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, ester type, applications, typical specification properties",
+   "note": "2pp; ref S1754C2 Rev 9: 27/2/2017; mislabeled under Chemtura/SI Group; Hatco Corporation polyol ester basestock",
+   "next_action": "",
+   "manufacturer": "Hatco Corporation",
+   "distributor": "",
+   "issuer": "Hatco Corporation"
+  },
+  "ff76f65616c8": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Hatco Corporation",
+   "products": [
+    "HATCO:HATCOL_3110"
+   ],
+   "roles": {
+    "HATCO:HATCOL_3110": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, ester type, applications, typical specification properties",
+   "note": "2pp; ref S3110C1 Rev 6: 6/3/2017; mislabeled under Chemtura/SI Group; Hatco Corporation polyol ester basestock",
+   "next_action": "",
+   "manufacturer": "Hatco Corporation",
+   "distributor": "",
+   "issuer": "Hatco Corporation"
+  },
+  "1919f6444880": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "SI Group, Inc.",
+   "products": [
+    "SIGROUP:ETHANOX_4703"
+   ],
+   "roles": {
+    "SIGROUP:ETHANOX_4703": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, description, properties",
+   "note": "'ETHANOX® 4703 Lubricant Antioxidant DESCRIPTION: unique polar molecule containing a hindered phenol structure and an aliphatic amine group; effective at high temperatures'; 'UT05582 (08/14) Page 1 of 2'; 2pp TDS",
+   "next_action": "",
+   "manufacturer": "SI Group, Inc.",
+   "distributor": "",
+   "issuer": "SI Group, Inc."
+  },
+  "056ae1411750": {
+   "doc_type": "SDS",
+   "supplier": "SI Group, Inc.",
+   "products": [
+    "SIGROUP:ETHAFLOW_6705"
+   ],
+   "roles": {
+    "SIGROUP:ETHAFLOW_6705": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: SDS header with product name and product code 001840",
+   "note": "'ETHAFLOW™ 6705 Version 1.4 Issued 03/19/2021 Product code: 001840'; 13pp; EU REACH format",
+   "next_action": "",
+   "manufacturer": "SI Group, Inc.",
+   "distributor": "",
+   "issuer": "SI Group, Inc."
+  },
+  "358fecf67a8f": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "SI Group, Inc.",
+   "products": [
+    "SIGROUP:ETHAFLOW_6705"
+   ],
+   "roles": {
+    "SIGROUP:ETHAFLOW_6705": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, company info, typical properties table",
+   "note": "'ETHAFLOW™ 6705 · R2 (7/22) SI Group Inc., 1790 Hughes Landing Blvd., Suite 600, The Woodlands, TX 77380'; 3pp TDS; auto-classifier misidentified as ETHANOX 4701 (page-1 text clearly shows ETHAFLOW 6705)",
+   "next_action": "",
+   "manufacturer": "SI Group, Inc.",
+   "distributor": "",
+   "issuer": "SI Group, Inc."
+  }
+ }
+}

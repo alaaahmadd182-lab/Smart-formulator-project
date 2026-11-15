@@ -1,0 +1,229 @@
+{
+ "batch": "S42 Songwon (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "10 documents with provisional supplier Songwon",
+ "products": {
+  "SONGWON:SONGNOX_5057_LQ": {
+   "name": "SONGNOX 5057 LQ",
+   "supplier": "Songwon Industrial Co., Ltd.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'SONGNOX® 5057 LQ Antioxidant; Mixture of octylated & butylated diphenylamine; CAS No: 68411-46-1'; 'Polymer Stabilizers Technical Information'; SONGWON describes 5057 as primarily for polyurethane foam production in the brochure — material class unresolved (DPA antioxidant used in polymer stabilisation; lubricant applicability to confirm); same CAS as SONGNOX L570",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "SONGWON:SONGNOX_L107": {
+   "name": "SONGNOX L107",
+   "supplier": "Songwon Industrial Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Fuel and Lubricant Additives... L107; Octadecyl-3-(3,5-di-tert-butyl-4-hydroxyphenyl)propionate; CAS No: 2082-79-3'; stearyl ester of hindered phenol; additive_component (antioxidant, hindered phenol)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "SONGWON:SONGNOX_L135": {
+   "name": "SONGNOX L135",
+   "supplier": "Songwon Industrial Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Fuel and Lubricant Additives Technical Information... SONGNOX® L135; Benzenepropanoic acid, 3,5-bis(1,1-dimethylethyl)-4-hydroxy-, C7-9-branched alkyl esters; CAS No: 125643-61-0'; hindered phenol ester antioxidant for lubricants; additive_component (antioxidant)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "SONGWON:SONGNOX_L570": {
+   "name": "SONGNOX L570",
+   "supplier": "Songwon Industrial Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Fuel and Lubricant Additives Technical Information... SONGNOX® L570; Mixture of octylated & butylated diphenylamine; CAS No: 68411-46-1'; DPA antioxidant for lubricants; additive_component (antioxidant, DPA type)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "SONGWON:SONGNOX_L670": {
+   "name": "SONGNOX L670",
+   "supplier": "Songwon Industrial Co., Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'SONGNOX® L670 Properties and Performance in Lubricants February 2024'; DPA antioxidant for lubricants (Songwon L-series); additive_component (antioxidant, DPA type); only performance guide in this batch — no TDS or SDS",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  }
+ },
+ "documents": {
+  "b8898c220da8": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Songwon Industrial Co., Ltd.",
+   "products": [
+    "SONGWON:SONGNOX_5057_LQ"
+   ],
+   "roles": {
+    "SONGWON:SONGNOX_5057_LQ": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, CAS No., typical properties",
+   "note": "'SONGNOX® 5057 LQ; Polymer Stabilizers Technical Information 19.05.2022'; 1pp TDS; DPA antioxidant; header says Polymer Stabilizers (not Fuel and Lubricant Additives)",
+   "next_action": "",
+   "manufacturer": "Songwon Industrial Co., Ltd.",
+   "distributor": "",
+   "issuer": "Songwon Industrial Co., Ltd."
+  },
+  "54cb73a74f2b": {
+   "doc_type": "product brochure (marketing)",
+   "supplier": "Songwon Industrial Co., Ltd.",
+   "products": [
+    "SONGWON:SONGNOX_5057_LQ"
+   ],
+   "roles": {
+    "SONGWON:SONGNOX_5057_LQ": "subject"
+   },
+   "relation": "non_product",
+   "read": "page-1 text: product description and primary application (polyurethane foam)",
+   "note": "'New SONGNOX® 5057 extends SONGWON's range of high-performance antioxidants; SONGNOX® 5057 is used in combination with hindered phenols... to protect polyols against oxidation during polyurethane foam production'; 4pp marketing brochure; primary application is polymer (PU foam), not lubricant",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "Songwon Industrial Co., Ltd."
+  },
+  "39192984e171": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Songwon Industrial Co., Ltd.",
+   "products": [
+    "SONGWON:SONGNOX_L107"
+   ],
+   "roles": {
+    "SONGWON:SONGNOX_L107": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product code L107, CAS No., typical properties",
+   "note": "'Fuel and Lubricant Additives Technical Information 04.08.2020... L107; CAS No: 2082-79-3'; 1pp TDS",
+   "next_action": "",
+   "manufacturer": "Songwon Industrial Co., Ltd.",
+   "distributor": "",
+   "issuer": "Songwon Industrial Co., Ltd."
+  },
+  "c9d6354e1ee2": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Songwon Industrial Co., Ltd.",
+   "products": [
+    "SONGWON:SONGNOX_L570"
+   ],
+   "roles": {
+    "SONGWON:SONGNOX_L570": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, CAS No., properties",
+   "note": "'Fuel and Lubricant Additives Technical Information 20.10.2022... SONGNOX® L570; CAS No: 68411-46-1'; 1pp TDS; same CAS as SONGNOX 5057 LQ; note difference in header (Fuel and Lubricant Additives vs Polymer Stabilizers for 5057)",
+   "next_action": "",
+   "manufacturer": "Songwon Industrial Co., Ltd.",
+   "distributor": "",
+   "issuer": "Songwon Industrial Co., Ltd."
+  },
+  "0b5e839c689b": {
+   "doc_type": "SDS",
+   "supplier": "Songwon Industrial Co., Ltd.",
+   "products": [
+    "SONGWON:SONGNOX_L570"
+   ],
+   "roles": {
+    "SONGWON:SONGNOX_L570": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: SDS product identifier",
+   "note": "'Version No: 4.00 (replaces version 3.04)'; Printing date 08.09.2022; 8pp GHS SDS for SONGNOX® L570",
+   "next_action": "",
+   "manufacturer": "Songwon Industrial Co., Ltd.",
+   "distributor": "",
+   "issuer": "Songwon Industrial Co., Ltd."
+  },
+  "a267745cb9b2": {
+   "doc_type": "SDS",
+   "supplier": "Songwon Industrial Co., Ltd.",
+   "products": [
+    "SONGWON:SONGNOX_L135"
+   ],
+   "roles": {
+    "SONGWON:SONGNOX_L135": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: SDS product identifier",
+   "note": "'Version No: 3.00 (replaces version 2.05)'; Printing date 01.07.2022; 8pp GHS SDS for SONGNOX® L135",
+   "next_action": "",
+   "manufacturer": "Songwon Industrial Co., Ltd.",
+   "distributor": "",
+   "issuer": "Songwon Industrial Co., Ltd."
+  },
+  "2beee424c0d8": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Songwon Industrial Co., Ltd.",
+   "products": [
+    "SONGWON:SONGNOX_L135"
+   ],
+   "roles": {
+    "SONGWON:SONGNOX_L135": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, CAS No., properties",
+   "note": "'Fuel and Lubricant Additives Technical Information 04.08.2020 Page 1 of 1 SONGNOX® L135; CAS No: 125643-61-0'; 1pp TDS",
+   "next_action": "",
+   "manufacturer": "Songwon Industrial Co., Ltd.",
+   "distributor": "",
+   "issuer": "Songwon Industrial Co., Ltd."
+  },
+  "177428ad0477": {
+   "doc_type": "product technical guide (performance data)",
+   "supplier": "Songwon Industrial Co., Ltd.",
+   "products": [
+    "SONGWON:SONGNOX_L135"
+   ],
+   "roles": {
+    "SONGWON:SONGNOX_L135": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, guide title",
+   "note": "'SONGNOX® L135 Properties and Performance in Lubricants February 2024'; 17pp; detailed performance data for lubricant formulations (engine oil, gear oil, compressor oil, grease, etc.)",
+   "next_action": "",
+   "manufacturer": "Songwon Industrial Co., Ltd.",
+   "distributor": "",
+   "issuer": "Songwon Industrial Co., Ltd."
+  },
+  "dcded1d7e1e9": {
+   "doc_type": "product technical guide (performance data)",
+   "supplier": "Songwon Industrial Co., Ltd.",
+   "products": [
+    "SONGWON:SONGNOX_L570"
+   ],
+   "roles": {
+    "SONGWON:SONGNOX_L570": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, guide title",
+   "note": "'SONGNOX® L570 Properties and Performance in Lubricants February 2024'; 20pp performance guide",
+   "next_action": "",
+   "manufacturer": "Songwon Industrial Co., Ltd.",
+   "distributor": "",
+   "issuer": "Songwon Industrial Co., Ltd."
+  },
+  "268f43c65d34": {
+   "doc_type": "product technical guide (performance data)",
+   "supplier": "Songwon Industrial Co., Ltd.",
+   "products": [
+    "SONGWON:SONGNOX_L670"
+   ],
+   "roles": {
+    "SONGWON:SONGNOX_L670": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, guide title",
+   "note": "'SONGNOX® L670 Properties and Performance in Lubricants February 2024'; 20pp performance guide; only document for L670 in this batch; no TDS or SDS",
+   "next_action": "",
+   "manufacturer": "Songwon Industrial Co., Ltd.",
+   "distributor": "",
+   "issuer": "Songwon Industrial Co., Ltd."
+  }
+ }
+}
