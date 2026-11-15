@@ -1,0 +1,185 @@
+{
+ "batch": "S46 Cristol (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "8 documents with provisional supplier Cristol",
+ "products": {
+  "CRISTOL:EPR_3400": {
+   "name": "CRISTOL EPR-3400",
+   "supplier": "Cristol Speciality Lubricant Chemicals",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'CRISTOL EPR-3400 Antioxidant for Greases and Lubricating Oil formulations; ash-less, less volatile and non-corrosive'; additive_component (antioxidant)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "CRISTOL:PMA_D_70": {
+   "name": "CRISTOL PMA D-70",
+   "supplier": "Cristol Speciality Lubricant Chemicals",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'CRISTOL PMA D-70 Dispersant type viscosity index improver; PMA based dispersant type VII which is used in the formulation of high quality lubricating oils; moderate shear stability and high VI improvement'; additive_component (VM, dispersant-type PMA)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "CRISTOL:PPD_LX_250": {
+   "name": "CRISTOL PPD LX 250",
+   "supplier": "Cristol Speciality Lubricant Chemicals",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'CRISTOL PPD LX 250; Flow Improver for Automotive Lubricants; Cristol-PPD LX Series... CRISTOL-PPD LX 250 is recommended for use in multi grade engine oils and transmission fluids'; additive_component (PPD, pour point depressant)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "CRISTOL:VII_400": {
+   "name": "CRISTOL VII-400",
+   "supplier": "Cristol Speciality Lubricant Chemicals",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'CRISTOL VII-400 is a PMA based Viscosity Index Improver; used to blend Hydraulic oils to provide moderate shear stability and retention of oil viscosity'; additive_component (VM, PMA-based, hydraulic oil application)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  }
+ },
+ "documents": {
+  "c9071fa271a2": {
+   "doc_type": "SDS",
+   "supplier": "Cristol Speciality Lubricant Chemicals",
+   "products": [
+    "CRISTOL:PPD_LX_250"
+   ],
+   "roles": {
+    "CRISTOL:PPD_LX_250": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: SDS with product name and version",
+   "note": "'CRISTOL PPD LX 250 Version: 1.0 Date: 07/09/2020'; 6pp GHS SDS",
+   "next_action": "",
+   "manufacturer": "Cristol Speciality Lubricant Chemicals",
+   "distributor": "",
+   "issuer": "Cristol Speciality Lubricant Chemicals"
+  },
+  "f5e80db8dd08": {
+   "doc_type": "product brochure",
+   "supplier": "Cristol Speciality Lubricant Chemicals",
+   "products": [
+    "CRISTOL:PPD_LX_250"
+   ],
+   "roles": {
+    "CRISTOL:PPD_LX_250": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: PPD LX series description",
+   "note": "'Flow Improver for Automotive Lubricants CRISTOL-PPD LX SERIES™'; 4pp; covers PPD LX series in general; PPD LX 250 specifically named; PMA pour point depressant for engine oils and transmission fluids",
+   "next_action": "",
+   "manufacturer": "Cristol Speciality Lubricant Chemicals",
+   "distributor": "",
+   "issuer": "Cristol Speciality Lubricant Chemicals"
+  },
+  "79cd58b019ef": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Cristol Speciality Lubricant Chemicals",
+   "products": [
+    "CRISTOL:VII_400"
+   ],
+   "roles": {
+    "CRISTOL:VII_400": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product description and typical properties",
+   "note": "'CRISTOL TM VII-400 PMA Based Viscosity Index Improver'; 2pp TDS",
+   "next_action": "",
+   "manufacturer": "Cristol Speciality Lubricant Chemicals",
+   "distributor": "",
+   "issuer": "Cristol Speciality Lubricant Chemicals"
+  },
+  "2b4c7987e66f": {
+   "doc_type": "SDS",
+   "supplier": "Cristol Speciality Lubricant Chemicals",
+   "products": [
+    "CRISTOL:VII_400"
+   ],
+   "roles": {
+    "CRISTOL:VII_400": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: SDS with product name",
+   "note": "'CRISTOL VII-400 Version: 1.2 Date: 08/05/2018'; 5pp GHS SDS",
+   "next_action": "",
+   "manufacturer": "Cristol Speciality Lubricant Chemicals",
+   "distributor": "",
+   "issuer": "Cristol Speciality Lubricant Chemicals"
+  },
+  "a6630a943c7f": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Cristol Speciality Lubricant Chemicals",
+   "products": [
+    "CRISTOL:PMA_D_70"
+   ],
+   "roles": {
+    "CRISTOL:PMA_D_70": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product description and typical properties",
+   "note": "'CRISTOL TM PMA D-70 Dispersant type viscosity index improver'; 2pp TDS with typical properties table",
+   "next_action": "",
+   "manufacturer": "Cristol Speciality Lubricant Chemicals",
+   "distributor": "",
+   "issuer": "Cristol Speciality Lubricant Chemicals"
+  },
+  "7167c81a277e": {
+   "doc_type": "SDS",
+   "supplier": "Cristol Speciality Lubricant Chemicals",
+   "products": [
+    "CRISTOL:PMA_D_70"
+   ],
+   "roles": {
+    "CRISTOL:PMA_D_70": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: SDS with product name and version",
+   "note": "'CRISTOL PMA D-70 Version: 1.2 Date: 26/03/2019'; 6pp GHS SDS",
+   "next_action": "",
+   "manufacturer": "Cristol Speciality Lubricant Chemicals",
+   "distributor": "",
+   "issuer": "Cristol Speciality Lubricant Chemicals"
+  },
+  "8699857a6489": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Cristol Speciality Lubricant Chemicals",
+   "products": [
+    "CRISTOL:EPR_3400"
+   ],
+   "roles": {
+    "CRISTOL:EPR_3400": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product description and typical properties",
+   "note": "1pp TDS; 'Fields of application: Antioxidant for Greases and Lubricating Oil formulations; Product is ash-less, less volatile and non-corrosive'; Specific Gravity 0.980",
+   "next_action": "",
+   "manufacturer": "Cristol Speciality Lubricant Chemicals",
+   "distributor": "",
+   "issuer": "Cristol Speciality Lubricant Chemicals"
+  },
+  "e60e59342832": {
+   "doc_type": "product brochure",
+   "supplier": "Cristol Speciality Lubricant Chemicals",
+   "products": [
+    "CRISTOL:PPD_LX_250"
+   ],
+   "roles": {
+    "CRISTOL:PPD_LX_250": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: PPD LX 250 product details",
+   "note": "x2 copies in archive; 'Flow Improver for Automotive Lubricants CRISTOL-PPD LX 250™'; 4pp brochure",
+   "next_action": "",
+   "manufacturer": "Cristol Speciality Lubricant Chemicals",
+   "distributor": "",
+   "issuer": "Cristol Speciality Lubricant Chemicals"
+  }
+ }
+}

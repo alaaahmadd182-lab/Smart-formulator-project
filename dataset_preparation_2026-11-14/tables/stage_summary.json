@@ -1,29 +1,29 @@
 {
- "products_total": 1745,
+ "products_total": 1770,
  "existing_records": 264,
- "non_existing": 1481,
+ "non_existing": 1506,
  "stage2_identity": {
-  "verified": 1442,
+  "verified": 1467,
   "candidate only (mentioned / no subject document read)": 25,
   "verified, open question": 14
  },
  "stage3_class_template": {
-  "established": 932,
+  "unresolved": 185,
+  "established": 944,
   "open question": 196,
-  "out of template (excluded from conversion; kept in the inventory)": 175,
-  "unresolved": 178
+  "out of template (excluded from conversion; kept in the inventory)": 181
  },
  "stage4_evidence_review": {
-  "not started": 1706,
+  "not started": 1731,
   "reviewed (pilot S17, 2026-11-15; all sheets read in full)": 39
  },
  "stage5_field_mapping": {
-  "not started": 1706,
+  "not started": 1731,
   "complete": 39
  },
  "conversion_ready": 36,
- "identity_verified_and_template_established": 912,
- "blockers": 32,
+ "identity_verified_and_template_established": 924,
+ "blockers": 34,
  "reconciliation_candidates": 29,
  "reconciliation_open": 8
 }

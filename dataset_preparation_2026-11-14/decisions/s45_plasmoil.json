@@ -1,0 +1,220 @@
+{
+ "batch": "S45 Plasmoil (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "9 documents with provisional supplier Plasmoil",
+ "products": {
+  "MICROS:PLASMOIL_BIO": {
+   "name": "Plasmoil Bio",
+   "supplier": "MicRos Lubrication Technology Ltd / Plasmoil",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'PLASMOIL BIO is a line of bio-additives with plasma induced thickness and polarity; PLASMOIL BIO combine the two antagonist properties of high polarity and high viscosity; honey-like products'; API Group V bio-based lubricant additive/base; material class: unresolved (Group V; additive_component or base stock component)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "MICROS:PLASMOIL_MR_A": {
+   "name": "Plasmoil MR-A",
+   "supplier": "MicRos Lubrication Technology Ltd / Plasmoil",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Plasmoil MR-A MSDS'; described together with MR-H and MR-B as 'honey-like bio-compounded bases which combine antagonist properties like high dipolar moment, high viscosity, dispersion, physical adhesiveness and anti-oxidation effect'; API Group V bio-based lubricant additive/base; material class: unresolved",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "MICROS:PLASMOIL_MR_B": {
+   "name": "Plasmoil MR-B",
+   "supplier": "MicRos Lubrication Technology Ltd / Plasmoil",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Plasmoil MR-B'; MSDS 1pp; described as bio-compounded base; material class: unresolved",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "MICROS:PLASMOIL_MR_H": {
+   "name": "Plasmoil MR-H",
+   "supplier": "MicRos Lubrication Technology Ltd / Plasmoil",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "described together with MR-A and MR-B in DL2-15386; material class: unresolved; no separate product sheet in this batch — only the combined MR-H & A & B TDS",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "97dc526e9e3c": {
+   "doc_type": "SDS",
+   "supplier": "MicRos Lubrication Technology Ltd / Plasmoil",
+   "products": [
+    "MICROS:PLASMOIL_MR_A"
+   ],
+   "roles": {
+    "MICROS:PLASMOIL_MR_A": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, REACH format SDS",
+   "note": "'Plasmoil MR-A MSDS PLASMOIL MR-A According to Regulation (EC) No. 1907/2006'; 6pp",
+   "next_action": "",
+   "manufacturer": "MicRos Lubrication Technology Ltd",
+   "distributor": "",
+   "issuer": "MicRos Lubrication Technology Ltd"
+  },
+  "51cd661840b1": {
+   "doc_type": "SDS",
+   "supplier": "MicRos Lubrication Technology Ltd / Plasmoil",
+   "products": [
+    "MICROS:PLASMOIL_BIO"
+   ],
+   "roles": {
+    "MICROS:PLASMOIL_BIO": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, REACH format SDS",
+   "note": "'Plasmoil Bio 1.2 Relevant identified uses... Plasmoil Bio: lubricating properties'; 5pp MSDS",
+   "next_action": "",
+   "manufacturer": "MicRos Lubrication Technology Ltd",
+   "distributor": "",
+   "issuer": "MicRos Lubrication Technology Ltd"
+  },
+  "9f08f4cb18be": {
+   "doc_type": "SDS",
+   "supplier": "MicRos Lubrication Technology Ltd / Plasmoil",
+   "products": [
+    "MICROS:PLASMOIL_MR_B"
+   ],
+   "roles": {
+    "MICROS:PLASMOIL_MR_B": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, relevant uses",
+   "note": "'Plasmoil MR-B... Provides adhesive & protective lubricating film, dispersant'; 1pp MSDS",
+   "next_action": "",
+   "manufacturer": "MicRos Lubrication Technology Ltd",
+   "distributor": "",
+   "issuer": "MicRos Lubrication Technology Ltd"
+  },
+  "afd11ced3a5a": {
+   "doc_type": "product brochure (API Group V bio-additive range)",
+   "supplier": "MicRos Lubrication Technology Ltd / Plasmoil",
+   "products": [
+    "MICROS:PLASMOIL_BIO",
+    "MICROS:PLASMOIL_MR_A",
+    "MICROS:PLASMOIL_MR_B",
+    "MICROS:PLASMOIL_MR_H"
+   ],
+   "roles": {
+    "MICROS:PLASMOIL_BIO": "subject",
+    "MICROS:PLASMOIL_MR_A": "subject",
+    "MICROS:PLASMOIL_MR_B": "subject",
+    "MICROS:PLASMOIL_MR_H": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 and page-2 text: company overview and Plasmoil product range description",
+   "note": "x2 copies in archive; 4pp; 'PLASMOIL™... Belonging to API Group V category, PLASMOIL can serve as a bases or an additive for a variety of lubricants, greases and fuel additives; outstanding tribological properties by being powerful and multifunctional'; covers all Plasmoil variants including MR-H, MR-A, MR-B, Bio",
+   "next_action": "",
+   "manufacturer": "MicRos Lubrication Technology Ltd",
+   "distributor": "",
+   "issuer": "MicRos Lubrication Technology Ltd"
+  },
+  "cdf13b0e5e18": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "MicRos Lubrication Technology Ltd / Plasmoil",
+   "products": [
+    "MICROS:PLASMOIL_BIO"
+   ],
+   "roles": {
+    "MICROS:PLASMOIL_BIO": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product description and properties",
+   "note": "'PLASMOIL BIO is a line of bio-additives with plasma induced thickness and polarity; PLASMOIL BIO combine the two antagonist properties of high polarity and high viscosity'; 1pp TDS",
+   "next_action": "",
+   "manufacturer": "MicRos Lubrication Technology Ltd",
+   "distributor": "",
+   "issuer": "MicRos Lubrication Technology Ltd"
+  },
+  "b4574af00cd6": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "MicRos Lubrication Technology Ltd / Plasmoil",
+   "products": [
+    "MICROS:PLASMOIL_MR_H",
+    "MICROS:PLASMOIL_MR_A",
+    "MICROS:PLASMOIL_MR_B"
+   ],
+   "roles": {
+    "MICROS:PLASMOIL_MR_H": "subject",
+    "MICROS:PLASMOIL_MR_A": "subject",
+    "MICROS:PLASMOIL_MR_B": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: MR-H & A & B combined description",
+   "note": "'Plasmoil MR-H & A & B are honey-like bio-compounded bases which combine antagonist properties like high dipolar moment, high viscosity, dispersion, physical adhesiveness and anti-oxidation effect'; 1pp TDS; covers three products together: MR-H, MR-A, MR-B",
+   "next_action": "",
+   "manufacturer": "MicRos Lubrication Technology Ltd",
+   "distributor": "",
+   "issuer": "MicRos Lubrication Technology Ltd"
+  },
+  "d8c473730402": {
+   "doc_type": "product range reference",
+   "supplier": "MicRos Lubrication Technology Ltd / Plasmoil",
+   "products": [
+    "MICROS:PLASMOIL_BIO",
+    "MICROS:PLASMOIL_MR_A",
+    "MICROS:PLASMOIL_MR_B",
+    "MICROS:PLASMOIL_MR_H"
+   ],
+   "roles": {
+    "MICROS:PLASMOIL_BIO": "subject",
+    "MICROS:PLASMOIL_MR_A": "subject",
+    "MICROS:PLASMOIL_MR_B": "subject",
+    "MICROS:PLASMOIL_MR_H": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: Plasmoil product range and technology description",
+   "note": "'PLASMOIL® MicRos Lubrication Technology 2022-04-24; Micros LT treats vegetable oils by electro-polarization; bio-components become outstanding lubricity additives at 2.5-10% in a formulation'; 1pp; describes all Plasmoil variants and their applications in lubricants, greases and fuels",
+   "next_action": "",
+   "manufacturer": "MicRos Lubrication Technology Ltd",
+   "distributor": "",
+   "issuer": "MicRos Lubrication Technology Ltd"
+  },
+  "1ff4015fffb3": {
+   "doc_type": "third-party letter (marketing)",
+   "supplier": "Agilent Technologies",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "page-1 text: Agilent marketing letter to MicRos Lubrication Technology about FTIR",
+   "note": "'Agilent Technologies (China) Co., Ltd. ... Mar. 27, 2025 Dear Micros Lubrication Technology, FTIR is widely used in chemistry to identify unknown compounds...'; Agilent marketing/sales letter about FTIR analytical instruments; not a Plasmoil product document; mislabeled under Plasmoil supplier",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "Agilent Technologies (China) Co., Ltd."
+  },
+  "6dfe957b8d53": {
+   "doc_type": "product technical note",
+   "supplier": "MicRos Lubrication Technology Ltd / Plasmoil",
+   "products": [
+    "MICROS:PLASMOIL_BIO",
+    "MICROS:PLASMOIL_MR_A",
+    "MICROS:PLASMOIL_MR_B",
+    "MICROS:PLASMOIL_MR_H"
+   ],
+   "roles": {
+    "MICROS:PLASMOIL_BIO": "subject",
+    "MICROS:PLASMOIL_MR_A": "subject",
+    "MICROS:PLASMOIL_MR_B": "subject",
+    "MICROS:PLASMOIL_MR_H": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 and page-2 text: technical comments on Plasmoil concentration effects in formulations",
+   "note": "'Michel ROEGIERS, Ir. MicRos Lubrication Technology ltd Nov.2, 2021; Technical comments on PLASMOIL concentrations; NO MINIMUM concentrations; higher concentration = higher VI, dispersion, temperature stability, lubricity, thixotropy'; 2pp; authored by chief technical officer; covers all Plasmoil variants",
+   "next_action": "",
+   "manufacturer": "MicRos Lubrication Technology Ltd",
+   "distributor": "",
+   "issuer": "MicRos Lubrication Technology Ltd"
+  }
+ }
+}

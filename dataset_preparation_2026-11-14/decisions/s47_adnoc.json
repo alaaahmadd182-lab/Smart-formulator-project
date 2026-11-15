@@ -1,0 +1,206 @@
+{
+ "batch": "S47 ADNOC (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "7 documents with provisional supplier ADNOC",
+ "products": {
+  "EXISTING:ADNOC_ADBASE_2CST": {
+   "name": "ADbase 2CST",
+   "supplier": "ADNOC",
+   "material_class": "base_oil",
+   "existing_record": "ADNOC_ADBASE_2CST",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "EXISTING:ADNOC_ADBASE_3CST": {
+   "name": "ADbase 3CST",
+   "supplier": "ADNOC",
+   "material_class": "base_oil",
+   "existing_record": "ADNOC_ADBASE_3CST",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "EXISTING:ADNOC_ADBASE_4CST": {
+   "name": "ADbase 4CST",
+   "supplier": "ADNOC",
+   "material_class": "base_oil",
+   "existing_record": "ADNOC_ADBASE_4CST",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "EXISTING:ADNOC_ADBASE_6CST": {
+   "name": "ADbase 6CST",
+   "supplier": "ADNOC",
+   "material_class": "base_oil",
+   "existing_record": "ADNOC_ADBASE_6CST",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "EXISTING:ADNOC_ADBASE_8CST": {
+   "name": "ADbase 8CST",
+   "supplier": "ADNOC",
+   "material_class": "base_oil",
+   "existing_record": "ADNOC_ADBASE_8CST",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "ADNOC:UNKNOWN_DOC_DL2_14075": {
+   "name": "DL2-14075 (unresolved)",
+   "supplier": "ADNOC",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "unresolved_identity",
+   "notes": "document consists only of 'ADNOC Classification: Internal' header; no product name, no data visible; likely a cover page or classification banner; product identity unresolved; next_action: physical inspection or OCR scan",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "ADNOC:UNKNOWN_DOC_DL2_14107": {
+   "name": "DL2-14107 (unresolved)",
+   "supplier": "ADNOC",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "unresolved_identity",
+   "notes": "document consists only of 'ADNOC Classification: Internal' header; no product name, no data visible; likely a cover page or classification banner; product identity unresolved; next_action: physical inspection or OCR scan",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "308a48fabf14": {
+   "doc_type": "product brochure",
+   "supplier": "ADNOC",
+   "products": [
+    "EXISTING:ADNOC_ADBASE_2CST",
+    "EXISTING:ADNOC_ADBASE_3CST",
+    "EXISTING:ADNOC_ADBASE_4CST",
+    "EXISTING:ADNOC_ADBASE_6CST",
+    "EXISTING:ADNOC_ADBASE_8CST"
+   ],
+   "roles": {
+    "EXISTING:ADNOC_ADBASE_2CST": "subject",
+    "EXISTING:ADNOC_ADBASE_3CST": "subject",
+    "EXISTING:ADNOC_ADBASE_4CST": "subject",
+    "EXISTING:ADNOC_ADBASE_6CST": "subject",
+    "EXISTING:ADNOC_ADBASE_8CST": "subject"
+   },
+   "relation": "product",
+   "read": "table of contents and opening text: ADbase product range brochure",
+   "note": "10pp; 'QUALITY CONSISTENCY RELIABILITY adnoc.ae'; TOC: About ADbase, process diagram, Product specifications, Product consistency 4cSt 6cSt (highlighted), formulation approvals, contact, exclusive sellers; covers full ADbase range 2/3/4/6/8 cSt; 4cSt and 6cSt get dedicated consistency sections",
+   "next_action": "",
+   "manufacturer": "Abu Dhabi National Oil Company (ADNOC) Refining",
+   "distributor": "",
+   "issuer": "Abu Dhabi National Oil Company (ADNOC) Refining"
+  },
+  "16b2a05864c4": {
+   "doc_type": "product data sheet (range TDS)",
+   "supplier": "ADNOC",
+   "products": [
+    "EXISTING:ADNOC_ADBASE_2CST",
+    "EXISTING:ADNOC_ADBASE_3CST",
+    "EXISTING:ADNOC_ADBASE_4CST",
+    "EXISTING:ADNOC_ADBASE_6CST",
+    "EXISTING:ADNOC_ADBASE_8CST"
+   ],
+   "roles": {
+    "EXISTING:ADNOC_ADBASE_2CST": "subject",
+    "EXISTING:ADNOC_ADBASE_3CST": "subject",
+    "EXISTING:ADNOC_ADBASE_4CST": "subject",
+    "EXISTING:ADNOC_ADBASE_6CST": "subject",
+    "EXISTING:ADNOC_ADBASE_8CST": "subject"
+   },
+   "relation": "product",
+   "read": "full page content: multi-grade typical properties table for all five ADbase grades",
+   "note": "1pp range TDS; 'PROPERTIES Unit ADbase 2CST ADbase 3CST ADbase 4CST ADbase 6CST ADbase 8CST'; covers: kV100, kV40, VI, Density @15°C, PP, FP, Noack evaporation, CCS @-30°C, Sulfur (all <3 mg/kg), Aromatics (<0.2 mass%), Saturates (99.8 mass%); all five grades covered",
+   "next_action": "",
+   "manufacturer": "Abu Dhabi National Oil Company (ADNOC) Refining",
+   "distributor": "",
+   "issuer": "Abu Dhabi National Oil Company (ADNOC) Refining"
+  },
+  "868976f115c3": {
+   "doc_type": "formulation guide (Afton Chemical / dexos1 Gen 2)",
+   "supplier": "Afton Chemical",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "page content: dexos1 Gen 2 formulation using ADNOC 4 and ADNOC 6 base stocks",
+   "note": "1pp; 'dexos1TM Gen 2 ADNOC Final Formulations'; two formulations: 0W-20 and 5W-30; components: ADNOC 4 (73.70/59.40 wt%), ADNOC 6 (10.00/21.20 wt%), HiTEC 11180 DI package, HiTEC 5754A VI modifier; not an ADNOC product sheet; mislabeled under ADNOC supplier — actual subject: Afton Chemical dexos1 formulation",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "Afton Chemical"
+  },
+  "2d080036c0f2": {
+   "doc_type": "formulation guide (Afton Chemical / dexos1 Gen 2)",
+   "supplier": "Afton Chemical",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "page-1 content: multi-viscosity dexos1 Gen 2 formulations using ADNOC base stocks",
+   "note": "8pp; 'dexos1TM Gen 2 ADNOC Final Formulations'; extends the 1pp version (DL2-12248) with three formulations (0W-16, 0W-20, 5W-30); same components: ADNOC 4, ADNOC 6, HiTEC 11180, HiTEC 5754A; includes base oil property table and finished oil test data against dexos1 Gen 2 limits; not an ADNOC product document",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "Afton Chemical"
+  },
+  "b0b334f256c4": {
+   "doc_type": "unresolved_identity",
+   "supplier": "ADNOC",
+   "products": [
+    "ADNOC:UNKNOWN_DOC_DL2_14075"
+   ],
+   "roles": {
+    "ADNOC:UNKNOWN_DOC_DL2_14075": "subject"
+   },
+   "relation": "unresolved_identity",
+   "read": "text layer contains only 'ADNOC Classification: Internal'; no product name or data visible",
+   "note": "1pp; entire text layer: 'ADNOC Classification: Internal'; likely a document cover page, classification banner, or header-only page; next_action: physical inspection or OCR re-scan to identify product content",
+   "next_action": "physical inspection / OCR re-scan needed",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "Abu Dhabi National Oil Company (ADNOC) Refining"
+  },
+  "56a48fd0a61c": {
+   "doc_type": "certificate of quality (CoA)",
+   "supplier": "ADNOC",
+   "products": [
+    "EXISTING:ADNOC_ADBASE_6CST"
+   ],
+   "roles": {
+    "EXISTING:ADNOC_ADBASE_6CST": "subject"
+   },
+   "relation": "product",
+   "read": "page content: CoA header and test parameters for ADbase GCST (6cSt) batch",
+   "note": "1pp; 'CERTIFICATE OF QUALITY SPEC.NO. R.RE/BO•060 CERT.NO. I 2020 08/07/2020'; GRADE: BASE OIL AD BASE GCST; BATCH NO. 8360 202.0; test parameters listed: kV100, kV40, VI, PP, FP (COC), Noack evaporation, CCS @-30°C, Sulfur, Water, Color Saybolt, Density @15°C, Copper Corrosion 3h@100°C, Acid No., Carbon Residue, Saturates, Aromatics; GCST = ADbase 6cSt grade designation; issued by ADNOC Refining QC",
+   "next_action": "",
+   "manufacturer": "Abu Dhabi National Oil Company (ADNOC) Refining",
+   "distributor": "",
+   "issuer": "Abu Dhabi National Oil Company (ADNOC) Refining"
+  },
+  "9c088f561832": {
+   "doc_type": "unresolved_identity",
+   "supplier": "ADNOC",
+   "products": [
+    "ADNOC:UNKNOWN_DOC_DL2_14107"
+   ],
+   "roles": {
+    "ADNOC:UNKNOWN_DOC_DL2_14107": "subject"
+   },
+   "relation": "unresolved_identity",
+   "read": "text layer contains only 'ADNOC Classification: Internal'; no product name or data visible",
+   "note": "1pp; entire text layer: 'ADNOC Classification: Internal'; see DL2-14075 (b0b334f256) — same situation; next_action: physical inspection or OCR re-scan",
+   "next_action": "physical inspection / OCR re-scan needed",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "Abu Dhabi National Oil Company (ADNOC) Refining"
+  }
+ }
+}
