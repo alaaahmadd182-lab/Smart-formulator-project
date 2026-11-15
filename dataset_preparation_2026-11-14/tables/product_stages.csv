@@ -559,6 +559,7 @@ CRODA:PRIOLUBE 3986,Priolube 3986,Croda,new_candidate,additive_component,yes,ver
 CRODA:PRIOLUBE 3987,Priolube 3987,Croda,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,5,5,,s09_croda.json
 CRODA:SP PRIOLUBE 3970 MBAL,SP Priolube 3970 MBAL,Croda,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,2,2,,s09_croda.json
 CRODA:XENITRON 3221,Xenitron 3221,Croda,out_of_scope,out_of_template: finished fluid (dielectric ester),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s09_croda.json
+DOVER:UNKNOWN_DOC_DL2_15643,Unknown Dover Chemical product,Dover Chemical Corporation,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s34_king.json
 DOWPOL:NEOFLEX_680,NeoFlex 680,Dowpol Chemical International Corp.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s28_sk_yubase.json
 DOWPOL:DOWSYN AN15,DowSyn AN15,Dowpol Chemical International Corp. (DowSyn),new_candidate,base_oil,yes,verified,open question,not started,not started,no,2,2,,s19_dow.json
 DOWPOL:DOWSYN AN23,DowSyn AN23,Dowpol Chemical International Corp. (DowSyn),new_candidate,base_oil,yes,verified,open question,not started,not started,no,2,2,,s19_dow.json
@@ -632,6 +633,14 @@ EXISTING:ERGON_HYGOLD_L500,HyGold L500,"Ergon Refining, Inc.",existing,base_oil,
 EXISTING:ERGON_HYGOLD_L750,HyGold L750,"Ergon Refining, Inc.",existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:ERGON_HYGOLD_OLYMPUS_L500,HyGold Olympus L500,"Ergon Refining, Inc.",existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:ERGON_HY_40,HY 40,"Ergon Refining, Inc.",existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
+EVONIK:VISCOPLEX_0_223,VISCOPLEX 0-223,Evonik Industries AG,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s35_evonik.json
+EVONIK:VISCOPLEX_14_520,VISCOPLEX 14-520,Evonik Industries AG,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s35_evonik.json
+EVONIK:VISCOPLEX_1_254,VISCOPLEX 1-254,Evonik Industries AG,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s35_evonik.json
+EVONIK:VISCOPLEX_4_677,VISCOPLEX 4-677,Evonik Industries AG,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s35_evonik.json
+EVONIK:VISCOPLEX_7_310,VISCOPLEX 7-310,Evonik Industries AG,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s35_evonik.json
+EVONIK:VISCOPLEX_8_200,VISCOPLEX 8-200,Evonik Industries AG,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s35_evonik.json
+EVONIK:VISCOPLEX_8_251,VISCOPLEX 8-251,Evonik Industries AG,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s35_evonik.json
+EVONIK:VISCOPLEX_8_400,VISCOPLEX 8-400,Evonik Industries AG,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s35_evonik.json
 EXISTING:EXXONMOBIL_APE_CORE_100,AP/E CORE 100,ExxonMobil,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,2,2,,product_identities.csv
 EXISTING:EXXONMOBIL_APE_CORE_150,AP/E CORE 150,ExxonMobil,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,2,2,,product_identities.csv
 EXISTING:EXXONMOBIL_APE_CORE_2500,AP/E CORE 2500,ExxonMobil,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,2,2,,product_identities.csv
@@ -1035,6 +1044,11 @@ XINXING:XT-3205,XT-3205,"Jinzhou Xinxing Petroleum Additive Co., Ltd.",new_candi
 XINXING:XT-63297,XT-63297,"Jinzhou Xinxing Petroleum Additive Co., Ltd.",new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s13_jinzhou.json
 XINXING:XT-64223,XT-64223,"Jinzhou Xinxing Petroleum Additive Co., Ltd.",new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s13_jinzhou.json
 EXISTING:JINZHOU_KANGTAI_KT31140,KT31140,KangTai . Lubricant Addtives,existing,additive_package,yes,existing record (no new-archive identity decision),established,"reviewed (pilot S17, 2026-11-15; all sheets read in full)",complete,no,1,1,,product_identities.csv
+KINGINDUSTRIES:NA_LUBE_AO_142_I,NA-LUBE AO-142-I,"King Industries, Inc.",new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s34_king.json
+KINGINDUSTRIES:NA_LUBE_BL_1208,NA-LUBE BL-1208,"King Industries, Inc.",new_candidate,additive_package,yes,verified,established,not started,not started,no,5,5,,s34_king.json
+KINGINDUSTRIES:NA_LUBE_KR_008,NA-LUBE KR-008,"King Industries, Inc.",new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s34_king.json
+KINGINDUSTRIES:NA_LUBE_KR_019,NA-LUBE KR-019,"King Industries, Inc.",new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s34_king.json
+KINGINDUSTRIES:NA_SUL_BSN,NA-SUL BSN,"King Industries, Inc.",new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s34_king.json
 KUSA:KUNOX A8000,KUNOX A8000,Kusa Chemicals Pvt. Ltd.,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s16_kusa.json
 KUSA:KUNOX A9000,KUNOX A9000,Kusa Chemicals Pvt. Ltd.,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s16_kusa.json
 KUSA:KUSACRYL 2231,KUSACRYL 2231,Kusa Chemicals Pvt. Ltd.,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s16_kusa.json
@@ -1258,6 +1272,12 @@ EXISTING:MINGLAN_T3161,T3161,MINGLAN CHEMICAL,existing,additive_package,yes,exis
 EXISTING:MINGLAN_T3161A,T3161A,MINGLAN CHEMICAL,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:MINGYUEKEJI_MY_P3168,Additive Package MY-P3168,MINGYUEKEJI,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 MULTISOL:NOVAD B700,NOVAD B700,Multisol France (distributor; manufacturer not printed),new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s25_wuxi.json
+NYCO:NYCOBASE_20798,NYCOBASE 20798,NYCO S.A.,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s33_nyco.json
+NYCO:NYCOBASE_5750,NYCOBASE 5750,NYCO S.A.,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,3,3,,s33_nyco.json
+NYCO:NYCOBASE_7300,NYCOBASE 7300,NYCO S.A.,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,2,2,,s33_nyco.json
+NYCO:NYCOBASE_8103,NYCOBASE 8103,NYCO S.A.,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s33_nyco.json
+NYCO:NYCOBASE_8851,NYCOBASE 8851,NYCO S.A.,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s33_nyco.json
+NYCO:NYCOBASE_9680X,NYCOBASE 9680X,NYCO S.A.,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s33_nyco.json
 EXISTING:NESTE_NEXBASE_3020,NEXBASE 3020,Neste (Suisse) S.A.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,2,2,,product_identities.csv
 NESTE:NEXBASE_TM_2000,NEXBASE TM 2000,Neste Corporation,new_candidate,base_oil,yes,verified,open question,not started,not started,no,1,1,,s32_neste.json
 EXISTING:NESTE_NEXBASE_3043,NEXBASE 3043,Neste N.V.,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,3,,product_identities.csv
