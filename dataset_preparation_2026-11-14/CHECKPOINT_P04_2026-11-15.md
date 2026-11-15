@@ -68,9 +68,16 @@ Conversion-ready = verified + established + field_mapping complete. Two KangTai 
 
 ## 5. Next
 
-1. Resolve KT31140 key mismatch and update field_mapping_status or rekey evidence row.
+1. ~~Resolve KT31140 key mismatch~~ — **DONE** in commit 7d135ed (rekeyed evidence rows, fixed fm_s17_kangtai.py).
 2. Investigate KTS-250 and KTD1961: locate their subject documents and determine which batch will process them.
-3. Identity batches for remaining 278 labelled documents (smaller suppliers).
+3. Identity batches for remaining 278 labelled documents (smaller suppliers — S28 onward; highest-volume: SK/YUBASE 17, Nynas 17, Shell 17, Italmatch 15, Neste 14).
 4. Follow up 26 empty OCR pages and the failed JPEG `747b0e9f661a`.
 5. Identity batches for 1,411 unlabelled documents using OCR text.
 6. Continue field-mapping for further suppliers.
+
+**Archive blocker (noted 2026-11-15):** `Downloaded lubricants sheets.zip` (SHA-256
+`62565d5c7a2afc2203536c241004cd4af7f62866a4bfe4f70801b378cf2c78b1`) is not present in this
+checkout and was not found at the original path or common User locations. The text-layer cache
+(`incoming_dataset_review_2026-11-12/_cache/text/`) and OCR cache are also absent. Items 2–6
+above are all blocked until the archive or its caches are made available.
+The KangTai pilot (fully completed in this session) required only the already-committed files.
