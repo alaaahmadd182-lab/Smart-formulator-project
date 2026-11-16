@@ -1668,10 +1668,10 @@ EXISTING:SHELL_RISELLA_X_420,Shell Risella X 420,Shell,existing,base_oil,yes,exi
 EXISTING:SHELL_RISELLA_X_430,Shell Risella X 430,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
 SHENYANG_GW:CATALOG,Shenyang Great Wall finished lubricant catalog,Shenyang Great Wall,out_of_scope,out_of_scope,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s60_micro.json
 SONGWON:SONGNOX_5057_LQ,SONGNOX 5057 LQ,"Songwon Industrial Co., Ltd.",new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,2,2,,s42_songwon.json
-SONGWON:SONGNOX_L107,SONGNOX L107,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s42_songwon.json
-SONGWON:SONGNOX_L135,SONGNOX L135,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,3,3,,s42_songwon.json
-SONGWON:SONGNOX_L570,SONGNOX L570,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,3,3,,s42_songwon.json
-SONGWON:SONGNOX_L670,SONGNOX L670,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s42_songwon.json
+SONGWON:SONGNOX_L107,SONGNOX L107,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,"reviewed (S42, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s42_songwon.json
+SONGWON:SONGNOX_L135,SONGNOX L135,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,"reviewed (S42, 2026-11-16; all sheets read in full)",complete,yes,3,3,,s42_songwon.json
+SONGWON:SONGNOX_L570,SONGNOX L570,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,"reviewed (S42, 2026-11-16; all sheets read in full)",complete,yes,3,3,,s42_songwon.json
+SONGWON:SONGNOX_L670,SONGNOX L670,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,"reviewed (S42, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s42_songwon.json
 TANEE:TE_598,TE-598 Dialkyl Diphenylamine,Tanee Chemical,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s60_micro.json
 DOW:DOWTHERM A,DOWTHERM A,The Dow Chemical Company,out_of_scope,out_of_template: heat transfer fluid,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s19_dow.json
 EXISTING:LUBRIZOL_16008,LUBRIZOL® 16008,The Lubrizol Corporation,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,3,,product_identities.csv
