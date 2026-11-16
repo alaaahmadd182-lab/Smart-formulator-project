@@ -538,10 +538,10 @@ LUBIMAX:BASE OIL N70,BASE OIL N70,Coraplus,new_candidate,base_oil,yes,verified,e
 LUBIMAX:BASE OIL SN150,BASE OIL SN150,Coraplus,new_candidate,base_oil,yes,"verified, open question",established,not started,not started,no,1,1,,s15_lubimax.json
 LUBIMAX:BASE OIL SN300,BASE OIL SN300,Coraplus,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
 LUBIMAX:XONOX L 57,XONOX L 57,Coraplus,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-CRISTOL:EPR_3400,CRISTOL EPR-3400,Cristol Speciality Lubricant Chemicals,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s46_cristol.json
-CRISTOL:PMA_D_70,CRISTOL PMA D-70,Cristol Speciality Lubricant Chemicals,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s46_cristol.json
-CRISTOL:PPD_LX_250,CRISTOL PPD LX 250,Cristol Speciality Lubricant Chemicals,new_candidate,additive_component,yes,verified,established,not started,not started,no,3,3,,s46_cristol.json
-CRISTOL:VII_400,CRISTOL VII-400,Cristol Speciality Lubricant Chemicals,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s46_cristol.json
+CRISTOL:EPR_3400,CRISTOL EPR-3400,Cristol Speciality Lubricant Chemicals,new_candidate,additive_component,yes,verified,established,"reviewed (S46, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s46_cristol.json
+CRISTOL:PMA_D_70,CRISTOL PMA D-70,Cristol Speciality Lubricant Chemicals,new_candidate,additive_component,yes,verified,established,"reviewed (S46, 2026-11-16; all sheets read in full)",complete,yes,2,2,,s46_cristol.json
+CRISTOL:PPD_LX_250,CRISTOL PPD LX 250,Cristol Speciality Lubricant Chemicals,new_candidate,additive_component,yes,verified,established,"reviewed (S46, 2026-11-16; all sheets read in full)",complete,yes,3,3,,s46_cristol.json
+CRISTOL:VII_400,CRISTOL VII-400,Cristol Speciality Lubricant Chemicals,new_candidate,additive_component,yes,verified,established,"reviewed (S46, 2026-11-16; all sheets read in full)",complete,yes,2,2,,s46_cristol.json
 CRODA:CITHROL PG32IS,Cithrol PG32IS,Croda,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s09_croda.json
 CRODA:CRODACID DC 1195,Crodacid DC 1195,Croda,out_of_scope,out_of_template: other chemical,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s09_croda.json
 CRODA:CRODASINIC O,Crodasinic O,Croda,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s09_croda.json
