@@ -729,8 +729,8 @@ FRAGOL:FRAGOLTHERM_550,FRAGOLTHERM 550,FRAGOL,out_of_scope,out_of_template (heat
 FRAGOL:FRAGOLTHERM_660,FRAGOLTHERM 660,FRAGOL,out_of_scope,out_of_template (heat transfer fluid — no lubricant template),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s48_fragol.json
 FRAGOL:FRAGOLTHERM_DPO,FRAGOLTHERM DPO,FRAGOL,out_of_scope,out_of_template (heat transfer fluid — no lubricant template),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s48_fragol.json
 FRAGOL:FRAGOLTHERM_HT,FRAGOLTHERM HT,FRAGOL,out_of_scope,out_of_template (heat transfer fluid — no lubricant template),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,3,3,,s48_fragol.json
-FORMOSA:BASE_OIL_GII_150N,Formosa Petrochemical Group II 150N,Formosa Petrochemical,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s50_formosa.json
-FORMOSA:BASE_OIL_GII_500N,Formosa Petrochemical Group II 500N,Formosa Petrochemical,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s50_formosa.json
+FORMOSA:BASE_OIL_GII_150N,Formosa Petrochemical Group II 150N,Formosa Petrochemical,new_candidate,base_oil,yes,verified,established,"reviewed (S50, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s50_formosa.json
+FORMOSA:BASE_OIL_GII_500N,Formosa Petrochemical Group II 500N,Formosa Petrochemical,new_candidate,base_oil,yes,verified,established,"reviewed (S50, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s50_formosa.json
 EXISTING:FORMOSA_150N_GII_PLUS,Base Oil 150N GII+,Formosa Petrochemical Corporation,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:FORMOSA_500N_GII,Base Oil 500N GII,Formosa Petrochemical Corporation,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:FORMOSA_FPCC_70N_GII,FPCC 70N GII,Formosa Petrochemical Corporation,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
@@ -1100,7 +1100,7 @@ XINXING:XT-3205,XT-3205,"Jinzhou Xinxing Petroleum Additive Co., Ltd.",new_candi
 XINXING:XT-63297,XT-63297,"Jinzhou Xinxing Petroleum Additive Co., Ltd.",new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s13_jinzhou.json
 XINXING:XT-64223,XT-64223,"Jinzhou Xinxing Petroleum Additive Co., Ltd.",new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s13_jinzhou.json
 EXISTING:JINZHOU_KANGTAI_KT31140,KT31140,KangTai . Lubricant Addtives,existing,additive_package,yes,existing record (no new-archive identity decision),established,"reviewed (pilot S17, 2026-11-15; all sheets read in full)",complete,no,1,1,,product_identities.csv
-FORMOSA:M_25_SSI,M 25 SSI,Kemipex / Formosa Petrochemical,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s57_kemipex.json
+FORMOSA:M_25_SSI,M 25 SSI,Kemipex / Formosa Petrochemical,new_candidate,additive_component,yes,verified,established,"reviewed (S50, 2026-11-16; all sheets read in full)",complete,yes,2,2,,s57_kemipex.json
 KINGINDUSTRIES:NA_LUBE_AO_142_I,NA-LUBE AO-142-I,"King Industries, Inc.",new_candidate,additive_component,yes,verified,established,"reviewed (S34, 2026-11-16; all sheets read in full)",complete,yes,2,2,,s34_king.json
 KINGINDUSTRIES:NA_LUBE_BL_1208,NA-LUBE BL-1208,"King Industries, Inc.",new_candidate,additive_package,yes,verified,established,"reviewed (S34, 2026-11-16; all sheets read in full)",complete,yes,5,5,,s34_king.json
 KINGINDUSTRIES:NA_LUBE_KR_008,NA-LUBE KR-008,"King Industries, Inc.",new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s34_king.json
@@ -1698,7 +1698,7 @@ TIANHE:C_TEC_206,C-TEC 206,Tianhe Chemical Group,new_candidate,additive_componen
 TIANHE:C_TEC_209,C-TEC 209,Tianhe Chemical Group,new_candidate,additive_component,yes,verified,established,"reviewed (S43, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s43_tianhe.json
 TIANHE:P_TEC_3234,P-TEC 3234,Tianhe Chemical Group,new_candidate,additive_package,yes,verified,established,"reviewed (S43, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s43_tianhe.json
 TIANHE:P_TEC_9100,P-TEC 9100,Tianhe Chemical Group,new_candidate,additive_package,yes,verified,established,"reviewed (S43, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s43_tianhe.json
-TOHO_CHEM:LUBRAN_VI_870,LUBRAN VI-870,Toho Chemical Industry,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s50_formosa.json
+TOHO_CHEM:LUBRAN_VI_870,LUBRAN VI-870,Toho Chemical Industry,new_candidate,additive_component,yes,verified,established,"reviewed (S50, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s50_formosa.json
 TOHOLCHEM:LUBRAN_141,LUBRAN 141,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,"reviewed (S30, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s30_shell.json
 TOHOLCHEM:LUBRAN_165,LUBRAN 165,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,"reviewed (S30, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s30_shell.json
 TOHOLCHEM:LUBRAN_171,LUBRAN 171,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,"reviewed (S30, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s30_shell.json
