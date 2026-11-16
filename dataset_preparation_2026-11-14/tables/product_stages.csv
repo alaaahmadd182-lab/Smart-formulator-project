@@ -7,11 +7,11 @@ EXISTING:WUXI_WX3118,WX3118(CF-4 CH-4 CI-4),,existing,additive_package,yes,exist
 EXISTING:WUXI_WX3326,WX3326(CF-4 SL SM),,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
 ADNOC:UNKNOWN_DOC_DL2_14075,DL2-14075 (unresolved),ADNOC,unresolved_identity,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s47_adnoc.json
 ADNOC:UNKNOWN_DOC_DL2_14107,DL2-14107 (unresolved),ADNOC,unresolved_identity,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s47_adnoc.json
-EXISTING:ADNOC_ADBASE_2CST,ADbase 2CST,ADNOC,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,2,2,,s47_adnoc.json
-EXISTING:ADNOC_ADBASE_3CST,ADbase 3CST,ADNOC,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,2,2,,s47_adnoc.json
-EXISTING:ADNOC_ADBASE_4CST,ADbase 4CST,ADNOC,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,2,2,,s47_adnoc.json
-EXISTING:ADNOC_ADBASE_6CST,ADbase 6CST,ADNOC,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,3,3,,s47_adnoc.json
-EXISTING:ADNOC_ADBASE_8CST,ADbase 8CST,ADNOC,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,2,2,,s47_adnoc.json
+EXISTING:ADNOC_ADBASE_2CST,ADbase 2CST,ADNOC,existing,base_oil,yes,existing record; new-archive documents linked,established,"reviewed (S47, 2026-11-16; all sheets read in full)",complete,no,2,2,,s47_adnoc.json
+EXISTING:ADNOC_ADBASE_3CST,ADbase 3CST,ADNOC,existing,base_oil,yes,existing record; new-archive documents linked,established,"reviewed (S47, 2026-11-16; all sheets read in full)",complete,no,2,2,,s47_adnoc.json
+EXISTING:ADNOC_ADBASE_4CST,ADbase 4CST,ADNOC,existing,base_oil,yes,existing record; new-archive documents linked,established,"reviewed (S47, 2026-11-16; all sheets read in full)",complete,no,2,2,,s47_adnoc.json
+EXISTING:ADNOC_ADBASE_6CST,ADbase 6CST,ADNOC,existing,base_oil,yes,existing record; new-archive documents linked,established,"reviewed (S47, 2026-11-16; all sheets read in full)",complete,no,3,3,,s47_adnoc.json
+EXISTING:ADNOC_ADBASE_8CST,ADbase 8CST,ADNOC,existing,base_oil,yes,existing record; new-archive documents linked,established,"reviewed (S47, 2026-11-16; all sheets read in full)",complete,no,2,2,,s47_adnoc.json
 AFTON:APL,APL,Afton Chemical,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s02_afton.json
 AFTON:Axcel S,Axcel S,Afton Chemical,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s02_afton.json
 AFTON:HiTEC 11145,HiTEC 11145,Afton Chemical,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s02_afton.json
@@ -607,14 +607,14 @@ DOWPOL:DOWSYN V600,DowSyn V600,Dowpol Chemical International Corp. (DowSyn),new_
 DOWPOL:DOWSYN VM200,DowSyn VM200,Dowpol Chemical International Corp. (DowSyn),new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s19_dow.json
 DOWPOL:DOWSYN VM260,DowSyn VM260,Dowpol Chemical International Corp. (DowSyn),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s19_dow.json
 DOWPOL:DOWSYN VM9777,DowSyn VM9777,Dowpol Chemical International Corp. (DowSyn),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s19_dow.json
-ELCO:ELCO_301,Elco 301,Elco Corporation / Italmatch Chemicals Group,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s36_elco.json
-ELCO:ELCO_313A,Elco 313A,Elco Corporation / Italmatch Chemicals Group,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s36_elco.json
+ELCO:ELCO_301,Elco 301,Elco Corporation / Italmatch Chemicals Group,new_candidate,additive_component,yes,verified,established,"reviewed (S36, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s36_elco.json
+ELCO:ELCO_313A,Elco 313A,Elco Corporation / Italmatch Chemicals Group,new_candidate,additive_component,yes,verified,established,"reviewed (S36, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s36_elco.json
 ELCO:ELCO_7401,Elco 7401,Elco Corporation / Italmatch Chemicals Group,out_of_scope,out_of_template (grease additive package),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s36_elco.json
 ELCO:ELCO_7403,Elco 7403,Elco Corporation / Italmatch Chemicals Group,out_of_scope,out_of_template (grease additive package),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s36_elco.json
 ELCO:ELCO_8403,Elco 8403,Elco Corporation / Italmatch Chemicals Group,out_of_scope,out_of_template (grease additive package),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s36_elco.json
-ELCO:ELCO_87,Elco 87,Elco Corporation / Italmatch Chemicals Group,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s36_elco.json
+ELCO:ELCO_87,Elco 87,Elco Corporation / Italmatch Chemicals Group,new_candidate,additive_component,yes,verified,established,"reviewed (S36, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s36_elco.json
 ELCO:ELCO_8715,Elco 8715,Elco Corporation / Italmatch Chemicals Group,out_of_scope,out_of_template (grease additive package),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s36_elco.json
-ELCO:ELCO_88,Elco 88,Elco Corporation / Italmatch Chemicals Group,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s36_elco.json
+ELCO:ELCO_88,Elco 88,Elco Corporation / Italmatch Chemicals Group,new_candidate,additive_component,yes,verified,established,"reviewed (S36, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s36_elco.json
 ENI:ENI MX 3102,Eni MX 3102,Eni S.p.A.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s18_eni.json
 ENI:ENI MX 3104,Eni MX 3104,Eni S.p.A.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s18_eni.json
 ENI:ENI MX 3171,Eni MX 3171,Eni S.p.A.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s18_eni.json
@@ -1705,11 +1705,11 @@ TOHOLCHEM:LUBRAN_171,LUBRAN 171,"Toho Chemical Industry Co., Ltd.",new_candidate
 TOTAL:JARYTHERM_DBT,JARYTHERM DBT,TotalEnergies,out_of_scope,out_of_template (heat transfer fluid — synthetic dibenzyltoluene type),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s59_total.json
 EXISTING:TREE_TRADING_NT513,NT513,Tree Trading FIZ LLC,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 FUNCTIONALPRODUCTS:PARATAC 178,PARATAC 178,Tri-iso Inc. (distributor; manufacturer not printed),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s26_functional_products.json
-TURKMENBASHY:SN1200,Turkmenbashy SN1200,Turkmenbashy refinery,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s58_turkmenbashy.json
-TURKMENBASHY:SN180,Turkmenbashy SN180,Turkmenbashy refinery,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s58_turkmenbashy.json
-TURKMENBASHY:SN350,Turkmenbashy SN350,Turkmenbashy refinery,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s58_turkmenbashy.json
-TURKMENBASHY:SN600,Turkmenbashy SN600,Turkmenbashy refinery,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s58_turkmenbashy.json
-TURKMENBASHY:SN80,Turkmenbashy SN80,Turkmenbashy refinery,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s58_turkmenbashy.json
+TURKMENBASHY:SN1200,Turkmenbashy SN1200,Turkmenbashy refinery,new_candidate,base_oil,yes,verified,established,"reviewed (S58, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s58_turkmenbashy.json
+TURKMENBASHY:SN180,Turkmenbashy SN180,Turkmenbashy refinery,new_candidate,base_oil,yes,verified,established,"reviewed (S58, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s58_turkmenbashy.json
+TURKMENBASHY:SN350,Turkmenbashy SN350,Turkmenbashy refinery,new_candidate,base_oil,yes,verified,established,"reviewed (S58, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s58_turkmenbashy.json
+TURKMENBASHY:SN600,Turkmenbashy SN600,Turkmenbashy refinery,new_candidate,base_oil,yes,verified,established,"reviewed (S58, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s58_turkmenbashy.json
+TURKMENBASHY:SN80,Turkmenbashy SN80,Turkmenbashy refinery,new_candidate,base_oil,yes,verified,established,"reviewed (S58, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s58_turkmenbashy.json
 VANDERBILT:BUTYLATED HYDROXY TOLUENE TECH GRADE,BUTYLATED HYDROXY TOLUENE TECH GRADE,"Vanderbilt Chemicals, LLC",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s22_vanderbilt.json
 VANDERBILT:MOLYVAN 3000,MOLYVAN 3000,"Vanderbilt Chemicals, LLC",new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s22_vanderbilt.json
 VANDERBILT:MOLYVAN 807,MOLYVAN 807,"Vanderbilt Chemicals, LLC",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s22_vanderbilt.json
