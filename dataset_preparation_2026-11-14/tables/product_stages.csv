@@ -1101,11 +1101,11 @@ XINXING:XT-63297,XT-63297,"Jinzhou Xinxing Petroleum Additive Co., Ltd.",new_can
 XINXING:XT-64223,XT-64223,"Jinzhou Xinxing Petroleum Additive Co., Ltd.",new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s13_jinzhou.json
 EXISTING:JINZHOU_KANGTAI_KT31140,KT31140,KangTai . Lubricant Addtives,existing,additive_package,yes,existing record (no new-archive identity decision),established,"reviewed (pilot S17, 2026-11-15; all sheets read in full)",complete,no,1,1,,product_identities.csv
 FORMOSA:M_25_SSI,M 25 SSI,Kemipex / Formosa Petrochemical,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s57_kemipex.json
-KINGINDUSTRIES:NA_LUBE_AO_142_I,NA-LUBE AO-142-I,"King Industries, Inc.",new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s34_king.json
-KINGINDUSTRIES:NA_LUBE_BL_1208,NA-LUBE BL-1208,"King Industries, Inc.",new_candidate,additive_package,yes,verified,established,not started,not started,no,5,5,,s34_king.json
+KINGINDUSTRIES:NA_LUBE_AO_142_I,NA-LUBE AO-142-I,"King Industries, Inc.",new_candidate,additive_component,yes,verified,established,"reviewed (S34, 2026-11-16; all sheets read in full)",complete,yes,2,2,,s34_king.json
+KINGINDUSTRIES:NA_LUBE_BL_1208,NA-LUBE BL-1208,"King Industries, Inc.",new_candidate,additive_package,yes,verified,established,"reviewed (S34, 2026-11-16; all sheets read in full)",complete,yes,5,5,,s34_king.json
 KINGINDUSTRIES:NA_LUBE_KR_008,NA-LUBE KR-008,"King Industries, Inc.",new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s34_king.json
 KINGINDUSTRIES:NA_LUBE_KR_019,NA-LUBE KR-019,"King Industries, Inc.",new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s34_king.json
-KINGINDUSTRIES:NA_SUL_BSN,NA-SUL BSN,"King Industries, Inc.",new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s34_king.json
+KINGINDUSTRIES:NA_SUL_BSN,NA-SUL BSN,"King Industries, Inc.",new_candidate,additive_component,yes,verified,established,"reviewed (S34, 2026-11-16; all sheets read in full)",complete,yes,2,2,,s34_king.json
 KRATON:G1701_E,Kraton G1701 E,Kraton,new_candidate,unresolved (additive_component or out_of_template — oil gel / lubricant use noted but unclear),yes,verified,unresolved,not started,not started,no,2,2,,s49_kraton.json
 KRATON:G1701_M,Kraton G1701 M,Kraton,out_of_scope,out_of_template (adhesive/bitumen/polymer modifier — no lubricant application stated),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s49_kraton.json
 KRATON:G1702_H,Kraton G1702 H,Kraton,out_of_scope,out_of_template (adhesive/bitumen/polymer modifier — no lubricant application stated),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s49_kraton.json
@@ -1699,9 +1699,9 @@ TIANHE:C_TEC_209,C-TEC 209,Tianhe Chemical Group,new_candidate,additive_componen
 TIANHE:P_TEC_3234,P-TEC 3234,Tianhe Chemical Group,new_candidate,additive_package,yes,verified,established,"reviewed (S43, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s43_tianhe.json
 TIANHE:P_TEC_9100,P-TEC 9100,Tianhe Chemical Group,new_candidate,additive_package,yes,verified,established,"reviewed (S43, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s43_tianhe.json
 TOHO_CHEM:LUBRAN_VI_870,LUBRAN VI-870,Toho Chemical Industry,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s50_formosa.json
-TOHOLCHEM:LUBRAN_141,LUBRAN 141,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s30_shell.json
-TOHOLCHEM:LUBRAN_165,LUBRAN 165,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s30_shell.json
-TOHOLCHEM:LUBRAN_171,LUBRAN 171,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s30_shell.json
+TOHOLCHEM:LUBRAN_141,LUBRAN 141,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,"reviewed (S30, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s30_shell.json
+TOHOLCHEM:LUBRAN_165,LUBRAN 165,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,"reviewed (S30, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s30_shell.json
+TOHOLCHEM:LUBRAN_171,LUBRAN 171,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,"reviewed (S30, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s30_shell.json
 TOTAL:JARYTHERM_DBT,JARYTHERM DBT,TotalEnergies,out_of_scope,out_of_template (heat transfer fluid — synthetic dibenzyltoluene type),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s59_total.json
 EXISTING:TREE_TRADING_NT513,NT513,Tree Trading FIZ LLC,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 FUNCTIONALPRODUCTS:PARATAC 178,PARATAC 178,Tri-iso Inc. (distributor; manufacturer not printed),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s26_functional_products.json
