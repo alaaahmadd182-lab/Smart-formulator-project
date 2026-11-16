@@ -1691,13 +1691,13 @@ EXISTING:LUBRIZOL_CV2601,LUBRIZOL® CV2601,The Lubrizol Corporation,existing,ad
 EXISTING:LUBRIZOL_CV3515,LUBRIZOL® CV3515,The Lubrizol Corporation,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
 EXISTING:LUBRIZOL_CV6320,LUBRIZOL® CV6320,The Lubrizol Corporation,existing,additive_component,yes,existing record (no new-archive identity decision),established,not started,not started,no,2,2,,product_identities.csv
 EXISTING:LUBRIZOL_CV7540,LUBRIZOL® CV7540,The Lubrizol Corporation,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,2,2,,product_identities.csv
-EXISTING:TIANHE_P_TEC_3232,P-TEC 3232,Tianhe Chemical Group,existing,additive_package,yes,existing record; new-archive documents linked,established,not started,not started,no,1,1,,s43_tianhe.json
-TIANHE:C_TEC_104A,C-TEC 104A,Tianhe Chemical Group,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s43_tianhe.json
-TIANHE:C_TEC_151A,C-TEC 151A,Tianhe Chemical Group,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s43_tianhe.json
-TIANHE:C_TEC_206,C-TEC 206,Tianhe Chemical Group,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s43_tianhe.json
-TIANHE:C_TEC_209,C-TEC 209,Tianhe Chemical Group,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s43_tianhe.json
-TIANHE:P_TEC_3234,P-TEC 3234,Tianhe Chemical Group,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s43_tianhe.json
-TIANHE:P_TEC_9100,P-TEC 9100,Tianhe Chemical Group,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s43_tianhe.json
+EXISTING:TIANHE_P_TEC_3232,P-TEC 3232,Tianhe Chemical Group,existing,additive_package,yes,existing record; new-archive documents linked,established,"reviewed (S43, 2026-11-16; all sheets read in full)",complete,no,1,1,,s43_tianhe.json
+TIANHE:C_TEC_104A,C-TEC 104A,Tianhe Chemical Group,new_candidate,additive_component,yes,verified,established,"reviewed (S43, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s43_tianhe.json
+TIANHE:C_TEC_151A,C-TEC 151A,Tianhe Chemical Group,new_candidate,additive_component,yes,verified,established,"reviewed (S43, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s43_tianhe.json
+TIANHE:C_TEC_206,C-TEC 206,Tianhe Chemical Group,new_candidate,additive_component,yes,verified,established,"reviewed (S43, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s43_tianhe.json
+TIANHE:C_TEC_209,C-TEC 209,Tianhe Chemical Group,new_candidate,additive_component,yes,verified,established,"reviewed (S43, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s43_tianhe.json
+TIANHE:P_TEC_3234,P-TEC 3234,Tianhe Chemical Group,new_candidate,additive_package,yes,verified,established,"reviewed (S43, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s43_tianhe.json
+TIANHE:P_TEC_9100,P-TEC 9100,Tianhe Chemical Group,new_candidate,additive_package,yes,verified,established,"reviewed (S43, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s43_tianhe.json
 TOHO_CHEM:LUBRAN_VI_870,LUBRAN VI-870,Toho Chemical Industry,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s50_formosa.json
 TOHOLCHEM:LUBRAN_141,LUBRAN 141,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s30_shell.json
 TOHOLCHEM:LUBRAN_165,LUBRAN 165,"Toho Chemical Industry Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s30_shell.json
