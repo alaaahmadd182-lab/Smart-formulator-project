@@ -374,17 +374,17 @@ BAPCO:UNKNOWN_COA_DL2_14119,"Bapco base oil CoA (DL2-14119, grade unknown)",Bapc
 EXISTING:BAPCO_BAPBASE_4,BAPbase 4,Bapco,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:BAPCO_BAPBASE_6,BAPbase 6,Bapco,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:BAPCO_BAPBASE_8,BAPbase 8,Bapco,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-BETTCHEM:BT3090,BT3090,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
-BETTCHEM:BT3096,BT3096,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
-BETTCHEM:BT3097,BT3097,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
-BETTCHEM:BT3098,BT3098,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
-BETTCHEM:BT_3091,BT 3091,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
-BETTCHEM:BT_3095,BT 3095,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
-BETTCHEM:BT_55006,BT 55006,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
-BETTCHEM:BT_55050,BT 55050,Bettchem,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s39_bettchem.json
-EXISTING:BETTCHEM_BT_3088,BT3088,Bettchem,existing,additive_package,yes,existing record; new-archive documents linked,established,not started,not started,no,1,1,,s39_bettchem.json
-EXISTING:BETTCHEM_BT_3089,BT3089,Bettchem,existing,additive_package,yes,existing record; new-archive documents linked,established,not started,not started,no,1,1,,s39_bettchem.json
-EXISTING:BETTCHEM_BT_3093,BT 3093,Bettchem,existing,additive_package,yes,existing record; new-archive documents linked,established,not started,not started,no,1,1,,s39_bettchem.json
+BETTCHEM:BT3090,BT3090,Bettchem,new_candidate,additive_package,yes,verified,established,"reviewed (S39, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s39_bettchem.json
+BETTCHEM:BT3096,BT3096,Bettchem,new_candidate,additive_package,yes,verified,established,"reviewed (S39, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s39_bettchem.json
+BETTCHEM:BT3097,BT3097,Bettchem,new_candidate,additive_package,yes,verified,established,"reviewed (S39, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s39_bettchem.json
+BETTCHEM:BT3098,BT3098,Bettchem,new_candidate,additive_package,yes,verified,established,"reviewed (S39, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s39_bettchem.json
+BETTCHEM:BT_3091,BT 3091,Bettchem,new_candidate,additive_package,yes,verified,established,"reviewed (S39, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s39_bettchem.json
+BETTCHEM:BT_3095,BT 3095,Bettchem,new_candidate,additive_package,yes,verified,established,"reviewed (S39, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s39_bettchem.json
+BETTCHEM:BT_55006,BT 55006,Bettchem,new_candidate,additive_package,yes,verified,established,"reviewed (S39, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s39_bettchem.json
+BETTCHEM:BT_55050,BT 55050,Bettchem,new_candidate,additive_package,yes,verified,established,"reviewed (S39, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s39_bettchem.json
+EXISTING:BETTCHEM_BT_3088,BT3088,Bettchem,existing,additive_package,yes,existing record; new-archive documents linked,established,"reviewed (S39, 2026-11-16; all sheets read in full)",complete,no,1,1,,s39_bettchem.json
+EXISTING:BETTCHEM_BT_3089,BT3089,Bettchem,existing,additive_package,yes,existing record; new-archive documents linked,established,"reviewed (S39, 2026-11-16; all sheets read in full)",complete,no,1,1,,s39_bettchem.json
+EXISTING:BETTCHEM_BT_3093,BT 3093,Bettchem,existing,additive_package,yes,existing record; new-archive documents linked,established,"reviewed (S39, 2026-11-16; all sheets read in full)",complete,no,1,1,,s39_bettchem.json
 CHEMTURA:NAUGALUBE_16,Naugalube 16,Chemtura Corporation / Naugalube brand,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s37_chemtura.json
 EXISTING:CHEVRON_GROUP_II_100R,Chevron Base Oil 100R,Chevron,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:CHEVRON_GROUP_II_110RLV,Chevron Base Oil 110RLV,Chevron,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
