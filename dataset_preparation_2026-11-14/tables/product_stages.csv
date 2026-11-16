@@ -585,8 +585,8 @@ CRODA:XENITRON 3221,Xenitron 3221,Croda,out_of_scope,out_of_template: finished f
 DORFKETAL:PX_3219,PX 3219,Dorf Ketal Chemicals India Pvt. Ltd.,out_of_scope,out_of_template (fuel additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s38_dorfketal.json
 DORFKETAL:PX_3402,PX 3402,Dorf Ketal Chemicals India Pvt. Ltd.,out_of_scope,out_of_template (fuel additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s38_dorfketal.json
 DORFKETAL:PX_3462,PX 3462,Dorf Ketal Chemicals India Pvt. Ltd.,out_of_scope,out_of_template (fuel additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s38_dorfketal.json
-DORFKETAL:PX_3841,PX-3841,Dorf Ketal Chemicals India Pvt. Ltd.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s38_dorfketal.json
-DORFKETAL:PX_3871,PX-3871,Dorf Ketal Chemicals India Pvt. Ltd.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s38_dorfketal.json
+DORFKETAL:PX_3841,PX-3841,Dorf Ketal Chemicals India Pvt. Ltd.,new_candidate,additive_component,yes,verified,established,"reviewed (S38, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s38_dorfketal.json
+DORFKETAL:PX_3871,PX-3871,Dorf Ketal Chemicals India Pvt. Ltd.,new_candidate,additive_component,yes,verified,established,"reviewed (S38, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s38_dorfketal.json
 DORFKETAL:SR_8208,SR 8208,Dorf Ketal Chemicals India Pvt. Ltd.,out_of_scope,out_of_template (fuel additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s38_dorfketal.json
 DORFKETAL:UNKNOWN_IC303144,Unknown product (IC:303144),Dorf Ketal Chemicals India Pvt. Ltd.,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s38_dorfketal.json
 DOVER:UNKNOWN_DOC_DL2_15643,Unknown Dover Chemical product,Dover Chemical Corporation,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s34_king.json
@@ -834,7 +834,7 @@ HATCO:HATCOL_3169,HATCOL 3169,Hatco Corporation,new_candidate,unresolved,yes,ver
 HUNTSMAN:TEPA,TEPA (Tetraethylenepentamine),Huntsman,out_of_scope,out_of_template (industrial chemical / polyamide precursor — no lubricant application stated),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s56_huntsman.json
 HYRAX:HYPERTRANS,Hyrax Hypertrans,Hyrax Oil,out_of_scope,out_of_template (transformer / electrical insulating oil),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,4,4,,s51_hyrax.json
 HYRAX:NAPREX_L40,Hyrax Naprex L-40,Hyrax Oil,new_candidate,unresolved (naphthenic process oil — base_oil Group V or out_of_template),yes,verified,unresolved,not started,not started,no,1,1,,s51_hyrax.json
-HYUNDAIOILBANK:HSB_500N,HSB 500N (DAESAN),"Hyundai Oilbank Co., Ltd. / Shell (joint venture base oil)",new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s30_shell.json
+HYUNDAIOILBANK:HSB_500N,HSB 500N (DAESAN),"Hyundai Oilbank Co., Ltd. / Shell (joint venture base oil)",new_candidate,base_oil,yes,verified,established,"reviewed (S30, 2026-11-16; all sheets read in full)",complete,yes,2,2,,s30_shell.json
 ILCO:ILCO_PHOS_366,ILCO PHOS 366,ILCO (manufacturer not printed on page 1),out_of_scope,out_of_template (fire-resistant hydraulic fluid),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s30_shell.json
 INEOS:CERECLOR 42,Cereclor 42,INEOS (INEOS Oligomers),new_candidate,additive_component,yes,verified,open question,not started,not started,no,1,1,,s12_ineos.json
 INEOS:DURASYN 125,Durasyn 125,INEOS (INEOS Oligomers),new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s12_ineos.json
@@ -1109,8 +1109,8 @@ KINGINDUSTRIES:NA_SUL_BSN,NA-SUL BSN,"King Industries, Inc.",new_candidate,addit
 KRATON:G1701_E,Kraton G1701 E,Kraton,new_candidate,unresolved (additive_component or out_of_template — oil gel / lubricant use noted but unclear),yes,verified,unresolved,not started,not started,no,2,2,,s49_kraton.json
 KRATON:G1701_M,Kraton G1701 M,Kraton,out_of_scope,out_of_template (adhesive/bitumen/polymer modifier — no lubricant application stated),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s49_kraton.json
 KRATON:G1702_H,Kraton G1702 H,Kraton,out_of_scope,out_of_template (adhesive/bitumen/polymer modifier — no lubricant application stated),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s49_kraton.json
-KRATON:G1750_V,Kraton G1750 V,Kraton,new_candidate,additive_component,yes,verified,established,not started,not started,no,3,3,,s49_kraton.json
-KRATON:G1765,Kraton G1765,Kraton,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s49_kraton.json
+KRATON:G1750_V,Kraton G1750 V,Kraton,new_candidate,additive_component,yes,verified,established,"reviewed (S49, 2026-11-16; all sheets read in full)",complete,yes,3,3,,s49_kraton.json
+KRATON:G1765,Kraton G1765,Kraton,new_candidate,additive_component,yes,verified,established,"reviewed (S49, 2026-11-16; SDS only cached)",complete,yes,1,1,,s49_kraton.json
 KUSA:KUNOX A8000,KUNOX A8000,Kusa Chemicals Pvt. Ltd.,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s16_kusa.json
 KUSA:KUNOX A9000,KUNOX A9000,Kusa Chemicals Pvt. Ltd.,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s16_kusa.json
 KUSA:KUSACRYL 2231,KUSACRYL 2231,Kusa Chemicals Pvt. Ltd.,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s16_kusa.json
@@ -1367,7 +1367,7 @@ EXISTING:NYNAS_T_600,Nynas T 600,Nynas,existing,base_oil,yes,existing record (no
 EXISTING:NYNAS_T_9,Nynas T 9,Nynas,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
 NYNAS:NYTRO_LIBRA,Nytro Libra,Nynas AB,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s29_nynas.json
 NYNAS:NYTRO_LYRA_X,Nytro Lyra X,Nynas AB,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s29_nynas.json
-OCEAN_CHEM:P8401_PPD,P8401 PMA PPD,Ocean Chemical Technology,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s50_formosa.json
+OCEAN_CHEM:P8401_PPD,P8401 PMA PPD,Ocean Chemical Technology,new_candidate,additive_component,yes,verified,established,"reviewed (S50, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s50_formosa.json
 OCEANCHEMICAL:HC6247,HC6247,"Ocean Chemical Technology Co., Ltd.",new_candidate,additive_component,yes,verified,established,"reviewed (S28, 2026-11-16; all sheets read in full)",complete,yes,2,2,,s28_sk_yubase.json
 OLEON:RADIA 7179,RADIA 7179,Oleon NV,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,3,3,,s27_oleon.json
 OLEON:RADIA 7192,RADIA 7192,Oleon NV,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s27_oleon.json
@@ -1662,7 +1662,7 @@ EXISTING:ARAMCO_LUBEREF_PRIMA_150,aramcoPRIMA 150,Saudi Aramco Luberef,existing,
 EXISTING:ARAMCO_LUBEREF_PRIMA_220,aramcoPRIMA 220,Saudi Aramco Luberef,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:ARAMCO_LUBEREF_PRIMA_500L,aramcoPRIMA 500L,Saudi Aramco Luberef,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:ARAMCO_LUBEREF_PRIMA_600,aramcoPRIMA 600,Saudi Aramco Luberef,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
-MINGLAN:T106D_SUP_HIGH_TBN_CA_SUL,T106D Super High TBN Calcium Sulfonate,Shanghai Minglan Chemical,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s60_micro.json
+MINGLAN:T106D_SUP_HIGH_TBN_CA_SUL,T106D Super High TBN Calcium Sulfonate,Shanghai Minglan Chemical,new_candidate,additive_component,yes,verified,established,"reviewed (S60, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s60_micro.json
 EXISTING:SHELL_RISELLA_X_415,Shell Risella X 415,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,3,,product_identities.csv
 EXISTING:SHELL_RISELLA_X_420,Shell Risella X 420,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,4,4,,product_identities.csv
 EXISTING:SHELL_RISELLA_X_430,Shell Risella X 430,Shell,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,1,1,,product_identities.csv
@@ -1672,7 +1672,7 @@ SONGWON:SONGNOX_L107,SONGNOX L107,"Songwon Industrial Co., Ltd.",new_candidate,a
 SONGWON:SONGNOX_L135,SONGNOX L135,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,"reviewed (S42, 2026-11-16; all sheets read in full)",complete,yes,3,3,,s42_songwon.json
 SONGWON:SONGNOX_L570,SONGNOX L570,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,"reviewed (S42, 2026-11-16; all sheets read in full)",complete,yes,3,3,,s42_songwon.json
 SONGWON:SONGNOX_L670,SONGNOX L670,"Songwon Industrial Co., Ltd.",new_candidate,additive_component,yes,verified,established,"reviewed (S42, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s42_songwon.json
-TANEE:TE_598,TE-598 Dialkyl Diphenylamine,Tanee Chemical,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s60_micro.json
+TANEE:TE_598,TE-598 Dialkyl Diphenylamine,Tanee Chemical,new_candidate,additive_component,yes,verified,established,"reviewed (S60, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s60_micro.json
 DOW:DOWTHERM A,DOWTHERM A,The Dow Chemical Company,out_of_scope,out_of_template: heat transfer fluid,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s19_dow.json
 EXISTING:LUBRIZOL_16008,LUBRIZOL® 16008,The Lubrizol Corporation,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,3,3,,product_identities.csv
 EXISTING:LUBRIZOL_3589C,LUBRIZOL® 3589C,The Lubrizol Corporation,existing,additive_package,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
