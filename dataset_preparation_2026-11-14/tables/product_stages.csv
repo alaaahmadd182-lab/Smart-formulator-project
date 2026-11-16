@@ -385,7 +385,7 @@ BETTCHEM:BT_55050,BT 55050,Bettchem,new_candidate,additive_package,yes,verified,
 EXISTING:BETTCHEM_BT_3088,BT3088,Bettchem,existing,additive_package,yes,existing record; new-archive documents linked,established,"reviewed (S39, 2026-11-16; all sheets read in full)",complete,no,1,1,,s39_bettchem.json
 EXISTING:BETTCHEM_BT_3089,BT3089,Bettchem,existing,additive_package,yes,existing record; new-archive documents linked,established,"reviewed (S39, 2026-11-16; all sheets read in full)",complete,no,1,1,,s39_bettchem.json
 EXISTING:BETTCHEM_BT_3093,BT 3093,Bettchem,existing,additive_package,yes,existing record; new-archive documents linked,established,"reviewed (S39, 2026-11-16; all sheets read in full)",complete,no,1,1,,s39_bettchem.json
-CHEMTURA:NAUGALUBE_16,Naugalube 16,Chemtura Corporation / Naugalube brand,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s37_chemtura.json
+CHEMTURA:NAUGALUBE_16,Naugalube 16,Chemtura Corporation / Naugalube brand,new_candidate,additive_component,yes,verified,established,"reviewed (S37, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s37_chemtura.json
 EXISTING:CHEVRON_GROUP_II_100R,Chevron Base Oil 100R,Chevron,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:CHEVRON_GROUP_II_110RLV,Chevron Base Oil 110RLV,Chevron,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
 EXISTING:CHEVRON_GROUP_II_150R,Chevron Base Oil 150R,Chevron,existing,base_oil,yes,existing record (no new-archive identity decision),established,not started,not started,no,0,0,,product_identities.csv
@@ -590,7 +590,7 @@ DORFKETAL:PX_3871,PX-3871,Dorf Ketal Chemicals India Pvt. Ltd.,new_candidate,add
 DORFKETAL:SR_8208,SR 8208,Dorf Ketal Chemicals India Pvt. Ltd.,out_of_scope,out_of_template (fuel additive),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s38_dorfketal.json
 DORFKETAL:UNKNOWN_IC303144,Unknown product (IC:303144),Dorf Ketal Chemicals India Pvt. Ltd.,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s38_dorfketal.json
 DOVER:UNKNOWN_DOC_DL2_15643,Unknown Dover Chemical product,Dover Chemical Corporation,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s34_king.json
-DOWPOL:NEOFLEX_680,NeoFlex 680,Dowpol Chemical International Corp.,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s28_sk_yubase.json
+DOWPOL:NEOFLEX_680,NeoFlex 680,Dowpol Chemical International Corp.,new_candidate,additive_component,yes,verified,established,"reviewed (S28, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s28_sk_yubase.json
 DOWPOL:DOWSYN AN15,DowSyn AN15,Dowpol Chemical International Corp. (DowSyn),new_candidate,base_oil,yes,verified,open question,not started,not started,no,2,2,,s19_dow.json
 DOWPOL:DOWSYN AN23,DowSyn AN23,Dowpol Chemical International Corp. (DowSyn),new_candidate,base_oil,yes,verified,open question,not started,not started,no,2,2,,s19_dow.json
 DOWPOL:DOWSYN AN30,DowSyn AN30,Dowpol Chemical International Corp. (DowSyn),new_candidate,base_oil,yes,verified,open question,not started,not started,no,2,2,,s19_dow.json
@@ -1368,7 +1368,7 @@ EXISTING:NYNAS_T_9,Nynas T 9,Nynas,existing,base_oil,yes,existing record (no new
 NYNAS:NYTRO_LIBRA,Nytro Libra,Nynas AB,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s29_nynas.json
 NYNAS:NYTRO_LYRA_X,Nytro Lyra X,Nynas AB,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s29_nynas.json
 OCEAN_CHEM:P8401_PPD,P8401 PMA PPD,Ocean Chemical Technology,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s50_formosa.json
-OCEANCHEMICAL:HC6247,HC6247,"Ocean Chemical Technology Co., Ltd.",new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s28_sk_yubase.json
+OCEANCHEMICAL:HC6247,HC6247,"Ocean Chemical Technology Co., Ltd.",new_candidate,additive_component,yes,verified,established,"reviewed (S28, 2026-11-16; all sheets read in full)",complete,yes,2,2,,s28_sk_yubase.json
 OLEON:RADIA 7179,RADIA 7179,Oleon NV,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,3,3,,s27_oleon.json
 OLEON:RADIA 7192,RADIA 7192,Oleon NV,new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s27_oleon.json
 OLEON:RADIALUBE 7361,RADIALUBE 7361,Oleon NV,new_candidate,unresolved,yes,"verified, open question",unresolved,not started,not started,no,3,3,,s27_oleon.json
@@ -1549,9 +1549,9 @@ EXISTING:S_OIL_ULTRA_S_4,Ultra-S 4 (100 Neutral),S-OIL Corporation,existing,base
 EXISTING:S_OIL_ULTRA_S_6,Ultra-S 6 (150 Neutral),S-OIL Corporation,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,3,3,,s40_soil.json
 EXISTING:S_OIL_ULTRA_S_8,Ultra-S 8 (250 Neutral),S-OIL Corporation,existing,base_oil,yes,existing record; new-archive documents linked,established,not started,not started,no,3,3,,s40_soil.json
 SOIL:TRANSFORMER_OIL_TI,S-OIL Transformer Oil T/I,S-OIL Corporation,out_of_scope,out_of_template (electrical insulating oil),yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s40_soil.json
-SIGROUP:ETHAFLOW_6705,ETHAFLOW 6705,"SI Group, Inc.",new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s37_chemtura.json
-SIGROUP:ETHANOX_4703,ETHANOX 4703,"SI Group, Inc.",new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s37_chemtura.json
-SK:YUBASE_4P,YUBASE 4 Plus (YUBASE 4P),"SK Lubricants Co., Ltd.",new_candidate,base_oil,yes,"verified, open question",established,not started,not started,no,1,1,,s28_sk_yubase.json
+SIGROUP:ETHAFLOW_6705,ETHAFLOW 6705,"SI Group, Inc.",new_candidate,additive_component,yes,verified,established,"reviewed (S37, 2026-11-16; all sheets read in full)",complete,yes,2,2,,s37_chemtura.json
+SIGROUP:ETHANOX_4703,ETHANOX 4703,"SI Group, Inc.",new_candidate,additive_component,yes,verified,established,"reviewed (S37, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s37_chemtura.json
+SK:YUBASE_4P,YUBASE 4 Plus (YUBASE 4P),"SK Lubricants Co., Ltd.",new_candidate,base_oil,yes,"verified, open question",established,"reviewed (S28, 2026-11-16; all sheets read in full)",complete,no,1,1,,s28_sk_yubase.json
 SAMA:12-HSA,12-HSA,Sama Lubricants Co. (trading company),out_of_scope,out_of_template: other chemical,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s08_sama.json
 SAMA:A1010,A1010,Sama Lubricants Co. (trading company),out_of_scope,out_of_template: coolant additive,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,3,,s08_sama.json
 SAMA:A1011,A1011,Sama Lubricants Co. (trading company),out_of_scope,out_of_template: coolant additive,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,2,2,,s08_sama.json
