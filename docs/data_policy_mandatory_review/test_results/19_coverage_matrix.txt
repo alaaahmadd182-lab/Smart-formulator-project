@@ -1,29 +1,15 @@
 command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe build_coverage_matrix.py --output Coverage_Matrix.xlsx --overwrite
 cwd: C:\Users\User\FYP\Smart-formulator-project
-HEAD: 92c7f500f7038539d4797f7742e91f99e3cdfb83
-return code: 2
+HEAD: 8b2a1196b3e70ffe430bdb1ad32d91f836e6d6f0
+return code: 0
 expectation: zero
-verdict: FAIL
-duration: 3.3 s
+verdict: pass
+duration: 3.4 s
 
 ===== stdout =====
-VALIDATION FAILED: 15 blocking finding(s); Coverage_Matrix.xlsx was NOT written.
-  Unclassified status-free field: Products_json/Additive_components_json/CRISTOL/CRISTOL_PMA_D_70/vm.json/polymer_chemistry (Needs manual status review)
-  Duplicate property: Products_json/Additive_components_json/CRISTOL/CRISTOL_PPD_LX_250/ppd.json (active_content)
-  Duplicate property: Products_json/Additive_components_json/CRISTOL/CRISTOL_PPD_LX_250/ppd.json (carrier)
-  Unclassified status-free field: Products_json/Additive_components_json/CRISTOL/CRISTOL_VII_400/vm.json/polymer_chemistry (Needs manual status review)
-  Unclassified status-free field: Products_json/Additive_components_json/EVONIK/EVONIK_VISCOPLEX_0_223/vm.json/polymer_chemistry (Needs manual status review)
-  Duplicate property: Products_json/Additive_components_json/EVONIK/EVONIK_VISCOPLEX_1_254/ppd.json (active_content)
-  Duplicate property: Products_json/Additive_components_json/EVONIK/EVONIK_VISCOPLEX_1_254/ppd.json (carrier)
-  Unclassified status-free field: Products_json/Additive_components_json/EVONIK/EVONIK_VISCOPLEX_4_677/vm.json/polymer_chemistry (Needs manual status review)
-  Unclassified status-free field: Products_json/Additive_components_json/EVONIK/EVONIK_VISCOPLEX_7_310/vm.json/polymer_chemistry (Needs manual status review)
-  Unclassified status-free field: Products_json/Additive_components_json/EVONIK/EVONIK_VISCOPLEX_8_200/vm.json/polymer_chemistry (Needs manual status review)
-  Unclassified status-free field: Products_json/Additive_components_json/EVONIK/EVONIK_VISCOPLEX_8_251/vm.json/polymer_chemistry (Needs manual status review)
-  Unclassified status-free field: Products_json/Additive_components_json/EVONIK/EVONIK_VISCOPLEX_8_400/vm.json/polymer_chemistry (Needs manual status review)
-  Unclassified status-free field: Products_json/Additive_components_json/KANGTAI/KANGTAI_KT620/vm.json/polymer_chemistry (Needs manual status review)
-  Unclassified status-free field: Products_json/Additive_components_json/KANGTAI/KANGTAI_KT6613/vm.json/polymer_chemistry (Needs manual status review)
-  Unclassified status-free field: Products_json/Additive_components_json/KANGTAI/KANGTAI_KT6614/vm.json/polymer_chemistry (Needs manual status review)
-Diagnostic workbook: C:\Users\User\FYP\Smart-formulator-project\Coverage_Matrix_DIAGNOSTIC.xlsx
+OUTPUT C:\Users\User\FYP\Smart-formulator-project\Coverage_Matrix.xlsx products 368 json 867 issues 947 classes {'additive_component': 73, 'additive_package': 106, 'base_oil': 189} status {'Missing': 3688, 'Reported': 4671, 'Not Applicable': 7, 'Calculated': 36, 'Not Required': 11}
+traceability warnings {}
+traceability infos {'Verified manufacturer-issued PDF with page; archived copy': 36, 'Verified manufacturer-issued web page (no page numbers)': 36, 'Verified manufacturer-issued PDF with page': 36, 'Verified distributor-issued PDF with page': 2, 'Verified manufacturer-issued web page (no page numbers); archived copy': 4}
 
 ===== stderr =====
 

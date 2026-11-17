@@ -1,6 +1,6 @@
 command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/integration_diff.py --changed --against f4d97e71f72598df601b72403775581c34061ad1
 cwd: C:\Users\User\FYP\Smart-formulator-project
-HEAD: 92c7f500f7038539d4797f7742e91f99e3cdfb83
+HEAD: 8b2a1196b3e70ffe430bdb1ad32d91f836e6d6f0
 return code: 0
 expectation: zero + output matches 'NEW \\(absent at '
 verdict: pass

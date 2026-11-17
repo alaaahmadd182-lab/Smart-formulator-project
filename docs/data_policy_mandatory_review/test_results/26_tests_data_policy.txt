@@ -1,10 +1,10 @@
 command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover -s tools/data_policy/tests -v
 cwd: C:\Users\User\FYP\Smart-formulator-project
-HEAD: 92c7f500f7038539d4797f7742e91f99e3cdfb83
+HEAD: 8b2a1196b3e70ffe430bdb1ad32d91f836e6d6f0
 return code: 1
 expectation: zero + output matches '\\nOK'
 verdict: FAIL
-duration: 10.5 s
+duration: 12.6 s
 
 ===== stdout =====
 
@@ -235,7 +235,7 @@ test_package_without_published_formulation_ineligible (test_data_policy.Outputs.
 test_snapshot_hash_independent (test_data_policy.Outputs.test_snapshot_hash_independent) ... ok
 test_summary_counts_match_records (test_data_policy.Outputs.test_summary_counts_match_records) ... FAIL
 test_no_write_on_import (test_data_policy.Safety.test_no_write_on_import) ... ok
-test_only_declared_product_files_changed_since_baseline (test_data_policy.Safety.test_only_declared_product_files_changed_since_baseline) ... ok
+test_only_declared_product_files_changed_since_baseline (test_data_policy.Safety.test_only_declared_product_files_changed_since_baseline) ... FAIL
 test_product_json_valid_statuses (test_data_policy.Safety.test_product_json_valid_statuses) ... ok
 test_templates_unchanged_since_baseline (test_data_policy.Safety.test_templates_unchanged_since_baseline) ... ok
 test_exception_keeps_sds_value (test_data_policy.SourceSelection.test_exception_keeps_sds_value) ... ok
@@ -283,8 +283,16 @@ AssertionError: '' != '6'
 + 6
  : ('additive_component', 'function_specific_markers.ca|mg', 'invalid_value')
 
+======================================================================
+FAIL: test_only_declared_product_files_changed_since_baseline (test_data_policy.Safety.test_only_declared_product_files_changed_since_baseline)
 ----------------------------------------------------------------------
-Ran 61 tests in 10.231s
+Traceback (most recent call last):
+  File "C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\tests\test_data_policy.py", line 316, in test_only_declared_product_files_changed_since_baseline
+    self.assertTrue(changed <= allowed, changed - allowed)
+AssertionError: False is not true : {'SONGWON_SONGNOX_L570', 'ELCO_ELCO_87', 'DOWPOL_NEOFLEX_680', 'TIANHE_C_TEC_104A', 'BETTCHEM_BT3098', 'KANGTAI_KT33162', 'ARKEMA_VPS_15', 'EVONIK_VISCOPLEX_0_223', 'KANGTAI_KT33232', 'EVONIK_VISCOPLEX_8_400', 'TIANHE_P_TEC_9100', 'TOHOLCHEM_LUBRAN_141', 'KANGTAI_KT31050', 'ARKEMA_VPS_11', 'BETTCHEM_BT_55050', 'KANGTAI_KT3323', 'TOHOLCHEM_LUBRAN_165', 'KANGTAI_KT30090', 'KANGTAI_KZZ2038', 'ARKEMA_TPS_20', 'KANGTAI_KT33070', 'KRATON_G1765', 'CHEMTURA_NAUGALUBE_16', 'CRISTOL_PMA_D_70', 'BETTCHEM_BT3096', 'BETTCHEM_BT_3091', 'KANGTAI_KTD1354', 'KANGTAI_KT33160A', 'TIANHE_P_TEC_3234', 'BETTCHEM_BT_55006', 'SONGWON_SONGNOX_L135', 'KANGTAI_KT6613', 'TANEE_TE_598', 'KANGTAI_KT33070A', 'EVONIK_VISCOPLEX_4_677', 'KANGTAI_KT3321', 'BETTCHEM_BT3090', 'TURKMENBASHY_SN350', 'DORFKETAL_PX_3871', 'OCEANCHEMICAL_HC6247', 'KANGTAI_KT6614', 'KANGTAI_KT33133', 'EVONIK_VISCOPLEX_14_520', 'KANGTAI_KT3309', 'SIGROUP_ETHANOX_4703', 'KANGTAI_KT33303A', 'TURKMENBASHY_SN1200', 'SIGROUP_ETHAFLOW_6705', 'KANGTAI_KT33210', 'KANGTAI_BDC030', 'KANGTAI_KTZ2080', 'KANGTAI_KT30100', 'HYUNDAIOILBANK_HSB_500N', 'ELCO_ELCO_313A', 'KANGTAI_KT3069', 'EVONIK_VISCOPLEX_7_310', 'KINGINDUSTRIES_NA_LUBE_AO_142_I', 'TIANHE_C_TEC_151A', 'KANGTAI_KT33161', 'KANGTAI_KT620', 'KANGTAI_BDC300', 'KINGINDUSTRIES_NA_SUL_BSN', 'KRATON_G1750_V', 'KANGTAI_KT33169', 'ELCO_ELCO_301', 'KANGTAI_KTD1354E', 'SONGWON_SONGNOX_L107', 'KANGTAI_KTD1351', 'EVONIK_VISCOPLEX_8_251', 'DORFKETAL_PX_3841', 'TIANHE_C_TEC_206', 'KANGTAI_KTD1354B', 'FORMOSA_BASE_OIL_GII_500N', 'ARKEMA_TPS_44', 'KINGINDUSTRIES_NA_LUBE_BL_1208', 'OCEAN_CHEM_P8401_PPD', 'TOHOLCHEM_LUBRAN_171', 'ARKEMA_TPS_32', 'BETTCHEM_BT_3095', 'ARKEMA_VPS_17', 'FORMOSA_M_25_SSI', 'MINGLAN_T106D_SUP_HIGH_TBN_CA_SUL', 'KANGTAI_KZZ2081', 'EVONIK_VISCOPLEX_1_254', 'TOHO_CHEM_LUBRAN_VI_870', 'FORMOSA_BASE_OIL_GII_150N', 'TIANHE_C_TEC_209', 'KANGTAI_KT33158', 'ELCO_ELCO_88', 'KANGTAI_KT31048', 'BETTCHEM_BT3097', 'KANGTAI_BDP250', 'CRISTOL_EPR_3400', 'KANGTAI_BDC400', 'EVONIK_VISCOPLEX_8_200', 'SONGWON_SONGNOX_L670', 'KANGTAI_KTZ2048', 'TURKMENBASHY_SN80', 'CRISTOL_PPD_LX_250', 'CRISTOL_VII_400', 'KANGTAI_KT33303', 'KANGTAI_BDC010', 'TURKMENBASHY_SN600', 'TURKMENBASHY_SN180'}
 
-FAILED (failures=3)
+----------------------------------------------------------------------
+Ran 61 tests in 12.383s
+
+FAILED (failures=4)
 
