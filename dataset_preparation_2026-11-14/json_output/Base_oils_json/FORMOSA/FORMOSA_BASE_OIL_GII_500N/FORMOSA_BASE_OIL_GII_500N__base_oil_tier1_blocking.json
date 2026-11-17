@@ -1,0 +1,233 @@
+{
+  "template_version": "1.1",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "FORMOSA_BASE_OIL_GII_500N",
+  "product": {
+    "product_id": "BASE_OIL_GII_500N",
+    "material_id": "FORMOSA:BASE_OIL_GII_500N",
+    "product_name": "Formosa Petrochemical Group II 500N",
+    "supplier": "Formosa Petrochemical"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-14080.pdf",
+      "pages": "",
+      "doc_type": "certificate of quality (CoQ), batch test result",
+      "revision_date": "2020-01-18",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": "FORMOSA PETROCHEMICAL CORPORATION BASE OIL 500 N GII",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-14080.pdf",
+          "page": 1,
+          "revision_date": "2020-01-18"
+        },
+        "notes": "cargo name on CoQ explicitly states \"GII\"; also corroborated by spec limits (VI 95 MIN, sulfur 10 ppm MAX, saturates 99 MIN wt%, aromatics 1 MAX wt%) consistent with API Group II classification (saturates ≥90%, aromatics <10%, sulfur <0.03%=300 ppm, VI 80-119)"
+      },
+      "chemistry": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "kv40": {
+      "value": 89.04,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "report-only",
+      "printed_text": "VISCOSITY @ 40°C, CST: 89.04 (REPORT spec — no limit stated)",
+      "unit": "mm2/s",
+      "test_temperature_c": null,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14080.pdf",
+        "page": 1,
+        "revision_date": "2020-01-18"
+      },
+      "notes": "CoQ spec column says \"REPORT\" (no specification limit for kv40); value is batch result"
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": null,
+      "min": 10,
+      "max": 12,
+      "value_kind": "range",
+      "printed_text": "VISCOSITY @ 100°C, CST: 10-12 (spec)",
+      "unit": "mm2/s",
+      "test_temperature_c": null,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14080.pdf",
+        "page": 1,
+        "revision_date": "2020-01-18"
+      },
+      "alternate_entries": [
+        {
+          "value": 10.34,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "report-only",
+          "printed_text": "VISCOSITY @ 100°C, CST: 10.34",
+          "unit": "mm2/s",
+          "test_temperature_c": null,
+          "method": "ASTM D445",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14080.pdf",
+            "page": 1,
+            "revision_date": "2020-01-18"
+          },
+          "notes": "batch result; CoQ spec 10-12"
+        }
+      ]
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": ">=",
+      "min": 95,
+      "max": null,
+      "value_kind": "bound",
+      "printed_text": "VISCOSITY INDEX: 95 MIN (spec)",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14080.pdf",
+        "page": 1,
+        "revision_date": "2020-01-18"
+      },
+      "alternate_entries": [
+        {
+          "value": 97,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "report-only",
+          "printed_text": "VISCOSITY INDEX: 97",
+          "unit": null,
+          "test_temperature_c": null,
+          "method": "ASTM D2270",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14080.pdf",
+            "page": 1,
+            "revision_date": "2020-01-18"
+          },
+          "notes": "batch result; spec 95 MIN"
+        }
+      ]
+    },
+    "density": {
+      "value": 0.8723,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "report-only",
+      "printed_text": "DENSITY @ 15°C, KG/L: 0.8723 (REPORT spec)",
+      "unit": "kg/L",
+      "test_temperature_c": null,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14080.pdf",
+        "page": 1,
+        "revision_date": "2020-01-18"
+      },
+      "notes": "CoQ spec column says \"REPORT\" (no limit); value is batch result at 15°C"
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found in CoQ; CCS not a specified item in this document",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ],
+    "specific_gravity": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "dimensionless",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; CoQ reports density (kg/L) not specific gravity",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "reference_condition": null
+    }
+  },
+  "open_questions": [
+    {
+      "property": "color",
+      "printed_text": "COLOR: L0.5 MAX (spec), result L0.5",
+      "notes": "spec 0.5 MAX; result L0.5 (L prefix may denote < 0.5 on D1500 scale)",
+      "source": {
+        "file": "DL2-14080.pdf",
+        "page": 1,
+        "revision_date": "2020-01-18"
+      }
+    },
+    {
+      "property": "color_saybolt",
+      "printed_text": "COLOR, SAYBOLT: REPORT spec, result 30",
+      "notes": "spec REPORT (no limit); result 30 Saybolt units; OCR layout makes water content ambiguous — both water content and saybolt may appear as \"30\" in the results column; recorded as saybolt color based on item order in spec table",
+      "source": {
+        "file": "DL2-14080.pdf",
+        "page": 1,
+        "revision_date": "2020-01-18"
+      }
+    },
+    {
+      "property": "appearance",
+      "printed_text": "APPEARANCE: BRIGHT & CLEAR",
+      "notes": null,
+      "source": {
+        "file": "DL2-14080.pdf",
+        "page": 1,
+        "revision_date": "2020-01-18"
+      }
+    }
+  ],
+  "conflicts": []
+}

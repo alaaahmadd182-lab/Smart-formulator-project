@@ -1,0 +1,309 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "OCEANCHEMICAL_HC6247",
+  "product": {
+    "product_id": "HC6247",
+    "material_id": "OCEANCHEMICAL:HC6247",
+    "product_name": "HC6247",
+    "supplier": "Ocean Chemical Technology Co., Ltd."
+  },
+  "source_documents": [
+    {
+      "file": "DL2-15502.pdf",
+      "pages": "",
+      "doc_type": "product data sheet (TDS/PDS), typical properties table",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "component_subtype": null,
+  "fields": {
+    "function": {
+      "primary": {
+        "value": "HC6247 is a star type hydro-diene polymer ... With excellent shear stability (SSI<5), the product can meet the stringent performance requirements of top diesel and engine oils.",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15502.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      "secondary": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; no secondary function stated; primary function is viscosity modification"
+      }
+    },
+    "chemical_family": {
+      "value": "star type hydro-diene polymer",
+      "status": "Reported",
+      "source": {
+        "file": "DL2-15502.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "printed description; \"hydro-diene polymer\" = hydrogenated diene block copolymer (HSBC type); \"star type\" refers to star/radial polymer architecture; TDS does not state exact monomer chemistry (SBS, SIS, SEBS, etc.)"
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; product is a solid polymer in block/pallet form; no active content % stated; TDS disclaimer: \"data is typical value, it could not be applied to the development of product specifications\"",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "carrier": {
+      "identity": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; product is a solid polymer (semi-transparent adhesive block) with no carrier"
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; no carrier stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "treat_rate": {
+      "value": 7.3,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Testing data shows 7.30% HC6247 in a finished 0W-20 C5 gasoline engine oil formulation.",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15502.pdf",
+        "page": 3,
+        "revision_date": null
+      },
+      "notes": "from TESTING DATA OF HC6247 IN BASE OIL FORMULATION table (page 3): 7.30% in a 0W-20 formulation with P5005 10.10%, P8201 0.30%, Yubase4 43.30%, Yubase6 39%; this is a formulation example dose, not a recommended treat range; dissolving example uses 14% dry polymer to make a liquid adhesive solution"
+    },
+    "compatibility_restrictions": {
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "Reported",
+      "notes": "HC6247 has good solubility in all kinds of base oils, easily soluble in solvent refined mineral oil and hydrogenation base oil, and also has good solubility in synthetic base oil.",
+      "source": {
+        "file": "DL2-15502.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mg KOH/g",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; hydro-diene VII — TBN not stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    }
+  },
+  "open_questions": [
+    {
+      "property": "specific_gravity",
+      "printed_text": "Specific gravity: 0.86",
+      "notes": "of the solid polymer; no temperature stated; GB/T 1033 is CN standard for plastic density",
+      "source": {
+        "file": "DL2-15502.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "shear_stability_index",
+      "printed_text": "SSI<5 (product description); SSI (90 Cycles): 3.8 (dissolving example, 10% solution)",
+      "notes": "two SSI references: (1) product description states \"SSI<5\" as a characteristic; (2) dissolving-example table gives SSI=3.8 at 10% liquid adhesive in Yubase4 — this is a solution SSI, not a pure-product SSI",
+      "source": {
+        "file": "DL2-15502.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "toluene_viscosity",
+      "printed_text": "Toluene viscosity (25℃, 20wt%): 2200",
+      "notes": "solution viscosity at 20 wt% in toluene; indicator of molecular weight/architecture",
+      "source": {
+        "file": "DL2-15502.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "melt_flow_index",
+      "printed_text": "Melting index (230℃, 5kg): 20",
+      "notes": null,
+      "source": {
+        "file": "DL2-15502.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "volatility",
+      "printed_text": "Volatility, wt%: 0.25",
+      "notes": null,
+      "source": {
+        "file": "DL2-15502.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "ash_content",
+      "printed_text": "Ash content, wt%: 0.15",
+      "notes": null,
+      "source": {
+        "file": "DL2-15502.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,365 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "KINGINDUSTRIES_NA_LUBE_AO_142_I",
+  "product": {
+    "product_id": "NA_LUBE_AO_142_I",
+    "material_id": "KINGINDUSTRIES:NA_LUBE_AO_142_I",
+    "product_name": "NA-LUBE AO-142-I",
+    "supplier": "King Industries, Inc."
+  },
+  "source_documents": [
+    {
+      "file": "DL2-14947.pdf",
+      "pages": "",
+      "doc_type": "product data sheet (TDS/PDS), typical properties table",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "component_subtype": null,
+  "fields": {
+    "function": {
+      "primary": {
+        "value": "NA-LUBE AO-142-I is a liquid diphenylamine based antioxidant for synthetic and mineral oil based lubricants and greases.",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-14947.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      "secondary": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; no secondary function stated in PDS"
+      }
+    },
+    "chemical_family": {
+      "value": "Butylated, octylated diphenylamine.",
+      "status": "Reported",
+      "source": {
+        "file": "DL2-14947.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "from \"CHEMICAL COMPOSITION\" section; liquid DPA-type antioxidant"
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; no active content % stated in PDS",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "carrier": {
+      "identity": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; no carrier stated — product appears to be a neat liquid (no diluent mentioned)"
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; no carrier stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "treat_rate": {
+      "value": null,
+      "qualifier": null,
+      "min": 0.2,
+      "max": 0.5,
+      "value_kind": "range",
+      "printed_text": "Hydraulic and Circulating Oils: 0.2% - 0.5%",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14947.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "alternate_entries": [
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 0.2,
+          "max": 0.5,
+          "value_kind": "range",
+          "printed_text": "Compressor and Paper Machine Oils: 0.2% - 0.5%",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14947.pdf",
+            "page": 1,
+            "revision_date": null
+          }
+        },
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 0.2,
+          "max": 0.6,
+          "value_kind": "range",
+          "printed_text": "Greases and Engine Oils: 0.2% - 0.6%",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14947.pdf",
+            "page": 1,
+            "revision_date": null
+          }
+        },
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 0.1,
+          "max": 0.6,
+          "value_kind": "range",
+          "printed_text": "Industrial and Automotive Gear Oils: 0.1% - 0.6%",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14947.pdf",
+            "page": 1,
+            "revision_date": null
+          }
+        }
+      ]
+    },
+    "compatibility_restrictions": {
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "not found; no compatibility restrictions stated in PDS; \"suitable for synthetic and mineral oil based lubricants and greases; can also be used in synthetic base fluids such as silicone oils and diesters\" (broad application scope, no restrictions)"
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": 135,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Total Base Number (ASTM D 2896): 135 mg KOH/g",
+        "unit": "mg KOH/g",
+        "test_temperature_c": null,
+        "method": "ASTM D 2896",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-14947.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": "from \"TYPICAL PROPERTIES\"; noted \"not specifications\"; DPA antioxidant TBN"
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    }
+  },
+  "open_questions": [
+    {
+      "property": "nitrogen",
+      "printed_text": "Nitrogen Content: 4.5%",
+      "notes": "from \"TYPICAL PROPERTIES\"; noted \"not specifications\"; N not in function_specific_markers template field",
+      "source": {
+        "file": "DL2-14947.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "kv40",
+      "printed_text": "Viscosity @ 40°C: 280 mm2/s (cSt)",
+      "notes": "from \"TYPICAL PROPERTIES\"; noted \"not specifications\"",
+      "source": {
+        "file": "DL2-14947.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "kv100",
+      "printed_text": "Viscosity @ 100°C: 9.0 mm2/s (cSt)",
+      "notes": "from \"TYPICAL PROPERTIES\"; noted \"not specifications\"",
+      "source": {
+        "file": "DL2-14947.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "density",
+      "printed_text": "Density @ 15.6°C: 0.98 g/ml",
+      "notes": "from \"TYPICAL PROPERTIES\"; noted \"not specifications\"; temperature 15.6°C",
+      "source": {
+        "file": "DL2-14947.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "flash_point",
+      "printed_text": "Flash Point, COC: 185°C (366°F)",
+      "notes": "from \"TYPICAL PROPERTIES\"; noted \"not specifications\"",
+      "source": {
+        "file": "DL2-14947.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "color",
+      "printed_text": "Color (ASTM D 1500 neat): 3.0",
+      "notes": "from \"TYPICAL PROPERTIES\"; noted \"not specifications\"; neat product color",
+      "source": {
+        "file": "DL2-14947.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    }
+  ],
+  "conflicts": []
+}

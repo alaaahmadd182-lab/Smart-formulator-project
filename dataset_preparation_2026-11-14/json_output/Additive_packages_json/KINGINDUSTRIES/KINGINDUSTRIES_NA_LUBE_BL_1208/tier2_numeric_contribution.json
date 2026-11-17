@@ -1,0 +1,554 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "KINGINDUSTRIES_NA_LUBE_BL_1208",
+  "product": {
+    "product_id": "NA_LUBE_BL_1208",
+    "material_id": "KINGINDUSTRIES:NA_LUBE_BL_1208",
+    "product_name": "NA-LUBE BL-1208",
+    "supplier": "King Industries, Inc."
+  },
+  "source_documents": [
+    {
+      "file": "DL2-11419.pdf",
+      "pages": "",
+      "doc_type": "product data sheet (TDS/PDS), typical properties table",
+      "revision_date": "",
+      "notes": ""
+    },
+    {
+      "file": "DL2-14391.pdf",
+      "pages": "",
+      "doc_type": "certificate of analysis (CoA), batch result",
+      "revision_date": "2020-08-11",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "tbn": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; ashless package — TBN not stated in any of the 5 inspected documents",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "sulfated_ash": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; product is described as \"ashless\" but no measured sulfated ash value is stated in any of the 5 inspected documents",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "elements": {
+      "Ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; ashless package — no metallic detergents; Ca not stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; ashless package — Mg not stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "Zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; ashless package — Zn not stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "P": {
+        "value": 0.2,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Phosphorus Content: 0.2%",
+        "unit": "wt%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-11419.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": "from \"TYPICAL PROPERTIES\" table; noted \"not specifications\"; identical on DL2-11696",
+        "alternate_entries": [
+          {
+            "value": 0.21,
+            "qualifier": null,
+            "min": null,
+            "max": null,
+            "value_kind": "report-only",
+            "printed_text": "% PHOSPHORUS: ACTUAL 0.21",
+            "unit": "wt%",
+            "test_temperature_c": null,
+            "method": "KI-220 (X-RAY FLUOR)",
+            "status": "Reported",
+            "calculation_note": null,
+            "source": {
+              "file": "DL2-14391.pdf",
+              "page": 1,
+              "revision_date": "2020-08-11"
+            },
+            "notes": "CoA lot 08641 batch result"
+          },
+          {
+            "value": null,
+            "qualifier": null,
+            "min": 0.17,
+            "max": 0.22,
+            "value_kind": "range",
+            "printed_text": "% PHOSPHORUS: MIN 0.17  MAX 0.22",
+            "unit": "wt%",
+            "test_temperature_c": null,
+            "method": "KI-220 (X-RAY FLUOR)",
+            "status": "Reported",
+            "calculation_note": null,
+            "source": {
+              "file": "DL2-14391.pdf",
+              "page": 1,
+              "revision_date": "2020-08-11"
+            },
+            "notes": "CoA product specification bounds"
+          }
+        ]
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; not stated in any of the 5 inspected documents",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; not stated in any of the 5 inspected documents",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "N": {
+        "value": 3.5,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Nitrogen Content: 3.5%",
+        "unit": "wt%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-11419.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": "from \"TYPICAL PROPERTIES\" table; noted \"not specifications\"; identical on DL2-11696; not measured in CoA DL2-14391"
+      },
+      "S": {
+        "value": 7,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Sulfur Content: 7.0%",
+        "unit": "wt%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-11419.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": "from \"TYPICAL PROPERTIES\" table; noted \"not specifications\"; identical on DL2-11696",
+        "alternate_entries": [
+          {
+            "value": 6.96,
+            "qualifier": null,
+            "min": null,
+            "max": null,
+            "value_kind": "report-only",
+            "printed_text": "% SULFUR: ACTUAL 6.96",
+            "unit": "wt%",
+            "test_temperature_c": null,
+            "method": "KI-220 (X-RAY FLUOR)",
+            "status": "Reported",
+            "calculation_note": null,
+            "source": {
+              "file": "DL2-14391.pdf",
+              "page": 1,
+              "revision_date": "2020-08-11"
+            },
+            "notes": "CoA lot 08641 batch result; MFG 2020-08-11"
+          },
+          {
+            "value": null,
+            "qualifier": null,
+            "min": 6.4,
+            "max": 7.2,
+            "value_kind": "range",
+            "printed_text": "% SULFUR: MIN 6.40  MAX 7.20",
+            "unit": "wt%",
+            "test_temperature_c": null,
+            "method": "KI-220 (X-RAY FLUOR)",
+            "status": "Reported",
+            "calculation_note": null,
+            "source": {
+              "file": "DL2-14391.pdf",
+              "page": 1,
+              "revision_date": "2020-08-11"
+            },
+            "notes": "CoA product specification bounds; Last Spec Rev 2015-11-04"
+          }
+        ]
+      }
+    },
+    "kv40": {
+      "value": 132,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity @ 40°C: 132 mm2/s (cSt)",
+      "unit": "mm2/s",
+      "test_temperature_c": null,
+      "method": "ASTM D 445, DIN 51 550",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11419.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "from \"TYPICAL PROPERTIES\" table; noted \"not specifications\"; identical on DL2-11696",
+      "alternate_entries": [
+        {
+          "value": 139,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "report-only",
+          "printed_text": "VISCOSITY, 40°C, CST: ACTUAL 139",
+          "unit": "mm2/s",
+          "test_temperature_c": null,
+          "method": "ASTM D445  ISO 3104",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14391.pdf",
+            "page": 1,
+            "revision_date": "2020-08-11"
+          },
+          "notes": "CoA lot 08641 batch result"
+        },
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 115,
+          "max": 165,
+          "value_kind": "range",
+          "printed_text": "VISCOSITY, 40°C, CST: MIN 115  MAX 165",
+          "unit": "mm2/s",
+          "test_temperature_c": null,
+          "method": "ASTM D445  ISO 3104",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14391.pdf",
+            "page": 1,
+            "revision_date": "2020-08-11"
+          },
+          "notes": "CoA product specification bounds"
+        }
+      ]
+    },
+    "kv100": {
+      "value": 9,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Viscosity @ 100°C: 9 mm2/s (cSt)",
+      "unit": "mm2/s",
+      "test_temperature_c": null,
+      "method": "ASTM D 445, DIN 51 550",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11419.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "from \"TYPICAL PROPERTIES\" table; noted \"not specifications\"; identical on DL2-11696",
+      "alternate_entries": [
+        {
+          "value": 9.1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "report-only",
+          "printed_text": "VISCOSITY, 100°C, CST: ACTUAL 9.1",
+          "unit": "mm2/s",
+          "test_temperature_c": null,
+          "method": "ASTM D445  ISO 3104",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14391.pdf",
+            "page": 1,
+            "revision_date": "2020-08-11"
+          },
+          "notes": "CoA lot 08641 batch result"
+        },
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 7.5,
+          "max": 11,
+          "value_kind": "range",
+          "printed_text": "VISCOSITY, 100°C, CST: MIN 7.5  MAX 11.0",
+          "unit": "mm2/s",
+          "test_temperature_c": null,
+          "method": "ASTM D445  ISO 3104",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14391.pdf",
+            "page": 1,
+            "revision_date": "2020-08-11"
+          },
+          "notes": "CoA product specification bounds"
+        }
+      ]
+    },
+    "density": {
+      "value": 0.976,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Density @ 25°C: 0.976 g/ml",
+      "unit": "g/ml",
+      "test_temperature_c": null,
+      "method": "ASTM D 4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11419.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "temperature is 25°C (not the standard 15°C); identical on DL2-11696"
+    },
+    "specific_gravity": {
+      "value": 0.977,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "report-only",
+      "printed_text": "SPECIFIC GRAVITY, 25°C: ACTUAL 0.977",
+      "unit": "dimensionless",
+      "test_temperature_c": null,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14391.pdf",
+        "page": 1,
+        "revision_date": "2020-08-11"
+      },
+      "notes": "CoA lot 08641 batch result; temperature is 25°C",
+      "alternate_entries": [
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 0.96,
+          "max": 0.99,
+          "value_kind": "range",
+          "printed_text": "SPECIFIC GRAVITY, 25°C: MIN 0.960  MAX 0.990",
+          "unit": null,
+          "test_temperature_c": null,
+          "method": "ASTM D4052",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14391.pdf",
+            "page": 1,
+            "revision_date": "2020-08-11"
+          },
+          "notes": "CoA product specification bounds; temperature is 25°C"
+        }
+      ],
+      "reference_condition": "25°C"
+    },
+    "flash_point": {
+      "value": 140,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "Flash Point, COC: 140°C",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D 92, DIN 51376",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11419.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "from \"TYPICAL PROPERTIES\" table; noted \"not specifications\"; identical on DL2-11696",
+      "alternate_entries": [
+        {
+          "value": 150,
+          "qualifier": ">",
+          "min": null,
+          "max": null,
+          "value_kind": "report-only",
+          "printed_text": "FLASH POINT, COC, °C: ACTUAL >150",
+          "unit": "°C",
+          "test_temperature_c": null,
+          "method": "ASTM D92  ISO 2592",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14391.pdf",
+            "page": 1,
+            "revision_date": "2020-08-11"
+          },
+          "notes": "CoA lot 08641 batch result; printed as \">150\""
+        },
+        {
+          "value": null,
+          "qualifier": ">=",
+          "min": 120,
+          "max": null,
+          "value_kind": "bound",
+          "printed_text": "FLASH POINT, COC, °C: MIN 120",
+          "unit": "°C",
+          "test_temperature_c": null,
+          "method": "ASTM D92  ISO 2592",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14391.pdf",
+            "page": 1,
+            "revision_date": "2020-08-11"
+          },
+          "notes": "CoA product spec lower bound; no upper bound stated"
+        }
+      ],
+      "flash_method": "ASTM D 92, DIN 51376"
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found in the inspected text",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}

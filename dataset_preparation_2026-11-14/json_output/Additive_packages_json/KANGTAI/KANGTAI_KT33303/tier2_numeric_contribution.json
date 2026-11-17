@@ -1,0 +1,321 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "KANGTAI_KT33303",
+  "product": {
+    "product_id": "KT33303",
+    "material_id": "KANGTAI:KT33303",
+    "product_name": "KT33303",
+    "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd."
+  },
+  "source_documents": [
+    {
+      "file": "DL2-12970.pdf",
+      "pages": "",
+      "doc_type": "product sheet, column headed Typical Value",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "tbn": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "mg KOH/g",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not printed on the sheet (all pages read)",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "sulfated_ash": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not printed on the sheet (all pages read)",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "elements": {
+      "Ca": {
+        "value": null,
+        "qualifier": ">=",
+        "min": 0.5,
+        "max": null,
+        "value_kind": "bound",
+        "printed_text": "Calcium, wt% | 0.50 min",
+        "unit": "wt%",
+        "test_temperature_c": null,
+        "method": "SH/T 0270",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-12970.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "basis": "printed on the cited page"
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not printed on the sheet (all pages read)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "Zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not printed on the sheet (all pages read)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "P": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not printed on the sheet (all pages read)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not printed on the sheet (all pages read)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not printed on the sheet (all pages read)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "N": {
+        "value": null,
+        "qualifier": ">=",
+        "min": 0.88,
+        "max": null,
+        "value_kind": "bound",
+        "printed_text": "Nitrogen, wt%, | 0.88 min",
+        "unit": "wt%",
+        "test_temperature_c": null,
+        "method": "SH/T 0224",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-12970.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "basis": "printed on the cited page"
+      },
+      "S": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not printed on the sheet (all pages read)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not printed on the sheet (all pages read)",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "the sheet lists the property with 'Report' (no value printed) (page 1: 'Kinematic Viscosity (100°C), mm²/s | Report')",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3 (or as printed)",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not printed on the sheet (all pages read)",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "specific_gravity": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "dimensionless",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not printed on the sheet (all pages read)",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "reference_condition": null
+    },
+    "flash_point": {
+      "value": null,
+      "qualifier": ">=",
+      "min": 180,
+      "max": null,
+      "value_kind": "bound",
+      "printed_text": "Flash Point (COC) °C | 180 min",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "GB/T 3536",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12970.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "basis": "printed on the cited page",
+      "flash_method": "GB/T 3536"
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not printed on the sheet (all pages read)",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}

@@ -1,0 +1,212 @@
+{
+  "template_version": "1.1",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "TURKMENBASHY_SN80",
+  "product": {
+    "product_id": "SN80",
+    "material_id": "TURKMENBASHY:SN80",
+    "product_name": "Turkmenbashy SN80",
+    "supplier": "Turkmenbashy refinery"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-11239.pdf",
+      "pages": "",
+      "doc_type": "technical specification (TŞ 05766698-60-2006), properties table",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "not found; API group not stated in TŞ 05766698-60-2006 specification table"
+      },
+      "chemistry": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "cSt",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; specification table does not include kinematic viscosity at 40°C",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": null,
+      "min": 2.5,
+      "max": 3.5,
+      "value_kind": "range",
+      "printed_text": "Kinematic viscosity at 100°C, cSt, within: 2.5–3.5",
+      "unit": "cSt",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11239.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "column header says \"within\" (Turkmenistan spec range; not a typical value)"
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": ">=",
+      "min": 95,
+      "max": null,
+      "value_kind": "bound",
+      "printed_text": "Viscosity index, not less than: 95",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11239.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "dimensionless; spec lower bound only; no typical stated"
+    },
+    "density": {
+      "value": null,
+      "qualifier": "<=",
+      "min": null,
+      "max": 870,
+      "value_kind": "bound",
+      "printed_text": "Density, at 20°C, g/cm3, not more than: 870",
+      "unit": "g/cm3",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11239.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "temperature is 20°C (not the more common 15°C); spec upper bound only"
+    },
+    "ccs": [
+      {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mPa.s",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; CCS not stated in TŞ 05766698-60-2006 specification table",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    ],
+    "specific_gravity": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "dimensionless",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; not stated in specification table (density at 20°C given instead)",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "reference_condition": null
+    }
+  },
+  "open_questions": [
+    {
+      "property": "color",
+      "printed_text": "Color by ЦНТ, max: 0.5",
+      "notes": "ЦНТ color; no ASTM color column given for this grade",
+      "source": {
+        "file": "DL2-11239.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "acid_number",
+      "printed_text": "Acidity number, mg KOH by 1g oil, not more than: 0.02",
+      "notes": "total acid number (TAN); spec upper bound",
+      "source": {
+        "file": "DL2-11239.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "ash",
+      "printed_text": "Ash, %, not more than: 0.005",
+      "notes": "ash content (not sulfated ash); single upper bound for all five grades",
+      "source": {
+        "file": "DL2-11239.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "mechanical_impurities",
+      "printed_text": "Mass portion of mechanical impurities, %, not more than: 0.005",
+      "notes": "mechanical impurities (filterable solids); single upper bound for all grades",
+      "source": {
+        "file": "DL2-11239.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "refraction_coefficient",
+      "printed_text": "Refraction coefficient at 20°C: Have no standard, is necessary",
+      "notes": "document states \"Have no standart, is nessesary\" — no numerical value given; measurement required but no spec limit defined in this standard",
+      "source": {
+        "file": "DL2-11239.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    }
+  ],
+  "conflicts": []
+}

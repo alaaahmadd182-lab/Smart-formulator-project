@@ -1,0 +1,316 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "FORMOSA_M_25_SSI",
+  "product": {
+    "product_id": "M_25_SSI",
+    "material_id": "FORMOSA:M_25_SSI",
+    "product_name": "M 25 SSI",
+    "supplier": "Kemipex / Formosa Petrochemical"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-11416.pdf",
+      "pages": "",
+      "doc_type": "product data sheet (TDS), typical properties table",
+      "revision_date": "",
+      "notes": ""
+    },
+    {
+      "file": "DL2-11417.pdf",
+      "pages": "",
+      "doc_type": "material safety data sheet (MSDS), composition section",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "component_subtype": null,
+  "fields": {
+    "function": {
+      "primary": {
+        "value": "M 25 SSI is a shear stable amorphous olefin copolymer intended for use as a Viscosity Index Improver when formulating multi grade crankcase and industrial oils.",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-11416.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      "secondary": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; no secondary function stated in TDS"
+      }
+    },
+    "chemical_family": {
+      "value": "shear stable amorphous olefin copolymer",
+      "status": "Reported",
+      "source": {
+        "file": "DL2-11416.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "TDS description; MSDS confirms chemical identity: Ethylene Propylene Copolymer, CAS 61789-00-2 (90-100 wt%) per DL2-11417"
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": 90,
+      "max": 100,
+      "value_kind": "range",
+      "printed_text": "Ethylene Propylene Copolymer CAS 61789-00-2: 90-100%wt/wt",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11417.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "from MSDS DL2-11417, Composition section; solid polymer in bale form (no diluent carrier stated in TDS); MSDS is from Kemipex FZE (distributor), not Formosa — admitted as evidence for chemical composition"
+    },
+    "carrier": {
+      "identity": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; product is a solid polymer in bale form; no carrier stated"
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; no carrier stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "treat_rate": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; no recommended treat rate stated in TDS; CCS and MRV measurements at 1.0 wt% in Formosa 150N are test concentrations, not recommended treat levels",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "compatibility_restrictions": {
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "Reported",
+      "notes": "M 25 SSI … suitable for use as shear stable VII. Key Benefits: High shear stability, Excellent low temperature properties, Good Oil Solubility, Excellent thickening capacity, Economical.",
+      "source": {
+        "file": "DL2-11416.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mg KOH/g",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; OCP VM — TBN not stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    }
+  },
+  "open_questions": [
+    {
+      "property": "shear_stability_index",
+      "printed_text": "DIN SSI: 23%",
+      "notes": "from Typical Properties table; \"data are typical values … not to be considered as delivery specification\"",
+      "source": {
+        "file": "DL2-11416.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "ethylene_content",
+      "printed_text": "Ethylene content: 51%",
+      "notes": "from Typical Properties table",
+      "source": {
+        "file": "DL2-11416.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "molecular_weight_distribution",
+      "printed_text": "MWD: Narrow",
+      "notes": null,
+      "source": {
+        "file": "DL2-11416.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "ash_content",
+      "printed_text": "Ash Content: Max 0.1%",
+      "notes": "from Typical Properties table; stated as \"Max 0.1\" — a spec bound",
+      "source": {
+        "file": "DL2-11416.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "ccs",
+      "printed_text": "CCS @ -25°C: 3,400 mPa.s (1.0 wt% in Formosa 150N)",
+      "notes": "solution measurement at 1.0 wt% in Formosa 150N base oil, not a pure-product property",
+      "source": {
+        "file": "DL2-11416.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "mrv",
+      "printed_text": "RV @ -30°C: 13,200 mPa.s (1.0 wt% in Formosa 150N)",
+      "notes": "\"RV\" in document likely refers to Mini-Rotary Viscometer (MRV) measurement; solution measurement at 1.0 wt% in Formosa 150N base oil",
+      "source": {
+        "file": "DL2-11416.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    }
+  ],
+  "conflicts": []
+}

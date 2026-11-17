@@ -1,0 +1,289 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "TOHOLCHEM_LUBRAN_141",
+  "product": {
+    "product_id": "LUBRAN_141",
+    "material_id": "TOHOLCHEM:LUBRAN_141",
+    "product_name": "LUBRAN 141",
+    "supplier": "Toho Chemical Industry Co., Ltd."
+  },
+  "source_documents": [
+    {
+      "file": "DL2-11664.pdf",
+      "pages": "",
+      "doc_type": "product data sheet (TDS), typical properties table",
+      "revision_date": "2015-10-22",
+      "notes": ""
+    }
+  ],
+  "component_subtype": null,
+  "fields": {
+    "function": {
+      "primary": {
+        "value": "LUBRAN 141 is a Polymethacrylate (PMA) type of pour point depressant for lubricating oils.",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-11664.pdf",
+          "page": 1,
+          "revision_date": "2015-10-22"
+        }
+      },
+      "secondary": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; no secondary function stated in TDS"
+      }
+    },
+    "chemical_family": {
+      "value": "Polymethacrylate (PMA) type",
+      "status": "Reported",
+      "source": {
+        "file": "DL2-11664.pdf",
+        "page": 1,
+        "revision_date": "2015-10-22"
+      },
+      "notes": "chemical family stated in product description; full INCI/IUPAC name not given"
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; active polymer content % not stated in TDS",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "carrier": {
+      "identity": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; no carrier or diluent mentioned in TDS — product appears to be neat PMA"
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; no carrier stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "treat_rate": {
+      "value": null,
+      "qualifier": null,
+      "min": 0.1,
+      "max": 0.5,
+      "value_kind": "range",
+      "printed_text": "Pour point depressant performance shown at 0.1%–0.5% in Group II base oils (150N and 500N)",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11664.pdf",
+        "page": 1,
+        "revision_date": "2015-10-22"
+      },
+      "notes": "range from dosage levels in performance table; not an explicit recommended treat rate; individual results for Hyundai/Shell 150N and CNOOC/Exxon Mobil/Formosa 500N base oils; test method JIS K2269"
+    },
+    "compatibility_restrictions": {
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "Reported",
+      "notes": "LUBRAN 141 can be used as an excellent pour point depressant in order to improve oil flows of low viscosity to high viscosity lubricating oils. LUBRAN 141 is effective pour point depressant for a wide range of baseoils, especially oils, such as engine oils and gear oils.",
+      "source": {
+        "file": "DL2-11664.pdf",
+        "page": 1,
+        "revision_date": "2015-10-22"
+      }
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mg KOH/g",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; PPD — TBN not applicable and not stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    }
+  },
+  "open_questions": [
+    {
+      "property": "density",
+      "printed_text": "Density (g/cm³, at 50°C): 0.874",
+      "notes": "temperature is 50°C (non-standard; template density fields assume 15°C or 15.6°C)",
+      "source": {
+        "file": "DL2-11664.pdf",
+        "page": 1,
+        "revision_date": "2015-10-22"
+      }
+    },
+    {
+      "property": "kv100",
+      "printed_text": "Kinematic Viscosity (mm²/s, at 100°C): 400",
+      "notes": "viscosity of neat PMA concentrate (not a formulated oil); very high viscosity typical of concentrate PMA polymers",
+      "source": {
+        "file": "DL2-11664.pdf",
+        "page": 1,
+        "revision_date": "2015-10-22"
+      }
+    },
+    {
+      "property": "flash_point",
+      "printed_text": "Flash Point (°C, COC): 196",
+      "notes": null,
+      "source": {
+        "file": "DL2-11664.pdf",
+        "page": 1,
+        "revision_date": "2015-10-22"
+      }
+    },
+    {
+      "property": "color",
+      "printed_text": "Color (ASTM): 0.5",
+      "notes": "JIS K2580 is the Japanese standard equivalent of ASTM D1500 color scale; ",
+      "source": {
+        "file": "DL2-11664.pdf",
+        "page": 1,
+        "revision_date": "2015-10-22"
+      }
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,263 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "SONGWON_SONGNOX_L570",
+  "product": {
+    "product_id": "SONGNOX_L570",
+    "material_id": "SONGWON:SONGNOX_L570",
+    "product_name": "SONGNOX L570",
+    "supplier": "Songwon Industrial Co., Ltd."
+  },
+  "source_documents": [
+    {
+      "file": "DL2-15703.pdf",
+      "pages": "",
+      "doc_type": "product data sheet, Characteristics & Usages section",
+      "revision_date": "2022-10-20",
+      "notes": ""
+    },
+    {
+      "file": "DL2-15773.pdf",
+      "pages": "",
+      "doc_type": "product technical guide, Applications section",
+      "revision_date": "2024-02",
+      "notes": ""
+    },
+    {
+      "file": "DL2-15719.pdf",
+      "pages": "",
+      "doc_type": "SDS Section 9, physical and chemical properties",
+      "revision_date": "2022-09-08",
+      "notes": ""
+    }
+  ],
+  "component_subtype": null,
+  "fields": {
+    "function": {
+      "primary": {
+        "value": "Liquid octylated/butylated diphenylamine antioxidant for lubricants",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15703.pdf",
+          "page": 1,
+          "revision_date": "2022-10-20"
+        }
+      },
+      "secondary": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; product described by a single primary function (antioxidant)"
+      }
+    },
+    "chemical_family": {
+      "value": "Mixture of octylated & butylated diphenylamine; CAS No: 68411-46-1",
+      "status": "Reported",
+      "source": {
+        "file": "DL2-15703.pdf",
+        "page": 1,
+        "revision_date": "2022-10-20"
+      },
+      "notes": "printed in Components section of TDS; diphenylamine (DPA) type aminic antioxidant"
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; no assay or active-ingredient percentage stated in TDS; nitrogen content and DPA residual printed separately as not_in_template",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "carrier": {
+      "identity": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "neat liquid; no carrier oil stated in TDS or SDS"
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found in the inspected text",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "treat_rate": {
+      "value": null,
+      "qualifier": null,
+      "min": 0.1,
+      "max": 1,
+      "value_kind": "range",
+      "printed_text": "Typical treatment rate: 0.1 – 1.0 wt.%",
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15773.pdf",
+        "page": 4,
+        "revision_date": "2024-02"
+      },
+      "notes": "treat rate not stated in TDS; TechGuide Applications section gives typical range"
+    },
+    "compatibility_restrictions": {
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "not found in the inspected text"
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": 182,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "Base Number: 182 mgKOH/g (typical lot)",
+        "unit": "mg KOH/g",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-15773.pdf",
+          "page": 5,
+          "revision_date": "2024-02"
+        },
+        "notes": "TechGuide 'Typical Physical Properties' table: General Sales Specification column shows 'NA' for Base Number; SONGNOX L570 lot column shows 182; value is a typical lot measurement, not a sales specification requirement"
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; aminic antioxidant (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; aminic antioxidant (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; aminic antioxidant (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; aminic antioxidant (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; aminic antioxidant (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}
