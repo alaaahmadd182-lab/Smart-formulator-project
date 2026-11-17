@@ -1370,14 +1370,14 @@ FORMOSA_BASE_OIL_GII_150N,base_oil,kv40,true,invalid_value,invalid,selected,none
 FORMOSA_BASE_OIL_GII_150N,base_oil,kv100,true,bound_or_range_needs_assessment,documented,selected,closed_range,,not_individually_reviewed,false,no,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)"
 FORMOSA_BASE_OIL_GII_150N,base_oil,viscosity_index,true,invalid_value,invalid,selected,none,,not_individually_reviewed,false,not_numeric,false,unsupported value_kind 'bound'
 FORMOSA_BASE_OIL_GII_150N,base_oil,density,true,invalid_value,invalid,selected,none,,not_individually_reviewed,false,not_numeric,false,unsupported value_kind 'report-only'
-FORMOSA_BASE_OIL_GII_150N,base_oil,ccs,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
+FORMOSA_BASE_OIL_GII_150N,base_oil,ccs,true,absent,not_recorded,none,none,,evidence_unavailable,false,not_numeric,false,status Missing
 FORMOSA_BASE_OIL_GII_500N,base_oil,api_group_chemistry.api_group,true,met,documented,selected,text,,not_individually_reviewed,false,not_numeric,false,
 FORMOSA_BASE_OIL_GII_500N,base_oil,api_group_chemistry.chemistry,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
 FORMOSA_BASE_OIL_GII_500N,base_oil,kv40,true,invalid_value,invalid,selected,none,,not_individually_reviewed,false,not_numeric,false,unsupported value_kind 'report-only'
 FORMOSA_BASE_OIL_GII_500N,base_oil,kv100,true,bound_or_range_needs_assessment,documented,selected,closed_range,,not_individually_reviewed,false,no,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)"
 FORMOSA_BASE_OIL_GII_500N,base_oil,viscosity_index,true,invalid_value,invalid,selected,none,,not_individually_reviewed,false,not_numeric,false,unsupported value_kind 'bound'
 FORMOSA_BASE_OIL_GII_500N,base_oil,density,true,invalid_value,invalid,selected,none,,not_individually_reviewed,false,not_numeric,false,unsupported value_kind 'report-only'
-FORMOSA_BASE_OIL_GII_500N,base_oil,ccs,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
+FORMOSA_BASE_OIL_GII_500N,base_oil,ccs,true,absent,not_recorded,none,none,,evidence_unavailable,false,not_numeric,false,status Missing
 FORMOSA_FPCC_70N_GII,base_oil,api_group_chemistry.api_group,true,met,documented,selected,text,,not_individually_reviewed,false,not_numeric,false,
 FORMOSA_FPCC_70N_GII,base_oil,api_group_chemistry.chemistry,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
 FORMOSA_FPCC_70N_GII,base_oil,kv40,true,met,documented,selected,point,,not_individually_reviewed,false,yes,false,
@@ -2908,39 +2908,39 @@ TREE_TRADING_NT513,additive_package,required_co_components,true,absent,not_recor
 TREE_TRADING_NT513,additive_package,published_formulations,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
 TURKMENBASHY_SN1200,base_oil,api_group_chemistry.api_group,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
 TURKMENBASHY_SN1200,base_oil,api_group_chemistry.chemistry,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
-TURKMENBASHY_SN1200,base_oil,kv40,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
+TURKMENBASHY_SN1200,base_oil,kv40,true,absent,not_recorded,none,none,,evidence_unavailable,false,not_numeric,false,status Missing
 TURKMENBASHY_SN1200,base_oil,kv100,true,bound_or_range_needs_assessment,documented,selected,closed_range,,not_individually_reviewed,false,no,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)"
 TURKMENBASHY_SN1200,base_oil,viscosity_index,true,invalid_value,invalid,selected,none,,not_individually_reviewed,false,not_numeric,false,unsupported value_kind 'bound'
 TURKMENBASHY_SN1200,base_oil,density,true,invalid_value,invalid,selected,none,,not_individually_reviewed,false,not_numeric,false,unsupported value_kind 'bound'
-TURKMENBASHY_SN1200,base_oil,ccs,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
+TURKMENBASHY_SN1200,base_oil,ccs,true,absent,not_recorded,none,none,,evidence_unavailable,false,not_numeric,false,status Missing
 TURKMENBASHY_SN180,base_oil,api_group_chemistry.api_group,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
 TURKMENBASHY_SN180,base_oil,api_group_chemistry.chemistry,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
-TURKMENBASHY_SN180,base_oil,kv40,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
+TURKMENBASHY_SN180,base_oil,kv40,true,absent,not_recorded,none,none,,evidence_unavailable,false,not_numeric,false,status Missing
 TURKMENBASHY_SN180,base_oil,kv100,true,bound_or_range_needs_assessment,documented,selected,closed_range,,not_individually_reviewed,false,no,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)"
 TURKMENBASHY_SN180,base_oil,viscosity_index,true,invalid_value,invalid,selected,none,,not_individually_reviewed,false,not_numeric,false,unsupported value_kind 'bound'
 TURKMENBASHY_SN180,base_oil,density,true,invalid_value,invalid,selected,none,,not_individually_reviewed,false,not_numeric,false,unsupported value_kind 'bound'
-TURKMENBASHY_SN180,base_oil,ccs,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
+TURKMENBASHY_SN180,base_oil,ccs,true,absent,not_recorded,none,none,,evidence_unavailable,false,not_numeric,false,status Missing
 TURKMENBASHY_SN350,base_oil,api_group_chemistry.api_group,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
 TURKMENBASHY_SN350,base_oil,api_group_chemistry.chemistry,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
-TURKMENBASHY_SN350,base_oil,kv40,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
+TURKMENBASHY_SN350,base_oil,kv40,true,absent,not_recorded,none,none,,evidence_unavailable,false,not_numeric,false,status Missing
 TURKMENBASHY_SN350,base_oil,kv100,true,bound_or_range_needs_assessment,documented,selected,closed_range,,not_individually_reviewed,false,no,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)"
 TURKMENBASHY_SN350,base_oil,viscosity_index,true,invalid_value,invalid,selected,none,,not_individually_reviewed,false,not_numeric,false,unsupported value_kind 'bound'
 TURKMENBASHY_SN350,base_oil,density,true,invalid_value,invalid,selected,none,,not_individually_reviewed,false,not_numeric,false,unsupported value_kind 'bound'
-TURKMENBASHY_SN350,base_oil,ccs,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
+TURKMENBASHY_SN350,base_oil,ccs,true,absent,not_recorded,none,none,,evidence_unavailable,false,not_numeric,false,status Missing
 TURKMENBASHY_SN600,base_oil,api_group_chemistry.api_group,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
 TURKMENBASHY_SN600,base_oil,api_group_chemistry.chemistry,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
-TURKMENBASHY_SN600,base_oil,kv40,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
+TURKMENBASHY_SN600,base_oil,kv40,true,absent,not_recorded,none,none,,evidence_unavailable,false,not_numeric,false,status Missing
 TURKMENBASHY_SN600,base_oil,kv100,true,bound_or_range_needs_assessment,documented,selected,closed_range,,not_individually_reviewed,false,no,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)"
 TURKMENBASHY_SN600,base_oil,viscosity_index,true,invalid_value,invalid,selected,none,,not_individually_reviewed,false,not_numeric,false,unsupported value_kind 'bound'
 TURKMENBASHY_SN600,base_oil,density,true,invalid_value,invalid,selected,none,,not_individually_reviewed,false,not_numeric,false,unsupported value_kind 'bound'
-TURKMENBASHY_SN600,base_oil,ccs,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
+TURKMENBASHY_SN600,base_oil,ccs,true,absent,not_recorded,none,none,,evidence_unavailable,false,not_numeric,false,status Missing
 TURKMENBASHY_SN80,base_oil,api_group_chemistry.api_group,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
 TURKMENBASHY_SN80,base_oil,api_group_chemistry.chemistry,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
-TURKMENBASHY_SN80,base_oil,kv40,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
+TURKMENBASHY_SN80,base_oil,kv40,true,absent,not_recorded,none,none,,evidence_unavailable,false,not_numeric,false,status Missing
 TURKMENBASHY_SN80,base_oil,kv100,true,bound_or_range_needs_assessment,documented,selected,closed_range,,not_individually_reviewed,false,no,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)"
 TURKMENBASHY_SN80,base_oil,viscosity_index,true,invalid_value,invalid,selected,none,,not_individually_reviewed,false,not_numeric,false,unsupported value_kind 'bound'
 TURKMENBASHY_SN80,base_oil,density,true,invalid_value,invalid,selected,none,,not_individually_reviewed,false,not_numeric,false,unsupported value_kind 'bound'
-TURKMENBASHY_SN80,base_oil,ccs,true,absent,not_recorded,none,none,,not_individually_reviewed,false,not_numeric,false,status Missing
+TURKMENBASHY_SN80,base_oil,ccs,true,absent,not_recorded,none,none,,evidence_unavailable,false,not_numeric,false,status Missing
 WUXI_WX3118,additive_package,package_type_application.package_type,true,met,documented,selected,text,,not_individually_reviewed,false,not_numeric,false,
 WUXI_WX3118,additive_package,package_type_application.intended_service,true,met,documented,selected,text,,not_individually_reviewed,false,not_numeric,false,
 WUXI_WX3118,additive_package,performance_claims,true,met,documented,selected,structured,,not_individually_reviewed,false,not_numeric,false,

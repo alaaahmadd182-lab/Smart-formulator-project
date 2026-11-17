@@ -1096,6 +1096,83 @@
    "reason": "Comparable or bound-check value printed on the product's SDS.",
    "read": "text layer",
    "requires_comparison": true
+  },
+  {
+   "match": {
+    "product": [
+     "BETTCHEM_BT3090",
+     "BETTCHEM_BT3096",
+     "BETTCHEM_BT3097",
+     "BETTCHEM_BT3098",
+     "BETTCHEM_BT_3091",
+     "BETTCHEM_BT_3095",
+     "BETTCHEM_BT_55006",
+     "BETTCHEM_BT_55050",
+     "FORMOSA_BASE_OIL_GII_150N",
+     "FORMOSA_BASE_OIL_GII_500N",
+     "HYUNDAIOILBANK_HSB_500N",
+     "KANGTAI_KT30090",
+     "KANGTAI_KT30100",
+     "KANGTAI_KT3069",
+     "KANGTAI_KT31048",
+     "KANGTAI_KT31050",
+     "KANGTAI_KT33070",
+     "KANGTAI_KT33070A",
+     "KANGTAI_KT33133",
+     "KANGTAI_KT33158",
+     "KANGTAI_KT33160A",
+     "KANGTAI_KT33161",
+     "KANGTAI_KT33162",
+     "KANGTAI_KT33169",
+     "KANGTAI_KT33210",
+     "KANGTAI_KT33232",
+     "KANGTAI_KT33303",
+     "KANGTAI_KT33303A",
+     "KINGINDUSTRIES_NA_LUBE_BL_1208",
+     "TIANHE_P_TEC_3234",
+     "TIANHE_P_TEC_9100",
+     "TURKMENBASHY_SN1200",
+     "TURKMENBASHY_SN180",
+     "TURKMENBASHY_SN350",
+     "TURKMENBASHY_SN600",
+     "TURKMENBASHY_SN80"
+    ],
+    "lists": [
+     "img"
+    ]
+   },
+   "outcome": "unavailable_source",
+   "identity": "associated by filename; not individually verified — these products were added in the 2026-11-14 dataset-preparation batch and their archive documents are image-only files",
+   "printed": {
+    "*": ""
+   },
+   "change": "",
+   "reason": "image-only archive document (no text layer); no render review conducted for these newly added products; source text was extracted via OCR from outside the main archive",
+   "read": ""
+  },
+  {
+   "match": {
+    "product": [
+     "FORMOSA_BASE_OIL_GII_150N",
+     "FORMOSA_BASE_OIL_GII_500N",
+     "TURKMENBASHY_SN1200",
+     "TURKMENBASHY_SN180",
+     "TURKMENBASHY_SN350",
+     "TURKMENBASHY_SN600",
+     "TURKMENBASHY_SN80"
+    ],
+    "lists": [
+     "mand_img"
+    ]
+   },
+   "outcome": "unavailable_source",
+   "identity": "associated by filename; not individually verified — these products were added in the 2026-11-14 dataset-preparation batch and their archive documents are image-only files",
+   "printed": {
+    "*": ""
+   },
+   "change": "",
+   "reason": "image-only archive document (no text layer); mandatory property confirmed Missing in the JSON record (kv40: not in spec table; ccs: not in spec table; CoQ does not state CCS); source text was extracted via OCR from outside the main archive",
+   "read": ""
   }
  ],
  "comparisons": [

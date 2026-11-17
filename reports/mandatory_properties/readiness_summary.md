@@ -38,7 +38,7 @@ Scope: only the base-oil properties in the coverage ledger have a review state; 
 
 | Material class | archive_lead_review_complete | evidence_inconclusive | evidence_unavailable | external_review_complete | not_individually_reviewed |
 |---|---:|---:|---:|---:|---:|
-| base_oil | 61 | 2 | 81 | 16 | 1163 |
+| base_oil | 61 | 2 | 93 | 16 | 1151 |
 | additive_package | 0 | 0 | 0 | 0 | 954 |
 | additive_component | 0 | 0 | 0 | 0 | 523 |
 

@@ -1,6 +1,6 @@
 command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover -s tools/audit/review_2026-11-02/tests -v
 cwd: C:\Users\User\FYP\Smart-formulator-project
-HEAD: 8b2a1196b3e70ffe430bdb1ad32d91f836e6d6f0
+HEAD: 68ad84095bd9b68b04a579a43bcdd53bd428f6a5
 return code: 0
 expectation: zero + output matches '\\nOK'
 verdict: pass
@@ -65,16 +65,16 @@ ResourceWarning: Enable tracemalloc to get the object allocation traceback
 C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:62: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools\\audit\\review_2026-11-02\\output\\findings_v5.json' mode='r' encoding='utf-8'>
   F = {f['id']: f for f in json.load(open(os.path.join(R.HERE, 'output', 'findings_v5.json'), encoding='utf-8'))}
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:69: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmpgo2bj4tw\\here\\output\\findings_v5.json' mode='w' encoding='utf-8'>
+C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:69: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmpmf4wi0ks\\here\\output\\findings_v5.json' mode='w' encoding='utf-8'>
   json.dump(list(F.values()), open(os.path.join(here, 'output', 'findings_v5.json'), 'w', encoding='utf-8'))
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\build_association_review.py:202: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmpgo2bj4tw\\docs\\audit_review_2026-11-02\\verification_results\\source_checks_v5.csv' mode='r' encoding='utf-8'>
+C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\build_association_review.py:202: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmpmf4wi0ks\\docs\\audit_review_2026-11-02\\verification_results\\source_checks_v5.csv' mode='r' encoding='utf-8'>
   rows = list(csv.DictReader(open(os.path.join(R.ROOT, 'docs', 'audit_review_2026-11-02', 'verification_results', 'source_checks_v5.csv'),
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\build_association_review.py:223: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmpgo2bj4tw\\here\\output\\findings_v5.json' mode='r' encoding='utf-8'>
+C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\build_association_review.py:223: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmpmf4wi0ks\\here\\output\\findings_v5.json' mode='r' encoding='utf-8'>
   F = {f['id']: f for f in json.load(open(os.path.join(R.HERE, 'output', 'findings_v5.json'), encoding='utf-8'))}
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:72: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmpgo2bj4tw\\here\\association_review.json' mode='r' encoding='utf-8'>
+C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:72: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmpmf4wi0ks\\here\\association_review.json' mode='r' encoding='utf-8'>
   written = json.load(open(os.path.join(here, 'association_review.json'), encoding='utf-8'))
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
 ok
@@ -84,7 +84,7 @@ test_unlisted_reference_is_unresolved (test_ledger_rules.UnknownCitations.test_u
 A source named in a finding text without a recorded verdict becomes an unresolved ledger row. ... ok
 
 ----------------------------------------------------------------------
-Ran 12 tests in 0.129s
+Ran 12 tests in 0.141s
 
 OK
 

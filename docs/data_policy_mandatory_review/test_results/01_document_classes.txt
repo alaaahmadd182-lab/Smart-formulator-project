@@ -1,44 +1,14 @@
 command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/document_classes.py
 cwd: C:\Users\User\FYP\Smart-formulator-project
-HEAD: 8b2a1196b3e70ffe430bdb1ad32d91f836e6d6f0
-return code: 1
+HEAD: 68ad84095bd9b68b04a579a43bcdd53bd428f6a5
+return code: 0
 expectation: zero
-verdict: FAIL
-duration: 6.3 s
+verdict: pass
+duration: 5.1 s
 
 ===== stdout =====
-cited (file, page) pairs: 758 {'TECHNICAL': 250, 'SDS': 226, 'UNKNOWN': 247, 'EXTERNAL': 35}
-subclasses: {('TECHNICAL', 'specification'): 19, ('SDS', 'sds'): 226, ('TECHNICAL', 'tds'): 158, ('TECHNICAL', 'bulletin'): 66, ('TECHNICAL', 'catalog'): 5, ('UNKNOWN', ''): 247, ('TECHNICAL', 'handling'): 2, ('EXTERNAL', ''): 35}
-UNKNOWN ('DL2-11239.pdf', None) not in the archive
-UNKNOWN ('DL2-11239.pdf', 1) not in the archive
-UNKNOWN ('DL2-11266.pdf', None) not in the archive
-UNKNOWN ('DL2-11266.pdf', 1) not in the archive
-UNKNOWN ('DL2-11266.pdf', 2) not in the archive
-UNKNOWN ('DL2-11302.pdf', None) not in the archive
-UNKNOWN ('DL2-11302.pdf', 1) not in the archive
-UNKNOWN ('DL2-11416.pdf', None) not in the archive
-UNKNOWN ('DL2-11416.pdf', 1) not in the archive
-UNKNOWN ('DL2-11417.pdf', None) not in the archive
-UNKNOWN ('DL2-11417.pdf', 1) not in the archive
-UNKNOWN ('DL2-11419.pdf', None) not in the archive
-UNKNOWN ('DL2-11419.pdf', 1) not in the archive
-UNKNOWN ('DL2-11419.pdf', 2) not in the archive
-UNKNOWN ('DL2-11572.pdf', None) not in the archive
-UNKNOWN ('DL2-11572.pdf', 1) not in the archive
-UNKNOWN ('DL2-11600.pdf', None) not in the archive
-UNKNOWN ('DL2-11600.pdf', 1) not in the archive
-UNKNOWN ('DL2-11661.pdf', None) not in the archive
-UNKNOWN ('DL2-11661.pdf', 1) not in the archive
-UNKNOWN ('DL2-11661.pdf', 2) not in the archive
-UNKNOWN ('DL2-11664.pdf', None) not in the archive
-UNKNOWN ('DL2-11664.pdf', 1) not in the archive
-UNKNOWN ('DL2-11665.pdf', None) not in the archive
-UNKNOWN ('DL2-11665.pdf', 1) not in the archive
-UNKNOWN ('DL2-11666.pdf', None) not in the archive
-UNKNOWN ('DL2-11666.pdf', 1) not in the archive
-UNKNOWN ('DL2-11697.pdf', None) not in the archive
-UNKNOWN ('DL2-11697.pdf', 1) not in the archive
-UNKNOWN ('DL2-11863.pdf', None) not in the archive
+cited (file, page) pairs: 758 {'TECHNICAL': 479, 'SDS': 240, 'COA': 4, 'EXTERNAL': 35}
+subclasses: {('TECHNICAL', 'specification'): 29, ('SDS', 'sds'): 240, ('TECHNICAL', 'tds'): 362, ('TECHNICAL', 'bulletin'): 81, ('TECHNICAL', 'catalog'): 5, ('TECHNICAL', 'handling'): 2, ('COA', 'coa'): 4, ('EXTERNAL', ''): 35}
 
 ===== stderr =====
 

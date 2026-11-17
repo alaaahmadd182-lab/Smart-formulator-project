@@ -1,19 +1,19 @@
 command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/lead_review.py
 cwd: C:\Users\User\FYP\Smart-formulator-project
-HEAD: 8b2a1196b3e70ffe430bdb1ad32d91f836e6d6f0
+HEAD: 68ad84095bd9b68b04a579a43bcdd53bd428f6a5
 return code: 0
 expectation: zero
 verdict: pass
-duration: 4.6 s
+duration: 4.3 s
 
 ===== stdout =====
 cases (deduplicated product x property): 506
   mand_lead: 89  insufficient_evidence 51, unrelated_mention 37, usable_evidence 1
-  mand_img: 44  insufficient_evidence 29, not_reviewed 12, usable_evidence 3
+  mand_img: 44  insufficient_evidence 29, unavailable_source 12, usable_evidence 3
   lead: 76  insufficient_evidence 51, unrelated_mention 18, usable_evidence 7
-  img: 169  not_reviewed 131, insufficient_evidence 38
+  img: 169  unavailable_source 131, insufficient_evidence 38
   cmp_gap: 139  usable_evidence 71, already_recorded 31, unrelated_mention 18, insufficient_evidence 12, unresolved_identity 7
-outcomes: insufficient_evidence 173, not_reviewed 143, usable_evidence 81, unrelated_mention 71, already_recorded 31, unresolved_identity 7
+outcomes: insufficient_evidence 173, unavailable_source 143, usable_evidence 81, unrelated_mention 71, already_recorded 31, unresolved_identity 7
 
 ===== stderr =====
 

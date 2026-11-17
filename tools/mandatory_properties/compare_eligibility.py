@@ -26,10 +26,20 @@ def read(p):
 
 
 def compare(be, bo, ae, ao):
-    """(count rows, product changes, category changes) from before/after eligibility rows and outcome rows."""
+    """(count rows, product changes, category changes) from before/after eligibility rows and outcome rows.
+
+    New products (only in after) are reported and excluded from the change comparison; they never cause
+    an error (CLAUDE.md: 'never require results to stay identical').  Removed products (only in before)
+    are still an error because they signal an unexpected data loss.
+    """
     b, a = {r['product_id']: r for r in be}, {r['product_id']: r for r in ae}
-    if set(a) != set(b):
-        raise ValueError(f'product sets differ: only before {sorted(set(b) - set(a))[:5]}, only after {sorted(set(a) - set(b))[:5]}')
+    only_before = sorted(set(b) - set(a))
+    only_after = sorted(set(a) - set(b))
+    if only_before:
+        raise ValueError(f'product sets differ: only before {only_before[:5]}, only after {only_after[:5]}')
+    if only_after:
+        print(f'new products added since baseline ({len(only_after)}): {only_after[:5]}{"..." if len(only_after) > 5 else ""}; compared on shared set only')
+    shared = set(b) & set(a)
     counts = []
     for cls in sorted({r['material_class'] for r in ae}):
         for col in BOOLS:
@@ -37,7 +47,7 @@ def compare(be, bo, ae, ao):
                                before=sum(r['material_class'] == cls and r[col] == 'true' for r in be),
                                after=sum(r['material_class'] == cls and r[col] == 'true' for r in ae)))
     products = []
-    for pid in sorted(a):
+    for pid in sorted(shared):
         x, y = b[pid], a[pid]
         ch = [c for c in BOOLS + ('missing_mandatory_properties',) if x[c] != y[c]]
         if ch:
@@ -48,6 +58,8 @@ def compare(be, bo, ae, ao):
     ka = {(r['product_id'], r['requirement']): r for r in ao}
     cats = []
     for k in sorted(set(kb) | set(ka)):
+        if k[0] not in shared:
+            continue  # skip new and removed products — their outcomes have no before-state to compare
         x, y = kb.get(k), ka.get(k)
         cb, ca = (x or {}).get('category', '(no outcome)'), (y or {}).get('category', '(no outcome)')
         if cb != ca:

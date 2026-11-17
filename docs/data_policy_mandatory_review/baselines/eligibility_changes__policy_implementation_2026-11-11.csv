@@ -1,10 +1,10 @@
 section,product_id,requirement_or_field,material_class_or_blocking,before,after,detail
-count,,tier1_complete,additive_component,0,0,of 5 products
-count,,formulation_eligible,additive_component,0,0,of 5 products
-count,,tier1_complete,additive_package,0,0,of 78 products
-count,,formulation_eligible,additive_package,0,0,of 78 products
-count,,tier1_complete,base_oil,11,11,of 181 products
-count,,formulation_eligible,base_oil,11,11,of 181 products
+count,,tier1_complete,additive_component,0,0,of 73 products
+count,,formulation_eligible,additive_component,0,0,of 73 products
+count,,tier1_complete,additive_package,0,0,of 106 products
+count,,formulation_eligible,additive_package,0,0,of 106 products
+count,,tier1_complete,base_oil,11,11,of 189 products
+count,,formulation_eligible,base_oil,11,11,of 189 products
 product,INFINEUM_D3354,missing_mandatory_properties,additive_package,"missing_mandatory_properties=[""permitted_base_oils_restrictions"", ""published_formulations""]","missing_mandatory_properties=[""permitted_base_oils_restrictions"", ""required_co_components"", ""published_formulations""]","[""permitted_base_oils_restrictions [absent]: status Missing"", ""required_co_components [unresolved_route_association]: no reviewed route is complete, and at least one is not resolved [D3354-row1-CI-4: recorded_requirements_usable_list_not_confirmed; D3354-row2-VDS-2: recorded_requirements_usable_list_not_confirmed; D3354-description-SV261: route_incomplete] (informational only: 6 of 7 recorded requirement(s) have a usable dose, which does not establish the completeness of any route)"", ""published_formulations [absent]: status Missing""]"
 product,INFINEUM_D3384,missing_mandatory_properties,additive_package,"missing_mandatory_properties=[""permitted_base_oils_restrictions"", ""published_formulations""]","missing_mandatory_properties=[""permitted_base_oils_restrictions"", ""required_co_components"", ""published_formulations""]","[""permitted_base_oils_restrictions [absent]: status Missing"", ""required_co_components [absent]: every reviewed route is incomplete: a requirement documented for it has no usable dose [D3384-row1: route_incomplete; D3384-row2: route_incomplete; D3384-row3: route_incomplete; D3384-row4: route_incomplete; D3384-row5: route_incomplete; D3384-row6: route_incomplete; D3384-row7: route_incomplete; D3384-row8: route_incomplete; D3384-row9: route_incomplete] (informational only: 5 of 6 recorded requirement(s) have a usable dose, which does not establish the completeness of any route)"", ""published_formulations [absent]: status Missing""]"
 product,INFINEUM_D3451,missing_mandatory_properties,additive_package,"missing_mandatory_properties=[""permitted_base_oils_restrictions"", ""published_formulations""]","missing_mandatory_properties=[""permitted_base_oils_restrictions"", ""required_co_components"", ""published_formulations""]","[""permitted_base_oils_restrictions [absent]: status Missing"", ""required_co_components [absent]: every reviewed route is incomplete: a requirement documented for it has no usable dose [D3451-row1: route_incomplete; D3451-row2: route_incomplete; D3451-row3: route_incomplete] (informational only: 1 of 2 recorded requirement(s) have a usable dose, which does not establish the completeness of any route)"", ""published_formulations [absent]: status Missing""]"
