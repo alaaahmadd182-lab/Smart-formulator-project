@@ -267,5 +267,32 @@
     }
   },
   "open_questions": [],
-  "conflicts": []
+  "conflicts": [
+    {
+      "property": "function_specific_markers.tbn",
+      "value_a": {
+        "qualifier": "<=",
+        "max": 30,
+        "unit": "mg KOH/g",
+        "printed_text": "TBN, mg KOH/g | 30 max",
+        "source": {
+          "file": "DL2-12942.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      "value_b": {
+        "qualifier": "<=",
+        "max": 10,
+        "unit": "(none printed)",
+        "printed_text": "NEUTRAL SYNTHETIC CALCIUM SULFONATE(Mainly used in industrial lubricants,TBN=MAX10)",
+        "source": {
+          "file": "DL2-12942.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      "notes": "intra-document conflict: specification table prints 'TBN, mg KOH/g | 30 max' while product title prints 'TBN=MAX10' (no unit stated); both values from DL2-12942.pdf page 1; unresolved"
+    }
+  ]
 }

@@ -1,0 +1,250 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "BETTCHEM_BT_55006",
+  "product": {
+    "product_id": "BT_55006",
+    "material_id": "BETTCHEM:BT_55006",
+    "product_name": "BT 55006",
+    "supplier": "Bettchem"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-15558.pdf",
+      "pages": "",
+      "doc_type": "product data sheet, description / application section",
+      "revision_date": "2024-06-18",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "value": "High Zinc Anti-wear Hydraulic Oil Additive Package",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15558.pdf",
+          "page": 1,
+          "revision_date": "2024-06-18"
+        }
+      },
+      "intended_service": {
+        "value": "anti-wear hydraulic oils; GB 11118.1 HM; ISO 11158 HM/HV; DIN 51524-2/3; Parker Denison HF-2",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15558.pdf",
+          "page": 1,
+          "revision_date": "2024-06-18"
+        }
+      }
+    },
+    "performance_claims": [
+      {
+        "designation": "GB 11118.1 HM",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "product data sheet, treat rate table",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15558.pdf",
+          "page": 1,
+          "revision_date": "2024-06-18"
+        }
+      },
+      {
+        "designation": "ISO 11158 HM",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "product data sheet, treat rate table",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15558.pdf",
+          "page": 1,
+          "revision_date": "2024-06-18"
+        }
+      },
+      {
+        "designation": "ISO 11158 HV",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "product data sheet, treat rate table",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15558.pdf",
+          "page": 1,
+          "revision_date": "2024-06-18"
+        }
+      },
+      {
+        "designation": "DIN 51524-2",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "product data sheet, treat rate table",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15558.pdf",
+          "page": 1,
+          "revision_date": "2024-06-18"
+        }
+      },
+      {
+        "designation": "DIN 51524-3",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "product data sheet, treat rate table",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15558.pdf",
+          "page": 1,
+          "revision_date": "2024-06-18"
+        }
+      },
+      {
+        "designation": "Parker Denison HF-2",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "product data sheet, treat rate table",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15558.pdf",
+          "page": 1,
+          "revision_date": "2024-06-18"
+        }
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "sae_grade": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "not found; no SAE viscosity grade stated in TDS"
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "permitted_api_groups": [],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "not found; not stated in TDS"
+    },
+    "route_selector_restrictions": {
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "not found; not stated in TDS"
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "GB 11118.1 HM / ISO 11158 HM/HV / DIN 51524-2/3 / Parker Denison HF-2: 0.65-0.8% wt",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": 0.65,
+          "max": 0.8,
+          "value_kind": "range",
+          "printed_text": "GB 11118.1 HM / ISO 11158 HM/HV / DIN 51524-2/3 / Parker Denison HF-2: 0.65-0.8% wt",
+          "unit": "% wt",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-15558.pdf",
+            "page": 1,
+            "revision_date": "2024-06-18"
+          },
+          "notes": "treat rate is a range: 0.65-0.8 wt%; multiple specs share the same row"
+        }
+      },
+      {
+        "claim": "Hydraulic transmission: 1.0% wt",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 1,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "Hydraulic transmission: 1.0% wt",
+          "unit": "% wt",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-15558.pdf",
+            "page": 1,
+            "revision_date": "2024-06-18"
+          }
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "notes": "not found; not stated in TDS"
+      }
+    ],
+    "published_formulations": [
+      {
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [],
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "not found; not stated in TDS"
+      }
+    ]
+  },
+  "open_questions": [],
+  "conflicts": []
+}

@@ -113,6 +113,42 @@ ARAMCO_LUBEREF_PRIMA_70,base_oil,aramcoPRIMA 70,kv100,bound_or_range_needs_asses
 ARAMCO_LUBEREF_PRIMA_70,base_oil,aramcoPRIMA 70,viscosity_index,bound_or_range_needs_assessment,true,lower_bound,false,"lower bound (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
 ARAMCO_LUBEREF_PRIMA_70,base_oil,aramcoPRIMA 70,density,absent,true,,false,status Missing,,false
 ARAMCO_LUBEREF_PRIMA_70,base_oil,aramcoPRIMA 70,ccs,absent,true,,false,status Missing,,false
+ARKEMA_TPS_20,additive_component,TPS 20,function.primary,absent,true,,false,status Missing,,false
+ARKEMA_TPS_20,additive_component,TPS 20,active_content,absent,true,,false,status Missing,,false
+ARKEMA_TPS_20,additive_component,TPS 20,carrier.identity,absent,true,,false,status Missing,,false
+ARKEMA_TPS_20,additive_component,TPS 20,treat_rate,absent,true,,false,status Missing,,false
+ARKEMA_TPS_20,additive_component,TPS 20,compatibility_restrictions,absent,true,,false,status Missing,,false
+ARKEMA_TPS_20,additive_component,TPS 20,function_specific_markers,unresolved_applicability,true,,false,applicability cannot be established: the primary function is not recorded,,false
+ARKEMA_TPS_32,additive_component,TPS 32,function.primary,absent,true,,false,status Missing,,false
+ARKEMA_TPS_32,additive_component,TPS 32,active_content,absent,true,,false,status Missing,,false
+ARKEMA_TPS_32,additive_component,TPS 32,carrier.identity,absent,true,,false,status Missing,,false
+ARKEMA_TPS_32,additive_component,TPS 32,treat_rate,absent,true,,false,status Missing,,false
+ARKEMA_TPS_32,additive_component,TPS 32,compatibility_restrictions,absent,true,,false,status Missing,,false
+ARKEMA_TPS_32,additive_component,TPS 32,function_specific_markers,unresolved_applicability,true,,false,applicability cannot be established: the primary function is not recorded,,false
+ARKEMA_TPS_44,additive_component,TPS 44,function.primary,absent,true,,false,status Missing,,false
+ARKEMA_TPS_44,additive_component,TPS 44,active_content,absent,true,,false,status Missing,,false
+ARKEMA_TPS_44,additive_component,TPS 44,carrier.identity,absent,true,,false,status Missing,,false
+ARKEMA_TPS_44,additive_component,TPS 44,treat_rate,absent,true,,false,status Missing,,false
+ARKEMA_TPS_44,additive_component,TPS 44,compatibility_restrictions,absent,true,,false,status Missing,,false
+ARKEMA_TPS_44,additive_component,TPS 44,function_specific_markers,unresolved_applicability,true,,false,applicability cannot be established: the primary function is not recorded,,false
+ARKEMA_VPS_11,additive_component,VPS 11,function.primary,absent,true,,false,status Missing,,false
+ARKEMA_VPS_11,additive_component,VPS 11,active_content,absent,true,,false,status Missing,,false
+ARKEMA_VPS_11,additive_component,VPS 11,carrier.identity,absent,true,,false,status Missing,,false
+ARKEMA_VPS_11,additive_component,VPS 11,treat_rate,absent,true,,false,status Missing,,false
+ARKEMA_VPS_11,additive_component,VPS 11,compatibility_restrictions,absent,true,,false,status Missing,,false
+ARKEMA_VPS_11,additive_component,VPS 11,function_specific_markers,unresolved_applicability,true,,false,applicability cannot be established: the primary function is not recorded,,false
+ARKEMA_VPS_15,additive_component,VPS 15,function.primary,absent,true,,false,status Missing,,false
+ARKEMA_VPS_15,additive_component,VPS 15,active_content,absent,true,,false,status Missing,,false
+ARKEMA_VPS_15,additive_component,VPS 15,carrier.identity,absent,true,,false,status Missing,,false
+ARKEMA_VPS_15,additive_component,VPS 15,treat_rate,absent,true,,false,status Missing,,false
+ARKEMA_VPS_15,additive_component,VPS 15,compatibility_restrictions,absent,true,,false,status Missing,,false
+ARKEMA_VPS_15,additive_component,VPS 15,function_specific_markers,unresolved_applicability,true,,false,applicability cannot be established: the primary function is not recorded,,false
+ARKEMA_VPS_17,additive_component,VPS 17,function.primary,absent,true,,false,status Missing,,false
+ARKEMA_VPS_17,additive_component,VPS 17,active_content,absent,true,,false,status Missing,,false
+ARKEMA_VPS_17,additive_component,VPS 17,carrier.identity,absent,true,,false,status Missing,,false
+ARKEMA_VPS_17,additive_component,VPS 17,treat_rate,absent,true,,false,status Missing,,false
+ARKEMA_VPS_17,additive_component,VPS 17,compatibility_restrictions,absent,true,,false,status Missing,,false
+ARKEMA_VPS_17,additive_component,VPS 17,function_specific_markers,unresolved_applicability,true,,false,applicability cannot be established: the primary function is not recorded,,false
 BAPCO_BAPBASE_4,base_oil,BAPbase 4,api_group_chemistry.chemistry,absent,true,,false,status Missing,,false
 BAPCO_BAPBASE_4,base_oil,BAPbase 4,kv100,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
 BAPCO_BAPBASE_4,base_oil,BAPbase 4,viscosity_index,bound_or_range_needs_assessment,true,lower_bound,false,"lower bound (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
@@ -130,6 +166,30 @@ BAPCO_BAPBASE_8,base_oil,BAPbase 8,kv100,bound_or_range_needs_assessment,true,ra
 BAPCO_BAPBASE_8,base_oil,BAPbase 8,viscosity_index,bound_or_range_needs_assessment,true,lower_bound,false,"lower bound (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
 BAPCO_BAPBASE_8,base_oil,BAPbase 8,density,absent,true,,false,status Missing,,false
 BAPCO_BAPBASE_8,base_oil,BAPbase 8,ccs,bound_or_range_needs_assessment,true,upper_bound,false,"upper bound (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+BETTCHEM_BT3090,additive_package,BT3090,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+BETTCHEM_BT3090,additive_package,BT3090,sae_grades_documented,absent,true,,false,status Missing,,false
+BETTCHEM_BT3090,additive_package,BT3090,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT3090,additive_package,BT3090,route_selector_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT3090,additive_package,BT3090,required_co_components,invalid_value,true,,false,"1 requirement(s) recorded, none with a usable dose, so no route that includes them can be complete (unsupported value_kind 'text')",,false
+BETTCHEM_BT3090,additive_package,BT3090,published_formulations,absent,true,,false,status Missing,,false
+BETTCHEM_BT3096,additive_package,BT3096,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+BETTCHEM_BT3096,additive_package,BT3096,sae_grades_documented,absent,true,,false,status Missing,,false
+BETTCHEM_BT3096,additive_package,BT3096,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT3096,additive_package,BT3096,route_selector_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT3096,additive_package,BT3096,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+BETTCHEM_BT3096,additive_package,BT3096,published_formulations,absent,true,,false,status Missing,,false
+BETTCHEM_BT3097,additive_package,BT3097,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+BETTCHEM_BT3097,additive_package,BT3097,sae_grades_documented,absent,true,,false,status Missing,,false
+BETTCHEM_BT3097,additive_package,BT3097,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT3097,additive_package,BT3097,route_selector_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT3097,additive_package,BT3097,required_co_components,invalid_value,true,,false,"1 requirement(s) recorded, none with a usable dose, so no route that includes them can be complete (unsupported value_kind 'text')",,false
+BETTCHEM_BT3097,additive_package,BT3097,published_formulations,absent,true,,false,status Missing,,false
+BETTCHEM_BT3098,additive_package,BT3098,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+BETTCHEM_BT3098,additive_package,BT3098,sae_grades_documented,absent,true,,false,status Missing,,false
+BETTCHEM_BT3098,additive_package,BT3098,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT3098,additive_package,BT3098,route_selector_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT3098,additive_package,BT3098,required_co_components,invalid_value,true,,false,"1 requirement(s) recorded, none with a usable dose, so no route that includes them can be complete (unsupported value_kind 'text')",,false
+BETTCHEM_BT3098,additive_package,BT3098,published_formulations,absent,true,,false,status Missing,,false
 BETTCHEM_BT_3088,additive_package,BT3088,sae_grades_documented,absent,true,,false,status Missing,,false
 BETTCHEM_BT_3088,additive_package,BT3088,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
 BETTCHEM_BT_3088,additive_package,BT3088,route_selector_restrictions,absent,true,,false,status Missing,,false
@@ -140,14 +200,41 @@ BETTCHEM_BT_3089,additive_package,BT3089,permitted_base_oils_restrictions,absent
 BETTCHEM_BT_3089,additive_package,BT3089,route_selector_restrictions,absent,true,,false,status Missing,,false
 BETTCHEM_BT_3089,additive_package,BT3089,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
 BETTCHEM_BT_3089,additive_package,BT3089,published_formulations,absent,true,,false,status Missing,,false
+BETTCHEM_BT_3091,additive_package,BT 3091,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+BETTCHEM_BT_3091,additive_package,BT 3091,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT_3091,additive_package,BT 3091,route_selector_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT_3091,additive_package,BT 3091,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+BETTCHEM_BT_3091,additive_package,BT 3091,published_formulations,absent,true,,false,status Missing,,false
 BETTCHEM_BT_3093,additive_package,BT 3093,sae_grades_documented,absent,true,,false,status Missing,,false
 BETTCHEM_BT_3093,additive_package,BT 3093,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
 BETTCHEM_BT_3093,additive_package,BT 3093,route_selector_restrictions,absent,true,,false,status Missing,,false
 BETTCHEM_BT_3093,additive_package,BT 3093,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
 BETTCHEM_BT_3093,additive_package,BT 3093,published_formulations,absent,true,,false,status Missing,,false
+BETTCHEM_BT_3095,additive_package,BT 3095,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+BETTCHEM_BT_3095,additive_package,BT 3095,sae_grades_documented,absent,true,,false,status Missing,,false
+BETTCHEM_BT_3095,additive_package,BT 3095,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT_3095,additive_package,BT 3095,route_selector_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT_3095,additive_package,BT 3095,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+BETTCHEM_BT_3095,additive_package,BT 3095,published_formulations,absent,true,,false,status Missing,,false
+BETTCHEM_BT_55006,additive_package,BT 55006,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+BETTCHEM_BT_55006,additive_package,BT 55006,sae_grades_documented,absent,true,,false,status Missing,,false
+BETTCHEM_BT_55006,additive_package,BT 55006,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT_55006,additive_package,BT 55006,route_selector_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT_55006,additive_package,BT 55006,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+BETTCHEM_BT_55006,additive_package,BT 55006,published_formulations,absent,true,,false,status Missing,,false
+BETTCHEM_BT_55050,additive_package,BT 55050,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+BETTCHEM_BT_55050,additive_package,BT 55050,sae_grades_documented,absent,true,,false,status Missing,,false
+BETTCHEM_BT_55050,additive_package,BT 55050,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT_55050,additive_package,BT 55050,route_selector_restrictions,absent,true,,false,status Missing,,false
+BETTCHEM_BT_55050,additive_package,BT 55050,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+BETTCHEM_BT_55050,additive_package,BT 55050,published_formulations,absent,true,,false,status Missing,,false
 BRB_PETROLAD_8099,additive_package,Petrolad 8099,sae_grades_documented,absent,true,,false,status Missing,,false
 BRB_PETROLAD_8099,additive_package,Petrolad 8099,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
 BRB_PETROLAD_8099,additive_package,Petrolad 8099,published_formulations,absent,true,,false,status Missing,,false
+CHEMTURA_NAUGALUBE_16,additive_component,Naugalube 16,active_content,absent,true,,false,status Missing,,false
+CHEMTURA_NAUGALUBE_16,additive_component,Naugalube 16,carrier.identity,absent,true,,false,status Missing,,false
+CHEMTURA_NAUGALUBE_16,additive_component,Naugalube 16,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+CHEMTURA_NAUGALUBE_16,additive_component,Naugalube 16,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
 CHEVRON_GROUP_II_100R,base_oil,Chevron Base Oil 100R,kv40,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
 CHEVRON_GROUP_II_100R,base_oil,Chevron Base Oil 100R,kv100,absent,true,,false,status Missing,,false
 CHEVRON_GROUP_II_100R,base_oil,Chevron Base Oil 100R,viscosity_index,bound_or_range_needs_assessment,true,lower_bound,false,"lower bound (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
@@ -279,6 +366,89 @@ CHEVRON_WOP_40,base_oil,White Oil Pharmaceutical WOP 40,ccs,absent,true,,false,s
 CHEVRON_WOP_70,base_oil,White Oil Pharmaceutical WOP 70,api_group_chemistry.api_group,absent,true,,false,status Missing,,false
 CHEVRON_WOP_70,base_oil,White Oil Pharmaceutical WOP 70,viscosity_index,absent,true,,false,status Missing,,false
 CHEVRON_WOP_70,base_oil,White Oil Pharmaceutical WOP 70,ccs,absent,true,,false,status Missing,,false
+CRISTOL_EPR_3400,additive_component,CRISTOL EPR-3400,chemical_family,absent,true,,false,status Missing,,false
+CRISTOL_EPR_3400,additive_component,CRISTOL EPR-3400,active_content,absent,true,,false,status Missing,,false
+CRISTOL_EPR_3400,additive_component,CRISTOL EPR-3400,carrier.identity,absent,true,,false,status Missing,,false
+CRISTOL_EPR_3400,additive_component,CRISTOL EPR-3400,compatibility_restrictions,absent,true,,false,status Missing,,false
+CRISTOL_EPR_3400,additive_component,CRISTOL EPR-3400,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,chemical_family,absent,true,,false,status Missing,,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,active_content,absent,true,,false,status Missing,,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,treat_rate,absent,true,,false,status Missing,,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,compatibility_restrictions,absent,true,,false,status Missing,,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,vm.polymer_chemistry,absent,false,,false,status not recorded,,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,vm.active_polymer.wt_pct,absent,false,,false,status Missing,,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,vm.treat_range_by_sae_grade,absent,false,,false,status Missing,,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,vm.thickening_response,missing_unit_condition_provenance,false,,false,dose_wt_pct not recorded on the response (I-7),,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,vm.shear_stability,missing_unit_condition_provenance,false,,false,method or cycle count not recorded,,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,vm.post_shear_blend_behaviour.post_shear_kv100,absent,false,,false,status Missing,,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,vm.post_shear_blend_behaviour.hths_150c,absent,false,,false,status Missing,,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,vm.post_shear_blend_behaviour.ccs_impact,absent,false,,false,status Missing,,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,vm.post_shear_blend_behaviour.mrv_impact,absent,false,,false,status Missing,,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,vm.post_shear_blend_behaviour.low_temp_gelation,absent,false,,false,status Missing,,false
+CRISTOL_PMA_D_70,additive_component,CRISTOL PMA D-70,vm.dissolution_blend_temperature,absent,false,,false,status Missing,,false
+CRISTOL_PPD_LX_250,additive_component,CRISTOL PPD LX 250,chemical_family,absent,true,,false,status Missing,,false
+CRISTOL_PPD_LX_250,additive_component,CRISTOL PPD LX 250,active_content,absent,true,,false,status Missing,,false
+CRISTOL_PPD_LX_250,additive_component,CRISTOL PPD LX 250,compatibility_restrictions,absent,true,,false,status Missing,,false
+CRISTOL_PPD_LX_250,additive_component,CRISTOL PPD LX 250,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+CRISTOL_PPD_LX_250,additive_component,CRISTOL PPD LX 250,ppd.chemistry,absent,false,,false,status Missing,,false
+CRISTOL_PPD_LX_250,additive_component,CRISTOL PPD LX 250,ppd.active_content,absent,false,,false,status Missing,,false
+CRISTOL_PPD_LX_250,additive_component,CRISTOL PPD LX 250,ppd.pour_point_response,missing_unit_condition_provenance,false,,false,dose_wt_pct not recorded on the response (I-7),,false
+CRISTOL_PPD_LX_250,additive_component,CRISTOL PPD LX 250,ppd.low_temp_response.mrv,absent,false,,false,status Missing,,false
+CRISTOL_PPD_LX_250,additive_component,CRISTOL PPD LX 250,ppd.low_temp_response.yield_stress,absent,false,,false,status Missing,,false
+CRISTOL_PPD_LX_250,additive_component,CRISTOL PPD LX 250,ppd.low_temp_response.ccs,absent,false,,false,status Missing,,false
+CRISTOL_PPD_LX_250,additive_component,CRISTOL PPD LX 250,ppd.compatibility_envelope,absent,false,,false,status Missing,,false
+CRISTOL_PPD_LX_250,additive_component,CRISTOL PPD LX 250,ppd.addition_procedure,absent,false,,false,procedure not recorded,,false
+CRISTOL_PPD_LX_250,additive_component,CRISTOL PPD LX 250,ppd.addition_procedure.blend_temperature_c,absent,false,,false,status Missing,,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,active_content,absent,true,,false,status Missing,,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,carrier.identity,absent,true,,false,status Missing,,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,compatibility_restrictions,absent,true,,false,status Missing,,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,vm.polymer_chemistry,absent,false,,false,status not recorded,,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,vm.active_polymer.wt_pct,absent,false,,false,status Missing,,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,vm.active_polymer.carrier_identity,absent,false,,false,not recorded,,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,vm.treat_range_by_sae_grade,absent,false,,false,status Missing,,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,vm.thickening_response,missing_unit_condition_provenance,false,,false,dose_wt_pct not recorded on the response (I-7),,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,vm.shear_stability,missing_unit_condition_provenance,false,,false,method or cycle count not recorded,,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,vm.post_shear_blend_behaviour.post_shear_kv100,absent,false,,false,status Missing,,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,vm.post_shear_blend_behaviour.hths_150c,absent,false,,false,status Missing,,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,vm.post_shear_blend_behaviour.ccs_impact,absent,false,,false,status Missing,,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,vm.post_shear_blend_behaviour.mrv_impact,absent,false,,false,status Missing,,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,vm.post_shear_blend_behaviour.low_temp_gelation,absent,false,,false,status Missing,,false
+CRISTOL_VII_400,additive_component,CRISTOL VII-400,vm.dissolution_blend_temperature,absent,false,,false,status Missing,,false
+DORFKETAL_PX_3841,additive_component,PX-3841,active_content,absent,true,,false,status Missing,,false
+DORFKETAL_PX_3841,additive_component,PX-3841,carrier.identity,absent,true,,false,status Missing,,false
+DORFKETAL_PX_3841,additive_component,PX-3841,compatibility_restrictions,absent,true,,false,status Missing,,false
+DORFKETAL_PX_3841,additive_component,PX-3841,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+DORFKETAL_PX_3871,additive_component,PX-3871,active_content,absent,true,,false,status Missing,,false
+DORFKETAL_PX_3871,additive_component,PX-3871,carrier.identity,absent,true,,false,status Missing,,false
+DORFKETAL_PX_3871,additive_component,PX-3871,compatibility_restrictions,absent,true,,false,status Missing,,false
+DORFKETAL_PX_3871,additive_component,PX-3871,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+DOWPOL_NEOFLEX_680,additive_component,NeoFlex 680,active_content,absent,true,,false,status Missing,,false
+DOWPOL_NEOFLEX_680,additive_component,NeoFlex 680,carrier.identity,absent,true,,false,status Missing,,false
+DOWPOL_NEOFLEX_680,additive_component,NeoFlex 680,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+DOWPOL_NEOFLEX_680,additive_component,NeoFlex 680,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+DOWPOL_NEOFLEX_680,additive_component,NeoFlex 680,ppd,absent,false,,false,pour point depressant: no ppd.json subtype record,,false
+ELCO_ELCO_301,additive_component,Elco 301,chemical_family,absent,true,,false,status Missing,,false
+ELCO_ELCO_301,additive_component,Elco 301,active_content,absent,true,,false,status Missing,,false
+ELCO_ELCO_301,additive_component,Elco 301,carrier.identity,absent,true,,false,status Missing,,false
+ELCO_ELCO_301,additive_component,Elco 301,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+ELCO_ELCO_301,additive_component,Elco 301,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+ELCO_ELCO_313A,additive_component,Elco 313A,chemical_family,absent,true,,false,status Missing,,false
+ELCO_ELCO_313A,additive_component,Elco 313A,active_content,absent,true,,false,status Missing,,false
+ELCO_ELCO_313A,additive_component,Elco 313A,carrier.identity,absent,true,,false,status Missing,,false
+ELCO_ELCO_313A,additive_component,Elco 313A,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+ELCO_ELCO_313A,additive_component,Elco 313A,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+ELCO_ELCO_87,additive_component,Elco 87,chemical_family,absent,true,,false,status Missing,,false
+ELCO_ELCO_87,additive_component,Elco 87,active_content,absent,true,,false,status Missing,,false
+ELCO_ELCO_87,additive_component,Elco 87,carrier.identity,absent,true,,false,status Missing,,false
+ELCO_ELCO_87,additive_component,Elco 87,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+ELCO_ELCO_87,additive_component,Elco 87,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+ELCO_ELCO_88,additive_component,Elco 88,chemical_family,absent,true,,false,status Missing,,false
+ELCO_ELCO_88,additive_component,Elco 88,active_content,absent,true,,false,status Missing,,false
+ELCO_ELCO_88,additive_component,Elco 88,carrier.identity,absent,true,,false,status Missing,,false
+ELCO_ELCO_88,additive_component,Elco 88,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+ELCO_ELCO_88,additive_component,Elco 88,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
 ENI_MX_5212,additive_package,Eni MX 5212,treat_rate_matrix,missing_unit_condition_provenance,true,point,false,percentage basis unspecified: unit '%' states no basis and no reviewed source evidence establishes one,unspecified,false
 ENI_MX_5212,additive_package,Eni MX 5212,required_co_components,missing_unit_condition_provenance,true,point,false,"3 requirement(s) recorded, none with a usable dose, so no route that includes them can be complete (percentage basis unspecified: unit '%' states no basis and no reviewed source evidence establishes one)",unspecified,false
 ENI_MX_5212,additive_package,Eni MX 5212,published_formulations,absent,true,,false,status Missing,,false
@@ -337,6 +507,109 @@ ERGON_HY_40,base_oil,HY 40,api_group_chemistry.api_group,absent,true,,false,stat
 ERGON_HY_40,base_oil,HY 40,viscosity_index,absent,true,,false,status Missing,,false
 ERGON_HY_40,base_oil,HY 40,density,absent,true,,false,status Missing,,false
 ERGON_HY_40,base_oil,HY 40,ccs,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_0_223,additive_component,VISCOPLEX 0-223,active_content,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_0_223,additive_component,VISCOPLEX 0-223,treat_rate,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_0_223,additive_component,VISCOPLEX 0-223,compatibility_restrictions,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_0_223,additive_component,VISCOPLEX 0-223,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+EVONIK_VISCOPLEX_0_223,additive_component,VISCOPLEX 0-223,vm.polymer_chemistry,absent,false,,false,status not recorded,,false
+EVONIK_VISCOPLEX_0_223,additive_component,VISCOPLEX 0-223,vm.active_polymer.wt_pct,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_0_223,additive_component,VISCOPLEX 0-223,vm.treat_range_by_sae_grade,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_0_223,additive_component,VISCOPLEX 0-223,vm.thickening_response,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_0_223,additive_component,VISCOPLEX 0-223,vm.shear_stability,missing_unit_condition_provenance,false,,false,method or cycle count not recorded,,false
+EVONIK_VISCOPLEX_0_223,additive_component,VISCOPLEX 0-223,vm.post_shear_blend_behaviour.post_shear_kv100,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_0_223,additive_component,VISCOPLEX 0-223,vm.post_shear_blend_behaviour.hths_150c,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_0_223,additive_component,VISCOPLEX 0-223,vm.post_shear_blend_behaviour.ccs_impact,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_0_223,additive_component,VISCOPLEX 0-223,vm.post_shear_blend_behaviour.mrv_impact,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_0_223,additive_component,VISCOPLEX 0-223,vm.post_shear_blend_behaviour.low_temp_gelation,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_0_223,additive_component,VISCOPLEX 0-223,vm.dissolution_blend_temperature,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_14_520,additive_component,VISCOPLEX 14-520,active_content,missing_unit_condition_provenance,true,point,false,"basis of the active content not stated (glossary: ""wt.% with basis"")",,false
+EVONIK_VISCOPLEX_14_520,additive_component,VISCOPLEX 14-520,treat_rate,missing_unit_condition_provenance,true,range,false,percentage basis unspecified: unit 'ppm' states no basis and no reviewed source evidence establishes one,unspecified,false
+EVONIK_VISCOPLEX_14_520,additive_component,VISCOPLEX 14-520,compatibility_restrictions,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_14_520,additive_component,VISCOPLEX 14-520,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+EVONIK_VISCOPLEX_1_254,additive_component,VISCOPLEX 1-254,active_content,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_1_254,additive_component,VISCOPLEX 1-254,compatibility_restrictions,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_1_254,additive_component,VISCOPLEX 1-254,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+EVONIK_VISCOPLEX_1_254,additive_component,VISCOPLEX 1-254,ppd.active_content,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_1_254,additive_component,VISCOPLEX 1-254,ppd.pour_point_response,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_1_254,additive_component,VISCOPLEX 1-254,ppd.low_temp_response.mrv,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_1_254,additive_component,VISCOPLEX 1-254,ppd.low_temp_response.yield_stress,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_1_254,additive_component,VISCOPLEX 1-254,ppd.low_temp_response.ccs,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_1_254,additive_component,VISCOPLEX 1-254,ppd.compatibility_envelope,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_1_254,additive_component,VISCOPLEX 1-254,ppd.addition_procedure,absent,false,,false,procedure not recorded,,false
+EVONIK_VISCOPLEX_1_254,additive_component,VISCOPLEX 1-254,ppd.addition_procedure.blend_temperature_c,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_4_677,additive_component,VISCOPLEX 4-677,active_content,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_4_677,additive_component,VISCOPLEX 4-677,treat_rate,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_4_677,additive_component,VISCOPLEX 4-677,compatibility_restrictions,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_4_677,additive_component,VISCOPLEX 4-677,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+EVONIK_VISCOPLEX_4_677,additive_component,VISCOPLEX 4-677,vm.polymer_chemistry,absent,false,,false,status not recorded,,false
+EVONIK_VISCOPLEX_4_677,additive_component,VISCOPLEX 4-677,vm.active_polymer.wt_pct,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_4_677,additive_component,VISCOPLEX 4-677,vm.thickening_response,missing_unit_condition_provenance,false,,false,dose_wt_pct not recorded on the response (I-7),,false
+EVONIK_VISCOPLEX_4_677,additive_component,VISCOPLEX 4-677,vm.shear_stability,missing_unit_condition_provenance,false,,false,method or cycle count not recorded,,false
+EVONIK_VISCOPLEX_4_677,additive_component,VISCOPLEX 4-677,vm.post_shear_blend_behaviour.post_shear_kv100,missing_unit_condition_provenance,false,,false,reference_oil not recorded on the response (I-7),,false
+EVONIK_VISCOPLEX_4_677,additive_component,VISCOPLEX 4-677,vm.post_shear_blend_behaviour.hths_150c,missing_unit_condition_provenance,false,,false,reference_oil not recorded on the response (I-7),,false
+EVONIK_VISCOPLEX_4_677,additive_component,VISCOPLEX 4-677,vm.post_shear_blend_behaviour.ccs_impact,missing_unit_condition_provenance,false,,false,reference_oil not recorded on the response (I-7),,false
+EVONIK_VISCOPLEX_4_677,additive_component,VISCOPLEX 4-677,vm.post_shear_blend_behaviour.mrv_impact,missing_unit_condition_provenance,false,,false,reference_oil not recorded on the response (I-7),,false
+EVONIK_VISCOPLEX_4_677,additive_component,VISCOPLEX 4-677,vm.post_shear_blend_behaviour.low_temp_gelation,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_4_677,additive_component,VISCOPLEX 4-677,vm.dissolution_blend_temperature,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_4_677,additive_component,VISCOPLEX 4-677,ppd,absent,false,,false,pour point depressant: no ppd.json subtype record,,false
+EVONIK_VISCOPLEX_7_310,additive_component,VISCOPLEX 7-310,active_content,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_7_310,additive_component,VISCOPLEX 7-310,treat_rate,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_7_310,additive_component,VISCOPLEX 7-310,compatibility_restrictions,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_7_310,additive_component,VISCOPLEX 7-310,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+EVONIK_VISCOPLEX_7_310,additive_component,VISCOPLEX 7-310,vm.polymer_chemistry,absent,false,,false,status not recorded,,false
+EVONIK_VISCOPLEX_7_310,additive_component,VISCOPLEX 7-310,vm.active_polymer.wt_pct,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_7_310,additive_component,VISCOPLEX 7-310,vm.treat_range_by_sae_grade,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_7_310,additive_component,VISCOPLEX 7-310,vm.thickening_response,missing_unit_condition_provenance,false,,false,dose_wt_pct not recorded on the response (I-7),,false
+EVONIK_VISCOPLEX_7_310,additive_component,VISCOPLEX 7-310,vm.shear_stability,missing_unit_condition_provenance,false,,false,method or cycle count not recorded,,false
+EVONIK_VISCOPLEX_7_310,additive_component,VISCOPLEX 7-310,vm.post_shear_blend_behaviour.post_shear_kv100,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_7_310,additive_component,VISCOPLEX 7-310,vm.post_shear_blend_behaviour.hths_150c,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_7_310,additive_component,VISCOPLEX 7-310,vm.post_shear_blend_behaviour.ccs_impact,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_7_310,additive_component,VISCOPLEX 7-310,vm.post_shear_blend_behaviour.mrv_impact,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_7_310,additive_component,VISCOPLEX 7-310,vm.post_shear_blend_behaviour.low_temp_gelation,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_7_310,additive_component,VISCOPLEX 7-310,vm.dissolution_blend_temperature,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_200,additive_component,VISCOPLEX 8-200,active_content,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_200,additive_component,VISCOPLEX 8-200,compatibility_restrictions,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_200,additive_component,VISCOPLEX 8-200,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+EVONIK_VISCOPLEX_8_200,additive_component,VISCOPLEX 8-200,vm.polymer_chemistry,absent,false,,false,status not recorded,,false
+EVONIK_VISCOPLEX_8_200,additive_component,VISCOPLEX 8-200,vm.active_polymer.wt_pct,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_200,additive_component,VISCOPLEX 8-200,vm.thickening_response,missing_unit_condition_provenance,false,,false,dose_wt_pct not recorded on the response (I-7),,false
+EVONIK_VISCOPLEX_8_200,additive_component,VISCOPLEX 8-200,vm.shear_stability,missing_unit_condition_provenance,false,,false,method or cycle count not recorded,,false
+EVONIK_VISCOPLEX_8_200,additive_component,VISCOPLEX 8-200,vm.post_shear_blend_behaviour.post_shear_kv100,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_200,additive_component,VISCOPLEX 8-200,vm.post_shear_blend_behaviour.hths_150c,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_200,additive_component,VISCOPLEX 8-200,vm.post_shear_blend_behaviour.ccs_impact,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_200,additive_component,VISCOPLEX 8-200,vm.post_shear_blend_behaviour.mrv_impact,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_200,additive_component,VISCOPLEX 8-200,vm.post_shear_blend_behaviour.low_temp_gelation,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_200,additive_component,VISCOPLEX 8-200,vm.dissolution_blend_temperature,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_200,additive_component,VISCOPLEX 8-200,ppd,absent,false,,false,pour point depressant: no ppd.json subtype record,,false
+EVONIK_VISCOPLEX_8_251,additive_component,VISCOPLEX 8-251,active_content,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_251,additive_component,VISCOPLEX 8-251,treat_rate,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_251,additive_component,VISCOPLEX 8-251,compatibility_restrictions,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_251,additive_component,VISCOPLEX 8-251,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+EVONIK_VISCOPLEX_8_251,additive_component,VISCOPLEX 8-251,vm.polymer_chemistry,absent,false,,false,status not recorded,,false
+EVONIK_VISCOPLEX_8_251,additive_component,VISCOPLEX 8-251,vm.active_polymer.wt_pct,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_251,additive_component,VISCOPLEX 8-251,vm.treat_range_by_sae_grade,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_251,additive_component,VISCOPLEX 8-251,vm.thickening_response,missing_unit_condition_provenance,false,,false,dose_wt_pct not recorded on the response (I-7),,false
+EVONIK_VISCOPLEX_8_251,additive_component,VISCOPLEX 8-251,vm.shear_stability,missing_unit_condition_provenance,false,,false,method or cycle count not recorded,,false
+EVONIK_VISCOPLEX_8_251,additive_component,VISCOPLEX 8-251,vm.post_shear_blend_behaviour.post_shear_kv100,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_251,additive_component,VISCOPLEX 8-251,vm.post_shear_blend_behaviour.hths_150c,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_251,additive_component,VISCOPLEX 8-251,vm.post_shear_blend_behaviour.ccs_impact,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_251,additive_component,VISCOPLEX 8-251,vm.post_shear_blend_behaviour.mrv_impact,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_251,additive_component,VISCOPLEX 8-251,vm.post_shear_blend_behaviour.low_temp_gelation,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_251,additive_component,VISCOPLEX 8-251,vm.dissolution_blend_temperature,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_400,additive_component,VISCOPLEX 8-400,active_content,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_400,additive_component,VISCOPLEX 8-400,compatibility_restrictions,absent,true,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_400,additive_component,VISCOPLEX 8-400,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+EVONIK_VISCOPLEX_8_400,additive_component,VISCOPLEX 8-400,vm.polymer_chemistry,absent,false,,false,status not recorded,,false
+EVONIK_VISCOPLEX_8_400,additive_component,VISCOPLEX 8-400,vm.active_polymer.wt_pct,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_400,additive_component,VISCOPLEX 8-400,vm.thickening_response,missing_unit_condition_provenance,false,,false,dose_wt_pct not recorded on the response (I-7),,false
+EVONIK_VISCOPLEX_8_400,additive_component,VISCOPLEX 8-400,vm.shear_stability,missing_unit_condition_provenance,false,,false,method or cycle count not recorded,,false
+EVONIK_VISCOPLEX_8_400,additive_component,VISCOPLEX 8-400,vm.post_shear_blend_behaviour.post_shear_kv100,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_400,additive_component,VISCOPLEX 8-400,vm.post_shear_blend_behaviour.hths_150c,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_400,additive_component,VISCOPLEX 8-400,vm.post_shear_blend_behaviour.ccs_impact,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_400,additive_component,VISCOPLEX 8-400,vm.post_shear_blend_behaviour.mrv_impact,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_400,additive_component,VISCOPLEX 8-400,vm.post_shear_blend_behaviour.low_temp_gelation,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_400,additive_component,VISCOPLEX 8-400,vm.dissolution_blend_temperature,absent,false,,false,status Missing,,false
+EVONIK_VISCOPLEX_8_400,additive_component,VISCOPLEX 8-400,ppd,absent,false,,false,pour point depressant: no ppd.json subtype record,,false
 EXXONMOBIL_APE_CORE_100,base_oil,AP/E CORE 100,api_group_chemistry.chemistry,absent,true,,false,status Missing,,false
 EXXONMOBIL_APE_CORE_100,base_oil,AP/E CORE 100,kv40,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
 EXXONMOBIL_APE_CORE_100,base_oil,AP/E CORE 100,kv100,absent,true,,false,status Missing,,false
@@ -464,8 +737,26 @@ FORMOSA_500N_GII,base_oil,Base Oil 500N GII,kv100,bound_or_range_needs_assessmen
 FORMOSA_500N_GII,base_oil,Base Oil 500N GII,viscosity_index,bound_or_range_needs_assessment,true,lower_bound,false,"lower bound (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
 FORMOSA_500N_GII,base_oil,Base Oil 500N GII,density,absent,true,,false,status Missing,,false
 FORMOSA_500N_GII,base_oil,Base Oil 500N GII,ccs,absent,true,,false,status Missing,,false
+FORMOSA_BASE_OIL_GII_150N,base_oil,Formosa Petrochemical Group II 150N,api_group_chemistry.chemistry,absent,true,,false,status Missing,,false
+FORMOSA_BASE_OIL_GII_150N,base_oil,Formosa Petrochemical Group II 150N,kv40,invalid_value,true,,false,unsupported value_kind 'report-only',,false
+FORMOSA_BASE_OIL_GII_150N,base_oil,Formosa Petrochemical Group II 150N,kv100,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+FORMOSA_BASE_OIL_GII_150N,base_oil,Formosa Petrochemical Group II 150N,viscosity_index,invalid_value,true,,false,unsupported value_kind 'bound',,false
+FORMOSA_BASE_OIL_GII_150N,base_oil,Formosa Petrochemical Group II 150N,density,invalid_value,true,,false,unsupported value_kind 'report-only',,false
+FORMOSA_BASE_OIL_GII_150N,base_oil,Formosa Petrochemical Group II 150N,ccs,absent,true,,false,status Missing,,false
+FORMOSA_BASE_OIL_GII_500N,base_oil,Formosa Petrochemical Group II 500N,api_group_chemistry.chemistry,absent,true,,false,status Missing,,false
+FORMOSA_BASE_OIL_GII_500N,base_oil,Formosa Petrochemical Group II 500N,kv40,invalid_value,true,,false,unsupported value_kind 'report-only',,false
+FORMOSA_BASE_OIL_GII_500N,base_oil,Formosa Petrochemical Group II 500N,kv100,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+FORMOSA_BASE_OIL_GII_500N,base_oil,Formosa Petrochemical Group II 500N,viscosity_index,invalid_value,true,,false,unsupported value_kind 'bound',,false
+FORMOSA_BASE_OIL_GII_500N,base_oil,Formosa Petrochemical Group II 500N,density,invalid_value,true,,false,unsupported value_kind 'report-only',,false
+FORMOSA_BASE_OIL_GII_500N,base_oil,Formosa Petrochemical Group II 500N,ccs,absent,true,,false,status Missing,,false
 FORMOSA_FPCC_70N_GII,base_oil,FPCC 70N GII,api_group_chemistry.chemistry,absent,true,,false,status Missing,,false
 FORMOSA_FPCC_70N_GII,base_oil,FPCC 70N GII,ccs,absent,true,,false,status Missing,,false
+FORMOSA_M_25_SSI,additive_component,M 25 SSI,active_content,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+FORMOSA_M_25_SSI,additive_component,M 25 SSI,carrier.identity,absent,true,,false,status Missing,,false
+FORMOSA_M_25_SSI,additive_component,M 25 SSI,treat_rate,absent,true,,false,status Missing,,false
+FORMOSA_M_25_SSI,additive_component,M 25 SSI,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+FORMOSA_M_25_SSI,additive_component,M 25 SSI,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+FORMOSA_M_25_SSI,additive_component,M 25 SSI,vm,absent,false,,false,viscosity modifier: no vm.json subtype record,,false
 GS_CALTEX_150BS,base_oil,150BS,api_group_chemistry.chemistry,absent,true,,false,status Missing,,false
 GS_CALTEX_150BS,base_oil,150BS,density,absent,true,,false,status Missing,,false
 GS_CALTEX_150BS,base_oil,150BS,ccs,absent,true,,false,status Missing,,false
@@ -487,6 +778,13 @@ GS_CALTEX_600N,base_oil,600N,ccs,absent,true,,false,status Missing,,false
 GS_CALTEX_60N,base_oil,60N,api_group_chemistry.chemistry,absent,true,,false,status Missing,,false
 GS_CALTEX_60N,base_oil,60N,density,absent,true,,false,status Missing,,false
 GS_CALTEX_60N,base_oil,60N,ccs,absent,true,,false,status Missing,,false
+HYUNDAIOILBANK_HSB_500N,base_oil,HSB 500N (DAESAN),api_group_chemistry.api_group,absent,true,,false,status Missing,,false
+HYUNDAIOILBANK_HSB_500N,base_oil,HSB 500N (DAESAN),api_group_chemistry.chemistry,absent,true,,false,status Missing,,false
+HYUNDAIOILBANK_HSB_500N,base_oil,HSB 500N (DAESAN),kv40,invalid_value,true,,false,unsupported value_kind 'report-only',,false
+HYUNDAIOILBANK_HSB_500N,base_oil,HSB 500N (DAESAN),kv100,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+HYUNDAIOILBANK_HSB_500N,base_oil,HSB 500N (DAESAN),viscosity_index,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+HYUNDAIOILBANK_HSB_500N,base_oil,HSB 500N (DAESAN),density,invalid_value,true,,false,unsupported value_kind 'report-only',,false
+HYUNDAIOILBANK_HSB_500N,base_oil,HSB 500N (DAESAN),ccs,invalid_value,true,,false,unsupported value_kind 'report-only',,false
 HiTEC_8766B,additive_package,HiTEC® 8766B,treat_rate_matrix,missing_unit_condition_provenance,true,point,false,percentage basis unspecified: unit '%' states no basis and no reviewed source evidence establishes one,unspecified,false
 HiTEC_8766B,additive_package,HiTEC® 8766B,required_co_components,missing_unit_condition_provenance,true,point,false,"2 requirement(s) recorded, none with a usable dose, so no route that includes them can be complete (percentage basis unspecified: unit '%' states no basis and no reviewed source evidence establishes one)",unspecified,false
 HiTEC_8766B,additive_package,HiTEC® 8766B,published_formulations,absent,true,,false,status Missing,,false
@@ -539,6 +837,252 @@ JINZHOU_KANGTAI_KT31140,additive_package,KT31140,sae_grades_documented,absent,tr
 JINZHOU_KANGTAI_KT31140,additive_package,KT31140,route_selector_restrictions,absent,true,,false,status Missing,,false
 JINZHOU_KANGTAI_KT31140,additive_package,KT31140,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
 JINZHOU_KANGTAI_KT31140,additive_package,KT31140,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_BDC010,additive_component,BD C010,active_content,absent,true,,false,status Missing,,false
+KANGTAI_BDC010,additive_component,BD C010,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_BDC010,additive_component,BD C010,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_BDC010,additive_component,BD C010,function_specific_markers.tbn,invalid_value,true,,false,unsupported value_kind 'bound',,false
+KANGTAI_BDC010,additive_component,BD C010,function_specific_markers.ca|mg,invalid_value,true,,false,unsupported value_kind 'bound',,false
+KANGTAI_BDC030,additive_component,BD C030,active_content,absent,true,,false,status Missing,,false
+KANGTAI_BDC030,additive_component,BD C030,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_BDC030,additive_component,BD C030,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_BDC030,additive_component,BD C030,function_specific_markers.tbn,invalid_value,true,,false,unsupported value_kind 'bound',,false
+KANGTAI_BDC030,additive_component,BD C030,function_specific_markers.ca|mg,invalid_value,true,,false,unsupported value_kind 'bound',,false
+KANGTAI_BDC300,additive_component,BD C300,active_content,absent,true,,false,status Missing,,false
+KANGTAI_BDC300,additive_component,BD C300,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_BDC300,additive_component,BD C300,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_BDC300,additive_component,BD C300,function_specific_markers.tbn,invalid_value,true,,false,unsupported value_kind 'bound',,false
+KANGTAI_BDC300,additive_component,BD C300,function_specific_markers.ca|mg,invalid_value,true,,false,unsupported value_kind 'bound',,false
+KANGTAI_BDC400,additive_component,BD C400,active_content,absent,true,,false,status Missing,,false
+KANGTAI_BDC400,additive_component,BD C400,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_BDC400,additive_component,BD C400,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_BDC400,additive_component,BD C400,function_specific_markers.tbn,invalid_value,true,,false,unsupported value_kind 'bound',,false
+KANGTAI_BDC400,additive_component,BD C400,function_specific_markers.ca|mg,invalid_value,true,,false,unsupported value_kind 'bound',,false
+KANGTAI_BDP250,additive_component,BD P250,active_content,absent,true,,false,status Missing,,false
+KANGTAI_BDP250,additive_component,BD P250,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_BDP250,additive_component,BD P250,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_BDP250,additive_component,BD P250,function_specific_markers.tbn,invalid_value,true,,false,unsupported value_kind 'bound',,false
+KANGTAI_BDP250,additive_component,BD P250,function_specific_markers.ca|mg,invalid_value,true,,false,unsupported value_kind 'bound',,false
+KANGTAI_KT30090,additive_package,KT30090,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT30090,additive_package,KT30090,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT30090,additive_package,KT30090,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT30090,additive_package,KT30090,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT30090,additive_package,KT30090,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+KANGTAI_KT30090,additive_package,KT30090,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT30100,additive_package,KT30100,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT30100,additive_package,KT30100,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT30100,additive_package,KT30100,permitted_base_oils_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+KANGTAI_KT30100,additive_package,KT30100,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT30100,additive_package,KT30100,required_co_components,invalid_value,true,,false,"1 requirement(s) recorded, none with a usable dose, so no route that includes them can be complete (unsupported value_kind 'text')",,false
+KANGTAI_KT30100,additive_package,KT30100,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT3069,additive_package,KT3069,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT3069,additive_package,KT3069,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT3069,additive_package,KT3069,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT3069,additive_package,KT3069,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT3069,additive_package,KT3069,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+KANGTAI_KT3069,additive_package,KT3069,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT31048,additive_package,KT31048,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT31048,additive_package,KT31048,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT31048,additive_package,KT31048,permitted_base_oils_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+KANGTAI_KT31048,additive_package,KT31048,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT31048,additive_package,KT31048,required_co_components,invalid_value,true,,false,"2 requirement(s) recorded, none with a usable dose, so no route that includes them can be complete (unsupported value_kind 'text')",,false
+KANGTAI_KT31048,additive_package,KT31048,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT31050,additive_package,KT31050,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT31050,additive_package,KT31050,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT31050,additive_package,KT31050,permitted_base_oils_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+KANGTAI_KT31050,additive_package,KT31050,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT31050,additive_package,KT31050,required_co_components,invalid_value,true,,false,"2 requirement(s) recorded, none with a usable dose, so no route that includes them can be complete (unsupported value_kind 'text')",,false
+KANGTAI_KT31050,additive_package,KT31050,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT33070,additive_package,KT33070,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT33070,additive_package,KT33070,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT33070,additive_package,KT33070,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33070,additive_package,KT33070,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33070,additive_package,KT33070,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+KANGTAI_KT33070,additive_package,KT33070,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT33070A,additive_package,KT33070A,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT33070A,additive_package,KT33070A,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT33070A,additive_package,KT33070A,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33070A,additive_package,KT33070A,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33070A,additive_package,KT33070A,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+KANGTAI_KT33070A,additive_package,KT33070A,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT3309,additive_component,KT3309,active_content,absent,true,,false,status Missing,,false
+KANGTAI_KT3309,additive_component,KT3309,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_KT3309,additive_component,KT3309,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT3309,additive_component,KT3309,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+KANGTAI_KT33133,additive_package,KT33133,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT33133,additive_package,KT33133,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT33133,additive_package,KT33133,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33133,additive_package,KT33133,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33133,additive_package,KT33133,required_co_components,invalid_value,true,,false,"1 requirement(s) recorded, none with a usable dose, so no route that includes them can be complete (unsupported value_kind 'text')",,false
+KANGTAI_KT33133,additive_package,KT33133,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT33158,additive_package,KT33158,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT33158,additive_package,KT33158,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT33158,additive_package,KT33158,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33158,additive_package,KT33158,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33158,additive_package,KT33158,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+KANGTAI_KT33158,additive_package,KT33158,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT33160A,additive_package,KT33160A,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT33160A,additive_package,KT33160A,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT33160A,additive_package,KT33160A,permitted_base_oils_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+KANGTAI_KT33160A,additive_package,KT33160A,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33160A,additive_package,KT33160A,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+KANGTAI_KT33160A,additive_package,KT33160A,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT33161,additive_package,KT33161,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT33161,additive_package,KT33161,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT33161,additive_package,KT33161,permitted_base_oils_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+KANGTAI_KT33161,additive_package,KT33161,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33161,additive_package,KT33161,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+KANGTAI_KT33161,additive_package,KT33161,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT33162,additive_package,KT33162,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT33162,additive_package,KT33162,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT33162,additive_package,KT33162,permitted_base_oils_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+KANGTAI_KT33162,additive_package,KT33162,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33162,additive_package,KT33162,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+KANGTAI_KT33162,additive_package,KT33162,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT33169,additive_package,KT 33169,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT33169,additive_package,KT 33169,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT33169,additive_package,KT 33169,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33169,additive_package,KT 33169,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33169,additive_package,KT 33169,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+KANGTAI_KT33169,additive_package,KT 33169,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT3321,additive_component,KT3321,active_content,absent,true,,false,status Missing,,false
+KANGTAI_KT3321,additive_component,KT3321,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_KT3321,additive_component,KT3321,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+KANGTAI_KT3321,additive_component,KT3321,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+KANGTAI_KT33210,additive_package,KT33210,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT33210,additive_package,KT33210,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT33210,additive_package,KT33210,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33210,additive_package,KT33210,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33210,additive_package,KT33210,required_co_components,invalid_value,true,,false,"2 requirement(s) recorded, none with a usable dose, so no route that includes them can be complete (unsupported value_kind 'text')",,false
+KANGTAI_KT33210,additive_package,KT33210,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT3323,additive_component,KT3323,active_content,absent,true,,false,status Missing,,false
+KANGTAI_KT3323,additive_component,KT3323,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_KT3323,additive_component,KT3323,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT3323,additive_component,KT3323,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+KANGTAI_KT33232,additive_package,KT33232,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT33232,additive_package,KT33232,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT33232,additive_package,KT33232,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33232,additive_package,KT33232,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33232,additive_package,KT33232,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+KANGTAI_KT33232,additive_package,KT33232,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT33303,additive_package,KT33303,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT33303,additive_package,KT33303,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT33303,additive_package,KT33303,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33303,additive_package,KT33303,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33303,additive_package,KT33303,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+KANGTAI_KT33303,additive_package,KT33303,published_formulations,absent,true,,false,status Missing,,false
+KANGTAI_KT33303A,additive_package,KT33303A,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KANGTAI_KT33303A,additive_package,KT33303A,sae_grades_documented,absent,true,,false,status Missing,,false
+KANGTAI_KT33303A,additive_package,KT33303A,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33303A,additive_package,KT33303A,route_selector_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT33303A,additive_package,KT33303A,required_co_components,invalid_value,true,,false,"2 requirement(s) recorded, none with a usable dose, so no route that includes them can be complete (unsupported value_kind 'text')",,false
+KANGTAI_KT33303A,additive_package,KT33303A,published_formulations,invalid_value,true,,false,"ingredient {'name': 'Preference formulation of two-stroke engine oil: base oil 35%, PIB 30%, KT33303A 5-10%,KT8602 0.5%, kerosene(the rest percentage).', 'wt_pct': None} lacks a name or a finite, non-negative wt.%",,false
+KANGTAI_KT620,additive_component,KT620,active_content,absent,true,,false,status Missing,,false
+KANGTAI_KT620,additive_component,KT620,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_KT620,additive_component,KT620,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT620,additive_component,KT620,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+KANGTAI_KT620,additive_component,KT620,vm.polymer_chemistry,absent,false,,false,status not recorded,,false
+KANGTAI_KT620,additive_component,KT620,vm.active_polymer.wt_pct,absent,false,,false,status Missing,,false
+KANGTAI_KT620,additive_component,KT620,vm.active_polymer.carrier_identity,absent,false,,false,not recorded,,false
+KANGTAI_KT620,additive_component,KT620,vm.treat_range_by_sae_grade,absent,false,,false,status Missing,,false
+KANGTAI_KT620,additive_component,KT620,vm.thickening_response,absent,false,,false,status Missing,,false
+KANGTAI_KT620,additive_component,KT620,vm.shear_stability,missing_unit_condition_provenance,false,,false,method or cycle count not recorded,,false
+KANGTAI_KT620,additive_component,KT620,vm.post_shear_blend_behaviour.post_shear_kv100,absent,false,,false,status Missing,,false
+KANGTAI_KT620,additive_component,KT620,vm.post_shear_blend_behaviour.hths_150c,absent,false,,false,status Missing,,false
+KANGTAI_KT620,additive_component,KT620,vm.post_shear_blend_behaviour.ccs_impact,absent,false,,false,status Missing,,false
+KANGTAI_KT620,additive_component,KT620,vm.post_shear_blend_behaviour.mrv_impact,absent,false,,false,status Missing,,false
+KANGTAI_KT620,additive_component,KT620,vm.post_shear_blend_behaviour.low_temp_gelation,absent,false,,false,status Missing,,false
+KANGTAI_KT620,additive_component,KT620,vm.dissolution_blend_temperature,absent,false,,false,status Missing,,false
+KANGTAI_KT6613,additive_component,KT6613,active_content,absent,true,,false,status Missing,,false
+KANGTAI_KT6613,additive_component,KT6613,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_KT6613,additive_component,KT6613,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT6613,additive_component,KT6613,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+KANGTAI_KT6613,additive_component,KT6613,vm.polymer_chemistry,absent,false,,false,status not recorded,,false
+KANGTAI_KT6613,additive_component,KT6613,vm.active_polymer.wt_pct,absent,false,,false,status Missing,,false
+KANGTAI_KT6613,additive_component,KT6613,vm.active_polymer.carrier_identity,absent,false,,false,not recorded,,false
+KANGTAI_KT6613,additive_component,KT6613,vm.treat_range_by_sae_grade,absent,false,,false,status Missing,,false
+KANGTAI_KT6613,additive_component,KT6613,vm.thickening_response,absent,false,,false,status Missing,,false
+KANGTAI_KT6613,additive_component,KT6613,vm.shear_stability,missing_unit_condition_provenance,false,,false,method or cycle count not recorded,,false
+KANGTAI_KT6613,additive_component,KT6613,vm.post_shear_blend_behaviour.post_shear_kv100,absent,false,,false,status Missing,,false
+KANGTAI_KT6613,additive_component,KT6613,vm.post_shear_blend_behaviour.hths_150c,absent,false,,false,status Missing,,false
+KANGTAI_KT6613,additive_component,KT6613,vm.post_shear_blend_behaviour.ccs_impact,absent,false,,false,status Missing,,false
+KANGTAI_KT6613,additive_component,KT6613,vm.post_shear_blend_behaviour.mrv_impact,absent,false,,false,status Missing,,false
+KANGTAI_KT6613,additive_component,KT6613,vm.post_shear_blend_behaviour.low_temp_gelation,absent,false,,false,status Missing,,false
+KANGTAI_KT6613,additive_component,KT6613,vm.dissolution_blend_temperature,absent,false,,false,status Missing,,false
+KANGTAI_KT6614,additive_component,KT6614,active_content,absent,true,,false,status Missing,,false
+KANGTAI_KT6614,additive_component,KT6614,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_KT6614,additive_component,KT6614,treat_rate,absent,true,,false,status Missing,,false
+KANGTAI_KT6614,additive_component,KT6614,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KT6614,additive_component,KT6614,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+KANGTAI_KT6614,additive_component,KT6614,vm.polymer_chemistry,absent,false,,false,status not recorded,,false
+KANGTAI_KT6614,additive_component,KT6614,vm.active_polymer.wt_pct,absent,false,,false,status Missing,,false
+KANGTAI_KT6614,additive_component,KT6614,vm.active_polymer.carrier_identity,absent,false,,false,not recorded,,false
+KANGTAI_KT6614,additive_component,KT6614,vm.thickening_response,absent,false,,false,status Missing,,false
+KANGTAI_KT6614,additive_component,KT6614,vm.shear_stability,missing_unit_condition_provenance,false,,false,method or cycle count not recorded,,false
+KANGTAI_KT6614,additive_component,KT6614,vm.post_shear_blend_behaviour.post_shear_kv100,absent,false,,false,status Missing,,false
+KANGTAI_KT6614,additive_component,KT6614,vm.post_shear_blend_behaviour.hths_150c,absent,false,,false,status Missing,,false
+KANGTAI_KT6614,additive_component,KT6614,vm.post_shear_blend_behaviour.ccs_impact,absent,false,,false,status Missing,,false
+KANGTAI_KT6614,additive_component,KT6614,vm.post_shear_blend_behaviour.mrv_impact,absent,false,,false,status Missing,,false
+KANGTAI_KT6614,additive_component,KT6614,vm.post_shear_blend_behaviour.low_temp_gelation,absent,false,,false,status Missing,,false
+KANGTAI_KT6614,additive_component,KT6614,vm.dissolution_blend_temperature,absent,false,,false,status Missing,,false
+KANGTAI_KTD1351,additive_component,KT D1351,active_content,absent,true,,false,status Missing,,false
+KANGTAI_KTD1351,additive_component,KT D1351,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_KTD1351,additive_component,KT D1351,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KTD1351,additive_component,KT D1351,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+KANGTAI_KTD1354,additive_component,KT D1354,active_content,absent,true,,false,status Missing,,false
+KANGTAI_KTD1354,additive_component,KT D1354,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_KTD1354,additive_component,KT D1354,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KTD1354,additive_component,KT D1354,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+KANGTAI_KTD1354B,additive_component,KT D1354B,active_content,absent,true,,false,status Missing,,false
+KANGTAI_KTD1354B,additive_component,KT D1354B,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_KTD1354B,additive_component,KT D1354B,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KTD1354B,additive_component,KT D1354B,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+KANGTAI_KTD1354E,additive_component,KT D1354E,active_content,absent,true,,false,status Missing,,false
+KANGTAI_KTD1354E,additive_component,KT D1354E,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_KTD1354E,additive_component,KT D1354E,treat_rate,missing_unit_condition_provenance,true,range,false,percentage basis unspecified: unit '%' states no basis and no reviewed source evidence establishes one,unspecified,false
+KANGTAI_KTD1354E,additive_component,KT D1354E,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KTD1354E,additive_component,KT D1354E,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+KANGTAI_KTZ2048,additive_component,KT Z2048,active_content,absent,true,,false,status Missing,,false
+KANGTAI_KTZ2048,additive_component,KT Z2048,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_KTZ2048,additive_component,KT Z2048,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+KANGTAI_KTZ2048,additive_component,KT Z2048,function_specific_markers.p,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+KANGTAI_KTZ2048,additive_component,KT Z2048,function_specific_markers.zn,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+KANGTAI_KTZ2080,additive_component,KT Z2080,active_content,absent,true,,false,status Missing,,false
+KANGTAI_KTZ2080,additive_component,KT Z2080,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_KTZ2080,additive_component,KT Z2080,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KTZ2080,additive_component,KT Z2080,function_specific_markers.p,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+KANGTAI_KTZ2080,additive_component,KT Z2080,function_specific_markers.zn,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+KANGTAI_KZZ2038,additive_component,KZ Z2038,active_content,absent,true,,false,status Missing,,false
+KANGTAI_KZZ2038,additive_component,KZ Z2038,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_KZZ2038,additive_component,KZ Z2038,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KZZ2038,additive_component,KZ Z2038,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+KANGTAI_KZZ2081,additive_component,KZ Z2081,active_content,absent,true,,false,status Missing,,false
+KANGTAI_KZZ2081,additive_component,KZ Z2081,carrier.identity,absent,true,,false,status Missing,,false
+KANGTAI_KZZ2081,additive_component,KZ Z2081,compatibility_restrictions,absent,true,,false,status Missing,,false
+KANGTAI_KZZ2081,additive_component,KZ Z2081,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+KINGINDUSTRIES_NA_LUBE_AO_142_I,additive_component,NA-LUBE AO-142-I,active_content,absent,true,,false,status Missing,,false
+KINGINDUSTRIES_NA_LUBE_AO_142_I,additive_component,NA-LUBE AO-142-I,carrier.identity,absent,true,,false,status Missing,,false
+KINGINDUSTRIES_NA_LUBE_AO_142_I,additive_component,NA-LUBE AO-142-I,compatibility_restrictions,absent,true,,false,status Missing,,false
+KINGINDUSTRIES_NA_LUBE_AO_142_I,additive_component,NA-LUBE AO-142-I,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+KINGINDUSTRIES_NA_LUBE_BL_1208,additive_package,NA-LUBE BL-1208,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+KINGINDUSTRIES_NA_LUBE_BL_1208,additive_package,NA-LUBE BL-1208,sae_grades_documented,absent,true,,false,status Missing,,false
+KINGINDUSTRIES_NA_LUBE_BL_1208,additive_package,NA-LUBE BL-1208,permitted_base_oils_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+KINGINDUSTRIES_NA_LUBE_BL_1208,additive_package,NA-LUBE BL-1208,route_selector_restrictions,absent,true,,false,status Missing,,false
+KINGINDUSTRIES_NA_LUBE_BL_1208,additive_package,NA-LUBE BL-1208,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+KINGINDUSTRIES_NA_LUBE_BL_1208,additive_package,NA-LUBE BL-1208,published_formulations,invalid_value,true,,false,"ingredient {'name': 'Performance in Group I, II, III & IV Oils at 0.70% (ISO VG 46)', 'wt_pct': None} lacks a name or a finite, non-negative wt.%",,false
+KINGINDUSTRIES_NA_SUL_BSN,additive_component,NA-SUL BSN,active_content,absent,true,,false,status Missing,,false
+KINGINDUSTRIES_NA_SUL_BSN,additive_component,NA-SUL BSN,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+KINGINDUSTRIES_NA_SUL_BSN,additive_component,NA-SUL BSN,function_specific_markers.tbn,absent,true,,false,status Missing,,false
+KINGINDUSTRIES_NA_SUL_BSN,additive_component,NA-SUL BSN,function_specific_markers.ca|mg,absent,true,,false,status Missing,,false
+KRATON_G1750_V,additive_component,Kraton G1750 V,active_content,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+KRATON_G1750_V,additive_component,Kraton G1750 V,carrier.identity,absent,true,,false,status Missing,,false
+KRATON_G1750_V,additive_component,Kraton G1750 V,treat_rate,absent,true,,false,status Missing,,false
+KRATON_G1750_V,additive_component,Kraton G1750 V,compatibility_restrictions,absent,true,,false,status Missing,,false
+KRATON_G1750_V,additive_component,Kraton G1750 V,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+KRATON_G1765,additive_component,Kraton G1765,active_content,absent,true,,false,status Missing,,false
+KRATON_G1765,additive_component,Kraton G1765,carrier.identity,absent,true,,false,status Missing,,false
+KRATON_G1765,additive_component,Kraton G1765,treat_rate,absent,true,,false,status Missing,,false
+KRATON_G1765,additive_component,Kraton G1765,compatibility_restrictions,absent,true,,false,status Missing,,false
+KRATON_G1765,additive_component,Kraton G1765,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
 LUBRIZOL_16008,additive_package,LUBRIZOL® 16008,sae_grades_documented,absent,true,,false,status Missing,,false
 LUBRIZOL_16008,additive_package,LUBRIZOL® 16008,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
 LUBRIZOL_16008,additive_package,LUBRIZOL® 16008,route_selector_restrictions,absent,true,,false,status Missing,,false
@@ -602,6 +1146,12 @@ LUBRIZOL_CV6320,additive_component,LUBRIZOL® CV6320,active_content,absent,true,
 LUBRIZOL_CV6320,additive_component,LUBRIZOL® CV6320,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
 LUBRIZOL_CV7540,additive_package,LUBRIZOL® CV7540,required_co_components,absent,true,,false,"1 requirement(s) recorded, none with a dose: no route that includes them can be complete (the requirement is recorded; its dose is not)",,false
 LUBRIZOL_CV7540,additive_package,LUBRIZOL® CV7540,published_formulations,absent,true,,false,status Missing,,false
+MINGLAN_T106D_SUP_HIGH_TBN_CA_SUL,additive_component,T106D Super High TBN Calcium Sulfonate,active_content,absent,true,,false,status Missing,,false
+MINGLAN_T106D_SUP_HIGH_TBN_CA_SUL,additive_component,T106D Super High TBN Calcium Sulfonate,carrier.identity,absent,true,,false,status Missing,,false
+MINGLAN_T106D_SUP_HIGH_TBN_CA_SUL,additive_component,T106D Super High TBN Calcium Sulfonate,treat_rate,absent,true,,false,status Missing,,false
+MINGLAN_T106D_SUP_HIGH_TBN_CA_SUL,additive_component,T106D Super High TBN Calcium Sulfonate,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+MINGLAN_T106D_SUP_HIGH_TBN_CA_SUL,additive_component,T106D Super High TBN Calcium Sulfonate,function_specific_markers.tbn,invalid_value,true,,false,unsupported value_kind 'bound',,false
+MINGLAN_T106D_SUP_HIGH_TBN_CA_SUL,additive_component,T106D Super High TBN Calcium Sulfonate,function_specific_markers.ca|mg,invalid_value,true,,false,unsupported value_kind 'bound',,false
 MINGLAN_T3161,additive_package,T3161,sae_grades_documented,absent,true,,false,status Missing,,false
 MINGLAN_T3161,additive_package,T3161,treat_rate_matrix,missing_unit_condition_provenance,true,point,false,unit not recorded,,false
 MINGLAN_T3161,additive_package,T3161,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
@@ -670,6 +1220,15 @@ NYNAS_T_600,base_oil,Nynas T 600,viscosity_index,absent,true,,false,status Missi
 NYNAS_T_600,base_oil,Nynas T 600,ccs,absent,true,,false,status Missing,,false
 NYNAS_T_9,base_oil,Nynas T 9,viscosity_index,absent,true,,false,status Missing,,false
 NYNAS_T_9,base_oil,Nynas T 9,ccs,absent,true,,false,status Missing,,false
+OCEANCHEMICAL_HC6247,additive_component,HC6247,active_content,absent,true,,false,status Missing,,false
+OCEANCHEMICAL_HC6247,additive_component,HC6247,carrier.identity,absent,true,,false,status Missing,,false
+OCEANCHEMICAL_HC6247,additive_component,HC6247,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+OCEANCHEMICAL_HC6247,additive_component,HC6247,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+OCEAN_CHEM_P8401_PPD,additive_component,P8401 PMA PPD,active_content,absent,true,,false,status Missing,,false
+OCEAN_CHEM_P8401_PPD,additive_component,P8401 PMA PPD,carrier.identity,absent,true,,false,status Missing,,false
+OCEAN_CHEM_P8401_PPD,additive_component,P8401 PMA PPD,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+OCEAN_CHEM_P8401_PPD,additive_component,P8401 PMA PPD,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+OCEAN_CHEM_P8401_PPD,additive_component,P8401 PMA PPD,ppd,absent,false,,false,pour point depressant: no ppd.json subtype record,,false
 PETRONAS_EQUINAS_4,base_oil,EQUINAS 4,api_group_chemistry.api_group,absent,true,,false,status Missing,,false
 PETRONAS_EQUINAS_4,base_oil,EQUINAS 4,viscosity_index,absent,true,,false,status Missing,,false
 PETRONAS_EQUINAS_4,base_oil,EQUINAS 4,ccs,absent,true,,false,status Missing,,false
@@ -788,6 +1347,32 @@ SHELL_RISELLA_X_420,base_oil,Shell Risella X 420,api_group_chemistry.api_group,u
 SHELL_RISELLA_X_420,base_oil,Shell Risella X 420,ccs,unresolved_applicability,true,,false,"marked 'Not Required' without an applicability rule approved for this product class, requirement and task",,false
 SHELL_RISELLA_X_430,base_oil,Shell Risella X 430,api_group_chemistry.api_group,unresolved_applicability,true,,false,"marked 'Not Required' without an applicability rule approved for this product class, requirement and task",,false
 SHELL_RISELLA_X_430,base_oil,Shell Risella X 430,ccs,unresolved_applicability,true,,false,"marked 'Not Required' without an applicability rule approved for this product class, requirement and task",,false
+SIGROUP_ETHAFLOW_6705,additive_component,ETHAFLOW 6705,active_content,absent,true,,false,status Missing,,false
+SIGROUP_ETHAFLOW_6705,additive_component,ETHAFLOW 6705,carrier.identity,absent,true,,false,status Missing,,false
+SIGROUP_ETHAFLOW_6705,additive_component,ETHAFLOW 6705,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+SIGROUP_ETHAFLOW_6705,additive_component,ETHAFLOW 6705,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+SIGROUP_ETHANOX_4703,additive_component,ETHANOX 4703,active_content,absent,true,,false,status Missing,,false
+SIGROUP_ETHANOX_4703,additive_component,ETHANOX 4703,carrier.identity,absent,true,,false,status Missing,,false
+SIGROUP_ETHANOX_4703,additive_component,ETHANOX 4703,treat_rate,absent,true,,false,status Missing,,false
+SIGROUP_ETHANOX_4703,additive_component,ETHANOX 4703,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+SIGROUP_ETHANOX_4703,additive_component,ETHANOX 4703,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+SONGWON_SONGNOX_L107,additive_component,SONGNOX L107,active_content,invalid_value,true,,false,unsupported value_kind 'bound',,false
+SONGWON_SONGNOX_L107,additive_component,SONGNOX L107,carrier.identity,absent,true,,false,status Missing,,false
+SONGWON_SONGNOX_L107,additive_component,SONGNOX L107,treat_rate,absent,true,,false,status Missing,,false
+SONGWON_SONGNOX_L107,additive_component,SONGNOX L107,compatibility_restrictions,absent,true,,false,status Missing,,false
+SONGWON_SONGNOX_L107,additive_component,SONGNOX L107,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+SONGWON_SONGNOX_L135,additive_component,SONGNOX L135,active_content,invalid_value,true,,false,unsupported value_kind 'bound',,false
+SONGWON_SONGNOX_L135,additive_component,SONGNOX L135,carrier.identity,absent,true,,false,status Missing,,false
+SONGWON_SONGNOX_L135,additive_component,SONGNOX L135,compatibility_restrictions,absent,true,,false,status Missing,,false
+SONGWON_SONGNOX_L135,additive_component,SONGNOX L135,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+SONGWON_SONGNOX_L570,additive_component,SONGNOX L570,active_content,absent,true,,false,status Missing,,false
+SONGWON_SONGNOX_L570,additive_component,SONGNOX L570,carrier.identity,absent,true,,false,status Missing,,false
+SONGWON_SONGNOX_L570,additive_component,SONGNOX L570,compatibility_restrictions,absent,true,,false,status Missing,,false
+SONGWON_SONGNOX_L570,additive_component,SONGNOX L570,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+SONGWON_SONGNOX_L670,additive_component,SONGNOX L670,active_content,absent,true,,false,status Missing,,false
+SONGWON_SONGNOX_L670,additive_component,SONGNOX L670,carrier.identity,absent,true,,false,status Missing,,false
+SONGWON_SONGNOX_L670,additive_component,SONGNOX L670,compatibility_restrictions,absent,true,,false,status Missing,,false
+SONGWON_SONGNOX_L670,additive_component,SONGNOX L670,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
 S_OIL_PREMIUM_P_20,base_oil,P-20 (Premium 100N),api_group_chemistry.api_group,absent,true,,false,status Missing,,false
 S_OIL_PREMIUM_P_20,base_oil,P-20 (Premium 100N),api_group_chemistry.chemistry,absent,true,,false,status Missing,,false
 S_OIL_PREMIUM_P_20,base_oil,P-20 (Premium 100N),density,absent,true,,false,status Missing,,false
@@ -821,11 +1406,98 @@ S_OIL_ULTRA_S_3,base_oil,Ultra-S 3 (70 Neutral),ccs,absent,true,,false,status Mi
 S_OIL_ULTRA_S_4,base_oil,Ultra-S 4 (100 Neutral),api_group_chemistry.api_group,absent,true,,false,status Missing,,false
 S_OIL_ULTRA_S_6,base_oil,Ultra-S 6 (150 Neutral),api_group_chemistry.api_group,absent,true,,false,status Missing,,false
 S_OIL_ULTRA_S_8,base_oil,Ultra-S 8 (250 Neutral),api_group_chemistry.api_group,absent,true,,false,status Missing,,false
+TANEE_TE_598,additive_component,TE-598 Dialkyl Diphenylamine,active_content,absent,true,,false,status Missing,,false
+TANEE_TE_598,additive_component,TE-598 Dialkyl Diphenylamine,carrier.identity,absent,true,,false,status Missing,,false
+TANEE_TE_598,additive_component,TE-598 Dialkyl Diphenylamine,treat_rate,missing_unit_condition_provenance,true,range,false,percentage basis unspecified: unit '%' states no basis and no reviewed source evidence establishes one,unspecified,false
+TANEE_TE_598,additive_component,TE-598 Dialkyl Diphenylamine,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+TANEE_TE_598,additive_component,TE-598 Dialkyl Diphenylamine,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+TIANHE_C_TEC_104A,additive_component,C-TEC 104A,active_content,absent,true,,false,status Missing,,false
+TIANHE_C_TEC_104A,additive_component,C-TEC 104A,carrier.identity,absent,true,,false,status Missing,,false
+TIANHE_C_TEC_104A,additive_component,C-TEC 104A,treat_rate,missing_unit_condition_provenance,true,range,false,percentage basis unspecified: unit '%' states no basis and no reviewed source evidence establishes one,unspecified,false
+TIANHE_C_TEC_104A,additive_component,C-TEC 104A,compatibility_restrictions,absent,true,,false,status Missing,,false
+TIANHE_C_TEC_151A,additive_component,C-TEC 151A,active_content,absent,true,,false,status Missing,,false
+TIANHE_C_TEC_151A,additive_component,C-TEC 151A,carrier.identity,absent,true,,false,status Missing,,false
+TIANHE_C_TEC_151A,additive_component,C-TEC 151A,treat_rate,missing_unit_condition_provenance,true,range,false,percentage basis unspecified: unit '%' states no basis and no reviewed source evidence establishes one,unspecified,false
+TIANHE_C_TEC_151A,additive_component,C-TEC 151A,compatibility_restrictions,absent,true,,false,status Missing,,false
+TIANHE_C_TEC_151A,additive_component,C-TEC 151A,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+TIANHE_C_TEC_206,additive_component,C-TEC 206,active_content,absent,true,,false,status Missing,,false
+TIANHE_C_TEC_206,additive_component,C-TEC 206,carrier.identity,absent,true,,false,status Missing,,false
+TIANHE_C_TEC_206,additive_component,C-TEC 206,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+TIANHE_C_TEC_209,additive_component,C-TEC 209,active_content,absent,true,,false,status Missing,,false
+TIANHE_C_TEC_209,additive_component,C-TEC 209,carrier.identity,absent,true,,false,status Missing,,false
+TIANHE_C_TEC_209,additive_component,C-TEC 209,compatibility_restrictions,absent,true,,false,status Missing,,false
 TIANHE_P_TEC_3232,additive_package,P-TEC 3232,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
 TIANHE_P_TEC_3232,additive_package,P-TEC 3232,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
 TIANHE_P_TEC_3232,additive_package,P-TEC 3232,published_formulations,absent,true,,false,status Missing,,false
+TIANHE_P_TEC_3234,additive_package,P-TEC 3234,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+TIANHE_P_TEC_3234,additive_package,P-TEC 3234,sae_grades_documented,absent,true,,false,status Missing,,false
+TIANHE_P_TEC_3234,additive_package,P-TEC 3234,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+TIANHE_P_TEC_3234,additive_package,P-TEC 3234,route_selector_restrictions,absent,true,,false,status Missing,,false
+TIANHE_P_TEC_3234,additive_package,P-TEC 3234,required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false
+TIANHE_P_TEC_3234,additive_package,P-TEC 3234,published_formulations,absent,true,,false,status Missing,,false
+TIANHE_P_TEC_9100,additive_package,P-TEC 9100,performance_claims,missing_unit_condition_provenance,true,,false,claim_type not recorded,,false
+TIANHE_P_TEC_9100,additive_package,P-TEC 9100,sae_grades_documented,absent,true,,false,status Missing,,false
+TIANHE_P_TEC_9100,additive_package,P-TEC 9100,permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
+TIANHE_P_TEC_9100,additive_package,P-TEC 9100,route_selector_restrictions,absent,true,,false,status Missing,,false
+TIANHE_P_TEC_9100,additive_package,P-TEC 9100,required_co_components,invalid_value,true,,false,"1 requirement(s) recorded, none with a usable dose, so no route that includes them can be complete (unsupported value_kind 'text')",,false
+TIANHE_P_TEC_9100,additive_package,P-TEC 9100,published_formulations,absent,true,,false,status Missing,,false
+TOHOLCHEM_LUBRAN_141,additive_component,LUBRAN 141,active_content,absent,true,,false,status Missing,,false
+TOHOLCHEM_LUBRAN_141,additive_component,LUBRAN 141,carrier.identity,absent,true,,false,status Missing,,false
+TOHOLCHEM_LUBRAN_141,additive_component,LUBRAN 141,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+TOHOLCHEM_LUBRAN_141,additive_component,LUBRAN 141,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+TOHOLCHEM_LUBRAN_141,additive_component,LUBRAN 141,ppd,absent,false,,false,pour point depressant: no ppd.json subtype record,,false
+TOHOLCHEM_LUBRAN_165,additive_component,LUBRAN 165,active_content,absent,true,,false,status Missing,,false
+TOHOLCHEM_LUBRAN_165,additive_component,LUBRAN 165,carrier.identity,absent,true,,false,status Missing,,false
+TOHOLCHEM_LUBRAN_165,additive_component,LUBRAN 165,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+TOHOLCHEM_LUBRAN_165,additive_component,LUBRAN 165,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+TOHOLCHEM_LUBRAN_165,additive_component,LUBRAN 165,ppd,absent,false,,false,pour point depressant: no ppd.json subtype record,,false
+TOHOLCHEM_LUBRAN_171,additive_component,LUBRAN 171,active_content,absent,true,,false,status Missing,,false
+TOHOLCHEM_LUBRAN_171,additive_component,LUBRAN 171,carrier.identity,absent,true,,false,status Missing,,false
+TOHOLCHEM_LUBRAN_171,additive_component,LUBRAN 171,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+TOHOLCHEM_LUBRAN_171,additive_component,LUBRAN 171,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+TOHOLCHEM_LUBRAN_171,additive_component,LUBRAN 171,ppd,absent,false,,false,pour point depressant: no ppd.json subtype record,,false
+TOHO_CHEM_LUBRAN_VI_870,additive_component,LUBRAN VI-870,active_content,absent,true,,false,status Missing,,false
+TOHO_CHEM_LUBRAN_VI_870,additive_component,LUBRAN VI-870,carrier.identity,absent,true,,false,status Missing,,false
+TOHO_CHEM_LUBRAN_VI_870,additive_component,LUBRAN VI-870,compatibility_restrictions,invalid_value,true,,false,status Reported but the block is empty,,false
+TOHO_CHEM_LUBRAN_VI_870,additive_component,LUBRAN VI-870,function_specific_markers,unresolved_applicability,true,,false,"the slide names markers only for detergents, ZDDP and molybdenum compounds; whether this function needs one is not stated (I-4)",,false
+TOHO_CHEM_LUBRAN_VI_870,additive_component,LUBRAN VI-870,vm,absent,false,,false,viscosity modifier: no vm.json subtype record,,false
 TREE_TRADING_NT513,additive_package,NT513,required_co_components,absent,true,,false,"1 requirement(s) recorded, none with a dose: no route that includes them can be complete (the requirement is recorded; its dose is not)",,false
 TREE_TRADING_NT513,additive_package,NT513,published_formulations,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN1200,base_oil,Turkmenbashy SN1200,api_group_chemistry.api_group,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN1200,base_oil,Turkmenbashy SN1200,api_group_chemistry.chemistry,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN1200,base_oil,Turkmenbashy SN1200,kv40,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN1200,base_oil,Turkmenbashy SN1200,kv100,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+TURKMENBASHY_SN1200,base_oil,Turkmenbashy SN1200,viscosity_index,invalid_value,true,,false,unsupported value_kind 'bound',,false
+TURKMENBASHY_SN1200,base_oil,Turkmenbashy SN1200,density,invalid_value,true,,false,unsupported value_kind 'bound',,false
+TURKMENBASHY_SN1200,base_oil,Turkmenbashy SN1200,ccs,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN180,base_oil,Turkmenbashy SN180,api_group_chemistry.api_group,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN180,base_oil,Turkmenbashy SN180,api_group_chemistry.chemistry,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN180,base_oil,Turkmenbashy SN180,kv40,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN180,base_oil,Turkmenbashy SN180,kv100,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+TURKMENBASHY_SN180,base_oil,Turkmenbashy SN180,viscosity_index,invalid_value,true,,false,unsupported value_kind 'bound',,false
+TURKMENBASHY_SN180,base_oil,Turkmenbashy SN180,density,invalid_value,true,,false,unsupported value_kind 'bound',,false
+TURKMENBASHY_SN180,base_oil,Turkmenbashy SN180,ccs,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN350,base_oil,Turkmenbashy SN350,api_group_chemistry.api_group,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN350,base_oil,Turkmenbashy SN350,api_group_chemistry.chemistry,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN350,base_oil,Turkmenbashy SN350,kv40,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN350,base_oil,Turkmenbashy SN350,kv100,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+TURKMENBASHY_SN350,base_oil,Turkmenbashy SN350,viscosity_index,invalid_value,true,,false,unsupported value_kind 'bound',,false
+TURKMENBASHY_SN350,base_oil,Turkmenbashy SN350,density,invalid_value,true,,false,unsupported value_kind 'bound',,false
+TURKMENBASHY_SN350,base_oil,Turkmenbashy SN350,ccs,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN600,base_oil,Turkmenbashy SN600,api_group_chemistry.api_group,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN600,base_oil,Turkmenbashy SN600,api_group_chemistry.chemistry,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN600,base_oil,Turkmenbashy SN600,kv40,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN600,base_oil,Turkmenbashy SN600,kv100,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+TURKMENBASHY_SN600,base_oil,Turkmenbashy SN600,viscosity_index,invalid_value,true,,false,unsupported value_kind 'bound',,false
+TURKMENBASHY_SN600,base_oil,Turkmenbashy SN600,density,invalid_value,true,,false,unsupported value_kind 'bound',,false
+TURKMENBASHY_SN600,base_oil,Turkmenbashy SN600,ccs,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN80,base_oil,Turkmenbashy SN80,api_group_chemistry.api_group,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN80,base_oil,Turkmenbashy SN80,api_group_chemistry.chemistry,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN80,base_oil,Turkmenbashy SN80,kv40,absent,true,,false,status Missing,,false
+TURKMENBASHY_SN80,base_oil,Turkmenbashy SN80,kv100,bound_or_range_needs_assessment,true,range,false,"range (policy 1 of 2026-11-11: documented information; a requirement that needs a point value is not met by a range or bound, and no point is derived from it)",,false
+TURKMENBASHY_SN80,base_oil,Turkmenbashy SN80,viscosity_index,invalid_value,true,,false,unsupported value_kind 'bound',,false
+TURKMENBASHY_SN80,base_oil,Turkmenbashy SN80,density,invalid_value,true,,false,unsupported value_kind 'bound',,false
+TURKMENBASHY_SN80,base_oil,Turkmenbashy SN80,ccs,absent,true,,false,status Missing,,false
 WUXI_WX3118,additive_package,WX3118(CF-4 CH-4 CI-4),permitted_base_oils_restrictions,absent,true,,false,status Missing,,false
 WUXI_WX3118,additive_package,WX3118(CF-4 CH-4 CI-4),route_selector_restrictions,absent,true,,false,status Missing,,false
 WUXI_WX3118,additive_package,WX3118(CF-4 CH-4 CI-4),required_co_components,requirement_unknown,true,,false,"no co-component requirement is recorded in the product record and no explicit statement that none is required is recorded. This describes the record, not the supplier documents: what was inspected is in co_component_routes.csv",,false

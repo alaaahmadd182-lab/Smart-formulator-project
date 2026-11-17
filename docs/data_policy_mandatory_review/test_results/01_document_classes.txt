@@ -1,14 +1,44 @@
-command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/document_classes.py
-cwd: C:\Users\windo\sf-wsA
-HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
-return code: 0
+command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/document_classes.py
+cwd: C:\Users\User\FYP\Smart-formulator-project
+HEAD: 92c7f500f7038539d4797f7742e91f99e3cdfb83
+return code: 1
 expectation: zero
-verdict: pass
-duration: 7.7 s
+verdict: FAIL
+duration: 11.2 s
 
 ===== stdout =====
-cited (file, page) pairs: 511 {'TECHNICAL': 250, 'SDS': 226, 'EXTERNAL': 35}
-subclasses: {('TECHNICAL', 'specification'): 19, ('SDS', 'sds'): 226, ('TECHNICAL', 'tds'): 158, ('TECHNICAL', 'bulletin'): 66, ('TECHNICAL', 'catalog'): 5, ('TECHNICAL', 'handling'): 2, ('EXTERNAL', ''): 35}
+cited (file, page) pairs: 758 {'TECHNICAL': 250, 'SDS': 226, 'UNKNOWN': 247, 'EXTERNAL': 35}
+subclasses: {('TECHNICAL', 'specification'): 19, ('SDS', 'sds'): 226, ('TECHNICAL', 'tds'): 158, ('TECHNICAL', 'bulletin'): 66, ('TECHNICAL', 'catalog'): 5, ('UNKNOWN', ''): 247, ('TECHNICAL', 'handling'): 2, ('EXTERNAL', ''): 35}
+UNKNOWN ('DL2-11239.pdf', None) not in the archive
+UNKNOWN ('DL2-11239.pdf', 1) not in the archive
+UNKNOWN ('DL2-11266.pdf', None) not in the archive
+UNKNOWN ('DL2-11266.pdf', 1) not in the archive
+UNKNOWN ('DL2-11266.pdf', 2) not in the archive
+UNKNOWN ('DL2-11302.pdf', None) not in the archive
+UNKNOWN ('DL2-11302.pdf', 1) not in the archive
+UNKNOWN ('DL2-11416.pdf', None) not in the archive
+UNKNOWN ('DL2-11416.pdf', 1) not in the archive
+UNKNOWN ('DL2-11417.pdf', None) not in the archive
+UNKNOWN ('DL2-11417.pdf', 1) not in the archive
+UNKNOWN ('DL2-11419.pdf', None) not in the archive
+UNKNOWN ('DL2-11419.pdf', 1) not in the archive
+UNKNOWN ('DL2-11419.pdf', 2) not in the archive
+UNKNOWN ('DL2-11572.pdf', None) not in the archive
+UNKNOWN ('DL2-11572.pdf', 1) not in the archive
+UNKNOWN ('DL2-11600.pdf', None) not in the archive
+UNKNOWN ('DL2-11600.pdf', 1) not in the archive
+UNKNOWN ('DL2-11661.pdf', None) not in the archive
+UNKNOWN ('DL2-11661.pdf', 1) not in the archive
+UNKNOWN ('DL2-11661.pdf', 2) not in the archive
+UNKNOWN ('DL2-11664.pdf', None) not in the archive
+UNKNOWN ('DL2-11664.pdf', 1) not in the archive
+UNKNOWN ('DL2-11665.pdf', None) not in the archive
+UNKNOWN ('DL2-11665.pdf', 1) not in the archive
+UNKNOWN ('DL2-11666.pdf', None) not in the archive
+UNKNOWN ('DL2-11666.pdf', 1) not in the archive
+UNKNOWN ('DL2-11697.pdf', None) not in the archive
+UNKNOWN ('DL2-11697.pdf', 1) not in the archive
+UNKNOWN ('DL2-11863.pdf', None) not in the archive
 
 ===== stderr =====
 

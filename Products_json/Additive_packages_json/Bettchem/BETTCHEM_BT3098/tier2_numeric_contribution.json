@@ -1,0 +1,323 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "BETTCHEM_BT3098",
+  "product": {
+    "product_id": "BT3098",
+    "material_id": "BETTCHEM:BT3098",
+    "product_name": "BT3098",
+    "supplier": "Bettchem"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-15557.pdf",
+      "pages": "",
+      "doc_type": "product data sheet, specifications / properties table",
+      "revision_date": "2024-08-12",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "tbn": {
+      "value": null,
+      "qualifier": null,
+      "min": 122,
+      "max": 144,
+      "value_kind": "range",
+      "printed_text": "BASE NUMBER mg KOH/g: Minimum 122, Maximum 144 (no typical)",
+      "unit": "mgKOH/g",
+      "test_temperature_c": null,
+      "method": "ASTM D2896",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15557.pdf",
+        "page": 1,
+        "revision_date": "2024-08-12"
+      },
+      "notes": "typical not stated in TDS; spec range only"
+    },
+    "sulfated_ash": {
+      "value": 17.2,
+      "qualifier": null,
+      "min": 14.5,
+      "max": 19.9,
+      "value_kind": "typical",
+      "printed_text": "SULPHATED ASH, mass/wt-%: Minimum 14.5, Maximum 19.9, Typical 17.2",
+      "unit": "mass/wt-%",
+      "test_temperature_c": null,
+      "method": "ASTM D874",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15557.pdf",
+        "page": 1,
+        "revision_date": "2024-08-12"
+      }
+    },
+    "elements": {
+      "Ca": {
+        "value": 4.5,
+        "qualifier": null,
+        "min": 3.8,
+        "max": 5.2,
+        "value_kind": "typical",
+        "printed_text": "CALCIUM, mass/wt-%: Minimum 3.8, Maximum 5.2, Typical 4.50",
+        "unit": "mass/wt-%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-15557.pdf",
+          "page": 1,
+          "revision_date": "2024-08-12"
+        }
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found in the inspected text",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "Zn": {
+        "value": 1.44,
+        "qualifier": null,
+        "min": 1.22,
+        "max": 1.66,
+        "value_kind": "typical",
+        "printed_text": "ZINC, mass/wt-%: Minimum 1.22, Maximum 1.66, Typical 1.44",
+        "unit": "mass/wt-%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-15557.pdf",
+          "page": 1,
+          "revision_date": "2024-08-12"
+        }
+      },
+      "P": {
+        "value": 1.25,
+        "qualifier": null,
+        "min": 1.06,
+        "max": 1.44,
+        "value_kind": "typical",
+        "printed_text": "PHOSPHORUS, mass/wt-%: Minimum 1.06, Maximum 1.44, Typical 1.25",
+        "unit": "mass/wt-%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-15557.pdf",
+          "page": 1,
+          "revision_date": "2024-08-12"
+        }
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found in the inspected text",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found in the inspected text",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "N": {
+        "value": 0.9,
+        "qualifier": null,
+        "min": 0.76,
+        "max": 1.05,
+        "value_kind": "typical",
+        "printed_text": "NITROGEN, mass/wt-%: Minimum 0.76, Maximum 1.05, Typical 0.9",
+        "unit": "mass/wt-%",
+        "test_temperature_c": null,
+        "method": "ASTM D5762",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-15557.pdf",
+          "page": 1,
+          "revision_date": "2024-08-12"
+        }
+      },
+      "S": {
+        "value": 2.82,
+        "qualifier": null,
+        "min": 2.1,
+        "max": 3.54,
+        "value_kind": "typical",
+        "printed_text": "SULPHUR, mass/wt-%: Minimum 2.1, Maximum 3.54, Typical 2.82",
+        "unit": "mass/wt-%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-15557.pdf",
+          "page": 1,
+          "revision_date": "2024-08-12"
+        }
+      }
+    },
+    "kv40": {
+      "value": null,
+      "qualifier": "<=",
+      "min": null,
+      "max": 2312,
+      "value_kind": "bound",
+      "printed_text": "KINEMATIC VISCOSITY AT 40℃,cSt: Maximum 2312 (Minimum Report)",
+      "unit": "cSt",
+      "test_temperature_c": null,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15557.pdf",
+        "page": 1,
+        "revision_date": "2024-08-12"
+      },
+      "notes": "min=Report; 2312 is spec upper bound"
+    },
+    "kv100": {
+      "value": 111.4,
+      "qualifier": null,
+      "min": 84,
+      "max": 139,
+      "value_kind": "typical",
+      "printed_text": "KINEMATIC VISCOSITY AT 100℃,cSt: Minimum 84, Maximum 139, Typical 111.4",
+      "unit": "cSt",
+      "test_temperature_c": null,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15557.pdf",
+        "page": 1,
+        "revision_date": "2024-08-12"
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3 (or as printed)",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found in the inspected text",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "specific_gravity": {
+      "value": null,
+      "qualifier": "<=",
+      "min": null,
+      "max": 1.0209,
+      "value_kind": "bound",
+      "printed_text": "SPECIFIC GRAVITY AT 15.6℃: Maximum 1.0209 (Minimum Report)",
+      "unit": "dimensionless",
+      "test_temperature_c": null,
+      "method": "ASTM D1298",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15557.pdf",
+        "page": 1,
+        "revision_date": "2024-08-12"
+      },
+      "notes": "min=Report; 1.0209 is spec upper bound; typical not stated",
+      "reference_condition": null
+    },
+    "flash_point": {
+      "value": null,
+      "qualifier": null,
+      "min": 180,
+      "max": 190,
+      "value_kind": "range",
+      "printed_text": "FLASH POINT (COC ℃): Minimum 180, Maximum ＞190",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15557.pdf",
+        "page": 1,
+        "revision_date": "2024-08-12"
+      },
+      "notes": "upper bound printed as \">190\"",
+      "flash_method": "ASTM D92"
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": "<=",
+      "min": null,
+      "max": 0,
+      "value_kind": "bound",
+      "printed_text": "POUR POINT ℃: Maximum 0 (Minimum Report)",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15557.pdf",
+        "page": 1,
+        "revision_date": "2024-08-12"
+      },
+      "notes": "min=Report; 0°C is spec upper bound"
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}

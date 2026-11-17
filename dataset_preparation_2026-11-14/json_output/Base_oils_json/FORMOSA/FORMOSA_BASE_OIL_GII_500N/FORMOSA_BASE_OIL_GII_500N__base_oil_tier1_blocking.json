@@ -22,14 +22,14 @@
   "fields": {
     "api_group_chemistry": {
       "api_group": {
-        "value": "FORMOSA PETROCHEMICAL CORPORATION BASE OIL 500 N GII",
+        "value": "Group II",
         "status": "Reported",
         "source": {
           "file": "DL2-14080.pdf",
           "page": 1,
           "revision_date": "2020-01-18"
         },
-        "notes": "cargo name on CoQ explicitly states \"GII\"; also corroborated by spec limits (VI 95 MIN, sulfur 10 ppm MAX, saturates 99 MIN wt%, aromatics 1 MAX wt%) consistent with API Group II classification (saturates ≥90%, aromatics <10%, sulfur <0.03%=300 ppm, VI 80-119)"
+        "notes": "cargo name on CoQ explicitly states \"GII\"; also corroborated by spec limits (VI 95 MIN, sulfur 10 ppm MAX, saturates 99 MIN wt%, aromatics 1 MAX wt%) consistent with API Group II classification (saturates ≥90%, aromatics <10%, sulfur <0.03%=300 ppm, VI 80-119); printed cargo name used as evidence: \"FORMOSA PETROCHEMICAL CORPORATION BASE OIL 500 N GII\""
       },
       "chemistry": {
         "value": null,

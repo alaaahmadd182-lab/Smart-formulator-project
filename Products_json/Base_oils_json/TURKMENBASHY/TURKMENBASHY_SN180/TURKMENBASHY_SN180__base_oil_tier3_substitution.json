@@ -1,0 +1,117 @@
+{
+  "template_version": "1.1",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "TURKMENBASHY_SN180",
+  "product": {
+    "product_id": "SN180",
+    "material_id": "TURKMENBASHY:SN180",
+    "product_name": "Turkmenbashy SN180",
+    "supplier": "Turkmenbashy refinery"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-11239.pdf",
+      "pages": "",
+      "doc_type": "technical specification (TŞ 05766698-60-2006), properties table",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "sulfur": {
+      "value": null,
+      "qualifier": "<=",
+      "min": null,
+      "max": 0.03,
+      "value_kind": "bound",
+      "printed_text": "Mass portion of sulfur, %, not more than: 0.03",
+      "unit": "%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11239.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "single upper bound applies to all five SN grades in the table"
+    },
+    "saturates": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; saturates not stated in TŞ 05766698-60-2006 specification table",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.% as printed",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; aromatics not stated in TŞ 05766698-60-2006 specification table",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; cloud point not stated in TŞ 05766698-60-2006 specification table",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; wax content not stated in TŞ 05766698-60-2006 specification table",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}

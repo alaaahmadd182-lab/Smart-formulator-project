@@ -104,7 +104,7 @@
       "max": 890,
       "value_kind": "bound",
       "printed_text": "Density, at 20°C, g/cm3, not more than: 890",
-      "unit": "g/cm3",
+      "unit": "kg/m3",
       "test_temperature_c": null,
       "method": null,
       "status": "Reported",
@@ -114,7 +114,7 @@
         "page": 1,
         "revision_date": null
       },
-      "notes": "temperature is 20°C (not the more common 15°C); spec upper bound only"
+      "notes": "temperature is 20°C (not the more common 15°C); spec upper bound only; printed unit 'g/cm3' is physically impossible for a liquid (water=1 g/cm3); almost certainly a misprint for 'kg/m3'; value 890 kg/m3 is plausible for a Group I mineral base oil; unit corrected to kg/m3 in this record"
     },
     "ccs": [
       {
@@ -201,6 +201,16 @@
       "property": "refraction_coefficient",
       "printed_text": "Refraction coefficient at 20°C: Have no standard, is necessary",
       "notes": "document states \"Have no standart, is nessesary\" — no numerical value given; measurement required but no spec limit defined in this standard",
+      "source": {
+        "file": "DL2-11239.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "density_unit",
+      "printed_text": "Density, at 20°C, g/cm3, not more than: 890",
+      "notes": "printed unit 'g/cm3' is physically impossible for a liquid; almost certainly a misprint for 'kg/m3'; value 890 kg/m3 is plausible for Group I mineral base oil; unit corrected to kg/m3 in this record",
       "source": {
         "file": "DL2-11239.pdf",
         "page": 1,

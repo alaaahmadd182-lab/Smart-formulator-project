@@ -1,0 +1,170 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "TIANHE_P_TEC_3234",
+  "product": {
+    "product_id": "P_TEC_3234",
+    "material_id": "TIANHE:P_TEC_3234",
+    "product_name": "P-TEC 3234",
+    "supplier": "Tianhe Chemical Group"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-12940.pdf",
+      "pages": "",
+      "doc_type": "product data sheet, description / introduction section",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "value": "Diesel Engine Oil Package",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12940.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": "printed as product title in TDS"
+      },
+      "intended_service": {
+        "value": "diesel engine oil; API CF level",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12940.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": "from TDS description; engine validation tests: Cat 1MPC and Seq VIII stated"
+      }
+    },
+    "performance_claims": [
+      {
+        "designation": "API CF",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "product data sheet, treat rate table",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12940.pdf",
+          "page": 2,
+          "revision_date": null
+        }
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "sae_grade": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "not found; no SAE viscosity grade stated in TDS"
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "permitted_api_groups": [],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "not found; not stated in TDS"
+    },
+    "route_selector_restrictions": {
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "not found; not stated in TDS"
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API CF: 3.40 mass%",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 3.4,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "API CF: 3.40 mass%",
+          "unit": "mass%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12940.pdf",
+            "page": 2,
+            "revision_date": null
+          },
+          "notes": "from treat rate table; TDS note: \"above treat rate is calculated by internal added method\""
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "notes": "not found; not stated in TDS"
+      }
+    ],
+    "published_formulations": [
+      {
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [],
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "not found; not stated in TDS"
+      }
+    ]
+  },
+  "open_questions": [],
+  "conflicts": []
+}

@@ -45,6 +45,7 @@ ENI_MX_5212,tier1_route_defining.json,required_co_components[1],0.5,%,6.95% + 0.
 ENI_MX_5217,tier1_route_defining.json,treat_rate_matrix[0],13.6,%,13.6%,DL2-12630.pdf,1,available,,,2 of 2,
 ENI_MX_5217,tier1_route_defining.json,treat_rate_matrix[1],11.6,%,11.6%,DL2-12630.pdf,1,available,,,2 of 2,
 ENI_MX_5217,tier1_route_defining.json,treat_rate_matrix[2],9.6,%,9.6%,DL2-12630.pdf,1,available,,,2 of 2,
+EVONIK_VISCOPLEX_14_520,general.json,treat_rate,,ppm,"Recommended treat rate, % 200-400 ppm",DL2-13549.pdf,3,no text layer or unavailable,,,,
 HiTEC_8766B,tier1_route_defining.json,treat_rate_matrix[0],12.7,%,HiTEC® 8766B 12.7% | HiTEC® 8767B 3.3% | SAE 10W-40,DL2-10367.pdf,2,available,,,2 of 2,
 HiTEC_8766B,tier1_route_defining.json,treat_rate_matrix[1],14.0,%,HiTEC® 8766B 14.0% | HiTEC® 8767B - | SAE 15W-40,DL2-10367.pdf,2,available,,,2 of 2,
 HiTEC_8766B,tier1_route_defining.json,treat_rate_matrix[2],13.4,%,HiTEC® 8766B 13.4% | HiTEC® 8767B - | SAE 15W-40,DL2-10367.pdf,2,available,,,2 of 2,
@@ -56,6 +57,7 @@ INFINEUM_D3384,tier1_route_defining.json,required_co_components[2],0.5,%,Infineu
 INFINEUM_D3384,tier1_route_defining.json,required_co_components[3],0.7,%,Infineum D2358 at 0.7 %,DL2-10218.pdf,1,no text layer or unavailable,,,0 of 2,
 INFINEUM_D3384,tier1_route_defining.json,required_co_components[4],1.4,%,Infineum D2358 at 1.4 %,DL2-10218.pdf,1,no text layer or unavailable,,,0 of 2,
 INFINEUM_D3451,tier1_route_defining.json,required_co_components[0],1.2,%,Infineum D2367 at 1.2 %,DL2-12029.pdf,1,available,"the recommended treat rate of 11.9 mass%  in combination with approved base stocks and viscosity modifier, || Mass %:",,2 of 2,"p.1: the recommended treat rate of 11.9 mass%  in combination with approved base stocks and viscosity modifier,"
+KANGTAI_KTD1354E,general.json,treat_rate,,%,Recommend dosage: 1.5-3.0%,DL2-12948.pdf,1,no text layer or unavailable,,,,
 MINGLAN_T3161,tier1_route_defining.json,treat_rate_matrix[0],12.0,,CI-4/SL 12.0,T3161%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf,1,available,"Calcium, wt%, || Zinc, wt%, || Phosphorus, wt%, min || Nitrogen, wt%, || Molybdenum,wt%",,1 of 1,
 MINGLAN_T3161,tier1_route_defining.json,treat_rate_matrix[1],11.0,,CH-4/SL 11.0,T3161%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf,1,available,"Calcium, wt%, || Zinc, wt%, || Phosphorus, wt%, min || Nitrogen, wt%, || Molybdenum,wt%",,1 of 1,
 MINGLAN_T3161,tier1_route_defining.json,treat_rate_matrix[2],9.0,,CF-4/SL 9.0,T3161%20%20MULTIFUNCTIONAL%20ENGINE%20OIL%20ADDITIVE%20FOR%20CI.pdf,1,available,"Calcium, wt%, || Zinc, wt%, || Phosphorus, wt%, min || Nitrogen, wt%, || Molybdenum,wt%",,1 of 1,
@@ -92,3 +94,6 @@ RICHFUL_RF6406,tier1_route_defining.json,treat_rate_matrix[8],2.4,%,SC/CC Multi 
 RICHFUL_RF6406,tier1_route_defining.json,treat_rate_matrix[9],1.5,%,SB/CB Mono 1.5%,DL2-15456.pdf,1,available,"Packed in 200L iron drums or as required by customers, subject to the actual weight.",,1 of 1,
 RICHFUL_RF6406,tier1_route_defining.json,treat_rate_matrix[10],4.1,%,CF/SF | Multi | 4.1%,https://www.richful.com/catalogueDetail.html?id=130,,external URL,,,,
 RICHFUL_RF6408,tier1_route_defining.json,treat_rate_matrix[0],5.88,%,"CF-4 10W-30, 15W-40, 20W-50 5.88%",DL2-15534.pdf,1,available,"Packed in 200L iron drums or as required by customers, subject to the actual weight.",,1 of 1,
+TANEE_TE_598,general.json,treat_rate,,%,The dosage is from 0.25% to 0.5%.,DL2-15242.pdf,1,no text layer or unavailable,,,,
+TIANHE_C_TEC_104A,general.json,treat_rate,,%,0.5-3.0%,DL2-12936.pdf,1,no text layer or unavailable,,,,
+TIANHE_C_TEC_151A,general.json,treat_rate,,%,2.0-4.0%,DL2-12937.pdf,1,no text layer or unavailable,,,,

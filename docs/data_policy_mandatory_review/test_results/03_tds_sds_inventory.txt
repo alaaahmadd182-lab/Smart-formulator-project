@@ -1,10 +1,10 @@
-command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/tds_sds_inventory.py
-cwd: C:\Users\windo\sf-wsA
-HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/tds_sds_inventory.py
+cwd: C:\Users\User\FYP\Smart-formulator-project
+HEAD: 92c7f500f7038539d4797f7742e91f99e3cdfb83
 return code: 0
 expectation: zero
 verdict: pass
-duration: 0.8 s
+duration: 0.7 s
 
 ===== stdout =====
 TDS-SDS comparisons: 151 (with an external side: 10)

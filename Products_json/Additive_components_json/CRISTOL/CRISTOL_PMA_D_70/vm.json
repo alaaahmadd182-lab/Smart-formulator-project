@@ -1,0 +1,394 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 2,
+  "tier_label": "Viscosity modifier - adds to the general block",
+  "record_id": "CRISTOL_PMA_D_70",
+  "product": {
+    "product_id": "PMA_D_70",
+    "material_id": "CRISTOL:PMA_D_70",
+    "product_name": "CRISTOL PMA D-70",
+    "supplier": "Cristol Speciality Lubricant Chemicals"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-13724.pdf",
+      "pages": "",
+      "doc_type": "product data sheet, product description section",
+      "revision_date": "2018-11-12",
+      "notes": ""
+    },
+    {
+      "file": "DL2-13725.pdf",
+      "pages": "",
+      "doc_type": "SDS Section 3, composition / information on ingredients",
+      "revision_date": "2019-03-26",
+      "notes": ""
+    }
+  ],
+  "component_subtype": "VM",
+  "fields": {
+    "polymer_chemistry": {
+      "type": "PMA Based, dispersant type",
+      "form": "Viscous fluid"
+    },
+    "active_polymer": {
+      "wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; active polymer percentage not stated; SDS Section 3 gives carrier as 20.0-40.0% implying active polymer ~60-80% but not printed as such",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "carrier_identity": "Solvent (Component)",
+      "carrier_share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": 20,
+        "max": 40,
+        "value_kind": "range",
+        "printed_text": "Solvent (Component): 20.0-40.0 %",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-13725.pdf",
+          "page": 1,
+          "revision_date": "2019-03-26"
+        },
+        "notes": "SDS Section 3 component percentage; wt.% basis from SDS column heading"
+      }
+    },
+    "treat_range_by_sae_grade": [
+      {
+        "sae_grade": null,
+        "treat_range_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "thickening_response": [
+      {
+        "reference_oil": "100N_GII_5pct",
+        "dose_wt_pct": null,
+        "method": "D445",
+        "delta_kv100_cst": {
+          "value": 4.85,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "K. Viscosity @ 100°C: 9.8 cSt (5 wt.% dose in 100N Group-II; base oil 0%: 4.95 cSt)",
+          "unit": "cSt",
+          "test_temperature_c": null,
+          "method": "D445",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-13724.pdf",
+            "page": 2,
+            "revision_date": "2018-11-12"
+          },
+          "notes": "delta KV100 = 9.8 - 4.95 = 4.85 cSt; base oil 100N Group-II"
+        },
+        "usable": null
+      },
+      {
+        "reference_oil": "150N_GII_5pct",
+        "dose_wt_pct": null,
+        "method": "D445",
+        "delta_kv100_cst": {
+          "value": 5.72,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "K. Viscosity @ 100°C: 11.92 cSt (5 wt.% dose in 150N Group-II; base oil 0%: 6.2 cSt)",
+          "unit": "cSt",
+          "test_temperature_c": null,
+          "method": "D445",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-13724.pdf",
+            "page": 2,
+            "revision_date": "2018-11-12"
+          },
+          "notes": "delta KV100 = 11.92 - 6.2 = 5.72 cSt; base oil 150N Group-II"
+        },
+        "usable": null
+      },
+      {
+        "reference_oil": "100N_GII_10pct",
+        "dose_wt_pct": null,
+        "method": "D445",
+        "delta_kv100_cst": {
+          "value": 13.97,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "K. Viscosity @ 100°C: 18.92 cSt (10 wt.% dose in 100N Group-II; base oil 0%: 4.95 cSt)",
+          "unit": "cSt",
+          "test_temperature_c": null,
+          "method": "D445",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-13724.pdf",
+            "page": 2,
+            "revision_date": "2018-11-12"
+          },
+          "notes": "delta KV100 = 18.92 - 4.95 = 13.97 cSt; base oil 100N Group-II"
+        },
+        "usable": null
+      },
+      {
+        "reference_oil": "150N_GII_10pct",
+        "dose_wt_pct": null,
+        "method": "D445",
+        "delta_kv100_cst": {
+          "value": 15.7,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "K. Viscosity @ 100°C: 21.9 cSt (10 wt.% dose in 150N Group-II; base oil 0%: 6.2 cSt)",
+          "unit": "cSt",
+          "test_temperature_c": null,
+          "method": "D445",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-13724.pdf",
+            "page": 2,
+            "revision_date": "2018-11-12"
+          },
+          "notes": "delta KV100 = 21.9 - 6.2 = 15.70 cSt; base oil 150N Group-II"
+        },
+        "usable": null
+      }
+    ],
+    "shear_stability": [
+      {
+        "index_type": "SSI",
+        "value": {
+          "value": 28.93,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "Shear Stability Index (SSI) 30-cycle Bosch: 28.93",
+          "unit": "%",
+          "test_temperature_c": null,
+          "method": "ASTM D6278",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-13724.pdf",
+            "page": 2,
+            "revision_date": "2018-11-12"
+          },
+          "notes": "from TDS shear stability test: 7.5% PMA D-70 in 150N GII; initial KV100 = 14.67 cSt; shear tests by independent laboratory per TDS note",
+          "alternate_entries": [
+            {
+              "value": 48.06,
+              "qualifier": null,
+              "min": null,
+              "max": null,
+              "value_kind": "typical",
+              "printed_text": "Shear Stability Index (SSI) 250-cycle Bosch: 48.06",
+              "unit": "%",
+              "test_temperature_c": null,
+              "method": "ASTM D6278",
+              "status": "Reported",
+              "calculation_note": null,
+              "source": {
+                "file": "DL2-13724.pdf",
+                "page": 2,
+                "revision_date": "2018-11-12"
+              },
+              "notes": "from TDS shear stability test: 7.5% PMA D-70 in 150N GII; 250-cycle Bosch ASTM D6278"
+            }
+          ]
+        },
+        "method": "ASTM D6278",
+        "cycle_count": null,
+        "usable": null
+      }
+    ],
+    "post_shear_blend_behaviour": {
+      "post_shear_kv100": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "kv100": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "usable": null
+      },
+      "hths_150c": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "hths": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "usable": null
+      },
+      "ccs_impact": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "ccs": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "usable": null
+      },
+      "mrv_impact": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "mrv": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "usable": null
+      },
+      "low_temp_gelation": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "gelation": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "usable": null
+      }
+    },
+    "dissolution_blend_temperature": {
+      "temperature_c": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "°C",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": null,
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "procedure": null
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}

@@ -1,0 +1,259 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "KRATON_G1765",
+  "product": {
+    "product_id": "G1765",
+    "material_id": "KRATON:G1765",
+    "product_name": "Kraton G1765",
+    "supplier": "Kraton"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-15681.pdf",
+      "pages": "",
+      "doc_type": "safety data sheet (SDS), Section 3 composition",
+      "revision_date": "2024-01-29",
+      "notes": ""
+    }
+  ],
+  "component_subtype": null,
+  "fields": {
+    "function": {
+      "primary": {
+        "value": "Kraton G1765 — ethylene/propylene copolymer (CAS 127883-08-3)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15681.pdf",
+          "page": 1,
+          "revision_date": "2024-01-29"
+        },
+        "notes": "SDS covers both G1750 and G1765 (all alphanumeric suffixes); product description from SDS product identifier section; no TDS available for G1765"
+      },
+      "secondary": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found in SDS; no secondary function stated"
+      }
+    },
+    "chemical_family": {
+      "value": "ethylene/propylene copolymer (CAS 127883-08-3)",
+      "status": "Reported",
+      "source": {
+        "file": "DL2-15681.pdf",
+        "page": 1,
+        "revision_date": "2024-01-29"
+      },
+      "notes": "SDS Section 3 composition: EP copolymer CAS 127883-08-3 <100%; same chemical family as G1750_V"
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found in SDS; no composition percentages beyond EP copolymer <100% in Section 3",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "carrier": {
+      "identity": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found in SDS; solid polymer form implied; no carrier stated"
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "treat_rate": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found in SDS; no treat rate stated",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "compatibility_restrictions": {
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "not found in SDS; no lubricant compatibility information in SDS"
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mg KOH/g",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; EP polymer — TBN not applicable",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    }
+  },
+  "open_questions": [
+    {
+      "property": "density_sds_bounds",
+      "printed_text": "Relative density: > 0.88 - < 0.95 at 20°C",
+      "notes": "SDS Section 9 physical properties; shared SDS covers both G1750 and G1765; bounds may not distinguish between grades",
+      "source": {
+        "file": "DL2-15681.pdf",
+        "page": 4,
+        "revision_date": "2024-01-29"
+      }
+    }
+  ],
+  "conflicts": []
+}

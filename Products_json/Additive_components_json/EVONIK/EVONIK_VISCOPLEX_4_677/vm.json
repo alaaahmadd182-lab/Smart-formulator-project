@@ -1,0 +1,449 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 2,
+  "tier_label": "Viscosity modifier - adds to the general block",
+  "record_id": "EVONIK_VISCOPLEX_4_677",
+  "product": {
+    "product_id": "VISCOPLEX_4_677",
+    "material_id": "EVONIK:VISCOPLEX_4_677",
+    "product_name": "VISCOPLEX 4-677",
+    "supplier": "Evonik Industries AG"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-11266.pdf",
+      "pages": "",
+      "doc_type": "product data sheet, Function / Composition text section",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "component_subtype": "VM",
+  "fields": {
+    "polymer_chemistry": {
+      "type": "ethylene-propylene copolymer (OCP)",
+      "form": "VISCOPLEX® 4-677 is a unique low-viscosity emulsion based on ethylene and propylene copolymer in a carrier fluid"
+    },
+    "active_polymer": {
+      "wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found in the inspected text",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "carrier_identity": "carrier fluid",
+      "carrier_share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found in the inspected text",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "treat_range_by_sae_grade": [
+      {
+        "sae_grade": "SAE 10W-30",
+        "treat_range_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": 1.6,
+          "max": 2,
+          "value_kind": "range",
+          "printed_text": "SAE 10W-30: 1.6 – 2.0 % wt; KV100°C loss after 30 passes (ASTM D6278) 12 %",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11266.pdf",
+            "page": 2,
+            "revision_date": null
+          },
+          "notes": "% of KV100°C loss (ASTM D6278) also printed: 12%"
+        }
+      },
+      {
+        "sae_grade": "SAE 10W-40",
+        "treat_range_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": 3,
+          "max": 3.6,
+          "value_kind": "range",
+          "printed_text": "SAE 10W-40: 3.0 – 3.6 % wt; KV100°C loss after 30 passes (ASTM D6278) 16 %",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11266.pdf",
+            "page": 2,
+            "revision_date": null
+          },
+          "notes": "% of KV100°C loss (ASTM D6278) also printed: 16%"
+        }
+      },
+      {
+        "sae_grade": "SAE 15W-40",
+        "treat_range_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": 2.3,
+          "max": 2.8,
+          "value_kind": "range",
+          "printed_text": "SAE 15W-40: 2.3 – 2.8 % wt; KV100°C loss after 30 passes (ASTM D6278) 14 %",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11266.pdf",
+            "page": 2,
+            "revision_date": null
+          },
+          "notes": "% of KV100°C loss (ASTM D6278) also printed: 14%"
+        }
+      },
+      {
+        "sae_grade": "SAE 15W-50",
+        "treat_range_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": 3.7,
+          "max": 4.6,
+          "value_kind": "range",
+          "printed_text": "SAE 15W-50: 3.7 – 4.6 % wt; KV100°C loss after 30 passes (ASTM D6278) 18 %",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11266.pdf",
+            "page": 2,
+            "revision_date": null
+          },
+          "notes": "% of KV100°C loss (ASTM D6278) also printed: 18%"
+        }
+      },
+      {
+        "sae_grade": "SAE 20W-40",
+        "treat_range_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": 0.8,
+          "max": 1.1,
+          "value_kind": "range",
+          "printed_text": "SAE 20W-40: 0.8 – 1.1 % wt; KV100°C loss after 30 passes (ASTM D6278) 8 %",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11266.pdf",
+            "page": 2,
+            "revision_date": null
+          },
+          "notes": "% of KV100°C loss (ASTM D6278) also printed: 8%"
+        }
+      },
+      {
+        "sae_grade": "SAE 20W-50",
+        "treat_range_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": 1.8,
+          "max": 2.2,
+          "value_kind": "range",
+          "printed_text": "SAE 20W-50: 1.8 – 2.2 % wt; KV100°C loss after 30 passes (ASTM D6278) 12 %",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11266.pdf",
+            "page": 2,
+            "revision_date": null
+          },
+          "notes": "% of KV100°C loss (ASTM D6278) also printed: 12%"
+        }
+      }
+    ],
+    "thickening_response": [
+      {
+        "reference_oil": "20W-50",
+        "dose_wt_pct": null,
+        "method": null,
+        "delta_kv100_cst": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "20W-50 formulation: VISCOPLEX 4-677 2.2 %wt; KV@100°C 19.2 mm2/s, KV@40°C 171.7 mm2/s, VI 127; CCS 9200 mPa·s; KV100 after shear 16.7 mm2/s (12.9% loss); ASTM D4684 MRV 38000 mPa·s; HTHS@150°C 4.9 mPa·s; Pour Point -30 °C",
+          "unit": "cSt",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11266.pdf",
+            "page": 2,
+            "revision_date": null
+          }
+        },
+        "usable": null
+      },
+      {
+        "reference_oil": "15W-40",
+        "dose_wt_pct": null,
+        "method": null,
+        "delta_kv100_cst": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "15W-40 formulation: VISCOPLEX 4-677 2.6 %wt; KV@100°C 14.65 mm2/s, KV@40°C 109.9 mm2/s, VI 158; CCS 6600 mPa·s; KV100 after shear 12.6 mm2/s (14.3% loss); ASTM D4684 MRV 25000 mPa·s; HTHS@150°C 4.0 mPa·s; Pour Point -39 °C",
+          "unit": "cSt",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11266.pdf",
+            "page": 2,
+            "revision_date": null
+          }
+        },
+        "usable": null
+      },
+      {
+        "reference_oil": "10W-40",
+        "dose_wt_pct": null,
+        "method": null,
+        "delta_kv100_cst": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "10W-40 formulation: VISCOPLEX 4-677 3.4 %wt; KV@100°C 14.8 mm2/s, KV@40°C 97.9 mm2/s, VI 141; CCS 6600 mPa·s; KV100 after shear 12.6 mm2/s (15.4% loss); ASTM D4684 MRV 35000 mPa·s; HTHS@150°C 4.0 mPa·s; Pour Point -39 °C",
+          "unit": "cSt",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11266.pdf",
+            "page": 2,
+            "revision_date": null
+          }
+        },
+        "usable": null
+      }
+    ],
+    "shear_stability": [
+      {
+        "index_type": null,
+        "value": {
+          "value": 28,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "Shear Stability Index (ASTM D6278) 28",
+          "unit": null,
+          "test_temperature_c": null,
+          "method": "ASTM D6278",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11266.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": "single SSI value printed; number of passes not stated in this row"
+        },
+        "method": "ASTM D6278",
+        "cycle_count": null,
+        "usable": null
+      }
+    ],
+    "post_shear_blend_behaviour": {
+      "post_shear_kv100": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "kv100": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "KV100°C after shear (ASTM D6278): 20W-50=16.7, 15W-40=12.6, 10W-40=12.6 mm2/s",
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11266.pdf",
+            "page": 2,
+            "revision_date": null
+          },
+          "notes": "from Table 2 formulation characteristics; values per SAE grade (see thickening_response rows)"
+        },
+        "usable": null
+      },
+      "hths_150c": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "hths": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "HTHS@150°C: 20W-50=4.9, 15W-40=4.0, 10W-40=4.0 mPa·s",
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11266.pdf",
+            "page": 2,
+            "revision_date": null
+          }
+        },
+        "usable": null
+      },
+      "ccs_impact": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "ccs": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "CCS SAE J300 May 04: 20W-50=9200, 15W-40=6600, 10W-40=6600 mPa·s",
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11266.pdf",
+            "page": 2,
+            "revision_date": null
+          }
+        },
+        "usable": null
+      },
+      "mrv_impact": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "mrv": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "ASTM D4684 MRV TP-1 SAE J300 May 04: 20W-50=38000, 15W-40=25000, 10W-40=35000 mPa·s",
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-11266.pdf",
+            "page": 2,
+            "revision_date": null
+          }
+        },
+        "usable": null
+      },
+      "low_temp_gelation": {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "gelation": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": null,
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": "not found in the inspected text",
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "usable": null
+      }
+    },
+    "dissolution_blend_temperature": {
+      "temperature_c": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "°C",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found in the inspected text",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "procedure": null
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}

@@ -1,0 +1,263 @@
+{
+  "template_version": "1.1",
+  "material_class": "base_oil",
+  "tier": 1,
+  "tier_label": "Blocking - all six required",
+  "record_id": "HYUNDAIOILBANK_HSB_500N",
+  "product": {
+    "product_id": "HSB_500N",
+    "material_id": "HYUNDAIOILBANK:HSB_500N",
+    "product_name": "HSB 500N (DAESAN)",
+    "supplier": "Hyundai Oilbank Co., Ltd. / Shell (joint venture base oil)"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-14931.pdf",
+      "pages": "",
+      "doc_type": "certificate of quality (CoQ), batch test result",
+      "revision_date": "2021-06-15",
+      "notes": ""
+    },
+    {
+      "file": "DL2-12275.pdf",
+      "pages": "",
+      "doc_type": "product data sheet (TDS), typical properties table",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "api_group_chemistry": {
+      "api_group": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "not found; API group not explicitly stated in TDS or CoA; VI range 95-119 (TDS spec) is consistent only with API Group II (Group III requires VI ≥120); sulfur ≤0.001%wt and saturates ≥99% meet Group II/III criteria; Hyundai Oil Bank (Daesan) is a known Group II producer; API group cannot be recorded without an explicit statement in a source document"
+      },
+      "chemistry": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "kv40": {
+      "value": 94.36,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "report-only",
+      "printed_text": "Vis@40°C (mm²/s): Report (spec) — CoA result: 94.36",
+      "unit": "mm2/s",
+      "test_temperature_c": null,
+      "method": "ASTM D 445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14931.pdf",
+        "page": 1,
+        "revision_date": "2021-06-15"
+      },
+      "notes": "TDS spec column says \"Report\" (no specification limit); value is CoA batch result; typical kv40 for a 500N grade base oil"
+    },
+    "kv100": {
+      "value": null,
+      "qualifier": null,
+      "min": 10,
+      "max": 12,
+      "value_kind": "range",
+      "printed_text": "Vis@100°C (mm²/s): 10.0-12.0 (spec)",
+      "unit": "mm2/s",
+      "test_temperature_c": null,
+      "method": "ASTM D 445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12275.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "TDS product specification range",
+      "alternate_entries": [
+        {
+          "value": 11.07,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "report-only",
+          "printed_text": "VISCOSITY @ 100 DEG C: 11.07 mm2s (result)",
+          "unit": "mm2/s",
+          "test_temperature_c": null,
+          "method": "ASTM D445",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14931.pdf",
+            "page": 1,
+            "revision_date": "2021-06-15"
+          },
+          "notes": "CoA batch result; spec MIN 10 MAX 12"
+        }
+      ]
+    },
+    "viscosity_index": {
+      "value": null,
+      "qualifier": null,
+      "min": 95,
+      "max": 119,
+      "value_kind": "range",
+      "printed_text": "VI (-): 95-119 (spec)",
+      "unit": null,
+      "test_temperature_c": null,
+      "method": "ASTM D 2270",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12275.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "TDS specification range; upper bound 119 rules out Group III (VI ≥120)",
+      "alternate_entries": [
+        {
+          "value": 102,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "report-only",
+          "printed_text": "VISCOSITY INDEX: 102 (result)",
+          "unit": null,
+          "test_temperature_c": null,
+          "method": "ASTM D2270",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14931.pdf",
+            "page": 1,
+            "revision_date": "2021-06-15"
+          },
+          "notes": "CoA batch result; spec MIN 95 MAX 119"
+        }
+      ]
+    },
+    "density": {
+      "value": 868.5,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "report-only",
+      "printed_text": "DENSITY @ 15 DEG C: 868.5 kg/m3 (result)",
+      "unit": "kg/m3",
+      "test_temperature_c": null,
+      "method": "ASTM D4052",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14931.pdf",
+        "page": 1,
+        "revision_date": "2021-06-15"
+      },
+      "notes": "TDS spec column says \"Report\" (no limit); CoA result in kg/m3 (= 0.8685 g/cm3)"
+    },
+    "ccs": [
+      {
+        "value": 11381,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "report-only",
+        "printed_text": "VD CCS @ -20 DEG C: 11381 mPas (result)",
+        "unit": "mPas",
+        "test_temperature_c": null,
+        "method": "ASTM D5293",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-14931.pdf",
+          "page": 1,
+          "revision_date": "2021-06-15"
+        },
+        "notes": "TDS item \"Apparent Viscosity @-20°C\" (ASTM D5293) spec says \"Report\"; CoA item \"VD CCS @ -20 DEG C\" result = 11381 mPas; same test method"
+      }
+    ],
+    "specific_gravity": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "dimensionless",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; CoA reports density in kg/m3 not specific gravity",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "reference_condition": null
+    }
+  },
+  "open_questions": [
+    {
+      "property": "color",
+      "printed_text": "Color (ASTM): Max 0.5 (spec)",
+      "notes": null,
+      "source": {
+        "file": "DL2-12275.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "color",
+      "printed_text": "COLOR: L0.5 (result)",
+      "notes": "\"L0.5\" printed in CoA result — L prefix likely denotes less than 0.5 on ASTM D1500 scale",
+      "source": {
+        "file": "DL2-14931.pdf",
+        "page": 1,
+        "revision_date": "2021-06-15"
+      }
+    },
+    {
+      "property": "air_release",
+      "printed_text": "Air release(@50°C): 0.8 Minutes (result)",
+      "notes": "TDS spec says \"Report\" (no limit); CoA result 0.8 min",
+      "source": {
+        "file": "DL2-14931.pdf",
+        "page": 1,
+        "revision_date": "2021-06-15"
+      }
+    },
+    {
+      "property": "cloud_test",
+      "printed_text": "CLOUD TEST (7H/0): NO CLOUD",
+      "notes": "CoA result; SMS 2556 is a Shell internal method (7h at 0°C); confirms no wax precipitation under test conditions",
+      "source": {
+        "file": "DL2-14931.pdf",
+        "page": 1,
+        "revision_date": "2021-06-15"
+      }
+    },
+    {
+      "property": "appearance",
+      "printed_text": "VISUAL APPEARANCE: B&C",
+      "notes": "\"B&C\" = Bright and Clear",
+      "source": {
+        "file": "DL2-14931.pdf",
+        "page": 1,
+        "revision_date": "2021-06-15"
+      }
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,222 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 3,
+  "tier_label": "Pour point depressant - adds to the general block",
+  "record_id": "EVONIK_VISCOPLEX_1_254",
+  "product": {
+    "product_id": "VISCOPLEX_1_254",
+    "material_id": "EVONIK:VISCOPLEX_1_254",
+    "product_name": "VISCOPLEX 1-254",
+    "supplier": "Evonik Industries AG"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-12585.pdf",
+      "pages": "",
+      "doc_type": "product data sheet, Function / Composition text section",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "component_subtype": "PPD",
+  "fields": {
+    "chemistry": {
+      "value": "polyalkyl methacrylate",
+      "status": "Reported",
+      "source": {
+        "file": "DL2-12585.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found in the inspected text",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "carrier": {
+      "identity": {
+        "value": "highly refined neutral oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12585.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found in the inspected text",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "tested_dose_range_wt_pct": {
+      "value": null,
+      "qualifier": null,
+      "min": 0.1,
+      "max": 1,
+      "value_kind": "range",
+      "printed_text": "Typical addition rates are 0.1 % to 0. 3 % by weight. Higher treat rates – for example, 0.5 % to 1.0 % by weight– may be required for some gear oil formulations.",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12585.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "typical range 0.1–0.3%; extended range 0.5–1.0% for some gear oil formulations; both printed in Performance section"
+    },
+    "pour_point_response": [
+      {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "method": null,
+        "pour_point_change_c": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "°C",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "usable": null
+      }
+    ],
+    "low_temp_response": [
+      {
+        "reference_oil": null,
+        "dose_wt_pct": null,
+        "test_temperature_c": null,
+        "mrv": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "ccs": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "usable": null
+      }
+    ],
+    "compatibility_envelope": {
+      "base_oils": [],
+      "wax_systems": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "not found in the inspected text"
+    },
+    "addition_procedure": {
+      "procedure": null,
+      "blend_temperature_c": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "°C",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found in the inspected text",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}

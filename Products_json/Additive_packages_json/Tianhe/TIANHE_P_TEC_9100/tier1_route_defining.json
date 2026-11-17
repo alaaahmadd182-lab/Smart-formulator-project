@@ -1,0 +1,276 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "TIANHE_P_TEC_9100",
+  "product": {
+    "product_id": "P_TEC_9100",
+    "material_id": "TIANHE:P_TEC_9100",
+    "product_name": "P-TEC 9100",
+    "supplier": "Tianhe Chemical Group"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-12941.pdf",
+      "pages": "",
+      "doc_type": "product data sheet, description / introduction section",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "value": "Passenger Car and Motorcycle Engine Oil Package",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12941.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": "printed as product title in TDS"
+      },
+      "intended_service": {
+        "value": "passenger car gasoline engine oils; motorcycle engine oils (JASO MA/MA2)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12941.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": "from TDS description and application section; JASO MA/MA2 compatibility stated"
+      }
+    },
+    "performance_claims": [
+      {
+        "designation": "API SL",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "product data sheet, treat rate table",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12941.pdf",
+          "page": 2,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "API CF",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "product data sheet, treat rate table",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12941.pdf",
+          "page": 2,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "JASO MA",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "product data sheet, treat rate table",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12941.pdf",
+          "page": 2,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "JASO MA2",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "product data sheet, treat rate table",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12941.pdf",
+          "page": 2,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "API SJ",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "product data sheet, treat rate table",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12941.pdf",
+          "page": 2,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "API SG",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "product data sheet, treat rate table",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12941.pdf",
+          "page": 2,
+          "revision_date": null
+        }
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "sae_grade": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "not found; no SAE viscosity grade (e.g. 5W-30) stated explicitly; TDS notes \"can blend with non-dispersant VII for wider viscosity grades\" but no SAE grade listed"
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "permitted_api_groups": [],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "not found; not stated in TDS"
+    },
+    "route_selector_restrictions": {
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "not found; not stated in TDS"
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "API SL/CF/JASO MA/MA2: 6.5 mass%",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 6.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "API SL/CF/JASO MA/MA2: 6.5 mass%",
+          "unit": "mass%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12941.pdf",
+            "page": 2,
+            "revision_date": null
+          },
+          "notes": "from treat rate table; note: \"above treat rate is calculated by internal added method\""
+        }
+      },
+      {
+        "claim": "API SJ: 5.4 mass%",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 5.4,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "API SJ: 5.4 mass%",
+          "unit": "mass%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12941.pdf",
+            "page": 2,
+            "revision_date": null
+          },
+          "notes": "from treat rate table; calculated by internal added method"
+        }
+      },
+      {
+        "claim": "API SG: 5.0 mass%",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "API SG: 5.0 mass%",
+          "unit": "mass%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12941.pdf",
+            "page": 2,
+            "revision_date": null
+          },
+          "notes": "from treat rate table; calculated by internal added method"
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": "non-dispersant viscosity index improver",
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "text",
+          "printed_text": "non-dispersant viscosity index improver",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12941.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": "from TDS: \"can blend with non-dispersant viscosity index improver for wider viscosity grades\"; no specific product or dose named; treat rates above already reflect the package portion per TDS"
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [],
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "not found; not stated in TDS"
+      }
+    ]
+  },
+  "open_questions": [],
+  "conflicts": []
+}

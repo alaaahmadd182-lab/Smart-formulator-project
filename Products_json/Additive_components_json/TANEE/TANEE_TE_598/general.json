@@ -1,0 +1,311 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "TANEE_TE_598",
+  "product": {
+    "product_id": "TE_598",
+    "material_id": "TANEE:TE_598",
+    "product_name": "TE-598 Dialkyl Diphenylamine",
+    "supplier": "Tanee Chemical"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-15242.pdf",
+      "pages": "",
+      "doc_type": "product data sheet (TDS), typical properties table",
+      "revision_date": "2023-08-16",
+      "notes": ""
+    }
+  ],
+  "component_subtype": null,
+  "fields": {
+    "function": {
+      "primary": {
+        "value": "TE-598: Dialkyl Di Phenylamine; ashless antioxidant providing excellent high-temperature anti-oxidation and oil solubility",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15242.pdf",
+          "page": 1,
+          "revision_date": "2023-08-16"
+        },
+        "notes": "from TDS product description: \"It is an ashless antioxidant. The product is a light yellow liquid, prepared from diphenylamine and olefin.\""
+      },
+      "secondary": {
+        "value": "can also be used as rubber antioxidant",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15242.pdf",
+          "page": 1,
+          "revision_date": "2023-08-16"
+        },
+        "notes": "from TDS applications section: secondary application outside lubricants"
+      }
+    },
+    "chemical_family": {
+      "value": "dialkyl diphenylamine (DDPA)",
+      "status": "Reported",
+      "source": {
+        "file": "DL2-15242.pdf",
+        "page": 1,
+        "revision_date": "2023-08-16"
+      },
+      "notes": "from TDS product name and description: \"Dialkyl Di Phenylamine\"; prepared from diphenylamine and olefin — standard DDPA synthesis route"
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; active content (DDPA %) not stated; Diphenylamine residual ≤1.0 m% is a purity spec, not an active content statement",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "carrier": {
+      "identity": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; product is described as a \"light yellow liquid\"; no carrier stated"
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; no carrier stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "treat_rate": {
+      "value": null,
+      "qualifier": null,
+      "min": 0.25,
+      "max": 0.5,
+      "value_kind": "range",
+      "printed_text": "The dosage is from 0.25% to 0.5%.",
+      "unit": "%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15242.pdf",
+        "page": 1,
+        "revision_date": "2023-08-16"
+      },
+      "notes": "from TDS applications section; applies to stated end uses: internal combustion engine oils, turbine oils, heat conducting oils, hydraulic oils, greases, fuel oils"
+    },
+    "compatibility_restrictions": {
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "Reported",
+      "notes": "can be used in internal combustion engine oils, turbine oils, heat conducting oils, hydraulic oils and greases, and fuel oils as well",
+      "source": {
+        "file": "DL2-15242.pdf",
+        "page": 1,
+        "revision_date": "2023-08-16"
+      }
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": null,
+        "qualifier": null,
+        "min": 152,
+        "max": 172,
+        "value_kind": "range",
+        "printed_text": "TBN, mg KOH/g: 152-172",
+        "unit": "mgKOH/g",
+        "test_temperature_c": null,
+        "method": "SH/T 0251",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-15242.pdf",
+          "page": 1,
+          "revision_date": "2023-08-16"
+        },
+        "notes": "TBN is from ashless amine nitrogen (diphenylamine-based), not from metal-based alkalinity; range reflects spec; method SH/T 0251 (equivalent to ASTM D2896)"
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; ashless antioxidant — no calcium stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; DDPA is nitrogen-based, not phosphorus-based",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    }
+  },
+  "open_questions": [
+    {
+      "property": "density",
+      "printed_text": "Density (20°C), kg/cm3: 900-1000",
+      "notes": "TDS prints unit as \"kg/cm3\" which is physically impossible for a liquid; correct unit is kg/m3 (900-1000 kg/m3 = 0.90-1.00 g/cm3 consistent with DDPA density); recorded as kg/m3 with note of TDS misprint",
+      "source": {
+        "file": "DL2-15242.pdf",
+        "page": 1,
+        "revision_date": "2023-08-16"
+      }
+    },
+    {
+      "property": "flash_point",
+      "printed_text": "Flash Point (open cup), °C: 180",
+      "notes": "open cup method; single spec value printed as typical",
+      "source": {
+        "file": "DL2-15242.pdf",
+        "page": 1,
+        "revision_date": "2023-08-16"
+      }
+    },
+    {
+      "property": "kv40",
+      "printed_text": "Kinematics Viscosity (40°C), mm2/s: 100~350",
+      "notes": "wide range reflects variability in DDPA alkyl chain length distribution",
+      "source": {
+        "file": "DL2-15242.pdf",
+        "page": 1,
+        "revision_date": "2023-08-16"
+      }
+    },
+    {
+      "property": "nitrogen_content",
+      "printed_text": "Nitrogen, m%: 3.8-5.5",
+      "notes": "nitrogen is the functional marker for amine-based antioxidants (DDPA); m% = wt%",
+      "source": {
+        "file": "DL2-15242.pdf",
+        "page": 1,
+        "revision_date": "2023-08-16"
+      }
+    },
+    {
+      "property": "diphenylamine_residual",
+      "printed_text": "Diphenylamine, m%: 1.0",
+      "notes": "purity spec: unreacted diphenylamine monomer residual ≤1.0 m%",
+      "source": {
+        "file": "DL2-15242.pdf",
+        "page": 1,
+        "revision_date": "2023-08-16"
+      }
+    },
+    {
+      "property": "water_content",
+      "printed_text": "Water, m%: 0.15",
+      "notes": null,
+      "source": {
+        "file": "DL2-15242.pdf",
+        "page": 1,
+        "revision_date": "2023-08-16"
+      }
+    }
+  ],
+  "conflicts": []
+}
