@@ -1,10 +1,10 @@
 command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe tools/mandatory_properties/build_readiness.py
 cwd: C:\Users\User\FYP\Smart-formulator-project
-HEAD: 68ad84095bd9b68b04a579a43bcdd53bd428f6a5
+HEAD: 451d715469e39325cffcc6a88b66c98ee8828c19
 return code: 0
 expectation: zero
 verdict: pass
-duration: 1.5 s
+duration: 1.4 s
 
 ===== stdout =====
 2988 requirement outcomes (2800 mandatory) for 368 products; snapshot 0edc82cb3eaa4d9491fa7021fa7333a519b0b86c10d2d3dbf81bf3f38fe92993

@@ -1,10 +1,10 @@
 command: builtin: parse every product JSON and check status values
 cwd: C:\Users\User\FYP\Smart-formulator-project
-HEAD: 68ad84095bd9b68b04a579a43bcdd53bd428f6a5
+HEAD: 451d715469e39325cffcc6a88b66c98ee8828c19
 return code: 0
 expectation: zero
 verdict: pass
-duration: 0.4 s
+duration: 0.3 s
 
 ===== stdout =====
 867 product JSON files parsed; status values outside ['Calculated', 'Missing', 'N/A', 'Not Applicable', 'Not Required', 'Reported']: 0

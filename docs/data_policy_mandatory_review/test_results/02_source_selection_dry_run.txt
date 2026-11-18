@@ -1,6 +1,6 @@
 command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/source_selection.py
 cwd: C:\Users\User\FYP\Smart-formulator-project
-HEAD: 68ad84095bd9b68b04a579a43bcdd53bd428f6a5
+HEAD: 451d715469e39325cffcc6a88b66c98ee8828c19
 return code: 0
 expectation: zero + output matches '0 to apply; files to write \\(selections, notes, open questions, product blocks\\): 0'
 verdict: pass
