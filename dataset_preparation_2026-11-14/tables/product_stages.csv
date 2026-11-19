@@ -149,16 +149,16 @@ ARKEMA:TPS_44,TPS 44,Arkema Inc.,new_candidate,additive_component,yes,verified,e
 ARKEMA:VPS_11,VPS 11,Arkema Inc.,new_candidate,additive_component,yes,verified,established,"reviewed (S41, 2026-11-15; all sheets read in full)",complete,yes,2,2,,s41_arkema.json
 ARKEMA:VPS_15,VPS 15,Arkema Inc.,new_candidate,additive_component,yes,verified,established,"reviewed (S41, 2026-11-15; all sheets read in full)",complete,yes,2,2,,s41_arkema.json
 ARKEMA:VPS_17,VPS 17,Arkema Inc.,new_candidate,additive_component,yes,verified,established,"reviewed (S41, 2026-11-15; all sheets read in full)",complete,yes,1,1,,s41_arkema.json
-BASF:AMINE O,Amine O,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:BREOX 50,Breox 50,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:BREOX 50 A 140,Breox 50 A 140,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,3,3,,s06_basf.json
-BASF:BREOX 50 A 50,Breox 50 A 50,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:BREOX 50A 480,Breox 50A 480,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:BREOX 50A 75,Breox 50A 75,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:BREOX 60,Breox 60,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:BREOX 60 D 460,Breox 60 D 460,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:BREOX B 35,Breox B 35,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:BREOX B 55,Breox B 55,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
+BASF:AMINE O,Amine O,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:BREOX 50,Breox 50,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:BREOX 50 A 140,Breox 50 A 140,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,3,3,,s06_basf.json
+BASF:BREOX 50 A 50,Breox 50 A 50,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:BREOX 50A 480,Breox 50A 480,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:BREOX 50A 75,Breox 50A 75,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:BREOX 60,Breox 60,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:BREOX 60 D 460,Breox 60 D 460,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:BREOX B 35,Breox B 35,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:BREOX B 55,Breox B 55,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
 BASF:BREOX FGL,Breox Fgl,BASF,out_of_scope,out_of_template: finished lubricant,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
 BASF:BREOX HYDROLUBES NF46 2180,Breox Hydrolubes Nf46 2180,BASF,out_of_scope,out_of_template: finished lubricant,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
 BASF:BREOX HYDROLUBES NF46 2181,Breox Hydrolubes Nf46 2181,BASF,out_of_scope,out_of_template: finished lubricant,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
@@ -169,42 +169,42 @@ BASF:GLYSANTIN G 48,Glysantin G 48,BASF,out_of_scope,out_of_template: coolant,ye
 BASF:GLYSANTIN G130K SC,Glysantin G130K Sc,BASF,out_of_scope,out_of_template: coolant,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
 BASF:GLYSANTIN G140K SC,Glysantin G140K Sc,BASF,out_of_scope,out_of_template: coolant,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
 BASF:GLYSANTIN G148 SC,Glysantin G148 Sc,BASF,out_of_scope,out_of_template: coolant,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
-BASF:IRGAFLO 1100 V,Irgaflo 1100 V,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGAFLO 6000 V,Irgaflo 6000 V,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGAFLO 610 P,Irgaflo 610 P,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:IRGAFLO 6100 V,Irgaflo 6100 V,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGAFLO 6300 V,Irgaflo 6300 V,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:IRGAFLO 6305 V,Irgaflo 6305 V,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGAFLO 649 P,Irgaflo 649 P,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGAFLO 710 P,Irgaflo 710 P,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGAFLO 720 P,Irgaflo 720 P,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGAFLO 942 P,Irgaflo 942 P,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:IRGAFOS OPH,Irgafos Oph,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGALUBE 2030 A,Irgalube 2030 A,BASF,new_candidate,additive_package,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:IRGALUBE 2030 C,Irgalube 2030 C,BASF,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGALUBE 2040 A,Irgalube 2040 A,BASF,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGALUBE 2050,Irgalube 2050,BASF,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGALUBE 353,Irgalube 353,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:IRGALUBE BASE 10,Irgalube Base 10,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGALUBE F 10 A,Irgalube F 10 A,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:IRGALUBE ML 3010 A,Irgalube Ml 3010 A,BASF,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGALUBE ML 3050 A,Irgalube Ml 3050 A,BASF,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGALUBE ML 601,Irgalube Ml 601,BASF,new_candidate,additive_package,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:IRGALUBE ML 605 A,Irgalube Ml 605 A,BASF,new_candidate,additive_package,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:IRGALUBE TPPT,Irgalube Tppt,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:IRGAMET 42,Irgamet 42,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGAMET BTZ,Irgamet Btz,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGANOX L 06,Irganox L 06,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGANOX L 101,Irganox L 101,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGANOX L 107,Irganox L 107,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:IRGANOX L 109,Irganox L 109,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGANOX L 55,Irganox L 55,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGANOX L 57,Irganox L 57,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,3,3,,s06_basf.json
-BASF:IRGANOX L 64,Irganox L 64,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGAPAC G 605 A,Irgapac G 605 A,BASF,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGAPAC T 2030 C,Irgapac T 2030 C,BASF,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGAPAC T 2040 A,Irgapac T 2040 A,BASF,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:IRGAPAC T 2050,Irgapac T 2050,BASF,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
+BASF:IRGAFLO 1100 V,Irgaflo 1100 V,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGAFLO 6000 V,Irgaflo 6000 V,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGAFLO 610 P,Irgaflo 610 P,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:IRGAFLO 6100 V,Irgaflo 6100 V,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGAFLO 6300 V,Irgaflo 6300 V,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:IRGAFLO 6305 V,Irgaflo 6305 V,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGAFLO 649 P,Irgaflo 649 P,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGAFLO 710 P,Irgaflo 710 P,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGAFLO 720 P,Irgaflo 720 P,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGAFLO 942 P,Irgaflo 942 P,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:IRGAFOS OPH,Irgafos Oph,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGALUBE 2030 A,Irgalube 2030 A,BASF,new_candidate,additive_package,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:IRGALUBE 2030 C,Irgalube 2030 C,BASF,new_candidate,additive_package,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGALUBE 2040 A,Irgalube 2040 A,BASF,new_candidate,additive_package,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGALUBE 2050,Irgalube 2050,BASF,new_candidate,additive_package,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGALUBE 353,Irgalube 353,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:IRGALUBE BASE 10,Irgalube Base 10,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGALUBE F 10 A,Irgalube F 10 A,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:IRGALUBE ML 3010 A,Irgalube Ml 3010 A,BASF,new_candidate,additive_package,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGALUBE ML 3050 A,Irgalube Ml 3050 A,BASF,new_candidate,additive_package,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGALUBE ML 601,Irgalube Ml 601,BASF,new_candidate,additive_package,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:IRGALUBE ML 605 A,Irgalube Ml 605 A,BASF,new_candidate,additive_package,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:IRGALUBE TPPT,Irgalube Tppt,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:IRGAMET 42,Irgamet 42,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGAMET BTZ,Irgamet Btz,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGANOX L 06,Irganox L 06,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGANOX L 101,Irganox L 101,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGANOX L 107,Irganox L 107,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:IRGANOX L 109,Irganox L 109,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGANOX L 55,Irganox L 55,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGANOX L 57,Irganox L 57,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,3,3,,s06_basf.json
+BASF:IRGANOX L 64,Irganox L 64,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGAPAC G 605 A,Irgapac G 605 A,BASF,new_candidate,additive_package,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGAPAC T 2030 C,Irgapac T 2030 C,BASF,new_candidate,additive_package,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGAPAC T 2040 A,Irgapac T 2040 A,BASF,new_candidate,additive_package,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:IRGAPAC T 2050,Irgapac T 2050,BASF,new_candidate,additive_package,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
 BASF:KEROFLUX 3501,Keroflux 3501,BASF,out_of_scope,out_of_template: fuel additive,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
 BASF:KEROFLUX 3614,Keroflux 3614,BASF,out_of_scope,out_of_template: fuel additive,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
 BASF:KEROFLUX 3664,Keroflux 3664,BASF,out_of_scope,out_of_template: fuel additive,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
@@ -224,7 +224,7 @@ BASF:KEROPUR 3458 N,Keropur 3458 N,BASF,out_of_scope,out_of_template: fuel addit
 BASF:KEROPUR D,Keropur D,BASF,out_of_scope,out_of_template: fuel additive,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
 BASF:KEROPUR G,Keropur G,BASF,out_of_scope,out_of_template: fuel additive,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
 BASF:OPPANOL B,Oppanol B,BASF,new_candidate,additive_component,yes,verified,open question,not started,not started,no,2,2,,s06_basf.json
-BASF:PLURACOL V 10,Pluracol V 10,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
+BASF:PLURACOL V 10,Pluracol V 10,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
 BASF:PLURASAFE CL GAS 9,Plurasafe Cl Gas 9,BASF,out_of_scope,out_of_template: finished lubricant,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
 BASF:PLURASAFE CL HC 1400,Plurasafe Cl Hc 1400,BASF,out_of_scope,out_of_template: finished lubricant,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
 BASF:PLURASAFE CL HC 1400S,Plurasafe Cl Hc 1400S,BASF,out_of_scope,out_of_template: finished lubricant,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
@@ -236,10 +236,10 @@ BASF:PLURASAFE HL-HFC 46,Plurasafe Hl-Hfc 46,BASF,out_of_scope,out_of_template: 
 BASF:PLURASAFE NF 46 4005,Plurasafe Nf 46 4005,BASF,out_of_scope,out_of_template: finished lubricant,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
 BASF:PLURASAFE PE CABLE,Plurasafe Pe Cable,BASF,out_of_scope,out_of_template: finished lubricant,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
 BASF:PLURASAFE QUENCHANT,Plurasafe Quenchant,BASF,out_of_scope,out_of_template: finished lubricant,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
-BASF:PLURASAFE WI 165,Plurasafe Wi 165,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:PLURASAFE WS 5100,Plurasafe Ws 5100,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:PLURASAFE WS 660,Plurasafe Ws 660,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:PLURIOL V-10,Pluriol V-10,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
+BASF:PLURASAFE WI 165,Plurasafe Wi 165,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:PLURASAFE WS 5100,Plurasafe Ws 5100,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:PLURASAFE WS 660,Plurasafe Ws 660,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:PLURIOL V-10,Pluriol V-10,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
 BASF:PLURONIC PE,Pluronic Pe,BASF,new_candidate,additive_component,yes,verified,open question,not started,not started,no,1,1,,s06_basf.json
 BASF:PLURONIC PE 10100,Pluronic Pe 10100,BASF,new_candidate,additive_component,yes,verified,open question,not started,not started,no,2,2,,s06_basf.json
 BASF:PLURONIC PE 6100,Pluronic Pe 6100,BASF,new_candidate,additive_component,yes,verified,open question,not started,not started,no,3,3,,s06_basf.json
@@ -260,32 +260,32 @@ BASF:SYNATIVE AL C 12 98,Synative Al C 12 98,BASF,new_candidate,additive_compone
 BASF:SYNATIVE AL G 16,Synative Al G 16,BASF,new_candidate,additive_component,yes,verified,open question,not started,not started,no,1,1,,s06_basf.json
 BASF:SYNATIVE AL S,Synative Al S,BASF,new_candidate,additive_component,yes,verified,open question,not started,not started,no,1,1,,s06_basf.json
 BASF:SYNATIVE AL T,Synative Al T,BASF,new_candidate,additive_component,yes,verified,open question,not started,not started,no,1,1,,s06_basf.json
-BASF:SYNATIVE ES 2423,Synative Es 2423,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:SYNATIVE ES 2902,Synative Es 2902,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:SYNATIVE ES 2920,Synative Es 2920,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:SYNATIVE ES 2929,Synative Es 2929,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:SYNATIVE ES 2931,Synative Es 2931,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:SYNATIVE ES 2939,Synative Es 2939,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:SYNATIVE ES 2958,Synative Es 2958,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:SYNATIVE ES 2964,Synative Es 2964,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:SYNATIVE ES 2971,Synative Es 2971,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:SYNATIVE ES 3237,Synative Es 3237,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:SYNATIVE ES 3345,Synative Es 3345,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:SYNATIVE ES 8309,Synative Es 8309,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:SYNATIVE ES DNA,Synative Es Dna,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:SYNATIVE ES DPHA,Synative Es Dpha,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:SYNATIVE ES EHO,Synative Es Eho,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:SYNATIVE ES GTO,Synative Es Gto,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:SYNATIVE ES TMP 05,Synative Es Tmp 05,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
-BASF:SYNATIVE ES TMP 05 140,Synative Es Tmp 05 140,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:SYNATIVE ES TMP 05 H,Synative Es Tmp 05 H,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
-BASF:SYNATIVE ES TMTC,Synative Es Tmtc,BASF,new_candidate,base_oil,yes,verified,established,not started,not started,no,2,2,,s06_basf.json
+BASF:SYNATIVE ES 2423,Synative Es 2423,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:SYNATIVE ES 2902,Synative Es 2902,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:SYNATIVE ES 2920,Synative Es 2920,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:SYNATIVE ES 2929,Synative Es 2929,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:SYNATIVE ES 2931,Synative Es 2931,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:SYNATIVE ES 2939,Synative Es 2939,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:SYNATIVE ES 2958,Synative Es 2958,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:SYNATIVE ES 2964,Synative Es 2964,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:SYNATIVE ES 2971,Synative Es 2971,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:SYNATIVE ES 3237,Synative Es 3237,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:SYNATIVE ES 3345,Synative Es 3345,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:SYNATIVE ES 8309,Synative Es 8309,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:SYNATIVE ES DNA,Synative Es Dna,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:SYNATIVE ES DPHA,Synative Es Dpha,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:SYNATIVE ES EHO,Synative Es Eho,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:SYNATIVE ES GTO,Synative Es Gto,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:SYNATIVE ES TMP 05,Synative Es Tmp 05,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
+BASF:SYNATIVE ES TMP 05 140,Synative Es Tmp 05 140,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:SYNATIVE ES TMP 05 H,Synative Es Tmp 05 H,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
+BASF:SYNATIVE ES TMTC,Synative Es Tmtc,BASF,new_candidate,base_oil,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s06_basf.json
 BASF:SYNATIVE PE 6100,Synative Pe 6100,BASF,new_candidate,additive_component,yes,verified,open question,not started,not started,no,1,1,,s06_basf.json
 BASF:SYNATIVE PE 6800,Synative Pe 6800,BASF,new_candidate,additive_component,yes,verified,open question,not started,not started,no,1,1,,s06_basf.json
 BASF:SYNATIVE RPE 1740,Synative Rpe 1740,BASF,new_candidate,additive_component,yes,verified,open question,not started,not started,no,2,2,,s06_basf.json
 BASF:SYNATIVE X AO 3,Synative X Ao 3,BASF,new_candidate,additive_component,yes,verified,open question,not started,not started,no,1,1,,s06_basf.json
 BASF:TINUVIN 765,Tinuvin 765,BASF,out_of_scope,out_of_template: other chemical,yes,verified,out of template (excluded from conversion; kept in the inventory),not started,not started,no,1,1,,s06_basf.json
-BASF:XPDL-590,Xpdl-590,BASF,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s06_basf.json
+BASF:XPDL-590,Xpdl-590,BASF,new_candidate,additive_component,yes,verified,established,"reviewed (S06 BASF, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s06_basf.json
 BRB:BRB SILICONE OIL,BRB Silicone Oil,BRB International BV,new_candidate,additive_component,yes,verified,open question,not started,not started,no,1,1,,s10_brb.json
 BRB:BRB SILICONE OIL 12500 CST,BRB Silicone Oil 12500 cSt,BRB International BV,new_candidate,additive_component,yes,verified,open question,not started,not started,no,2,2,,s10_brb.json
 BRB:PETROLAD 1846,Petrolad 1846,BRB International BV,new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s10_brb.json

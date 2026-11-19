@@ -14,7 +14,7 @@
   "out of template (excluded from conversion; kept in the inventory)": 186
  },
  "stage4_evidence_review": {
-  "not started": 1468,
+  "not started": 1320,
   "reviewed (S47, 2026-11-16; all sheets read in full)": 5,
   "reviewed (programmatic extraction 2026-11-19; 0/14 fields Reported from cached bulletin text; no readable TDS text)": 1,
   "reviewed (programmatic extraction 2026-11-19; 5/25 fields Reported from cached bulletin text)": 12,
@@ -32,6 +32,7 @@
   "reviewed (programmatic extraction 2026-11-19; 0/25 fields Reported from cached bulletin text; no readable TDS text)": 1,
   "reviewed (programmatic extraction 2026-11-19; 10/25 fields Reported from cached bulletin text)": 1,
   "reviewed (S41, 2026-11-15; all sheets read in full)": 6,
+  "reviewed (S06 BASF, 2026-11-19; all sheets read in full)": 72,
   "reviewed (S39, 2026-11-16; all sheets read in full)": 11,
   "reviewed (S37, 2026-11-16; all sheets read in full)": 3,
   "reviewed (S46, 2026-11-16; all sheets read in full)": 4,
@@ -41,6 +42,22 @@
   "reviewed (S35, 2026-11-15; all sheets read in full)": 8,
   "reviewed (S50, 2026-11-16; all sheets read in full)": 5,
   "reviewed (S30, 2026-11-16; all sheets read in full)": 4,
+  "reviewed (programmatic extraction 2026-11-19; 2/14 fields Reported from cached Typical Inspections text)": 1,
+  "reviewed (programmatic extraction 2026-11-19; 0/14 fields Reported from cached Typical Inspections text; no readable TI section)": 11,
+  "reviewed (programmatic extraction 2026-11-19; 1/14 fields Reported from cached Typical Inspections text)": 1,
+  "reviewed (programmatic extraction 2026-11-19; 9/25 fields Reported from cached Typical Inspections text)": 9,
+  "reviewed (programmatic extraction 2026-11-19; 13/25 fields Reported from cached Typical Inspections text)": 9,
+  "reviewed (programmatic extraction 2026-11-19; 15/25 fields Reported from cached Typical Inspections text)": 2,
+  "reviewed (programmatic extraction 2026-11-19; 14/25 fields Reported from cached Typical Inspections text)": 3,
+  "reviewed (programmatic extraction 2026-11-19; 16/25 fields Reported from cached Typical Inspections text)": 2,
+  "reviewed (programmatic extraction 2026-11-19; 6/25 fields Reported from cached Typical Inspections text)": 9,
+  "reviewed (programmatic extraction 2026-11-19; 10/25 fields Reported from cached Typical Inspections text)": 9,
+  "reviewed (programmatic extraction 2026-11-19; 7/25 fields Reported from cached Typical Inspections text)": 5,
+  "reviewed (programmatic extraction 2026-11-19; 8/25 fields Reported from cached Typical Inspections text)": 6,
+  "reviewed (programmatic extraction 2026-11-19; 11/25 fields Reported from cached Typical Inspections text)": 2,
+  "reviewed (programmatic extraction 2026-11-19; 12/25 fields Reported from cached Typical Inspections text)": 5,
+  "reviewed (programmatic extraction 2026-11-19; 4/25 fields Reported from cached Typical Inspections text)": 1,
+  "reviewed (programmatic extraction 2026-11-19; 5/25 fields Reported from cached Typical Inspections text)": 1,
   "reviewed (pilot S17, 2026-11-15; all sheets read in full)": 39,
   "reviewed (S34, 2026-11-16; all sheets read in full)": 3,
   "reviewed (S49, 2026-11-16; all sheets read in full)": 1,
@@ -95,10 +112,10 @@
   "reviewed (S58, 2026-11-16; all sheets read in full)": 5
  },
  "stage5_field_mapping": {
-  "not started": 1468,
-  "complete": 324
+  "not started": 1320,
+  "complete": 472
  },
- "conversion_ready": 311,
+ "conversion_ready": 459,
  "identity_verified_and_template_established": 936,
  "blockers": 38,
  "reconciliation_candidates": 29,
