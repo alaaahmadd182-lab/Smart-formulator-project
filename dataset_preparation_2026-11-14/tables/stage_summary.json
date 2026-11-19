@@ -14,7 +14,7 @@
   "out of template (excluded from conversion; kept in the inventory)": 186
  },
  "stage4_evidence_review": {
-  "not started": 1070,
+  "not started": 1040,
   "reviewed (S47, 2026-11-16; all sheets read in full)": 5,
   "reviewed (programmatic extraction 2026-11-19; 0/14 fields Reported from cached bulletin text; no readable TDS text)": 1,
   "reviewed (programmatic extraction 2026-11-19; 5/25 fields Reported from cached bulletin text)": 12,
@@ -42,6 +42,7 @@
   "reviewed (S38, 2026-11-16; all sheets read in full)": 2,
   "reviewed (S28, 2026-11-16; all sheets read in full)": 3,
   "reviewed (S36, 2026-11-16; all sheets read in full)": 4,
+  "reviewed (S18 ENI, 2026-11-19; all sheets read in full)": 30,
   "reviewed (S35, 2026-11-15; all sheets read in full)": 8,
   "reviewed (S50, 2026-11-16; all sheets read in full)": 5,
   "reviewed (S30, 2026-11-16; all sheets read in full)": 4,
@@ -117,10 +118,10 @@
   "reviewed (S58, 2026-11-16; all sheets read in full)": 5
  },
  "stage5_field_mapping": {
-  "not started": 1070,
-  "complete": 722
+  "not started": 1040,
+  "complete": 752
  },
- "conversion_ready": 709,
+ "conversion_ready": 739,
  "identity_verified_and_template_established": 936,
  "blockers": 38,
  "reconciliation_candidates": 29,
