@@ -14,7 +14,7 @@
   "out of template (excluded from conversion; kept in the inventory)": 186
  },
  "stage4_evidence_review": {
-  "not started": 914,
+  "not started": 901,
   "reviewed (S47, 2026-11-16; all sheets read in full)": 5,
   "reviewed (programmatic extraction 2026-11-19; 0/14 fields Reported from cached bulletin text; no readable TDS text)": 1,
   "reviewed (programmatic extraction 2026-11-19; 5/25 fields Reported from cached bulletin text)": 12,
@@ -70,6 +70,7 @@
   "reviewed (S34, 2026-11-16; all sheets read in full)": 3,
   "reviewed (S49, 2026-11-16; all sheets read in full)": 1,
   "reviewed (S49, 2026-11-16; SDS only cached)": 1,
+  "reviewed (S16 KUSA, 2026-11-19; all sheets read in full)": 13,
   "reviewed (S07 LANXESS, 2026-11-19; all sheets read in full)": 39,
   "reviewed (S04 Lubrizol, 2026-11-19; all sheets read in full)": 69,
   "reviewed (S25 WUXI+MULTISOL, 2026-11-19; all sheets read in full)": 22,
@@ -124,10 +125,10 @@
   "reviewed (S22 VANDERBILT, 2026-11-19; all sheets read in full)": 25
  },
  "stage5_field_mapping": {
-  "not started": 914,
-  "complete": 878
+  "not started": 901,
+  "complete": 891
  },
- "conversion_ready": 865,
+ "conversion_ready": 878,
  "identity_verified_and_template_established": 936,
  "blockers": 38,
  "reconciliation_candidates": 29,
