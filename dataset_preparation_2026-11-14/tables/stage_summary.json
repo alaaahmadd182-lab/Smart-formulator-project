@@ -14,7 +14,7 @@
   "out of template (excluded from conversion; kept in the inventory)": 186
  },
  "stage4_evidence_review": {
-  "not started": 1193,
+  "not started": 1142,
   "reviewed (S47, 2026-11-16; all sheets read in full)": 5,
   "reviewed (programmatic extraction 2026-11-19; 0/14 fields Reported from cached bulletin text; no readable TDS text)": 1,
   "reviewed (programmatic extraction 2026-11-19; 5/25 fields Reported from cached bulletin text)": 12,
@@ -33,6 +33,7 @@
   "reviewed (programmatic extraction 2026-11-19; 10/25 fields Reported from cached bulletin text)": 1,
   "reviewed (S41, 2026-11-15; all sheets read in full)": 6,
   "reviewed (S06 BASF, 2026-11-19; all sheets read in full)": 72,
+  "reviewed (S10 BRB, 2026-11-19; all sheets read in full)": 51,
   "reviewed (S39, 2026-11-16; all sheets read in full)": 11,
   "reviewed (S37, 2026-11-16; all sheets read in full)": 3,
   "reviewed (S01 Chevron Oronite, 2026-11-19; all sheets read in full)": 58,
@@ -114,10 +115,10 @@
   "reviewed (S58, 2026-11-16; all sheets read in full)": 5
  },
  "stage5_field_mapping": {
-  "not started": 1193,
-  "complete": 599
+  "not started": 1142,
+  "complete": 650
  },
- "conversion_ready": 586,
+ "conversion_ready": 637,
  "identity_verified_and_template_established": 936,
  "blockers": 38,
  "reconciliation_candidates": 29,
