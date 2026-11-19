@@ -532,12 +532,12 @@ CLARIANT:POLYGLYKOL D 21/700,POLYGLYKOL D 21/700,Clariant,new_candidate,base_oil
 CLARIANT:POLYGLYKOL P 41/12000,POLYGLYKOL P 41/12000,Clariant,new_candidate,base_oil,yes,"verified, open question",open question,not started,not started,no,1,1,,s11_clariant.json
 CLARIANT:POLYGLYKOL P 41/12000 M 80 N,POLYGLYKOL P 41/12000 M 80 N,Clariant,new_candidate,base_oil,yes,verified,open question,not started,not started,no,1,1,,s11_clariant.json
 LUBIMAX:BASE OIL 150,BASE OIL 150,Coraplus,new_candidate,base_oil,yes,"verified, open question",established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:BASE OIL N100,BASE OIL N100,Coraplus,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:BASE OIL N150,BASE OIL N150,Coraplus,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:BASE OIL N70,BASE OIL N70,Coraplus,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
+LUBIMAX:BASE OIL N100,BASE OIL N100,Coraplus,new_candidate,base_oil,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:BASE OIL N150,BASE OIL N150,Coraplus,new_candidate,base_oil,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:BASE OIL N70,BASE OIL N70,Coraplus,new_candidate,base_oil,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
 LUBIMAX:BASE OIL SN150,BASE OIL SN150,Coraplus,new_candidate,base_oil,yes,"verified, open question",established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:BASE OIL SN300,BASE OIL SN300,Coraplus,new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:XONOX L 57,XONOX L 57,Coraplus,new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
+LUBIMAX:BASE OIL SN300,BASE OIL SN300,Coraplus,new_candidate,base_oil,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:XONOX L 57,XONOX L 57,Coraplus,new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
 CRISTOL:EPR_3400,CRISTOL EPR-3400,Cristol Speciality Lubricant Chemicals,new_candidate,additive_component,yes,verified,established,"reviewed (S46, 2026-11-16; all sheets read in full)",complete,yes,1,1,,s46_cristol.json
 CRISTOL:PMA_D_70,CRISTOL PMA D-70,Cristol Speciality Lubricant Chemicals,new_candidate,additive_component,yes,verified,established,"reviewed (S46, 2026-11-16; all sheets read in full)",complete,yes,2,2,,s46_cristol.json
 CRISTOL:PPD_LX_250,CRISTOL PPD LX 250,Cristol Speciality Lubricant Chemicals,new_candidate,additive_component,yes,verified,established,"reviewed (S46, 2026-11-16; all sheets read in full)",complete,yes,3,3,,s46_cristol.json
@@ -1180,36 +1180,36 @@ LANXESS:SYNTON PAO 100,Synton PAO 100,LANXESS (Rhein Chemie),new_candidate,base_
 LANXESS:SYNTON PAO 40,Synton PAO 40,LANXESS (Rhein Chemie),new_candidate,base_oil,yes,verified,established,"reviewed (S07 LANXESS, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s07_lanxess.json
 LANXESS:TRI-ISO-BUTYL PHOSPHATE (TIBP),Tri-Iso-Butyl Phosphate (Tibp),LANXESS (Rhein Chemie),new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s07_lanxess.json
 LANXESS:TRIBUTYL PHOSPHATE (TBP),Tributyl Phosphate (Tbp),LANXESS (Rhein Chemie),new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,1,1,,s07_lanxess.json
-LUBIMAX:LUBIMAX 1604HT,LUBIMAX 1604HT,Lubimax (CHEMXO FZE),new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX 1606,LUBIMAX 1606,Lubimax (CHEMXO FZE),new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX 2547,LUBIMAX 2547,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX 2548,LUBIMAX 2548,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX 2571,LUBIMAX 2571,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX 411K,LUBIMAX 411K,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,3,3,,s15_lubimax.json
-LUBIMAX:LUBIMAX 411M,LUBIMAX 411M,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX 412M,LUBIMAX 412M,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX 4513S,LUBIMAX 4513S,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX 4528S,LUBIMAX 4528S,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s15_lubimax.json
-LUBIMAX:LUBIMAX 4529S,LUBIMAX 4529S,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX 4538S,LUBIMAX 4538S,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX 4550S,LUBIMAX 4550S,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX 5522,LUBIMAX 5522,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,2,2,,s15_lubimax.json
-LUBIMAX:LUBIMAX 5524,LUBIMAX 5524,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX AW 1710,LUBIMAX AW 1710,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX AW 1720,LUBIMAX AW 1720,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX 1604HT,LUBIMAX 1604HT,Lubimax (CHEMXO FZE),new_candidate,additive_package,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX 1606,LUBIMAX 1606,Lubimax (CHEMXO FZE),new_candidate,additive_package,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX 2547,LUBIMAX 2547,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX 2548,LUBIMAX 2548,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX 2571,LUBIMAX 2571,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX 411K,LUBIMAX 411K,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,3,3,,s15_lubimax.json
+LUBIMAX:LUBIMAX 411M,LUBIMAX 411M,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX 412M,LUBIMAX 412M,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX 4513S,LUBIMAX 4513S,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX 4528S,LUBIMAX 4528S,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s15_lubimax.json
+LUBIMAX:LUBIMAX 4529S,LUBIMAX 4529S,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX 4538S,LUBIMAX 4538S,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX 4550S,LUBIMAX 4550S,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX 5522,LUBIMAX 5522,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,2,2,,s15_lubimax.json
+LUBIMAX:LUBIMAX 5524,LUBIMAX 5524,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX AW 1710,LUBIMAX AW 1710,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX AW 1720,LUBIMAX AW 1720,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
 LUBIMAX:LUBIMAX BC 2200N,LUBIMAX BC 2200N,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,open question,not started,not started,no,2,2,,s15_lubimax.json
-LUBIMAX:LUBIMAX DS 1045P,LUBIMAX DS 1045P,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX DS 2040P,LUBIMAX DS 2040P,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX HY 564,LUBIMAX HY 564,Lubimax (CHEMXO FZE),new_candidate,additive_package,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX LN 15,LUBIMAX LN 15,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX DS 1045P,LUBIMAX DS 1045P,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX DS 2040P,LUBIMAX DS 2040P,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX HY 564,LUBIMAX HY 564,Lubimax (CHEMXO FZE),new_candidate,additive_package,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX LN 15,LUBIMAX LN 15,Lubimax (CHEMXO FZE),new_candidate,additive_component,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
 LUBIMAX:LUBIMAX OS PG180,LUBIMAX OS PG180,Lubimax (CHEMXO FZE),new_candidate,base_oil,yes,verified,open question,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX P10-17,LUBIMAX P10-17,Lubimax (CHEMXO FZE),new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX P135L,LUBIMAX P135L,Lubimax (CHEMXO FZE),new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX P2-16,LUBIMAX P2-16,Lubimax (CHEMXO FZE),new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX P4-16,LUBIMAX P4-16,Lubimax (CHEMXO FZE),new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX P50L,LUBIMAX P50L,Lubimax (CHEMXO FZE),new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX P6-16,LUBIMAX P6-16,Lubimax (CHEMXO FZE),new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
-LUBIMAX:LUBIMAX P8-16,LUBIMAX P8-16,Lubimax (CHEMXO FZE),new_candidate,base_oil,yes,verified,established,not started,not started,no,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX P10-17,LUBIMAX P10-17,Lubimax (CHEMXO FZE),new_candidate,base_oil,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX P135L,LUBIMAX P135L,Lubimax (CHEMXO FZE),new_candidate,base_oil,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX P2-16,LUBIMAX P2-16,Lubimax (CHEMXO FZE),new_candidate,base_oil,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX P4-16,LUBIMAX P4-16,Lubimax (CHEMXO FZE),new_candidate,base_oil,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX P50L,LUBIMAX P50L,Lubimax (CHEMXO FZE),new_candidate,base_oil,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX P6-16,LUBIMAX P6-16,Lubimax (CHEMXO FZE),new_candidate,base_oil,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
+LUBIMAX:LUBIMAX P8-16,LUBIMAX P8-16,Lubimax (CHEMXO FZE),new_candidate,base_oil,yes,verified,established,"reviewed (S15 LUBIMAX, 2026-11-19; all sheets read in full)",complete,yes,1,1,,s15_lubimax.json
 LUBIMAX:LUBIMAX PIB 2400,LUBIMAX PIB 2400,Lubimax (CHEMXO FZE),new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,3,3,,s15_lubimax.json
 LUBIMAX:LUBIMAX PIB 2400SA,LUBIMAX PIB 2400SA,Lubimax (CHEMXO FZE),new_candidate,unresolved,yes,verified,unresolved,not started,not started,no,2,2,,s15_lubimax.json
 LUBRIZOL:1038,Lubrizol 1038,Lubrizol,new_candidate,additive_package,yes,verified,established,"reviewed (S04 Lubrizol, 2026-11-19; all sheets read in full)",complete,yes,3,3,,s04_lubrizol.json
