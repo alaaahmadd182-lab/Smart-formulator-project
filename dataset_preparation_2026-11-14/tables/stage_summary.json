@@ -14,7 +14,7 @@
   "out of template (excluded from conversion; kept in the inventory)": 186
  },
  "stage4_evidence_review": {
-  "not started": 1015,
+  "not started": 993,
   "reviewed (S47, 2026-11-16; all sheets read in full)": 5,
   "reviewed (programmatic extraction 2026-11-19; 0/14 fields Reported from cached bulletin text; no readable TDS text)": 1,
   "reviewed (programmatic extraction 2026-11-19; 5/25 fields Reported from cached bulletin text)": 12,
@@ -46,6 +46,7 @@
   "reviewed (S35, 2026-11-15; all sheets read in full)": 8,
   "reviewed (S50, 2026-11-16; all sheets read in full)": 5,
   "reviewed (S30, 2026-11-16; all sheets read in full)": 4,
+  "reviewed (S12 INEOS, 2026-11-19; all sheets read in full)": 22,
   "reviewed (programmatic extraction 2026-11-19; 2/14 fields Reported from cached Typical Inspections text)": 1,
   "reviewed (programmatic extraction 2026-11-19; 0/14 fields Reported from cached Typical Inspections text; no readable TI section)": 11,
   "reviewed (programmatic extraction 2026-11-19; 1/14 fields Reported from cached Typical Inspections text)": 1,
@@ -119,10 +120,10 @@
   "reviewed (S22 VANDERBILT, 2026-11-19; all sheets read in full)": 25
  },
  "stage5_field_mapping": {
-  "not started": 1015,
-  "complete": 777
+  "not started": 993,
+  "complete": 799
  },
- "conversion_ready": 764,
+ "conversion_ready": 786,
  "identity_verified_and_template_established": 936,
  "blockers": 38,
  "reconciliation_candidates": 29,
