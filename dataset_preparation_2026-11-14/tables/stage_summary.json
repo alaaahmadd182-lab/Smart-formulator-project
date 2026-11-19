@@ -14,7 +14,7 @@
   "out of template (excluded from conversion; kept in the inventory)": 186
  },
  "stage4_evidence_review": {
-  "not started": 1040,
+  "not started": 1015,
   "reviewed (S47, 2026-11-16; all sheets read in full)": 5,
   "reviewed (programmatic extraction 2026-11-19; 0/14 fields Reported from cached bulletin text; no readable TDS text)": 1,
   "reviewed (programmatic extraction 2026-11-19; 5/25 fields Reported from cached bulletin text)": 12,
@@ -115,13 +115,14 @@
   "reviewed (S60, 2026-11-16; all sheets read in full)": 2,
   "reviewed (S42, 2026-11-16; all sheets read in full)": 4,
   "reviewed (S43, 2026-11-16; all sheets read in full)": 7,
-  "reviewed (S58, 2026-11-16; all sheets read in full)": 5
+  "reviewed (S58, 2026-11-16; all sheets read in full)": 5,
+  "reviewed (S22 VANDERBILT, 2026-11-19; all sheets read in full)": 25
  },
  "stage5_field_mapping": {
-  "not started": 1040,
-  "complete": 752
+  "not started": 1015,
+  "complete": 777
  },
- "conversion_ready": 739,
+ "conversion_ready": 764,
  "identity_verified_and_template_established": 936,
  "blockers": 38,
  "reconciliation_candidates": 29,
