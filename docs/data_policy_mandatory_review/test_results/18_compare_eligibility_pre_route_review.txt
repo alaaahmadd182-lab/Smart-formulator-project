@@ -1,10 +1,10 @@
 command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe tools/mandatory_properties/compare_eligibility.py --before-eligibility docs/data_policy_mandatory_review/baselines/pre_route_review_2026-11-12/reports/mandatory_properties/product_eligibility.csv --before-outcomes docs/data_policy_mandatory_review/baselines/pre_route_review_2026-11-12/reports/mandatory_properties/requirement_outcomes.csv --out docs/data_policy_mandatory_review/baselines/eligibility_changes__route_review_2026-11-12.csv
 cwd: C:\Users\User\FYP\Smart-formulator-project
-HEAD: 451d715469e39325cffcc6a88b66c98ee8828c19
+HEAD: d6b7ff152c6571c083137d8ae9864001ad5215e0
 return code: 0
 expectation: zero + output matches 'interface columns identical: True'
 verdict: pass
-duration: 0.1 s
+duration: 0.2 s
 
 ===== stdout =====
 new products added since baseline (104): ['ARKEMA_TPS_20', 'ARKEMA_TPS_32', 'ARKEMA_TPS_44', 'ARKEMA_VPS_11', 'ARKEMA_VPS_15']...; compared on shared set only

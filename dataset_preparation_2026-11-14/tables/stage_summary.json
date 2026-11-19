@@ -14,8 +14,23 @@
   "out of template (excluded from conversion; kept in the inventory)": 186
  },
  "stage4_evidence_review": {
-  "not started": 1566,
+  "not started": 1468,
   "reviewed (S47, 2026-11-16; all sheets read in full)": 5,
+  "reviewed (programmatic extraction 2026-11-19; 0/14 fields Reported from cached bulletin text; no readable TDS text)": 1,
+  "reviewed (programmatic extraction 2026-11-19; 5/25 fields Reported from cached bulletin text)": 12,
+  "reviewed (programmatic extraction 2026-11-19; 6/25 fields Reported from cached bulletin text)": 24,
+  "reviewed (programmatic extraction 2026-11-19; 11/25 fields Reported from cached bulletin text)": 2,
+  "reviewed (programmatic extraction 2026-11-19; 8/25 fields Reported from cached bulletin text)": 7,
+  "reviewed (programmatic extraction 2026-11-19; 3/25 fields Reported from cached bulletin text)": 3,
+  "reviewed (programmatic extraction 2026-11-19; 7/25 fields Reported from cached bulletin text)": 10,
+  "reviewed (programmatic extraction 2026-11-19; 4/25 fields Reported from cached bulletin text)": 5,
+  "reviewed (programmatic extraction 2026-11-19; 1/25 fields Reported from cached bulletin text)": 8,
+  "reviewed (programmatic extraction 2026-11-19; 1/14 fields Reported from cached bulletin text)": 8,
+  "reviewed (programmatic extraction 2026-11-19; 2/25 fields Reported from cached bulletin text)": 11,
+  "reviewed (programmatic extraction 2026-11-19; 9/25 fields Reported from cached bulletin text)": 1,
+  "reviewed (programmatic extraction 2026-11-19; 2/14 fields Reported from cached bulletin text)": 4,
+  "reviewed (programmatic extraction 2026-11-19; 0/25 fields Reported from cached bulletin text; no readable TDS text)": 1,
+  "reviewed (programmatic extraction 2026-11-19; 10/25 fields Reported from cached bulletin text)": 1,
   "reviewed (S41, 2026-11-15; all sheets read in full)": 6,
   "reviewed (S39, 2026-11-16; all sheets read in full)": 11,
   "reviewed (S37, 2026-11-16; all sheets read in full)": 3,
@@ -80,10 +95,10 @@
   "reviewed (S58, 2026-11-16; all sheets read in full)": 5
  },
  "stage5_field_mapping": {
-  "not started": 1566,
-  "complete": 226
+  "not started": 1468,
+  "complete": 324
  },
- "conversion_ready": 213,
+ "conversion_ready": 311,
  "identity_verified_and_template_established": 936,
  "blockers": 38,
  "reconciliation_candidates": 29,

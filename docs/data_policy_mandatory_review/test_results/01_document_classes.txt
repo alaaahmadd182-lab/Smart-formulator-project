@@ -1,10 +1,10 @@
 command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/document_classes.py
 cwd: C:\Users\User\FYP\Smart-formulator-project
-HEAD: 451d715469e39325cffcc6a88b66c98ee8828c19
+HEAD: d6b7ff152c6571c083137d8ae9864001ad5215e0
 return code: 0
 expectation: zero
 verdict: pass
-duration: 12.1 s
+duration: 11.4 s
 
 ===== stdout =====
 cited (file, page) pairs: 758 {'TECHNICAL': 479, 'SDS': 240, 'COA': 4, 'EXTERNAL': 35}

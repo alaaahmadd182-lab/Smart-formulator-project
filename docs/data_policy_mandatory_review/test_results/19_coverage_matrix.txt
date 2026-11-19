@@ -1,10 +1,10 @@
 command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe build_coverage_matrix.py --output Coverage_Matrix.xlsx --overwrite
 cwd: C:\Users\User\FYP\Smart-formulator-project
-HEAD: 451d715469e39325cffcc6a88b66c98ee8828c19
+HEAD: d6b7ff152c6571c083137d8ae9864001ad5215e0
 return code: 0
 expectation: zero
 verdict: pass
-duration: 3.5 s
+duration: 4.3 s
 
 ===== stdout =====
 OUTPUT C:\Users\User\FYP\Smart-formulator-project\Coverage_Matrix.xlsx products 368 json 867 issues 947 classes {'additive_component': 73, 'additive_package': 106, 'base_oil': 189} status {'Missing': 3688, 'Reported': 4671, 'Not Applicable': 7, 'Calculated': 36, 'Not Required': 11}
