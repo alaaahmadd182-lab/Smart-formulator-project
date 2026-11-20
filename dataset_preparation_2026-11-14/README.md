@@ -65,6 +65,39 @@ A product is **ready** when all of the following hold:
 
 Unknown properties do not block creating a record. Unresolved identity, or a material class without a fitting template, blocks final conversion of that product. The dataset is **not** described as ready while documents remain unidentified or unreviewed.
 
+**How the rule is applied (since the integration review of 2026-11-20, `scripts/05_stages.py`).** A product counts as `conversion_ready` only when all of these hold:
+- stage 2 is `verified`;
+- stage 3 is `established`;
+- its evidence was **read**, not programmatically extracted;
+- a person has signed it off in `tables/source_verification.csv`;
+- the automated audit (`scripts/09_audit_evidence.py`) passes;
+- it has no blockers.
+
+The automated audit passes only when:
+- every Reported number is found on its cited page;
+- no OCR-derived row lacks a visual check;
+- no SDS row sits in an element field;
+- no value-form, unit or percentage-basis flag remains;
+- every Missing row states what was inspected.
+
+A generated mapping, meaning every template field has a row, is only `mapped (generated; not source-verified)`. A parser that found nothing does not make a property Missing.
+
+## Running the checks in another worktree
+
+The archive and the page-text caches are not in git. Point the scripts at them (`scripts/paths.py`), then run:
+
+```bash
+export SF_ARCHIVE_ZIP=".../Downloaded lubricants sheets.zip"
+export SF_TEXT_CACHE=".../incoming_dataset_review_2026-11-12/_cache/text"
+export SF_OCR_CACHE=".../dataset_preparation_2026-11-14/_cache/ocr"
+python scripts/03_register.py
+python scripts/09_audit_evidence.py
+python scripts/05_stages.py
+python scripts/04_checks.py --hash-archive
+```
+
+`09_audit_evidence.py --update-manifest` is run only after a reviewed change to `field_evidence/`; it rewrites `field_evidence/MANIFEST.json`, which C10 checks.
+
 ## Tools (versions recorded in every OCR cache file)
 
 - Python 3.12.4.

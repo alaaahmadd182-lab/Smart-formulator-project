@@ -1,4 +1,51 @@
-﻿# Dataset preparation handoff - 2026-11-14
+﻿# Dataset preparation handoff - 2026-11-14 (updated by the integration review of 2026-11-20)
+
+## Integration review 2026-11-20: read this first
+
+Full record: `CHECKPOINT_P05_2026-11-20.md`. Findings: `tables/integration_review_findings_2026-11-20.csv`. Per-batch work: `tables/remediation_tasks.csv`.
+
+**Verified state after the review** (kept apart: reported / automatically checked / source-verified).
+
+| Measure | Value | Basis |
+|---|---|---|
+| Documents with a reviewed identity | 2,775 of 4,186 (1,411 unlabelled not yet reviewed; 627 `unresolved_identity`) | registers, automatically checked (C01–C06) |
+| Products: new candidates / unresolved / out of scope / existing | 1,327 / 9 / 185 / 264 | register |
+| Identity verified + template established | 936 | stages |
+| Products with generated field mappings | 891 (18,485 rows in 37 files) | reported; discovery automatically checked (C10) |
+| Products passing the automated evidence audit | 33 | automatically checked (`09_audit_evidence.py`) |
+| Products source-verified | **0** | `tables/source_verification.csv` is empty |
+| **Conversion-ready** | **0** | rule in README "Readiness"; the earlier figure of 878 (764 at `07a50e4`) counted generated mappings only |
+
+**Not done in the review:** no full source audit. Four extraction errors were confirmed on the source pages from a sample chosen by the automated audit (F04–F07):
+- VANLUBE 0401 Mo;
+- RF2214, where the pH value was mapped to P and Zn;
+- LUBRIZOL 1038U P, which has no source;
+- Eni MX 5003, where min–max ranges were recorded as typical values.
+
+**Production data.**
+- The 161 drafts merged into Products_json by PR #8 were removed again.
+- So were the shared-policy edits that made the shared tests accept them; all shared paths are back at `ca1d4a7`.
+- The drafts stay in `json_output/` and are **unverified**.
+- `08_merge_into_products_json.py` is disabled.
+
+**Setup.**
+- Set `SF_ARCHIVE_ZIP`, `SF_TEXT_CACHE` and `SF_OCR_CACHE` (see `scripts/paths.py`). The caches are not in git: copy them, or rebuild them with `01_ocr.py` / `01_text_cache.py` from the archive (SHA-256 below).
+- In this review they were read from `C:\Users\windo\sf-wsA` (3,802 text-cache files, 501 OCR files). The archive was read from the main checkout.
+
+**Exact next task.**
+1. Fix F04–F09 in `scripts/field_mapping/fm_s22_vanderbilt.py`, `fm_s05_richful.py`, `fm_s04_lubrizol.py`, `fm_s18_eni.py` and `fm_s47_adnoc.py`, re-reading the cited pages.
+2. Re-run each script, then run `09_audit_evidence.py --update-manifest`, `05_stages.py` and `04_checks.py`.
+3. Source-verify the KangTai batch (28 products pass the audit) row by row and record each sign-off in `tables/source_verification.csv`.
+4. Only then continue with the other batches in the order of `tables/remediation_tasks.csv`.
+
+Afton (S02) and Infineum (S03) Reported rows have no page citation and must be re-mapped by reading.
+
+**Boundaries (unchanged).**
+- No Products_json or template change.
+- No proposal application.
+- No shared-policy edit: `tools/`, `reports/`, `docs/data_policy_mandatory_review/`.
+- No Part B work; no ZIPs.
+- Never edit a shared check to make it pass.
 
 ## Starting point
 
