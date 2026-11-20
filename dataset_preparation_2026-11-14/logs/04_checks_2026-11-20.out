@@ -1,0 +1,51 @@
+PASS C01: 4422 files / 4186 unique / 236 redundant copies
+PASS C01b: archive SHA-256 62565d5c7a2afc22
+PASS C02: 4186 document rows, 4422 file rows
+PASS C03: 2775 decided documents, 0 problems []
+PASS C04: 0 linked keys without a product row []
+PASS C05: {'existing': 264, 'new_candidate': 1327, 'out_of_scope': 185, 'unresolved': 9} {'product': 2709, 'automated': 813, 'unresolved_identity': 627, 'non_product': 37}
+PASS C06: 0 reviewed product documents without a product and without a multi-product disposition []
+PASS C07: 0 conversion-ready products; 0 inconsistent; 878 would be 'ready' under the previous rule (generated mapping only)
+PASS C08: Products_json and json_templates identical to ecd4ee3 and clean
+PASS C09: 501 documents need OCR / extraction, 501 cached, 2 logged errors
+      evidence file s01_oronite.csv: 1395 rows
+      evidence file s02_afton.csv: 2307 rows
+      evidence file s03_infineum.csv: 1757 rows
+      evidence file s04_lubrizol.csv: 1637 rows
+      evidence file s05_richful.csv: 2555 rows
+      evidence file s06_basf.csv: 1242 rows
+      evidence file s07_lanxess.csv: 688 rows
+      evidence file s10_brb.csv: 912 rows
+      evidence file s12_ineos.csv: 176 rows
+      evidence file s13_xinxing.csv: 285 rows
+      evidence file s15_lubimax.csv: 429 rows
+      evidence file s16_kusa.csv: 182 rows
+      evidence file s17_kangtai.csv: 1031 rows
+      evidence file s18_eni.csv: 563 rows
+      evidence file s21_mingyue.csv: 277 rows
+      evidence file s22_vanderbilt.csv: 350 rows
+      evidence file s25_wuxi.csv: 352 rows
+      evidence file s26_fp.csv: 280 rows
+      evidence file s28_sk_yubase.csv: 54 rows
+      evidence file s30_hyundai.csv: 28 rows
+      evidence file s30_toholchem.csv: 54 rows
+      evidence file s34_king.csv: 122 rows
+      evidence file s35_evonik.csv: 287 rows
+      evidence file s36_elco.csv: 77 rows
+      evidence file s37_chemtura.csv: 56 rows
+      evidence file s38_dorfketal.csv: 39 rows
+      evidence file s39_bettchem.csv: 388 rows
+      evidence file s41_arkema.csv: 179 rows
+      evidence file s42_songwon.csv: 91 rows
+      evidence file s43_tianhe.csv: 164 rows
+      evidence file s46_cristol.csv: 134 rows
+      evidence file s47_adnoc.csv: 104 rows
+      evidence file s49_kraton.csv: 38 rows
+      evidence file s50_formosa.csv: 91 rows
+      evidence file s50_ocean_p8401.csv: 18 rows
+      evidence file s58_turkmenbashy.csv: 105 rows
+      evidence file s60_micro.csv: 38 rows
+PASS C10: 18485 evidence rows from 37 files (891 products) checked against the manifest; problems: []
+PASS C11: 1069 invalid rows in 161 products (all in unfinished mappings: True); by key prefix {'INFINEUM': 623, 'AFTON': 446}; invalid rows in ready / source-verified products: []
+PASS C12: audit covers 37 files / 18485 rows; 33 products pass, 858 with issues; []
+13 / 13 checks passed

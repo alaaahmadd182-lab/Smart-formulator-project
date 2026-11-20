@@ -1,0 +1,38 @@
+{
+ "products_total": 1785,
+ "existing_records": 264,
+ "non_existing": 1521,
+ "stage2_identity": {
+  "verified": 1482,
+  "candidate only (mentioned / no subject document read)": 25,
+  "verified, open question": 14
+ },
+ "stage3_class_template": {
+  "established": 956,
+  "open question": 196,
+  "out of template (excluded from conversion; kept in the inventory)": 185,
+  "unresolved": 184
+ },
+ "stage4_evidence_review": {
+  "not started": 894,
+  "reported read": 608,
+  "programmatic extraction": 283
+ },
+ "stage5_field_mapping": {
+  "not started": 894,
+  "mapped: every template field has a row (generated; not source-verified)": 891
+ },
+ "conversion_ready": 0,
+ "conversion_ready_rule": "identity verified + template established + evidence READ (not programmatic) + sign-off in tables/source_verification.csv + 09_audit_evidence.py pass + no blockers",
+ "reported_ready_under_previous_rule": 878,
+ "previous_rule_breakdown": {
+  "programmatic_extraction": 283,
+  "auto_check_pass": 31,
+  "auto_check_issues": 847,
+  "source_verified": 0
+ },
+ "identity_verified_and_template_established": 936,
+ "blockers": 38,
+ "reconciliation_candidates": 29,
+ "reconciliation_open": 8
+}

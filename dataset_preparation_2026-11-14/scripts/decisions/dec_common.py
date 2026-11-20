@@ -49,7 +49,41 @@ def prod(PK, key, name, supplier, material_class, notes, existing='', evidence='
                    notes=notes, identity_evidence=evidence, template=TEMPLATE.get(material_class, 'none / not determined'))
 
 
+PSEUDO = re.compile(r':(UNKNOWN_|CATALOG$)')
+PRODUCT_STATUS = {'existing', 'new_candidate', 'new_confirmed', 'unresolved', 'out_of_scope'}
+RELATIONS = {'product', 'non_product', 'unresolved_identity', 'unreadable'}
+
+
+def _normalise(PK, D):
+    """Integration review 2026-11-20: a document whose product is not identified is NOT a product. Pseudo-keys such as
+    'ADNOC:UNKNOWN_DOC_DL2_14075' or 'SHENYANG_GW:CATALOG' are removed from the product list and from the documents; the
+    document keeps its note and gets relation 'unresolved_identity' (or a multi-product disposition for a catalogue).
+    Vocabularies are enforced so that a generator cannot introduce new status / relation values."""
+    for k in [k for k in PK if PSEUDO.search(k)]:
+        PK.pop(k)
+    for s, v in D.items():
+        gone = [k for k in v['products'] if PSEUDO.search(k)]
+        if not gone:
+            continue
+        v['products'] = [k for k in v['products'] if k not in gone]
+        v['roles'] = {k: r for k, r in v.get('roles', {}).items() if k not in gone}
+        cat = any(k.endswith(':CATALOG') for k in gone)
+        v['note'] = (v.get('note', '') + f" [integration review 2026-11-20: pseudo-product key {', '.join(gone)} removed; "
+                     + ("catalogue kept as a multi-product document]" if cat else "identity not established, no product created]")).strip()
+        if cat:
+            v['relation'] = 'product'
+            v['next_action'] = 'multi-product catalogue (finished lubricants, out of template): list products only if the scope changes'
+        else:
+            v['relation'] = 'unresolved_identity'
+            v['next_action'] = v.get('next_action') or 'identify the product from the page image (name not legible in the text layer)'
+    bad = [(k, p.get('status')) for k, p in PK.items() if p.get('status') not in PRODUCT_STATUS] + \
+          [(s, v.get('relation')) for s, v in D.items() if v.get('relation') not in RELATIONS]
+    if bad:
+        raise SystemExit(f'vocabulary violation: {bad[:5]}')
+
+
 def write(name, batch, scope, PK, D, reviewed_on='2026-11-15'):
+    _normalise(PK, D)
     json.dump(dict(batch=batch, reviewed_on=reviewed_on, scope=scope, products=PK, documents=D),
               open(os.path.join(PKG, 'decisions', name), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(name, len(D), 'documents', len(PK), 'products', dict(Counter(v['relation'] for v in D.values())), dict(Counter(p['material_class'] for p in PK.values())))

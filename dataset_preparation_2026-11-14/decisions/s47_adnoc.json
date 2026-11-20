@@ -52,26 +52,6 @@
    "notes": "printed product name on the documents linked in this batch",
    "identity_evidence": "printed product name on the documents linked in this batch",
    "template": "base_oil tier1-3"
-  },
-  "ADNOC:UNKNOWN_DOC_DL2_14075": {
-   "name": "DL2-14075 (unresolved)",
-   "supplier": "ADNOC",
-   "material_class": "unresolved",
-   "existing_record": "",
-   "status": "unresolved_identity",
-   "notes": "document consists only of 'ADNOC Classification: Internal' header; no product name, no data visible; likely a cover page or classification banner; product identity unresolved; next_action: physical inspection or OCR scan",
-   "identity_evidence": "printed product name on the documents linked in this batch",
-   "template": "none / not determined"
-  },
-  "ADNOC:UNKNOWN_DOC_DL2_14107": {
-   "name": "DL2-14107 (unresolved)",
-   "supplier": "ADNOC",
-   "material_class": "unresolved",
-   "existing_record": "",
-   "status": "unresolved_identity",
-   "notes": "document consists only of 'ADNOC Classification: Internal' header; no product name, no data visible; likely a cover page or classification banner; product identity unresolved; next_action: physical inspection or OCR scan",
-   "identity_evidence": "printed product name on the documents linked in this batch",
-   "template": "none / not determined"
   }
  },
  "documents": {
@@ -154,15 +134,11 @@
   "b0b334f256c4": {
    "doc_type": "unresolved_identity",
    "supplier": "ADNOC",
-   "products": [
-    "ADNOC:UNKNOWN_DOC_DL2_14075"
-   ],
-   "roles": {
-    "ADNOC:UNKNOWN_DOC_DL2_14075": "subject"
-   },
+   "products": [],
+   "roles": {},
    "relation": "unresolved_identity",
    "read": "text layer contains only 'ADNOC Classification: Internal'; no product name or data visible",
-   "note": "1pp; entire text layer: 'ADNOC Classification: Internal'; likely a document cover page, classification banner, or header-only page; next_action: physical inspection or OCR re-scan to identify product content",
+   "note": "1pp; entire text layer: 'ADNOC Classification: Internal'; likely a document cover page, classification banner, or header-only page; next_action: physical inspection or OCR re-scan to identify product content [integration review 2026-11-20: pseudo-product key ADNOC:UNKNOWN_DOC_DL2_14075 removed; identity not established, no product created]",
    "next_action": "physical inspection / OCR re-scan needed",
    "manufacturer": "",
    "distributor": "",
@@ -188,15 +164,11 @@
   "9c088f561832": {
    "doc_type": "unresolved_identity",
    "supplier": "ADNOC",
-   "products": [
-    "ADNOC:UNKNOWN_DOC_DL2_14107"
-   ],
-   "roles": {
-    "ADNOC:UNKNOWN_DOC_DL2_14107": "subject"
-   },
+   "products": [],
+   "roles": {},
    "relation": "unresolved_identity",
    "read": "text layer contains only 'ADNOC Classification: Internal'; no product name or data visible",
-   "note": "1pp; entire text layer: 'ADNOC Classification: Internal'; see DL2-14075 (b0b334f256) — same situation; next_action: physical inspection or OCR re-scan",
+   "note": "1pp; entire text layer: 'ADNOC Classification: Internal'; see DL2-14075 (b0b334f256) — same situation; next_action: physical inspection or OCR re-scan [integration review 2026-11-20: pseudo-product key ADNOC:UNKNOWN_DOC_DL2_14107 removed; identity not established, no product created]",
    "next_action": "physical inspection / OCR re-scan needed",
    "manufacturer": "",
    "distributor": "",

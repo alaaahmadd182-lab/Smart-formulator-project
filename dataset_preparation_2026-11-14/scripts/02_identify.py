@@ -21,6 +21,7 @@ PKG = os.path.dirname(HERE)
 ROOT = os.path.dirname(PKG)
 INV = os.path.join(ROOT, 'incoming_dataset_review_2026-11-12')
 sys.path.insert(0, os.path.join(INV, 'scripts'))
+sys.path.insert(0, HERE)
 
 LABELS = (r'ghs product identifier|product identifier(?: used on the label)?|product name|name of (?:the )?product|trade ?name(?:/designation)?|'
           r'commercial (?:name|product name)|brand name|material name|product designation|product|material|sample name|sample|'
@@ -51,9 +52,10 @@ def key(x):
 
 
 def pages_for(sha):
-    p = os.path.join(INV, '_cache', 'text', sha + '.txt.gz')
+    from paths import TEXT_CACHE, OCR_CACHE
+    p = os.path.join(TEXT_CACHE, sha + '.txt.gz')
     tl = gzip.open(p, 'rt', encoding='utf-8').read().split('\f') if os.path.exists(p) else []
-    o = os.path.join(PKG, '_cache', 'ocr', sha + '.json.gz')
+    o = os.path.join(OCR_CACHE, sha + '.json.gz')
     if os.path.exists(o):
         d = json.load(gzip.open(o, 'rt', encoding='utf-8'))
         for pg in d['pages']:

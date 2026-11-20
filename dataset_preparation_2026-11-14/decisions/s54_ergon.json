@@ -12,26 +12,6 @@
    "notes": "product name confirmed in document footer: 'HY 40 is a product of Ergon Refining, Inc. May 10, 2018'",
    "identity_evidence": "printed product name on the documents linked in this batch",
    "template": "base_oil tier1-3"
-  },
-  "ERGON:UNKNOWN_SPEC_DL2_13279": {
-   "name": "Ergon naphthenic/mineral oil (DL2-13279, name unknown)",
-   "supplier": "Ergon",
-   "material_class": "unresolved",
-   "existing_record": "",
-   "status": "unresolved_identity",
-   "notes": "document is an Ergon Refining base oil spec sheet; product name not legible from text layer; properties: Saybolt 34-44 SUS at 100°F, kV40 2.4-5.2 cSt (typical 3.2), kV100 1.3 cSt, API Gravity 42.5, density 0.8124 at 15.6°C, PP -14°C, FP 124°C (COC) / 115°C (PMCC), Water PASS, Appearance PASS, Acid Number max 0.05, Aniline Point (D611) listed; density 0.8124 is notably lower than HY 40 (0.8618) despite similar Saybolt range → likely a different grade or product line; next_action: identify product name from physical document or Ergon catalog",
-   "identity_evidence": "printed product name on the documents linked in this batch",
-   "template": "none / not determined"
-  },
-  "ERGON:UNKNOWN_SPEC_DL2_13346": {
-   "name": "Ergon naphthenic oil (DL2-13346, name unknown)",
-   "supplier": "Ergon",
-   "material_class": "unresolved",
-   "existing_record": "",
-   "status": "unresolved_identity",
-   "notes": "document is an Ergon Refining naphthenic base oil spec sheet; product name not legible; properties: Saybolt 60-75 SUS at 100°F, kV40 9.6-13.3 cSt (typical 11.8), kV100 2.9 cSt, density 0.8552 at 15.6°C (Specific Gravity 0.8559), VI 60-81, VGC 0.817, MW 312, PP -17°C, FP 187°C (COC); VGC 0.817 and VI 60-81 confirm naphthenic character; Saybolt 60-75 SUS → medium naphthenic; possibly ERGON_HYGOLD_60 or similar — not confirmable without product name in text layer; next_action: identify product name from physical document or Ergon catalog",
-   "identity_evidence": "printed product name on the documents linked in this batch",
-   "template": "none / not determined"
   }
  },
  "documents": {
@@ -55,15 +35,11 @@
   "09571a3dede5": {
    "doc_type": "product data sheet (TDS/PDS)",
    "supplier": "Ergon",
-   "products": [
-    "ERGON:UNKNOWN_SPEC_DL2_13279"
-   ],
-   "roles": {
-    "ERGON:UNKNOWN_SPEC_DL2_13279": "subject"
-   },
+   "products": [],
+   "roles": {},
    "relation": "unresolved_identity",
    "read": "full page content: spec table; product name not in text layer",
-   "note": "1pp; Ergon Refining spec sheet format; product name not in text layer; Saybolt 34-44 SUS at 100°F, kV40 2.4-5.2 cSt, density 0.8124 at 15.6°C, PP -14°C, FP 124°C, Aniline Point test listed (D611); density notably lower than HY 40 → different product",
+   "note": "1pp; Ergon Refining spec sheet format; product name not in text layer; Saybolt 34-44 SUS at 100°F, kV40 2.4-5.2 cSt, density 0.8124 at 15.6°C, PP -14°C, FP 124°C, Aniline Point test listed (D611); density notably lower than HY 40 → different product [integration review 2026-11-20: pseudo-product key ERGON:UNKNOWN_SPEC_DL2_13279 removed; identity not established, no product created]",
    "next_action": "identify product name from physical document or Ergon catalog",
    "manufacturer": "Ergon Refining, Inc.",
    "distributor": "",
@@ -72,15 +48,11 @@
   "c8ce093918f9": {
    "doc_type": "product data sheet (TDS/PDS)",
    "supplier": "Ergon",
-   "products": [
-    "ERGON:UNKNOWN_SPEC_DL2_13346"
-   ],
-   "roles": {
-    "ERGON:UNKNOWN_SPEC_DL2_13346": "subject"
-   },
+   "products": [],
+   "roles": {},
    "relation": "unresolved_identity",
    "read": "full page content: spec table; product name not in text layer",
-   "note": "1pp; Ergon Refining naphthenic base oil spec; product name not in text layer; Saybolt 60-75 SUS at 100°F, kV40 9.6-13.3 cSt, density 0.8552, VI 60-81, VGC 0.817, MW 312, PP -17°C, FP 187°C; viscosity/density profile matches medium naphthenic oil grade",
+   "note": "1pp; Ergon Refining naphthenic base oil spec; product name not in text layer; Saybolt 60-75 SUS at 100°F, kV40 9.6-13.3 cSt, density 0.8552, VI 60-81, VGC 0.817, MW 312, PP -17°C, FP 187°C; viscosity/density profile matches medium naphthenic oil grade [integration review 2026-11-20: pseudo-product key ERGON:UNKNOWN_SPEC_DL2_13346 removed; identity not established, no product created]",
    "next_action": "identify product name; possibly ERGON_HYGOLD_60 or similar",
    "manufacturer": "Ergon Refining, Inc.",
    "distributor": "",

@@ -20,8 +20,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 PKG  = os.path.dirname(HERE)
 ROOT = os.path.dirname(PKG)
 INV  = os.path.join(ROOT, 'incoming_dataset_review_2026-11-12')
-ZIP  = os.path.join(ROOT, 'Downloaded lubricants sheets.zip')
-OUT  = os.path.join(PKG, '_cache', 'ocr')
+sys.path.insert(0, HERE)
+from paths import ARCHIVE_ZIP as ZIP, OCR_CACHE as OUT
 LOG  = os.path.join(PKG, 'logs', '01_text_cache.log')
 
 

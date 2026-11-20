@@ -1,0 +1,892 @@
+product_key,rows,reported,missing,reported_matched,reported_not_matched,ocr_visual_needed,sds_element_flags,missing_inspected,missing_no_note,extraction,auto_check,auto_issues
+AFTON:APL,14,0,14,0,0,0,0,0,14,programmatic,issues,14 Missing rows without an inspection note; no Reported row at all; programmatic extraction (not a reading review)
+AFTON:Axcel S,25,5,20,0,5,0,0,0,20,programmatic,issues,5 Reported rows not matched on the cited page; 20 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 11145,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 11180,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 11181,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 11183,25,5,20,0,5,0,0,0,20,programmatic,issues,5 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 20 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 11210,25,11,14,0,11,0,0,0,14,programmatic,issues,11 Reported rows not matched on the cited page; 14 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 11320,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 11356,25,8,17,0,8,0,0,0,17,programmatic,issues,8 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 17 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 11410,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 11455,25,3,22,0,3,0,0,0,22,programmatic,issues,3 Reported rows not matched on the cited page; 22 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 11456,25,7,18,0,7,0,0,0,18,programmatic,issues,7 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 18 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 11458,25,7,18,0,7,0,0,0,18,programmatic,issues,7 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 18 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 11500,25,7,18,0,7,0,0,0,18,programmatic,issues,7 Reported rows not matched on the cited page; 18 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 11600,25,4,21,0,4,0,0,0,21,programmatic,issues,4 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 21 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 12213,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 1505,25,7,18,0,7,0,0,0,18,programmatic,issues,7 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 18 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 151,25,1,24,0,1,0,0,0,24,programmatic,issues,1 Reported rows not matched on the cited page; 24 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 1811,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 2018LV,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 2030,14,1,13,0,1,0,0,0,13,programmatic,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 2225,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 22300,25,8,17,0,8,0,0,0,17,programmatic,issues,8 Reported rows not matched on the cited page; 17 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 2240,25,7,18,0,7,0,0,0,18,programmatic,issues,7 Reported rows not matched on the cited page; 18 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 2250,25,8,17,0,8,0,0,0,17,programmatic,issues,8 Reported rows not matched on the cited page; 17 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 22520,25,8,17,0,8,0,0,0,17,programmatic,issues,8 Reported rows not matched on the cited page; 17 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 2414,25,1,24,0,1,0,0,0,24,programmatic,issues,1 Reported rows not matched on the cited page; 24 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 2505,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 2571,25,3,22,0,3,0,0,0,22,programmatic,issues,3 Reported rows not matched on the cited page; 22 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 2584,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 2597,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 2607,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 306,25,2,23,0,2,0,0,0,23,programmatic,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 307,25,5,20,0,5,0,0,0,20,programmatic,issues,5 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 20 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 317,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 3339,25,2,23,0,2,0,0,0,23,programmatic,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 34006,25,2,23,0,2,0,0,0,23,programmatic,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 3419,25,11,14,0,11,0,0,0,14,programmatic,issues,11 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 14 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 3421,25,2,23,0,2,0,0,0,23,programmatic,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 3421J,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 343,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 numeric rows without unit; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 3431,25,8,17,0,8,0,0,0,17,programmatic,issues,8 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 17 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 34321,25,5,20,0,5,0,0,0,20,programmatic,issues,5 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 20 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 3435A,25,1,24,0,1,0,0,0,24,programmatic,issues,1 Reported rows not matched on the cited page; 24 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 344,25,3,22,0,3,0,0,0,22,programmatic,issues,3 Reported rows not matched on the cited page; 22 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 34500,25,9,16,0,9,0,0,0,16,programmatic,issues,9 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 16 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 3460,25,8,17,0,8,0,0,0,17,programmatic,issues,8 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 17 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 3488,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 349,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 3491K,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 3491LV,25,5,20,0,5,0,0,0,20,programmatic,issues,5 Reported rows not matched on the cited page; 20 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 352,25,5,20,0,5,0,0,0,20,programmatic,issues,5 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 20 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 35701,25,4,21,0,4,0,0,0,21,programmatic,issues,4 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 21 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 369,25,2,23,0,2,0,0,0,23,programmatic,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 381,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 numeric rows without unit; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 382,25,2,23,0,2,0,0,0,23,programmatic,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 23 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 397,25,2,23,0,2,0,0,0,23,programmatic,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 4009,25,4,21,0,4,0,0,0,21,programmatic,issues,4 Reported rows not matched on the cited page; 21 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 419,25,1,24,0,1,0,0,0,24,programmatic,issues,1 Reported rows not matched on the cited page; 24 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 429,25,2,23,0,2,0,0,0,23,programmatic,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 4716,14,2,12,0,2,0,0,0,12,programmatic,issues,2 Reported rows not matched on the cited page; 12 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 510,25,5,20,0,5,0,0,0,20,programmatic,issues,5 Reported rows not matched on the cited page; 1 numeric rows without unit; 20 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 511T,14,2,12,0,2,0,0,0,12,programmatic,issues,2 Reported rows not matched on the cited page; 12 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 521,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 521F,25,1,24,0,1,0,0,0,24,programmatic,issues,1 Reported rows not matched on the cited page; 24 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 522,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 523,25,0,25,0,0,0,0,0,25,programmatic,issues,25 Missing rows without an inspection note; no Reported row at all; programmatic extraction (not a reading review)
+AFTON:HiTEC 523F,25,7,18,0,7,0,0,0,18,programmatic,issues,7 Reported rows not matched on the cited page; 18 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 527,25,4,21,0,4,0,0,0,21,programmatic,issues,4 Reported rows not matched on the cited page; 21 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 543,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 552,25,5,20,0,5,0,0,0,20,programmatic,issues,5 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 20 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 566,25,2,23,0,2,0,0,0,23,programmatic,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 5710,14,1,13,0,1,0,0,0,13,programmatic,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 5724,14,1,13,0,1,0,0,0,13,programmatic,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 5751,14,1,13,0,1,0,0,0,13,programmatic,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 5754A,14,1,13,0,1,0,0,0,13,programmatic,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 5777,14,1,13,0,1,0,0,0,13,programmatic,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 579,25,5,20,0,5,0,0,0,20,programmatic,issues,5 Reported rows not matched on the cited page; 20 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 5825H,14,2,12,0,2,0,0,0,12,programmatic,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 5825K,14,2,12,0,2,0,0,0,12,programmatic,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 6320,25,2,23,0,2,0,0,0,23,programmatic,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 686,14,1,13,0,1,0,0,0,13,programmatic,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 8703,25,5,20,0,5,0,0,0,20,programmatic,issues,5 Reported rows not matched on the cited page; 1 numeric rows without unit; 20 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 8705,25,7,18,0,7,0,0,0,18,programmatic,issues,7 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 18 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 8777B,25,10,15,0,10,0,0,0,15,programmatic,issues,10 Reported rows not matched on the cited page; 15 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 8788LA,25,7,18,0,7,0,0,0,18,programmatic,issues,7 Reported rows not matched on the cited page; 18 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 8801,25,1,24,0,1,0,0,0,24,programmatic,issues,1 Reported rows not matched on the cited page; 24 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 9300C,25,5,20,0,5,0,0,0,20,programmatic,issues,5 Reported rows not matched on the cited page; 20 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 9300G,25,7,18,0,7,0,0,0,18,programmatic,issues,7 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 18 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 9325C,25,8,17,0,8,0,0,0,17,programmatic,issues,8 Reported rows not matched on the cited page; 17 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 9325G,25,1,24,0,1,0,0,0,24,programmatic,issues,1 Reported rows not matched on the cited page; 24 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 9387/88,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 9387X,25,7,18,0,7,0,0,0,18,programmatic,issues,7 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 18 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 9388X,25,5,20,0,5,0,0,0,20,programmatic,issues,5 Reported rows not matched on the cited page; 20 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 9450,25,1,24,0,1,0,0,0,24,programmatic,issues,1 Reported rows not matched on the cited page; 24 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 9490,25,4,21,0,4,0,0,0,21,programmatic,issues,4 Reported rows not matched on the cited page; 21 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:HiTEC 9890,25,2,23,0,2,0,0,0,23,programmatic,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note; programmatic extraction (not a reading review)
+AFTON:Jilin J0030,14,1,13,0,1,0,0,0,13,programmatic,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 13 Missing rows without an inspection note; programmatic extraction (not a reading review)
+ARKEMA:TPS_20,30,17,13,17,0,0,0,10,3,read,issues,6 value-form inconsistencies; 6 numeric rows without unit; 3 Missing rows without an inspection note
+ARKEMA:TPS_32,30,17,13,17,0,0,0,10,3,read,issues,5 value-form inconsistencies; 8 numeric rows without unit; 3 Missing rows without an inspection note
+ARKEMA:TPS_44,30,17,13,17,0,0,0,10,3,read,issues,7 value-form inconsistencies; 5 numeric rows without unit; 3 Missing rows without an inspection note
+ARKEMA:VPS_11,30,17,13,16,1,0,0,10,3,read,issues,1 Reported rows not matched on the cited page; 8 value-form inconsistencies; 7 numeric rows without unit; 3 Missing rows without an inspection note
+ARKEMA:VPS_15,29,16,13,16,0,0,0,10,3,read,issues,7 value-form inconsistencies; 7 numeric rows without unit; 3 Missing rows without an inspection note
+ARKEMA:VPS_17,30,17,13,17,0,0,0,10,3,read,issues,6 value-form inconsistencies; 7 numeric rows without unit; 3 Missing rows without an inspection note
+BASF:AMINE O,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:BREOX 50,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:BREOX 50 A 140,17,2,15,0,2,0,0,0,15,read,issues,2 Reported rows not matched on the cited page; 15 Missing rows without an inspection note
+BASF:BREOX 50 A 50,17,2,15,0,2,0,0,0,15,read,issues,2 Reported rows not matched on the cited page; 15 Missing rows without an inspection note
+BASF:BREOX 50A 480,17,6,11,6,0,0,0,0,11,read,issues,2 numeric rows without unit; 11 Missing rows without an inspection note
+BASF:BREOX 50A 75,17,6,11,6,0,0,0,0,11,read,issues,2 numeric rows without unit; 11 Missing rows without an inspection note
+BASF:BREOX 60,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:BREOX 60 D 460,17,2,15,0,2,0,0,0,15,read,issues,2 Reported rows not matched on the cited page; 15 Missing rows without an inspection note
+BASF:BREOX B 35,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:BREOX B 55,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:IRGAFLO 1100 V,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BASF:IRGAFLO 6000 V,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:IRGAFLO 610 P,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 13 Missing rows without an inspection note
+BASF:IRGAFLO 6100 V,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:IRGAFLO 6300 V,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BASF:IRGAFLO 6305 V,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BASF:IRGAFLO 649 P,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:IRGAFLO 710 P,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:IRGAFLO 720 P,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:IRGAFLO 942 P,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:IRGAFOS OPH,14,3,11,1,2,0,0,0,11,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 11 Missing rows without an inspection note
+BASF:IRGALUBE 2030 A,25,6,19,4,2,0,0,0,19,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note
+BASF:IRGALUBE 2030 C,25,6,19,4,2,0,0,0,19,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note
+BASF:IRGALUBE 2040 A,25,6,19,4,2,0,0,0,19,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note
+BASF:IRGALUBE 2050,25,6,19,4,2,0,0,0,19,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note
+BASF:IRGALUBE 353,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:IRGALUBE BASE 10,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:IRGALUBE F 10 A,14,2,12,0,2,0,0,0,12,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+BASF:IRGALUBE ML 3010 A,25,8,17,7,1,0,0,0,17,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 17 Missing rows without an inspection note
+BASF:IRGALUBE ML 3050 A,25,2,23,1,1,0,0,0,23,read,issues,1 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+BASF:IRGALUBE ML 601,25,2,23,0,2,0,0,0,23,read,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+BASF:IRGALUBE ML 605 A,25,9,16,8,1,0,0,0,16,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 16 Missing rows without an inspection note
+BASF:IRGALUBE TPPT,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 12 Missing rows without an inspection note
+BASF:IRGAMET 42,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:IRGAMET BTZ,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:IRGANOX L 06,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:IRGANOX L 101,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:IRGANOX L 107,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:IRGANOX L 109,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:IRGANOX L 55,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:IRGANOX L 57,14,2,12,0,2,0,0,0,12,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+BASF:IRGANOX L 64,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+BASF:IRGAPAC G 605 A,25,9,16,8,1,0,0,0,16,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 16 Missing rows without an inspection note
+BASF:IRGAPAC T 2030 C,25,1,24,0,1,0,0,0,24,read,issues,1 Reported rows not matched on the cited page; 24 Missing rows without an inspection note
+BASF:IRGAPAC T 2040 A,25,6,19,4,2,0,0,0,19,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note
+BASF:IRGAPAC T 2050,25,2,23,1,1,0,0,0,23,read,issues,1 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+BASF:PLURACOL V 10,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:PLURASAFE WI 165,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:PLURASAFE WS 5100,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:PLURASAFE WS 660,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:PLURIOL V-10,17,3,14,3,0,0,0,0,14,read,issues,1 numeric rows without unit; 14 Missing rows without an inspection note
+BASF:SYNATIVE ES 2423,17,3,14,1,2,0,0,0,14,read,issues,2 Reported rows not matched on the cited page; 14 Missing rows without an inspection note
+BASF:SYNATIVE ES 2902,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 2 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:SYNATIVE ES 2920,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 2 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:SYNATIVE ES 2929,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 2 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:SYNATIVE ES 2931,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 2 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:SYNATIVE ES 2939,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 2 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:SYNATIVE ES 2958,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 2 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:SYNATIVE ES 2964,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 2 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:SYNATIVE ES 2971,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 2 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:SYNATIVE ES 3237,17,4,13,0,4,0,0,0,13,read,issues,4 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:SYNATIVE ES 3345,17,4,13,0,4,0,0,0,13,read,issues,4 Reported rows not matched on the cited page; 1 numeric rows without unit; 13 Missing rows without an inspection note
+BASF:SYNATIVE ES 8309,17,4,13,0,4,0,0,0,13,read,issues,4 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BASF:SYNATIVE ES DNA,17,8,9,6,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 9 Missing rows without an inspection note
+BASF:SYNATIVE ES DPHA,17,7,10,5,2,0,0,0,10,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 10 Missing rows without an inspection note
+BASF:SYNATIVE ES EHO,17,5,12,0,5,0,0,0,12,read,issues,5 Reported rows not matched on the cited page; 1 numeric rows without unit; 12 Missing rows without an inspection note
+BASF:SYNATIVE ES GTO,17,5,12,0,5,0,0,0,12,read,issues,5 Reported rows not matched on the cited page; 12 Missing rows without an inspection note
+BASF:SYNATIVE ES TMP 05,17,5,12,0,5,0,0,0,12,read,issues,5 Reported rows not matched on the cited page; 1 numeric rows without unit; 12 Missing rows without an inspection note
+BASF:SYNATIVE ES TMP 05 140,17,4,13,0,4,0,0,0,13,read,issues,4 Reported rows not matched on the cited page; 1 numeric rows without unit; 13 Missing rows without an inspection note
+BASF:SYNATIVE ES TMP 05 H,17,4,13,0,4,0,0,0,13,read,issues,4 Reported rows not matched on the cited page; 1 numeric rows without unit; 13 Missing rows without an inspection note
+BASF:SYNATIVE ES TMTC,17,6,11,0,6,0,0,0,11,read,issues,6 Reported rows not matched on the cited page; 1 numeric rows without unit; 11 Missing rows without an inspection note
+BASF:XPDL-590,14,3,11,2,1,0,0,0,11,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 11 Missing rows without an inspection note
+BETTCHEM:BT3090,32,24,8,20,4,0,0,8,0,read,issues,4 Reported rows not matched on the cited page; 1 numeric rows without unit
+BETTCHEM:BT3096,28,22,6,21,1,0,0,6,0,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit
+BETTCHEM:BT3097,47,39,8,26,13,0,0,8,0,read,issues,13 Reported rows not matched on the cited page; 1 numeric rows without unit
+BETTCHEM:BT3098,49,41,8,28,13,0,0,8,0,read,issues,13 Reported rows not matched on the cited page; 1 numeric rows without unit
+BETTCHEM:BT_3091,43,33,10,22,11,0,0,10,0,read,issues,11 Reported rows not matched on the cited page
+BETTCHEM:BT_3095,34,24,10,18,6,0,0,10,0,read,issues,6 Reported rows not matched on the cited page
+BETTCHEM:BT_55006,32,14,18,9,5,0,0,18,0,read,issues,5 Reported rows not matched on the cited page
+BETTCHEM:BT_55050,26,17,9,17,0,0,0,9,0,read,issues,1 numeric rows without unit
+BRB:PETROLAD 1846,25,8,17,3,5,0,0,0,17,read,issues,5 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 17 Missing rows without an inspection note
+BRB:PETROLAD 1877,14,1,13,1,0,0,0,0,13,read,issues,1 dose rows with unspecified % basis; 13 Missing rows without an inspection note
+BRB:PETROLAD 19002,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+BRB:PETROLAD 336,25,5,20,1,4,0,0,0,20,read,issues,4 Reported rows not matched on the cited page; 20 Missing rows without an inspection note
+BRB:PETROLAD 3378,14,3,11,2,1,0,0,0,11,read,issues,1 Reported rows not matched on the cited page; 11 Missing rows without an inspection note
+BRB:PETROLAD 339,25,7,18,2,5,0,0,0,18,read,issues,5 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 18 Missing rows without an inspection note
+BRB:PETROLAD 484 FGD,14,1,13,1,0,0,0,0,13,read,issues,1 dose rows with unspecified % basis; 13 Missing rows without an inspection note
+BRB:PETROLAD 484BD,14,1,13,1,0,0,0,0,13,read,issues,1 dose rows with unspecified % basis; 13 Missing rows without an inspection note
+BRB:PETROLAD 485FT,14,1,13,1,0,0,0,0,13,read,issues,1 dose rows with unspecified % basis; 13 Missing rows without an inspection note
+BRB:PETROLAD 5597,25,7,18,3,4,0,0,0,18,read,issues,4 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 18 Missing rows without an inspection note
+BRB:PETROLAD 6779,14,4,10,2,2,0,0,0,10,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 10 Missing rows without an inspection note
+BRB:PETROLAD 6779A,14,3,11,1,2,0,0,0,11,read,issues,2 Reported rows not matched on the cited page; 11 Missing rows without an inspection note
+BRB:PETROLAD 7072,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:PETROLAD 743EU,25,8,17,1,7,0,0,0,17,read,issues,7 Reported rows not matched on the cited page; 17 Missing rows without an inspection note
+BRB:PETROLAD 743N,25,10,15,2,8,0,0,0,15,read,issues,8 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 15 Missing rows without an inspection note
+BRB:PETROLAD 753,25,11,14,1,10,0,0,0,14,read,issues,10 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 14 Missing rows without an inspection note
+BRB:PETROLAD 8200,25,9,16,9,0,0,0,0,16,read,issues,1 dose rows with unspecified % basis; 16 Missing rows without an inspection note
+BRB:PETROLAD 8363,25,12,13,1,11,0,0,0,13,read,issues,11 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 13 Missing rows without an inspection note
+BRB:PETROLAD 8770,25,7,18,0,7,0,0,0,18,read,issues,7 Reported rows not matched on the cited page; 18 Missing rows without an inspection note
+BRB:PETROLAD 8771SC,25,8,17,0,8,0,0,0,17,read,issues,8 Reported rows not matched on the cited page; 17 Missing rows without an inspection note
+BRB:PETROLAD 9003B,25,9,16,1,8,0,0,0,16,read,issues,8 Reported rows not matched on the cited page; 16 Missing rows without an inspection note
+BRB:PETROLAD 9200,25,10,15,1,9,0,0,0,15,read,issues,9 Reported rows not matched on the cited page; 15 Missing rows without an inspection note
+BRB:PETROLAD 9200E,25,10,15,1,9,0,0,0,15,read,issues,9 Reported rows not matched on the cited page; 15 Missing rows without an inspection note
+BRB:PETROLAD 9333,25,10,15,2,8,0,0,0,15,read,issues,8 Reported rows not matched on the cited page; 15 Missing rows without an inspection note
+BRB:PETROLAD 9530,25,7,18,2,5,0,0,0,18,read,issues,5 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 18 Missing rows without an inspection note
+BRB:PETROLAD 9533,25,8,17,4,4,0,0,0,17,read,issues,4 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 17 Missing rows without an inspection note
+BRB:PETROLAD 9959,25,10,15,1,9,0,0,0,15,read,issues,9 Reported rows not matched on the cited page; 1 numeric rows without unit; 15 Missing rows without an inspection note
+BRB:VISCOTECH 483,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 483 L 1200 CST,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 494 L 3500 CST,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 533,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 533 L,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 535 L,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 536 L,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 593,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 593 L 1000 CST,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 593 L 1300 CST,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 6540,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BRB:VISCOTECH 6540 L 1000 CST,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 6540 L 1200 CST,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 6540 L 1300 CST,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 6540 L 1600 CST,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 6540 L 850 CST,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 6540 LP 1000 CST,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 6540 LP 1300 CST,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 6545,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BRB:VISCOTECH 6545 L,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 6550,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BRB:VISCOTECH 6550 L 500 CST,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+BRB:VISCOTECH 6640,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+BRB:VISCOTECH 6640 L 1300 CST,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+CHEMTURA:NAUGALUBE_16,19,10,9,10,0,0,0,9,0,read,issues,1 numeric rows without unit
+CRISTOL:EPR_3400,22,10,12,10,0,0,0,11,1,read,issues,1 numeric rows without unit; 1 Missing rows without an inspection note
+CRISTOL:PMA_D_70,36,21,15,17,4,0,0,15,0,read,issues,4 Reported rows not matched on the cited page
+CRISTOL:PPD_LX_250,44,29,15,9,20,0,0,14,1,read,issues,20 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 Missing rows without an inspection note
+CRISTOL:VII_400,32,16,16,12,4,0,0,16,0,read,issues,4 Reported rows not matched on the cited page; 1 numeric rows without unit
+DORFKETAL:PX_3841,18,7,11,6,1,0,0,11,0,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit
+DORFKETAL:PX_3871,21,10,11,10,0,0,0,11,0,read,issues,1 numeric rows without unit
+DOWPOL:NEOFLEX_680,18,8,10,7,1,0,0,10,0,read,issues,1 Reported rows not matched on the cited page
+ELCO:ELCO_301,20,11,9,10,1,0,0,9,0,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit
+ELCO:ELCO_313A,19,10,9,10,0,0,0,9,0,read,issues,1 numeric rows without unit
+ELCO:ELCO_87,19,11,8,11,0,0,0,8,0,read,issues,1 numeric rows without unit
+ELCO:ELCO_88,19,11,8,11,0,0,0,8,0,read,issues,1 numeric rows without unit
+ENI:ENI MX 3102,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+ENI:ENI MX 3104,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+ENI:ENI MX 3171,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+ENI:ENI MX 3240,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+ENI:ENI MX 3245,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+ENI:ENI MX 3280,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+ENI:ENI MX 3287,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+ENI:ENI MX 3316,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+ENI:ENI MX 3318,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+ENI:ENI MX 3323,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+ENI:ENI MX 4006,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+ENI:ENI MX 4050,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+ENI:ENI MX 4106,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+ENI:ENI MX 4330,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+ENI:ENI MX 4332,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+ENI:ENI MX 4333,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+ENI:ENI MX 4346,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+ENI:ENI MX 5003,25,9,16,1,8,0,0,0,16,read,issues,8 Reported rows not matched on the cited page; 16 Missing rows without an inspection note
+ENI:ENI MX 5011,25,8,17,1,7,0,0,0,17,read,issues,7 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 17 Missing rows without an inspection note
+ENI:ENI MX 5021,25,8,17,0,8,0,0,0,17,read,issues,8 Reported rows not matched on the cited page; 17 Missing rows without an inspection note
+ENI:ENI MX 5031,25,6,19,0,6,0,0,0,19,read,issues,6 Reported rows not matched on the cited page; 19 Missing rows without an inspection note
+ENI:ENI MX 5111,25,12,13,2,10,0,0,0,13,read,issues,10 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+ENI:ENI MX 5113,25,9,16,1,8,0,0,0,16,read,issues,8 Reported rows not matched on the cited page; 16 Missing rows without an inspection note
+ENI:ENI MX 5114,25,9,16,1,8,0,0,0,16,read,issues,8 Reported rows not matched on the cited page; 16 Missing rows without an inspection note
+ENI:ENI MX 5115,25,9,16,1,8,0,0,0,16,read,issues,8 Reported rows not matched on the cited page; 16 Missing rows without an inspection note
+ENI:ENI MX 5116,25,12,13,1,11,0,0,0,13,read,issues,11 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+ENI:ENI MX 5138,25,12,13,2,10,0,0,0,13,read,issues,10 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+ENI:ENI MX 5153,25,3,22,2,1,0,0,0,22,read,issues,1 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+ENI:ENI MX 5264,25,3,22,1,2,0,0,0,22,read,issues,2 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+ENI:ENI MX 5450,25,3,22,1,2,0,0,0,22,read,issues,2 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+EVONIK:VISCOPLEX_0_223,34,12,22,12,0,0,0,21,1,read,issues,7 value-form inconsistencies; 2 numeric rows without unit; 1 Missing rows without an inspection note
+EVONIK:VISCOPLEX_14_520,19,10,9,10,0,0,0,9,0,read,issues,5 value-form inconsistencies
+EVONIK:VISCOPLEX_1_254,29,12,17,11,1,0,0,16,1,read,issues,1 Reported rows not matched on the cited page; 6 value-form inconsistencies; 1 numeric rows without unit; 1 Missing rows without an inspection note
+EVONIK:VISCOPLEX_4_677,42,26,16,24,2,0,0,16,0,read,issues,2 Reported rows not matched on the cited page; 16 value-form inconsistencies; 1 numeric rows without unit
+EVONIK:VISCOPLEX_7_310,41,20,21,17,3,0,0,20,1,read,issues,3 Reported rows not matched on the cited page; 12 value-form inconsistencies; 5 numeric rows without unit; 1 Missing rows without an inspection note
+EVONIK:VISCOPLEX_8_200,40,21,19,19,2,0,0,18,1,read,issues,2 Reported rows not matched on the cited page; 11 value-form inconsistencies; 5 numeric rows without unit; 1 Missing rows without an inspection note
+EVONIK:VISCOPLEX_8_251,42,21,21,17,4,0,0,20,1,read,issues,4 Reported rows not matched on the cited page; 12 value-form inconsistencies; 5 numeric rows without unit; 1 Missing rows without an inspection note
+EVONIK:VISCOPLEX_8_400,40,21,19,18,3,0,0,18,1,read,issues,3 Reported rows not matched on the cited page; 11 value-form inconsistencies; 5 numeric rows without unit; 1 Missing rows without an inspection note
+EXISTING:ADNOC_ADBASE_2CST,16,10,6,0,10,0,0,4,2,read,issues,10 Reported rows not matched on the cited page; 1 numeric rows without unit; 2 Missing rows without an inspection note
+EXISTING:ADNOC_ADBASE_3CST,16,10,6,0,10,0,0,4,2,read,issues,10 Reported rows not matched on the cited page; 1 numeric rows without unit; 2 Missing rows without an inspection note
+EXISTING:ADNOC_ADBASE_4CST,16,12,4,0,12,0,0,4,0,read,issues,12 Reported rows not matched on the cited page; 1 numeric rows without unit
+EXISTING:ADNOC_ADBASE_6CST,40,36,4,20,16,0,0,4,0,read,issues,16 Reported rows not matched on the cited page; 4 numeric rows without unit
+EXISTING:ADNOC_ADBASE_8CST,16,12,4,0,12,0,0,4,0,read,issues,12 Reported rows not matched on the cited page; 1 numeric rows without unit
+EXISTING:BETTCHEM_BT_3088,31,23,8,18,5,0,0,8,0,read,issues,5 Reported rows not matched on the cited page; 1 numeric rows without unit
+EXISTING:BETTCHEM_BT_3089,36,27,9,19,8,0,0,9,0,read,issues,8 Reported rows not matched on the cited page; 1 numeric rows without unit
+EXISTING:BETTCHEM_BT_3093,30,22,8,18,4,0,0,8,0,read,issues,4 Reported rows not matched on the cited page; 1 numeric rows without unit
+EXISTING:JINZHOU_KANGTAI_KT31140,29,15,14,15,0,0,0,14,0,read,pass,
+EXISTING:TIANHE_P_TEC_3232,31,18,13,13,5,0,0,13,0,read,issues,5 Reported rows not matched on the cited page
+FORMOSA:BASE_OIL_GII_150N,28,23,5,22,1,0,0,5,0,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit
+FORMOSA:BASE_OIL_GII_500N,26,21,5,21,0,0,0,5,0,read,issues,2 numeric rows without unit
+FORMOSA:M_25_SSI,20,10,10,8,2,0,0,10,0,read,issues,2 Reported rows not matched on the cited page
+FUNCTIONALPRODUCTS:FUNCTIONAL MD-8000,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL MD-9000,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL MG-1000,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL MG-3000,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL MH-2000,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL MH-2500,14,2,12,0,2,0,0,0,12,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL MH-4000,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL MH-4500,14,2,12,0,2,0,0,0,12,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL MH-7000,14,2,12,0,2,0,0,0,12,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL MN-3500,14,2,12,0,2,0,0,0,12,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL V-100,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL V-172,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL V-172E,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL V-178,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL V-290,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL V-475,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL V-515,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:FUNCTIONAL V-584,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:PARATAC 178,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+FUNCTIONALPRODUCTS:PARATAC XT,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+HYUNDAIOILBANK:HSB_500N,28,23,5,22,1,0,0,5,0,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit
+INEOS:DURASYN 125,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 126,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 127,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 128,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 136,8,4,4,3,1,0,0,0,4,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 4 Missing rows without an inspection note
+INEOS:DURASYN 142,8,4,4,3,1,0,0,0,4,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 4 Missing rows without an inspection note
+INEOS:DURASYN 145,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 146,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 147,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 148,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 156,8,1,7,0,1,0,0,0,7,read,issues,1 Reported rows not matched on the cited page; 7 Missing rows without an inspection note
+INEOS:DURASYN 162,8,4,4,3,1,0,0,0,4,read,issues,1 Reported rows not matched on the cited page; 4 Missing rows without an inspection note
+INEOS:DURASYN 162S,8,4,4,3,1,0,0,0,4,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 4 Missing rows without an inspection note
+INEOS:DURASYN 164,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 164X,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 166,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 166X,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 168,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 170,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 174I,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 180I,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit; 3 Missing rows without an inspection note
+INEOS:DURASYN 180R,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit; 3 Missing rows without an inspection note
+INFINEUM:C9417,14,2,12,0,2,0,0,0,12,programmatic,issues,2 Reported rows not matched on the cited page; 12 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:C9440,14,0,14,0,0,0,0,0,14,programmatic,issues,14 Missing rows without an inspection note; no Reported row at all; programmatic extraction (not a reading review)
+INFINEUM:C9455B,14,1,13,0,1,0,0,0,13,programmatic,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:C9496,14,0,14,0,0,0,0,0,14,programmatic,issues,14 Missing rows without an inspection note; no Reported row at all; programmatic extraction (not a reading review)
+INFINEUM:D3307,25,9,16,0,9,0,0,0,16,programmatic,issues,9 Reported rows not matched on the cited page; 16 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:D3314,25,13,12,0,13,0,0,0,12,programmatic,issues,13 Reported rows not matched on the cited page; 12 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:D3336,25,15,10,0,15,0,0,0,10,programmatic,issues,15 Reported rows not matched on the cited page; 10 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:D3337,25,14,11,0,14,0,0,0,11,programmatic,issues,14 Reported rows not matched on the cited page; 11 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:D3374,25,13,12,0,13,0,0,0,12,programmatic,issues,13 Reported rows not matched on the cited page; 12 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:D3397,25,14,11,0,14,0,0,0,11,programmatic,issues,14 Reported rows not matched on the cited page; 11 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:D3475,25,16,9,0,16,0,0,0,9,programmatic,issues,16 Reported rows not matched on the cited page; 9 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:D3494,25,16,9,0,16,0,0,0,9,programmatic,issues,16 Reported rows not matched on the cited page; 9 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7020,25,9,16,0,9,0,0,0,16,programmatic,issues,9 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 16 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7021,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7040,25,10,15,0,10,0,0,0,15,programmatic,issues,10 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 15 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7044,25,7,18,0,7,0,0,0,18,programmatic,issues,7 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 18 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7046,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7048,25,10,15,0,10,0,0,0,15,programmatic,issues,10 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 15 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7081A,25,9,16,0,9,0,0,0,16,programmatic,issues,9 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 16 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7090,25,7,18,0,7,0,0,0,18,programmatic,issues,7 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 18 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7093,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7094,25,8,17,0,8,0,0,0,17,programmatic,issues,8 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 17 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7095,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7102,25,7,18,0,7,0,0,0,18,programmatic,issues,7 Reported rows not matched on the cited page; 18 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7233,25,10,15,0,10,0,0,0,15,programmatic,issues,10 Reported rows not matched on the cited page; 15 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7270,25,10,15,0,10,0,0,0,15,programmatic,issues,10 Reported rows not matched on the cited page; 15 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7280,25,9,16,0,9,0,0,0,16,programmatic,issues,9 Reported rows not matched on the cited page; 16 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7290,25,9,16,0,9,0,0,0,16,programmatic,issues,9 Reported rows not matched on the cited page; 16 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M7291,25,11,14,0,11,0,0,0,14,programmatic,issues,11 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 14 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:M8220,25,10,15,0,10,0,0,0,15,programmatic,issues,10 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 15 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P5000,25,10,15,0,10,0,0,0,15,programmatic,issues,10 Reported rows not matched on the cited page; 15 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P5005,25,12,13,0,12,0,0,0,13,programmatic,issues,12 Reported rows not matched on the cited page; 13 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P5096,25,15,10,0,15,0,0,0,10,programmatic,issues,15 Reported rows not matched on the cited page; 10 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P5205,25,12,13,0,12,0,0,0,13,programmatic,issues,12 Reported rows not matched on the cited page; 13 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P5500,25,12,13,0,12,0,0,0,13,programmatic,issues,12 Reported rows not matched on the cited page; 13 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P5570,25,12,13,0,12,0,0,0,13,programmatic,issues,12 Reported rows not matched on the cited page; 13 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P5701,25,4,21,0,4,0,0,0,21,programmatic,issues,4 Reported rows not matched on the cited page; 21 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P5706,25,12,13,0,12,0,0,0,13,programmatic,issues,12 Reported rows not matched on the cited page; 13 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P5807,25,13,12,0,13,0,0,0,12,programmatic,issues,13 Reported rows not matched on the cited page; 12 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P5810,25,10,15,0,10,0,0,0,15,programmatic,issues,10 Reported rows not matched on the cited page; 15 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P5908,25,13,12,0,13,0,0,0,12,programmatic,issues,13 Reported rows not matched on the cited page; 12 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P6000,25,13,12,0,13,0,0,0,12,programmatic,issues,13 Reported rows not matched on the cited page; 12 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P6003,25,13,12,0,13,0,0,0,12,programmatic,issues,13 Reported rows not matched on the cited page; 12 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P6080A,25,13,12,0,13,0,0,0,12,programmatic,issues,13 Reported rows not matched on the cited page; 12 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P6092,25,9,16,0,9,0,0,0,16,programmatic,issues,9 Reported rows not matched on the cited page; 16 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P6093,25,7,18,0,7,0,0,0,18,programmatic,issues,7 Reported rows not matched on the cited page; 18 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P6213,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P6660,25,13,12,0,13,0,0,0,12,programmatic,issues,13 Reported rows not matched on the cited page; 12 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P6780,25,14,11,0,14,0,0,0,11,programmatic,issues,14 Reported rows not matched on the cited page; 11 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:P6800,25,13,12,0,13,0,0,0,12,programmatic,issues,13 Reported rows not matched on the cited page; 12 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:S1885,25,11,14,0,11,0,0,0,14,programmatic,issues,11 Reported rows not matched on the cited page; 14 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:S1889,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:S833,25,7,18,0,7,0,0,0,18,programmatic,issues,7 Reported rows not matched on the cited page; 18 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:S911,25,9,16,0,9,0,0,0,16,programmatic,issues,9 Reported rows not matched on the cited page; 16 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:SV150,14,0,14,0,0,0,0,0,14,programmatic,issues,14 Missing rows without an inspection note; no Reported row at all; programmatic extraction (not a reading review)
+INFINEUM:SV151,14,0,14,0,0,0,0,0,14,programmatic,issues,14 Missing rows without an inspection note; no Reported row at all; programmatic extraction (not a reading review)
+INFINEUM:SV200,14,0,14,0,0,0,0,0,14,programmatic,issues,14 Missing rows without an inspection note; no Reported row at all; programmatic extraction (not a reading review)
+INFINEUM:SV203,14,0,14,0,0,0,0,0,14,programmatic,issues,14 Missing rows without an inspection note; no Reported row at all; programmatic extraction (not a reading review)
+INFINEUM:SV260,14,0,14,0,0,0,0,0,14,programmatic,issues,14 Missing rows without an inspection note; no Reported row at all; programmatic extraction (not a reading review)
+INFINEUM:SV261,14,0,14,0,0,0,0,0,14,programmatic,issues,14 Missing rows without an inspection note; no Reported row at all; programmatic extraction (not a reading review)
+INFINEUM:SV261L,14,0,14,0,0,0,0,0,14,programmatic,issues,14 Missing rows without an inspection note; no Reported row at all; programmatic extraction (not a reading review)
+INFINEUM:SV603,14,0,14,0,0,0,0,0,14,programmatic,issues,14 Missing rows without an inspection note; no Reported row at all; programmatic extraction (not a reading review)
+INFINEUM:T4163,14,0,14,0,0,0,0,0,14,programmatic,issues,14 Missing rows without an inspection note; no Reported row at all; programmatic extraction (not a reading review)
+INFINEUM:T4180,25,5,20,0,5,0,0,0,20,programmatic,issues,5 Reported rows not matched on the cited page; 20 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:T4294,25,10,15,0,10,0,0,0,15,programmatic,issues,10 Reported rows not matched on the cited page; 15 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:T4311,25,8,17,0,8,0,0,0,17,programmatic,issues,8 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 17 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:T4318,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:T442,25,8,17,0,8,0,0,0,17,programmatic,issues,8 Reported rows not matched on the cited page; 17 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:T4520,25,9,16,0,9,0,0,0,16,programmatic,issues,9 Reported rows not matched on the cited page; 16 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:T4535,25,8,17,0,8,0,0,0,17,programmatic,issues,8 Reported rows not matched on the cited page; 17 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:T4537,25,8,17,0,8,0,0,0,17,programmatic,issues,8 Reported rows not matched on the cited page; 17 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:T4580,25,8,17,0,8,0,0,0,17,programmatic,issues,8 Reported rows not matched on the cited page; 17 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:T4762,25,9,16,0,9,0,0,0,16,programmatic,issues,9 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 16 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:T4856,25,10,15,0,10,0,0,0,15,programmatic,issues,10 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 15 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:T4888,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+INFINEUM:T4920,25,6,19,0,6,0,0,0,19,programmatic,issues,6 Reported rows not matched on the cited page; 19 Missing rows without an inspection note; programmatic extraction (not a reading review)
+KANGTAI:BDC010,19,9,10,9,0,0,0,10,0,read,pass,
+KANGTAI:BDC030,18,8,10,8,0,0,0,10,0,read,pass,
+KANGTAI:BDC300,18,8,10,8,0,0,0,10,0,read,pass,
+KANGTAI:BDC400,17,7,10,7,0,0,0,10,0,read,pass,
+KANGTAI:BDP250,18,8,10,8,0,0,0,10,0,read,pass,
+KANGTAI:J-0010,34,10,24,10,0,0,0,24,0,read,issues,1 numeric rows without unit
+KANGTAI:KR1300,19,6,13,6,0,0,0,13,0,read,pass,
+KANGTAI:KT30090,31,14,17,14,0,0,0,17,0,read,pass,
+KANGTAI:KT30100,29,16,13,16,0,0,0,13,0,read,pass,
+KANGTAI:KT3069,34,20,14,20,0,0,0,14,0,read,pass,
+KANGTAI:KT31048,30,17,13,16,1,0,0,13,0,read,issues,1 Reported rows not matched on the cited page
+KANGTAI:KT31050,30,18,12,17,1,0,0,12,0,read,issues,1 Reported rows not matched on the cited page
+KANGTAI:KT33070,29,13,16,13,0,0,0,16,0,read,pass,
+KANGTAI:KT33070A,29,13,16,13,0,0,0,16,0,read,pass,
+KANGTAI:KT3309,17,7,10,7,0,0,0,10,0,read,pass,
+KANGTAI:KT33133,41,26,15,26,0,0,0,15,0,read,pass,
+KANGTAI:KT33158,35,21,14,21,0,0,0,14,0,read,pass,
+KANGTAI:KT33160A,29,16,13,16,0,0,0,13,0,read,pass,
+KANGTAI:KT33161,41,27,14,27,0,0,0,11,3,read,issues,3 Missing rows without an inspection note
+KANGTAI:KT33162,33,19,14,19,0,0,0,14,0,read,pass,
+KANGTAI:KT33169,25,8,17,8,0,0,0,17,0,read,pass,
+KANGTAI:KT3321,21,11,10,11,0,0,0,10,0,read,pass,
+KANGTAI:KT33210,36,21,15,19,2,0,0,15,0,read,issues,2 Reported rows not matched on the cited page
+KANGTAI:KT3323,17,6,11,6,0,0,0,11,0,read,pass,
+KANGTAI:KT33232,41,25,16,24,1,0,0,16,0,read,issues,1 Reported rows not matched on the cited page
+KANGTAI:KT33303,27,9,18,9,0,0,0,18,0,read,pass,
+KANGTAI:KT33303A,30,15,15,15,0,0,0,15,0,read,pass,
+KANGTAI:KT620,34,11,23,10,1,0,0,23,0,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit
+KANGTAI:KT6613,31,8,23,8,0,0,0,23,0,read,issues,1 numeric rows without unit
+KANGTAI:KT6614,34,10,24,10,0,0,0,23,1,read,issues,1 numeric rows without unit; 1 Missing rows without an inspection note
+KANGTAI:KTD1351,19,9,10,9,0,0,0,10,0,read,pass,
+KANGTAI:KTD1354,19,9,10,9,0,0,0,10,0,read,pass,
+KANGTAI:KTD1354B,20,10,10,10,0,0,0,10,0,read,pass,
+KANGTAI:KTD1354E,19,9,10,9,0,0,0,10,0,read,issues,1 dose rows with unspecified % basis
+KANGTAI:KTZ2048,20,11,9,11,0,0,0,9,0,read,pass,
+KANGTAI:KTZ2080,20,10,10,10,0,0,0,10,0,read,pass,
+KANGTAI:KZZ2038,19,9,10,9,0,0,0,10,0,read,issues,1 numeric rows without unit
+KANGTAI:KZZ2081,19,9,10,9,0,0,0,10,0,read,pass,
+KINGINDUSTRIES:NA_LUBE_AO_142_I,23,13,10,13,0,0,0,10,0,read,pass,
+KINGINDUSTRIES:NA_LUBE_BL_1208,57,46,11,15,31,0,0,11,0,read,issues,31 Reported rows not matched on the cited page; 2 numeric rows without unit
+KINGINDUSTRIES:NA_SUL_BSN,42,34,8,34,0,0,0,8,0,read,issues,2 numeric rows without unit
+KRATON:G1750_V,23,12,11,11,1,0,0,11,0,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit
+KRATON:G1765,15,3,12,1,2,0,0,12,0,read,issues,2 Reported rows not matched on the cited page
+KUSA:KUNOX A8000,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+KUSA:KUNOX A9000,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+KUSA:KUSACRYL 2231,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+KUSA:KUSACRYL 785E,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+KUSA:KUSACRYL 835,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+KUSA:KUSACRYL V20,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+KUSA:KUSACRYL V40,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+KUSA:KUSAPOUR 26,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+KUSA:KUSAPOUR 2657,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+KUSA:KUSAPOUR 26D,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+KUSA:KUSAPOUR 30,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+KUSA:KUSAPOUR 3006,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+KUSA:KUSAPOUR IBP,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LANXESS:ADDITIN RC 2540,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LANXESS:ADDITIN RC 2541,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LANXESS:ADDITIN RC 3038,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LANXESS:ADDITIN RC 3502,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+LANXESS:ADDITIN RC 3661,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LANXESS:ADDITIN RC 3740,14,1,13,1,0,0,0,0,13,read,issues,1 dose rows with unspecified % basis; 13 Missing rows without an inspection note
+LANXESS:ADDITIN RC 3760,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LANXESS:ADDITIN RC 3770,14,1,13,1,0,0,0,0,13,read,issues,1 dose rows with unspecified % basis; 13 Missing rows without an inspection note
+LANXESS:ADDITIN RC 3775,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LANXESS:ADDITIN RC 4202,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LANXESS:ADDITIN RC 4203,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+LANXESS:ADDITIN RC 4242,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LANXESS:ADDITIN RC 4530,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LANXESS:ADDITIN RC 4801,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LANXESS:ADDITIN RC 4803,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LANXESS:ADDITIN RC 5001,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LANXESS:ADDITIN RC 6340,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LANXESS:ADDITIN RC 7001,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LANXESS:ADDITIN RC 7010,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LANXESS:ADDITIN RC 7130,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LANXESS:ADDITIN RC 7135 LD,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+LANXESS:ADDITIN RC 8210,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LANXESS:ADDITIN RC 8239,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LANXESS:ADDITIN RC 9200,25,3,22,1,2,0,0,0,22,read,issues,2 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+LANXESS:ADDITIN RC 9200 N,25,2,23,1,1,0,0,0,23,read,issues,1 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+LANXESS:ADDITIN RC 9207,25,2,23,1,1,0,0,0,23,read,issues,1 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+LANXESS:ADDITIN RC 9300,25,2,23,1,1,0,0,0,23,read,issues,1 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+LANXESS:ADDITIN RC 9305,25,2,23,1,1,0,0,0,23,read,issues,1 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+LANXESS:ADDITIN RC 9321,25,3,22,2,1,0,0,0,22,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 22 Missing rows without an inspection note
+LANXESS:ADDITIN RC 9321 D,25,2,23,1,1,0,0,0,23,read,issues,1 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+LANXESS:ADDITIN RC 9330,25,2,23,1,1,0,0,0,23,read,issues,1 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+LANXESS:ADDITIN RC 9410,25,2,23,1,1,0,0,0,23,read,issues,1 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+LANXESS:ADDITIN RC 9420,25,2,23,1,1,0,0,0,23,read,issues,1 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+LANXESS:ADDITIN RC 9502,25,0,25,0,0,0,0,0,25,read,issues,25 Missing rows without an inspection note; no Reported row at all
+LANXESS:ADDITIN RC 9506,25,1,24,1,0,0,0,0,24,read,issues,24 Missing rows without an inspection note
+LANXESS:ADDITIN RC 9710,25,1,24,1,0,0,0,0,24,read,issues,24 Missing rows without an inspection note
+LANXESS:ADDITIN RC 9720,25,2,23,1,1,0,0,0,23,read,issues,1 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+LANXESS:SYNTON PAO 100,8,4,4,0,4,0,0,0,4,read,issues,4 Reported rows not matched on the cited page; 4 Missing rows without an inspection note
+LANXESS:SYNTON PAO 40,8,2,6,0,2,0,0,0,6,read,issues,2 Reported rows not matched on the cited page; 6 Missing rows without an inspection note
+LUBIMAX:BASE OIL N100,8,4,4,4,0,0,0,0,4,read,issues,1 numeric rows without unit; 4 Missing rows without an inspection note
+LUBIMAX:BASE OIL N150,8,4,4,4,0,0,0,0,4,read,issues,1 numeric rows without unit; 4 Missing rows without an inspection note
+LUBIMAX:BASE OIL N70,8,2,6,0,2,0,0,0,6,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 6 Missing rows without an inspection note
+LUBIMAX:BASE OIL SN300,8,4,4,4,0,0,0,0,4,read,issues,1 numeric rows without unit; 4 Missing rows without an inspection note
+LUBIMAX:LUBIMAX 1604HT,25,10,15,9,1,0,0,0,15,read,issues,1 Reported rows not matched on the cited page; 15 Missing rows without an inspection note
+LUBIMAX:LUBIMAX 1606,25,12,13,10,2,0,0,0,13,read,issues,2 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+LUBIMAX:LUBIMAX 2547,14,2,12,0,2,0,0,0,12,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBIMAX:LUBIMAX 2548,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBIMAX:LUBIMAX 2571,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBIMAX:LUBIMAX 411K,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LUBIMAX:LUBIMAX 411M,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+LUBIMAX:LUBIMAX 412M,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+LUBIMAX:LUBIMAX 4513S,14,2,12,0,2,0,0,0,12,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBIMAX:LUBIMAX 4528S,14,2,12,0,2,0,0,0,12,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBIMAX:LUBIMAX 4529S,14,2,12,0,2,0,0,0,12,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBIMAX:LUBIMAX 4538S,14,2,12,0,2,0,0,0,12,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBIMAX:LUBIMAX 4550S,14,2,12,0,2,0,0,0,12,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBIMAX:LUBIMAX 5522,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+LUBIMAX:LUBIMAX 5524,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+LUBIMAX:LUBIMAX AW 1710,14,3,11,3,0,0,0,0,11,read,issues,1 dose rows with unspecified % basis; 11 Missing rows without an inspection note
+LUBIMAX:LUBIMAX AW 1720,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LUBIMAX:LUBIMAX DS 1045P,14,3,11,3,0,0,0,0,11,read,issues,1 dose rows with unspecified % basis; 11 Missing rows without an inspection note
+LUBIMAX:LUBIMAX DS 2040P,14,3,11,3,0,0,0,0,11,read,issues,1 dose rows with unspecified % basis; 11 Missing rows without an inspection note
+LUBIMAX:LUBIMAX HY 564,25,8,17,5,3,0,0,0,17,read,issues,3 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 17 Missing rows without an inspection note
+LUBIMAX:LUBIMAX LN 15,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+LUBIMAX:LUBIMAX P10-17,8,5,3,4,1,0,0,0,3,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 3 Missing rows without an inspection note
+LUBIMAX:LUBIMAX P135L,8,3,5,3,0,0,0,0,5,read,issues,1 numeric rows without unit; 5 Missing rows without an inspection note
+LUBIMAX:LUBIMAX P2-16,8,3,5,2,1,0,0,0,5,read,issues,1 Reported rows not matched on the cited page; 5 Missing rows without an inspection note
+LUBIMAX:LUBIMAX P4-16,8,4,4,3,1,0,0,0,4,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 4 Missing rows without an inspection note
+LUBIMAX:LUBIMAX P50L,8,3,5,3,0,0,0,0,5,read,issues,1 numeric rows without unit; 5 Missing rows without an inspection note
+LUBIMAX:LUBIMAX P6-16,8,4,4,3,1,0,0,0,4,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 4 Missing rows without an inspection note
+LUBIMAX:LUBIMAX P8-16,8,4,4,3,1,0,0,0,4,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 4 Missing rows without an inspection note
+LUBIMAX:XONOX L 57,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 13 Missing rows without an inspection note
+LUBRIZOL:1038,25,4,21,0,4,0,0,0,21,read,issues,4 Reported rows not matched on the cited page; 21 Missing rows without an inspection note
+LUBRIZOL:1038U,25,5,20,0,5,0,1,0,20,read,issues,5 Reported rows not matched on the cited page; 1 SDS rows in element fields; 20 Missing rows without an inspection note
+LUBRIZOL:1047U,25,11,14,0,11,0,0,0,14,read,issues,11 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 14 Missing rows without an inspection note
+LUBRIZOL:16005,25,3,22,0,3,0,0,0,22,read,issues,3 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+LUBRIZOL:16010L,25,3,22,0,3,0,0,0,22,read,issues,3 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+LUBRIZOL:16011L,25,7,18,5,2,0,0,0,18,read,issues,2 Reported rows not matched on the cited page; 18 Missing rows without an inspection note
+LUBRIZOL:20001,25,16,9,14,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 9 Missing rows without an inspection note
+LUBRIZOL:20015,25,15,10,11,4,0,0,0,10,read,issues,4 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 10 Missing rows without an inspection note
+LUBRIZOL:21100,25,3,22,0,3,0,0,0,22,read,issues,3 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+LUBRIZOL:21102,25,3,22,2,1,0,0,0,22,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 22 Missing rows without an inspection note
+LUBRIZOL:40074,25,14,11,11,3,0,0,0,11,read,issues,3 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 11 Missing rows without an inspection note
+LUBRIZOL:5060,25,13,12,11,2,0,0,0,12,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBRIZOL:5158,25,3,22,0,3,0,0,0,22,read,issues,3 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+LUBRIZOL:5162,25,3,22,1,2,0,0,0,22,read,issues,2 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+LUBRIZOL:5172,25,4,21,0,4,0,0,0,21,read,issues,4 Reported rows not matched on the cited page; 21 Missing rows without an inspection note
+LUBRIZOL:5178J,25,13,12,9,4,0,0,0,12,read,issues,4 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBRIZOL:5220,25,4,21,0,4,0,0,0,21,read,issues,4 Reported rows not matched on the cited page; 21 Missing rows without an inspection note
+LUBRIZOL:5235,25,0,25,0,0,0,0,0,25,read,issues,25 Missing rows without an inspection note; no Reported row at all
+LUBRIZOL:5370C,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBRIZOL:5686EL,25,3,22,0,3,0,0,0,22,read,issues,3 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 22 Missing rows without an inspection note
+LUBRIZOL:5703,25,2,23,0,2,0,0,0,23,read,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+LUBRIZOL:5720A,25,14,11,12,2,0,0,0,11,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 11 Missing rows without an inspection note
+LUBRIZOL:5731,25,4,21,0,4,0,0,0,21,read,issues,4 Reported rows not matched on the cited page; 21 Missing rows without an inspection note
+LUBRIZOL:5810,25,10,15,6,4,0,0,0,15,read,issues,4 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 15 Missing rows without an inspection note
+LUBRIZOL:5941A,25,1,24,1,0,0,0,0,24,read,issues,1 dose rows with unspecified % basis; 24 Missing rows without an inspection note
+LUBRIZOL:6178,25,10,15,9,1,0,0,0,15,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 15 Missing rows without an inspection note
+LUBRIZOL:6200AG,25,14,11,6,8,0,0,0,11,read,issues,8 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 11 Missing rows without an inspection note
+LUBRIZOL:6446,25,4,21,0,4,0,0,0,21,read,issues,4 Reported rows not matched on the cited page; 21 Missing rows without an inspection note
+LUBRIZOL:6477C,25,4,21,0,4,0,0,0,21,read,issues,4 Reported rows not matched on the cited page; 21 Missing rows without an inspection note
+LUBRIZOL:6885A,25,13,12,8,5,0,0,0,12,read,issues,5 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBRIZOL:6950J,25,16,9,2,14,0,0,0,9,read,issues,14 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 9 Missing rows without an inspection note
+LUBRIZOL:7067C,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LUBRIZOL:7077,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LUBRIZOL:7652A,25,3,22,3,0,0,0,0,22,read,issues,1 dose rows with unspecified % basis; 22 Missing rows without an inspection note
+LUBRIZOL:8676,14,2,12,2,0,0,0,0,12,read,issues,1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBRIZOL:888,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LUBRIZOL:889D,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LUBRIZOL:9297,25,13,12,11,2,0,0,0,12,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBRIZOL:9684,25,3,22,1,2,0,0,0,22,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 22 Missing rows without an inspection note
+LUBRIZOL:9990A,25,15,10,1,14,0,0,0,10,read,issues,14 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 10 Missing rows without an inspection note
+LUBRIZOL:AH31NA,25,3,22,0,3,0,0,0,22,read,issues,3 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 22 Missing rows without an inspection note
+LUBRIZOL:ANGLAMOL 6043,25,3,22,0,3,0,0,0,22,read,issues,3 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+LUBRIZOL:ANGLAMOL GO3010,25,4,21,0,4,0,0,0,21,read,issues,4 Reported rows not matched on the cited page; 21 Missing rows without an inspection note
+LUBRIZOL:AT1112,25,3,22,3,0,0,0,0,22,read,issues,1 dose rows with unspecified % basis; 22 Missing rows without an inspection note
+LUBRIZOL:AT3112,25,3,22,2,1,0,0,0,22,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 22 Missing rows without an inspection note
+LUBRIZOL:AT9231,25,2,23,0,2,0,0,0,23,read,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+LUBRIZOL:CV2330,25,14,11,12,2,0,0,0,11,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 11 Missing rows without an inspection note
+LUBRIZOL:CV2602,25,15,10,13,2,0,0,0,10,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 10 Missing rows without an inspection note
+LUBRIZOL:CV2603,25,4,21,2,2,0,0,0,21,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 21 Missing rows without an inspection note
+LUBRIZOL:CV6530,25,13,12,12,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBRIZOL:CV9660,25,4,21,2,2,0,0,0,21,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 21 Missing rows without an inspection note
+LUBRIZOL:CVT10,25,12,13,12,0,0,0,0,13,read,issues,1 numeric rows without unit; 1 dose rows with unspecified % basis; 13 Missing rows without an inspection note
+LUBRIZOL:CVT16,25,13,12,12,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 12 Missing rows without an inspection note
+LUBRIZOL:EVOGEN 5191SA,25,0,25,0,0,0,0,0,25,read,issues,25 Missing rows without an inspection note; no Reported row at all
+LUBRIZOL:GR9540,25,3,22,0,3,0,0,0,22,read,issues,3 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+LUBRIZOL:IG93MA,25,14,11,7,7,0,0,0,11,read,issues,7 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 11 Missing rows without an inspection note
+LUBRIZOL:IG93MB,25,3,22,2,1,0,0,0,22,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 22 Missing rows without an inspection note
+LUBRIZOL:JILIN J0010,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LUBRIZOL:OH9232,25,3,22,2,1,0,0,0,22,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 22 Missing rows without an inspection note
+LUBRIZOL:PV1066,25,16,9,14,2,0,0,0,9,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 9 Missing rows without an inspection note
+LUBRIZOL:PV1119,25,0,25,0,0,0,0,0,25,read,issues,25 Missing rows without an inspection note; no Reported row at all
+LUBRIZOL:PV1510,25,3,22,2,1,0,0,0,22,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 22 Missing rows without an inspection note
+LUBRIZOL:PV7053,25,17,8,15,2,0,0,0,8,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 8 Missing rows without an inspection note
+LUBRIZOL:PV9181,25,3,22,2,1,0,0,0,22,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 22 Missing rows without an inspection note
+LUBRIZOL:RO93LA,25,11,14,8,3,0,0,0,14,read,issues,3 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 14 Missing rows without an inspection note
+LUBRIZOL:RO94HA,25,12,13,2,10,0,0,0,13,read,issues,10 Reported rows not matched on the cited page; 1 numeric rows without unit; 1 dose rows with unspecified % basis; 13 Missing rows without an inspection note
+LUBRIZOL:SCHERCOZOLINE O,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+LUBRIZOL:SG9L01,25,15,10,8,7,0,0,0,10,read,issues,7 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 10 Missing rows without an inspection note
+LUBRIZOL:SG9L20,25,3,22,3,0,0,0,0,22,read,issues,1 dose rows with unspecified % basis; 22 Missing rows without an inspection note
+MINGLAN:T106D_SUP_HIGH_TBN_CA_SUL,18,9,9,9,0,0,0,9,0,read,pass,
+MINGYUE:MY-P3065,25,7,18,7,0,0,0,0,18,read,issues,1 dose rows with unspecified % basis; 18 Missing rows without an inspection note
+MINGYUE:MY-T104,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+MINGYUE:MY-T105,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+MINGYUE:MY-T106A,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 12 Missing rows without an inspection note
+MINGYUE:MY-T106D,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 12 Missing rows without an inspection note
+MINGYUE:MY-T107,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+MINGYUE:MY-T150,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+MINGYUE:MY-T151A,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+MINGYUE:MY-T151B,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+MINGYUE:MY-T153,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+MINGYUE:MY-T154A,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+MINGYUE:MY-T154B,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+MINGYUE:MY-T160,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+MINGYUE:MY-T161A,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+MINGYUE:MY-T161B,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+MINGYUE:MY-T161P,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+MINGYUE:MY-T162,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+MINGYUE:MY-T168,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+MINGYUE:MY-T205,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+MULTISOL:NOVAD B700,25,12,13,11,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+OCEANCHEMICAL:HC6247,20,10,10,9,1,0,0,10,0,read,issues,1 Reported rows not matched on the cited page; 3 numeric rows without unit
+OCEAN_CHEM:P8401_PPD,18,9,9,8,1,0,0,9,0,read,issues,1 Reported rows not matched on the cited page
+ORONITE:OLOA 1255C,25,8,17,7,1,0,0,0,17,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 17 Missing rows without an inspection note
+ORONITE:OLOA 1255Z,25,8,17,7,1,0,0,0,17,read,issues,1 Reported rows not matched on the cited page; 17 Missing rows without an inspection note
+ORONITE:OLOA 2000,25,0,25,0,0,0,0,0,25,read,issues,25 Missing rows without an inspection note; no Reported row at all
+ORONITE:OLOA 21020A,25,3,22,0,3,0,0,0,22,read,issues,3 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+ORONITE:OLOA 21030A,25,0,25,0,0,0,0,0,25,read,issues,25 Missing rows without an inspection note; no Reported row at all
+ORONITE:OLOA 219,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+ORONITE:OLOA 249SX,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+ORONITE:OLOA 26008A,25,1,24,0,1,0,0,0,24,read,issues,1 Reported rows not matched on the cited page; 24 Missing rows without an inspection note
+ORONITE:OLOA 262,14,3,11,2,1,0,0,0,11,read,issues,1 Reported rows not matched on the cited page; 11 Missing rows without an inspection note
+ORONITE:OLOA 340R,25,0,25,0,0,0,0,0,25,read,issues,25 Missing rows without an inspection note; no Reported row at all
+ORONITE:OLOA 40000,25,3,22,0,3,0,0,0,22,read,issues,3 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+ORONITE:OLOA 44502,25,9,16,7,2,0,0,0,16,read,issues,2 Reported rows not matched on the cited page; 16 Missing rows without an inspection note
+ORONITE:OLOA 44506,25,8,17,7,1,0,0,0,17,read,issues,1 Reported rows not matched on the cited page; 17 Missing rows without an inspection note
+ORONITE:OLOA 44507,25,7,18,6,1,0,0,0,18,read,issues,1 Reported rows not matched on the cited page; 18 Missing rows without an inspection note
+ORONITE:OLOA 45400,25,2,23,0,2,0,0,0,23,read,issues,2 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 23 Missing rows without an inspection note
+ORONITE:OLOA 45400E,25,13,12,10,3,0,0,0,12,read,issues,3 Reported rows not matched on the cited page; 12 Missing rows without an inspection note
+ORONITE:OLOA 45401,25,8,17,7,1,0,0,0,17,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 17 Missing rows without an inspection note
+ORONITE:OLOA 46800,25,1,24,0,1,0,0,0,24,read,issues,1 Reported rows not matched on the cited page; 24 Missing rows without an inspection note
+ORONITE:OLOA 48021,25,1,24,0,1,0,0,0,24,read,issues,1 Reported rows not matched on the cited page; 24 Missing rows without an inspection note
+ORONITE:OLOA 49805,25,1,24,0,1,0,0,0,24,read,issues,1 Reported rows not matched on the cited page; 24 Missing rows without an inspection note
+ORONITE:OLOA 49815,25,6,19,6,0,0,0,0,19,read,issues,19 Missing rows without an inspection note
+ORONITE:OLOA 49827,25,1,24,0,1,0,0,0,24,read,issues,1 Reported rows not matched on the cited page; 24 Missing rows without an inspection note
+ORONITE:OLOA 49835,25,2,23,0,2,0,0,0,23,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 23 Missing rows without an inspection note
+ORONITE:OLOA 50704,25,1,24,0,1,0,0,0,24,read,issues,1 Reported rows not matched on the cited page; 24 Missing rows without an inspection note
+ORONITE:OLOA 54000,25,3,22,1,2,0,0,0,22,read,issues,2 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+ORONITE:OLOA 54013,25,3,22,1,2,0,0,0,22,read,issues,2 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+ORONITE:OLOA 54050,25,11,14,10,1,0,0,0,14,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 14 Missing rows without an inspection note
+ORONITE:OLOA 54100,25,3,22,1,2,0,0,0,22,read,issues,2 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+ORONITE:OLOA 54120,25,3,22,1,2,0,0,0,22,read,issues,2 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+ORONITE:OLOA 54499,25,10,15,8,2,0,0,0,15,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 15 Missing rows without an inspection note
+ORONITE:OLOA 54500,25,0,25,0,0,0,0,0,25,read,issues,25 Missing rows without an inspection note; no Reported row at all
+ORONITE:OLOA 54510,25,10,15,8,2,0,0,0,15,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit; 15 Missing rows without an inspection note
+ORONITE:OLOA 54530,25,0,25,0,0,0,0,0,25,read,issues,25 Missing rows without an inspection note; no Reported row at all
+ORONITE:OLOA 55501,25,2,23,0,2,0,0,0,23,read,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+ORONITE:OLOA 55516,25,10,15,1,9,0,0,0,15,read,issues,9 Reported rows not matched on the cited page; 15 Missing rows without an inspection note
+ORONITE:OLOA 55517,25,10,15,1,9,0,0,0,15,read,issues,9 Reported rows not matched on the cited page; 15 Missing rows without an inspection note
+ORONITE:OLOA 55603,25,4,21,3,1,0,0,0,21,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 21 Missing rows without an inspection note
+ORONITE:OLOA 59094,25,4,21,0,4,0,0,0,21,read,issues,4 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 21 Missing rows without an inspection note
+ORONITE:OLOA 59110,25,2,23,0,2,0,0,0,23,read,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+ORONITE:OLOA 59112,25,12,13,11,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 13 Missing rows without an inspection note
+ORONITE:OLOA 59194,25,4,21,0,4,0,0,0,21,read,issues,4 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis; 21 Missing rows without an inspection note
+ORONITE:OLOA 59211,25,11,14,7,4,0,0,0,14,read,issues,4 Reported rows not matched on the cited page; 14 Missing rows without an inspection note
+ORONITE:OLOA 59762,25,3,22,0,3,0,0,0,22,read,issues,3 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+ORONITE:OLOA 59767,25,3,22,0,3,0,0,0,22,read,issues,3 Reported rows not matched on the cited page; 22 Missing rows without an inspection note
+ORONITE:OLOA 59770,25,1,24,0,1,0,0,0,24,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 24 Missing rows without an inspection note
+ORONITE:OLOA 59940,25,2,23,0,2,0,0,0,23,read,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+ORONITE:OLOA 61005,25,11,14,8,3,0,0,0,14,read,issues,3 Reported rows not matched on the cited page; 14 Missing rows without an inspection note
+ORONITE:OLOA 61011,25,13,12,5,8,0,0,0,12,read,issues,8 Reported rows not matched on the cited page; 12 Missing rows without an inspection note
+ORONITE:OLOA 61105,25,2,23,0,2,0,0,0,23,read,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+ORONITE:OLOA 61106,25,2,23,0,2,0,0,0,23,read,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+ORONITE:OLOA 61107,25,2,23,0,2,0,0,0,23,read,issues,2 Reported rows not matched on the cited page; 23 Missing rows without an inspection note
+ORONITE:OLOA 67250,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+ORONITE:OLOA 8888,25,0,25,0,0,0,0,0,25,read,issues,25 Missing rows without an inspection note; no Reported row at all
+ORONITE:OLOA 9362,25,6,19,6,0,0,0,0,19,read,issues,1 numeric rows without unit; 19 Missing rows without an inspection note
+ORONITE:OLOA 9725AXV,25,4,21,3,1,0,0,0,21,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit; 21 Missing rows without an inspection note
+ORONITE:OLOA 9725XV,25,5,20,4,1,0,0,0,20,read,issues,1 Reported rows not matched on the cited page; 20 Missing rows without an inspection note
+ORONITE:OLOA 9999,25,9,16,0,9,0,0,0,16,read,issues,9 Reported rows not matched on the cited page; 16 Missing rows without an inspection note
+ORONITE:PARATONE 8059,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+RICHFUL:RF1035,15,3,12,3,0,0,0,12,0,programmatic,issues,2 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1065,19,9,10,9,0,0,0,10,0,programmatic,issues,2 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1103,19,9,10,9,0,0,0,10,0,programmatic,issues,2 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1104,21,10,11,10,0,0,0,11,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1105,21,10,11,10,0,0,0,11,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1106,21,10,11,10,0,0,0,11,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1106B,14,1,13,1,0,0,0,13,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1106D,21,10,11,10,0,0,0,11,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1106E,19,8,11,8,0,0,0,11,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1107,19,8,11,8,0,0,0,11,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1109B,17,6,11,6,0,0,0,11,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1109C,17,6,11,6,0,0,0,11,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1109D,17,6,11,6,0,0,0,11,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1121,19,8,11,8,0,0,0,11,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1122,21,10,11,10,0,0,0,11,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1123,21,9,12,9,0,0,0,12,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1135,18,5,13,5,0,0,0,13,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1151,17,6,11,4,2,0,0,11,0,programmatic,issues,2 Reported rows not matched on the cited page; 2 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1154,17,5,12,5,0,0,0,12,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1154A,17,5,12,5,0,0,0,12,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1154B,16,4,12,4,0,0,0,12,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1154D-3,17,5,12,5,0,0,0,12,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1161,17,6,11,6,0,0,0,11,0,programmatic,issues,2 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1161B,17,5,12,5,0,0,0,12,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1161H,17,6,11,6,0,0,0,11,0,programmatic,issues,2 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF1177,25,13,12,12,1,0,0,12,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF2202,20,11,9,11,0,0,0,9,0,programmatic,issues,3 value-form inconsistencies; 1 numeric rows without unit; 1 dose rows with unspecified % basis; programmatic extraction (not a reading review)
+RICHFUL:RF2202A,17,7,10,7,0,0,0,10,0,programmatic,issues,2 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF2203,19,10,9,10,0,0,0,9,0,programmatic,issues,3 value-form inconsistencies; 1 numeric rows without unit; 1 dose rows with unspecified % basis; programmatic extraction (not a reading review)
+RICHFUL:RF2204,19,10,9,10,0,0,0,9,0,programmatic,issues,3 value-form inconsistencies; 1 numeric rows without unit; 1 dose rows with unspecified % basis; programmatic extraction (not a reading review)
+RICHFUL:RF2204B,18,8,10,8,0,0,0,10,0,programmatic,issues,2 value-form inconsistencies; 1 numeric rows without unit; programmatic extraction (not a reading review)
+RICHFUL:RF2205,19,10,9,10,0,0,0,9,0,programmatic,issues,3 value-form inconsistencies; 1 numeric rows without unit; 1 dose rows with unspecified % basis; programmatic extraction (not a reading review)
+RICHFUL:RF2206,19,10,9,10,0,0,0,9,0,programmatic,issues,3 value-form inconsistencies; 1 numeric rows without unit; 1 dose rows with unspecified % basis; programmatic extraction (not a reading review)
+RICHFUL:RF2209,15,3,12,3,0,0,0,12,0,programmatic,issues,2 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF2214,16,6,10,2,4,0,2,10,0,programmatic,issues,4 Reported rows not matched on the cited page; 2 SDS rows in element fields; 2 value-form inconsistencies; 1 numeric rows without unit; programmatic extraction (not a reading review)
+RICHFUL:RF2215,14,0,14,0,0,0,0,14,0,programmatic,issues,no Reported row at all; programmatic extraction (not a reading review)
+RICHFUL:RF2222,14,2,12,2,0,0,0,12,0,programmatic,issues,2 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF3323,18,5,13,5,0,0,0,13,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF3360,25,10,15,9,1,0,0,15,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; 1 dose rows with unspecified % basis; programmatic extraction (not a reading review)
+RICHFUL:RF4015,25,8,17,6,2,0,0,17,0,programmatic,issues,2 Reported rows not matched on the cited page; 4 value-form inconsistencies; 1 dose rows with unspecified % basis; programmatic extraction (not a reading review)
+RICHFUL:RF4022,25,9,16,7,2,0,0,16,0,programmatic,issues,2 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF4202,29,14,15,12,2,0,0,15,0,programmatic,issues,2 Reported rows not matched on the cited page; 5 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF4203,25,3,22,2,1,0,0,22,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF4208,30,14,16,13,1,0,0,16,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF4408,18,7,11,7,0,0,0,11,0,programmatic,issues,2 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF5012,29,14,15,12,2,0,0,15,0,programmatic,issues,2 Reported rows not matched on the cited page; 5 value-form inconsistencies; 1 dose rows with unspecified % basis; programmatic extraction (not a reading review)
+RICHFUL:RF5013,25,4,21,2,2,0,0,21,0,programmatic,issues,2 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF5022,29,12,17,11,1,0,0,17,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF5057,14,0,14,0,0,0,0,14,0,programmatic,issues,no Reported row at all; programmatic extraction (not a reading review)
+RICHFUL:RF5067,18,7,11,7,0,0,0,11,0,programmatic,issues,2 value-form inconsistencies; 1 dose rows with unspecified % basis; programmatic extraction (not a reading review)
+RICHFUL:RF6033,25,10,15,9,1,0,0,15,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6042,25,11,14,10,1,0,0,14,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6044,25,11,14,10,1,0,0,14,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6061,25,12,13,11,1,0,0,13,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6062,25,13,12,12,1,0,0,12,0,programmatic,issues,1 Reported rows not matched on the cited page; 5 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6067,32,19,13,18,1,0,0,13,0,programmatic,issues,1 Reported rows not matched on the cited page; 5 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6123,34,23,11,21,2,0,0,11,0,programmatic,issues,2 Reported rows not matched on the cited page; 5 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6125,25,3,22,2,1,0,0,22,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6133,32,17,15,16,1,0,0,15,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6141,25,13,12,12,1,0,0,12,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6152,25,13,12,12,1,0,0,12,0,programmatic,issues,1 Reported rows not matched on the cited page; 5 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6162,25,13,12,12,1,0,0,12,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6163,31,15,16,14,1,0,0,16,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6164,32,19,13,18,1,0,0,13,0,programmatic,issues,1 Reported rows not matched on the cited page; 5 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6170,25,11,14,10,1,0,0,14,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6173,25,12,13,11,1,0,0,13,0,programmatic,issues,1 Reported rows not matched on the cited page; 5 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6175,34,23,11,22,1,0,0,11,0,programmatic,issues,1 Reported rows not matched on the cited page; 5 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6175S,34,22,12,21,1,0,0,12,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6179,25,3,22,2,1,0,0,22,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6188,35,24,11,23,1,0,0,11,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6189,33,21,12,20,1,0,0,12,0,programmatic,issues,1 Reported rows not matched on the cited page; 5 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6204,31,15,16,14,1,0,0,16,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6206M,31,15,16,14,1,0,0,16,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6206S,31,16,15,15,1,0,0,15,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6208,31,15,16,14,1,0,0,16,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6212,25,11,14,10,1,0,0,14,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6214,31,15,16,14,1,0,0,16,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6302,25,11,14,10,1,0,0,14,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6312,25,8,17,7,1,0,0,17,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; 1 dose rows with unspecified % basis; programmatic extraction (not a reading review)
+RICHFUL:RF6316H,25,7,18,6,1,0,0,18,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6326,25,10,15,9,1,0,0,15,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6331,25,10,15,9,1,0,0,15,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6332,25,10,15,9,1,0,0,15,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6340,25,8,17,7,1,0,0,17,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6341A,25,13,12,12,1,0,0,12,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6500,34,22,12,21,1,0,0,12,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF6508,32,19,13,18,1,0,0,13,0,programmatic,issues,1 Reported rows not matched on the cited page; 5 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF7001,25,5,20,4,1,0,0,20,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF7002,25,4,21,2,2,0,0,21,0,programmatic,issues,2 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF7003,25,4,21,3,1,0,0,21,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF7004,25,5,20,4,1,0,0,20,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF7008,25,4,21,3,1,0,0,21,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF7041,25,5,20,4,1,0,0,20,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF7101,25,7,18,6,1,0,0,18,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; 1 dose rows with unspecified % basis; programmatic extraction (not a reading review)
+RICHFUL:RF7102,25,6,19,5,1,0,0,19,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; 1 dose rows with unspecified % basis; programmatic extraction (not a reading review)
+RICHFUL:RF7230,25,4,21,3,1,0,0,21,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF7231,25,4,21,3,1,0,0,21,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF7232,25,4,21,3,1,0,0,21,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF7601,28,10,18,9,1,0,0,18,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF7602,31,16,15,15,1,0,0,15,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF7708R,25,6,19,5,1,0,0,19,0,programmatic,issues,1 Reported rows not matched on the cited page; 4 value-form inconsistencies; 1 dose rows with unspecified % basis; programmatic extraction (not a reading review)
+RICHFUL:RF7801,27,9,18,8,1,0,0,18,0,programmatic,issues,1 Reported rows not matched on the cited page; 5 value-form inconsistencies; 1 dose rows with unspecified % basis; programmatic extraction (not a reading review)
+RICHFUL:RF7811,25,6,19,5,1,0,0,19,0,programmatic,issues,1 Reported rows not matched on the cited page; 3 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF7811X,25,6,19,5,1,0,0,19,0,programmatic,issues,1 Reported rows not matched on the cited page; 2 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF7974,16,6,10,6,0,0,0,10,0,programmatic,issues,1 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF8236,27,5,22,5,0,0,0,22,0,programmatic,issues,2 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF8248,26,4,22,4,0,0,0,22,0,programmatic,issues,2 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:RF9006,14,2,12,2,0,0,0,12,0,programmatic,issues,2 value-form inconsistencies; programmatic extraction (not a reading review)
+RICHFUL:T900 SILICON FLUID,14,0,14,0,0,0,0,14,0,programmatic,issues,no Reported row at all; programmatic extraction (not a reading review)
+SIGROUP:ETHAFLOW_6705,19,11,8,9,2,0,0,8,0,read,issues,2 Reported rows not matched on the cited page
+SIGROUP:ETHANOX_4703,18,9,9,8,1,0,0,9,0,read,issues,1 Reported rows not matched on the cited page; 1 value-form inconsistencies; 1 numeric rows without unit
+SK:YUBASE_4P,16,4,12,4,0,0,0,11,1,read,issues,1 numeric rows without unit; 1 Missing rows without an inspection note
+SONGWON:SONGNOX_L107,19,8,11,8,0,0,0,10,1,read,issues,1 Missing rows without an inspection note
+SONGWON:SONGNOX_L135,26,16,10,15,1,0,0,9,1,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit; 1 Missing rows without an inspection note
+SONGWON:SONGNOX_L570,26,16,10,14,2,0,0,9,1,read,issues,2 Reported rows not matched on the cited page; 3 numeric rows without unit; 1 Missing rows without an inspection note
+SONGWON:SONGNOX_L670,20,9,11,9,0,0,0,10,1,read,issues,1 numeric rows without unit; 1 Missing rows without an inspection note
+TANEE:TE_598,20,12,8,11,1,0,0,8,0,read,issues,1 Reported rows not matched on the cited page; 1 dose rows with unspecified % basis
+TIANHE:C_TEC_104A,19,10,9,10,0,0,0,9,0,read,issues,1 dose rows with unspecified % basis
+TIANHE:C_TEC_151A,19,9,10,9,0,0,0,10,0,read,issues,1 dose rows with unspecified % basis
+TIANHE:C_TEC_206,19,11,8,9,2,0,0,8,0,read,issues,2 Reported rows not matched on the cited page; 1 numeric rows without unit
+TIANHE:C_TEC_209,19,10,9,9,1,0,0,9,0,read,issues,1 Reported rows not matched on the cited page; 1 numeric rows without unit
+TIANHE:P_TEC_3234,25,11,14,9,2,0,0,14,0,read,issues,2 Reported rows not matched on the cited page
+TIANHE:P_TEC_9100,32,20,12,16,4,0,0,12,0,read,issues,4 Reported rows not matched on the cited page
+TOHOLCHEM:LUBRAN_141,18,8,10,8,0,0,0,10,0,read,pass,
+TOHOLCHEM:LUBRAN_165,18,8,10,8,0,0,0,10,0,read,pass,
+TOHOLCHEM:LUBRAN_171,18,8,10,8,0,0,0,10,0,read,pass,
+TOHO_CHEM:LUBRAN_VI_870,17,8,9,5,3,0,0,9,0,read,issues,3 Reported rows not matched on the cited page
+TURKMENBASHY:SN1200,21,11,10,10,1,0,0,10,0,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit
+TURKMENBASHY:SN180,21,11,10,10,1,0,0,10,0,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit
+TURKMENBASHY:SN350,21,11,10,10,1,0,0,10,0,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit
+TURKMENBASHY:SN600,21,11,10,10,1,0,0,10,0,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit
+TURKMENBASHY:SN80,21,11,10,10,1,0,0,10,0,read,issues,1 Reported rows not matched on the cited page; 2 numeric rows without unit
+VANDERBILT:BUTYLATED HYDROXY TOLUENE TECH GRADE,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+VANDERBILT:MOLYVAN 3000,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+VANDERBILT:MOLYVAN 807,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 12 Missing rows without an inspection note
+VANDERBILT:MOLYVAN 822,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 12 Missing rows without an inspection note
+VANDERBILT:MOLYVAN 855,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+VANDERBILT:MOLYVAN FEI PLUS,14,3,11,0,3,0,0,0,11,read,issues,3 Reported rows not matched on the cited page; 11 Missing rows without an inspection note
+VANDERBILT:MOLYVAN L,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 12 Missing rows without an inspection note
+VANDERBILT:VANLUBE 0401,14,2,12,2,0,0,2,0,12,read,issues,2 SDS rows in element fields; 12 Missing rows without an inspection note
+VANDERBILT:VANLUBE 1202,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+VANDERBILT:VANLUBE 289,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+VANDERBILT:VANLUBE 289HD,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+VANDERBILT:VANLUBE 672E,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+VANDERBILT:VANLUBE 692,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+VANDERBILT:VANLUBE 727,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 12 Missing rows without an inspection note
+VANDERBILT:VANLUBE 73,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+VANDERBILT:VANLUBE 7611M,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+VANDERBILT:VANLUBE 7723,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+VANDERBILT:VANLUBE 871,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+VANDERBILT:VANLUBE 887,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+VANDERBILT:VANLUBE 887 FG,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+VANDERBILT:VANLUBE 887E,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+VANDERBILT:VANLUBE AZ,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 12 Missing rows without an inspection note
+VANDERBILT:VANLUBE NA,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+VANDERBILT:VANLUBE SB,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+VANDERBILT:VANLUBE W-324,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+WUXI:S206,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+WUXI:S206C,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+WUXI:T101,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+WUXI:T104B,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+WUXI:T105,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+WUXI:T106B,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+WUXI:T121,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+WUXI:T154A,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+WUXI:T161,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+WUXI:T162,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+WUXI:T202,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+WUXI:T203,14,3,11,2,1,0,0,0,11,read,issues,1 Reported rows not matched on the cited page; 11 Missing rows without an inspection note
+WUXI:T205,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+WUXI:T747,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+WUXI:WX109C,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+WUXI:WX3130,25,8,17,8,0,0,0,0,17,read,issues,17 Missing rows without an inspection note
+WUXI:WX3212,25,11,14,8,3,0,0,0,14,read,issues,3 Reported rows not matched on the cited page; 14 Missing rows without an inspection note
+WUXI:WX3316,25,11,14,9,2,0,0,0,14,read,issues,2 Reported rows not matched on the cited page; 14 Missing rows without an inspection note
+WUXI:WX400,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+WUXI:WX8057,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+WUXI:WX8135,14,1,13,1,0,0,0,0,13,read,issues,13 Missing rows without an inspection note
+XINXING:L557,14,3,11,3,0,0,0,0,11,read,issues,1 dose rows with unspecified % basis; 11 Missing rows without an inspection note
+XINXING:T-106,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+XINXING:T-106A,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+XINXING:T-106D,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+XINXING:T-115B,14,3,11,2,1,0,0,0,11,read,issues,1 Reported rows not matched on the cited page; 11 Missing rows without an inspection note
+XINXING:T-154,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+XINXING:T-154B,14,2,12,1,1,0,0,0,12,read,issues,1 Reported rows not matched on the cited page; 12 Missing rows without an inspection note
+XINXING:T-155,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+XINXING:T-161,14,1,13,0,1,0,0,0,13,read,issues,1 Reported rows not matched on the cited page; 13 Missing rows without an inspection note
+XINXING:T-161A,14,0,14,0,0,0,0,0,14,read,issues,14 Missing rows without an inspection note; no Reported row at all
+XINXING:T-161B,14,2,12,2,0,0,0,0,12,read,issues,12 Missing rows without an inspection note
+XINXING:T-202,14,3,11,2,1,0,0,0,11,read,issues,1 Reported rows not matched on the cited page; 11 Missing rows without an inspection note
+XINXING:T-203,14,3,11,2,1,0,0,0,11,read,issues,1 Reported rows not matched on the cited page; 11 Missing rows without an inspection note
+XINXING:T-204,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+XINXING:T-205,14,3,11,3,0,0,0,0,11,read,issues,11 Missing rows without an inspection note
+XINXING:XT-3205,25,10,15,8,2,0,0,0,15,read,issues,2 Reported rows not matched on the cited page; 15 Missing rows without an inspection note
+XINXING:XT-63297,25,11,14,10,1,0,0,0,14,read,issues,1 Reported rows not matched on the cited page; 14 Missing rows without an inspection note
+XINXING:XT-64223,25,7,18,7,0,0,0,0,18,read,issues,18 Missing rows without an inspection note

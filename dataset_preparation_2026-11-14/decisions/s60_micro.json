@@ -22,16 +22,6 @@
    "notes": "printed: '151 T106D Super High TBN Synthetic Calcium Sulfonate; SHANGHAI MINGLAN CHEMICAL CO.,LTD. Mobiel:+86 15840446549; super high-based synthetic calcium sulfonate; heavy alkyl benzene sulfonic acid raw material; excellent alkaline reserve, acid neutralization, high-temperature detergency and thermal stability'; additive_component (detergent, super-high-TBN synthetic calcium sulfonate); '151' and 'T106D' are Minglan internal code designations",
    "identity_evidence": "printed product name on the documents linked in this batch",
    "template": "additive_component general (+ subtype as noted)"
-  },
-  "SHENYANG_GW:CATALOG": {
-   "name": "Shenyang Great Wall finished lubricant catalog",
-   "supplier": "Shenyang Great Wall",
-   "material_class": "out_of_scope",
-   "existing_record": "",
-   "status": "out_of_scope",
-   "notes": "printed: 'SHENYANG GREAT WALL LUBRICATING OIL MANUFACTURING CO., LTD; established 1987; lubricating oil, special oil and additive series products; brand 润驰 (Runchike); products include engine oils, gear oils, industrial oils'; 35pp product manual for a finished lubricant manufacturer → out_of_scope (catalog of finished lubricant blends, not a raw-material source document); product mix of finished lubricants and possibly additive components, but no individual raw material TDS identified",
-   "identity_evidence": "printed product name on the documents linked in this batch",
-   "template": "none / not determined"
   }
  },
  "documents": {
@@ -72,16 +62,12 @@
   "dfd31b080775": {
    "doc_type": "finished lubricant product catalog",
    "supplier": "Shenyang Great Wall",
-   "products": [
-    "SHENYANG_GW:CATALOG"
-   ],
-   "roles": {
-    "SHENYANG_GW:CATALOG": "subject"
-   },
-   "relation": "out_of_scope",
+   "products": [],
+   "roles": {},
+   "relation": "product",
    "read": "",
-   "note": "35pp; product manual for Shenyang Great Wall Lubricating Oil Manufacturing Co., Ltd.; covers engine oils, gear oils, industrial gear oils, hydraulic oils, compressor oils as finished lubricant products (brand 润驰/Runchike); includes ISO 9001:2015 quality certification info; this is a finished lubricant manufacturer catalog, not a raw-material source; some additive product data may be embedded but not separated in this document",
-   "next_action": "",
+   "note": "35pp; product manual for Shenyang Great Wall Lubricating Oil Manufacturing Co., Ltd.; covers engine oils, gear oils, industrial gear oils, hydraulic oils, compressor oils as finished lubricant products (brand 润驰/Runchike); includes ISO 9001:2015 quality certification info; this is a finished lubricant manufacturer catalog, not a raw-material source; some additive product data may be embedded but not separated in this document [integration review 2026-11-20: pseudo-product key SHENYANG_GW:CATALOG removed; catalogue kept as a multi-product document]",
+   "next_action": "multi-product catalogue (finished lubricants, out of template): list products only if the scope changes",
    "manufacturer": "",
    "distributor": "",
    "issuer": "Shenyang Great Wall Lubricating Oil Manufacturing Co., Ltd."

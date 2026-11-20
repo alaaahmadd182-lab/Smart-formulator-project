@@ -1,0 +1,153 @@
+{
+ "note": "Expected field-evidence files (written by --update-manifest after a reviewed evidence change).",
+ "files": {
+  "s01_oronite.csv": {
+   "rows": 1395,
+   "sha256": "b3549c3eda2d4ce24239c9004f98ebefbda391fb5032b0860ffa1a203893b8b0"
+  },
+  "s02_afton.csv": {
+   "rows": 2307,
+   "sha256": "bf71d54c80d6523d05cd5fd8f35d0e9e23e2cb39e5894a90bd093093ee5145f7"
+  },
+  "s03_infineum.csv": {
+   "rows": 1757,
+   "sha256": "d52c319e1f77f56900287311f89661fe005400c1ce56b27a5369d5512cb65609"
+  },
+  "s04_lubrizol.csv": {
+   "rows": 1637,
+   "sha256": "c0febdc0c5072b372df18e595095d6108fc366496b591ea288dcf335f946142d"
+  },
+  "s05_richful.csv": {
+   "rows": 2555,
+   "sha256": "02937b6f4a7f9a1a0f2106fe13a6bd82caecd344c2581d1c941d1a597342881b"
+  },
+  "s06_basf.csv": {
+   "rows": 1242,
+   "sha256": "23d995d0b0f60a3cbd1c30c5bd8e68feda730bdd0bb065cabe1b59d9f12d9429"
+  },
+  "s07_lanxess.csv": {
+   "rows": 688,
+   "sha256": "9fca33fe280019000d6b3c2ab721713c4573a208fee560ee7b952d9374192e25"
+  },
+  "s10_brb.csv": {
+   "rows": 912,
+   "sha256": "863696bc7c4511c00ad65e2c8fe449634bb9a5c80e21b89c02e32c23937d8fb8"
+  },
+  "s12_ineos.csv": {
+   "rows": 176,
+   "sha256": "aeb39bf746cd94ea6b9c7a976e01b65e5a0ef5e0d641005897fea0b6cb36b406"
+  },
+  "s13_xinxing.csv": {
+   "rows": 285,
+   "sha256": "89dab76d44209a60409812133350e7b513a58ed35ebd91753bc77e419b605db5"
+  },
+  "s15_lubimax.csv": {
+   "rows": 429,
+   "sha256": "2381505e2790d69df2a65d6d70a2e10e26f690888e6a4259bc0ee0f8fb232706"
+  },
+  "s16_kusa.csv": {
+   "rows": 182,
+   "sha256": "d300adaea4409468004c05b80523f037f9159f0e99f9ed160c8ec25028ae61dd"
+  },
+  "s17_kangtai.csv": {
+   "rows": 1031,
+   "sha256": "5ea666d1c8d0263c2b9d19d9922dbd4ae95f549ec8dd6f11d482e3ab6869eb18"
+  },
+  "s18_eni.csv": {
+   "rows": 563,
+   "sha256": "e3cf3a5d892c73498bf8351b79a0a72158c07cd16b483cbcbd8d8387f943d1e6"
+  },
+  "s21_mingyue.csv": {
+   "rows": 277,
+   "sha256": "320a130ba9c6e368a2edccfc1877e528629b94897910ddaf07eeed8e4976946d"
+  },
+  "s22_vanderbilt.csv": {
+   "rows": 350,
+   "sha256": "412daf6cfc644e66d59690d943fea23ff8d6530c73e5149a6da7304f63181c07"
+  },
+  "s25_wuxi.csv": {
+   "rows": 352,
+   "sha256": "a38069e5863297418c0d3c0621e6028b2e0223ffc850409379840f7d9e6e149d"
+  },
+  "s26_fp.csv": {
+   "rows": 280,
+   "sha256": "9b756f7cbab80ca2968ddd077a99227cbd82534511f3e9d464b6c4ea02a89e08"
+  },
+  "s28_sk_yubase.csv": {
+   "rows": 54,
+   "sha256": "af4a4311c0ba10ef291dd6bc509981d007e4ef48de9d7a9a9173d3e1d597dd40"
+  },
+  "s30_hyundai.csv": {
+   "rows": 28,
+   "sha256": "6f0d2359e327df92c5eb9c0da93b9ac92b4f5d30003c04dc7c2f1e659f615704"
+  },
+  "s30_toholchem.csv": {
+   "rows": 54,
+   "sha256": "c6db157b7a987879ec7bde6ab82d9dae10495f822d2a5e8550ddb39d1a709834"
+  },
+  "s34_king.csv": {
+   "rows": 122,
+   "sha256": "6d53b9913e52cc52dfec167365788e0faa08415a7ccfb979369a33fe015cb056"
+  },
+  "s35_evonik.csv": {
+   "rows": 287,
+   "sha256": "8854946d4101a40af10764203533734241123e9281c55b83bcc536b29abfba15"
+  },
+  "s36_elco.csv": {
+   "rows": 77,
+   "sha256": "a6f593f49b638c352a6918430d11af4f5a9bce9728bc832e109de534bd0e1ccf"
+  },
+  "s37_chemtura.csv": {
+   "rows": 56,
+   "sha256": "b35b84d34e141a0ba1cbf72074d0c6a4f881b90f53220da641a23ac09183db36"
+  },
+  "s38_dorfketal.csv": {
+   "rows": 39,
+   "sha256": "caa46cc68bea01208d3ad24850290fd0a8552b7177dc4be8df296bbb2c98ebfb"
+  },
+  "s39_bettchem.csv": {
+   "rows": 388,
+   "sha256": "69eaa53f90195d1d817a0bef8127e1df449082eac8ba43c7054cae249cd25552"
+  },
+  "s41_arkema.csv": {
+   "rows": 179,
+   "sha256": "857bf2caa51d070d7574768ebcd4d743adf60b69f935ecec0da0b9ff4fa6316c"
+  },
+  "s42_songwon.csv": {
+   "rows": 91,
+   "sha256": "e9a1ba6b8e67ec03311ba841c72f00d51312c737bbf4fd390aa208c6457ed104"
+  },
+  "s43_tianhe.csv": {
+   "rows": 164,
+   "sha256": "cf202aaf9caa1e798e0391f35d212aaea3f7c80263f2ac18ce522b8ec90fd57b"
+  },
+  "s46_cristol.csv": {
+   "rows": 134,
+   "sha256": "6b47b9e977ad1e7dcec504d564f364913f69f327b1ca06d0372682a7be0c827a"
+  },
+  "s47_adnoc.csv": {
+   "rows": 104,
+   "sha256": "5734555daa1200e942eb0c84eaf4f7922d99a1250a21349ed502adfe24416dca"
+  },
+  "s49_kraton.csv": {
+   "rows": 38,
+   "sha256": "e086631ec41b6aaf5cb82a8a1529b8733a13a18ab0731686a7106e6babb5fb86"
+  },
+  "s50_formosa.csv": {
+   "rows": 91,
+   "sha256": "6122dd375e1e09ba36d45d0490d226cf39134219a1680dae665ea20b6f977101"
+  },
+  "s50_ocean_p8401.csv": {
+   "rows": 18,
+   "sha256": "33ac3375309d3423a3b9a80d9650b5dc07a0688c30d0ac3058d3a69b6bbcaf2f"
+  },
+  "s58_turkmenbashy.csv": {
+   "rows": 105,
+   "sha256": "9213e9ad6cb7b5e0475a18fa39ce0383f10bb2394f6af1a9f7dbf85b6ca51771"
+  },
+  "s60_micro.csv": {
+   "rows": 38,
+   "sha256": "0045da5d46a5348c0f53d51730f2ef4135c8c960ab8ac31393d9db5ad8d7caa0"
+  }
+ }
+}

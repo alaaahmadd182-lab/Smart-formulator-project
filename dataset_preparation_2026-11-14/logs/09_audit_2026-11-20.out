@@ -1,0 +1,72 @@
+{
+ "caches": {
+  "archive_zip": "C:/Users/windo/OneDrive/Desktop/Smart formulator project/Downloaded lubricants sheets.zip",
+  "archive_present": true,
+  "text_cache": "C:/Users/windo/sf-wsA/incoming_dataset_review_2026-11-12/_cache/text",
+  "text_cache_files": 3802,
+  "ocr_cache": "C:/Users/windo/sf-wsA/dataset_preparation_2026-11-14/_cache/ocr",
+  "ocr_cache_files": 501
+ },
+ "files": 37,
+ "rows": 18485,
+ "products": 891,
+ "status": {
+  "Reported": 5648,
+  "Missing": 12837
+ },
+ "row_results": {
+  "text row (no number): words NOT found": 596,
+  "Missing, no inspection note": 9961,
+  "number found on cited page": 2579,
+  "text row (no number): words found": 897,
+  "number NOT found on cited page": 507,
+  "page not available": 1069,
+  "Missing, inspection recorded": 2876
+ },
+ "row_flags": {
+  "numeric Reported row without unit": 267,
+  "percentage basis unspecified": 193,
+  "SDS source in an element / marker field": 5,
+  "value form inconsistent": 430
+ },
+ "products_auto_pass": 33,
+ "products_with_issues": 858,
+ "discovery_problems": []
+}
+  checked s01_oronite.csv: 1395 rows
+  checked s02_afton.csv: 2307 rows
+  checked s03_infineum.csv: 1757 rows
+  checked s04_lubrizol.csv: 1637 rows
+  checked s05_richful.csv: 2555 rows
+  checked s06_basf.csv: 1242 rows
+  checked s07_lanxess.csv: 688 rows
+  checked s10_brb.csv: 912 rows
+  checked s12_ineos.csv: 176 rows
+  checked s13_xinxing.csv: 285 rows
+  checked s15_lubimax.csv: 429 rows
+  checked s16_kusa.csv: 182 rows
+  checked s17_kangtai.csv: 1031 rows
+  checked s18_eni.csv: 563 rows
+  checked s21_mingyue.csv: 277 rows
+  checked s22_vanderbilt.csv: 350 rows
+  checked s25_wuxi.csv: 352 rows
+  checked s26_fp.csv: 280 rows
+  checked s28_sk_yubase.csv: 54 rows
+  checked s30_hyundai.csv: 28 rows
+  checked s30_toholchem.csv: 54 rows
+  checked s34_king.csv: 122 rows
+  checked s35_evonik.csv: 287 rows
+  checked s36_elco.csv: 77 rows
+  checked s37_chemtura.csv: 56 rows
+  checked s38_dorfketal.csv: 39 rows
+  checked s39_bettchem.csv: 388 rows
+  checked s41_arkema.csv: 179 rows
+  checked s42_songwon.csv: 91 rows
+  checked s43_tianhe.csv: 164 rows
+  checked s46_cristol.csv: 134 rows
+  checked s47_adnoc.csv: 104 rows
+  checked s49_kraton.csv: 38 rows
+  checked s50_formosa.csv: 91 rows
+  checked s50_ocean_p8401.csv: 18 rows
+  checked s58_turkmenbashy.csv: 105 rows
+  checked s60_micro.csv: 38 rows

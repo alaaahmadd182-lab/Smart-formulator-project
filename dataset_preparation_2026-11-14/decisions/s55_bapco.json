@@ -2,41 +2,16 @@
  "batch": "S55 Bapco (identity)",
  "reviewed_on": "2026-11-15",
  "scope": "2 documents with provisional supplier Bapco",
- "products": {
-  "BAPCO:UNKNOWN_COA_DL2_14114": {
-   "name": "Bapco base oil CoA (DL2-14114, grade unknown)",
-   "supplier": "Bapco",
-   "material_class": "unresolved",
-   "existing_record": "",
-   "status": "unresolved_identity",
-   "notes": "document is a Bapco Laboratory Report/Test Certificate Form BP0209 (04/16); property list consistent with base oil CoA: kV100, kV40, VI, Noack evaporation, CCS @-30°C, Saturates, Sulfur, UV wavelength bands (280-350nm — food-grade screening); product name, tank number, batch dates and test results not legible from text layer (likely printed in fields that weren't captured by OCR); next_action: identify product name and batch data from physical document",
-   "identity_evidence": "printed product name on the documents linked in this batch",
-   "template": "none / not determined"
-  },
-  "BAPCO:UNKNOWN_COA_DL2_14119": {
-   "name": "Bapco base oil CoA (DL2-14119, grade unknown)",
-   "supplier": "Bapco",
-   "material_class": "unresolved",
-   "existing_record": "",
-   "status": "unresolved_identity",
-   "notes": "document is a Bapco Laboratory Report/Test Certificate Form BP0209 (04/16); property list consistent with base oil CoA: kV100, kV40, VI, Noack evaporation, CCS @-30°C, Saturates, Sulfur, UV wavelength bands (280-350nm — food-grade screening); product name, tank number, batch dates and test results not legible from text layer (likely printed in fields that weren't captured by OCR); next_action: identify product name and batch data from physical document",
-   "identity_evidence": "printed product name on the documents linked in this batch",
-   "template": "none / not determined"
-  }
- },
+ "products": {},
  "documents": {
   "cf682f89b08e": {
    "doc_type": "certificate of quality (CoA)",
    "supplier": "Bapco",
-   "products": [
-    "BAPCO:UNKNOWN_COA_DL2_14114"
-   ],
-   "roles": {
-    "BAPCO:UNKNOWN_COA_DL2_14114": "subject"
-   },
+   "products": [],
+   "roles": {},
    "relation": "unresolved_identity",
    "read": "page content: Bapco CoA form with property list; product name and values not in text layer",
-   "note": "1pp; Form BP0209 (04/16); property list includes kV100, kV40, VI, Noack, CCS @-30°C, Saturates, Sulfur, UV wavelength bands; values and product name fields not captured in text layer; next_action: manual read of physical document",
+   "note": "1pp; Form BP0209 (04/16); property list includes kV100, kV40, VI, Noack, CCS @-30°C, Saturates, Sulfur, UV wavelength bands; values and product name fields not captured in text layer; next_action: manual read of physical document [integration review 2026-11-20: pseudo-product key BAPCO:UNKNOWN_COA_DL2_14114 removed; identity not established, no product created]",
    "next_action": "read product name and test values from physical document",
    "manufacturer": "Bahrain Petroleum Company (Bapco)",
    "distributor": "",
@@ -45,15 +20,11 @@
   "98105b37a2b3": {
    "doc_type": "certificate of quality (CoA)",
    "supplier": "Bapco",
-   "products": [
-    "BAPCO:UNKNOWN_COA_DL2_14119"
-   ],
-   "roles": {
-    "BAPCO:UNKNOWN_COA_DL2_14119": "subject"
-   },
+   "products": [],
+   "roles": {},
    "relation": "unresolved_identity",
    "read": "page content: Bapco CoA form; product name and values not in text layer",
-   "note": "1pp; Form BP0209 (04/16); same form type as DL2-14114 (cf682f89b0); FDA 21 CFR 172 reference (food-grade base oil screening); next_action: manual read of physical document",
+   "note": "1pp; Form BP0209 (04/16); same form type as DL2-14114 (cf682f89b0); FDA 21 CFR 172 reference (food-grade base oil screening); next_action: manual read of physical document [integration review 2026-11-20: pseudo-product key BAPCO:UNKNOWN_COA_DL2_14119 removed; identity not established, no product created]",
    "next_action": "read product name and test values from physical document",
    "manufacturer": "Bahrain Petroleum Company (Bapco)",
    "distributor": "",
