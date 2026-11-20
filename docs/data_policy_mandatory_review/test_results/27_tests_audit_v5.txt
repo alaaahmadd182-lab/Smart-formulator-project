@@ -1,10 +1,10 @@
 command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover -s tools/audit/review_2026-11-02/tests -v
 cwd: C:\Users\User\FYP\Smart-formulator-project
-HEAD: d6b7ff152c6571c083137d8ae9864001ad5215e0
+HEAD: 9575c7f305f2da3c51e12639c0f1358a197ead4e
 return code: 0
 expectation: zero + output matches '\\nOK'
 verdict: pass
-duration: 0.6 s
+duration: 0.5 s
 
 ===== stdout =====
 sources examined: 424 in 180 findings (351 value citations, 4 document cited in the explanations, 69 referenced sources)
@@ -65,16 +65,16 @@ ResourceWarning: Enable tracemalloc to get the object allocation traceback
 C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:62: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools\\audit\\review_2026-11-02\\output\\findings_v5.json' mode='r' encoding='utf-8'>
   F = {f['id']: f for f in json.load(open(os.path.join(R.HERE, 'output', 'findings_v5.json'), encoding='utf-8'))}
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:69: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmp60fsx1l5\\here\\output\\findings_v5.json' mode='w' encoding='utf-8'>
+C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:69: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmpv95p74fs\\here\\output\\findings_v5.json' mode='w' encoding='utf-8'>
   json.dump(list(F.values()), open(os.path.join(here, 'output', 'findings_v5.json'), 'w', encoding='utf-8'))
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\build_association_review.py:202: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmp60fsx1l5\\docs\\audit_review_2026-11-02\\verification_results\\source_checks_v5.csv' mode='r' encoding='utf-8'>
+C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\build_association_review.py:202: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmpv95p74fs\\docs\\audit_review_2026-11-02\\verification_results\\source_checks_v5.csv' mode='r' encoding='utf-8'>
   rows = list(csv.DictReader(open(os.path.join(R.ROOT, 'docs', 'audit_review_2026-11-02', 'verification_results', 'source_checks_v5.csv'),
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\build_association_review.py:223: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmp60fsx1l5\\here\\output\\findings_v5.json' mode='r' encoding='utf-8'>
+C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\build_association_review.py:223: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmpv95p74fs\\here\\output\\findings_v5.json' mode='r' encoding='utf-8'>
   F = {f['id']: f for f in json.load(open(os.path.join(R.HERE, 'output', 'findings_v5.json'), encoding='utf-8'))}
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:72: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmp60fsx1l5\\here\\association_review.json' mode='r' encoding='utf-8'>
+C:\Users\User\FYP\Smart-formulator-project\tools\audit\review_2026-11-02\tests\test_ledger_rules.py:72: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\User\\AppData\\Local\\Temp\\tmpv95p74fs\\here\\association_review.json' mode='r' encoding='utf-8'>
   written = json.load(open(os.path.join(here, 'association_review.json'), encoding='utf-8'))
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
 ok
@@ -84,7 +84,7 @@ test_unlisted_reference_is_unresolved (test_ledger_rules.UnknownCitations.test_u
 A source named in a finding text without a recorded verdict becomes an unresolved ledger row. ... ok
 
 ----------------------------------------------------------------------
-Ran 12 tests in 0.248s
+Ran 12 tests in 0.137s
 
 OK
 

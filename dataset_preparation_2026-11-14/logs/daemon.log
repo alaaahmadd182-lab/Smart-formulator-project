@@ -1,0 +1,40 @@
+[20:13:50] daemon started: total=501 batch=30
+[20:13:50] run 1: 51/501 cached, spawning batch=30
+[20:32:54] run 1: +31 cached in 1144.5s (rc=120), total=82/501
+[20:32:54] run 2: 82/501 cached, spawning batch=30
+[21:02:54] run 2: subprocess timed out after 1800s
+[21:02:54] run 2: +26 cached in 1800.3s (rc=-1), total=108/501
+[21:02:54] run 3: 108/501 cached, spawning batch=30
+[21:32:55] run 3: subprocess timed out after 1800s
+[21:32:55] run 3: +22 cached in 1800.3s (rc=-1), total=130/501
+[21:32:55] run 4: 130/501 cached, spawning batch=30
+[22:02:55] run 4: subprocess timed out after 1800s
+[22:02:55] run 4: +21 cached in 1800.1s (rc=-1), total=151/501
+[22:02:55] run 5: 151/501 cached, spawning batch=30
+[22:32:55] run 5: subprocess timed out after 1800s
+[22:32:55] run 5: +41 cached in 1800.2s (rc=-1), total=192/501
+[22:32:55] run 6: 192/501 cached, spawning batch=30
+[20:28:06] daemon started: total=501 batch=30
+[20:28:06] run 1: 193/501 cached, spawning batch=30
+[20:40:25] run 1: +30 cached in 738.6s (rc=0), total=223/501
+[20:40:25] run 2: 223/501 cached, spawning batch=30
+[20:44:18] run 2: +30 cached in 232.7s (rc=0), total=253/501
+[20:44:18] run 3: 253/501 cached, spawning batch=30
+[20:48:38] run 3: +30 cached in 260.0s (rc=0), total=283/501
+[20:48:38] run 4: 283/501 cached, spawning batch=30
+[20:53:43] run 4: +30 cached in 305.1s (rc=0), total=313/501
+[20:53:43] run 5: 313/501 cached, spawning batch=30
+[20:58:57] run 5: +30 cached in 313.7s (rc=0), total=343/501
+[20:58:57] run 6: 343/501 cached, spawning batch=30
+[21:04:10] run 6: +30 cached in 313.6s (rc=0), total=373/501
+[21:04:10] run 7: 373/501 cached, spawning batch=30
+[21:10:28] run 7: +30 cached in 378.2s (rc=0), total=403/501
+[21:10:28] run 8: 403/501 cached, spawning batch=30
+[21:19:24] run 8: +30 cached in 535.8s (rc=0), total=433/501
+[21:19:24] run 9: 433/501 cached, spawning batch=30
+[21:30:57] run 9: +30 cached in 692.4s (rc=0), total=463/501
+[21:30:57] run 10: 463/501 cached, spawning batch=30
+[21:40:58] run 10: +30 cached in 601.1s (rc=0), total=493/501
+[21:40:58] run 11: 493/501 cached, spawning batch=30
+[21:42:25] run 11: +8 cached in 87.0s (rc=0), total=501/501
+[21:42:25] ALL DONE: 501/501 cached

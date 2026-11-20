@@ -1,6 +1,6 @@
 {
- "run_at": "2026-11-19T19:20:12",
- "head": "d6b7ff152c6571c083137d8ae9864001ad5215e0",
+ "run_at": "2026-11-19T19:28:34",
+ "head": "9575c7f305f2da3c51e12639c0f1358a197ead4e",
  "overall": "PASS",
  "steps": [
   {
@@ -11,7 +11,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "01_document_classes.txt",
-   "seconds": 11.4
+   "seconds": 5.5
   },
   {
    "step": 2,
@@ -21,7 +21,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "02_source_selection_dry_run.txt",
-   "seconds": 1.4
+   "seconds": 0.4
   },
   {
    "step": 3,
@@ -31,7 +31,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "03_tds_sds_inventory.txt",
-   "seconds": 1.8
+   "seconds": 0.7
   },
   {
    "step": 4,
@@ -41,7 +41,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "04_source_coverage_ledger.txt",
-   "seconds": 10.7
+   "seconds": 9.8
   },
   {
    "step": 5,
@@ -61,7 +61,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "06_lead_review.txt",
-   "seconds": 4.8
+   "seconds": 4.6
   },
   {
    "step": 7,
@@ -71,7 +71,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "07_external_review.txt",
-   "seconds": 0.5
+   "seconds": 0.4
   },
   {
    "step": 8,
@@ -111,7 +111,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "11_treat_rate_basis_scan.txt",
-   "seconds": 0.9
+   "seconds": 1.0
   },
   {
    "step": 12,
@@ -121,7 +121,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "12_co_component_evidence_scan.txt",
-   "seconds": 2.7
+   "seconds": 2.6
   },
   {
    "step": 13,
@@ -171,7 +171,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "17_compare_eligibility.txt",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "step": 18,
@@ -181,7 +181,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "18_compare_eligibility_pre_route_review.txt",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "step": 19,
@@ -191,7 +191,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "19_coverage_matrix.txt",
-   "seconds": 4.3
+   "seconds": 3.6
   },
   {
    "step": 20,
@@ -201,7 +201,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "20_integrate_products_dry_run.txt",
-   "seconds": 1.6
+   "seconds": 2.0
   },
   {
    "step": 21,
@@ -221,7 +221,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "22_verify_preserved.txt",
-   "seconds": 6.2
+   "seconds": 6.5
   },
   {
    "step": 23,
@@ -241,7 +241,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "24_product_json_valid.txt",
-   "seconds": 0.3
+   "seconds": 0.4
   },
   {
    "step": 25,
@@ -251,7 +251,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "25_tests_mandatory_properties.txt",
-   "seconds": 1.8
+   "seconds": 2.0
   },
   {
    "step": 26,
@@ -261,7 +261,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "26_tests_data_policy.txt",
-   "seconds": 12.7
+   "seconds": 12.9
   },
   {
    "step": 27,
@@ -271,7 +271,7 @@
    "return_code": 0,
    "verdict": "pass",
    "file": "27_tests_audit_v5.txt",
-   "seconds": 0.6
+   "seconds": 0.5
   },
   {
    "step": 28,
@@ -281,7 +281,7 @@
    "return_code": 1,
    "verdict": "expected failure (by design)",
    "file": "28_verify_revision_v5.txt",
-   "seconds": 0.6
+   "seconds": 0.5
   }
  ]
 }

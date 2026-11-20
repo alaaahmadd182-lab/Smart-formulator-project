@@ -1,10 +1,10 @@
 command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover -s tools/data_policy/tests -v
 cwd: C:\Users\User\FYP\Smart-formulator-project
-HEAD: d6b7ff152c6571c083137d8ae9864001ad5215e0
+HEAD: 9575c7f305f2da3c51e12639c0f1358a197ead4e
 return code: 0
 expectation: zero + output matches '\\nOK'
 verdict: pass
-duration: 12.7 s
+duration: 12.9 s
 
 ===== stdout =====
 
@@ -252,7 +252,7 @@ test_selection_and_exact_provenance (test_data_policy.TechnicalSelectionKeepsDis
 test_selection_mechanism_never_marks_a_conflict_resolved (test_data_policy.TechnicalSelectionKeepsDisagreement.test_selection_mechanism_never_marks_a_conflict_resolved) ... ok
 
 ----------------------------------------------------------------------
-Ran 61 tests in 12.413s
+Ran 61 tests in 12.609s
 
 OK
 
