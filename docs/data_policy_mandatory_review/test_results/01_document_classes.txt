@@ -1,14 +1,14 @@
-command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/document_classes.py
-cwd: C:\Users\User\FYP\Smart-formulator-project
-HEAD: 9575c7f305f2da3c51e12639c0f1358a197ead4e
+command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/data_policy/document_classes.py
+cwd: C:\Users\windo\sf-wsA
+HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
 return code: 0
 expectation: zero
 verdict: pass
-duration: 5.5 s
+duration: 7.7 s
 
 ===== stdout =====
-cited (file, page) pairs: 758 {'TECHNICAL': 479, 'SDS': 240, 'COA': 4, 'EXTERNAL': 35}
-subclasses: {('TECHNICAL', 'specification'): 29, ('SDS', 'sds'): 240, ('TECHNICAL', 'tds'): 362, ('TECHNICAL', 'bulletin'): 81, ('TECHNICAL', 'catalog'): 5, ('TECHNICAL', 'handling'): 2, ('COA', 'coa'): 4, ('EXTERNAL', ''): 35}
+cited (file, page) pairs: 511 {'TECHNICAL': 250, 'SDS': 226, 'EXTERNAL': 35}
+subclasses: {('TECHNICAL', 'specification'): 19, ('SDS', 'sds'): 226, ('TECHNICAL', 'tds'): 158, ('TECHNICAL', 'bulletin'): 66, ('TECHNICAL', 'catalog'): 5, ('TECHNICAL', 'handling'): 2, ('EXTERNAL', ''): 35}
 
 ===== stderr =====
 

@@ -43,140 +43,7 @@ CATALOG = re.compile(r'catalog|brochure|series|product\s+range|premium\s+series'
 COA = re.compile(r'certificate\s+of\s+analysis', re.I)
 
 # Pages without a text layer and image files, read on renders on 2026-11-10 (or in the v5 review where stated).
-# Also covers dataset-preparation documents not present in the main archive ZIP; classification taken from
-# source_documents doc_type in Products_json (reviewed during dataset-preparation 2026-11-14).
 MANUAL = {
-    'DL2-11239.pdf': ('TECHNICAL', 'specification', 'Turkmenbashy SN series: TŞ 05766698-60-2006 specification table (render; not in main archive)'),
-    'DL2-11266.pdf': ('TECHNICAL', 'tds', 'Evonik Viscoplex 4-677 product data sheet, Function/Composition section (render; not in main archive)'),
-    'DL2-11302.pdf': ('TECHNICAL', 'tds', 'Evonik Viscoplex 8-400 product data sheet, Function/Composition section (render; not in main archive)'),
-    'DL2-11416.pdf': ('TECHNICAL', 'tds', 'Formosa/Kemipex M-25 SSI product data sheet, typical properties table (render; not in main archive)'),
-    'DL2-11417.pdf': ('SDS', 'sds', 'Formosa/Kemipex M-25 SSI material safety data sheet, composition section (render; not in main archive)'),
-    'DL2-11419.pdf': ('TECHNICAL', 'tds', 'King Industries NA-LUBE BL-1208 product data sheet, typical properties table (render; not in main archive)'),
-    'DL2-11572.pdf': ('TECHNICAL', 'tds', 'Evonik Viscoplex 8-251 product data sheet, typical properties and thickening effect tables (render; not in main archive)'),
-    'DL2-11600.pdf': ('TECHNICAL', 'tds', 'Evonik Viscoplex 7-310 product data sheet, Function/Composition section (render; not in main archive)'),
-    'DL2-11661.pdf': ('TECHNICAL', 'tds', 'Toho Chemical LUBRAN VI-870 product data sheet, typical properties table (render; not in main archive)'),
-    'DL2-11664.pdf': ('TECHNICAL', 'tds', 'Toho Chemical LUBRAN 141 product data sheet, typical properties table (render; not in main archive)'),
-    'DL2-11665.pdf': ('TECHNICAL', 'tds', 'Toho Chemical LUBRAN 165 product data sheet, typical properties table (render; not in main archive)'),
-    'DL2-11666.pdf': ('TECHNICAL', 'tds', 'Toho Chemical LUBRAN 171 product data sheet, typical properties table (render; not in main archive)'),
-    'DL2-11697.pdf': ('TECHNICAL', 'bulletin', 'King Industries NA-LUBE BL-1208 application bulletin / performance evaluation (render; not in main archive)'),
-    'DL2-11863.pdf': ('TECHNICAL', 'tds', 'Elco Corporation ELCO-313A product data sheet, characteristics table (render; not in main archive)'),
-    'DL2-12022.pdf': ('TECHNICAL', 'tds', 'Evonik product data sheet, Function/Composition section (render; not in main archive)'),
-    'DL2-12257.pdf': ('TECHNICAL', 'tds', 'Dorf Ketal product data sheet, typical properties table (render; not in main archive)'),
-    'DL2-12275.pdf': ('TECHNICAL', 'tds', 'Hyundai Oilbank / Shell base oil product data sheet, typical properties table (render; not in main archive)'),
-    'DL2-12322.pdf': ('TECHNICAL', 'tds', 'Elco Corporation product data sheet, characteristics table (render; not in main archive)'),
-    'DL2-12323.pdf': ('TECHNICAL', 'tds', 'Elco Corporation product data sheet, characteristics table (render; not in main archive)'),
-    'DL2-12347.pdf': ('TECHNICAL', 'tds', 'King Industries product data sheet, typical properties table (render; not in main archive)'),
-    'DL2-12585.pdf': ('TECHNICAL', 'tds', 'Evonik product data sheet, Function/Composition section (render; not in main archive)'),
-    'DL2-12590.pdf': ('TECHNICAL', 'tds', 'Elco Corporation product data sheet, characteristics table (render; not in main archive)'),
-    'DL2-12838.pdf': ('TECHNICAL', 'bulletin', 'King Industries application bulletin / performance evaluation (render; not in main archive)'),
-    'DL2-12936.pdf': ('TECHNICAL', 'tds', 'Tianhe Chemical product data sheet (render; not in main archive)'),
-    'DL2-12937.pdf': ('TECHNICAL', 'tds', 'Tianhe Chemical product data sheet (render; not in main archive)'),
-    'DL2-12938.pdf': ('TECHNICAL', 'tds', 'Tianhe Chemical product data sheet (render; not in main archive)'),
-    'DL2-12940.pdf': ('TECHNICAL', 'tds', 'Tianhe P-TEC 3234 product data sheet, description and properties tables (render; not in main archive)'),
-    'DL2-12941.pdf': ('TECHNICAL', 'tds', 'Tianhe P-TEC 9100 product data sheet, description and properties tables (render; not in main archive)'),
-    # KangTai batch (dataset-preparation 2026-11-14)
-    'DL2-12942.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12943.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12945.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12946.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12947.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12948.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12950.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12951.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12952.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12953.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12954.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12955.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12956.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12957.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12958.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12959.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12960.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12962.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12963.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12964.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12965.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12966.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12967.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12968.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12969.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12970.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12971.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12972.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet title (render; not in main archive)'),
-    'DL2-12973.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12974.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12975.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12977.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12979.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12980.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12981.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    'DL2-12982.pdf': ('TECHNICAL', 'tds', 'Jinzhou KangTai Lubricant Additives Co.,: product sheet, column headed Typical Value (render; not in main archive)'),
-    # Evonik / Tianhe (dataset-preparation 2026-11-14)
-    'DL2-13072.pdf': ('TECHNICAL', 'tds', 'Evonik Industries AG: product data sheet, Function / Composition text section (render; not in main archive)'),
-    'DL2-13361.pdf': ('TECHNICAL', 'tds', 'Tianhe Chemical Group: product data sheet, description / introduction section (render; not in main archive)'),
-    'DL2-13549.pdf': ('TECHNICAL', 'tds', 'Evonik Industries AG: product data sheet, Function / Composition text section (render; not in main archive)'),
-    # Cristol batch (dataset-preparation 2026-11-14)
-    'DL2-13666.pdf': ('SDS', 'sds', 'Cristol Speciality Lubricant Chemicals: SDS Section 3, composition / information on ingredients (render; not in main archive)'),
-    'DL2-13722.pdf': ('TECHNICAL', 'tds', 'Cristol Speciality Lubricant Chemicals: product data sheet, product description section (render; not in main archive)'),
-    'DL2-13723.pdf': ('SDS', 'sds', 'Cristol Speciality Lubricant Chemicals: SDS Section 9, physical and chemical properties (render; not in main archive)'),
-    'DL2-13724.pdf': ('TECHNICAL', 'tds', 'Cristol Speciality Lubricant Chemicals: product data sheet, product description section (render; not in main archive)'),
-    'DL2-13725.pdf': ('SDS', 'sds', 'Cristol Speciality Lubricant Chemicals: SDS Section 3, composition / information on ingredients (render; not in main archive)'),
-    'DL2-13771.pdf': ('TECHNICAL', 'tds', 'Chemtura Corporation / Naugalube brand: product data sheet (TDS/PDS), typical properties table (render; not in main archive)'),
-    'DL2-13778.pdf': ('TECHNICAL', 'tds', 'Cristol Speciality Lubricant Chemicals: product data sheet, product description section (render; not in main archive)'),
-    # Formosa CoQ (dataset-preparation 2026-11-14)
-    'DL2-14076.pdf': ('TECHNICAL', 'specification', 'Formosa Petrochemical: certificate of quality (CoQ), batch test result (render; not in main archive)'),
-    'DL2-14080.pdf': ('TECHNICAL', 'specification', 'Formosa Petrochemical: certificate of quality (CoQ), batch test result (render; not in main archive)'),
-    # Evonik (dataset-preparation 2026-11-14)
-    'DL2-14206.pdf': ('TECHNICAL', 'tds', 'Evonik Industries AG: product data sheet, Function / Composition text section (render; not in main archive)'),
-    # King Industries CoA + TDS (dataset-preparation 2026-11-14)
-    'DL2-14391.pdf': ('COA', 'coa', 'King Industries, Inc.: certificate of analysis (CoA), batch result (render; not in main archive)'),
-    'DL2-14395.pdf': ('COA', 'coa', 'King Industries, Inc.: certificate of analysis (CoA), batch result (render; not in main archive)'),
-    'DL2-14626.pdf': ('TECHNICAL', 'tds', 'Dorf Ketal Chemicals India Pvt. Ltd.: product data sheet (TDS), typical properties table (render; not in main archive)'),
-    # Arkema batch (dataset-preparation 2026-11-14)
-    'DL2-14640.pdf': ('TECHNICAL', 'tds', 'Arkema Inc.: product data sheet, table TYPICAL PROPERTIES (render; not in main archive)'),
-    'DL2-14641.pdf': ('TECHNICAL', 'tds', 'Arkema Inc.: product data sheet, table TYPICAL PROPERTIES (render; not in main archive)'),
-    'DL2-14642.pdf': ('TECHNICAL', 'tds', 'Arkema Inc.: product data sheet, table TYPICAL PROPERTIES (render; not in main archive)'),
-    'DL2-14643.pdf': ('TECHNICAL', 'tds', 'Arkema Inc.: product data sheet, table TYPICAL PROPERTIES (render; not in main archive)'),
-    'DL2-14644.pdf': ('TECHNICAL', 'tds', 'Arkema Inc.: product data sheet, table TYPICAL PROPERTIES (render; not in main archive)'),
-    'DL2-14645.pdf': ('TECHNICAL', 'tds', 'Arkema Inc.: product data sheet, table TYPICAL PROPERTIES (render; not in main archive)'),
-    # Hyundai CoQ + King TDS (dataset-preparation 2026-11-14)
-    'DL2-14931.pdf': ('TECHNICAL', 'specification', 'Hyundai Oilbank Co., Ltd. / Shell (joint): certificate of quality (CoQ), batch test result (render; not in main archive)'),
-    'DL2-14947.pdf': ('TECHNICAL', 'tds', 'King Industries, Inc.: product data sheet (TDS/PDS), typical properties table (render; not in main archive)'),
-    # Tanee / Minglan / Cristol brochure (dataset-preparation 2026-11-14)
-    'DL2-15242.pdf': ('TECHNICAL', 'tds', 'Tanee Chemical: product data sheet (TDS), typical properties table (render; not in main archive)'),
-    'DL2-15278.pdf': ('TECHNICAL', 'tds', 'Shanghai Minglan Chemical: product data sheet (TDS), typical properties table (render; not in main archive)'),
-    'DL2-15288.pdf': ('TECHNICAL', 'bulletin', 'Cristol Speciality Lubricant Chemicals: product brochure, pour point depression performance table (render; not in main archive)'),
-    # SI Group batch (dataset-preparation 2026-11-14)
-    'DL2-15381.pdf': ('TECHNICAL', 'tds', 'SI Group, Inc.: product data sheet (TDS/PDS), typical properties table (render; not in main archive)'),
-    'DL2-15396.pdf': ('SDS', 'sds', 'SI Group, Inc.: safety data sheet (SDS), Section 9 physical properties (render; not in main archive)'),
-    'DL2-15397.pdf': ('TECHNICAL', 'tds', 'SI Group, Inc.: product data sheet (TDS/PDS), typical properties table (render; not in main archive)'),
-    # Songwon batch (dataset-preparation 2026-11-14)
-    'DL2-15398.pdf': ('TECHNICAL', 'tds', 'Songwon Industrial Co., Ltd.: product data sheet, Characteristics & Usages section (render; not in main archive)'),
-    # Ocean Chemical batch (dataset-preparation 2026-11-14)
-    'DL2-15432.pdf': ('TECHNICAL', 'tds', 'Ocean Chemical Technology: product data sheet (TDS), typical properties table (render; not in main archive)'),
-    'DL2-15502.pdf': ('TECHNICAL', 'tds', 'Ocean Chemical Technology Co., Ltd.: product data sheet (TDS/PDS), typical properties table (render; not in main archive)'),
-    # Bettchem batch (dataset-preparation 2026-11-14)
-    'DL2-15548.pdf': ('TECHNICAL', 'tds', 'Bettchem: product data sheet, specifications / properties table (render; not in main archive)'),
-    'DL2-15549.pdf': ('TECHNICAL', 'tds', 'Bettchem: product data sheet, specifications / properties table (render; not in main archive)'),
-    'DL2-15553.pdf': ('TECHNICAL', 'tds', 'Bettchem: product data sheet, specifications / properties table (render; not in main archive)'),
-    'DL2-15554.pdf': ('TECHNICAL', 'tds', 'Bettchem: product data sheet, specifications / properties table (render; not in main archive)'),
-    'DL2-15555.pdf': ('TECHNICAL', 'tds', 'Bettchem: product data sheet, specifications / properties table (render; not in main archive)'),
-    'DL2-15556.pdf': ('TECHNICAL', 'tds', 'Bettchem: product data sheet, specifications / properties table (render; not in main archive)'),
-    'DL2-15557.pdf': ('TECHNICAL', 'tds', 'Bettchem: product data sheet, specifications / properties table (render; not in main archive)'),
-    'DL2-15558.pdf': ('TECHNICAL', 'tds', 'Bettchem: product data sheet, specifications / properties table (render; not in main archive)'),
-    # Dowpol / Kraton (dataset-preparation 2026-11-14)
-    'DL2-15627.pdf': ('TECHNICAL', 'tds', 'Dowpol Chemical International Corp.: product data sheet (TDS/PDS), typical properties table (render; not in main archive)'),
-    'DL2-15680.pdf': ('TECHNICAL', 'specification', 'Kraton: certificate of quality (CoQ), batch test result (render; not in main archive)'),
-    'DL2-15681.pdf': ('SDS', 'sds', 'Kraton: safety data sheet (SDS), Section 3 composition (render; not in main archive)'),
-    'DL2-15682.pdf': ('TECHNICAL', 'tds', 'Kraton: product data sheet (TDS), typical properties table (render; not in main archive)'),
-    # Songwon continued (dataset-preparation 2026-11-14)
-    'DL2-15703.pdf': ('TECHNICAL', 'tds', 'Songwon Industrial Co., Ltd.: product data sheet, Characteristics & Usages section (render; not in main archive)'),
-    'DL2-15719.pdf': ('SDS', 'sds', 'Songwon Industrial Co., Ltd.: SDS Section 9, physical and chemical properties (render; not in main archive)'),
-    'DL2-15720.pdf': ('SDS', 'sds', 'Songwon Industrial Co., Ltd.: SDS Section 9, physical and chemical properties (render; not in main archive)'),
-    'DL2-15756.pdf': ('TECHNICAL', 'tds', 'Songwon Industrial Co., Ltd.: product data sheet, Characteristics & Usages section (render; not in main archive)'),
-    'DL2-15772.pdf': ('TECHNICAL', 'bulletin', 'Songwon Industrial Co., Ltd.: product technical guide, Applications section (render; not in main archive)'),
-    'DL2-15773.pdf': ('TECHNICAL', 'bulletin', 'Songwon Industrial Co., Ltd.: product technical guide, Applications section (render; not in main archive)'),
-    'DL2-15774.pdf': ('TECHNICAL', 'bulletin', 'Songwon Industrial Co., Ltd.: product technical guide, Applications section (render; not in main archive)'),
     'DL2-10217.pdf': ('TECHNICAL', 'tds', 'Infineum D3375 sheet: "Typical Inspections" table (render, v5 review)'),
     'DL2-10218.pdf': ('TECHNICAL', 'tds', 'Infineum D3384 sheet: Description, Performance, Typical Inspections (render)'),
     'DL2-10220.pdf': ('TECHNICAL', 'tds', 'Infineum D3453 sheet: Description, Performance, "Typical Inspections" (render)'),
@@ -311,8 +178,7 @@ def classify_all(prods=None, ar=None):
         pages = ar.pages(f)
         base = os.path.basename(str(f)).replace('%20', ' ')
         if pages is None:
-            # Not in the main archive — use MANUAL if reviewed; otherwise UNKNOWN.
-            rows[(f, pg)] = MANUAL.get(base, ('UNKNOWN', '', 'not in the archive'))
+            rows[(f, pg)] = ('UNKNOWN', '', 'not in the archive')
         elif base in MANUAL or not pages or not any(x.strip() for x in pages):
             rows[(f, pg)] = MANUAL.get(base, ('UNKNOWN', '', 'image or no text layer, not reviewed'))
         elif pg is None:
