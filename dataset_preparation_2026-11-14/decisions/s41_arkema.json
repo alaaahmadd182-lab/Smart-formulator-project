@@ -1,0 +1,239 @@
+{
+ "batch": "S41 Arkema (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "10 documents with provisional supplier Arkema",
+ "products": {
+  "ARKEMA:TPS_20": {
+   "name": "TPS 20",
+   "supplier": "Arkema Inc.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'TPS 20 Tertiaryalkyl Poly-sulfedes Ditertiododecyl Polysulfide; Sulfur Content (ASTM D4794) %wt 20-23; CAS/Appearance Clear Light Yellow Fluid'; EP/sulfur additive (synthetic origin); additive_component (EP additive)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ARKEMA:TPS_32": {
+   "name": "TPS 32",
+   "supplier": "Arkema Inc.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'TPS 32 Tertiaryalkyl Poly-sulfedes Dialkyl Penta-sulfide; Sulphur Content (Active) %wt 29-32 (23)'; EP/sulfur additive; additive_component",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ARKEMA:TPS_44": {
+   "name": "TPS 44",
+   "supplier": "Arkema Inc.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'TPS 44 Tertiaryalkyl Poly-sulfedes Dialkyl Tri-sulfide; Sulfur Content (ASTM D4794) %wt 42-46'; EP/sulfur additive; additive_component",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ARKEMA:VPS_11": {
+   "name": "VPS 11",
+   "supplier": "Arkema Inc.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'VPS 11 Vegetable Poly-sulfides Fatty Ester Triglyceride; Sulfur Content (Active) %wt >10 (<1)'; EP additive, renewable/vegetable-oil origin; additive_component",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ARKEMA:VPS_15": {
+   "name": "VPS 15",
+   "supplier": "Arkema Inc.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'VPS 15 Vegetable Poly-sulfides Fatty Ester Triglyceride; Sulfur Content (Active) %wt 14.5-16.0 (8)'; EP additive, renewable origin; additive_component",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ARKEMA:VPS_17": {
+   "name": "VPS 17",
+   "supplier": "Arkema Inc.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'VPS 17 Vegetable Poly-sulfides Fatty Ester Triglyceride; Sulfur Content (Active) %wt 16.0-18.0 (8)'; EP additive, renewable origin; additive_component",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  }
+ },
+ "documents": {
+  "bfbe2bc10a5d": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Arkema Inc.",
+   "products": [
+    "ARKEMA:TPS_20"
+   ],
+   "roles": {
+    "ARKEMA:TPS_20": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, chemical type, typical properties table",
+   "note": "'TPS 20'; 1pp TDS; Arkema EP sulfur additive",
+   "next_action": "",
+   "manufacturer": "Arkema Inc.",
+   "distributor": "",
+   "issuer": "Arkema Inc."
+  },
+  "f64497f6d4f1": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Arkema Inc.",
+   "products": [
+    "ARKEMA:TPS_32"
+   ],
+   "roles": {
+    "ARKEMA:TPS_32": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, chemical type, typical properties table",
+   "note": "'TPS 32'; 1pp TDS; Arkema EP sulfur additive",
+   "next_action": "",
+   "manufacturer": "Arkema Inc.",
+   "distributor": "",
+   "issuer": "Arkema Inc."
+  },
+  "96b2b1975a0c": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Arkema Inc.",
+   "products": [
+    "ARKEMA:TPS_44"
+   ],
+   "roles": {
+    "ARKEMA:TPS_44": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, chemical type, typical properties table",
+   "note": "'TPS 44'; 1pp TDS; Arkema EP sulfur additive",
+   "next_action": "",
+   "manufacturer": "Arkema Inc.",
+   "distributor": "",
+   "issuer": "Arkema Inc."
+  },
+  "946493e52804": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Arkema Inc.",
+   "products": [
+    "ARKEMA:VPS_11"
+   ],
+   "roles": {
+    "ARKEMA:VPS_11": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, chemical type, typical properties table",
+   "note": "'VPS 11'; 1pp TDS; Arkema EP sulfur additive",
+   "next_action": "",
+   "manufacturer": "Arkema Inc.",
+   "distributor": "",
+   "issuer": "Arkema Inc."
+  },
+  "6d43103e60e7": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Arkema Inc.",
+   "products": [
+    "ARKEMA:VPS_15"
+   ],
+   "roles": {
+    "ARKEMA:VPS_15": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, chemical type, typical properties table",
+   "note": "'VPS 15'; 1pp TDS; Arkema EP sulfur additive",
+   "next_action": "",
+   "manufacturer": "Arkema Inc.",
+   "distributor": "",
+   "issuer": "Arkema Inc."
+  },
+  "00ad91ffe9b9": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Arkema Inc.",
+   "products": [
+    "ARKEMA:VPS_17"
+   ],
+   "roles": {
+    "ARKEMA:VPS_17": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, chemical type, typical properties table",
+   "note": "'VPS 17'; 1pp TDS; Arkema EP sulfur additive",
+   "next_action": "",
+   "manufacturer": "Arkema Inc.",
+   "distributor": "",
+   "issuer": "Arkema Inc."
+  },
+  "b18b5cdacf06": {
+   "doc_type": "SDS",
+   "supplier": "Arkema Inc.",
+   "products": [
+    "ARKEMA:TPS_32"
+   ],
+   "roles": {
+    "ARKEMA:TPS_32": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: SDS header with product name and product code",
+   "note": "'TPS 32'; Arkema Inc., King of Prussia PA; 6–12pp GHS SDS",
+   "next_action": "",
+   "manufacturer": "Arkema Inc.",
+   "distributor": "",
+   "issuer": "Arkema Inc."
+  },
+  "ade4932914f2": {
+   "doc_type": "SDS",
+   "supplier": "Arkema Inc.",
+   "products": [
+    "ARKEMA:VPS_15"
+   ],
+   "roles": {
+    "ARKEMA:VPS_15": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: SDS header with product name and product code",
+   "note": "'VPS 15'; Arkema Inc., King of Prussia PA; 6–12pp GHS SDS",
+   "next_action": "",
+   "manufacturer": "Arkema Inc.",
+   "distributor": "",
+   "issuer": "Arkema Inc."
+  },
+  "b923519a3345": {
+   "doc_type": "SDS",
+   "supplier": "Arkema Inc.",
+   "products": [
+    "ARKEMA:VPS_11"
+   ],
+   "roles": {
+    "ARKEMA:VPS_11": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: SDS header with product name and product code",
+   "note": "'VPS 11'; Arkema Inc., King of Prussia PA; 6–12pp GHS SDS",
+   "next_action": "",
+   "manufacturer": "Arkema Inc.",
+   "distributor": "",
+   "issuer": "Arkema Inc."
+  },
+  "765d3a343b9d": {
+   "doc_type": "SDS",
+   "supplier": "Arkema Inc.",
+   "products": [
+    "ARKEMA:TPS_20"
+   ],
+   "roles": {
+    "ARKEMA:TPS_20": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: SDS header with product name and product code",
+   "note": "'TPS 20'; Arkema Inc., King of Prussia PA; 6–12pp GHS SDS",
+   "next_action": "",
+   "manufacturer": "Arkema Inc.",
+   "distributor": "",
+   "issuer": "Arkema Inc."
+  }
+ }
+}

@@ -1,10 +1,10 @@
-command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover -s tools/data_policy/tests -v
-cwd: C:\Users\windo\sf-wsA
-HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover -s tools/data_policy/tests -v
+cwd: C:\Users\User\FYP\Smart-formulator-project
+HEAD: 9575c7f305f2da3c51e12639c0f1358a197ead4e
 return code: 0
 expectation: zero + output matches '\\nOK'
 verdict: pass
-duration: 9.6 s
+duration: 12.9 s
 
 ===== stdout =====
 
@@ -29,184 +29,184 @@ test_every_lead_case_reviewed (test_data_policy.EvidenceReview.test_every_lead_c
 test_fills_cite_their_page_and_keep_sds_alternates (test_data_policy.EvidenceReview.test_fills_cite_their_page_and_keep_sds_alternates) ... ok
 test_formosa_identity_pending_not_fallback (test_data_policy.EvidenceReview.test_formosa_identity_pending_not_fallback) ... ok
 test_new_conflicts_recorded_unresolved (test_data_policy.EvidenceReview.test_new_conflicts_recorded_unresolved) ... ok
-test_preserved_and_evidence_bytes (test_data_policy.EvidenceReview.test_preserved_and_evidence_bytes) ... C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_compile.py'>
+test_preserved_and_evidence_bytes (test_data_policy.EvidenceReview.test_preserved_and_evidence_bytes) ... C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/audit_compile.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_crossdoc.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/audit_crossdoc.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_detect.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/audit_detect.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_docmap.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/audit_docmap.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_documented.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/audit_documented.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_lib.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/audit_lib.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_v3.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/audit_v3.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/audit_v4.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/audit_v4.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/check_final.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/check_final.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/gen_manifest.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/gen_manifest.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/gen_reports.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/gen_reports.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/gen_reports_v1.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/gen_reports_v1.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/gen_reports_v3.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/gen_reports_v3.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/gen_reports_v4.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/gen_reports_v4.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/index_pdfs.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/index_pdfs.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/candidates.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/candidates.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/comprehensive_conflicts_audit_v2_2026-10-27.csv'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/comprehensive_conflicts_audit_v2_2026-10-27.csv'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/comprehensive_conflicts_audit_v2_2026-10-27.md'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/comprehensive_conflicts_audit_v2_2026-10-27.md'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/corrections_v3.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/corrections_v3.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/corrections_v4.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/corrections_v4.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/crossdoc.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/crossdoc.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/docmap.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/docmap.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/documented.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/documented.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/findings.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/findings.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/findings_v3.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/findings_v3.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/findings_v4.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/findings_v4.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/old28.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/old28.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/qa_evidence.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/qa_evidence.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/recheck.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/recheck.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/verify_pc.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/verify_pc.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/intermediate/verify_soil.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/intermediate/verify_soil.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/qa_evidence.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/qa_evidence.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/recheck.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/recheck.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/verify_pc.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/verify_pc.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/audit/original_2026-10-27_to_30/verify_soil.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/audit/original_2026-10-27_to_30/verify_soil.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/corrections_2026-10-31/apply_corrections.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/corrections_2026-10-31/apply_corrections.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/corrections_2026-10-31/cmp_xlsx.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/corrections_2026-10-31/cmp_xlsx.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/corrections_2026-10-31/count_ash.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/corrections_2026-10-31/count_ash.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/corrections_2026-10-31/lubwords.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/corrections_2026-10-31/lubwords.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/corrections_2026-10-31/update_curated_log.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/corrections_2026-10-31/update_curated_log.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/corrections_2026-10-31/validate_corrections.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/corrections_2026-10-31/validate_corrections.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/integration_2026-10-24/log_section.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/integration_2026-10-24/log_section.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/integration_2026-10-24/resolve_json.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/integration_2026-10-24/resolve_json.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/integration_2026-10-24/validate.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/integration_2026-10-24/validate.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/maintenance_2026-10-31/backup_git_check.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/maintenance_2026-10-31/backup_git_check.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/maintenance_2026-10-31/gh_api.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/maintenance_2026-10-31/gh_api.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/maintenance_2026-10-31/org_inspect.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/maintenance_2026-10-31/org_inspect.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/maintenance_2026-10-31/org_verify.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/maintenance_2026-10-31/org_verify.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\tools/maintenance_2026-10-31/verify_remote_main.py'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\tools/maintenance_2026-10-31/verify_remote_main.py'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/PetroCanada_PURITY_LUB3213E_2023-03__wayback_20251215051152.pdf'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\reconciliation/audit_evidence/PetroCanada_PURITY_LUB3213E_2023-03__wayback_20251215051152.pdf'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/SOIL_LubeBaseOil_live_2026-10-30.html'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\reconciliation/audit_evidence/SOIL_LubeBaseOil_live_2026-10-30.html'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/SOIL_LubeBaseOil__wayback_20260610070302.html'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\reconciliation/audit_evidence/SOIL_LubeBaseOil__wayback_20260610070302.html'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/API_1509_21st_Edition_Annex_E.pdf'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\reconciliation/audit_evidence/API_1509_21st_Edition_Annex_E.pdf'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/CPChem_Synfluid_Dimer_C12_TDS__cpchem_2020-12.pdf'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\reconciliation/audit_evidence/CPChem_Synfluid_Dimer_C12_TDS__cpchem_2020-12.pdf'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/ADNOC_BaseOil_Spec_GroupII_GroupIII__wayback_20220815185412.pdf'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\reconciliation/audit_evidence/ADNOC_BaseOil_Spec_GroupII_GroupIII__wayback_20220815185412.pdf'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/PubChem_substance_synonyms_64742-54-7.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\reconciliation/audit_evidence/PubChem_substance_synonyms_64742-54-7.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/PubChem_substance_synonyms_64742-55-8.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\reconciliation/audit_evidence/PubChem_substance_synonyms_64742-55-8.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/Afton_HiTEC-5748_PDS_05-23__wayback_20241005085229.pdf'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\reconciliation/audit_evidence/Afton_HiTEC-5748_PDS_05-23__wayback_20241005085229.pdf'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/Afton_HiTEC-5748_PDS_07-11__wayback_20120503020512.pdf'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\reconciliation/audit_evidence/Afton_HiTEC-5748_PDS_07-11__wayback_20120503020512.pdf'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
-C:\Users\windo\sf-wsA\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\windo\\sf-wsA\\reconciliation/audit_evidence/Richful_productId105__api_2026-10-30.json'>
+C:\Users\User\FYP\Smart-formulator-project\tools\data_policy\verify_preserved.py:60: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\User\\FYP\\Smart-formulator-project\\reconciliation/audit_evidence/Richful_productId105__api_2026-10-30.json'>
   wt = open(full, 'rb').read() if os.path.exists(full) else None
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
 ok
@@ -252,7 +252,7 @@ test_selection_and_exact_provenance (test_data_policy.TechnicalSelectionKeepsDis
 test_selection_mechanism_never_marks_a_conflict_resolved (test_data_policy.TechnicalSelectionKeepsDisagreement.test_selection_mechanism_never_marks_a_conflict_resolved) ... ok
 
 ----------------------------------------------------------------------
-Ran 61 tests in 9.229s
+Ran 61 tests in 12.609s
 
 OK
 

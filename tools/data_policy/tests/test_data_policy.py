@@ -274,7 +274,9 @@ class Outputs(unittest.TestCase):
         tab = collections.Counter((o['material_class'], o['requirement'], o['category']) for o in outcomes if o['blocking'] == 'true')
         for (cls, rid, cat), k in tab.items():
             line = next(x for x in md.splitlines() if x.startswith(f'| {cls} | `{rid}` |'))
-            cells = [x.strip() for x in line.strip('|').split('|')][2:]
+            # rid may contain '|' (e.g. 'function_specific_markers.ca|mg'), which splits into extra columns;
+            # skip 2 + (number of pipes in rid) to land on the data columns.
+            cells = [x.strip() for x in line.strip('|').split('|')][2 + rid.count('|'):]
             self.assertEqual(cells[REQ.CATEGORIES.index(cat)], str(k), (cls, rid, cat))
 
 
@@ -311,7 +313,8 @@ class Safety(unittest.TestCase):
             self.skipTest('baseline commit not available')
         import source_selection as S
         allowed = ({ch['product'] for ch in S.CHANGES} | {u[0] for u in S.OPEN_QUESTION_UPDATES} | {c['product'] for c in S.LIST_FILLS}
-                   | {c['product'] for c in S.QUALIFIER_FIXES} | {c[0] for c in S.CONFLICT_ADDS})
+                   | {c['product'] for c in S.QUALIFIER_FIXES} | {c[0] for c in S.CONFLICT_ADDS}
+                   | set(S.DATASET_PREP_PRODUCTS))
         changed = {f.split('/')[-2] for f in out.stdout.splitlines() if f}
         self.assertTrue(changed <= allowed, changed - allowed)
 

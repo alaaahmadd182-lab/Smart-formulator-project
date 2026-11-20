@@ -1,0 +1,274 @@
+{
+ "batch": "S33 NYCO (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "13 documents with provisional supplier NYCO",
+ "products": {
+  "NYCO:NYCOBASE_20798": {
+   "name": "NYCOBASE 20798",
+   "supplier": "NYCO S.A.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'NYCOBASE 20798 TRIMETHYLOLPROPANE ESTER'; TDS ref TDS_NB20798-1E2; synthetic polyol ester base stock for compressor / aviation lubricants; ester: base fluid vs additive_component to confirm; no API group in the template",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "NYCO:NYCOBASE_5750": {
+   "name": "NYCOBASE 5750",
+   "supplier": "NYCO S.A.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'NYCOBASE 5750 PENTAERYTHRITOL ESTER'; synthetic polyol ester base stock for compressor / aviation lubricants; ester: base fluid vs additive_component to confirm; no API group in the template",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "NYCO:NYCOBASE_7300": {
+   "name": "NYCOBASE 7300",
+   "supplier": "NYCO S.A.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'NYCOBASE 7300 TRIMETHYLOLPROPANE ESTER'; TDS ref TDS_NB7300-1E10; x2 copies in archive; synthetic polyol ester base stock for compressor / aviation lubricants; ester: base fluid vs additive_component to confirm; no API group in the template",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "NYCO:NYCOBASE_8103": {
+   "name": "NYCOBASE 8103",
+   "supplier": "NYCO S.A.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'NYCOBASE 8103 TRIMETHYLOLPROPANE ESTER'; TDS ref TDS_NB8103-1E12; synthetic polyol ester base stock for compressor / aviation lubricants; ester: base fluid vs additive_component to confirm; no API group in the template",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "NYCO:NYCOBASE_8851": {
+   "name": "NYCOBASE 8851",
+   "supplier": "NYCO S.A.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'NYCOBASE 8851 TRIMETHYLOLPROPANE COMPLEX ESTER'; TDS ref TDS_NB8851-1E6; synthetic polyol ester base stock for compressor / aviation lubricants; ester: base fluid vs additive_component to confirm; no API group in the template",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "NYCO:NYCOBASE_9680X": {
+   "name": "NYCOBASE 9680X",
+   "supplier": "NYCO S.A.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'NYCOBASE 9680X HIGH TEMPERATURE NEOPOLYOL ESTER'; TDS ref TDS_NB9680X-1E2; 2pp; synthetic polyol ester base stock for compressor / aviation lubricants; ester: base fluid vs additive_component to confirm; no API group in the template",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "ac79e222827b": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "NYCO S.A.",
+   "products": [
+    "NYCO:NYCOBASE_20798"
+   ],
+   "roles": {
+    "NYCO:NYCOBASE_20798": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, ester type, typical data)",
+   "note": "1pp; NYCO Technical Data Sheet",
+   "next_action": "",
+   "manufacturer": "NYCO S.A.",
+   "distributor": "",
+   "issuer": "NYCO S.A."
+  },
+  "a883d8265bd3": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "NYCO S.A.",
+   "products": [
+    "NYCO:NYCOBASE_8103"
+   ],
+   "roles": {
+    "NYCO:NYCOBASE_8103": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, ester type, typical data)",
+   "note": "1pp; NYCO Technical Data Sheet",
+   "next_action": "",
+   "manufacturer": "NYCO S.A.",
+   "distributor": "",
+   "issuer": "NYCO S.A."
+  },
+  "6b44cc3c613a": {
+   "doc_type": "product range reference (properties table)",
+   "supplier": "NYCO S.A.",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "page text: multi-product NYCOBASE properties table",
+   "note": "'NYCOBASE® PROPERTIES PRODUCT REFERENCE Chemical description...'; table listing all NYCOBASE grades with kV40, kV100, VI, density, PP, FP, Noack, iodine, saponification numbers; x2 copies; 8pp (longer edition)",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "NYCO S.A."
+  },
+  "0dd72d01c212": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "NYCO S.A.",
+   "products": [
+    "NYCO:NYCOBASE_7300"
+   ],
+   "roles": {
+    "NYCO:NYCOBASE_7300": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, ester type, typical data)",
+   "note": "1pp; NYCO Technical Data Sheet",
+   "next_action": "",
+   "manufacturer": "NYCO S.A.",
+   "distributor": "",
+   "issuer": "NYCO S.A."
+  },
+  "83f04c4009a0": {
+   "doc_type": "product range reference (properties table)",
+   "supplier": "NYCO S.A.",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "page text: multi-product NYCOBASE properties table",
+   "note": "'NYCOBASE® PROPERTIES PRODUCT REFERENCE Chemical description...'; table listing all NYCOBASE grades with kV40, kV100, VI, density, PP, FP, Noack, iodine, saponification numbers; 2pp (shorter edition)",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "NYCO S.A."
+  },
+  "ff7e7b959ae8": {
+   "doc_type": "application technical guide",
+   "supplier": "NYCO S.A.",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "page-1 text (product selection guide for compressor oils using NYCOBASE esters)",
+   "note": "'PRODUCT SELECTION FOR AIR COMPRESSOR OILS'; 5pp; discusses neopolyol ester advantages for compressor oil formulation; mentions NYCOBASE products as examples; no specific product as subject",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "NYCO S.A."
+  },
+  "87ba51b075e7": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "NYCO S.A.",
+   "products": [
+    "NYCO:NYCOBASE_5750"
+   ],
+   "roles": {
+    "NYCO:NYCOBASE_5750": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, ester type, typical data)",
+   "note": "1pp; NYCO Technical Data Sheet",
+   "next_action": "",
+   "manufacturer": "NYCO S.A.",
+   "distributor": "",
+   "issuer": "NYCO S.A."
+  },
+  "df6c985cbb37": {
+   "doc_type": "SDS",
+   "supplier": "NYCO S.A.",
+   "products": [
+    "NYCO:NYCOBASE_5750"
+   ],
+   "roles": {
+    "NYCO:NYCOBASE_5750": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, test results)",
+   "note": "'No legal obligation to provide SDS for this substance'; 'Date of issue: 04/10/2012 Revision date: 10/04/2018 Version: 4.1'; 5pp",
+   "next_action": "",
+   "manufacturer": "NYCO S.A.",
+   "distributor": "",
+   "issuer": "NYCO S.A."
+  },
+  "1f0faeb84288": {
+   "doc_type": "application technical guide",
+   "supplier": "NYCO S.A.",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "page-1 text (product selection guide for compressor oils using NYCOBASE esters)",
+   "note": "'PRODUCT SELECTION FOR COMPRESSOR OILS'; 5pp; discusses neopolyol ester advantages for compressor oil formulation; mentions NYCOBASE products as examples; no specific product as subject",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "NYCO S.A."
+  },
+  "41393b1f7db4": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "NYCO S.A.",
+   "products": [
+    "NYCO:NYCOBASE_5750"
+   ],
+   "roles": {
+    "NYCO:NYCOBASE_5750": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, test results)",
+   "note": "'CERTIFICATE OF ANALYSIS CUSTOMER: RENEWABLE ENERGY FZE BATCH N°5012101160 ORDER EMAIL 12/03/2021'; 1pp",
+   "next_action": "",
+   "manufacturer": "NYCO S.A.",
+   "distributor": "",
+   "issuer": "NYCO S.A."
+  },
+  "b5a09e29357b": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "NYCO S.A.",
+   "products": [
+    "NYCO:NYCOBASE_7300"
+   ],
+   "roles": {
+    "NYCO:NYCOBASE_7300": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, test results)",
+   "note": "'CERTIFICATE OF ANALYSIS'; kV100 3.42 cSt (spec 3.10-3.70), Density 0.959 kg/dm³; 1pp",
+   "next_action": "",
+   "manufacturer": "NYCO S.A.",
+   "distributor": "",
+   "issuer": "NYCO S.A."
+  },
+  "1f3bdc6c7225": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "NYCO S.A.",
+   "products": [
+    "NYCO:NYCOBASE_9680X"
+   ],
+   "roles": {
+    "NYCO:NYCOBASE_9680X": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, ester type, typical data)",
+   "note": "2pp; NYCO Technical Data Sheet",
+   "next_action": "",
+   "manufacturer": "NYCO S.A.",
+   "distributor": "",
+   "issuer": "NYCO S.A."
+  },
+  "a60aecac8a4c": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "NYCO S.A.",
+   "products": [
+    "NYCO:NYCOBASE_8851"
+   ],
+   "roles": {
+    "NYCO:NYCOBASE_8851": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, ester type, typical data)",
+   "note": "1pp; NYCO Technical Data Sheet",
+   "next_action": "",
+   "manufacturer": "NYCO S.A.",
+   "distributor": "",
+   "issuer": "NYCO S.A."
+  }
+ }
+}

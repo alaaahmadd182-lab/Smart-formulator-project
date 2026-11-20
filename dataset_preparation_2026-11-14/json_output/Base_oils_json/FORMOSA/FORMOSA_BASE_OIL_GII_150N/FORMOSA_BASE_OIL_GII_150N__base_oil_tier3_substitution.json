@@ -1,0 +1,182 @@
+{
+  "template_version": "1.1",
+  "material_class": "base_oil",
+  "tier": 3,
+  "tier_label": "Substitution justification - only when swapping a stock",
+  "record_id": "FORMOSA_BASE_OIL_GII_150N",
+  "product": {
+    "product_id": "BASE_OIL_GII_150N",
+    "material_id": "FORMOSA:BASE_OIL_GII_150N",
+    "product_name": "Formosa Petrochemical Group II 150N",
+    "supplier": "Formosa Petrochemical"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-14076.pdf",
+      "pages": "",
+      "doc_type": "certificate of quality (CoQ), product specification",
+      "revision_date": "2020-01-17",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "sulfur": {
+      "value": null,
+      "qualifier": "<=",
+      "min": null,
+      "max": 10,
+      "value_kind": "bound",
+      "printed_text": "SULFUR, PPM: 10 MAX (spec)",
+      "unit": "ppm",
+      "test_temperature_c": null,
+      "method": "ASTM D2622",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14076.pdf",
+        "page": 1,
+        "revision_date": "2020-01-17"
+      },
+      "notes": "unit is ppm (not wt%); 10 ppm max = 0.001 wt% max; Group II/III threshold",
+      "alternate_entries": [
+        {
+          "value": 1.4,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "report-only",
+          "printed_text": "SULFUR, PPM: 1.4",
+          "unit": "ppm",
+          "test_temperature_c": null,
+          "method": "ASTM D2622",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14076.pdf",
+            "page": 1,
+            "revision_date": "2020-01-17"
+          },
+          "notes": "batch result; spec 10 MAX; unit is ppm (1 ppm = 0.0001 wt%)"
+        }
+      ]
+    },
+    "saturates": {
+      "value": null,
+      "qualifier": ">=",
+      "min": 99,
+      "max": null,
+      "value_kind": "bound",
+      "printed_text": "SATURATES, WT%: 99 MIN (spec)",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D7419",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14076.pdf",
+        "page": 1,
+        "revision_date": "2020-01-17"
+      },
+      "notes": "spec appears in footnote area of CoQ due to OCR layout; not in main spec column",
+      "alternate_entries": [
+        {
+          "value": 99.8,
+          "qualifier": ">",
+          "min": null,
+          "max": null,
+          "value_kind": "report-only",
+          "printed_text": "SATURATES, WT%: >99.80",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": "ASTM D7419",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14076.pdf",
+            "page": 1,
+            "revision_date": "2020-01-17"
+          },
+          "notes": "batch result printed as \">99.80\"; spec 99 MIN"
+        }
+      ]
+    },
+    "aromatics": {
+      "value": null,
+      "qualifier": "<=",
+      "min": null,
+      "max": 1,
+      "value_kind": "bound",
+      "printed_text": "AROMATICS, WT%: 1 MAX (spec)",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D7419",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14076.pdf",
+        "page": 1,
+        "revision_date": "2020-01-17"
+      },
+      "notes": "spec appears in footnote area of CoQ due to OCR layout; not in main spec column",
+      "alternate_entries": [
+        {
+          "value": 0.2,
+          "qualifier": "<",
+          "min": null,
+          "max": null,
+          "value_kind": "report-only",
+          "printed_text": "AROMATICS, WT%: <0.20",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": "ASTM D7419",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14076.pdf",
+            "page": 1,
+            "revision_date": "2020-01-17"
+          },
+          "notes": "batch result printed as \"<0.20\"; spec 1 MAX"
+        }
+      ]
+    },
+    "cloud_point": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; cloud point not in CoQ specification",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "wax_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; wax content not in CoQ specification",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}

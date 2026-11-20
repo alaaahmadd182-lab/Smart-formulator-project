@@ -1,0 +1,593 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "KINGINDUSTRIES_NA_SUL_BSN",
+  "product": {
+    "product_id": "NA_SUL_BSN",
+    "material_id": "KINGINDUSTRIES:NA_SUL_BSN",
+    "product_name": "NA-SUL BSN",
+    "supplier": "King Industries, Inc."
+  },
+  "source_documents": [
+    {
+      "file": "DL2-12347.pdf",
+      "pages": "",
+      "doc_type": "product data sheet (TDS/PDS), typical properties table",
+      "revision_date": "",
+      "notes": ""
+    },
+    {
+      "file": "DL2-14395.pdf",
+      "pages": "",
+      "doc_type": "certificate of analysis (CoA), batch result",
+      "revision_date": "2019-10-03",
+      "notes": ""
+    }
+  ],
+  "component_subtype": null,
+  "fields": {
+    "function": {
+      "primary": {
+        "value": "NA-SUL BSN is a premium non-staining rust inhibitor for petroleum and synthetic lubricants, greases, rust preventive fluids and metalworking specialties.",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12347.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      "secondary": {
+        "value": "It provides excellent demulsibility and resistance to the negative effects of water.",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12347.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": "demulsibility and water resistance stated as key features alongside rust inhibition"
+      }
+    },
+    "chemical_family": {
+      "value": "Neutral barium dinonylnaphthalenesulfonate in light mineral oil.",
+      "status": "Reported",
+      "source": {
+        "file": "DL2-12347.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "from \"CHEMICAL COMPOSITION\" section; active component is Ba-DNNSA; carrier stated as light mineral oil"
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; % active (Ba-DNNSA concentrate) not stated in PDS; CoA reports % Sulfonate (51.4% actual, spec 50.0-52.0%) but this is sulfonate mass fraction, not \"active content\" in the template sense",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "carrier": {
+      "identity": {
+        "value": "Neutral barium dinonylnaphthalenesulfonate in light mineral oil.",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12347.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": "carrier identified as \"light mineral oil\" in chemical composition"
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; wt% of light mineral oil diluent not stated in PDS or CoA",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "treat_rate": {
+      "value": null,
+      "qualifier": null,
+      "min": 1,
+      "max": 15,
+      "value_kind": "range",
+      "printed_text": "Oil & Solvent Based Rust Preventive Fluids: 1.00% - 15.0%",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12347.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "alternate_entries": [
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 0.05,
+          "max": 0.5,
+          "value_kind": "range",
+          "printed_text": "Hydraulic Fluids: 0.05% - 0.5%",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12347.pdf",
+            "page": 1,
+            "revision_date": null
+          }
+        },
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 0.05,
+          "max": 1,
+          "value_kind": "range",
+          "printed_text": "Circulating Oils: 0.05% - 1.0%",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12347.pdf",
+            "page": 1,
+            "revision_date": null
+          }
+        },
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 0.1,
+          "max": 0.5,
+          "value_kind": "range",
+          "printed_text": "Compressor Oils: 0.10% - 0.5%",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12347.pdf",
+            "page": 1,
+            "revision_date": null
+          }
+        },
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 0.25,
+          "max": 1,
+          "value_kind": "range",
+          "printed_text": "Paper Machine Oils: 0.25% - 1.0%",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12347.pdf",
+            "page": 1,
+            "revision_date": null
+          }
+        },
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 0.1,
+          "max": 0.5,
+          "value_kind": "range",
+          "printed_text": "Way Lubricants: 0.10% - 0.5%",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12347.pdf",
+            "page": 1,
+            "revision_date": null
+          }
+        },
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 0.5,
+          "max": 3,
+          "value_kind": "range",
+          "printed_text": "Greases: 0.50% - 3.0%",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12347.pdf",
+            "page": 1,
+            "revision_date": null
+          }
+        },
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 0.1,
+          "max": 1,
+          "value_kind": "range",
+          "printed_text": "Industrial and Automotive Gear Oils: 0.10% - 1.0%",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12347.pdf",
+            "page": 1,
+            "revision_date": null
+          }
+        }
+      ]
+    },
+    "compatibility_restrictions": {
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "Reported",
+      "notes": "compatible with a wide range of additives and base oils",
+      "source": {
+        "file": "DL2-12347.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mg KOH/g",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; TBN not stated in PDS or CoA (Ba-DNNSA is neutral — TBN near zero is expected but not printed)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    }
+  },
+  "open_questions": [
+    {
+      "property": "barium",
+      "printed_text": "Barium Content: 6.6%",
+      "notes": "from \"TYPICAL PROPERTIES\"; noted \"not specifications\"; Ba not in function_specific_markers",
+      "source": {
+        "file": "DL2-12347.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "barium",
+      "printed_text": "BARIUM CONTENT, %: ACTUAL 6.65",
+      "notes": "CoA lot 9A625 batch result; MFG 2019-10-03",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    },
+    {
+      "property": "barium",
+      "printed_text": "BARIUM CONTENT, %: MIN 6.50  MAX 6.80",
+      "notes": "CoA product specification bounds",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    },
+    {
+      "property": "kv40",
+      "printed_text": "Viscosity @ 40°C: 2100 mm2/s (cSt)",
+      "notes": "from \"TYPICAL PROPERTIES\"; noted \"not specifications\"",
+      "source": {
+        "file": "DL2-12347.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "kv100",
+      "printed_text": "Viscosity @ 100°C: 53 mm2/s (cSt)",
+      "notes": "from \"TYPICAL PROPERTIES\"; noted \"not specifications\"",
+      "source": {
+        "file": "DL2-12347.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "kv100",
+      "printed_text": "VISCOSITY, CST @ 100°C: ACTUAL 59.8",
+      "notes": "CoA lot 9A625 batch result; higher than TDS typical (53 vs 59.8) — both within spec 47-61",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    },
+    {
+      "property": "kv100",
+      "printed_text": "VISCOSITY, CST @ 100°C: MIN 47.0  MAX 61.0",
+      "notes": "CoA product specification bounds",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    },
+    {
+      "property": "density",
+      "printed_text": "Density @ 15.6°C: 1.02 g/ml",
+      "notes": "from \"TYPICAL PROPERTIES\"; noted \"not specifications\"; temperature 15.6°C",
+      "source": {
+        "file": "DL2-12347.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "specific_gravity",
+      "printed_text": "SPECIFIC GRAVITY, 15.6°C: ACTUAL 1.015",
+      "notes": "CoA lot 9A625 batch result; slightly lower than TDS density 1.02 (different batches, both \"> 1\" consistent with Ba-DNNSA in mineral oil)",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    },
+    {
+      "property": "specific_gravity",
+      "printed_text": "SPECIFIC GRAVITY, 15.6°C: MIN 1.010  MAX 1.030",
+      "notes": "CoA product specification bounds",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    },
+    {
+      "property": "flash_point",
+      "printed_text": "Flash Point, COC: 165°C (329°F)",
+      "notes": "from \"TYPICAL PROPERTIES\"; noted \"not specifications\"",
+      "source": {
+        "file": "DL2-12347.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "flash_point",
+      "printed_text": "FLASH POINT, COC, °C: ACTUAL 180",
+      "notes": "CoA lot 9A625 batch result; higher than TDS typical 165°C (batch result vs typical; both > spec min 160°C)",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    },
+    {
+      "property": "flash_point",
+      "printed_text": "FLASH POINT, COC, °C: MIN 160",
+      "notes": "CoA product spec lower bound; no upper bound stated",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    },
+    {
+      "property": "sulfonate_content",
+      "printed_text": "% SULFONATE: ACTUAL 51.4",
+      "notes": "CoA lot 9A625 batch result; sulfonate mass fraction of product",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    },
+    {
+      "property": "sulfonate_content",
+      "printed_text": "% SULFONATE: MIN 50.0  MAX 52.0",
+      "notes": "CoA product specification bounds",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    },
+    {
+      "property": "moisture_content",
+      "printed_text": "MOISTURE CONTENT, %: ACTUAL 0.2",
+      "notes": "CoA lot 9A625 batch result",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    },
+    {
+      "property": "moisture_content",
+      "printed_text": "MOISTURE CONTENT, %: MIN 0  MAX 0.4",
+      "notes": "CoA product specification bounds",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    },
+    {
+      "property": "neutralization_number",
+      "printed_text": "NEUTRALIZATION NO.: ACTUAL 0.2",
+      "notes": "CoA lot 9A625 batch result; KI-203 is a King Industries internal method; not equivalent to TBN (ASTM D2896)",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    },
+    {
+      "property": "neutralization_number",
+      "printed_text": "NEUTRALIZATION NO.: MIN 0.0  MAX 1.0",
+      "notes": "CoA product specification bounds",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    },
+    {
+      "property": "color",
+      "printed_text": "COLOR, DILUTE: ACTUAL 4.0",
+      "notes": "CoA lot 9A625 batch result; dilute solution color",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    },
+    {
+      "property": "color",
+      "printed_text": "COLOR, DILUTE: MAX 6.0",
+      "notes": "CoA product spec upper bound",
+      "source": {
+        "file": "DL2-14395.pdf",
+        "page": 1,
+        "revision_date": "2019-10-03"
+      }
+    }
+  ],
+  "conflicts": []
+}

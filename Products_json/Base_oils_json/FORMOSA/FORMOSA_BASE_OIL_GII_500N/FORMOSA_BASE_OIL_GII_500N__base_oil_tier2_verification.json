@@ -1,0 +1,164 @@
+{
+  "template_version": "1.1",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "FORMOSA_BASE_OIL_GII_500N",
+  "product": {
+    "product_id": "BASE_OIL_GII_500N",
+    "material_id": "FORMOSA:BASE_OIL_GII_500N",
+    "product_name": "Formosa Petrochemical Group II 500N",
+    "supplier": "Formosa Petrochemical"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-14080.pdf",
+      "pages": "",
+      "doc_type": "certificate of quality (CoQ), batch test result",
+      "revision_date": "2020-01-18",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": 17.86,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "report-only",
+      "printed_text": "NOACK, WT%: 17.86",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": "ASTM D5800B",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14080.pdf",
+        "page": 1,
+        "revision_date": "2020-01-18"
+      },
+      "notes": "CoQ spec column says \"REPORT\" (no limit); value is batch result"
+    },
+    "flash_point": {
+      "value": null,
+      "qualifier": ">=",
+      "min": 230,
+      "max": null,
+      "value_kind": "bound",
+      "printed_text": "FLASH POINT, °C: 230 MIN (spec)",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14080.pdf",
+        "page": 1,
+        "revision_date": "2020-01-18"
+      },
+      "alternate_entries": [
+        {
+          "value": 248,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "report-only",
+          "printed_text": "FLASH POINT, °C: 248",
+          "unit": "°C",
+          "test_temperature_c": null,
+          "method": "ASTM D92",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14080.pdf",
+            "page": 1,
+            "revision_date": "2020-01-18"
+          },
+          "notes": "batch result; spec 230 MIN"
+        }
+      ]
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": "<=",
+      "min": null,
+      "max": -12,
+      "value_kind": "bound",
+      "printed_text": "POUR POINT, °C: -12 MAX (spec)",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D5950",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-14080.pdf",
+        "page": 1,
+        "revision_date": "2020-01-18"
+      },
+      "alternate_entries": [
+        {
+          "value": -29,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "report-only",
+          "printed_text": "POUR POINT, °C: -29",
+          "unit": "°C",
+          "test_temperature_c": null,
+          "method": "ASTM D5950",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14080.pdf",
+            "page": 1,
+            "revision_date": "2020-01-18"
+          },
+          "notes": "batch result; spec -12 MAX"
+        }
+      ]
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}

@@ -1,0 +1,168 @@
+{
+ "batch": "S48 FRAGOL (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "7 documents with provisional supplier FRAGOL",
+ "products": {
+  "FRAGOL:FRAGOLTHERM_HT": {
+   "name": "FRAGOLTHERM HT",
+   "supplier": "FRAGOL",
+   "material_class": "out_of_template (heat transfer fluid — no lubricant template)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'FRAGOLTHERM® HT Heat Transfer Fluid 0°C to 350°C'; CAS 53585-53-8, Dibenzylbenzene ar-methyl derivative; EC 258-649-2; heat transfer fluid, synthetic type; operating range 0 to 350°C; out_of_template (no lubricant component template)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "FRAGOL:FRAGOLTHERM_660": {
+   "name": "FRAGOLTHERM 660",
+   "supplier": "FRAGOL",
+   "material_class": "out_of_template (heat transfer fluid — no lubricant template)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'FRAGOLTHERM® 660 Heat Transfer Fluid'; CAS 61788-32-7, Terphenyl hydrogenated; EC 262-967-7; REACH registration 01-2119488183-33-xxxx; heat transfer fluid; out_of_template (no lubricant component template)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "FRAGOL:FRAGOLTHERM_DPO": {
+   "name": "FRAGOLTHERM DPO",
+   "supplier": "FRAGOL",
+   "material_class": "out_of_template (heat transfer fluid — no lubricant template)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'FRAGOLTHERM® DPO'; diphenyl oxide type heat transfer fluid; operating range 12 to 400°C; out_of_template (no lubricant component template)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "FRAGOL:FRAGOLTHERM_550": {
+   "name": "FRAGOLTHERM 550",
+   "supplier": "FRAGOL",
+   "material_class": "out_of_template (heat transfer fluid — no lubricant template)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'FRAGOLTHERM® 550 Heat Transfer Fluid -10°C to 315°C'; heat transfer fluid; out_of_template (no lubricant component template)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "771495801b6e": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "FRAGOL",
+   "products": [
+    "FRAGOL:FRAGOLTHERM_HT"
+   ],
+   "roles": {
+    "FRAGOL:FRAGOLTHERM_HT": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name and operating range",
+   "note": "2pp; 'FRAGOLTHERM® HT Heat Transfer Fluid'; synthetic heat transfer fluid; operating range 0°C to 350°C; Dibenzylbenzene ar-methyl derivative; CAS 53585-53-8",
+   "next_action": "",
+   "manufacturer": "FRAGOL AG",
+   "distributor": "",
+   "issuer": "FRAGOL AG"
+  },
+  "81518e203757": {
+   "doc_type": "SDS",
+   "supplier": "FRAGOL",
+   "products": [
+    "FRAGOL:FRAGOLTHERM_660"
+   ],
+   "roles": {
+    "FRAGOL:FRAGOLTHERM_660": "subject"
+   },
+   "relation": "product",
+   "read": "section 1: product identifier and supplier for FRAGOLTHERM 660",
+   "note": "14pp; REACH SDS; 'Trade name FRAGOLTHERM 660'; CAS 61788-32-7, Terphenyl hydrogenated; REACH 01-2119488183-33-xxxx; issued by FRAGOL AG, Mülheim",
+   "next_action": "",
+   "manufacturer": "FRAGOL AG",
+   "distributor": "",
+   "issuer": "FRAGOL AG"
+  },
+  "f9f4fa39f02b": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "FRAGOL",
+   "products": [
+    "FRAGOL:FRAGOLTHERM_DPO"
+   ],
+   "roles": {
+    "FRAGOL:FRAGOLTHERM_DPO": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 and page-2 text: product name, description and properties",
+   "note": "3pp; 'FRAGOLTHERM® DPO'; diphenyl oxide heat transfer fluid; operating range 12°C to 400°C; thermal stability up to 400°C",
+   "next_action": "",
+   "manufacturer": "FRAGOL AG",
+   "distributor": "",
+   "issuer": "FRAGOL AG"
+  },
+  "c94ff2292c90": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "FRAGOL",
+   "products": [
+    "FRAGOL:FRAGOLTHERM_HT"
+   ],
+   "roles": {
+    "FRAGOL:FRAGOLTHERM_HT": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name and brief description",
+   "note": "2pp; 'FRAGOLTHERM® HT'; same product as DL2-13178 (771495801b); possibly an older or alternate edition of the HT TDS",
+   "next_action": "",
+   "manufacturer": "FRAGOL AG",
+   "distributor": "",
+   "issuer": "FRAGOL AG"
+  },
+  "7c1663465740": {
+   "doc_type": "SDS",
+   "supplier": "FRAGOL",
+   "products": [
+    "FRAGOL:FRAGOLTHERM_HT"
+   ],
+   "roles": {
+    "FRAGOL:FRAGOLTHERM_HT": "subject"
+   },
+   "relation": "product",
+   "read": "section 1: product identifier — FRAGOLTHERM HT; Dibenzylbenzene ar-methyl derivative",
+   "note": "11pp; 'Trade name FRAGOLTHERM HT'; CAS 53585-53-8, Dibenzylbenzene ar-methyl derivative; EC 258-649-2; REACH 01-2119488667-17-xxxx; issued by FRAGOL AG",
+   "next_action": "",
+   "manufacturer": "FRAGOL AG",
+   "distributor": "",
+   "issuer": "FRAGOL AG"
+  },
+  "9c80fcbdd49b": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "FRAGOL",
+   "products": [
+    "FRAGOL:FRAGOLTHERM_550"
+   ],
+   "roles": {
+    "FRAGOL:FRAGOLTHERM_550": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, operating range",
+   "note": "2pp; 'FRAGOLTHERM® 550 Heat Transfer Fluid'; operating range -10°C to 315°C",
+   "next_action": "",
+   "manufacturer": "FRAGOL AG",
+   "distributor": "",
+   "issuer": "FRAGOL AG"
+  },
+  "e3f3c66a6089": {
+   "doc_type": "SDS",
+   "supplier": "FRAGOL",
+   "products": [
+    "FRAGOL:FRAGOLTHERM_660"
+   ],
+   "roles": {
+    "FRAGOL:FRAGOLTHERM_660": "subject"
+   },
+   "relation": "product",
+   "read": "section 1: product identifier and supplier for FRAGOLTHERM 660",
+   "note": "19pp; older MSDS edition (pre-2015 format, no REACH registration number); 'Trade name FRAGOLTHERM 660'; CAS 61788-32-7, Terphenyl hydrogenated; EC 262-967-7; issued by FRAGOL AG; htf@fragol.de; see also DL2-13179 (81518e2037) for the newer 14pp REACH SDS",
+   "next_action": "",
+   "manufacturer": "FRAGOL AG",
+   "distributor": "",
+   "issuer": "FRAGOL AG"
+  }
+ }
+}

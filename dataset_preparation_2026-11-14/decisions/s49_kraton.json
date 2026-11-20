@@ -1,0 +1,184 @@
+{
+ "batch": "S49 Kraton (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "7 documents with provisional supplier Kraton",
+ "products": {
+  "KRATON:G1701_E": {
+   "name": "Kraton G1701 E",
+   "supplier": "Kraton",
+   "material_class": "unresolved (additive_component or out_of_template — oil gel / lubricant use noted but unclear)",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Kraton G1701 E is a clear linear diblock copolymer based on styrene and ethylene/propylene, S-E/P, with bound styrene of 35% mass; used in formulating adhesives and coatings, as base material for compound formulations, as a modifier of thermoplastics and as base material for oil gel applications'; material class unresolved: 'oil gel applications' implies potential lubricant VII use, but primary stated market is adhesives/thermoplastics; needs template and evidence review",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "KRATON:G1701_M": {
+   "name": "Kraton G1701 M",
+   "supplier": "Kraton",
+   "material_class": "out_of_template (adhesive/bitumen/polymer modifier — no lubricant application stated)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'Kraton G1701 M is a clear, linear diblock copolymer based on styrene and ethylene/propylene with a polystyrene content of 37%; used as a modifier of bitumen and polymers; also suitable as an ingredient in formulating compounds for footwear applications and may be used in formulating adhesives, sealants, and coatings'; no lubricant application stated → out_of_template",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "KRATON:G1702_H": {
+   "name": "Kraton G1702 H",
+   "supplier": "Kraton",
+   "material_class": "out_of_template (adhesive/bitumen/polymer modifier — no lubricant application stated)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'Kraton G1702 H'; S-E/P diblock; used for adhesives, sealants, coatings, bitumen/asphalt modifier; no lubricant application stated → out_of_template (adhesive/bitumen/polymer modifier)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "KRATON:G1750_V": {
+   "name": "Kraton G1750 V",
+   "supplier": "Kraton",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Kraton G1750 V is a clear, multi-arm polymer based on ethylene/propylene; supplied from Taiwan as a bale'; CoA (DL2-15680) tests kV100 at 1.70%w in oil = 11.8–14.1 cSt range, result 13.1 cSt — standard lubricant VII test method; star polymer SEBS structure; additive_component (VM, star polymer)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KRATON:G1765": {
+   "name": "Kraton G1765",
+   "supplier": "Kraton",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: SDS (DL2-15681) covers 'G1750, G1765' together under 'Kraton G Polymers (EP and EP OE)'; EP OE designation = ethylene/propylene oil-extended star polymer; co-listed with G1750 V in SDS → same polymer class; additive_component (VM, star polymer oil-extended variant); no separate TDS in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  }
+ },
+ "documents": {
+  "a08813bc22e5": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Kraton",
+   "products": [
+    "KRATON:G1701_E"
+   ],
+   "roles": {
+    "KRATON:G1701_E": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product description, applications, physical form",
+   "note": "'K0042 Europe 10/9/2019 KRATONTM G1701 E Polymer'; 2pp; S-E/P diblock linear copolymer, bound styrene 35%; applications: adhesives, coatings, thermoplastic compounds, oil gel; 'oil gel applications' is a potential lubricant use case",
+   "next_action": "",
+   "manufacturer": "Kraton Polymers LLC / Kraton Corporation",
+   "distributor": "",
+   "issuer": "Kraton Polymers LLC / Kraton Corporation"
+  },
+  "91f3b59fa931": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Kraton",
+   "products": [
+    "KRATON:G1701_M"
+   ],
+   "roles": {
+    "KRATON:G1701_M": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product description, applications",
+   "note": "'K0657 North America 11/11/2019 KRATONTM G1701 M Polymer'; 2pp; S-E/P diblock linear, polystyrene content 37%; applications: bitumen modifier, polymer modifier, footwear compounds, adhesives/sealants/coatings; no lubricant application stated",
+   "next_action": "",
+   "manufacturer": "Kraton Polymers LLC / Kraton Corporation",
+   "distributor": "",
+   "issuer": "Kraton Polymers LLC / Kraton Corporation"
+  },
+  "ec63eedf52b7": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Kraton",
+   "products": [
+    "KRATON:G1702_H"
+   ],
+   "roles": {
+    "KRATON:G1702_H": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product description, applications",
+   "note": "2pp; Kraton G1702 H; S-E/P diblock; adhesives, sealants, bitumen/asphalt modifier; no lubricant application stated → out_of_template",
+   "next_action": "",
+   "manufacturer": "Kraton Polymers LLC / Kraton Corporation",
+   "distributor": "",
+   "issuer": "Kraton Polymers LLC / Kraton Corporation"
+  },
+  "3e421e956759": {
+   "doc_type": "SDS",
+   "supplier": "Kraton",
+   "products": [
+    "KRATON:G1701_E",
+    "KRATON:G1701_M",
+    "KRATON:G1702_H"
+   ],
+   "roles": {
+    "KRATON:G1701_E": "subject",
+    "KRATON:G1701_M": "subject",
+    "KRATON:G1702_H": "subject"
+   },
+   "relation": "product",
+   "read": "section 1: SDS covering Kraton G Polymers SEP(S) grades G1701 and G1702",
+   "note": "7pp; 'Kraton G Polymers (SEP(S)) SDS number 14312'; covers all alphanumeric suffixes of G1701, G1702, G1730; G1730 not in this batch; issued by Kraton Polymers LLC, Houston TX",
+   "next_action": "",
+   "manufacturer": "Kraton Polymers LLC / Kraton Corporation",
+   "distributor": "",
+   "issuer": "Kraton Polymers LLC / Kraton Corporation"
+  },
+  "be598dbb1155": {
+   "doc_type": "certificate of quality (CoA)",
+   "supplier": "Kraton",
+   "products": [
+    "KRATON:G1750_V"
+   ],
+   "roles": {
+    "KRATON:G1750_V": "subject"
+   },
+   "relation": "product",
+   "read": "page content: CoA with batch test results for G1750",
+   "note": "1pp; CoA for G1750 V batch; test results: Visc,Kin,1.70%w @100C = 13.1 cSt (spec 11.8–14.1 cSt, method AGAM 1201); Volatile Matter 0.1% (spec max 0.7%, method KM 04); Antioxidant 0.06% (spec 0.03–0.20%, method KM 08); kV100 test at 1.70%w is the standard lubricant VII characterization protocol",
+   "next_action": "",
+   "manufacturer": "Kraton Polymers LLC / Kraton Corporation",
+   "distributor": "",
+   "issuer": "Kraton Polymers LLC / Kraton Corporation"
+  },
+  "cdd7a9a6a24e": {
+   "doc_type": "SDS",
+   "supplier": "Kraton",
+   "products": [
+    "KRATON:G1750_V",
+    "KRATON:G1765"
+   ],
+   "roles": {
+    "KRATON:G1750_V": "subject",
+    "KRATON:G1765": "subject"
+   },
+   "relation": "product",
+   "read": "section 1: SDS covering Kraton G Polymers EP and EP OE grades G1750 and G1765",
+   "note": "7pp; 'Kraton G Polymers (EP and EP OE) SDS number 14401'; covers all alphanumeric suffixes of G1750 and G1765; EP = ethylene/propylene star polymer; EP OE = oil-extended variant (G1765); issued by Kraton Corporation",
+   "next_action": "",
+   "manufacturer": "Kraton Polymers LLC / Kraton Corporation",
+   "distributor": "",
+   "issuer": "Kraton Polymers LLC / Kraton Corporation"
+  },
+  "b5e171c2aa4e": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Kraton",
+   "products": [
+    "KRATON:G1750_V"
+   ],
+   "roles": {
+    "KRATON:G1750_V": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product description and sales specifications",
+   "note": "'K0628 Asia 10/28/2018 KRATONTM G1750 V Polymer'; 3pp; multi-arm star polymer based on ethylene/propylene; supplied from Taiwan as bale; applications stated: modifier of polymers, footwear compounds, adhesives/sealants/coatings; despite non-lubricant application list, CoA (DL2-15680) uses standard lubricant VII test; this TDS covers antioxidant and volatile matter specs",
+   "next_action": "",
+   "manufacturer": "Kraton Polymers LLC / Kraton Corporation",
+   "distributor": "",
+   "issuer": "Kraton Polymers LLC / Kraton Corporation"
+  }
+ }
+}

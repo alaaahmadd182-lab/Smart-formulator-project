@@ -1,0 +1,418 @@
+{
+ "batch": "S29 Nynas (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "17 documents with provisional supplier Nynas",
+ "products": {
+  "NYNAS:NYFROST_32": {
+   "name": "NYFROST 32",
+   "supplier": "Nynas AB",
+   "material_class": "base_oil",
+   "existing_record": "NYNAS_NYFROST_32",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "NYNAS:NYFROST_68": {
+   "name": "Nyfrost 68",
+   "supplier": "Nynas AB",
+   "material_class": "base_oil",
+   "existing_record": "NYNAS_NYFROST_68",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "NYNAS:NYFROST_100": {
+   "name": "NYFROST 100",
+   "supplier": "Nynas AB",
+   "material_class": "base_oil",
+   "existing_record": "NYNAS_NYFROST_100",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "NYNAS:NS_3": {
+   "name": "NS 3",
+   "supplier": "Nynas AB",
+   "material_class": "base_oil",
+   "existing_record": "NYNAS_NS_3",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "NYNAS:S_3B": {
+   "name": "Nynas S 3B",
+   "supplier": "Nynas AB",
+   "material_class": "base_oil",
+   "existing_record": "NYNAS_S_3B",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "NYNAS:T_3": {
+   "name": "Nynas T 3",
+   "supplier": "Nynas AB",
+   "material_class": "base_oil",
+   "existing_record": "NYNAS_T_3",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "NYNAS:T_4": {
+   "name": "Nynas T 4",
+   "supplier": "Nynas AB",
+   "material_class": "base_oil",
+   "existing_record": "NYNAS_T_4",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "NYNAS:T_9": {
+   "name": "Nynas T 9",
+   "supplier": "Nynas AB",
+   "material_class": "base_oil",
+   "existing_record": "NYNAS_T_9",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "NYNAS:T_600": {
+   "name": "Nynas T 600",
+   "supplier": "Nynas AB",
+   "material_class": "base_oil",
+   "existing_record": "NYNAS_T_600",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "NYNAS:NYBASE_70": {
+   "name": "NYBASE 70",
+   "supplier": "Nynas AB",
+   "material_class": "base_oil",
+   "existing_record": "NYNAS_NYBASE_70",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "NYNAS:NYTRO_LIBRA": {
+   "name": "Nytro Libra",
+   "supplier": "Nynas AB",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Nytro Libra is an uninhibited transformer oil that conforms to IEC 60296 Edition 4.0'; 'STANDARD GRADE Electrical insulating oil'; naphthenic base stock sold as transformer oil; not a lubricating base oil — material class and template to be confirmed",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "NYNAS:NYTRO_LYRA_X": {
+   "name": "Nytro Lyra X",
+   "supplier": "Nynas AB",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Nytro Lyra X is an inhibited high-grade insulating oil conforming to IEC 60296 Edition 4.0 — including the fulfilment of specific requirements for special applications'; 'HIGH GRADE High performance insulating oil'; naphthenic base stock sold as transformer oil; not a lubricating base oil — material class and template to be confirmed",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "a5d090bc376a": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:NYFROST_32"
+   ],
+   "roles": {
+    "NYNAS:NYFROST_32": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, description, applications)",
+   "note": "dupOLD; 'wax-free, hydrotreated naphthenic ISO VG 32 base oil intended for use as a refrigeration fluid'",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "85a23a2ab709": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:NYFROST_68"
+   ],
+   "roles": {
+    "NYNAS:NYFROST_68": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, specification limits table with typical data)",
+   "note": "dupOLD; 'PRODUCT DATA SHEET Nyfrost 68 CHARACTERISTICS'; specification limits and typical data columns; 1pp",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "905e9e74bbd0": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:NYTRO_LIBRA"
+   ],
+   "roles": {
+    "NYNAS:NYTRO_LIBRA": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, grade category, description)",
+   "note": "'STANDARD GRADE Nytro Libra Electrical insulating oil'; 'conforms to IEC 60296 Edition 4.0'; uninhibited transformer oil; not dupOLD; not in existing records",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "c51d26a6dd1c": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:T_4"
+   ],
+   "roles": {
+    "NYNAS:T_4": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name within T grades banner, description)",
+   "note": "dupOLD; 'T grades' format banner; page 1 names T 4: 'very low viscosity hydrotreated naphthenic oil with excellent solvent power'; assigned to T 4 from page-1 content only",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "6d6dd73da80b": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:NS_3"
+   ],
+   "roles": {
+    "NYNAS:NS_3": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name within NS grades banner, description)",
+   "note": "dupOLD; 'NS grades' banner; 'NS 3 highly refined, very low viscosity hydrotreated naphthenic oil with excellent low temperature properties'; used in aviation hydraulic fluids",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "4dd1792d2a20": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:NYFROST_100"
+   ],
+   "roles": {
+    "NYNAS:NYFROST_100": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, description)",
+   "note": "dupOLD; x2 copies in archive (filename DL2-12383 (1).pdf); 'high viscosity, wax-free, hydrotreated naphthenic ISO VG 100 base oil for heavy duty refrigeration fluid applications'",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "bd8c3a68dbea": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:NYTRO_LYRA_X"
+   ],
+   "roles": {
+    "NYNAS:NYTRO_LYRA_X": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, grade category, description)",
+   "note": "'HIGH GRADE Nytro Lyra X High performance insulating oil'; 'conforms to IEC 60296 Edition 4.0 including specific requirements for special applications'; inhibited transformer oil; not dupOLD; not in existing records",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "cfb7485790ce": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:S_3B"
+   ],
+   "roles": {
+    "NYNAS:S_3B": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name within S grades banner, description)",
+   "note": "dupOLD; 'S grades' banner; 'NYNAS® S 3B low viscosity hydrotreated naphthenic oil with a very high refining degree; narrow boiling range and very low aromatic content'",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "e981acd7c9ee": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:T_600"
+   ],
+   "roles": {
+    "NYNAS:T_600": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name within T grades banner, description)",
+   "note": "dupOLD; 'T grades' format; 'NYNAS T 600 high viscosity hydrotreated naphthenic oil with high solvent power and very good low temperature properties'; suitable for grease production",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "b852035a7441": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:NYBASE_70"
+   ],
+   "roles": {
+    "NYNAS:NYBASE_70": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, trademark list, description)",
+   "note": "dupOLD; newer Nynas format with trademark list; 'NYBASE® 70 Base oil'; suitable for blending high quality lubricants",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "b4c3d3c505da": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:T_9"
+   ],
+   "roles": {
+    "NYNAS:T_9": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name within T grades banner, description)",
+   "note": "dupOLD; 'T grades' format; 'NYNAS® T 9 A naphthenic base oil'; low viscosity hydrotreated naphthenic oil with excellent solvent power",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "ad281d3d91d9": {
+   "doc_type": "SDS",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:S_3B"
+   ],
+   "roles": {
+    "NYNAS:S_3B": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, REACH/SDS format, CAS No.)",
+   "note": "dupOLD; REACH Annex II format; 'CAS number 64742-46-7'; 36pp",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "d489c09f4972": {
+   "doc_type": "SDS",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:NYFROST_32"
+   ],
+   "roles": {
+    "NYNAS:NYFROST_32": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, REACH/SDS format, CAS No.)",
+   "note": "dupOLD; REACH Annex II format; 'CAS number 64742-52-5'; 12pp",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "65af812d826d": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:NYFROST_32"
+   ],
+   "roles": {
+    "NYNAS:NYFROST_32": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, batch number, analysis results)",
+   "note": "batch TRAF4-201208 / N2020-17163; dated Dec 2020; 1pp; properties: density 15°C, kV40, flash point PM, colour, TAN, refractive index",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "2fc903132ac1": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:NYFROST_32"
+   ],
+   "roles": {
+    "NYNAS:NYFROST_32": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, batch number, analysis results)",
+   "note": "batch TRAFl-210219 / N2021-02889; dated Feb 2021; 1pp; properties: density 15°C, kV40, flash point PM, colour, TAN",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "2d21cf27bcd4": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:NS_3"
+   ],
+   "roles": {
+    "NYNAS:NS_3": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name within NS grades banner, newer format with trademark listing)",
+   "note": "dupOLD; newer Nynas format with trademark list; 'NYNAS® NS 3 A naphthenic base oil'; same product as DL2-12382, different edition",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  },
+  "0e59ae6950a1": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Nynas AB",
+   "products": [
+    "NYNAS:T_3"
+   ],
+   "roles": {
+    "NYNAS:T_3": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name within T grades banner, description)",
+   "note": "dupOLD; 'T grades' format; 'NYNAS® T 3 A naphthenic base oil'; outstanding emulsion stability in water-based metalworking fluids",
+   "next_action": "",
+   "manufacturer": "Nynas AB",
+   "distributor": "",
+   "issuer": "Nynas AB"
+  }
+ }
+}

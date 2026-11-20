@@ -1,0 +1,272 @@
+{
+ "batch": "S36 Elco (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "11 documents with provisional supplier Elco",
+ "products": {
+  "ELCO:ELCO_301": {
+   "name": "Elco 301",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Elco 301 is a multifunctional additive which imparts antiwear and rust inhibiting properties to oil and grease formulations'; additive_component (AW/rust inhibitor); 2pp TDS",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ELCO:ELCO_313A": {
+   "name": "Elco 313A",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Elco 313A is a slideway additive; benefits include Excellent stick slip, Exceptional antiwear and EP performance, Good filterability and demulsibility'; 2pp TDS; additive_component (slideway/EP/AW)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ELCO:ELCO_7401": {
+   "name": "Elco 7401",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "material_class": "out_of_template (grease additive package)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'Elco 7401 Additive Package for Grease... cost-effective package for making Lithium complex grease; complete package containing a novel dropping point enhancer as well as EP and antiwear'; 2pp TDS; grease package → out_of_template",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "ELCO:ELCO_7403": {
+   "name": "Elco 7403",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "material_class": "out_of_template (grease additive package)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'Elco 7403 Additive Package for Grease... complete package containing a novel dropping point enhancer, oxidation, rust and corrosion inhibitor'; 2pp TDS; grease package → out_of_template",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "ELCO:ELCO_8403": {
+   "name": "Elco 8403",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "material_class": "out_of_template (grease additive package)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'Elco 8403 Additive Package for Grease... complete package containing EP and anti-wear agents as well as protection from corrosion for both steel and yellow metals'; 1pp TDS; grease package → out_of_template",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "ELCO:ELCO_87": {
+   "name": "Elco 87",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Elco 87 is a partial additive package for use in blending extreme pressure industrial grease... impart extreme pressure and antiwear to the grease'; 1pp TDS; additive_component (partial EP/AW)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "ELCO:ELCO_8715": {
+   "name": "Elco 8715",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "material_class": "out_of_template (grease additive package)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'Elco 8715 Additive Package for Grease... complete package containing EP and anti-wear agents... lithium soap base grease... 0.5 to 4.5 wt% treat rate'; 1pp TDS; grease package → out_of_template",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "ELCO:ELCO_88": {
+   "name": "Elco 88",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'Elco 88 is a multipurpose additive... for non-soap thickened greases to improve extreme pressure, antiwear performance, and oxidation stability'; 1pp TDS; additive_component (EP/AW/antioxidant)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  }
+ },
+ "documents": {
+  "fc26ec81dc2a": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "products": [
+    "ELCO:ELCO_313A"
+   ],
+   "roles": {
+    "ELCO:ELCO_313A": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 and page-2 text (product name, description, features, typical properties)",
+   "note": "printed: 'Elco 313A is a slideway additive; benefits include Excellent stick slip, Exceptional antiwear and EP performance, Good filterability and demulsibility'; 2pp TDS; additive_component (slideway/EP/AW)",
+   "next_action": "",
+   "manufacturer": "Elco Corporation",
+   "distributor": "",
+   "issuer": "Elco Corporation"
+  },
+  "88450484ca43": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "products": [
+    "ELCO:ELCO_87"
+   ],
+   "roles": {
+    "ELCO:ELCO_87": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 and page-2 text (product name, description, features, typical properties)",
+   "note": "printed: 'Elco 87 is a partial additive package for use in blending extreme pressure industrial grease... impart extreme pressure and antiwear to the grease'; 1pp TDS; additive_component (partial EP/AW)",
+   "next_action": "",
+   "manufacturer": "Elco Corporation",
+   "distributor": "",
+   "issuer": "Elco Corporation"
+  },
+  "6380d36231d5": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "products": [
+    "ELCO:ELCO_88"
+   ],
+   "roles": {
+    "ELCO:ELCO_88": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 and page-2 text (product name, description, features, typical properties)",
+   "note": "printed: 'Elco 88 is a multipurpose additive... for non-soap thickened greases to improve extreme pressure, antiwear performance, and oxidation stability'; 1pp TDS; additive_component (EP/AW/antioxidant)",
+   "next_action": "",
+   "manufacturer": "Elco Corporation",
+   "distributor": "",
+   "issuer": "Elco Corporation"
+  },
+  "e6aa2952d832": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "products": [
+    "ELCO:ELCO_8403"
+   ],
+   "roles": {
+    "ELCO:ELCO_8403": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 and page-2 text (product name, description, features, typical properties)",
+   "note": "printed: 'Elco 8403 Additive Package for Grease... complete package containing EP and anti-wear agents as well as protection from corrosion for both steel and yellow metals'; 1pp TDS; grease package → out_of_template",
+   "next_action": "",
+   "manufacturer": "Elco Corporation",
+   "distributor": "",
+   "issuer": "Elco Corporation"
+  },
+  "3ca182eab67b": {
+   "doc_type": "company profile (overview)",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "page-1 and page-2 text (company overview, capabilities, ISO certifications)",
+   "note": "'The Elco Corporation • Continuous operations since 1927 • Headquarters Cleveland, Ohio • Certified to ISO 9001-2008, ISO 14001-2004'; 41pp company overview; no specific product TDS/SDS; not a product document",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "Elco Corporation"
+  },
+  "511a2613091d": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "products": [
+    "ELCO:ELCO_301"
+   ],
+   "roles": {
+    "ELCO:ELCO_301": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 and page-2 text (product name, description, features, typical properties)",
+   "note": "printed: 'Elco 301 is a multifunctional additive which imparts antiwear and rust inhibiting properties to oil and grease formulations'; additive_component (AW/rust inhibitor); 2pp TDS",
+   "next_action": "",
+   "manufacturer": "Elco Corporation",
+   "distributor": "",
+   "issuer": "Elco Corporation"
+  },
+  "1299ec4119b6": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "products": [
+    "ELCO:ELCO_7401"
+   ],
+   "roles": {
+    "ELCO:ELCO_7401": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 and page-2 text (product name, description, features, typical properties)",
+   "note": "printed: 'Elco 7401 Additive Package for Grease... cost-effective package for making Lithium complex grease; complete package containing a novel dropping point enhancer as well as EP and antiwear'; 2pp TDS; grease package → out_of_template",
+   "next_action": "",
+   "manufacturer": "Elco Corporation",
+   "distributor": "",
+   "issuer": "Elco Corporation"
+  },
+  "bc608c44c876": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "products": [
+    "ELCO:ELCO_7403"
+   ],
+   "roles": {
+    "ELCO:ELCO_7403": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 and page-2 text (product name, description, features, typical properties)",
+   "note": "printed: 'Elco 7403 Additive Package for Grease... complete package containing a novel dropping point enhancer, oxidation, rust and corrosion inhibitor'; 2pp TDS; grease package → out_of_template",
+   "next_action": "",
+   "manufacturer": "Elco Corporation",
+   "distributor": "",
+   "issuer": "Elco Corporation"
+  },
+  "254f1696156f": {
+   "doc_type": "SDS",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "products": [
+    "ELCO:ELCO_7403"
+   ],
+   "roles": {
+    "ELCO:ELCO_7403": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: GHS SDS header with product name",
+   "note": "'GHS product identifier: Elco 7403'; Version 0.0, Date of issue 02/18/2021; 20pp GHS SDS",
+   "next_action": "",
+   "manufacturer": "Elco Corporation",
+   "distributor": "",
+   "issuer": "Elco Corporation"
+  },
+  "f2af054872db": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "products": [
+    "ELCO:ELCO_8715"
+   ],
+   "roles": {
+    "ELCO:ELCO_8715": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 and page-2 text (product name, description, features, typical properties)",
+   "note": "printed: 'Elco 8715 Additive Package for Grease... complete package containing EP and anti-wear agents... lithium soap base grease... 0.5 to 4.5 wt% treat rate'; 1pp TDS; grease package → out_of_template",
+   "next_action": "",
+   "manufacturer": "Elco Corporation",
+   "distributor": "",
+   "issuer": "Elco Corporation"
+  },
+  "46822bd09b9d": {
+   "doc_type": "SDS",
+   "supplier": "Elco Corporation / Italmatch Chemicals Group",
+   "products": [
+    "ELCO:ELCO_8715"
+   ],
+   "roles": {
+    "ELCO:ELCO_8715": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: GHS SDS header with product name",
+   "note": "'GHS product identifier: Elco® 8715'; Version 1.1, Date of issue 07/27/2021; 19pp GHS SDS",
+   "next_action": "",
+   "manufacturer": "Elco Corporation",
+   "distributor": "",
+   "issuer": "Elco Corporation"
+  }
+ }
+}

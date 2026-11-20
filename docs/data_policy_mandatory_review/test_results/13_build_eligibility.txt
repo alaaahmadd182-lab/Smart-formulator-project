@@ -1,16 +1,16 @@
-command: C:\Users\windo\AppData\Local\Programs\Python\Python312\python.exe tools/mandatory_properties/build_eligibility.py
-cwd: C:\Users\windo\sf-wsA
-HEAD: 43e7f8b5639f7d7169a2b5691bc187799f0dbe02
+command: C:\Users\User\AppData\Local\Programs\Python\Python312\python.exe tools/mandatory_properties/build_eligibility.py
+cwd: C:\Users\User\FYP\Smart-formulator-project
+HEAD: 9575c7f305f2da3c51e12639c0f1358a197ead4e
 return code: 0
 expectation: zero
 verdict: pass
-duration: 1.0 s
+duration: 1.1 s
 
 ===== stdout =====
-products: 264; snapshot 93b704a79b5844430af87d15f53058ec3df106ad262af4236fb52da1621f3530
-  base_oil: tier1_complete (= formulation_eligible) 11 of 181
-  additive_package: tier1_complete (= formulation_eligible) 0 of 78
-  additive_component: tier1_complete (= formulation_eligible) 0 of 5
+products: 368; snapshot 0edc82cb3eaa4d9491fa7021fa7333a519b0b86c10d2d3dbf81bf3f38fe92993
+  base_oil: tier1_complete (= formulation_eligible) 11 of 189
+  additive_package: tier1_complete (= formulation_eligible) 0 of 106
+  additive_component: tier1_complete (= formulation_eligible) 0 of 73
 
 ===== stderr =====
 

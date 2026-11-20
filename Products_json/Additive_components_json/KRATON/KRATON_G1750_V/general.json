@@ -1,0 +1,354 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "KRATON_G1750_V",
+  "product": {
+    "product_id": "G1750_V",
+    "material_id": "KRATON:G1750_V",
+    "product_name": "Kraton G1750 V",
+    "supplier": "Kraton"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-15682.pdf",
+      "pages": "",
+      "doc_type": "product data sheet (TDS), typical properties table",
+      "revision_date": "",
+      "notes": ""
+    },
+    {
+      "file": "DL2-15681.pdf",
+      "pages": "",
+      "doc_type": "safety data sheet (SDS), Section 3 composition",
+      "revision_date": "2024-01-29",
+      "notes": ""
+    },
+    {
+      "file": "DL2-15680.pdf",
+      "pages": "",
+      "doc_type": "certificate of quality (CoQ), batch test result",
+      "revision_date": "2024-09-02",
+      "notes": ""
+    }
+  ],
+  "component_subtype": null,
+  "fields": {
+    "function": {
+      "primary": {
+        "value": "Kraton G1750 V is a clear, multi-arm polymer based on ethylene/propylene. It is used as a modifier of polymers.",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15682.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": "TDS describes \"modifier of polymers\" and footwear/adhesives use; in lubricant context, EP copolymers (OCP) are used as viscosity index improvers; Styrene/Rubber ratio 0/100 confirms no styrene block — pure EP rubber polymer"
+      },
+      "secondary": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; no secondary lubricant function stated in TDS"
+      }
+    },
+    "chemical_family": {
+      "value": "ethylene/propylene copolymer (CAS 127883-08-3)",
+      "status": "Reported",
+      "source": {
+        "file": "DL2-15681.pdf",
+        "page": 1,
+        "revision_date": "2024-01-29"
+      },
+      "notes": "SDS Section 3 gives EP copolymer CAS 127883-08-3 <100%; TDS confirms \"multi-arm polymer based on ethylene/propylene\" with Styrene/Rubber ratio 0/100; product is a solid OCP polymer in bale form"
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": 0.03,
+      "max": 0.2,
+      "value_kind": "range",
+      "printed_text": "Antioxidant: 0.03 TO 0.20 %m (spec); Volatile Matter: = 0.7 %m max (spec)",
+      "unit": "%m",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15682.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "TDS Sales Specification: antioxidant is a stabiliser additive (non-staining phenolic), not a measure of polymer active content; EP polymer is essentially the active component; volatile matter ≤0.7 %m; active polymer content (100 - AO - VM) is not stated explicitly"
+    },
+    "carrier": {
+      "identity": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; product is supplied in solid bale form; no liquid carrier stated in TDS or SDS"
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; solid polymer, no carrier",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "treat_rate": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; TDS and CoA do not state a recommended treat rate for lubricant use; kinematic viscosity is measured at 1.70 %w solution — this is a characterisation concentration, not a treat rate recommendation",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "compatibility_restrictions": {
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "not found; TDS describes polymer applications (footwear, adhesives, sealants); no lubricant-specific compatibility restrictions stated; food contact and medical device restrictions noted in TDS sections 2-3 but not relevant to lubricant use"
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mg KOH/g",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; EP polymer — TBN not applicable",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    }
+  },
+  "open_questions": [
+    {
+      "property": "kv_1pct_sol_100c_spec",
+      "printed_text": "Visc,Kin,1.70%w (@100C): 11.8 TO 14.1 cSt (spec)",
+      "notes": "Sales Specification range; AGAM 1201 is a Kraton internal method; measurement is at 1.70 wt% solution, not neat polymer",
+      "source": {
+        "file": "DL2-15682.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "volatile_matter_spec",
+      "printed_text": "Volatile Matter: = 0.7 %m (spec max)",
+      "notes": null,
+      "source": {
+        "file": "DL2-15682.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "antioxidant_content_spec",
+      "printed_text": "Antioxidant: 0.03 TO 0.20 %m (spec)",
+      "notes": "non-staining phenolic antioxidant (stabiliser additive in polymer)",
+      "source": {
+        "file": "DL2-15682.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "kv_1pct_sol_100c_result",
+      "printed_text": "Visc,Kin,1.70%w @100C: 13.1 Centistoke",
+      "notes": "CoA batch result; spec 11.8-14.1 cSt; Batch 09DXH1001 Mfg 2024-09-02",
+      "source": {
+        "file": "DL2-15680.pdf",
+        "page": 1,
+        "revision_date": "2024-09-02"
+      }
+    },
+    {
+      "property": "volatile_matter_result",
+      "printed_text": "Volatile Matter: 0.1 % Weight",
+      "notes": "CoA batch result; spec ≤0.7 %m",
+      "source": {
+        "file": "DL2-15680.pdf",
+        "page": 1,
+        "revision_date": "2024-09-02"
+      }
+    },
+    {
+      "property": "antioxidant_content_result",
+      "printed_text": "Antioxidant: 0.06 % Weight",
+      "notes": "CoA batch result; spec 0.03-0.20 %m",
+      "source": {
+        "file": "DL2-15680.pdf",
+        "page": 1,
+        "revision_date": "2024-09-02"
+      }
+    },
+    {
+      "property": "specific_gravity",
+      "printed_text": "Specific Gravity: 0.86",
+      "notes": "from TDS Typical Properties table; no temperature stated",
+      "source": {
+        "file": "DL2-15682.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    {
+      "property": "density_sds_bounds",
+      "printed_text": "Relative density: > 0.88 - < 0.95 at 20°C",
+      "notes": "SDS Section 9 physical properties; stated as bounds (> 0.88 to < 0.95); consistent with TDS typical SG of 0.86",
+      "source": {
+        "file": "DL2-15681.pdf",
+        "page": 4,
+        "revision_date": "2024-01-29"
+      }
+    },
+    {
+      "property": "melt_index",
+      "printed_text": "Melt Index 200C, 5 kg: 8 gms/10 min",
+      "notes": "from TDS Typical Properties table; non-lubricant characterisation property",
+      "source": {
+        "file": "DL2-15682.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    }
+  ],
+  "conflicts": []
+}

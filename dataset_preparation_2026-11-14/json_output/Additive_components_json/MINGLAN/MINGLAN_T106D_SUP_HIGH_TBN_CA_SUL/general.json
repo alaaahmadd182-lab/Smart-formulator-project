@@ -1,0 +1,291 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "MINGLAN_T106D_SUP_HIGH_TBN_CA_SUL",
+  "product": {
+    "product_id": "T106D_SUP_HIGH_TBN_CA_SUL",
+    "material_id": "MINGLAN:T106D_SUP_HIGH_TBN_CA_SUL",
+    "product_name": "T106D Super High TBN Calcium Sulfonate",
+    "supplier": "Shanghai Minglan Chemical"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-15278.pdf",
+      "pages": "",
+      "doc_type": "product data sheet (TDS), typical properties table",
+      "revision_date": "2022-02-21",
+      "notes": ""
+    }
+  ],
+  "component_subtype": null,
+  "fields": {
+    "function": {
+      "primary": {
+        "value": "super high-based synthetic calcium sulfonate prepared by neutralization and super high alkalization reaction; preferred additive for blending over-based marine cylinder oil",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15278.pdf",
+          "page": 1,
+          "revision_date": "2022-02-21"
+        },
+        "notes": "from product introduction in TDS; overbased detergent with strong acid neutralisation capability; stated for marine cylinder oil use"
+      },
+      "secondary": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; product introduction mentions high-temperature detergency and thermal stability but these are described as properties, not separate functions"
+      }
+    },
+    "chemical_family": {
+      "value": "overbased synthetic calcium sulfonate (heavy alkyl benzene sulfonate base)",
+      "status": "Reported",
+      "source": {
+        "file": "DL2-15278.pdf",
+        "page": 1,
+        "revision_date": "2022-02-21"
+      },
+      "notes": "from TDS product introduction: \"With heavy alkyl benzene sulfonic acid as a main raw material, super high-based synthetic calcium sulfonate is prepared by neutralization and super high alkalization reaction\""
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; active sulfonate content not stated in TDS",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "carrier": {
+      "identity": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; no carrier or diluent mentioned in TDS"
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; no carrier stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "treat_rate": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; no recommended treat rate stated in TDS; product described as an overbased detergent used in additive packages for marine cylinder oil",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "compatibility_restrictions": {
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "Reported",
+      "notes": "preferred additive for blending over-based marine cylinder oil",
+      "source": {
+        "file": "DL2-15278.pdf",
+        "page": 1,
+        "revision_date": "2022-02-21"
+      }
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": null,
+        "qualifier": ">=",
+        "min": 395,
+        "max": null,
+        "value_kind": "bound",
+        "printed_text": "TBN, mgKOH/g: >=395",
+        "unit": "mgKOH/g",
+        "test_temperature_c": null,
+        "method": "SH/T0251,ASTM D2896",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-15278.pdf",
+          "page": 1,
+          "revision_date": "2022-02-21"
+        },
+        "notes": "minimum spec bound; super high TBN overbased calcium sulfonate detergent"
+      },
+      "ca": {
+        "value": null,
+        "qualifier": ">=",
+        "min": 14.5,
+        "max": null,
+        "value_kind": "bound",
+        "printed_text": "Calcium, m%: >=14.5",
+        "unit": "m%",
+        "test_temperature_c": null,
+        "method": "GB/T17476,SH/T0270,SH/T0297,ASTM D4951",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-15278.pdf",
+          "page": 1,
+          "revision_date": "2022-02-21"
+        },
+        "notes": "minimum spec bound; wt% by context (m% = mass percent in Chinese standards)"
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; calcium sulfonate — no magnesium stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; overbased calcium sulfonate — no phosphorus stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    }
+  },
+  "open_questions": [
+    {
+      "property": "density",
+      "printed_text": "Density(20°C), kg/m3: 1150-1250",
+      "notes": "specification range at 20°C (non-standard temperature for most base oil templates); high density consistent with heavily overbased calcium sulfonate (CaCO3 dispersion)",
+      "source": {
+        "file": "DL2-15278.pdf",
+        "page": 1,
+        "revision_date": "2022-02-21"
+      }
+    },
+    {
+      "property": "flash_point",
+      "printed_text": "Flash Point(COC), °C: >=180",
+      "notes": null,
+      "source": {
+        "file": "DL2-15278.pdf",
+        "page": 1,
+        "revision_date": "2022-02-21"
+      }
+    },
+    {
+      "property": "sulfur_content",
+      "printed_text": "Sulfur, m%: >=1.2",
+      "notes": "minimum spec bound; sulfur from sulfonate anion moiety; m% = wt%",
+      "source": {
+        "file": "DL2-15278.pdf",
+        "page": 1,
+        "revision_date": "2022-02-21"
+      }
+    },
+    {
+      "property": "water_content",
+      "printed_text": "Water Content, m%: <=0.2",
+      "notes": null,
+      "source": {
+        "file": "DL2-15278.pdf",
+        "page": 1,
+        "revision_date": "2022-02-21"
+      }
+    }
+  ],
+  "conflicts": []
+}

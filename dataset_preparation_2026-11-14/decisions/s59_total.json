@@ -1,0 +1,36 @@
+{
+ "batch": "S59 TotalEnergies (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "1 document with provisional supplier TotalEnergies",
+ "products": {
+  "TOTAL:JARYTHERM_DBT": {
+   "name": "JARYTHERM DBT",
+   "supplier": "TotalEnergies",
+   "material_class": "out_of_template (heat transfer fluid — synthetic dibenzyltoluene type)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'JARYTHERM DBT Heat transfer circuit Synthetic heat transfer fluid, made from a blend of dibenzyltoluene isomers. Applications: Heat transfer installations by fluid circulation Operating from 0°C to +350°C in the mass (370°C in the film) without air contact'; same chemical class as FRAGOLTHERM HT (Fragol AG) which is also dibenzyltoluene; out_of_template (heat transfer fluid — no lubricant component template)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "a7138fcf741a": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "TotalEnergies / Total Lubrifiants",
+   "products": [
+    "TOTAL:JARYTHERM_DBT"
+   ],
+   "roles": {
+    "TOTAL:JARYTHERM_DBT": "subject"
+   },
+   "relation": "product",
+   "read": "full page content: product description and applications",
+   "note": "1pp; 'TOTAL LUBRIFIANTS Industrie & Spécialités 14-09-2010'; 'JARYTHERM DBT; Synthetic heat transfer fluid, made from a blend of dibenzyltoluene isomers; Operating from 0°C to +350°C (+370°C in the film)'; heat transfer fluid, same chemical type as FRAGOLTHERM HT from FRAGOL AG",
+   "next_action": "",
+   "manufacturer": "Total Lubrifiants",
+   "distributor": "",
+   "issuer": "Total Lubrifiants"
+  }
+ }
+}

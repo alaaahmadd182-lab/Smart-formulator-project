@@ -1,0 +1,278 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "CRISTOL_PPD_LX_250",
+  "product": {
+    "product_id": "PPD_LX_250",
+    "material_id": "CRISTOL:PPD_LX_250",
+    "product_name": "CRISTOL PPD LX 250",
+    "supplier": "Cristol Speciality Lubricant Chemicals"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-15288.pdf",
+      "pages": "",
+      "doc_type": "product brochure, typical physical properties table",
+      "revision_date": "",
+      "notes": ""
+    },
+    {
+      "file": "DL2-13666.pdf",
+      "pages": "",
+      "doc_type": "SDS Section 3, composition / information on ingredients",
+      "revision_date": "2020-09-07",
+      "notes": ""
+    }
+  ],
+  "component_subtype": null,
+  "fields": {
+    "function": {
+      "primary": {
+        "value": "Flow Improver for Automotive Lubricants; Pour Point Depressant",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15288.pdf",
+          "page": 1,
+          "revision_date": null
+        },
+        "notes": "product title from brochure; SDS type-of-product: \"Pour point depressant\""
+      },
+      "secondary": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; product described by a single primary function (PPD / flow improver)"
+      }
+    },
+    "chemical_family": {
+      "value": null,
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "calculation_note": "not found; mechanism description in brochures is consistent with PMA-type PPD but 'PMA' or 'polymethacrylate' is not explicitly printed in any document; reviewer classification only (s46_cristol.json note)"
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; active polymer content not stated; carrier share 45-65% from SDS Section 3 implies active polymer ~35-55% but not printed as such",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "carrier": {
+      "identity": {
+        "value": "Distillates, petroleum, hydrotreated heavy paraffinic; CAS No. 64742-54-7",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-13666.pdf",
+          "page": 1,
+          "revision_date": "2020-09-07"
+        },
+        "notes": "SDS Section 3 component: \"Distillates, petroleum, hydrotreated heavy paraffinic (Component); CAS No. 64742-54-7\"; Group I/II base stock diluent; Asp. Tox. 1 (H304)"
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": 45,
+        "max": 65,
+        "value_kind": "range",
+        "printed_text": "Distillates, petroleum, hydrotreated heavy paraffinic: 45.0-65.0 %",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-13666.pdf",
+          "page": 1,
+          "revision_date": "2020-09-07"
+        },
+        "notes": "SDS Section 3; wt.% basis from SDS column heading"
+      }
+    },
+    "treat_rate": {
+      "value": null,
+      "qualifier": null,
+      "min": 0.1,
+      "max": 0.5,
+      "value_kind": "range",
+      "printed_text": "Engine Oils: 0.1 - 0.5 % w/w",
+      "unit": "% w/w",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15288.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "from brochure2; same values in brochure1 (Series)",
+      "alternate_entries": [
+        {
+          "value": null,
+          "qualifier": null,
+          "min": 0.2,
+          "max": 1.5,
+          "value_kind": "range",
+          "printed_text": "Gear Oils: 0.2 - 1.5 % w/w",
+          "unit": "% w/w",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-15288.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": "from brochure2; same values in brochure1 (Series)"
+        }
+      ]
+    },
+    "compatibility_restrictions": {
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "not found; brochure states \"completely soluble in all new generation base stocks\" but no incompatibility or restriction listed"
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mg KOH/g",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; PPD additive (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; PPD additive (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; PPD additive (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; PPD additive (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; PPD additive (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; PPD additive (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}

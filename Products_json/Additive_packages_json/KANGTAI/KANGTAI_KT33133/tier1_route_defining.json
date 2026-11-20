@@ -1,0 +1,450 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "KANGTAI_KT33133",
+  "product": {
+    "product_id": "KT33133",
+    "material_id": "KANGTAI:KT33133",
+    "product_name": "KT33133",
+    "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd."
+  },
+  "source_documents": [
+    {
+      "file": "DL2-12964.pdf",
+      "pages": "",
+      "doc_type": "product sheet title",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "value": "MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12964.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      "intended_service": {
+        "value": "Dark brown viscous liquid. Prepared from variety of additives, such as excellent detergent, dispersant, anti-oxidant, corrosion inhibitor and antiwear agent. The recommended treat meets the following classification and specification requirements. ",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12964.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      }
+    },
+    "performance_claims": [
+      {
+        "designation": "Performance Level 'CD/CF' at 6.0 wt% (Multi)",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12964.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "Performance Level 'CD/CF' at 5.5 wt% (Mono)",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12964.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "Performance Level 'CC/SC' at 3.0 wt% (Multi)",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12964.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "Performance Level 'CC/SC' at 2.8 wt% (Mono)",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12964.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "Performance Level 'CB/SB' at 1.5+0.2% ZDDP (Mono)",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12964.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "Performance Level 'CD/SF' at 4.5 wt% (Multi)",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12964.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "Performance Level 'CC/SD' at 3.8 wt% (Multi)",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12964.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "Performance Level 'CF-4' at 6.6 wt%",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12964.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "Performance Level 'CF-2' at 6.4 wt%",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12964.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "sae_grade": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "no SAE viscosity grade is printed (only 'Mono' / 'Multi' where shown)"
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "permitted_api_groups": [],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "no base-oil statement on the sheet (all pages read)"
+    },
+    "route_selector_restrictions": {
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "no limits or exclusions printed on the sheet"
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "CD/CF",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 6,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "CD/CF | Multi | 6.0",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12964.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      },
+      {
+        "claim": "CD/CF",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 5.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "CD/CF | Mono | 5.5",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12964.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      },
+      {
+        "claim": "CC/SC",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 3,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "CC/SC | Multi | 3.0",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12964.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      },
+      {
+        "claim": "CC/SC",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 2.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "CC/SC | Mono | 2.8",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12964.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      },
+      {
+        "claim": "CB/SB",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "text",
+          "printed_text": "CB/SB | Mono | 1.5+0.2% ZDDP",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12964.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": "dose printed with co-components: kept as printed, not split into a single number",
+          "basis": "printed on the cited page"
+        }
+      },
+      {
+        "claim": "CD/SF",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 4.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "CD/SF | Multi | 4.5",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12964.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      },
+      {
+        "claim": "CC/SD",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 3.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "CC/SD | Multi | 3.8",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12964.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      },
+      {
+        "claim": "CF-4",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 6.6,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "CF-4 | 6.6",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12964.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      },
+      {
+        "claim": "CF-2",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 6.4,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "CF-2 | 6.4",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12964.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": "CB/SB Mono: '1.5+0.2% ZDDP'",
+        "dose_wt_pct": {
+          "value": 0.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "text",
+          "printed_text": "CB/SB Mono: '1.5+0.2% ZDDP'",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12964.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": "named co-component; the sheet does not state that the list is complete (route completeness not assessed)",
+          "basis": "printed on the cited page"
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [],
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "no formulation example on the sheet (all pages read)"
+      }
+    ]
+  },
+  "open_questions": [],
+  "conflicts": []
+}

@@ -1,0 +1,84 @@
+{
+ "batch": "S58 Turkmenbashy refinery (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "1 document with provisional supplier Turkmenbashy refinery",
+ "products": {
+  "TURKMENBASHY:SN80": {
+   "name": "Turkmenbashy SN80",
+   "supplier": "Turkmenbashy refinery",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: multi-grade spec table TŞ 05766698-60-2006, grade 80; VI ≥95; Sulfur ≤0.03%; density @20°C: SN80=870, SN180=880, SN350=890, SN600=900, SN1200=905 g/L; kV100 ranges: SN80=2.5-3.5, SN180=4.5-6.0, SN350=8.0-9.5, SN600=11.5-13.5, SN1200=18.0-23.0 cSt; new_candidate base_oil (Group I or Group II; class unresolved — Saturates content not given in this document)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "TURKMENBASHY:SN180": {
+   "name": "Turkmenbashy SN180",
+   "supplier": "Turkmenbashy refinery",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: multi-grade spec table TŞ 05766698-60-2006, grade 180; VI ≥95; Sulfur ≤0.03%; density @20°C: SN80=870, SN180=880, SN350=890, SN600=900, SN1200=905 g/L; kV100 ranges: SN80=2.5-3.5, SN180=4.5-6.0, SN350=8.0-9.5, SN600=11.5-13.5, SN1200=18.0-23.0 cSt; new_candidate base_oil (Group I or Group II; class unresolved — Saturates content not given in this document)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "TURKMENBASHY:SN350": {
+   "name": "Turkmenbashy SN350",
+   "supplier": "Turkmenbashy refinery",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: multi-grade spec table TŞ 05766698-60-2006, grade 350; VI ≥95; Sulfur ≤0.03%; density @20°C: SN80=870, SN180=880, SN350=890, SN600=900, SN1200=905 g/L; kV100 ranges: SN80=2.5-3.5, SN180=4.5-6.0, SN350=8.0-9.5, SN600=11.5-13.5, SN1200=18.0-23.0 cSt; new_candidate base_oil (Group I or Group II; class unresolved — Saturates content not given in this document)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "TURKMENBASHY:SN600": {
+   "name": "Turkmenbashy SN600",
+   "supplier": "Turkmenbashy refinery",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: multi-grade spec table TŞ 05766698-60-2006, grade 600; VI ≥95; Sulfur ≤0.03%; density @20°C: SN80=870, SN180=880, SN350=890, SN600=900, SN1200=905 g/L; kV100 ranges: SN80=2.5-3.5, SN180=4.5-6.0, SN350=8.0-9.5, SN600=11.5-13.5, SN1200=18.0-23.0 cSt; new_candidate base_oil (Group I or Group II; class unresolved — Saturates content not given in this document)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "TURKMENBASHY:SN1200": {
+   "name": "Turkmenbashy SN1200",
+   "supplier": "Turkmenbashy refinery",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: multi-grade spec table TŞ 05766698-60-2006, grade 1200; VI ≥95; Sulfur ≤0.03%; density @20°C: SN80=870, SN180=880, SN350=890, SN600=900, SN1200=905 g/L; kV100 ranges: SN80=2.5-3.5, SN180=4.5-6.0, SN350=8.0-9.5, SN600=11.5-13.5, SN1200=18.0-23.0 cSt; new_candidate base_oil (Group I or Group II; class unresolved — Saturates content not given in this document)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  }
+ },
+ "documents": {
+  "e8f4ae204dd0": {
+   "doc_type": "product data sheet (range TDS)",
+   "supplier": "Turkmenbashy refinery",
+   "products": [
+    "TURKMENBASHY:SN80",
+    "TURKMENBASHY:SN180",
+    "TURKMENBASHY:SN350",
+    "TURKMENBASHY:SN600",
+    "TURKMENBASHY:SN1200"
+   ],
+   "roles": {
+    "TURKMENBASHY:SN80": "subject",
+    "TURKMENBASHY:SN180": "subject",
+    "TURKMENBASHY:SN350": "subject",
+    "TURKMENBASHY:SN600": "subject",
+    "TURKMENBASHY:SN1200": "subject"
+   },
+   "relation": "product",
+   "read": "full page content: 5-grade range specification table",
+   "note": "1pp; 'TURKMENISTAN Turkmenbashy oil refinery complex Base oil TŞ 05766698-60-2006'; range TDS covering SN-80/180/350/600/1200; properties: density @20°C, kV100, PP, FP, VI, Color (ASTM and ЦНТ), Sulfur (mass%), Acid Number; all grades VI ≥95 and Sulfur ≤0.03%; API group unresolved (Saturates not stated)",
+   "next_action": "",
+   "manufacturer": "Turkmenbashy Oil Refinery Complex",
+   "distributor": "",
+   "issuer": "Turkmenbashy Oil Refinery Complex"
+  }
+ }
+}

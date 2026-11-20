@@ -1,0 +1,90 @@
+{
+ "batch": "S60 Tanee/Minglan/Shenyang (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "3 documents: Tanee Chemical, Minglan Chemical, Shenyang Great Wall",
+ "products": {
+  "TANEE:TE_598": {
+   "name": "TE-598 Dialkyl Diphenylamine",
+   "supplier": "Tanee Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'TE-598 Dialkyl Di Phenylamine TANEE CHEMICAL LTD, Beijing; light yellow liquid, prepared from diphenylamine and olefin; excellent high-temperature anti-oxidation; ashless antioxidant; Applications: internal combustion engine oils, turbine oils, heat conducting oils, hydraulic oils and greases, fuel oils'; additive_component (antioxidant, DPA/alkylated diphenylamine)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "MINGLAN:T106D_SUP_HIGH_TBN_CA_SUL": {
+   "name": "T106D Super High TBN Calcium Sulfonate",
+   "supplier": "Shanghai Minglan Chemical",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: '151 T106D Super High TBN Synthetic Calcium Sulfonate; SHANGHAI MINGLAN CHEMICAL CO.,LTD. Mobiel:+86 15840446549; super high-based synthetic calcium sulfonate; heavy alkyl benzene sulfonic acid raw material; excellent alkaline reserve, acid neutralization, high-temperature detergency and thermal stability'; additive_component (detergent, super-high-TBN synthetic calcium sulfonate); '151' and 'T106D' are Minglan internal code designations",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "SHENYANG_GW:CATALOG": {
+   "name": "Shenyang Great Wall finished lubricant catalog",
+   "supplier": "Shenyang Great Wall",
+   "material_class": "out_of_scope",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'SHENYANG GREAT WALL LUBRICATING OIL MANUFACTURING CO., LTD; established 1987; lubricating oil, special oil and additive series products; brand 润驰 (Runchike); products include engine oils, gear oils, industrial oils'; 35pp product manual for a finished lubricant manufacturer → out_of_scope (catalog of finished lubricant blends, not a raw-material source document); product mix of finished lubricants and possibly additive components, but no individual raw material TDS identified",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "613671bd2b28": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Tanee Chemical",
+   "products": [
+    "TANEE:TE_598"
+   ],
+   "roles": {
+    "TANEE:TE_598": "subject"
+   },
+   "relation": "product",
+   "read": "full page content: product name, description, applications, typical properties",
+   "note": "1pp; 'TE-598 Dialkyl Di Phenylamine TANEE CHEMICAL LTD, Room 2703, Building 26, Link Park, No.8 Culture Park, West Road, BDA, Beijing, China'; ashless DPA antioxidant prepared from diphenylamine and olefin",
+   "next_action": "",
+   "manufacturer": "Tanee Chemical Ltd.",
+   "distributor": "",
+   "issuer": "Tanee Chemical Ltd."
+  },
+  "0722625048bb": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Shanghai Minglan Chemical",
+   "products": [
+    "MINGLAN:T106D_SUP_HIGH_TBN_CA_SUL"
+   ],
+   "roles": {
+    "MINGLAN:T106D_SUP_HIGH_TBN_CA_SUL": "subject"
+   },
+   "relation": "product",
+   "read": "full page content: product name and description",
+   "note": "1pp; '151 T106D Super High TBN Synthetic Calcium Sulfonate'; Shanghai Minglan Chemical Co., Ltd.; lubeadditive.com domain; super high TBN calcium sulfonate detergent",
+   "next_action": "",
+   "manufacturer": "Shanghai Minglan Chemical Co., Ltd.",
+   "distributor": "",
+   "issuer": "Shanghai Minglan Chemical Co., Ltd."
+  },
+  "dfd31b080775": {
+   "doc_type": "finished lubricant product catalog",
+   "supplier": "Shenyang Great Wall",
+   "products": [
+    "SHENYANG_GW:CATALOG"
+   ],
+   "roles": {
+    "SHENYANG_GW:CATALOG": "subject"
+   },
+   "relation": "out_of_scope",
+   "read": "",
+   "note": "35pp; product manual for Shenyang Great Wall Lubricating Oil Manufacturing Co., Ltd.; covers engine oils, gear oils, industrial gear oils, hydraulic oils, compressor oils as finished lubricant products (brand 润驰/Runchike); includes ISO 9001:2015 quality certification info; this is a finished lubricant manufacturer catalog, not a raw-material source; some additive product data may be embedded but not separated in this document",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "Shenyang Great Wall Lubricating Oil Manufacturing Co., Ltd."
+  }
+ }
+}

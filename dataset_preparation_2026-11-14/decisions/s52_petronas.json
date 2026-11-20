@@ -1,0 +1,144 @@
+{
+ "batch": "S52 PETRONAS (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "5 documents with provisional supplier PETRONAS",
+ "products": {
+  "EXISTING:PETRONAS_ETRO_6_PLUS": {
+   "name": "ETRO 6+",
+   "supplier": "PETRONAS",
+   "material_class": "base_oil",
+   "existing_record": "PETRONAS_ETRO_6_PLUS",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "EXISTING:PETRONAS_ETRO_6": {
+   "name": "ETRO 6",
+   "supplier": "PETRONAS",
+   "material_class": "base_oil",
+   "existing_record": "PETRONAS_ETRO_6",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "EXISTING:PETRONAS_EQUINAS_4": {
+   "name": "EQUINAS 4",
+   "supplier": "PETRONAS",
+   "material_class": "base_oil",
+   "existing_record": "PETRONAS_EQUINAS_4",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "EXISTING:PETRONAS_EQUINAS_6": {
+   "name": "EQUINAS 6",
+   "supplier": "PETRONAS",
+   "material_class": "base_oil",
+   "existing_record": "PETRONAS_EQUINAS_6",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "EXISTING:PETRONAS_EQUINAS_8": {
+   "name": "EQUINAS 8",
+   "supplier": "PETRONAS",
+   "material_class": "base_oil",
+   "existing_record": "PETRONAS_EQUINAS_8",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  }
+ },
+ "documents": {
+  "1d4994a6c7a5": {
+   "doc_type": "SDS",
+   "supplier": "PETRONAS",
+   "products": [
+    "EXISTING:PETRONAS_ETRO_6_PLUS"
+   ],
+   "roles": {
+    "EXISTING:PETRONAS_ETRO_6_PLUS": "subject"
+   },
+   "relation": "product",
+   "read": "section 1: product name ETRO 6+, manufacturer Malaysian Refining Company, CAS 64742-54-7",
+   "note": "9pp; 'ETRO 6+ Version 1.2 Release Date: 24.03.2020'; manufactured by Malaysian Refining Company Sdn Bhd (MRCSB), Sungai Udang, Melaka; 'Recommended use: Base oil for Automotive Engine Oil'; CAS 64742-54-7, REACH 01-2119484627-25-XXXX; Group III+ 6cSt designation",
+   "next_action": "",
+   "manufacturer": "Malaysian Refining Company Sdn Bhd",
+   "distributor": "",
+   "issuer": "Malaysian Refining Company Sdn Bhd"
+  },
+  "bf1276e393f7": {
+   "doc_type": "SDS",
+   "supplier": "PETRONAS",
+   "products": [
+    "EXISTING:PETRONAS_EQUINAS_4"
+   ],
+   "roles": {
+    "EXISTING:PETRONAS_EQUINAS_4": "subject"
+   },
+   "relation": "product",
+   "read": "section 1: product name EQUINAS 4, PETRONAS Lubricants International",
+   "note": "10pp; 'EQUINAS 4 Version 1.0 Release Date: 21.10.2021'; CAS 64742-54-7; 'Lubricant base oil'; PETRONAS LUBRICANTS INTERNATIONAL, Level 26 Integra Tower, Kuala Lumpur",
+   "next_action": "",
+   "manufacturer": "PETRONAS Lubricants International / Malaysian Refining Company Sdn Bhd",
+   "distributor": "",
+   "issuer": "PETRONAS Lubricants International"
+  },
+  "c4612ea4e58f": {
+   "doc_type": "SDS",
+   "supplier": "PETRONAS",
+   "products": [
+    "EXISTING:PETRONAS_EQUINAS_6"
+   ],
+   "roles": {
+    "EXISTING:PETRONAS_EQUINAS_6": "subject"
+   },
+   "relation": "product",
+   "read": "section 1: product name EQUINAS 6, PETRONAS Lubricants International",
+   "note": "9pp; 'EQUINAS 6 Version 1.0 Release Date: 21.10.2021'; same issuer as DL2-15184",
+   "next_action": "",
+   "manufacturer": "PETRONAS Lubricants International / Malaysian Refining Company Sdn Bhd",
+   "distributor": "",
+   "issuer": "PETRONAS Lubricants International"
+  },
+  "b1fc67e8bef3": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "PETRONAS",
+   "products": [
+    "EXISTING:PETRONAS_EQUINAS_8"
+   ],
+   "roles": {
+    "EXISTING:PETRONAS_EQUINAS_8": "subject"
+   },
+   "relation": "product",
+   "read": "full page content: EQUINAS 8 product data with typical properties",
+   "note": "1pp; 'EQUINAS 8 | High Quality Group III Base Oil'; typical properties table for Group III 8cSt",
+   "next_action": "",
+   "manufacturer": "PETRONAS Lubricants International / Malaysian Refining Company Sdn Bhd",
+   "distributor": "",
+   "issuer": "PETRONAS Lubricants International"
+  },
+  "a57e42fd17c6": {
+   "doc_type": "certificate of analysis (CoA)",
+   "supplier": "PETRONAS",
+   "products": [
+    "EXISTING:PETRONAS_ETRO_6"
+   ],
+   "roles": {
+    "EXISTING:PETRONAS_ETRO_6": "subject"
+   },
+   "relation": "product",
+   "read": "full page content: CoA for GIII-6Cst base oil named Etro 6",
+   "note": "1pp; 'Base Oil GIII-6Cst (Etro 6) Date: Oct-2023'; kV40 34.35 cSt, kV100 6.158 cSt, VI 128, PP -21°C, FP 246°C, Noack 6.8 wt%, S 3 ppm, Saturates 99.7 wt%; product name 'Etro 6' (without '+') → linked to PETRONAS_ETRO_6; ETRO 6 and ETRO 6+ are separately registered production records",
+   "next_action": "",
+   "manufacturer": "Malaysian Refining Company Sdn Bhd",
+   "distributor": "",
+   "issuer": "Malaysian Refining Company Sdn Bhd"
+  }
+ }
+}

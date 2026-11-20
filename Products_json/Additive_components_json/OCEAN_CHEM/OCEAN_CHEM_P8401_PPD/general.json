@@ -1,0 +1,290 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "OCEAN_CHEM_P8401_PPD",
+  "product": {
+    "product_id": "P8401_PPD",
+    "material_id": "OCEAN_CHEM:P8401_PPD",
+    "product_name": "P8401 PMA PPD",
+    "supplier": "Ocean Chemical Technology"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-15432.pdf",
+      "pages": "",
+      "doc_type": "product data sheet (TDS), typical properties table",
+      "revision_date": "2024-05-18",
+      "notes": ""
+    }
+  ],
+  "component_subtype": null,
+  "fields": {
+    "function": {
+      "primary": {
+        "value": "P8401 is an effective polyalkyl methacrylate pour point depressant, which can be used in most lubricants, such as engine oils, gear oils, and hydraulic oils, especially suitable for API Group II and III base oils.",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15432.pdf",
+          "page": 1,
+          "revision_date": "2024-05-18"
+        },
+        "notes": "from TDS product introduction"
+      },
+      "secondary": {
+        "value": "High shear stability; Lower viscosity, easy to treat; Wide application",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15432.pdf",
+          "page": 1,
+          "revision_date": "2024-05-18"
+        },
+        "notes": "from TDS Performance section; secondary benefits listed as bullets"
+      }
+    },
+    "chemical_family": {
+      "value": "polyalkyl methacrylate (PMA)",
+      "status": "Reported",
+      "source": {
+        "file": "DL2-15432.pdf",
+        "page": 1,
+        "revision_date": "2024-05-18"
+      },
+      "notes": "chemical family from TDS product name and introduction"
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; active polymer content % not stated in TDS",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "carrier": {
+      "identity": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; product is described as a clear liquid; no carrier stated explicitly; low flash point (160°C) and density (900 kg/m³) are consistent with a diluted PMA solution"
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; no carrier percentage stated",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    },
+    "treat_rate": {
+      "value": null,
+      "qualifier": null,
+      "min": 0.1,
+      "max": 1,
+      "value_kind": "range",
+      "printed_text": "P8401: 0.1%-1%wt, depends on the actual situation.",
+      "unit": "wt%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15432.pdf",
+        "page": 1,
+        "revision_date": "2024-05-18"
+      },
+      "notes": "from TDS \"Typical treat rate\" section"
+    },
+    "compatibility_restrictions": {
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "Reported",
+      "notes": "especially suitable for API Group II and III base oils",
+      "source": {
+        "file": "DL2-15432.pdf",
+        "page": 1,
+        "revision_date": "2024-05-18"
+      }
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mg KOH/g",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; PMA PPD — ashless, no TBN",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    }
+  },
+  "open_questions": [
+    {
+      "property": "kv100",
+      "printed_text": "Viscosity at 100°C, mm2/s: 260",
+      "notes": "kv100 of neat PMA concentrate (not a formulated oil); high viscosity typical of undiluted PMA solutions",
+      "source": {
+        "file": "DL2-15432.pdf",
+        "page": 1,
+        "revision_date": "2024-05-18"
+      }
+    },
+    {
+      "property": "density",
+      "printed_text": "Density at 20°C, kg/m3: 900",
+      "notes": "temperature is 20°C (non-standard; template density fields assume 15°C or 15.6°C); \"ASTM 4052\" in TDS is the method reference, standard for this method is kg/m³",
+      "source": {
+        "file": "DL2-15432.pdf",
+        "page": 1,
+        "revision_date": "2024-05-18"
+      }
+    },
+    {
+      "property": "flash_point",
+      "printed_text": "Flash point, °C: 160",
+      "notes": "COC method (open cup, as ASTM D92)",
+      "source": {
+        "file": "DL2-15432.pdf",
+        "page": 1,
+        "revision_date": "2024-05-18"
+      }
+    },
+    {
+      "property": "color",
+      "printed_text": "Color: 0.5",
+      "notes": "color 0.5 on ASTM D1500 scale; consistent with a pale yellow/amber PPD product",
+      "source": {
+        "file": "DL2-15432.pdf",
+        "page": 1,
+        "revision_date": "2024-05-18"
+      }
+    }
+  ],
+  "conflicts": []
+}

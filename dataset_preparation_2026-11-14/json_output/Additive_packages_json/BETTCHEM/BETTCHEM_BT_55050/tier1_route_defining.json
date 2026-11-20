@@ -1,0 +1,189 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "BETTCHEM_BT_55050",
+  "product": {
+    "product_id": "BT_55050",
+    "material_id": "BETTCHEM:BT_55050",
+    "product_name": "BT 55050",
+    "supplier": "Bettchem"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-15548.pdf",
+      "pages": "",
+      "doc_type": "product data sheet, description / application section",
+      "revision_date": "2024-09-23",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "value": "Multifunction Transmission Oil Additive Package",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15548.pdf",
+          "page": 1,
+          "revision_date": "2024-09-23"
+        }
+      },
+      "intended_service": {
+        "value": "UTTO; hydraulic, transmission and brake fluid; farm machinery (combine-harvesters, tractors) and construction machinery",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15548.pdf",
+          "page": 1,
+          "revision_date": "2024-09-23"
+        }
+      }
+    },
+    "performance_claims": [
+      {
+        "designation": "UTTO",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "product data sheet, treat rate table",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-15548.pdf",
+          "page": 1,
+          "revision_date": "2024-09-23"
+        }
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "sae_grade": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "not found; no SAE viscosity grade stated in TDS"
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "permitted_api_groups": [],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "not found; not stated in TDS"
+    },
+    "route_selector_restrictions": {
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "not found; not stated in TDS"
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "UTTO: 5% wt",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "UTTO: 5% wt",
+          "unit": "% wt",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-15548.pdf",
+            "page": 1,
+            "revision_date": "2024-09-23"
+          }
+        }
+      },
+      {
+        "claim": "Hydraulic & Transmission: 2% wt",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "Hydraulic & Transmission: 2% wt",
+          "unit": "% wt",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-15548.pdf",
+            "page": 1,
+            "revision_date": "2024-09-23"
+          }
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "notes": "not found; not stated in TDS"
+      }
+    ],
+    "published_formulations": [
+      {
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [],
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "not found; not stated in TDS"
+      }
+    ]
+  },
+  "open_questions": [],
+  "conflicts": []
+}

@@ -1,0 +1,263 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "KANGTAI_KT31048",
+  "product": {
+    "product_id": "KT31048",
+    "material_id": "KANGTAI:KT31048",
+    "product_name": "KT31048",
+    "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd."
+  },
+  "source_documents": [
+    {
+      "file": "DL2-12959.pdf",
+      "pages": "",
+      "doc_type": "product sheet title",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "value": "SUPER MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12959.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      "intended_service": {
+        "value": "Produced by detergent, dispersant, anti-oxidant, corrosion inhibitor, etc. Blending KT31048 with suitable OCP VII into group II base oil can meet the requirements of CJ-4/CI- 4/SM/SL. ",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12959.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      }
+    },
+    "performance_claims": [
+      {
+        "designation": "Performance Level 'CJ-4/SM' at 16 wt% (Multi)",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12959.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "Performance Level 'CI-4/SM' at 14 wt% (Multi)",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12959.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "Performance Level 'CF-4/SL' at 5 wt% (Multi)",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12959.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "sae_grade": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "no SAE viscosity grade is printed (only 'Mono' / 'Multi' where shown)"
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "permitted_api_groups": [],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Reported",
+      "notes": "Blending KT31048 with suitable OCP VII into group II base oil can meet the requirements of CJ-4/CI-4/SM/SL.",
+      "source": {
+        "file": "DL2-12959.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "route_selector_restrictions": {
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "no limits or exclusions printed on the sheet"
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "CJ-4/SM",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 16,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "CJ-4/SM | Multi | 16",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12959.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      },
+      {
+        "claim": "CI-4/SM",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 14,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "CI-4/SM | Multi | 14",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12959.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      },
+      {
+        "claim": "CF-4/SL",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "CF-4/SL | Multi | 5",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12959.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": "'with suitable OCP VII'",
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "text",
+          "printed_text": "'with suitable OCP VII'",
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12959.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": "named co-component; the sheet does not state that the list is complete (route completeness not assessed)",
+          "basis": "printed on the cited page"
+        }
+      },
+      {
+        "role": null,
+        "name": "column 'BD C300+KT Z2048': CJ-4/SM '/', CI-4/SM '/', CF-4/SL '1.5+0.5'",
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "text",
+          "printed_text": "column 'BD C300+KT Z2048': CJ-4/SM '/', CI-4/SM '/', CF-4/SL '1.5+0.5'",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12959.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "notes": "named co-component; the sheet does not state that the list is complete (route completeness not assessed)",
+          "basis": "printed on the cited page"
+        }
+      }
+    ],
+    "published_formulations": [
+      {
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [],
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "no formulation example on the sheet (all pages read)"
+      }
+    ]
+  },
+  "open_questions": [],
+  "conflicts": []
+}

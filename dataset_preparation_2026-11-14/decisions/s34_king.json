@@ -1,0 +1,273 @@
+{
+ "batch": "S34 King Industries (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "12 documents with provisional supplier King Industries",
+ "products": {
+  "KINGINDUSTRIES:NA_LUBE_AO_142_I": {
+   "name": "NA-LUBE AO-142-I",
+   "supplier": "King Industries, Inc.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'NA-LUBE AO-142-I is a liquid diphenylamine based antioxidant for synthetic and mineral oil based lubricants and greases'; DPA antioxidant type; additive_component (antioxidant)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "KINGINDUSTRIES:NA_LUBE_BL_1208": {
+   "name": "NA-LUBE BL-1208",
+   "supplier": "King Industries, Inc.",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'NA-LUBE BL-1208 Multifunctional Ashless R&O Package for Industrial Oils; ashless, multifunctional additive package for turbine oils, R&O oils, and compressor oils'; additive_package for industrial (turbine / R&O / hydraulic) oils, not engine oil",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "KINGINDUSTRIES:NA_LUBE_KR_008": {
+   "name": "NA-LUBE KR-008",
+   "supplier": "King Industries, Inc.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'NA-LUBE KR-008 is a specialty synthetic fluid for high performance lubricants offering outstanding solubility plus excellent hydrolytic and thermo-oxidative stability; CHEMICAL COMPOSITION: Proprietary alkylated aromatic'; base stock modifier or specialty solvent; material class and template to be confirmed",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "KINGINDUSTRIES:NA_LUBE_KR_019": {
+   "name": "NA-LUBE KR-019",
+   "supplier": "King Industries, Inc.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'NA-LUBE KR-019 is a unique additive & base oil modifier offering excellent hydrolytic and thermo-oxidative stability; recommended for use in gear oils'; base oil modifier: could be additive_component or unresolved class",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "KINGINDUSTRIES:NA_SUL_BSN": {
+   "name": "NA-SUL BSN",
+   "supplier": "King Industries, Inc.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'NA-SUL BSN is a premium non-staining rust inhibitor for petroleum and synthetic lubricants, greases, rust preventive fluids and metalworking specialties'; barium sulfonate rust inhibitor; additive_component (corrosion inhibitor)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "DOVER:UNKNOWN_DOC_DL2_15643": {
+   "name": "Unknown Dover Chemical product",
+   "supplier": "Dover Chemical Corporation",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "product name not on page (only Dover Chemical trademark notice: DOVERNOX®, DOVERPHOS®, CHLOROWAX® etc.); mislabeled under King Industries in automated classification; identity unresolved",
+   "identity_evidence": "Dover Chemical trademark notice page; no product name in extractable text",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "5ff875cfbd75": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "King Industries, Inc.",
+   "products": [
+    "KINGINDUSTRIES:NA_LUBE_BL_1208"
+   ],
+   "roles": {
+    "KINGINDUSTRIES:NA_LUBE_BL_1208": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name and type)",
+   "note": "'NA-LUBE BL-1208 Multifunctional Ashless R&O Package for Industrial Oils'; 12pp TDS",
+   "next_action": "",
+   "manufacturer": "King Industries, Inc.",
+   "distributor": "",
+   "issuer": "King Industries, Inc."
+  },
+  "1550ea1a8f64": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "King Industries, Inc.",
+   "products": [
+    "KINGINDUSTRIES:NA_LUBE_BL_1208"
+   ],
+   "roles": {
+    "KINGINDUSTRIES:NA_LUBE_BL_1208": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, composition note, properties)",
+   "note": "'NA-LUBE BL-1208 is a multifunctional premium ashless R&O additive package for industrial oils'; 'CHEMICAL COMPOSITION: Proprietary preparation'; 2pp",
+   "next_action": "",
+   "manufacturer": "King Industries, Inc.",
+   "distributor": "",
+   "issuer": "King Industries, Inc."
+  },
+  "fc88711a8eb5": {
+   "doc_type": "performance evaluation report",
+   "supplier": "King Industries, Inc.",
+   "products": [
+    "KINGINDUSTRIES:NA_LUBE_BL_1208"
+   ],
+   "roles": {
+    "KINGINDUSTRIES:NA_LUBE_BL_1208": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product and report title)",
+   "note": "'NA-LUBE BL-1208 Performance Evaluation Program'; 17pp; 'ashless, multifunctional additive package for turbine oils, R&O oils, and compressors oils'; evaluation data for 0.45% BL-1208 in various base oils",
+   "next_action": "",
+   "manufacturer": "King Industries, Inc.",
+   "distributor": "",
+   "issuer": "King Industries, Inc."
+  },
+  "adc1259dc57b": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "King Industries, Inc.",
+   "products": [
+    "KINGINDUSTRIES:NA_LUBE_KR_008"
+   ],
+   "roles": {
+    "KINGINDUSTRIES:NA_LUBE_KR_008": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name and description)",
+   "note": "'NA-LUBE KR-008... specialty synthetic fluid... CHEMICAL COMPOSITION: Proprietary alkylated aromatic'; 2pp",
+   "next_action": "",
+   "manufacturer": "King Industries, Inc.",
+   "distributor": "",
+   "issuer": "King Industries, Inc."
+  },
+  "5ef35a134626": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "King Industries, Inc.",
+   "products": [
+    "KINGINDUSTRIES:NA_SUL_BSN"
+   ],
+   "roles": {
+    "KINGINDUSTRIES:NA_SUL_BSN": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name and description)",
+   "note": "'NA-SUL BSN is a premium non-staining rust inhibitor for petroleum and synthetic lubricants, greases, rust preventive fluids and metalworking specialties'; 2pp",
+   "next_action": "",
+   "manufacturer": "King Industries, Inc.",
+   "distributor": "",
+   "issuer": "King Industries, Inc."
+  },
+  "beddfa6fd564": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "King Industries, Inc.",
+   "products": [
+    "KINGINDUSTRIES:NA_LUBE_KR_019"
+   ],
+   "roles": {
+    "KINGINDUSTRIES:NA_LUBE_KR_019": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name and description)",
+   "note": "'NA-LUBE KR-019 unique additive & base oil modifier... recommended for use in gear oils'; 2pp",
+   "next_action": "",
+   "manufacturer": "King Industries, Inc.",
+   "distributor": "",
+   "issuer": "King Industries, Inc."
+  },
+  "eeea8dbc0c27": {
+   "doc_type": "application technical note",
+   "supplier": "King Industries, Inc.",
+   "products": [
+    "KINGINDUSTRIES:NA_LUBE_BL_1208"
+   ],
+   "roles": {
+    "KINGINDUSTRIES:NA_LUBE_BL_1208": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product and application description)",
+   "note": "'NA-LUBE BL-1208 Ashless Multifunctional R&O Package'; 3pp; formulation guidance for turbine oils, R&O oils, hydraulic fluids HL, gear oils CL; Cincinnati Lamb and ISO test references",
+   "next_action": "",
+   "manufacturer": "King Industries, Inc.",
+   "distributor": "",
+   "issuer": "King Industries, Inc."
+  },
+  "9c0ebc98e4f4": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "King Industries, Inc.",
+   "products": [
+    "KINGINDUSTRIES:NA_LUBE_BL_1208"
+   ],
+   "roles": {
+    "KINGINDUSTRIES:NA_LUBE_BL_1208": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, lot number, CoA results)",
+   "note": "'NA-LUBE BL-1208 LOT# 08641 MFG.DATE 08/11/2020'; kV40 139 cSt (spec 115-165), %S 6.96 (spec 6.40-7.20); 1pp",
+   "next_action": "",
+   "manufacturer": "King Industries, Inc.",
+   "distributor": "",
+   "issuer": "King Industries, Inc."
+  },
+  "a796dc222984": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "King Industries, Inc.",
+   "products": [
+    "KINGINDUSTRIES:NA_SUL_BSN"
+   ],
+   "roles": {
+    "KINGINDUSTRIES:NA_SUL_BSN": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name and test results table)",
+   "note": "'NA-SUL BSN'; tests listed: Appearance, %Sulfonate, kV100, Moisture, Barium content, Color, Flash point, Neutralization No., SG; 1pp",
+   "next_action": "",
+   "manufacturer": "King Industries, Inc.",
+   "distributor": "",
+   "issuer": "King Industries, Inc."
+  },
+  "39a7f5fadd1d": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "King Industries, Inc.",
+   "products": [
+    "KINGINDUSTRIES:NA_LUBE_AO_142_I"
+   ],
+   "roles": {
+    "KINGINDUSTRIES:NA_LUBE_AO_142_I": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, type, description)",
+   "note": "2pp; 'NA-LUBE AO-142-I is a liquid diphenylamine based antioxidant for synthetic and mineral oil based lubricants and greases'",
+   "next_action": "",
+   "manufacturer": "King Industries, Inc.",
+   "distributor": "",
+   "issuer": "King Industries, Inc."
+  },
+  "c65c5066f5d0": {
+   "doc_type": "comparative study (marketing)",
+   "supplier": "King Industries, Inc.",
+   "products": [
+    "KINGINDUSTRIES:NA_LUBE_AO_142_I"
+   ],
+   "roles": {
+    "KINGINDUSTRIES:NA_LUBE_AO_142_I": "subject"
+   },
+   "relation": "non_product",
+   "read": "page-1 text (comparative claim)",
+   "note": "'NA-LUBE AO-142-I vs. Competitive Product'; 5pp comparative/marketing document; subject AO-142-I is mentioned but document is not a TDS or SDS",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "King Industries, Inc."
+  },
+  "4ea8a9f5579f": {
+   "doc_type": "product data sheet (last page, trademark notice)",
+   "supplier": "Dover Chemical Corporation",
+   "products": [
+    "DOVER:UNKNOWN_DOC_DL2_15643"
+   ],
+   "roles": {
+    "DOVER:UNKNOWN_DOC_DL2_15643": "subject"
+   },
+   "relation": "unresolved_identity",
+   "read": "page text (Dover Chemical trademark list; no product name)",
+   "note": "mislabeled under King Industries; page contains Dover Chemical trademark notice: DOVERNOX®, DOVERPHOS®, CHLOROWAX® 40/50, DOVERPHOS S-9228® etc.; product name not on this page; likely the last page of a Dover PDS",
+   "next_action": "read other pages to identify Dover product (DOVERPHOS/DOVERNOX/CHLOROWAX range)",
+   "manufacturer": "Dover Chemical Corporation",
+   "distributor": "",
+   "issuer": "Dover Chemical Corporation"
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "batch": "S56 Huntsman (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "2 documents with provisional supplier Huntsman",
+ "products": {
+  "HUNTSMAN:TEPA": {
+   "name": "TEPA (Tetraethylenepentamine)",
+   "supplier": "Huntsman",
+   "material_class": "out_of_template (industrial chemical / polyamide precursor — no lubricant application stated)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'TETRAETHYLENEPENTAMINE (TEPA) is principally a mixture of four TEPA ethyleneamines; Applications: Asphalt additives, Mineral processing aids, Corrosion inhibitors, Polyamide resins, Epoxy curing agents, Surfactants'; CAS 112-57-2 (linear TEPA); no lubricant application stated → out_of_template",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "4c5654be8ede": {
+   "doc_type": "product technical bulletin",
+   "supplier": "Huntsman",
+   "products": [
+    "HUNTSMAN:TEPA"
+   ],
+   "roles": {
+    "HUNTSMAN:TEPA": "subject"
+   },
+   "relation": "product",
+   "read": "full page content: TEPA composition, applications",
+   "note": "2pp; 'Technical Bulletin TETRAETHYLENEPENTAMINE (TEPA)'; CAS: linear TEPA 112-57-2, AETETA 31295-46-2, APEEDA 31295-54-2, PEDETA 31295-49-5; applications: asphalt additives, mineral processing, corrosion inhibitors, polyamide resins, epoxy curing, surfactants; no lubricant additive application",
+   "next_action": "",
+   "manufacturer": "Huntsman Corporation",
+   "distributor": "",
+   "issuer": "Huntsman Corporation"
+  },
+  "9aeeece1b55c": {
+   "doc_type": "SDS",
+   "supplier": "Huntsman",
+   "products": [
+    "HUNTSMAN:TEPA"
+   ],
+   "roles": {
+    "HUNTSMAN:TEPA": "subject"
+   },
+   "relation": "product",
+   "read": "section 1: SDS for TEPA, 133pp EU REACH format",
+   "note": "133pp; REACH SDS; very comprehensive safety data sheet for TEPA; same product as DL2-15232 (4c5654be8e) technical bulletin",
+   "next_action": "",
+   "manufacturer": "Huntsman Corporation",
+   "distributor": "",
+   "issuer": "Huntsman Corporation"
+  }
+ }
+}

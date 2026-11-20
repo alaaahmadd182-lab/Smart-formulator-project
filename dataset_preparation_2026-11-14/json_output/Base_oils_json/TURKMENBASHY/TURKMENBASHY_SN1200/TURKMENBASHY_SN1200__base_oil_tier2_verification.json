@@ -1,0 +1,121 @@
+{
+  "template_version": "1.1",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "TURKMENBASHY_SN1200",
+  "product": {
+    "product_id": "SN1200",
+    "material_id": "TURKMENBASHY:SN1200",
+    "product_name": "Turkmenbashy SN1200",
+    "supplier": "Turkmenbashy refinery"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-11239.pdf",
+      "pages": "",
+      "doc_type": "technical specification (TŞ 05766698-60-2006), properties table",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; Noack volatility not stated in TŞ 05766698-60-2006 specification table",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "flash_point": {
+      "value": null,
+      "qualifier": ">=",
+      "min": 250,
+      "max": null,
+      "value_kind": "bound",
+      "printed_text": "Flash point, °C, not less than: 250",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11239.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": "<=",
+      "min": null,
+      "max": -9,
+      "value_kind": "bound",
+      "printed_text": "Pour point, °C, not higher than: -9",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-11239.pdf",
+        "page": 1,
+        "revision_date": null
+      }
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}

@@ -149,6 +149,15 @@ def leaf_status(x, path, ctx):
         if vals: return vals
         # status-free data cannot be certified as reported
         if any(k in x for k in VALUE_KEYS):
+            # Plain-string VALUE_KEYS (e.g. polymer_chemistry.type/form in VM/PPD templates):
+            # treat non-null strings as reported rather than flagging an unclassified field.
+            plain_vals = {k: x[k] for k in VALUE_KEYS if k in x}
+            if all(v is None or isinstance(v, str) for v in plain_vals.values()):
+                any_rep = any(v is not None for v in plain_vals.values())
+                norm = 'reported' if any_rep else 'missing'
+                detail(ctx, path, 'Reported (plain string)' if any_rep else '(empty plain-string field)',
+                       norm, True, x, 'Plain-string field (e.g. polymer_chemistry.type/form); treated as reported')
+                return [norm]
             issues.append((issue_path, 'Unclassified status-free field', 'Needs manual status review'))
             detail(ctx, path, '(no status key)', 'missing', True, x, 'Status-free data; needs manual status review')
         else:
@@ -220,7 +229,7 @@ def load(input_dir):
             issues.append((path, 'Invalid identity', str((cl, rid)))); continue
         folder = path.rsplit('/', 1)[0]
         item = records.setdefault((cl, folder), {'files': [], 'tiers': {}, 'product': {}, 'fields': {}, 'mixed': set(),
-                                                 'record_id': path.rsplit('/', 2)[-2]})
+                                                 'record_id': path.rsplit('/', 2)[-2], 'field_tiers': {}})
         item['files'].append(path); item['product'].update({k: v for k, v in doc.get('product', {}).items() if v is not None})
         if tier in item['tiers']: issues.append((path, 'Duplicate tier', str(tier)))
         item['tiers'][tier] = path
@@ -232,10 +241,23 @@ def load(input_dir):
             if name == 'elements' and isinstance(value, dict):
                 candidates = {f'elements.{k}': v for k, v in value.items()}
             for field, val in candidates.items():
-                if field in item['fields']: issues.append((path, 'Duplicate property', field))
+                if field in item['fields']:
+                    # Cross-tier duplicate: subtype file (higher tier) extends the general block.
+                    # Keep the more-specific (higher-tier) value; flag same-tier duplicates as blocking.
+                    new_t = tier if isinstance(tier, int) else 0
+                    old_t = item['field_tiers'].get(field)
+                    old_t = old_t if isinstance(old_t, int) else 0
+                    if new_t > old_t:
+                        pass   # overwrite with more-specific tier value below
+                    elif new_t == old_t:
+                        issues.append((path, 'Duplicate property', field))
+                        continue
+                    else:
+                        continue   # existing higher-tier value takes precedence
                 ctx = {'class': cl, 'record_id': item['record_id'], 'tier': tier, 'file': path, 'field': field,
                        'issue_path': f'{path}/{field}'}
                 item['fields'][field], mixed = summarize(val, ctx)
+                item['field_tiers'][field] = tier
                 if mixed: item['mixed'].add(field)
 
 

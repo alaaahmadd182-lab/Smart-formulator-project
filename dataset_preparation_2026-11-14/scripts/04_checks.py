@@ -8,7 +8,7 @@
  C07 no product is 'conversion_ready' without stages 2 'verified', 3 'established', 5 'complete'; field-mapping rows cite a page
  C08 production data untouched: no difference in Products_json / json_templates against the workstream base commit ecd4ee3
  C09 OCR cache covers every document without a text layer; failures are listed, not hidden
- C10 field-evidence rows: allowed status vocabulary; non-Missing rows carry printed_text, source file and page"""
+ C10 field-evidence rows (field_evidence/*.csv): allowed status vocabulary; non-Missing rows carry printed_text, source file and page"""
 import csv, glob, hashlib, json, os, subprocess, sys
 from collections import Counter
 
@@ -66,10 +66,13 @@ def main():
     err = [l.split('\t')[0] for l in open(log, encoding='utf-8')] if os.path.exists(log) else []
     err = [l for l in (open(log, encoding='utf-8').read().splitlines() if os.path.exists(log) else []) if 'ERROR' in l]
     chk('C09', not have or all(s in have for s in need), f'{len(need)} documents need OCR / extraction, {len(have)} cached, {len(err)} logged errors' + ('' if have else ' (cache not present in this checkout: not verified)'))
-    fe = rd(os.path.join(T, 'field_evidence.csv'))
+    fe_files = sorted(glob.glob(os.path.join(PKG, 'field_evidence', '*.csv')))
+    fe = []
+    for _f in fe_files:
+        fe.extend(rd(_f))
     ok_status = {'Reported', 'Calculated', 'Missing', 'Not Required', 'N/A', 'Not Applicable'}
     b10 = [r for r in fe if r['status'] not in ok_status or (r['status'] != 'Missing' and not (r['printed_text'] and r['source_file'] and r['page']))]
-    chk('C10', not b10, f'{len(fe)} field-evidence rows, {len(b10)} invalid')
+    chk('C10', not b10, f'{len(fe)} field-evidence rows from {len(fe_files)} file(s), {len(b10)} invalid')
     fails = [c for c, ok, _ in res if not ok]
     print(f'{len(res) - len(fails)} / {len(res)} checks passed')
     sys.exit(1 if fails else 0)

@@ -1,0 +1,273 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "KANGTAI_KT30090",
+  "product": {
+    "product_id": "KT30090",
+    "material_id": "KANGTAI:KT30090",
+    "product_name": "KT30090",
+    "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd."
+  },
+  "source_documents": [
+    {
+      "file": "DL2-12955.pdf",
+      "pages": "",
+      "doc_type": "product sheet title",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "value": "MULTIFUNCTIONAL ENGINE OIL ADDITIVE PACKAGE",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12955.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      "intended_service": {
+        "value": "A package additive with economical formulation. Can control paint film and sludge effectively and prevent the friction pair between the wear and tear. Has good detergency, dispersancy, antioxidation and antiwear properties. Has light color with proper dosage. ",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12955.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      }
+    },
+    "performance_claims": [
+      {
+        "designation": "Performance Level 'SL/CF' at 7.2 wt%",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12955.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "Performance Level 'SJ/CF' at 6.8 wt%",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12955.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "Performance Level 'SG/CD' at 5.8 wt%",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12955.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      {
+        "designation": "Performance Level 'SF/CC' at 5.5 wt%",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12955.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "sae_grade": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "no SAE viscosity grade is printed (only 'Mono' / 'Multi' where shown)"
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "permitted_api_groups": [],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "no base-oil statement on the sheet (all pages read)"
+    },
+    "route_selector_restrictions": {
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "no limits or exclusions printed on the sheet"
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "SL/CF",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 7.2,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "SL/CF | 7.2",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12955.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      },
+      {
+        "claim": "SJ/CF",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 6.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "SJ/CF | 6.8",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12955.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      },
+      {
+        "claim": "SG/CD",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 5.8,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "SG/CD | 5.8",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12955.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      },
+      {
+        "claim": "SF/CC",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 5.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "SF/CC | 5.5",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12955.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "notes": "no co-component is named on the sheet (all pages read); this is 'not recorded on this sheet', not a statement that none is required"
+      }
+    ],
+    "published_formulations": [
+      {
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [],
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "no formulation example on the sheet (all pages read)"
+      }
+    ]
+  },
+  "open_questions": [],
+  "conflicts": []
+}

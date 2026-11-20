@@ -1,0 +1,171 @@
+{
+  "template_version": "1.1",
+  "material_class": "base_oil",
+  "tier": 2,
+  "tier_label": "Verification of the finished oil - cold flow and volatility",
+  "record_id": "HYUNDAIOILBANK_HSB_500N",
+  "product": {
+    "product_id": "HSB_500N",
+    "material_id": "HYUNDAIOILBANK:HSB_500N",
+    "product_name": "HSB 500N (DAESAN)",
+    "supplier": "Hyundai Oilbank Co., Ltd. / Shell (joint venture base oil)"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-12275.pdf",
+      "pages": "",
+      "doc_type": "product data sheet (TDS), typical properties table",
+      "revision_date": "",
+      "notes": ""
+    },
+    {
+      "file": "DL2-14931.pdf",
+      "pages": "",
+      "doc_type": "certificate of quality (CoQ), batch test result",
+      "revision_date": "2021-06-15",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "mrv": [
+      {
+        "test_temperature_c": null,
+        "mrv_viscosity": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "mPa.s",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "yield_stress": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "Pa",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        }
+      }
+    ],
+    "noack_volatility": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "text",
+      "printed_text": "not found in TDS or CoA",
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12275.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "notes": "NOACK not a specified item in this TDS or CoA"
+    },
+    "flash_point": {
+      "value": null,
+      "qualifier": ">=",
+      "min": 230,
+      "max": null,
+      "value_kind": "bound",
+      "printed_text": "Flash Point (COC) (°C): Min 230 (spec)",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D 92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12275.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "alternate_entries": [
+        {
+          "value": 278,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "report-only",
+          "printed_text": "FLASH POINT: 278 deg C (result)",
+          "unit": "°C",
+          "test_temperature_c": null,
+          "method": "ASTM D92",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14931.pdf",
+            "page": 1,
+            "revision_date": "2021-06-15"
+          },
+          "notes": "CoA batch result; spec Min 230°C"
+        }
+      ]
+    },
+    "pour_point": {
+      "value": null,
+      "qualifier": "<=",
+      "min": null,
+      "max": -15,
+      "value_kind": "bound",
+      "printed_text": "Pour Point (°C): Max -15 (spec)",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D 97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-12275.pdf",
+        "page": 1,
+        "revision_date": null
+      },
+      "alternate_entries": [
+        {
+          "value": -20,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "report-only",
+          "printed_text": "POUR POINT: -20 deg C (result)",
+          "unit": "°C",
+          "test_temperature_c": null,
+          "method": "ASTM D5950",
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-14931.pdf",
+            "page": 1,
+            "revision_date": "2021-06-15"
+          },
+          "notes": "CoA method ASTM D5950; spec Max -15°C; result -20°C"
+        }
+      ]
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}

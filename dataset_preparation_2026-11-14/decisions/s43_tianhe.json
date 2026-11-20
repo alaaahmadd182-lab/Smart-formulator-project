@@ -1,0 +1,224 @@
+{
+ "batch": "S43 Tianhe Chemicals (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "9 documents with provisional supplier Tianhe Chemicals",
+ "products": {
+  "TIANHE:C_TEC_104A": {
+   "name": "C-TEC 104A",
+   "supplier": "Tianhe Chemical Group",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'C-TEC 104A (TBN25) LOW BASE SYNTHETIC ALKYL BENZENE CALCIUM SULFONATE; provides engine oils with fine detergency, dispersion and antirust effects'; additive_component (detergent, calcium sulfonate)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "TIANHE:C_TEC_151A": {
+   "name": "C-TEC 151A",
+   "supplier": "Tianhe Chemical Group",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'C-TEC 151A POLYISOBUTYLENE SUCCINIMIDE; ashless dispersant prepared from highly reactive isobutylene (f=1300) by thermal process; good detergency and low temperature dispersancy'; additive_component (dispersant, PIBSI)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "TIANHE:C_TEC_206": {
+   "name": "C-TEC 206",
+   "supplier": "Tianhe Chemical Group",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'C-TEC 206 ZINC PRIMARY-SECONDARY ALKYL DITHIOPHOSPHATE; zinc thiophosphate prepared from thiophosphoric acid made from mixed primary-secondary alcohols; inhibit oils oxidation'; additive_component (antioxidant/antiwear ZDDP, mixed primary-secondary)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "TIANHE:C_TEC_209": {
+   "name": "C-TEC 209",
+   "supplier": "Tianhe Chemical Group",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'C-TEC 209 ZINC SECONDARY ALKYL DITHIOPHOSPHATE; zinc thiophosphate prepared from thiophosphoric acid made from secondary alcohols'; additive_component (antioxidant/antiwear ZDDP, secondary)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "EXISTING:TIANHE_P_TEC_3232": {
+   "name": "P-TEC 3232",
+   "supplier": "Tianhe Chemical Group",
+   "material_class": "additive_package",
+   "existing_record": "TIANHE_P_TEC_3232",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "TIANHE:P_TEC_3234": {
+   "name": "P-TEC 3234",
+   "supplier": "Tianhe Chemical Group",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'P-TEC 3234 DIESEL ENGINE OIL PACKAGE; developed to meet API CF performance'; additive_package (diesel engine oil, API CF)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  },
+  "TIANHE:P_TEC_9100": {
+   "name": "P-TEC 9100",
+   "supplier": "Tianhe Chemical Group",
+   "material_class": "additive_package",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'P-TEC 9100 PASSENGER CAR AND MOTOCYCLE ENGINE OIL PACKAGE; API SL performance levels at different treat rates'; additive_package (PCMO/JASO MA)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_package tier1 + tier2"
+  }
+ },
+ "documents": {
+  "c793935c48c1": {
+   "doc_type": "product range reference table (xlsx)",
+   "supplier": "Tianhe Sunshine",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "spreadsheet content: multi-product properties table covering T-202 through T-154A",
+   "note": "xlsx file; 'Tianhe Sunshine' brand; covers T-202 (ZDDP), T-203 (ZDDP), T-204 (ZDDP), T-161/T-161B (PIBSI/boronated PIBSI), L557 (DPA antioxidant), T-106/T-106A (high-base sulfonate), T-115B (high-base sulfurized phenate), T-154A (PIBSI); multi-product reference; Tianhe Sunshine is a related entity to Tianhe Chemical Group",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "Tianhe Sunshine"
+  },
+  "425b59d81f90": {
+   "doc_type": "product range reference table (xlsx)",
+   "supplier": "Tianhe Sunshine",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "spreadsheet content: multi-product properties table covering T-202 through T-154A",
+   "note": "xlsx file; 'Tianhe Sunshine' brand; covers T-202 (ZDDP), T-203 (ZDDP), T-204 (ZDDP), T-161/T-161B (PIBSI/boronated PIBSI), L557 (DPA antioxidant), T-106/T-106A (high-base sulfonate), T-115B (high-base sulfurized phenate), T-154A (PIBSI); multi-product reference; Tianhe Sunshine is a related entity to Tianhe Chemical Group",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "Tianhe Sunshine"
+  },
+  "9459a8a39e01": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Tianhe Chemical Group",
+   "products": [
+    "TIANHE:C_TEC_104A"
+   ],
+   "roles": {
+    "TIANHE:C_TEC_104A": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, CAS class, typical properties",
+   "note": "2pp; ENGLISH.TIANHECHEM.COM format",
+   "next_action": "",
+   "manufacturer": "Tianhe Chemical Group",
+   "distributor": "",
+   "issuer": "Tianhe Chemical Group"
+  },
+  "00b65021a682": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Tianhe Chemical Group",
+   "products": [
+    "TIANHE:C_TEC_151A"
+   ],
+   "roles": {
+    "TIANHE:C_TEC_151A": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, chemistry, typical properties",
+   "note": "2pp; PIBSI dispersant",
+   "next_action": "",
+   "manufacturer": "Tianhe Chemical Group",
+   "distributor": "",
+   "issuer": "Tianhe Chemical Group"
+  },
+  "fcaf972e3566": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Tianhe Chemical Group",
+   "products": [
+    "TIANHE:C_TEC_206"
+   ],
+   "roles": {
+    "TIANHE:C_TEC_206": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, chemistry",
+   "note": "2pp; ZDDP primary-secondary",
+   "next_action": "",
+   "manufacturer": "Tianhe Chemical Group",
+   "distributor": "",
+   "issuer": "Tianhe Chemical Group"
+  },
+  "de5df90125ec": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Tianhe Chemical Group",
+   "products": [
+    "EXISTING:TIANHE_P_TEC_3232"
+   ],
+   "roles": {
+    "EXISTING:TIANHE_P_TEC_3232": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name and type",
+   "note": "dupOLD; 'P-TEC 3232 GENERAL PURPOSE ENGINE OIL PACKAGE'; 2pp",
+   "next_action": "",
+   "manufacturer": "Tianhe Chemical Group",
+   "distributor": "",
+   "issuer": "Tianhe Chemical Group"
+  },
+  "afcbf1a67b6c": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Tianhe Chemical Group",
+   "products": [
+    "TIANHE:P_TEC_3234"
+   ],
+   "roles": {
+    "TIANHE:P_TEC_3234": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, performance claims",
+   "note": "'P-TEC 3234 DIESEL ENGINE OIL PACKAGE; developed to meet API CF performance'; 2pp",
+   "next_action": "",
+   "manufacturer": "Tianhe Chemical Group",
+   "distributor": "",
+   "issuer": "Tianhe Chemical Group"
+  },
+  "248ffefbcc1c": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Tianhe Chemical Group",
+   "products": [
+    "TIANHE:P_TEC_9100"
+   ],
+   "roles": {
+    "TIANHE:P_TEC_9100": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, performance claims",
+   "note": "'P-TEC 9100 PASSENGER CAR AND MOTOCYCLE ENGINE OIL PACKAGE; API SL'; 2pp",
+   "next_action": "",
+   "manufacturer": "Tianhe Chemical Group",
+   "distributor": "",
+   "issuer": "Tianhe Chemical Group"
+  },
+  "5b48698eaaea": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Tianhe Chemical Group",
+   "products": [
+    "TIANHE:C_TEC_209"
+   ],
+   "roles": {
+    "TIANHE:C_TEC_209": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, URL, chemistry",
+   "note": "3pp; captured from tianhechem.com/Products/CorrosionInhibitors/10490753; ZDDP secondary; date captured 7/18/2020",
+   "next_action": "",
+   "manufacturer": "Tianhe Chemical Group",
+   "distributor": "",
+   "issuer": "Tianhe Chemical Group"
+  }
+ }
+}

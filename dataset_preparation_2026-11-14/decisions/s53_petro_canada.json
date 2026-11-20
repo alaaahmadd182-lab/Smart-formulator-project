@@ -1,0 +1,107 @@
+{
+ "batch": "S53 Petro-Canada (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "4 documents with provisional supplier Petro-Canada",
+ "products": {
+  "EXISTING:PETRO_CANADA_PURITY_VHVI_4": {
+   "name": "PURITY VHVI 4",
+   "supplier": "Petro-Canada",
+   "material_class": "base_oil",
+   "existing_record": "PETRO_CANADA_PURITY_VHVI_4",
+   "status": "existing",
+   "notes": "product name from benchmarking document title 'Benchmarking Results VHVI 4'; VHVI = Very High Viscosity Index; Group III+ 4 cSt base oil; 'Alternative to more expensive PAOs/GP III+ in many high performance lubricant applications'",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "EXISTING:PETRO_CANADA_PURITY_L50": {
+   "name": "PURITY L50",
+   "supplier": "Petro-Canada",
+   "material_class": "base_oil",
+   "existing_record": "PETRO_CANADA_PURITY_L50",
+   "status": "existing",
+   "notes": "product name from TDS footer 'Product Data Sheet - PURITY L50 BASE OIL'; kV40 5.5 cSt, kV100 1.78 cSt, PP -12°C, FP 152°C (COC)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "PETRO_CANADA:SUNISO_GS": {
+   "name": "Suniso GS (5GS)",
+   "supplier": "Petro-Canada",
+   "material_class": "out_of_template (refrigeration compressor lubricant)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'SUNISO 5GS Refrigeration Compressor Lubricant'; 'Petro-Canada Lubricants is a HF Sinclair brand'; Internet: www.petrocanadalubricants.com/sds; refrigeration compressor lubricant → out_of_template",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "10fde6778e80": {
+   "doc_type": "product brochure (benchmarking)",
+   "supplier": "Petro-Canada",
+   "products": [
+    "EXISTING:PETRO_CANADA_PURITY_VHVI_4"
+   ],
+   "roles": {
+    "EXISTING:PETRO_CANADA_PURITY_VHVI_4": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 and page-2 content: Noack benchmarking results and product features",
+   "note": "2pp; 'Benchmarking Results VHVI 4 Comp A B C D'; Noack values: VHVI 4 = 12.65%, vs Comp A/B/C/D = 14-16%; features: 0W-16 positioning, premium HTHS motor oils, PAO alternative",
+   "next_action": "",
+   "manufacturer": "Petro-Canada Lubricants Inc. (HF Sinclair brand)",
+   "distributor": "",
+   "issuer": "Petro-Canada Lubricants Inc. (HF Sinclair brand)"
+  },
+  "04b526e8d4c0": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Petro-Canada",
+   "products": [
+    "EXISTING:PETRO_CANADA_PURITY_L50"
+   ],
+   "roles": {
+    "EXISTING:PETRO_CANADA_PURITY_L50": "subject"
+   },
+   "relation": "product",
+   "read": "full page content: PURITY L50 typical properties",
+   "note": "1pp; 'Product Data Sheet - PURITY L50 BASE OIL'; kV40 4.5-6.5 cSt, typical 5.5; kV100 Report (1.78 cSt typical); PP -12°C (max -3°C); FP COC 152°C (min 140°C); Density 0.853 kg/L at 15°C; Color <0.5 ASTM",
+   "next_action": "",
+   "manufacturer": "Petro-Canada Lubricants Inc. (HF Sinclair brand)",
+   "distributor": "",
+   "issuer": "Petro-Canada Lubricants Inc. (HF Sinclair brand)"
+  },
+  "975453076b7a": {
+   "doc_type": "SDS",
+   "supplier": "Petro-Canada",
+   "products": [
+    "PETRO_CANADA:SUNISO_GS"
+   ],
+   "roles": {
+    "PETRO_CANADA:SUNISO_GS": "subject"
+   },
+   "relation": "product",
+   "read": "section 1: product name SUNISO 5GS, refrigeration compressor lubricant",
+   "note": "12pp REACH SDS; 'SUNISO TM/MC 5GS Version 3.1 Revision Date 2025/04/17'; product codes: SNGS5C16, SNGS5P20, SNGS5DRM; 'Refrigeration Compressor Lubricant'; Petro-Canada Lubricants (HF Sinclair brand)",
+   "next_action": "",
+   "manufacturer": "Petro-Canada Lubricants Inc. (HF Sinclair brand)",
+   "distributor": "",
+   "issuer": "Petro-Canada Lubricants Inc. (HF Sinclair brand)"
+  },
+  "ef7b2cd25ae2": {
+   "doc_type": "product brochure",
+   "supplier": "Petro-Canada",
+   "products": [
+    "PETRO_CANADA:SUNISO_GS"
+   ],
+   "roles": {
+    "PETRO_CANADA:SUNISO_GS": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 and page-2 content: Suniso GS features and application description",
+   "note": "2pp; 'Suniso GS WORLD-LEADING REFRIGERATION LUBRICANTS'; features: low wax/PP, high dielectric strength, chemical stability with refrigerant; covers entire Suniso GS series; premium refrigeration compressor lubricant",
+   "next_action": "",
+   "manufacturer": "Petro-Canada Lubricants Inc. (HF Sinclair brand)",
+   "distributor": "",
+   "issuer": "Petro-Canada Lubricants Inc. (HF Sinclair brand)"
+  }
+ }
+}

@@ -99,9 +99,11 @@ R = []
 for sha12, v in DEC['documents'].items():
     if not v['products']:
         continue
-    key = v['products'][0]
-    prod = DEC['products'][key]
-    code = key.split(':')[1]
+    dec_key = v['products'][0]
+    prod = DEC['products'][dec_key]
+    code = dec_key.split(':')[1]
+    # Use the existing-record key so evidence product_key matches product_register/stages
+    key = ('EXISTING:' + prod['existing_record']) if prod.get('status') == 'existing' and prod.get('existing_record') else dec_key
     is_pkg = prod['material_class'] == 'additive_package'
     src = U[sha12]
     pg = pages(src['sha256'])

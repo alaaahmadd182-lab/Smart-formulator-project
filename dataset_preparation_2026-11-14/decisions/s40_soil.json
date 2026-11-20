@@ -1,0 +1,243 @@
+{
+ "batch": "S40 S-OIL (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "10 documents with provisional supplier S-OIL",
+ "products": {
+  "EXISTING:S_OIL_ULTRA_S_2": {
+   "name": "Ultra-S 2 (60 Neutral)",
+   "supplier": "S-OIL Corporation",
+   "material_class": "base_oil",
+   "existing_record": "S_OIL_ULTRA_S_2",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "EXISTING:S_OIL_ULTRA_S_3": {
+   "name": "Ultra-S 3 (70 Neutral)",
+   "supplier": "S-OIL Corporation",
+   "material_class": "base_oil",
+   "existing_record": "S_OIL_ULTRA_S_3",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "EXISTING:S_OIL_ULTRA_S_4": {
+   "name": "Ultra-S 4 (100 Neutral)",
+   "supplier": "S-OIL Corporation",
+   "material_class": "base_oil",
+   "existing_record": "S_OIL_ULTRA_S_4",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "EXISTING:S_OIL_ULTRA_S_6": {
+   "name": "Ultra-S 6 (150 Neutral)",
+   "supplier": "S-OIL Corporation",
+   "material_class": "base_oil",
+   "existing_record": "S_OIL_ULTRA_S_6",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "EXISTING:S_OIL_ULTRA_S_8": {
+   "name": "Ultra-S 8 (250 Neutral)",
+   "supplier": "S-OIL Corporation",
+   "material_class": "base_oil",
+   "existing_record": "S_OIL_ULTRA_S_8",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "SOIL:TRANSFORMER_OIL_TI": {
+   "name": "S-OIL Transformer Oil T/I",
+   "supplier": "S-OIL Corporation",
+   "material_class": "out_of_template (electrical insulating oil)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'S-OIL TRANSFORMER OIL T/I HIGHLY REFINED HYDROTREATED ELECTRICAL INSULATING OIL (Trace-inhibited / Inhibited)'; electrical insulating oil — out of template for lubricant base oil / additive database",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "a2cf10bf6751": {
+   "doc_type": "product data sheet (range TDS)",
+   "supplier": "S-OIL Corporation",
+   "products": [
+    "EXISTING:S_OIL_ULTRA_S_2",
+    "EXISTING:S_OIL_ULTRA_S_3",
+    "EXISTING:S_OIL_ULTRA_S_4",
+    "EXISTING:S_OIL_ULTRA_S_6",
+    "EXISTING:S_OIL_ULTRA_S_8"
+   ],
+   "roles": {
+    "EXISTING:S_OIL_ULTRA_S_2": "subject",
+    "EXISTING:S_OIL_ULTRA_S_3": "subject",
+    "EXISTING:S_OIL_ULTRA_S_4": "subject",
+    "EXISTING:S_OIL_ULTRA_S_6": "subject",
+    "EXISTING:S_OIL_ULTRA_S_8": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: Ultra-S® 5-grade range properties table (kV100, VI, density, PP, FP)",
+   "note": "dupOLD; 1pp x5 copies; 'Ultra-S® series consists of five viscosity grades, Ultra-S® 2, 3, 4, 6 and 8'; range TDS covering all five grades with typical properties table",
+   "next_action": "",
+   "manufacturer": "S-OIL Corporation",
+   "distributor": "",
+   "issuer": "S-OIL Corporation"
+  },
+  "705b8a28607f": {
+   "doc_type": "product data sheet (range TDS)",
+   "supplier": "S-OIL Corporation",
+   "products": [
+    "EXISTING:S_OIL_ULTRA_S_4",
+    "EXISTING:S_OIL_ULTRA_S_6",
+    "EXISTING:S_OIL_ULTRA_S_8"
+   ],
+   "roles": {
+    "EXISTING:S_OIL_ULTRA_S_4": "subject",
+    "EXISTING:S_OIL_ULTRA_S_6": "subject",
+    "EXISTING:S_OIL_ULTRA_S_8": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: Ultra-S Series 4/6/8 typical properties table",
+   "note": "dupOLD; 1pp x3 copies; 'Typical Properties Ultra-S Series... Ultra-S 4, Ultra-S 6, Ultra-S 8'; partial range TDS covering only grades 4, 6, 8",
+   "next_action": "",
+   "manufacturer": "S-OIL Corporation",
+   "distributor": "",
+   "issuer": "S-OIL Corporation"
+  },
+  "0617afb87671": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "S-OIL Corporation",
+   "products": [
+    "SOIL:TRANSFORMER_OIL_TI"
+   ],
+   "roles": {
+    "SOIL:TRANSFORMER_OIL_TI": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name and type description",
+   "note": "'S-OIL TRANSFORMER OIL T/I HIGHLY REFINED HYDROTREATED ELECTRICAL INSULATING OIL (Trace-inhibited / Inhibited)'; 1pp TDS; out_of_template",
+   "next_action": "",
+   "manufacturer": "S-OIL Corporation",
+   "distributor": "",
+   "issuer": "S-OIL Corporation"
+  },
+  "9aea001c7cc2": {
+   "doc_type": "company/product brochure (lube base oil range)",
+   "supplier": "S-OIL Corporation",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "page text (OCR-impaired): S-OIL company profile, lube base oil range overview",
+   "note": "6pp; OCR-impaired text (scanned document); 'Lube Base Oil S·OIL Company Profile'; covers Ultra-S, Premium and Super ranges; not a product-specific TDS; company overview brochure for the base oil product range",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "S-OIL Corporation"
+  },
+  "b1699931d29a": {
+   "doc_type": "SDS",
+   "supplier": "S-OIL Corporation",
+   "products": [],
+   "roles": {},
+   "relation": "unresolved_identity",
+   "read": "page text (partial): SDS for a hydrotreated heavy paraffinic distillate; product name not in text layer",
+   "note": "dupOLD; 4pp SDS; 'Distillates (petroleum), hydrotreated heavy paraffinic / 4'; product name not in extractable text layer (product identifier likely in a graphic header); probable Ultra-S 6 or Ultra-S 8 SDS given heavy paraffinic classification",
+   "next_action": "read header or OCR to identify S-OIL product name (Ultra-S 6 or 8)",
+   "manufacturer": "S-OIL Corporation",
+   "distributor": "",
+   "issuer": "S-OIL Corporation"
+  },
+  "33983c4d3d73": {
+   "doc_type": "SDS",
+   "supplier": "S-OIL Corporation",
+   "products": [
+    "EXISTING:S_OIL_ULTRA_S_4"
+   ],
+   "roles": {
+    "EXISTING:S_OIL_ULTRA_S_4": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, CAS class, SDS revision date)",
+   "note": "dupOLD; 'Base Oil Ultra-S 4 (100 Neutral)'; SDS Rev. 5, Revision Date June 10, 2015; 4pp",
+   "next_action": "",
+   "manufacturer": "S-OIL Corporation",
+   "distributor": "",
+   "issuer": "S-OIL Corporation"
+  },
+  "2f41b47d9b74": {
+   "doc_type": "SDS",
+   "supplier": "S-OIL Corporation",
+   "products": [
+    "EXISTING:S_OIL_ULTRA_S_2"
+   ],
+   "roles": {
+    "EXISTING:S_OIL_ULTRA_S_2": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, CAS class, SDS revision date)",
+   "note": "dupOLD; 'Base Oil Ultra-S 2 (60 Neutral)'; SDS Rev. 5, Revision Date June 10, 2015; 4pp",
+   "next_action": "",
+   "manufacturer": "S-OIL Corporation",
+   "distributor": "",
+   "issuer": "S-OIL Corporation"
+  },
+  "0d23219a4cd9": {
+   "doc_type": "SDS",
+   "supplier": "S-OIL Corporation",
+   "products": [
+    "EXISTING:S_OIL_ULTRA_S_3"
+   ],
+   "roles": {
+    "EXISTING:S_OIL_ULTRA_S_3": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, CAS class, SDS revision date)",
+   "note": "dupOLD; 'Base Oil Ultra-S 3 (70 Neutral)'; SDS Rev. 5, Revision Date June 10, 2015; 4pp",
+   "next_action": "",
+   "manufacturer": "S-OIL Corporation",
+   "distributor": "",
+   "issuer": "S-OIL Corporation"
+  },
+  "205ff9f5d679": {
+   "doc_type": "SDS",
+   "supplier": "S-OIL Corporation",
+   "products": [
+    "EXISTING:S_OIL_ULTRA_S_6"
+   ],
+   "roles": {
+    "EXISTING:S_OIL_ULTRA_S_6": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, CAS class, SDS revision date)",
+   "note": "dupOLD; 'Base Oil Ultra-S 6 (150 Neutral)'; SDS Rev. 5, Revision Date June 10, 2015; 4pp",
+   "next_action": "",
+   "manufacturer": "S-OIL Corporation",
+   "distributor": "",
+   "issuer": "S-OIL Corporation"
+  },
+  "a05a608b92af": {
+   "doc_type": "SDS",
+   "supplier": "S-OIL Corporation",
+   "products": [
+    "EXISTING:S_OIL_ULTRA_S_8"
+   ],
+   "roles": {
+    "EXISTING:S_OIL_ULTRA_S_8": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, CAS class, SDS revision date)",
+   "note": "dupOLD; 'Base Oil Ultra-S 8 (250 Neutral)'; SDS Rev. 5, Revision Date June 10, 2015; 4pp",
+   "next_action": "",
+   "manufacturer": "S-OIL Corporation",
+   "distributor": "",
+   "issuer": "S-OIL Corporation"
+  }
+ }
+}

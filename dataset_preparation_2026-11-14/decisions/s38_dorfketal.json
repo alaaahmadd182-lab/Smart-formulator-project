@@ -1,0 +1,262 @@
+{
+ "batch": "S38 Dorf Ketal (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "11 documents with provisional supplier Dorf Ketal",
+ "products": {
+  "DORFKETAL:PX_3841": {
+   "name": "PX-3841",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'PX 3841 is an oligomeric, non-silicone defoamant; excellent defoamant, even in low temperature applications; more soluble in oil than silicones; CAS NUMBER: 9003-49-0 95-63-6; APPLICATION: Gear Oil 0.05-0.30 %weight'; additive_component (defoamer for lubricating oils)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "DORFKETAL:PX_3871": {
+   "name": "PX-3871",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "material_class": "additive_component",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'PX-3871 is a mixed alkyl borate ester additive; used in lubricating oils and greases to provide: Dispersancy - Friction and wear reduction - Dropping point increase in lithium based greases'; additive_component (borate ester AW/FM/dispersant)",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "additive_component general (+ subtype as noted)"
+  },
+  "DORFKETAL:PX_3219": {
+   "name": "PX 3219",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "material_class": "out_of_template (fuel additive)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'PX 3219; Relevant identified uses: Octane Improver. Not for consumer use'; fuel octane improver — out of scope for lubricant base oil / additive database",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "DORFKETAL:PX_3402": {
+   "name": "PX 3402",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "material_class": "out_of_template (fuel additive)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'PX 3402 OCTANE IMPROVER PRODUCT BULLETIN'; fuel octane improver — out of scope",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "DORFKETAL:PX_3462": {
+   "name": "PX 3462",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "material_class": "out_of_template (fuel additive)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'PX 3462 OCTANE IMPROVER PRODUCT BULLETIN'; fuel octane improver — out of scope",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "DORFKETAL:SR_8208": {
+   "name": "SR 8208",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "material_class": "out_of_template (fuel additive)",
+   "existing_record": "",
+   "status": "out_of_scope",
+   "notes": "printed: 'SR 8208 Gasoline Performance Additive'; gasoline/fuel performance additive — out of scope",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "none / not determined"
+  },
+  "DORFKETAL:UNKNOWN_IC303144": {
+   "name": "Unknown product (IC:303144)",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "material_class": "unresolved",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "product code IC:303144 printed on Product Sales Specification form (DKT/QCL/FM/001-PSS); product name not in extractable text layer; identity unresolved",
+   "identity_evidence": "Dorf Ketal product sales specification form; product name not visible in text layer",
+   "template": "none / not determined"
+  }
+ },
+ "documents": {
+  "c627e08f6c64": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "products": [
+    "DORFKETAL:PX_3841"
+   ],
+   "roles": {
+    "DORFKETAL:PX_3841": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, description, treat levels, CAS numbers",
+   "note": "'PX-3841 LUBRICANT ADDITIVE... oligomeric, non-silicone defoamant'; 1pp TDS; CAS 9003-49-0 (polyisobutylene) + 95-63-6 (1,2,4-trimethylbenzene)",
+   "next_action": "",
+   "manufacturer": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "distributor": "",
+   "issuer": "Dorf Ketal Chemicals India Pvt. Ltd."
+  },
+  "304d04948750": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "products": [
+    "DORFKETAL:SR_8208"
+   ],
+   "roles": {
+    "DORFKETAL:SR_8208": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, brief description",
+   "note": "'SR 8208 Gasoline Performance Additive'; 1pp; Dorf Ketal global offices listed",
+   "next_action": "",
+   "manufacturer": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "distributor": "",
+   "issuer": "Dorf Ketal Chemicals India Pvt. Ltd."
+  },
+  "b320f949e4ed": {
+   "doc_type": "SDS",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "products": [
+    "DORFKETAL:SR_8208"
+   ],
+   "roles": {
+    "DORFKETAL:SR_8208": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name and type (Gasoline Performance Additive)",
+   "note": "'Product name: SR 8208; Relevant identified uses: Gasoline performance additive'; Version 2, Printing Date 19.03.2019; 8pp GHS SDS; gasoline additive",
+   "next_action": "",
+   "manufacturer": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "distributor": "",
+   "issuer": "Dorf Ketal Chemicals India Pvt. Ltd."
+  },
+  "82ee2308755f": {
+   "doc_type": "product specification (form)",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "products": [
+    "DORFKETAL:UNKNOWN_IC303144"
+   ],
+   "roles": {
+    "DORFKETAL:UNKNOWN_IC303144": "subject"
+   },
+   "relation": "unresolved_identity",
+   "read": "page-1 text: Dorf Ketal product sales spec form header; product code IC:303144; product name not in text",
+   "note": "'DKT/QCL/FM/001-PSS Product Sales Specification Rev # 00 20/02/2019 IC : 303144'; product name not in extractable text layer (product data likely in a table or graphic area); 1pp",
+   "next_action": "read full page content to identify product by IC:303144 code",
+   "manufacturer": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "distributor": "",
+   "issuer": "Dorf Ketal Chemicals India Pvt. Ltd."
+  },
+  "89850d970d19": {
+   "doc_type": "product bulletin",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "products": [
+    "DORFKETAL:PX_3402"
+   ],
+   "roles": {
+    "DORFKETAL:PX_3402": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, type (octane improver), description",
+   "note": "'PX 3402 OCTANE IMPROVER PRODUCT BULLETIN'; 6pp; organometallic fuel octane improver; out_of_template",
+   "next_action": "",
+   "manufacturer": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "distributor": "",
+   "issuer": "Dorf Ketal Chemicals India Pvt. Ltd."
+  },
+  "47d45041fccc": {
+   "doc_type": "product bulletin",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "products": [
+    "DORFKETAL:PX_3462"
+   ],
+   "roles": {
+    "DORFKETAL:PX_3462": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, type (octane improver), description",
+   "note": "'PX 3462 OCTANE IMPROVER PRODUCT BULLETIN'; 6pp; organometallic fuel octane improver; out_of_template",
+   "next_action": "",
+   "manufacturer": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "distributor": "",
+   "issuer": "Dorf Ketal Chemicals India Pvt. Ltd."
+  },
+  "8db17b8f741e": {
+   "doc_type": "SDS",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "products": [
+    "DORFKETAL:PX_3219"
+   ],
+   "roles": {
+    "DORFKETAL:PX_3219": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, identified use (Octane Improver)",
+   "note": "'Product name: PX 3219; Relevant identified uses: Octane Improver. Not for consumer use'; Version 1, Printing Date 21.02.2019; 9pp GHS SDS",
+   "next_action": "",
+   "manufacturer": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "distributor": "",
+   "issuer": "Dorf Ketal Chemicals India Pvt. Ltd."
+  },
+  "24ad5c004ca6": {
+   "doc_type": "SDS",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "products": [
+    "DORFKETAL:PX_3402"
+   ],
+   "roles": {
+    "DORFKETAL:PX_3402": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, identified use (Octane Improver)",
+   "note": "'Product name PX 3402; Relevant identified uses: Octane Improver'; Revision date 21/06/2021; 10pp GHS SDS; fuel additive",
+   "next_action": "",
+   "manufacturer": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "distributor": "",
+   "issuer": "Dorf Ketal Chemicals India Pvt. Ltd."
+  },
+  "ac2e34c8fa32": {
+   "doc_type": "SDS",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "products": [
+    "DORFKETAL:PX_3462"
+   ],
+   "roles": {
+    "DORFKETAL:PX_3462": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name and identified use (Octane Improver)",
+   "note": "'Product name: PX 3462; Relevant identified uses: Octane Improver. Not for consumer use'; x2 copies in archive; Version 3, Printing Date 23.03.2015; 10pp GHS SDS",
+   "next_action": "",
+   "manufacturer": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "distributor": "",
+   "issuer": "Dorf Ketal Chemicals India Pvt. Ltd."
+  },
+  "0c6cfd4d5f77": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "products": [
+    "DORFKETAL:PX_3871"
+   ],
+   "roles": {
+    "DORFKETAL:PX_3871": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text: product name, description, applications",
+   "note": "'PX-3871 LUBRICANT ADDITIVE... mixed alkyl borate ester additive; Dispersancy - Friction and wear reduction - Dropping point increase in lithium greases'; 1pp TDS",
+   "next_action": "",
+   "manufacturer": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "distributor": "",
+   "issuer": "Dorf Ketal Chemicals India Pvt. Ltd."
+  },
+  "df26ec51aa58": {
+   "doc_type": "contact page (footer/disclaimer)",
+   "supplier": "Dorf Ketal Chemicals India Pvt. Ltd.",
+   "products": [],
+   "roles": {},
+   "relation": "non_product",
+   "read": "page-1 text: Dorf Ketal global offices and contact information only",
+   "note": "'Global Headquarters: Dorf Ketal Chemicals India Private Limited... Orlem, Malad (W), Mumbai-400064'; 1pp; only company contact information and standard disclaimer; no product data",
+   "next_action": "",
+   "manufacturer": "",
+   "distributor": "",
+   "issuer": "Dorf Ketal Chemicals India Pvt. Ltd."
+  }
+ }
+}

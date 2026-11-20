@@ -1,0 +1,318 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_package",
+  "tier": 2,
+  "tier_label": "Numeric contribution to the finished oil",
+  "record_id": "BETTCHEM_BT_55050",
+  "product": {
+    "product_id": "BT_55050",
+    "material_id": "BETTCHEM:BT_55050",
+    "product_name": "BT 55050",
+    "supplier": "Bettchem"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-15548.pdf",
+      "pages": "",
+      "doc_type": "product data sheet, specifications / properties table",
+      "revision_date": "2024-09-23",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "tbn": {
+      "value": 94.9,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "BASE NUMBER MG KOH/g: 94.9",
+      "unit": "mgKOH/g",
+      "test_temperature_c": null,
+      "method": "ASTM D2896",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15548.pdf",
+        "page": 1,
+        "revision_date": "2024-09-23"
+      }
+    },
+    "sulfated_ash": {
+      "value": 16.48,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "SULPHATED ASH: 16.48",
+      "unit": "mass/wt-%",
+      "test_temperature_c": null,
+      "method": "ASTM D874",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15548.pdf",
+        "page": 1,
+        "revision_date": "2024-09-23"
+      }
+    },
+    "elements": {
+      "Ca": {
+        "value": 3.1,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "CA, MASS%: 3.1",
+        "unit": "MASS%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-15548.pdf",
+          "page": 1,
+          "revision_date": "2024-09-23"
+        }
+      },
+      "Mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found in the inspected text",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "Zn": {
+        "value": 4.1,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "ZN, MASS%: 4.1",
+        "unit": "MASS%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-15548.pdf",
+          "page": 1,
+          "revision_date": "2024-09-23"
+        }
+      },
+      "P": {
+        "value": 4.4,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "P, MASS%: 4.4",
+        "unit": "MASS%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-15548.pdf",
+          "page": 1,
+          "revision_date": "2024-09-23"
+        }
+      },
+      "B": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found in the inspected text",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "Mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found in the inspected text",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "N": {
+        "value": 0.65,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "N, MASS%: 0.65",
+        "unit": "MASS%",
+        "test_temperature_c": null,
+        "method": "ASTM D5762",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-15548.pdf",
+          "page": 1,
+          "revision_date": "2024-09-23"
+        }
+      },
+      "S": {
+        "value": 7.85,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": "typical",
+        "printed_text": "S, MASS%: 7.85",
+        "unit": "MASS%",
+        "test_temperature_c": null,
+        "method": "ASTM D4951",
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-15548.pdf",
+          "page": 1,
+          "revision_date": "2024-09-23"
+        }
+      }
+    },
+    "kv40": {
+      "value": 474.09,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "KINEMATIC VISCOSITY AT 40℃, MM²/S: 474.09",
+      "unit": "MM²/S",
+      "test_temperature_c": null,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15548.pdf",
+        "page": 1,
+        "revision_date": "2024-09-23"
+      }
+    },
+    "kv100": {
+      "value": 30.53,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "KINEMATIC VISCOSITY AT 100℃, MM²/S: 30.53",
+      "unit": "MM²/S",
+      "test_temperature_c": null,
+      "method": "ASTM D445",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15548.pdf",
+        "page": 1,
+        "revision_date": "2024-09-23"
+      }
+    },
+    "density": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "kg/m3 (or as printed)",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found in the inspected text",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "specific_gravity": {
+      "value": 1.07,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "SPECIFIC GRAVITY AT 15.6℃: 1.07",
+      "unit": "dimensionless",
+      "test_temperature_c": null,
+      "method": "ASTM D1298",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15548.pdf",
+        "page": 1,
+        "revision_date": "2024-09-23"
+      },
+      "reference_condition": null
+    },
+    "flash_point": {
+      "value": null,
+      "qualifier": ">",
+      "min": 160,
+      "max": null,
+      "value_kind": "bound",
+      "printed_text": "FLASH POINT, (COC)℃: ＞160",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D92",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15548.pdf",
+        "page": 1,
+        "revision_date": "2024-09-23"
+      },
+      "flash_method": "ASTM D92"
+    },
+    "pour_point": {
+      "value": -31,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": "typical",
+      "printed_text": "POUR POINT ℃: -31",
+      "unit": "°C",
+      "test_temperature_c": null,
+      "method": "ASTM D97",
+      "status": "Reported",
+      "calculation_note": null,
+      "source": {
+        "file": "DL2-15548.pdf",
+        "page": 1,
+        "revision_date": "2024-09-23"
+      }
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}

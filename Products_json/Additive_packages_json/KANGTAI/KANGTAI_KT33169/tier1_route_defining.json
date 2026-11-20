@@ -1,0 +1,168 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_package",
+  "tier": 1,
+  "tier_label": "Route-defining - makes a recipe legitimate or invalid",
+  "record_id": "KANGTAI_KT33169",
+  "product": {
+    "product_id": "KT33169",
+    "material_id": "KANGTAI:KT33169",
+    "product_name": "KT 33169",
+    "supplier": "Jinzhou KangTai Lubricant Additives Co., Ltd."
+  },
+  "source_documents": [
+    {
+      "file": "DL2-12953.pdf",
+      "pages": "",
+      "doc_type": "product sheet title",
+      "revision_date": "",
+      "notes": ""
+    }
+  ],
+  "fields": {
+    "package_type_application": {
+      "package_type": {
+        "value": "NATURAL GAS ENGINE OIL ADDITIVE PACKAGE",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12953.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      },
+      "intended_service": {
+        "value": "Has good detergency at high temperature, excellent antioxidation and antiwear performance. Low ash content. Especially suitable to oil to gas engine oil. ",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12953.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      }
+    },
+    "performance_claims": [
+      {
+        "designation": "Performance Level 'CNG/LNG/CF-4/SJ' at 8.5 wt%",
+        "claim_type": null,
+        "scope": null,
+        "evidence_class": "supplier dosage recommendation for a stated performance level (not an approval or licence)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-12953.pdf",
+          "page": 1,
+          "revision_date": null
+        }
+      }
+    ],
+    "sae_grades_documented": [
+      {
+        "sae_grade": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "no SAE viscosity grade is printed (only 'Mono' / 'Multi' where shown)"
+      }
+    ],
+    "permitted_base_oils_restrictions": {
+      "permitted_api_groups": [],
+      "permitted_grades": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "no base-oil statement on the sheet (all pages read)"
+    },
+    "route_selector_restrictions": {
+      "limits": [],
+      "exclusions": [],
+      "allowed_combinations": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "no limits or exclusions printed on the sheet"
+    },
+    "treat_rate_matrix": [
+      {
+        "claim": "CNG/LNG/CF-4/SJ",
+        "sae_grade": null,
+        "treat_rate_wt_pct": {
+          "value": 8.5,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": "typical",
+          "printed_text": "CNG/LNG/CF-4/SJ | 8.5",
+          "unit": "wt%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Reported",
+          "calculation_note": null,
+          "source": {
+            "file": "DL2-12953.pdf",
+            "page": 1,
+            "revision_date": null
+          },
+          "basis": "printed on the cited page"
+        }
+      }
+    ],
+    "required_co_components": [
+      {
+        "role": null,
+        "name": null,
+        "dose_wt_pct": {
+          "value": null,
+          "qualifier": null,
+          "min": null,
+          "max": null,
+          "value_kind": null,
+          "printed_text": null,
+          "unit": "wt.%",
+          "test_temperature_c": null,
+          "method": null,
+          "status": "Missing",
+          "calculation_note": null,
+          "source": {
+            "file": null,
+            "page": null,
+            "revision_date": null
+          }
+        },
+        "notes": "no co-component is named on the sheet (all pages read); this is 'not recorded on this sheet', not a statement that none is required"
+      }
+    ],
+    "published_formulations": [
+      {
+        "formulation_id": null,
+        "ingredients": [
+          {
+            "name": null,
+            "wt_pct": null
+          }
+        ],
+        "total_wt_pct": null,
+        "total_check_passed": null,
+        "results": [],
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "notes": "no formulation example on the sheet (all pages read)"
+      }
+    ]
+  },
+  "open_questions": [],
+  "conflicts": []
+}

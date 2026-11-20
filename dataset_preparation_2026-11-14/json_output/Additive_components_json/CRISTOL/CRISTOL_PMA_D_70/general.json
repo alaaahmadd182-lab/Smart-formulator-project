@@ -1,0 +1,256 @@
+{
+  "template_version": "1.1",
+  "material_class": "additive_component",
+  "tier": 1,
+  "tier_label": "Every component (general block)",
+  "record_id": "CRISTOL_PMA_D_70",
+  "product": {
+    "product_id": "PMA_D_70",
+    "material_id": "CRISTOL:PMA_D_70",
+    "product_name": "CRISTOL PMA D-70",
+    "supplier": "Cristol Speciality Lubricant Chemicals"
+  },
+  "source_documents": [
+    {
+      "file": "DL2-13724.pdf",
+      "pages": "",
+      "doc_type": "product data sheet, product description section",
+      "revision_date": "2018-11-12",
+      "notes": ""
+    },
+    {
+      "file": "DL2-13725.pdf",
+      "pages": "",
+      "doc_type": "SDS Section 3, composition / information on ingredients",
+      "revision_date": "2019-03-26",
+      "notes": ""
+    }
+  ],
+  "component_subtype": null,
+  "fields": {
+    "function": {
+      "primary": {
+        "value": "Dispersant type viscosity index improver; PMA based",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-13724.pdf",
+          "page": 1,
+          "revision_date": "2018-11-12"
+        },
+        "notes": "product description in TDS: 'PMA based dispersant type VII which is used in the formulation of high quality lubricating oils'"
+      },
+      "secondary": {
+        "value": null,
+        "status": "Missing",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        },
+        "calculation_note": "not found; product described by a single primary function (dispersant-type VM)"
+      }
+    },
+    "chemical_family": {
+      "value": null,
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "calculation_note": "not found; TDS describes product as 'PMA based' in prose but no explicit chemical family field or CAS number is printed"
+    },
+    "active_content": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; no active polymer percentage stated in TDS; SDS Section 3 identifies \"Solvent (Component) 20.0-40.0%\" as the only listed ingredient; active polymer share can be inferred as 60-80% but is not printed as such",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "carrier": {
+      "identity": {
+        "value": "Solvent (Component)",
+        "status": "Reported",
+        "source": {
+          "file": "DL2-13725.pdf",
+          "page": 1,
+          "revision_date": "2019-03-26"
+        },
+        "notes": "SDS Section 3: \"Mixture of below component with non-hazardous addition\"; one component listed as \"Solvent (Component)\" at 20.0-40.0%; chemical identity not disclosed; Asp. Tox. 1 (H304) hazard classification"
+      },
+      "share_wt_pct": {
+        "value": null,
+        "qualifier": null,
+        "min": 20,
+        "max": 40,
+        "value_kind": "range",
+        "printed_text": "Solvent (Component): 20.0-40.0 %",
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Reported",
+        "calculation_note": null,
+        "source": {
+          "file": "DL2-13725.pdf",
+          "page": 1,
+          "revision_date": "2019-03-26"
+        },
+        "notes": "SDS Section 3; percentage basis: wt.% stated in SDS column heading; active polymer share implied as 60-80% but not printed as such"
+      }
+    },
+    "treat_rate": {
+      "value": null,
+      "qualifier": null,
+      "min": null,
+      "max": null,
+      "value_kind": null,
+      "printed_text": null,
+      "unit": "wt.%",
+      "test_temperature_c": null,
+      "method": null,
+      "status": "Missing",
+      "calculation_note": "not found; TDS shows performance test doses (5%, 10%) and one shear test dose (7.5%) but no recommended dose range is stated",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      }
+    },
+    "compatibility_restrictions": {
+      "base_oil_groups": [],
+      "co_additives": [],
+      "seals": [],
+      "exclusions": [],
+      "status": "Missing",
+      "source": {
+        "file": null,
+        "page": null,
+        "revision_date": null
+      },
+      "notes": "not found in the inspected text"
+    },
+    "function_specific_markers": {
+      "tbn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "mg KOH/g",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; PMA-type VM (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "ca": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; PMA-type VM (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mg": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; PMA-type VM (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "p": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; PMA-type VM (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "zn": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; PMA-type VM (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      },
+      "mo": {
+        "value": null,
+        "qualifier": null,
+        "min": null,
+        "max": null,
+        "value_kind": null,
+        "printed_text": null,
+        "unit": "wt.%",
+        "test_temperature_c": null,
+        "method": null,
+        "status": "Missing",
+        "calculation_note": "not found; PMA-type VM (no metallic elements)",
+        "source": {
+          "file": null,
+          "page": null,
+          "revision_date": null
+        }
+      }
+    }
+  },
+  "open_questions": [],
+  "conflicts": []
+}

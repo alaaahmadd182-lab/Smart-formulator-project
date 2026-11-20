@@ -1,0 +1,289 @@
+{
+ "batch": "S32 Neste (identity)",
+ "reviewed_on": "2026-11-15",
+ "scope": "14 documents with provisional supplier Neste",
+ "products": {
+  "NESTE:NEXBASE_3020": {
+   "name": "NEXBASE 3020",
+   "supplier": "Neste Corporation",
+   "material_class": "base_oil",
+   "existing_record": "NESTE_NEXBASE_3020",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "NESTE:NEXBASE_3043": {
+   "name": "NEXBASE 3043",
+   "supplier": "Neste Corporation",
+   "material_class": "base_oil",
+   "existing_record": "NESTE_NEXBASE_3043",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "NESTE:NEXBASE_3060": {
+   "name": "NEXBASE 3060",
+   "supplier": "Neste Corporation",
+   "material_class": "base_oil",
+   "existing_record": "NESTE_NEXBASE_3060",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "NESTE:NEXBASE_3080": {
+   "name": "NEXBASE 3080",
+   "supplier": "Neste Corporation",
+   "material_class": "base_oil",
+   "existing_record": "NESTE_NEXBASE_3080",
+   "status": "existing",
+   "notes": "printed product name on the documents linked in this batch",
+   "identity_evidence": "printed product name on the documents linked in this batch",
+   "template": "base_oil tier1-3"
+  },
+  "NESTE:NEXBASE_TM_2000": {
+   "name": "NEXBASE TM 2000",
+   "supplier": "Neste Corporation",
+   "material_class": "base_oil",
+   "existing_record": "",
+   "status": "new_candidate",
+   "notes": "printed: 'NEXBASE TM 2000 Polyalphaolefins'; Fortum-era brochure confirming PAO product from Fortum / Neste; 'Fortum became the first European-owned producer of polyalphaolefins in 1991; PAO facility in Beringen, Belgium'; specific viscosity grade not stated on page 1; likely a 2 cSt or family range brochure; not in existing records",
+   "identity_evidence": "printed product name on DL2-14881 Fortum brochure",
+   "template": "base_oil tier1-3"
+  }
+ },
+ "documents": {
+  "ee74005aea45": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Neste Corporation",
+   "products": [],
+   "roles": {},
+   "relation": "unresolved_identity",
+   "read": "pages 1-2: Neste contact and distributor information; product properties not in extractable text",
+   "note": "2pp; page 1 is Neste contact/distributor info common to all Neste TDS (2017 format); product name and properties table not in extractable text layer (likely in graphic header or image table on page 2)",
+   "next_action": "OCR page 2 or manual read to identify product name",
+   "manufacturer": "Neste Corporation",
+   "distributor": "",
+   "issuer": "Neste Corporation"
+  },
+  "36a7c6811988": {
+   "doc_type": "product data sheet (TDS/PDS)",
+   "supplier": "Neste Corporation",
+   "products": [],
+   "roles": {},
+   "relation": "unresolved_identity",
+   "read": "pages 1-2: Neste contact and distributor information; product properties not in extractable text",
+   "note": "2pp; page 1 is Neste contact/distributor info common to all Neste TDS (2017 format); same format as DL2-12418 (ee74005aea); product name not extractable",
+   "next_action": "OCR page 2 or manual read to identify product name",
+   "manufacturer": "Neste Corporation",
+   "distributor": "",
+   "issuer": "Neste Corporation"
+  },
+  "6e4ee41f8ff4": {
+   "doc_type": "SDS",
+   "supplier": "Neste Corporation",
+   "products": [
+    "NESTE:NEXBASE_3060"
+   ],
+   "roles": {
+    "NESTE:NEXBASE_3060": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product identifier, REACH format, revision date)",
+   "note": "dupOLD; 'Revision date: 17/10/2017 Supersedes date: 30/05/2016'; 9pp",
+   "next_action": "",
+   "manufacturer": "Neste Corporation",
+   "distributor": "",
+   "issuer": "Neste Corporation"
+  },
+  "9f3a762a954c": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Neste Corporation",
+   "products": [
+    "NESTE:NEXBASE_3060"
+   ],
+   "roles": {
+    "NESTE:NEXBASE_3060": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (Neste quality plan note, Neste Belgium contact)",
+   "note": "x2 copies in archive; 'LAST MEASUREMENT ACCORDING TO NESTE'S QUALITY PLAN'; Handled by: Jacquemyn Kirsten, Neste (Belgium); 1pp",
+   "next_action": "",
+   "manufacturer": "Neste Corporation",
+   "distributor": "",
+   "issuer": "Neste Corporation"
+  },
+  "ff570214709c": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Neste Corporation",
+   "products": [
+    "NESTE:NEXBASE_3043"
+   ],
+   "roles": {
+    "NESTE:NEXBASE_3043": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, CoA header)",
+   "note": "'Product Name: NEXBASE 3043 CERTIFICATE OF ANALYSIS'; 1pp",
+   "next_action": "",
+   "manufacturer": "Neste Corporation",
+   "distributor": "",
+   "issuer": "Neste Corporation"
+  },
+  "f45b0fc5d732": {
+   "doc_type": "certificate of analysis (buyer-issued)",
+   "supplier": "Neste Corporation",
+   "products": [
+    "NESTE:NEXBASE_3043"
+   ],
+   "roles": {
+    "NESTE:NEXBASE_3043": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (buyer code NT503 = NEXBASE 3043, batch, test results)",
+   "note": "'Product: NT 503(NEXBASE 3043) Batch No: B201369 Date: 30 Jun 2020 PL No: 253-10918/1287'; buyer code NT503 printed with NEXBASE 3043 in parentheses; 2pp",
+   "next_action": "",
+   "manufacturer": "Neste Corporation",
+   "distributor": "",
+   "issuer": "Neste Corporation"
+  },
+  "e85a2cdbb74f": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Neste Corporation",
+   "products": [
+    "NESTE:NEXBASE_3060"
+   ],
+   "roles": {
+    "NESTE:NEXBASE_3060": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, batch number, test results table)",
+   "note": "'Product: NEXBASE 3060(Base Oil GIII, 6 cSt) Batch No: B201137 Date: 22 Feb 2020'; 2pp; kV40 32.32 cSt, kV100 5.986 cSt (spec 5.7-6.3), VI (measured)",
+   "next_action": "",
+   "manufacturer": "Neste Corporation",
+   "distributor": "",
+   "issuer": "Neste Corporation"
+  },
+  "89e29752a64f": {
+   "doc_type": "certificate of analysis (batch)",
+   "supplier": "Neste Corporation",
+   "products": [
+    "NESTE:NEXBASE_3080"
+   ],
+   "roles": {
+    "NESTE:NEXBASE_3080": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product name, CoA header)",
+   "note": "'Product Name: NEXBASE 3080 CERTIFICATE OF ANALYSIS'; 1pp",
+   "next_action": "",
+   "manufacturer": "Neste Corporation",
+   "distributor": "",
+   "issuer": "Neste Corporation"
+  },
+  "d6a2a018c983": {
+   "doc_type": "certificate of analysis (buyer-issued)",
+   "supplier": "Neste Corporation",
+   "products": [
+    "NESTE:NEXBASE_3080"
+   ],
+   "roles": {
+    "NESTE:NEXBASE_3080": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (buyer code NT502 = NEXBASE 3080, batch, test results)",
+   "note": "'Product: NT502 (NEXBASE 3080) Batch No: B201368 Date: 26 Jul 2020 PL NO: 253-10917/1222'; buyer code NT502 printed with NEXBASE 3080 in parentheses; 2pp",
+   "next_action": "",
+   "manufacturer": "Neste Corporation",
+   "distributor": "",
+   "issuer": "Neste Corporation"
+  },
+  "ab4aa0463c07": {
+   "doc_type": "SDS",
+   "supplier": "Neste Corporation",
+   "products": [
+    "NESTE:NEXBASE_3080"
+   ],
+   "roles": {
+    "NESTE:NEXBASE_3080": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product identifier, REACH format, revision date)",
+   "note": "dupOLD; 'Revision date: 03/07/2020 Supersedes date: 17/10/2017'; 9pp",
+   "next_action": "",
+   "manufacturer": "Neste Corporation",
+   "distributor": "",
+   "issuer": "Neste Corporation"
+  },
+  "bb9d7a7f42aa": {
+   "doc_type": "SDS",
+   "supplier": "Neste Corporation",
+   "products": [
+    "NESTE:NEXBASE_3020"
+   ],
+   "roles": {
+    "NESTE:NEXBASE_3020": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product identifier, REACH format, revision date)",
+   "note": "dupOLD; 'Revision date: 16/06/2020 Supersedes date: 25/03/2020'; 106pp (probable multi-language SDS compilation)",
+   "next_action": "",
+   "manufacturer": "Neste Corporation",
+   "distributor": "",
+   "issuer": "Neste Corporation"
+  },
+  "8e4f510998d7": {
+   "doc_type": "SDS",
+   "supplier": "Neste Corporation",
+   "products": [
+    "NESTE:NEXBASE_3020"
+   ],
+   "roles": {
+    "NESTE:NEXBASE_3020": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product identifier, REACH format, revision date)",
+   "note": "dupOLD; 'Revision date: 16/06/2020 Supersedes date: 25/03/2020'; 9pp (single-language SDS)",
+   "next_action": "",
+   "manufacturer": "Neste Corporation",
+   "distributor": "",
+   "issuer": "Neste Corporation"
+  },
+  "930032fd2a0c": {
+   "doc_type": "product brochure (PAO range)",
+   "supplier": "Neste Corporation",
+   "products": [
+    "NESTE:NEXBASE_TM_2000"
+   ],
+   "roles": {
+    "NESTE:NEXBASE_TM_2000": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product family name, Fortum company overview)",
+   "note": "'NEXBASE TM 2000 Polyalphaolefins'; Fortum-era brochure; 'Fortum Base Oils is a part of the Finnish energy group Fortum'; 8pp; Fortum's base oil business subsequently became part of Neste; PAO facility in Beringen, Belgium; product grade not stated on page 1",
+   "next_action": "",
+   "manufacturer": "Neste Corporation",
+   "distributor": "",
+   "issuer": "Fortum Corporation / Neste Corporation (Fortum-era document)"
+  },
+  "b66289efbdfd": {
+   "doc_type": "SDS",
+   "supplier": "Neste Corporation",
+   "products": [
+    "NESTE:NEXBASE_3043"
+   ],
+   "roles": {
+    "NESTE:NEXBASE_3043": "subject"
+   },
+   "relation": "product",
+   "read": "page-1 text (product identifier, REACH format, revision date)",
+   "note": "dupOLD; 'Revision date: 28/10/2021 Supersedes date: 17/08/2021'; 153pp (multi-language SDS compilation)",
+   "next_action": "",
+   "manufacturer": "Neste Corporation",
+   "distributor": "",
+   "issuer": "Neste Corporation"
+  }
+ }
+}

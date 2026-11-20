@@ -15,7 +15,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 PKG = os.path.dirname(HERE)
 ROOT = os.path.dirname(PKG)
 INV = os.path.join(ROOT, 'incoming_dataset_review_2026-11-12')
-ZIP = r'C:\Users\windo\OneDrive\Desktop\Smart formulator project\Downloaded lubricants sheets.zip'
+ZIP = os.path.join(ROOT, 'Downloaded lubricants sheets.zip')
 OUT = os.path.join(PKG, '_cache', 'ocr')
 DPI = 150
 
