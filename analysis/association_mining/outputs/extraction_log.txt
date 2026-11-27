@@ -1,0 +1,23 @@
+Extraction completed in 0.4s
+Input:  C:\Users\User\FYP\Smart-formulator-project\Products_json
+Output: C:\Users\User\FYP\Smart-formulator-project\analysis\association_mining\outputs
+
+base_oil rows:      181
+additive_pkg rows:  78
+treat_rate rows:    242
+
+--- Base oil column count ---
+  96 columns per row (sample: first row)
+
+--- Additive package column count ---
+  116 columns per row (sample: first row)
+
+--- Base oil coverage (non-null point values) ---
+  kv40:    166/181
+  vi:      113/181
+  density: 86/181
+
+--- Additive package coverage (non-null point values) ---
+  tbn:               55/78
+  ca:                57/78
+  has treat-rate:    72/78
